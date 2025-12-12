@@ -1,0 +1,101 @@
+{
+  "nome": "Cloreto de Potássio",
+  "classe": "Eletrólitos Críticos",
+  "apresentacao": "Frasco-ampola 19,1% (2mEq/mL)",
+  "marca": "10mL = 20mEq",
+  "preparo": [
+    {
+      "nome": "Diluir 20–40mEq em 100–250mL SF ou SG 5%",
+      "observacao": "Concentração segura: máx 40mEq/L em periférico"
+    },
+    {
+      "nome": "Infundir com bomba controlada, monitorar ritmo cardíaco",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mEq/h",
+    "doseMin": 5,
+    "doseMax": 20,
+    "opcoesConcentracoes": {
+      "20mEq/100mL (0,2mEq/mL)": 200,
+      "40mEq/250mL (0,16mEq/mL)": 160
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Reposição de hipocalemia leve a moderada",
+        "dose": "20–40 mEq em 4–6h IV",
+        "unidade": "mEq"
+      },
+      {
+        "titulo": "Hipocalemia grave ou com arritmia",
+        "dose": "0,5–1 mEq/kg/dose IV lenta (monitorizada)",
+        "unidade": "mEq/kg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Reposição de hipocalemia leve a moderada",
+        "dose": "20–40 mEq em 4–6h IV",
+        "unidade": "mEq"
+      },
+      {
+        "titulo": "Hipocalemia grave ou com arritmia",
+        "dose": "0,5–1 mEq/kg/dose IV lenta (monitorizada)",
+        "unidade": "mEq/kg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Reposição de hipocalemia leve a moderada",
+        "dose": "20–40 mEq em 4–6h IV",
+        "unidade": "mEq"
+      },
+      {
+        "titulo": "Hipocalemia grave ou com arritmia",
+        "dose": "0,5–1 mEq/kg/dose IV lenta (monitorizada)",
+        "unidade": "mEq/kg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Reposição de hipocalemia leve a moderada",
+        "dose": "20–40 mEq em 4–6h IV",
+        "unidade": "mEq"
+      },
+      {
+        "titulo": "Hipocalemia grave ou com arritmia",
+        "dose": "0,5–1 mEq/kg/dose IV lenta (monitorizada)",
+        "unidade": "mEq/kg"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Reposição de hipocalemia leve a moderada",
+        "dose": "20–40 mEq em 4–6h IV",
+        "unidade": "mEq"
+      },
+      {
+        "titulo": "Hipocalemia grave ou com arritmia",
+        "dose": "0,5–1 mEq/kg/dose IV lenta (monitorizada)",
+        "unidade": "mEq/kg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Corrigir hipomagnesemia antes da reposição se refratária.",
+    "Infusão periférica: máx 10 mEq/h. Central: até 20 mEq/h com ECG contínuo.",
+    "Risco de parada cardíaca se infundido rápido ou não diluído.",
+    "Uso exclusivo EV. Nunca IM ou SC.",
+    "Monitorar potássio e função renal durante a terapia."
+  ]
+}

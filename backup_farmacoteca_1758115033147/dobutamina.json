@@ -1,0 +1,225 @@
+{
+  "dobutamina": {
+    "nome": "Dobutamina",
+    "idBulario": "dobutamina",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 250 mg/20 mL",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Frasco-ampola 250 mg/50 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "250 mg em 250 mL SF",
+        "observacao": "1 mg/mL"
+      },
+      {
+        "nome": "500 mg em 250 mL SF",
+        "observacao": "2 mg/mL"
+      },
+      {
+        "nome": "1000 mg em 250 mL SF",
+        "observacao": "4 mg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Choque cardiogênico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "2,5–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Choque cardiogênico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "2,5–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Suporte inotrópico",
+          "descricaoDose": "2,5–15 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Choque cardiogênico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "2,5–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Suporte inotrópico",
+          "descricaoDose": "2,5–15 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Teste de estresse",
+          "descricaoDose": "5–40 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 40,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Choque cardiogênico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "2,5–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Suporte inotrópico",
+          "descricaoDose": "2,5–15 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Teste de estresse",
+          "descricaoDose": "5–40 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 40,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Choque cardiogênico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "2,5–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Suporte inotrópico",
+          "descricaoDose": "2,5–15 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Teste de estresse",
+          "descricaoDose": "5–40 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 40,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Choque cardiogênico",
+          "descricaoDose": "2,5–15 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "2,5–7,5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 7.5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Suporte inotrópico",
+          "descricaoDose": "2,5–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Teste de estresse",
+          "descricaoDose": "5–30 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 30,
+          "unidade": "mcg/kg/min"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para suporte hemodinâmico em recém-nascidos com cardiopatia congênita. Monitorização rigorosa da função cardíaca necessária.",
+      "lactente": "Suporte inotrópico em lactentes com cardiopatia congênita é prática estabelecida, porém não consta em bula para todas as indicações.",
+      "crianca": "Uso para suporte hemodinâmico em crianças com cardiopatia é off-label mas amplamente utilizado na prática clínica pediátrica.",
+      "adolescente": "Suporte inotrópico para insuficiência cardíaca em adolescentes é fora da bula, mas respaldado por evidências clínicas.",
+      "adulto": "Uso para suporte hemodinâmico em situações críticas é off-label mas prática estabelecida em unidades de terapia intensiva.",
+      "idoso": "Em idosos, doses reduzidas são necessárias devido à maior sensibilidade cardiovascular. Suporte inotrópico é off-label mas seguro com monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "250 mg/250 mL (1 mg/mL)": 1,
+        "500 mg/250 mL (2 mg/mL)": 2,
+        "1000 mg/250 mL (4 mg/mL)": 4
+      },
+      "unidade": "mcg/kg/min",
+      "doseMin": 2.5,
+      "doseMax": 40
+    },
+    "observacoes": [
+      "Inotrópico positivo de ação rápida.",
+      "Aumenta contratilidade cardíaca sem aumentar significativamente a frequência cardíaca.",
+      "Monitorar pressão arterial e frequência cardíaca constantemente.",
+      "Risco de arritmias em altas doses.",
+      "Usar com cautela em pacientes com estenose aórtica.",
+      "Pode causar hipotensão em pacientes hipovolêmicos.",
+      "Interage com outros inotrópicos e vasopressores."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por COMT.",
+      "Excreção renal de metabólitos inativos.",
+      "Meia-vida curta (2-3 minutos).",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações medicamentosas com beta-bloqueadores e inibidores da MAO."
+    ]
+  }
+}

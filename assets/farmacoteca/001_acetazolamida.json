@@ -1,0 +1,140 @@
+{
+  "acetazolamida": {
+    "nome": "Acetazolamida",
+    "idBulario": "acetazolamida",
+    "classe": "Emergência Oftalmológica",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 500 mg/5 mL",
+        "concentracao": "100 mg/mL",
+        "via": "IV/IM",
+        "observacao": "uso IV/IM, concentração 100 mg/mL"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "Via IV direta",
+        "descricao": "500 mg puro (1 ampola)",
+        "observacao": "administrar lentamente (2-3 min)"
+      },
+      {
+        "nome": "Diluição IV",
+        "descricao": "500 mg em 9 mL SF = 50 mg/mL",
+        "observacao": "administrar em 2-3 min"
+      },
+      {
+        "nome": "Diluição IV (dose menor)",
+        "descricao": "250 mg em 4,5 mL SF = 50 mg/mL",
+        "observacao": "administrar em 2-3 min"
+      },
+      {
+        "nome": "Via IM",
+        "descricao": "500 mg puro",
+        "observacao": "dose única, via profunda no glúteo"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Emergências oftalmológicas",
+          "descricaoDose": "5-10 mg/kg IV, dose única",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 10.0,
+          "unidade": "mg/kg",
+          "indicacoes": [
+            "Glaucoma congênito agudo",
+            "Crise de glaucoma congênito",
+            "Hipertensão intraocular severa",
+            "Edema macular cistoide"
+          ]
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Emergências oftalmológicas",
+          "descricaoDose": "5-10 mg/kg IV, dose única",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 10.0,
+          "unidade": "mg/kg",
+          "indicacoes": [
+            "Glaucoma congênito agudo",
+            "Crise de glaucoma congênito",
+            "Hipertensão intraocular severa",
+            "Edema macular cistoide"
+          ]
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Emergências oftalmológicas",
+          "descricaoDose": "5-10 mg/kg IV, dose única",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 10.0,
+          "unidade": "mg/kg",
+          "indicacoes": [
+            "Glaucoma agudo de ângulo fechado",
+            "Crise de glaucoma agudo",
+            "Glaucoma congênito",
+            "Hipertensão intraocular severa",
+            "Edema macular cistoide",
+            "Glaucoma secundário"
+          ]
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Emergências oftalmológicas",
+          "descricaoDose": "5-10 mg/kg IV, dose única",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 10.0,
+          "unidade": "mg/kg",
+          "indicacoes": [
+            "Glaucoma agudo de ângulo fechado",
+            "Crise de glaucoma agudo",
+            "Glaucoma de ângulo fechado",
+            "Hipertensão intraocular severa",
+            "Edema macular cistoide",
+            "Glaucoma secundário"
+          ]
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Emergências oftalmológicas",
+          "descricaoDose": "250-500 mg IV, dose única",
+          "doseMinima": 250.0,
+          "doseMaxima": 500.0,
+          "unidade": "mg",
+          "indicacoes": [
+            "Glaucoma agudo de ângulo fechado",
+            "Crise de glaucoma agudo",
+            "Glaucoma de ângulo fechado",
+            "Glaucoma secundário",
+            "Hipertensão intraocular severa",
+            "Edema macular cistoide",
+            "Glaucoma neovascular",
+            "Glaucoma pós-cirúrgico"
+          ]
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Emergências oftalmológicas",
+          "descricaoDose": "250-500 mg IV, dose única",
+          "doseMinima": 250.0,
+          "doseMaxima": 500.0,
+          "unidade": "mg",
+          "indicacoes": [
+            "Glaucoma agudo de ângulo fechado",
+            "Crise de glaucoma agudo",
+            "Glaucoma de ângulo fechado",
+            "Glaucoma secundário",
+            "Hipertensão intraocular severa",
+            "Edema macular cistoide",
+            "Glaucoma neovascular"
+          ]
+        }
+      ]
+    }
+  }
+}

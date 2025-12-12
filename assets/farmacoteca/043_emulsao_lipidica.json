@@ -1,0 +1,105 @@
+{
+  "nome": "Emulsão Lipídica",
+  "classe": "Solução de Expansão",
+  "apresentacao": "Frascos 100mL, 250mL, 500mL e 1000mL (20% ou 10%)",
+  "marca": "Intralipid®, Lipofundin®",
+  "preparo": [
+    {
+      "nome": "Pronta para uso - não necessita diluição",
+      "observacao": ""
+    },
+    {
+      "nome": "Utilizar técnica asséptica na conexão",
+      "observacao": ""
+    },
+    {
+      "nome": "Compatível com bombas de infusão",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mL/kg/h",
+    "doseMin": 0.5,
+    "doseMax": 2.0,
+    "opcoesConcentracoes": {
+      "Emulsão 20% (2 kcal/mL)": 2.0,
+      "Emulsão 10% (1 kcal/mL)": 1.0
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Nutrição parenteral",
+        "dose": "0,5–2 mL/kg/h IV contínuo",
+        "unidade": "mL/kg/h"
+      },
+      {
+        "titulo": "Intoxicação por anestésicos locais",
+        "dose": "1,5 mL/kg IV em bolus",
+        "unidade": "mL/kg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Nutrição parenteral",
+        "dose": "0,5–2 mL/kg/h IV contínuo",
+        "unidade": "mL/kg/h"
+      },
+      {
+        "titulo": "Intoxicação por anestésicos locais",
+        "dose": "1,5 mL/kg IV em bolus",
+        "unidade": "mL/kg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Nutrição parenteral",
+        "dose": "0,5–2 mL/kg/h IV contínuo",
+        "unidade": "mL/kg/h"
+      },
+      {
+        "titulo": "Intoxicação por anestésicos locais",
+        "dose": "1,5 mL/kg IV em bolus",
+        "unidade": "mL/kg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Nutrição parenteral",
+        "dose": "0,5–2 mL/kg/h IV contínuo",
+        "unidade": "mL/kg/h"
+      },
+      {
+        "titulo": "Intoxicação por anestésicos locais",
+        "dose": "1,5 mL/kg IV em bolus",
+        "unidade": "mL/kg"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Nutrição parenteral",
+        "dose": "0,5–2 mL/kg/h IV contínuo",
+        "unidade": "mL/kg/h"
+      },
+      {
+        "titulo": "Intoxicação por anestésicos locais",
+        "dose": "1,5 mL/kg IV em bolus",
+        "unidade": "mL/kg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Fonte de calorias e ácidos graxos essenciais.",
+    "Emulsão 20% fornece 2 kcal/mL, 10% fornece 1 kcal/mL.",
+    "Antídoto para intoxicação por anestésicos locais.",
+    "Monitorar triglicerídeos e função hepática.",
+    "Contraindicada em hiperlipidemia e pancreatite."
+  ]
+}

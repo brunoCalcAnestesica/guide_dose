@@ -1,0 +1,22 @@
+# =========================================
+# Guide Dose - Configuração de Assinatura
+# =========================================
+#
+# INSTRUÇÕES:
+# 1. Copie este arquivo para "key.properties"
+# 2. Substitua os valores abaixo pelas suas credenciais
+# 3. NUNCA commite o arquivo "key.properties" no Git!
+#
+# Para criar o keystore, execute:
+# cd android
+# keytool -genkey -v -keystore upload-keystore.jks \
+#   -keyalg RSA -keysize 2048 -validity 10000 \
+#   -alias upload
+#
+# =========================================
+
+storePassword=SUA_SENHA_AQUI
+keyPassword=SUA_SENHA_AQUI
+keyAlias=upload
+storeFile=upload-keystore.jks
+

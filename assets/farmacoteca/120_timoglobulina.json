@@ -1,0 +1,122 @@
+{
+  "timoglobulina": {
+    "nome": "Timoglobulina",
+    "idBulario": "timoglobulina",
+    "classe": "Imunossupressor",
+    "apresentacoes": [
+      {
+        "nome": "Frasco-ampola 25 mg (pó liofilizado)",
+        "observacao": "reconstituir com SG 5%"
+      }
+    ],
+    "marca": "Thymoglobulin®, Genérico",
+    "preparo": [
+      {
+        "nome": "25 mg em 100 mL SG 5%",
+        "observacao": "0,25 mg/mL (infusão IV lenta)"
+      },
+      {
+        "nome": "Filtrar com filtro de 0,22 μm",
+        "observacao": "Infusão mínima de 4 horas"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [],
+      "lactente": [],
+      "crianca": [
+        {
+          "titulo": "Rejeição aguda de transplante renal",
+          "descricaoDose": "1,5 mg/kg/dia por 7–14 dias",
+          "dosePorKgMinima": 1.5,
+          "dosePorKgMaxima": 1.5,
+          "unidade": "mg/kg/dia"
+        },
+        {
+          "titulo": "Aplasia medular severa",
+          "descricaoDose": "3,5 mg/kg/dia por 5 dias",
+          "dosePorKgMinima": 3.5,
+          "dosePorKgMaxima": 3.5,
+          "unidade": "mg/kg/dia"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Rejeição aguda de transplante renal",
+          "descricaoDose": "1,5 mg/kg/dia por 7–14 dias",
+          "dosePorKgMinima": 1.5,
+          "dosePorKgMaxima": 1.5,
+          "unidade": "mg/kg/dia"
+        },
+        {
+          "titulo": "Aplasia medular severa",
+          "descricaoDose": "3,5 mg/kg/dia por 5 dias",
+          "dosePorKgMinima": 3.5,
+          "dosePorKgMaxima": 3.5,
+          "unidade": "mg/kg/dia"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Rejeição aguda de transplante renal",
+          "descricaoDose": "1,5 mg/kg/dia por 7–14 dias",
+          "dosePorKgMinima": 1.5,
+          "dosePorKgMaxima": 1.5,
+          "unidade": "mg/kg/dia"
+        },
+        {
+          "titulo": "Aplasia medular severa",
+          "descricaoDose": "3,5 mg/kg/dia por 5 dias",
+          "dosePorKgMinima": 3.5,
+          "dosePorKgMaxima": 3.5,
+          "unidade": "mg/kg/dia"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Rejeição aguda de transplante renal",
+          "descricaoDose": "1,5 mg/kg/dia por 7–14 dias",
+          "dosePorKgMinima": 1.5,
+          "dosePorKgMaxima": 1.5,
+          "unidade": "mg/kg/dia"
+        },
+        {
+          "titulo": "Aplasia medular severa",
+          "descricaoDose": "3,5 mg/kg/dia por 5 dias",
+          "dosePorKgMinima": 3.5,
+          "dosePorKgMaxima": 3.5,
+          "unidade": "mg/kg/dia"
+        }
+      ]
+    },
+    "infusao": {
+      "unidade": "mg/dia",
+      "doseMin": 1.5,
+      "doseMax": 3.5,
+      "opcoesConcentracoes": {
+        "0,25 mg/mL": 0.25
+      }
+    },
+    "off_label": {
+      "recem_nascido": "Uso limitado em recém-nascidos - considerar alternativas.",
+      "lactente": "Uso limitado em lactentes - considerar alternativas.",
+      "crianca": "Uso off-label em algumas condições específicas.",
+      "adolescente": "Uso off-label em algumas condições específicas.",
+      "adulto": "Uso off-label em algumas condições específicas.",
+      "idoso": "Em idosos, maior risco de infecções. Uso off-label mas seguro com monitorização adequada."
+    },
+    "observacoes": [
+      "Imunossupressor derivado de anticorpos policlonais contra linfócitos T.",
+      "Uso hospitalar. Pré-medicação obrigatória: antipirético, anti-histamínico e corticosteroide.",
+      "Administrar em infusão IV lenta, sempre com filtro de 0,22 μm.",
+      "Alto risco de reação infusional grave e leucopenia.",
+      "Monitorar função hepática, renal e contagem de linfócitos durante o tratamento."
+    ],
+    "metabolismo": [
+      "Metabolização hepática e renal.",
+      "Meia-vida de 2-3 dias.",
+      "Excreção renal de metabólitos.",
+      "Usar com cautela em disfunção hepática ou renal grave.",
+      "Interações medicamentosas com outros imunossupressores."
+    ]
+  }
+}

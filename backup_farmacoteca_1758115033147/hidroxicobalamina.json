@@ -1,0 +1,75 @@
+{
+  "nome": "Hidroxicobalamina",
+  "classe": "Reversor/Antídoto",
+  "apresentacao": "Ampola 1g/10mL (100mg/mL)",
+  "marca": "Cyanokit®, genéricos",
+  "preparo": [
+    {
+      "nome": "Diluir em 100mL SF 0,9% para infusão lenta",
+      "observacao": ""
+    },
+    {
+      "nome": "Infundir em 15–30 minutos",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "g/h",
+    "doseMin": 0.5,
+    "doseMax": 2.0,
+    "opcoesConcentracoes": {
+      "100mg/mL": 100
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "70mg/kg IV inicial",
+        "unidade": "mg/kg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "70mg/kg IV inicial",
+        "unidade": "mg/kg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "70mg/kg IV inicial",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "5g IV inicial, repetir 5g se necessário",
+        "unidade": "g"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "5g IV inicial, repetir 5g se necessário",
+        "unidade": "g"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Antídoto específico para intoxicação por cianeto.",
+    "Ação: forma complexo estável com cianeto.",
+    "Dose pediátrica: 70mg/kg IV inicial.",
+    "Dose adulta: 5g IV inicial, repetir se necessário.",
+    "Pode causar urina vermelha (normal)."
+  ]
+}

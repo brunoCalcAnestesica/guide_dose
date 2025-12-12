@@ -1,0 +1,80 @@
+{
+  "nome": "Furosemida",
+  "classe": "Diuréticos",
+  "apresentacao": "Ampola 20mg/2mL (10mg/mL)",
+  "marca": "Lasix®, genéricos",
+  "preparo": [
+    {
+      "nome": "IV direto, IM ou infusão (1mg/mL)",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mg/kg/h",
+    "doseMin": 0.1,
+    "doseMax": 0.4,
+    "opcoesConcentracoes": {
+      "250mg/250mL (1mg/mL)": 1.0,
+      "125mg/250mL (0,5mg/mL)": 0.5
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Edema pediátrico",
+        "dose": "0,5–2 mg/kg/dose IV/VO cada 12–24h",
+        "unidade": "mg/kg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Edema pediátrico",
+        "dose": "0,5–2 mg/kg/dose IV/VO cada 12–24h",
+        "unidade": "mg/kg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Edema pediátrico",
+        "dose": "0,5–2 mg/kg/dose IV/VO cada 12–24h",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Edema pediátrico",
+        "dose": "0,5–2 mg/kg/dose IV/VO cada 12–24h",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Edema agudo / ICC",
+        "dose": "20–80 mg IV (máx 200mg/dose)",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "IRC / Síndrome nefrótica",
+        "dose": "40–120 mg/dia",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Infusão contínua",
+        "dose": "0,1–0,4 mg/kg/h",
+        "unidade": "mg/kg/h"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Diurético de alça de rápida ação.",
+    "Pode exigir altas doses na IRC.",
+    "Monitorar eletrólitos, volemia e função renal."
+  ]
+}

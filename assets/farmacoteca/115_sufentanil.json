@@ -1,0 +1,104 @@
+{
+  "sufentanil": {
+    "nome": "Sufentanil",
+    "idBulario": "sufentanil",
+    "classe": "Opioide",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 50 mcg/mL (1 mL)",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Ampola 50 mcg/mL (2 mL)",
+        "observacao": "uso IV"
+      }
+    ],
+    "marca": "Sufenta®, Sufentanil Cristália",
+    "preparo": [
+      {
+        "nome": "Pode ser usado IV direto em bolus ou infusão contínua",
+        "observacao": ""
+      },
+      {
+        "nome": "Diluir 100 mcg em 50 mL SF 0,9%",
+        "observacao": "2 mcg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [],
+      "lactente": [],
+      "crianca": [],
+      "adolescente": [],
+      "adulto": [
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "0,2–0,6 mcg/kg IV lenta",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.6,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Manutenção anestésica / alta dor",
+          "descricaoDose": "0,1–0,4 mcg/kg/h em infusão contínua",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.4,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação em UTI (off-label)",
+          "descricaoDose": "0,05–0,2 mcg/kg/h em bomba contínua",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mcg/kg/h"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "0,1–0,4 mcg/kg IV lenta",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.4,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Manutenção anestésica / alta dor",
+          "descricaoDose": "0,05–0,2 mcg/kg/h em infusão contínua",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mcg/kg/h"
+        }
+      ]
+    },
+    "infusao": {
+      "unidade": "mcg/kg/h",
+      "doseMin": 0.05,
+      "doseMax": 0.4,
+      "opcoesConcentracoes": {
+        "100 mcg/50 mL (2 mcg/mL)": 2,
+        "250 mcg/50 mL (5 mcg/mL)": 5
+      }
+    },
+    "off_label": {
+      "recem_nascido": "Uso limitado em recém-nascidos - considerar alternativas.",
+      "lactente": "Uso limitado em lactentes - considerar alternativas.",
+      "crianca": "Uso limitado em crianças - considerar alternativas.",
+      "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+      "adulto": "Uso off-label em algumas condições específicas.",
+      "idoso": "Em idosos, doses reduzidas são necessárias devido ao metabolismo alterado."
+    },
+    "observacoes": [
+      "Opioide μ agonista — potência ~10x maior que o fentanil.",
+      "Início rápido (1–3 min) e meia-vida curta (~30 min).",
+      "Controle hemodinâmico excelente em anestesia balanceada.",
+      "Pode causar rigidez torácica — administrar lentamente.",
+      "Monitorar sedação, FR e acúmulo em infusão prolongada."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por CYP3A4.",
+      "Excreção renal de metabólitos ativos.",
+      "Meia-vida de 30-60 minutos.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações medicamentosas importantes com inibidores/indutores do CYP3A4."
+    ]
+  }
+}

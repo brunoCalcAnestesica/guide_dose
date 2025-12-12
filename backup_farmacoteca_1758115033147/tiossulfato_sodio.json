@@ -1,0 +1,75 @@
+{
+  "nome": "Tiossulfato de Sódio",
+  "classe": "Reversor/Antídoto",
+  "apresentacao": "Ampola 250mg/mL (10mL = 2,5g)",
+  "marca": "Tiossulfato®, genéricos",
+  "preparo": [
+    {
+      "nome": "Diluir em 50–100mL SF 0,9% para infusão lenta",
+      "observacao": ""
+    },
+    {
+      "nome": "Infundir em 10–15 minutos",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "g/h",
+    "doseMin": 1.0,
+    "doseMax": 5.0,
+    "opcoesConcentracoes": {
+      "250mg/mL": 250
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "400mg/kg IV inicial",
+        "unidade": "mg/kg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "400mg/kg IV inicial",
+        "unidade": "mg/kg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "400mg/kg IV inicial",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "12,5g IV inicial",
+        "unidade": "g"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Intoxicação por cianeto",
+        "dose": "12,5g IV inicial",
+        "unidade": "g"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Antídoto para intoxicação por cianeto.",
+    "Ação: converte cianeto em tiocianato (menos tóxico).",
+    "Dose pediátrica: 400mg/kg IV inicial.",
+    "Dose adulta: 12,5g IV inicial.",
+    "Usar em combinação com hidroxicobalamina."
+  ]
+}

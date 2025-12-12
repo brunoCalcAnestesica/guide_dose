@@ -1,0 +1,226 @@
+{
+  "dexmedetomidina": {
+    "nome": "Dexmedetomidina",
+    "idBulario": "dexmedetomidina",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 100 mcg/mL - 2 mL",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Ampola 200 mcg/2 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "200 mcg em 48 mL SF 0,9%",
+        "observacao": "4 mcg/mL"
+      },
+      {
+        "nome": "400 mcg em 96 mL SF 0,9%",
+        "observacao": "4 mcg/mL"
+      },
+      {
+        "nome": "800 mcg em 192 mL SF 0,9%",
+        "observacao": "4 mcg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Sedação em UTI neonatal",
+          "descricaoDose": "0,1–0,5 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,2–0,7 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.7,
+          "unidade": "mcg/kg/h"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Sedação em UTI pediátrica",
+          "descricaoDose": "0,2–0,7 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.7,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,3–1 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação pós-operatória",
+          "descricaoDose": "0,2–0,5 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/h"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Sedação em UTI pediátrica",
+          "descricaoDose": "0,2–0,7 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.7,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,3–1 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação pós-operatória",
+          "descricaoDose": "0,2–0,5 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "0,5–1 mcg/kg IV em 10 min",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Sedação em UTI",
+          "descricaoDose": "0,2–0,7 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.7,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,3–1 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação pós-operatória",
+          "descricaoDose": "0,2–0,5 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "0,5–1 mcg/kg IV em 10 min",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Sedação em UTI",
+          "descricaoDose": "0,2–0,7 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.7,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,3–1 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação pós-operatória",
+          "descricaoDose": "0,2–0,5 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "0,5–1 mcg/kg IV em 10 min",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Sedação em UTI",
+          "descricaoDose": "0,1–0,5 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,2–0,7 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.7,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação pós-operatória",
+          "descricaoDose": "0,1–0,4 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.4,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "0,3–0,7 mcg/kg IV em 10 min",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.7,
+          "unidade": "mcg/kg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para sedação em UTI neonatal. Monitorização rigorosa da função respiratória e cardiovascular necessária.",
+      "lactente": "Sedação em UTI pediátrica é off-label mas utilizada na prática clínica para sedação consciente e analgesia.",
+      "crianca": "Uso para sedação em procedimentos é off-label mas prática estabelecida. Efeitos sedativos e analgésicos bem documentados.",
+      "adolescente": "Sedação para procedimentos em adolescentes é off-label, porém respaldada por evidências clínicas de segurança e eficácia.",
+      "adulto": "Uso para sedação em procedimentos é off-label mas prática estabelecida. Efeitos sedativos, analgésicos e ansiolíticos bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos sedativos. Sedação é off-label mas segura com doses reduzidas e monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "200 mcg/48 mL (4 mcg/mL)": 4,
+        "400 mcg/96 mL (4 mcg/mL)": 4,
+        "800 mcg/192 mL (4 mcg/mL)": 4
+      },
+      "unidade": "mcg/kg/h",
+      "doseMin": 0.1,
+      "doseMax": 1.0
+    },
+    "observacoes": [
+      "Agonista alfa-2 adrenérgico.",
+      "Sedação consciente com preservação da respiração espontânea.",
+      "Efeitos analgésicos e ansiolíticos.",
+      "Monitorar pressão arterial e frequência cardíaca.",
+      "Risco de bradicardia e hipotensão.",
+      "Pode causar sedação prolongada em altas doses.",
+      "Interage com outros sedativos e analgésicos.",
+      "Contraindicação em bloqueio AV de 2º e 3º grau."
+    ],
+    "metabolismo": [
+      "Metabolização hepática extensa por CYP2A6.",
+      "Meia-vida de 2 horas.",
+      "Excreção renal de metabólitos inativos.",
+      "Cuidado em disfunção hepática.",
+      "Interações com inibidores e indutores do CYP2A6."
+    ]
+  }
+}

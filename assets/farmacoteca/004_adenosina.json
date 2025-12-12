@@ -1,0 +1,121 @@
+{
+  "adenosina": {
+    "nome": "Adenosina",
+    "idBulario": "adenosina",
+    "classe": "Antiarritmico",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 6 mg/2 mL",
+        "concentracao": "3 mg/mL",
+        "via": "IV",
+        "observacao": "uso IV bolus rápido"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "Via IV proximal",
+        "descricao": "Aplicar em veia proximal (antecubital ou central)",
+        "observacao": "acesso venoso de qualidade"
+      },
+      {
+        "nome": "Flush imediato",
+        "descricao": "Seguir imediatamente com flush de 20 mL SF 0,9%",
+        "observacao": "administração rápida e flush obrigatório"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "TSVP Neonatal",
+          "descricaoDose": "0,05-0,1 mg/kg IV bolus",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.1,
+          "doseLimite": 0.2,
+          "unidade": "mg/kg",
+          "indicacoes": [
+            "Taquicardia supraventricular paroxística",
+            "TSVP refratária a manobras vagais",
+            "Arritmia supraventricular neonatal"
+          ]
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "TSVP Pediátrico",
+          "descricaoDose": "0,1 mg/kg IV bolus, repetir 0,2 mg/kg se necessário",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.2,
+          "doseLimite": 0.3,
+          "unidade": "mg/kg",
+          "indicacoes": [
+            "Taquicardia supraventricular paroxística",
+            "TSVP refratária a manobras vagais",
+            "Arritmia supraventricular pediátrica"
+          ]
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "TSVP Pediátrico",
+          "descricaoDose": "0,1 mg/kg IV bolus, repetir 0,2 mg/kg se necessário",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.2,
+          "doseLimite": 0.3,
+          "unidade": "mg/kg",
+          "indicacoes": [
+            "Taquicardia supraventricular paroxística",
+            "TSVP refratária a manobras vagais",
+            "Arritmia supraventricular pediátrica"
+          ]
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "TSVP Pediátrico",
+          "descricaoDose": "0,1 mg/kg IV bolus, repetir 0,2 mg/kg se necessário",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.2,
+          "doseLimite": 0.3,
+          "unidade": "mg/kg",
+          "indicacoes": [
+            "Taquicardia supraventricular paroxística",
+            "TSVP refratária a manobras vagais",
+            "Arritmia supraventricular pediátrica"
+          ]
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "TSVP Adulto",
+          "descricaoDose": "6 mg IV bolus, repetir 12 mg se necessário",
+          "doseMinima": 6.0,
+          "doseMaxima": 12.0,
+          "doseLimite": 18.0,
+          "unidade": "mg",
+          "indicacoes": [
+            "Taquicardia supraventricular paroxística",
+            "TSVP refratária a manobras vagais",
+            "Arritmia supraventricular",
+            "Taquicardia por reentrada"
+          ]
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "TSVP Adulto",
+          "descricaoDose": "6 mg IV bolus, repetir 12 mg se necessário",
+          "doseMinima": 6.0,
+          "doseMaxima": 12.0,
+          "doseLimite": 18.0,
+          "unidade": "mg",
+          "indicacoes": [
+            "Taquicardia supraventricular paroxística",
+            "TSVP refratária a manobras vagais",
+            "Arritmia supraventricular",
+            "Taquicardia por reentrada"
+          ]
+        }
+      ]
+    }
+  }
+}

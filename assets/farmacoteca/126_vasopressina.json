@@ -1,0 +1,225 @@
+{
+  "vasopressina": {
+    "nome": "Vasopressina",
+    "idBulario": "vasopressina",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 20 UI/mL - 1 mL",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Ampola 20 UI/mL - 0,5 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "40 UI em 200 mL SG 5%",
+        "observacao": "0,2 UI/mL"
+      },
+      {
+        "nome": "20 UI em 200 mL SG 5%",
+        "observacao": "0,1 UI/mL"
+      },
+      {
+        "nome": "80 UI em 200 mL SG 5%",
+        "observacao": "0,4 UI/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,005–0,03 UI/min IV infusão",
+          "doseMinima": 0.005,
+          "doseMaxima": 0.03,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,01–0,02 UI/min IV infusão",
+          "doseMinima": 0.01,
+          "doseMaxima": 0.02,
+          "unidade": "UI/min"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,005–0,03 UI/min IV infusão",
+          "doseMinima": 0.005,
+          "doseMaxima": 0.03,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,01–0,02 UI/min IV infusão",
+          "doseMinima": 0.01,
+          "doseMaxima": 0.02,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,04–0,07 UI/min IV infusão",
+          "doseMinima": 0.04,
+          "doseMaxima": 0.07,
+          "unidade": "UI/min"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,005–0,03 UI/min IV infusão",
+          "doseMinima": 0.005,
+          "doseMaxima": 0.03,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,01–0,02 UI/min IV infusão",
+          "doseMinima": 0.01,
+          "doseMaxima": 0.02,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,04–0,07 UI/min IV infusão",
+          "doseMinima": 0.04,
+          "doseMaxima": 0.07,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "0,01–0,05 UI/min IV infusão",
+          "doseMinima": 0.01,
+          "doseMaxima": 0.05,
+          "unidade": "UI/min"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,005–0,03 UI/min IV infusão",
+          "doseMinima": 0.005,
+          "doseMaxima": 0.03,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,01–0,02 UI/min IV infusão",
+          "doseMinima": 0.01,
+          "doseMaxima": 0.02,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,04–0,07 UI/min IV infusão",
+          "doseMinima": 0.04,
+          "doseMaxima": 0.07,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "0,01–0,05 UI/min IV infusão",
+          "doseMinima": 0.01,
+          "doseMaxima": 0.05,
+          "unidade": "UI/min"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,005–0,03 UI/min IV infusão",
+          "doseMinima": 0.005,
+          "doseMaxima": 0.03,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,01–0,02 UI/min IV infusão",
+          "doseMinima": 0.01,
+          "doseMaxima": 0.02,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,04–0,07 UI/min IV infusão",
+          "doseMinima": 0.04,
+          "doseMaxima": 0.07,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "0,01–0,05 UI/min IV infusão",
+          "doseMinima": 0.01,
+          "doseMaxima": 0.05,
+          "unidade": "UI/min"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,003–0,02 UI/min IV infusão",
+          "doseMinima": 0.003,
+          "doseMaxima": 0.02,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,008–0,015 UI/min IV infusão",
+          "doseMinima": 0.008,
+          "doseMaxima": 0.015,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,03–0,05 UI/min IV infusão",
+          "doseMinima": 0.03,
+          "doseMaxima": 0.05,
+          "unidade": "UI/min"
+        },
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "0,008–0,04 UI/min IV infusão",
+          "doseMinima": 0.008,
+          "doseMaxima": 0.04,
+          "unidade": "UI/min"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para choque séptico em recém-nascidos. Monitorização rigorosa da função cardiovascular e perfusão periférica necessária.",
+      "lactente": "Suporte vasopressor em lactentes é off-label mas utilizado na prática clínica pediátrica para choque séptico e hipotensão refratária.",
+      "crianca": "Uso para suporte hemodinâmico em crianças é off-label mas prática estabelecida. Efeitos vasoconstritores bem documentados.",
+      "adolescente": "Suporte vasopressor para choque séptico em adolescentes é off-label, porém respaldado por diretrizes clínicas em terapia intensiva.",
+      "adulto": "Uso para suporte hemodinâmico é off-label mas prática estabelecida. Efeitos vasoconstritores bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos vasoconstritores. Suporte hemodinâmico é off-label mas seguro com doses reduzidas e monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "20 UI/200 mL (0,1 UI/mL)": 0.1,
+        "40 UI/200 mL (0,2 UI/mL)": 0.2,
+        "80 UI/200 mL (0,4 UI/mL)": 0.4
+      },
+      "unidade": "UI/min",
+      "doseMin": 0.003,
+      "doseMax": 0.07
+    },
+    "observacoes": [
+      "Vasopressor não-adrenérgico.",
+      "Efeito vasoconstrictor periférico direto.",
+      "Monitorar pressão arterial e perfusão periférica constantemente.",
+      "Risco de isquemia periférica e necrose tecidual.",
+      "Usar com cautela em pacientes com doença vascular periférica.",
+      "Pode causar bradicardia e arritmias.",
+      "Interage com outros vasopressores."
+    ],
+    "metabolismo": [
+      "Metabolização hepática e renal.",
+      "Meia-vida de 10-20 minutos.",
+      "Excreção renal de metabólitos inativos.",
+      "Usar com cautela em disfunção hepática ou renal grave.",
+      "Interações com outros vasopressores e anestésicos."
+    ]
+  }
+}

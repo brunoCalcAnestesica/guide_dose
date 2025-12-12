@@ -1,0 +1,110 @@
+{
+  "nome": "Propofol",
+  "classe": "Indutor Anestésico",
+  "apresentacao": "Ampola 200mg/20mL (1%)",
+  "marca": "Diprivan®, Propoven®",
+  "preparo": [
+    {
+      "nome": "Uso direto, não diluir",
+      "observacao": "Agitar antes de usar – emulsão oleosa"
+    },
+    {
+      "nome": "Descartar após 6h do preparo",
+      "observacao": "Risco de contaminação"
+    }
+  ],
+  "infusao": {
+    "unidade": "mg/kg/h",
+    "doseMin": 0.5,
+    "doseMax": 4.0,
+    "opcoesConcentracoes": {
+      "1% (10mg/mL)": 10000
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Indução anestésica",
+        "dose": "2,5–3,5 mg/kg IV",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação contínua",
+        "dose": "1–4 mg/kg/h IV contínua",
+        "unidade": "mg/kg/h"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Indução anestésica",
+        "dose": "2,5–3,5 mg/kg IV",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação contínua",
+        "dose": "1–4 mg/kg/h IV contínua",
+        "unidade": "mg/kg/h"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Indução anestésica",
+        "dose": "2,5–3,5 mg/kg IV",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação contínua",
+        "dose": "1–4 mg/kg/h IV contínua",
+        "unidade": "mg/kg/h"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Indução anestésica",
+        "dose": "1,5–2,5 mg/kg IV",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação em UTI",
+        "dose": "0,3–4 mg/kg/h IV contínua",
+        "unidade": "mg/kg/h"
+      },
+      {
+        "titulo": "Procedimento diagnóstico curto",
+        "dose": "0,5–1,5 mg/kg IV + manutenção",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Indução anestésica",
+        "dose": "1,5–2,5 mg/kg IV",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação em UTI",
+        "dose": "0,3–4 mg/kg/h IV contínua",
+        "unidade": "mg/kg/h"
+      },
+      {
+        "titulo": "Procedimento diagnóstico curto",
+        "dose": "0,5–1,5 mg/kg IV + manutenção",
+        "unidade": "mg/kg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Sedativo-hipnótico de ação ultrarrápida.",
+    "Pode causar hipotensão e depressão respiratória.",
+    "Evitar infusão prolongada em altas doses: risco de Síndrome de Infusão de Propofol.",
+    "Não possui efeito analgésico. Associar opioide se necessário.",
+    "Usar exclusivamente por via intravenosa."
+  ]
+}

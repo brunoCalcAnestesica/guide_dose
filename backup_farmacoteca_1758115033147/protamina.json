@@ -1,0 +1,75 @@
+{
+  "nome": "Protamina",
+  "classe": "Reversor/Antídoto",
+  "apresentacao": "Ampola 50mg/5mL (10mg/mL)",
+  "marca": "Protamina®, genéricos",
+  "preparo": [
+    {
+      "nome": "Diluir em 50mL SF 0,9% para infusão lenta",
+      "observacao": ""
+    },
+    {
+      "nome": "Infundir em 10–15 minutos",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mg/h",
+    "doseMin": 10,
+    "doseMax": 50,
+    "opcoesConcentracoes": {
+      "10mg/mL": 10
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Reversão de heparina",
+        "dose": "1mg para cada 100 UI de heparina",
+        "unidade": "mg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Reversão de heparina",
+        "dose": "1mg para cada 100 UI de heparina",
+        "unidade": "mg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Reversão de heparina",
+        "dose": "1mg para cada 100 UI de heparina",
+        "unidade": "mg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Reversão de heparina",
+        "dose": "1mg para cada 100 UI de heparina",
+        "unidade": "mg"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Reversão de heparina",
+        "dose": "1mg para cada 100 UI de heparina",
+        "unidade": "mg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Reversor específico da heparina.",
+    "Dose: 1mg protamina para cada 100 UI de heparina.",
+    "Infundir lentamente para evitar hipotensão.",
+    "Pode causar reações alérgicas em pacientes alérgicos a peixe.",
+    "Monitorar tempo de coagulação (TTPA)."
+  ]
+}

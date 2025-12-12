@@ -1,0 +1,67 @@
+{
+  "nome": "Bupivacaína",
+  "classe": "Anestésico Local",
+  "apresentacao": "Ampolas 0,25%, 0,5% e 0,75%",
+  "marca": "Neocaína®, Bupivacaína Cristália®",
+  "preparo": [
+    {
+      "nome": "Pronta para uso ou diluída em SF 0,9%",
+      "observacao": ""
+    },
+    {
+      "nome": "Volume e concentração dependem da técnica",
+      "observacao": ""
+    }
+  ],
+  "indicacoes": {
+    "neonato": [],
+    "lactente": [],
+    "crianca": [],
+    "adolescente": [],
+    "adulto": [
+      {
+        "titulo": "Peridural (cirurgia, obstetrícia)",
+        "dose": "1,5–2,5 mg/kg (máx 175mg/dose ou 400mg/24h)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Raquianestesia",
+        "dose": "7,5–15mg (hiperbárica 0,5%)",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Bloqueio periférico (plexo, fascial)",
+        "dose": "1–2 mg/kg (máx 175mg)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Infiltração cirúrgica (cateter)",
+        "dose": "0,25%–0,5%, infusão 5–8mL/h",
+        "unidade": "mg/h"
+      }
+    ]
+  },
+  "infusao": {
+    "unidade": "mg/h",
+    "doseMin": 12.5,
+    "doseMax": 40.0,
+    "opcoesConcentracoes": {
+      "0,25% (2,5mg/mL)": 2.5,
+      "0,5% (5mg/mL)": 5.0
+    }
+  },
+  "off_label": {
+    "neonato": "Uso limitado em neonatos - considerar alternativas.",
+    "lactente": "Uso limitado em lactentes - considerar alternativas.",
+    "crianca": "Uso limitado em crianças - considerar alternativas.",
+    "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Anestésico potente e longa duração (~4–8h).",
+    "Alta lipossolubilidade → risco maior de toxicidade cardiovascular.",
+    "Não exceder 3mg/kg por dia, cautela em gestantes.",
+    "Vasoconstritor: contraindicado em áreas terminais.",
+    "Intoxicação: tratar com emulsão lipídica intravenosa (Intralipid®)."
+  ]
+}

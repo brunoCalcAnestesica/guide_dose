@@ -1,0 +1,224 @@
+{
+  "clonidina": {
+    "nome": "Clonidina",
+    "idBulario": "clonidina",
+    "apresentacoes": [
+      {
+        "nome": "Comprimido 0,1 mg",
+        "observacao": "uso oral"
+      },
+      {
+        "nome": "Comprimido 0,2 mg",
+        "observacao": "uso oral"
+      },
+      {
+        "nome": "Comprimido 0,3 mg",
+        "observacao": "uso oral"
+      },
+      {
+        "nome": "Ampola 150 mcg/mL - 1 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "150 mcg em 49 mL SF 0,9%",
+        "observacao": "3 mcg/mL"
+      },
+      {
+        "nome": "300 mcg em 98 mL SF 0,9%",
+        "observacao": "3 mcg/mL"
+      },
+      {
+        "nome": "600 mcg em 196 mL SF 0,9%",
+        "observacao": "3 mcg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Sedação em UTI neonatal",
+          "descricaoDose": "0,5–2 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 2.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "0,5–1 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Sedação em UTI pediátrica",
+          "descricaoDose": "0,5–2 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 2.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "0,5–1 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "1–3 mcg/kg/dose IV",
+          "dosePorKgMinima": 1.0,
+          "dosePorKgMaxima": 3.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Sedação em UTI pediátrica",
+          "descricaoDose": "0,5–2 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 2.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "0,5–1 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "1–3 mcg/kg/dose IV",
+          "dosePorKgMinima": 1.0,
+          "dosePorKgMaxima": 3.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Controle de abstinência",
+          "descricaoDose": "1–2 mcg/kg/dose IV",
+          "dosePorKgMinima": 1.0,
+          "dosePorKgMaxima": 2.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Sedação em UTI",
+          "descricaoDose": "0,5–2 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 2.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "0,5–1 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "1–3 mcg/kg/dose IV",
+          "dosePorKgMinima": 1.0,
+          "dosePorKgMaxima": 3.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Controle de abstinência",
+          "descricaoDose": "1–2 mcg/kg/dose IV",
+          "dosePorKgMinima": 1.0,
+          "dosePorKgMaxima": 2.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "0,5–1 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 1.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "1–3 mcg/kg/dose IV",
+          "dosePorKgMinima": 1.0,
+          "dosePorKgMaxima": 3.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Controle de abstinência",
+          "descricaoDose": "1–2 mcg/kg/dose IV",
+          "dosePorKgMinima": 1.0,
+          "dosePorKgMaxima": 2.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Sedação em UTI",
+          "descricaoDose": "0,5–2 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 2.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "0,25–0,75 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.25,
+          "dosePorKgMaxima": 0.75,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "0,5–2 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 2.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Controle de abstinência",
+          "descricaoDose": "0,5–1,5 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 1.5,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Sedação em UTI",
+          "descricaoDose": "0,25–1,5 mcg/kg/dose IV",
+          "dosePorKgMinima": 0.25,
+          "dosePorKgMaxima": 1.5,
+          "unidade": "mcg/kg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para sedação em UTI neonatal. Monitorização rigorosa da função cardiovascular necessária.",
+      "lactente": "Sedação em UTI pediátrica é off-label mas utilizada na prática clínica para sedação e controle de hipertensão.",
+      "crianca": "Uso para controle de abstinência é off-label mas prática estabelecida. Efeitos sedativos e anti-hipertensivos bem documentados.",
+      "adolescente": "Controle de abstinência em adolescentes é off-label, porém respaldado por evidências clínicas de segurança e eficácia.",
+      "adulto": "Uso para controle de abstinência é off-label mas prática estabelecida. Efeitos sedativos, analgésicos e anti-hipertensivos bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos cardiovasculares. Controle de abstinência é off-label mas seguro com doses reduzidas e monitorização adequada."
+    },
+    "observacoes": [
+      "Agonista alfa-2 adrenérgico.",
+      "Efeitos sedativos e anti-hipertensivos.",
+      "Monitorar pressão arterial e frequência cardíaca.",
+      "Risco de bradicardia e hipotensão.",
+      "Pode causar sedação prolongada.",
+      "Interage com outros sedativos e anti-hipertensivos.",
+      "Contraindicação em bloqueio AV de 2º e 3º grau.",
+      "Efeito rebote ao suspender abruptamente."
+    ],
+    "metabolismo": [
+      "Metabolização hepática extensa.",
+      "Meia-vida de 12-16 horas.",
+      "Excreção renal de metabólitos inativos.",
+      "Cuidado em disfunção hepática e renal.",
+      "Interações com outros anti-hipertensivos."
+    ]
+  }
+}

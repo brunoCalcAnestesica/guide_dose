@@ -1,0 +1,66 @@
+{
+  "nome": "Remifentanil",
+  "classe": "Opioide",
+  "apresentacao": "Frasco 1mg, 2mg ou 5mg (liofilizado)",
+  "marca": "Ultiva®",
+  "preparo": [
+    {
+      "nome": "Diluir 2mg em 40mL SF 0,9% = 50mcg/mL",
+      "observacao": ""
+    },
+    {
+      "nome": "Diluir 5mg em 100mL SF 0,9% = 50mcg/mL",
+      "observacao": ""
+    },
+    {
+      "nome": "Uso exclusivo em infusão contínua — não administrar em bolus",
+      "observacao": ""
+    }
+  ],
+  "indicacoes": {
+    "neonato": [],
+    "lactente": [],
+    "crianca": [],
+    "adolescente": [],
+    "adulto": [
+      {
+        "titulo": "Indução e manutenção anestésica",
+        "dose": "0,5–1 mcg/kg/min IV contínua",
+        "unidade": "mcg/kg/min"
+      },
+      {
+        "titulo": "Sedação em UTI / procedimentos",
+        "dose": "0,05–0,2 mcg/kg/min IV contínua",
+        "unidade": "mcg/kg/min"
+      },
+      {
+        "titulo": "Analgesia pós-operatória (PCA)",
+        "dose": "0,025–0,1 mcg/kg/min IV contínua",
+        "unidade": "mcg/kg/min"
+      }
+    ]
+  },
+  "infusao": {
+    "unidade": "mcg/kg/min",
+    "doseMin": 0.025,
+    "doseMax": 1.0,
+    "opcoesConcentracoes": {
+      "2mg/40mL (50mcg/mL)": 50,
+      "5mg/100mL (50mcg/mL)": 50
+    }
+  },
+  "off_label": {
+    "neonato": "Uso limitado em neonatos - considerar alternativas.",
+    "lactente": "Uso limitado em lactentes - considerar alternativas.",
+    "crianca": "Uso limitado em crianças - considerar alternativas.",
+    "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Opioide μ agonista com meia-vida ultrarrápida (3–10 min).",
+    "Metabolizado por esterases plasmáticas — não depende de função hepática/renal.",
+    "Controle preciso da analgesia — sem acúmulo.",
+    "Pode causar rigidez torácica, bradicardia e depressão respiratória.",
+    "Monitorização contínua obrigatória de FR, SpO₂ e sedação."
+  ]
+}

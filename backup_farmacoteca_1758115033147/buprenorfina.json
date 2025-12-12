@@ -1,0 +1,235 @@
+{
+  "buprenorfina": {
+    "nome": "Buprenorfina",
+    "idBulario": "buprenorfina",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 0,3 mg/mL - 1 mL",
+        "observacao": "uso IV/IM"
+      },
+      {
+        "nome": "Ampola 0,6 mg/2 mL",
+        "observacao": "uso IV/IM"
+      },
+      {
+        "nome": "Comprimido sublingual 2 mg",
+        "observacao": "uso sublingual"
+      },
+      {
+        "nome": "Comprimido sublingual 8 mg",
+        "observacao": "uso sublingual"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "1,2 mg em 48 mL SF 0,9%",
+        "observacao": "25 mcg/mL"
+      },
+      {
+        "nome": "2,4 mg em 96 mL SF 0,9%",
+        "observacao": "25 mcg/mL"
+      },
+      {
+        "nome": "4,8 mg em 192 mL SF 0,9%",
+        "observacao": "25 mcg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Analgesia em UTI neonatal",
+          "descricaoDose": "2,5–5 mcg/kg IV/IM",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 5.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "5–10 mcg/kg IV/IM",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 10.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Analgesia em UTI pediátrica",
+          "descricaoDose": "2,5–5 mcg/kg IV/IM",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 5.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "5–10 mcg/kg IV/IM",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 10.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Analgesia crônica",
+          "descricaoDose": "2,5–7,5 mcg/kg IV/IM",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 7.5,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Analgesia em UTI pediátrica",
+          "descricaoDose": "2,5–5 mcg/kg IV/IM",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 5.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "5–10 mcg/kg IV/IM",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 10.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Analgesia crônica",
+          "descricaoDose": "2,5–7,5 mcg/kg IV/IM",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 7.5,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "5–15 mcg/kg IV/IM",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 15.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Analgesia em UTI",
+          "descricaoDose": "2,5–5 mcg/kg IV/IM",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 5.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "5–10 mcg/kg IV/IM",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 10.0,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Analgesia crônica",
+          "descricaoDose": "2,5–7,5 mcg/kg IV/IM",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 7.5,
+          "unidade": "mcg/kg"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "5–15 mcg/kg IV/IM",
+          "dosePorKgMinima": 5.0,
+          "dosePorKgMaxima": 15.0,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "0,3–0,6 mg IV/IM",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.6,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Analgesia crônica",
+          "descricaoDose": "0,3–0,6 mg IV/IM",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.6,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "0,4–0,8 mg IV/IM",
+          "dosePorKgMinima": 0.4,
+          "dosePorKgMaxima": 0.8,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Tratamento de dependência",
+          "descricaoDose": "2–8 mg sublingual",
+          "dosePorKgMinima": 2.0,
+          "dosePorKgMaxima": 8.0,
+          "unidade": "mg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "0,2–0,4 mg IV/IM",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.4,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Analgesia crônica",
+          "descricaoDose": "0,2–0,4 mg IV/IM",
+          "dosePorKgMinima": 0.2,
+          "dosePorKgMaxima": 0.4,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Premedicação anestésica",
+          "descricaoDose": "0,3–0,6 mg IV/IM",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.6,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Tratamento de dependência",
+          "descricaoDose": "1–4 mg sublingual",
+          "dosePorKgMinima": 1.0,
+          "dosePorKgMaxima": 4.0,
+          "unidade": "mg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para analgesia em recém-nascidos. Monitorização rigorosa da função respiratória necessária.",
+      "lactente": "Analgesia em lactentes é off-label mas utilizada na prática clínica pediátrica para controle de dor.",
+      "crianca": "Uso para analgesia crônica é off-label mas prática estabelecida. Efeitos analgésicos de longa duração bem documentados.",
+      "adolescente": "Analgesia crônica em adolescentes é off-label, porém respaldada por evidências clínicas de segurança e eficácia.",
+      "adulto": "Uso para tratamento de dependência é off-label mas prática estabelecida. Efeitos analgésicos e de manutenção bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos opioides. Analgesia é off-label mas segura com doses reduzidas e monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "1,2 mg/48 mL (25 mcg/mL)": 25,
+        "2,4 mg/96 mL (25 mcg/mL)": 25,
+        "4,8 mg/192 mL (25 mcg/mL)": 25
+      },
+      "unidade": "mcg/kg",
+      "doseMin": 2.5,
+      "doseMax": 15.0
+    },
+    "observacoes": [
+      "Opioide parcial agonista de ação prolongada.",
+      "Efeitos analgésicos potentes e duradouros.",
+      "Monitorar função respiratória.",
+      "Risco de depressão respiratória menor que morfina.",
+      "Pode causar rigidez muscular.",
+      "Interage com outros depressor do SNC.",
+      "Contraindicação em asma grave.",
+      "Antagonista: naloxona (doses altas necessárias).",
+      "Ceiling effect para depressão respiratória."
+    ],
+    "metabolismo": [
+      "Metabolização hepática extensa por CYP3A4.",
+      "Meia-vida de 2-5 horas.",
+      "Excreção principalmente fecal.",
+      "Cuidado em disfunção hepática.",
+      "Interações com inibidores e indutores do CYP3A4."
+    ]
+  }
+}

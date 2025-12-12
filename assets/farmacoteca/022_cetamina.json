@@ -1,0 +1,111 @@
+{
+  "nome": "Cetamina",
+  "classe": "Indutor Anestésico",
+  "apresentacao": "Ampola 500mg/10mL (50mg/mL)",
+  "marca": "Ketalar®, Cetamin®",
+  "preparo": [
+    {
+      "nome": "500mg em 100mL SG 5% = 5mg/mL",
+      "observacao": ""
+    },
+    {
+      "nome": "Pode ser usada sem diluir para bolus IM/IV",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mg/kg/h",
+    "doseMin": 0.1,
+    "doseMax": 0.5,
+    "opcoesConcentracoes": {
+      "500mg/100mL (5mg/mL)": 5000,
+      "250mg/100mL (2,5mg/mL)": 2500
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Indução anestésica",
+        "dose": "1–2 mg/kg IV ou 4–10 mg/kg IM",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação / analgesia",
+        "dose": "0,25–1 mg/kg em bolus",
+        "unidade": "mg/kg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Indução anestésica",
+        "dose": "1–2 mg/kg IV ou 4–10 mg/kg IM",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação / analgesia",
+        "dose": "0,25–1 mg/kg em bolus",
+        "unidade": "mg/kg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Indução anestésica",
+        "dose": "1–2 mg/kg IV ou 4–10 mg/kg IM",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação / analgesia",
+        "dose": "0,25–1 mg/kg em bolus",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Indução anestésica IV",
+        "dose": "1–2 mg/kg IV lenta",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação subanestésica (analgesia)",
+        "dose": "0,25–0,5 mg/kg em bolus ou infusão",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Broncoespasmo refratário / asma grave",
+        "dose": "0,5–1 mg/kg IV + 0,15–0,5 mg/kg/h",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Indução anestésica IV",
+        "dose": "1–2 mg/kg IV lenta",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação subanestésica (analgesia)",
+        "dose": "0,25–0,5 mg/kg em bolus ou infusão",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Broncoespasmo refratário / asma grave",
+        "dose": "0,5–1 mg/kg IV + 0,15–0,5 mg/kg/h",
+        "unidade": "mg/kg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Anestésico dissociativo com ação em receptores NMDA.",
+    "Preserva drive respiratório e reflexos das vias aéreas.",
+    "Efeitos psicodislépticos comuns.",
+    "Útil em pacientes com broncoespasmo ou instabilidade hemodinâmica.",
+    "Associar benzodiazepínico para reduzir agitação."
+  ]
+}

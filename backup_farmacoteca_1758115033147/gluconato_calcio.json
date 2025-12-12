@@ -1,0 +1,101 @@
+{
+  "nome": "Gluconato de Cálcio",
+  "classe": "Eletrólitos Críticos",
+  "apresentacao": "Ampola 10% (1g/10mL = 93mg de Ca²⁺)",
+  "marca": "Gluconato de Cálcio 10%",
+  "preparo": [
+    {
+      "nome": "IV lenta (5–10 min) ou diluído em SG5%/SF0,9%",
+      "observacao": ""
+    },
+    {
+      "nome": "Infusão contínua: 1g em 100mL SG5% ou SF0,9%",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mg/kg/h",
+    "doseMin": 50,
+    "doseMax": 200,
+    "opcoesConcentracoes": {
+      "1g/100mL (10mg/mL)": 10000,
+      "2g/100mL (20mg/mL)": 20000
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia com ECG alterado",
+        "dose": "100–200mg/kg IV lenta (máx 3g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Toxicidade por sulfato de magnésio / bloqueadores de canal de cálcio",
+        "dose": "1g IV lenta a cada 6–8h ou infusão contínua",
+        "unidade": "mg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia com ECG alterado",
+        "dose": "100–200mg/kg IV lenta (máx 3g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Toxicidade por sulfato de magnésio / bloqueadores de canal de cálcio",
+        "dose": "1g IV lenta a cada 6–8h ou infusão contínua",
+        "unidade": "mg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia com ECG alterado",
+        "dose": "100–200mg/kg IV lenta (máx 3g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Toxicidade por sulfato de magnésio / bloqueadores de canal de cálcio",
+        "dose": "1g IV lenta a cada 6–8h ou infusão contínua",
+        "unidade": "mg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia com ECG alterado",
+        "dose": "100–200mg/kg IV lenta (máx 3g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Toxicidade por sulfato de magnésio / bloqueadores de canal de cálcio",
+        "dose": "1g IV lenta a cada 6–8h ou infusão contínua",
+        "unidade": "mg"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia com ECG alterado",
+        "dose": "100–200mg/kg IV lenta (máx 3g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Toxicidade por sulfato de magnésio / bloqueadores de canal de cálcio",
+        "dose": "1g IV lenta a cada 6–8h ou infusão contínua",
+        "unidade": "mg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Preferido ao cloreto para acesso periférico (menos irritante).",
+    "Cada ampola → 4,65 mEq de cálcio elementar.",
+    "Usar bomba de infusão se contínuo.",
+    "Monitorar ECG, potássio e cálcio iônico.",
+    "Pode ser repetido conforme clínica."
+  ]
+}

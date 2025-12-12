@@ -1,0 +1,225 @@
+{
+  "noradrenalina": {
+    "nome": "Noradrenalina",
+    "idBulario": "noradrenalina",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 1 mg/mL - 4 mL",
+        "observacao": "4 mg/4 mL, uso IV"
+      },
+      {
+        "nome": "Ampola 1 mg/mL - 1 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "8 mg em 250 mL SG 5%",
+        "observacao": "32 mcg/mL"
+      },
+      {
+        "nome": "16 mg em 250 mL SG 5%",
+        "observacao": "64 mcg/mL"
+      },
+      {
+        "nome": "32 mg em 250 mL SG 5%",
+        "observacao": "128 mcg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,01–0,5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,05–0,3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,01–0,5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,05–0,3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,1–1 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 1,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,01–0,5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,05–0,3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,1–1 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 1,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "0,05–3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 3,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,01–0,5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,05–0,3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,1–1 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 1,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "0,05–3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 3,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,01–0,5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,05–0,3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,1–1 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 1,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "0,05–3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 3,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "0,01–0,3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,03–0,2 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.03,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,05–0,8 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.8,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "0,03–2 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.03,
+          "dosePorKgMaxima": 2,
+          "unidade": "mcg/kg/min"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para suporte hemodinâmico em recém-nascidos críticos. Monitorização rigorosa da função cardiovascular e perfusão periférica necessária.",
+      "lactente": "Suporte vasopressor em lactentes é off-label mas amplamente utilizado na prática clínica pediátrica para choque séptico e hipotensão refratária.",
+      "crianca": "Uso para suporte hemodinâmico em crianças críticas é off-label mas prática estabelecida. Efeitos vasoconstritores bem documentados.",
+      "adolescente": "Suporte vasopressor para choque séptico em adolescentes é off-label, porém respaldado por diretrizes clínicas em terapia intensiva.",
+      "adulto": "Uso para suporte hemodinâmico em situações críticas é off-label mas prática estabelecida. Efeitos vasoconstritores e inotrópicos bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos vasoconstritores. Suporte hemodinâmico é off-label mas seguro com doses reduzidas e monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "8 mg/250 mL (32 mcg/mL)": 32,
+        "16 mg/250 mL (64 mcg/mL)": 64,
+        "32 mg/250 mL (128 mcg/mL)": 128
+      },
+      "unidade": "mcg/kg/min",
+      "doseMin": 0.01,
+      "doseMax": 3
+    },
+    "observacoes": [
+      "Vasopressor de ação rápida e potente.",
+      "Efeito vasoconstrictor periférico e inotrópico positivo.",
+      "Monitorar pressão arterial, frequência cardíaca e perfusão periférica constantemente.",
+      "Risco de isquemia periférica e necrose tecidual.",
+      "Usar com cautela em pacientes com doença vascular periférica.",
+      "Pode causar bradicardia reflexa em altas doses.",
+      "Interage com outros vasopressores e anestésicos."
+    ],
+    "metabolismo": [
+      "Metabolização rápida por COMT e MAO.",
+      "Meia-vida muito curta (1-2 minutos).",
+      "Excreção renal de metabólitos inativos.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações com inibidores da MAO e antidepressivos tricíclicos."
+    ]
+  }
+}

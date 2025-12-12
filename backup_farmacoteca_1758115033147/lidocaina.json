@@ -1,0 +1,66 @@
+{
+  "nome": "Lidocaína",
+  "classe": "Anestésico Local",
+  "apresentacao": "Solução 1% ou 2% (10mg/mL ou 20mg/mL)",
+  "marca": "Xylestesin®, Lidocaína Cristália®",
+  "preparo": [
+    {
+      "nome": "Usar sem diluição para bloqueios ou infiltração",
+      "observacao": ""
+    },
+    {
+      "nome": "Dose máxima varia com uso de vasoconstritor",
+      "observacao": ""
+    }
+  ],
+  "indicacoes": {
+    "neonato": [],
+    "lactente": [],
+    "crianca": [],
+    "adolescente": [],
+    "adulto": [
+      {
+        "titulo": "Infiltração ou bloqueio (sem vasoconstritor)",
+        "dose": "Até 4,5 mg/kg (máx 300mg)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Infiltração (com vasoconstritor)",
+        "dose": "Até 7 mg/kg (máx 500mg)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Raquianestesia (hiperbárica)",
+        "dose": "50–100mg, duração de 1–1,5h",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Antiarrítmico IV",
+        "dose": "Bolus 1–1,5 mg/kg → infusão 1–4 mg/min",
+        "unidade": "mg/kg"
+      }
+    ]
+  },
+  "infusao": {
+    "unidade": "mg/min",
+    "doseMin": 1.0,
+    "doseMax": 4.0,
+    "opcoesConcentracoes": {
+      "1% (10mg/mL)": 10,
+      "2% (20mg/mL)": 20
+    }
+  },
+  "off_label": {
+    "neonato": "Uso limitado em neonatos - considerar alternativas.",
+    "lactente": "Uso limitado em lactentes - considerar alternativas.",
+    "crianca": "Uso limitado em crianças - considerar alternativas.",
+    "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Ação rápida e curta (~30–60 min).",
+    "Associar vasoconstritor prolonga o efeito e reduz toxicidade.",
+    "Sinais de toxicidade: parestesias, zumbido, convulsões.",
+    "Tratamento de toxicidade: emulsão lipídica e suporte intensivo."
+  ]
+}

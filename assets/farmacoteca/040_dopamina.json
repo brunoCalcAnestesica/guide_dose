@@ -1,0 +1,226 @@
+{
+  "dopamina": {
+    "nome": "Dopamina",
+    "idBulario": "dopamina",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 200 mg/5 mL",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Frasco-ampola 400 mg/10 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "200 mg em 250 mL SF",
+        "observacao": "0,8 mg/mL"
+      },
+      {
+        "nome": "400 mg em 250 mL SF",
+        "observacao": "1,6 mg/mL"
+      },
+      {
+        "nome": "800 mg em 250 mL SF",
+        "observacao": "3,2 mg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "2–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "2–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "2–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "2–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "2–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência renal",
+          "descricaoDose": "1–5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 5,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "2–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "2–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência renal",
+          "descricaoDose": "1–5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 5,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "2–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "5–20 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "2–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência renal",
+          "descricaoDose": "1–5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 5,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Suporte hemodinâmico",
+          "descricaoDose": "1–15 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Choque séptico",
+          "descricaoDose": "2,5–15 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 2.5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "1–7,5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 7.5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência renal",
+          "descricaoDose": "0,5–3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 3,
+          "unidade": "mcg/kg/min"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para suporte hemodinâmico em recém-nascidos críticos. Efeitos dose-dependentes requerem monitorização rigorosa da função cardiovascular e renal.",
+      "lactente": "Suporte hemodinâmico em lactentes é off-label mas amplamente utilizado. Doses baixas melhoram fluxo renal, doses altas têm efeito inotrópico.",
+      "crianca": "Uso para suporte hemodinâmico em crianças críticas é off-label mas prática estabelecida. Efeitos variam conforme a dose administrada.",
+      "adolescente": "Suporte hemodinâmico para choque séptico em adolescentes é off-label, porém respaldado por evidências clínicas em terapia intensiva.",
+      "adulto": "Uso para suporte hemodinâmico em situações críticas é off-label mas prática estabelecida. Efeitos dose-dependentes bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos cardiovasculares. Suporte hemodinâmico é off-label mas seguro com doses reduzidas e monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "200 mg/250 mL (0,8 mg/mL)": 0.8,
+        "400 mg/250 mL (1,6 mg/mL)": 1.6,
+        "800 mg/250 mL (3,2 mg/mL)": 3.2
+      },
+      "unidade": "mcg/kg/min",
+      "doseMin": 0.5,
+      "doseMax": 20
+    },
+    "observacoes": [
+      "Efeitos dose-dependentes: doses baixas (1-5 mcg/kg/min) melhoram fluxo renal.",
+      "Doses médias (5-10 mcg/kg/min) têm efeito inotrópico e cronotrópico.",
+      "Doses altas (>10 mcg/kg/min) causam vasoconstrição periférica.",
+      "Monitorizar pressão arterial, frequência cardíaca e diurese constantemente.",
+      "Risco de arritmias e isquemia miocárdica em altas doses.",
+      "Interage com outros vasopressores e inotrópicos.",
+      "Usar com cautela em pacientes com feocromocitoma.",
+      "Pode causar extravasamento e necrose tecidual."
+    ],
+    "metabolismo": [
+      "Metabolização rápida por COMT e MAO.",
+      "Meia-vida muito curta (1-2 minutos).",
+      "Excreção renal de metabólitos inativos.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações com inibidores da MAO e antidepressivos tricíclicos."
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "morfina": {
+    "nome": "Morfina",
+    "idBulario": "morfina",
+    "classe": "Opioide",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 10 mg/mL",
+        "observacao": "uso IV/IM/SC"
+      },
+      {
+        "nome": "Comprimido 10 mg",
+        "observacao": "uso oral"
+      },
+      {
+        "nome": "Comprimido 30 mg",
+        "observacao": "uso oral"
+      },
+      {
+        "nome": "Comprimido 60 mg",
+        "observacao": "uso oral"
+      }
+    ],
+    "marca": "Dimorf®, MST®, Genérico",
+    "preparo": [
+      {
+        "nome": "IV: diluir 1 mL em 9 mL SF 0,9%",
+        "observacao": "1 mg/mL para bolus lento"
+      },
+      {
+        "nome": "SC, IM ou VO (liberação imediata ou prolongada)",
+        "observacao": ""
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [],
+      "lactente": [],
+      "crianca": [],
+      "adolescente": [],
+      "adulto": [
+        {
+          "titulo": "Dor aguda grave (uso hospitalar)",
+          "descricaoDose": "2–5 mg IV ou 5–10 mg IM/SC a cada 4h conforme resposta",
+          "doseMinima": 2,
+          "doseMaxima": 10,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Dor crônica oncológica (via oral)",
+          "descricaoDose": "10–30 mg VO a cada 4h (liberação imediata)",
+          "doseMinima": 10,
+          "doseMaxima": 30,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Dispneia refratária / cuidados paliativos",
+          "descricaoDose": "2,5–5 mg SC a cada 4–6h ou bomba contínua",
+          "doseMinima": 2.5,
+          "doseMaxima": 5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Síndrome coronariana aguda (SCA)",
+          "descricaoDose": "2–4 mg IV lenta (repetir conforme dor e resposta)",
+          "doseMinima": 2,
+          "doseMaxima": 4,
+          "unidade": "mg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Dor aguda grave (uso hospitalar)",
+          "descricaoDose": "1–3 mg IV ou 2,5–5 mg IM/SC a cada 4h",
+          "doseMinima": 1,
+          "doseMaxima": 5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Dor crônica oncológica (via oral)",
+          "descricaoDose": "5–15 mg VO a cada 4h (liberação imediata)",
+          "doseMinima": 5,
+          "doseMaxima": 15,
+          "unidade": "mg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso limitado em recém-nascidos - considerar alternativas.",
+      "lactente": "Uso limitado em lactentes - considerar alternativas.",
+      "crianca": "Uso limitado em crianças - considerar alternativas.",
+      "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+      "adulto": "Uso off-label em algumas condições específicas.",
+      "idoso": "Em idosos, doses reduzidas são necessárias devido ao metabolismo alterado."
+    },
+    "observacoes": [
+      "Opioide agonista μ puro — padrão ouro para dor intensa.",
+      "Depressão respiratória, constipação e hipotensão são comuns — monitorar.",
+      "Dose deve ser individualizada com titulação cuidadosa.",
+      "Antagonizável com naloxona em caso de intoxicação.",
+      "Cautela em idosos, IR e pneumopatias crônicas."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por glucuronidação.",
+      "Excreção renal de metabólitos ativos.",
+      "Meia-vida de 2-4 horas.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações medicamentosas com depressores do SNC."
+    ]
+  }
+}

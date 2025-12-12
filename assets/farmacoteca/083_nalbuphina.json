@@ -1,0 +1,88 @@
+{
+  "nalbuphina": {
+    "nome": "Nalbuphina",
+    "idBulario": "nalbuphina",
+    "classe": "Opioide",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 10 mg/mL (1 mL)",
+        "observacao": "uso IV/IM/SC"
+      },
+      {
+        "nome": "Ampola 10 mg/mL (2 mL)",
+        "observacao": "uso IV/IM/SC"
+      }
+    ],
+    "marca": "Nubain®",
+    "preparo": [
+      {
+        "nome": "Pode ser administrada IV lenta, IM ou SC",
+        "observacao": ""
+      },
+      {
+        "nome": "Diluir em SF 0,9% para infusão controlada se necessário",
+        "observacao": ""
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [],
+      "lactente": [],
+      "crianca": [],
+      "adolescente": [],
+      "adulto": [
+        {
+          "titulo": "Dor aguda moderada a intensa (hospitalar)",
+          "descricaoDose": "10–20 mg IV ou IM a cada 3–6h conforme necessidade",
+          "doseMinima": 10,
+          "doseMaxima": 20,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Dor obstétrica (fase ativa do trabalho de parto)",
+          "descricaoDose": "10 mg IM ou IV a cada 3h (evitar próximo do parto)",
+          "doseMinima": 10,
+          "doseMaxima": 10,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Paciente com risco de depressão respiratória",
+          "descricaoDose": "10 mg IV (dose única ou fracionada), com monitoramento",
+          "doseMinima": 10,
+          "doseMaxima": 10,
+          "unidade": "mg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Dor aguda moderada a intensa (hospitalar)",
+          "descricaoDose": "5–10 mg IV ou IM a cada 3–6h conforme necessidade",
+          "doseMinima": 5,
+          "doseMaxima": 10,
+          "unidade": "mg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso limitado em recém-nascidos - considerar alternativas.",
+      "lactente": "Uso limitado em lactentes - considerar alternativas.",
+      "crianca": "Uso limitado em crianças - considerar alternativas.",
+      "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+      "adulto": "Uso off-label em algumas condições específicas.",
+      "idoso": "Em idosos, doses reduzidas são necessárias devido ao metabolismo alterado."
+    },
+    "observacoes": [
+      "Agonista κ-opioide e antagonista μ-opioide — efeito teto para depressão respiratória.",
+      "Excelente alternativa à morfina em pacientes com risco de apneia.",
+      "Pode causar sedação, náuseas, sudorese e, raramente, disforia.",
+      "Evitar uso concomitante com opioides μ-puros (antagonismo).",
+      "Menor potencial de abuso e dependência."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por glucuronidação.",
+      "Excreção renal de metabólitos ativos.",
+      "Meia-vida de 3-6 horas.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações medicamentosas com depressores do SNC."
+    ]
+  }
+}

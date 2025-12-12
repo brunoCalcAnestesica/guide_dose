@@ -1,0 +1,307 @@
+{
+  "adrenalina": {
+    "nome": "Adrenalina",
+    "idBulario": "adrenalina",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 1 mg/mL (1:1000)",
+        "observacao": "uso IM/SC"
+      },
+      {
+        "nome": "Ampola 1 mg/10 mL (1:10.000)",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Auto-injetor 0,3 mg (adulto)",
+        "observacao": ""
+      },
+      {
+        "nome": "Auto-injetor 0,15 mg (infantil)",
+        "observacao": ""
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "1 mg puro (1 mL)",
+        "observacao": ""
+      },
+      {
+        "nome": "1 mg em 9 mL SF",
+        "observacao": "0,1 mg/mL (1:10.000)"
+      },
+      {
+        "nome": "6 mg em 94 mL SF",
+        "observacao": "60 mcg/mL"
+      },
+      {
+        "nome": "Push dose: 1 mg em 100 mL",
+        "observacao": "10 mcg/mL"
+      },
+      {
+        "nome": "Push dose: 0,5 mg em 10 mL",
+        "observacao": "50 mcg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,01 mg/kg IV (1:10.000) cada 3–5 min",
+          "dosePorKg": 0.01,
+          "doseMaxima": 1.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Bradicardia neonatal",
+          "descricaoDose": "0,01 mg/kg IV (1:10.000) após ventilação adequada",
+          "dosePorKg": 0.01,
+          "doseMaxima": 1.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Choque refratário",
+          "descricaoDose": "0,05–2 mcg/kg/min IV infusão",
+          "dosePorKg": null,
+          "doseMaxima": null,
+          "unidade": ""
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,01 mg/kg IV (1:10.000) cada 3–5 min (máx 1 mg)",
+          "dosePorKg": 0.01,
+          "doseMaxima": 1.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Anafilaxia",
+          "descricaoDose": "0,01 mg/kg IM (1:1000) (máx 0,3 mg)",
+          "dosePorKg": 0.01,
+          "doseMaxima": 0.3,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Broncoespasmo",
+          "descricaoDose": "0,01 mg/kg SC/IM (máx 0,3 mg)",
+          "dosePorKg": 0.01,
+          "doseMaxima": 0.3,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Crup",
+          "descricaoDose": "5 mg em 5 mL SF nebulizado (dose única)",
+          "dosePorKg": null,
+          "doseMaxima": null,
+          "unidade": ""
+        },
+        {
+          "titulo": "Choque refratário",
+          "descricaoDose": "0,05–2 mcg/kg/min IV infusão",
+          "dosePorKg": null,
+          "doseMaxima": null,
+          "unidade": ""
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "0,01 mg/kg IV bolus (máx 1 mg) + 0,1–1 mcg/kg/min infusão",
+          "dosePorKg": 0.01,
+          "doseMaxima": 1.0,
+          "unidade": "mg"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "0,01 mg/kg IV (1:10.000) cada 3–5 min (máx 1 mg)",
+          "dosePorKg": 0.01,
+          "doseMaxima": 1.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Anafilaxia",
+          "descricaoDose": "0,01 mg/kg IM (1:1000) (máx 0,3 mg)",
+          "dosePorKg": 0.01,
+          "doseMaxima": 0.3,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Broncoespasmo",
+          "descricaoDose": "0,01 mg/kg SC/IM (máx 0,3 mg)",
+          "dosePorKg": 0.01,
+          "doseMaxima": 0.3,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Crup",
+          "descricaoDose": "5 mg em 5 mL SF nebulizado (dose única)",
+          "dosePorKg": null,
+          "doseMaxima": null,
+          "unidade": ""
+        },
+        {
+          "titulo": "Choque refratário",
+          "descricaoDose": "0,05–2 mcg/kg/min IV infusão",
+          "dosePorKg": null,
+          "doseMaxima": null,
+          "unidade": ""
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "0,01 mg/kg IV bolus (máx 1 mg) + 0,1–1 mcg/kg/min infusão",
+          "dosePorKg": 0.01,
+          "doseMaxima": 1.0,
+          "unidade": "mg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "1 mg IV (1:10.000) cada 3–5 min",
+          "dosePorKg": 1.0,
+          "doseMaxima": 1.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Anafilaxia",
+          "descricaoDose": "0,3–0,5 mg IM (1:1000)",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.5,
+          "doseMaxima": 0.5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Broncoespasmo",
+          "descricaoDose": "0,3–0,5 mg SC/IM (1:1000)",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.5,
+          "doseMaxima": 0.5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Choque refratário",
+          "descricaoDose": "0,05–2 mcg/kg/min IV infusão",
+          "dosePorKg": null,
+          "doseMaxima": null,
+          "unidade": ""
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "2–10 mL/h IV infusão contínua",
+          "unidade": "mL/h",
+          "dosePorKgMinima": "2 / peso",
+          "dosePorKgMaxima": "10 / peso"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "1 mg IV (1:10.000) cada 3–5 min",
+          "dosePorKg": 1.0,
+          "doseMaxima": 1.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Anafilaxia",
+          "descricaoDose": "0,3–0,5 mg IM (1:1000)",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.5,
+          "doseMaxima": 0.5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Broncoespasmo",
+          "descricaoDose": "0,3–0,5 mg SC/IM (1:1000)",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.5,
+          "doseMaxima": 0.5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Choque refratário",
+          "descricaoDose": "0,05–2 mcg/kg/min IV infusão",
+          "dosePorKg": null,
+          "doseMaxima": null,
+          "unidade": ""
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "2–10 mL/h IV infusão contínua",
+          "unidade": "mL/h",
+          "dosePorKgMinima": "2 / peso",
+          "dosePorKgMaxima": "10 / peso"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Parada cardíaca",
+          "descricaoDose": "1 mg IV (1:10.000) cada 3–5 min",
+          "dosePorKg": 1.0,
+          "doseMaxima": 1.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Anafilaxia",
+          "descricaoDose": "0,3–0,5 mg IM (1:1000)",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.5,
+          "doseMaxima": 0.5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Broncoespasmo",
+          "descricaoDose": "0,3–0,5 mg SC/IM (1:1000)",
+          "dosePorKgMinima": 0.3,
+          "dosePorKgMaxima": 0.5,
+          "doseMaxima": 0.5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Choque refratário",
+          "descricaoDose": "0,05–2 mcg/kg/min IV infusão",
+          "dosePorKg": null,
+          "doseMaxima": null,
+          "unidade": ""
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "2–10 mL/h IV infusão contínua",
+          "unidade": "mL/h",
+          "dosePorKgMinima": "2 / peso",
+          "dosePorKgMaxima": "10 / peso"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label restrito a bradicardia refratária e choque com indicação de infusão contínua sob monitoração intensiva.",
+      "lactente": "Nebulização em crup viral grave é prática consagrada, porém não consta em bula.",
+      "crianca": "Nebulização em crup viral grave é prática consagrada, porém não consta em bula.",
+      "adolescente": "Infusão contínua para bradicardia refratária é fora da bula, mas respaldada por diretrizes clínicas em situações críticas.",
+      "adulto": "Infusão contínua para bradicardia refratária é fora da bula, mas respaldada por diretrizes clínicas em situações críticas.",
+      "idoso": "Em idosos, uso para bradicardia refratária é off-label e demanda monitorização rigorosa devido ao risco cardiovascular aumentado."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "1 mg/250 mL (4 mcg/mL)": 4,
+        "2 mg/250 mL (8 mcg/mL)": 8,
+        "4 mg/250 mL (16 mcg/mL)": 16
+      },
+      "unidade": "mcg/kg/min",
+      "doseMin": 0.05,
+      "doseMax": 2.0
+    },
+    "observacoes": [
+      "Vasopressor e broncodilatador de ação imediata.",
+      "Ideal para situações de emergência.",
+      "Monitorar ritmo cardíaco e pressão arterial.",
+      "Risco de arritmias em altas doses.",
+      "Uso cuidadoso em idosos e cardiopatas."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por MAO e COMT.",
+      "Excreção renal.",
+      "Pode ter efeito prolongado em disfunção hepática grave.",
+      "Usar com cautela em disfunção renal ou cardíaca."
+    ]
+  }
+}

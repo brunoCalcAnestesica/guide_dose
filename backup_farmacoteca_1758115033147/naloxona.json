@@ -1,0 +1,85 @@
+{
+  "nome": "Naloxona",
+  "classe": "Reversor/Antídoto",
+  "apresentacao": "Ampola 0,4mg/mL (1mL)",
+  "marca": "Narcan®, Naloxon®",
+  "preparo": [
+    {
+      "nome": "IV direta, IM ou SC",
+      "observacao": ""
+    },
+    {
+      "nome": "Pode ser diluída em 10mL SF para administração lenta",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mg/h",
+    "doseMin": 0.4,
+    "doseMax": 2.0,
+    "opcoesConcentracoes": {
+      "0,4mg/mL": 0.4
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Reversão de depressão respiratória",
+        "dose": "0,01–0,1 mg/kg IV ou IM",
+        "unidade": "mg/kg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Reversão de depressão respiratória",
+        "dose": "0,01–0,1 mg/kg IV ou IM",
+        "unidade": "mg/kg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Reversão de depressão respiratória",
+        "dose": "0,01–0,1 mg/kg IV ou IM",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Reversão de depressão respiratória",
+        "dose": "0,04–0,4mg IV, repetir cada 2–3 min",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Infusão contínua",
+        "dose": "0,4–2mg/h IV contínuo",
+        "unidade": "mg/h"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Reversão de depressão respiratória",
+        "dose": "0,04–0,4mg IV, repetir cada 2–3 min",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Infusão contínua",
+        "dose": "0,4–2mg/h IV contínuo",
+        "unidade": "mg/h"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Antagonista competitivo dos receptores opioides μ, κ e δ.",
+    "Meia-vida curta (~30–90min): pode ser necessária repetição.",
+    "Pode precipitar síndrome de abstinência em usuários crônicos.",
+    "Dose máxima: 10mg em adultos, 2mg em pediatria.",
+    "Administrar lentamente para evitar efeitos adversos."
+  ]
+}

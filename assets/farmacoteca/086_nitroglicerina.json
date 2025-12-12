@@ -1,0 +1,225 @@
+{
+  "nitroglicerina": {
+    "nome": "Nitroglicerina",
+    "idBulario": "nitroglicerina",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 5 mg/mL - 10 mL",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Ampola 5 mg/mL - 5 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "50 mg em 250 mL SG 5%",
+        "observacao": "200 mcg/mL"
+      },
+      {
+        "nome": "25 mg em 250 mL SG 5%",
+        "observacao": "100 mcg/mL"
+      },
+      {
+        "nome": "100 mg em 250 mL SG 5%",
+        "observacao": "400 mcg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Hipertensão pulmonar",
+          "descricaoDose": "0,5–5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "0,25–2 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.25,
+          "dosePorKgMaxima": 2,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Hipertensão pulmonar",
+          "descricaoDose": "0,5–5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "0,25–2 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.25,
+          "dosePorKgMaxima": 2,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Crise hipertensiva",
+          "descricaoDose": "1–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Hipertensão pulmonar",
+          "descricaoDose": "0,5–5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "0,25–2 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.25,
+          "dosePorKgMaxima": 2,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Crise hipertensiva",
+          "descricaoDose": "1–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Angina instável",
+          "descricaoDose": "5–160 mcg/min IV infusão",
+          "doseMinima": 5,
+          "doseMaxima": 160,
+          "unidade": "mcg/min"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Hipertensão pulmonar",
+          "descricaoDose": "0,5–5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "0,25–2 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.25,
+          "dosePorKgMaxima": 2,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Crise hipertensiva",
+          "descricaoDose": "1–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Angina instável",
+          "descricaoDose": "5–160 mcg/min IV infusão",
+          "doseMinima": 5,
+          "doseMaxima": 160,
+          "unidade": "mcg/min"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Hipertensão pulmonar",
+          "descricaoDose": "0,5–5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "0,25–2 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.25,
+          "dosePorKgMaxima": 2,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Crise hipertensiva",
+          "descricaoDose": "1–10 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Angina instável",
+          "descricaoDose": "5–160 mcg/min IV infusão",
+          "doseMinima": 5,
+          "doseMaxima": 160,
+          "unidade": "mcg/min"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Hipertensão pulmonar",
+          "descricaoDose": "0,25–3 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.25,
+          "dosePorKgMaxima": 3,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "0,1–1,5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 1.5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Crise hipertensiva",
+          "descricaoDose": "0,5–7,5 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 7.5,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Angina instável",
+          "descricaoDose": "5–120 mcg/min IV infusão",
+          "doseMinima": 5,
+          "doseMaxima": 120,
+          "unidade": "mcg/min"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para hipertensão pulmonar em recém-nascidos. Monitorização rigorosa da pressão arterial e função cardíaca necessária.",
+      "lactente": "Suporte vasodilatador em lactentes é off-label mas utilizado na prática clínica pediátrica para hipertensão pulmonar e insuficiência cardíaca.",
+      "crianca": "Uso para suporte hemodinâmico em crianças é off-label mas prática estabelecida. Efeitos vasodilatadores bem documentados.",
+      "adolescente": "Suporte vasodilatador para insuficiência cardíaca em adolescentes é off-label, porém respaldado por evidências clínicas.",
+      "adulto": "Uso para suporte hemodinâmico em situações críticas é off-label mas prática estabelecida. Efeitos vasodilatadores e antianginosos bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos vasodilatadores. Suporte hemodinâmico é off-label mas seguro com doses reduzidas e monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "25 mg/250 mL (100 mcg/mL)": 100,
+        "50 mg/250 mL (200 mcg/mL)": 200,
+        "100 mg/250 mL (400 mcg/mL)": 400
+      },
+      "unidade": "mcg/kg/min",
+      "doseMin": 0.1,
+      "doseMax": 10
+    },
+    "observacoes": [
+      "Vasodilatador de ação rápida.",
+      "Efeito venodilatador predominante, reduz pré-carga.",
+      "Monitorar pressão arterial e frequência cardíaca constantemente.",
+      "Risco de hipotensão severa e reflexo taquicárdico.",
+      "Usar com cautela em pacientes com hipovolemia.",
+      "Pode causar cefaleia e flushing.",
+      "Interage com outros vasodilatadores e anti-hipertensivos."
+    ],
+    "metabolismo": [
+      "Metabolização hepática rápida.",
+      "Meia-vida curta (1-4 minutos).",
+      "Excreção renal de metabólitos inativos.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações com sildenafil e outros inibidores da PDE5."
+    ]
+  }
+}

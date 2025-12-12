@@ -1,0 +1,97 @@
+{
+  "nome": "Remidazolam",
+  "classe": "Benzodiazepínico",
+  "apresentacao": "Frasco-ampola 5mg/5mL (1mg/mL)",
+  "marca": "Byfavo®",
+  "preparo": [
+    {
+      "nome": "Diluir em SF 0,9% para infusão contínua",
+      "observacao": "Ex: 5mg em 50mL SF = 0,1mg/mL"
+    },
+    {
+      "nome": "Bolus direto IV para indução rápida",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mcg/kg/h",
+    "doseMin": 10,
+    "doseMax": 500,
+    "opcoesConcentracoes": {
+      "0,1 mg/mL (5mg/50mL)": 100,
+      "0,05 mg/mL (5mg/100mL)": 50,
+      "0,2 mg/mL (5mg/25mL)": 200
+    }
+  },
+  "indicacoes": {
+    "neonato": [],
+    "lactente": [
+      {
+        "titulo": "Sedação para procedimentos",
+        "dose": "0,1–0,2 mg/kg IV bolus",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação contínua UTI",
+        "dose": "10–50 mcg/kg/h",
+        "unidade": "mcg/kg/h"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Sedação para procedimentos",
+        "dose": "0,1–0,2 mg/kg IV bolus",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação contínua UTI",
+        "dose": "10–50 mcg/kg/h",
+        "unidade": "mcg/kg/h"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Sedação para procedimentos",
+        "dose": "0,1–0,2 mg/kg IV bolus",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação contínua UTI",
+        "dose": "10–50 mcg/kg/h",
+        "unidade": "mcg/kg/h"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Sedação para procedimentos",
+        "dose": "0,1–0,2 mg/kg IV bolus",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Sedação contínua UTI",
+        "dose": "10–50 mcg/kg/h",
+        "unidade": "mcg/kg/h"
+      },
+      {
+        "titulo": "Indução anestésica",
+        "dose": "0,2–0,3 mg/kg IV",
+        "unidade": "mg/kg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso limitado em neonatos - considerar alternativas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Benzodiazepínico de ação ultrarrápida com metabolização enzimática.",
+    "Início de ação em 30-60 segundos, duração de 5-15 minutos.",
+    "Não apresenta metabólitos ativos, evitando acúmulo.",
+    "Ideal para procedimentos de curta duração e sedação em UTI.",
+    "Antagonizável com flumazenil.",
+    "Pode causar depressão respiratória e hipotensão."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "ropivacaina": {
+    "nome": "Ropivacaína",
+    "idBulario": "ropivacaina",
+    "classe": "Anestésico Local",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 0,2% (2 mg/mL)",
+        "observacao": "uso local"
+      },
+      {
+        "nome": "Ampola 0,5% (5 mg/mL)",
+        "observacao": "uso local"
+      },
+      {
+        "nome": "Ampola 0,75% (7,5 mg/mL)",
+        "observacao": "uso local"
+      }
+    ],
+    "marca": "Naropin®, Ropi®, genéricos",
+    "preparo": [
+      {
+        "nome": "Usar sem diluir para bloqueios superficiais/localizados",
+        "observacao": ""
+      },
+      {
+        "nome": "Pode ser diluída em SF 0,9% para maior volume",
+        "observacao": "final: 0,2–0,5%"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [],
+      "lactente": [],
+      "crianca": [],
+      "adolescente": [],
+      "adulto": [
+        {
+          "titulo": "Infiltração local para analgesia",
+          "descricaoDose": "1–3 mg/kg (máx 200 mg) com 0,2% a 0,5%",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 3,
+          "doseMaxima": 200,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Bloqueio de campo/nervo periférico/plano fascial",
+          "descricaoDose": "2–3 mg/kg (ajustar volume pela técnica)",
+          "dosePorKgMinima": 2,
+          "dosePorKgMaxima": 3,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Infiltração contínua por cateter",
+          "descricaoDose": "0,2–0,3% em infusão (5–10 mL/h) por até 72h",
+          "doseMinima": 10,
+          "doseMaxima": 30,
+          "unidade": "mg/h"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Infiltração local para analgesia",
+          "descricaoDose": "1–2 mg/kg (máx 150 mg) com 0,2% a 0,5%",
+          "dosePorKgMinima": 1,
+          "dosePorKgMaxima": 2,
+          "doseMaxima": 150,
+          "unidade": "mg/kg"
+        }
+      ]
+    },
+    "infusao": {
+      "unidade": "mg/h",
+      "doseMin": 10.0,
+      "doseMax": 30.0,
+      "opcoesConcentracoes": {
+        "0,2% (2 mg/mL)": 2.0,
+        "0,3% (3 mg/mL)": 3.0,
+        "0,5% (5 mg/mL)": 5.0
+      }
+    },
+    "off_label": {
+      "recem_nascido": "Uso limitado em recém-nascidos - considerar alternativas.",
+      "lactente": "Uso limitado em lactentes - considerar alternativas.",
+      "crianca": "Uso limitado em crianças - considerar alternativas.",
+      "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+      "adulto": "Uso off-label em algumas condições específicas.",
+      "idoso": "Em idosos, doses reduzidas são necessárias devido ao metabolismo alterado."
+    },
+    "observacoes": [
+      "Anestésico local tipo amida, menos cardiotóxico que bupivacaína.",
+      "Início em 10–20 min, duração de 2–6h.",
+      "Contraindicado em alergia a anestésicos tipo amida.",
+      "Monitorar toxicidade sistêmica: zumbido, parestesias, convulsões, arritmias.",
+      "Não usar com vasoconstritor em áreas terminais."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por CYP1A2.",
+      "Excreção renal de metabólitos ativos.",
+      "Meia-vida de 1-2 horas.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações medicamentosas com inibidores do CYP1A2."
+    ]
+  }
+}

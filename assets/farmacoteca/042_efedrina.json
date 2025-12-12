@@ -1,0 +1,225 @@
+{
+  "efedrina": {
+    "nome": "Efedrina",
+    "idBulario": "efedrina",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 30 mg/mL - 1 mL",
+        "observacao": "uso IV/IM"
+      },
+      {
+        "nome": "Ampola 50 mg/mL - 1 mL",
+        "observacao": "uso IV/IM"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "Uso direto IV",
+        "observacao": "30 mg/mL"
+      },
+      {
+        "nome": "Uso direto IV",
+        "observacao": "50 mg/mL"
+      },
+      {
+        "nome": "Diluir em 10 mL SF",
+        "observacao": "3 mg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Hipotensão intraoperatória",
+          "descricaoDose": "0,1–0,3 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "0,05–0,2 mg/kg IV",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg/kg"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Hipotensão intraoperatória",
+          "descricaoDose": "0,1–0,3 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "0,05–0,2 mg/kg IV",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Hipotensão pós-anestésica",
+          "descricaoDose": "0,1–0,25 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.25,
+          "unidade": "mg/kg"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Hipotensão intraoperatória",
+          "descricaoDose": "0,1–0,3 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "0,05–0,2 mg/kg IV",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Hipotensão pós-anestésica",
+          "descricaoDose": "0,1–0,25 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.25,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,15–0,4 mg/kg IV",
+          "dosePorKgMinima": 0.15,
+          "dosePorKgMaxima": 0.4,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Hipotensão intraoperatória",
+          "descricaoDose": "0,1–0,3 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.3,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "0,05–0,2 mg/kg IV",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Hipotensão pós-anestésica",
+          "descricaoDose": "0,1–0,25 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.25,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,15–0,4 mg/kg IV",
+          "dosePorKgMinima": 0.15,
+          "dosePorKgMaxima": 0.4,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Hipotensão intraoperatória",
+          "descricaoDose": "5–25 mg IV",
+          "doseMinima": 5,
+          "doseMaxima": 25,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "5–15 mg IV",
+          "doseMinima": 5,
+          "doseMaxima": 15,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Hipotensão pós-anestésica",
+          "descricaoDose": "10–25 mg IV",
+          "doseMinima": 10,
+          "doseMaxima": 25,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "10–50 mg IV",
+          "doseMinima": 10,
+          "doseMaxima": 50,
+          "unidade": "mg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Hipotensão intraoperatória",
+          "descricaoDose": "3–15 mg IV",
+          "doseMinima": 3,
+          "doseMaxima": 15,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Bradicardia",
+          "descricaoDose": "3–10 mg IV",
+          "doseMinima": 3,
+          "doseMaxima": 10,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Hipotensão pós-anestésica",
+          "descricaoDose": "5–15 mg IV",
+          "doseMinima": 5,
+          "doseMaxima": 15,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "5–25 mg IV",
+          "doseMinima": 5,
+          "doseMaxima": 25,
+          "unidade": "mg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para hipotensão intraoperatória em recém-nascidos. Monitorização rigorosa da pressão arterial e frequência cardíaca necessária.",
+      "lactente": "Suporte hemodinâmico em lactentes é off-label mas utilizado na prática clínica pediátrica para hipotensão intraoperatória e bradicardia.",
+      "crianca": "Uso para suporte hemodinâmico em crianças é off-label mas prática estabelecida. Efeitos vasopressores e cronotrópicos bem documentados.",
+      "adolescente": "Suporte hemodinâmico para hipotensão em adolescentes é off-label, porém respaldado por evidências clínicas em anestesia.",
+      "adulto": "Uso para suporte hemodinâmico é off-label mas prática estabelecida. Efeitos vasopressores e cronotrópicos bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos cardiovasculares. Suporte hemodinâmico é off-label mas seguro com doses reduzidas e monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "Uso direto 30 mg/mL": 30,
+        "Uso direto 50 mg/mL": 50,
+        "Diluição 3 mg/mL": 3
+      },
+      "unidade": "mg",
+      "doseMin": 3,
+      "doseMax": 50
+    },
+    "observacoes": [
+      "Vasopressor e cronotrópico de ação rápida.",
+      "Efeito adrenérgico indireto e direto.",
+      "Monitorar pressão arterial e frequência cardíaca constantemente.",
+      "Risco de hipertensão e taquicardia em altas doses.",
+      "Usar com cautela em pacientes com cardiopatia isquêmica.",
+      "Pode causar nervosismo e tremores.",
+      "Interage com outros simpatomiméticos."
+    ],
+    "metabolismo": [
+      "Metabolização hepática parcial.",
+      "Excreção renal principalmente inalterada.",
+      "Meia-vida de 3-6 horas.",
+      "Usar com cautela em disfunção renal.",
+      "Interações com inibidores da MAO e antidepressivos tricíclicos."
+    ]
+  }
+}

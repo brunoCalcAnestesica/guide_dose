@@ -1,0 +1,93 @@
+{
+    "ocitocina": {
+        "nome": "Ocitocina",
+        "idBulario": "ocitocina",
+        "apresentacoes": [
+            {
+                "nome": "Ampola 5 UI/mL - 1 mL",
+                "observacao": "uso IV ou IM"
+            },
+            {
+                "nome": "Ampola 10 UI/mL - 1 mL",
+                "observacao": "uso IV ou IM"
+            }
+        ],
+        "preparo": [
+            {
+                "nome": "10 UI em 500 mL SG 5% ou SF 0,9%",
+                "observacao": "20 mUI/mL"
+            },
+            {
+                "nome": "20 UI em 1000 mL SG 5% ou SF 0,9%",
+                "observacao": "20 mUI/mL"
+            },
+            {
+                "nome": "30 UI em 500 mL SG 5% ou SF 0,9%",
+                "observacao": "60 mUI/mL (uso em hemorragia)"
+            }
+        ],
+        "indicacoes": {
+            "adulto": [
+                {
+                    "titulo": "Indução do trabalho de parto",
+                    "descricaoDose": "1–2 mUI/min IV, aumentar 1–2 mUI a cada 30–60 min (máx 20 mUI/min)",
+                    "doseMinima": 1,
+                    "doseMaxima": 20,
+                    "unidade": "mUI/min"
+                },
+                {
+                    "titulo": "Hemorragia pós-parto (HPP)",
+                    "descricaoDose": "10–40 UI em 500–1000 mL IV infusão rápida ou 10 UI IM",
+                    "doseFixa": "10-40 UI IV ou 10 UI IM",
+                    "unidade": "UI"
+                },
+                {
+                    "titulo": "Cesárea (profilaxia HPP)",
+                    "descricaoDose": "3–5 UI IV lenta ou 10 UI IM após expulsão placentária",
+                    "doseFixa": "3-5 UI IV ou 10 UI IM",
+                    "unidade": "UI"
+                },
+                {
+                    "titulo": "Aborto incompleto",
+                    "descricaoDose": "10 UI em 500 mL IV infusão a 20–40 mUI/min",
+                    "doseMinima": 20,
+                    "doseMaxima": 40,
+                    "unidade": "mUI/min"
+                }
+            ]
+        },
+        "off_label": {
+            "adulto": "Uso exclusivamente obstétrico. Contraindicado fora do contexto obstétrico e em outras faixas etárias."
+        },
+        "infusao": {
+            "opcoesConcentracoes": {
+                "10 UI em 500 mL (20 mUI/mL)": 20,
+                "20 UI em 1000 mL (20 mUI/mL)": 20,
+                "30 UI em 500 mL (60 mUI/mL)": 60
+            },
+            "unidade": "mUI/min",
+            "doseMin": 1,
+            "doseMax": 40
+        },
+        "observacoes": [
+            "Hormônio peptídico natural, uterotônico.",
+            "Estimula contração uterina e ejeção de leite.",
+            "USO EXCLUSIVAMENTE OBSTÉTRICO.",
+            "Monitorar frequência e duração das contrações.",
+            "Monitorar frequência cardíaca fetal continuamente.",
+            "Risco de hiperestimulação uterina e sofrimento fetal.",
+            "Risco de hiponatremia (uso prolongado em altas doses).",
+            "Contraindicado em desproporção cefalopélvica.",
+            "Contraindicado em sofrimento fetal.",
+            "Interage com vasopressores (pode causar hipertensão)."
+        ],
+        "metabolismo": [
+            "Metabolização rápida por oxitocinases.",
+            "Meia-vida curta (3-10 minutos).",
+            "Excreção renal de metabólitos.",
+            "Efeito uterotônico dose-dependente.",
+            "Pode causar retenção hídrica (efeito antidiurético)."
+        ]
+    }
+}
+

@@ -1,0 +1,125 @@
+{
+  "nome": "Insulina Regular",
+  "classe": "Controle Glicêmico",
+  "apresentacao": "Frasco-ampola 100 UI/mL (10 mL)",
+  "marca": "",
+  "preparo": [
+    {
+      "nome": "50 UI em 50mL SF 0,9%",
+      "observacao": "1 UI/mL (infusão contínua)"
+    },
+    {
+      "nome": "Bolus IV direto sem diluição (1–10 UI)",
+      "observacao": ""
+    }
+  ],
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Cetoacidose diabética",
+        "dose": "0,1 UI/kg IV bolus + 0,1 UI/kg/h em infusão contínua",
+        "unidade": "UI/kg"
+      },
+      {
+        "titulo": "Estado hiperglicêmico hiperosmolar",
+        "dose": "0,1 UI/kg/h EV contínua (sem bolus)",
+        "unidade": "UI/kg/h"
+      },
+      {
+        "titulo": "Hipercalemia (adjuvante com glicose)",
+        "dose": "10 UI IV bolus com 50mL de G50%",
+        "unidade": "UI"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Cetoacidose diabética",
+        "dose": "0,1 UI/kg IV bolus + 0,1 UI/kg/h em infusão contínua",
+        "unidade": "UI/kg"
+      },
+      {
+        "titulo": "Estado hiperglicêmico hiperosmolar",
+        "dose": "0,1 UI/kg/h EV contínua (sem bolus)",
+        "unidade": "UI/kg/h"
+      },
+      {
+        "titulo": "Hipercalemia (adjuvante com glicose)",
+        "dose": "10 UI IV bolus com 50mL de G50%",
+        "unidade": "UI"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Cetoacidose diabética",
+        "dose": "0,1 UI/kg IV bolus + 0,1 UI/kg/h em infusão contínua",
+        "unidade": "UI/kg"
+      },
+      {
+        "titulo": "Estado hiperglicêmico hiperosmolar",
+        "dose": "0,1 UI/kg/h EV contínua (sem bolus)",
+        "unidade": "UI/kg/h"
+      },
+      {
+        "titulo": "Hipercalemia (adjuvante com glicose)",
+        "dose": "10 UI IV bolus com 50mL de G50%",
+        "unidade": "UI"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Cetoacidose diabética",
+        "dose": "0,1 UI/kg IV bolus + 0,1 UI/kg/h em infusão contínua",
+        "unidade": "UI/kg"
+      },
+      {
+        "titulo": "Estado hiperglicêmico hiperosmolar",
+        "dose": "0,1 UI/kg/h EV contínua (sem bolus)",
+        "unidade": "UI/kg/h"
+      },
+      {
+        "titulo": "Hipercalemia (adjuvante com glicose)",
+        "dose": "10 UI IV bolus com 50mL de G50%",
+        "unidade": "UI"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Cetoacidose diabética",
+        "dose": "0,1 UI/kg IV bolus + 0,1 UI/kg/h em infusão contínua",
+        "unidade": "UI/kg"
+      },
+      {
+        "titulo": "Estado hiperglicêmico hiperosmolar",
+        "dose": "0,1 UI/kg/h EV contínua (sem bolus)",
+        "unidade": "UI/kg/h"
+      },
+      {
+        "titulo": "Hipercalemia (adjuvante com glicose)",
+        "dose": "10 UI IV bolus com 50mL de G50%",
+        "unidade": "UI"
+      }
+    ]
+  },
+  "infusao": {
+    "unidade": "UI/kg/h",
+    "doseMin": 0.05,
+    "doseMax": 0.2,
+    "opcoesConcentracoes": {
+      "50 UI/50mL (1 UI/mL)": 1
+    }
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Insulina de ação rápida, única indicada para uso IV.",
+    "Controle rigoroso da glicemia capilar a cada 1 hora.",
+    "Monitorar potássio sérico – risco de hipocalemia grave.",
+    "Diluir apenas em SF 0,9%, preparo recente.",
+    "Na hipercalemia, sempre associar à glicose IV para evitar hipoglicemia."
+  ]
+}

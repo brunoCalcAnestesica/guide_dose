@@ -1,0 +1,42 @@
+name: medcalc
+description: Aplicativo médico para cálculos clínicos e farmacológicos.
+
+publish_to: 'none'
+
+version: 2.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  flutter_localizations:
+    sdk: flutter
+
+  intl: ^0.20.2
+  string_similarity: ^2.0.0
+  expansion_tile_card: ^3.0.0
+  shared_preferences: ^2.2.2
+  # Dependências do módulo PCR
+  url_launcher: ^6.2.5
+  cupertino_icons: ^1.0.8
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/farmacoteca/
+    - assets/medicamentos/
+    - assets/data/inducoes.json
+    - assets/data/condicoes/
+    # Assets do módulo PCR
+    - assets/pcr/images/
+    - assets/pcr/sounds/

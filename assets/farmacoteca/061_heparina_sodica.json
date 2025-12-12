@@ -1,0 +1,62 @@
+{
+  "nome": "Heparina Sódica",
+  "classe": "Anticoagulante",
+  "apresentacao": "Ampola 5.000 UI/mL ou 25.000 UI/5mL",
+  "marca": "Liquemine®, genéricos",
+  "preparo": [
+    {
+      "nome": "Via IV direta (bolus), infusão contínua ou SC",
+      "observacao": ""
+    },
+    {
+      "nome": "Diluir em 100–250mL SG 5% ou SF 0,9% (para infusão)",
+      "observacao": ""
+    }
+  ],
+  "indicacoes": {
+    "neonato": [],
+    "lactente": [],
+    "crianca": [],
+    "adolescente": [],
+    "adulto": [
+      {
+        "titulo": "TEV (TVP/TEP) – tratamento",
+        "dose": "Bolus 5.000 UI IV → infusão contínua 18 UI/kg/h com TTPa alvo",
+        "unidade": "UI/kg/h"
+      },
+      {
+        "titulo": "Síndrome coronariana aguda",
+        "dose": "60 UI/kg IV bolus (máx 5.000 UI) + 12–15 UI/kg/h IV contínuo",
+        "unidade": "UI/kg/h"
+      },
+      {
+        "titulo": "Profilaxia de TEV (SC)",
+        "dose": "5.000 UI SC a cada 8–12h (não monitorar TTPa)",
+        "unidade": "UI"
+      }
+    ]
+  },
+  "infusao": {
+    "unidade": "UI/kg/h",
+    "doseMin": 12,
+    "doseMax": 18,
+    "opcoesConcentracoes": {
+      "25.000 UI/250mL (100 UI/mL)": 100,
+      "25.000 UI/500mL (50 UI/mL)": 50
+    }
+  },
+  "off_label": {
+    "neonato": "Uso limitado em neonatos - considerar alternativas.",
+    "lactente": "Uso limitado em lactentes - considerar alternativas.",
+    "crianca": "Uso limitado em crianças - considerar alternativas.",
+    "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Anticoagulante parenteral via antitrombina III (inibe trombina e fator Xa).",
+    "Necessário monitorar TTPa (alvo: 1,5 a 2,5x controle) nas infusões.",
+    "Reversível com protamina (1mg para cada 100 UI de heparina nas últimas 60 min).",
+    "Risco de TIH (trombocitopenia induzida por heparina) — monitorar plaquetas.",
+    "Preferir enoxaparina quando possível em situações ambulatoriais ou menor risco hemorrágico."
+  ]
+}

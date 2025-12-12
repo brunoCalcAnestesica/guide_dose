@@ -1,0 +1,58 @@
+{
+  "nome": "Enoxaparina",
+  "classe": "Anticoagulante",
+  "apresentacao": "Seringa pré-preenchida 20, 40, 60, 80, 100, 120mg",
+  "marca": "Clexane®, Versa®",
+  "preparo": [
+    {
+      "nome": "Aplicação SC profunda na parede abdominal ou face externa da coxa",
+      "observacao": ""
+    },
+    {
+      "nome": "Não massagear o local após aplicação",
+      "observacao": ""
+    }
+  ],
+  "indicacoes": {
+    "neonato": [],
+    "lactente": [],
+    "crianca": [],
+    "adolescente": [],
+    "adulto": [
+      {
+        "titulo": "Profilaxia de trombose (clínico ou pós-operatório)",
+        "dose": "40mg SC 1x/dia (ou 20mg 1x/dia se IR grave)",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Tratamento de TEV (TVP/TEP)",
+        "dose": "1mg/kg SC a cada 12h ou 1,5mg/kg 1x/dia",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Síndrome coronariana aguda (SCA)",
+        "dose": "1mg/kg SC a cada 12h por 2–8 dias (máx 100mg/dose)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Trombose venosa em pediatria (off-label)",
+        "dose": "1,5mg/kg SC 1x/dia ou 1mg/kg a cada 12h (ajustar conforme anti-Xa)",
+        "unidade": "mg/kg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso limitado em neonatos - considerar alternativas.",
+    "lactente": "Uso limitado em lactentes - considerar alternativas.",
+    "crianca": "Uso limitado em crianças - considerar alternativas.",
+    "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Heparina de baixo peso molecular com ação anti-Xa predominante.",
+    "Não requer monitoramento de rotina se função renal normal.",
+    "Ajustar dose se ClCr < 30 mL/min.",
+    "Contraindicada em sangramento ativo, TIH e neurocirurgias recentes.",
+    "Antídoto parcial: protamina (1mg para cada 1mg de enoxaparina se <8h da dose)."
+  ]
+}

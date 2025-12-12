@@ -1,0 +1,226 @@
+{
+  "alfentanil": {
+    "nome": "Alfentanil",
+    "idBulario": "alfentanil",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 0,5 mg/mL - 2 mL",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Ampola 1 mg/2 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "5 mg em 50 mL SF 0,9%",
+        "observacao": "100 mcg/mL"
+      },
+      {
+        "nome": "10 mg em 100 mL SF 0,9%",
+        "observacao": "100 mcg/mL"
+      },
+      {
+        "nome": "20 mg em 200 mL SF 0,9%",
+        "observacao": "100 mcg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Analgesia em UTI neonatal",
+          "descricaoDose": "5–10 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "10–20 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/h"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Analgesia em UTI pediátrica",
+          "descricaoDose": "5–10 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "10–20 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "5–15 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/h"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Analgesia em UTI pediátrica",
+          "descricaoDose": "5–10 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "10–20 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "5–15 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "20–50 mcg/kg IV",
+          "dosePorKgMinima": 20,
+          "dosePorKgMaxima": 50,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Analgesia em UTI",
+          "descricaoDose": "5–10 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "10–20 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "5–15 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "20–50 mcg/kg IV",
+          "dosePorKgMinima": 20,
+          "dosePorKgMaxima": 50,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Analgesia em UTI",
+          "descricaoDose": "5–10 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "10–20 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 20,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "5–15 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "20–50 mcg/kg IV",
+          "dosePorKgMinima": 20,
+          "dosePorKgMaxima": 50,
+          "unidade": "mcg/kg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Analgesia em UTI",
+          "descricaoDose": "3–8 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 3,
+          "dosePorKgMaxima": 8,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "8–15 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 8,
+          "dosePorKgMaxima": 15,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Analgesia pós-operatória",
+          "descricaoDose": "3–10 mcg/kg/h IV infusão",
+          "dosePorKgMinima": 3,
+          "dosePorKgMaxima": 10,
+          "unidade": "mcg/kg/h"
+        },
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "15–35 mcg/kg IV",
+          "dosePorKgMinima": 15,
+          "dosePorKgMaxima": 35,
+          "unidade": "mcg/kg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para analgesia em recém-nascidos. Monitorização rigorosa da função respiratória necessária.",
+      "lactente": "Analgesia em lactentes é off-label mas utilizada na prática clínica pediátrica para controle de dor e sedação.",
+      "crianca": "Uso para analgesia em procedimentos é off-label mas prática estabelecida. Efeitos analgésicos e sedativos bem documentados.",
+      "adolescente": "Analgesia para procedimentos em adolescentes é off-label, porém respaldada por evidências clínicas de segurança e eficácia.",
+      "adulto": "Uso para analgesia em procedimentos é off-label mas prática estabelecida. Efeitos analgésicos e sedativos bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos opioides. Analgesia é off-label mas segura com doses reduzidas e monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "5 mg/50 mL (100 mcg/mL)": 100,
+        "10 mg/100 mL (100 mcg/mL)": 100,
+        "20 mg/200 mL (100 mcg/mL)": 100
+      },
+      "unidade": "mcg/kg/h",
+      "doseMin": 3,
+      "doseMax": 20
+    },
+    "observacoes": [
+      "Opioide sintético de ação ultrarrápida.",
+      "Efeitos analgésicos e sedativos potentes.",
+      "Monitorar função respiratória constantemente.",
+      "Risco de depressão respiratória.",
+      "Pode causar rigidez muscular.",
+      "Interage com outros depressor do SNC.",
+      "Contraindicação em asma grave.",
+      "Antagonista: naloxona."
+    ],
+    "metabolismo": [
+      "Metabolização hepática extensa por CYP3A4.",
+      "Meia-vida de 1-2 horas.",
+      "Excreção renal de metabólitos inativos.",
+      "Cuidado em disfunção hepática e renal.",
+      "Interações com inibidores e indutores do CYP3A4."
+    ]
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "atropina": {
+    "nome": "Atropina",
+    "idBulario": "atropina",
+    "classe": "Anticolinérgico",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 0,5 mg/mL (1 mL)",
+        "observacao": "uso IV/IM/SC"
+      },
+      {
+        "nome": "Ampola 1 mg/mL (1 mL)",
+        "observacao": "uso IV/IM/SC"
+      }
+    ],
+    "marca": "Atropina Sulfato®",
+    "preparo": [
+      {
+        "nome": "Uso IV direto em bolus ou diluída em SF 0,9%",
+        "observacao": ""
+      },
+      {
+        "nome": "Pode ser usada também por via IM, SC ou endotraqueal (em emergências)",
+        "observacao": ""
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Bradicardia ou RCP pediátrica",
+          "descricaoDose": "0,02 mg/kg IV (mín 0,1 mg – máx 0,5 mg por dose)",
+          "dosePorKgMinima": 0.02,
+          "dosePorKgMaxima": 0.02,
+          "doseMinima": 0.1,
+          "doseMaxima": 0.5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Pré-medicação anestésica",
+          "descricaoDose": "0,01–0,02 mg/kg IM 30–60 min antes da indução (máx 1 mg)",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.02,
+          "doseMaxima": 1,
+          "unidade": "mg/kg"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Bradicardia ou RCP pediátrica",
+          "descricaoDose": "0,02 mg/kg IV (mín 0,1 mg – máx 0,5 mg por dose)",
+          "dosePorKgMinima": 0.02,
+          "dosePorKgMaxima": 0.02,
+          "doseMinima": 0.1,
+          "doseMaxima": 0.5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Pré-medicação anestésica",
+          "descricaoDose": "0,01–0,02 mg/kg IM 30–60 min antes da indução (máx 1 mg)",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.02,
+          "doseMaxima": 1,
+          "unidade": "mg/kg"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Bradicardia ou RCP pediátrica",
+          "descricaoDose": "0,02 mg/kg IV (mín 0,1 mg – máx 0,5 mg por dose)",
+          "dosePorKgMinima": 0.02,
+          "dosePorKgMaxima": 0.02,
+          "doseMinima": 0.1,
+          "doseMaxima": 0.5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Pré-medicação anestésica",
+          "descricaoDose": "0,01–0,02 mg/kg IM 30–60 min antes da indução (máx 1 mg)",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.02,
+          "doseMaxima": 1,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Bradicardia ou RCP pediátrica",
+          "descricaoDose": "0,02 mg/kg IV (mín 0,1 mg – máx 0,5 mg por dose)",
+          "dosePorKgMinima": 0.02,
+          "dosePorKgMaxima": 0.02,
+          "doseMinima": 0.1,
+          "doseMaxima": 0.5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Pré-medicação anestésica",
+          "descricaoDose": "0,01–0,02 mg/kg IM 30–60 min antes da indução (máx 1 mg)",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.02,
+          "doseMaxima": 1,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Bradicardia sintomática",
+          "descricaoDose": "0,5 mg IV a cada 3–5 min (máximo 3 mg)",
+          "doseMinima": 0.5,
+          "doseMaxima": 3,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Intoxicação por organofosforado ou carbamato",
+          "descricaoDose": "2–5 mg IV lenta a cada 5–10 min até sinais de atropinização",
+          "doseMinima": 2,
+          "doseMaxima": 5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Pré-medicação anestésica",
+          "descricaoDose": "0,01–0,02 mg/kg IM 30–60 min antes da indução (máx 1 mg)",
+          "dosePorKgMinima": 0.01,
+          "dosePorKgMaxima": 0.02,
+          "doseMaxima": 1,
+          "unidade": "mg/kg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Bradicardia sintomática",
+          "descricaoDose": "0,3–0,5 mg IV a cada 3–5 min (máximo 2 mg)",
+          "doseMinima": 0.3,
+          "doseMaxima": 2,
+          "unidade": "mg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label em algumas condições específicas.",
+      "lactente": "Uso off-label em algumas condições específicas.",
+      "crianca": "Uso off-label em algumas condições específicas.",
+      "adolescente": "Uso off-label em algumas condições específicas.",
+      "adulto": "Uso off-label em algumas condições específicas.",
+      "idoso": "Em idosos, maior risco de efeitos colaterais. Uso off-label mas seguro com doses reduzidas."
+    },
+    "observacoes": [
+      "Antagonista muscarínico → inibe ação vagal e secreções.",
+      "Primeira escolha para bradicardias sintomáticas e intoxicações colinérgicas.",
+      "Sinais de atropinização: taquicardia, midríase, pele seca, confusão.",
+      "Em intoxicações, manter dose até controle de secreções e FC >80 bpm.",
+      "Cuidado em idosos e cardiopatas: risco de arritmias e retenção urinária."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por hidrólise.",
+      "Excreção renal de metabólitos ativos.",
+      "Meia-vida de 2-4 horas.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações medicamentosas com outros anticolinérgicos."
+    ]
+  }
+}

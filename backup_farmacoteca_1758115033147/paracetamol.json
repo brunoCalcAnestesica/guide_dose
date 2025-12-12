@@ -1,0 +1,233 @@
+{
+  "paracetamol": {
+    "nome": "Paracetamol",
+    "idBulario": "paracetamol",
+    "apresentacoes": [
+      {
+        "nome": "Comprimido 500 mg",
+        "observacao": "uso oral"
+      },
+      {
+        "nome": "Comprimido 750 mg",
+        "observacao": "uso oral"
+      },
+      {
+        "nome": "Comprimido 1 g",
+        "observacao": "uso oral"
+      },
+      {
+        "nome": "Xarope 200 mg/5 mL",
+        "observacao": "uso oral"
+      },
+      {
+        "nome": "Ampola 100 mg/mL - 5 mL",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Ampola 1000 mg/100 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "1000 mg em 100 mL SF 0,9%",
+        "observacao": "10 mg/mL"
+      },
+      {
+        "nome": "2000 mg em 200 mL SF 0,9%",
+        "observacao": "10 mg/mL"
+      },
+      {
+        "nome": "4000 mg em 400 mL SF 0,9%",
+        "observacao": "10 mg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Analgesia e antitérmico",
+          "descricaoDose": "10–15 mg/kg/dose IV",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor pós-operatória",
+          "descricaoDose": "12–15 mg/kg/dose IV",
+          "dosePorKgMinima": 12,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Analgesia e antitérmico",
+          "descricaoDose": "10–15 mg/kg/dose IV",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor pós-operatória",
+          "descricaoDose": "12–15 mg/kg/dose IV",
+          "dosePorKgMinima": 12,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Febre alta",
+          "descricaoDose": "15 mg/kg/dose IV",
+          "dosePorKgMinima": 15,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Analgesia e antitérmico",
+          "descricaoDose": "10–15 mg/kg/dose IV",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor pós-operatória",
+          "descricaoDose": "12–15 mg/kg/dose IV",
+          "dosePorKgMinima": 12,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Febre alta",
+          "descricaoDose": "15 mg/kg/dose IV",
+          "dosePorKgMinima": 15,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor crônica",
+          "descricaoDose": "10–12 mg/kg/dose IV",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 12,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Analgesia e antitérmico",
+          "descricaoDose": "10–15 mg/kg/dose IV",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor pós-operatória",
+          "descricaoDose": "12–15 mg/kg/dose IV",
+          "dosePorKgMinima": 12,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Febre alta",
+          "descricaoDose": "15 mg/kg/dose IV",
+          "dosePorKgMinima": 15,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor crônica",
+          "descricaoDose": "10–12 mg/kg/dose IV",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 12,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Analgesia e antitérmico",
+          "descricaoDose": "10–15 mg/kg/dose IV",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor pós-operatória",
+          "descricaoDose": "12–15 mg/kg/dose IV",
+          "dosePorKgMinima": 12,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Febre alta",
+          "descricaoDose": "15 mg/kg/dose IV",
+          "dosePorKgMinima": 15,
+          "dosePorKgMaxima": 15,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor crônica",
+          "descricaoDose": "10–12 mg/kg/dose IV",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 12,
+          "unidade": "mg/kg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Analgesia e antitérmico",
+          "descricaoDose": "8–12 mg/kg/dose IV",
+          "dosePorKgMinima": 8,
+          "dosePorKgMaxima": 12,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor pós-operatória",
+          "descricaoDose": "10–12 mg/kg/dose IV",
+          "dosePorKgMinima": 10,
+          "dosePorKgMaxima": 12,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Febre alta",
+          "descricaoDose": "12 mg/kg/dose IV",
+          "dosePorKgMinima": 12,
+          "dosePorKgMaxima": 12,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Dor crônica",
+          "descricaoDose": "8–10 mg/kg/dose IV",
+          "dosePorKgMinima": 8,
+          "dosePorKgMaxima": 10,
+          "unidade": "mg/kg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para analgesia em recém-nascidos. Monitorização rigorosa da função hepática necessária.",
+      "lactente": "Analgesia em lactentes é off-label mas utilizada na prática clínica pediátrica para controle de dor e febre.",
+      "crianca": "Uso para dor crônica é off-label mas prática estabelecida. Efeitos analgésicos e antitérmicos bem documentados.",
+      "adolescente": "Analgesia para dor crônica em adolescentes é off-label, porém respaldada por evidências clínicas de segurança e eficácia.",
+      "adulto": "Uso para dor crônica é off-label mas prática estabelecida. Efeitos analgésicos e antitérmicos bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos hepáticos. Analgesia é off-label mas segura com doses reduzidas e monitorização adequada."
+    },
+
+    "observacoes": [
+      "Analgésico e antitérmico.",
+      "Dose máxima diária: 4 g (adultos) ou 75 mg/kg (crianças).",
+      "Monitorar função hepática em uso prolongado.",
+      "Contraindicação em hepatopatia grave.",
+      "Interage com varfarina (aumenta INR).",
+      "Evitar em jejum prolongado.",
+      "Pode causar hepatotoxicidade em overdose.",
+      "Seguro na gravidez e lactação."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por CYP2E1.",
+      "Meia-vida de 2-4 horas.",
+      "Excreção renal de metabólitos.",
+      "Cuidado em disfunção hepática.",
+      "Interações com álcool e outros hepatotóxicos."
+    ]
+  }
+}

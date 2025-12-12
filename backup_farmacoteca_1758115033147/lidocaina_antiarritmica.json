@@ -1,0 +1,84 @@
+{
+  "nome": "Lidocaína Antiarritmica",
+  "classe": "Antiarritmico",
+  "apresentacao": "Ampola 20mg/mL (2mL ou 5mL)",
+  "marca": "Lidocaína sem vasoconstrictor, uso EV",
+  "preparo": [
+    {
+      "nome": "IV direto lento (1-2 min) ou diluir em 100mL SG5% para infusão",
+      "observacao": ""
+    }
+  ],
+  "indicacoes": {
+    "neonato": [],
+    "lactente": [
+      {
+        "titulo": "Taquiarritmias ventriculares pediátricas",
+        "dose": "1 mg/kg IV lento. Repetir 0,5–1 mg/kg até máx 3 mg/kg",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Infusão contínua pediátrica",
+        "dose": "20–50 mcg/kg/min",
+        "unidade": "mcg/kg/min"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Taquiarritmias ventriculares pediátricas",
+        "dose": "1 mg/kg IV lento. Repetir 0,5–1 mg/kg até máx 3 mg/kg",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Infusão contínua pediátrica",
+        "dose": "20–50 mcg/kg/min",
+        "unidade": "mcg/kg/min"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Taquiarritmias ventriculares pediátricas",
+        "dose": "1 mg/kg IV lento. Repetir 0,5–1 mg/kg até máx 3 mg/kg",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Infusão contínua pediátrica",
+        "dose": "20–50 mcg/kg/min",
+        "unidade": "mcg/kg/min"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Taquicardia ventricular / FV pós-choque",
+        "dose": "Bolus de 1–1,5 mg/kg IV lento. Repetir 0,5–0,75 mg/kg a cada 5-10 min até dose total de 3mg/kg",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Infusão contínua (manutenção)",
+        "dose": "1–4 mg/min IV em bomba",
+        "unidade": "mg/min"
+      }
+    ]
+  },
+  "infusao": {
+    "unidade": "mg/min",
+    "doseMin": 1.0,
+    "doseMax": 4.0,
+    "opcoesConcentracoes": {
+      "20mg/mL": 20
+    }
+  },
+  "off_label": {
+    "neonato": "Uso limitado em neonatos - considerar alternativas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Classe Ib antiarrítmico: atua nos canais de sódio.",
+    "Indicado principalmente para arritmias ventriculares.",
+    "Monitorar sinais de toxicidade: parestesias, confusão, tremores, convulsões.",
+    "Ajustar dose na insuficiência hepática ou disfunção cardíaca grave."
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "salbutamol": {
+    "nome": "Salbutamol",
+    "idBulario": "salbutamol",
+    "classe": "Broncodilatador",
+    "apresentacoes": [
+      {
+        "nome": "Solução inalatória 5 mg/mL (2,5 mg/0,5 mL)",
+        "observacao": "uso nebulização"
+      },
+      {
+        "nome": "Ampola 2,5 mg/0,5 mL",
+        "observacao": "uso nebulização"
+      }
+    ],
+    "marca": "Aerolin®, Sabumol®, genéricos",
+    "preparo": [
+      {
+        "nome": "Diluir em 3–4 mL SF 0,9% e nebulizar por 5–10 min",
+        "observacao": ""
+      },
+      {
+        "nome": "Pode ser associado a ipatrópio",
+        "observacao": ""
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [],
+      "lactente": [
+        {
+          "titulo": "Broncoespasmo em crianças (asma / bronquiolite)",
+          "descricaoDose": "0,15 mg/kg por nebulização (mín 1,25 mg – máx 5 mg)",
+          "dosePorKgMinima": 0.15,
+          "dosePorKgMaxima": 0.15,
+          "doseMinima": 1.25,
+          "doseMaxima": 5,
+          "unidade": "mg/kg"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Broncoespasmo em crianças (asma / bronquiolite)",
+          "descricaoDose": "0,15 mg/kg por nebulização (mín 1,25 mg – máx 5 mg)",
+          "dosePorKgMinima": 0.15,
+          "dosePorKgMaxima": 0.15,
+          "doseMinima": 1.25,
+          "doseMaxima": 5,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Broncoespasmo em crianças (asma / bronquiolite)",
+          "descricaoDose": "0,15 mg/kg por nebulização (mín 1,25 mg – máx 5 mg)",
+          "dosePorKgMinima": 0.15,
+          "dosePorKgMaxima": 0.15,
+          "doseMinima": 1.25,
+          "doseMaxima": 5,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Crise asmática / broncoespasmo em DPOC",
+          "descricaoDose": "2,5–5 mg por nebulização a cada 20 min até resposta; depois a cada 4–6h",
+          "doseMinima": 2.5,
+          "doseMaxima": 5,
+          "unidade": "mg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Crise asmática / broncoespasmo em DPOC",
+          "descricaoDose": "2,5–5 mg por nebulização a cada 20 min até resposta; depois a cada 4–6h",
+          "doseMinima": 2.5,
+          "doseMaxima": 5,
+          "unidade": "mg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso limitado em recém-nascidos - considerar alternativas.",
+      "lactente": "Uso off-label em algumas condições específicas.",
+      "crianca": "Uso off-label em algumas condições específicas.",
+      "adolescente": "Uso off-label em algumas condições específicas.",
+      "adulto": "Uso off-label em algumas condições específicas.",
+      "idoso": "Em idosos, maior risco de efeitos colaterais. Uso off-label mas seguro com monitorização adequada."
+    },
+    "observacoes": [
+      "Agonista β2-adrenérgico seletivo, broncodilatador de ação rápida.",
+      "Início em 5 minutos, pico em 30 minutos, duração até 4–6h.",
+      "Pode causar taquicardia, tremores, hipocalemia e agitação.",
+      "Uso seguro em pediatria e em nebulizações combinadas com ipatrópio.",
+      "Monitorar FC, SatO₂ e eletrólitos nas crises graves."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por conjugação.",
+      "Excreção renal de metabólitos ativos.",
+      "Meia-vida de 3-6 horas.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações medicamentosas com outros β2-agonistas."
+    ]
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "nome": "Bicarbonato de Sódio",
+  "classe": "Eletrólitos Críticos",
+  "apresentacao": "Ampola 8,4% (1 mEq/mL – 10mL = 10 mEq)",
+  "marca": "Também disponível em 50mL",
+  "preparo": [
+    {
+      "nome": "Pode ser usado direto IV em bolus ou diluído em SG 5%",
+      "observacao": ""
+    },
+    {
+      "nome": "Evitar diluir em SF 0,9% – risco de precipitação",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mEq/h",
+    "doseMin": 5,
+    "doseMax": 50,
+    "opcoesConcentracoes": {
+      "50mEq/50mL (1mEq/mL)": 1000,
+      "100mEq/500mL SG 5% (0,2mEq/mL)": 200,
+      "150mEq/500mL SG 5% (0,3mEq/mL)": 300
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Acidose metabólica grave (pH < 7,1)",
+        "dose": "1–2 mEq/kg IV lenta (máximo 10 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55, máximo 10 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "1–2 mEq/kg IV lenta (máximo 10 mEq)",
+        "unidade": "mEq/kg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Acidose metabólica grave (pH < 7,1)",
+        "dose": "1–2 mEq/kg IV lenta (máximo 20 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55, máximo 20 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "1–2 mEq/kg IV lenta (máximo 20 mEq)",
+        "unidade": "mEq/kg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Acidose metabólica grave (pH < 7,1)",
+        "dose": "1–2 mEq/kg IV lenta (máximo 50 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55, máximo 50 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "1–2 mEq/kg IV lenta (máximo 50 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Acidose tubular renal tipo I",
+        "dose": "1–2 mEq/kg IV, ajustar conforme gasometria (máximo 50 mEq)",
+        "unidade": "mEq/kg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Acidose metabólica grave (pH < 7,1)",
+        "dose": "1–2 mEq/kg IV lenta (máximo 150 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55, máximo 150 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "1–2 mEq/kg IV lenta (máximo 150 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Alcalinização urinária",
+        "dose": "100–150 mEq em 1L SG5%, infundir 250–500 mL/h",
+        "unidade": "mEq"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Acidose metabólica grave (pH < 7,1)",
+        "dose": "1–2 mEq/kg IV lenta (máximo 150 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55, máximo 150 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "50 mEq IV em 5 minutos",
+        "unidade": "mEq"
+      },
+      {
+        "titulo": "Alcalinização urinária",
+        "dose": "100–150 mEq em 1L SG5%, infundir 250–500 mL/h",
+        "unidade": "mEq"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Alcalinizante sistêmico para acidose grave e intoxicações específicas.",
+    "Monitorar rigorosamente gasometria, eletrólitos (K+, Ca++, Na+), osmolaridade e função renal.",
+    "Pode causar hipernatremia, alcalose, hipocalemia e sobrecarga volêmica.",
+    "Contraindicado em alcalose metabólica e hipocalcemia não corrigida.",
+    "Incompatível com cloreto de cálcio, potássio e catecolaminérgicos.",
+    "Usar acesso central preferencialmente (osmolaridade elevada: 2000 mOsm/L).",
+    "Extravasamento → risco de necrose tecidual.",
+    "Limitar doses: adultos máximo 150 mEq, pediatria máximo 50 mEq por administração."
+  ]
+}

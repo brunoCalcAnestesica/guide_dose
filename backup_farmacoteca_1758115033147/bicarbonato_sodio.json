@@ -1,0 +1,126 @@
+{
+  "nome": "Bicarbonato de Sódio",
+  "classe": "Eletrólitos Críticos",
+  "apresentacao": "Ampola 8,4% (1 mEq/mL – 10mL = 10 mEq)",
+  "marca": "Também disponível em 50mL",
+  "preparo": [
+    {
+      "nome": "Pode ser usado direto IV em bolus ou diluído em SG 5%",
+      "observacao": ""
+    },
+    {
+      "nome": "Evitar diluir em SF 0,9% – risco de precipitação",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mEq/h",
+    "doseMin": 5,
+    "doseMax": 20,
+    "opcoesConcentracoes": {
+      "50mEq/50mL (1mEq/mL)": 1000,
+      "100mEq/500mL SG 5% (0,2mEq/mL)": 200
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Parada cardiorrespiratória (acidose metabólica)",
+        "dose": "1 mEq/kg em bolus IV (Ex: 1 ampola 50mL = 50 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "50–100 mEq IV lenta (com monitoramento contínuo)",
+        "unidade": "mEq"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Parada cardiorrespiratória (acidose metabólica)",
+        "dose": "1 mEq/kg em bolus IV (Ex: 1 ampola 50mL = 50 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "50–100 mEq IV lenta (com monitoramento contínuo)",
+        "unidade": "mEq"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Parada cardiorrespiratória (acidose metabólica)",
+        "dose": "1 mEq/kg em bolus IV (Ex: 1 ampola 50mL = 50 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "50–100 mEq IV lenta (com monitoramento contínuo)",
+        "unidade": "mEq"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Parada cardiorrespiratória (acidose metabólica)",
+        "dose": "1 mEq/kg em bolus IV (Ex: 1 ampola 50mL = 50 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "50–100 mEq IV lenta (com monitoramento contínuo)",
+        "unidade": "mEq"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Parada cardiorrespiratória (acidose metabólica)",
+        "dose": "1 mEq/kg em bolus IV (Ex: 1 ampola 50mL = 50 mEq)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Intoxicação por antidepressivos tricíclicos ou salicilatos",
+        "dose": "1–2 mEq/kg IV lenta + infusão contínua (pH alvo 7,45–7,55)",
+        "unidade": "mEq/kg"
+      },
+      {
+        "titulo": "Hipercalemia com alterações no ECG",
+        "dose": "50–100 mEq IV lenta (com monitoramento contínuo)",
+        "unidade": "mEq"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Alcalinizante sistêmico para acidose grave e intoxicações específicas.",
+    "Monitorar pH arterial e potássio sérico.",
+    "Pode causar hipernatremia, alcalose e sobrecarga volêmica.",
+    "Uso em PCR apenas se acidose metabólica evidente.",
+    "Extravasamento → risco de necrose tecidual."
+  ]
+}

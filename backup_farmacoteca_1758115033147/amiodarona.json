@@ -1,0 +1,272 @@
+{
+  "amiodarona": {
+    "nome": "Amiodarona",
+    "idBulario": "amiodarona",
+    "classe": "Antiarrítmico Classe III",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 150 mg/3 mL",
+        "observacao": "concentração 50 mg/mL, uso IV"
+      },
+      {
+        "nome": "Ampola 300 mg/6 mL",
+        "observacao": "concentração 50 mg/mL, uso IV"
+      },
+      {
+        "nome": "Comprimido 200 mg",
+        "observacao": "uso oral, revestido"
+      },
+      {
+        "nome": "Comprimido 400 mg",
+        "observacao": "uso oral, revestido"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "Bolus: 150 mg puro (1 ampola)",
+        "observacao": "administrar lentamente em 10 minutos"
+      },
+      {
+        "nome": "Bolus: diluir 150 mg em 20 mL SG5%",
+        "observacao": "concentração 7,5 mg/mL, administrar em 10 min"
+      },
+      {
+        "nome": "Infusão: 900 mg em 500 mL SG5%",
+        "observacao": "concentração 1,8 mg/mL, usar bomba de infusão"
+      },
+      {
+        "nome": "Infusão: 450 mg em 250 mL SG5%",
+        "observacao": "concentração 1,8 mg/mL, usar bomba de infusão"
+      },
+      {
+        "nome": "Diluir sempre em SG5% (nunca em SF)",
+        "observacao": "risco de precipitação em soro fisiológico"
+      },
+      {
+        "nome": "Via oral: comprimidos inteiros com água",
+        "observacao": "tomar com alimentos para reduzir irritação gástrica"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Taquicardia supraventricular refratária",
+          "descricaoDose": "5 mg/kg IV, dose única",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Fibrilação ventricular refratária",
+          "descricaoDose": "5 mg/kg IV, dose única",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Parada cardíaca pediátrica (FV/TV sem pulso)",
+          "descricaoDose": "5 mg/kg IV bolus, dose única",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "doseMaxima": 300,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Taquicardia ventricular sustentada",
+          "descricaoDose": "5 mg/kg IV lento em 20-60 min",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Fibrilação atrial com resposta ventricular rápida",
+          "descricaoDose": "5 mg/kg IV lento em 20-60 min",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Parada cardíaca pediátrica (FV/TV sem pulso)",
+          "descricaoDose": "5 mg/kg IV bolus, dose única",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "doseMaxima": 300,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Taquicardia ventricular sustentada",
+          "descricaoDose": "5 mg/kg IV lento em 20-60 min",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Fibrilação atrial com resposta ventricular rápida",
+          "descricaoDose": "5 mg/kg IV lento em 20-60 min",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Taquicardia supraventricular refratária",
+          "descricaoDose": "5 mg/kg IV lento em 20-60 min",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Parada cardíaca pediátrica (FV/TV sem pulso)",
+          "descricaoDose": "5 mg/kg IV bolus, dose única",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "doseMaxima": 300,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Taquicardia ventricular sustentada",
+          "descricaoDose": "5 mg/kg IV lento em 20-60 min",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Fibrilação atrial com resposta ventricular rápida",
+          "descricaoDose": "5 mg/kg IV lento em 20-60 min",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Taquicardia supraventricular refratária",
+          "descricaoDose": "5 mg/kg IV lento em 20-60 min",
+          "dosePorKgMinima": 5,
+          "dosePorKgMaxima": 5,
+          "unidade": "mg/kg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Fibrilação ventricular refratária",
+          "descricaoDose": "300 mg IV bolus após 3º choque",
+          "doseMinima": 300,
+          "doseMaxima": 300,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Taquicardia ventricular sem pulso",
+          "descricaoDose": "300 mg IV bolus após 3º choque",
+          "doseMinima": 300,
+          "doseMaxima": 300,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Taquicardia ventricular sustentada com pulso",
+          "descricaoDose": "150 mg IV lento em 10 min",
+          "doseMinima": 150,
+          "doseMaxima": 150,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Fibrilação atrial com resposta ventricular rápida",
+          "descricaoDose": "150 mg IV lento em 10 min",
+          "doseMinima": 150,
+          "doseMaxima": 150,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Taquicardia supraventricular refratária",
+          "descricaoDose": "150 mg IV lento em 10 min",
+          "doseMinima": 150,
+          "doseMaxima": 150,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Flutter atrial com resposta ventricular rápida",
+          "descricaoDose": "150 mg IV lento em 10 min",
+          "doseMinima": 150,
+          "doseMaxima": 150,
+          "unidade": "mg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Fibrilação ventricular refratária",
+          "descricaoDose": "300 mg IV bolus após 3º choque",
+          "doseMinima": 300,
+          "doseMaxima": 300,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Taquicardia ventricular sem pulso",
+          "descricaoDose": "300 mg IV bolus após 3º choque",
+          "doseMinima": 300,
+          "doseMaxima": 300,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Taquicardia ventricular sustentada com pulso",
+          "descricaoDose": "150 mg IV lento em 10 min",
+          "doseMinima": 150,
+          "doseMaxima": 150,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Fibrilação atrial com resposta ventricular rápida",
+          "descricaoDose": "150 mg IV lento em 10 min",
+          "doseMinima": 150,
+          "doseMaxima": 150,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Taquicardia supraventricular refratária",
+          "descricaoDose": "150 mg IV lento em 10 min",
+          "doseMinima": 150,
+          "doseMaxima": 150,
+          "unidade": "mg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso limitado em recém-nascidos. Considerar alternativas como adenosina ou propranolol.",
+      "lactente": "Uso off-label em arritmias pediátricas. Monitorização rigorosa necessária.",
+      "crianca": "Uso off-label em arritmias pediátricas. Monitorização rigorosa necessária.",
+      "adolescente": "Uso off-label em arritmias pediátricas. Monitorização rigorosa necessária.",
+      "adulto": "Uso off-label em algumas condições específicas. Monitorização rigorosa necessária.",
+      "idoso": "Uso com cautela em idosos. Maior risco de toxicidade e efeitos adversos."
+    },
+    "infusao": {
+      "recem_nascido": "Não aplicável - uso apenas em bolus",
+      "lactente": "Não aplicável - uso apenas em bolus",
+      "crianca": "Não aplicável - uso apenas em bolus",
+      "adolescente": "Não aplicável - uso apenas em bolus",
+      "adulto": "Manutenção: 1 mg/min (6h), depois 0,5 mg/min (18h)",
+      "idoso": "Manutenção: 1 mg/min (6h), depois 0,5 mg/min (18h)"
+    },
+    "observacoes": [
+      "Antiarrítmico classe III: bloqueia canais de potássio, sódio e cálcio",
+      "Efeito prolongado e meia-vida longa (semanas)",
+      "Diluir sempre em SG5%, risco de precipitação em SF",
+      "Controle rigoroso de PA e ritmo (risco de hipotensão e bradicardia)",
+      "Evitar administrar por cateter periférico (risco de flebite)",
+      "Monitorar função hepática e tireoidiana",
+      "Pode causar fotossensibilidade - orientar proteção solar",
+      "Interage com warfarina, digoxina e outros antiarrítmicos",
+      "Categoria D na gravidez",
+      "Excretado no leite materno",
+      "Armazenar entre 15-30°C",
+      "Usar imediatamente após abertura da ampola"
+    ],
+    "metabolismo": {
+      "meiaVida": "25-60 dias",
+      "excrecao": "Principalmente hepática",
+      "ligacaoProteica": "96-99%",
+      "clearanceHepatico": "0,1-0,2 L/h/kg"
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "nome": "Cloreto de Cálcio",
+  "classe": "Eletrólitos Críticos",
+  "apresentacao": "Ampola 10% (1g/10mL = 27mg/mL de Ca²⁺)",
+  "marca": "Hipercal®",
+  "preparo": [
+    {
+      "nome": "IV lenta (3–5 min) ou infusão em bomba",
+      "observacao": ""
+    },
+    {
+      "nome": "Evitar periférico — risco de necrose. Preferir acesso central",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mg/kg/h",
+    "doseMin": 0.5,
+    "doseMax": 2.0,
+    "opcoesConcentracoes": {
+      "1g/100mL (10mg/mL)": 10000,
+      "500mg/50mL (10mg/mL)": 10000
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia grave",
+        "dose": "10–20mg/kg Ca²⁺ elementar IV lenta (máx 1g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Intoxicação por bloqueadores de canal de cálcio",
+        "dose": "500–1000mg (1 ampola) IV em bolus + infusão contínua (0,5–1 mg/kg/h)",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Antagonismo da toxicidade do magnésio",
+        "dose": "500–1000mg IV lenta",
+        "unidade": "mg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia grave",
+        "dose": "10–20mg/kg Ca²⁺ elementar IV lenta (máx 1g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Intoxicação por bloqueadores de canal de cálcio",
+        "dose": "500–1000mg (1 ampola) IV em bolus + infusão contínua (0,5–1 mg/kg/h)",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Antagonismo da toxicidade do magnésio",
+        "dose": "500–1000mg IV lenta",
+        "unidade": "mg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia grave",
+        "dose": "10–20mg/kg Ca²⁺ elementar IV lenta (máx 1g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Intoxicação por bloqueadores de canal de cálcio",
+        "dose": "500–1000mg (1 ampola) IV em bolus + infusão contínua (0,5–1 mg/kg/h)",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Antagonismo da toxicidade do magnésio",
+        "dose": "500–1000mg IV lenta",
+        "unidade": "mg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia grave",
+        "dose": "10–20mg/kg Ca²⁺ elementar IV lenta (máx 1g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Intoxicação por bloqueadores de canal de cálcio",
+        "dose": "500–1000mg (1 ampola) IV em bolus + infusão contínua (0,5–1 mg/kg/h)",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Antagonismo da toxicidade do magnésio",
+        "dose": "500–1000mg IV lenta",
+        "unidade": "mg"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Hipocalcemia sintomática / Hipercalemia grave",
+        "dose": "10–20mg/kg Ca²⁺ elementar IV lenta (máx 1g)",
+        "unidade": "mg/kg"
+      },
+      {
+        "titulo": "Intoxicação por bloqueadores de canal de cálcio",
+        "dose": "500–1000mg (1 ampola) IV em bolus + infusão contínua (0,5–1 mg/kg/h)",
+        "unidade": "mg"
+      },
+      {
+        "titulo": "Antagonismo da toxicidade do magnésio",
+        "dose": "500–1000mg IV lenta",
+        "unidade": "mg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Reposição mais concentrada que gluconato.",
+    "3x mais cálcio elementar que o gluconato de cálcio.",
+    "Incompatível com bicarbonato na mesma via (precipita).",
+    "Extravasamento → risco de necrose → preferir acesso central.",
+    "Monitorar ECG e eletrólitos durante infusão."
+  ]
+}

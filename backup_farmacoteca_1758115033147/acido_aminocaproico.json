@@ -1,0 +1,92 @@
+{
+  "acido_aminocaproico": {
+    "nome": "Ácido Aminocaproico",
+    "idBulario": "acido_aminocaproico",
+    "classe": "Antifibrinolítico",
+    "apresentacoes": [
+      {
+        "nome": "Frasco 5 g/100 mL (50 mg/mL)",
+        "observacao": "uso IV"
+      }
+    ],
+    "marca": "Amicar®",
+    "preparo": [
+      {
+        "nome": "Pode ser usado IV direta, infusão contínua ou VO",
+        "observacao": ""
+      },
+      {
+        "nome": "Diluir em SF 0,9% ou SG 5% para infusão lenta (10–30 min)",
+        "observacao": ""
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [],
+      "lactente": [],
+      "crianca": [],
+      "adolescente": [],
+      "adulto": [
+        {
+          "titulo": "Hiperfibrinólise em cirurgia",
+          "descricaoDose": "Carga: 4–5 g IV em 1h → Manutenção: 1 g/h por até 8h",
+          "doseMinima": 4,
+          "doseMaxima": 5,
+          "unidade": "g"
+        },
+        {
+          "titulo": "Hemorragias em coagulopatias",
+          "descricaoDose": "100–150 mg/kg IV cada 6h (máx 30 g/dia)",
+          "dosePorKgMinima": 100,
+          "dosePorKgMaxima": 150,
+          "doseMaxima": 30000,
+          "unidade": "mg/kg"
+        },
+        {
+          "titulo": "Uso oral profilático",
+          "descricaoDose": "1–2 g VO 3–4x/dia (máx 8 g/dia)",
+          "doseMinima": 1,
+          "doseMaxima": 2,
+          "unidade": "g"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Hiperfibrinólise em cirurgia",
+          "descricaoDose": "Carga: 3–4 g IV em 1h → Manutenção: 0,5–1 g/h por até 8h",
+          "doseMinima": 3,
+          "doseMaxima": 4,
+          "unidade": "g"
+        }
+      ]
+    },
+    "infusao": {
+      "unidade": "g/h",
+      "doseMin": 0.5,
+      "doseMax": 2,
+      "opcoesConcentracoes": {
+        "5 g/100 mL (50 mg/mL)": 50
+      }
+    },
+    "off_label": {
+      "recem_nascido": "Uso limitado em recém-nascidos - considerar alternativas.",
+      "lactente": "Uso limitado em lactentes - considerar alternativas.",
+      "crianca": "Uso limitado em crianças - considerar alternativas.",
+      "adolescente": "Uso limitado em adolescentes - considerar alternativas.",
+      "adulto": "Uso off-label em algumas condições específicas.",
+      "idoso": "Em idosos, maior risco de trombose. Uso off-label mas seguro com monitorização adequada."
+    },
+    "observacoes": [
+      "Antifibrinolítico que bloqueia a conversão de plasminogênio em plasmina.",
+      "Alternativa ao ácido tranexâmico.",
+      "Cuidado em insuficiência renal e risco de trombose.",
+      "Contraindicado em hematuria macroscópica de origem renal."
+    ],
+    "metabolismo": [
+      "Metabolização hepática e renal.",
+      "Excreção renal de metabólitos ativos.",
+      "Meia-vida de 1-2 horas.",
+      "Usar com cautela em disfunção renal grave.",
+      "Interações medicamentosas com anticoagulantes."
+    ]
+  }
+}

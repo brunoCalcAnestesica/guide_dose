@@ -1,0 +1,75 @@
+{
+  "nome": "Dantroleno",
+  "classe": "Reversor/Antídoto",
+  "apresentacao": "Frasco 20mg (liofilizado) + 60mL água destilada",
+  "marca": "Dantrium®, genéricos",
+  "preparo": [
+    {
+      "nome": "Reconstituir 20mg com 60mL água destilada",
+      "observacao": "0,33mg/mL"
+    },
+    {
+      "nome": "Infundir IV lentamente",
+      "observacao": ""
+    }
+  ],
+  "infusao": {
+    "unidade": "mg/kg/h",
+    "doseMin": 1.0,
+    "doseMax": 10.0,
+    "opcoesConcentracoes": {
+      "0,33mg/mL": 0.33
+    }
+  },
+  "indicacoes": {
+    "neonato": [
+      {
+        "titulo": "Hipertermia maligna",
+        "dose": "2,5mg/kg IV inicial, depois 1–10mg/kg/dia",
+        "unidade": "mg/kg"
+      }
+    ],
+    "lactente": [
+      {
+        "titulo": "Hipertermia maligna",
+        "dose": "2,5mg/kg IV inicial, depois 1–10mg/kg/dia",
+        "unidade": "mg/kg"
+      }
+    ],
+    "crianca": [
+      {
+        "titulo": "Hipertermia maligna",
+        "dose": "2,5mg/kg IV inicial, depois 1–10mg/kg/dia",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adolescente": [
+      {
+        "titulo": "Hipertermia maligna",
+        "dose": "2,5mg/kg IV inicial, depois 1–10mg/kg/dia",
+        "unidade": "mg/kg"
+      }
+    ],
+    "adulto": [
+      {
+        "titulo": "Hipertermia maligna",
+        "dose": "2,5mg/kg IV inicial, depois 1–10mg/kg/dia",
+        "unidade": "mg/kg"
+      }
+    ]
+  },
+  "off_label": {
+    "neonato": "Uso off-label em algumas condições específicas.",
+    "lactente": "Uso off-label em algumas condições específicas.",
+    "crianca": "Uso off-label em algumas condições específicas.",
+    "adolescente": "Uso off-label em algumas condições específicas.",
+    "adulto": "Uso off-label em algumas condições específicas."
+  },
+  "observacoes": [
+    "Tratamento específico da hipertermia maligna.",
+    "Ação: bloqueia liberação de cálcio do retículo sarcoplasmático.",
+    "Dose inicial: 2,5mg/kg IV.",
+    "Manutenção: 1–10mg/kg/dia até resolução dos sintomas.",
+    "Pode causar hepatotoxicidade com uso prolongado."
+  ]
+}

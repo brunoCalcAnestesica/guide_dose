@@ -1,0 +1,292 @@
+{
+  "midazolam": {
+    "nome": "Midazolam",
+    "idBulario": "midazolam",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 5 mg/mL",
+        "observacao": "uso IV/IM"
+      },
+      {
+        "nome": "Ampola 15 mg/3 mL",
+        "observacao": "uso IV/IM"
+      },
+      {
+        "nome": "Frasco-ampola 50 mg/10 mL",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Xarope 2 mg/mL",
+        "observacao": "uso oral"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "5 mg puro (1 mL)",
+        "observacao": ""
+      },
+      {
+        "nome": "5 mg em 9 mL SF",
+        "observacao": "0,5 mg/mL"
+      },
+      {
+        "nome": "50 mg em 90 mL SF",
+        "observacao": "0,5 mg/mL para infusão"
+      },
+      {
+        "nome": "15 mg em 135 mL SF",
+        "observacao": "0,1 mg/mL para sedação leve"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,05–0,1 mg/kg IV (máx 0,5 mg)",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.1,
+          "doseMaxima": 0.5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação pré-operatória",
+          "descricaoDose": "0,1–0,15 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.15,
+          "unidade": "mg"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,05–0,1 mg/kg IV (máx 2 mg)",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.1,
+          "doseMaxima": 2.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação pré-operatória",
+          "descricaoDose": "0,1–0,15 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.15,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação contínua",
+          "descricaoDose": "0,05–0,2 mg/kg/h IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg/kg/h"
+        },
+        {
+          "titulo": "Convulsão refratária",
+          "descricaoDose": "0,1–0,2 mg/kg IV bolus",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,05–0,1 mg/kg IV (máx 5 mg)",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.1,
+          "doseMaxima": 5.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação pré-operatória",
+          "descricaoDose": "0,1–0,15 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.15,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação contínua",
+          "descricaoDose": "0,05–0,2 mg/kg/h IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg/kg/h"
+        },
+        {
+          "titulo": "Convulsão refratária",
+          "descricaoDose": "0,1–0,2 mg/kg IV bolus",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação oral",
+          "descricaoDose": "0,5–0,75 mg/kg via oral",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 0.75,
+          "unidade": "mg"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,05–0,1 mg/kg IV (máx 10 mg)",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.1,
+          "doseMaxima": 10.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação pré-operatória",
+          "descricaoDose": "0,1–0,15 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.15,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação contínua",
+          "descricaoDose": "0,05–0,2 mg/kg/h IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg/kg/h"
+        },
+        {
+          "titulo": "Convulsão refratária",
+          "descricaoDose": "0,1–0,2 mg/kg IV bolus",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação oral",
+          "descricaoDose": "0,5–0,75 mg/kg via oral",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 0.75,
+          "unidade": "mg"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,05–0,1 mg/kg IV (máx 10 mg)",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.1,
+          "doseMaxima": 10.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação pré-operatória",
+          "descricaoDose": "0,1–0,15 mg/kg IV",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.15,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação contínua",
+          "descricaoDose": "0,05–0,2 mg/kg/h IV infusão",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg/kg/h"
+        },
+        {
+          "titulo": "Convulsão refratária",
+          "descricaoDose": "0,1–0,2 mg/kg IV bolus",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.2,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação oral",
+          "descricaoDose": "0,5–0,75 mg/kg via oral",
+          "dosePorKgMinima": 0.5,
+          "dosePorKgMaxima": 0.75,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação IM",
+          "descricaoDose": "0,1–0,15 mg/kg IM",
+          "dosePorKgMinima": 0.1,
+          "dosePorKgMaxima": 0.15,
+          "unidade": "mg"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Sedação para procedimentos",
+          "descricaoDose": "0,025–0,05 mg/kg IV (máx 5 mg)",
+          "dosePorKgMinima": 0.025,
+          "dosePorKgMaxima": 0.05,
+          "doseMaxima": 5.0,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação pré-operatória",
+          "descricaoDose": "0,05–0,1 mg/kg IV",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.1,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação contínua",
+          "descricaoDose": "0,025–0,1 mg/kg/h IV infusão",
+          "dosePorKgMinima": 0.025,
+          "dosePorKgMaxima": 0.1,
+          "unidade": "mg/kg/h"
+        },
+        {
+          "titulo": "Convulsão refratária",
+          "descricaoDose": "0,05–0,1 mg/kg IV bolus",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.1,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação oral",
+          "descricaoDose": "0,25–0,5 mg/kg via oral",
+          "dosePorKgMinima": 0.25,
+          "dosePorKgMaxima": 0.5,
+          "unidade": "mg"
+        },
+        {
+          "titulo": "Sedação IM",
+          "descricaoDose": "0,05–0,1 mg/kg IM",
+          "dosePorKgMinima": 0.05,
+          "dosePorKgMaxima": 0.1,
+          "unidade": "mg"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para sedação em procedimentos específicos. Monitorização rigorosa necessária devido ao risco de depressão respiratória.",
+      "lactente": "Sedação para procedimentos diagnósticos é prática comum, porém não consta em bula para todas as indicações.",
+      "crianca": "Uso para sedação em procedimentos não-cirúrgicos é off-label mas amplamente utilizado na prática clínica.",
+      "adolescente": "Sedação para procedimentos odontológicos e endoscópicos é fora da bula, mas respaldada por evidências clínicas.",
+      "adulto": "Uso para sedação em procedimentos endoscópicos e odontológicos é off-label mas prática estabelecida.",
+      "idoso": "Em idosos, doses reduzidas são necessárias devido ao metabolismo alterado. Sedação para procedimentos é off-label mas segura com monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "50 mg/50 mL (1 mg/mL)": 1,
+        "100 mg/50 mL (2 mg/mL)": 2,
+        "200 mg/50 mL (4 mg/mL)": 4
+      },
+      "unidade": "mg/kg/h",
+      "doseMin": 0.025,
+      "doseMax": 0.2
+    },
+    "observacoes": [
+      "Benzodiazepínico de ação curta e rápida.",
+      "Ideal para sedação consciente e procedimentos.",
+      "Monitorar função respiratória constantemente.",
+      "Risco de depressão respiratória em altas doses.",
+      "Usar com cautela em pacientes com insuficiência hepática.",
+      "Pode causar amnésia anterógrada.",
+      "Interage com outros depressores do SNC."
+    ],
+    "metabolismo": [
+      "Metabolização hepática por CYP3A4.",
+      "Excreção renal de metabólitos ativos.",
+      "Meia-vida prolongada em idosos e hepatopatas.",
+      "Usar com cautela em disfunção hepática grave.",
+      "Interações medicamentosas importantes com inibidores/indutores do CYP3A4."
+    ]
+  }
+}

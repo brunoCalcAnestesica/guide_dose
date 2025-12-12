@@ -1,0 +1,225 @@
+{
+  "esmolol": {
+    "nome": "Esmolol",
+    "idBulario": "esmolol",
+    "apresentacoes": [
+      {
+        "nome": "Ampola 10 mg/mL - 10 mL",
+        "observacao": "uso IV"
+      },
+      {
+        "nome": "Ampola 250 mg/25 mL",
+        "observacao": "uso IV"
+      }
+    ],
+    "preparo": [
+      {
+        "nome": "250 mg em 250 mL SG 5%",
+        "observacao": "1 mg/mL"
+      },
+      {
+        "nome": "500 mg em 250 mL SG 5%",
+        "observacao": "2 mg/mL"
+      },
+      {
+        "nome": "1000 mg em 250 mL SG 5%",
+        "observacao": "4 mg/mL"
+      }
+    ],
+    "indicacoes": {
+      "recem_nascido": [
+        {
+          "titulo": "Taquicardia supraventricular",
+          "descricaoDose": "50–200 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 200,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Taquiarritmia",
+          "descricaoDose": "100–300 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 100,
+          "dosePorKgMaxima": 300,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "lactente": [
+        {
+          "titulo": "Taquicardia supraventricular",
+          "descricaoDose": "50–200 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 200,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Taquiarritmia",
+          "descricaoDose": "100–300 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 100,
+          "dosePorKgMaxima": 300,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "50–150 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 150,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "crianca": [
+        {
+          "titulo": "Taquicardia supraventricular",
+          "descricaoDose": "50–200 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 200,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Taquiarritmia",
+          "descricaoDose": "100–300 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 100,
+          "dosePorKgMaxima": 300,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "50–150 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 150,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Controle hemodinâmico intraoperatório",
+          "descricaoDose": "25–100 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 25,
+          "dosePorKgMaxima": 100,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "adolescente": [
+        {
+          "titulo": "Taquicardia supraventricular",
+          "descricaoDose": "50–200 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 200,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Taquiarritmia",
+          "descricaoDose": "100–300 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 100,
+          "dosePorKgMaxima": 300,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "50–150 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 150,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Controle hemodinâmico intraoperatório",
+          "descricaoDose": "25–100 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 25,
+          "dosePorKgMaxima": 100,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "adulto": [
+        {
+          "titulo": "Taquicardia supraventricular",
+          "descricaoDose": "50–200 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 200,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Taquiarritmia",
+          "descricaoDose": "100–300 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 100,
+          "dosePorKgMaxima": 300,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "50–150 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 150,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Controle hemodinâmico intraoperatório",
+          "descricaoDose": "25–100 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 25,
+          "dosePorKgMaxima": 100,
+          "unidade": "mcg/kg/min"
+        }
+      ],
+      "idoso": [
+        {
+          "titulo": "Taquicardia supraventricular",
+          "descricaoDose": "25–150 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 25,
+          "dosePorKgMaxima": 150,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Taquiarritmia",
+          "descricaoDose": "50–200 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 50,
+          "dosePorKgMaxima": 200,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Hipertensão arterial",
+          "descricaoDose": "25–100 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 25,
+          "dosePorKgMaxima": 100,
+          "unidade": "mcg/kg/min"
+        },
+        {
+          "titulo": "Controle hemodinâmico intraoperatório",
+          "descricaoDose": "15–75 mcg/kg/min IV infusão",
+          "dosePorKgMinima": 15,
+          "dosePorKgMaxima": 75,
+          "unidade": "mcg/kg/min"
+        }
+      ]
+    },
+    "off_label": {
+      "recem_nascido": "Uso off-label para taquicardia supraventricular em recém-nascidos. Monitorização rigorosa da função cardíaca e pressão arterial necessária.",
+      "lactente": "Suporte antiarrítmico em lactentes é off-label mas utilizado na prática clínica pediátrica para taquicardia supraventricular e taquiarritmias.",
+      "crianca": "Uso para controle de arritmias em crianças é off-label mas prática estabelecida. Efeitos antiarrítmicos bem documentados.",
+      "adolescente": "Suporte antiarrítmico para taquicardia supraventricular em adolescentes é off-label, porém respaldado por evidências clínicas.",
+      "adulto": "Uso para controle de arritmias é off-label mas prática estabelecida. Efeitos antiarrítmicos e anti-hipertensivos bem documentados.",
+      "idoso": "Em idosos, maior sensibilidade aos efeitos beta-bloqueadores. Controle de arritmias é off-label mas seguro com doses reduzidas e monitorização adequada."
+    },
+    "infusao": {
+      "opcoesConcentracoes": {
+        "250 mg/250 mL (1 mg/mL)": 1,
+        "500 mg/250 mL (2 mg/mL)": 2,
+        "1000 mg/250 mL (4 mg/mL)": 4
+      },
+      "unidade": "mcg/kg/min",
+      "doseMin": 15,
+      "doseMax": 300
+    },
+    "observacoes": [
+      "Beta-bloqueador de ação ultrarrápida.",
+      "Efeito cronotrópico e inotrópico negativo.",
+      "Monitorar pressão arterial e frequência cardíaca constantemente.",
+      "Risco de bradicardia e hipotensão em altas doses.",
+      "Usar com cautela em pacientes com asma ou DPOC.",
+      "Contraindicação em bloqueio AV de 2º e 3º grau.",
+      "Interage com outros beta-bloqueadores."
+    ],
+    "metabolismo": [
+      "Metabolização rápida por esterases plasmáticas.",
+      "Meia-vida muito curta (9 minutos).",
+      "Excreção renal de metabólitos inativos.",
+      "Seguro em disfunção hepática.",
+      "Interações com outros beta-bloqueadores e bloqueadores de cálcio."
+    ]
+  }
+}
