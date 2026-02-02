@@ -39,107 +39,196 @@ class MedicamentoAcidoTranexamico {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        const Text('Antifibrinolítico'),
+        _textoSimples('Antifibrinolítico - Inibidor competitivo da plasmina'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAcidoTranexamico._linhaPreparo('Ampola 500mg/5mL', 'Solução injetável 100mg/mL'),
-        MedicamentoAcidoTranexamico._linhaPreparo('Comprimidos 250mg e 500mg', 'Via oral'),
+        _linhaPreparo('Ampola 500mg/5mL', '100 mg/mL'),
+        _linhaPreparo('Ampola 250mg/5mL', '50 mg/mL'),
+        _linhaPreparo('Comprimido 500mg', 'Via oral'),
+        _linhaPreparo('Comprimido 250mg', 'Via oral'),
+        
+        // 3. PREPARO
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAcidoTranexamico._linhaPreparo('500mg em 100mL SF 0,9%', '5 mg/mL para bolus'),
-        MedicamentoAcidoTranexamico._linhaPreparo('1g em 250mL SF 0,9%', '4 mg/mL para infusão contínua'),
+        _linhaPreparo('1g + 100mL SF', '10 mg/mL (bolus)'),
+        _linhaPreparo('2g + 500mL SF', '4 mg/mL (infusão)'),
+        _linhaPreparo('1g puro em 10min', 'Trauma - CRASH-2'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoAcidoTranexamico._linhaIndicacaoDoseCalculada(
-            titulo: 'Hemorragia ativa',
-            descricaoDose: '10–15 mg/kg IV lento (máx 1g)',
-            unidade: 'mg',
-            dosePorKgMinima: 10,
-            dosePorKgMaxima: 15,
-            doseMaxima: 1000,
-            peso: peso,
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Trauma com hemorragia (CRASH-2)',
+            descricaoDose: '1g IV em 10min + 1g IV em 8h (iniciar em até 3h)',
+            doseFixa: 'Ataque: 1g → Manutenção: 1g em 8h',
           ),
-          MedicamentoAcidoTranexamico._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Hemorragia pós-parto (WOMAN)',
+            descricaoDose: '1g IV lento, repetir após 30min se necessário',
+            doseFixa: '1g IV (máx 2g)',
+          ),
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Cirurgia cardíaca',
-            descricaoDose: '10–15 mg/kg IV antes da cirurgia',
+            descricaoDose: '10-30 mg/kg IV antes da incisão',
             unidade: 'mg',
             dosePorKgMinima: 10,
-            dosePorKgMaxima: 15,
-            doseMaxima: 1000,
+            dosePorKgMaxima: 30,
+            doseMaxima: 2000,
             peso: peso,
           ),
-          MedicamentoAcidoTranexamico._linhaIndicacaoDoseCalculada(
-            titulo: 'Hemorragia contínua (infusão)',
-            descricaoDose: '1–2 mg/kg/h IV contínua',
-            unidade: 'mg/kg/h',
-            dosePorKgMinima: 1,
-            dosePorKgMaxima: 2,
-            peso: peso,
-          ),
-          MedicamentoAcidoTranexamico._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoDoseFixa(
             titulo: 'Menorragia',
-            descricaoDose: '1–1,5g/dia VO dividido em 3–4 doses',
-            unidade: 'g/dia',
-            dosePorKgMinima: 1,
-            dosePorKgMaxima: 1.5,
-            peso: peso,
+            descricaoDose: '1g VO 3x/dia por até 4 dias',
+            doseFixa: '1g VO 8/8h',
           ),
         ] else ...[
-          MedicamentoAcidoTranexamico._linhaIndicacaoDoseCalculada(
-            titulo: 'Hemorragia ativa pediátrica',
-            descricaoDose: '10–15 mg/kg IV lento (máx 1g)',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Hemorragia pediátrica',
+            descricaoDose: '10-15 mg/kg IV em 10min (máx 1g)',
             unidade: 'mg',
             dosePorKgMinima: 10,
             dosePorKgMaxima: 15,
             doseMaxima: 1000,
             peso: peso,
           ),
-          MedicamentoAcidoTranexamico._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Cirurgia pediátrica',
-            descricaoDose: '10–15 mg/kg IV antes da cirurgia',
+            descricaoDose: '10-15 mg/kg IV antes da incisão',
             unidade: 'mg',
             dosePorKgMinima: 10,
             dosePorKgMaxima: 15,
             doseMaxima: 1000,
             peso: peso,
           ),
-          MedicamentoAcidoTranexamico._linhaIndicacaoDoseCalculada(
-            titulo: 'Hemorragia contínua pediátrica (infusão)',
-            descricaoDose: '0,5–1,5 mg/kg/h IV contínua',
-            unidade: 'mg/kg/h',
-            dosePorKgMinima: 0.5,
-            dosePorKgMaxima: 1.5,
-            peso: peso,
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
+            descricaoDose: '1-5 mg/kg/h IV contínua',
           ),
         ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAcidoTranexamico._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAcidoTranexamico._textoObs('Antifibrinolítico para controle de hemorragia'),
-        MedicamentoAcidoTranexamico._textoObs('Contraindicado em trombose ativa ou história de trombose'),
-        MedicamentoAcidoTranexamico._textoObs('Ajustar dose em insuficiência renal'),
-        MedicamentoAcidoTranexamico._textoObs('Evitar uso prolongado (risco tromboembólico)'),
-        MedicamentoAcidoTranexamico._textoObs('Monitorar função renal durante o tratamento'),
+        _textoObs('Iniciar em até 3h do trauma (sem benefício após)'),
+        _textoObs('Velocidade máxima: 100 mg/min (evita hipotensão)'),
+        _textoObs('Contraindicado: trombose ativa, convulsões, hematúria'),
+        _textoObs('Ajustar dose se ClCr < 50 mL/min'),
+        _textoObs('Não associar com complexo protrombínico'),
+        _textoObs('Pode reduzir eficácia de trombolíticos'),
       ],
     );
   }
 
+  static Widget _textoSimples(String texto) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 2),
+      child: Text(texto, style: const TextStyle(fontSize: 14)),
+    );
+  }
+
+  static Widget _linhaIndicacaoDoseFixa({
+    required String titulo,
+    required String descricaoDose,
+    required String doseFixa,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Text(
+            descricaoDose,
+            style: const TextStyle(fontSize: 13),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.blue.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.blue.shade200),
+            ),
+            child: Text(
+              'Dose: $doseFixa',
+              style: TextStyle(
+                fontWeight: FontWeight.bold,
+                color: Colors.blue.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  /// Widget para indicações de infusão contínua (sem cálculo - o cálculo fica no slider)
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    // Para ácido tranexâmico, a infusão contínua é tipicamente mg/kg/h, não mg/kg/dia
+    // Para ácido tranexâmico, a infusão contínua é tipicamente mg/kg/h
+    // Ordenar da maior para menor concentração
     final opcoesConcentracoes = {
-      '1g em 250mL SF 0,9% (4 mg/mL)': 4.0, // mg/mL
       '500mg em 100mL SF 0,9% (5 mg/mL)': 5.0, // mg/mL
+      '1g em 250mL SF 0,9% (4 mg/mL)': 4.0, // mg/mL
     };
 
     if (isAdulto) {
@@ -254,12 +343,17 @@ class MedicamentoAcidoTranexamico {
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(
+              texto,
+              style: const TextStyle(fontSize: 13),
+            ),
+          ),
         ],
       ),
     );

@@ -43,93 +43,80 @@ class MedicamentoFenilefrina {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoFenilefrina._textoObs(
-            'Agonista alfa-1 seletivo - Vasopressor'),
+        _linhaPreparo('Vasopressor', 'Agonista α1 seletivo'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoFenilefrina._linhaPreparo(
-            'Ampola 10mg/mL (1mL)', 'Neosynefrina®, Fenefrin®'),
+        _linhaPreparo('Ampola 10mg/mL', '1 mL'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoFenilefrina._linhaPreparo(
-            '10mg em 100mL SF 0,9%', '100 mcg/mL (solução padrão para bolus)'),
-        MedicamentoFenilefrina._linhaPreparo(
-            '10mg em 250mL SF 0,9%', '40 mcg/mL (infusão)'),
-        MedicamentoFenilefrina._linhaPreparo(
-            '10mg em 500mL SF 0,9%', '20 mcg/mL (infusão)'),
+        _linhaPreparo('10mg + 100mL SF', '100 mcg/mL (bolus)'),
+        _linhaPreparo('10mg + 250mL SF', '40 mcg/mL'),
+        _linhaPreparo('10mg + 500mL SF', '20 mcg/mL'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoFenilefrina._linhaIndicacaoDoseCalculada(
-            titulo:
-                'Hipotensão associada à anestesia raquidiana/peridural (bolus)',
-            descricaoDose: '50-200 mcg IV, repetir conforme necessário',
-            unidade: 'mcg',
-            dosePorKgMinima: 50,
-            dosePorKgMaxima: 200,
-            peso: peso,
-            usaDoseFixa: true,
+          // BOLUS adulto - dose FIXA (caixa verde)
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Hipotensão (raquianestesia/peridural)',
+            descricaoDose: '50-200 mcg IV bolus, repetir a cada 2-3min',
           ),
-          MedicamentoFenilefrina._linhaIndicacaoDoseCalculada(
-            titulo: 'Choque distributivo (bolus)',
-            descricaoDose: '50-200 mcg IV',
-            unidade: 'mcg',
-            dosePorKgMinima: 50,
-            dosePorKgMaxima: 200,
-            peso: peso,
-            usaDoseFixa: true,
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção / Hipotensão refratária',
+            descricaoDose: '0,1-0,5 mcg/kg/min IV contínua',
           ),
         ] else ...[
-          MedicamentoFenilefrina._linhaIndicacaoDoseCalculada(
+          // BOLUS pediátrico - por peso (caixa azul)
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Hipotensão pediátrica (bolus)',
             descricaoDose: '1-5 mcg/kg IV',
-            unidade: 'mcg',
             dosePorKgMinima: 1,
             dosePorKgMaxima: 5,
+            unidade: 'mcg',
             peso: peso,
           ),
+          // INFUSÃO CONTÍNUA pediátrica - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
+            descricaoDose: '0,1-0,5 mcg/kg/min IV contínua',
+          ),
         ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoFenilefrina._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoFenilefrina._textoObs(
-            'Início de ação: imediato (menos de 1 minuto)'),
-        MedicamentoFenilefrina._textoObs('Pico de efeito: 1-2 minutos'),
-        MedicamentoFenilefrina._textoObs('Duração: 5-20 minutos'),
-        MedicamentoFenilefrina._textoObs('Vasoconstrição seletiva alfa-1'),
-        MedicamentoFenilefrina._textoObs('Pode causar bradicardia reflexa'),
-        MedicamentoFenilefrina._textoObs(
-            'Não possui efeito beta (sem taquicardia)'),
-        MedicamentoFenilefrina._textoObs(
-            'Ideal quando se deseja evitar taquicardia'),
-        MedicamentoFenilefrina._textoObs('Reduz fluxo esplâncnico e renal'),
-        MedicamentoFenilefrina._textoObs(
-            'Monitorar PA invasiva preferencialmente'),
-        MedicamentoFenilefrina._textoObs(
-            'Risco de extravasamento (necrose tecidual)'),
-        MedicamentoFenilefrina._textoObs(
-            'Preferir acesso venoso central em infusões prolongadas'),
-        MedicamentoFenilefrina._textoObs('Contraindicado em hipertensão grave'),
-        MedicamentoFenilefrina._textoObs('Contraindicado em feocromocitoma'),
-        MedicamentoFenilefrina._textoObs(
-            'Cuidado com IMAOs (risco de crise hipertensiva)'),
-        MedicamentoFenilefrina._textoObs('Não requer ajuste renal ou hepático'),
+        _textoObs('Início: <1min | Duração: 5-20min'),
+        _textoObs('Bradicardia reflexa - ideal se FC elevada'),
+        _textoObs('CI: hipertensão grave, feocromocitoma'),
+        _textoObs('Extravasamento → necrose - preferir acesso central'),
+        _textoObs('Interação com IMAO - crise hipertensiva'),
+        _textoObs('Vasoconstritor puro (sem efeito β)'),
       ],
     );
   }
@@ -165,79 +152,79 @@ class MedicamentoFenilefrina {
   }
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mcg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '10mg em 100mL SF 0,9% (100 mcg/mL)': 100.0, // mcg/mL
-      '10mg em 250mL SF 0,9% (40 mcg/mL)': 40.0, // mcg/mL
-      '10mg em 500mL SF 0,9% (20 mcg/mL)': 20.0, // mcg/mL
+      '10mg + 100mL SF (100 mcg/mL)': 100.0, // mcg/mL
+      '10mg + 250mL SF (40 mcg/mL)': 40.0, // mcg/mL
+      '10mg + 500mL SF (20 mcg/mL)': 20.0, // mcg/mL
     };
 
-    if (isAdulto) {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 0.1,
-        doseMax: 1.0,
-      );
-    } else {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 0.1,
-        doseMax: 0.5,
-      );
-    }
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mcg/kg/min',
+      doseMin: 0.1,
+      doseMax: isAdulto ? 0.5 : 0.5,
+      concentracaoEmMcg: true,
+    );
+  }
+
+  static Widget _linhaIndicacaoDoseFixa({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.green.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.green.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.green.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
-    double? dosePorKg,
+    required String unidade,
+    required double peso,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
-    bool usaDoseFixa = false,
   }) {
-    double? doseCalculada;
     String? textoDose;
+    bool doseLimite = false;
 
-    // Se a unidade contém "/kg", não multiplicamos pelo peso (a dose já é por kg)
-    bool isDosePorKg = unidade?.contains('/kg') ?? false;
-
-    if (dosePorKg != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mcg/kg/min, mostramos apenas o valor
-        textoDose = '${dosePorKg.toStringAsFixed(1)} $unidade';
-      } else {
-        // Para doses totais (mg, mcg), calculamos multiplicando pelo peso
-        doseCalculada = dosePorKg * peso;
-        if (doseMaxima != null && doseCalculada > doseMaxima) {
-          doseCalculada = doseMaxima;
-        }
-        textoDose = '${doseCalculada.toStringAsFixed(0)} $unidade';
+    if (dosePorKgMinima != null && dosePorKgMaxima != null) {
+      double doseMin = dosePorKgMinima * peso;
+      double doseMax = dosePorKgMaxima * peso;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
+        doseLimite = true;
       }
-    } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mcg/kg/min, mostramos apenas o intervalo
-        textoDose =
-            '${dosePorKgMinima.toStringAsFixed(1)}–${dosePorKgMaxima.toStringAsFixed(1)} $unidade';
-      } else if (usaDoseFixa) {
-        // Para doses fixas (não dependem do peso), mostramos o intervalo fixo
-        textoDose =
-            '${dosePorKgMinima.toStringAsFixed(0)}–${dosePorKgMaxima.toStringAsFixed(0)} $unidade';
-      } else {
-        // Para doses totais, calculamos multiplicando pelo peso
-        double doseMin = dosePorKgMinima * peso;
-        double doseMax = dosePorKgMaxima * peso;
-        if (doseMaxima != null) {
-          doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
-        }
-        textoDose =
-            '${doseMin.toStringAsFixed(0)}–${doseMax.toStringAsFixed(0)} $unidade';
-      }
+      textoDose = '${doseMin.toStringAsFixed(0)}-${doseMax.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(
@@ -260,16 +247,18 @@ class MedicamentoFenilefrina {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -280,14 +269,52 @@ class MedicamentoFenilefrina {
     );
   }
 
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );

@@ -39,105 +39,119 @@ class MedicamentoRopivacaina {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoRopivacaina._textoObs('Anestésico local tipo amida de longa duração - Bloqueador canais sódio'),
+        _linhaPreparo('Anestésico local amida', 'Longa duração, isômero S(-)'),
+
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoRopivacaina._linhaPreparo('Ampola 2mg/mL (10mL, 20mL, 100mL, 200mL)', 'Analgesia/baixa concentração'),
-        MedicamentoRopivacaina._linhaPreparo('Ampola 7,5mg/mL (10mL, 20mL)', 'Anestesia cirúrgica'),
-        MedicamentoRopivacaina._linhaPreparo('Ampola 10mg/mL (10mL, 20mL)', 'Anestesia cirúrgica densa'),
+        _linhaPreparo('Ampola/Frasco 1% (10 mg/mL)', '10mL, 20mL'),
+        _linhaPreparo('Ampola/Frasco 0,75% (7,5 mg/mL)', '10mL, 20mL'),
+        _linhaPreparo('Ampola/Frasco 0,5% (5 mg/mL)', '10mL, 20mL'),
+        _linhaPreparo('Bolsa 0,2% (2 mg/mL)', '100mL, 200mL (infusão)'),
+
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoRopivacaina._linhaPreparo('Usar solução pronta (não diluir)', 'Concentrações disponíveis 0,2-1%'),
-        MedicamentoRopivacaina._linhaPreparo('Pode diluir 0,75-1% em SF 0,9%', 'Para obter 0,2-0,5% analgesia'),
-        MedicamentoRopivacaina._linhaPreparo('Infusão peridural: bolsa 0,2% (100-200mL)', 'Bomba elastomérica/precisão'),
+        _linhaPreparo('1% puro', '10 mg/mL (bloqueio motor)'),
+        _linhaPreparo('0,75% puro', '7,5 mg/mL (cirúrgico)'),
+        _linhaPreparo('0,5% puro', '5 mg/mL (bloqueios)'),
+        _linhaPreparo('0,2% pronto', '2 mg/mL (infusão/analgesia)'),
+        _textoObs('Não diluir - usar soluções prontas'),
+
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoRopivacaina._linhaIndicacaoDoseFixa(
-            titulo: 'Peridural cirúrgica',
-            descricaoDose: '15-30 mL de 0,75-1% (113-300 mg)',
-            doseFixa: '15-30 mL (113-300 mg)',
+          // BOLUS - caixa azul calculada
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Peridural lombar cirúrgica',
+            descricaoDose: '15-25 mL de 0,75% (113-188 mg)',
+            volumeMin: 15,
+            volumeMax: 25,
+            unidade: 'mL',
           ),
-          MedicamentoRopivacaina._linhaIndicacaoDoseFixa(
-            titulo: 'Cesariana (peridural)',
-            descricaoDose: '15-20 mL de 0,75% (113-150 mg)',
-            doseFixa: '15-20 mL (113-150 mg)',
-          ),
-          MedicamentoRopivacaina._linhaIndicacaoDoseFixa(
-            titulo: 'Raquianestesia',
-            descricaoDose: '2-4 mL de 0,5-0,75% (10-30 mg) ± opioide',
-            doseFixa: '2-4 mL (10-30 mg)',
-          ),
-          MedicamentoRopivacaina._linhaIndicacaoDoseFixa(
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Bloqueio plexo braquial',
             descricaoDose: '30-40 mL de 0,5-0,75% (150-300 mg)',
-            doseFixa: '30-40 mL (150-300 mg)',
+            volumeMin: 30,
+            volumeMax: 40,
+            unidade: 'mL',
           ),
-          MedicamentoRopivacaina._linhaIndicacaoDoseFixa(
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Bloqueio femoral/ciático',
-            descricaoDose: '20-30 mL de 0,5-0,75% (100-225 mg)',
-            doseFixa: '20-30 mL (100-225 mg)',
+            descricaoDose: '15-30 mL de 0,5-0,75% (75-225 mg)',
+            volumeMin: 15,
+            volumeMax: 30,
+            unidade: 'mL',
           ),
-          MedicamentoRopivacaina._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoDoseCalculadaPorPeso(
             titulo: 'Infiltração local',
-            descricaoDose: 'Dose máxima: 3 mg/kg (até 200 mg total)',
+            descricaoDose: 'Dose máxima: 3 mg/kg (máx 300 mg)',
             unidade: 'mg',
             dosePorKg: 3.0,
-            doseMaxima: 200,
+            doseMaxima: 300,
             peso: peso,
+          ),
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Peridural analgesia (trabalho parto/pós-op)',
+            descricaoDose: '6-14 mL/h de 0,2% (12-28 mg/h)',
           ),
         ] else ...[
-          MedicamentoRopivacaina._linhaIndicacaoDoseCalculada(
-            titulo: 'Bloqueio caudal pediátrico',
-            descricaoDose: '1-2 mL/kg de 0,2% (2-4 mg/kg)',
-            unidade: 'mL',
-            dosePorKgMinima: 1.0,
-            dosePorKgMaxima: 2.0,
-            peso: peso,
-          ),
-          MedicamentoRopivacaina._linhaIndicacaoDoseCalculada(
-            titulo: 'Peridural pediátrica',
+          // PEDIÁTRICO
+          _linhaIndicacaoDoseCalculadaPorPeso(
+            titulo: 'Bloqueio caudal',
             descricaoDose: '0,5-1 mL/kg de 0,2% (1-2 mg/kg)',
             unidade: 'mL',
             dosePorKgMinima: 0.5,
             dosePorKgMaxima: 1.0,
             peso: peso,
           ),
-          MedicamentoRopivacaina._linhaIndicacaoDoseCalculada(
-            titulo: 'Infiltração pediátrica',
-            descricaoDose: 'Dose máxima: 3 mg/kg',
-            unidade: 'mg',
-            dosePorKg: 3.0,
+          _linhaIndicacaoDoseCalculadaPorPeso(
+            titulo: 'Peridural pediátrica',
+            descricaoDose: '0,5-0,75 mL/kg de 0,2%',
+            unidade: 'mL',
+            dosePorKgMinima: 0.5,
+            dosePorKgMaxima: 0.75,
             peso: peso,
           ),
+          _linhaIndicacaoDoseCalculadaPorPeso(
+            titulo: 'Infiltração pediátrica',
+            descricaoDose: 'Dose máxima: 2,5 mg/kg',
+            unidade: 'mg',
+            dosePorKg: 2.5,
+            peso: peso,
+          ),
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Infusão peridural pediátrica',
+            descricaoDose: '0,2-0,4 mg/kg/h de 0,2%',
+          ),
         ],
+
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
-        const Text('Infusão Contínua em Cateter de Bloqueio', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoRopivacaina._textoObs('Indicações: Analgesia peridural pós-op, bloqueios periféricos contínuos, analgesia obstétrica'),
-        const SizedBox(height: 8),
-        MedicamentoRopivacaina._buildConversorInfusao(peso, isAdulto),
-        const SizedBox(height: 8),
-        MedicamentoRopivacaina._textoObs('Slider ajusta volume (mL/h) - concentração fixa 0,2% (2 mg/mL)'),
-        MedicamentoRopivacaina._textoObs('Adulto: 6-14 mL/h (equivale 12-28 mg/h)'),
-        MedicamentoRopivacaina._textoObs('Pediátrico: 0,2-0,4 mL/kg/h (Ex: 20kg → 4-8 mL/h)'),
-        MedicamentoRopivacaina._textoObs('Dose máxima total: 800 mg/24h (adultos), 400 mg/24h (pediátrico)'),
+        _buildConversorInfusao(peso, isAdulto),
+
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoRopivacaina._textoObs('Anestésico local longa duração - isômero levógiro puro'),
-        MedicamentoRopivacaina._textoObs('Menor cardiotoxicidade que bupivacaína (25-50% mais seguro)'),
-        MedicamentoRopivacaina._textoObs('Bloqueio diferencial: baixas concentrações (0,2%) analgesia sem bloqueio motor'),
-        MedicamentoRopivacaina._textoObs('Doses máximas: 3 mg/kg dose única (máx 300 mg), 800 mg/24h'),
-        MedicamentoRopivacaina._textoObs('ATENÇÃO: Ter emulsão lipídica 20% disponível (antídoto toxicidade - 1,5 mL/kg IV)'),
-        MedicamentoRopivacaina._textoObs('Sinais toxicidade: gosto metálico, tontura, zumbido, confusão, convulsões'),
-        MedicamentoRopivacaina._textoObs('Injeção lenta fracionada obrigatória (5 mL a cada 3-5 min)'),
+        _textoObs('Início: 10-20 min | Duração: 4-8 horas'),
+        _textoObs('Menor cardiotoxicidade que bupivacaína'),
+        _textoObs('Bloqueio diferencial: 0,2% = analgesia sem bloqueio motor'),
+        _textoObs('Dose máxima 24h: 800 mg (adulto), 400 mg (pediátrico)'),
+        _textoObs('ATENÇÃO: Intralipid 20% disponível (1,5 mL/kg se toxicidade)'),
+        _textoObs('Injeção fracionada obrigatória (aspirar + 5 mL cada 3-5 seg)'),
       ],
     );
   }
@@ -168,11 +182,43 @@ class MedicamentoRopivacaina {
     );
   }
 
-  static Widget _linhaIndicacaoDoseFixa({
+  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentração fixa 0,2% (2 mg/mL) para infusão
+    final opcoesConcentracoes = {
+      '0,2% (2 mg/mL)': 2.0,
+    };
+
+    if (isAdulto) {
+      // Adulto: 6-14 mL/h de 0,2% = 12-28 mg/h
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'mL/h',
+        doseMin: 6.0,
+        doseMax: 14.0,
+      );
+    } else {
+      // Pediátrico: 0,2-0,4 mg/kg/h
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'mg/kg/h',
+        doseMin: 0.2,
+        doseMax: 0.4,
+      );
+    }
+  }
+
+  /// Para doses fixas (volume fixo, não por peso) - usada em bloqueios regionais
+  static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    required String doseFixa,
+    required String unidade,
+    required double volumeMin,
+    required double volumeMax,
   }) {
+    final textoDose = '${volumeMin.toStringAsFixed(0)}-${volumeMax.toStringAsFixed(0)} $unidade';
+
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
       child: Column(
@@ -197,11 +243,11 @@ class MedicamentoRopivacaina {
               border: Border.all(color: Colors.blue.shade200),
             ),
             child: Text(
-              'Dose: $doseFixa',
+              'Volume: $textoDose',
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue.shade700,
-                fontSize: 13,
+                fontSize: 14,
               ),
               textAlign: TextAlign.center,
             ),
@@ -211,59 +257,35 @@ class MedicamentoRopivacaina {
     );
   }
 
-  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    // Para ropivacaína: concentração fixa 0,2% (2 mg/mL)
-    // Slider ajusta VOLUME (mL/h), não dose mg/h
-    final opcoesConcentracoes = {
-      'Ropivacaína 0,2% (2 mg/mL)': 2.0,
-    };
-
-    if (isAdulto) {
-      // Adulto: 6-14 mL/h de 0,2% = 12-28 mg/h
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mL/h',
-        doseMin: 6.0,
-        doseMax: 14.0,
-      );
-    } else {
-      // Pediátrico: 0,2-0,4 mL/kg/h
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mL/kg/h',
-        doseMin: 0.2,
-        doseMax: 0.4,
-      );
-    }
-  }
-
-  static Widget _linhaIndicacaoDoseCalculada({
+  /// Para doses calculadas por peso (mg/kg ou mL/kg)
+  static Widget _linhaIndicacaoDoseCalculadaPorPeso({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
+    required String unidade,
+    required double peso,
     double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
     String? textoDose;
+    bool doseLimite = false;
 
     if (dosePorKg != null) {
       double doseCalculada = dosePorKg * peso;
       if (doseMaxima != null && doseCalculada > doseMaxima) {
         doseCalculada = doseMaxima;
+        doseLimite = true;
       }
       textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
     } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMaxima != null) {
-        doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
+        doseLimite = true;
       }
-      textoDose = '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      textoDose = '${doseMin.toStringAsFixed(1)}-${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(
@@ -286,16 +308,18 @@ class MedicamentoRopivacaina {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -306,14 +330,52 @@ class MedicamentoRopivacaina {
     );
   }
 
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );

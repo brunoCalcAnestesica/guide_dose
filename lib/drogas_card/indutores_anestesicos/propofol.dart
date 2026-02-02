@@ -19,9 +19,11 @@ class MedicamentoPropofol {
       void Function(String) onToggleFavorito) {
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso' || faixaEtaria == 'Adolescente';
     final isFavorito = favoritos.contains(nome);
 
-    if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
+    // Propofol não é recomendado em neonatos
+    if (faixaEtaria == 'Neonato') {
       return const SizedBox.shrink();
     }
 
@@ -34,219 +36,186 @@ class MedicamentoPropofol {
       conteudo: _buildCardPropofol(
         context,
         peso,
-        faixaEtaria,
+        isAdulto,
         isFavorito,
         () => onToggleFavorito(nome),
       ),
     );
   }
 
-  static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
-    // Propofol não é recomendado em neonatos
-    return faixaEtaria != 'Neonato';
-  }
-
   static Widget _buildCardPropofol(BuildContext context, double peso,
-      String faixaEtaria, bool isFavorito, VoidCallback onToggleFavorito) {
+      bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        const Text('Anestésico Geral Intravenoso - Hipnótico Sedativo',
-            style: TextStyle(fontSize: 14)),
+        _linhaPreparo('Anestésico IV', 'Hipnótico-sedativo (alquifenol)'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoPropofol._linhaPreparo(
-            '• Ampola/Frasco 10 mg/mL (10 mL, 20 mL, 50 mL, 100 mL)'),
-        MedicamentoPropofol._linhaPreparo(
-            '• Emulsão lipídica estéril (óleo soja, lecitina, glicerol)'),
+        _linhaPreparo('Ampola 200 mg/20 mL', '10 mg/mL (1%) | Diprivan®'),
+        _linhaPreparo('Frasco 500 mg/50 mL', '10 mg/mL (1%)'),
+        _linhaPreparo('Frasco 1000 mg/100 mL', '10 mg/mL (1%)'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoPropofol._linhaPreparo(
-            '• Usar direto do frasco (não diluir)'),
-        MedicamentoPropofol._linhaPreparo('• Agitar suavemente antes do uso'),
-        MedicamentoPropofol._linhaPreparo(
-            '• Técnica asséptica rigorosa (emulsão lipídica)'),
-        MedicamentoPropofol._linhaPreparo('• Descartar em 6h após abertura'),
+        _linhaPreparo('Puro (NÃO diluir)', '10 mg/mL - padrão'),
+        _linhaPreparo('Se necessário diluir', 'Somente SG 5% (mín 2 mg/mL)'),
+        _textoObs('Emulsão lipídica - técnica asséptica rigorosa'),
+        _textoObs('Descartar em 6h após abertura'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        const Text('Indicações',
+        const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        ..._buildIndicacoesPorFaixaEtaria(faixaEtaria, peso),
+        if (isAdulto) ...[
+          // BOLUS - caixa azul (calculadas)
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução anestésica',
+            descricaoDose: '1,5-2,5 mg/kg IV lento (30-60 seg)',
+            dosePorKgMinima: 1.5,
+            dosePorKgMaxima: 2.5,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Sedação para procedimentos',
+            descricaoDose: '0,5-1 mg/kg IV lento, repetir PRN',
+            dosePorKgMinima: 0.5,
+            dosePorKgMaxima: 1.0,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          // INFUSÃO - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção anestésica (TIVA)',
+            descricaoDose: '4-12 mg/kg/h IV contínua',
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Sedação UTI',
+            descricaoDose: '0,3-4 mg/kg/h IV contínua (titular BIS 40-60)',
+          ),
+        ] else ...[
+          // PEDIÁTRICO (>3 anos)
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução anestésica (>3 anos)',
+            descricaoDose: '2,5-3,5 mg/kg IV lento',
+            dosePorKgMinima: 2.5,
+            dosePorKgMaxima: 3.5,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Sedação para procedimentos',
+            descricaoDose: '1-2 mg/kg IV lento',
+            dosePorKgMinima: 1.0,
+            dosePorKgMaxima: 2.0,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção anestésica',
+            descricaoDose: '6-15 mg/kg/h IV (procedimentos curtos)',
+          ),
+          _textoObs('⚠️ EVITAR sedação prolongada em UTI pediátrica (PRIS)'),
+        ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoPropofol._buildConversorInfusao(peso, faixaEtaria),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoPropofol._textoObs(
-            '• Causa hipotensão e bradicardia (dose-dependente)'),
-        MedicamentoPropofol._textoObs(
-            '• Dor à injeção (usar veia calibrosa, pré-tratar com lidocaína)'),
-        MedicamentoPropofol._textoObs(
-            '• Descartar frasco 6h após abertura (risco de contaminação)'),
-        MedicamentoPropofol._textoObs(
-            '• Contraindicado em alergia a ovo, soja ou amendoim'),
+        _textoObs('Hipotensão + bradicardia dose-dependente'),
+        _textoObs('Dor à injeção - lidocaína 20-40 mg IV antes'),
+        _textoObs('Contraindicado: alergia ovo/soja/amendoim'),
+        _textoObs('⚠️ PRIS: NÃO usar >4 mg/kg/h por >48h'),
+        _textoObs('PRIS: acidose, rabdomiólise, arritmias, óbito'),
+        _textoObs('Idosos: reduzir 30-50% da dose de indução'),
       ],
     );
   }
 
-  static List<Widget> _buildIndicacoesPorFaixaEtaria(
-      String faixaEtaria, double peso) {
-    List<Widget> indicacoes = [];
-
-    switch (faixaEtaria) {
-      case 'Lactente':
-      case 'Criança':
-        indicacoes.addAll([
-          MedicamentoPropofol._linhaIndicacaoDoseCalculada(
-            titulo: 'Indução anestésica (>3 anos)',
-            descricaoDose: 'Dose: 2,5-3,5 mg/kg IV lento',
-            unidade: 'mg',
-            dosePorKgMinima: 2.5,
-            dosePorKgMaxima: 3.5,
-            peso: peso,
-          ),
-          MedicamentoPropofol._linhaIndicacaoDoseCalculada(
-            titulo: 'Sedação para procedimentos',
-            descricaoDose: 'Dose: 1-2 mg/kg IV',
-            unidade: 'mg',
-            dosePorKgMinima: 1,
-            dosePorKgMaxima: 2,
-            peso: peso,
-          ),
-        ]);
-        break;
-      case 'Adolescente':
-      case 'Adulto':
-        indicacoes.addAll([
-          MedicamentoPropofol._linhaIndicacaoDoseCalculada(
-            titulo: 'Indução anestésica',
-            descricaoDose: 'Dose: 1,5-2,5 mg/kg IV lento (30-60 segundos)',
-            unidade: 'mg',
-            dosePorKgMinima: 1.5,
-            dosePorKgMaxima: 2.5,
-            peso: peso,
-          ),
-          MedicamentoPropofol._linhaIndicacaoDoseCalculada(
-            titulo: 'Sedação para procedimentos',
-            descricaoDose: 'Dose: 0,5-1 mg/kg IV lento',
-            unidade: 'mg',
-            dosePorKgMinima: 0.5,
-            dosePorKgMaxima: 1,
-            peso: peso,
-          ),
-        ]);
-        break;
-      case 'Idoso':
-        indicacoes.addAll([
-          MedicamentoPropofol._linhaIndicacaoDoseCalculada(
-            titulo: 'Indução anestésica (reduzir dose)',
-            descricaoDose: 'Dose: 1-1,5 mg/kg IV lento (redução de 30-50%)',
-            unidade: 'mg',
-            dosePorKgMinima: 1,
-            dosePorKgMaxima: 1.5,
-            peso: peso,
-          ),
-          MedicamentoPropofol._linhaIndicacaoDoseCalculada(
-            titulo: 'Sedação para procedimentos',
-            descricaoDose: 'Dose: 0,5-1 mg/kg IV lento',
-            unidade: 'mg',
-            dosePorKgMinima: 0.5,
-            dosePorKgMaxima: 1,
-            peso: peso,
-          ),
-        ]);
-        break;
-    }
-
-    return indicacoes;
-  }
-
-  static Widget _buildConversorInfusao(double peso, String faixaEtaria) {
+  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Propofol geralmente é usado PURO (10 mg/mL)
+    // Concentrações em mg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '200mg em 100mL SF 0,9% (2 mg/mL)': 2.0,
-      '500mg em 50mL SF 0,9% (10 mg/mL)': 10.0,
-      '1000mg em 100mL SF 0,9% (10 mg/mL)': 10.0,
+      'Puro 10 mg/mL (padrão)': 10.0, // mg/mL
+      'Diluído 5 mg/mL': 5.0, // mg/mL
+      'Diluído 2 mg/mL': 2.0, // mg/mL
     };
-
-    double doseMin;
-    double doseMax;
-
-    switch (faixaEtaria) {
-      case 'Lactente':
-      case 'Criança':
-        doseMin = 1.0;
-        doseMax = 15.0;
-        break;
-      case 'Adolescente':
-      case 'Adulto':
-        doseMin = 0.3;
-        doseMax = 12.0;
-        break;
-      case 'Idoso':
-        doseMin = 0.3;
-        doseMax = 6.0;
-        break;
-      default:
-        doseMin = 0.3;
-        doseMax = 12.0;
-    }
 
     return ConversaoInfusaoSlider(
       peso: peso,
       opcoesConcentracoes: opcoesConcentracoes,
       unidade: 'mg/kg/h',
-      doseMin: doseMin,
-      doseMax: doseMax,
+      doseMin: isAdulto ? 0.3 : 1.0,
+      doseMax: isAdulto ? 12.0 : 15.0,
+      concentracaoEmMcg: false,
     );
   }
 
-  static Widget _linhaPreparo(String texto) {
+  static Widget _linhaPreparo(String texto, String marca) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Text(texto, style: const TextStyle(fontSize: 14)),
+      padding: const EdgeInsets.symmetric(vertical: 4),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
+          Expanded(
+            child: RichText(
+              text: TextSpan(
+                style: const TextStyle(color: Colors.black87),
+                children: [
+                  TextSpan(text: texto),
+                  if (marca.isNotEmpty) ...[
+                    const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                  ],
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
     );
   }
 
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
-    double? dosePorKg,
+    required String unidade,
+    required double peso,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
 
-    if (dosePorKg != null) {
-      doseCalculada = dosePorKg * peso;
-      if (doseMaxima != null && doseCalculada > doseMaxima) {
-        doseCalculada = doseMaxima;
-      }
-      textoDose =
-          '${doseCalculada.toStringAsFixed(1)} ${unidade?.replaceAll('/kg', '')}';
-    } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
+    if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMaxima != null) {
-        doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
       }
-      textoDose =
-          '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} ${unidade?.replaceAll('/kg', '')}';
+      textoDose = '${doseMin.toStringAsFixed(0)}-${doseMax.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(
@@ -270,7 +239,7 @@ class MedicamentoPropofol {
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
                 color: Colors.blue.shade50,
-                borderRadius: BorderRadius.circular(4),
+                borderRadius: BorderRadius.circular(6),
                 border: Border.all(color: Colors.blue.shade200),
               ),
               child: Text(
@@ -278,8 +247,9 @@ class MedicamentoPropofol {
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.blue.shade700,
-                  fontSize: 12,
+                  fontSize: 14,
                 ),
+                textAlign: TextAlign.center,
               ),
             ),
           ],
@@ -288,10 +258,58 @@ class MedicamentoPropofol {
     );
   }
 
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Text(texto, style: const TextStyle(fontSize: 14)),
+      padding: const EdgeInsets.symmetric(vertical: 3),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('• ',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(
+              texto,
+              style: const TextStyle(fontSize: 13),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
-import 'dart:convert';
 import '../drogas.dart';
 import '../../shared_data.dart';
 
@@ -8,25 +6,10 @@ class MedicamentoAcidoAminocaproico {
   static const String nome = 'Ácido Aminocaproico';
   static const String idBulario = 'acido_aminocaproico';
 
-  static Future<Map<String, dynamic>> carregarBulario() async {
-    final String jsonStr = await rootBundle.loadString('assets/farmacoteca/002_acido_aminocaproico.json');
-    final Map<String, dynamic> jsonMap = json.decode(jsonStr);
-    return jsonMap['acido_aminocaproico'];
-  }
-
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
     final peso = SharedData.peso ?? 70;
-    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
-
-    // Debug: verificar faixa etária
-    print('DEBUG Ácido Aminocaproico - Faixa etária: $faixaEtaria');
-    print('DEBUG Ácido Aminocaproico - Tem indicações: ${_temIndicacoesParaFaixaEtaria(faixaEtaria)}');
-    
-    // Verificar se há indicações para a faixa etária atual
-    if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
-      return const SizedBox.shrink(); // Não exibe o card se não há indicações
-    }
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -34,224 +17,122 @@ class MedicamentoAcidoAminocaproico {
       idBulario: idBulario,
       isFavorito: isFavorito,
       onToggleFavorito: () => onToggleFavorito(nome),
-      conteudo: _buildCardAcidoAminocaproico(
-        context,
-        peso,
-        faixaEtaria,
-        isFavorito,
-        () => onToggleFavorito(nome),
-      ),
+      conteudo: _buildCardAcidoAminocaproico(context, peso, isAdulto),
     );
   }
 
-  static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
-    // Mapear faixas etárias para as chaves do JSON
-    final faixaEtariaMap = {
-      'Recém-nascido': 'recem_nascido',
-      'Lactente': 'lactente',
-      'Criança': 'crianca',
-      'Adolescente': 'adolescente',
-      'Adulto': 'adulto',
-      'Idoso': 'idoso',
-    };
-
-    final chaveFaixaEtaria = faixaEtariaMap[faixaEtaria] ?? 'adulto';
-    
-    // Dados das indicações por faixa etária
-    final indicacoesPorFaixa = {
-      'recem_nascido': <Map<String, dynamic>>[],
-      'lactente': <Map<String, dynamic>>[],
-      'crianca': <Map<String, dynamic>>[],
-      'adolescente': <Map<String, dynamic>>[],
-      'adulto': [
-        {
-          'titulo': 'Hiperfibrinólise em cirurgia',
-          'descricaoDose': 'Carga: 4–5 g IV em 1h → Manutenção: 1 g/h por até 8h',
-          'doseMinima': 4,
-          'doseMaxima': 5,
-          'unidade': 'g'
-        },
-        {
-          'titulo': 'Hemorragias em coagulopatias',
-          'descricaoDose': '100–150 mg/kg IV cada 6h (máx 30 g/dia)',
-          'dosePorKgMinima': 100,
-          'dosePorKgMaxima': 150,
-          'doseMaxima': 30000,
-          'unidade': 'mg/kg'
-        },
-        {
-          'titulo': 'Uso oral profilático',
-          'descricaoDose': '1–2 g VO 3–4x/dia (máx 8 g/dia)',
-          'doseMinima': 1,
-          'doseMaxima': 2,
-          'unidade': 'g'
-        }
-      ],
-      'idoso': [
-        {
-          'titulo': 'Hiperfibrinólise em cirurgia',
-          'descricaoDose': 'Carga: 3–4 g IV em 1h → Manutenção: 0,5–1 g/h por até 8h',
-          'doseMinima': 3,
-          'doseMaxima': 4,
-          'unidade': 'g'
-        }
-      ]
-    };
-
-    final indicacoes = indicacoesPorFaixa[chaveFaixaEtaria] ?? [];
-    return indicacoes.isNotEmpty;
-  }
-
-  static Widget _buildCardAcidoAminocaproico(BuildContext context, double peso, String faixaEtaria, bool isFavorito, VoidCallback onToggleFavorito) {
+  static Widget _buildCardAcidoAminocaproico(BuildContext context, double peso, bool isAdulto) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
-        
-        // CLASSE
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _linhaPreparo('Antifibrinolítico', ''),
+        _textoSimples('Antifibrinolítico - Análogo sintético da lisina'),
         
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        
-        // APRESENTAÇÕES
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _linhaPreparo('Frasco 5 g/100 mL (50 mg/mL)', 'Amicar® - uso IV'),
+        _linhaPreparo('Ampola 5g/20mL', '250 mg/mL'),
+        _linhaPreparo('Frasco 5g/100mL', '50 mg/mL'),
+        _linhaPreparo('Comprimido 500mg', 'Via oral'),
         
+        // 3. PREPARO
         const SizedBox(height: 16),
-        
-        // PREPARO
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _linhaPreparo('Pode ser usado IV direta, infusão contínua ou VO', ''),
-        _linhaPreparo('Diluir em SF 0,9% ou SG 5% para infusão lenta (10–30 min)', ''),
+        _linhaPreparo('5g + 250mL SF', '20 mg/mL (infusão)'),
+        _linhaPreparo('Puro IV lento', 'máx 100 mL/h'),
+        _linhaPreparo('Diluir em SF ou SG 5%', 'compatível'),
         
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        
-        // INDICAÇÕES
-        const Text('Indicações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        ..._buildIndicacoesPorFaixaEtaria(faixaEtaria, peso),
+        if (isAdulto) ...[
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Hiperfibrinólise cirúrgica',
+            descricaoDose: 'Ataque: 4-5g IV em 1h → Manutenção: 1g/h por 8h',
+            doseFixa: 'Ataque: 4-5g → Manut: 1g/h',
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Hemorragia em coagulopatia',
+            descricaoDose: '100-150 mg/kg IV em 1h (máx 10g)',
+            unidade: 'mg',
+            dosePorKgMinima: 100,
+            dosePorKgMaxima: 150,
+            doseMaxima: 10000,
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pós-carga',
+            descricaoDose: '1-2 g/h IV contínua por até 8h',
+          ),
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Profilaxia oral',
+            descricaoDose: '1-1,5g VO 6/6h (máx 6g/dia)',
+            doseFixa: '1-1,5g VO 6/6h',
+          ),
+        ] else ...[
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Hemorragia pediátrica',
+            descricaoDose: '100 mg/kg IV em 1h (máx 5g)',
+            unidade: 'mg',
+            dosePorKg: 100,
+            doseMaxima: 5000,
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
+            descricaoDose: '33 mg/kg/h IV contínua (máx 18g/dia)',
+          ),
+        ],
         
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
-        
-        // INFUSÃO CONTÍNUA
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _linhaPreparo('0,5–2 g/h', 'Concentração: 50 mg/mL'),
-        _linhaPreparo('Diluir em SF 0,9% ou SG 5%', 'Infusão lenta'),
-        
-        const SizedBox(height: 16),
         _buildConversorInfusao(peso),
         
+        // 6. OBSERVAÇÕES (6 principais)
         const SizedBox(height: 16),
-        
-        // OBSERVAÇÕES
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _textoObs('Antifibrinolítico que bloqueia a conversão de plasminogênio em plasmina'),
-        _textoObs('Alternativa ao ácido tranexâmico'),
-        _textoObs('Cuidado em insuficiência renal e risco de trombose'),
-        _textoObs('Contraindicado em hematuria macroscópica de origem renal'),
+        _textoObs('Alternativa ao ácido tranexâmico (10x menos potente)'),
+        _textoObs('Contraindicado: hematúria de origem renal alta'),
+        _textoObs('Não usar com concentrado de fator IX (trombose)'),
+        _textoObs('Ajustar dose se ClCr < 50 mL/min'),
+        _textoObs('Infusão rápida causa hipotensão e bradicardia'),
         _textoObs('Meia-vida: 1-2 horas'),
-        _textoObs('Usar com cautela em disfunção renal grave'),
       ],
     );
   }
 
-  static List<Widget> _buildIndicacoesPorFaixaEtaria(String faixaEtaria, double peso) {
-    final faixaEtariaMap = {
-      'Recém-nascido': 'recem_nascido',
-      'Lactente': 'lactente',
-      'Criança': 'crianca',
-      'Adolescente': 'adolescente',
-      'Adulto': 'adulto',
-      'Idoso': 'idoso',
-    };
-
-    final chaveFaixaEtaria = faixaEtariaMap[faixaEtaria] ?? 'adulto';
-    
-    final indicacoesPorFaixa = {
-      'recem_nascido': <Map<String, dynamic>>[],
-      'lactente': <Map<String, dynamic>>[],
-      'crianca': <Map<String, dynamic>>[],
-      'adolescente': <Map<String, dynamic>>[],
-      'adulto': [
-        {
-          'titulo': 'Hiperfibrinólise em cirurgia',
-          'descricaoDose': 'Carga: 4–5 g IV em 1h → Manutenção: 1 g/h por até 8h',
-          'doseMinima': 4,
-          'doseMaxima': 5,
-          'unidade': 'g'
-        },
-        {
-          'titulo': 'Hemorragias em coagulopatias',
-          'descricaoDose': '100–150 mg/kg IV cada 6h (máx 30 g/dia)',
-          'dosePorKgMinima': 100,
-          'dosePorKgMaxima': 150,
-          'doseMaxima': 30000,
-          'unidade': 'mg/kg'
-        },
-        {
-          'titulo': 'Uso oral profilático',
-          'descricaoDose': '1–2 g VO 3–4x/dia (máx 8 g/dia)',
-          'doseMinima': 1,
-          'doseMaxima': 2,
-          'unidade': 'g'
-        }
-      ],
-      'idoso': [
-        {
-          'titulo': 'Hiperfibrinólise em cirurgia',
-          'descricaoDose': 'Carga: 3–4 g IV em 1h → Manutenção: 0,5–1 g/h por até 8h',
-          'doseMinima': 3,
-          'doseMaxima': 4,
-          'unidade': 'g'
-        }
-      ]
-    };
-
-    final indicacoes = indicacoesPorFaixa[chaveFaixaEtaria] ?? [];
-    
-    if (indicacoes.isEmpty) {
-      return [
-        _textoObs('Não há indicações específicas para esta faixa etária'),
-      ];
-    }
-
-    return indicacoes.map<Widget>((indicacao) {
-      return _linhaIndicacaoDoseCalculada(
-        titulo: indicacao['titulo'],
-        descricaoDose: indicacao['descricaoDose'],
-        unidade: indicacao['unidade'],
-        dosePorKg: indicacao['dosePorKg'],
-        dosePorKgMinima: indicacao['dosePorKgMinima']?.toDouble(),
-        dosePorKgMaxima: indicacao['dosePorKgMaxima']?.toDouble(),
-        doseMinima: indicacao['doseMinima']?.toDouble(),
-        doseMaxima: indicacao['doseMaxima']?.toDouble(),
-        peso: peso,
-      );
-    }).toList();
+  static Widget _textoSimples(String texto) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 2),
+      child: Text(texto, style: const TextStyle(fontSize: 14)),
+    );
   }
 
-  static Widget _linhaPreparo(String texto, String marca) {
+  static Widget _linhaPreparo(String texto, String detalhe) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 4),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
           Expanded(
             child: RichText(
               text: TextSpan(
-                style: const TextStyle(color: Colors.black87),
+                style: const TextStyle(color: Colors.black87, fontSize: 14),
                 children: [
                   TextSpan(text: texto),
-                  if (marca.isNotEmpty) ...[
+                  if (detalhe.isNotEmpty) ...[
                     const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                    TextSpan(text: detalhe, style: const TextStyle(fontStyle: FontStyle.italic)),
                   ],
                 ],
               ),
@@ -262,32 +143,62 @@ class MedicamentoAcidoAminocaproico {
     );
   }
 
+  static Widget _linhaIndicacaoDoseFixa({
+    required String titulo,
+    required String descricaoDose,
+    required String doseFixa,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(titulo, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          const SizedBox(height: 4),
+          Text(descricaoDose, style: const TextStyle(fontSize: 13)),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.blue.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.blue.shade200),
+            ),
+            child: Text(
+              'Dose: $doseFixa',
+              style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue.shade700, fontSize: 13),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
+    required String unidade,
     double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
-    double? doseMinima,
     double? doseMaxima,
     required double peso,
   }) {
-    double? doseCalculada;
-    String? textoDose;
+    String textoDose;
 
     if (dosePorKg != null) {
-      doseCalculada = dosePorKg * peso;
-      textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
+      double dose = dosePorKg * peso;
+      if (doseMaxima != null && dose > doseMaxima) dose = doseMaxima;
+      textoDose = '${dose.toStringAsFixed(0)} $unidade';
     } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMaxima != null) {
-        doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
-      }
-      textoDose = '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
-    } else if (doseMinima != null && doseMaxima != null) {
-      textoDose = '${doseMinima.toStringAsFixed(1)}–${doseMaxima.toStringAsFixed(1)} $unidade';
+      if (doseMaxima != null && doseMax > doseMaxima) doseMax = doseMaxima;
+      textoDose = '${doseMin.toStringAsFixed(0)}–${doseMax.toStringAsFixed(0)} $unidade';
+    } else {
+      textoDose = '';
     }
 
     return Padding(
@@ -295,31 +206,23 @@ class MedicamentoAcidoAminocaproico {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Text(
-            titulo,
-            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
-          ),
+          Text(titulo, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
           const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          if (textoDose != null) ...[
+          Text(descricaoDose, style: const TextStyle(fontSize: 13)),
+          if (textoDose.isNotEmpty) ...[
             const SizedBox(height: 4),
             Container(
-              padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+              width: double.infinity,
+              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
                 color: Colors.blue.shade50,
-                borderRadius: BorderRadius.circular(4),
+                borderRadius: BorderRadius.circular(6),
                 border: Border.all(color: Colors.blue.shade200),
               ),
               child: Text(
                 'Dose calculada: $textoDose',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 12,
-                ),
+                style: TextStyle(fontWeight: FontWeight.bold, color: Colors.blue.shade700, fontSize: 13),
+                textAlign: TextAlign.center,
               ),
             ),
           ],
@@ -328,14 +231,45 @@ class MedicamentoAcidoAminocaproico {
     );
   }
 
+  /// Widget para indicações de infusão contínua (sem cálculo)
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(titulo, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(color: Colors.orange.shade700, fontSize: 13),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(child: Text(texto, style: const TextStyle(fontSize: 13))),
         ],
       ),
     );

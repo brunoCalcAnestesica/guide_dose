@@ -39,93 +39,123 @@ class MedicamentoAmiodarona {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAmiodarona._textoObs('• Antiarrítmico classe III - Bloqueador de canais de potássio'),
+        _linhaPreparo('Antiarrítmico Classe III', 'Bloqueador canais K+'),
+        
+        // APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAmiodarona._linhaPreparo('Ampola 150mg/3mL', 'Solução injetável'),
-        MedicamentoAmiodarona._linhaPreparo('Comprimidos 200mg', 'Via oral'),
+        _linhaPreparo('Ampola 150mg/3mL', '50 mg/mL'),
+        _linhaPreparo('Comprimido 200mg', 'Via oral'),
+        
+        // PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAmiodarona._linhaPreparo('150mg em 250mL SG 5%', '0,6 mg/mL para infusão'),
-        MedicamentoAmiodarona._linhaPreparo('300mg em 250mL SG 5%', '1,2 mg/mL para infusão'),
-        MedicamentoAmiodarona._linhaPreparo('Usar apenas SG 5%', 'Não usar SF 0,9%'),
+        _linhaPreparo('900mg + 500mL SG 5%', '1,8 mg/mL'),
+        _linhaPreparo('150mg + 100mL SG 5%', '1,5 mg/mL'),
+        _linhaPreparo('300mg + 250mL SG 5%', '1,2 mg/mL'),
+        _linhaPreparo('APENAS SG 5%', 'Precipita em SF!'),
+        
+        // INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoAmiodarona._linhaIndicacaoDoseCalculada(
-            titulo: 'Dose de ataque IV',
-            descricaoDose: '5 mg/kg IV em 20-60min',
-            unidade: 'mg',
-            dosePorKg: 5,
-            peso: peso,
+          _linhaIndicacaoDoseFixa(
+            titulo: 'PCR (FV/TV sem pulso) - ACLS',
+            descricaoDose: '300mg IV bolus → 150mg se refratário',
+            doseFixa: '300 mg IV (pode repetir 150 mg)',
           ),
-          MedicamentoAmiodarona._linhaIndicacaoDoseCalculada(
-            titulo: 'Dose de manutenção IV',
-            descricaoDose: '10-20 mg/kg/dia IV contínua',
-            unidade: 'mg/dia',
-            dosePorKgMinima: 10,
-            dosePorKgMaxima: 20,
-            peso: peso,
+          _linhaIndicacaoDoseFixa(
+            titulo: 'TV com pulso / FA',
+            descricaoDose: '150mg IV em 10min (pode repetir)',
+            doseFixa: '150 mg IV em 10 min',
           ),
-          MedicamentoAmiodarona._linhaIndicacaoDoseFixa(
-            titulo: 'Dose de ataque VO',
-            descricaoDose: '400-1200 mg/dia dividido',
-            doseFixa: '400-1200 mg/dia',
-          ),
-          MedicamentoAmiodarona._linhaIndicacaoDoseFixa(
-            titulo: 'Dose de manutenção VO',
-            descricaoDose: '100-400 mg/dia',
-            doseFixa: '100-400 mg/dia',
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pós-ataque',
+            descricaoDose: '1 mg/min por 6h → 0,5 mg/min por 18h',
           ),
         ] else ...[
-          MedicamentoAmiodarona._linhaIndicacaoDoseCalculada(
-            titulo: 'Dose inicial pediátrica IV',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'PCR pediátrica (PALS)',
+            descricaoDose: '5 mg/kg IV bolus (máx 300mg)',
+            unidade: 'mg',
+            dosePorKg: 5,
+            doseMaxima: 300,
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Arritmia pediátrica - Ataque',
             descricaoDose: '5 mg/kg IV em 20-60min (máx 300mg)',
             unidade: 'mg',
             dosePorKg: 5,
             doseMaxima: 300,
             peso: peso,
           ),
-          MedicamentoAmiodarona._linhaIndicacaoDoseCalculada(
-            titulo: 'Dose de manutenção pediátrica IV',
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
             descricaoDose: '5-15 mcg/kg/min IV contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 5,
-            dosePorKgMaxima: 15,
-            peso: peso,
           ),
-          if (peso < 1) ...[
-            MedicamentoAmiodarona._linhaIndicacaoDoseCalculada(
-              titulo: 'Neonatos - Dose inicial',
-              descricaoDose: '5 mg/kg IV (máx 15 mg/kg)',
-              unidade: 'mg',
-              dosePorKg: 5,
-              doseMaxima: 15,
-              peso: peso,
-            ),
-          ],
         ],
+        
+        // INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAmiodarona._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // OBSERVAÇÕES
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAmiodarona._textoObs('• Antiarrítmico de amplo espectro para arritmias graves'),
-        MedicamentoAmiodarona._textoObs('• Meia-vida longa (40-55 dias) - efeito cumulativo'),
-        MedicamentoAmiodarona._textoObs('• Monitorar função tireoidiana e hepática'),
-        MedicamentoAmiodarona._textoObs('• Risco de toxicidade pulmonar com uso prolongado'),
-        MedicamentoAmiodarona._textoObs('• Interage com digoxina, warfarina e outros antiarrítmicos'),
-        MedicamentoAmiodarona._textoObs('• Contraindicado em bradicardia sinusal, bloqueio AV'),
-        MedicamentoAmiodarona._textoObs('• Usar apenas SG 5% para diluição'),
+        _textoObs('APENAS diluir em SG 5% (precipita em SF)'),
+        _textoObs('Meia-vida extremamente longa: 40-55 dias'),
+        _textoObs('Monitorar tireoide (hipo/hipertireoidismo)'),
+        _textoObs('Prolonga QT - ECG contínuo'),
+        _textoObs('Toxicidade pulmonar com uso prolongado'),
+        _textoObs('Interage com warfarina e digoxina'),
       ],
+    );
+  }
+
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -265,19 +295,22 @@ class MedicamentoAmiodarona {
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
     final opcoesConcentracoes = {
-      '150mg em 250mL SG 5% (0,6 mg/mL)': 0.6, // mg/mL
-      '300mg em 250mL SG 5% (1,2 mg/mL)': 1.2, // mg/mL
+      '900mg + 500mL SG 5% (1,8 mg/mL)': 1.8,
+      '300mg + 250mL SG 5% (1,2 mg/mL)': 1.2,
+      '150mg + 100mL SG 5% (1,5 mg/mL)': 1.5,
     };
 
     if (isAdulto) {
+      // Adulto: 0,5-1 mg/min (30-60 mg/h)
       return ConversaoInfusaoSlider(
         peso: peso,
         opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mg/kg/h',
-        doseMin: 0.4, // 10 mg/kg/dia ÷ 24h = 0.42 mg/kg/h
-        doseMax: 0.8, // 20 mg/kg/dia ÷ 24h = 0.83 mg/kg/h
+        unidade: 'mg/h',
+        doseMin: 30,
+        doseMax: 60,
       );
     } else {
+      // Pediátrico: 5-15 mcg/kg/min
       return ConversaoInfusaoSlider(
         peso: peso,
         opcoesConcentracoes: opcoesConcentracoes,
@@ -295,7 +328,9 @@ class MedicamentoAmiodarona {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );

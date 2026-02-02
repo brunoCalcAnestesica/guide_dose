@@ -39,80 +39,120 @@ class MedicamentoAlfentanil {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAlfentanil._textoObs('• Analgésico Opioide - Agonista μ-opioide'),
+        _linhaPreparo('Opioide sintético', 'Agonista μ de ação ultracurta'),
+        
+        // APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAlfentanil._linhaPreparo('Ampola 0,5mg/mL (5mL)', 'Solução injetável'),
-        MedicamentoAlfentanil._linhaPreparo('Ampola 1mg/mL (2mL)', 'Solução injetável concentrada'),
+        _linhaPreparo('Ampola 2,5mg/5mL', '500 mcg/mL'),
+        _linhaPreparo('Ampola 1mg/2mL', '500 mcg/mL'),
+        
+        // PREPARO
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAlfentanil._linhaPreparo('Pode ser administrado sem diluição', 'Direto da ampola'),
-        MedicamentoAlfentanil._linhaPreparo('Para infusão: diluir em SF 0,9% ou SG 5%', 'Concentração conforme necessidade'),
-        MedicamentoAlfentanil._linhaPreparo('Para UTI: 5mg em 50mL SF 0,9%', '100 mcg/mL para infusão contínua'),
+        _linhaPreparo('Puro IV', 'bolus lento'),
+        _linhaPreparo('2,5mg + 50mL SF', '50 mcg/mL'),
+        _linhaPreparo('5mg + 50mL SF', '100 mcg/mL'),
+        
+        // INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoAlfentanil._linhaIndicacaoDoseCalculada(
-            titulo: 'Procedimentos de curta duração',
-            descricaoDose: '7–15 mcg/kg IV bolus (incrementos de 3,5 mcg/kg)',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Analgesia procedimentos curtos',
+            descricaoDose: '8-20 mcg/kg IV bolus',
             unidade: 'mcg',
-            dosePorKgMinima: 7,
-            dosePorKgMaxima: 15,
+            dosePorKgMinima: 8,
+            dosePorKgMaxima: 20,
             peso: peso,
           ),
-          MedicamentoAlfentanil._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Indução anestésica',
-            descricaoDose: '120 mcg/kg IV lento (3 minutos)',
+            descricaoDose: '50-75 mcg/kg IV lento',
             unidade: 'mcg',
-            dosePorKg: 120,
+            dosePorKgMinima: 50,
+            dosePorKgMaxima: 75,
             peso: peso,
           ),
-          MedicamentoAlfentanil._linhaIndicacaoDoseFixa(
-            titulo: 'Infusão contínua',
-            descricaoDose: '1 mcg/kg/min IV contínua',
-            doseFixa: '1 mcg/kg/min',
-          ),
-          MedicamentoAlfentanil._linhaIndicacaoDoseFixa(
-            titulo: 'UTI - Sedação',
-            descricaoDose: '2 mg/h IV (≈30 mcg/kg/h para 70kg)',
-            doseFixa: '2 mg/h',
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção anestésica',
+            descricaoDose: '0,5-3 mcg/kg/min IV contínua',
           ),
         ] else ...[
-          MedicamentoAlfentanil._linhaIndicacaoDoseCalculada(
-            titulo: 'Procedimentos pediátricos',
-            descricaoDose: '5–10 mcg/kg IV bolus',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Bolus pediátrico',
+            descricaoDose: '10-20 mcg/kg IV',
             unidade: 'mcg',
-            dosePorKgMinima: 5,
-            dosePorKgMaxima: 10,
+            dosePorKgMinima: 10,
+            dosePorKgMaxima: 20,
             peso: peso,
           ),
-          MedicamentoAlfentanil._linhaIndicacaoDoseFixa(
+          _linhaIndicacaoInfusao(
             titulo: 'Infusão pediátrica',
-            descricaoDose: '0,5–1 mcg/kg/min IV contínua',
-            doseFixa: '0,5–1 mcg/kg/min',
+            descricaoDose: '0,5-2 mcg/kg/min IV contínua',
           ),
         ],
+        
+        // INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAlfentanil._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // OBSERVAÇÕES
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAlfentanil._textoObs('• Opioide de ação rápida e curta duração'),
-        MedicamentoAlfentanil._textoObs('• Meia-vida de 1-2 horas'),
-        MedicamentoAlfentanil._textoObs('• Monitorar função respiratória continuamente'),
-        MedicamentoAlfentanil._textoObs('• Reduzir dose em idosos e insuficiência hepática'),
-        MedicamentoAlfentanil._textoObs('• Interage com inibidores CYP3A4'),
-        MedicamentoAlfentanil._textoObs('• Duração máxima de infusão: 4 dias'),
-        MedicamentoAlfentanil._textoObs('• Contraindicado em hipersensibilidade a opioides'),
+        _textoObs('Início: 1-2 min | Duração bolus: 10-15 min'),
+        _textoObs('Meia-vida contexto-sensitiva curta (ideal para infusão)'),
+        _textoObs('Reduzir 30-50% da dose em idosos'),
+        _textoObs('Depressão respiratória dose-dependente'),
+        _textoObs('Metabolizado CYP3A4 (interações medicamentosas)'),
+        _textoObs('Rigidez torácica em bolus rápido'),
       ],
+    );
+  }
+
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -207,54 +247,10 @@ class MedicamentoAlfentanil {
     );
   }
 
-  static Widget _linhaIndicacaoDoseFixa({
-    required String titulo,
-    required String descricaoDose,
-    required String doseFixa,
-  }) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            titulo,
-            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          const SizedBox(height: 4),
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-            decoration: BoxDecoration(
-              color: Colors.blue.shade50,
-              borderRadius: BorderRadius.circular(6),
-              border: Border.all(color: Colors.blue.shade200),
-            ),
-            child: Text(
-              'Dose: $doseFixa',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue.shade700,
-                fontSize: 13,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
     final opcoesConcentracoes = {
-      '5mg em 50mL SF 0,9% (100 mcg/mL)': 100.0, // mcg/mL
-      '2mg em 50mL SF 0,9% (40 mcg/mL)': 40.0, // mcg/mL
-      '1mg em 50mL SF 0,9% (20 mcg/mL)': 20.0, // mcg/mL
+      '5mg + 50mL SF (100 mcg/mL)': 100.0, // mcg/mL
+      '2,5mg + 50mL SF (50 mcg/mL)': 50.0, // mcg/mL
     };
 
     if (isAdulto) {
@@ -263,7 +259,8 @@ class MedicamentoAlfentanil {
         opcoesConcentracoes: opcoesConcentracoes,
         unidade: 'mcg/kg/min',
         doseMin: 0.5,
-        doseMax: 1.0,
+        doseMax: 3.0,
+        concentracaoEmMcg: true, // Concentração já em mcg/mL
       );
     } else {
       return ConversaoInfusaoSlider(
@@ -271,7 +268,8 @@ class MedicamentoAlfentanil {
         opcoesConcentracoes: opcoesConcentracoes,
         unidade: 'mcg/kg/min',
         doseMin: 0.5,
-        doseMax: 1.0,
+        doseMax: 2.0,
+        concentracaoEmMcg: true, // Concentração já em mcg/mL
       );
     }
   }
@@ -283,7 +281,9 @@ class MedicamentoAlfentanil {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );

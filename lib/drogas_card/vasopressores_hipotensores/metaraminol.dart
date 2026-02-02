@@ -22,7 +22,6 @@ class MedicamentoMetaraminol {
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
 
-    // Metaraminol tem indicações para todas as faixas etárias
     return buildMedicamentoExpansivel(
       context: context,
       nome: nome,
@@ -44,79 +43,82 @@ class MedicamentoMetaraminol {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
-
-        // Classe
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMetaraminol._textoObs(
-            'Simpaticomimético - Vasopressor - Agonista alfa-adrenérgico (ação mista)'),
-
+        _linhaPreparo('Vasopressor', 'Simpatomimético α1 > β1'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-
-        // Apresentações
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMetaraminol._linhaPreparo('Ampola 10mg/mL (1mL)', ''),
-
+        _linhaPreparo('Ampola 10mg/mL', '1 mL | Aramin®'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-
-        // Preparo
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMetaraminol._linhaPreparo(
-            'Bolus IV', 'Usar direto ou diluir em 10mL SF 0,9%'),
-        MedicamentoMetaraminol._linhaPreparo(
-            'Bolus IM', 'Usar direto da ampola'),
-        MedicamentoMetaraminol._linhaPreparo(
-            'Infusão', '15-100mg em 500mL SF 0,9% (0,03-0,2 mg/mL)'),
-
+        _linhaPreparo('100mg + 500mL SF', '200 mcg/mL'),
+        _linhaPreparo('50mg + 500mL SF', '100 mcg/mL'),
+        _linhaPreparo('20mg + 500mL SF', '40 mcg/mL'),
+        _textoObs('Bolus: diluir 10mg em 20mL SF (0,5mg/mL)'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-
-        // Indicações Clínicas
         const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-
         if (isAdulto) ...[
-          MedicamentoMetaraminol._linhaIndicacaoDoseFixa(
-            titulo: 'Hipotensão por anestesia raqui/peridural',
-            descricaoDose: '0,5-5mg IV bolus, repetir conforme necessário',
-            doseFixa: '0,5-5 mg',
+          // BOLUS adulto - dose FIXA (caixa verde)
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Hipotensão (raquianestesia)',
+            descricaoDose: '0,5-2 mg IV bolus, repetir a cada 2-3min',
           ),
-          MedicamentoMetaraminol._linhaIndicacaoDoseFixa(
-            titulo: 'Hipotensão durante anestesia geral',
-            descricaoDose: '0,5-2mg IV bolus',
-            doseFixa: '0,5-2 mg',
-          ),
-          MedicamentoMetaraminol._linhaIndicacaoDoseFixa(
-            titulo: 'Via IM (quando acesso IV indisponível)',
-            descricaoDose: '2-10mg IM dose única',
-            doseFixa: '2-10 mg',
-          ),
-          MedicamentoMetaraminol._linhaIndicacaoTexto(
-            titulo: 'Hipotensão refratária a bolus (infusão contínua)',
-            descricaoDose: '0,3-3 mcg/kg/min IV (titular conforme PA)',
-            textoCalculo: 'Veja calculadora de infusão abaixo',
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Hipotensão refratária',
+            descricaoDose: '0,5-5 mcg/kg/min IV contínua',
           ),
         ] else ...[
-          MedicamentoMetaraminol._linhaIndicacaoDoseCalculada(
-            titulo: 'Hipotensão pediátrica',
-            descricaoDose: '0,01-0,1 mg/kg IV bolus',
-            unidade: 'mg',
+          // BOLUS pediátrico - por peso (caixa azul)
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Hipotensão pediátrica (bolus)',
+            descricaoDose: '0,01-0,1 mg/kg IV (máx 5 mg)',
             dosePorKgMinima: 0.01,
             dosePorKgMaxima: 0.1,
+            doseMaxima: 5,
+            unidade: 'mg',
             peso: peso,
           ),
+          // INFUSÃO CONTÍNUA pediátrica - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
+            descricaoDose: '0,1-1 mcg/kg/min IV contínua',
+          ),
         ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMetaraminol._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
+        const SizedBox(height: 16),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const SizedBox(height: 8),
+        _textoObs('Início: 1-2min IV | Duração: 20-60min'),
+        _textoObs('Bradicardia reflexa (α1 > β) - ideal se taquicardia'),
+        _textoObs('Taquifilaxia com uso prolongado'),
+        _textoObs('CI: hipertensão grave, feocromocitoma'),
+        _textoObs('Extravasamento → necrose - via periférica com cuidado'),
+        _textoObs('Alternativa à fenilefrina no intraoperatório'),
       ],
     );
   }
@@ -154,7 +156,6 @@ class MedicamentoMetaraminol {
   static Widget _linhaIndicacaoDoseFixa({
     required String titulo,
     required String descricaoDose,
-    required String doseFixa,
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
@@ -166,24 +167,18 @@ class MedicamentoMetaraminol {
             style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
           ),
           const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          const SizedBox(height: 4),
           Container(
             width: double.infinity,
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             decoration: BoxDecoration(
-              color: Colors.blue.shade50,
+              color: Colors.green.shade50,
               borderRadius: BorderRadius.circular(6),
-              border: Border.all(color: Colors.blue.shade200),
+              border: Border.all(color: Colors.green.shade200),
             ),
             child: Text(
-              'Dose: $doseFixa',
+              descricaoDose,
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue.shade700,
+                color: Colors.green.shade700,
                 fontSize: 13,
               ),
               textAlign: TextAlign.center,
@@ -197,30 +192,23 @@ class MedicamentoMetaraminol {
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
-    double? dosePorKg,
+    required String unidade,
+    required double peso,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
+    bool doseLimite = false;
 
-    if (dosePorKg != null) {
-      doseCalculada = dosePorKg * peso;
-      if (doseMaxima != null && doseCalculada > doseMaxima) {
-        doseCalculada = doseMaxima;
-      }
-      textoDose = '${doseCalculada.toStringAsFixed(2)} $unidade';
-    } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
+    if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMaxima != null) {
-        doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
+        doseLimite = true;
       }
-      textoDose =
-          '${doseMin.toStringAsFixed(2)}–${doseMax.toStringAsFixed(2)} $unidade';
+      textoDose = '${doseMin.toStringAsFixed(2)}-${doseMax.toStringAsFixed(2)} $unidade';
     }
 
     return Padding(
@@ -243,16 +231,18 @@ class MedicamentoMetaraminol {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -263,10 +253,9 @@ class MedicamentoMetaraminol {
     );
   }
 
-  static Widget _linhaIndicacaoTexto({
+  static Widget _linhaIndicacaoInfusao({
     required String titulo,
     required String descricaoDose,
-    required String textoCalculo,
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
@@ -278,24 +267,18 @@ class MedicamentoMetaraminol {
             style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
           ),
           const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          const SizedBox(height: 4),
           Container(
             width: double.infinity,
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             decoration: BoxDecoration(
-              color: Colors.blue.shade50,
+              color: Colors.orange.shade50,
               borderRadius: BorderRadius.circular(6),
-              border: Border.all(color: Colors.blue.shade200),
+              border: Border.all(color: Colors.orange.shade200),
             ),
             child: Text(
-              textoCalculo,
+              descricaoDose,
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue.shade700,
+                color: Colors.orange.shade700,
                 fontSize: 13,
               ),
               textAlign: TextAlign.center,
@@ -307,34 +290,26 @@ class MedicamentoMetaraminol {
   }
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mcg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '50mg em 500mL SF 0,9% (100 mcg/mL)': 100.0, // mcg/mL - padrão
-      '100mg em 500mL SF 0,9% (200 mcg/mL)': 200.0, // mcg/mL - concentrado
-      '15mg em 500mL SF 0,9% (30 mcg/mL)': 30.0, // mcg/mL - diluído
+      '100mg + 500mL SF (200 mcg/mL)': 200.0, // mcg/mL
+      '50mg + 500mL SF (100 mcg/mL)': 100.0, // mcg/mL
+      '20mg + 500mL SF (40 mcg/mL)': 40.0, // mcg/mL
     };
 
-    if (isAdulto) {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 0.3,
-        doseMax: 3.0,
-      );
-    } else {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 0.1,
-        doseMax: 1.0,
-      );
-    }
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mcg/kg/min',
+      doseMin: isAdulto ? 0.5 : 0.1,
+      doseMax: isAdulto ? 5.0 : 1.0,
+      concentracaoEmMcg: true,
+    );
   }
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -343,7 +318,7 @@ class MedicamentoMetaraminol {
           Expanded(
             child: Text(
               texto,
-              style: const TextStyle(fontSize: 14),
+              style: const TextStyle(fontSize: 13),
             ),
           ),
         ],

@@ -19,12 +19,8 @@ class MedicamentoOctreotida {
       void Function(String) onToggleFavorito) {
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
-
-    // Verificar se há indicações para a faixa etária selecionada
-    if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
-      return const SizedBox.shrink();
-    }
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -35,190 +31,194 @@ class MedicamentoOctreotida {
       conteudo: _buildCardOctreotida(
         context,
         peso,
-        faixaEtaria,
+        isAdulto,
         isFavorito,
         () => onToggleFavorito(nome),
       ),
     );
   }
 
-  static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
-    // Octreotida tem indicações para todas as faixas etárias
-    return true;
-  }
-
   static Widget _buildCardOctreotida(BuildContext context, double peso,
-      String faixaEtaria, bool isFavorito, VoidCallback onToggleFavorito) {
+      bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        const Text('Análogo de Somatostatina', style: TextStyle(fontSize: 14)),
+        _linhaPreparo('Análogo de somatostatina', 'Antissecretor'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOctreotida._linhaPreparo('Ampola 0,05 mg/mL (1 mL)'),
-        MedicamentoOctreotida._linhaPreparo('Ampola 0,1 mg/mL (1 mL)'),
-        MedicamentoOctreotida._linhaPreparo('Ampola 0,5 mg/mL (1 mL)'),
-        MedicamentoOctreotida._linhaPreparo('Pó para suspensão 10 mg'),
-        MedicamentoOctreotida._linhaPreparo('Pó para suspensão 20 mg'),
-        MedicamentoOctreotida._linhaPreparo('Pó para suspensão 30 mg'),
+        _linhaPreparo('Ampola 0,1 mg/mL', '1mL (100 mcg) | Sandostatin®'),
+        _linhaPreparo('Ampola 0,5 mg/mL', '1mL (500 mcg)'),
+        _linhaPreparo('LAR 10/20/30 mg', 'Liberação prolongada IM mensal'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOctreotida._linhaPreparo(
-            '• Infusão contínua: diluir 500 mcg em 60 mL de SF 0,9%'),
-        MedicamentoOctreotida._linhaPreparo(
-            '• Injetável: reconstituir conforme instruções do fabricante'),
+        _linhaPreparo('500 mcg + 46mL SF', '10 mcg/mL'),
+        _linhaPreparo('500 mcg + 96mL SF', '5 mcg/mL'),
+        _linhaPreparo('250 mcg + 200mL SF', '1 mcg/mL'),
+        _textoObs('SC: pode usar puro sem diluição'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        const Text('Indicações',
+        const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        ..._buildIndicacoesPorFaixaEtaria(faixaEtaria, peso),
+        if (isAdulto) ...[
+          // BOLUS - caixa verde (doses fixas)
+          _linhaIndicacaoDoseFixa(
+            titulo: 'HDA varicosa - Bolus',
+            descricaoDose: '50 mcg IV lento, depois infusão contínua',
+          ),
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Acromegalia / Tumores NET',
+            descricaoDose: '50-200 mcg SC 3x/dia (ou LAR mensal)',
+          ),
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Diarreia secretora / Fístula',
+            descricaoDose: '50-100 mcg SC 3x/dia',
+          ),
+          // INFUSÃO - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'HDA varicosa - Manutenção',
+            descricaoDose: '25-50 mcg/h IV contínua por 2-5 dias',
+          ),
+        ] else ...[
+          // PEDIÁTRICO - dose por kg calculada
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Hiperinsulinismo congênito',
+            descricaoDose: '1-10 mcg/kg/dia SC dividido 3-4x',
+            dosePorKgMinima: 1.0,
+            dosePorKgMaxima: 10.0,
+            unidade: 'mcg/dia',
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Diarreia secretora pediátrica',
+            descricaoDose: '1-2 mcg/kg SC 3x/dia',
+            dosePorKgMinima: 1.0,
+            dosePorKgMaxima: 2.0,
+            unidade: 'mcg',
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Quilotórax / Ascite quilosa',
+            descricaoDose: '1-4 mcg/kg/h IV contínua',
+          ),
+        ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOctreotida._buildConversorInfusao(peso, faixaEtaria),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOctreotida._textoObs('• Monitorar glicemia regularmente'),
-        MedicamentoOctreotida._textoObs('• Avaliar função hepática e renal'),
-        MedicamentoOctreotida._textoObs(
-            '• Cuidado em pacientes com cálculos biliares'),
-        MedicamentoOctreotida._textoObs(
-            '• Ajustar dose em insuficiência hepática/renal'),
-        MedicamentoOctreotida._textoObs(
-            '• Dose inicial baixa com aumento gradual'),
-        MedicamentoOctreotida._textoObs(
-            '• Interromper se icterícia ou dor abdominal intensa'),
+        _textoObs('Meia-vida: 1,5h SC | Início: 30 min'),
+        _textoObs('HIPO/HIPERGLICEMIA - monitorar glicemia'),
+        _textoObs('Risco de colelitíase em uso prolongado'),
+        _textoObs('Pode causar bradicardia e arritmias'),
+        _textoObs('Dor no local da injeção SC é comum'),
+        _textoObs('Ajustar dose em cirrose (início mais baixo)'),
       ],
     );
   }
 
-  static List<Widget> _buildIndicacoesPorFaixaEtaria(
-      String faixaEtaria, double peso) {
-    List<Widget> indicacoes = [];
-
-    switch (faixaEtaria) {
-      case 'Neonato':
-      case 'Lactente':
-      case 'Criança':
-        indicacoes.addAll([
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Diarreia Secretora Grave',
-            descricaoDose: 'Dose: 1-2 mcg/kg',
-            unidade: 'mcg',
-            dosePorKg: 1.5,
-            peso: peso,
+  static Widget _linhaPreparo(String texto, String marca) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 4),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
+          Expanded(
+            child: RichText(
+              text: TextSpan(
+                style: const TextStyle(color: Colors.black87),
+                children: [
+                  TextSpan(text: texto),
+                  if (marca.isNotEmpty) ...[
+                    const TextSpan(
+                        text: ' | ',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(
+                        text: marca,
+                        style: const TextStyle(fontStyle: FontStyle.italic)),
+                  ],
+                ],
+              ),
+            ),
           ),
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Hiperinsulinismo Congênito',
-            descricaoDose: 'Dose: 2-10 mcg/kg',
-            unidade: 'mcg',
-            dosePorKg: 5.0,
-            peso: peso,
-          ),
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Hipoglicemia por Sulfonilureias',
-            descricaoDose: 'Dose: 1-5 mcg/kg',
-            unidade: 'mcg',
-            dosePorKg: 3.0,
-            peso: peso,
-          ),
-        ]);
-        break;
-      case 'Adolescente':
-        indicacoes.addAll([
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Acromegalia',
-            descricaoDose: 'Dose: 50-100 mcg',
-            unidade: 'mcg',
-            doseFixa: '50-100',
-          ),
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Tumores Neuroendócrinos',
-            descricaoDose: 'Dose: 50-200 mcg',
-            unidade: 'mcg',
-            doseFixa: '50-200',
-          ),
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Diarreia Refratária',
-            descricaoDose: 'Dose: 50-100 mcg',
-            unidade: 'mcg',
-            doseFixa: '50-100',
-          ),
-        ]);
-        break;
-      case 'Adulto':
-      case 'Idoso':
-        indicacoes.addAll([
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Acromegalia',
-            descricaoDose: 'Dose: 50-100 mcg',
-            unidade: 'mcg',
-            doseFixa: '50-100',
-          ),
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Tumores Neuroendócrinos (GEP-NETs)',
-            descricaoDose: 'Dose: 50-200 mcg',
-            unidade: 'mcg',
-            doseFixa: '50-200',
-          ),
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Diarreia Refratária (AIDS)',
-            descricaoDose: 'Dose: 50-100 mcg',
-            unidade: 'mcg',
-            doseFixa: '50-100',
-          ),
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Complicações Pós-Cirurgia Pancreática',
-            descricaoDose: 'Dose: 50-100 mcg',
-            unidade: 'mcg',
-            doseFixa: '50-100',
-          ),
-          MedicamentoOctreotida._linhaIndicacaoDoseCalculada(
-            titulo: 'Hemorragia por Varizes Gastroesofágicas',
-            descricaoDose: 'Dose: 25-50 mcg/h',
-            unidade: 'mcg/h',
-            doseFixa: '25-50',
-          ),
-        ]);
-        break;
-    }
-
-    return indicacoes;
+        ],
+      ),
+    );
   }
 
-  static Widget _linhaPreparo(String texto) {
+  static Widget _linhaIndicacaoDoseFixa({
+    required String titulo,
+    required String descricaoDose,
+  }) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Text(texto, style: const TextStyle(fontSize: 14)),
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.green.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.green.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.green.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
-    double? dosePorKg,
-    String? doseFixa,
-    double? peso,
+    required String unidade,
+    required double peso,
+    double? dosePorKgMinima,
+    double? dosePorKgMaxima,
   }) {
     String? textoDose;
 
-    if (dosePorKg != null && peso != null) {
-      final doseCalculada = dosePorKg * peso;
-      textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
-    } else if (doseFixa != null) {
-      textoDose = '$doseFixa $unidade';
+    if (dosePorKgMinima != null && dosePorKgMaxima != null) {
+      double doseMin = dosePorKgMinima * peso;
+      double doseMax = dosePorKgMaxima * peso;
+      textoDose = '${doseMin.toStringAsFixed(0)}-${doseMax.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(
@@ -250,58 +250,100 @@ class MedicamentoOctreotida {
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.blue.shade700,
-                  fontSize: 13,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
-          ),
+            ),
           ],
         ],
       ),
     );
   }
 
-  static Widget _buildConversorInfusao(double peso, String faixaEtaria) {
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mcg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '500 mcg em 500mL SF 0,9% (1 mcg/mL)': 1.0,
-      '1000 mcg em 500mL SF 0,9% (2 mcg/mL)': 2.0,
-      '2000 mcg em 500mL SF 0,9% (4 mcg/mL)': 4.0,
+      '500 mcg + 46mL SF (10 mcg/mL)': 10.0, // mcg/mL
+      '500 mcg + 96mL SF (5 mcg/mL)': 5.0, // mcg/mL
+      '250 mcg + 200mL SF (1 mcg/mL)': 1.0, // mcg/mL
     };
 
-    double doseMin;
-    double doseMax;
-
-    switch (faixaEtaria) {
-      case 'Neonato':
-      case 'Lactente':
-      case 'Criança':
-        doseMin = 0.5;
-        doseMax = 2.0;
-        break;
-      case 'Adolescente':
-      case 'Adulto':
-      case 'Idoso':
-        doseMin = 1.0;
-        doseMax = 4.0;
-        break;
-      default:
-        doseMin = 1.0;
-        doseMax = 4.0;
+    // Adulto: dose em mcg/h (HDA varicosa: 25-50 mcg/h)
+    // Pediátrico: dose em mcg/kg/h
+    if (isAdulto) {
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'mcg/h',
+        doseMin: 25,
+        doseMax: 50,
+        concentracaoEmMcg: true,
+      );
+    } else {
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'mcg/kg/h',
+        doseMin: 1.0,
+        doseMax: 4.0,
+        concentracaoEmMcg: true,
+      );
     }
-
-    return ConversaoInfusaoSlider(
-      peso: peso,
-      opcoesConcentracoes: opcoesConcentracoes,
-      unidade: 'mcg/kg/h',
-      doseMin: doseMin,
-      doseMax: doseMax,
-    );
   }
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Text(texto, style: const TextStyle(fontSize: 14)),
+      padding: const EdgeInsets.symmetric(vertical: 3),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('• ',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(
+              texto,
+              style: const TextStyle(fontSize: 13),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

@@ -39,67 +39,101 @@ class MedicamentoTimoglobulina {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTimoglobulina._textoObs('• Imunossupressor - Imunoglobulina policlonal antilinfócito T (coelho)'),
+        _linhaPreparo('Imunossupressor', 'Imunoglobulina antilinfócito T (coelho)'),
+
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTimoglobulina._linhaPreparo('Frasco 25mg pó liofilizado', 'Thymoglobuline®'),
-        MedicamentoTimoglobulina._linhaPreparo('Meia-vida: 2-3 dias (até 30 dias)', 'Variável conforme depleção'),
-        MedicamentoTimoglobulina._linhaPreparo('Duração efeito: semanas a meses', 'Imunossupressão prolongada'),
+        _linhaPreparo('Frasco 25mg', 'Pó liofilizado (Thymoglobuline®)'),
+
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTimoglobulina._linhaPreparo('Reconstituir 25mg em 5mL água injetável', 'Concentração 5mg/mL'),
-        MedicamentoTimoglobulina._linhaPreparo('Diluir em 50-500mL SF 0,9% ou SG 5%', 'Conforme volume paciente'),
-        MedicamentoTimoglobulina._linhaPreparo('Usar filtro 0,2 micra OBRIGATÓRIO', 'Previne partículas'),
-        MedicamentoTimoglobulina._linhaPreparo('Infusão IV lenta: 4-6 horas', 'NUNCA bolus'),
-        MedicamentoTimoglobulina._linhaPreparo('Proteger da luz', 'Fotossensível'),
-        MedicamentoTimoglobulina._linhaPreparo('Armazenamento: 2-8°C', 'Validade 24h após diluição'),
+        _linhaPreparo('Reconstituir 25mg em 5mL AD', '5 mg/mL'),
+        _linhaPreparo('50mg + 50mL SF/SG', '1 mg/mL'),
+        _linhaPreparo('25mg + 50mL SF/SG', '0,5 mg/mL'),
+        _linhaPreparo('25mg + 100mL SF/SG', '0,25 mg/mL'),
+        _textoObs('FILTRO 0,2 micra OBRIGATÓRIO'),
+
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTimoglobulina._linhaIndicacaoDoseCalculada(
-          titulo: 'Profilaxia rejeição transplante (indução)',
-          descricaoDose: '1,5 mg/kg/dia IV por 3-5 dias (pós-transplante imediato)',
-          unidade: 'mg',
-          dosePorKg: 1.5,
-          peso: peso,
-        ),
-        MedicamentoTimoglobulina._linhaIndicacaoDoseCalculada(
-          titulo: 'Tratamento rejeição aguda transplante',
-          descricaoDose: '1,5 mg/kg/dia IV por 7-14 dias (conforme resposta)',
-          unidade: 'mg',
-          dosePorKg: 1.5,
-          peso: peso,
-        ),
-        MedicamentoTimoglobulina._linhaIndicacaoDoseCalculada(
-          titulo: 'Aplasia medular severa',
-          descricaoDose: '2,5-3,5 mg/kg/dia IV por 5 dias consecutivos',
-          unidade: 'mg',
-          dosePorKgMinima: 2.5,
-          dosePorKgMaxima: 3.5,
-          peso: peso,
-        ),
+        if (isAdulto) ...[
+          // BOLUS - caixa azul calculada (dose diária)
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução transplante renal',
+            descricaoDose: '1,5 mg/kg/dia IV por 4-7 dias (dose total ~6 mg/kg)',
+            dosePorKg: 1.5,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Tratamento rejeição aguda',
+            descricaoDose: '1,5 mg/kg/dia IV por 7-14 dias',
+            dosePorKg: 1.5,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Aplasia medular severa',
+            descricaoDose: '1,5 mg/kg/dia IV por 7-14 dias',
+            dosePorKg: 1.5,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          // INFUSÃO - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Tempo de infusão',
+            descricaoDose: '1ª dose: ≥6h | Doses seguintes: ≥4h',
+          ),
+        ] else ...[
+          // PEDIÁTRICO - mesma dose mg/kg
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução transplante pediátrico',
+            descricaoDose: '1,5 mg/kg/dia IV por 4-7 dias',
+            dosePorKg: 1.5,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Aplasia medular pediátrica',
+            descricaoDose: '1,5 mg/kg/dia IV por 7-14 dias',
+            dosePorKg: 1.5,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          // INFUSÃO - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Tempo de infusão',
+            descricaoDose: '1ª dose: ≥6h | Doses seguintes: ≥4h',
+          ),
+        ],
+
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTimoglobulina._buildConversorInfusao(peso, isAdulto),
+        _textoObs('Calcular velocidade para infundir dose diária em 4-6h'),
+        const SizedBox(height: 8),
+        _buildConversorInfusao(peso, isAdulto),
+
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTimoglobulina._textoObs('• Anticorpos policlonais anti-linfócitos T (CD2, CD3, CD4, CD8, CD25, HLA-DR)'),
-        MedicamentoTimoglobulina._textoObs('• Depleção profunda linfócitos T - imunossupressão intensa'),
-        MedicamentoTimoglobulina._textoObs('• PRÉ-MEDICAÇÃO OBRIGATÓRIA: corticoide + anti-histamínico + antitérmico'),
-        MedicamentoTimoglobulina._textoObs('• Síndrome liberação citocinas comum (febre, calafrios, hipotensão)'),
-        MedicamentoTimoglobulina._textoObs('• Risco infecções oportunistas (CMV, EBV, fungos) - monitorar PCR viral'),
-        MedicamentoTimoglobulina._textoObs('• Risco doença linfoproliferativa pós-transplante (PTLD)'),
-        MedicamentoTimoglobulina._textoObs('• Mielossupressão - hemograma diário obrigatório'),
-        MedicamentoTimoglobulina._textoObs('• Contraindicado: infecções ativas, leucopenia <2000/mm³, plaquetas <50.000/mm³'),
-        MedicamentoTimoglobulina._textoObs('• Monitorar: sinais vitais, hemograma, função renal/hepática'),
-        MedicamentoTimoglobulina._textoObs('• Não ajustar dose em insuficiência renal/hepática'),
+        _textoObs('PRÉ-MEDICAÇÃO: corticoide + anti-histamínico + antitérmico'),
+        _textoObs('Síndrome liberação citocinas: febre, calafrios, hipotensão'),
+        _textoObs('Reduzir 50% se: leucócitos 2-3 mil ou plaquetas 50-75 mil'),
+        _textoObs('Suspender se: leucócitos <2 mil ou plaquetas <50 mil'),
+        _textoObs('Risco CMV/EBV/PTLD - monitorar PCR viral'),
+        _textoObs('Meia-vida: 2-3 dias (imunossupressão prolongada)'),
       ],
     );
   }
@@ -130,31 +164,52 @@ class MedicamentoTimoglobulina {
     );
   }
 
+  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mg/mL - ordenadas da maior para menor
+    final opcoesConcentracoes = {
+      '50mg + 50mL SF (1 mg/mL)': 1.0,
+      '25mg + 50mL SF (0,5 mg/mL)': 0.5,
+      '25mg + 100mL SF (0,25 mg/mL)': 0.25,
+    };
+
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mg/kg/h',
+      doseMin: 0.25,
+      doseMax: 0.5,
+      concentracaoEmMcg: false,
+    );
+  }
+
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
+    required String unidade,
+    required double peso,
     double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
     String? textoDose;
+    bool doseLimite = false;
 
     if (dosePorKg != null) {
       double doseCalculada = dosePorKg * peso;
       if (doseMaxima != null && doseCalculada > doseMaxima) {
         doseCalculada = doseMaxima;
+        doseLimite = true;
       }
       textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
     } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMaxima != null) {
-        doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
+        doseLimite = true;
       }
-      textoDose = '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      textoDose = '${doseMin.toStringAsFixed(1)}-${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(
@@ -177,16 +232,18 @@ class MedicamentoTimoglobulina {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                doseLimite ? 'Dose diária: $textoDose (máx atingida)' : 'Dose diária: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -197,41 +254,53 @@ class MedicamentoTimoglobulina {
     );
   }
 
-  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const Text(
-          'Calculadora para infusão em 5 horas (ajustar conforme protocolo 4-6h)',
-          style: TextStyle(fontSize: 13, fontStyle: FontStyle.italic),
-        ),
-        const SizedBox(height: 8),
-        ConversaoInfusaoSlider(
-          peso: peso,
-          opcoesConcentracoes: {
-            '25mg em 100mL (0,25mg/mL)': 0.25,
-            '25mg em 50mL (0,5mg/mL)': 0.5,
-            '50mg em 50mL (1,0mg/mL)': 1.0,
-          },
-          doseMin: 0.25,
-          doseMax: 0.7,
-          unidade: 'mg/kg/h',
-        ),
-        const SizedBox(height: 8),
-        const Text(
-          'Doses: 0,3 mg/kg/h (1,5mg/kg em 5h) | 0,5 mg/kg/h (2,5mg/kg em 5h) | 0,7 mg/kg/h (3,5mg/kg em 5h)',
-          style: TextStyle(fontSize: 12, fontStyle: FontStyle.italic, color: Colors.black54),
-        ),
-      ],
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Text(
-        texto,
-        style: const TextStyle(fontSize: 13),
+      padding: const EdgeInsets.symmetric(vertical: 3),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
+        ],
       ),
     );
   }

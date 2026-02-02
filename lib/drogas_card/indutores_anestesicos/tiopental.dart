@@ -39,108 +39,112 @@ class MedicamentoTiopental {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTiopental._textoObs('• Anestésico geral IV - Barbitúrico ação ultracurta - Neuroprotetor'),
+        _linhaPreparo('Barbitúrico ação ultracurta', 'Anestésico geral IV, neuroprotetor'),
+
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTiopental._linhaPreparo('Frasco-ampola 0,5g liofilizado', 'Pentotal® / Thiopentax®'),
-        MedicamentoTiopental._linhaPreparo('Frasco-ampola 1g liofilizado', 'Pentotal® / Thiopentax®'),
-        MedicamentoTiopental._linhaPreparo('Frasco-ampola 2,5g liofilizado', 'Trapanal®'),
-        MedicamentoTiopental._linhaPreparo('Início: 20-40 segundos | Pico: 1 min', 'Ação ultracurta'),
-        MedicamentoTiopental._linhaPreparo('Duração bolus: 5-10 min', 'Redistribuição rápida'),
-        MedicamentoTiopental._linhaPreparo('Meia-vida eliminação: 6-46h', 'Prolongada infusão contínua'),
+        _linhaPreparo('Frasco-ampola 1g', 'Pó liofilizado'),
+        _linhaPreparo('Frasco-ampola 0,5g', 'Pó liofilizado'),
+
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTiopental._linhaPreparo('Reconstituir 1g em 20mL água/SF/SG', 'Concentração 50mg/mL'),
-        MedicamentoTiopental._linhaPreparo('Para infusão: diluir 10-25mg/mL', 'Em SF 0,9% ou SG 5%'),
-        MedicamentoTiopental._linhaPreparo('Usar imediatamente ou 24h 2-8°C', 'Descartar se turva/precipitado'),
-        MedicamentoTiopental._linhaPreparo('Incompatível: bicarbonato, soluções ácidas', 'Via exclusiva'),
+        _linhaPreparo('1g + 20mL AD', '50 mg/mL (bolus)'),
+        _linhaPreparo('1g + 40mL SF', '25 mg/mL'),
+        _linhaPreparo('500mg + 50mL SF', '10 mg/mL (infusão)'),
+        _textoObs('Usar imediato - descartar se turvo/precipitado'),
+
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoTiopental._linhaIndicacaoDoseCalculada(
+          // BOLUS - caixa azul calculada
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Indução anestésica',
-            descricaoDose: '3-5 mg/kg IV em bolus lento (30-60 seg)',
-            unidade: 'mg',
+            descricaoDose: '3-5 mg/kg IV lento (30-60 seg)',
             dosePorKgMinima: 3.0,
             dosePorKgMaxima: 5.0,
+            unidade: 'mg',
             peso: peso,
           ),
-          MedicamentoTiopental._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Indução idoso/instável',
-            descricaoDose: '2-3 mg/kg IV em bolus lento',
-            unidade: 'mg',
-            dosePorKgMinima: 2.0,
+            descricaoDose: '1-3 mg/kg IV lento (titular)',
+            dosePorKgMinima: 1.0,
             dosePorKgMaxima: 3.0,
+            unidade: 'mg',
             peso: peso,
           ),
-          MedicamentoTiopental._linhaIndicacaoDoseCalculada(
-            titulo: 'Status convulsivo (bolus inicial)',
-            descricaoDose: '3-5 mg/kg IV, repetir conforme necessário',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Hipertensão intracraniana (bolus)',
+            descricaoDose: '1,5-3,5 mg/kg IV',
+            dosePorKgMinima: 1.5,
+            dosePorKgMaxima: 3.5,
             unidade: 'mg',
-            dosePorKgMinima: 3.0,
-            dosePorKgMaxima: 5.0,
             peso: peso,
           ),
-          MedicamentoTiopental._linhaIndicacaoDoseCalculada(
-            titulo: 'Neuroproteção/Hipertensão intracraniana (bolus)',
-            descricaoDose: '3-5 mg/kg IV bolus',
-            unidade: 'mg',
-            dosePorKgMinima: 3.0,
-            dosePorKgMaxima: 5.0,
-            peso: peso,
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Status convulsivo / Neuroproteção',
+            descricaoDose: '2-8 mg/kg/h IV (meta: burst-suppression EEG)',
           ),
         ] else ...[
-          MedicamentoTiopental._linhaIndicacaoDoseCalculada(
-            titulo: 'Indução anestésica pediátrica',
-            descricaoDose: '2-7 mg/kg IV em bolus lento (30-60 seg)',
+          // PEDIÁTRICO
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução lactentes (<1 ano)',
+            descricaoDose: '5-8 mg/kg IV lento',
+            dosePorKgMinima: 5.0,
+            dosePorKgMaxima: 8.0,
             unidade: 'mg',
-            dosePorKgMinima: 2.0,
-            dosePorKgMaxima: 7.0,
             peso: peso,
           ),
-          MedicamentoTiopental._linhaIndicacaoDoseCalculada(
-            titulo: 'Status convulsivo pediátrico (bolus)',
-            descricaoDose: '3-5 mg/kg IV, repetir se necessário',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução crianças (1-12 anos)',
+            descricaoDose: '5-6 mg/kg IV lento',
+            dosePorKgMinima: 5.0,
+            dosePorKgMaxima: 6.0,
             unidade: 'mg',
-            dosePorKgMinima: 3.0,
-            dosePorKgMaxima: 5.0,
             peso: peso,
           ),
-          MedicamentoTiopental._linhaIndicacaoDoseCalculada(
-            titulo: 'Neuroproteção pediátrica (bolus)',
-            descricaoDose: '3-5 mg/kg IV bolus',
-            unidade: 'mg',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Neonatos (<1 mês)',
+            descricaoDose: '3-4 mg/kg IV (efeito prolongado)',
             dosePorKgMinima: 3.0,
-            dosePorKgMaxima: 5.0,
+            dosePorKgMaxima: 4.0,
+            unidade: 'mg',
             peso: peso,
+          ),
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Status / HIC pediátrico',
+            descricaoDose: '2-5 mg/kg/h IV (monitorar EEG)',
           ),
         ],
+
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTiopental._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoTiopental._textoObs('• Barbitúrico - agonista GABA-A, hiperpolariza neurônio, inibe SNC'),
-        MedicamentoTiopental._textoObs('• Neuroprotetor potente - reduz PIC, CMRO2, fluxo cerebral'),
-        MedicamentoTiopental._textoObs('• Induz burst-suppression EEG (monitorar BIS/EEG)'),
-        MedicamentoTiopental._textoObs('• NÃO tem efeito analgésico - pode causar hiperalgesia'),
-        MedicamentoTiopental._textoObs('• ATENÇÃO: Depressor respiratório potente - apneia imediata após bolus'),
-        MedicamentoTiopental._textoObs('• ATENÇÃO: Hipotensão severa - vasodilatação + depressão miocárdica'),
-        MedicamentoTiopental._textoObs('• ATENÇÃO: Broncoespasmo em asmáticos - evitar'),
-        MedicamentoTiopental._textoObs('• ATENÇÃO: Extravasamento causa necrose tecidual - acesso central preferível'),
-        MedicamentoTiopental._textoObs('• Contraindicado: porfiria aguda (precipita crise), asma ativa, choque'),
-        MedicamentoTiopental._textoObs('• Monitorar: PA, FC, ECG, SpO2, capnografia, BIS/EEG (burst-suppression)'),
-        MedicamentoTiopental._textoObs('• Via aérea avançada e drogas vasoativas disponíveis'),
-        MedicamentoTiopental._textoObs('• Ajustar dose em hepatopatas/insuficiência renal (acúmulo)'),
-        MedicamentoTiopental._textoObs('• Infusão prolongada: risco imunossupressão, rabdomiólise, acidose'),
+        _textoObs('Início: 20-40 seg | Duração bolus: 5-10 min'),
+        _textoObs('APNEIA imediata - via aérea avançada obrigatória'),
+        _textoObs('Hipotensão severa - vasoativa disponível'),
+        _textoObs('CONTRAINDICADO: porfiria aguda, asma ativa, choque'),
+        _textoObs('Extravasamento → necrose - acesso central preferível'),
+        _textoObs('Meta EEG: burst-suppression (SR ≥10%)'),
       ],
     );
   }
@@ -171,31 +175,52 @@ class MedicamentoTiopental {
     );
   }
 
+  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mg/mL - ordenadas da maior para menor
+    final opcoesConcentracoes = {
+      '1g + 20mL SF (50 mg/mL)': 50.0,
+      '1g + 40mL SF (25 mg/mL)': 25.0,
+      '500mg + 50mL SF (10 mg/mL)': 10.0,
+    };
+
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mg/kg/h',
+      doseMin: 2.0,
+      doseMax: isAdulto ? 8.0 : 5.0,
+      concentracaoEmMcg: false,
+    );
+  }
+
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
+    required String unidade,
+    required double peso,
     double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
     String? textoDose;
+    bool doseLimite = false;
 
     if (dosePorKg != null) {
       double doseCalculada = dosePorKg * peso;
       if (doseMaxima != null && doseCalculada > doseMaxima) {
         doseCalculada = doseMaxima;
+        doseLimite = true;
       }
-      textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
+      textoDose = '${doseCalculada.toStringAsFixed(0)} $unidade';
     } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMaxima != null) {
-        doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
+        doseLimite = true;
       }
-      textoDose = '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      textoDose = '${doseMin.toStringAsFixed(0)}-${doseMax.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(
@@ -218,16 +243,18 @@ class MedicamentoTiopental {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -238,41 +265,53 @@ class MedicamentoTiopental {
     );
   }
 
-  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        const Text(
-          'Para status convulsivo, neuroproteção (burst-suppression) e sedação UTI',
-          style: TextStyle(fontSize: 13, fontStyle: FontStyle.italic),
-        ),
-        const SizedBox(height: 8),
-        ConversaoInfusaoSlider(
-          peso: peso,
-          opcoesConcentracoes: {
-            '500mg em 50mL (10mg/mL)': 10.0,
-            '1g em 50mL (20mg/mL)': 20.0,
-            '1g em 40mL (25mg/mL)': 25.0,
-          },
-          doseMin: 0.5,
-          doseMax: 5.0,
-          unidade: 'mg/kg/h',
-        ),
-        const SizedBox(height: 8),
-        const Text(
-          'Status convulsivo: 0,5-5 mg/kg/h | Neuroproteção: 1-4 mg/kg/h | Sedação UTI: 0,5-3 mg/kg/h',
-          style: TextStyle(fontSize: 12, fontStyle: FontStyle.italic, color: Colors.black54),
-        ),
-      ],
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Text(
-        texto,
-        style: const TextStyle(fontSize: 13),
+      padding: const EdgeInsets.symmetric(vertical: 3),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
+        ],
       ),
     );
   }

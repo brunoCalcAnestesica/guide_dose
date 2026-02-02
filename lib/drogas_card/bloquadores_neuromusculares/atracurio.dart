@@ -39,77 +39,121 @@ class MedicamentoAtracurio {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAtracurio._textoObs('• Bloqueador neuromuscular não despolarizante - Aminosteróide'),
+        _linhaPreparo('Bloqueador neuromuscular', 'Benzilisoquinolínico não despolarizante'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAtracurio._linhaPreparo('Ampola 10mg/mL (5mL)', 'Solução injetável'),
-        MedicamentoAtracurio._linhaPreparo('Ampola 10mg/mL (2,5mL)', 'Solução injetável'),
+        _linhaPreparo('Ampola 25mg/2,5mL', '10 mg/mL'),
+        _linhaPreparo('Ampola 50mg/5mL', '10 mg/mL'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAtracurio._linhaPreparo('Pode ser administrado sem diluição', 'Direto da ampola para bolus'),
-        MedicamentoAtracurio._linhaPreparo('Para infusão: diluir em SF 0,9% ou SG 5%', 'Concentração 1-2 mg/mL'),
-        MedicamentoAtracurio._linhaPreparo('100mg em 100mL SF 0,9%', '1 mg/mL para infusão contínua'),
+        _linhaPreparo('100mg + 50mL SF', '2 mg/mL (2000 mcg/mL)'),
+        _linhaPreparo('50mg + 50mL SF', '1 mg/mL (1000 mcg/mL)'),
+        _linhaPreparo('Puro para bolus', 'Sem diluição'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoAtracurio._linhaIndicacaoDoseCalculada(
-            titulo: 'Dose inicial - Adultos',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Intubação orotraqueal',
             descricaoDose: '0,4-0,5 mg/kg IV bolus',
             unidade: 'mg',
             dosePorKgMinima: 0.4,
             dosePorKgMaxima: 0.5,
             peso: peso,
           ),
-          MedicamentoAtracurio._linhaIndicacaoDoseFixa(
-            titulo: 'Infusão contínua - Adultos',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Manutenção (bolus)',
+            descricaoDose: '0,08-0,1 mg/kg IV a cada 15-25 min',
+            unidade: 'mg',
+            dosePorKgMinima: 0.08,
+            dosePorKgMaxima: 0.1,
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção (infusão)',
             descricaoDose: '5-10 mcg/kg/min IV contínua',
-            doseFixa: '5-10 mcg/kg/min',
           ),
         ] else ...[
-          if (peso >= 1) ...[
-            MedicamentoAtracurio._linhaIndicacaoDoseCalculada(
-              titulo: 'Dose inicial pediátrica',
-              descricaoDose: '0,3-0,5 mg/kg IV bolus',
-              unidade: 'mg',
-              dosePorKgMinima: 0.3,
-              dosePorKgMaxima: 0.5,
-              peso: peso,
-            ),
-            MedicamentoAtracurio._linhaIndicacaoDoseFixa(
-              titulo: 'Infusão contínua pediátrica',
-              descricaoDose: '5-8 mcg/kg/min IV contínua',
-              doseFixa: '5-8 mcg/kg/min',
-            ),
-          ] else ...[
-            MedicamentoAtracurio._textoObs('• Não recomendado para neonatos (<1kg)'),
-            MedicamentoAtracurio._textoObs('• Imaturidade dos sistemas enzimáticos'),
-          ],
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Intubação pediátrica',
+            descricaoDose: '0,3-0,5 mg/kg IV bolus',
+            unidade: 'mg',
+            dosePorKgMinima: 0.3,
+            dosePorKgMaxima: 0.5,
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
+            descricaoDose: '5-10 mcg/kg/min IV contínua',
+          ),
         ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        if (isAdulto || peso >= 1) ...[
-          MedicamentoAtracurio._buildConversorInfusao(peso, isAdulto),
-        ] else ...[
-          MedicamentoAtracurio._textoObs('• Infusão contínua não recomendada para neonatos'),
-        ],
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAtracurio._textoObs('• Bloqueador neuromuscular para relaxamento muscular'),
-        MedicamentoAtracurio._textoObs('• Duração de ação intermediária (20-35 minutos)'),
-        MedicamentoAtracurio._textoObs('• Monitorar função respiratória e cardiovascular'),
-        MedicamentoAtracurio._textoObs('• Pode liberar histamina (hipotensão, rubor)'),
-        MedicamentoAtracurio._textoObs('• Administrar lentamente para minimizar efeitos'),
-        MedicamentoAtracurio._textoObs('• Ajustar dose em disfunção hepática/renal'),
-        MedicamentoAtracurio._textoObs('• Usar monitor de bloqueio neuromuscular'),
+        _textoObs('Eliminação de Hofmann (independe de fígado/rim)'),
+        _textoObs('Duração intermediária: 20-35 minutos'),
+        _textoObs('Libera histamina - injetar lentamente'),
+        _textoObs('Monitorar com TOF (Train of Four)'),
+        _textoObs('Reversão: neostigmina + atropina ou sugamadex'),
+        _textoObs('Potencializado por aminoglicosídeos e anestésicos'),
       ],
+    );
+  }
+
+  /// Widget para indicações de infusão contínua (sem cálculo)
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -204,82 +248,33 @@ class MedicamentoAtracurio {
     );
   }
 
-  static Widget _linhaIndicacaoDoseFixa({
-    required String titulo,
-    required String descricaoDose,
-    required String doseFixa,
-  }) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            titulo,
-            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          const SizedBox(height: 4),
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-            decoration: BoxDecoration(
-              color: Colors.blue.shade50,
-              borderRadius: BorderRadius.circular(6),
-              border: Border.all(color: Colors.blue.shade200),
-            ),
-            child: Text(
-              'Dose: $doseFixa',
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue.shade700,
-                fontSize: 13,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Ordenar da maior para menor concentração
     final opcoesConcentracoes = {
-      '50mg em 50mL SF 0,9% (1000 mcg/mL)': 1000.0, // mcg/mL
-      '100mg em 50mL SF 0,9% (2000 mcg/mL)': 2000.0, // mcg/mL
+      '100mg + 50mL SF (2000 mcg/mL)': 2000.0, // mcg/mL
+      '50mg + 50mL SF (1000 mcg/mL)': 1000.0, // mcg/mL
     };
 
-    if (isAdulto) {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 5.0,
-        doseMax: 10.0,
-      );
-    } else {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 5.0,
-        doseMax: 8.0,
-      );
-    }
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mcg/kg/min',
+      doseMin: 5.0,
+      doseMax: 10.0,
+      concentracaoEmMcg: true, // Concentração já em mcg/mL
+    );
   }
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );

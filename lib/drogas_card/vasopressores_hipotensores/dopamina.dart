@@ -20,10 +20,6 @@ class MedicamentoDopamina {
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
 
-    if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
-      return const SizedBox.shrink();
-    }
-
     return buildMedicamentoExpansivel(
       context: context,
       nome: nome,
@@ -41,72 +37,105 @@ class MedicamentoDopamina {
     );
   }
 
-  static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
-    // Dopamina tem indicações para todas as faixas etárias
-    return true;
-  }
-
   static Widget _buildCardDopamina(BuildContext context, double peso, String faixaEtaria, bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
-        
-        // Classe
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDopamina._textoObs('Simpatomimético, vasopressor, inotrópico positivo'),
+        _linhaPreparo('Vasopressor/Inotrópico', 'Agonista adrenérgico'),
         
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        
-        // Apresentações
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDopamina._linhaPreparo('Ampola 200 mg/5 mL (40 mg/mL)', ''),
-        MedicamentoDopamina._linhaPreparo('Ampola 400 mg/10 mL (40 mg/mL)', ''),
-        MedicamentoDopamina._linhaPreparo('Frasco-ampola 200 mg', ''),
+        _linhaPreparo('Ampola 50mg/10mL', '5 mg/mL'),
+        _linhaPreparo('Ampola 200mg/5mL', '40 mg/mL'),
         
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-        
-        // Preparo
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDopamina._linhaPreparo('IV: infusão contínua obrigatória', ''),
-        MedicamentoDopamina._linhaPreparo('IV: diluir em SF 0,9% ou SG 5%', ''),
-        MedicamentoDopamina._linhaPreparo('IV: usar bomba de infusão', ''),
-        MedicamentoDopamina._linhaPreparo('IV: monitorar ECG e pressão arterial', ''),
-        MedicamentoDopamina._linhaPreparo('IV: titulação conforme resposta clínica', ''),
+        _linhaPreparo('400mg + 250mL SF', '1600 mcg/mL'),
+        _linhaPreparo('250mg + 250mL SF', '1000 mcg/mL'),
+        _linhaPreparo('200mg + 250mL SF', '800 mcg/mL'),
         
+        // 4. INDICAÇÕES CLÍNICAS (todas infusão contínua - caixa laranja)
         const SizedBox(height: 16),
-        
-        // Indicações por faixa etária
-        const Text('Indicações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        ..._buildIndicacoesPorFaixaEtaria(peso, faixaEtaria),
+        _textoObs('Efeitos dose-dependentes:'),
+        _textoObs('• 2-5 mcg/kg/min: β1 (inotrópico)'),
+        _textoObs('• 5-10 mcg/kg/min: β1 + α1'),
+        _textoObs('• >10 mcg/kg/min: α1 predominante (vasopressor)'),
+        const SizedBox(height: 8),
+        if (isAdulto) ...[
+          _linhaIndicacaoInfusao(
+            titulo: 'Choque/Hipotensão',
+            descricaoDose: '2-20 mcg/kg/min IV contínua',
+          ),
+        ] else ...[
+          _linhaIndicacaoInfusao(
+            titulo: 'Suporte hemodinâmico pediátrico',
+            descricaoDose: '2-20 mcg/kg/min IV contínua',
+          ),
+        ],
         
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
-        
-        // Infusão contínua
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _buildConversorInfusao(peso, isAdulto),
         
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
-        
-        // Observações
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDopamina._textoObs('• Vasopressor com efeitos dose-dependentes'),
-        MedicamentoDopamina._textoObs('• Baixas doses: efeito dopaminérgico (renal)'),
-        MedicamentoDopamina._textoObs('• Doses médias: efeito beta-adrenérgico (cardíaco)'),
-        MedicamentoDopamina._textoObs('• Altas doses: efeito alfa-adrenérgico (vasoconstritor)'),
-        MedicamentoDopamina._textoObs('• Efeito em 5–10 minutos após início da infusão'),
-        MedicamentoDopamina._textoObs('• Pode causar taquicardia, arritmias e vasoconstrição'),
-        MedicamentoDopamina._textoObs('• Contraindicado em feocromocitoma'),
-        MedicamentoDopamina._textoObs('• Cautela em pacientes com arritmias ventriculares'),
-        MedicamentoDopamina._textoObs('• Monitorar ECG, pressão arterial e débito urinário'),
-        MedicamentoDopamina._textoObs('• Meia-vida de 2–5 minutos'),
+        _textoObs('Início: 5min | Meia-vida: 2min'),
+        _textoObs('Taquiarritmias - monitorar ECG contínuo'),
+        _textoObs('CI: feocromocitoma, FV não corrigida'),
+        _textoObs('Extravasamento → necrose - via central'),
+        _textoObs('NÃO usar bolus - apenas infusão contínua'),
+        _textoObs('"Dose renal" (1-3 mcg) não tem benefício comprovado'),
       ],
+    );
+  }
+
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -136,304 +165,34 @@ class MedicamentoDopamina {
     );
   }
 
-  static List<Widget> _buildIndicacoesPorFaixaEtaria(double peso, String faixaEtaria) {
-    List<Widget> indicacoes = [];
-
-    if (faixaEtaria == 'RN') {
-      indicacoes.addAll([
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque hipovolêmico',
-          descricaoDose: '2–20 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 2,
-          dosePorKgMaxima: 20,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência renal aguda',
-          descricaoDose: '1–3 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 3,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Lactente') {
-      indicacoes.addAll([
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque hipovolêmico',
-          descricaoDose: '2–20 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 2,
-          dosePorKgMaxima: 20,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência renal aguda',
-          descricaoDose: '1–3 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 3,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Criança') {
-      indicacoes.addAll([
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque hipovolêmico',
-          descricaoDose: '2–20 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 2,
-          dosePorKgMaxima: 20,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência renal aguda',
-          descricaoDose: '1–3 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 3,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque cardiogênico',
-          descricaoDose: '5–15 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 5,
-          dosePorKgMaxima: 15,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Adolescente') {
-      indicacoes.addAll([
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque hipovolêmico',
-          descricaoDose: '2–20 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 2,
-          dosePorKgMaxima: 20,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência renal aguda',
-          descricaoDose: '1–3 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 3,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque cardiogênico',
-          descricaoDose: '5–15 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 5,
-          dosePorKgMaxima: 15,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Adulto') {
-      indicacoes.addAll([
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque hipovolêmico',
-          descricaoDose: '2–20 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 2,
-          dosePorKgMaxima: 20,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência renal aguda',
-          descricaoDose: '1–3 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 3,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque cardiogênico',
-          descricaoDose: '5–15 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 5,
-          dosePorKgMaxima: 15,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque séptico',
-          descricaoDose: '5–20 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 5,
-          dosePorKgMaxima: 20,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Idoso') {
-      indicacoes.addAll([
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque hipovolêmico',
-          descricaoDose: '2–20 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 2,
-          dosePorKgMaxima: 20,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência renal aguda',
-          descricaoDose: '1–3 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 3,
-          peso: peso,
-        ),
-        MedicamentoDopamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Choque cardiogênico',
-          descricaoDose: '5–15 mcg/kg/min IV contínua',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 5,
-          dosePorKgMaxima: 15,
-          peso: peso,
-        ),
-      ]);
-    }
-
-    return indicacoes;
-  }
-
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        MedicamentoDopamina._textoObs('Infusão contínua obrigatória com bomba de infusão'),
-        MedicamentoDopamina._textoObs('Titulação conforme resposta clínica'),
-        MedicamentoDopamina._textoObs('Monitorar ECG, pressão arterial e débito urinário'),
-        MedicamentoDopamina._textoObs('Ajustar dose conforme resposta hemodinâmica'),
-        MedicamentoDopamina._textoObs('Cautela em pacientes com arritmias'),
-        
-        const SizedBox(height: 16),
-        
-        // Conversor de infusão
-        ConversaoInfusaoSlider(
-          doseMin: isAdulto ? 2.0 : 1.0,
-          doseMax: isAdulto ? 20.0 : 15.0,
-          unidade: 'mcg/kg/min',
-          peso: peso,
-          opcoesConcentracoes: isAdulto 
-            ? {
-                '400 mg em 250 mL SF (1600 mcg/mL)': 1600.0,
-                '400 mg em 500 mL SF (800 mcg/mL)': 800.0,
-                '200 mg em 250 mL SF (800 mcg/mL)': 800.0,
-              }
-            : {
-                '200 mg em 250 mL SF (800 mcg/mL)': 800.0,
-                '200 mg em 500 mL SF (400 mcg/mL)': 400.0,
-                '100 mg em 250 mL SF (400 mcg/mL)': 400.0,
-              },
-        ),
-      ],
-    );
-  }
+    // Concentrações em mcg/mL - ordenadas da maior para menor
+    final opcoesConcentracoes = {
+      '400mg + 250mL SF (1600 mcg/mL)': 1600.0, // mcg/mL
+      '250mg + 250mL SF (1000 mcg/mL)': 1000.0, // mcg/mL
+      '200mg + 250mL SF (800 mcg/mL)': 800.0, // mcg/mL
+    };
 
-  static Widget _linhaIndicacaoDoseCalculada({
-    required String titulo,
-    required String descricaoDose,
-    String? unidade,
-    double? doseFixa,
-    double? doseMinima,
-    double? doseMaxima,
-    double? dosePorKg,
-    double? dosePorKgMinima,
-    double? dosePorKgMaxima,
-    double? doseMaximaTotal,
-    required double peso,
-  }) {
-    double? doseCalculada;
-    String? textoDose;
-    bool doseLimite = false;
-
-    if (doseFixa != null) {
-      doseCalculada = doseFixa;
-      textoDose = doseFixa < 1 
-        ? '${doseFixa.toStringAsFixed(1)} $unidade'
-        : '${doseFixa.toStringAsFixed(0)} $unidade';
-    } else if (doseMinima != null && doseMaxima != null) {
-      textoDose = '${doseMinima.toStringAsFixed(0)}–${doseMaxima.toStringAsFixed(0)} $unidade';
-    } else if (dosePorKg != null) {
-      doseCalculada = dosePorKg * peso;
-      if (doseMaximaTotal != null && doseCalculada > doseMaximaTotal) {
-        doseCalculada = doseMaximaTotal;
-        doseLimite = true;
-      }
-      textoDose = doseCalculada < 1 
-        ? '${doseCalculada.toStringAsFixed(1)} $unidade'
-        : '${doseCalculada.toStringAsFixed(0)} $unidade';
-    } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
-      double doseMin = dosePorKgMinima * peso;
-      double doseMax = dosePorKgMaxima * peso;
-      if (doseMaximaTotal != null) {
-        if (doseMax > doseMaximaTotal) {
-          doseMax = doseMaximaTotal;
-          doseLimite = true;
-        }
-        if (doseMin > doseMaximaTotal) {
-          doseMin = doseMaximaTotal;
-          doseLimite = true;
-        }
-      }
-      textoDose = '${doseMin.toStringAsFixed(0)}–${doseMax.toStringAsFixed(0)} $unidade';
-    }
-
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            titulo,
-            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          if (textoDose != null) ...[
-            const SizedBox(height: 4),
-            SizedBox(
-              width: double.infinity,
-              child: Container(
-                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                decoration: BoxDecoration(
-                  color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
-                  borderRadius: BorderRadius.circular(8),
-                  border: Border.all(
-                    color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
-                    width: 1,
-                  ),
-                ),
-                child: Text(
-                  'Dose calculada: $textoDose',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
-                    fontSize: 14,
-                  ),
-                  textAlign: TextAlign.center,
-                ),
-              ),
-            ),
-          ],
-        ],
-      ),
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mcg/kg/min',
+      doseMin: 2.0,
+      doseMax: 20.0,
+      concentracaoEmMcg: true,
     );
   }
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );

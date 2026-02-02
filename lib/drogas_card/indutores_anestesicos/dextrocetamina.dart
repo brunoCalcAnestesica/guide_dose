@@ -18,20 +18,11 @@ class MedicamentoDextrocetamina {
     }
   }
 
-  static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
-    // Dextrocetamina tem indicações para todas as faixas etárias
-    return true;
-  }
-
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
-
-    if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
-      return const SizedBox.shrink();
-    }
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -54,236 +45,165 @@ class MedicamentoDextrocetamina {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDextrocetamina._textoObs('Anestésico dissociativo'),
-        MedicamentoDextrocetamina._textoObs('Isômero dextrogiro da cetamina'),
-        MedicamentoDextrocetamina._textoObs('Ação analgésica e sedativa'),
+        _linhaPreparo('Anestésico dissociativo', 'Isômero S(+) cetamina'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDextrocetamina._linhaPreparo('Ampola 25mg/mL (2mL)', 'Via IV/IM'),
-        MedicamentoDextrocetamina._linhaPreparo('Ampola 50mg/mL (1mL)', 'Via IV/IM'),
+        _linhaPreparo('Ampola 50mg/mL', '1 mL'),
+        _linhaPreparo('Ampola 25mg/mL', '2 mL'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDextrocetamina._linhaPreparo('Diluir em SF 0,9%', 'Para infusão IV'),
-        MedicamentoDextrocetamina._linhaPreparo('Concentração: 1mg/mL', '25mg em 25mL SF'),
-        MedicamentoDextrocetamina._linhaPreparo('Concentração: 2mg/mL', '50mg em 25mL SF'),
-        MedicamentoDextrocetamina._linhaPreparo('Concentração pediátrica: 0,5mg/mL', '25mg em 50mL SF'),
+        _linhaPreparo('50mg + 25mL SF', '2 mg/mL'),
+        _linhaPreparo('25mg + 25mL SF', '1 mg/mL'),
+        _linhaPreparo('25mg + 50mL SF', '0,5 mg/mL'),
+        _linhaPreparo('Bolus: puro ou diluído', 'IV lento, IM'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        const Text('Indicações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        ..._buildIndicacoesPorFaixaEtaria(peso, faixaEtaria, isAdulto),
+        if (isAdulto) ...[
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução anestésica IV',
+            descricaoDose: '0,5-1 mg/kg IV lento',
+            unidade: 'mg',
+            dosePorKgMinima: 0.5,
+            dosePorKgMaxima: 1.0,
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução anestésica IM',
+            descricaoDose: '2-4 mg/kg IM',
+            unidade: 'mg',
+            dosePorKgMinima: 2.0,
+            dosePorKgMaxima: 4.0,
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Sedação procedimentos',
+            descricaoDose: '0,25-0,5 mg/kg IV',
+            unidade: 'mg',
+            dosePorKgMinima: 0.25,
+            dosePorKgMaxima: 0.5,
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Infusão manutenção',
+            descricaoDose: '0,25-1 mg/kg/h IV contínua',
+          ),
+        ] else ...[
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução pediátrica IV',
+            descricaoDose: '0,5-1 mg/kg IV lento',
+            unidade: 'mg',
+            dosePorKgMinima: 0.5,
+            dosePorKgMaxima: 1.0,
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Indução pediátrica IM',
+            descricaoDose: '2-4 mg/kg IM',
+            unidade: 'mg',
+            dosePorKgMinima: 2.0,
+            dosePorKgMaxima: 4.0,
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Infusão pediátrica',
+            descricaoDose: '0,25-0,75 mg/kg/h IV contínua',
+          ),
+        ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDextrocetamina._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDextrocetamina._textoObs('Contraindicação: hipertensão arterial grave'),
-        MedicamentoDextrocetamina._textoObs('Monitorar pressão arterial e FC'),
-        MedicamentoDextrocetamina._textoObs('Pode causar alucinações e pesadelos'),
-        MedicamentoDextrocetamina._textoObs('Sedação dissociativa (paciente não responsivo)'),
-        MedicamentoDextrocetamina._textoObs('Manter via aérea pérvia'),
+        _textoObs('Potência 2x maior que cetamina racêmica'),
+        _textoObs('Início IV: 30-60s | IM: 3-5min | Duração: 10-15min'),
+        _textoObs('Mantém reflexos de VA e drive respiratório'),
+        _textoObs('Emergence delirium - considerar BZD'),
+        _textoObs('CI: HAS severa, PIC elevada, glaucoma'),
+        _textoObs('Menos efeitos psicomiméticos que racêmica'),
       ],
     );
   }
 
-  static List<Widget> _buildIndicacoesPorFaixaEtaria(double peso, String faixaEtaria, bool isAdulto) {
-    List<Widget> indicacoes = [];
-
-    if (faixaEtaria == 'RN') {
-      // Recém-nascidos
-      indicacoes.addAll([
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para intubação',
-          descricaoDose: '1–2 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Lactente') {
-      // Lactentes
-      indicacoes.addAll([
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para intubação',
-          descricaoDose: '1–2 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Criança') {
-      // Crianças
-      indicacoes.addAll([
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para intubação',
-          descricaoDose: '1–2 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos dolorosos',
-          descricaoDose: '0,5–1 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Adolescente') {
-      // Adolescentes
-      indicacoes.addAll([
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para intubação',
-          descricaoDose: '1–2 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos dolorosos',
-          descricaoDose: '0,5–1 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Adulto') {
-      // Adultos
-      indicacoes.addAll([
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para intubação',
-          descricaoDose: '1–2 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos dolorosos',
-          descricaoDose: '0,5–1 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos de emergência',
-          descricaoDose: '1–2 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Idoso') {
-      // Idosos
-      indicacoes.addAll([
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,3–0,7 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.3,
-          dosePorKgMaxima: 0.7,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para intubação',
-          descricaoDose: '0,5–1 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrocetamina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos dolorosos',
-          descricaoDose: '0,3–0,7 mg/kg IV em 1–2 min',
-          unidade: 'mg',
-          dosePorKgMinima: 0.3,
-          dosePorKgMaxima: 0.7,
-          peso: peso,
-        ),
-      ]);
-    }
-
-    return indicacoes;
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        MedicamentoDextrocetamina._textoObs('Infusão contínua: 0,1–0,5 mg/kg/h'),
-        MedicamentoDextrocetamina._textoObs('Diluir em 50–100 mL SF 0,9%'),
-        MedicamentoDextrocetamina._textoObs('Concentração: 1 mg/mL (adultos)'),
-        MedicamentoDextrocetamina._textoObs('Concentração: 0,5 mg/mL (pediátrica)'),
-        MedicamentoDextrocetamina._textoObs('Monitorar pressão arterial e FC'),
-        MedicamentoDextrocetamina._textoObs('Sedação dissociativa'),
-        const SizedBox(height: 16),
-        ConversaoInfusaoSlider(
-          peso: peso,
-          doseMin: isAdulto ? 0.1 : 0.05,
-          doseMax: isAdulto ? 0.5 : 0.3,
-          unidade: 'mg/kg/h',
-          opcoesConcentracoes: {
-            '25mg em 25mL SF (1mg/mL)': 1.0,
-            '50mg em 25mL SF (2mg/mL)': 2.0,
-            '25mg em 50mL SF (0,5mg/mL)': 0.5,
-          },
-        ),
-      ],
-    );
+    // Concentrações em mg/mL - ordenadas da maior para menor
+    final opcoesConcentracoes = {
+      '50mg + 25mL SF (2 mg/mL)': 2.0, // mg/mL
+      '25mg + 25mL SF (1 mg/mL)': 1.0, // mg/mL
+      '25mg + 50mL SF (0,5 mg/mL)': 0.5, // mg/mL
+    };
+
+    if (isAdulto) {
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'mg/kg/h',
+        doseMin: 0.25,
+        doseMax: 1.0,
+      );
+    } else {
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'mg/kg/h',
+        doseMin: 0.25,
+        doseMax: 0.75,
+      );
+    }
   }
 
   static Widget _linhaPreparo(String texto, String marca) {
@@ -315,51 +235,17 @@ class MedicamentoDextrocetamina {
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
-    double? dosePorKg,
+    required String unidade,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
-    double? doseMinima,
-    double? doseMaxima,
-    double? doseFixa,
     required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
 
-    if (doseFixa != null) {
-      if (doseFixa < 1) {
-        textoDose = '${doseFixa.toStringAsFixed(1)} $unidade';
-      } else {
-        textoDose = '${doseFixa.toStringAsFixed(0)} $unidade';
-      }
-    } else if (dosePorKg != null) {
-      doseCalculada = dosePorKg * peso;
-      if (doseMinima != null && doseCalculada < doseMinima) {
-        doseCalculada = doseMinima;
-      }
-      if (doseMaxima != null && doseCalculada > doseMaxima) {
-        doseCalculada = doseMaxima;
-      }
-      if (doseCalculada < 1) {
-      textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
-      } else {
-        textoDose = '${doseCalculada.toStringAsFixed(0)} $unidade';
-      }
-    } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
+    if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMinima != null && doseMin < doseMinima) {
-        doseMin = doseMinima;
-      }
-      if (doseMaxima != null && doseMax > doseMaxima) {
-        doseMax = doseMaxima;
-      }
-      // Verificar se dose mínima não ultrapassou a máxima
-      if (doseMin > doseMax) doseMin = doseMax;
       textoDose = '${doseMin.toStringAsFixed(0)}–${doseMax.toStringAsFixed(0)} $unidade';
-    } else if (doseMinima != null && doseMaxima != null) {
-      textoDose = '${doseMinima.toStringAsFixed(0)}–${doseMaxima.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(
@@ -384,9 +270,7 @@ class MedicamentoDextrocetamina {
               decoration: BoxDecoration(
                 color: Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(
-                  color: Colors.blue.shade200,
-                ),
+                border: Border.all(color: Colors.blue.shade200),
               ),
               child: Text(
                 'Dose calculada: $textoDose',
@@ -406,12 +290,14 @@ class MedicamentoDextrocetamina {
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );

@@ -3,6 +3,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import '../drogas.dart';
 import '../../shared_data.dart';
+import '../../theme/app_colors.dart';
 
 class MedicamentoOcitocina {
   static const String nome = 'Ocitocina';
@@ -48,78 +49,72 @@ class MedicamentoOcitocina {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOcitocina._textoObs('• Uterotônico - Hormônio peptídico'),
+        _linhaPreparo('Uterotônico', 'Hormônio peptídico natural'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOcitocina._linhaPreparo('Ampola 5 UI/mL (1mL)', ''),
-        MedicamentoOcitocina._linhaPreparo('Ampola 10 UI/mL (1mL)', ''),
+        _linhaPreparo('Ampola 5 UI/mL', '1mL | Syntocinon®'),
+        _linhaPreparo('Ampola 10 UI/mL', '1mL'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOcitocina._linhaPreparo(
-            '10 UI em 500mL SG 5% ou SF 0,9%', '20 mUI/mL'),
-        MedicamentoOcitocina._linhaPreparo(
-            '20 UI em 1000mL SG 5% ou SF 0,9%', '20 mUI/mL'),
-        MedicamentoOcitocina._linhaPreparo(
-            '30 UI em 500mL SG 5% ou SF 0,9%', '60 mUI/mL (hemorragia)'),
+        _linhaPreparo('30 UI + 500mL SG5%', '60 mUI/mL (HPP)'),
+        _linhaPreparo('10 UI + 500mL SG5%', '20 mUI/mL (indução)'),
+        _textoObs('USO EXCLUSIVAMENTE OBSTÉTRICO'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOcitocina._linhaIndicacaoDoseFixa(
-          titulo: 'Indução do trabalho de parto',
-          descricaoDose:
-              '1-2 mUI/min IV, aumentar 1-2 mUI a cada 30-60 min (máx 20 mUI/min)',
-          doseFixa: '1-20 mUI/min',
-        ),
-        MedicamentoOcitocina._linhaIndicacaoDoseFixa(
-          titulo: 'Hemorragia pós-parto (HPP)',
-          descricaoDose: '10-40 UI em 500-1000mL IV infusão rápida ou 10 UI IM',
-          doseFixa: '10-40 UI IV ou 10 UI IM',
-        ),
-        MedicamentoOcitocina._linhaIndicacaoDoseFixa(
+        // BOLUS - caixa verde
+        _linhaIndicacaoDoseFixa(
           titulo: 'Cesárea (profilaxia HPP)',
-          descricaoDose:
-              '3-5 UI IV lenta ou 10 UI IM após expulsão placentária',
-          doseFixa: '3-5 UI IV ou 10 UI IM',
-          ),
-        MedicamentoOcitocina._linhaIndicacaoDoseFixa(
-          titulo: 'Aborto incompleto',
-          descricaoDose: '10 UI em 500mL IV infusão a 20-40 mUI/min',
-          doseFixa: '20-40 mUI/min',
+          descricaoDose: '3-5 UI IV lento ou 10 UI IM após placenta',
         ),
+        _linhaIndicacaoDoseFixa(
+          titulo: 'HPP - bolus inicial',
+          descricaoDose: '10 UI IM ou 5 UI IV lento',
+        ),
+        // INFUSÃO - caixa laranja
+        _linhaIndicacaoInfusao(
+          titulo: 'Indução trabalho de parto',
+          descricaoDose: '1-2 mUI/min, ↑1-2 mUI cada 30 min (máx 20 mUI/min)',
+        ),
+        _linhaIndicacaoInfusao(
+          titulo: 'HPP - manutenção',
+          descricaoDose: '20-40 mUI/min IV contínua',
+        ),
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOcitocina._buildConversorInfusao(peso),
+        _buildConversorInfusao(peso),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoOcitocina._textoObs('• USO EXCLUSIVAMENTE OBSTÉTRICO'),
-        MedicamentoOcitocina._textoObs(
-            '• Hormônio natural, estimula contração uterina'),
-        MedicamentoOcitocina._textoObs(
-            '• Monitorar frequência e duração das contrações'),
-        MedicamentoOcitocina._textoObs(
-            '• Monitorar frequência cardíaca fetal continuamente'),
-        MedicamentoOcitocina._textoObs(
-            '• Risco de hiperestimulação uterina e sofrimento fetal'),
-        MedicamentoOcitocina._textoObs(
-            '• Risco de hiponatremia em uso prolongado'),
-        MedicamentoOcitocina._textoObs(
-            '• Contraindicado em desproporção cefalopélvica'),
-        MedicamentoOcitocina._textoObs('• Contraindicado em sofrimento fetal'),
-        MedicamentoOcitocina._textoObs('• Meia-vida curta (3-10 minutos)'),
-        MedicamentoOcitocina._textoObs('• Interage com vasopressores'),
+        _textoObs('Início: 3-5 min | Meia-vida: 3-5 min'),
+        _textoObs('Monitorar contrações e FCF continuamente'),
+        _textoObs('HIPERESTIMULAÇÃO: parar infusão, decúbito lateral'),
+        _textoObs('Risco de intoxicação hídrica (hiponatremia) em altas doses'),
+        _textoObs('CI: desproporção cefalopélvica, sofrimento fetal'),
+        _textoObs('Bolus IV rápido pode causar hipotensão'),
       ],
     );
   }
@@ -157,7 +152,6 @@ class MedicamentoOcitocina {
   static Widget _linhaIndicacaoDoseFixa({
     required String titulo,
     required String descricaoDose,
-    required String doseFixa,
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
@@ -169,24 +163,54 @@ class MedicamentoOcitocina {
             style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
           ),
           const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-            const SizedBox(height: 4),
-            Container(
+          Container(
             width: double.infinity,
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-              decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+            decoration: BoxDecoration(
+              color: Colors.green.shade50,
               borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+              border: Border.all(color: Colors.green.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.green.shade700,
+                fontSize: 13,
               ),
-              child: Text(
-              'Dose: $doseFixa',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
                 fontSize: 13,
               ),
               textAlign: TextAlign.center,
@@ -198,10 +222,10 @@ class MedicamentoOcitocina {
   }
 
   static Widget _buildConversorInfusao(double peso) {
+    // Concentrações em mUI/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '10 UI em 500mL (20 mUI/mL)': 20.0, // mUI/mL
-      '20 UI em 1000mL (20 mUI/mL)': 20.0, // mUI/mL
-      '30 UI em 500mL (60 mUI/mL)': 60.0, // mUI/mL
+      '30 UI + 500mL SG5% (60 mUI/mL)': 60.0, // mUI/mL - HPP
+      '10 UI + 500mL SG5% (20 mUI/mL)': 20.0, // mUI/mL - indução
     };
 
     return ConversaoInfusaoSliderFixo(
@@ -214,8 +238,20 @@ class MedicamentoOcitocina {
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Text(texto),
+      padding: const EdgeInsets.symmetric(vertical: 3),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('• ',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(
+              texto,
+              style: const TextStyle(fontSize: 13),
+            ),
+          ),
+        ],
+      ),
     );
   }
 }
@@ -252,7 +288,22 @@ class _ConversaoInfusaoSliderFixoState
   @override
   void initState() {
     super.initState();
-    concentracaoSelecionada = widget.opcoesConcentracoes.keys.first;
+    // Selecionar a concentração mais alta como padrão (menor volume de infusão)
+    if (widget.opcoesConcentracoes.isNotEmpty) {
+      String chaveComMaiorConcentracao = widget.opcoesConcentracoes.keys.first;
+      double maiorConcentracao = widget.opcoesConcentracoes.values.first;
+      
+      for (final entry in widget.opcoesConcentracoes.entries) {
+        if (entry.value > maiorConcentracao) {
+          maiorConcentracao = entry.value;
+          chaveComMaiorConcentracao = entry.key;
+        }
+      }
+      
+      concentracaoSelecionada = chaveComMaiorConcentracao;
+    } else {
+      concentracaoSelecionada = '';
+    }
     dose = widget.doseMin.clamp(widget.doseMin, widget.doseMax);
     mlHora = _calcularMlHora();
   }
@@ -326,7 +377,7 @@ class _ConversaoInfusaoSliderFixoState
                               duration: const Duration(milliseconds: 150),
                               decoration: BoxDecoration(
                                 color: isSelected
-                                    ? Colors.indigo.withValues(alpha: 0.1)
+                                    ? AppColors.primary.withValues(alpha: 0.1)
                                     : Colors.transparent,
                                 border: Border(
                                   bottom: BorderSide(
@@ -349,7 +400,7 @@ class _ConversaoInfusaoSliderFixoState
                                         ? FontWeight.w600
                                         : FontWeight.normal,
                                     color: isSelected
-                                        ? Colors.indigo
+                                        ? AppColors.primary
                                         : Colors.black87,
                                   ),
                                   maxLines: 2,
@@ -359,7 +410,7 @@ class _ConversaoInfusaoSliderFixoState
                                     ? Icon(
                                         Icons.check,
                                         size: 18,
-                                        color: Colors.indigo,
+                                        color: AppColors.primary,
                                       )
                                     : null,
                                 onTap: () {
@@ -371,9 +422,9 @@ class _ConversaoInfusaoSliderFixoState
                                 },
                                 tileColor: Colors.transparent,
                                 hoverColor:
-                                    Colors.indigo.withValues(alpha: 0.05),
+                                    AppColors.primary.withValues(alpha: 0.05),
                                 splashColor:
-                                    Colors.indigo.withValues(alpha: 0.1),
+                                    AppColors.primary.withValues(alpha: 0.1),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(4),
                                 ),
@@ -409,8 +460,8 @@ class _ConversaoInfusaoSliderFixoState
   @override
   Widget build(BuildContext context) {
     return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
         CompositedTransformTarget(
           link: _layerLink,
           child: GestureDetector(
@@ -421,17 +472,19 @@ class _ConversaoInfusaoSliderFixoState
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
               decoration: BoxDecoration(
                 color: _isDropdownOpen
-                    ? Colors.indigo.withValues(alpha: 0.05)
+                    ? AppColors.primary.withValues(alpha: 0.05)
                     : Colors.white,
                 border: Border.all(
-                  color: _isDropdownOpen ? Colors.indigo : Colors.grey.shade400,
+                  color: _isDropdownOpen
+                      ? AppColors.primary
+                      : Colors.grey.shade400,
                   width: _isDropdownOpen ? 2 : 1,
                 ),
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: _isDropdownOpen
                     ? [
                         BoxShadow(
-                          color: Colors.indigo.withValues(alpha: 0.1),
+                          color: AppColors.primary.withValues(alpha: 0.1),
                           blurRadius: 8,
                           offset: const Offset(0, 2),
                         ),
@@ -457,7 +510,9 @@ class _ConversaoInfusaoSliderFixoState
                             ? FontWeight.w600
                             : FontWeight.normal,
                         color: concentracaoSelecionada.isNotEmpty
-                            ? (_isDropdownOpen ? Colors.indigo : Colors.black87)
+                            ? (_isDropdownOpen
+                                ? AppColors.primary
+                                : Colors.black87)
                             : Colors.grey.shade600,
                       ),
                       maxLines: 2,
@@ -471,7 +526,7 @@ class _ConversaoInfusaoSliderFixoState
                     child: Icon(
                       Icons.keyboard_arrow_down,
                       color: _isDropdownOpen
-                          ? Colors.indigo
+                          ? AppColors.primary
                           : Colors.grey.shade600,
                       size: 20,
                     ),
@@ -492,10 +547,10 @@ class _ConversaoInfusaoSliderFixoState
               style: const TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
-                  color: Colors.indigo),
+                  color: AppColors.primary),
             ),
-        ],
-      ),
+          ],
+        ),
         Slider(
           value: dose.clamp(widget.doseMin, widget.doseMax),
           min: widget.doseMin,

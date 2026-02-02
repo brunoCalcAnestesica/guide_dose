@@ -22,7 +22,6 @@ class MedicamentoMorfina {
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
 
-    // Morfina tem indicações para todas as faixas etárias
     return buildMedicamentoExpansivel(
       context: context,
       nome: nome,
@@ -44,128 +43,110 @@ class MedicamentoMorfina {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
-
-        // Classe
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMorfina._textoObs('Analgésico opioide - Agonista μ-opioide'),
-
+        _linhaPreparo('Opioide', 'Agonista μ - padrão ouro analgesia'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-
-        // Apresentações
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMorfina._linhaPreparo('Solução injetável 10mg/mL', ''),
-        MedicamentoMorfina._linhaPreparo('Solução injetável 20mg/mL', ''),
-        MedicamentoMorfina._linhaPreparo('Solução injetável 50mg/mL', ''),
-
+        _linhaPreparo('Ampola 10mg/mL', '1mL | Dimorf®'),
+        _linhaPreparo('Ampola 1mg/mL', '2mL (diluída)'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-
-        // Preparo
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMorfina._linhaPreparo(
-            'Bolus IV', 'Diluir em 10mL SF 0,9% e administrar LENTO (≥2 min)'),
-        MedicamentoMorfina._linhaPreparo(
-            'Infusão contínua', 'Diluir em SF 0,9% ou SG 5%'),
-        MedicamentoMorfina._linhaPreparo(
-            'Via IM/SC', 'Pode usar solução sem diluição'),
-
+        _linhaPreparo('100mg + 50mL SF', '2 mg/mL'),
+        _linhaPreparo('50mg + 50mL SF', '1 mg/mL'),
+        _linhaPreparo('50mg + 100mL SF', '0,5 mg/mL'),
+        _textoObs('Bolus: administrar LENTO (≥2 min)'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-
-        // Indicações Clínicas
         const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-
         if (isAdulto) ...[
-          MedicamentoMorfina._linhaIndicacaoDoseFixa(
+          // BOLUS FIXOS - caixa verde
+          _linhaIndicacaoDoseFixa(
             titulo: 'Dor aguda intensa (IV)',
-            descricaoDose: '2,5-5mg IV lento a cada 3-4h',
-            doseFixa: '2,5-5 mg',
+            descricaoDose: '2-5 mg IV lento, repetir cada 5-10 min PRN',
           ),
-          MedicamentoMorfina._linhaIndicacaoDoseFixa(
-            titulo: 'Dor aguda intensa (IM/SC)',
-            descricaoDose: '5-10mg IM ou SC a cada 4h',
-            doseFixa: '5-10 mg',
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Dor aguda (IM/SC)',
+            descricaoDose: '5-10 mg IM/SC a cada 4h',
           ),
-          MedicamentoMorfina._linhaIndicacaoDoseFixa(
+          _linhaIndicacaoDoseFixa(
             titulo: 'Edema agudo de pulmão',
-            descricaoDose: '2-5mg IV lento (efeito vasodilatador)',
-            doseFixa: '2-5 mg',
+            descricaoDose: '2-4 mg IV lento (vasodilatação)',
           ),
-          MedicamentoMorfina._linhaIndicacaoDoseFixa(
-            titulo: 'PCA (analgesia controlada)',
-            descricaoDose: '1mg IV/dose, bloqueio 6-10 min',
-            doseFixa: '1 mg/dose',
-          ),
-          MedicamentoMorfina._linhaIndicacaoDoseCalculada(
-            titulo: 'Infusão contínua (dor oncológica/cuidados paliativos)',
-            descricaoDose:
-                'Iniciar 0,007-0,014 mg/kg/h IV (~0,5-1 mg/h), titular conforme resposta',
-            unidade: 'mg/kg/h',
-            dosePorKgMinima: 0.007,
-            dosePorKgMaxima: 0.014,
-            peso: peso,
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Analgesia contínua UTI',
+            descricaoDose: '1-5 mg/h IV contínua (titular)',
           ),
         ] else ...[
-          MedicamentoMorfina._linhaIndicacaoDoseCalculada(
-            titulo: 'Dor aguda pediátrica (IV)',
-            descricaoDose: '0,05-0,1 mg/kg IV a cada 4h',
-            unidade: 'mg',
+          // BOLUS PEDIÁTRICO - caixa azul calculada
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Dor aguda pediátrica',
+            descricaoDose: '0,05-0,1 mg/kg IV lento (máx 5 mg)',
             dosePorKgMinima: 0.05,
             dosePorKgMaxima: 0.1,
+            doseMaxima: 5,
+            unidade: 'mg',
             peso: peso,
           ),
-          MedicamentoMorfina._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoInfusao(
             titulo: 'Infusão contínua pediátrica',
-            descricaoDose: '0,01-0,04 mg/kg/h IV, titular conforme resposta',
-            unidade: 'mg/kg/h',
-            dosePorKgMinima: 0.01,
-            dosePorKgMaxima: 0.04,
-            peso: peso,
+            descricaoDose: '0,01-0,04 mg/kg/h IV contínua',
           ),
         ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMorfina._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
+        const SizedBox(height: 16),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const SizedBox(height: 8),
+        _textoObs('Início IV: 5-10 min | Duração: 3-4h'),
+        _textoObs('DEPRESSÃO RESPIRATÓRIA - ter naloxona disponível'),
+        _textoObs('Liberação de histamina - hipotensão/broncoespasmo'),
+        _textoObs('Metabólito ativo M6G acumula em IR - reduzir dose'),
+        _textoObs('Idoso: reduzir dose 25-50%'),
+        _textoObs('Potencializa sedativos - reduzir doses combinadas'),
       ],
     );
   }
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '50mg em 50mL SF 0,9% (1 mg/mL)': 1.0, // mg/mL - padrão
-      '100mg em 100mL SF 0,9% (1 mg/mL)': 1.0, // mg/mL - padrão
-      '50mg em 100mL SF 0,9% (0,5 mg/mL)': 0.5, // mg/mL - diluído
-      '100mg em 50mL SF 0,9% (2 mg/mL)': 2.0, // mg/mL - concentrado
+      '100mg + 50mL SF (2 mg/mL)': 2.0, // mg/mL
+      '50mg + 50mL SF (1 mg/mL)': 1.0, // mg/mL
+      '50mg + 100mL SF (0,5 mg/mL)': 0.5, // mg/mL
     };
 
-    if (isAdulto) {
-      // Para adultos: 0,5-10 mg/h para 70kg = 0,007-0,14 mg/kg/h
-      // Mas é mais intuitivo mostrar como mg/kg/h
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mg/kg/h',
-        doseMin: 0.007,
-        doseMax: 0.14,
-      );
-    } else {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mg/kg/h',
-        doseMin: 0.01,
-        doseMax: 0.1,
-      );
-    }
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mg/h',
+      doseMin: isAdulto ? 1.0 : 0.5,
+      doseMax: isAdulto ? 10.0 : 3.0,
+      concentracaoEmMcg: false,
+    );
   }
 
   static Widget _linhaPreparo(String texto, String marca) {
@@ -201,7 +182,6 @@ class MedicamentoMorfina {
   static Widget _linhaIndicacaoDoseFixa({
     required String titulo,
     required String descricaoDose,
-    required String doseFixa,
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
@@ -213,24 +193,18 @@ class MedicamentoMorfina {
             style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
           ),
           const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          const SizedBox(height: 4),
           Container(
             width: double.infinity,
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             decoration: BoxDecoration(
-              color: Colors.blue.shade50,
+              color: Colors.green.shade50,
               borderRadius: BorderRadius.circular(6),
-              border: Border.all(color: Colors.blue.shade200),
+              border: Border.all(color: Colors.green.shade200),
             ),
             child: Text(
-              'Dose: $doseFixa',
+              descricaoDose,
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue.shade700,
+                color: Colors.green.shade700,
                 fontSize: 13,
               ),
               textAlign: TextAlign.center,
@@ -244,46 +218,31 @@ class MedicamentoMorfina {
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
+    required String unidade,
+    required double peso,
     double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
-
-    // Se a unidade contém "/kg", não multiplicamos pelo peso (a dose já é por kg)
-    bool isDosePorKg = unidade?.contains('/kg') ?? false;
+    bool doseLimite = false;
 
     if (dosePorKg != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mg/kg/h, mostramos apenas o valor
-        textoDose = '${dosePorKg.toStringAsFixed(2)} $unidade';
-      } else {
-        // Para doses totais (mg), calculamos multiplicando pelo peso
-        doseCalculada = dosePorKg * peso;
-        if (doseMaxima != null && doseCalculada > doseMaxima) {
-          doseCalculada = doseMaxima;
-        }
-        textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
+      double doseCalculada = dosePorKg * peso;
+      if (doseMaxima != null && doseCalculada > doseMaxima) {
+        doseCalculada = doseMaxima;
+        doseLimite = true;
       }
+      textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
     } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mg/kg/h, mostramos apenas o intervalo
-        textoDose =
-            '${dosePorKgMinima.toStringAsFixed(2)}–${dosePorKgMaxima.toStringAsFixed(2)} $unidade';
-      } else {
-        // Para doses totais, calculamos multiplicando pelo peso
-        double doseMin = dosePorKgMinima * peso;
-        double doseMax = dosePorKgMaxima * peso;
-        if (doseMaxima != null) {
-          doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
-        }
-        textoDose =
-            '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      double doseMin = dosePorKgMinima * peso;
+      double doseMax = dosePorKgMaxima * peso;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
+        doseLimite = true;
       }
+      textoDose = '${doseMin.toStringAsFixed(1)}-${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(
@@ -306,16 +265,18 @@ class MedicamentoMorfina {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -326,9 +287,45 @@ class MedicamentoMorfina {
     );
   }
 
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -337,7 +334,7 @@ class MedicamentoMorfina {
           Expanded(
             child: Text(
               texto,
-              style: const TextStyle(fontSize: 14),
+              style: const TextStyle(fontSize: 13),
             ),
           ),
         ],

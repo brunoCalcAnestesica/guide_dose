@@ -43,102 +43,81 @@ class MedicamentoEsmolol {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoEsmolol._textoObs(
-            'Beta-bloqueador cardioseletivo de ação ultra-curta'),
+        _linhaPreparo('β-bloqueador', 'Cardioseletivo, ação ultra-curta'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoEsmolol._linhaPreparo(
-            'Ampola 100mg/10mL (10mg/mL)', 'Brevibloc®, Esmolol®'),
+        _linhaPreparo('Ampola 100mg/10mL', '10 mg/mL | Brevibloc®'),
+        _linhaPreparo('Ampola 2500mg/250mL', '10 mg/mL (pronto)'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoEsmolol._linhaPreparo(
-            '100mg em 100mL SG 5%', '1mg/mL (1000 mcg/mL) - padrão'),
-        MedicamentoEsmolol._linhaPreparo(
-            '200mg em 100mL SG 5%', '2mg/mL (2000 mcg/mL) - alternativo'),
+        _linhaPreparo('200mg + 100mL SG 5%', '2000 mcg/mL'),
+        _linhaPreparo('100mg + 100mL SG 5%', '1000 mcg/mL'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoEsmolol._linhaIndicacaoDoseCalculada(
-            titulo: 'Taquicardia supraventricular (bolus)',
-            descricaoDose: '500 mcg/kg IV em 1 minuto',
-            unidade: 'mg',
+          // BOLUS - caixa azul calculada
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'TSV / FA com RVR (bolus)',
+            descricaoDose: '500 mcg/kg IV em 1 min',
             dosePorKg: 0.5,
-            peso: peso,
-          ),
-          MedicamentoEsmolol._linhaIndicacaoDoseCalculada(
-            titulo: 'Fibrilação atrial com resposta ventricular rápida (bolus)',
-            descricaoDose: '500 mcg/kg IV em 1 minuto',
             unidade: 'mg',
-            dosePorKg: 0.5,
             peso: peso,
           ),
-          MedicamentoEsmolol._linhaIndicacaoDoseCalculada(
-            titulo: 'Crise hipertensiva com taquicardia',
-            descricaoDose: '80 mcg/kg/min IV contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 80,
-            dosePorKgMaxima: 80,
-            peso: peso,
-          ),
-          MedicamentoEsmolol._linhaIndicacaoDoseCalculada(
-            titulo: 'Taquicardia perioperatória',
+          // INFUSÃO CONTÍNUA - caixa laranja (sem cálculo)
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção / Controle de FC',
             descricaoDose: '50-200 mcg/kg/min IV contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 50,
-            dosePorKgMaxima: 200,
-            peso: peso,
           ),
         ] else ...[
-          MedicamentoEsmolol._linhaIndicacaoDoseCalculada(
-            titulo: 'Taquicardia supraventricular pediátrica (bolus)',
-            descricaoDose: '500 mcg/kg IV em 1 minuto',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'TSV pediátrica (bolus)',
+            descricaoDose: '100-500 mcg/kg IV em 1 min',
+            dosePorKgMinima: 0.1,
+            dosePorKgMaxima: 0.5,
             unidade: 'mg',
-            dosePorKg: 0.5,
             peso: peso,
           ),
-          MedicamentoEsmolol._linhaIndicacaoDoseCalculada(
-            titulo: 'Controle de frequência cardíaca pediátrica',
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
             descricaoDose: '50-200 mcg/kg/min IV contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 50,
-            dosePorKgMaxima: 200,
-            peso: peso,
           ),
         ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoEsmolol._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoEsmolol._textoObs('Início de ação: 1-2 minutos'),
-        MedicamentoEsmolol._textoObs('Pico de efeito: 5-10 minutos'),
-        MedicamentoEsmolol._textoObs('Meia-vida: 9 minutos (ação ultra-curta)'),
-        MedicamentoEsmolol._textoObs(
-            'Metabolização rápida por esterases plasmáticas'),
-        MedicamentoEsmolol._textoObs('Dose máxima: 200 mcg/kg/min'),
-        MedicamentoEsmolol._textoObs(
-            'Usar exclusivamente com bomba de infusão'),
-        MedicamentoEsmolol._textoObs('Monitorar ECG, PA e FC continuamente'),
-        MedicamentoEsmolol._textoObs('Contraindicado em IC descompensada'),
-        MedicamentoEsmolol._textoObs('Contraindicado em choque cardiogênico'),
-        MedicamentoEsmolol._textoObs('Contraindicado em BAV 2º ou 3º grau'),
-        MedicamentoEsmolol._textoObs(
-            'Não requer ajuste em disfunção renal ou hepática'),
-        MedicamentoEsmolol._textoObs('Risco de bradicardia e hipotensão'),
+        _textoObs('Início: 1-2min | Meia-vida: 9min (ultra-curta)'),
+        _textoObs('Metabolizado por esterases - sem ajuste renal/hepático'),
+        _textoObs('CI: IC descompensada, choque cardiogênico, BAV 2º/3º'),
+        _textoObs('Pode repetir bolus a cada 5min se necessário'),
+        _textoObs('Titular a cada 4min até efeito desejado'),
+        _textoObs('Monitorar ECG, PA e FC - bradicardia/hipotensão'),
       ],
     );
   }
@@ -174,64 +153,47 @@ class MedicamentoEsmolol {
   }
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mcg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '100mg em 100mL SG 5% (1000 mcg/mL)': 1000.0, // mcg/mL
-      '200mg em 100mL SG 5% (2000 mcg/mL)': 2000.0, // mcg/mL
+      '200mg + 100mL SG 5% (2000 mcg/mL)': 2000.0, // mcg/mL
+      '100mg + 100mL SG 5% (1000 mcg/mL)': 1000.0, // mcg/mL
     };
 
-    // Ambos adultos e pediátricos usam a mesma faixa: 50-200 mcg/kg/min
     return ConversaoInfusaoSlider(
       peso: peso,
       opcoesConcentracoes: opcoesConcentracoes,
       unidade: 'mcg/kg/min',
       doseMin: 50.0,
       doseMax: 200.0,
+      concentracaoEmMcg: true,
     );
   }
 
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
+    required String unidade,
+    required double peso,
     double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
 
-    // Se a unidade contém "/kg", não multiplicamos pelo peso (a dose já é por kg)
-    bool isDosePorKg = unidade?.contains('/kg') ?? false;
-
     if (dosePorKg != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mcg/kg/min, mostramos apenas o valor
-        textoDose = '${dosePorKg.toStringAsFixed(0)} $unidade';
-      } else {
-        // Para doses totais (mg, mcg), calculamos multiplicando pelo peso
-        doseCalculada = dosePorKg * peso;
-        if (doseMaxima != null && doseCalculada > doseMaxima) {
-          doseCalculada = doseMaxima;
-        }
-        textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
+      double doseCalculada = dosePorKg * peso;
+      if (doseMaxima != null && doseCalculada > doseMaxima) {
+        doseCalculada = doseMaxima;
       }
+      textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
     } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mcg/kg/min, mostramos apenas o intervalo
-        textoDose =
-            '${dosePorKgMinima.toStringAsFixed(0)}–${dosePorKgMaxima.toStringAsFixed(0)} $unidade';
-      } else {
-        // Para doses totais, calculamos multiplicando pelo peso
-        double doseMin = dosePorKgMinima * peso;
-        double doseMax = dosePorKgMaxima * peso;
-        if (doseMaxima != null) {
-          doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
-        }
-        textoDose =
-            '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      double doseMin = dosePorKgMinima * peso;
+      double doseMax = dosePorKgMaxima * peso;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
       }
+      textoDose = '${doseMin.toStringAsFixed(1)}-${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(
@@ -259,11 +221,11 @@ class MedicamentoEsmolol {
                 border: Border.all(color: Colors.blue.shade200),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.blue.shade700,
-                  fontSize: 13,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -274,14 +236,52 @@ class MedicamentoEsmolol {
     );
   }
 
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );

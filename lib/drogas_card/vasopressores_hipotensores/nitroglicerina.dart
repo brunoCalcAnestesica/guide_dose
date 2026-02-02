@@ -19,12 +19,8 @@ class MedicamentoNitroglicerina {
       void Function(String) onToggleFavorito) {
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
-
-    // Verificar se há indicações para a faixa etária selecionada
-    if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
-      return const SizedBox.shrink();
-    }
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -35,325 +31,113 @@ class MedicamentoNitroglicerina {
       conteudo: _buildCardNitroglicerina(
         context,
         peso,
-        faixaEtaria,
+        isAdulto,
         isFavorito,
         () => onToggleFavorito(nome),
       ),
     );
   }
 
-  static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
-    // Todas as faixas etárias têm indicação
-    return true;
-  }
-
   static Widget _buildCardNitroglicerina(BuildContext context, double peso,
-      String faixaEtaria, bool isFavorito, VoidCallback onToggleFavorito) {
+      bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
-
-        // Classe
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNitroglicerina._textoObs('Vasodilatador - Nitrato orgânico'),
-
+        _linhaPreparo('Vasodilatador', 'Nitrato orgânico (doador de NO)'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-
-        // Apresentações
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNitroglicerina._linhaPreparo('Ampola 5mg/mL (10mL)', ''),
-        MedicamentoNitroglicerina._linhaPreparo('Ampola 5mg/mL (5mL)', ''),
-
+        _linhaPreparo('Ampola 5mg/mL', '10mL (50mg) | Tridil®'),
+        _linhaPreparo('Ampola 5mg/mL', '5mL (25mg)'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-
-        // Preparo
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNitroglicerina._linhaPreparo(
-            '50mg em 250mL SG 5%', '200 mcg/mL'),
-        MedicamentoNitroglicerina._linhaPreparo(
-            '25mg em 250mL SG 5%', '100 mcg/mL'),
-        MedicamentoNitroglicerina._linhaPreparo(
-            '100mg em 250mL SG 5%', '400 mcg/mL'),
-
+        _linhaPreparo('100mg + 150mL SG5%', '400 mcg/mL'),
+        _linhaPreparo('50mg + 200mL SG5%', '200 mcg/mL'),
+        _linhaPreparo('25mg + 225mL SG5%', '100 mcg/mL'),
+        _textoObs('Usar frasco de vidro ou equipo sem PVC'),
+        
+        // 4. INDICAÇÕES CLÍNICAS (TODAS infusão contínua - caixa laranja)
         const SizedBox(height: 16),
-
-        // Indicações Clínicas
         const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-
-        ..._buildIndicacoesPorFaixaEtaria(faixaEtaria, peso),
-
+        if (isAdulto) ...[
+          _linhaIndicacaoInfusao(
+            titulo: 'Angina instável / SCA',
+            descricaoDose: '5-200 mcg/min IV contínua (iniciar 5 mcg/min)',
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'IC aguda / EAP',
+            descricaoDose: '10-200 mcg/min IV contínua (reduz pré-carga)',
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Emergência hipertensiva',
+            descricaoDose: '5-100 mcg/min IV contínua (titular PA)',
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Hipotensão controlada',
+            descricaoDose: '0,5-5 mcg/kg/min IV contínua',
+          ),
+        ] else ...[
+          _linhaIndicacaoInfusao(
+            titulo: 'Hipertensão pulmonar',
+            descricaoDose: '0,5-5 mcg/kg/min IV contínua',
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'IC pediátrica / Pós-op cardíaco',
+            descricaoDose: '0,25-5 mcg/kg/min IV contínua',
+          ),
+        ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
-
-        // Infusão Contínua
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNitroglicerina._buildConversorInfusao(peso, faixaEtaria),
-
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
-
-        // Observações
         const Text('Observações',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNitroglicerina._textoObs('Vasodilatador de ação rápida'),
-        MedicamentoNitroglicerina._textoObs(
-            'Efeito venodilatador predominante, reduz pré-carga'),
-        MedicamentoNitroglicerina._textoObs(
-            'Monitorar pressão arterial e frequência cardíaca constantemente'),
-        MedicamentoNitroglicerina._textoObs(
-            'Risco de hipotensão severa e reflexo taquicárdico'),
-        MedicamentoNitroglicerina._textoObs(
-            'Usar com cautela em pacientes com hipovolemia'),
-        MedicamentoNitroglicerina._textoObs('Pode causar cefaleia e flushing'),
-        MedicamentoNitroglicerina._textoObs(
-            'Interage com outros vasodilatadores e anti-hipertensivos'),
-        MedicamentoNitroglicerina._textoObs('Meia-vida curta (1-4 minutos)'),
-        MedicamentoNitroglicerina._textoObs(
-            'Contraindicado com sildenafil e inibidores da PDE5'),
+        _textoObs('Início: 1-2 min | Meia-vida: 1-4 min'),
+        _textoObs('Venodilatador > arteriodilatador (reduz pré-carga)'),
+        _textoObs('CONTRAINDICADO com sildenafil/inibidores PDE5'),
+        _textoObs('Tolerância em 24-48h de uso contínuo'),
+        _textoObs('Cefaleia é efeito comum - não suspender'),
+        _textoObs('Idoso: iniciar com doses menores'),
       ],
     );
   }
 
-  static List<Widget> _buildIndicacoesPorFaixaEtaria(
-      String faixaEtaria, double peso) {
-    List<Widget> widgets = [];
-
-    switch (faixaEtaria) {
-      case 'Neonato':
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipertensão pulmonar',
-          descricaoDose: '0,5-5 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 5,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência cardíaca',
-          descricaoDose: '0,25-2 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ));
-        break;
-
-      case 'Lactente':
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipertensão pulmonar',
-          descricaoDose: '0,5-5 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 5,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência cardíaca',
-          descricaoDose: '0,25-2 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Crise hipertensiva',
-          descricaoDose: '1-10 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 10,
-          peso: peso,
-        ));
-        break;
-
-      case 'Criança':
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipertensão pulmonar',
-          descricaoDose: '0,5-5 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 5,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência cardíaca',
-          descricaoDose: '0,25-2 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Crise hipertensiva',
-          descricaoDose: '1-10 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 10,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseFixa(
-          titulo: 'Angina instável',
-          descricaoDose: '5-160 mcg/min IV infusão',
-          doseFixa: '5-160 mcg/min',
-        ));
-        break;
-
-      case 'Adolescente':
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipertensão pulmonar',
-          descricaoDose: '0,5-5 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 5,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência cardíaca',
-          descricaoDose: '0,25-2 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Crise hipertensiva',
-          descricaoDose: '1-10 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 10,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseFixa(
-          titulo: 'Angina instável',
-          descricaoDose: '5-160 mcg/min IV infusão',
-          doseFixa: '5-160 mcg/min',
-        ));
-        break;
-
-      case 'Adulto':
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipertensão pulmonar',
-          descricaoDose: '0,5-5 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 5,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência cardíaca',
-          descricaoDose: '0,25-2 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 2,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Crise hipertensiva',
-          descricaoDose: '1-10 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 1,
-          dosePorKgMaxima: 10,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseFixa(
-          titulo: 'Angina instável',
-          descricaoDose: '5-160 mcg/min IV infusão',
-          doseFixa: '5-160 mcg/min',
-        ));
-        break;
-
-      case 'Idoso':
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipertensão pulmonar',
-          descricaoDose: '0,25-3 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 3,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Insuficiência cardíaca',
-          descricaoDose: '0,1-1,5 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.1,
-          dosePorKgMaxima: 1.5,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseCalculada(
-          titulo: 'Crise hipertensiva',
-          descricaoDose: '0,5-7,5 mcg/kg/min IV infusão',
-          unidade: 'mcg/kg/min',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 7.5,
-          peso: peso,
-        ));
-        widgets.add(MedicamentoNitroglicerina._linhaIndicacaoDoseFixa(
-          titulo: 'Angina instável',
-          descricaoDose: '5-120 mcg/min IV infusão',
-          doseFixa: '5-120 mcg/min',
-        ));
-        break;
-    }
-
-    return widgets;
-  }
-
-  static Widget _buildConversorInfusao(double peso, String faixaEtaria) {
+  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mcg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '25mg em 250mL (100 mcg/mL)': 100.0,
-      '50mg em 250mL (200 mcg/mL)': 200.0,
-      '100mg em 250mL (400 mcg/mL)': 400.0,
+      '100mg + 150mL SG5% (400 mcg/mL)': 400.0, // mcg/mL
+      '50mg + 200mL SG5% (200 mcg/mL)': 200.0, // mcg/mL
+      '25mg + 225mL SG5% (100 mcg/mL)': 100.0, // mcg/mL
     };
-
-    double doseMin;
-    double doseMax;
-
-    // Ajustar faixas conforme faixa etária e indicações
-    switch (faixaEtaria) {
-      case 'Neonato':
-        doseMin = 0.25;
-        doseMax = 5.0;
-        break;
-      case 'Lactente':
-        doseMin = 0.25;
-        doseMax = 10.0;
-        break;
-      case 'Criança':
-        doseMin = 0.25;
-        doseMax = 10.0;
-        break;
-      case 'Adolescente':
-        doseMin = 0.25;
-        doseMax = 10.0;
-        break;
-      case 'Adulto':
-        doseMin = 0.25;
-        doseMax = 10.0;
-        break;
-      case 'Idoso':
-        doseMin = 0.1;
-        doseMax = 7.5;
-        break;
-      default:
-        doseMin = 0.25;
-        doseMax = 10.0;
-    }
 
     return ConversaoInfusaoSlider(
       peso: peso,
       opcoesConcentracoes: opcoesConcentracoes,
       unidade: 'mcg/kg/min',
-      doseMin: doseMin,
-      doseMax: doseMax,
+      doseMin: isAdulto ? 0.1 : 0.25,
+      doseMax: isAdulto ? 3.0 : 5.0,
+      concentracaoEmMcg: true,
     );
   }
 
@@ -387,10 +171,9 @@ class MedicamentoNitroglicerina {
     );
   }
 
-  static Widget _linhaIndicacaoDoseFixa({
+  static Widget _linhaIndicacaoInfusao({
     required String titulo,
     required String descricaoDose,
-    required String doseFixa,
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
@@ -402,24 +185,18 @@ class MedicamentoNitroglicerina {
             style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
           ),
           const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          const SizedBox(height: 4),
           Container(
             width: double.infinity,
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             decoration: BoxDecoration(
-              color: Colors.blue.shade50,
+              color: Colors.orange.shade50,
               borderRadius: BorderRadius.circular(6),
-              border: Border.all(color: Colors.blue.shade200),
+              border: Border.all(color: Colors.orange.shade200),
             ),
             child: Text(
-              'Dose: $doseFixa',
+              descricaoDose,
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue.shade700,
+                color: Colors.orange.shade700,
                 fontSize: 13,
               ),
               textAlign: TextAlign.center,
@@ -430,86 +207,20 @@ class MedicamentoNitroglicerina {
     );
   }
 
-  static Widget _linhaIndicacaoDoseCalculada({
-    required String titulo,
-    required String descricaoDose,
-    String? unidade,
-    double? dosePorKg,
-    double? dosePorKgMinima,
-    double? dosePorKgMaxima,
-    double? doseMaxima,
-    required double peso,
-  }) {
-    double? doseCalculada;
-    String? textoDose;
-
-    // Remover "/kg" da unidade após o cálculo com peso
-    String unidadeCalculada = unidade?.replaceAll('/kg', '') ?? '';
-
-    if (dosePorKg != null) {
-      doseCalculada = dosePorKg * peso;
-      if (doseMaxima != null && doseCalculada > doseMaxima) {
-        doseCalculada = doseMaxima;
-      }
-      textoDose = '${doseCalculada.toStringAsFixed(2)} $unidadeCalculada';
-    } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
-      double doseMin = dosePorKgMinima * peso;
-      double doseMax = dosePorKgMaxima * peso;
-      if (doseMaxima != null) {
-        doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
-      }
-      textoDose =
-          '${doseMin.toStringAsFixed(2)}-${doseMax.toStringAsFixed(2)} $unidadeCalculada';
-    }
-
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            titulo,
-            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
-          ),
-          const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          if (textoDose != null) ...[
-            const SizedBox(height: 4),
-            Container(
-              width: double.infinity,
-              padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-              decoration: BoxDecoration(
-                color: Colors.blue.shade50,
-                borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
-              ),
-              child: Text(
-                'Dose calculada: $textoDose',
-                style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
-                ),
-                textAlign: TextAlign.center,
-              ),
-            ),
-          ],
-        ],
-      ),
-    );
-  }
-
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(
+              texto,
+              style: const TextStyle(fontSize: 13),
+            ),
+          ),
         ],
       ),
     );

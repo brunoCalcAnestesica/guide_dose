@@ -1,4 +1,6 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
+import '../theme/app_colors.dart';
 import '../shared_data.dart';
 import '../bulario_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -96,6 +98,7 @@ import 'antiemeticos/droperidol.dart' show MedicamentoDroperidol;
 import 'antiemeticos/hioscina.dart' show MedicamentoHioscina;
 import 'antiemeticos/metoclopramida.dart' show MedicamentoMetoclopramida;
 import 'antiemeticos/clemastina.dart' show MedicamentoClemastina;
+import 'antiemeticos/difenidramina.dart' show MedicamentoDifenidramina;
 import 'antiemeticos/granisetrona.dart' show MedicamentoGranisetrona;
 import 'antiemeticos/omeprazol.dart' show MedicamentoOmeprazol;
 import 'antiemeticos/ondansetrona.dart' show MedicamentoOndansetrona;
@@ -978,6 +981,12 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
         MedicamentoClemastina.buildCard(context, favoritos, onToggleFavorito),
   }, // Clemastina
   {
+    'nome': MedicamentoDifenidramina.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoDifenidramina.buildCard(context, favoritos, onToggleFavorito),
+  }, // Difenidramina
+  {
     'nome': MedicamentoDextrose25.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
@@ -1081,6 +1090,82 @@ String _formatarDoseComConversao(double dose, String unidade) {
 }
 
 //CONFIGURAÇÕES//
+
+/// Página individual do medicamento
+class MedicamentoPage extends StatefulWidget {
+  final String nome;
+  final String idBulario;
+  final bool isFavorito;
+  final VoidCallback onToggleFavorito;
+  final Widget conteudo;
+
+  const MedicamentoPage({
+    super.key,
+    required this.nome,
+    required this.idBulario,
+    required this.isFavorito,
+    required this.onToggleFavorito,
+    required this.conteudo,
+  });
+
+  @override
+  State<MedicamentoPage> createState() => _MedicamentoPageState();
+}
+
+class _MedicamentoPageState extends State<MedicamentoPage> {
+  late bool _isFavorito;
+
+  @override
+  void initState() {
+    super.initState();
+    _isFavorito = widget.isFavorito;
+  }
+
+  void _toggleFavorito() {
+    setState(() {
+      _isFavorito = !_isFavorito;
+    });
+    widget.onToggleFavorito();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(widget.nome),
+        actions: [
+          // Botão de favorito
+          IconButton(
+            icon: Icon(
+              _isFavorito ? Icons.star_rounded : Icons.star_border_rounded,
+              color: _isFavorito ? Colors.amber[700] : null,
+            ),
+            tooltip: _isFavorito ? 'Remover dos favoritos' : 'Adicionar aos favoritos',
+            onPressed: _toggleFavorito,
+          ),
+          // Botão do bulário
+          IconButton(
+            icon: const Icon(Icons.description_rounded),
+            tooltip: 'Abrir bulário',
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => BularioPage(principioAtivo: widget.idBulario),
+                ),
+              );
+            },
+          ),
+        ],
+      ),
+      body: SingleChildScrollView(
+        padding: const EdgeInsets.all(16),
+        child: widget.conteudo,
+      ),
+    );
+  }
+}
+
 /**/ Widget buildMedicamentoExpansivel({
   required BuildContext context,
   required String nome,
@@ -1090,68 +1175,123 @@ String _formatarDoseComConversao(double dose, String unidade) {
   required Widget conteudo,
 }) {
   return Card(
-    margin: const EdgeInsets.fromLTRB(8, 6, 8, 6),
+    margin: const EdgeInsets.symmetric(vertical: 5),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
     elevation: 2,
-    child: ExpansionTile(
-      tilePadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      childrenPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
-      iconColor: Colors.indigo,
-      collapsedIconColor: Colors.grey,
-      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-      collapsedShape:
-          RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
-      trailing: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: [
-          IconButton(
-            icon: Icon(
-              isFavorito ? Icons.star_rounded : Icons.star_border_rounded,
-              color: isFavorito ? Colors.amber[700] : Colors.grey[400],
-              size: 24,
-            ),
-            tooltip: isFavorito
-                ? 'Remover dos favoritos'
-                : 'Adicionar aos favoritos',
-            onPressed: onToggleFavorito,
-            visualDensity: VisualDensity.compact,
-          ),
-          IconButton(
-            icon: const Icon(Icons.medical_information_rounded,
-                size: 24, color: Colors.blueGrey),
-            tooltip: 'Abrir bulário',
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => BularioPage(principioAtivo: idBulario),
-                ),
-              );
-            },
-            visualDensity: VisualDensity.compact,
-          ),
-        ],
-      ),
+    child: ListTile(
+      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
       title: Text(
         nome,
         style: const TextStyle(
-          fontSize: 20,
+          fontSize: 18,
           fontWeight: FontWeight.w700,
         ),
         overflow: TextOverflow.ellipsis,
       ),
-      children: [
-        conteudo,
-      ],
+      trailing: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          if (isFavorito)
+            Icon(
+              Icons.star_rounded,
+              color: Colors.amber[700],
+              size: 22,
+            ),
+          const SizedBox(width: 4),
+          const Icon(
+            Icons.chevron_right_rounded,
+            color: Colors.grey,
+          ),
+        ],
+      ),
+      shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => MedicamentoPage(
+              nome: nome,
+              idBulario: idBulario,
+              isFavorito: isFavorito,
+              onToggleFavorito: onToggleFavorito,
+              conteudo: conteudo,
+            ),
+          ),
+        );
+      },
     ),
   );
 }
 
 /**/ class FavoritosManager {
   static const _key = 'medicamentosFavoritos';
+  static const _keyVersaoFavoritos = 'versaoFavoritosPadrao';
+  
+  // Incrementar esta versão para forçar reset dos favoritos padrão
+  static const int _versaoAtual = 2;
+  
+  /// Lista de medicamentos com opção de infusão contínua (favoritos padrão)
+  static const Set<String> medicamentosComInfusao = {
+    'Adrenalina',
+    'Alfentanil',
+    'Amiodarona',
+    'Atracúrio',
+    'Ácido Aminocaproico',
+    'Ácido Tranexâmico',
+    'Bromoprida',
+    'Bumetadina',
+    'Bupivacaína',
+    'Cetamina',
+    'Cisatracúrio',
+    'Dexmedetomidina',
+    'Dextrocetamina',
+    'Dextrose 25%',
+    'Dipirona',
+    'Dobutamina',
+    'Dopamina',
+    'Efedrina',
+    'Esmolol',
+    'Fenilefrina',
+    'Fentanil',
+    'Insulina Regular',
+    'Metaraminol',
+    'Midazolam',
+    'Milrinona',
+    'Mivacúrio',
+    'Morfina',
+    'Naloxona',
+    'Nitroglicerina',
+    'Nitroprussiato de Sódio',
+    'Noradrenalina',
+    'Ocitocina',
+    'Octreotida',
+    'Pancurônio',
+    'Petidina',
+    'Propofol',
+    'Remifentanil',
+    'Remidazolam',
+    'Rocurônio',
+    'Ropivacaína',
+    'Sufentanil',
+    'Timoglobulina',
+    'Tiopental',
+    'Vasopressina',
+    'Vecurônio',
+  };
 
   static Future<Set<String>> obterFavoritos() async {
     final prefs = await SharedPreferences.getInstance();
+    
+    // Verificar versão dos favoritos padrão
+    final versaoSalva = prefs.getInt(_keyVersaoFavoritos) ?? 0;
+    
+    // Se a versão mudou, aplicar novos favoritos padrão
+    if (versaoSalva < _versaoAtual) {
+      await prefs.setStringList(_key, medicamentosComInfusao.toList());
+      await prefs.setInt(_keyVersaoFavoritos, _versaoAtual);
+      return medicamentosComInfusao;
+    }
+    
     return prefs.getStringList(_key)?.toSet() ?? {};
   }
 
@@ -1168,10 +1308,18 @@ String _formatarDoseComConversao(double dose, String unidade) {
 
     await prefs.setStringList(_key, favoritos.toList());
   }
+  
+  /// Reseta os favoritos para os padrões (medicamentos com infusão contínua)
+  static Future<void> resetarParaPadrao() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.setStringList(_key, medicamentosComInfusao.toList());
+  }
 }
 
 /**/ class DrogasPage extends StatefulWidget {
-  const DrogasPage({super.key});
+  final bool isActive;
+
+  const DrogasPage({super.key, required this.isActive});
 
   @override
   State<DrogasPage> createState() => _DrogasPageState();
@@ -1183,6 +1331,8 @@ String _formatarDoseComConversao(double dose, String unidade) {
   final double doseMin;
   final double doseMax;
   final String unidade;
+  /// Se true, indica que a concentração já está em mcg/mL (não converter de mg para mcg)
+  final bool concentracaoEmMcg;
 
   const ConversaoInfusaoSlider({
     Key? key,
@@ -1191,6 +1341,7 @@ String _formatarDoseComConversao(double dose, String unidade) {
     required this.doseMin,
     required this.doseMax,
     required this.unidade,
+    this.concentracaoEmMcg = false,
   }) : super(key: key ?? const ValueKey('ConversaoInfusaoSlider'));
 
   @override
@@ -1208,9 +1359,20 @@ String _formatarDoseComConversao(double dose, String unidade) {
   @override
   void initState() {
     super.initState();
-    // Garantir que sempre há uma concentração válida selecionada
+    // Selecionar a concentração mais alta como padrão (menor volume de infusão)
     if (widget.opcoesConcentracoes.isNotEmpty) {
-      concentracaoSelecionada = widget.opcoesConcentracoes.keys.first;
+      // Encontrar a chave com o maior valor de concentração
+      String chaveComMaiorConcentracao = widget.opcoesConcentracoes.keys.first;
+      double maiorConcentracao = widget.opcoesConcentracoes.values.first;
+      
+      for (final entry in widget.opcoesConcentracoes.entries) {
+        if (entry.value > maiorConcentracao) {
+          maiorConcentracao = entry.value;
+          chaveComMaiorConcentracao = entry.key;
+        }
+      }
+      
+      concentracaoSelecionada = chaveComMaiorConcentracao;
     } else {
       concentracaoSelecionada = '';
     }
@@ -1287,7 +1449,7 @@ String _formatarDoseComConversao(double dose, String unidade) {
                               duration: const Duration(milliseconds: 150),
                               decoration: BoxDecoration(
                                 color: isSelected
-                                    ? Colors.indigo.withValues(alpha: 0.1)
+                                    ? AppColors.primary.withValues(alpha: 0.1)
                                     : Colors.transparent,
                                 border: Border(
                                   bottom: BorderSide(
@@ -1310,7 +1472,7 @@ String _formatarDoseComConversao(double dose, String unidade) {
                                         ? FontWeight.w600
                                         : FontWeight.normal,
                                     color: isSelected
-                                        ? Colors.indigo
+                                        ? AppColors.primary
                                         : Colors.black87,
                                   ),
                                   maxLines: 2,
@@ -1320,7 +1482,7 @@ String _formatarDoseComConversao(double dose, String unidade) {
                                     ? Icon(
                                         Icons.check,
                                         size: 18,
-                                        color: Colors.indigo,
+                                        color: AppColors.primary,
                                       )
                                     : null,
                                 onTap: () {
@@ -1332,9 +1494,9 @@ String _formatarDoseComConversao(double dose, String unidade) {
                                 },
                                 tileColor: Colors.transparent,
                                 hoverColor:
-                                    Colors.indigo.withValues(alpha: 0.05),
+                                    AppColors.primary.withValues(alpha: 0.05),
                                 splashColor:
-                                    Colors.indigo.withValues(alpha: 0.1),
+                                    AppColors.primary.withValues(alpha: 0.1),
                                 shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(4),
                                 ),
@@ -1367,12 +1529,15 @@ String _formatarDoseComConversao(double dose, String unidade) {
     if (conc == null || conc == 0) return 0;
     final unidade = widget.unidade.toLowerCase();
 
-    // Determinar se a dose está em mcg/kg/min, mcg/kg/h, mg/kg/h, UI/kg/h, U/min, U/kg/min, mL/h ou mL/kg/h
+    // Determinar se a dose está em mcg/kg/min, mcg/kg/h, mcg/h, mg/kg/h, mg/h, UI/kg/h, U/min, U/kg/min, mL/h ou mL/kg/h
     final isMcgPerKgPerMin = unidade.contains('mcg/kg/min');
-    final isMcgPerKgPerH = unidade.contains('mcg/kg/h');
+    final isMcgPerKgPerH = unidade.contains('mcg/kg/h') && !unidade.contains('mcg/h');
+    final isMcgPerH = unidade == 'mcg/h'; // dose fixa em mcg/h (não por kg)
     final isMgPerKgPerH = unidade.contains('mg/kg/h');
+    final isMgPerH = unidade == 'mg/h'; // dose fixa em mg/h (não por kg)
     final isUIPerKgPerH = unidade.contains('ui/kg/h');
-    final isUPerMin = unidade.contains('u/min') && !unidade.contains('u/kg/min');
+    final isUPerMin =
+        unidade.contains('u/min') && !unidade.contains('u/kg/min');
     final isUPerKgPerMin = unidade.contains('u/kg/min');
     final isMlPerH = unidade.contains('ml/h') && !unidade.contains('ml/kg/h');
     final isMlPerKgPerH = unidade.contains('ml/kg/h');
@@ -1386,39 +1551,60 @@ String _formatarDoseComConversao(double dose, String unidade) {
     } else if (isMlPerKgPerH) {
       // mL/kg/h -> mL/h
       mlHora = dose * widget.peso;
+    } else if (isMgPerH) {
+      // mg/h -> mL/h (dose fixa, não por kg)
+      // Concentração em mg/mL
+      // Fórmula: mL/h = dose_mg_h / concentração_mg_mL
+      mlHora = dose / conc;
+    } else if (isMcgPerH) {
+      // mcg/h -> mL/h (dose fixa, não por kg)
+      // Se concentracaoEmMcg=true, a concentração já está em mcg/mL
+      // Se concentracaoEmMcg=false, a concentração está em mg/mL e precisa converter para mcg/mL
+      double concMcgMl = widget.concentracaoEmMcg ? conc : conc * 1000;
+      // Fórmula: mL/h = dose_mcg_h / concentração_mcg_mL
+      mlHora = dose / concMcgMl;
     } else if (isUPerMin) {
       // U/min -> U/h -> mL/h (para vasopressina em adultos)
+      // Concentração em U/mL
       double unidadesPorHora = dose * 60; // converter min para hora
       mlHora = unidadesPorHora / conc;
     } else if (isUPerKgPerMin) {
       // U/kg/min -> U/h -> mL/h (para vasopressina pediátrica)
+      // Concentração em U/mL
       double unidadesPorHora = dose * widget.peso * 60;
       mlHora = unidadesPorHora / conc;
-    } else {
-      // Calcular dose total por hora para outras unidades
-    double doseTotalPorHora;
-
-    if (isMcgPerKgPerMin) {
-      // mcg/kg/min -> mcg/h -> mg/h -> mL/h
-      doseTotalPorHora = dose * widget.peso * 60; // mcg/h
-      // Converter mcg para mg antes de dividir pela concentração
-      doseTotalPorHora = doseTotalPorHora / 1000; // mg/h
+    } else if (isMcgPerKgPerMin) {
+      // mcg/kg/min -> mcg/h -> mL/h
+      // Se concentracaoEmMcg=true, a concentração já está em mcg/mL
+      // Se concentracaoEmMcg=false, a concentração está em mg/mL e precisa converter para mcg/mL
+      double concMcgMl = widget.concentracaoEmMcg ? conc : conc * 1000;
+      // Fórmula: mL/h = (dose_mcg_kg_min × peso_kg × 60) / concentração_mcg_mL
+      double mcgPorHora = dose * widget.peso * 60;
+      mlHora = mcgPorHora / concMcgMl;
     } else if (isMcgPerKgPerH) {
-      // mcg/kg/h -> mcg/h -> mg/h
-      doseTotalPorHora = dose * widget.peso / 1000; // mg/h
+      // mcg/kg/h -> mcg/h -> mL/h
+      // Se concentracaoEmMcg=true, a concentração já está em mcg/mL
+      // Se concentracaoEmMcg=false, a concentração está em mg/mL e precisa converter para mcg/mL
+      double concMcgMl = widget.concentracaoEmMcg ? conc : conc * 1000;
+      // Fórmula: mL/h = (dose_mcg_kg_h × peso_kg) / concentração_mcg_mL
+      double mcgPorHora = dose * widget.peso;
+      mlHora = mcgPorHora / concMcgMl;
     } else if (isMgPerKgPerH) {
-      // mg/kg/h -> mg/h
-      doseTotalPorHora = dose * widget.peso;
+      // mg/kg/h -> mg/h -> mL/h
+      // Concentração em mg/mL
+      double mgPorHora = dose * widget.peso;
+      mlHora = mgPorHora / conc;
     } else if (isUIPerKgPerH) {
-      // UI/kg/h -> UI/h (para insulina)
-      doseTotalPorHora = dose * widget.peso;
+      // UI/kg/h -> UI/h -> mL/h (para insulina)
+      // Concentração em UI/mL
+      double uiPorHora = dose * widget.peso;
+      mlHora = uiPorHora / conc;
     } else {
       // Fallback para mcg/kg/min
-      doseTotalPorHora = dose * widget.peso * 60 / 1000; // mg/h
-    }
-
-    // Calcular mL/h baseado na concentração
-      mlHora = doseTotalPorHora / conc;
+      // Se concentracaoEmMcg=true, a concentração já está em mcg/mL
+      double concMcgMl = widget.concentracaoEmMcg ? conc : conc * 1000;
+      double mcgPorHora = dose * widget.peso * 60;
+      mlHora = mcgPorHora / concMcgMl;
     }
 
     return mlHora;
@@ -1426,10 +1612,20 @@ String _formatarDoseComConversao(double dose, String unidade) {
 
   @override
   Widget build(BuildContext context) {
-    // Garantir que sempre há uma concentração válida
+    // Garantir que sempre há uma concentração válida (seleciona a mais alta)
     if (concentracaoSelecionada.isEmpty &&
         widget.opcoesConcentracoes.isNotEmpty) {
-      concentracaoSelecionada = widget.opcoesConcentracoes.keys.first;
+      String chaveComMaiorConcentracao = widget.opcoesConcentracoes.keys.first;
+      double maiorConcentracao = widget.opcoesConcentracoes.values.first;
+      
+      for (final entry in widget.opcoesConcentracoes.entries) {
+        if (entry.value > maiorConcentracao) {
+          maiorConcentracao = entry.value;
+          chaveComMaiorConcentracao = entry.key;
+        }
+      }
+      
+      concentracaoSelecionada = chaveComMaiorConcentracao;
     }
 
     return Column(
@@ -1445,17 +1641,19 @@ String _formatarDoseComConversao(double dose, String unidade) {
               padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 16),
               decoration: BoxDecoration(
                 color: _isDropdownOpen
-                    ? Colors.indigo.withValues(alpha: 0.05)
+                    ? AppColors.primary.withValues(alpha: 0.05)
                     : Colors.white,
                 border: Border.all(
-                  color: _isDropdownOpen ? Colors.indigo : Colors.grey.shade400,
+                  color: _isDropdownOpen
+                      ? AppColors.primary
+                      : Colors.grey.shade400,
                   width: _isDropdownOpen ? 2 : 1,
                 ),
                 borderRadius: BorderRadius.circular(8),
                 boxShadow: _isDropdownOpen
                     ? [
                         BoxShadow(
-                          color: Colors.indigo.withValues(alpha: 0.1),
+                          color: AppColors.primary.withValues(alpha: 0.1),
                           blurRadius: 8,
                           offset: const Offset(0, 2),
                         ),
@@ -1481,7 +1679,9 @@ String _formatarDoseComConversao(double dose, String unidade) {
                             ? FontWeight.w600
                             : FontWeight.normal,
                         color: concentracaoSelecionada.isNotEmpty
-                            ? (_isDropdownOpen ? Colors.indigo : Colors.black87)
+                            ? (_isDropdownOpen
+                                ? AppColors.primary
+                                : Colors.black87)
                             : Colors.grey.shade600,
                       ),
                       maxLines: 2,
@@ -1495,7 +1695,7 @@ String _formatarDoseComConversao(double dose, String unidade) {
                     child: Icon(
                       Icons.keyboard_arrow_down,
                       color: _isDropdownOpen
-                          ? Colors.indigo
+                          ? AppColors.primary
                           : Colors.grey.shade600,
                       size: 20,
                     ),
@@ -1516,7 +1716,7 @@ String _formatarDoseComConversao(double dose, String unidade) {
               style: const TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
-                  color: Colors.indigo),
+                  color: AppColors.primary),
             ),
           ],
         ),
@@ -1583,7 +1783,7 @@ class CategoriaCard extends StatelessWidget {
       child: ExpansionTile(
         tilePadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         childrenPadding: const EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-        iconColor: Colors.indigo,
+        iconColor: AppColors.primary,
         collapsedIconColor: Colors.grey,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         collapsedShape:
@@ -1593,7 +1793,7 @@ class CategoriaCard extends StatelessWidget {
           style: const TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.w600,
-            color: Colors.indigo,
+            color: AppColors.primary,
           ),
         ),
         subtitle: Text(
@@ -1615,9 +1815,23 @@ class _DrogasPageState extends State<DrogasPage> {
   Set<String> favoritos = {};
   final TextEditingController _searchController = TextEditingController();
   String _query = '';
+  
+  // Timer para debounce na busca (otimização de performance)
+  Timer? _searchDebounce;
+  
+  // Lista pré-ordenada alfabeticamente (calculada uma vez no initState)
+  late final List<Map<String, dynamic>> _medicamentosOrdenados;
+  
+  // Cache de nomes sem acentos para ordenação rápida
+  final Map<String, String> _cacheNomesSemAcento = {};
 
-  // Função para remover acentos para ordenação alfabética
+  // Função para remover acentos para ordenação alfabética (com cache)
   String _removerAcentos(String texto) {
+    // Verifica se já está no cache
+    if (_cacheNomesSemAcento.containsKey(texto)) {
+      return _cacheNomesSemAcento[texto]!;
+    }
+    
     const acentos = {
       'á': 'a',
       'à': 'a',
@@ -1673,22 +1887,42 @@ class _DrogasPageState extends State<DrogasPage> {
     acentos.forEach((acento, semAcento) {
       resultado = resultado.replaceAll(acento, semAcento);
     });
+    
+    // Armazena no cache
+    _cacheNomesSemAcento[texto] = resultado;
     return resultado;
   }
 
   @override
   void initState() {
     super.initState();
+    
+    // Pré-ordenar a lista de medicamentos alfabeticamente (apenas uma vez)
+    _medicamentosOrdenados = List.from(_medicamentos);
+    _medicamentosOrdenados.sort((a, b) {
+      final nomeA = _removerAcentos(a['nome'].toLowerCase());
+      final nomeB = _removerAcentos(b['nome'].toLowerCase());
+      return nomeA.compareTo(nomeB);
+    });
+    
     _carregarFavoritos();
+    
+    // Debounce na busca: aguarda 300ms após parar de digitar
     _searchController.addListener(() {
-      setState(() {
-        _query = _searchController.text.toLowerCase();
+      _searchDebounce?.cancel();
+      _searchDebounce = Timer(const Duration(milliseconds: 300), () {
+        if (mounted) {
+          setState(() {
+            _query = _searchController.text.toLowerCase();
+          });
+        }
       });
     });
   }
 
   @override
   void dispose() {
+    _searchDebounce?.cancel();
     _searchController.dispose();
     super.dispose();
   }
@@ -1703,7 +1937,7 @@ class _DrogasPageState extends State<DrogasPage> {
 
   void _alternarFavorito(String nomeMedicamento) async {
     final novoEstado = !favoritos.contains(nomeMedicamento);
-    
+
     // Atualizar UI imediatamente
     setState(() {
       if (novoEstado) {
@@ -1712,154 +1946,162 @@ class _DrogasPageState extends State<DrogasPage> {
         favoritos.remove(nomeMedicamento);
       }
     });
-    
+
     // Salvar em background
     await FavoritosManager.salvarFavorito(nomeMedicamento, novoEstado);
   }
 
   @override
   Widget build(BuildContext context) {
+    if (!widget.isActive) {
+      return const SizedBox.shrink();
+    }
     final double? idade = SharedData.idade;
     if (idade == null) {
       return const Scaffold(
         body: Center(child: CircularProgressIndicator()),
       );
     }
-    // Usar lista estática de medicamentos
 
+    // Usar lista pré-ordenada (já ordenada alfabeticamente no initState)
     // Filtrar medicamentos se houver busca
-    List<Map<String, dynamic>> medicamentosFiltrados = [];
-    print('DEBUG: _query atual = "$_query"');
+    List<Map<String, dynamic>> medicamentosFiltrados;
     if (_query.isEmpty) {
-      medicamentosFiltrados = _medicamentos;
-      print(
-          'DEBUG: Usando lista completa de medicamentos (${_medicamentos.length})');
+      medicamentosFiltrados = _medicamentosOrdenados;
     } else {
-      medicamentosFiltrados = _medicamentos
+      medicamentosFiltrados = _medicamentosOrdenados
           .where((med) => med['nome'].toLowerCase().contains(_query))
           .toList();
-      print(
-          'DEBUG: Filtrados ${medicamentosFiltrados.length} medicamentos para "$_query"');
     }
 
-    // Ordenar medicamentos: favoritos primeiro em ordem alfabética, depois os demais em ordem alfabética
-    medicamentosFiltrados.sort((a, b) {
-      final aIsFavorito = favoritos.contains(a['nome']);
-      final bIsFavorito = favoritos.contains(b['nome']);
-
-      if (aIsFavorito && !bIsFavorito) return -1; // a vem antes de b
-      if (!aIsFavorito && bIsFavorito) return 1; // b vem antes de a
-
-      // Se ambos têm o mesmo status (favoritos ou não), ordenar alfabeticamente ignorando acentos
-      final nomeA = _removerAcentos(a['nome'].toLowerCase());
-      final nomeB = _removerAcentos(b['nome'].toLowerCase());
-      return nomeA.compareTo(nomeB);
-    });
+    // Separar favoritos e não-favoritos (já estão ordenados alfabeticamente)
+    // Usar partition para melhor performance
+    final favoritosList = <Map<String, dynamic>>[];
+    final naoFavoritosList = <Map<String, dynamic>>[];
+    
+    for (final med in medicamentosFiltrados) {
+      if (favoritos.contains(med['nome'])) {
+        favoritosList.add(med);
+      } else {
+        naoFavoritosList.add(med);
+      }
+    }
+    
+    // Concatenar: favoritos primeiro, depois os demais
+    medicamentosFiltrados = [...favoritosList, ...naoFavoritosList];
 
     return Scaffold(
+      resizeToAvoidBottomInset: false,
       appBar: AppBar(title: const Text('Medicamentos')),
       body: SafeArea(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+        child: ListView.builder(
+          keyboardDismissBehavior: ScrollViewKeyboardDismissBehavior.onDrag,
+          padding: const EdgeInsets.only(bottom: 12),
+          itemCount: medicamentosFiltrados.isEmpty
+              ? 2
+              : medicamentosFiltrados.length + 1,
+          itemBuilder: (context, index) {
+            if (index == 0) {
+              return Column(
                 children: [
-                  const SizedBox(height: 6),
-                  Semantics(
-                    label: 'Campo de busca de medicamentos ou condições',
-                    child: TextField(
-                      controller: _searchController,
-                      autocorrect: false,
-                      decoration: InputDecoration(
-                        prefixIcon: const Icon(Icons.search),
-                        suffixIcon: _searchController.text.isNotEmpty
-                            ? IconButton(
-                                icon: const Icon(Icons.clear),
-                                onPressed: () {
-                                  _searchController.clear();
-                                  setState(() {
-                                    _query = '';
-                                  });
-                                  FocusScope.of(context).unfocus();
-                                },
-                              )
-                            : null,
-                        border: OutlineInputBorder(
-                          borderSide: BorderSide.none,
-                          borderRadius: BorderRadius.circular(12),
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const SizedBox(height: 6),
+                        Semantics(
+                          label: 'Campo de busca de medicamentos ou condições',
+                          child: TextField(
+                            controller: _searchController,
+                            autocorrect: false,
+                            decoration: InputDecoration(
+                              labelText: 'Pesquisa',
+                              prefixIcon: const Icon(Icons.search),
+                              filled: true,
+                              fillColor: Colors.grey.withValues(alpha: 0.08),
+                              border: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(12),
+                                borderSide: BorderSide.none,
+                              ),
+                              enabledBorder: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(12),
+                                borderSide: BorderSide.none,
+                              ),
+                              focusedBorder: OutlineInputBorder(
+                                borderRadius: BorderRadius.circular(12),
+                                borderSide: BorderSide(
+                                  color: Theme.of(context).colorScheme.primary,
+                                  width: 1.2,
+                                ),
+                              ),
+                              isDense: true,
+                              contentPadding: EdgeInsets.symmetric(
+                                  vertical: 10, horizontal: 12),
+                            ),
+                          ),
                         ),
-                        enabledBorder: OutlineInputBorder(
-                          borderSide: BorderSide.none,
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide.none,
-                          borderRadius: BorderRadius.circular(12),
-                        ),
-                        filled: true,
-                        fillColor: Colors.white,
-                      ),
+                      ],
                     ),
                   ),
+                  const SizedBox(height: 4),
                 ],
-              ),
-            ),
-            const SizedBox(height: 4),
-            Expanded(
-              child: medicamentosFiltrados.isEmpty
-                  ? Center(
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          const Text(
-                            'Nenhum medicamento encontrado.',
-                            style: TextStyle(color: Colors.grey, fontSize: 14),
-                          ),
-                          const SizedBox(height: 12),
-                          const Text(
-                            'Ajude-nos a melhorar:',
-                            style: TextStyle(fontSize: 14),
-                          ),
-                          TextButton(
-                            onPressed: () {
-                              // Funcionalidade de email será implementada futuramente
-                            },
-                            child: const Text(
-                              'bhdaroz@gmail.com',
-                              style: TextStyle(
-                                fontSize: 14,
-                                color: Colors.blue,
-                                decoration: TextDecoration.underline,
-                              ),
-                            ),
-                          ),
-                        ],
-                      ),
-                    )
-                  : ListView.builder(
-                      itemCount: medicamentosFiltrados.length,
-                      cacheExtent: 1000, // Cache para melhor performance
-                      itemBuilder: (context, index) {
-                        final med = medicamentosFiltrados[index];
+              );
+            }
 
-                        try {
-                          return med['builder'](
-                              context, favoritos, _alternarFavorito);
-                        } catch (e) {
-                          return Padding(
-                            padding: const EdgeInsets.all(8.0),
-                            child: Text(
-                              'Erro ao carregar ${med['nome']}: $e',
-                              style: const TextStyle(color: Colors.red),
-                            ),
-                          );
-                        }
-                      },
-                    ),
-            ),
-          ],
+            if (medicamentosFiltrados.isEmpty) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8),
+                child: Center(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      const Text(
+                        'Nenhum medicamento encontrado.',
+                        style: TextStyle(color: Colors.grey, fontSize: 14),
+                      ),
+                      const SizedBox(height: 12),
+                      const Text(
+                        'Ajude-nos a melhorar:',
+                        style: TextStyle(fontSize: 14),
+                      ),
+                      TextButton(
+                        onPressed: () {
+                          // Funcionalidade de email será implementada futuramente
+                        },
+                        child: const Text(
+                          'bhdaroz@gmail.com',
+                          style: TextStyle(
+                            fontSize: 14,
+                            color: Colors.blue,
+                            decoration: TextDecoration.underline,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              );
+            }
+
+            final itemIndex = index - 1;
+            final med = medicamentosFiltrados[itemIndex];
+
+            try {
+              return Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 8),
+                child: med['builder'](context, favoritos, _alternarFavorito),
+              );
+            } catch (e) {
+              return Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Text(
+                  'Erro ao carregar ${med['nome']}: $e',
+                  style: const TextStyle(color: Colors.red),
+                ),
+              );
+            }
+          },
         ),
       ),
     );

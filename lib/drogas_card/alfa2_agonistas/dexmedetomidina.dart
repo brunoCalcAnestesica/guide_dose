@@ -18,20 +18,11 @@ class MedicamentoDexmedetomidina {
     }
   }
 
-  static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
-    // Dexmedetomidina tem indicações para todas as faixas etárias
-    return true;
-  }
-
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
-
-    if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
-      return const SizedBox.shrink();
-    }
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -54,234 +45,146 @@ class MedicamentoDexmedetomidina {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDexmedetomidina._textoObs('Agonista α2-adrenérgico seletivo'),
-        MedicamentoDexmedetomidina._textoObs('Sedativo-hipnótico não benzodiazepínico'),
-        MedicamentoDexmedetomidina._textoObs('Analgesia e sedação consciente'),
+        _linhaPreparo('Agonista α2-adrenérgico', 'Sedativo-hipnótico'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDexmedetomidina._linhaPreparo('Ampola 100mcg/mL (2mL)', 'Via IV'),
-        MedicamentoDexmedetomidina._linhaPreparo('Ampola 200mcg/2mL', 'Via IV'),
+        _linhaPreparo('Ampola 200mcg/2mL', '100 mcg/mL'),
+        _linhaPreparo('Ampola 100mcg/1mL', '100 mcg/mL'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDexmedetomidina._linhaPreparo('Diluir em SF 0,9%', 'Para infusão contínua'),
-        MedicamentoDexmedetomidina._linhaPreparo('Concentração final: 4mcg/mL', '200mcg em 50mL SF'),
-        MedicamentoDexmedetomidina._linhaPreparo('Concentração pediátrica: 2mcg/mL', '100mcg em 50mL SF'),
-        MedicamentoDexmedetomidina._linhaPreparo('Compatível com SF e SG', 'Não misturar com outros medicamentos'),
+        _linhaPreparo('200mcg + 50mL SF', '4 mcg/mL'),
+        _linhaPreparo('100mcg + 50mL SF', '2 mcg/mL'),
+        _linhaPreparo('50mcg + 50mL SF', '1 mcg/mL'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        const Text('Indicações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        ..._buildIndicacoesPorFaixaEtaria(peso, faixaEtaria, isAdulto),
+        if (isAdulto) ...[
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Dose de ataque (opcional)',
+            descricaoDose: '0,5-1 mcg/kg IV em 10 min',
+            unidade: 'mcg',
+            dosePorKgMinima: 0.5,
+            dosePorKgMaxima: 1.0,
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Sedação UTI',
+            descricaoDose: '0,2-0,7 mcg/kg/h IV contínua',
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Sedação procedimentos',
+            descricaoDose: '0,2-1,0 mcg/kg/h IV contínua',
+          ),
+        ] else ...[
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Dose de ataque pediátrica',
+            descricaoDose: '0,5-1 mcg/kg IV em 10 min',
+            unidade: 'mcg',
+            dosePorKgMinima: 0.5,
+            dosePorKgMaxima: 1.0,
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Sedação UTI pediátrica',
+            descricaoDose: '0,2-0,7 mcg/kg/h IV contínua',
+          ),
+        ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDexmedetomidina._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDexmedetomidina._textoObs('Contraindicação: bloqueio AV de 2º e 3º grau'),
-        MedicamentoDexmedetomidina._textoObs('Monitorar pressão arterial (hipotensão)'),
-        MedicamentoDexmedetomidina._textoObs('Bradicardia pode ocorrer'),
-        MedicamentoDexmedetomidina._textoObs('Sedação consciente (paciente responsivo)'),
-        MedicamentoDexmedetomidina._textoObs('Não causa depressão respiratória'),
+        _textoObs('Sedação consciente - paciente despertável'),
+        _textoObs('NÃO causa depressão respiratória'),
+        _textoObs('Bradicardia e hipotensão - monitorar'),
+        _textoObs('CI: BAV 2º/3º grau sem marcapasso'),
+        _textoObs('Reduzir dose em idosos e hepatopatas'),
+        _textoObs('Início: 15min | Meia-vida: 2h'),
       ],
     );
   }
 
-  static List<Widget> _buildIndicacoesPorFaixaEtaria(double peso, String faixaEtaria, bool isAdulto) {
-    List<Widget> indicacoes = [];
-
-    if (faixaEtaria == 'RN') {
-      // Recém-nascidos
-      indicacoes.addAll([
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação em UTI neonatal',
-          descricaoDose: '0,2–0,7 mcg/kg/h IV contínua',
-          unidade: 'mcg/kg/h',
-          doseMinima: 0.2,
-          doseMaxima: 0.7,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Lactente') {
-      // Lactentes
-      indicacoes.addAll([
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação em UTI pediátrica',
-          descricaoDose: '0,2–0,7 mcg/kg/h IV contínua',
-          unidade: 'mcg/kg/h',
-          doseMinima: 0.2,
-          doseMaxima: 0.7,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Criança') {
-      // Crianças
-      indicacoes.addAll([
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação em UTI pediátrica',
-          descricaoDose: '0,2–0,7 mcg/kg/h IV contínua',
-          unidade: 'mcg/kg/h',
-          doseMinima: 0.2,
-          doseMaxima: 0.7,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação pré-operatória',
-          descricaoDose: '0,5–1 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Adolescente') {
-      // Adolescentes
-      indicacoes.addAll([
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação em UTI',
-          descricaoDose: '0,2–0,7 mcg/kg/h IV contínua',
-          unidade: 'mcg/kg/h',
-          doseMinima: 0.2,
-          doseMaxima: 0.7,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação pré-operatória',
-          descricaoDose: '0,5–1 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Adulto') {
-      // Adultos
-      indicacoes.addAll([
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação em UTI',
-          descricaoDose: '0,2–0,7 mcg/kg/h IV contínua',
-          unidade: 'mcg/kg/h',
-          doseMinima: 0.2,
-          doseMaxima: 0.7,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,5–1 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação pré-operatória',
-          descricaoDose: '0,5–1 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação pós-operatória',
-          descricaoDose: '0,2–0,7 mcg/kg/h IV contínua',
-          unidade: 'mcg/kg/h',
-          doseMinima: 0.2,
-          doseMaxima: 0.7,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Idoso') {
-      // Idosos
-      indicacoes.addAll([
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação em UTI',
-          descricaoDose: '0,1–0,5 mcg/kg/h IV contínua',
-          unidade: 'mcg/kg/h',
-          doseMinima: 0.1,
-          doseMaxima: 0.5,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação para procedimentos',
-          descricaoDose: '0,3–0,7 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.3,
-          dosePorKgMaxima: 0.7,
-          peso: peso,
-        ),
-        MedicamentoDexmedetomidina._linhaIndicacaoDoseCalculada(
-          titulo: 'Sedação pré-operatória',
-          descricaoDose: '0,3–0,7 mcg/kg IV em 10 min',
-          unidade: 'mcg',
-          dosePorKgMinima: 0.3,
-          dosePorKgMaxima: 0.7,
-          peso: peso,
-        ),
-      ]);
-    }
-
-    return indicacoes;
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
   }
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        MedicamentoDexmedetomidina._textoObs('Infusão contínua: 0,2–0,7 mcg/kg/h'),
-        MedicamentoDexmedetomidina._textoObs('Diluir em 50–100 mL SF 0,9%'),
-        MedicamentoDexmedetomidina._textoObs('Monitorar pressão arterial e FC'),
-        MedicamentoDexmedetomidina._textoObs('Sedação consciente (RASS -1 a -3)'),
-        const SizedBox(height: 16),
-        ConversaoInfusaoSlider(
-          peso: peso,
-          doseMin: isAdulto ? 0.2 : 0.1,
-          doseMax: isAdulto ? 0.7 : 0.5,
-          unidade: 'mcg/kg/h',
-          opcoesConcentracoes: {
-            '200mcg em 50mL SF (4mcg/mL)': 4.0,
-            '100mcg em 50mL SF (2mcg/mL)': 2.0,
-            '50mcg em 50mL SF (1mcg/mL)': 1.0,
-          },
-        ),
-      ],
-    );
+    // Concentrações em mcg/mL - ordenadas da maior para menor
+    final opcoesConcentracoes = {
+      '200mcg + 50mL SF (4 mcg/mL)': 4.0, // mcg/mL
+      '100mcg + 50mL SF (2 mcg/mL)': 2.0, // mcg/mL
+      '50mcg + 50mL SF (1 mcg/mL)': 1.0, // mcg/mL
+    };
+
+    if (isAdulto) {
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'mcg/kg/h',
+        doseMin: 0.2,
+        doseMax: 0.7,
+        concentracaoEmMcg: true,
+      );
+    } else {
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'mcg/kg/h',
+        doseMin: 0.2,
+        doseMax: 0.7,
+        concentracaoEmMcg: true,
+      );
+    }
   }
 
   static Widget _linhaPreparo(String texto, String marca) {
@@ -313,51 +216,17 @@ class MedicamentoDexmedetomidina {
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
-    double? dosePorKg,
+    required String unidade,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
-    double? doseMinima,
-    double? doseMaxima,
-    double? doseFixa,
     required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
 
-    if (doseFixa != null) {
-      if (doseFixa < 1) {
-        textoDose = '${doseFixa.toStringAsFixed(1)} $unidade';
-      } else {
-        textoDose = '${doseFixa.toStringAsFixed(0)} $unidade';
-      }
-    } else if (dosePorKg != null) {
-      doseCalculada = dosePorKg * peso;
-      if (doseMinima != null && doseCalculada < doseMinima) {
-        doseCalculada = doseMinima;
-      }
-      if (doseMaxima != null && doseCalculada > doseMaxima) {
-        doseCalculada = doseMaxima;
-      }
-      if (doseCalculada < 1) {
-        textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
-      } else {
-        textoDose = '${doseCalculada.toStringAsFixed(0)} $unidade';
-      }
-    } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
+    if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMinima != null && doseMin < doseMinima) {
-        doseMin = doseMinima;
-      }
-      if (doseMaxima != null && doseMax > doseMaxima) {
-        doseMax = doseMaxima;
-      }
-      // Verificar se dose mínima não ultrapassou a máxima
-      if (doseMin > doseMax) doseMin = doseMax;
       textoDose = '${doseMin.toStringAsFixed(0)}–${doseMax.toStringAsFixed(0)} $unidade';
-    } else if (doseMinima != null && doseMaxima != null) {
-      textoDose = '${doseMinima.toStringAsFixed(0)}–${doseMaxima.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(
@@ -382,9 +251,7 @@ class MedicamentoDexmedetomidina {
               decoration: BoxDecoration(
                 color: Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(
-                  color: Colors.blue.shade200,
-                ),
+                border: Border.all(color: Colors.blue.shade200),
               ),
               child: Text(
                 'Dose calculada: $textoDose',
@@ -404,12 +271,14 @@ class MedicamentoDexmedetomidina {
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );

@@ -39,100 +39,104 @@ class MedicamentoVecuronio {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVecuronio._textoObs('• Bloqueador neuromuscular não despolarizante - Ação intermediária - Esteroidal'),
+        _linhaPreparo('Bloqueador neuromuscular não despolarizante', 'Aminoesteroidal - Ação intermediária'),
+
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVecuronio._linhaPreparo('Frasco 4mg liofilizado', 'Norcuron®'),
-        MedicamentoVecuronio._linhaPreparo('Frasco 10mg liofilizado', 'Norcuron®'),
-        MedicamentoVecuronio._linhaPreparo('Início: 2-3 min | Pico: 3-5 min', 'Ação intermediária'),
-        MedicamentoVecuronio._linhaPreparo('Duração: 25-40 min', 'Recuperação 25%: 45-65 min'),
-        MedicamentoVecuronio._linhaPreparo('Meia-vida: 65-75 min', 'Metabolismo hepático'),
+        _linhaPreparo('Frasco 10 mg liofilizado', 'Norcuron®'),
+        _linhaPreparo('Frasco 4 mg liofilizado', 'Norcuron®'),
+
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVecuronio._linhaPreparo('Reconstituir pó com 5mL SF 0,9%', 'Concentração 1mg/mL'),
-        MedicamentoVecuronio._linhaPreparo('Para infusão: 50mg em 50mL SF', 'Concentração 1mg/mL (1000 mcg/mL)'),
-        MedicamentoVecuronio._linhaPreparo('Compatível: SF 0,9%, SG 5%, Ringer', 'Incompatível: bicarbonato'),
-        MedicamentoVecuronio._linhaPreparo('Armazenar: 2-8°C refrigerado', 'Usar reconstituído em 24h'),
+        _linhaPreparo('10 mg + 5 mL SF', '2000 mcg/mL (2 mg/mL)'),
+        _linhaPreparo('10 mg + 10 mL SF', '1000 mcg/mL (1 mg/mL)'),
+        _linhaPreparo('4 mg + 4 mL SF', '1000 mcg/mL (1 mg/mL)'),
+        _textoObs('Para bolus - usar reconstituído'),
+
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoVecuronio._linhaIndicacaoDoseCalculada(
+          // BOLUS - caixa azul
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Intubação orotraqueal eletiva',
-            descricaoDose: '0,08-0,1 mg/kg IV bolus (20-30 seg)',
+            descricaoDose: '0,08-0,1 mg/kg IV (IOT em 2,5-3 min)',
             unidade: 'mg',
             dosePorKgMinima: 0.08,
             dosePorKgMaxima: 0.1,
             peso: peso,
           ),
-          MedicamentoVecuronio._linhaIndicacaoDoseCalculada(
-            titulo: 'Manutenção bloqueio (doses adicionais)',
-            descricaoDose: '0,01-0,015 mg/kg IV bolus a cada 15-25 min',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Após succinilcolina',
+            descricaoDose: '0,04-0,06 mg/kg IV (dose reduzida)',
+            unidade: 'mg',
+            dosePorKgMinima: 0.04,
+            dosePorKgMaxima: 0.06,
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Manutenção (bolus)',
+            descricaoDose: '0,01-0,015 mg/kg IV a cada 12-15 min',
             unidade: 'mg',
             dosePorKgMinima: 0.01,
             dosePorKgMaxima: 0.015,
             peso: peso,
           ),
+          // INFUSÃO - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção (infusão contínua)',
+            descricaoDose: '0,8-1,2 mcg/kg/min (iniciar 20-40 min após bolus)',
+          ),
         ] else ...[
-          MedicamentoVecuronio._linhaIndicacaoDoseCalculada(
-            titulo: 'Intubação neonato <1 mês',
-            descricaoDose: '0,05-0,06 mg/kg IV bolus (maior sensibilidade)',
-            unidade: 'mg',
-            dosePorKgMinima: 0.05,
-            dosePorKgMaxima: 0.06,
-            peso: peso,
-          ),
-          MedicamentoVecuronio._linhaIndicacaoDoseCalculada(
-            titulo: 'Intubação lactente 1-23 meses',
-            descricaoDose: '0,08-0,1 mg/kg IV bolus',
-            unidade: 'mg',
-            dosePorKgMinima: 0.08,
-            dosePorKgMaxima: 0.1,
-            peso: peso,
-          ),
-          MedicamentoVecuronio._linhaIndicacaoDoseCalculada(
-            titulo: 'Intubação criança 2-12 anos',
-            descricaoDose: '0,1 mg/kg IV bolus (maior resistência)',
+          // PEDIÁTRICO - BOLUS
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Intubação neonato/lactente/criança',
+            descricaoDose: '0,1 mg/kg IV bolus',
             unidade: 'mg',
             dosePorKg: 0.1,
             peso: peso,
           ),
-          MedicamentoVecuronio._linhaIndicacaoDoseCalculada(
-            titulo: 'Manutenção pediátrica',
-            descricaoDose: '0,01-0,015 mg/kg IV bolus',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Manutenção (bolus)',
+            descricaoDose: '0,03-0,15 mg/kg IV a cada 1-2h',
             unidade: 'mg',
-            dosePorKgMinima: 0.01,
-            dosePorKgMaxima: 0.015,
+            dosePorKgMinima: 0.03,
+            dosePorKgMaxima: 0.15,
             peso: peso,
+            doseMaxima: peso * 0.2, // máx 0,2 mg/kg
+          ),
+          // INFUSÃO - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção (infusão contínua)',
+            descricaoDose: '1-3 mcg/kg/min (60-200 mcg/kg/h)',
           ),
         ],
+
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVecuronio._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVecuronio._textoObs('• Antagonista competitivo receptores nicotínicos ACh - paralisia flácida'),
-        MedicamentoVecuronio._textoObs('• Ação intermediária (25-40 min) - entre rocurônio e pancurônio'),
-        MedicamentoVecuronio._textoObs('• Perfil cardiovascular estável - sem liberação histamina significativa'),
-        MedicamentoVecuronio._textoObs('• Metabolismo hepático - metabólito 3-desacetilvecurônio (ativo)'),
-        MedicamentoVecuronio._textoObs('• Excreção biliar (40-50%) + renal (30-40%)'),
-        MedicamentoVecuronio._textoObs('• Indicação: intubação eletiva, manutenção bloqueio cirúrgico, ventilação UTI'),
-        MedicamentoVecuronio._textoObs('• Neonatos: maior sensibilidade - dose menor (0,05-0,06 mg/kg)'),
-        MedicamentoVecuronio._textoObs('• Crianças: maior resistência - dose maior (0,1 mg/kg)'),
-        MedicamentoVecuronio._textoObs('• ATENÇÃO: Acúmulo em IR/hepatopatia (metabólito ativo) - bloqueio prolongado'),
-        MedicamentoVecuronio._textoObs('• ATENÇÃO: Potencializado por anestésicos voláteis, aminoglicosídeos, magnésio, lítio'),
-        MedicamentoVecuronio._textoObs('• ATENÇÃO: Bloqueio residual pós-op - monitorar TOF (alvo TOF >0,9)'),
-        MedicamentoVecuronio._textoObs('• Monitorar: TOF contínuo (Train-of-Four), capnografia, SpO2'),
-        MedicamentoVecuronio._textoObs('• Reversão: neostigmina 0,05 mg/kg ou sugammadex 2-4 mg/kg'),
-        MedicamentoVecuronio._textoObs('• Vantagens: estabilidade CV, sem histamina, previsível'),
-        MedicamentoVecuronio._textoObs('• Contraindicado: hipersensibilidade, alergia bloqueadores neuromusculares'),
+        _textoObs('Início: 2-3 min | Duração: 25-40 min'),
+        _textoObs('Monitorar TOF (alvo >0,9 para extubação)'),
+        _textoObs('Reversão: sugammadex 2-4 mg/kg ou neostigmina 0,05 mg/kg'),
+        _textoObs('Neonatos: sensibilidade AUMENTADA (não reduzir dose)'),
+        _textoObs('Acúmulo em hepatopata/IR - metabólito ativo'),
+        _textoObs('Potencializado por voláteis, aminoglicosídeos, Mg²⁺'),
       ],
     );
   }
@@ -219,7 +223,7 @@ class MedicamentoVecuronio {
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
                   color: Colors.blue.shade700,
-                  fontSize: 13,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -230,25 +234,70 @@ class MedicamentoVecuronio {
     );
   }
 
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mcg/mL - ordenadas da maior para menor
+    final opcoesConcentracoes = {
+      '10mg + 5mL SF (2000 mcg/mL)': 2000.0,
+      '10mg + 10mL SF (1000 mcg/mL)': 1000.0,
+    };
+
     return ConversaoInfusaoSlider(
       peso: peso,
-      opcoesConcentracoes: {
-        '10mg em 10mL (1mg/mL)': 1.0,
-        '50mg em 50mL (1mg/mL)': 1.0,
-      },
-      doseMin: isAdulto ? 0.8 : 1.0,
-      doseMax: isAdulto ? 1.2 : 1.5,
+      opcoesConcentracoes: opcoesConcentracoes,
       unidade: 'mcg/kg/min',
+      doseMin: isAdulto ? 0.8 : 1.0,
+      doseMax: isAdulto ? 1.2 : 3.0,
+      concentracaoEmMcg: true,
     );
   }
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Text(
-        texto,
-        style: const TextStyle(fontSize: 13),
+      padding: const EdgeInsets.symmetric(vertical: 3),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
+        ],
       ),
     );
   }

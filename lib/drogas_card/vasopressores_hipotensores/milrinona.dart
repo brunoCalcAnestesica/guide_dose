@@ -22,8 +22,6 @@ class MedicamentoMilrinona {
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
 
-    // Milrinona tem indicações para todas as faixas etárias
-    // Card sempre visível (adultos e pediatria)
     return buildMedicamentoExpansivel(
       context: context,
       nome: nome,
@@ -45,150 +43,99 @@ class MedicamentoMilrinona {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
-
-        // Classe
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMilrinona._textoObs(
-            'Inibidor da fosfodiesterase tipo 3 (PDE3) - Inodilatador'),
-
+        _linhaPreparo('Inodilatador', 'Inibidor da PDE3'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-
-        // Apresentações
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMilrinona._linhaPreparo('Frasco 10mg/10mL (1 mg/mL)', ''),
-
+        _linhaPreparo('Ampola 10mg/10mL', '1 mg/mL | Primacor®'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-
-        // Preparo
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMilrinona._linhaPreparo(
-            '10mg em 50mL SF 0,9%', '200 mcg/mL (padrão)'),
-        MedicamentoMilrinona._linhaPreparo(
-            '10mg em 100mL SF 0,9%', '100 mcg/mL (diluído)'),
-        MedicamentoMilrinona._linhaPreparo(
-            '20mg em 100mL SF 0,9%', '200 mcg/mL (alternativo)'),
-
+        _linhaPreparo('20mg + 80mL SF', '200 mcg/mL'),
+        _linhaPreparo('10mg + 90mL SF', '100 mcg/mL'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-
-        // Indicações Clínicas
         const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-
         if (isAdulto) ...[
-          MedicamentoMilrinona._linhaIndicacaoDoseCalculada(
-            titulo: 'Dose de ataque',
-            descricaoDose: '50 mcg/kg IV em 10 minutos',
-            unidade: 'mcg',
+          // DOSE DE ATAQUE (BOLUS) - caixa azul calculada
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Dose de ataque (opcional)',
+            descricaoDose: '50 mcg/kg IV em 10 min (omitir se hipotenso)',
             dosePorKg: 50,
+            unidade: 'mcg',
             peso: peso,
           ),
-          MedicamentoMilrinona._linhaIndicacaoDoseCalculada(
-            titulo: 'Insuficiência cardíaca aguda descompensada',
-            descricaoDose: 'Dose de ataque seguida de infusão contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 0.375,
-            dosePorKgMaxima: 0.75,
-            peso: peso,
-          ),
-          MedicamentoMilrinona._linhaIndicacaoDoseCalculada(
-            titulo: 'Choque cardiogênico',
-            descricaoDose: 'Dose de ataque seguida de infusão contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 0.375,
-            dosePorKgMaxima: 0.75,
-            peso: peso,
-          ),
-          MedicamentoMilrinona._linhaIndicacaoDoseCalculada(
-            titulo: 'Pós-operatório cirurgia cardíaca (síndrome baixo débito)',
-            descricaoDose: 'Dose de ataque seguida de infusão contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 0.375,
-            dosePorKgMaxima: 0.75,
-            peso: peso,
-          ),
-          MedicamentoMilrinona._linhaIndicacaoDoseCalculada(
-            titulo: 'Hipertensão pulmonar',
-            descricaoDose: 'Dose de ataque seguida de infusão contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 0.375,
-            dosePorKgMaxima: 0.75,
-            peso: peso,
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'IC descompensada / Choque cardiogênico',
+            descricaoDose: '0,375-0,75 mcg/kg/min IV contínua',
           ),
         ] else ...[
-          MedicamentoMilrinona._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Dose de ataque pediátrica',
-            descricaoDose: '50-75 mcg/kg IV em 10-60 minutos',
-            unidade: 'mcg',
+            descricaoDose: '50-75 mcg/kg IV em 10-60 min',
             dosePorKgMinima: 50,
             dosePorKgMaxima: 75,
+            unidade: 'mcg',
             peso: peso,
           ),
-          MedicamentoMilrinona._linhaIndicacaoDoseCalculada(
-            titulo: 'Insuficiência cardíaca pediátrica',
-            descricaoDose: 'Dose de ataque seguida de infusão contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 0.25,
-            dosePorKgMaxima: 0.75,
-            peso: peso,
-          ),
-          MedicamentoMilrinona._linhaIndicacaoDoseCalculada(
-            titulo: 'Pós-operatório cirurgia cardíaca pediátrica',
-            descricaoDose: 'Dose de ataque seguida de infusão contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 0.25,
-            dosePorKgMaxima: 0.75,
-            peso: peso,
-          ),
-          MedicamentoMilrinona._linhaIndicacaoDoseCalculada(
-            titulo: 'Hipertensão pulmonar pediátrica',
-            descricaoDose: 'Dose de ataque seguida de infusão contínua',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 0.25,
-            dosePorKgMaxima: 0.75,
-            peso: peso,
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
+            descricaoDose: '0,25-0,75 mcg/kg/min IV contínua',
           ),
         ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMilrinona._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
+        const SizedBox(height: 16),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const SizedBox(height: 8),
+        _textoObs('Início: 5-15min | Meia-vida: 2-3h'),
+        _textoObs('Inotrópico + vasodilatador (pós-carga/pré-carga)'),
+        _textoObs('HIPOTENSÃO - omitir bolus se PA baixa'),
+        _textoObs('Arritmias: monitorar ECG contínuo'),
+        _textoObs('Reduzir 25-50% se ClCr <50 mL/min'),
+        _textoObs('Pode associar com catecolaminas'),
       ],
     );
   }
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mcg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '10mg em 50mL SF 0,9% (200 mcg/mL)': 200.0, // mcg/mL - padrão
-      '10mg em 100mL SF 0,9% (100 mcg/mL)': 100.0, // mcg/mL - diluído
-      '20mg em 100mL SF 0,9% (200 mcg/mL)': 200.0, // mcg/mL - alternativo
+      '20mg + 80mL SF (200 mcg/mL)': 200.0, // mcg/mL
+      '10mg + 90mL SF (100 mcg/mL)': 100.0, // mcg/mL
     };
 
-    if (isAdulto) {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 0.375,
-        doseMax: 0.75,
-      );
-    } else {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 0.25,
-        doseMax: 0.75,
-      );
-    }
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mcg/kg/min',
+      doseMin: isAdulto ? 0.375 : 0.25,
+      doseMax: 0.75,
+      concentracaoEmMcg: true,
+    );
   }
 
   static Widget _linhaPreparo(String texto, String marca) {
@@ -224,46 +171,31 @@ class MedicamentoMilrinona {
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
+    required String unidade,
+    required double peso,
     double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
-
-    // Se a unidade contém "/kg", não multiplicamos pelo peso (a dose já é por kg)
-    bool isDosePorKg = unidade?.contains('/kg') ?? false;
+    bool doseLimite = false;
 
     if (dosePorKg != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mcg/kg/min, mostramos apenas o valor
-        textoDose = '${dosePorKg.toStringAsFixed(3)} $unidade';
-      } else {
-        // Para doses totais (mcg), calculamos multiplicando pelo peso
-        doseCalculada = dosePorKg * peso;
-        if (doseMaxima != null && doseCalculada > doseMaxima) {
-          doseCalculada = doseMaxima;
-        }
-        textoDose = '${doseCalculada.toStringAsFixed(0)} $unidade';
+      double doseCalculada = dosePorKg * peso;
+      if (doseMaxima != null && doseCalculada > doseMaxima) {
+        doseCalculada = doseMaxima;
+        doseLimite = true;
       }
+      textoDose = '${doseCalculada.toStringAsFixed(0)} $unidade';
     } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mcg/kg/min, mostramos apenas o intervalo
-        textoDose =
-            '${dosePorKgMinima.toStringAsFixed(3)}–${dosePorKgMaxima.toStringAsFixed(3)} $unidade';
-      } else {
-        // Para doses totais, calculamos multiplicando pelo peso
-        double doseMin = dosePorKgMinima * peso;
-        double doseMax = dosePorKgMaxima * peso;
-        if (doseMaxima != null) {
-          doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
-        }
-        textoDose =
-            '${doseMin.toStringAsFixed(0)}–${doseMax.toStringAsFixed(0)} $unidade';
+      double doseMin = dosePorKgMinima * peso;
+      double doseMax = dosePorKgMaxima * peso;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
+        doseLimite = true;
       }
+      textoDose = '${doseMin.toStringAsFixed(0)}-${doseMax.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(
@@ -286,16 +218,18 @@ class MedicamentoMilrinona {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -306,9 +240,45 @@ class MedicamentoMilrinona {
     );
   }
 
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -317,7 +287,7 @@ class MedicamentoMilrinona {
           Expanded(
             child: Text(
               texto,
-              style: const TextStyle(fontSize: 14),
+              style: const TextStyle(fontSize: 13),
             ),
           ),
         ],

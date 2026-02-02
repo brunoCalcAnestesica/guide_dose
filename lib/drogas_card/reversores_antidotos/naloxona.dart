@@ -43,113 +43,104 @@ class MedicamentoNaloxona {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
-
-        // Classe
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNaloxona._textoObs('Antagonista opioide - Reversor'),
-
+        _linhaPreparo('Antagonista opioide', 'Reversor competitivo μ, κ, δ'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-
-        // Apresentações
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNaloxona._linhaPreparo(
-            'Ampola 0,4mg/mL (1mL)', 'Solução injetável'),
-        MedicamentoNaloxona._linhaPreparo(
-            'Ampola 0,04mg/mL (2mL)', 'Neonatal (quando disponível)'),
-
+        _linhaPreparo('Ampola 0,4mg/mL', '1mL | Narcan®'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-
-        // Preparo
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNaloxona._linhaPreparo(
-            '0,4mg (1 ampola) puro', 'Bolus IV direto'),
-        MedicamentoNaloxona._linhaPreparo(
-            '0,4mg em 9mL SF 0,9%', '0,04mg/mL (diluição 1:10)'),
-        MedicamentoNaloxona._linhaPreparo(
-            '2mg em 100mL SF 0,9%', '20 mcg/mL para infusão'),
-
+        _linhaPreparo('Puro (sem diluir)', '0,4 mg/mL (400 mcg/mL)'),
+        _linhaPreparo('0,4mg + 9mL SF', '40 mcg/mL (titulação)'),
+        _linhaPreparo('2mg + 100mL SF', '20 mcg/mL (infusão)'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-
-        // Indicações Clínicas
         const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoNaloxona._linhaIndicacaoDoseFixa(
-            titulo: 'Intoxicação/depressão respiratória por opioides',
-            descricaoDose: '0,4-2mg IV (repetir a cada 2-3min até resposta)',
-            doseFixa: '0,4-2 mg',
+          // BOLUS FIXOS - caixa verde
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Intoxicação opioide (depressão respiratória)',
+            descricaoDose: '0,4-2 mg IV, repetir cada 2-3 min (máx 10 mg)',
           ),
-          MedicamentoNaloxona._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoDoseFixa(
             titulo: 'Titulação cuidadosa (evitar abstinência)',
-            descricaoDose: '0,04-0,08mg IV a cada 2min',
-            unidade: 'mg',
-            dosePorKgMinima: 0.0005,
-            dosePorKgMaxima: 0.001,
-            peso: peso,
+            descricaoDose: '0,04-0,1 mg IV cada 2 min até resposta',
           ),
-          MedicamentoNaloxona._linhaIndicacaoDoseFixa(
-            titulo: 'Parada cardiorrespiratória por opioides',
-            descricaoDose: '2mg IV bolus',
-            doseFixa: '2 mg',
+          _linhaIndicacaoDoseFixa(
+            titulo: 'PCR por opioide',
+            descricaoDose: '2 mg IV bolus',
+          ),
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção (renarcotização)',
+            descricaoDose: '0,25-6,25 mcg/kg/h IV contínua',
           ),
         ] else ...[
-          MedicamentoNaloxona._linhaIndicacaoDoseCalculada(
+          // BOLUS PEDIÁTRICO - caixa azul calculada
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Depressão respiratória pediátrica',
-            descricaoDose: '0,01mg/kg IV (máx 0,4mg), repetir se necessário',
+            descricaoDose: '0,01 mg/kg IV (máx 2 mg), repetir cada 2-3 min',
+            dosePorKg: 0.01,
+            doseMaxima: 2.0,
             unidade: 'mg',
+            peso: peso,
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Neonatos (<28 dias)',
+            descricaoDose: '0,01 mg/kg IV/IM/SC (máx 0,4 mg)',
             dosePorKg: 0.01,
             doseMaxima: 0.4,
-            peso: peso,
-          ),
-          MedicamentoNaloxona._linhaIndicacaoDoseCalculada(
-            titulo: 'Neonatos (<28 dias)',
-            descricaoDose: '0,01mg/kg IV/IM/SC (máx 0,2mg)',
             unidade: 'mg',
-            dosePorKg: 0.01,
-            doseMaxima: 0.2,
             peso: peso,
           ),
-          MedicamentoNaloxona._linhaIndicacaoDoseFixa(
-            titulo: 'Parada cardiorrespiratória pediátrica',
-            descricaoDose: '0,1mg/kg IV (máx 2mg)',
-            doseFixa: '0,1 mg/kg',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'PCR pediátrica por opioide',
+            descricaoDose: '0,1 mg/kg IV (máx 2 mg)',
+            dosePorKg: 0.1,
+            doseMaxima: 2.0,
+            unidade: 'mg',
+            peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
+            descricaoDose: '0,25-4 mcg/kg/h IV contínua',
           ),
         ],
-
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
-
-        // Infusão Contínua
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNaloxona._buildConversorInfusao(peso, isAdulto),
-
+        _textoObs('Iniciar com 2/3 da dose de reversão por hora'),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
-
-        // Observações
         const Text('Observações',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoNaloxona._textoObs(
-            'Início de ação: 1-2 minutos IV, 2-5 minutos IM'),
-        MedicamentoNaloxona._textoObs(
-            'Duração: 30-60 minutos (menor que maioria dos opioides)'),
-        MedicamentoNaloxona._textoObs(
-            'Monitorar depressão respiratória recorrente'),
-        MedicamentoNaloxona._textoObs(
-            'Pode precipitar síndrome de abstinência em dependentes'),
-        MedicamentoNaloxona._textoObs(
-            'Titular dose para evitar agitação e dor súbita'),
-        MedicamentoNaloxona._textoObs(
-            'Repetir doses ou infusão contínua se necessário'),
+        _textoObs('Início IV: 1-2 min | Duração: 30-90 min'),
+        _textoObs('DURAÇÃO CURTA - monitorar renarcotização'),
+        _textoObs('Pode precipitar ABSTINÊNCIA SEVERA em dependentes'),
+        _textoObs('Titular para reverter depressão, não analgesia'),
+        _textoObs('Repetir doses se opioide de longa ação'),
+        _textoObs('IM/SC se acesso IV indisponível'),
       ],
     );
   }
@@ -187,7 +178,6 @@ class MedicamentoNaloxona {
   static Widget _linhaIndicacaoDoseFixa({
     required String titulo,
     required String descricaoDose,
-    required String doseFixa,
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 8),
@@ -199,24 +189,18 @@ class MedicamentoNaloxona {
             style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
           ),
           const SizedBox(height: 4),
-          Text(
-            descricaoDose,
-            style: const TextStyle(fontSize: 13),
-          ),
-          const SizedBox(height: 4),
           Container(
             width: double.infinity,
             padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
             decoration: BoxDecoration(
-              color: Colors.blue.shade50,
+              color: Colors.green.shade50,
               borderRadius: BorderRadius.circular(6),
-              border: Border.all(color: Colors.blue.shade200),
+              border: Border.all(color: Colors.green.shade200),
             ),
             child: Text(
-              'Dose: $doseFixa',
+              descricaoDose,
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                color: Colors.blue.shade700,
+                color: Colors.green.shade700,
                 fontSize: 13,
               ),
               textAlign: TextAlign.center,
@@ -228,78 +212,50 @@ class MedicamentoNaloxona {
   }
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mcg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '2mg em 100mL SF 0,9% (20 mcg/mL)': 20.0, // mcg/mL
-      '4mg em 100mL SF 0,9% (40 mcg/mL)': 40.0, // mcg/mL
-      '2mg em 50mL SF 0,9% (40 mcg/mL)': 40.0, // mcg/mL
+      '2mg + 50mL SF (40 mcg/mL)': 40.0, // mcg/mL
+      '2mg + 100mL SF (20 mcg/mL)': 20.0, // mcg/mL
     };
 
-    if (isAdulto) {
-      return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          MedicamentoNaloxona._textoObs(
-              'Dose: 2/3 da dose de reversão por hora'),
-          MedicamentoNaloxona._textoObs(
-              'Faixa típica: 0,25-6,25 mcg/kg/h IV contínua'),
-          const SizedBox(height: 8),
-          ConversaoInfusaoSlider(
-            peso: peso,
-            opcoesConcentracoes: opcoesConcentracoes,
-            unidade: 'mcg/kg/h',
-            doseMin: 0.25,
-            doseMax: 6.25,
-          ),
-        ],
-      );
-    } else {
-      return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          MedicamentoNaloxona._textoObs(
-              'Dose: 2/3 da dose de reversão por hora'),
-          MedicamentoNaloxona._textoObs(
-              'Faixa típica: 0,25-4 mcg/kg/h IV contínua'),
-          const SizedBox(height: 8),
-          ConversaoInfusaoSlider(
-            peso: peso,
-            opcoesConcentracoes: opcoesConcentracoes,
-            unidade: 'mcg/kg/h',
-            doseMin: 0.25,
-            doseMax: 4.0,
-          ),
-        ],
-      );
-    }
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mcg/kg/h',
+      doseMin: 0.25,
+      doseMax: isAdulto ? 6.25 : 4.0,
+      concentracaoEmMcg: true,
+    );
   }
 
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
+    required String unidade,
+    required double peso,
     double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
+    bool doseLimite = false;
 
     if (dosePorKg != null) {
-      doseCalculada = dosePorKg * peso;
+      double doseCalculada = dosePorKg * peso;
       if (doseMaxima != null && doseCalculada > doseMaxima) {
         doseCalculada = doseMaxima;
+        doseLimite = true;
       }
       textoDose = '${doseCalculada.toStringAsFixed(2)} $unidade';
     } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMaxima != null) {
-        doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
+        doseLimite = true;
       }
-      textoDose =
-          '${doseMin.toStringAsFixed(2)}–${doseMax.toStringAsFixed(2)} $unidade';
+      textoDose = '${doseMin.toStringAsFixed(2)}-${doseMax.toStringAsFixed(2)} $unidade';
     }
 
     return Padding(
@@ -322,16 +278,18 @@ class MedicamentoNaloxona {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -342,14 +300,56 @@ class MedicamentoNaloxona {
     );
   }
 
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(
+              texto,
+              style: const TextStyle(fontSize: 13),
+            ),
+          ),
         ],
       ),
     );

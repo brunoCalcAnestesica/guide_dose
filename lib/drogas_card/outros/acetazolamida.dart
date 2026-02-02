@@ -11,12 +11,8 @@ class MedicamentoAcetazolamida {
     final faixaEtaria = SharedData.faixaEtaria;
     final isFavorito = favoritos.contains(nome);
 
-    print('DEBUG Acetazolamida - Faixa etária: $faixaEtaria');
-    print('DEBUG Acetazolamida - Tem indicações: ${_temIndicacoesParaFaixaEtaria(faixaEtaria)}');
-
     // Verificar se há indicações para a faixa etária atual
     if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
-      print('DEBUG Acetazolamida - Card não será exibido para faixa etária: $faixaEtaria');
       return const SizedBox.shrink(); // Não exibe o card se não há indicações
     }
 

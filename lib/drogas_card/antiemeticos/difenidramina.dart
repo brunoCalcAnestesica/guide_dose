@@ -1,22 +1,16 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' show rootBundle;
-import 'dart:convert';
 import '../drogas.dart';
 import '../../shared_data.dart';
 
-class MedicamentoRemidazolam {
-  static const String nome = 'Remidazolam';
-  static const String idBulario = 'remidazolam';
+class MedicamentoDifenidramina {
+  static const String nome = 'Difenidramina';
+  static const String idBulario = 'difenidramina';
 
-  static Future<Map<String, dynamic>> carregarBulario() async {
-    final String jsonStr = await rootBundle.loadString('assets/medicamentos/remidazolam.json');
-    final Map<String, dynamic> jsonMap = json.decode(jsonStr);
-    return jsonMap['PT']['bulario'];
-  }
-
-  static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+  static Widget buildCard(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
     final peso = SharedData.peso ?? 70;
-    final isAdulto = SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso' || SharedData.faixaEtaria == 'Adolescente';
+    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
 
     return buildMedicamentoExpansivel(
@@ -25,7 +19,7 @@ class MedicamentoRemidazolam {
       idBulario: idBulario,
       isFavorito: isFavorito,
       onToggleFavorito: () => onToggleFavorito(nome),
-      conteudo: _buildCardRemidazolam(
+      conteudo: _buildCardDifenidramina(
         context,
         peso,
         isAdulto,
@@ -35,7 +29,7 @@ class MedicamentoRemidazolam {
     );
   }
 
-  static Widget _buildCardRemidazolam(BuildContext context, double peso,
+  static Widget _buildCardDifenidramina(BuildContext context, double peso,
       bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -45,25 +39,24 @@ class MedicamentoRemidazolam {
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _linhaPreparo('Benzodiazepínico', 'Ação ultra-curta (esterase-metabolizado)'),
+        _linhaPreparo('Anti-histamínico H1', '1ª geração, sedativo'),
         
         // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
         const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _linhaPreparo('Frasco 20 mg', 'Pó liofilizado | Byfavo®'),
-        _linhaPreparo('Solução 20 mg/2,5 mL', '8 mg/mL'),
+        _linhaPreparo('Ampola 50mg/mL', '1mL | Benadryl®'),
+        _linhaPreparo('Cápsula/Comprimido', '25mg ou 50mg'),
         
-        // 3. PREPARO (maior para menor concentração)
+        // 3. PREPARO
         const SizedBox(height: 16),
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _linhaPreparo('Puro (reconstituído)', '8 mg/mL - bolus'),
-        _linhaPreparo('100mg + 50mL SF', '2 mg/mL'),
-        _linhaPreparo('100mg + 100mL SF', '1 mg/mL - infusão'),
-        _textoObs('Bolus: NÃO diluir, administrar em 1 min'),
+        _linhaPreparo('Puro (sem diluir)', '50 mg/mL'),
+        _linhaPreparo('50mg + 9mL SF', '5 mg/mL (diluída)'),
+        _textoObs('Administrar IV LENTO (≥2 min) - risco de hipotensão'),
         
         // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
@@ -71,87 +64,67 @@ class MedicamentoRemidazolam {
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          // BOLUS - caixa verde (doses fixas)
+          // BOLUS FIXOS - caixa verde
           _linhaIndicacaoDoseFixa(
-            titulo: 'Sedação procedimentos (ASA I-II)',
-            descricaoDose: '5 mg IV em 1 min, aguardar 2 min, incrementos 2,5 mg PRN',
+            titulo: 'Reações alérgicas / Urticária',
+            descricaoDose: '25-50 mg IV/IM a cada 4-6h (máx 400 mg/dia)',
           ),
           _linhaIndicacaoDoseFixa(
-            titulo: 'Sedação procedimentos (Idosos/ASA III)',
-            descricaoDose: '2,5-3 mg IV em 1 min, incrementos 1,25-2,5 mg',
+            titulo: 'Anafilaxia (adjuvante)',
+            descricaoDose: '50 mg IV lento (após adrenalina)',
           ),
-          // BOLUS - caixa azul (calculadas)
-          _linhaIndicacaoDoseCalculada(
-            titulo: 'Indução anestésica',
-            descricaoDose: '0,2-0,3 mg/kg IV em 1 min',
-            dosePorKgMinima: 0.2,
-            dosePorKgMaxima: 0.3,
-            unidade: 'mg',
-            peso: peso,
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Reação distônica / Extrapiramidalismo',
+            descricaoDose: '25-50 mg IV lento',
           ),
-          // INFUSÃO - caixa laranja
-          _linhaIndicacaoInfusao(
-            titulo: 'Manutenção sedação',
-            descricaoDose: '0,5-1 mg/kg/h IV contínua',
-          ),
-          _linhaIndicacaoInfusao(
-            titulo: 'Manutenção anestésica',
-            descricaoDose: '1-2 mg/kg/h IV contínua (com opioide)',
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Sedação pré-operatória',
+            descricaoDose: '25-50 mg IV/IM 30 min antes',
           ),
         ] else ...[
-          // PEDIÁTRICO (investigacional)
+          // BOLUS PEDIÁTRICO - caixa azul calculada
           _linhaIndicacaoDoseCalculada(
-            titulo: 'Sedação pediátrica (investigacional)',
-            descricaoDose: '0,1-0,2 mg/kg IV bolus',
-            dosePorKgMinima: 0.1,
-            dosePorKgMaxima: 0.2,
+            titulo: 'Reações alérgicas (≥2 anos)',
+            descricaoDose: '1-1,25 mg/kg IV/IM a cada 6h (máx 50 mg/dose)',
+            dosePorKgMinima: 1.0,
+            dosePorKgMaxima: 1.25,
+            doseMaxima: 50,
             unidade: 'mg',
             peso: peso,
           ),
-          _linhaIndicacaoInfusao(
-            titulo: 'Manutenção pediátrica (off-label)',
-            descricaoDose: '0,3-1 mg/kg/h IV contínua',
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Anafilaxia pediátrica (adjuvante)',
+            descricaoDose: '1-2 mg/kg IV lento (máx 50 mg)',
+            dosePorKgMinima: 1.0,
+            dosePorKgMaxima: 2.0,
+            doseMaxima: 50,
+            unidade: 'mg',
+            peso: peso,
           ),
-          _textoObs('⚠️ Uso pediátrico investigacional - preferir midazolam'),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Extrapiramidalismo pediátrico',
+            descricaoDose: '1 mg/kg IV lento (máx 50 mg)',
+            dosePorKg: 1.0,
+            doseMaxima: 50,
+            unidade: 'mg',
+            peso: peso,
+          ),
         ],
         
-        // 5. INFUSÃO CONTÍNUA
-        const SizedBox(height: 16),
-        const Text('Infusão Contínua',
-            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-        const SizedBox(height: 8),
-        _buildConversorInfusao(peso, isAdulto),
+        // SEM INFUSÃO CONTÍNUA (não é indicado)
         
         // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _textoObs('Recuperação: 5-10 min (vs 2-4h midazolam)'),
-        _textoObs('Metabolismo por esterases - NÃO CYP450'),
-        _textoObs('NÃO requer ajuste renal/hepático'),
-        _textoObs('Onset: 1-3 min | Duração: 5-15 min'),
-        _textoObs('Reversão: flumazenil 0,2-1 mg IV disponível'),
-        _textoObs('Monitorar SpO2/PA/FC - ter O2 disponível'),
+        _textoObs('Início IV: 15-30 min | Duração: 4-6h'),
+        _textoObs('SEDAÇÃO INTENSA - efeito anticolinérgico central'),
+        _textoObs('CI: <2 anos, glaucoma ângulo fechado'),
+        _textoObs('Idoso: maior risco de confusão/retenção urinária'),
+        _textoObs('Potencializa depressores do SNC e álcool'),
+        _textoObs('NÃO é 1ª linha em anafilaxia (usar adrenalina)'),
       ],
-    );
-  }
-
-  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    // Concentrações em mg/mL - ordenadas da maior para menor
-    final opcoesConcentracoes = {
-      'Puro 8 mg/mL (bolus)': 8.0, // mg/mL
-      '100mg + 50mL SF (2 mg/mL)': 2.0, // mg/mL
-      '100mg + 100mL SF (1 mg/mL)': 1.0, // mg/mL
-    };
-
-    return ConversaoInfusaoSlider(
-      peso: peso,
-      opcoesConcentracoes: opcoesConcentracoes,
-      unidade: 'mg/kg/h',
-      doseMin: isAdulto ? 0.5 : 0.3,
-      doseMax: isAdulto ? 2.0 : 1.0,
-      concentracaoEmMcg: false,
     );
   }
 
@@ -169,8 +142,12 @@ class MedicamentoRemidazolam {
                 children: [
                   TextSpan(text: texto),
                   if (marca.isNotEmpty) ...[
-                    const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                    const TextSpan(
+                        text: ' | ',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(
+                        text: marca,
+                        style: const TextStyle(fontStyle: FontStyle.italic)),
                   ],
                 ],
               ),
@@ -222,17 +199,27 @@ class MedicamentoRemidazolam {
     required String descricaoDose,
     required String unidade,
     required double peso,
+    double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
   }) {
     String? textoDose;
+    bool doseLimite = false;
 
-    if (dosePorKgMinima != null && dosePorKgMaxima != null) {
+    if (dosePorKg != null) {
+      double doseCalculada = dosePorKg * peso;
+      if (doseMaxima != null && doseCalculada > doseMaxima) {
+        doseCalculada = doseMaxima;
+        doseLimite = true;
+      }
+      textoDose = '${doseCalculada.toStringAsFixed(0)} $unidade';
+    } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
       if (doseMaxima != null && doseMax > doseMaxima) {
         doseMax = doseMaxima;
+        doseLimite = true;
       }
       textoDose = '${doseMin.toStringAsFixed(0)}-${doseMax.toStringAsFixed(0)} $unidade';
     }
@@ -257,57 +244,23 @@ class MedicamentoRemidazolam {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose: $textoDose',
+                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
                   fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
             ),
           ],
-        ],
-      ),
-    );
-  }
-
-  static Widget _linhaIndicacaoInfusao({
-    required String titulo,
-    required String descricaoDose,
-  }) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 8),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            titulo,
-            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
-          ),
-          const SizedBox(height: 4),
-          Container(
-            width: double.infinity,
-            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-            decoration: BoxDecoration(
-              color: Colors.orange.shade50,
-              borderRadius: BorderRadius.circular(6),
-              border: Border.all(color: Colors.orange.shade200),
-            ),
-            child: Text(
-              descricaoDose,
-              style: TextStyle(
-                color: Colors.orange.shade700,
-                fontSize: 13,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
         ],
       ),
     );

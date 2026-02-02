@@ -39,62 +39,78 @@ class MedicamentoVasopressina {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVasopressina._textoObs('• Hormônio antidiurético sintético - Vasopressor não catecolaminérgico - Agonista V1a/V2/V3'),
+        _linhaPreparo('Vasopressor não-catecolaminérgico', 'Agonista V1/V2 (ADH sintético)'),
+
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVasopressina._linhaPreparo('Frasco 20U/mL (1mL)', 'Pitressin® / Vasopressin®'),
-        MedicamentoVasopressina._linhaPreparo('Início: 15-20 min', 'Meia-vida: 10-35 min'),
-        MedicamentoVasopressina._linhaPreparo('Metabolismo: hepático + renal', 'Peptidases'),
+        _linhaPreparo('Ampola 20 U/mL', '1 mL'),
+
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVasopressina._linhaPreparo('Diluir 20U (1 frasco) em 100mL SF', 'Concentração 0,2 U/mL'),
-        MedicamentoVasopressina._linhaPreparo('Ou 40U em 100mL SF', 'Concentração 0,4 U/mL'),
-        MedicamentoVasopressina._linhaPreparo('Compatível: SF 0,9%, SG 5%', 'Incompatível: bicarbonato'),
-        MedicamentoVasopressina._linhaPreparo('Acesso central preferível', 'Usar bomba de infusão'),
-        MedicamentoVasopressina._linhaPreparo('Armazenar: 2-8°C', 'Proteger da luz'),
+        _linhaPreparo('40U (2 amp) + 100mL SF', '0,4 U/mL'),
+        _linhaPreparo('20U (1 amp) + 100mL SF', '0,2 U/mL'),
+        _textoObs('Acesso CENTRAL obrigatório'),
+
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
-          MedicamentoVasopressina._linhaIndicacaoDoseFixa(
-            titulo: 'Parada cardiorrespiratória (PCR)',
-            descricaoDose: '40 U IV bolus (dose única - alternativa adrenalina)',
+          // BOLUS - caixa azul (dose fixa)
+          _linhaIndicacaoDoseFixa(
+            titulo: 'PCR (ACLS)',
+            descricaoDose: '40 U IV/IO bolus (substitui 1ª ou 2ª adrenalina)',
             doseFixa: '40 U',
           ),
-          MedicamentoVasopressina._linhaIndicacaoDoseFixa(
-            titulo: 'Hemorragia digestiva (varizes esofágicas)',
-            descricaoDose: '20 U IV bolus seguido de 0,2-0,4 U/min infusão contínua',
-            doseFixa: '20 U bolus',
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Choque séptico (adjuvante noradrenalina)',
+            descricaoDose: '0,01-0,04 U/min (dose FIXA, não titular)',
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Choque vasodilatado/pós-PCR',
+            descricaoDose: '0,01-0,04 U/min IV contínua',
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Hemorragia varicosa',
+            descricaoDose: '0,2-0,4 U/min IV (associar nitroglicerina)',
           ),
         ] else ...[
-          MedicamentoVasopressina._textoObs('• Uso pediátrico apenas em infusão contínua (ver seção específica)'),
+          // PEDIÁTRICO
+          _linhaIndicacaoInfusao(
+            titulo: 'Choque séptico pediátrico',
+            descricaoDose: '0,0002-0,002 U/kg/min (máx 0,04 U/min)',
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Choque refratário a catecolaminas',
+            descricaoDose: '0,0003-0,002 U/kg/min IV contínua',
+          ),
         ],
+
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVasopressina._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+
+        // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoVasopressina._textoObs('• Agonista V1a (vasoconstrição), V2 (retenção água), V3 (liberação ACTH)'),
-        MedicamentoVasopressina._textoObs('• Vasoconstrição potente esplâncnica, hepática, cutânea - poupa circulação coronariana'),
-        MedicamentoVasopressina._textoObs('• Sensibiliza receptores α - potencializa catecolaminas (efeito sinérgico noradrenalina)'),
-        MedicamentoVasopressina._textoObs('• Indicação principal: choque séptico refratário (adjuvante noradrenalina)'),
-        MedicamentoVasopressina._textoObs('• NUNCA primeira linha - usar se noradrenalina >0,5 mcg/kg/min'),
-        MedicamentoVasopressina._textoObs('• ATENÇÃO: Isquemia digital, mesentérica, cutânea (vasoconstrição intensa)'),
-        MedicamentoVasopressina._textoObs('• ATENÇÃO: Hiponatremia (efeito V2 - retenção água) - monitorar Na+'),
-        MedicamentoVasopressina._textoObs('• ATENÇÃO: Bradicardia (barorreflexo) - monitorar FC'),
-        MedicamentoVasopressina._textoObs('• ATENÇÃO: Necrose extravasamento - acesso central obrigatório'),
-        MedicamentoVasopressina._textoObs('• Monitorar: PA invasiva, ECG, perfusão periférica, débito urinário, Na+'),
-        MedicamentoVasopressina._textoObs('• Vantagens: não ↑ consumo O2 miocárdico, eficaz em betabloqueio, sem taquifilaxia'),
-        MedicamentoVasopressina._textoObs('• Contraindicado: doença coronariana ativa, arteriopatia periférica grave, isquemia mesentérica'),
-        MedicamentoVasopressina._textoObs('• Reduz fluxo esplâncnico - útil hemorragia varicosa mas risco isquemia intestinal'),
-        MedicamentoVasopressina._textoObs('• Uso PCR: dose única 40U substitui 1ª ou 2ª dose adrenalina (sem vantagem comprovada)'),
+        _textoObs('Início: 15-20 min | Meia-vida: 10-35 min'),
+        _textoObs('ADJUVANTE noradrenalina - nunca 1ª linha'),
+        _textoObs('Dose FIXA 0,03 U/min - não titular como catecolaminas'),
+        _textoObs('Isquemia digital/mesentérica - monitorar perfusão'),
+        _textoObs('Hiponatremia (efeito V2) - monitorar Na+'),
+        _textoObs('Extravasamento → necrose - acesso central'),
       ],
     );
   }
@@ -123,6 +139,34 @@ class MedicamentoVasopressina {
         ],
       ),
     );
+  }
+
+  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em U/mL - ordenadas da maior para menor
+    final opcoesConcentracoes = {
+      '40U + 100mL SF (0,4 U/mL)': 0.4,
+      '20U + 100mL SF (0,2 U/mL)': 0.2,
+    };
+
+    if (isAdulto) {
+      // Adulto: dose fixa em U/min (não por kg)
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'U/min',
+        doseMin: 0.01,
+        doseMax: 0.04,
+      );
+    } else {
+      // Pediátrico: U/kg/min
+      return ConversaoInfusaoSlider(
+        peso: peso,
+        opcoesConcentracoes: opcoesConcentracoes,
+        unidade: 'U/kg/min',
+        doseMin: 0.0002,
+        doseMax: 0.002,
+      );
+    }
   }
 
   static Widget _linhaIndicacaoDoseFixa({
@@ -158,6 +202,42 @@ class MedicamentoVasopressina {
               style: TextStyle(
                 fontWeight: FontWeight.bold,
                 color: Colors.blue.shade700,
+                fontSize: 14,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
                 fontSize: 13,
               ),
               textAlign: TextAlign.center,
@@ -168,25 +248,17 @@ class MedicamentoVasopressina {
     );
   }
 
-  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    return ConversaoInfusaoSlider(
-      peso: peso,
-      opcoesConcentracoes: {
-        '20U em 100mL (0,2 U/mL)': 0.2,
-        '40U em 100mL (0,4 U/mL)': 0.4,
-      },
-      doseMin: isAdulto ? 0.01 : 0.0003,
-      doseMax: isAdulto ? 0.04 : 0.002,
-      unidade: isAdulto ? 'U/min' : 'U/kg/min',
-    );
-  }
-
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
-      child: Text(
-        texto,
-        style: const TextStyle(fontSize: 13),
+      padding: const EdgeInsets.symmetric(vertical: 3),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
+        ],
       ),
     );
   }

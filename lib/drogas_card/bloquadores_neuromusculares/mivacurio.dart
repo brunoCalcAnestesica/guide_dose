@@ -22,7 +22,6 @@ class MedicamentoMivacurio {
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
 
-    // Mivacúrio tem indicações para todas as faixas etárias
     return buildMedicamentoExpansivel(
       context: context,
       nome: nome,
@@ -44,122 +43,115 @@ class MedicamentoMivacurio {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
-
-        // Classe
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMivacurio._textoObs(
-            'Bloqueador neuromuscular não despolarizante - Ação curta'),
-
+        _linhaPreparo('BNM não despolarizante', 'Ação curta (15-20 min)'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-
-        // Apresentações
-        const Text('Apresentações',
+        const Text('Apresentação',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMivacurio._linhaPreparo('Ampola 2mg/mL (5mL = 10mg)', ''),
-
+        _linhaPreparo('Ampola 2mg/mL', '5mL (10mg) ou 10mL (20mg) | Mivacron®'),
+        
+        // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-
-        // Preparo
         const Text('Preparo',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMivacurio._linhaPreparo(
-            'Bolus', 'Pronto para uso (2 mg/mL)'),
-        MedicamentoMivacurio._linhaPreparo('Infusão contínua',
-            '20mg em 50mL SF 0,9% = 0,4 mg/mL (400 mcg/mL)'),
-
+        _linhaPreparo('Puro (sem diluir)', '2 mg/mL (2000 mcg/mL)'),
+        _linhaPreparo('20mg + 30mL SF', '400 mcg/mL'),
+        _linhaPreparo('20mg + 80mL SF', '200 mcg/mL'),
+        _textoObs('Bolus: administrar LENTO (20-30 seg) - libera histamina'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-
-        // Indicações Clínicas
         const Text('Indicações Clínicas',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-
         if (isAdulto) ...[
-          MedicamentoMivacurio._linhaIndicacaoDoseCalculada(
+          // BOLUS - caixa azul calculada
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Intubação orotraqueal',
-            descricaoDose: '0,15-0,25 mg/kg IV bolus lento (20-30 seg)',
-            unidade: 'mg',
+            descricaoDose: '0,15-0,25 mg/kg IV lento (20-30 seg)',
             dosePorKgMinima: 0.15,
             dosePorKgMaxima: 0.25,
-            peso: peso,
-          ),
-          MedicamentoMivacurio._linhaIndicacaoDoseCalculada(
-            titulo: 'Manutenção do bloqueio (bolus)',
-            descricaoDose: '0,1 mg/kg IV conforme necessário',
             unidade: 'mg',
-            dosePorKg: 0.1,
             peso: peso,
           ),
-          MedicamentoMivacurio._linhaIndicacaoDoseCalculada(
-            titulo: 'Manutenção do bloqueio (infusão)',
-            descricaoDose: '3-10 mcg/kg/min IV contínuo',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 3,
-            dosePorKgMaxima: 10,
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Manutenção (bolus)',
+            descricaoDose: '0,1 mg/kg IV conforme necessário',
+            dosePorKg: 0.1,
+            unidade: 'mg',
             peso: peso,
+          ),
+          // INFUSÃO CONTÍNUA - caixa laranja
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção (infusão)',
+            descricaoDose: '3-15 mcg/kg/min IV contínua',
           ),
         ] else ...[
-          MedicamentoMivacurio._linhaIndicacaoDoseCalculada(
+          _linhaIndicacaoDoseCalculada(
             titulo: 'Intubação neonatal (<2 meses)',
-            descricaoDose: '0,15 mg/kg IV bolus lento',
-            unidade: 'mg',
+            descricaoDose: '0,15 mg/kg IV lento',
             dosePorKg: 0.15,
-            peso: peso,
-          ),
-          MedicamentoMivacurio._linhaIndicacaoDoseCalculada(
-            titulo: 'Intubação pediátrica (2 meses a 12 anos)',
-            descricaoDose: '0,2 mg/kg IV bolus lento',
             unidade: 'mg',
-            dosePorKg: 0.2,
             peso: peso,
           ),
-          MedicamentoMivacurio._linhaIndicacaoDoseCalculada(
-            titulo: 'Manutenção pediátrica (infusão)',
-            descricaoDose: '5-8 mcg/kg/min IV contínuo',
-            unidade: 'mcg/kg/min',
-            dosePorKgMinima: 5,
-            dosePorKgMaxima: 8,
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Intubação pediátrica (2m-12a)',
+            descricaoDose: '0,2 mg/kg IV lento',
+            dosePorKg: 0.2,
+            unidade: 'mg',
             peso: peso,
+          ),
+          _linhaIndicacaoInfusao(
+            titulo: 'Manutenção pediátrica',
+            descricaoDose: '5-15 mcg/kg/min IV contínua',
           ),
         ],
+        
+        // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoMivacurio._buildConversorInfusao(peso, isAdulto),
+        _buildConversorInfusao(peso, isAdulto),
+        
+        // 6. OBSERVAÇÕES (6 mais importantes)
+        const SizedBox(height: 16),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const SizedBox(height: 8),
+        _textoObs('Início: 2-3 min | Duração: 15-20 min'),
+        _textoObs('LIBERAÇÃO DE HISTAMINA - administrar LENTO'),
+        _textoObs('Metabolizado por pseudocolinesterases plasmáticas'),
+        _textoObs('CI: deficiência de pseudocolinesterase'),
+        _textoObs('NÃO reverte com sugamadex (usar neostigmina)'),
+        _textoObs('Monitorar TOF - guiar manutenção'),
       ],
     );
   }
 
   static Widget _buildConversorInfusao(double peso, bool isAdulto) {
+    // Concentrações em mcg/mL - ordenadas da maior para menor
     final opcoesConcentracoes = {
-      '20mg em 50mL SF 0,9% (400 mcg/mL)': 400.0, // mcg/mL - padrão
-      '20mg em 100mL SF 0,9% (200 mcg/mL)': 200.0, // mcg/mL - diluído
-      '10mg em 50mL SF 0,9% (200 mcg/mL)': 200.0, // mcg/mL - alternativo
+      '20mg + 30mL SF (400 mcg/mL)': 400.0, // mcg/mL
+      '20mg + 80mL SF (200 mcg/mL)': 200.0, // mcg/mL
     };
 
-    if (isAdulto) {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 3.0,
-        doseMax: 10.0,
-      );
-    } else {
-      return ConversaoInfusaoSlider(
-        peso: peso,
-        opcoesConcentracoes: opcoesConcentracoes,
-        unidade: 'mcg/kg/min',
-        doseMin: 5.0,
-        doseMax: 8.0,
-      );
-    }
+    return ConversaoInfusaoSlider(
+      peso: peso,
+      opcoesConcentracoes: opcoesConcentracoes,
+      unidade: 'mcg/kg/min',
+      doseMin: isAdulto ? 3.0 : 5.0,
+      doseMax: 15.0,
+      concentracaoEmMcg: true,
+    );
   }
 
   static Widget _linhaPreparo(String texto, String marca) {
@@ -195,46 +187,31 @@ class MedicamentoMivacurio {
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
+    required String unidade,
+    required double peso,
     double? dosePorKg,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
     double? doseMaxima,
-    required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
-
-    // Se a unidade contém "/kg", não multiplicamos pelo peso (a dose já é por kg)
-    bool isDosePorKg = unidade?.contains('/kg') ?? false;
+    bool doseLimite = false;
 
     if (dosePorKg != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mcg/kg/min, mostramos apenas o valor
-        textoDose = '${dosePorKg.toStringAsFixed(1)} $unidade';
-      } else {
-        // Para doses totais (mg), calculamos multiplicando pelo peso
-        doseCalculada = dosePorKg * peso;
-        if (doseMaxima != null && doseCalculada > doseMaxima) {
-          doseCalculada = doseMaxima;
-        }
-        textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
+      double doseCalculada = dosePorKg * peso;
+      if (doseMaxima != null && doseCalculada > doseMaxima) {
+        doseCalculada = doseMaxima;
+        doseLimite = true;
       }
+      textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
     } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
-      if (isDosePorKg) {
-        // Para doses do tipo mcg/kg/min, mostramos apenas o intervalo
-        textoDose =
-            '${dosePorKgMinima.toStringAsFixed(1)}–${dosePorKgMaxima.toStringAsFixed(1)} $unidade';
-      } else {
-        // Para doses totais, calculamos multiplicando pelo peso
-        double doseMin = dosePorKgMinima * peso;
-        double doseMax = dosePorKgMaxima * peso;
-        if (doseMaxima != null) {
-          doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
-        }
-        textoDose =
-            '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      double doseMin = dosePorKgMinima * peso;
+      double doseMax = dosePorKgMaxima * peso;
+      if (doseMaxima != null && doseMax > doseMaxima) {
+        doseMax = doseMaxima;
+        doseLimite = true;
       }
+      textoDose = '${doseMin.toStringAsFixed(1)}-${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(
@@ -257,16 +234,18 @@ class MedicamentoMivacurio {
               width: double.infinity,
               padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
               decoration: BoxDecoration(
-                color: Colors.blue.shade50,
+                color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(color: Colors.blue.shade200),
+                border: Border.all(
+                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                ),
               ),
               child: Text(
-                'Dose calculada: $textoDose',
+                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: Colors.blue.shade700,
-                  fontSize: 13,
+                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
               ),
@@ -277,9 +256,45 @@ class MedicamentoMivacurio {
     );
   }
 
+  static Widget _linhaIndicacaoInfusao({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.orange.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.orange.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.orange.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -288,7 +303,7 @@ class MedicamentoMivacurio {
           Expanded(
             child: Text(
               texto,
-              style: const TextStyle(fontSize: 14),
+              style: const TextStyle(fontSize: 13),
             ),
           ),
         ],

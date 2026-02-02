@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
-import '../drogas.dart';
+import '../drogas.dart' show buildMedicamentoExpansivel;
 import '../../shared_data.dart';
 
 class MedicamentoDextrose25 {
@@ -18,20 +18,11 @@ class MedicamentoDextrose25 {
     }
   }
 
-  static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
-    // Dextrose 25% tem indicações para todas as faixas etárias
-    return true;
-  }
-
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isFavorito = favoritos.contains(nome);
-
-    if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
-      return const SizedBox.shrink();
-    }
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -54,235 +45,104 @@ class MedicamentoDextrose25 {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        // 1. CLASSE
         const SizedBox(height: 16),
         const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDextrose25._textoObs('Solução de glicose hipertônica'),
-        MedicamentoDextrose25._textoObs('Fonte de energia e correção de hipoglicemia'),
-        MedicamentoDextrose25._textoObs('Osmolaridade: 1250 mOsm/L'),
+        _linhaPreparo('Solução glicose hipertônica', '250 mg/mL'),
+        
+        // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDextrose25._linhaPreparo('Ampola 25% (20mL)', 'Via IV'),
-        MedicamentoDextrose25._linhaPreparo('Ampola 25% (50mL)', 'Via IV'),
-        MedicamentoDextrose25._linhaPreparo('Frasco 25% (100mL)', 'Via IV'),
+        _linhaPreparo('Ampola 25% 10mL', '2,5g glicose'),
+        _linhaPreparo('Ampola 25% 20mL', '5g glicose'),
+        
+        // 3. PREPARO
         const SizedBox(height: 16),
         const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDextrose25._linhaPreparo('Administrar via central preferencialmente', 'Evitar via periférica'),
-        MedicamentoDextrose25._linhaPreparo('Diluir para concentrações menores', 'SG 10% ou SG 5%'),
-        MedicamentoDextrose25._linhaPreparo('Administrar em 5–10 min', 'Infusão lenta'),
-        MedicamentoDextrose25._linhaPreparo('Monitorar glicemia', 'Antes e após administração'),
+        _linhaPreparo('Pronta para uso', 'Via central preferencial'),
+        _linhaPreparo('Via periférica', 'Diluir para SG10% ou SG5%'),
+        _linhaPreparo('Bolus: infundir em 5-10min', 'IV lento'),
+        
+        // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        const Text('Indicações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        ..._buildIndicacoesPorFaixaEtaria(peso, faixaEtaria, isAdulto),
-        const SizedBox(height: 16),
-        const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
-        const SizedBox(height: 8),
-        MedicamentoDextrose25._buildConversorInfusao(peso, isAdulto),
+        if (isAdulto) ...[
+          _linhaIndicacaoDoseFixa(
+            titulo: 'Hipoglicemia sintomática',
+            descricaoDose: '25-50g glicose (100-200 mL) IV lento',
+          ),
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Hipoglicemia (dose/kg)',
+            descricaoDose: '0,5-1 g/kg glicose = 2-4 mL/kg SG25%',
+            unidade: 'mL',
+            dosePorKgMinima: 2.0,
+            dosePorKgMaxima: 4.0,
+            doseMaxima: 200,
+            peso: peso,
+          ),
+        ] else ...[
+          _linhaIndicacaoDoseCalculada(
+            titulo: 'Hipoglicemia pediátrica',
+            descricaoDose: '0,25-0,5 g/kg glicose = 1-2 mL/kg SG25%',
+            unidade: 'mL',
+            dosePorKgMinima: 1.0,
+            dosePorKgMaxima: 2.0,
+            peso: peso,
+          ),
+          _textoObs('Preferir SG10% em neonatos e lactentes'),
+        ],
+        
+        // 5. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoDextrose25._textoObs('Contraindicação: hiperglicemia'),
-        MedicamentoDextrose25._textoObs('Monitorar glicemia continuamente'),
-        MedicamentoDextrose25._textoObs('Risco de flebite em via periférica'),
-        MedicamentoDextrose25._textoObs('Cuidado em pacientes diabéticos'),
-        MedicamentoDextrose25._textoObs('Pode causar hiperglicemia reativa'),
+        _textoObs('Osmolaridade: 1250 mOsm/L - irritante vascular'),
+        _textoObs('Via central preferencial - risco de flebite periférica'),
+        _textoObs('Monitorar glicemia antes e 15-30min após'),
+        _textoObs('CI: hiperglicemia, desidratação hiperosmolar'),
+        _textoObs('Não usar infusão contínua SG25% - usar SG5% ou SG10%'),
+        _textoObs('Pode precipitar com soluções alcalinas'),
       ],
     );
   }
 
-  static List<Widget> _buildIndicacoesPorFaixaEtaria(double peso, String faixaEtaria, bool isAdulto) {
-    List<Widget> indicacoes = [];
-
-    if (faixaEtaria == 'RN') {
-      // Recém-nascidos
-      indicacoes.addAll([
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia sintomática',
-          descricaoDose: '0,5–1 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia assintomática',
-          descricaoDose: '0,25–0,5 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 0.5,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Lactente') {
-      // Lactentes
-      indicacoes.addAll([
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia sintomática',
-          descricaoDose: '0,5–1 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia assintomática',
-          descricaoDose: '0,25–0,5 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 0.5,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Criança') {
-      // Crianças
-      indicacoes.addAll([
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia sintomática',
-          descricaoDose: '0,5–1 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia assintomática',
-          descricaoDose: '0,25–0,5 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 0.5,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Correção de hipoglicemia pós-exercício',
-          descricaoDose: '0,5–1 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Adolescente') {
-      // Adolescentes
-      indicacoes.addAll([
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia sintomática',
-          descricaoDose: '0,5–1 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia assintomática',
-          descricaoDose: '0,25–0,5 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 0.5,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Correção de hipoglicemia pós-exercício',
-          descricaoDose: '0,5–1 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Adulto') {
-      // Adultos
-      indicacoes.addAll([
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia sintomática',
-          descricaoDose: '0,5–1 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia assintomática',
-          descricaoDose: '0,25–0,5 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.25,
-          dosePorKgMaxima: 0.5,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Correção de hipoglicemia pós-exercício',
-          descricaoDose: '0,5–1 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia por insulina',
-          descricaoDose: '0,5–1 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.5,
-          dosePorKgMaxima: 1,
-          peso: peso,
-        ),
-      ]);
-    } else if (faixaEtaria == 'Idoso') {
-      // Idosos
-      indicacoes.addAll([
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia sintomática',
-          descricaoDose: '0,3–0,7 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.3,
-          dosePorKgMaxima: 0.7,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia assintomática',
-          descricaoDose: '0,2–0,4 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.2,
-          dosePorKgMaxima: 0.4,
-          peso: peso,
-        ),
-        MedicamentoDextrose25._linhaIndicacaoDoseCalculada(
-          titulo: 'Hipoglicemia por insulina',
-          descricaoDose: '0,3–0,7 mL/kg IV em 5–10 min',
-          unidade: 'mL',
-          dosePorKgMinima: 0.3,
-          dosePorKgMaxima: 0.7,
-          peso: peso,
-        ),
-      ]);
-    }
-
-    return indicacoes;
-  }
-
-  static Widget _buildConversorInfusao(double peso, bool isAdulto) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        MedicamentoDextrose25._textoObs('Infusão contínua: 0,1–0,3 mL/kg/h'),
-        MedicamentoDextrose25._textoObs('Diluir para SG 10% ou SG 5%'),
-        MedicamentoDextrose25._textoObs('Via central preferencialmente'),
-        MedicamentoDextrose25._textoObs('Monitorar glicemia continuamente'),
-        MedicamentoDextrose25._textoObs('Ajustar conforme resposta glicêmica'),
-        const SizedBox(height: 16),
-        ConversaoInfusaoSlider(
-          peso: peso,
-          doseMin: isAdulto ? 0.1 : 0.05,
-          doseMax: isAdulto ? 0.3 : 0.2,
-          unidade: 'mL/kg/h',
-          opcoesConcentracoes: {
-            'Dextrose 25% (250mg/mL)': 250.0,
-            'Dextrose 10% (100mg/mL)': 100.0,
-            'Dextrose 5% (50mg/mL)': 50.0,
-          },
-        ),
-      ],
+  static Widget _linhaIndicacaoDoseFixa({
+    required String titulo,
+    required String descricaoDose,
+  }) {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            titulo,
+            style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 14),
+          ),
+          const SizedBox(height: 4),
+          Container(
+            width: double.infinity,
+            padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+            decoration: BoxDecoration(
+              color: Colors.green.shade50,
+              borderRadius: BorderRadius.circular(6),
+              border: Border.all(color: Colors.green.shade200),
+            ),
+            child: Text(
+              descricaoDose,
+              style: TextStyle(
+                color: Colors.green.shade700,
+                fontSize: 13,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -315,51 +175,22 @@ class MedicamentoDextrose25 {
   static Widget _linhaIndicacaoDoseCalculada({
     required String titulo,
     required String descricaoDose,
-    String? unidade,
-    double? dosePorKg,
+    required String unidade,
     double? dosePorKgMinima,
     double? dosePorKgMaxima,
-    double? doseMinima,
     double? doseMaxima,
-    double? doseFixa,
     required double peso,
   }) {
-    double? doseCalculada;
     String? textoDose;
 
-    if (doseFixa != null) {
-      if (doseFixa < 1) {
-        textoDose = '${doseFixa.toStringAsFixed(1)} $unidade';
-      } else {
-        textoDose = '${doseFixa.toStringAsFixed(0)} $unidade';
-      }
-    } else if (dosePorKg != null) {
-      doseCalculada = dosePorKg * peso;
-      if (doseMinima != null && doseCalculada < doseMinima) {
-        doseCalculada = doseMinima;
-      }
-      if (doseMaxima != null && doseCalculada > doseMaxima) {
-        doseCalculada = doseMaxima;
-      }
-      if (doseCalculada < 1) {
-        textoDose = '${doseCalculada.toStringAsFixed(1)} $unidade';
-      } else {
-        textoDose = '${doseCalculada.toStringAsFixed(0)} $unidade';
-      }
-    } else if (dosePorKgMinima != null && dosePorKgMaxima != null) {
+    if (dosePorKgMinima != null && dosePorKgMaxima != null) {
       double doseMin = dosePorKgMinima * peso;
       double doseMax = dosePorKgMaxima * peso;
-      if (doseMinima != null && doseMin < doseMinima) {
-        doseMin = doseMinima;
-      }
       if (doseMaxima != null && doseMax > doseMaxima) {
         doseMax = doseMaxima;
       }
-      // Verificar se dose mínima não ultrapassou a máxima
       if (doseMin > doseMax) doseMin = doseMax;
       textoDose = '${doseMin.toStringAsFixed(0)}–${doseMax.toStringAsFixed(0)} $unidade';
-    } else if (doseMinima != null && doseMaxima != null) {
-      textoDose = '${doseMinima.toStringAsFixed(0)}–${doseMaxima.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(
@@ -384,9 +215,7 @@ class MedicamentoDextrose25 {
               decoration: BoxDecoration(
                 color: Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
-                border: Border.all(
-                  color: Colors.blue.shade200,
-                ),
+                border: Border.all(color: Colors.blue.shade200),
               ),
               child: Text(
                 'Dose calculada: $textoDose',
@@ -406,12 +235,14 @@ class MedicamentoDextrose25 {
 
   static Widget _textoObs(String texto) {
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 2),
+      padding: const EdgeInsets.symmetric(vertical: 3),
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold)),
-          Expanded(child: Text(texto)),
+          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          Expanded(
+            child: Text(texto, style: const TextStyle(fontSize: 13)),
+          ),
         ],
       ),
     );
