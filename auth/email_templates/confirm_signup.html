@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Guide Dose - Confirmar e-mail</title>
+</head>
+
+<body style="margin: 0; padding: 0; background-color: #f3f4f8;">
+  <table role="presentation" cellpadding="0" cellspacing="0" width="100%">
+    <tr>
+      <td align="center" style="padding: 32px 16px;">
+        <table role="presentation" cellpadding="0" cellspacing="0" width="100%"
+          style="max-width: 560px; background: #ffffff; border-radius: 16px; border: 1px solid #e6e9f2; box-shadow: 0 12px 30px rgba(30, 34, 60, 0.12);">
+          <tr>
+            <td align="center" style="padding: 28px 24px 16px;">
+              <img src="https://drive.google.com/uc?export=view&id=1MPZTGXkmsAKgEyO9cMuxRzMbeZ-qN0Td" alt="Guide Dose"
+                width="84" height="84" style="display: block; border-radius: 20px;" />
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 28px 8px; text-align: center;">
+              <h1
+                style="margin: 0; font-family: Arial, sans-serif; font-size: 22px; line-height: 28px; color: #1e223c;">
+                Bem-vindo ao Guide Dose!
+              </h1>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 8px 28px 18px; text-align: center;">
+              <p style="margin: 0; font-family: Arial, sans-serif; font-size: 14px; line-height: 22px; color: #4b5563;">
+                Obrigado por se cadastrar! Para ativar sua conta e comecar a usar
+                o Guide Dose, confirme seu e-mail clicando no botao abaixo.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td align="center" style="padding: 8px 28px 24px;">
+              <a href="{{ .ConfirmationURL }}"
+                style="display: inline-block; background: #4E8ED6; color: #ffffff; text-decoration: none; font-family: Arial, sans-serif; font-size: 14px; font-weight: 600; padding: 14px 28px; border-radius: 12px;">
+                Confirmar meu e-mail
+              </a>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 28px 16px; text-align: center;">
+              <p style="margin: 0; font-family: Arial, sans-serif; font-size: 13px; line-height: 20px; color: #6b7280;">
+                Este link expira em 24 horas.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 28px 22px; text-align: center;">
+              <p style="margin: 0; font-family: Arial, sans-serif; font-size: 12px; line-height: 20px; color: #6b7280;">
+                Se voce nao criou esta conta, ignore este e-mail.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding: 0 28px 26px; text-align: center;">
+              <p style="margin: 0; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; color: #9ca3af;">
+                Se o botao nao abrir, copie e cole este link no navegador:
+              </p>
+              <p
+                style="margin: 6px 0 0; font-family: Arial, sans-serif; font-size: 12px; line-height: 18px; color: #1e223c; word-break: break-all;">
+                {{ .ConfirmationURL }}
+              </p>
+            </td>
+          </tr>
+        </table>
+        <p
+          style="margin: 18px 0 0; font-family: Arial, sans-serif; font-size: 11px; line-height: 16px; color: #9ca3af;">
+          Guide Dose - Sua referencia em doses medicas
+        </p>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
