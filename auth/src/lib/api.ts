@@ -175,6 +175,15 @@ export async function apiUpdatePassword(newPassword: string): Promise<AuthResult
   }
 }
 
+function normalizeArchivedAt<T>(table: string, data: T): T {
+  const tables = ['patients', 'notes']
+  if (!tables.includes(table) || !Array.isArray(data)) return data
+  return data.map((row: Record<string, unknown>) => ({
+    ...row,
+    is_archived: row.archived_at != null,
+  })) as T
+}
+
 export async function apiQuery<T = unknown>(
   table: string,
   params?: Record<string, string>,
@@ -187,7 +196,7 @@ export async function apiQuery<T = unknown>(
     })
     const data = await res.json()
     if (!res.ok) return { data: null, error: data.error || 'Erro na consulta.' }
-    return { data: data as T, error: null }
+    return { data: normalizeArchivedAt(table, data as T), error: null }
   } catch {
     return { data: null, error: 'Erro de conexao.' }
   }
@@ -263,7 +272,7 @@ export async function adminQuery<T = unknown>(
     })
     const data = await res.json()
     if (!res.ok) return { data: null, error: data.error || 'Erro na consulta admin.' }
-    return { data: data as T, error: null }
+    return { data: normalizeArchivedAt(table, data as T), error: null }
   } catch {
     return { data: null, error: 'Erro de conexao.' }
   }

@@ -74,6 +74,12 @@ exports.handler = async (event) => {
       return jsonResponse(403, { error: `Tabela '${table}' nao permitida.` });
     }
 
+    let limitN = null;
+    if (event.httpMethod === "GET" && queryParams.limit) {
+      limitN = parseInt(queryParams.limit, 10) || null;
+      delete queryParams.limit;
+    }
+
     const qs = new URLSearchParams(queryParams).toString();
     const url = `${SUPABASE_URL}/rest/v1/${table}${qs ? `?${qs}` : ""}`;
 
@@ -82,6 +88,11 @@ exports.handler = async (event) => {
       Authorization: `Bearer ${token}`,
       "Content-Type": "application/json",
     };
+
+    if (limitN) {
+      headers["Range"] = `0-${limitN - 1}`;
+      headers["Range-Unit"] = "items";
+    }
 
     if (event.httpMethod === "POST") {
       headers["Prefer"] = "return=representation";
@@ -109,7 +120,7 @@ exports.handler = async (event) => {
       data = text;
     }
 
-    if (!response.ok) {
+    if (!response.ok && response.status !== 206) {
       return jsonResponse(response.status, {
         error: typeof data === "object" ? (data.message || data.error || "Erro na operacao.") : "Erro na operacao.",
       });

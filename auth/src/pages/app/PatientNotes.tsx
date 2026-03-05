@@ -33,7 +33,7 @@ export default function PatientNotes() {
     setLoading(true)
     const { data } = await apiQuery<Patient[]>('patients', {
       user_id: `eq.${user.id}`,
-      is_archived: 'eq.false',
+      archived_at: 'is.null',
       order: 'updated_at.desc',
       select: '*',
     })
@@ -101,7 +101,6 @@ export default function PatientNotes() {
         user_id: user.id,
         ...payload,
         age_unit: 'anos',
-        is_archived: false,
         created_at: new Date().toISOString(),
       })
     }
@@ -113,7 +112,7 @@ export default function PatientNotes() {
 
   const handleArchive = async (id: string) => {
     if (!confirm('Arquivar este paciente?')) return
-    await apiUpdate('patients', { id: `eq.${id}` }, { is_archived: true, updated_at: new Date().toISOString() })
+    await apiUpdate('patients', { id: `eq.${id}` }, { archived_at: new Date().toISOString(), updated_at: new Date().toISOString() })
     fetchPatients()
   }
 

@@ -19,7 +19,7 @@ export default function Dashboard() {
     Promise.all([
       apiQuery<Patient[]>('patients', {
         user_id: `eq.${user.id}`,
-        is_archived: 'eq.false',
+        archived_at: 'is.null',
         order: 'updated_at.desc',
         limit: '5',
         select: 'id,initials,bed,diagnosis,updated_at',
@@ -33,7 +33,7 @@ export default function Dashboard() {
       }),
       apiQuery<Note[]>('notes', {
         user_id: `eq.${user.id}`,
-        is_archived: 'eq.false',
+        archived_at: 'is.null',
         order: 'updated_at.desc',
         limit: '3',
         select: 'id,title,content,updated_at',

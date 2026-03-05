@@ -120,16 +120,29 @@ exports.handler = async (event) => {
       return jsonResponse(403, { error: `Tabela '${table}' nao permitida.` });
     }
 
+    let limitN = null;
+    if (queryParams.limit) {
+      limitN = parseInt(queryParams.limit, 10) || null;
+      delete queryParams.limit;
+    }
+
     const qs = new URLSearchParams(queryParams).toString();
     const url = `${SUPABASE_URL}/rest/v1/${table}${qs ? `?${qs}` : ""}`;
 
+    const fetchHeaders = {
+      apikey: SUPABASE_SERVICE_ROLE_KEY,
+      Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
+      "Content-Type": "application/json",
+    };
+
+    if (limitN) {
+      fetchHeaders["Range"] = `0-${limitN - 1}`;
+      fetchHeaders["Range-Unit"] = "items";
+    }
+
     const response = await fetch(url, {
       method: "GET",
-      headers: {
-        apikey: SUPABASE_SERVICE_ROLE_KEY,
-        Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
-        "Content-Type": "application/json",
-      },
+      headers: fetchHeaders,
     });
 
     const text = await response.text();
@@ -140,7 +153,7 @@ exports.handler = async (event) => {
       data = text;
     }
 
-    if (!response.ok) {
+    if (!response.ok && response.status !== 206) {
       return jsonResponse(response.status, {
         error: typeof data === "object" ? (data.message || data.error || "Erro na consulta.") : "Erro na consulta.",
       });

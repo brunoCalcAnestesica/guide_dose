@@ -65,6 +65,7 @@ export interface Note {
   user_id: string
   title: string
   content: string
+  archived_at?: string | null
   is_archived: boolean
   created_at: string
   updated_at: string
@@ -86,6 +87,7 @@ export interface Patient {
   exams: string
   pending: string
   observations: string
+  archived_at?: string | null
   is_archived: boolean
   created_at: string
   updated_at: string

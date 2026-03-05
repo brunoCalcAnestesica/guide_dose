@@ -20,7 +20,7 @@ export default function GeneralNotes() {
     setLoading(true)
     const { data } = await apiQuery<Note[]>('notes', {
       user_id: `eq.${user.id}`,
-      is_archived: 'eq.false',
+      archived_at: 'is.null',
       order: 'updated_at.desc',
       select: '*',
     })
@@ -59,7 +59,6 @@ export default function GeneralNotes() {
         user_id: user.id,
         title: form.title || 'Sem título',
         content: form.content,
-        is_archived: false,
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
       })
