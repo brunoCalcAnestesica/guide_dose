@@ -1,0 +1,854 @@
+{
+  "PT": {
+    "nome": "Estreptoquinase",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "IAM com supradesnivelamento de ST",
+          "descricaoDose": "1.500.000 UI IV em 60 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500000,
+            "doseFixa": "1.500.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TEP (Tromboembolismo Pulmonar) - Ataque",
+          "descricaoDose": "250.000 UI IV em 30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TEP - Manutenção (24h)",
+          "descricaoDose": "100.000 UI/h IV por 24 horas (use o slider abaixo para mL/h)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": null,
+            "doseMin": 100000,
+            "doseMax": 100000,
+            "doseMaxima": null,
+            "doseFixa": "100.000 UI/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua por 24h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TVP (Trombose Venosa Profunda) - Ataque",
+          "descricaoDose": "250.000 UI IV em 30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TVP - Manutenção (24-72h)",
+          "descricaoDose": "100.000 UI/h IV por 24-72 horas (use o slider abaixo para mL/h)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": null,
+            "doseMin": 100000,
+            "doseMax": 100000,
+            "doseMaxima": null,
+            "doseFixa": "100.000 UI/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua por 24-72h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Desobstrução de fístula arteriovenosa",
+          "descricaoDose": "250.000 UI instilado na fístula (conforme protocolo local)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Instilação",
+            "intervalo": "conforme protocolo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão TEP/TVP - Manutenção (100.000 UI/h)",
+          "unidade": "UI/h",
+          "adulto": { "doseMin": 100000, "doseMax": 100000 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1.500.000 UI em 100 mL SF 0,9% (15.000 UI/mL)", "valor": 15000 },
+            { "rotulo": "1.500.000 UI em 250 mL SF 0,9% (6.000 UI/mL)", "valor": 6000 },
+            { "rotulo": "750.000 UI em 100 mL SF 0,9% (7.500 UI/mL)", "valor": 7500 },
+            { "rotulo": "750.000 UI em 250 mL SF 0,9% (3.000 UI/mL)", "valor": 3000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Trombolítico / Ativador indireto do plasminogênio",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 750.000 UI pó liofilizado", "obs": "Streptase®, Kabikinase®" },
+        { "forma": "Frasco-ampola 1.500.000 UI pó liofilizado", "obs": "Streptase®, Kabikinase®" }
+      ],
+      "preparo": [
+        { "diluicao": "Adicionar 5 mL SF 0,9% lentamente ao pó", "concentracao": "Reconstituição" },
+        { "diluicao": "Diluir em 100-250 mL SF 0,9% para infusão", "concentracao": "Conforme prescrição" }
+      ],
+      "observacoes": [
+        "Menor custo entre os trombolíticos",
+        "Risco alérgico: origem bacteriana (Streptococcus) – pré-medicação opcional com hidrocortisona 100 mg IV",
+        "NÃO reutilizar em 6-12 meses (anticorpos neutralizantes)",
+        "Não fibrino-específico: causa estado lítico sistêmico; monitorar sangramento",
+        "Janela IAM: ≤12h do início dos sintomas",
+        "Suspender heparina durante infusão; evitar procedimentos invasivos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Avaliar risco hemorrágico e comorbidades.",
+        "renal": "Não requer ajuste de dose. Eliminação retículo-endotelial.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave (risco hemorrágico)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Estreptoquinase (adulto) - IAM",
+        "doseTexto": "1.500.000 UI IV em 60 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1.500.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Estreptoquinase (adulto) - TEP ataque",
+        "doseTexto": "250.000 UI IV em 30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "250.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Estreptoquinase (adulto) - TEP manutenção",
+        "doseTexto": "100.000 UI/h IV por 24h",
+        "doseMin": 100000,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Estreptoquinase (adulto) - TVP ataque",
+        "doseTexto": "250.000 UI IV em 30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "250.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Estreptoquinase (adulto) - TVP manutenção",
+        "doseTexto": "100.000 UI/h IV por 24-72h",
+        "doseMin": 100000,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Streptokinase",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "STEMI (ST-elevation myocardial infarction)",
+          "descricaoDose": "1,500,000 IU IV over 60 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500000,
+            "doseFixa": "1,500,000 IU",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose over 60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PE (Pulmonary Embolism) - Bolus",
+          "descricaoDose": "250,000 IU IV over 30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250,000 IU",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose over 30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PE - Maintenance (24h)",
+          "descricaoDose": "100,000 IU/h IV for 24 hours (use slider below for mL/h)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": null,
+            "doseMin": 100000,
+            "doseMax": 100000,
+            "doseMaxima": null,
+            "doseFixa": "100,000 IU/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion for 24h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "DVT (Deep Vein Thrombosis) - Bolus",
+          "descricaoDose": "250,000 IU IV over 30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250,000 IU",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose over 30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "DVT - Maintenance (24-72h)",
+          "descricaoDose": "100,000 IU/h IV for 24-72 hours (use slider below for mL/h)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": null,
+            "doseMin": 100000,
+            "doseMax": 100000,
+            "doseMaxima": null,
+            "doseFixa": "100,000 IU/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion for 24-72h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Arteriovenous fistula declotting",
+          "descricaoDose": "250,000 IU instilled into fistula (per local protocol)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250,000 IU",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Instillation",
+            "intervalo": "per protocol",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "PE/DVT maintenance infusion (100,000 IU/h)",
+          "unidade": "UI/h",
+          "adulto": { "doseMin": 100000, "doseMax": 100000 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1,500,000 IU in 100 mL NS (15,000 IU/mL)", "valor": 15000 },
+            { "rotulo": "1,500,000 IU in 250 mL NS (6,000 IU/mL)", "valor": 6000 },
+            { "rotulo": "750,000 IU in 100 mL NS (7,500 IU/mL)", "valor": 7500 },
+            { "rotulo": "750,000 IU in 250 mL NS (3,000 IU/mL)", "valor": 3000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Thrombolytic / Indirect plasminogen activator",
+      "apresentacoes": [
+        { "forma": "Vial 750,000 IU lyophilized powder", "obs": "Streptase®, Kabikinase®" },
+        { "forma": "Vial 1,500,000 IU lyophilized powder", "obs": "Streptase®, Kabikinase®" }
+      ],
+      "preparo": [
+        { "diluicao": "Add 5 mL 0.9% NS slowly to powder", "concentracao": "Reconstitution" },
+        { "diluicao": "Dilute in 100-250 mL 0.9% NS for infusion", "concentracao": "As prescribed" }
+      ],
+      "observacoes": [
+        "Lower cost among thrombolytics",
+        "Allergic risk: bacterial origin (Streptococcus) – optional premedication with hydrocortisone 100 mg IV",
+        "Do NOT reuse within 6-12 months (neutralizing antibodies)",
+        "Not fibrin-specific: causes systemic lytic state; monitor for bleeding",
+        "STEMI window: ≤12h from symptom onset",
+        "Hold heparin during infusion; avoid invasive procedures"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Assess bleeding risk and comorbidities.",
+        "renal": "No dose adjustment. Reticuloendothelial elimination.",
+        "hepatico": "Use with caution in severe hepatic insufficiency (bleeding risk)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Streptokinase (adult) - STEMI",
+        "doseTexto": "1,500,000 IU IV over 60 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1,500,000 IU",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Streptokinase (adult) - PE bolus",
+        "doseTexto": "250,000 IU IV over 30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "250,000 IU",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Streptokinase (adult) - PE maintenance",
+        "doseTexto": "100,000 IU/h IV for 24h",
+        "doseMin": 100000,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Streptokinase (adult) - DVT bolus",
+        "doseTexto": "250,000 IU IV over 30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "250,000 IU",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Streptokinase (adult) - DVT maintenance",
+        "doseTexto": "100,000 IU/h IV for 24-72h",
+        "doseMin": 100000,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Estreptoquinasa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "IAM con supradesnivelamiento del ST",
+          "descricaoDose": "1.500.000 UI IV en 60 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500000,
+            "doseFixa": "1.500.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TEP (Tromboembolismo Pulmonar) - Ataque",
+          "descricaoDose": "250.000 UI IV en 30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TEP - Mantenimiento (24h)",
+          "descricaoDose": "100.000 UI/h IV por 24 horas (use el control para mL/h)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": null,
+            "doseMin": 100000,
+            "doseMax": 100000,
+            "doseMaxima": null,
+            "doseFixa": "100.000 UI/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua por 24h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TVP (Trombosis Venosa Profunda) - Ataque",
+          "descricaoDose": "250.000 UI IV en 30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TVP - Mantenimiento (24-72h)",
+          "descricaoDose": "100.000 UI/h IV por 24-72 horas (use el control para mL/h)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": null,
+            "doseMin": 100000,
+            "doseMax": 100000,
+            "doseMaxima": null,
+            "doseFixa": "100.000 UI/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua por 24-72h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Desobstrucción de fístula arteriovenosa",
+          "descricaoDose": "250.000 UI instilado en la fístula (según protocolo local)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Instilación",
+            "intervalo": "según protocolo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión TEP/TVP - Mantenimiento (100.000 UI/h)",
+          "unidade": "UI/h",
+          "adulto": { "doseMin": 100000, "doseMax": 100000 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1.500.000 UI en 100 mL SF 0,9% (15.000 UI/mL)", "valor": 15000 },
+            { "rotulo": "1.500.000 UI en 250 mL SF 0,9% (6.000 UI/mL)", "valor": 6000 },
+            { "rotulo": "750.000 UI en 100 mL SF 0,9% (7.500 UI/mL)", "valor": 7500 },
+            { "rotulo": "750.000 UI en 250 mL SF 0,9% (3.000 UI/mL)", "valor": 3000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Trombolítico / Activador indirecto del plasminógeno",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 750.000 UI polvo liofilizado", "obs": "Streptase®, Kabikinase®" },
+        { "forma": "Frasco-ampolla 1.500.000 UI polvo liofilizado", "obs": "Streptase®, Kabikinase®" }
+      ],
+      "preparo": [
+        { "diluicao": "Añadir 5 mL SF 0,9% lentamente al polvo", "concentracao": "Reconstitución" },
+        { "diluicao": "Diluir en 100-250 mL SF 0,9% para infusión", "concentracao": "Según prescripción" }
+      ],
+      "observacoes": [
+        "Menor coste entre los trombolíticos",
+        "Riesgo alérgico: origen bacteriano (Streptococcus) – premedicación opcional con hidrocortisona 100 mg IV",
+        "NO reutilizar en 6-12 meses (anticuerpos neutralizantes)",
+        "No fibrino-específico: causa estado lítico sistémico; monitorizar sangrado",
+        "Ventana IAM: ≤12h del inicio de síntomas",
+        "Suspender heparina durante infusión; evitar procedimientos invasivos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Valorar riesgo hemorrágico y comorbilidades.",
+        "renal": "No requiere ajuste. Eliminación reticuloendotelial.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave (riesgo hemorrágico)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Estreptoquinasa (adulto) - IAM",
+        "doseTexto": "1.500.000 UI IV en 60 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1.500.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Estreptoquinasa (adulto) - TEP ataque",
+        "doseTexto": "250.000 UI IV en 30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "250.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Estreptoquinasa (adulto) - TEP mantenimiento",
+        "doseTexto": "100.000 UI/h IV por 24h",
+        "doseMin": 100000,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Estreptoquinasa (adulto) - TVP ataque",
+        "doseTexto": "250.000 UI IV en 30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "250.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Estreptoquinasa (adulto) - TVP mantenimiento",
+        "doseTexto": "100.000 UI/h IV por 24-72h",
+        "doseMin": 100000,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "链激酶",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ST段抬高型心肌梗死 (IAM)",
+          "descricaoDose": "150万 UI 静注 60分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500000,
+            "doseFixa": "1.500.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次 60分钟内",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "肺栓塞 (TEP) - 负荷量",
+          "descricaoDose": "25万 UI 静注 30分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次 30分钟内",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TEP - 维持 (24h)",
+          "descricaoDose": "10万 UI/h 静注 24小时（用下方滑块计算 mL/h）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": null,
+            "doseMin": 100000,
+            "doseMax": 100000,
+            "doseMaxima": null,
+            "doseFixa": "100.000 UI/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注24小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "深静脉血栓 (TVP) - 负荷量",
+          "descricaoDose": "25万 UI 静注 30分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次 30分钟内",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TVP - 维持 (24-72h)",
+          "descricaoDose": "10万 UI/h 静注 24-72小时（用下方滑块计算 mL/h）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": null,
+            "doseMin": 100000,
+            "doseMax": 100000,
+            "doseMaxima": null,
+            "doseFixa": "100.000 UI/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注24-72小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "动静脉瘘再通",
+          "descricaoDose": "25万 UI 注入瘘管（按当地方案）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250000,
+            "doseFixa": "250.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Instilación",
+            "intervalo": "按方案",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "TEP/TVP 维持输注 (10万 UI/h)",
+          "unidade": "UI/h",
+          "adulto": { "doseMin": 100000, "doseMax": 100000 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "150万 UI 溶于 100 mL 生理盐水 (15.000 UI/mL)", "valor": 15000 },
+            { "rotulo": "150万 UI 溶于 250 mL 生理盐水 (6.000 UI/mL)", "valor": 6000 },
+            { "rotulo": "75万 UI 溶于 100 mL 生理盐水 (7.500 UI/mL)", "valor": 7500 },
+            { "rotulo": "75万 UI 溶于 250 mL 生理盐水 (3.000 UI/mL)", "valor": 3000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "溶栓药 / 间接纤溶酶原激活剂",
+      "apresentacoes": [
+        { "forma": "西林瓶 75万 UI 冻干粉", "obs": "Streptase®、Kabikinase®" },
+        { "forma": "西林瓶 150万 UI 冻干粉", "obs": "Streptase®、Kabikinase®" }
+      ],
+      "preparo": [
+        { "diluicao": "用5 mL 0,9%生理盐水缓慢加入粉剂", "concentracao": "复溶" },
+        { "diluicao": "用100-250 mL生理盐水稀释输注", "concentracao": "遵医嘱" }
+      ],
+      "observacoes": [
+        "溶栓药中成本较低",
+        "过敏风险：细菌来源（链球菌）－可选预处理氢化可的松100 mg IV",
+        "6-12个月内勿重复使用（中和抗体）",
+        "非纤维蛋白特异性：全身纤溶状态；监测出血",
+        "心梗时间窗：症状发作后≤12h",
+        "输注期间停用肝素；避免有创操作"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调整剂量。评估出血风险及合并症。",
+        "renal": "无需调整。网状内皮系统清除。",
+        "hepatico": "严重肝功能不全慎用（出血风险）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "链激酶 (成人) - IAM",
+        "doseTexto": "150万 UI 静注 60分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1.500.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "链激酶 (成人) - TEP负荷",
+        "doseTexto": "25万 UI 静注 30分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "250.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "链激酶 (成人) - TEP维持",
+        "doseTexto": "10万 UI/h 静注 24小时",
+        "doseMin": 100000,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "链激酶 (成人) - TVP负荷",
+        "doseTexto": "25万 UI 静注 30分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "250.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "链激酶 (成人) - TVP维持",
+        "doseTexto": "10万 UI/h 静注 24-72小时",
+        "doseMin": 100000,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

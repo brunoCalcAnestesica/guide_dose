@@ -1,0 +1,1050 @@
+{
+  "PT": {
+    "nome": "Ampicilina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Meningite (Listeria/Enterococcus) – adulto",
+          "descricaoDose": "2 g IV 4/4h. ClCr 10-50: 1-2 g 6-8h; ClCr <10: 1-2 g 8-12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr 10-50: 1-2 g 6-8h; ClCr <10: 1-2 g 8-12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Endocardite (E. faecalis) – adulto",
+          "descricaoDose": "2 g IV 4/4h (associar gentamicina). Ajuste renal: alongar intervalo.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr 10-50: alongar intervalo; ClCr <10: 1-2 g 8-12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia GBS intraparto",
+          "descricaoDose": "2 g IV carga; depois 1 g IV 4/4h até o parto.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g carga; 1 g 4/4h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "carga + 4/4h até parto",
+            "ajusteRenal": "Avaliar função renal na gestante.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "2 g IV 30-60 min antes da incisão; redose em cirurgias prolongadas (ex.: 2 g 2/2h).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30-60 min antes da incisão",
+            "ajusteRenal": "ClCr <10: considerar 1 g ou intervalo prolongado.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Listeriose – adulto",
+          "descricaoDose": "2 g IV 4/4h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr 10-50: 1-2 g 6-8h; ClCr <10: 1-2 g 8-12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite – pediátrico",
+          "descricaoDose": "50 mg/kg IV 4/4h (máx 2 g/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite – neonato",
+          "descricaoDose": "50 mg/kg IV 8/8h (termo) ou 12/12h (pré-termo <7d).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h ou 12/12h",
+            "ajusteRenal": "Avaliar função renal no neonato.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "IU não complicada – adulto",
+          "descricaoDose": "500 mg VO 6/6h (ou 250 mg 6/6h).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg (ou 250 mg)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr <10: considerar intervalo prolongado ou alternativa.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecção respiratória – adulto",
+          "descricaoDose": "250-500 mg VO 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr <10: considerar intervalo prolongado.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico beta-lactâmico (aminopenicilina)",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg", "obs": "Pó para solução injetável" },
+        { "forma": "Frasco 1 g", "obs": "Pó para solução injetável" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir conforme bula; diluir em SF ou SG para infusão.", "concentracao": "Infundir em 15-30 min" }
+      ],
+      "observacoes": [
+        "Penetração em LCR boa com meninges inflamadas (meningite)",
+        "Excreção renal 75-90%; ajustar dose/intervalo em IR",
+        "Contraindicado em mononucleose (risco de rash)",
+        "Profilaxia GBS: dose de carga 2 g; manutenção 1 g 4/4h até parto",
+        "Endocardite por E. faecalis: associar gentamicina (sinergia)",
+        "Estabilidade: usar em até 1 h (ambiente) ou 4 h (refrigerado) após reconstituição"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal; ajustar intervalo conforme ClCr.",
+        "renal": "ClCr 10-50: alongar intervalo (ex.: 6-8h). ClCr <10: 1-2 g 8-12h.",
+        "hepatico": "Não requer ajuste. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ampicilina meningite (adulto)",
+        "doseTexto": "2 g IV 4/4h",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ampicilina meningite (pediátrico)",
+        "doseTexto": "50 mg/kg IV 4/4h (máx 2 g)",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ampicilina GBS intraparto",
+        "doseTexto": "2 g carga; 1 g 4/4h até parto",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ampicilina IU (adulto)",
+        "doseTexto": "500 mg VO 6/6h",
+        "doseMin": 500,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ampicillin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Meningitis (Listeria/Enterococcus) – adult",
+          "descricaoDose": "2 g IV q4h. CrCl 10-50: 1-2 g q6-8h; CrCl <10: 1-2 g q8-12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4h",
+            "ajusteRenal": "CrCl 10-50: 1-2 g q6-8h; CrCl <10: 1-2 g q8-12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Endocarditis (E. faecalis) – adult",
+          "descricaoDose": "2 g IV q4h (add gentamicin). Renal: extend interval.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4h",
+            "ajusteRenal": "CrCl 10-50: extend interval; CrCl <10: 1-2 g q8-12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "GBS intrapartum prophylaxis",
+          "descricaoDose": "2 g IV load; then 1 g IV q4h until delivery.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g load; 1 g q4h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "load + q4h until delivery",
+            "ajusteRenal": "Assess renal function in pregnancy.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "2 g IV 30-60 min before incision; redose in prolonged surgery (e.g. 2 g q2h).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30-60 min before incision",
+            "ajusteRenal": "CrCl <10: consider 1 g or extended interval.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Listeriosis – adult",
+          "descricaoDose": "2 g IV q4h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4h",
+            "ajusteRenal": "CrCl 10-50: 1-2 g q6-8h; CrCl <10: 1-2 g q8-12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis – pediatric",
+          "descricaoDose": "50 mg/kg IV q4h (max 2 g/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis – neonate",
+          "descricaoDose": "50 mg/kg IV q8h (term) or q12h (preterm <7d).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h or q12h",
+            "ajusteRenal": "Assess renal function in neonate.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Uncomplicated UTI – adult",
+          "descricaoDose": "500 mg PO q6h (or 250 mg q6h).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg (or 250 mg)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "q6h",
+            "ajusteRenal": "CrCl <10: consider extended interval or alternative.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Respiratory infection – adult",
+          "descricaoDose": "250-500 mg PO q6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "q6h",
+            "ajusteRenal": "CrCl <10: consider extended interval.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Beta-lactam antibiotic (aminopenicillin)",
+      "apresentacoes": [
+        { "forma": "Vial 500 mg", "obs": "Powder for injection" },
+        { "forma": "Vial 1 g", "obs": "Powder for injection" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute per label; dilute in NS or D5W for infusion.", "concentracao": "Infuse over 15-30 min" }
+      ],
+      "observacoes": [
+        "Good CSF penetration with inflamed meninges (meningitis)",
+        "Renal excretion 75-90%; adjust dose/interval in renal impairment",
+        "Contraindicated in infectious mononucleosis (rash risk)",
+        "GBS prophylaxis: 2 g load; then 1 g q4h until delivery",
+        "E. faecalis endocarditis: add gentamicin (synergy)",
+        "Stability: use within 1 h (room temp) or 4 h (refrigerated) after reconstitution"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function; adjust interval per CrCl.",
+        "renal": "CrCl 10-50: extend interval (e.g. q6-8h). CrCl <10: 1-2 g q8-12h.",
+        "hepatico": "No dose adjustment. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ampicillin meningitis (adult)",
+        "doseTexto": "2 g IV q4h",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ampicillin meningitis (pediatric)",
+        "doseTexto": "50 mg/kg IV q4h (max 2 g)",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Ampicillin GBS intrapartum",
+        "doseTexto": "2 g load; 1 g q4h until delivery",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ampicillin UTI (adult)",
+        "doseTexto": "500 mg PO q6h",
+        "doseMin": 500,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ampicilina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Meningitis (Listeria/Enterococcus) – adulto",
+          "descricaoDose": "2 g IV 4/4h. ClCr 10-50: 1-2 g 6-8h; ClCr <10: 1-2 g 8-12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr 10-50: 1-2 g 6-8h; ClCr <10: 1-2 g 8-12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Endocarditis (E. faecalis) – adulto",
+          "descricaoDose": "2 g IV 4/4h (asociar gentamicina). Ajuste renal: alargar intervalo.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr 10-50: alargar intervalo; ClCr <10: 1-2 g 8-12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis GBS intraparto",
+          "descricaoDose": "2 g IV carga; después 1 g IV 4/4h hasta parto.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g carga; 1 g 4/4h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "carga + 4/4h hasta parto",
+            "ajusteRenal": "Valorar función renal en gestante.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "2 g IV 30-60 min antes de la incisión; redosis en cirugía prolongada (ej. 2 g 2/2h).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30-60 min antes de la incisión",
+            "ajusteRenal": "ClCr <10: considerar 1 g o intervalo prolongado.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Listeriosis – adulto",
+          "descricaoDose": "2 g IV 4/4h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr 10-50: 1-2 g 6-8h; ClCr <10: 1-2 g 8-12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis – pediátrico",
+          "descricaoDose": "50 mg/kg IV 4/4h (máx 2 g/dosis).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis – neonato",
+          "descricaoDose": "50 mg/kg IV 8/8h (término) o 12/12h (pretérmino <7d).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h o 12/12h",
+            "ajusteRenal": "Valorar función renal en neonato.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "IU no complicada – adulto",
+          "descricaoDose": "500 mg VO 6/6h (o 250 mg 6/6h).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg (o 250 mg)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr <10: considerar intervalo prolongado o alternativa.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infección respiratoria – adulto",
+          "descricaoDose": "250-500 mg VO 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr <10: considerar intervalo prolongado.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico beta-lactámico (aminopenicilina)",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg", "obs": "Polvo para solución inyectable" },
+        { "forma": "Frasco 1 g", "obs": "Polvo para solución inyectable" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir según ficha; diluir en SF o SG para perfusión.", "concentracao": "Perfundir en 15-30 min" }
+      ],
+      "observacoes": [
+        "Penetración en LCR buena con meninges inflamadas (meningitis)",
+        "Excreción renal 75-90%; ajustar dosis/intervalo en IR",
+        "Contraindicado en mononucleosis (riesgo rash)",
+        "Profilaxis GBS: carga 2 g; mantenimiento 1 g 4/4h hasta parto",
+        "Endocarditis E. faecalis: asociar gentamicina (sinergia)",
+        "Estabilidad: usar en 1 h (ambiente) o 4 h (refrigerado) tras reconstitución"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal; ajustar intervalo según ClCr.",
+        "renal": "ClCr 10-50: alargar intervalo (ej. 6-8h). ClCr <10: 1-2 g 8-12h.",
+        "hepatico": "No requiere ajuste. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ampicilina meningitis (adulto)",
+        "doseTexto": "2 g IV 4/4h",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ampicilina meningitis (pediátrico)",
+        "doseTexto": "50 mg/kg IV 4/4h (máx 2 g)",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ampicilina GBS intraparto",
+        "doseTexto": "2 g carga; 1 g 4/4h hasta parto",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ampicilina IU (adulto)",
+        "doseTexto": "500 mg VO 6/6h",
+        "doseMin": 500,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氨苄西林",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "脑膜炎（李斯特菌/肠球菌）（成人）",
+          "descricaoDose": "2 g 静注 每4小时。ClCr 10-50：1-2 g 每6-8小时；ClCr <10：1-2 g 每8-12小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4小时",
+            "ajusteRenal": "ClCr 10-50：1-2 g 每6-8小时；ClCr <10：1-2 g 每8-12小时。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "心内膜炎（粪肠球菌）（成人）",
+          "descricaoDose": "2 g 静注 每4小时（联用庆大霉素）。肾损时延长给药间隔。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4小时",
+            "ajusteRenal": "ClCr 10-50：延长间隔；ClCr <10：1-2 g 每8-12小时。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "GBS产时预防",
+          "descricaoDose": "2 g 静注负荷；随后1 g 静注 每4小时直至分娩。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g 负荷；1 g 每4小时",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "负荷+每4小时直至分娩",
+            "ajusteRenal": "评估孕妇肾功能。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "2 g 静注 术前30-60分钟；手术延长时可重复（如2 g 每2小时）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "术前30-60分钟",
+            "ajusteRenal": "ClCr <10：考虑1 g或延长间隔。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "李斯特菌病（成人）",
+          "descricaoDose": "2 g 静注 每4小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4小时",
+            "ajusteRenal": "ClCr 10-50：1-2 g 每6-8小时；ClCr <10：1-2 g 每8-12小时。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "脑膜炎（儿科）",
+          "descricaoDose": "50 mg/kg 静注 每4小时（最大2 g/次）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "脑膜炎（新生儿）",
+          "descricaoDose": "50 mg/kg 静注 每8小时（足月）或每12小时（早产<7天）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8或12小时",
+            "ajusteRenal": "评估新生儿肾功能。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "单纯性尿路感染（成人）",
+          "descricaoDose": "500 mg 口服 每6小时（或250 mg 每6小时）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg（或250 mg）",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr <10：考虑延长间隔或替代。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "呼吸道感染（成人）",
+          "descricaoDose": "250-500 mg 口服 每6小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr <10：考虑延长间隔。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "β-内酰胺类抗生素（氨基青霉素）",
+      "apresentacoes": [
+        { "forma": "西林瓶 500 mg", "obs": "注射用粉剂" },
+        { "forma": "西林瓶 1 g", "obs": "注射用粉剂" }
+      ],
+      "preparo": [
+        { "diluicao": "按说明书配制；用生理盐水或糖水稀释后输注。", "concentracao": "15-30分钟内输完" }
+      ],
+      "observacoes": [
+        "脑膜炎症时CSF穿透良好（脑膜炎）",
+        "肾排泄75-90%；肾功能不全时调整剂量/间隔",
+        "传染性单核细胞增多症禁忌（皮疹风险）",
+        "GBS预防：负荷2 g；维持1 g 每4小时直至分娩",
+        "粪肠球菌心内膜炎：联用庆大霉素（协同）",
+        "稳定性：配制后室温1小时内或冷藏4小时内使用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能；按ClCr调整间隔。",
+        "renal": "ClCr 10-50：延长间隔（如6-8h）。ClCr <10：1-2 g 每8-12小时。",
+        "hepatico": "无需调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氨苄西林 脑膜炎（成人）",
+        "doseTexto": "2 g 静注 每4小时",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氨苄西林 脑膜炎（儿科）",
+        "doseTexto": "50 mg/kg 静注 每4小时（最大2 g）",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "氨苄西林 GBS产时",
+        "doseTexto": "2 g 负荷；1 g 每4小时直至分娩",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氨苄西林 尿路感染（成人）",
+        "doseTexto": "500 mg 口服 每6小时",
+        "doseMin": 500,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

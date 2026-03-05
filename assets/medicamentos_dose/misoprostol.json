@@ -1,0 +1,718 @@
+{
+  "PT": {
+    "nome": "Misoprostol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "HPP (hemorragia pós-parto)",
+          "descricaoDose": "800-1000 mcg via retal ou sublingual",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 800,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "800-1000 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Retal/Sublingual",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução de parto (vaginal)",
+          "descricaoDose": "25 mcg vaginal a cada 6h (máx 150 mcg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "25 mcg a cada 6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Vaginal",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução de parto (oral)",
+          "descricaoDose": "25-50 mcg VO a cada 4h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mcg a cada 4h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Amadurecimento cervical",
+          "descricaoDose": "25-50 mcg vaginal a cada 4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mcg a cada 4-6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Vaginal",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Abortamento incompleto/retido",
+          "descricaoDose": "400-800 mcg vaginal ou sublingual",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "400-800 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Vaginal/Sublingual",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Uterotônico / Prostaglandina E1 (análogo sintético)",
+      "apresentacoes": [
+        { "forma": "Comprimidos vaginais 25 mcg", "obs": "Indução/amadurecimento" },
+        { "forma": "Comprimidos vaginais 200 mcg", "obs": "HPP, abortamento" },
+        { "forma": "Comprimidos orais/sublinguais 200 mcg", "obs": "Cytotec®, Prostokos®" }
+      ],
+      "preparo": [
+        { "diluicao": "Comprimido - não requer diluição", "concentracao": "Uso direto" }
+      ],
+      "observacoes": [
+        "Uso exclusivamente obstétrico",
+        "Termoestável (vantagem em países quentes)",
+        "Monitorar dinâmica uterina continuamente",
+        "Intervalo mínimo 4-6h entre doses",
+        "Contraindicação absoluta: cesárea anterior ou cicatriz uterina (risco de rotura)",
+        "Via retal na HPP: absorção mais lenta, duração maior"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Uso obstétrico em idade fértil.",
+        "renal": "Não requer ajuste de dose. Metabolismo independente da função renal.",
+        "hepatico": "Não requer ajuste de dose. Usar com cautela em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Misoprostol - HPP",
+        "doseTexto": "800-1000 mcg retal ou sublingual",
+        "doseMin": 800,
+        "doseMax": 1000,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "800-1000 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Misoprostol - Indução vaginal",
+        "doseTexto": "25 mcg vaginal a cada 6h (máx 150 mcg/dia)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "25 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Misoprostol - Indução oral",
+        "doseTexto": "25-50 mcg VO a cada 4h",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Misoprostol - Amadurecimento cervical",
+        "doseTexto": "25-50 mcg vaginal a cada 4-6h",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Misoprostol - Abortamento incompleto",
+        "doseTexto": "400-800 mcg vaginal ou sublingual",
+        "doseMin": 400,
+        "doseMax": 800,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Misoprostol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "PPH (postpartum hemorrhage)",
+          "descricaoDose": "800-1000 mcg rectal or sublingual",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 800,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "800-1000 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Rectal/Sublingual",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Labor induction (vaginal)",
+          "descricaoDose": "25 mcg vaginal every 6h (max 150 mcg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "25 mcg every 6h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Vaginal",
+            "intervalo": "every 6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Labor induction (oral)",
+          "descricaoDose": "25-50 mcg PO every 4h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mcg every 4h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 4h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cervical ripening",
+          "descricaoDose": "25-50 mcg vaginal every 4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mcg every 4-6h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Vaginal",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Incomplete/missed abortion",
+          "descricaoDose": "400-800 mcg vaginal or sublingual",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "400-800 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Vaginal/Sublingual",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Uterotonic / Prostaglandin E1 (synthetic analog)",
+      "apresentacoes": [
+        { "forma": "Vaginal tablets 25 mcg", "obs": "Induction/ripening" },
+        { "forma": "Vaginal tablets 200 mcg", "obs": "PPH, abortion" },
+        { "forma": "Oral/sublingual tablets 200 mcg", "obs": "Cytotec®" }
+      ],
+      "preparo": [
+        { "diluicao": "Tablet - no dilution required", "concentracao": "Direct use" }
+      ],
+      "observacoes": [
+        "Obstetric use only",
+        "Thermostable (advantage in hot climates)",
+        "Monitor uterine activity continuously",
+        "Minimum 4-6h interval between doses",
+        "Absolute contraindication: prior cesarean or uterine scar (rupture risk)",
+        "Rectal route in PPH: slower absorption, longer duration"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Obstetric use in reproductive age.",
+        "renal": "No dose adjustment. Metabolism independent of renal function.",
+        "hepatico": "No dose adjustment. Use with caution in severe hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Misoprostol - PPH",
+        "doseTexto": "800-1000 mcg rectal or sublingual",
+        "doseMin": 800,
+        "doseMax": 1000,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "800-1000 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Misoprostol - Vaginal induction",
+        "doseTexto": "25 mcg vaginal every 6h (max 150 mcg/day)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "25 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Misoprostol - Oral induction",
+        "doseTexto": "25-50 mcg PO every 4h",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Misoprostol - Cervical ripening",
+        "doseTexto": "25-50 mcg vaginal every 4-6h",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Misoprostol - Incomplete abortion",
+        "doseTexto": "400-800 mcg vaginal or sublingual",
+        "doseMin": 400,
+        "doseMax": 800,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Misoprostol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "HPP (hemorragia posparto)",
+          "descricaoDose": "800-1000 mcg vía rectal o sublingual",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 800,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "800-1000 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Rectal/Sublingual",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción del parto (vaginal)",
+          "descricaoDose": "25 mcg vaginal cada 6h (máx 150 mcg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "25 mcg cada 6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Vaginal",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción del parto (oral)",
+          "descricaoDose": "25-50 mcg VO cada 4h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mcg cada 4h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maduración cervical",
+          "descricaoDose": "25-50 mcg vaginal cada 4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mcg cada 4-6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Vaginal",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Aborto incompleto/retenido",
+          "descricaoDose": "400-800 mcg vaginal o sublingual",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "400-800 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Vaginal/Sublingual",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Uterotónico / Prostaglandina E1 (análogo sintético)",
+      "apresentacoes": [
+        { "forma": "Comprimidos vaginales 25 mcg", "obs": "Inducción/maduración" },
+        { "forma": "Comprimidos vaginales 200 mcg", "obs": "HPP, aborto" },
+        { "forma": "Comprimidos orales/sublinguales 200 mcg", "obs": "Cytotec®" }
+      ],
+      "preparo": [
+        { "diluicao": "Comprimido - no requiere dilución", "concentracao": "Uso directo" }
+      ],
+      "observacoes": [
+        "Uso exclusivamente obstétrico",
+        "Termoestable (ventaja en climas cálidos)",
+        "Monitorizar dinámica uterina continuamente",
+        "Intervalo mínimo 4-6h entre dosis",
+        "Contraindicación absoluta: cesárea previa o cicatriz uterina (riesgo de rotura)",
+        "Vía rectal en HPP: absorción más lenta, duración mayor"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Uso obstétrico en edad fértil.",
+        "renal": "No requiere ajuste de dosis. Metabolismo independiente de la función renal.",
+        "hepatico": "No requiere ajuste de dosis. Usar con precaución en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Misoprostol - HPP",
+        "doseTexto": "800-1000 mcg rectal o sublingual",
+        "doseMin": 800,
+        "doseMax": 1000,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "800-1000 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Misoprostol - Inducción vaginal",
+        "doseTexto": "25 mcg vaginal cada 6h (máx 150 mcg/día)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "25 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Misoprostol - Inducción oral",
+        "doseTexto": "25-50 mcg VO cada 4h",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Misoprostol - Maduración cervical",
+        "doseTexto": "25-50 mcg vaginal cada 4-6h",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Misoprostol - Aborto incompleto",
+        "doseTexto": "400-800 mcg vaginal o sublingual",
+        "doseMin": 400,
+        "doseMax": 800,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "米索前列醇",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "产后出血 (HPP)",
+          "descricaoDose": "800-1000 mcg 直肠或舌下",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 800,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "800-1000 mcg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "直肠/舌下",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "引产（阴道）",
+          "descricaoDose": "25 mcg 阴道每6小时（最大150 mcg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "25 mcg 每6h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "阴道",
+            "intervalo": "每6小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "引产（口服）",
+          "descricaoDose": "25-50 mcg 口服每4小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mcg 每4h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每4小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "宫颈成熟",
+          "descricaoDose": "25-50 mcg 阴道每4-6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mcg 每4-6h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "阴道",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "不全/稽留流产",
+          "descricaoDose": "400-800 mcg 阴道或舌下",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "400-800 mcg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "阴道/舌下",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "子宫收缩剂 / 前列腺素E1（合成类似物）",
+      "apresentacoes": [
+        { "forma": "阴道片 25 mcg", "obs": "引产/成熟" },
+        { "forma": "阴道片 200 mcg", "obs": "产后出血、流产" },
+        { "forma": "口服/舌下片 200 mcg", "obs": "Cytotec®" }
+      ],
+      "preparo": [
+        { "diluicao": "片剂 - 无需稀释", "concentracao": "直接使用" }
+      ],
+      "observacoes": [
+        "仅用于产科",
+        "热稳定（炎热地区优势）",
+        "持续监测子宫动力学",
+        "剂量间隔至少4-6小时",
+        "绝对禁忌：既往剖宫产或子宫瘢痕（破裂风险）",
+        "产后出血直肠给药：吸收较慢，持续时间较长"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。产科用于育龄期。",
+        "renal": "无需调整剂量。代谢不依赖肾功能。",
+        "hepatico": "无需调整剂量。严重肝功能不全时谨慎使用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "米索前列醇 - 产后出血",
+        "doseTexto": "800-1000 mcg 直肠或舌下",
+        "doseMin": 800,
+        "doseMax": 1000,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "800-1000 mcg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "米索前列醇 - 阴道引产",
+        "doseTexto": "25 mcg 阴道每6小时（最大150 mcg/天）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "25 mcg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "米索前列醇 - 口服引产",
+        "doseTexto": "25-50 mcg 口服每4小时",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "米索前列醇 - 宫颈成熟",
+        "doseTexto": "25-50 mcg 阴道每4-6小时",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "米索前列醇 - 不全流产",
+        "doseTexto": "400-800 mcg 阴道或舌下",
+        "doseMin": 400,
+        "doseMax": 800,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

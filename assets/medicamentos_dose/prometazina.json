@@ -1,0 +1,942 @@
+{
+  "PT": {
+    "nome": "Prometazina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "CONTRAINDICADO em menores de 2 anos",
+          "descricaoDose": "Risco de depressão respiratória fatal. Ver observações.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Contraindicado - ver observações",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "",
+            "intervalo": "",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação (> 2 anos)",
+          "descricaoDose": "0,25-0,5 mg/kg IV/IM (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Náusea/Vômito (pediátrico)",
+          "descricaoDose": "0,25-0,5 mg/kg IV/IM (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Alergia/Prurido (pediátrico)",
+          "descricaoDose": "0,1 mg/kg VO/IM (máx 12,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO/IM",
+            "intervalo": "conforme necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação",
+          "descricaoDose": "12,5-25 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Agitação leve",
+          "descricaoDose": "25-50 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Náusea/Vômito",
+          "descricaoDose": "12,5-25 mg IV/IM a cada 4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pré-medicação",
+          "descricaoDose": "25-50 mg IM 1h antes",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1h antes do procedimento",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anti-histamínico (fenotiazina) - Antagonista H1, anticolinérgico",
+      "apresentacoes": [
+        { "forma": "Ampola 25 mg/mL (2 mL)", "obs": "IV/IM" },
+        { "forma": "Comprimido 25 mg", "obs": "Via oral" },
+        { "forma": "Xarope 5 mg/5 mL", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IM: administrar profundamente (preferencial)", "concentracao": "25 mg/mL" },
+        { "diluicao": "IV: diluir em 10-20 mL de SF", "concentracao": "Infundir lento (> 5 min)" },
+        { "diluicao": "EVITAR extravasamento (necrose tissular)", "concentracao": "" },
+        { "diluicao": "NUNCA administrar SC ou intra-arterial", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Início IV: 3-5 min | Início IM: 20 min | Duração: 4-6h",
+        "SEDAÇÃO INTENSA - útil para ansiedade e insônia",
+        "Efeito anticolinérgico: boca seca, retenção urinária",
+        "EVITAR em menores de 2 anos (risco de depressão respiratória)",
+        "Risco de síndrome neuroléptica maligna",
+        "Pode causar hipotensão e prolongamento QT"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir 50% (6,25-12,5 mg). Sedação intensa, maior sensibilidade.",
+        "renal": "Não requer ajuste.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Prometazina (adulto) - Sedação",
+        "doseTexto": "12,5-25 mg IV/IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prometazina (adulto) - Náusea",
+        "doseTexto": "12,5-25 mg VO",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prometazina (pediátrico)",
+        "doseTexto": "0,25-0,5 mg/kg IV/IM (máx 25 mg)",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Promethazine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "CONTRAINDICATED under 2 years",
+          "descricaoDose": "Risk of fatal respiratory depression. See observations.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Contraindicated - see observations",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "",
+            "intervalo": "",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedation (> 2 years)",
+          "descricaoDose": "0.25-0.5 mg/kg IV/IM (max 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Nausea/Vomiting (pediatric)",
+          "descricaoDose": "0.25-0.5 mg/kg IV/IM (max 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Allergy/Pruritus (pediatric)",
+          "descricaoDose": "0.1 mg/kg PO/IM (max 12.5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO/IM",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedation",
+          "descricaoDose": "12.5-25 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mild agitation",
+          "descricaoDose": "25-50 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Nausea/Vomiting",
+          "descricaoDose": "12.5-25 mg IV/IM every 4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Premedication",
+          "descricaoDose": "25-50 mg IM 1h before",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "1h before procedure",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Phenothiazine antihistamine - H1 antagonist, anticholinergic",
+      "apresentacoes": [
+        { "forma": "Ampoule 25 mg/mL (2 mL)", "obs": "IV/IM" },
+        { "forma": "Tablet 25 mg", "obs": "Oral" },
+        { "forma": "Syrup 5 mg/5 mL", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IM: inject deeply (preferred)", "concentracao": "25 mg/mL" },
+        { "diluicao": "IV: dilute in 10-20 mL NS", "concentracao": "Infuse slowly (> 5 min)" },
+        { "diluicao": "AVOID extravasation (tissue necrosis)", "concentracao": "" },
+        { "diluicao": "NEVER give SC or intra-arterial", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Onset IV: 3-5 min | Onset IM: 20 min | Duration: 4-6h",
+        "MARKED SEDATION - useful for anxiety and insomnia",
+        "Anticholinergic effect: dry mouth, urinary retention",
+        "AVOID in children under 2 years (respiratory depression risk)",
+        "Risk of neuroleptic malignant syndrome",
+        "May cause hypotension and QT prolongation"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce 50% (6.25-12.5 mg). Marked sedation, greater sensitivity.",
+        "renal": "No adjustment required.",
+        "hepatico": "Use with caution in severe hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Promethazine (adult) - Sedation",
+        "doseTexto": "12.5-25 mg IV/IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12.5-25 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Promethazine (adult) - Nausea",
+        "doseTexto": "12.5-25 mg PO",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12.5-25 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Promethazine (pediatric)",
+        "doseTexto": "0.25-0.5 mg/kg IV/IM (max 25 mg)",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Prometazina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "CONTRAINDICADO en menores de 2 años",
+          "descricaoDose": "Riesgo de depresión respiratoria fatal. Ver observaciones.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Contraindicado - ver observaciones",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "",
+            "intervalo": "",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedación (> 2 años)",
+          "descricaoDose": "0,25-0,5 mg/kg IV/IM (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Náusea/Vómito (pediátrico)",
+          "descricaoDose": "0,25-0,5 mg/kg IV/IM (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Alergia/Prurito (pediátrico)",
+          "descricaoDose": "0,1 mg/kg VO/IM (máx 12,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO/IM",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedación",
+          "descricaoDose": "12,5-25 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Agitación leve",
+          "descricaoDose": "25-50 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Náusea/Vómito",
+          "descricaoDose": "12,5-25 mg IV/IM cada 4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Premedicación",
+          "descricaoDose": "25-50 mg IM 1h antes",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1h antes del procedimiento",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antihistamínico (fenotiazina) - Antagonista H1, anticolinérgico",
+      "apresentacoes": [
+        { "forma": "Ampolla 25 mg/mL (2 mL)", "obs": "IV/IM" },
+        { "forma": "Comprimido 25 mg", "obs": "Vía oral" },
+        { "forma": "Jarabe 5 mg/5 mL", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IM: administrar profundamente (preferencial)", "concentracao": "25 mg/mL" },
+        { "diluicao": "IV: diluir en 10-20 mL de SF", "concentracao": "Infundir lento (> 5 min)" },
+        { "diluicao": "EVITAR extravasación (necrosis tisular)", "concentracao": "" },
+        { "diluicao": "NUNCA administrar SC o intra-arterial", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Inicio IV: 3-5 min | Inicio IM: 20 min | Duración: 4-6h",
+        "SEDACIÓN INTENSA - útil para ansiedad e insomnio",
+        "Efecto anticolinérgico: boca seca, retención urinaria",
+        "EVITAR en menores de 2 años (riesgo de depresión respiratoria)",
+        "Riesgo de síndrome neuroléptico maligno",
+        "Puede causar hipotensión y prolongación QT"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir 50% (6,25-12,5 mg). Sedación intensa, mayor sensibilidad.",
+        "renal": "No requiere ajuste.",
+        "hepatico": "Usar con cautela en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Prometazina (adulto) - Sedación",
+        "doseTexto": "12,5-25 mg IV/IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prometazina (adulto) - Náusea",
+        "doseTexto": "12,5-25 mg VO",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prometazina (pediátrico)",
+        "doseTexto": "0,25-0,5 mg/kg IV/IM (máx 25 mg)",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "异丙嗪",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "2岁以下禁用",
+          "descricaoDose": "呼吸抑制致命风险。见观察项。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "禁用 - 见观察项",
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "",
+            "intervalo": "",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "镇静 (> 2岁)",
+          "descricaoDose": "0.25-0.5 mg/kg 静注/肌注（最大 25 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "恶心/呕吐（儿童）",
+          "descricaoDose": "0.25-0.5 mg/kg 静注/肌注（最大 25 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "过敏/瘙痒（儿童）",
+          "descricaoDose": "0.1 mg/kg 口服/肌注（最大 12.5 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12.5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "PO/IM",
+            "intervalo": "按需",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "镇静",
+          "descricaoDose": "12.5-25 mg 静注/肌注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "轻度激越",
+          "descricaoDose": "25-50 mg 静注/肌注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "恶心/呕吐",
+          "descricaoDose": "12.5-25 mg 静注/肌注 每4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "术前用药",
+          "descricaoDose": "25-50 mg 肌注 术前1h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "术前1h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "吩噻嗪抗组胺药 - H1拮抗剂，抗胆碱药",
+      "apresentacoes": [
+        { "forma": "安瓿 25 mg/mL (2 mL)", "obs": "静注/肌注" },
+        { "forma": "片剂 25 mg", "obs": "口服" },
+        { "forma": "糖浆 5 mg/5 mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "肌注：深部注射（首选）", "concentracao": "25 mg/mL" },
+        { "diluicao": "静注：10-20 mL生理盐水稀释", "concentracao": "缓慢输注（> 5分钟）" },
+        { "diluicao": "避免外渗（组织坏死）", "concentracao": "" },
+        { "diluicao": "切勿皮下或动脉内给药", "concentracao": "" }
+      ],
+      "observacoes": [
+        "静注起效：3-5分钟 | 肌注起效：20分钟 | 持续：4-6小时",
+        "强镇静 - 用于焦虑和失眠",
+        "抗胆碱作用：口干、尿潴留",
+        "2岁以下禁用（呼吸抑制风险）",
+        "神经阻滞剂恶性综合征风险",
+        "可致低血压和QT延长"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量50%（6.25-12.5 mg）。强镇静，敏感性增加。",
+        "renal": "无需调整。",
+        "hepatico": "严重肝病慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "异丙嗪（成人）- 镇静",
+        "doseTexto": "12.5-25 mg 静注/肌注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12.5-25 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "异丙嗪（成人）- 恶心",
+        "doseTexto": "12.5-25 mg 口服",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12.5-25 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "异丙嗪（儿童）",
+        "doseTexto": "0.25-0.5 mg/kg 静注/肌注（最大 25 mg）",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

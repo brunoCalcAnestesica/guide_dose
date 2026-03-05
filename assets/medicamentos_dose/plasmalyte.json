@@ -1,0 +1,606 @@
+{
+  "PT": {
+    "nome": "Plasma-Lyte",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reposição volêmica (bolus)",
+          "descricaoDose": "500-1000 mL IV conforme status hemodinâmico",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500-1000 mL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus conforme necessidade",
+            "ajusteRenal": "IRC/oligúria: reduzir volume e monitorar K⁺ e Mg²⁺",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção hidratação",
+          "descricaoDose": "25-40 mL/kg/dia IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 32,
+            "doseMin": 25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "manutenção diária",
+            "ajusteRenal": "IRC/oligúria: reduzir volume e monitorar K⁺ e Mg²⁺",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reposição volêmica (bolus) pediátrico",
+          "descricaoDose": "10-20 mL/kg IV em hipovolemia aguda",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus conforme necessidade",
+            "ajusteRenal": "IRC/oligúria: reduzir volume e monitorar K⁺ e Mg²⁺",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção pediátrica (regra 4:2:1)",
+          "descricaoDose": "Até 10 kg: 4 mL/kg/h; 10-20 kg: 2 mL/kg/h; acima 20 kg: 1 mL/kg/h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 2,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua (mL/h)",
+            "ajusteRenal": "IRC/oligúria: reduzir volume e monitorar K⁺ e Mg²⁺",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Solução cristaloide balanceada isotônica; repositor volêmico e eletrolítico",
+      "apresentacoes": [
+        { "forma": "Bolsa 250 mL, 500 mL, 1000 mL (PVC, livre de DEHP)", "obs": "Pronta para uso" },
+        { "forma": "Composição", "obs": "Na⁺ 140, K⁺ 5, Mg²⁺ 3, Cl⁻ 98, acetato 27, gluconato 23 mEq/L" },
+        { "forma": "Osmolaridade", "obs": "294 mOsm/L (isotônica)" }
+      ],
+      "preparo": [
+        { "diluicao": "Solução pronta para uso", "concentracao": "Não requer diluição" },
+        { "diluicao": "Técnica asséptica na conexão", "concentracao": "Não adicionar medicamentos sem verificar compatibilidade" }
+      ],
+      "observacoes": [
+        "Evita acidose hiperclorêmica em comparação ao SF 0,9%",
+        "Monitorar K⁺ e Mg²⁺ em insuficiência renal ou infusões prolongadas",
+        "Contraindicado em hipercalemia conhecida (>5,5 mEq/L)",
+        "Preferível ao SF 0,9% em pacientes críticos (sepse, politrauma)",
+        "Incompatível com fosfato, cálcio concentrado e bicarbonato na mesma via",
+        "Manutenção mínima orientativa: ~25-30 mL/kg/dia (1000-1500 mL/dia)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar volemia e função cardíaca. Risco de sobrecarga; avaliar balanço hídrico.",
+        "renal": "Reduzir volume e controlar K⁺ e Mg²⁺ em oligúria, anúria ou IRC. Evitar em insuficiência renal grave sem diálise.",
+        "hepatico": "Não requer ajuste na maioria dos casos. Em hepatopatia grave, monitorar bicarbonato (conversão de acetato pode estar reduzida)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Plasma-Lyte - Reposição (adulto)",
+        "doseTexto": "500-1000 mL IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mL",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Plasma-Lyte - Manutenção (adulto)",
+        "doseTexto": "25-40 mL/kg/dia IV",
+        "doseMin": 25,
+        "doseMax": 40,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Plasma-Lyte - Reposição (pediátrico)",
+        "doseTexto": "10-20 mL/kg IV bolus",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Plasma-Lyte - Manutenção 4:2:1 (pediátrico)",
+        "doseTexto": "4:2:1 mL/kg/h conforme peso",
+        "doseMin": 1,
+        "doseMax": 4,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Plasma-Lyte",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Volume replacement (bolus)",
+          "descricaoDose": "500-1000 mL IV according to hemodynamic status",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500-1000 mL",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "bolus as needed",
+            "ajusteRenal": "CKD/oliguria: reduce volume and monitor K⁺ and Mg²⁺",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance hydration",
+          "descricaoDose": "25-40 mL/kg/day IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 32,
+            "doseMin": 25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "daily maintenance",
+            "ajusteRenal": "CKD/oliguria: reduce volume and monitor K⁺ and Mg²⁺",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Volume replacement (bolus) pediatric",
+          "descricaoDose": "10-20 mL/kg IV in acute hypovolemia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "bolus as needed",
+            "ajusteRenal": "CKD/oliguria: reduce volume and monitor K⁺ and Mg²⁺",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric maintenance (4:2:1 rule)",
+          "descricaoDose": "First 10 kg: 4 mL/kg/h; 10-20 kg: 2 mL/kg/h; above 20 kg: 1 mL/kg/h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 2,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion (mL/h)",
+            "ajusteRenal": "CKD/oliguria: reduce volume and monitor K⁺ and Mg²⁺",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Balanced isotonic crystalloid solution; volume and electrolyte replacement",
+      "apresentacoes": [
+        { "forma": "Bag 250 mL, 500 mL, 1000 mL (PVC, DEHP-free)", "obs": "Ready to use" },
+        { "forma": "Composition", "obs": "Na⁺ 140, K⁺ 5, Mg²⁺ 3, Cl⁻ 98, acetate 27, gluconate 23 mEq/L" },
+        { "forma": "Osmolality", "obs": "294 mOsm/L (isotonic)" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready-to-use solution", "concentracao": "No dilution required" },
+        { "diluicao": "Aseptic technique when connecting", "concentracao": "Do not add medications without checking compatibility" }
+      ],
+      "observacoes": [
+        "Avoids hyperchloremic acidosis compared to 0.9% NS",
+        "Monitor K⁺ and Mg²⁺ in renal insufficiency or prolonged infusions",
+        "Contraindicated in known hyperkalemia (>5.5 mEq/L)",
+        "Preferred over 0.9% NS in critical patients (sepsis, polytrauma)",
+        "Incompatible with phosphate, concentrated calcium and bicarbonate in same line",
+        "Minimum maintenance guide: ~25-30 mL/kg/day (1000-1500 mL/day)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor volume status and cardiac function. Risk of fluid overload; assess fluid balance.",
+        "renal": "Reduce volume and control K⁺ and Mg²⁺ in oliguria, anuria or CKD. Avoid in severe renal failure without dialysis.",
+        "hepatico": "No adjustment required in most cases. In severe liver disease, monitor bicarbonate (acetate conversion may be reduced)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Plasma-Lyte - Replacement (adult)",
+        "doseTexto": "500-1000 mL IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mL",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Plasma-Lyte - Maintenance (adult)",
+        "doseTexto": "25-40 mL/kg/day IV",
+        "doseMin": 25,
+        "doseMax": 40,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Plasma-Lyte - Replacement (pediatric)",
+        "doseTexto": "10-20 mL/kg IV bolus",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Plasma-Lyte - Maintenance 4:2:1 (pediatric)",
+        "doseTexto": "4:2:1 mL/kg/h by weight",
+        "doseMin": 1,
+        "doseMax": 4,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Plasma-Lyte",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reposición volémica (bolus)",
+          "descricaoDose": "500-1000 mL IV según estado hemodinámico",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500-1000 mL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus según necesidad",
+            "ajusteRenal": "IRC/oliguria: reducir volumen y monitorizar K⁺ y Mg²⁺",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento hidratación",
+          "descricaoDose": "25-40 mL/kg/día IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 32,
+            "doseMin": 25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "mantenimiento diario",
+            "ajusteRenal": "IRC/oliguria: reducir volumen y monitorizar K⁺ y Mg²⁺",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Reposición volémica (bolus) pediátrico",
+          "descricaoDose": "10-20 mL/kg IV en hipovolemia aguda",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus según necesidad",
+            "ajusteRenal": "IRC/oliguria: reducir volumen y monitorizar K⁺ y Mg²⁺",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento pediátrico (regla 4:2:1)",
+          "descricaoDose": "Hasta 10 kg: 4 mL/kg/h; 10-20 kg: 2 mL/kg/h; más de 20 kg: 1 mL/kg/h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 2,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua (mL/h)",
+            "ajusteRenal": "IRC/oliguria: reducir volumen y monitorizar K⁺ y Mg²⁺",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Solución cristaloide balanceada isotónica; reemplazador volémico y electrolítico",
+      "apresentacoes": [
+        { "forma": "Bolsa 250 mL, 500 mL, 1000 mL (PVC, libre de DEHP)", "obs": "Lista para usar" },
+        { "forma": "Composición", "obs": "Na⁺ 140, K⁺ 5, Mg²⁺ 3, Cl⁻ 98, acetato 27, gluconato 23 mEq/L" },
+        { "forma": "Osmolaridad", "obs": "294 mOsm/L (isotónica)" }
+      ],
+      "preparo": [
+        { "diluicao": "Solución lista para usar", "concentracao": "No requiere dilución" },
+        { "diluicao": "Técnica aséptica en la conexión", "concentracao": "No añadir medicamentos sin comprobar compatibilidad" }
+      ],
+      "observacoes": [
+        "Evita acidosis hiperclorémica en comparación con SF 0,9%",
+        "Monitorizar K⁺ y Mg²⁺ en insuficiencia renal o infusiones prolongadas",
+        "Contraindicado en hipercalemia conocida (>5,5 mEq/L)",
+        "Preferible al SF 0,9% en pacientes críticos (sepsis, politrauma)",
+        "Incompatible con fosfato, calcio concentrado y bicarbonato en la misma vía",
+        "Mantenimiento mínimo orientativo: ~25-30 mL/kg/día (1000-1500 mL/día)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar volemia y función cardíaca. Riesgo de sobrecarga; valorar balance hídrico.",
+        "renal": "Reducir volumen y controlar K⁺ y Mg²⁺ en oliguria, anuria o IRC. Evitar en insuficiencia renal grave sin diálisis.",
+        "hepatico": "No requiere ajuste en la mayoría de los casos. En hepatopatía grave, monitorizar bicarbonato (la conversión de acetato puede estar reducida)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Plasma-Lyte - Reposición (adulto)",
+        "doseTexto": "500-1000 mL IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mL",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Plasma-Lyte - Mantenimiento (adulto)",
+        "doseTexto": "25-40 mL/kg/día IV",
+        "doseMin": 25,
+        "doseMax": 40,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Plasma-Lyte - Reposición (pediátrico)",
+        "doseTexto": "10-20 mL/kg IV bolus",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Plasma-Lyte - Mantenimiento 4:2:1 (pediátrico)",
+        "doseTexto": "4:2:1 mL/kg/h según peso",
+        "doseMin": 1,
+        "doseMax": 4,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "勃脉力",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "容量复苏（推注）",
+          "descricaoDose": "500-1000 mL IV 根据血流动力学状态",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500-1000 mL",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按需推注",
+            "ajusteRenal": "慢性肾病/少尿：减量并监测K⁺、Mg²⁺",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "维持补液",
+          "descricaoDose": "25-40 mL/kg/日 IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 32,
+            "doseMin": 25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日维持",
+            "ajusteRenal": "慢性肾病/少尿：减量并监测K⁺、Mg²⁺",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童容量复苏（推注）",
+          "descricaoDose": "急性低血容量时 10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按需推注",
+            "ajusteRenal": "慢性肾病/少尿：减量并监测K⁺、Mg²⁺",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童维持（4:2:1 规则）",
+          "descricaoDose": "首10 kg：4 mL/kg/h；10-20 kg：2 mL/kg/h；20 kg以上：1 mL/kg/h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 2,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注（mL/h）",
+            "ajusteRenal": "慢性肾病/少尿：减量并监测K⁺、Mg²⁺",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "平衡晶体液；容量与电解质补充剂",
+      "apresentacoes": [
+        { "forma": "袋装 250 mL、500 mL、1000 mL（PVC，无DEHP）", "obs": "即用型" },
+        { "forma": "成分", "obs": "Na⁺ 140、K⁺ 5、Mg²⁺ 3、Cl⁻ 98、醋酸 27、葡萄糖酸 23 mEq/L" },
+        { "forma": "渗透压", "obs": "294 mOsm/L（等渗）" }
+      ],
+      "preparo": [
+        { "diluicao": "即用溶液", "concentracao": "无需稀释" },
+        { "diluicao": "连接时无菌操作", "concentracao": "未确认相容性勿添加药物" }
+      ],
+      "observacoes": [
+        "与0.9%生理盐水相比可避免高氯性酸中毒",
+        "肾功能不全或长时间输注时监测K⁺、Mg²⁺",
+        "已知高钾血症（>5.5 mEq/L）禁用",
+        "危重患者（脓毒症、多发伤）首选于0.9%生理盐水",
+        "同路禁与磷酸盐、浓钙、碳酸氢盐合用",
+        "最低维持参考：约25-30 mL/kg/日（1000-1500 mL/日）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测容量与心功能。存在负荷过重风险；评估液体平衡。",
+        "renal": "少尿、无尿或慢性肾病时减量并控制K⁺、Mg²⁺。严重肾衰未透析时避免使用。",
+        "hepatico": "多数情况无需调整。严重肝病时监测碳酸氢盐（醋酸转化可能降低）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "勃脉力 - 复苏（成人）",
+        "doseTexto": "500-1000 mL IV 推注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mL",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "勃脉力 - 维持（成人）",
+        "doseTexto": "25-40 mL/kg/日 IV",
+        "doseMin": 25,
+        "doseMax": 40,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "勃脉力 - 复苏（儿童）",
+        "doseTexto": "10-20 mL/kg IV 推注",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "勃脉力 - 维持 4:2:1（儿童）",
+        "doseTexto": "按体重 4:2:1 mL/kg/h",
+        "doseMin": 1,
+        "doseMax": 4,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,8 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Card } from '../../components/ui/Card'
 import { Badge } from '../../components/ui/Badge'
 import { Button } from '../../components/ui/Button'
-import { mockFeedbacks } from '../../mocks/data'
+import { adminQuery } from '../../lib/api'
 import type { Feedback } from '../../types'
 
 const statusColors: Record<Feedback['status'], 'warning' | 'info' | 'success'> = {
@@ -18,11 +18,36 @@ const statusLabels: Record<Feedback['status'], string> = {
 }
 
 export default function AdminFeedback() {
-  const [feedbacks, setFeedbacks] = useState(mockFeedbacks)
+  const [feedbacks, setFeedbacks] = useState<Feedback[]>([])
+  const [loading, setLoading] = useState(true)
 
-  const changeStatus = (id: string, status: Feedback['status']) => {
+  const fetchFeedbacks = useCallback(async () => {
+    setLoading(true)
+    const { data } = await adminQuery<Feedback[]>('feedback', {
+      order: 'created_at.desc',
+      select: '*',
+    })
+    setFeedbacks(data ?? [])
+    setLoading(false)
+  }, [])
+
+  useEffect(() => { fetchFeedbacks() }, [fetchFeedbacks])
+
+  const changeStatus = async (id: string, status: Feedback['status']) => {
+    const headers: Record<string, string> = { 'Content-Type': 'application/json' }
+    const token = localStorage.getItem('gd_access_token')
+    if (token) headers['Authorization'] = `Bearer ${token}`
+
+    await fetch(`/.netlify/functions/api?table=feedback&id=eq.${id}`, {
+      method: 'PATCH',
+      headers,
+      body: JSON.stringify({ status }),
+    })
+
     setFeedbacks(prev => prev.map(f => f.id === id ? { ...f, status } : f))
   }
+
+  if (loading) return <p className="text-sm text-gray-500">Carregando feedbacks...</p>
 
   return (
     <div className="space-y-6">
@@ -43,32 +68,38 @@ export default function AdminFeedback() {
         </Card>
       </div>
 
-      <div className="space-y-4">
-        {feedbacks.map(fb => (
-          <Card key={fb.id}>
-            <div className="flex items-start justify-between">
-              <div>
-                <div className="flex items-center gap-2">
-                  <Badge variant={fb.tipo === 'bug' ? 'danger' : fb.tipo === 'sugestao' ? 'info' : 'success'}>
-                    {fb.tipo}
-                  </Badge>
-                  <Badge variant={statusColors[fb.status]}>{statusLabels[fb.status]}</Badge>
+      {feedbacks.length === 0 ? (
+        <Card>
+          <p className="py-8 text-center text-sm text-gray-400">Nenhum feedback recebido ainda.</p>
+        </Card>
+      ) : (
+        <div className="space-y-4">
+          {feedbacks.map(fb => (
+            <Card key={fb.id}>
+              <div className="flex items-start justify-between">
+                <div>
+                  <div className="flex items-center gap-2">
+                    <Badge variant={fb.tipo === 'bug' ? 'danger' : fb.tipo === 'sugestao' ? 'info' : 'success'}>
+                      {fb.tipo}
+                    </Badge>
+                    <Badge variant={statusColors[fb.status]}>{statusLabels[fb.status]}</Badge>
+                  </div>
+                  <p className="mt-2 text-sm text-gray-700">{fb.mensagem}</p>
+                  <p className="mt-1 text-xs text-gray-400">{fb.user_email} &middot; {new Date(fb.created_at).toLocaleDateString('pt-BR')}</p>
                 </div>
-                <p className="mt-2 text-sm text-gray-700">{fb.mensagem}</p>
-                <p className="mt-1 text-xs text-gray-400">{fb.userEmail} &middot; {new Date(fb.data).toLocaleDateString('pt-BR')}</p>
+                <div className="flex gap-1">
+                  {fb.status !== 'em_analise' && (
+                    <Button size="sm" variant="secondary" onClick={() => changeStatus(fb.id, 'em_analise')}>Analisar</Button>
+                  )}
+                  {fb.status !== 'resolvido' && (
+                    <Button size="sm" variant="secondary" onClick={() => changeStatus(fb.id, 'resolvido')}>Resolver</Button>
+                  )}
+                </div>
               </div>
-              <div className="flex gap-1">
-                {fb.status !== 'em_analise' && (
-                  <Button size="sm" variant="secondary" onClick={() => changeStatus(fb.id, 'em_analise')}>Analisar</Button>
-                )}
-                {fb.status !== 'resolvido' && (
-                  <Button size="sm" variant="secondary" onClick={() => changeStatus(fb.id, 'resolvido')}>Resolver</Button>
-                )}
-              </div>
-            </div>
-          </Card>
-        ))}
-      </div>
+            </Card>
+          ))}
+        </div>
+      )}
     </div>
   )
 }

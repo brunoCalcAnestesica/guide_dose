@@ -1,0 +1,47 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Site React — Vite (atualiza ao salvar)",
+      "request": "launch",
+      "type": "pwa-chrome",
+      "url": "http://localhost:5173",
+      "preLaunchTask": "GuideDose Web: servidor de desenvolvimento",
+      "webRoot": "${workspaceFolder}/auth/src"
+    },
+    {
+      "name": "Site React — preview + hot reload (USE ESTE)",
+      "request": "launch",
+      "type": "pwa-chrome",
+      "url": "http://localhost:8888",
+      "preLaunchTask": "GuideDose Web: Netlify Dev (site + functions)",
+      "webRoot": "${workspaceFolder}/auth/src"
+    },
+    {
+      "name": "Abrir preview (Netlify Dev já rodando)",
+      "request": "launch",
+      "type": "pwa-chrome",
+      "url": "http://localhost:8888",
+      "webRoot": "${workspaceFolder}/auth/src"
+    },
+    {
+      "name": "GuideDose Web (produção)",
+      "request": "launch",
+      "type": "pwa-chrome",
+      "url": "https://www.guidedose.com.br"
+    },
+    {
+      "name": "Flutter (Chrome)",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart",
+      "args": ["-d", "chrome"]
+    },
+    {
+      "name": "Flutter",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main.dart"
+    }
+  ]
+}

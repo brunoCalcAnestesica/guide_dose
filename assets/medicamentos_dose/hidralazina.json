@@ -1,0 +1,686 @@
+{
+  "PT": {
+    "nome": "Hidralazina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Emergência hipertensiva",
+          "descricaoDose": "5-10 mg IV a cada 20-30 min (máx 20-40 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "5-10 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 20-30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pré-eclâmpsia / Eclâmpsia",
+          "descricaoDose": "5 mg IV inicial, depois 5-10 mg a cada 20 min (máx 20 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": "5 mg inicial → 5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 20 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção VO",
+          "descricaoDose": "10-50 mg VO 3-4x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "10-50 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3-4x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Bolus",
+          "descricaoDose": "0,1-0,2 mg/kg IV a cada 4-6h (máx 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – VO",
+          "descricaoDose": "0,75-1 mg/kg/dia em 4 doses (máx 200 mg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vasodilatador arteriolar direto",
+      "apresentacoes": [
+        { "forma": "Solução injetável 20 mg/mL", "obs": "1 mL" },
+        { "forma": "Comprimido", "obs": "25 mg, 50 mg - Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: diluir em 10-20 mL SF", "concentracao": "1-2 mg/mL" },
+        { "diluicao": "Administrar IV lento em 1-2 min", "concentracao": "" },
+        { "diluicao": "Compatível com SF e SG 5%", "concentracao": "" },
+        { "diluicao": "Usar imediatamente após diluição", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Seguro na gestação – opção para pré-eclâmpsia",
+        "Causa taquicardia reflexa (associar beta-bloqueador se necessário)",
+        "Evitar em dissecção aórtica, IAM, aneurisma aórtico",
+        "Início de ação imprevisível (10-30 min)",
+        "Síndrome lúpus-like no uso crônico (dose >200 mg/dia)",
+        "Monitorar PA a cada 5-15 min"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com doses menores; monitorar hipotensão e taquicardia reflexa.",
+        "renal": "Não requer ajuste de dose na insuficiência renal. Metabolismo hepático; excreção renal.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave (metabolismo por N-acetilação)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hidralazina (adulto – bolus)",
+        "doseTexto": "5-10 mg IV a cada 20-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidralazina (pré-eclâmpsia)",
+        "doseTexto": "5 mg IV, depois 5-10 mg a cada 20 min (máx 20 mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg inicial",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidralazina (pediátrico – bolus)",
+        "doseTexto": "0,1-0,2 mg/kg IV (máx 20 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hidralazina (pediátrico – VO)",
+        "doseTexto": "0,75-1 mg/kg/dia em 4 doses (máx 200 mg/dia)",
+        "doseMin": 0.75,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Hydralazine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypertensive emergency",
+          "descricaoDose": "5-10 mg IV every 20-30 min (max 20-40 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "5-10 mg IV",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 20-30 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Preeclampsia / Eclampsia",
+          "descricaoDose": "5 mg IV initial, then 5-10 mg every 20 min (max 20 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": "5 mg initial → 5-10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 20 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance PO",
+          "descricaoDose": "10-50 mg PO 3-4x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "10-50 mg PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "3-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric – Bolus",
+          "descricaoDose": "0.1-0.2 mg/kg IV every 4-6h (max 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric – PO",
+          "descricaoDose": "0.75-1 mg/kg/day in 4 doses (max 200 mg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Direct arteriolar vasodilator",
+      "apresentacoes": [
+        { "forma": "Injection 20 mg/mL", "obs": "1 mL" },
+        { "forma": "Tablet", "obs": "25 mg, 50 mg - Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: dilute in 10-20 mL NS", "concentracao": "1-2 mg/mL" },
+        { "diluicao": "Give IV slow over 1-2 min", "concentracao": "" },
+        { "diluicao": "Compatible with NS and D5W", "concentracao": "" },
+        { "diluicao": "Use immediately after dilution", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Safe in pregnancy – option for preeclampsia",
+        "Causes reflex tachycardia (add beta-blocker if needed)",
+        "Avoid in aortic dissection, MI, aortic aneurysm",
+        "Unpredictable onset (10-30 min)",
+        "Lupus-like syndrome with chronic use (>200 mg/day)",
+        "Monitor BP every 5-15 min"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with lower doses; monitor hypotension and reflex tachycardia.",
+        "renal": "No dose adjustment in renal impairment. Hepatic metabolism; renal excretion.",
+        "hepatico": "Use with caution in severe hepatic impairment (N-acetylation metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hydralazine (adult – bolus)",
+        "doseTexto": "5-10 mg IV every 20-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydralazine (preeclampsia)",
+        "doseTexto": "5 mg IV, then 5-10 mg every 20 min (max 20 mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg initial",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydralazine (pediatric – bolus)",
+        "doseTexto": "0.1-0.2 mg/kg IV (max 20 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Hydralazine (pediatric – PO)",
+        "doseTexto": "0.75-1 mg/kg/day in 4 doses (max 200 mg/day)",
+        "doseMin": 0.75,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Hidralazina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Emergencia hipertensiva",
+          "descricaoDose": "5-10 mg IV cada 20-30 min (máx 20-40 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "5-10 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 20-30 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Preeclampsia / Eclampsia",
+          "descricaoDose": "5 mg IV inicial, luego 5-10 mg cada 20 min (máx 20 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": "5 mg inicial → 5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 20 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento VO",
+          "descricaoDose": "10-50 mg VO 3-4x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "10-50 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3-4x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Bolus",
+          "descricaoDose": "0,1-0,2 mg/kg IV cada 4-6h (máx 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – VO",
+          "descricaoDose": "0,75-1 mg/kg/día en 4 dosis (máx 200 mg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vasodilatador arteriolar directo",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 20 mg/mL", "obs": "1 mL" },
+        { "forma": "Comprimido", "obs": "25 mg, 50 mg - Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: diluir en 10-20 mL SF", "concentracao": "1-2 mg/mL" },
+        { "diluicao": "Administrar IV lento en 1-2 min", "concentracao": "" },
+        { "diluicao": "Compatible con SF y SG 5%", "concentracao": "" },
+        { "diluicao": "Usar inmediatamente tras dilución", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Seguro en el embarazo – opción para preeclampsia",
+        "Causa taquicardia refleja (asociar betabloqueante si es necesario)",
+        "Evitar en disección aórtica, IAM, aneurisma aórtico",
+        "Inicio de acción impredecible (10-30 min)",
+        "Síndrome lupus-like con uso crónico (>200 mg/día)",
+        "Monitorizar PA cada 5-15 min"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis menores; monitorizar hipotensión y taquicardia refleja.",
+        "renal": "No requiere ajuste de dosis en insuficiencia renal. Metabolismo hepático; excreción renal.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave (metabolismo por N-acetilación)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hidralazina (adulto – bolus)",
+        "doseTexto": "5-10 mg IV cada 20-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidralazina (preeclampsia)",
+        "doseTexto": "5 mg IV, luego 5-10 mg cada 20 min (máx 20 mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg inicial",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidralazina (pediátrico – bolus)",
+        "doseTexto": "0,1-0,2 mg/kg IV (máx 20 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hidralazina (pediátrico – VO)",
+        "doseTexto": "0,75-1 mg/kg/día en 4 dosis (máx 200 mg/día)",
+        "doseMin": 0.75,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "肼屈嗪",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "高血压急症",
+          "descricaoDose": "5-10 mg IV 每20-30分钟（最大20-40 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "5-10 mg IV",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每20-30分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "子痫前期/子痫",
+          "descricaoDose": "5 mg IV 首剂，随后每20分钟 5-10 mg（最大20 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": "5 mg 首剂 → 5-10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每20分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "口服维持",
+          "descricaoDose": "10-50 mg 口服 每日3-4次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "10-50 mg 口服",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日3-4次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童 – 推注",
+          "descricaoDose": "0.1-0.2 mg/kg IV 每4-6小时（最大20 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童 – 口服",
+          "descricaoDose": "0.75-1 mg/kg/日 分4次（最大200 mg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日4次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "直接小动脉血管扩张剂",
+      "apresentacoes": [
+        { "forma": "注射液 20 mg/mL", "obs": "1 mL" },
+        { "forma": "片剂", "obs": "25 mg, 50 mg - 口服" }
+      ],
+      "preparo": [
+        { "diluicao": "推注：用10-20 mL生理盐水稀释", "concentracao": "1-2 mg/mL" },
+        { "diluicao": "IV缓慢推注1-2分钟", "concentracao": "" },
+        { "diluicao": "与生理盐水和5%葡萄糖兼容", "concentracao": "" },
+        { "diluicao": "稀释后立即使用", "concentracao": "" }
+      ],
+      "observacoes": [
+        "妊娠期安全 – 子痫前期选项",
+        "引起反射性心动过速（必要时联用β受体阻滞剂）",
+        "禁用于主动脉夹层、心梗、主动脉瘤",
+        "起效不可预测（10-30分钟）",
+        "长期使用可致狼疮样综合征（>200 mg/日）",
+        "每5-15分钟监测血压"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从小剂量开始；监测低血压和反射性心动过速。",
+        "renal": "肾功能不全无需调整剂量。肝脏代谢；肾脏排泄。",
+        "hepatico": "严重肝功能不全慎用（N-乙酰化代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "肼屈嗪 (成人 – 推注)",
+        "doseTexto": "5-10 mg IV 每20-30分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "肼屈嗪 (子痫前期)",
+        "doseTexto": "5 mg IV 首剂，随后每20分钟 5-10 mg（最大20 mg）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg 首剂",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "肼屈嗪 (儿童 – 推注)",
+        "doseTexto": "0.1-0.2 mg/kg IV（最大20 mg）",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "肼屈嗪 (儿童 – 口服)",
+        "doseTexto": "0.75-1 mg/kg/日 分4次（最大200 mg/日）",
+        "doseMin": 0.75,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

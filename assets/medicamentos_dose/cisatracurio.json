@@ -1,0 +1,954 @@
+{
+  "PT": {
+    "nome": "Cisatracúrio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intubação",
+          "descricaoDose": "0,15-0,2 mg/kg IV bolus (início 2-3 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção (bolus)",
+          "descricaoDose": "0,03 mg/kg IV quando T1 25% (duração 40-60 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.03,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme recuperação TOF",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão contínua",
+          "descricaoDose": "1-3 mcg/kg/min IV (inicial: 1-2 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intubação lactentes (1-23 meses)",
+          "descricaoDose": "0,15 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intubação crianças (2-12 anos)",
+          "descricaoDose": "0,1-0,15 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção (bolus) pediátrico",
+          "descricaoDose": "0,03 mg/kg IV conforme TOF",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.03,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme recuperação TOF",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão pediátrica",
+          "descricaoDose": "1-2,5 mcg/kg/min IV (lactentes 1,5-2,5; crianças 1-2)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 2.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 1, "doseMax": 3 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2.5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg em 100 mL SF (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg em 100 mL SF (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "10 mg em 50 mL SF (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "100 mg em 100 mL SF (1000 mcg/mL)", "valor": 1000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador neuromuscular não despolarizante, ação intermediária, benzilisoquinolínico",
+      "apresentacoes": [
+        { "forma": "Ampola 2 mg/mL – 5 mL (10 mg)", "obs": "Nimbex®" },
+        { "forma": "Ampola 2 mg/mL – 10 mL (20 mg)", "obs": "Nimbex®" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: puro da ampola", "concentracao": "2 mg/mL (2000 mcg/mL)" },
+        { "diluicao": "100 mg + 100 mL SF/SG/RL", "concentracao": "1 mg/mL (1000 mcg/mL)" },
+        { "diluicao": "20 mg + 100 mL SF", "concentracao": "200 mcg/mL" },
+        { "diluicao": "10 mg + 100 mL SF", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Início: 2-3 min | Duração: 40-60 min | Recuperação 25%: 45-65 min",
+        "Degradação por reação de Hofmann (não enzimática) - não requer ajuste renal/hepático",
+        "Não libera histamina - menor risco de hipotensão/broncoespasmo vs atracúrio",
+        "Monitorização TOF obrigatória; incompatível com bicarbonato na mesma via",
+        "Potencializado por voláteis, aminoglicosídeos, Mg; prolongado em hipotermia/acidose",
+        "Conservar 2-8°C; estável 24h após diluição se refrigerado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar TOF e recuperação neuromuscular.",
+        "renal": "Não requer ajuste. Eliminação majoritariamente independente da função renal (reação de Hofmann).",
+        "hepatico": "Não requer ajuste em insuficiência leve a moderada. Leve prolongamento possível na grave, clinicamente pouco relevante."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cisatracúrio intubação (adulto)",
+        "doseTexto": "0,15-0,2 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cisatracúrio manutenção (adulto)",
+        "doseTexto": "0,03 mg/kg IV",
+        "doseMin": 0.03,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cisatracúrio intubação (pediátrico)",
+        "doseTexto": "0,1-0,15 mg/kg IV (lactentes 0,15)",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Cisatracúrio infusão",
+        "doseTexto": "1-3 mcg/kg/min (adulto); 1-2,5 mcg/kg/min (ped)",
+        "doseMin": 1,
+        "doseMax": 3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Cisatracurium",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intubation",
+          "descricaoDose": "0.15-0.2 mg/kg IV bolus (onset 2-3 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maintenance (bolus)",
+          "descricaoDose": "0.03 mg/kg IV when T1 25% (duration 40-60 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.03,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per TOF recovery",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Continuous infusion",
+          "descricaoDose": "1-3 mcg/kg/min IV (initial: 1-2 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intubation infants (1-23 months)",
+          "descricaoDose": "0.15 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intubation children (2-12 years)",
+          "descricaoDose": "0.1-0.15 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maintenance (bolus) pediatric",
+          "descricaoDose": "0.03 mg/kg IV per TOF",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.03,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per TOF recovery",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric infusion",
+          "descricaoDose": "1-2.5 mcg/kg/min IV (infants 1.5-2.5; children 1-2)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 2.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 1, "doseMax": 3 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2.5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg in 100 mL NS (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg in 100 mL NS (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "10 mg in 50 mL NS (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "100 mg in 100 mL NS (1000 mcg/mL)", "valor": 1000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Non-depolarizing neuromuscular blocker, intermediate-acting, benzylisoquinolinium",
+      "apresentacoes": [
+        { "forma": "Vial 2 mg/mL – 5 mL (10 mg)", "obs": "Nimbex®" },
+        { "forma": "Vial 2 mg/mL – 10 mL (20 mg)", "obs": "Nimbex®" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: undiluted from vial", "concentracao": "2 mg/mL (2000 mcg/mL)" },
+        { "diluicao": "100 mg + 100 mL NS/D5W/LR", "concentracao": "1 mg/mL (1000 mcg/mL)" },
+        { "diluicao": "20 mg + 100 mL NS", "concentracao": "200 mcg/mL" },
+        { "diluicao": "10 mg + 100 mL NS", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Onset: 2-3 min | Duration: 40-60 min | 25% recovery: 45-65 min",
+        "Hofmann degradation (non-enzymatic) - no renal/hepatic dose adjustment required",
+        "Does not release histamine - lower risk of hypotension/bronchospasm vs atracurium",
+        "TOF monitoring mandatory; incompatible with bicarbonate in same line",
+        "Potentiated by volatiles, aminoglycosides, Mg; prolonged in hypothermia/acidosis",
+        "Store 2-8°C; stable 24h after dilution if refrigerated"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor TOF and neuromuscular recovery.",
+        "renal": "No adjustment required. Elimination largely independent of renal function (Hofmann reaction).",
+        "hepatico": "No adjustment in mild to moderate insufficiency. Slight prolongation possible in severe, clinically minor."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cisatracurium intubation (adult)",
+        "doseTexto": "0.15-0.2 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cisatracurium maintenance (adult)",
+        "doseTexto": "0.03 mg/kg IV",
+        "doseMin": 0.03,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cisatracurium intubation (pediatric)",
+        "doseTexto": "0.1-0.15 mg/kg IV (infants 0.15)",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Cisatracurium infusion",
+        "doseTexto": "1-3 mcg/kg/min (adult); 1-2.5 mcg/kg/min (ped)",
+        "doseMin": 1,
+        "doseMax": 3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Cisatracurio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intubación",
+          "descricaoDose": "0,15-0,2 mg/kg IV bolo (inicio 2-3 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (bolo)",
+          "descricaoDose": "0,03 mg/kg IV cuando T1 25% (duración 40-60 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.03,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme recuperación TOF",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusión continua",
+          "descricaoDose": "1-3 mcg/kg/min IV (inicial: 1-2 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intubación lactantes (1-23 meses)",
+          "descricaoDose": "0,15 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intubación niños (2-12 años)",
+          "descricaoDose": "0,1-0,15 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (bolo) pediátrico",
+          "descricaoDose": "0,03 mg/kg IV conforme TOF",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.03,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme recuperación TOF",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusión pediátrica",
+          "descricaoDose": "1-2,5 mcg/kg/min IV (lactantes 1,5-2,5; niños 1-2)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 2.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 1, "doseMax": 3 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2.5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg en 100 mL SF (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg en 100 mL SF (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "10 mg en 50 mL SF (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "100 mg en 100 mL SF (1000 mcg/mL)", "valor": 1000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador neuromuscular no despolarizante, acción intermedia, benzilisoquinolínico",
+      "apresentacoes": [
+        { "forma": "Ampolla 2 mg/mL – 5 mL (10 mg)", "obs": "Nimbex®" },
+        { "forma": "Ampolla 2 mg/mL – 10 mL (20 mg)", "obs": "Nimbex®" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo: puro del vial", "concentracao": "2 mg/mL (2000 mcg/mL)" },
+        { "diluicao": "100 mg + 100 mL SF/GL/RL", "concentracao": "1 mg/mL (1000 mcg/mL)" },
+        { "diluicao": "20 mg + 100 mL SF", "concentracao": "200 mcg/mL" },
+        { "diluicao": "10 mg + 100 mL SF", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Inicio: 2-3 min | Duración: 40-60 min | Recuperación 25%: 45-65 min",
+        "Degradación por reacción de Hofmann (no enzimática) - no requiere ajuste renal/hepático",
+        "No libera histamina - menor riesgo de hipotensión/broncoespasmo vs atracurio",
+        "Monitorización TOF obligatoria; incompatible con bicarbonato en la misma vía",
+        "Potencializado por volátiles, aminoglucósidos, Mg; prolongado en hipotermia/acidosis",
+        "Conservar 2-8°C; estable 24h tras dilución si refrigerado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar TOF y recuperación neuromuscular.",
+        "renal": "No requiere ajuste. Eliminación mayormente independiente de la función renal (reacción de Hofmann).",
+        "hepatico": "No requiere ajuste en insuficiencia leve a moderada. Leve prolongación posible en grave, clínicamente poco relevante."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cisatracurio intubación (adulto)",
+        "doseTexto": "0,15-0,2 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cisatracurio mantenimiento (adulto)",
+        "doseTexto": "0,03 mg/kg IV",
+        "doseMin": 0.03,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cisatracurio intubación (pediátrico)",
+        "doseTexto": "0,1-0,15 mg/kg IV (lactantes 0,15)",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Cisatracurio infusión",
+        "doseTexto": "1-3 mcg/kg/min (adulto); 1-2,5 mcg/kg/min (ped)",
+        "doseMin": 1,
+        "doseMax": 3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "顺阿曲库铵",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "气管插管",
+          "descricaoDose": "0.15-0.2 mg/kg IV 推注（起效 2-3 分钟）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "维持（推注）",
+          "descricaoDose": "T1 25% 时 0.03 mg/kg IV（持续 40-60 分钟）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.03,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按 TOF 恢复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "持续输注",
+          "descricaoDose": "1-3 mcg/kg/min IV（初始 1-2 mcg/kg/min）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "婴儿插管（1-23 月）",
+          "descricaoDose": "0.15 mg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童插管（2-12 岁）",
+          "descricaoDose": "0.1-0.15 mg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童维持（推注）",
+          "descricaoDose": "0.03 mg/kg IV 按 TOF",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.03,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按 TOF 恢复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童输注",
+          "descricaoDose": "1-2.5 mcg/kg/min IV（婴儿 1.5-2.5；儿童 1-2）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 2.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 1, "doseMax": 3 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2.5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg 溶于 100 mL 生理盐水 (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg 溶于 100 mL 生理盐水 (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "10 mg 溶于 50 mL 生理盐水 (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "100 mg 溶于 100 mL 生理盐水 (1000 mcg/mL)", "valor": 1000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "非去极化神经肌肉阻滞剂，中效，苄异喹啉类",
+      "apresentacoes": [
+        { "forma": "安瓿 2 mg/mL – 5 mL (10 mg)", "obs": "Nimbex®" },
+        { "forma": "安瓿 2 mg/mL – 10 mL (20 mg)", "obs": "Nimbex®" }
+      ],
+      "preparo": [
+        { "diluicao": "推注：原液", "concentracao": "2 mg/mL (2000 mcg/mL)" },
+        { "diluicao": "100 mg + 100 mL 生理盐水/葡萄糖/林格", "concentracao": "1 mg/mL (1000 mcg/mL)" },
+        { "diluicao": "20 mg + 100 mL 生理盐水", "concentracao": "200 mcg/mL" },
+        { "diluicao": "10 mg + 100 mL 生理盐水", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "起效：2-3 分钟 | 持续：40-60 分钟 | 25% 恢复：45-65 分钟",
+        "霍夫曼降解（非酶促）- 无需肾/肝剂量调整",
+        "不释放组胺 - 较阿曲库铵低血压/支气管痉挛风险更低",
+        "必须 TOF 监测；与碳酸氢钠同一管路不相容",
+        "挥发性药、氨基糖苷类、镁可增强；低温/酸中毒时延长",
+        "2-8°C 保存；稀释后冷藏可稳定 24 小时"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。监测 TOF 及神经肌肉恢复。",
+        "renal": "无需调整。消除主要不依赖肾功能（霍夫曼反应）。",
+        "hepatico": "轻中度肝功能不全无需调整。重度可能轻度延长，临床意义小。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "顺阿曲库铵 插管（成人）",
+        "doseTexto": "0.15-0.2 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "顺阿曲库铵 维持（成人）",
+        "doseTexto": "0.03 mg/kg IV",
+        "doseMin": 0.03,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "顺阿曲库铵 插管（儿童）",
+        "doseTexto": "0.1-0.15 mg/kg IV（婴儿 0.15）",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "顺阿曲库铵 输注",
+        "doseTexto": "1-3 mcg/kg/min（成人）；1-2.5 mcg/kg/min（儿童）",
+        "doseMin": 1,
+        "doseMax": 3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

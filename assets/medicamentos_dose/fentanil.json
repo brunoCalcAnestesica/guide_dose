@@ -1,0 +1,754 @@
+{
+  "PT": {
+    "nome": "Fentanil",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bolus anestésico (adulto)",
+          "descricaoDose": "1-5 mcg/kg IV em bolus lento (≥60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 350,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bolus anestésico (pediátrico)",
+          "descricaoDose": "1-3 mcg/kg IV em bolus lento (≥60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 2,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Analgesia leve (adulto)",
+          "descricaoDose": "12,5-25 mcg IV - titular conforme resposta",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão contínua (adulto)",
+          "descricaoDose": "0,5-5 mcg/kg/h (0,01-0,08 mcg/kg/min) - UTI ou intraoperatório",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.08,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão contínua (pediátrico)",
+          "descricaoDose": "0,5-2 mcg/kg/h (0,01-0,03 mcg/kg/min) - UTI ou intraoperatório",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.03,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.01, "doseMax": 0.08 },
+          "pediatrico": { "doseMin": 0.01, "doseMax": 0.03 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "Uso direto 50 mcg/mL", "valor": 50 },
+            { "rotulo": "1 mg em 50 mL SF (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "1 mg em 100 mL SF (10 mcg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide - Agonista μ-opioide sintético",
+      "apresentacoes": [
+        { "forma": "Solução injetável 50 mcg/mL (2 mL, 5 mL, 10 mL)", "obs": "Fentanest®, Sublimaze®" },
+        { "forma": "Ampola 50 mcg/mL", "obs": "Não refrigerar; uso em até 24 h após diluição" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso direto 50 mcg/mL", "concentracao": "50 mcg/mL" },
+        { "diluicao": "1 mg (20 mL) + 30 mL SF", "concentracao": "20 mcg/mL" },
+        { "diluicao": "1 mg (20 mL) + 80 mL SF", "concentracao": "10 mcg/mL" }
+      ],
+      "observacoes": [
+        "Rigidez torácica (wooden chest) com bolus rápido ou >1 mcg/kg sem sedativo",
+        "Depressão respiratória dose-dependente; ter naloxona e suporte ventilatório disponíveis",
+        "Bolus sempre lento (≥60 s) para reduzir risco de apneia e rigidez",
+        "Acúmulo em infusão prolongada (meia-vida contexto-dependente); despertar pode ser lento",
+        "Incompatível com soluções alcalinas e bicarbonato na mesma via",
+        "Doses cumulativas >20 mcg/kg exigem monitorização contínua e suporte ventilatório"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose de bolus e velocidade de infusão; titular com cautela.",
+        "renal": "Não requer ajuste inicial. Cautela em IRC terminal (efeito cumulativo).",
+        "hepatico": "Hepatopatas graves: reduzir dose ou velocidade da infusão; metabolização hepática (CYP3A4)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fentanil - Bolus (adulto)",
+        "doseTexto": "1-5 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 5,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fentanil - Bolus (pediátrico)",
+        "doseTexto": "1-3 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 3,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fentanil - Infusão (adulto)",
+        "doseTexto": "0,01-0,08 mcg/kg/min (0,5-5 mcg/kg/h)",
+        "doseMin": 0.01,
+        "doseMax": 0.08,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fentanil - Infusão (pediátrico)",
+        "doseTexto": "0,01-0,03 mcg/kg/min (0,5-2 mcg/kg/h)",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Fentanyl",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anesthetic bolus (adult)",
+          "descricaoDose": "1-5 mcg/kg IV slow bolus (≥60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 350,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anesthetic bolus (pediatric)",
+          "descricaoDose": "1-3 mcg/kg IV slow bolus (≥60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 2,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mild analgesia (adult)",
+          "descricaoDose": "12.5-25 mcg IV - titrate to response",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Continuous infusion (adult)",
+          "descricaoDose": "0.5-5 mcg/kg/h (0.01-0.08 mcg/kg/min) - ICU or intraoperative",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.08,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Continuous infusion (pediatric)",
+          "descricaoDose": "0.5-2 mcg/kg/h (0.01-0.03 mcg/kg/min) - ICU or intraoperative",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.03,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.01, "doseMax": 0.08 },
+          "pediatrico": { "doseMin": 0.01, "doseMax": 0.03 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "Undiluted 50 mcg/mL", "valor": 50 },
+            { "rotulo": "1 mg in 50 mL NS (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "1 mg in 100 mL NS (10 mcg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Opioid analgesic - Synthetic μ-opioid agonist",
+      "apresentacoes": [
+        { "forma": "Injectable solution 50 mcg/mL (2 mL, 5 mL, 10 mL)", "obs": "Sublimaze®, generic" },
+        { "forma": "Ampule 50 mcg/mL", "obs": "Do not refrigerate; use within 24 h after dilution" }
+      ],
+      "preparo": [
+        { "diluicao": "Undiluted 50 mcg/mL", "concentracao": "50 mcg/mL" },
+        { "diluicao": "1 mg (20 mL) + 30 mL NS", "concentracao": "20 mcg/mL" },
+        { "diluicao": "1 mg (20 mL) + 80 mL NS", "concentracao": "10 mcg/mL" }
+      ],
+      "observacoes": [
+        "Chest wall rigidity (wooden chest) with rapid bolus or >1 mcg/kg without sedative",
+        "Dose-dependent respiratory depression; have naloxone and ventilatory support available",
+        "Always slow bolus (≥60 s) to reduce apnea and rigidity risk",
+        "Accumulation with prolonged infusion (context-dependent half-life); awakening may be delayed",
+        "Incompatible with alkaline solutions and bicarbonate in same line",
+        "Cumulative doses >20 mcg/kg require continuous monitoring and ventilatory support"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce bolus dose and infusion rate; titrate cautiously.",
+        "renal": "No initial adjustment. Caution in end-stage renal disease (cumulative effect).",
+        "hepatico": "Severe liver disease: reduce dose or infusion rate; hepatic metabolism (CYP3A4)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fentanyl - Bolus (adult)",
+        "doseTexto": "1-5 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 5,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fentanyl - Bolus (pediatric)",
+        "doseTexto": "1-3 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 3,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Fentanyl - Infusion (adult)",
+        "doseTexto": "0.01-0.08 mcg/kg/min (0.5-5 mcg/kg/h)",
+        "doseMin": 0.01,
+        "doseMax": 0.08,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fentanyl - Infusion (pediatric)",
+        "doseTexto": "0.01-0.03 mcg/kg/min (0.5-2 mcg/kg/h)",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fentanilo",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bolo anestésico (adulto)",
+          "descricaoDose": "1-5 mcg/kg IV en bolo lento (≥60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 350,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Bolo anestésico (pediátrico)",
+          "descricaoDose": "1-3 mcg/kg IV en bolo lento (≥60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 2,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Analgesia leve (adulto)",
+          "descricaoDose": "12,5-25 mcg IV - titular según respuesta",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Infusión continua (adulto)",
+          "descricaoDose": "0,5-5 mcg/kg/h (0,01-0,08 mcg/kg/min) - UCI o intraoperatorio",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.08,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Infusión continua (pediátrico)",
+          "descricaoDose": "0,5-2 mcg/kg/h (0,01-0,03 mcg/kg/min) - UCI o intraoperatorio",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.03,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.01, "doseMax": 0.08 },
+          "pediatrico": { "doseMin": 0.01, "doseMax": 0.03 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "Uso directo 50 mcg/mL", "valor": 50 },
+            { "rotulo": "1 mg en 50 mL SF (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "1 mg en 100 mL SF (10 mcg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide - Agonista μ-opioide sintético",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 50 mcg/mL (2 mL, 5 mL, 10 mL)", "obs": "Fentanest®, Sublimaze®" },
+        { "forma": "Ámpula 50 mcg/mL", "obs": "No refrigerar; uso en hasta 24 h tras dilución" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso directo 50 mcg/mL", "concentracao": "50 mcg/mL" },
+        { "diluicao": "1 mg (20 mL) + 30 mL SF", "concentracao": "20 mcg/mL" },
+        { "diluicao": "1 mg (20 mL) + 80 mL SF", "concentracao": "10 mcg/mL" }
+      ],
+      "observacoes": [
+        "Rigidez torácica (pecho de madera) con bolo rápido o >1 mcg/kg sin sedante",
+        "Depresión respiratoria dependiente de dosis; tener naloxona y soporte ventilatorio disponibles",
+        "Bolo siempre lento (≥60 s) para reducir riesgo de apnea y rigidez",
+        "Acumulación en infusión prolongada (vida media contexto-dependiente); despertar puede ser lento",
+        "Incompatible con soluciones alcalinas y bicarbonato en la misma vía",
+        "Dosis acumulativas >20 mcg/kg exigen monitorización continua y soporte ventilatorio"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis de bolo y velocidad de infusión; titular con cautela.",
+        "renal": "No requiere ajuste inicial. Precaución en IRC terminal (efecto acumulativo).",
+        "hepatico": "Hepatópatas graves: reducir dosis o velocidad de infusión; metabolización hepática (CYP3A4)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fentanilo - Bolo (adulto)",
+        "doseTexto": "1-5 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 5,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fentanilo - Bolo (pediátrico)",
+        "doseTexto": "1-3 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 3,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fentanilo - Infusión (adulto)",
+        "doseTexto": "0,01-0,08 mcg/kg/min (0,5-5 mcg/kg/h)",
+        "doseMin": 0.01,
+        "doseMax": 0.08,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fentanilo - Infusión (pediátrico)",
+        "doseTexto": "0,01-0,03 mcg/kg/min (0,5-2 mcg/kg/h)",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "芬太尼",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "麻醉推注（成人）",
+          "descricaoDose": "1-5 mcg/kg IV 缓慢推注（≥60秒）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 350,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "麻醉推注（儿童）",
+          "descricaoDose": "1-3 mcg/kg IV 缓慢推注（≥60秒）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 2,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "轻度镇痛（成人）",
+          "descricaoDose": "12.5-25 mcg IV - 按反应滴定",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mcg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "按需",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "持续输注（成人）",
+          "descricaoDose": "0.5-5 mcg/kg/h（0.01-0.08 mcg/kg/min）- ICU或术中",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.08,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "持续输注（儿童）",
+          "descricaoDose": "0.5-2 mcg/kg/h（0.01-0.03 mcg/kg/min）- ICU或术中",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.03,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.01, "doseMax": 0.08 },
+          "pediatrico": { "doseMin": 0.01, "doseMax": 0.03 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "原液50 mcg/mL", "valor": 50 },
+            { "rotulo": "1mg溶于50mL生理盐水(20 mcg/mL)", "valor": 20 },
+            { "rotulo": "1mg溶于100mL生理盐水(10 mcg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "阿片类镇痛药 - 合成μ阿片受体激动剂",
+      "apresentacoes": [
+        { "forma": "注射液50 mcg/mL（2 mL、5 mL、10 mL）", "obs": "芬太尼注射液" },
+        { "forma": "安瓿50 mcg/mL", "obs": "勿冷藏；稀释后24小时内使用" }
+      ],
+      "preparo": [
+        { "diluicao": "原液50 mcg/mL", "concentracao": "50 mcg/mL" },
+        { "diluicao": "1 mg (20 mL) + 30 mL生理盐水", "concentracao": "20 mcg/mL" },
+        { "diluicao": "1 mg (20 mL) + 80 mL生理盐水", "concentracao": "10 mcg/mL" }
+      ],
+      "observacoes": [
+        "快速推注或>1 mcg/kg无镇静剂时可致胸壁强直（木头胸）",
+        "剂量依赖性呼吸抑制；备好纳洛酮和通气支持",
+        "推注始终缓慢（≥60秒）以降低呼吸暂停和强直风险",
+        "长时间输注可蓄积（情境依赖半衰期）；苏醒可能延迟",
+        "勿与碱性溶液和碳酸氢钠同路",
+        "累积剂量>20 mcg/kg需持续监测和通气支持"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减少推注剂量和输注速度；谨慎滴定。",
+        "renal": "无需初始调整。终末期肾病慎用（蓄积）。",
+        "hepatico": "严重肝病：减量或减慢输注；肝代谢（CYP3A4）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "芬太尼 - 推注（成人）",
+        "doseTexto": "1-5 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 5,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "芬太尼 - 推注（儿童）",
+        "doseTexto": "1-3 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 3,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "芬太尼 - 输注（成人）",
+        "doseTexto": "0.01-0.08 mcg/kg/min（0.5-5 mcg/kg/h）",
+        "doseMin": 0.01,
+        "doseMax": 0.08,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "芬太尼 - 输注（儿童）",
+        "doseTexto": "0.01-0.03 mcg/kg/min（0.5-2 mcg/kg/h）",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

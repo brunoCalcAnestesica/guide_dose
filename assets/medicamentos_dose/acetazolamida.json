@@ -1,0 +1,1082 @@
+{
+  "PT": {
+    "nome": "Acetazolamida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Glaucoma agudo de ângulo fechado",
+          "descricaoDose": "250-500 mg IV, dose única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reduzir 50%",
+            "ajusteHepatico": "Reduzir 50% em insuficiência hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Glaucoma crônico",
+          "descricaoDose": "125-250 mg VO 2-4x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-4x/dia",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reduzir 50%",
+            "ajusteHepatico": "Reduzir 50% em insuficiência hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Edema",
+          "descricaoDose": "250-375 mg VO 1x/dia (manhã)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 375,
+            "doseMaxima": 375,
+            "doseFixa": "250-375 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reduzir 50%",
+            "ajusteHepatico": "Reduzir 50% em insuficiência hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Epilepsia (adjuvante)",
+          "descricaoDose": "8-30 mg/kg/dia VO dividido em 1-4 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido em 1-4 doses/dia",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reduzir 50%",
+            "ajusteHepatico": "Reduzir 50% em insuficiência hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Mal da altitude",
+          "descricaoDose": "125-250 mg VO 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reduzir 50%",
+            "ajusteHepatico": "Reduzir 50% em insuficiência hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Glaucoma pediátrico",
+          "descricaoDose": "5-10 mg/kg IV, dose única (máx 500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reduzir 50%",
+            "ajusteHepatico": "Reduzir 50% em insuficiência hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Epilepsia pediátrica (adjuvante)",
+          "descricaoDose": "8-30 mg/kg/dia VO dividido em 1-4 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido em 1-4 doses/dia",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reduzir 50%",
+            "ajusteHepatico": "Reduzir 50% em insuficiência hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Edema pediátrico",
+          "descricaoDose": "5 mg/kg/dia VO",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reduzir 50%",
+            "ajusteHepatico": "Reduzir 50% em insuficiência hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Inibidor da anidrase carbônica - Diurético - Antiglaucomatoso",
+      "apresentacoes": [
+        { "forma": "Comprimidos 250 mg", "obs": "Diamox®, genérico" },
+        { "forma": "Ampola 500 mg/5 mL", "obs": "Uso IV" }
+      ],
+      "preparo": [
+        { "diluicao": "Via oral", "concentracao": "Comprimidos inteiros com água" },
+        { "diluicao": "Via IV", "concentracao": "Diluir 500 mg em 5-10 mL SF 0,9% ou SG 5%" },
+        { "diluicao": "Infusão", "concentracao": "Diluir em 100-250 mL SF ou SG" },
+        { "diluicao": "Administração", "concentracao": "5-10 minutos" }
+      ],
+      "observacoes": [
+        "Mecanismo: Inibe anidrase carbônica, reduz produção de humor aquoso",
+        "Farmacocinética: Início 30-60 min (oral), 2-5 min (IV). Meia-vida: 2-4h",
+        "Efeitos adversos: Parestesias, alterações do paladar, náuseas, acidose metabólica",
+        "Contraindicações: Insuficiência renal grave, hipocalemia, acidose metabólica",
+        "Ajuste renal: Contraindicado ClCr <30. Reduzir 50% se ClCr 30-60 mL/min",
+        "Interações: Diuréticos (hipocalemia), digoxina, fenitoína, salicilatos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose em 50%. Monitorar eletrólitos e função renal.",
+        "renal": "Contraindicado ClCr <30. ClCr 30-60: reduzir 50%. Monitorar função renal.",
+        "hepatico": "Reduzir dose em 50%. Contraindicado em cirrose descompensada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Acetazolamida - Glaucoma agudo (adulto)",
+        "doseTexto": "250-500 mg IV dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Acetazolamida - Epilepsia (adulto)",
+        "doseTexto": "8-30 mg/kg/dia VO",
+        "doseMin": 8,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Acetazolamida - Glaucoma (pediátrico)",
+        "doseTexto": "5-10 mg/kg IV (máx 500 mg)",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Acetazolamida - Epilepsia (pediátrico)",
+        "doseTexto": "8-30 mg/kg/dia VO",
+        "doseMin": 8,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Acetazolamida - Edema (pediátrico)",
+        "doseTexto": "5 mg/kg/dia VO",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Acetazolamide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute angle-closure glaucoma",
+          "descricaoDose": "250-500 mg IV, single dose",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: contraindicated; CrCl 30-60: reduce 50%",
+            "ajusteHepatico": "Reduce 50% in hepatic insufficiency",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Chronic glaucoma",
+          "descricaoDose": "125-250 mg PO 2-4x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2-4x/day",
+            "ajusteRenal": "CrCl <30: contraindicated; CrCl 30-60: reduce 50%",
+            "ajusteHepatico": "Reduce 50% in hepatic insufficiency",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Edema",
+          "descricaoDose": "250-375 mg PO 1x/day (morning)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 375,
+            "doseMaxima": 375,
+            "doseFixa": "250-375 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "1x/day",
+            "ajusteRenal": "CrCl <30: contraindicated; CrCl 30-60: reduce 50%",
+            "ajusteHepatico": "Reduce 50% in hepatic insufficiency",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Epilepsy (adjunctive)",
+          "descricaoDose": "8-30 mg/kg/day PO divided in 1-4 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "divided in 1-4 doses/day",
+            "ajusteRenal": "CrCl <30: contraindicated; CrCl 30-60: reduce 50%",
+            "ajusteHepatico": "Reduce 50% in hepatic insufficiency",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Altitude sickness",
+          "descricaoDose": "125-250 mg PO 2x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2x/day",
+            "ajusteRenal": "CrCl <30: contraindicated; CrCl 30-60: reduce 50%",
+            "ajusteHepatico": "Reduce 50% in hepatic insufficiency",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric glaucoma",
+          "descricaoDose": "5-10 mg/kg IV, single dose (max 500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: contraindicated; CrCl 30-60: reduce 50%",
+            "ajusteHepatico": "Reduce 50% in hepatic insufficiency",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric epilepsy (adjunctive)",
+          "descricaoDose": "8-30 mg/kg/day PO divided in 1-4 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "divided in 1-4 doses/day",
+            "ajusteRenal": "CrCl <30: contraindicated; CrCl 30-60: reduce 50%",
+            "ajusteHepatico": "Reduce 50% in hepatic insufficiency",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric edema",
+          "descricaoDose": "5 mg/kg/day PO",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "1x/day",
+            "ajusteRenal": "CrCl <30: contraindicated; CrCl 30-60: reduce 50%",
+            "ajusteHepatico": "Reduce 50% in hepatic insufficiency",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Carbonic anhydrase inhibitor - Diuretic - Antiglaucoma agent",
+      "apresentacoes": [
+        { "forma": "Tablets 250 mg", "obs": "Diamox®, generic" },
+        { "forma": "Vial 500 mg/5 mL", "obs": "IV use" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral route", "concentracao": "Whole tablets with water" },
+        { "diluicao": "IV route", "concentracao": "Dilute 500 mg in 5-10 mL NS or D5W" },
+        { "diluicao": "Infusion", "concentracao": "Dilute in 100-250 mL NS or D5W" },
+        { "diluicao": "Administration", "concentracao": "5-10 minutes" }
+      ],
+      "observacoes": [
+        "Mechanism: Inhibits carbonic anhydrase, reduces aqueous humor production",
+        "Pharmacokinetics: Onset 30-60 min (oral), 2-5 min (IV). Half-life: 2-4h",
+        "Adverse effects: Paresthesias, taste changes, nausea, metabolic acidosis",
+        "Contraindications: Severe renal insufficiency, hypokalemia, metabolic acidosis",
+        "Renal adjustment: Contraindicated CrCl <30. Reduce 50% if CrCl 30-60 mL/min",
+        "Interactions: Diuretics (hypokalemia), digoxin, phenytoin, salicylates"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose by 50%. Monitor electrolytes and renal function.",
+        "renal": "Contraindicated CrCl <30. CrCl 30-60: reduce 50%. Monitor renal function.",
+        "hepatico": "Reduce dose by 50%. Contraindicated in decompensated cirrhosis."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Acetazolamide - Acute glaucoma (adult)",
+        "doseTexto": "250-500 mg IV single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Acetazolamide - Epilepsy (adult)",
+        "doseTexto": "8-30 mg/kg/day PO",
+        "doseMin": 8,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Acetazolamide - Glaucoma (pediatric)",
+        "doseTexto": "5-10 mg/kg IV (max 500 mg)",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Acetazolamide - Epilepsy (pediatric)",
+        "doseTexto": "8-30 mg/kg/day PO",
+        "doseMin": 8,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Acetazolamide - Edema (pediatric)",
+        "doseTexto": "5 mg/kg/day PO",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Acetazolamida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Glaucoma agudo de ángulo cerrado",
+          "descricaoDose": "250-500 mg IV, dosis única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reducir 50%",
+            "ajusteHepatico": "Reducir 50% en insuficiencia hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Glaucoma crónico",
+          "descricaoDose": "125-250 mg VO 2-4x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-4x/día",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reducir 50%",
+            "ajusteHepatico": "Reducir 50% en insuficiencia hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Edema",
+          "descricaoDose": "250-375 mg VO 1x/día (mañana)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 375,
+            "doseMaxima": 375,
+            "doseFixa": "250-375 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reducir 50%",
+            "ajusteHepatico": "Reducir 50% en insuficiencia hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Epilepsia (adyuvante)",
+          "descricaoDose": "8-30 mg/kg/día VO dividido en 1-4 dosis",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido en 1-4 dosis/día",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reducir 50%",
+            "ajusteHepatico": "Reducir 50% en insuficiencia hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Mal de altura",
+          "descricaoDose": "125-250 mg VO 2x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reducir 50%",
+            "ajusteHepatico": "Reducir 50% en insuficiencia hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Glaucoma pediátrico",
+          "descricaoDose": "5-10 mg/kg IV, dosis única (máx 500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reducir 50%",
+            "ajusteHepatico": "Reducir 50% en insuficiencia hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Epilepsia pediátrica (adyuvante)",
+          "descricaoDose": "8-30 mg/kg/día VO dividido en 1-4 dosis",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido en 1-4 dosis/día",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reducir 50%",
+            "ajusteHepatico": "Reducir 50% en insuficiencia hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Edema pediátrico",
+          "descricaoDose": "5 mg/kg/día VO",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: contraindicado; ClCr 30-60: reducir 50%",
+            "ajusteHepatico": "Reducir 50% en insuficiencia hepática",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Inhibidor de la anhidrasa carbónica - Diurético - Antiglaucomatoso",
+      "apresentacoes": [
+        { "forma": "Comprimidos 250 mg", "obs": "Diamox®, genérico" },
+        { "forma": "Ampolla 500 mg/5 mL", "obs": "Uso IV" }
+      ],
+      "preparo": [
+        { "diluicao": "Vía oral", "concentracao": "Comprimidos enteros con agua" },
+        { "diluicao": "Vía IV", "concentracao": "Diluir 500 mg en 5-10 mL SSF 0,9% o SG 5%" },
+        { "diluicao": "Infusión", "concentracao": "Diluir en 100-250 mL SSF o SG" },
+        { "diluicao": "Administración", "concentracao": "5-10 minutos" }
+      ],
+      "observacoes": [
+        "Mecanismo: Inhibe anhidrasa carbónica, reduce producción de humor acuoso",
+        "Farmacocinética: Inicio 30-60 min (oral), 2-5 min (IV). Vida media: 2-4h",
+        "Efectos adversos: Parestesias, alteraciones del gusto, náuseas, acidosis metabólica",
+        "Contraindicaciones: Insuficiencia renal grave, hipocalemia, acidosis metabólica",
+        "Ajuste renal: Contraindicado ClCr <30. Reducir 50% si ClCr 30-60 mL/min",
+        "Interacciones: Diuréticos (hipocalemia), digoxina, fenitoína, salicilatos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis 50%. Monitorizar electrolitos y función renal.",
+        "renal": "Contraindicado ClCr <30. ClCr 30-60: reducir 50%. Monitorizar función renal.",
+        "hepatico": "Reducir dosis 50%. Contraindicado en cirrosis descompensada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Acetazolamida - Glaucoma agudo (adulto)",
+        "doseTexto": "250-500 mg IV dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Acetazolamida - Epilepsia (adulto)",
+        "doseTexto": "8-30 mg/kg/día VO",
+        "doseMin": 8,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Acetazolamida - Glaucoma (pediátrico)",
+        "doseTexto": "5-10 mg/kg IV (máx 500 mg)",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Acetazolamida - Epilepsia (pediátrico)",
+        "doseTexto": "8-30 mg/kg/día VO",
+        "doseMin": 8,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Acetazolamida - Edema (pediátrico)",
+        "doseTexto": "5 mg/kg/día VO",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "乙酰唑胺",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性闭角型青光眼",
+          "descricaoDose": "250-500 mg IV 单次剂量",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30：禁用；ClCr 30-60：减量50%",
+            "ajusteHepatico": "肝功能不全时减量50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "慢性青光眼",
+          "descricaoDose": "125-250 mg PO 每日2-4次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "2-4次/天",
+            "ajusteRenal": "ClCr <30：禁用；ClCr 30-60：减量50%",
+            "ajusteHepatico": "肝功能不全时减量50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "水肿",
+          "descricaoDose": "250-375 mg PO 每日1次（早晨）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 375,
+            "doseMaxima": 375,
+            "doseFixa": "250-375 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "1次/天",
+            "ajusteRenal": "ClCr <30：禁用；ClCr 30-60：减量50%",
+            "ajusteHepatico": "肝功能不全时减量50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "癫痫（辅助）",
+          "descricaoDose": "8-30 mg/kg/天 PO 分1-4次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "分1-4次/天",
+            "ajusteRenal": "ClCr <30：禁用；ClCr 30-60：减量50%",
+            "ajusteHepatico": "肝功能不全时减量50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "高原病",
+          "descricaoDose": "125-250 mg PO 每日2次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "2次/天",
+            "ajusteRenal": "ClCr <30：禁用；ClCr 30-60：减量50%",
+            "ajusteHepatico": "肝功能不全时减量50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童青光眼",
+          "descricaoDose": "5-10 mg/kg IV 单次（最大500 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30：禁用；ClCr 30-60：减量50%",
+            "ajusteHepatico": "肝功能不全时减量50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童癫痫（辅助）",
+          "descricaoDose": "8-30 mg/kg/天 PO 分1-4次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "分1-4次/天",
+            "ajusteRenal": "ClCr <30：禁用；ClCr 30-60：减量50%",
+            "ajusteHepatico": "肝功能不全时减量50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童水肿",
+          "descricaoDose": "5 mg/kg/天 PO",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "1次/天",
+            "ajusteRenal": "ClCr <30：禁用；ClCr 30-60：减量50%",
+            "ajusteHepatico": "肝功能不全时减量50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "碳酸酐酶抑制剂 - 利尿剂 - 抗青光眼药",
+      "apresentacoes": [
+        { "forma": "片剂 250 mg", "obs": "Diamox®、仿制药" },
+        { "forma": "安瓿 500 mg/5 mL", "obs": "静脉用" }
+      ],
+      "preparo": [
+        { "diluicao": "口服", "concentracao": "整片用水送服" },
+        { "diluicao": "静脉", "concentracao": "500 mg溶于5-10 mL NS或D5W" },
+        { "diluicao": "输注", "concentracao": "溶于100-250 mL NS或D5W" },
+        { "diluicao": "给药", "concentracao": "5-10分钟" }
+      ],
+      "observacoes": [
+        "机制：抑制碳酸酐酶，减少房水生成",
+        "药代动力学：口服30-60分钟起效，IV 2-5分钟。半衰期：2-4小时",
+        "不良反应：感觉异常、味觉改变、恶心、代谢性酸中毒",
+        "禁忌症：严重肾功能不全、低钾血症、代谢性酸中毒",
+        "肾调整：ClCr <30禁用。ClCr 30-60减量50%",
+        "相互作用：利尿剂（低钾血症）、地高辛、苯妥英、水杨酸盐"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量50%。监测电解质和肾功能。",
+        "renal": "ClCr <30禁用。ClCr 30-60减量50%。监测肾功能。",
+        "hepatico": "减量50%。失代偿性肝硬化禁用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "乙酰唑胺 - 急性青光眼（成人）",
+        "doseTexto": "250-500 mg IV 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "乙酰唑胺 - 癫痫（成人）",
+        "doseTexto": "8-30 mg/kg/天 PO",
+        "doseMin": 8,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "乙酰唑胺 - 青光眼（儿童）",
+        "doseTexto": "5-10 mg/kg IV（最大500 mg）",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "乙酰唑胺 - 癫痫（儿童）",
+        "doseTexto": "8-30 mg/kg/天 PO",
+        "doseMin": 8,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "乙酰唑胺 - 水肿（儿童）",
+        "doseTexto": "5 mg/kg/天 PO",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

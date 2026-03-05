@@ -1,0 +1,70 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Complexo Protrombínico (CCP)",
+      "nomesComerciais": ["Beriplex®", "Octaplex®", "Kcentra®", "Prothromplex®"],
+      "classeTerapeutica": "Hemoderivado / Concentrado de fatores de coagulação",
+      "composicao": "CCP 4 fatores contém: Fator II (protrombina), Fator VII, Fator IX, Fator X, além de Proteína C e Proteína S (anticoagulantes naturais). Liofilizado para reconstituição.",
+      "mecanismoAcao": "Repõe os fatores de coagulação dependentes de vitamina K, revertendo rapidamente o efeito anticoagulante de antagonistas da vitamina K (warfarina) e parcialmente de inibidores diretos do fator Xa.",
+      "indicacoes": [
+        "Reversão urgente de warfarina com sangramento grave",
+        "Reversão de warfarina pré-cirurgia de emergência",
+        "Deficiência congênita de fatores II, VII, IX ou X",
+        "Reversão de DOACs (off-label, se não disponível reversor específico)"
+      ],
+      "apresentacoes": [
+        "Frasco 500 UI (liofilizado + diluente 20 mL)",
+        "Frasco 1000 UI (liofilizado + diluente 40 mL)"
+      ],
+      "posologia": {
+        "reversao_warfarina": {
+          "INR_2_4": "25 U/kg IV",
+          "INR_4_6": "35 U/kg IV",
+          "INR_maior_6": "50 U/kg IV (máximo 5000 U)"
+        },
+        "reversao_DOACs": "50 U/kg IV (off-label)",
+        "deficiencia_congenita": "Conforme fator específico deficiente"
+      },
+      "administracao": {
+        "via": "IV",
+        "velocidade": "Máximo 8 mL/min (~210 UI/min)",
+        "reconstituicao": "Usar diluente fornecido",
+        "tempo_preparo": "5-10 minutos"
+      },
+      "farmacocinetica": {
+        "inicio_acao": "10-15 minutos",
+        "duracao": "6-8 horas (dependente do fator)",
+        "meia_vida_fatores": {
+          "fator_VII": "4-6 horas",
+          "fator_IX": "18-24 horas",
+          "fator_X": "24-48 horas",
+          "fator_II": "48-60 horas"
+        }
+      },
+      "contraindicacoes": [
+        "CIVD ativa",
+        "Trombocitopenia induzida por heparina (HIT)",
+        "Uso recente de heparina não fracionada"
+      ],
+      "efeitosAdversos": [
+        "Trombose (venosa ou arterial)",
+        "CIVD",
+        "Reação alérgica",
+        "Cefaleia",
+        "Náusea"
+      ],
+      "interacoes": [
+        "Associar vitamina K 10 mg IV (efeito em 6-12h)",
+        "Não misturar com outros medicamentos"
+      ],
+      "observacoes": [
+        "Não requer tipagem sanguínea",
+        "Preferível ao PFC para reversão de warfarina (mais rápido, menor volume)",
+        "Monitorar INR 30 min após infusão",
+        "Risco trombótico: usar menor dose efetiva",
+        "Para DOACs: preferir reversor específico quando disponível"
+      ],
+      "categoriaGravidez": "C"
+    }
+  }
+}

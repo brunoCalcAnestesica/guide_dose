@@ -1,0 +1,606 @@
+{
+  "PT": {
+    "nome": "Claritromicina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções respiratórias (adulto)",
+          "descricaoDose": "500 mg VO 12/12h por 7-14 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h por 7-14 dias",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Erradicação H. pylori (adulto)",
+          "descricaoDose": "500 mg VO 12/12h (+ IBP + amoxicilina) por 14 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h por 14 dias",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Liberação prolongada (adulto)",
+          "descricaoDose": "1 g VO 1x/dia por 7-14 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia por 7-14 dias",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico – dose padrão",
+          "descricaoDose": "7,5 mg/kg/dose VO 12/12h (máx 500 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Macrolídeo",
+      "apresentacoes": [
+        { "forma": "Comprimidos 250 mg, 500 mg", "obs": "" },
+        { "forma": "Comprimidos UD 500 mg", "obs": "Liberação prolongada" },
+        { "forma": "Suspensão oral 125 mg/5 mL", "obs": "" },
+        { "forma": "Suspensão oral 250 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspensão: reconstituir com água conforme bula", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Pode ser administrada com ou sem alimentos",
+        "Muitas interações via CYP3A4: estatinas, BCC, warfarina, carbamazepina, colchicina",
+        "Risco de prolongamento do QT – evitar com outros prolongadores",
+        "Categoria C na gestação",
+        "Melhor tolerância GI que eritromicina",
+        "ClCr <30: reduzir dose à metade"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajuste por função renal (ClCr). Atenção a interações (estatinas, BCC).",
+        "renal": "ClCr <30 mL/min: reduzir dose 50%. Hemodiálise: dose após sessão.",
+        "hepatico": "Insuficiência hepática grave: reduzir dose ou evitar. Hepatotoxicidade rara."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Claritromicina (adulto)",
+        "doseTexto": "500 mg VO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Claritromicina LP (adulto)",
+        "doseTexto": "1 g VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Claritromicina (pediátrico)",
+        "doseTexto": "7,5 mg/kg/dose VO 12/12h (máx 500 mg)",
+        "doseMin": 7.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Clarithromycin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Respiratory infections (adult)",
+          "descricaoDose": "500 mg PO q12h for 7-14 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h for 7-14 days",
+            "ajusteRenal": "CrCl <30: reduce dose 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "H. pylori eradication (adult)",
+          "descricaoDose": "500 mg PO q12h (+ PPI + amoxicillin) for 14 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h for 14 days",
+            "ajusteRenal": "CrCl <30: reduce dose 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Extended-release (adult)",
+          "descricaoDose": "1 g PO once daily for 7-14 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily for 7-14 days",
+            "ajusteRenal": "CrCl <30: reduce dose 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric – standard dose",
+          "descricaoDose": "7.5 mg/kg/dose PO q12h (max 500 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h",
+            "ajusteRenal": "CrCl <30: reduce dose 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiotic – Macrolide",
+      "apresentacoes": [
+        { "forma": "Tablets 250 mg, 500 mg", "obs": "" },
+        { "forma": "Extended-release tablets 500 mg", "obs": "" },
+        { "forma": "Oral suspension 125 mg/5 mL", "obs": "" },
+        { "forma": "Oral suspension 250 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspension: reconstitute with water per label", "concentracao": "Per presentation" }
+      ],
+      "observacoes": [
+        "May be taken with or without food",
+        "Many CYP3A4 interactions: statins, CCBs, warfarin, carbamazepine, colchicine",
+        "QT prolongation risk – avoid with other QT-prolonging drugs",
+        "Pregnancy category C",
+        "Better GI tolerance than erythromycin",
+        "CrCl <30: reduce dose by half"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Adjust for renal function (CrCl). Caution with interactions (statins, CCBs).",
+        "renal": "CrCl <30 mL/min: reduce dose 50%. Hemodialysis: dose after session.",
+        "hepatico": "Severe hepatic impairment: reduce dose or avoid. Hepatotoxicity rare."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clarithromycin (adult)",
+        "doseTexto": "500 mg PO q12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Clarithromycin ER (adult)",
+        "doseTexto": "1 g PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Clarithromycin (pediatric)",
+        "doseTexto": "7.5 mg/kg/dose PO q12h (max 500 mg)",
+        "doseMin": 7.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Claritromicina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones respiratorias (adulto)",
+          "descricaoDose": "500 mg VO 12/12h por 7-14 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h por 7-14 días",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Erradicación H. pylori (adulto)",
+          "descricaoDose": "500 mg VO 12/12h (+ IBP + amoxicilina) por 14 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h por 14 días",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Liberación prolongada (adulto)",
+          "descricaoDose": "1 g VO 1x/día por 7-14 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día por 7-14 días",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico – dosis estándar",
+          "descricaoDose": "7,5 mg/kg/dosis VO 12/12h (máx 500 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Macrólido",
+      "apresentacoes": [
+        { "forma": "Comprimidos 250 mg, 500 mg", "obs": "" },
+        { "forma": "Comprimidos 500 mg", "obs": "Liberación prolongada" },
+        { "forma": "Suspensión oral 125 mg/5 mL", "obs": "" },
+        { "forma": "Suspensión oral 250 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspensión: reconstituir con agua según prospecto", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Puede administrarse con o sin alimentos",
+        "Muchas interacciones vía CYP3A4: estatinas, BCC, warfarina, carbamazepina, colchicina",
+        "Riesgo de prolongación del QT – evitar con otros prolongadores",
+        "Categoría C en embarazo",
+        "Mejor tolerancia digestiva que eritromicina",
+        "ClCr <30: reducir dosis a la mitad"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajustar por función renal (ClCr). Atención a interacciones (estatinas, BCC).",
+        "renal": "ClCr <30 mL/min: reducir dosis 50%. Hemodiálisis: dosis tras sesión.",
+        "hepatico": "Insuficiencia hepática grave: reducir dosis o evitar. Hepatotoxicidad rara."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Claritromicina (adulto)",
+        "doseTexto": "500 mg VO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Claritromicina LP (adulto)",
+        "doseTexto": "1 g VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Claritromicina (pediátrico)",
+        "doseTexto": "7,5 mg/kg/dosis VO 12/12h (máx 500 mg)",
+        "doseMin": 7.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "克拉霉素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "呼吸道感染（成人）",
+          "descricaoDose": "500 mg 口服 每12小时 共7-14天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时 共7-14天",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "根除幽门螺杆菌（成人）",
+          "descricaoDose": "500 mg 口服 每12小时（+ PPI + 阿莫西林）共14天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时 共14天",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "缓释（成人）",
+          "descricaoDose": "1 g 口服 每日1次 共7-14天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次 共7-14天",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童 – 标准剂量",
+          "descricaoDose": "7.5 mg/kg/剂 口服 每12小时（最大500 mg/剂）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗生素 – 大环内酯类",
+      "apresentacoes": [
+        { "forma": "片剂 250 mg, 500 mg", "obs": "" },
+        { "forma": "缓释片 500 mg", "obs": "" },
+        { "forma": "口服混悬液 125 mg/5 mL", "obs": "" },
+        { "forma": "口服混悬液 250 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "混悬液：按说明书用水 reconstitute", "concentracao": "按规格" }
+      ],
+      "observacoes": [
+        "可与或不与食物同服",
+        "多种CYP3A4相互作用：他汀、CCB、华法林、卡马西平、秋水仙碱",
+        "QT延长风险 – 避免与其它延长QT药物联用",
+        "妊娠C类",
+        "胃肠道耐受性优于红霉素",
+        "ClCr <30: 剂量减半"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "按肾功能（ClCr）调整。注意药物相互作用（他汀、CCB）。",
+        "renal": "ClCr <30 mL/min: 剂量减半。血液透析：透析后给药。",
+        "hepatico": "严重肝损害：减量或避免。肝毒性罕见。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "克拉霉素（成人）",
+        "doseTexto": "500 mg 口服 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "克拉霉素缓释（成人）",
+        "doseTexto": "1 g 口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "克拉霉素（儿童）",
+        "doseTexto": "7.5 mg/kg/剂 口服 每12小时（最大500 mg）",
+        "doseMin": 7.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

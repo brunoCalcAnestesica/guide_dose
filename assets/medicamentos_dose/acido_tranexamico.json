@@ -1,0 +1,946 @@
+{
+  "PT": {
+    "nome": "Ácido Tranexâmico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Trauma com hemorragia (CRASH-2)",
+          "descricaoDose": "1 g IV em 10 min + 1 g em infusão nas 8 h (iniciar em até 3 h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g + 1 g em 8 h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única + infusão 8 h",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia pós-parto (WOMAN)",
+          "descricaoDose": "1 g IV lento; repetir após 30 min se necessário (máx 2 g)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1 g IV (máx 2 g)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir em 30 min se necessário",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cirurgia cardíaca",
+          "descricaoDose": "10-30 mg/kg IV antes da incisão (máx 2 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Menorragia",
+          "descricaoDose": "1 g VO 3x/dia por até 4 dias no ciclo",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g VO 8/8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "8/8h por até 4 dias",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia pediátrica",
+          "descricaoDose": "10-15 mg/kg IV em 10 min (máx 1 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão contínua (adulto)",
+          "descricaoDose": "1-2 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão contínua (pediátrico)",
+          "descricaoDose": "0,5-1,5 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1.5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g em 100mL SF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "500mg em 100mL SF (5 mg/mL)", "valor": 5 },
+            { "rotulo": "1g em 250mL SF (4 mg/mL)", "valor": 4 },
+            { "rotulo": "2g em 500mL SF (4 mg/mL)", "valor": 4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antifibrinolítico - Inibidor competitivo da plasmina",
+      "apresentacoes": [
+        { "forma": "Ampola 500 mg/5 mL", "obs": "100 mg/mL" },
+        { "forma": "Ampola 250 mg/5 mL", "obs": "50 mg/mL" },
+        { "forma": "Comprimido 500 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 250 mg", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g + 100 mL SF", "concentracao": "10 mg/mL (bolus)" },
+        { "diluicao": "500 mg + 100 mL SF", "concentracao": "5 mg/mL" },
+        { "diluicao": "1 g + 250 mL SF", "concentracao": "4 mg/mL (infusão)" },
+        { "diluicao": "1 g puro em 10 min", "concentracao": "Trauma - CRASH-2" }
+      ],
+      "observacoes": [
+        "Idealmente administrar nas primeiras 3 h após início da hemorragia (trauma, HPP)",
+        "Infundir IV lentamente (10 mL/min) para evitar hipotensão",
+        "Máximo 4 g/dia IV ou VO em adultos",
+        "Contraindicado em trombose ativa e sangramento subaracnóideo",
+        "Risco de convulsões em altas doses IV (neurocirurgia)",
+        "Incompatível com bicarbonato e soluções alcalinas na mesma via"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal. Ajuste por ClCr conforme posologia.",
+        "renal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h.",
+        "hepatico": "Não requer ajuste. Monitorar em hepatopatia grave se risco de sangramento coexistente."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ácido Tranexâmico - Trauma (CRASH-2)",
+        "doseTexto": "1 g IV em 10 min + 1 g em 8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g + 1 g em 8h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Tranexâmico - HPP (WOMAN)",
+        "doseTexto": "1 g IV (máx 2 g)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Tranexâmico - Cirurgia cardíaca",
+        "doseTexto": "10-30 mg/kg IV (máx 2 g)",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Tranexâmico - Hemorragia pediátrica",
+        "doseTexto": "10-15 mg/kg IV (máx 1 g)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Ácido Tranexâmico - Infusão contínua",
+        "doseTexto": "1-2 mg/kg/h IV (adulto); 0,5-1,5 mg/kg/h (ped)",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Tranexamic Acid",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Trauma with hemorrhage (CRASH-2)",
+          "descricaoDose": "1 g IV over 10 min + 1 g infusion over 8 h (start within 3 h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g + 1 g over 8 h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose + 8 h infusion",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg q12h; ClCr 10-50: 25 mg/kg q24h; ClCr <10: 10-15 mg/kg q24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Postpartum hemorrhage (WOMAN)",
+          "descricaoDose": "1 g IV slow; repeat after 30 min if needed (max 2 g)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1 g IV (max 2 g)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat in 30 min if needed",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg q12h; ClCr 10-50: 25 mg/kg q24h; ClCr <10: 10-15 mg/kg q24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cardiac surgery",
+          "descricaoDose": "10-30 mg/kg IV before incision (max 2 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg q12h; ClCr 10-50: 25 mg/kg q24h; ClCr <10: 10-15 mg/kg q24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Menorrhagia",
+          "descricaoDose": "1 g PO 3x/day for up to 4 days in cycle",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g PO q8h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "q8h for up to 4 days",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg q12h; ClCr 10-50: 25 mg/kg q24h; ClCr <10: 10-15 mg/kg q24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric hemorrhage",
+          "descricaoDose": "10-15 mg/kg IV over 10 min (max 1 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg q12h; ClCr 10-50: 25 mg/kg q24h; ClCr <10: 10-15 mg/kg q24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Continuous infusion (adult)",
+          "descricaoDose": "1-2 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg q12h; ClCr 10-50: 25 mg/kg q24h; ClCr <10: 10-15 mg/kg q24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Continuous infusion (pediatric)",
+          "descricaoDose": "0.5-1.5 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg q12h; ClCr 10-50: 25 mg/kg q24h; ClCr <10: 10-15 mg/kg q24h",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1.5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g in 100mL NS (10 mg/mL)", "valor": 10 },
+            { "rotulo": "500mg in 100mL NS (5 mg/mL)", "valor": 5 },
+            { "rotulo": "1g in 250mL NS (4 mg/mL)", "valor": 4 },
+            { "rotulo": "2g in 500mL NS (4 mg/mL)", "valor": 4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antifibrinolytic - Competitive plasmin inhibitor",
+      "apresentacoes": [
+        { "forma": "Ampoule 500 mg/5 mL", "obs": "100 mg/mL" },
+        { "forma": "Ampoule 250 mg/5 mL", "obs": "50 mg/mL" },
+        { "forma": "Tablet 500 mg", "obs": "Oral" },
+        { "forma": "Tablet 250 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g + 100 mL NS", "concentracao": "10 mg/mL (bolus)" },
+        { "diluicao": "500 mg + 100 mL NS", "concentracao": "5 mg/mL" },
+        { "diluicao": "1 g + 250 mL NS", "concentracao": "4 mg/mL (infusion)" },
+        { "diluicao": "1 g undiluted over 10 min", "concentracao": "Trauma - CRASH-2" }
+      ],
+      "observacoes": [
+        "Ideally give within first 3 h after hemorrhage onset (trauma, PPH)",
+        "Infuse IV slowly (10 mL/min) to avoid hypotension",
+        "Max 4 g/day IV or PO in adults",
+        "Contraindicated in active thrombosis and subarachnoid hemorrhage",
+        "Seizure risk at high IV doses (neurosurgery)",
+        "Incompatible with bicarbonate and alkaline solutions in same line"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function. Adjust by ClCr per dosing.",
+        "renal": "ClCr 50-80: 25 mg/kg q12h; ClCr 10-50: 25 mg/kg q24h; ClCr <10: 10-15 mg/kg q24h.",
+        "hepatico": "No adjustment. Monitor in severe liver disease if bleeding risk coexists."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tranexamic Acid - Trauma (CRASH-2)",
+        "doseTexto": "1 g IV over 10 min + 1 g over 8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g + 1 g over 8h",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tranexamic Acid - PPH (WOMAN)",
+        "doseTexto": "1 g IV (max 2 g)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tranexamic Acid - Cardiac surgery",
+        "doseTexto": "10-30 mg/kg IV (max 2 g)",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tranexamic Acid - Pediatric hemorrhage",
+        "doseTexto": "10-15 mg/kg IV (max 1 g)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Tranexamic Acid - Continuous infusion",
+        "doseTexto": "1-2 mg/kg/h IV (adult); 0.5-1.5 mg/kg/h (ped)",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ácido Tranexámico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Trauma con hemorragia (CRASH-2)",
+          "descricaoDose": "1 g IV en 10 min + 1 g en infusión en 8 h (iniciar en hasta 3 h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g + 1 g en 8 h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única + infusión 8 h",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemorragia posparto (WOMAN)",
+          "descricaoDose": "1 g IV lento; repetir a los 30 min si es necesario (máx 2 g)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1 g IV (máx 2 g)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir a los 30 min si es necesario",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cirugía cardíaca",
+          "descricaoDose": "10-30 mg/kg IV antes de la incisión (máx 2 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Menorragia",
+          "descricaoDose": "1 g VO 3x/día por hasta 4 días en el ciclo",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g VO 8/8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "8/8h por hasta 4 días",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemorragia pediátrica",
+          "descricaoDose": "10-15 mg/kg IV en 10 min (máx 1 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Infusión continua (adulto)",
+          "descricaoDose": "1-2 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Infusión continua (pediátrico)",
+          "descricaoDose": "0,5-1,5 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1.5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g en 100mL SSF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "500mg en 100mL SSF (5 mg/mL)", "valor": 5 },
+            { "rotulo": "1g en 250mL SSF (4 mg/mL)", "valor": 4 },
+            { "rotulo": "2g en 500mL SSF (4 mg/mL)", "valor": 4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antifibrinolítico - Inhibidor competitivo de la plasmina",
+      "apresentacoes": [
+        { "forma": "Ampolla 500 mg/5 mL", "obs": "100 mg/mL" },
+        { "forma": "Ampolla 250 mg/5 mL", "obs": "50 mg/mL" },
+        { "forma": "Comprimido 500 mg", "obs": "Vía oral" },
+        { "forma": "Comprimido 250 mg", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g + 100 mL SSF", "concentracao": "10 mg/mL (bolus)" },
+        { "diluicao": "500 mg + 100 mL SSF", "concentracao": "5 mg/mL" },
+        { "diluicao": "1 g + 250 mL SSF", "concentracao": "4 mg/mL (infusión)" },
+        { "diluicao": "1 g puro en 10 min", "concentracao": "Trauma - CRASH-2" }
+      ],
+      "observacoes": [
+        "Idealmente administrar en las primeras 3 h tras inicio de la hemorragia (trauma, HPP)",
+        "Infundir IV lentamente (10 mL/min) para evitar hipotensión",
+        "Máximo 4 g/día IV o VO en adultos",
+        "Contraindicado en trombosis activa y sangrado subaracnoideo",
+        "Riesgo de convulsiones a dosis altas IV (neurocirugía)",
+        "Incompatible con bicarbonato y soluciones alcalinas en la misma vía"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal. Ajustar por ClCr según posología.",
+        "renal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h.",
+        "hepatico": "No requiere ajuste. Monitorizar en hepatopatía grave si coexiste riesgo de sangrado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ácido Tranexámico - Trauma (CRASH-2)",
+        "doseTexto": "1 g IV en 10 min + 1 g en 8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g + 1 g en 8h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Tranexámico - HPP (WOMAN)",
+        "doseTexto": "1 g IV (máx 2 g)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Tranexámico - Cirugía cardíaca",
+        "doseTexto": "10-30 mg/kg IV (máx 2 g)",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Tranexámico - Hemorragia pediátrica",
+        "doseTexto": "10-15 mg/kg IV (máx 1 g)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Ácido Tranexámico - Infusión continua",
+        "doseTexto": "1-2 mg/kg/h IV (adulto); 0,5-1,5 mg/kg/h (ped)",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氨甲环酸",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "创伤出血 (CRASH-2)",
+          "descricaoDose": "1 g 静注 10 分钟 + 1 g 输注 8 小时（3 小时内开始）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g + 1 g 8小时内",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次 + 8小时输注",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "产后出血 (WOMAN)",
+          "descricaoDose": "1 g 静注缓慢；30 分钟后必要时重复（最大 2 g）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1 g IV（最大 2 g）",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30分钟后必要时重复",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "心脏手术",
+          "descricaoDose": "10-30 mg/kg 静注切皮前（最大 2 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "月经过多",
+          "descricaoDose": "1 g 口服 3次/日，周期内最多 4 天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g 口服 8/8h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "8/8h 最多4天",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "儿童出血",
+          "descricaoDose": "10-15 mg/kg 静注 10 分钟（最大 1 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "持续输注（成人）",
+          "descricaoDose": "1-2 mg/kg/h 静注持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "持续输注（儿童）",
+          "descricaoDose": "0.5-1.5 mg/kg/h 静注持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1.5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g溶于100mL生理盐水（10 mg/mL）", "valor": 10 },
+            { "rotulo": "500mg溶于100mL生理盐水（5 mg/mL）", "valor": 5 },
+            { "rotulo": "1g溶于250mL生理盐水（4 mg/mL）", "valor": 4 },
+            { "rotulo": "2g溶于500mL生理盐水（4 mg/mL）", "valor": 4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "抗纤溶药 - 纤溶酶竞争性抑制剂",
+      "apresentacoes": [
+        { "forma": "安瓿 500 mg/5 mL", "obs": "100 mg/mL" },
+        { "forma": "安瓿 250 mg/5 mL", "obs": "50 mg/mL" },
+        { "forma": "片剂 500 mg", "obs": "口服" },
+        { "forma": "片剂 250 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g + 100 mL 生理盐水", "concentracao": "10 mg/mL（负荷）" },
+        { "diluicao": "500 mg + 100 mL 生理盐水", "concentracao": "5 mg/mL" },
+        { "diluicao": "1 g + 250 mL 生理盐水", "concentracao": "4 mg/mL（输注）" },
+        { "diluicao": "1 g 原液 10 分钟", "concentracao": "创伤 - CRASH-2" }
+      ],
+      "observacoes": [
+        "理想情况下在出血开始后 3 小时内给药（创伤、产后出血）",
+        "静注缓慢（10 mL/min）以避免低血压",
+        "成人最大 4 g/日 静注或口服",
+        "活动性血栓及蛛网膜下腔出血禁忌",
+        "大剂量静注有癫痫风险（神经外科）",
+        "与碳酸氢钠及碱性液同一管路配伍禁忌"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能。按 ClCr 调整剂量。",
+        "renal": "ClCr 50-80: 25 mg/kg 12/12h; ClCr 10-50: 25 mg/kg 24/24h; ClCr <10: 10-15 mg/kg 24/24h。",
+        "hepatico": "无需调整。严重肝病合并出血风险时监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氨甲环酸 - 创伤 (CRASH-2)",
+        "doseTexto": "1 g 静注 10 分钟 + 1 g 8 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g + 1 g 8h",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "氨甲环酸 - 产后出血 (WOMAN)",
+        "doseTexto": "1 g 静注（最大 2 g）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "氨甲环酸 - 心脏手术",
+        "doseTexto": "10-30 mg/kg 静注（最大 2 g）",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "氨甲环酸 - 儿童出血",
+        "doseTexto": "10-15 mg/kg 静注（最大 1 g）",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "氨甲环酸 - 持续输注",
+        "doseTexto": "1-2 mg/kg/h 静注（成人）；0.5-1.5 mg/kg/h（儿童）",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      }
+    ]
+  }
+}

@@ -9,13 +9,13 @@ class MedicamentoAcetazolamida {
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
-    final isFavorito = favoritos.contains(nome);
 
     // Verificar se há indicações para a faixa etária atual
     if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
       return const SizedBox.shrink(); // Não exibe o card se não há indicações
     }
 
+    final isFavorito = favoritos.contains(nome);
     return buildMedicamentoExpansivel(
       context: context,
       nome: nome,
@@ -25,6 +25,18 @@ class MedicamentoAcetazolamida {
       conteudo: _buildCardAcetazolamida(context, peso, faixaEtaria),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+
+    return _buildCardAcetazolamida(
+      context, peso, faixaEtaria,
+    );
+  }
+
 
   static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
     // Card aparece apenas para Criança, Adolescente, Adulto e Idoso

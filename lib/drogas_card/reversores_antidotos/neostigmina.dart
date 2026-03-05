@@ -17,9 +17,9 @@ class MedicamentoNeostigmina {
 
   static Widget buildCard(BuildContext context, Set<String> favoritos,
       void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
-    final isFavorito = favoritos.contains(nome);
 
     // Verificar se há indicações para a faixa etária selecionada
     if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
@@ -41,6 +41,23 @@ class MedicamentoNeostigmina {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+
+    return _buildCardNeostigmina(
+      context,
+        peso,
+        faixaEtaria,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
     // Todas as faixas etárias têm indicação de reversão de bloqueio neuromuscular

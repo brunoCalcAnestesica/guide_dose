@@ -1,0 +1,606 @@
+{
+  "PT": {
+    "nome": "Halotano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução inalatória - Adulto",
+          "descricaoDose": "2-4% em O₂ ou O₂/N₂O",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-4%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção - Adulto",
+          "descricaoDose": "0,5-1,5% em O₂/N₂O ou O₂/ar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-1,5%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução pediátrica",
+          "descricaoDose": "2-4% (odor não irritante)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-4%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção pediátrica",
+          "descricaoDose": "0,5-2% (ajustar por idade)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico inalatório - Hidrocarboneto halogenado (em desuso)",
+      "apresentacoes": [
+        { "forma": "Líquido volátil", "obs": "Frasco 125-250 mL" },
+        { "forma": "Vaporizador específico", "obs": "Calibrado para halotano" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso em vaporizador calibrado", "concentracao": "Concentração inspirada" },
+        { "diluicao": "CAM adulto", "concentracao": "0,75%" },
+        { "diluicao": "CAM pediátrico", "concentracao": "0,87-1,1%" }
+      ],
+      "observacoes": [
+        "HEPATOTOXICIDADE: hepatite fulminante (rara mas grave)",
+        "ARRITMOGÊNICO: sensibiliza miocárdio às catecolaminas",
+        "HIPERTERMIA MALIGNA: gatilho conhecido",
+        "Vantagem histórica: odor agradável para indução",
+        "NÃO USAR: se hepatite prévia por halotano",
+        "Substitutos preferíveis: Sevoflurano, Desflurano, Isoflurano"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir concentração. Manutenção 0,5-1%.",
+        "renal": "Não requer ajuste. Eliminação pulmonar predominante.",
+        "hepatico": "EVITAR em doença hepática. Risco hepatotoxicidade."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Halotano - Indução (adulto)",
+        "doseTexto": "2-4% em O₂ ou O₂/N₂O",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 0,
+        "resultadoFixo": "2-4%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Halotano - Manutenção (adulto)",
+        "doseTexto": "0,5-1,5% em O₂/N₂O ou O₂/ar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1,5%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Halotano - Indução (pediátrico)",
+        "doseTexto": "2-4%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 0,
+        "resultadoFixo": "2-4%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Halotano - Manutenção (pediátrico)",
+        "doseTexto": "0,5-2% (ajustar por idade)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Halothane",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inhalational induction - Adult",
+          "descricaoDose": "2-4% in O₂ or O₂/N₂O",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-4%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance - Adult",
+          "descricaoDose": "0.5-1.5% in O₂/N₂O or O₂/air",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-1.5%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric induction",
+          "descricaoDose": "2-4% (non-irritating odor)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-4%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric maintenance",
+          "descricaoDose": "0.5-2% (adjust by age)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Inhalational anesthetic - Halogenated hydrocarbon (obsolete)",
+      "apresentacoes": [
+        { "forma": "Volatile liquid", "obs": "125-250 mL bottle" },
+        { "forma": "Specific vaporizer", "obs": "Calibrated for halothane" }
+      ],
+      "preparo": [
+        { "diluicao": "Use in calibrated vaporizer", "concentracao": "Inspired concentration" },
+        { "diluicao": "MAC adult", "concentracao": "0.75%" },
+        { "diluicao": "MAC pediatric", "concentracao": "0.87-1.1%" }
+      ],
+      "observacoes": [
+        "HEPATOTOXICITY: fulminant hepatitis (rare but severe)",
+        "ARRHYTHMOGENIC: sensitizes myocardium to catecholamines",
+        "MALIGNANT HYPERTHERMIA: known trigger",
+        "Historical advantage: pleasant odor for induction",
+        "DO NOT USE: if prior halothane hepatitis",
+        "Preferred alternatives: Sevoflurane, Desflurane, Isoflurane"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce concentration. Maintenance 0.5-1%.",
+        "renal": "No dose adjustment. Predominant pulmonary elimination.",
+        "hepatico": "AVOID in liver disease. Hepatotoxicity risk."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Halothane - Induction (adult)",
+        "doseTexto": "2-4% in O₂ or O₂/N₂O",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 0,
+        "resultadoFixo": "2-4%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Halothane - Maintenance (adult)",
+        "doseTexto": "0.5-1.5% in O₂/N₂O or O₂/air",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1.5%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Halothane - Induction (pediatric)",
+        "doseTexto": "2-4%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 0,
+        "resultadoFixo": "2-4%",
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Halothane - Maintenance (pediatric)",
+        "doseTexto": "0.5-2% (adjust by age)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2%",
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Halotano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción inhalatoria - Adulto",
+          "descricaoDose": "2-4% en O₂ u O₂/N₂O",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-4%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento - Adulto",
+          "descricaoDose": "0,5-1,5% en O₂/N₂O u O₂/aire",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-1,5%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción pediátrica",
+          "descricaoDose": "2-4% (olor no irritante)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-4%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento pediátrico",
+          "descricaoDose": "0,5-2% (ajustar por edad)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico inhalatorio - Hidrocarburo halogenado (en desuso)",
+      "apresentacoes": [
+        { "forma": "Líquido volátil", "obs": "Frasco 125-250 mL" },
+        { "forma": "Vaporizador específico", "obs": "Calibrado para halotano" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso en vaporizador calibrado", "concentracao": "Concentración inspirada" },
+        { "diluicao": "CAM adulto", "concentracao": "0,75%" },
+        { "diluicao": "CAM pediátrico", "concentracao": "0,87-1,1%" }
+      ],
+      "observacoes": [
+        "HEPATOTOXICIDAD: hepatitis fulminante (rara pero grave)",
+        "ARRITMOGÉNICO: sensibiliza miocardio a catecolaminas",
+        "HIPERTERMIA MALIGNA: desencadenante conocido",
+        "Ventaja histórica: olor agradable para inducción",
+        "NO USAR: si hepatitis previa por halotano",
+        "Sustitutos preferibles: Sevoflurano, Desflurano, Isoflurano"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir concentración. Mantenimiento 0,5-1%.",
+        "renal": "No requiere ajuste. Eliminación pulmonar predominante.",
+        "hepatico": "EVITAR en enfermedad hepática. Riesgo hepatotoxicidad."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Halotano - Inducción (adulto)",
+        "doseTexto": "2-4% en O₂ u O₂/N₂O",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 0,
+        "resultadoFixo": "2-4%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Halotano - Mantenimiento (adulto)",
+        "doseTexto": "0,5-1,5% en O₂/N₂O u O₂/aire",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1,5%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Halotano - Inducción (pediátrico)",
+        "doseTexto": "2-4%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 0,
+        "resultadoFixo": "2-4%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Halotano - Mantenimiento (pediátrico)",
+        "doseTexto": "0,5-2% (ajustar por edad)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氟烷",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "吸入诱导 - 成人",
+          "descricaoDose": "2-4% 于 O₂ 或 O₂/N₂O",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-4%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "维持 - 成人",
+          "descricaoDose": "0.5-1.5% 于 O₂/N₂O 或 O₂/空气",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-1.5%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童诱导",
+          "descricaoDose": "2-4%（气味不刺激）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-4%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童维持",
+          "descricaoDose": "0.5-2%（按年龄调整）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "吸入麻醉药 - 卤化烃（已淘汰）",
+      "apresentacoes": [
+        { "forma": "挥发性液体", "obs": "125-250 mL 瓶" },
+        { "forma": "专用蒸发器", "obs": "氟烷校准" }
+      ],
+      "preparo": [
+        { "diluicao": "校准蒸发器使用", "concentracao": "吸入浓度" },
+        { "diluicao": "成人MAC", "concentracao": "0.75%" },
+        { "diluicao": "儿童MAC", "concentracao": "0.87-1.1%" }
+      ],
+      "observacoes": [
+        "肝毒性：暴发性肝炎（罕见但严重）",
+        "致心律失常：心肌对儿茶酚胺敏感",
+        "恶性高热：已知触发因素",
+        "历史优点：诱导气味宜人",
+        "禁用：既往氟烷肝炎",
+        "优选替代：七氟烷、地氟烷、异氟烷"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "降低浓度。维持0.5-1%。",
+        "renal": "无需调整。主要经肺消除。",
+        "hepatico": "肝病禁用。肝毒性风险。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氟烷 - 诱导（成人）",
+        "doseTexto": "2-4% 于 O₂ 或 O₂/N₂O",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 0,
+        "resultadoFixo": "2-4%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氟烷 - 维持（成人）",
+        "doseTexto": "0.5-1.5% 于 O₂/N₂O 或 O₂/空气",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1.5%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氟烷 - 诱导（儿童）",
+        "doseTexto": "2-4%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 0,
+        "resultadoFixo": "2-4%",
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "氟烷 - 维持（儿童）",
+        "doseTexto": "0.5-2%（按年龄调整）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2%",
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

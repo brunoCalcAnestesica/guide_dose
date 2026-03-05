@@ -1,0 +1,654 @@
+{
+  "PT": {
+    "nome": "Levomepromazina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sedação",
+          "descricaoDose": "12,5-25 mg IM/IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Agitação",
+          "descricaoDose": "25-50 mg IM/IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "dose única ou repetir se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Náusea/Vômito refratários",
+          "descricaoDose": "6,25-12,5 mg IM/IV a cada 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 12.5,
+            "doseMaxima": 12.5,
+            "doseFixa": "6,25-12,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação em cuidados paliativos",
+          "descricaoDose": "12,5-25 mg IM/IV/SC (pode combinar com opioide na mesma seringa)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV/SC",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Uso limitado em pediatria (≥12 anos)",
+          "descricaoDose": "0,5-1 mg/kg IM (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antipsicótico típico (fenotiazina) - Sedativo potente, antiemético",
+      "apresentacoes": [
+        { "forma": "Solução injetável 25 mg/mL", "obs": "1 mL" },
+        { "forma": "Comprimido 25 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 100 mg", "obs": "Via oral" },
+        { "forma": "Solução oral 40 mg/mL", "obs": "Gotas" }
+      ],
+      "preparo": [
+        { "diluicao": "IM: administrar profundamente", "concentracao": "25 mg/mL" },
+        { "diluicao": "IV: diluir em 10-20 mL SF", "concentracao": "Infundir lento (> 5 min)" },
+        { "diluicao": "SC: compatível em paliativos", "concentracao": "Com morfina/midazolam na mesma seringa" },
+        { "diluicao": "Evitar extravasamento", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Início IM: 20-40 min | Duração: 12-24h | Meia-vida longa (15-30h)",
+        "Sedação intensa - primeira linha em agitação e cuidados paliativos",
+        "Hipotensão ortostática e efeitos anticolinérgicos frequentes",
+        "Prolongamento do QT - evitar com outros fármacos que prolongam QT",
+        "Risco de síndrome neuroléptica maligna (raro)",
+        "Compatível com morfina e midazolam em seringa (paliativos)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose (6,25-12,5 mg). Maior sensibilidade à sedação e hipotensão.",
+        "renal": "Não requer ajuste. Metabolismo predominantemente hepático.",
+        "hepatico": "Child B/C: reduzir dose ou evitar. Insuficiência grave: contraindicado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levomepromazina (adulto) - Sedação",
+        "doseTexto": "12,5-25 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levomepromazina (adulto) - Agitação",
+        "doseTexto": "25-50 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levomepromazina (pediátrico ≥12 anos)",
+        "doseTexto": "0,5-1 mg/kg IM (máx 25 mg)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Levomepromazine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sedation",
+          "descricaoDose": "12.5-25 mg IM/IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Agitation",
+          "descricaoDose": "25-50 mg IM/IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "single dose or repeat if needed",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Refractory nausea/vomiting",
+          "descricaoDose": "6.25-12.5 mg IM/IV every 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 12.5,
+            "doseMaxima": 12.5,
+            "doseFixa": "6.25-12.5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Palliative sedation",
+          "descricaoDose": "12.5-25 mg IM/IV/SC (may mix with opioid in same syringe)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV/SC",
+            "intervalo": "as needed",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Limited use in pediatrics (≥12 years)",
+          "descricaoDose": "0.5-1 mg/kg IM (max 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Typical antipsychotic (phenothiazine) - Potent sedative, antiemetic",
+      "apresentacoes": [
+        { "forma": "Injectable solution 25 mg/mL", "obs": "1 mL" },
+        { "forma": "Tablet 25 mg", "obs": "Oral" },
+        { "forma": "Tablet 100 mg", "obs": "Oral" },
+        { "forma": "Oral solution 40 mg/mL", "obs": "Drops" }
+      ],
+      "preparo": [
+        { "diluicao": "IM: inject deeply", "concentracao": "25 mg/mL" },
+        { "diluicao": "IV: dilute in 10-20 mL NS", "concentracao": "Infuse slowly (> 5 min)" },
+        { "diluicao": "SC: compatible in palliative care", "concentracao": "With morphine/midazolam in same syringe" },
+        { "diluicao": "Avoid extravasation", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Onset IM: 20-40 min | Duration: 12-24h | Long half-life (15-30h)",
+        "Potent sedation - first line for agitation and palliative care",
+        "Orthostatic hypotension and anticholinergic effects common",
+        "QT prolongation - avoid with other QT-prolonging drugs",
+        "Risk of neuroleptic malignant syndrome (rare)",
+        "Compatible with morphine and midazolam in syringe (palliative)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose (6.25-12.5 mg). Greater sensitivity to sedation and hypotension.",
+        "renal": "No dose adjustment. Predominantly hepatic metabolism.",
+        "hepatico": "Child B/C: reduce dose or avoid. Severe insufficiency: contraindicated."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levomepromazine (adult) - Sedation",
+        "doseTexto": "12.5-25 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12.5-25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levomepromazine (adult) - Agitation",
+        "doseTexto": "25-50 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levomepromazine (pediatric ≥12 years)",
+        "doseTexto": "0.5-1 mg/kg IM (max 25 mg)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Levomepromazina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sedación",
+          "descricaoDose": "12,5-25 mg IM/IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Agitación",
+          "descricaoDose": "25-50 mg IM/IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "dosis única o repetir si es necesario",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Náusea/vómito refractarios",
+          "descricaoDose": "6,25-12,5 mg IM/IV cada 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 12.5,
+            "doseMaxima": 12.5,
+            "doseFixa": "6,25-12,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedación en cuidados paliativos",
+          "descricaoDose": "12,5-25 mg IM/IV/SC (puede mezclar con opioide en misma jeringa)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV/SC",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Uso limitado en pediatría (≥12 años)",
+          "descricaoDose": "0,5-1 mg/kg IM (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antipsicótico típico (fenotiazina) - Sedante potente, antiemético",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 25 mg/mL", "obs": "1 mL" },
+        { "forma": "Comprimido 25 mg", "obs": "Vía oral" },
+        { "forma": "Comprimido 100 mg", "obs": "Vía oral" },
+        { "forma": "Solución oral 40 mg/mL", "obs": "Gotas" }
+      ],
+      "preparo": [
+        { "diluicao": "IM: administrar en profundidad", "concentracao": "25 mg/mL" },
+        { "diluicao": "IV: diluir en 10-20 mL SF", "concentracao": "Infundir lento (> 5 min)" },
+        { "diluicao": "SC: compatible en paliativos", "concentracao": "Con morfina/midazolam en misma jeringa" },
+        { "diluicao": "Evitar extravasación", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Inicio IM: 20-40 min | Duración: 12-24h | Semivida larga (15-30h)",
+        "Sedación intensa - primera línea en agitación y cuidados paliativos",
+        "Hipotensión ortostática y efectos anticolinérgicos frecuentes",
+        "Prolongación del QT - evitar con otros fármacos que prolongan QT",
+        "Riesgo de síndrome neuroléptico maligno (raro)",
+        "Compatible con morfina y midazolam en jeringa (paliativos)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis (6,25-12,5 mg). Mayor sensibilidad a sedación e hipotensión.",
+        "renal": "No requiere ajuste. Metabolismo predominantemente hepático.",
+        "hepatico": "Child B/C: reducir dosis o evitar. Insuficiencia grave: contraindicado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levomepromazina (adulto) - Sedación",
+        "doseTexto": "12,5-25 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levomepromazina (adulto) - Agitación",
+        "doseTexto": "25-50 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levomepromazina (pediátrico ≥12 años)",
+        "doseTexto": "0,5-1 mg/kg IM (máx 25 mg)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "左美丙嗪",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "镇静",
+          "descricaoDose": "12.5-25 mg 肌注/静注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "躁动",
+          "descricaoDose": "25-50 mg 肌注/静注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "单次或按需重复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "难治性恶心/呕吐",
+          "descricaoDose": "6.25-12.5 mg 肌注/静注 每6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 12.5,
+            "doseMaxima": 12.5,
+            "doseFixa": "6.25-12.5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "每6-8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "姑息镇静",
+          "descricaoDose": "12.5-25 mg 肌注/静注/皮下（可与阿片类同针混合）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV/SC",
+            "intervalo": "按需",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿科有限使用（≥12岁）",
+          "descricaoDose": "0.5-1 mg/kg 肌注（最大25 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "典型抗精神病药（吩噻嗪）- 强镇静、止吐",
+      "apresentacoes": [
+        { "forma": "注射剂 25 mg/mL", "obs": "1 mL" },
+        { "forma": "片剂 25 mg", "obs": "口服" },
+        { "forma": "片剂 100 mg", "obs": "口服" },
+        { "forma": "口服液 40 mg/mL", "obs": "滴剂" }
+      ],
+      "preparo": [
+        { "diluicao": "肌注：深部注射", "concentracao": "25 mg/mL" },
+        { "diluicao": "静注：用10-20 mL生理盐水稀释", "concentracao": "缓慢输注（>5分钟）" },
+        { "diluicao": "皮下：姑息治疗可用", "concentracao": "可与吗啡/咪达唑仑同针" },
+        { "diluicao": "避免外渗", "concentracao": "" }
+      ],
+      "observacoes": [
+        "肌注起效：20-40分钟 | 持续：12-24h | 半衰期长（15-30h）",
+        "强镇静 - 躁动和姑息治疗一线",
+        "常见直立性低血压和抗胆碱能效应",
+        "QT延长 - 避免与其它延长QT药物联用",
+        "神经阻滞剂恶性综合征风险（罕见）",
+        "与吗啡、咪达唑仑同针兼容（姑息）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量（6.25-12.5 mg）。对镇静和低血压更敏感。",
+        "renal": "无需调整。主要经肝代谢。",
+        "hepatico": "Child B/C：减量或避免。严重不全：禁忌。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "左美丙嗪（成人）- 镇静",
+        "doseTexto": "12.5-25 mg 肌注/静注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12.5-25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "左美丙嗪（成人）- 躁动",
+        "doseTexto": "25-50 mg 肌注/静注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "左美丙嗪（儿科≥12岁）",
+        "doseTexto": "0.5-1 mg/kg 肌注（最大25 mg）",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

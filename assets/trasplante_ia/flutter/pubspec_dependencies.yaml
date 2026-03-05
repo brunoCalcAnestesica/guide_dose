@@ -1,0 +1,61 @@
+# ============================================
+# DEPENDÊNCIAS NECESSÁRIAS PARA A IA MÉDICA
+# ============================================
+# Adicione estas dependências ao pubspec.yaml do seu projeto
+# Use as versões mais recentes disponíveis
+# ============================================
+
+dependencies:
+  # Core Flutter
+  flutter:
+    sdk: flutter
+  
+  # HTTP e comunicação
+  http: ^1.6.0                          # Requisições HTTP para OpenAI
+  
+  # Supabase (backend)
+  supabase_flutter: ^2.5.0              # Autenticação e banco de dados
+  
+  # Variáveis de ambiente
+  flutter_dotenv: ^6.0.0                # Carrega .env com chaves da API
+  
+  # Persistência local
+  shared_preferences: ^2.2.2            # Salvar conversas localmente
+  path_provider: ^2.1.5                 # Acessar diretórios do sistema
+  
+  # UI do chat
+  flutter_markdown_plus: ^1.0.7         # Renderizar Markdown nas respostas
+  
+  # Processamento de PDFs (anexos)
+  file_picker: ^10.3.8                  # Selecionar arquivos
+  syncfusion_flutter_pdf: ^32.1.23      # Extrair texto de PDFs
+  pdfx: ^2.9.2                          # Renderizar páginas de PDF
+  google_mlkit_barcode_scanning: ^0.14.1 # Ler QR Code de prontuário
+  
+  # Geração de PDFs
+  pdf: ^3.11.3                          # Criar PDFs
+  share_plus: ^12.0.1                   # Compartilhar PDFs gerados
+
+
+# ============================================
+# NOTAS IMPORTANTES
+# ============================================
+# 
+# 1. Syncfusion PDF requer licença para uso comercial
+#    - Gratuito para apps pequenos (< 1M de receita anual)
+#    - Alternativa: pdf_text (menos recursos)
+#
+# 2. Google ML Kit requer configuração adicional:
+#    - Android: adicionar em app/build.gradle
+#    - iOS: adicionar em Podfile
+#
+# 3. Se não precisar de anexos de PDF, remova:
+#    - syncfusion_flutter_pdf
+#    - pdfx
+#    - google_mlkit_barcode_scanning
+#
+# 4. Se não precisar gerar PDFs, remova:
+#    - pdf
+#    - share_plus
+#
+# ============================================

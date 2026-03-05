@@ -15,10 +15,10 @@ class MedicamentoEmulsaoLipidica {
   }
 
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
-    final isFavorito = favoritos.contains(nome);
 
     if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
       return const SizedBox.shrink();
@@ -40,6 +40,25 @@ class MedicamentoEmulsaoLipidica {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
+
+    return _buildCardEmulsaoLipidica(
+      context,
+        peso,
+        faixaEtaria,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
     // Emulsão lipídica tem indicações para todas as faixas etárias

@@ -1,0 +1,31 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Colistimetato de sódio (Colistina/Polimixina E)",
+      "nome_comercial": ["Colomycin", "Colistina"],
+      "classe_terapeutica": "Polimixina (pró-droga)",
+      "mecanismo_acao": "Pró-droga (colistimetato) convertida em colistina ativa. Liga-se ao LPS da membrana externa de Gram-negativos, causando desestabilização e lise celular.",
+      "espectro": {
+        "gram_negativos": ["Pseudomonas aeruginosa MDR", "Acinetobacter baumannii", "Klebsiella pneumoniae KPC", "E. coli MDR", "Enterobacter"]
+      },
+      "nao_cobre": ["Proteus", "Serratia", "Providencia", "Burkholderia", "Gram-positivos"],
+      "indicacoes": ["Infecções por Gram-negativos MDR/XDR", "Pneumonia VAP por MDR", "Bacteremia", "ITU complicada"],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "1.000.000 UI CMS"},
+        {"forma": "Frasco", "concentracao": "4.500.000 UI CMS"}
+      ],
+      "conversao": "1 milhão UI CMS ≈ 80 mg CMS ≈ 30 mg CBA (colistina base atividade)",
+      "farmacocinetica": {"meia_vida": "2-3 horas (colistina ativa)", "excrecao": "Renal (70%)", "conversao": "Pró-droga requer tempo para conversão"},
+      "dose_ataque": {"obrigatoria": true, "dose": "9 milhões UI IV", "razao": "Pró-droga com conversão lenta - necessário níveis rápidos"},
+      "ajuste_renal": {
+        "ClCr_maior_90": "4,5 milhões UI 12/12h",
+        "ClCr_50_89": "4,5 milhões UI 12/12h", 
+        "ClCr_30_49": "3,5 milhões UI 12/12h",
+        "ClCr_10_29": "2,5 milhões UI 12/12h"
+      },
+      "toxicidades": {"nefrotoxicidade": "30-60%", "neurotoxicidade": "Parestesias, bloqueio NM"},
+      "via_inalatoria": {"indicacao": "VAP por MDR", "dose": "1-2 milhões UI 8/8h nebulização"},
+      "diferencas_polimixina_b": ["REQUER dose de ataque", "Excreção renal (ajustar IR)", "Disponível inalatória"]
+    }
+  }
+}

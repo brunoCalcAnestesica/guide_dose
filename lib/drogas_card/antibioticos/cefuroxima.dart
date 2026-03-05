@@ -15,10 +15,10 @@ class MedicamentoCefuroxima {
   }
 
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
-    final isFavorito = favoritos.contains(nome);
 
     // Verificar se há indicações para a faixa etária atual
     if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
@@ -41,6 +41,25 @@ class MedicamentoCefuroxima {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
+
+    return _buildCardCefuroxima(
+      context,
+        peso,
+        faixaEtaria,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
     // Cefuroxima tem indicações para todas as faixas etárias

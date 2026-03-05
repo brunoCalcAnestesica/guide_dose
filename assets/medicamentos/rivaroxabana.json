@@ -1,0 +1,61 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Rivaroxabana",
+      "nome_comercial": ["Xarelto"],
+      "classe_terapeutica": "DOAC - Inibidor direto do fator Xa",
+      "mecanismo_acao": "Inibe direta e seletivamente o fator Xa, bloqueando a via comum da cascata de coagulação. Não requer cofator (antitrombina) para sua ação.",
+      "indicacoes": [
+        "Fibrilação atrial não valvar",
+        "Tratamento de TVP e TEP",
+        "Profilaxia de TVP em cirurgias ortopédicas",
+        "Prevenção secundária em SCA (dose vascular)",
+        "Doença arterial periférica"
+      ],
+      "contraindicacoes": [
+        "ClCr <15 mL/min",
+        "Sangramento ativo",
+        "Lesão ou condição com risco de sangramento",
+        "Doença hepática com coagulopatia",
+        "Gestação e lactação"
+      ],
+      "apresentacoes": [
+        {"forma": "Comprimido", "concentracao": "2,5 mg"},
+        {"forma": "Comprimido", "concentracao": "10 mg"},
+        {"forma": "Comprimido", "concentracao": "15 mg"},
+        {"forma": "Comprimido", "concentracao": "20 mg"}
+      ],
+      "farmacocinetica": {
+        "biodisponibilidade": "80-100% (com alimento)",
+        "inicio_acao": "2-4 horas",
+        "pico": "2-4 horas",
+        "meia_vida": "5-9 horas (idosos: 11-13h)",
+        "metabolismo": "Hepático (CYP3A4)",
+        "excrecao": "Renal (36% inalterado) e fecal"
+      },
+      "ajuste_renal": {
+        "ClCr_50_80": "Sem ajuste (FA) ou considerar ajuste",
+        "ClCr_15_50": "15 mg/dia para FA",
+        "ClCr_menor_15": "Contraindicado"
+      },
+      "efeitos_adversos": [
+        "Sangramento",
+        "Anemia",
+        "Náusea",
+        "Elevação de transaminases"
+      ],
+      "reversao": {
+        "especifica": "Andexanet alfa",
+        "inespecifica": "CCP, considerar hemodiálise (pouco eficaz)"
+      },
+      "observacoes": [
+        "Doses de 15 e 20 mg DEVEM ser tomadas com alimento",
+        "Dose de 10 mg pode ser tomada com ou sem alimento",
+        "Não requer monitoramento de rotina"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "Sim"
+      }
+    }
+  }
+}

@@ -1,0 +1,634 @@
+{
+  "PT": {
+    "nome": "Celecoxibe",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Osteoartrite (adulto)",
+          "descricaoDose": "200 mg/dia em dose única ou 100 mg 2x/dia. Máx 200 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "200 mg/dia ou 100 mg 2x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ou 2x/dia",
+            "ajusteRenal": "ClCr 30-60: usar com cautela. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reduzir 50%. IH grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Artrite reumatoide (adulto)",
+          "descricaoDose": "100-200 mg 2x/dia. Máx 400 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 400,
+            "doseFixa": "100-200 mg 2x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr 30-60: usar com cautela. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reduzir 50%. IH grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dor aguda (adulto)",
+          "descricaoDose": "400 mg dose inicial; depois 200 mg 2x/dia se necessário. Máx 400 mg/dia (até 800 mg/dia por curto período em indicações específicas).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg inicial, depois 200 mg 2x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose inicial + 2x/dia",
+            "ajusteRenal": "ClCr 30-60: usar com cautela. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reduzir 50%. IH grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dismenorreia primária (adulto)",
+          "descricaoDose": "400 mg dose inicial; depois 200 mg se necessário no 1º dia. Máx 800 mg no 1º dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 800,
+            "doseFixa": "400 mg inicial, 200 mg se necessário",
+            "faixaEtaria": "Adulto",
+            "sexo": "Feminino",
+            "via": "VO",
+            "intervalo": "dose única ou 2x no 1º dia",
+            "ajusteRenal": "ClCr 30-60: usar com cautela. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reduzir 50%. IH grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Idoso / IR leve-moderada (adulto)",
+          "descricaoDose": "Usar menor dose eficaz. ClCr 30-60: cautela. Evitar se ClCr <30.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2x/dia",
+            "ajusteRenal": "ClCr 30-60: usar com cautela. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reduzir 50%. IH grave: contraindicado."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Inibidor seletivo COX-2. Menor risco GI que AINEs não seletivos; maior risco cardiovascular com uso prolongado.",
+      "apresentacoes": [
+        { "forma": "Cápsula 100 mg", "obs": "VO - Celebra®, Celecox®" },
+        { "forma": "Cápsula 200 mg", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Administrar cápsulas inteiras, com ou sem alimentos. Não abrir, mastigar ou esmagar.", "concentracao": "N/A (uso oral)" }
+      ],
+      "observacoes": [
+        "Inibidor COX-2 seletivo: menor risco GI; maior risco de eventos cardiovasculares com uso prolongado",
+        "Contraindicado em doença cardiovascular estabelecida e no pós-operatório de cirurgia cardíaca (CABG)",
+        "Contraindicado se ClCr <30 mL/min. ClCr 30-60: usar com cautela",
+        "Contraindicado em alergia a sulfonamidas e em úlcera péptica ativa",
+        "IH moderada: reduzir dose 50%. IH grave: contraindicado",
+        "Usar menor dose eficaz pelo menor tempo possível. Monitorar função renal e PA"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar menor dose eficaz. Cautela por risco cardiovascular e renal.",
+        "renal": "ClCr 30-60: usar com cautela. ClCr <30: contraindicado.",
+        "hepatico": "IH moderada: reduzir dose em 50%. IH grave: contraindicado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Celecoxibe - Osteoartrite",
+        "doseTexto": "200 mg/dia ou 100 mg 2x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200 mg/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Celecoxibe - Artrite reumatoide",
+        "doseTexto": "100-200 mg 2x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg 2x/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Celecoxibe - Dor aguda",
+        "doseTexto": "400 mg inicial, depois 200 mg 2x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg inicial / 200 mg 2x/dia",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Celecoxib",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Osteoarthritis (adult)",
+          "descricaoDose": "200 mg/day once daily or 100 mg twice daily. Max 200 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "200 mg/day or 100 mg twice daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once or twice daily",
+            "ajusteRenal": "ClCr 30-60: use with caution. ClCr <30: contraindicated.",
+            "ajusteHepatico": "Moderate hepatic impairment: reduce 50%. Severe: contraindicated."
+          }
+        },
+        {
+          "titulo": "Rheumatoid arthritis (adult)",
+          "descricaoDose": "100-200 mg twice daily. Max 400 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 400,
+            "doseFixa": "100-200 mg twice daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "ClCr 30-60: use with caution. ClCr <30: contraindicated.",
+            "ajusteHepatico": "Moderate hepatic impairment: reduce 50%. Severe: contraindicated."
+          }
+        },
+        {
+          "titulo": "Acute pain (adult)",
+          "descricaoDose": "400 mg initial dose; then 200 mg twice daily if needed. Max 400 mg/day (up to 800 mg/day short-term in specific indications).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg initial, then 200 mg twice daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "initial dose + twice daily",
+            "ajusteRenal": "ClCr 30-60: use with caution. ClCr <30: contraindicated.",
+            "ajusteHepatico": "Moderate hepatic impairment: reduce 50%. Severe: contraindicated."
+          }
+        },
+        {
+          "titulo": "Primary dysmenorrhea (adult)",
+          "descricaoDose": "400 mg initial; then 200 mg if needed on day 1. Max 800 mg on day 1.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 800,
+            "doseFixa": "400 mg initial, 200 mg if needed",
+            "faixaEtaria": "Adult",
+            "sexo": "Female",
+            "via": "PO",
+            "intervalo": "single or twice on day 1",
+            "ajusteRenal": "ClCr 30-60: use with caution. ClCr <30: contraindicated.",
+            "ajusteHepatico": "Moderate hepatic impairment: reduce 50%. Severe: contraindicated."
+          }
+        },
+        {
+          "titulo": "Elderly / mild-moderate renal impairment (adult)",
+          "descricaoDose": "Use lowest effective dose. ClCr 30-60: caution. Avoid if ClCr <30.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "1-2x daily",
+            "ajusteRenal": "ClCr 30-60: use with caution. ClCr <30: contraindicated.",
+            "ajusteHepatico": "Moderate hepatic impairment: reduce 50%. Severe: contraindicated."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID / Selective COX-2 inhibitor. Lower GI risk than non-selective NSAIDs; higher cardiovascular risk with long-term use.",
+      "apresentacoes": [
+        { "forma": "Capsule 100 mg", "obs": "PO" },
+        { "forma": "Capsule 200 mg", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "Administer capsules whole, with or without food. Do not open, chew, or crush.", "concentracao": "N/A (oral use)" }
+      ],
+      "observacoes": [
+        "Selective COX-2 inhibitor: lower GI risk; higher risk of cardiovascular events with long-term use",
+        "Contraindicated in established cardiovascular disease and post coronary artery bypass surgery (CABG)",
+        "Contraindicated if ClCr <30 mL/min. ClCr 30-60: use with caution",
+        "Contraindicated in sulfonamide allergy and active peptic ulcer",
+        "Moderate hepatic impairment: reduce dose 50%. Severe: contraindicated",
+        "Use lowest effective dose for shortest duration. Monitor renal function and BP"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use lowest effective dose. Caution for cardiovascular and renal risk.",
+        "renal": "ClCr 30-60: use with caution. ClCr <30: contraindicated.",
+        "hepatico": "Moderate hepatic impairment: reduce dose 50%. Severe: contraindicated."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Celecoxib - Osteoarthritis",
+        "doseTexto": "200 mg/day or 100 mg twice daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200 mg/day",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Celecoxib - Rheumatoid arthritis",
+        "doseTexto": "100-200 mg twice daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg twice daily",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Celecoxib - Acute pain",
+        "doseTexto": "400 mg initial, then 200 mg twice daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg initial / 200 mg twice daily",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Celecoxib",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Osteoartritis (adulto)",
+          "descricaoDose": "200 mg/día en dosis única o 100 mg 2x/día. Máx 200 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "200 mg/día o 100 mg 2x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día o 2x/día",
+            "ajusteRenal": "ClCr 30-60: usar con precaución. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reducir 50%. IH grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Artritis reumatoide (adulto)",
+          "descricaoDose": "100-200 mg 2x/día. Máx 400 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 400,
+            "doseFixa": "100-200 mg 2x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr 30-60: usar con precaución. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reducir 50%. IH grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dolor agudo (adulto)",
+          "descricaoDose": "400 mg dosis inicial; después 200 mg 2x/día si es necesario. Máx 400 mg/día (hasta 800 mg/día por corto período en indicaciones específicas).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg inicial, después 200 mg 2x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis inicial + 2x/día",
+            "ajusteRenal": "ClCr 30-60: usar con precaución. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reducir 50%. IH grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dismenorrea primaria (adulto)",
+          "descricaoDose": "400 mg dosis inicial; después 200 mg si es necesario el 1º día. Máx 800 mg el 1º día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 800,
+            "doseFixa": "400 mg inicial, 200 mg si es necesario",
+            "faixaEtaria": "Adulto",
+            "sexo": "Femenino",
+            "via": "VO",
+            "intervalo": "dosis única o 2x el 1º día",
+            "ajusteRenal": "ClCr 30-60: usar con precaución. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reducir 50%. IH grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Anciano / IR leve-moderada (adulto)",
+          "descricaoDose": "Usar menor dosis eficaz. ClCr 30-60: precaución. Evitar si ClCr <30.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2x/día",
+            "ajusteRenal": "ClCr 30-60: usar con precaución. ClCr <30: contraindicado.",
+            "ajusteHepatico": "IH moderada: reducir 50%. IH grave: contraindicado."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Inhibidor selectivo COX-2. Menor riesgo GI que AINEs no selectivos; mayor riesgo cardiovascular con uso prolongado.",
+      "apresentacoes": [
+        { "forma": "Cápsula 100 mg", "obs": "VO" },
+        { "forma": "Cápsula 200 mg", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Administrar cápsulas enteras, con o sin alimentos. No abrir, masticar ni triturar.", "concentracao": "N/A (uso oral)" }
+      ],
+      "observacoes": [
+        "Inhibidor COX-2 selectivo: menor riesgo GI; mayor riesgo de eventos cardiovasculares con uso prolongado",
+        "Contraindicado en enfermedad cardiovascular establecida y post cirugía cardíaca (CABG)",
+        "Contraindicado si ClCr <30 mL/min. ClCr 30-60: usar con precaución",
+        "Contraindicado en alergia a sulfonamidas y úlcera péptica activa",
+        "IH moderada: reducir dosis 50%. IH grave: contraindicado",
+        "Usar menor dosis eficaz el menor tiempo posible. Monitorizar función renal y PA"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar menor dosis eficaz. Precaución por riesgo cardiovascular y renal.",
+        "renal": "ClCr 30-60: usar con precaución. ClCr <30: contraindicado.",
+        "hepatico": "IH moderada: reducir dosis 50%. IH grave: contraindicado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Celecoxib - Osteoartritis",
+        "doseTexto": "200 mg/día o 100 mg 2x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200 mg/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Celecoxib - Artritis reumatoide",
+        "doseTexto": "100-200 mg 2x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg 2x/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Celecoxib - Dolor agudo",
+        "doseTexto": "400 mg inicial, después 200 mg 2x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg inicial / 200 mg 2x/día",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "塞来昔布",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "骨关节炎（成人）",
+          "descricaoDose": "200 mg/日 单次或100 mg 每日2次。最大200 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "200 mg/日 或 100 mg 每日2次",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1次或2次",
+            "ajusteRenal": "ClCr 30-60：慎用。ClCr <30：禁忌。",
+            "ajusteHepatico": "中度肝损：减量50%。重度：禁忌。"
+          }
+        },
+        {
+          "titulo": "类风湿关节炎（成人）",
+          "descricaoDose": "100-200 mg 每日2次。最大400 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 400,
+            "doseFixa": "100-200 mg 每日2次",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr 30-60：慎用。ClCr <30：禁忌。",
+            "ajusteHepatico": "中度肝损：减量50%。重度：禁忌。"
+          }
+        },
+        {
+          "titulo": "急性疼痛（成人）",
+          "descricaoDose": "首剂400 mg；必要时随后200 mg 每日2次。最大400 mg/日（特定适应症短期可达800 mg/日）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg 首剂，后200 mg 每日2次",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "首剂 + 每日2次",
+            "ajusteRenal": "ClCr 30-60：慎用。ClCr <30：禁忌。",
+            "ajusteHepatico": "中度肝损：减量50%。重度：禁忌。"
+          }
+        },
+        {
+          "titulo": "原发性痛经（成人）",
+          "descricaoDose": "首剂400 mg；第1日必要时200 mg。第1日最大800 mg。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 800,
+            "doseFixa": "400 mg 首剂，必要时200 mg",
+            "faixaEtaria": "成人",
+            "sexo": "女性",
+            "via": "口服",
+            "intervalo": "第1日单次或2次",
+            "ajusteRenal": "ClCr 30-60：慎用。ClCr <30：禁忌。",
+            "ajusteHepatico": "中度肝损：减量50%。重度：禁忌。"
+          }
+        },
+        {
+          "titulo": "老年/轻中度肾损（成人）",
+          "descricaoDose": "用最低有效剂量。ClCr 30-60：慎用。ClCr <30：避免。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg/日",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1-2次",
+            "ajusteRenal": "ClCr 30-60：慎用。ClCr <30：禁忌。",
+            "ajusteHepatico": "中度肝损：减量50%。重度：禁忌。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "非甾体抗炎药/选择性COX-2抑制剂。较非选择性NSAIDs胃肠道风险低；长期使用心血管风险较高。",
+      "apresentacoes": [
+        { "forma": "胶囊 100 mg", "obs": "口服" },
+        { "forma": "胶囊 200 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "整粒吞服，可与食物同服或不同服。勿打开、咀嚼或压碎。", "concentracao": "N/A（口服）" }
+      ],
+      "observacoes": [
+        "选择性COX-2抑制剂：胃肠道风险较低；长期使用心血管事件风险较高",
+        "确诊心血管疾病及冠脉搭桥术后禁忌",
+        "ClCr <30 mL/min 禁忌。ClCr 30-60：慎用",
+        "磺胺过敏及活动性消化性溃疡禁忌",
+        "中度肝损：减量50%。重度：禁忌",
+        "用最低有效剂量、最短疗程。监测肾功能和血压"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "用最低有效剂量。注意心血管和肾脏风险。",
+        "renal": "ClCr 30-60：慎用。ClCr <30：禁忌。",
+        "hepatico": "中度肝损：减量50%。重度：禁忌。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "塞来昔布 - 骨关节炎",
+        "doseTexto": "200 mg/日 或 100 mg 每日2次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200 mg/日",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "塞来昔布 - 类风湿关节炎",
+        "doseTexto": "100-200 mg 每日2次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg 每日2次",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "塞来昔布 - 急性疼痛",
+        "doseTexto": "400 mg 首剂，后200 mg 每日2次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg 首剂 / 200 mg 每日2次",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Aminofilina",
+      "nomesComerciais": ["Aminofilina®", "Minoton®"],
+      "classeTerapeutica": "Metilxantina / Broncodilatador",
+      "mecanismoAcao": "Sal de teofilina (80%) com etilenodiamina (20%) para aumentar solubilidade. Inibe a fosfodiesterase, aumentando AMPc intracelular. Também antagoniza receptores de adenosina. Causa relaxamento da musculatura lisa brônquica, estimulação respiratória central e efeito inotrópico positivo leve.",
+      "indicacoes": [
+        "Broncoespasmo agudo grave refratário",
+        "Status asmático (adjuvante)",
+        "DPOC exacerbada grave",
+        "Apneia do prematuro"
+      ],
+      "apresentacoes": [
+        "Ampola 240mg/10mL (24 mg/mL)",
+        "Ampola 120mg/5mL (24 mg/mL)"
+      ],
+      "posologia": {
+        "adulto": {
+          "ataque": "5-6 mg/kg IV em 20-30 min (omitir se já usa teofilina)",
+          "manutencao": "0,5-0,7 mg/kg/h IV contínua",
+          "fumantes": "0,7-0,9 mg/kg/h (metabolismo aumentado)"
+        },
+        "pediatrico": {
+          "ataque": "5-6 mg/kg IV em 20-30 min",
+          "manutencao_1_9_anos": "0,8-1 mg/kg/h",
+          "manutencao_9_16_anos": "0,7-0,8 mg/kg/h"
+        },
+        "ajustes": {
+          "icc": "0,1-0,2 mg/kg/h (redução 50%)",
+          "hepatopatia": "0,1-0,2 mg/kg/h (redução 50%)",
+          "idosos": "0,3 mg/kg/h"
+        }
+      },
+      "preparo": {
+        "ataque": "Diluir dose em 100-250 mL SF/SG5%",
+        "infusao": "Infundir em 20-30 minutos",
+        "manutencao": "Diluir em 250-500 mL para infusão contínua",
+        "incompatibilidades": "Não misturar com outras drogas"
+      },
+      "farmacocinetica": {
+        "inicio_acao": "15-30 minutos (IV)",
+        "meia_vida": "4-8 horas (variável)",
+        "nivel_terapeutico": "10-20 mcg/mL",
+        "metabolismo": "Hepático (CYP1A2)",
+        "eliminacao": "Renal"
+      },
+      "niveis_sericos": {
+        "terapeutico": "10-20 mcg/mL",
+        "toxicidade_leve": "20-30 mcg/mL (náuseas, vômitos)",
+        "toxicidade_moderada": "30-40 mcg/mL (arritmias)",
+        "toxicidade_grave": ">40 mcg/mL (convulsões)"
+      },
+      "contraindicacoes": [
+        "Hipersensibilidade às xantinas",
+        "Arritmias não controladas",
+        "Convulsões não controladas"
+      ],
+      "efeitosAdversos": [
+        "Náuseas, vômitos (comuns)",
+        "Taquicardia, palpitações",
+        "Tremores, cefaleia",
+        "Insônia, agitação",
+        "Arritmias (toxicidade)",
+        "Convulsões (toxicidade grave)"
+      ],
+      "interacoes": [
+        "Eritromicina, ciprofloxacino, cimetidina: aumentam níveis",
+        "Rifampicina, fenitoína, carbamazepina: diminuem níveis",
+        "Tabagismo: aumenta metabolismo (reduz níveis)"
+      ],
+      "observacoes": [
+        "JANELA TERAPÊUTICA ESTREITA: monitorar níveis séricos",
+        "Omitir dose de ataque se paciente já usa teofilina oral",
+        "Reduzir dose em ICC, hepatopatia e idosos",
+        "Interações medicamentosas frequentes",
+        "Menos usado atualmente devido a alternativas mais seguras"
+      ],
+      "categoriaGravidez": "C"
+    }
+  }
+}

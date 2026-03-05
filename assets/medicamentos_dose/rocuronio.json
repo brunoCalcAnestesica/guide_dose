@@ -1,0 +1,1074 @@
+{
+  "PT": {
+    "nome": "Rocurônio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intubação sequência rápida (RSI)",
+          "descricaoDose": "0,9-1,2 mg/kg IV bolus (início 60 seg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.9,
+            "dosePorKgMax": 1.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "Cautela em IR grave. Prolongamento do bloqueio possível. Monitorizar TOF.",
+            "ajusteHepatico": "Cautela em insuficiência hepática. Redução da depuração e prolongamento do bloqueio. Ajustar dose de manutenção e monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Intubação eletiva",
+          "descricaoDose": "0,6 mg/kg IV bolus (início 1-2 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "Cautela em IR grave. Prolongamento do bloqueio possível. Monitorizar TOF.",
+            "ajusteHepatico": "Cautela em insuficiência hepática. Redução da depuração e prolongamento do bloqueio. Ajustar dose de manutenção e monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Manutenção (bolus)",
+          "descricaoDose": "0,1-0,2 mg/kg IV quando T1 25% (duração 12-24 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme recuperação TOF",
+            "ajusteRenal": "Cautela em IR grave. Prolongamento do bloqueio possível. Monitorizar TOF.",
+            "ajusteHepatico": "Cautela em insuficiência hepática. Redução da depuração e prolongamento do bloqueio. Ajustar dose de manutenção e monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Infusão contínua",
+          "descricaoDose": "4-16 mcg/kg/min IV (inicial: 10-12 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4,
+            "doseMax": 16,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "Cautela em IR grave. Prolongamento do bloqueio possível. Monitorizar TOF.",
+            "ajusteHepatico": "Cautela em insuficiência hepática. Redução da depuração e prolongamento do bloqueio. Ajustar dose de manutenção e monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Intubação (≥3 meses)",
+          "descricaoDose": "0,6 mg/kg IV bolus (início 30-60 seg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "Cautela em IR grave. Monitorizar TOF.",
+            "ajusteHepatico": "Cautela em insuficiência hepática. Monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Intubação neonatos/lactentes",
+          "descricaoDose": "0,5 mg/kg IV bolus (maior sensibilidade)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "Cautela em IR grave. Monitorizar TOF.",
+            "ajusteHepatico": "Cautela em insuficiência hepática. Monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Manutenção (bolus) pediátrico",
+          "descricaoDose": "0,075-0,125 mg/kg IV conforme TOF",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.075,
+            "dosePorKgMax": 0.125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme recuperação TOF",
+            "ajusteRenal": "Cautela em IR grave. Monitorizar TOF.",
+            "ajusteHepatico": "Cautela em insuficiência hepática. Monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Infusão pediátrica",
+          "descricaoDose": "7-12 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 7,
+            "doseMax": 12,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "Cautela em IR grave. Monitorizar TOF.",
+            "ajusteHepatico": "Cautela em insuficiência hepática. Monitorizar TOF."
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 4, "doseMax": 16 },
+          "pediatrico": { "doseMin": 7, "doseMax": 12 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg em 100 mL SF (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "100 mg em 100 mL SF (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "50 mg em 100 mL SF (500 mcg/mL)", "valor": 500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador neuromuscular não despolarizante - Aminoesteroide, ação intermediária",
+      "apresentacoes": [
+        { "forma": "Ampola 50 mg/5 mL", "obs": "10 mg/mL" },
+        { "forma": "Ampola 100 mg/10 mL", "obs": "10 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: puro da ampola", "concentracao": "10 mg/mL (10.000 mcg/mL)" },
+        { "diluicao": "200 mg + 100 mL SF", "concentracao": "2000 mcg/mL" },
+        { "diluicao": "100 mg + 100 mL SF", "concentracao": "1000 mcg/mL" },
+        { "diluicao": "50 mg + 100 mL SF", "concentracao": "500 mcg/mL" }
+      ],
+      "observacoes": [
+        "Início: 60-90 seg | Duração: 30-40 min",
+        "NÃO libera histamina - estabilidade cardiovascular",
+        "Monitorização TOF obrigatória (meta: 1-2 respostas)",
+        "Reversão: sugamadex 2-4 mg/kg (imediata) ou 16 mg/kg (emergência)",
+        "Potencializado por: voláteis, aminoglicosídeos, Mg",
+        "Eliminação hepática - cautela em hepatopatia"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar TOF e recuperação neuromuscular.",
+        "renal": "Cautela em insuficiência renal grave. Prolongamento do bloqueio possível. Monitorização rigorosa do TOF obrigatória.",
+        "hepatico": "Cautela em insuficiência hepática. Redução da depuração e prolongamento do bloqueio. Ajustar dose de manutenção e monitorizar TOF continuamente."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Rocurônio RSI (adulto)",
+        "doseTexto": "0,9-1,2 mg/kg IV",
+        "doseMin": 0.9,
+        "doseMax": 1.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rocurônio intubação eletiva (adulto)",
+        "doseTexto": "0,6 mg/kg IV",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rocurônio (pediátrico ≥3 meses)",
+        "doseTexto": "0,6 mg/kg IV",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Rocurônio neonatos/lactentes",
+        "doseTexto": "0,5 mg/kg IV",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Rocurônio infusão",
+        "doseTexto": "4-16 mcg/kg/min (adulto); 7-12 mcg/kg/min (ped)",
+        "doseMin": 4,
+        "doseMax": 16,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Rocuronium",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Rapid sequence intubation (RSI)",
+          "descricaoDose": "0.9-1.2 mg/kg IV bolus (onset 60 sec)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.9,
+            "dosePorKgMax": 1.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "Caution in severe renal failure. Prolonged blockade possible. Monitor TOF.",
+            "ajusteHepatico": "Caution in hepatic insufficiency. Reduced clearance and prolonged blockade. Adjust maintenance dose and monitor TOF."
+          }
+        },
+        {
+          "titulo": "Elective intubation",
+          "descricaoDose": "0.6 mg/kg IV bolus (onset 1-2 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "Caution in severe renal failure. Prolonged blockade possible. Monitor TOF.",
+            "ajusteHepatico": "Caution in hepatic insufficiency. Reduced clearance and prolonged blockade. Adjust maintenance dose and monitor TOF."
+          }
+        },
+        {
+          "titulo": "Maintenance (bolus)",
+          "descricaoDose": "0.1-0.2 mg/kg IV when T1 25% (duration 12-24 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per TOF recovery",
+            "ajusteRenal": "Caution in severe renal failure. Prolonged blockade possible. Monitor TOF.",
+            "ajusteHepatico": "Caution in hepatic insufficiency. Reduced clearance and prolonged blockade. Adjust maintenance dose and monitor TOF."
+          }
+        },
+        {
+          "titulo": "Continuous infusion",
+          "descricaoDose": "4-16 mcg/kg/min IV (initial: 10-12 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4,
+            "doseMax": 16,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "Caution in severe renal failure. Prolonged blockade possible. Monitor TOF.",
+            "ajusteHepatico": "Caution in hepatic insufficiency. Reduced clearance and prolonged blockade. Adjust maintenance dose and monitor TOF."
+          }
+        },
+        {
+          "titulo": "Intubation (≥3 months)",
+          "descricaoDose": "0.6 mg/kg IV bolus (onset 30-60 sec)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "Caution in severe renal failure. Monitor TOF.",
+            "ajusteHepatico": "Caution in hepatic insufficiency. Monitor TOF."
+          }
+        },
+        {
+          "titulo": "Neonate/infant intubation",
+          "descricaoDose": "0.5 mg/kg IV bolus (increased sensitivity)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "Caution in severe renal failure. Monitor TOF.",
+            "ajusteHepatico": "Caution in hepatic insufficiency. Monitor TOF."
+          }
+        },
+        {
+          "titulo": "Maintenance (bolus) pediatric",
+          "descricaoDose": "0.075-0.125 mg/kg IV per TOF",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.075,
+            "dosePorKgMax": 0.125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per TOF recovery",
+            "ajusteRenal": "Caution in severe renal failure. Monitor TOF.",
+            "ajusteHepatico": "Caution in hepatic insufficiency. Monitor TOF."
+          }
+        },
+        {
+          "titulo": "Pediatric infusion",
+          "descricaoDose": "7-12 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 7,
+            "doseMax": 12,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "Caution in severe renal failure. Monitor TOF.",
+            "ajusteHepatico": "Caution in hepatic insufficiency. Monitor TOF."
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 4, "doseMax": 16 },
+          "pediatrico": { "doseMin": 7, "doseMax": 12 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg in 100 mL NS (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "100 mg in 100 mL NS (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "50 mg in 100 mL NS (500 mcg/mL)", "valor": 500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Non-depolarizing neuromuscular blocker - Aminosteroid, intermediate-acting",
+      "apresentacoes": [
+        { "forma": "Vial 50 mg/5 mL", "obs": "10 mg/mL" },
+        { "forma": "Vial 100 mg/10 mL", "obs": "10 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: undiluted from vial", "concentracao": "10 mg/mL (10,000 mcg/mL)" },
+        { "diluicao": "200 mg + 100 mL NS", "concentracao": "2000 mcg/mL" },
+        { "diluicao": "100 mg + 100 mL NS", "concentracao": "1000 mcg/mL" },
+        { "diluicao": "50 mg + 100 mL NS", "concentracao": "500 mcg/mL" }
+      ],
+      "observacoes": [
+        "Onset: 60-90 sec | Duration: 30-40 min",
+        "Does NOT release histamine - hemodynamically stable",
+        "TOF monitoring mandatory (target: 1-2 responses)",
+        "Reversal: sugammadex 2-4 mg/kg (immediate) or 16 mg/kg (emergency)",
+        "Potentiated by: volatiles, aminoglycosides, Mg",
+        "Hepatic elimination - caution in liver disease"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor TOF and neuromuscular recovery.",
+        "renal": "Caution in severe renal failure. Prolonged blockade possible. Rigorous TOF monitoring mandatory.",
+        "hepatico": "Caution in hepatic insufficiency. Reduced clearance and prolonged blockade. Adjust maintenance dose and monitor TOF continuously."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Rocuronium RSI (adult)",
+        "doseTexto": "0.9-1.2 mg/kg IV",
+        "doseMin": 0.9,
+        "doseMax": 1.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Rocuronium elective intubation (adult)",
+        "doseTexto": "0.6 mg/kg IV",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Rocuronium (pediatric ≥3 months)",
+        "doseTexto": "0.6 mg/kg IV",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Rocuronium neonate/infant",
+        "doseTexto": "0.5 mg/kg IV",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Rocuronium infusion",
+        "doseTexto": "4-16 mcg/kg/min (adult); 7-12 mcg/kg/min (ped)",
+        "doseMin": 4,
+        "doseMax": 16,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Rocuronio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intubación secuencia rápida (ISR)",
+          "descricaoDose": "0,9-1,2 mg/kg IV bolo (inicio 60 seg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.9,
+            "dosePorKgMax": 1.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Precaución en IR grave. Prolongación del bloqueo posible. Monitorizar TOF.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática. Reducción del aclaramiento y prolongación del bloqueo. Ajustar dosis de mantenimiento y monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Intubación electiva",
+          "descricaoDose": "0,6 mg/kg IV bolo (inicio 1-2 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Precaución en IR grave. Prolongación del bloqueo posible. Monitorizar TOF.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática. Reducción del aclaramiento y prolongación del bloqueo. Ajustar dosis de mantenimiento y monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Mantenimiento (bolo)",
+          "descricaoDose": "0,1-0,2 mg/kg IV cuando T1 25% (duración 12-24 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según recuperación TOF",
+            "ajusteRenal": "Precaución en IR grave. Prolongación del bloqueo posible. Monitorizar TOF.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática. Reducción del aclaramiento y prolongación del bloqueo. Ajustar dosis de mantenimiento y monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Infusión continua",
+          "descricaoDose": "4-16 mcg/kg/min IV (inicial: 10-12 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4,
+            "doseMax": 16,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "Precaución en IR grave. Prolongación del bloqueo posible. Monitorizar TOF.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática. Reducción del aclaramiento y prolongación del bloqueo. Ajustar dosis de mantenimiento y monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Intubación (≥3 meses)",
+          "descricaoDose": "0,6 mg/kg IV bolo (inicio 30-60 seg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Precaución en IR grave. Monitorizar TOF.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática. Monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Intubación neonatos/lactantes",
+          "descricaoDose": "0,5 mg/kg IV bolo (mayor sensibilidad)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Precaución en IR grave. Monitorizar TOF.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática. Monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Mantenimiento (bolo) pediátrico",
+          "descricaoDose": "0,075-0,125 mg/kg IV según TOF",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.075,
+            "dosePorKgMax": 0.125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según recuperación TOF",
+            "ajusteRenal": "Precaución en IR grave. Monitorizar TOF.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática. Monitorizar TOF."
+          }
+        },
+        {
+          "titulo": "Infusión pediátrica",
+          "descricaoDose": "7-12 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 7,
+            "doseMax": 12,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "Precaución en IR grave. Monitorizar TOF.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática. Monitorizar TOF."
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 4, "doseMax": 16 },
+          "pediatrico": { "doseMin": 7, "doseMax": 12 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg en 100 mL SF (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "100 mg en 100 mL SF (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "50 mg en 100 mL SF (500 mcg/mL)", "valor": 500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador neuromuscular no despolarizante - Aminoesteroide, acción intermedia",
+      "apresentacoes": [
+        { "forma": "Ampolla 50 mg/5 mL", "obs": "10 mg/mL" },
+        { "forma": "Ampolla 100 mg/10 mL", "obs": "10 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo: directo del vial", "concentracao": "10 mg/mL (10.000 mcg/mL)" },
+        { "diluicao": "200 mg + 100 mL SF", "concentracao": "2000 mcg/mL" },
+        { "diluicao": "100 mg + 100 mL SF", "concentracao": "1000 mcg/mL" },
+        { "diluicao": "50 mg + 100 mL SF", "concentracao": "500 mcg/mL" }
+      ],
+      "observacoes": [
+        "Inicio: 60-90 seg | Duración: 30-40 min",
+        "NO libera histamina - estabilidad cardiovascular",
+        "Monitorización TOF obligatoria (objetivo: 1-2 respuestas)",
+        "Reversión: sugammadex 2-4 mg/kg (inmediata) o 16 mg/kg (emergencia)",
+        "Potenciado por: volátiles, aminoglucósidos, Mg",
+        "Eliminación hepática - precaución en hepatopatía"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar TOF y recuperación neuromuscular.",
+        "renal": "Precaución en insuficiencia renal grave. Prolongación del bloqueo posible. Monitorización rigurosa del TOF obligatoria.",
+        "hepatico": "Precaución en insuficiencia hepática. Reducción del aclaramiento y prolongación del bloqueo. Ajustar dosis de mantenimiento y monitorizar TOF continuamente."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Rocuronio ISR (adulto)",
+        "doseTexto": "0,9-1,2 mg/kg IV",
+        "doseMin": 0.9,
+        "doseMax": 1.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rocuronio intubación electiva (adulto)",
+        "doseTexto": "0,6 mg/kg IV",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rocuronio (pediátrico ≥3 meses)",
+        "doseTexto": "0,6 mg/kg IV",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Rocuronio neonatos/lactantes",
+        "doseTexto": "0,5 mg/kg IV",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Rocuronio infusión",
+        "doseTexto": "4-16 mcg/kg/min (adulto); 7-12 mcg/kg/min (ped)",
+        "doseMin": 4,
+        "doseMax": 16,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "罗库溴铵",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "快速顺序插管 (RSI)",
+          "descricaoDose": "0.9-1.2 mg/kg IV 推注（起效 60 秒）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.9,
+            "dosePorKgMax": 1.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "严重肾功能不全慎用。可能延长阻滞。监测TOF。",
+            "ajusteHepatico": "肝功能不全慎用。清除率降低、阻滞延长。调整维持剂量并监测TOF。"
+          }
+        },
+        {
+          "titulo": "择期插管",
+          "descricaoDose": "0.6 mg/kg IV 推注（起效 1-2 分钟）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "严重肾功能不全慎用。可能延长阻滞。监测TOF。",
+            "ajusteHepatico": "肝功能不全慎用。清除率降低、阻滞延长。调整维持剂量并监测TOF。"
+          }
+        },
+        {
+          "titulo": "维持（推注）",
+          "descricaoDose": "T1 25% 时 0.1-0.2 mg/kg IV（持续 12-24 分钟）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按TOF恢复",
+            "ajusteRenal": "严重肾功能不全慎用。可能延长阻滞。监测TOF。",
+            "ajusteHepatico": "肝功能不全慎用。清除率降低、阻滞延长。调整维持剂量并监测TOF。"
+          }
+        },
+        {
+          "titulo": "持续输注",
+          "descricaoDose": "4-16 mcg/kg/min IV（初始 10-12 mcg/kg/min）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4,
+            "doseMax": 16,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "严重肾功能不全慎用。可能延长阻滞。监测TOF。",
+            "ajusteHepatico": "肝功能不全慎用。清除率降低、阻滞延长。调整维持剂量并监测TOF。"
+          }
+        },
+        {
+          "titulo": "插管（≥3 月龄）",
+          "descricaoDose": "0.6 mg/kg IV 推注（起效 30-60 秒）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "严重肾功能不全慎用。监测TOF。",
+            "ajusteHepatico": "肝功能不全慎用。监测TOF。"
+          }
+        },
+        {
+          "titulo": "新生儿/婴儿插管",
+          "descricaoDose": "0.5 mg/kg IV 推注（敏感性增加）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "严重肾功能不全慎用。监测TOF。",
+            "ajusteHepatico": "肝功能不全慎用。监测TOF。"
+          }
+        },
+        {
+          "titulo": "维持（推注）儿童",
+          "descricaoDose": "0.075-0.125 mg/kg IV 按TOF",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.075,
+            "dosePorKgMax": 0.125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按TOF恢复",
+            "ajusteRenal": "严重肾功能不全慎用。监测TOF。",
+            "ajusteHepatico": "肝功能不全慎用。监测TOF。"
+          }
+        },
+        {
+          "titulo": "儿童输注",
+          "descricaoDose": "7-12 mcg/kg/min IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 7,
+            "doseMax": 12,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "严重肾功能不全慎用。监测TOF。",
+            "ajusteHepatico": "肝功能不全慎用。监测TOF。"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 4, "doseMax": 16 },
+          "pediatrico": { "doseMin": 7, "doseMax": 12 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg/100 mL 生理盐水 (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "100 mg/100 mL 生理盐水 (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "50 mg/100 mL 生理盐水 (500 mcg/mL)", "valor": 500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "非去极化神经肌肉阻滞剂 - 氨基类固醇，中效",
+      "apresentacoes": [
+        { "forma": "安瓿 50 mg/5 mL", "obs": "10 mg/mL" },
+        { "forma": "安瓿 100 mg/10 mL", "obs": "10 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "推注：原液", "concentracao": "10 mg/mL (10000 mcg/mL)" },
+        { "diluicao": "200 mg + 100 mL 生理盐水", "concentracao": "2000 mcg/mL" },
+        { "diluicao": "100 mg + 100 mL 生理盐水", "concentracao": "1000 mcg/mL" },
+        { "diluicao": "50 mg + 100 mL 生理盐水", "concentracao": "500 mcg/mL" }
+      ],
+      "observacoes": [
+        "起效：60-90 秒 | 持续：30-40 分钟",
+        "不释放组胺 - 血流动力学稳定",
+        "必须监测TOF（目标：1-2 个反应）",
+        "拮抗：舒更葡糖 2-4 mg/kg（即时）或 16 mg/kg（紧急）",
+        "增强：挥发性麻醉药、氨基糖苷类、镁",
+        "肝脏消除 - 肝病慎用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。监测TOF及神经肌肉恢复。",
+        "renal": "严重肾功能不全慎用。可能延长阻滞。必须严格监测TOF。",
+        "hepatico": "肝功能不全慎用。清除率降低、阻滞延长。调整维持剂量并持续监测TOF。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "罗库溴铵 RSI（成人）",
+        "doseTexto": "0.9-1.2 mg/kg IV",
+        "doseMin": 0.9,
+        "doseMax": 1.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "罗库溴铵 择期插管（成人）",
+        "doseTexto": "0.6 mg/kg IV",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "罗库溴铵（儿童≥3月）",
+        "doseTexto": "0.6 mg/kg IV",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "罗库溴铵 新生儿/婴儿",
+        "doseTexto": "0.5 mg/kg IV",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "罗库溴铵 输注",
+        "doseTexto": "4-16 mcg/kg/min（成人）；7-12 mcg/kg/min（儿童）",
+        "doseMin": 4,
+        "doseMax": 16,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

@@ -1,0 +1,770 @@
+{
+  "PT": {
+    "nome": "Tramadol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor aguda VO (adulto)",
+          "descricaoDose": "50-100 mg VO a cada 6-8h. Máx 400 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30 mL/min: aumentar intervalo para 12 h ou reduzir dose. Evitar liberação prolongada em IR grave.",
+            "ajusteHepatico": "Hepatopatia leve a moderada: usar com cautela. Hepatopatia grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dor aguda IV/IM/SC (adulto)",
+          "descricaoDose": "50-100 mg IV, IM ou SC a cada 4-6h. IV lento (≥2 min). Máx 400 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM/SC",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "ClCr <30 mL/min: aumentar intervalo para 12 h ou reduzir dose.",
+            "ajusteHepatico": "Hepatopatia leve a moderada: cautela. Hepatopatia grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Liberação prolongada (adulto)",
+          "descricaoDose": "100-300 mg VO 1x/dia (formulação de liberação prolongada)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 300,
+            "doseMaxima": 400,
+            "doseFixa": "100-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: aumentar intervalo 12 h ou reduzir. Evitar LP em IR grave.",
+            "ajusteHepatico": "Hepatopatia grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dor aguda (idoso ≥75 anos)",
+          "descricaoDose": "50-100 mg VO ou parenteral a cada 6-8h. Máx 300 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 300,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV/IM/SC",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30: aumentar intervalo 12 h ou reduzir dose.",
+            "ajusteHepatico": "Hepatopatia leve a moderada: cautela. Grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dor aguda (pediátrico >12 anos)",
+          "descricaoDose": "1-2 mg/kg/dose VO ou IV a cada 6-8h. Máx 400 mg/dia (4 mg/kg/dia).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30 mL/min: aumentar intervalo para 12 h ou reduzir dose.",
+            "ajusteHepatico": "Hepatopatia grave: contraindicado."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide sintético; agonista μ-opioide fraco; inibidor da recaptação de serotonina e noradrenalina",
+      "apresentacoes": [
+        { "forma": "Comprimido 50 mg, 100 mg", "obs": "Tramal®, Ultram®, Dorless®" },
+        { "forma": "Comprimido 150 mg, 200 mg (liberação prolongada)", "obs": "1x/dia" },
+        { "forma": "Gotas 100 mg/mL (1 gota = 2,5 mg)", "obs": "VO" },
+        { "forma": "Ampola 50 mg/mL (1 mL, 2 mL)", "obs": "IV/IM/SC" },
+        { "forma": "Cápsula 100 mg, 150 mg", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administrar lento (≥2 min) ou diluir em 100 mL SF para infusão 15-30 min", "concentracao": "50 mg/mL ou conforme diluição" },
+        { "diluicao": "VO: com ou sem alimentos. Gotas: diluir em água se necessário", "concentracao": "conforme apresentação" }
+      ],
+      "observacoes": [
+        "Risco de convulsões e síndrome serotoninérgica com ISRS, IMAO, bupropiona; contraindicado com IMAO (14 dias após descontinuação)",
+        "Contraindicado em epilepsia não controlada, idade <12 anos e <18 anos pós-adenoamigdalectomia",
+        "IV sempre lento (≥2 min). Pode diluir em 100 mL SF para infusão em 15-30 min",
+        "Idosos ≥75 anos: dose máxima 300 mg/dia. Metabolismo CYP2D6 – variabilidade interindividual (metabolizadores lentos/ultrarrápidos)",
+        "Hepatopatia grave: contraindicado. ClCr <30: intervalo 12 h ou reduzir dose; evitar liberação prolongada em IR grave",
+        "Dose máxima: 400 mg/dia (adultos); 300 mg/dia (≥75 anos); 4 mg/kg/dia (pediatria). Dose mínima 50 mg (adultos), 1 mg/kg (pediatria)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "≥75 anos: dose máxima 300 mg/dia. Início baixo, titular com cautela.",
+        "renal": "ClCr <30 mL/min: aumentar intervalo para 12 h ou reduzir dose. Evitar formulações de liberação prolongada em IR grave.",
+        "hepatico": "Hepatopatia leve a moderada: usar com cautela. Hepatopatia grave: contraindicado (metabolização imprevisível)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tramadol VO",
+        "doseTexto": "50-100 mg VO a cada 6-8h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tramadol IV/IM/SC",
+        "doseTexto": "50-100 mg IV/IM/SC a cada 4-6h (IV lento ≥2 min)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tramadol liberação prolongada",
+        "doseTexto": "100-300 mg VO 1x/dia",
+        "doseMin": 100,
+        "doseMax": 300,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-300 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tramadol (idoso ≥75 anos)",
+        "doseTexto": "50-100 mg a cada 6-8h (máx 300 mg/dia)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tramadol (pediátrico >12 anos)",
+        "doseTexto": "1-2 mg/kg/dose VO ou IV a cada 6-8h",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Tramadol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute pain PO (adult)",
+          "descricaoDose": "50-100 mg PO every 6-8h. Max 400 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30 mL/min: increase interval to 12 h or reduce dose. Avoid extended-release in severe renal failure.",
+            "ajusteHepatico": "Mild to moderate liver disease: use with caution. Severe liver disease: contraindicated."
+          }
+        },
+        {
+          "titulo": "Acute pain IV/IM/SC (adult)",
+          "descricaoDose": "50-100 mg IV, IM or SC every 4-6h. IV slow (≥2 min). Max 400 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM/SC",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "ClCr <30 mL/min: increase interval to 12 h or reduce dose.",
+            "ajusteHepatico": "Mild to moderate liver disease: caution. Severe: contraindicated."
+          }
+        },
+        {
+          "titulo": "Extended release (adult)",
+          "descricaoDose": "100-300 mg PO once daily (extended-release formulation)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 300,
+            "doseMaxima": 400,
+            "doseFixa": "100-300 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: increase interval to 12 h or reduce. Avoid ER in severe renal failure.",
+            "ajusteHepatico": "Severe liver disease: contraindicated."
+          }
+        },
+        {
+          "titulo": "Acute pain (elderly ≥75 years)",
+          "descricaoDose": "50-100 mg PO or parenteral every 6-8h. Max 300 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 300,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO/IV/IM/SC",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: increase interval to 12 h or reduce dose.",
+            "ajusteHepatico": "Mild to moderate liver disease: caution. Severe: contraindicated."
+          }
+        },
+        {
+          "titulo": "Acute pain (pediatric >12 years)",
+          "descricaoDose": "1-2 mg/kg/dose PO or IV every 6-8h. Max 400 mg/day (4 mg/kg/day).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO/IV",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30 mL/min: increase interval to 12 h or reduce dose.",
+            "ajusteHepatico": "Severe liver disease: contraindicated."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Synthetic opioid analgesic; weak μ-opioid agonist; serotonin and norepinephrine reuptake inhibitor",
+      "apresentacoes": [
+        { "forma": "Tablet 50 mg, 100 mg", "obs": "Ultram®, ConZip®, Rybix®" },
+        { "forma": "Tablet 150 mg, 200 mg (extended release)", "obs": "Once daily" },
+        { "forma": "Drops 100 mg/mL (1 drop = 2.5 mg)", "obs": "PO" },
+        { "forma": "Ampule 50 mg/mL (1 mL, 2 mL)", "obs": "IV/IM/SC" },
+        { "forma": "Capsule 100 mg, 150 mg", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: give slow (≥2 min) or dilute in 100 mL NS for infusion over 15-30 min", "concentracao": "50 mg/mL or as diluted" },
+        { "diluicao": "PO: with or without food. Drops: dilute in water if needed", "concentracao": "as per presentation" }
+      ],
+      "observacoes": [
+        "Risk of seizures and serotonin syndrome with SSRIs, MAOIs, bupropion; contraindicated with MAOIs (14 days after discontinuation)",
+        "Contraindicated in uncontrolled epilepsy, age <12 years and <18 years after adenotonsillectomy",
+        "IV always slow (≥2 min). May dilute in 100 mL NS for infusion over 15-30 min",
+        "Elderly ≥75 years: max dose 300 mg/day. CYP2D6 metabolism – interindividual variability (slow/ultrarapid metabolizers)",
+        "Severe liver disease: contraindicated. ClCr <30: 12 h interval or reduce dose; avoid extended-release in severe renal failure",
+        "Max dose: 400 mg/day (adults); 300 mg/day (≥75 years); 4 mg/kg/day (pediatrics). Min dose 50 mg (adults), 1 mg/kg (pediatrics)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "≥75 years: max dose 300 mg/day. Start low, titrate with caution.",
+        "renal": "ClCr <30 mL/min: increase interval to 12 h or reduce dose. Avoid extended-release formulations in severe renal failure.",
+        "hepatico": "Mild to moderate liver disease: use with caution. Severe liver disease: contraindicated (unpredictable metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tramadol PO",
+        "doseTexto": "50-100 mg PO every 6-8h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tramadol IV/IM/SC",
+        "doseTexto": "50-100 mg IV/IM/SC every 4-6h (IV slow ≥2 min)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tramadol extended release",
+        "doseTexto": "100-300 mg PO once daily",
+        "doseMin": 100,
+        "doseMax": 300,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-300 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tramadol (elderly ≥75 years)",
+        "doseTexto": "50-100 mg every 6-8h (max 300 mg/day)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tramadol (pediatric >12 years)",
+        "doseTexto": "1-2 mg/kg/dose PO or IV every 6-8h",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Tramadol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor agudo VO (adulto)",
+          "descricaoDose": "50-100 mg VO cada 6-8h. Máx 400 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30 mL/min: aumentar intervalo a 12 h o reducir dosis. Evitar liberación prolongada en IR grave.",
+            "ajusteHepatico": "Hepatopatía leve a moderada: usar con precaución. Hepatopatía grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dolor agudo IV/IM/SC (adulto)",
+          "descricaoDose": "50-100 mg IV, IM o SC cada 4-6h. IV lento (≥2 min). Máx 400 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM/SC",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "ClCr <30 mL/min: aumentar intervalo a 12 h o reducir dosis.",
+            "ajusteHepatico": "Hepatopatía leve a moderada: precaución. Grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Liberación prolongada (adulto)",
+          "descricaoDose": "100-300 mg VO 1x/día (formulación de liberación prolongada)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 300,
+            "doseMaxima": 400,
+            "doseFixa": "100-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: aumentar intervalo 12 h o reducir. Evitar LP en IR grave.",
+            "ajusteHepatico": "Hepatopatía grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dolor agudo (anciano ≥75 años)",
+          "descricaoDose": "50-100 mg VO o parenteral cada 6-8h. Máx 300 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 300,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV/IM/SC",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30: aumentar intervalo a 12 h o reducir dosis.",
+            "ajusteHepatico": "Hepatopatía leve a moderada: precaución. Grave: contraindicado."
+          }
+        },
+        {
+          "titulo": "Dolor agudo (pediátrico >12 años)",
+          "descricaoDose": "1-2 mg/kg/dosis VO o IV cada 6-8h. Máx 400 mg/día (4 mg/kg/día).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30 mL/min: aumentar intervalo a 12 h o reducir dosis.",
+            "ajusteHepatico": "Hepatopatía grave: contraindicado."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide sintético; agonista μ-opioide débil; inhibidor de la recaptación de serotonina y noradrenalina",
+      "apresentacoes": [
+        { "forma": "Comprimido 50 mg, 100 mg", "obs": "Tramal®, Ultram®, Dorless®" },
+        { "forma": "Comprimido 150 mg, 200 mg (liberación prolongada)", "obs": "1x/día" },
+        { "forma": "Gotas 100 mg/mL (1 gota = 2,5 mg)", "obs": "VO" },
+        { "forma": "Ampolla 50 mg/mL (1 mL, 2 mL)", "obs": "IV/IM/SC" },
+        { "forma": "Cápsula 100 mg, 150 mg", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administrar lento (≥2 min) o diluir en 100 mL SF para infusión 15-30 min", "concentracao": "50 mg/mL o según dilución" },
+        { "diluicao": "VO: con o sin alimentos. Gotas: diluir en agua si necesario", "concentracao": "según presentación" }
+      ],
+      "observacoes": [
+        "Riesgo de convulsiones y síndrome serotoninérgico con ISRS, IMAO, bupropiona; contraindicado con IMAO (14 días tras descontinuación)",
+        "Contraindicado en epilepsia no controlada, edad <12 años y <18 años tras adenoamigdalectomía",
+        "IV siempre lento (≥2 min). Puede diluirse en 100 mL SF para infusión en 15-30 min",
+        "Ancianos ≥75 años: dosis máxima 300 mg/día. Metabolismo CYP2D6 – variabilidad interindividual",
+        "Hepatopatía grave: contraindicado. ClCr <30: intervalo 12 h o reducir dosis; evitar liberación prolongada en IR grave",
+        "Dosis máxima: 400 mg/día (adultos); 300 mg/día (≥75 años); 4 mg/kg/día (pediatría). Dosis mínima 50 mg (adultos), 1 mg/kg (pediatría)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "≥75 años: dosis máxima 300 mg/día. Inicio bajo, titular con precaución.",
+        "renal": "ClCr <30 mL/min: aumentar intervalo a 12 h o reducir dosis. Evitar formulaciones de liberación prolongada en IR grave.",
+        "hepatico": "Hepatopatía leve a moderada: usar con precaución. Hepatopatía grave: contraindicado (metabolización impredecible)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tramadol VO",
+        "doseTexto": "50-100 mg VO cada 6-8h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tramadol IV/IM/SC",
+        "doseTexto": "50-100 mg IV/IM/SC cada 4-6h (IV lento ≥2 min)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tramadol liberación prolongada",
+        "doseTexto": "100-300 mg VO 1x/día",
+        "doseMin": 100,
+        "doseMax": 300,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-300 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tramadol (anciano ≥75 años)",
+        "doseTexto": "50-100 mg cada 6-8h (máx 300 mg/día)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tramadol (pediátrico >12 años)",
+        "doseTexto": "1-2 mg/kg/dosis VO o IV cada 6-8h",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "曲马多",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性疼痛 口服（成人）",
+          "descricaoDose": "50-100 mg 口服 每 6-8 小时。最大 400 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr <30 mL/min：延长间隔至 12 小时或减量。严重肾衰竭避免缓释剂型。",
+            "ajusteHepatico": "轻中度肝病：慎用。严重肝病：禁忌。"
+          }
+        },
+        {
+          "titulo": "急性疼痛 IV/肌注/皮下（成人）",
+          "descricaoDose": "50-100 mg IV、肌注或皮下 每 4-6 小时。IV 缓慢（≥2 分钟）。最大 400 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM/SC",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "ClCr <30 mL/min：延长间隔至 12 小时或减量。",
+            "ajusteHepatico": "轻中度肝病：慎用。严重：禁忌。"
+          }
+        },
+        {
+          "titulo": "缓释（成人）",
+          "descricaoDose": "100-300 mg 口服 每日一次（缓释制剂）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 300,
+            "doseMaxima": 400,
+            "doseFixa": "100-300 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <30：间隔 12 小时或减量。严重肾衰竭避免缓释。",
+            "ajusteHepatico": "严重肝病：禁忌。"
+          }
+        },
+        {
+          "titulo": "急性疼痛（老年 ≥75 岁）",
+          "descricaoDose": "50-100 mg 口服或肠外 每 6-8 小时。最大 300 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 300,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO/IV/IM/SC",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr <30：间隔 12 小时或减量。",
+            "ajusteHepatico": "轻中度肝病：慎用。严重：禁忌。"
+          }
+        },
+        {
+          "titulo": "急性疼痛（儿童 >12 岁）",
+          "descricaoDose": "1-2 mg/kg/次 口服或 IV 每 6-8 小时。最大 400 mg/日（4 mg/kg/日）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO/IV",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr <30 mL/min：延长间隔至 12 小时或减量。",
+            "ajusteHepatico": "严重肝病：禁忌。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "合成阿片类镇痛药；弱 μ 受体激动剂；5-HT/去甲肾上腺素再摄取抑制剂",
+      "apresentacoes": [
+        { "forma": "片剂 50 mg、100 mg", "obs": "Tramal®, Ultram®" },
+        { "forma": "片剂 150 mg、200 mg（缓释）", "obs": "每日一次" },
+        { "forma": "滴剂 100 mg/mL（1 滴 = 2.5 mg）", "obs": "口服" },
+        { "forma": "注射液 50 mg/mL（1 mL、2 mL）", "obs": "IV/肌注/皮下" },
+        { "forma": "胶囊 100 mg、150 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "IV：缓慢给药（≥2 分钟）或稀释于 100 mL 生理盐水输注 15-30 分钟", "concentracao": "50 mg/mL 或按稀释" },
+        { "diluicao": "口服：可与食物同服或不同服。滴剂：必要时用水稀释", "concentracao": "按说明书" }
+      ],
+      "observacoes": [
+        "与 SSRI、MAOI、安非他酮合用有癫痫与5-羟色胺综合征风险；MAOI 禁忌（停用 14 天内）",
+        "未控制癫痫、<12 岁及腺样体扁桃体切除术后 <18 岁禁忌",
+        "IV 始终缓慢（≥2 分钟）。可稀释于 100 mL 生理盐水 15-30 分钟输注",
+        "≥75 岁老年人：最大剂量 300 mg/日。CYP2D6 代谢存在个体差异",
+        "严重肝病禁忌。ClCr <30：间隔 12 小时或减量；严重肾衰竭避免缓释剂型",
+        "最大剂量：400 mg/日（成人）；300 mg/日（≥75 岁）；4 mg/kg/日（儿童）。最小剂量 50 mg（成人），1 mg/kg（儿童）。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "≥75 岁：最大剂量 300 mg/日。从低剂量开始，谨慎滴定。",
+        "renal": "ClCr <30 mL/min：延长间隔至 12 小时或减量。严重肾衰竭避免缓释剂型。",
+        "hepatico": "轻中度肝病：慎用。严重肝病：禁忌（代谢不可预测）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "曲马多 口服",
+        "doseTexto": "50-100 mg 口服 每 6-8 小时",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "曲马多 IV/肌注/皮下",
+        "doseTexto": "50-100 mg IV/肌注/皮下 每 4-6 小时（IV 缓慢 ≥2 分钟）",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "曲马多 缓释",
+        "doseTexto": "100-300 mg 口服 每日一次",
+        "doseMin": 100,
+        "doseMax": 300,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-300 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "曲马多（老年 ≥75 岁）",
+        "doseTexto": "50-100 mg 每 6-8 小时（最大 300 mg/日）",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "曲马多（儿童 >12 岁）",
+        "doseTexto": "1-2 mg/kg/次 口服或 IV 每 6-8 小时",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

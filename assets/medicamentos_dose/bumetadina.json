@@ -1,0 +1,498 @@
+{
+  "PT": {
+    "nome": "Bumetanida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema (IC, hepático, renal)",
+          "descricaoDose": "0,5-2 mg VO/IV 1-2x/dia (máx 10 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 10,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "1-2x/dia conforme necessidade",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Edema agudo de pulmão",
+          "descricaoDose": "1-2 mg IV bolus lento, repetir em 2-3h se necessário",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir em 2-3h se necessário",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Edema pediátrico (off-label)",
+          "descricaoDose": "0,015-0,1 mg/kg/dose VO/IV a cada 6-12h (máx 1 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "dosePorKgMin": 0.015,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "a cada 6-12h",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Diurético de alça - Derivado sulfonamida",
+      "apresentacoes": [
+        { "forma": "Ampola 1 mg/4 mL (0,25 mg/mL)", "obs": "" },
+        { "forma": "Comprimido 1 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 5 mg", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV direto", "concentracao": "Administrar em ≥2 min" },
+        { "diluicao": "1 mg em 10-50 mL SF 0,9%", "concentracao": "Infundir em 5-10 min" }
+      ],
+      "observacoes": [
+        "40x mais potente que furosemida (1 mg ≈ 40 mg furo)",
+        "Monitorar K+, Na+, Mg2+, Ca2+ rigorosamente",
+        "Contraindicado: anúria, alergia a sulfonamidas",
+        "Ototoxicidade em doses altas ou uso com aminoglicosídeos",
+        "Uso pediátrico é off-label",
+        "Administrar durante o dia (evitar noctúria)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares e eletrolíticos.",
+        "renal": "Não requer ajuste em IR leve a moderada. Pode necessitar dose maior em IR grave (menor entrega ao sítio de ação). Monitorizar eletrólitos rigorosamente.",
+        "hepatico": "Usar com cautela. Pode haver aumento na biodisponibilidade e risco de hipovolemia e distúrbios eletrolíticos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bumetanida (adulto - edema)",
+        "doseTexto": "0,5-2 mg VO/IV 1-2x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bumetanida (edema agudo pulmão)",
+        "doseTexto": "1-2 mg IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bumetanida (pediátrico)",
+        "doseTexto": "0,015-0,1 mg/kg VO/IV (máx 1 mg)",
+        "doseMin": 0.015,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Bumetanide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema (CHF, hepatic, renal)",
+          "descricaoDose": "0.5-2 mg PO/IV 1-2x/day (max 10 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 10,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO/IV",
+            "intervalo": "1-2x/day as needed",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Acute pulmonary edema",
+          "descricaoDose": "1-2 mg IV slow bolus, repeat in 2-3h if needed",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat in 2-3h if needed",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric edema (off-label)",
+          "descricaoDose": "0.015-0.1 mg/kg/dose PO/IV every 6-12h (max 1 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "dosePorKgMin": 0.015,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO/IV",
+            "intervalo": "every 6-12h",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Loop diuretic - Sulfonamide derivative",
+      "apresentacoes": [
+        { "forma": "Ampoule 1 mg/4 mL (0.25 mg/mL)", "obs": "" },
+        { "forma": "Tablet 1 mg", "obs": "Oral" },
+        { "forma": "Tablet 5 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus direct", "concentracao": "Administer over ≥2 min" },
+        { "diluicao": "1 mg in 10-50 mL NS", "concentracao": "Infuse over 5-10 min" }
+      ],
+      "observacoes": [
+        "40x more potent than furosemide (1 mg ≈ 40 mg furo)",
+        "Monitor K+, Na+, Mg2+, Ca2+ rigorously",
+        "Contraindicated: anuria, sulfonamide allergy",
+        "Ototoxicity at high doses or with aminoglycosides",
+        "Pediatric use is off-label",
+        "Administer during the day (avoid nocturia)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular and electrolyte effects.",
+        "renal": "No adjustment in mild-moderate renal failure. May require higher dose in severe renal failure (reduced delivery to site of action). Monitor electrolytes rigorously.",
+        "hepatico": "Use with caution. May have increased bioavailability and risk of hypovolemia and electrolyte disturbances."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bumetanide (adult - edema)",
+        "doseTexto": "0.5-2 mg PO/IV 1-2x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Bumetanide (acute pulmonary edema)",
+        "doseTexto": "1-2 mg IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Bumetanide (pediatric)",
+        "doseTexto": "0.015-0.1 mg/kg PO/IV (max 1 mg)",
+        "doseMin": 0.015,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Bumetanida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema (IC, hepático, renal)",
+          "descricaoDose": "0,5-2 mg VO/IV 1-2x/día (máx 10 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 10,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "1-2x/día según necesidad",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Edema agudo de pulmón",
+          "descricaoDose": "1-2 mg IV bolo lento, repetir en 2-3h si necesario",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir en 2-3h si necesario",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Edema pediátrico (off-label)",
+          "descricaoDose": "0,015-0,1 mg/kg/dosis VO/IV cada 6-12h (máx 1 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "dosePorKgMin": 0.015,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "cada 6-12h",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Diurético de asa - Derivado de sulfonamida",
+      "apresentacoes": [
+        { "forma": "Ampolla 1 mg/4 mL (0,25 mg/mL)", "obs": "" },
+        { "forma": "Comprimido 1 mg", "obs": "Vía oral" },
+        { "forma": "Comprimido 5 mg", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo IV directo", "concentracao": "Administrar en ≥2 min" },
+        { "diluicao": "1 mg en 10-50 mL SSF 0,9%", "concentracao": "Infundir en 5-10 min" }
+      ],
+      "observacoes": [
+        "40x más potente que furosemida (1 mg ≈ 40 mg furo)",
+        "Monitorizar K+, Na+, Mg2+, Ca2+ rigurosamente",
+        "Contraindicado: anuria, alergia a sulfonamidas",
+        "Ototoxicidad en dosis altas o uso con aminoglucósidos",
+        "Uso pediátrico es off-label",
+        "Administrar durante el día (evitar nicturia)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares y electrolíticos.",
+        "renal": "No requiere ajuste en IR leve a moderada. Puede requerir dosis mayor en IR grave (menor entrega al sitio de acción). Monitorizar electrolitos rigurosamente.",
+        "hepatico": "Usar con precaución. Puede haber aumento en la biodisponibilidad y riesgo de hipovolemia y trastornos electrolíticos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bumetanida (adulto - edema)",
+        "doseTexto": "0,5-2 mg VO/IV 1-2x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bumetanida (edema agudo pulmón)",
+        "doseTexto": "1-2 mg IV bolo",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bumetanida (pediátrico)",
+        "doseTexto": "0,015-0,1 mg/kg VO/IV (máx 1 mg)",
+        "doseMin": 0.015,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "布美他尼",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "水肿（心衰、肝、肾）",
+          "descricaoDose": "0.5-2 mg 口服/IV 1-2次/天（最大10 mg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 10,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "PO/IV",
+            "intervalo": "1-2次/天按需",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "急性肺水肿",
+          "descricaoDose": "1-2 mg IV 缓慢推注，2-3小时后可重复",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "2-3小时后可重复",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童水肿（超说明书）",
+          "descricaoDose": "0.015-0.1 mg/kg/次 口服/IV 每6-12小时（最大1 mg/次）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "dosePorKgMin": 0.015,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "PO/IV",
+            "intervalo": "每6-12小时",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "袢利尿剂 - 磺胺衍生物",
+      "apresentacoes": [
+        { "forma": "安瓿 1 mg/4 mL (0.25 mg/mL)", "obs": "" },
+        { "forma": "片剂 1 mg", "obs": "口服" },
+        { "forma": "片剂 5 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "IV 直接推注", "concentracao": "≥2分钟内给药" },
+        { "diluicao": "1 mg 溶于 10-50 mL NS", "concentracao": "5-10分钟内输注" }
+      ],
+      "observacoes": [
+        "比呋塞米强40倍（1 mg ≈ 40 mg 呋塞米）",
+        "严格监测K+、Na+、Mg2+、Ca2+",
+        "禁忌：无尿、磺胺过敏",
+        "高剂量或与氨基糖苷类联用有耳毒性",
+        "儿童使用为超说明书",
+        "日间给药（避免夜尿）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需特殊调整。监测心血管和电解质效应。",
+        "renal": "轻中度肾功能不全无需调整。严重肾功能不全可能需要更高剂量（作用部位递送减少）。严格监测电解质。",
+        "hepatico": "谨慎使用。生物利用度可能增加，有低血容量和电解质紊乱风险。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "布美他尼（成人-水肿）",
+        "doseTexto": "0.5-2 mg 口服/IV 1-2次/天",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "布美他尼（急性肺水肿）",
+        "doseTexto": "1-2 mg IV 推注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "布美他尼（儿童）",
+        "doseTexto": "0.015-0.1 mg/kg 口服/IV（最大1 mg）",
+        "doseMin": 0.015,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

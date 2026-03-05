@@ -1,0 +1,406 @@
+{
+  "PT": {
+    "nome": "Desketoprofeno",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor IV/IM (adulto)",
+          "descricaoDose": "50 mg a cada 8-12h. Máx 150 mg/dia. Administrar IV lentamente (>15 s). Duração parenteral máx 2 dias.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 150,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 8-12h",
+            "ajusteRenal": "IR leve: sem ajuste. IR moderada/grave: reduzir dose ou evitar",
+            "ajusteHepatico": "Reduzir dose em hepatopatia leve/moderada; evitar em grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor VO (adulto)",
+          "descricaoDose": "12,5-25 mg a cada 4-6h. Máx 75 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 75,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "IR leve: sem ajuste. IR moderada/grave: reduzir dose ou evitar",
+            "ajusteHepatico": "Reduzir dose em hepatopatia leve/moderada; evitar em grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Analgésico. Enantiômero S(+) ativo do cetoprofeno, inibidor não seletivo da COX-1 e COX-2; maior potência analgésica com menor dose que cetoprofeno racêmico.",
+      "apresentacoes": [
+        { "forma": "Ampola 50 mg/2 mL (25 mg/mL)", "obs": "IV/IM - Stadium®, Ketesse®, Sympal®" },
+        { "forma": "Comprimido 12,5 mg, 25 mg", "obs": "VO" },
+        { "forma": "Sachê 25 mg (granulado para solução oral)", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administrar lentamente em >15 segundos", "concentracao": "25 mg/mL (ampola)" },
+        { "diluicao": "VO: conforme apresentação (comprimido ou solução do sachê)", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Mais potente que cetoprofeno racêmico; mesma eficácia com menor dose",
+        "Uso parenteral (IV/IM) máximo 2 dias; depois passar para VO se necessário",
+        "Administrar IV lentamente (>15 segundos) para reduzir risco de reações no local",
+        "Não usar em crianças e adolescentes (não recomendado; sem estudos)",
+        "Cautela em idosos e em pacientes com risco cardiovascular; alerta CV para AINEs",
+        "IR moderada/grave: reduzir dose ou evitar; hepatopatia leve/moderada: reduzir dose; grave: evitar"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar dose mínima eficaz. Cautela por risco cardiovascular e função renal/hepática.",
+        "renal": "IR leve: sem ajuste. IR moderada/grave: reduzir dose ou evitar.",
+        "hepatico": "Reduzir dose em hepatopatia leve/moderada; evitar em hepatopatia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Desketoprofeno IV/IM (adulto)",
+        "doseTexto": "50 mg a cada 8-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Desketoprofeno VO (adulto)",
+        "doseTexto": "12,5-25 mg a cada 4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Dexketoprofen",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Pain IV/IM (adult)",
+          "descricaoDose": "50 mg every 8-12h. Max 150 mg/day. Administer IV slowly (>15 s). Max parenteral duration 2 days.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 150,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 8-12h",
+            "ajusteRenal": "Mild renal impairment: no adjustment. Moderate/severe: reduce dose or avoid",
+            "ajusteHepatico": "Reduce dose in mild/moderate liver disease; avoid in severe.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pain PO (adult)",
+          "descricaoDose": "12.5-25 mg every 4-6h. Max 75 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 75,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Mild renal impairment: no adjustment. Moderate/severe: reduce dose or avoid",
+            "ajusteHepatico": "Reduce dose in mild/moderate liver disease; avoid in severe.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID / Analgesic. Active S(+) enantiomer of ketoprofen, nonselective COX-1 and COX-2 inhibitor; greater analgesic potency with lower dose than racemic ketoprofen.",
+      "apresentacoes": [
+        { "forma": "Ampoule 50 mg/2 mL (25 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Tablet 12.5 mg, 25 mg", "obs": "PO" },
+        { "forma": "Sachet 25 mg (granules for oral solution)", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administer slowly over >15 seconds", "concentracao": "25 mg/mL (ampoule)" },
+        { "diluicao": "PO: as per formulation (tablet or sachet solution)", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "More potent than racemic ketoprofen; same efficacy at lower dose",
+        "Max parenteral (IV/IM) use 2 days; then switch to PO if needed",
+        "Administer IV slowly (>15 seconds) to reduce local reaction risk",
+        "Do not use in children and adolescents (not recommended; no studies)",
+        "Caution in elderly and in patients with cardiovascular risk; CV alert for NSAIDs",
+        "Moderate/severe renal impairment: reduce dose or avoid; mild/moderate liver disease: reduce dose; severe: avoid"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use minimum effective dose. Caution for CV risk and renal/hepatic function.",
+        "renal": "Mild renal impairment: no adjustment. Moderate/severe: reduce dose or avoid.",
+        "hepatico": "Reduce dose in mild/moderate liver disease; avoid in severe liver disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dexketoprofen IV/IM (adult)",
+        "doseTexto": "50 mg every 8-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dexketoprofen PO (adult)",
+        "doseTexto": "12.5-25 mg every 4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12.5-25 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Dexketoprofeno",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor IV/IM (adulto)",
+          "descricaoDose": "50 mg cada 8-12h. Máx 150 mg/día. Administrar IV lentamente (>15 s). Duración parenteral máx 2 días.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 150,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 8-12h",
+            "ajusteRenal": "IR leve: sin ajuste. IR moderada/grave: reducir dosis o evitar",
+            "ajusteHepatico": "Reducir dosis en hepatopatía leve/moderada; evitar en grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor VO (adulto)",
+          "descricaoDose": "12,5-25 mg cada 4-6h. Máx 75 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 75,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "IR leve: sin ajuste. IR moderada/grave: reducir dosis o evitar",
+            "ajusteHepatico": "Reducir dosis en hepatopatía leve/moderada; evitar en grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Analgésico. Enantiómero S(+) activo del ketoprofeno, inhibidor no selectivo de COX-1 y COX-2; mayor potencia analgésica con menor dosis que el ketoprofeno racémico.",
+      "apresentacoes": [
+        { "forma": "Ampolla 50 mg/2 mL (25 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Comprimido 12,5 mg, 25 mg", "obs": "VO" },
+        { "forma": "Sobre 25 mg (granulado para solución oral)", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administrar lentamente en >15 segundos", "concentracao": "25 mg/mL (ampolla)" },
+        { "diluicao": "VO: según presentación (comprimido o solución del sobre)", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Más potente que ketoprofeno racémico; misma eficacia con menor dosis",
+        "Uso parenteral (IV/IM) máximo 2 días; luego pasar a VO si es necesario",
+        "Administrar IV lentamente (>15 segundos) para reducir riesgo de reacciones locales",
+        "No usar en niños y adolescentes (no recomendado; sin estudios)",
+        "Precaución en ancianos y en pacientes con riesgo cardiovascular; alerta CV para AINEs",
+        "IR moderada/grave: reducir dosis o evitar; hepatopatía leve/moderada: reducir dosis; grave: evitar"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar dosis mínima eficaz. Precaución por riesgo cardiovascular y función renal/hepática.",
+        "renal": "IR leve: sin ajuste. IR moderada/grave: reducir dosis o evitar.",
+        "hepatico": "Reducir dosis en hepatopatía leve/moderada; evitar en hepatopatía grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dexketoprofeno IV/IM (adulto)",
+        "doseTexto": "50 mg cada 8-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dexketoprofeno VO (adulto)",
+        "doseTexto": "12,5-25 mg cada 4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "右酮洛芬",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "疼痛 静注/肌注（成人）",
+          "descricaoDose": "50 mg 每 8-12 小时。最大150 mg/日。静注缓慢（>15秒）。肠外最多2天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 150,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每8-12小时",
+            "ajusteRenal": "轻度肾损：无需调整。中重度：减量或避免",
+            "ajusteHepatico": "轻中度肝病减量；重度避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "疼痛 口服（成人）",
+          "descricaoDose": "12,5-25 mg 每 4-6 小时。最大75 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 75,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "轻度肾损：无需调整。中重度：减量或避免",
+            "ajusteHepatico": "轻中度肝病减量；重度避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID/镇痛。酮洛芬活性S(+)对映体，非选择性COX-1、COX-2抑制剂；较消旋酮洛芬剂量更低、镇痛更强。",
+      "apresentacoes": [
+        { "forma": "安瓿 50 mg/2 mL (25 mg/mL)", "obs": "静注/肌注" },
+        { "forma": "片剂 12,5 mg、25 mg", "obs": "口服" },
+        { "forma": "袋装 25 mg（颗粒口服液）", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "静注：缓慢给药，超过15秒", "concentracao": "25 mg/mL（安瓿）" },
+        { "diluicao": "口服：按剂型（片剂或袋装溶液）", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "较消旋酮洛芬更强效；相同疗效剂量更低",
+        "肠外（静注/肌注）最多2天；必要时改为口服",
+        "静注缓慢（>15秒）以减少局部反应",
+        "不用于儿童和青少年（无研究；不推荐）",
+        "老年人及心血管风险患者慎用；NSAIDs心血管警示",
+        "中重度肾损减量或避免；轻中度肝病减量；重度肝病避免"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "使用最小有效剂量。注意心血管风险及肾功能、肝功能。",
+        "renal": "轻度肾损无需调整。中重度：减量或避免。",
+        "hepatico": "轻中度肝病减量；重度肝病避免。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "右酮洛芬 静注/肌注（成人）",
+        "doseTexto": "50 mg 每 8-12 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "右酮洛芬 口服（成人）",
+        "doseTexto": "12,5-25 mg 每 4-6 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1326 @@
+{
+  "PT": {
+    "nome": "Diazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus",
+          "descricaoDose": "0,1-0,15 mg/kg IV (máx 10 mg/dose, total máx 30 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 10-15 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedação pré-operatória",
+          "descricaoDose": "0,04-0,15 mg/kg IM/IV (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "30-60 min antes",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Ansiedade aguda",
+          "descricaoDose": "0,03-0,15 mg/kg VO (máx 10 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.03,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-4 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Abstinência alcoólica",
+          "descricaoDose": "0,1-0,15 mg/kg VO (máx 10 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedação procedimentos",
+          "descricaoDose": "0,1-0,2 mg/kg IV (máx 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "0,2-0,5 mg/kg IV (máx 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epilepticus (idoso)",
+          "descricaoDose": "0,05-0,1 mg/kg IV (máx 5 mg/dose, total máx 15 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 10-15 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedação (idoso)",
+          "descricaoDose": "0,02-0,075 mg/kg IM/IV (máx 5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "30-60 min antes",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epilepticus pediátrico",
+          "descricaoDose": "0,2-0,5 mg/kg IV (máx 10 mg por dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 10-15 min (máx 30 mg total)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose"
+          }
+        },
+        {
+          "titulo": "Sedação pré-procedimento pediátrica",
+          "descricaoDose": "0,04-0,2 mg/kg IV (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose"
+          }
+        },
+        {
+          "titulo": "Ansiedade pediátrica",
+          "descricaoDose": "0,1-0,3 mg/kg VO (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose"
+          }
+        },
+        {
+          "titulo": "Via retal pediátrica (convulsões)",
+          "descricaoDose": "0,5 mg/kg retal (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Retal",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico - Ansiolítico, sedativo, anticonvulsivante, miorrelaxante central e hipnótico",
+      "apresentacoes": [
+        { "forma": "Comprimido 2 mg", "obs": "VO" },
+        { "forma": "Comprimido 5 mg", "obs": "VO" },
+        { "forma": "Comprimido 10 mg", "obs": "VO" },
+        { "forma": "Solução oral 2 mg/mL", "obs": "VO" },
+        { "forma": "Ampola 5 mg/mL (2 mL)", "obs": "10 mg - Valium®" },
+        { "forma": "Gel/solução retal", "obs": "Emergência pediátrica" }
+      ],
+      "preparo": [
+        { "diluicao": "Usar ampola diretamente", "concentracao": "5 mg/mL" },
+        { "diluicao": "10 mg + 8 mL SF (se necessário)", "concentracao": "1 mg/mL" },
+        { "diluicao": "IV lento obrigatório", "concentracao": "Mín 1 min por 5 mg" }
+      ],
+      "observacoes": [
+        "Monitorização contínua de sinais vitais, ECG e sedação",
+        "Ter disponível flumazenil para reversão",
+        "Administração IV lenta obrigatória (mín 1 min por 5 mg)",
+        "Meia-vida prolongada (20-50h), metabólitos ativos até 100h",
+        "Risco de efeitos paradoxais em crianças e idosos",
+        "Evitar associação com opioides - risco de depressão respiratória"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir 50% da dose. Maior sensibilidade a efeitos adversos, sedação prolongada.",
+        "renal": "Não requer ajuste inicial. Monitorar sedação (acúmulo de metabólitos ativos em IRC).",
+        "hepatico": "Reduzir dose em insuficiência moderada/grave. Metabolismo hepático, risco de sedação prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Diazepam Status Epilepticus (adulto)",
+        "doseTexto": "5-10 mg IV a cada 10-15 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg (máx 30 mg)",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diazepam Status Epilepticus (pediátrico)",
+        "doseTexto": "0,2-0,5 mg/kg IV (máx 10 mg)",
+        "doseMin": 0.2,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Diazepam Sedação (adulto)",
+        "doseTexto": "2-10 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diazepam Sedação (pediátrico)",
+        "doseTexto": "0,04-0,2 mg/kg IV (máx 10 mg)",
+        "doseMin": 0.04,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Diazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus",
+          "descricaoDose": "0.1-0.15 mg/kg IV (max 10 mg/dose, total max 30 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 10-15 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Preoperative sedation",
+          "descricaoDose": "0.04-0.15 mg/kg IM/IV (max 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/IV",
+            "intervalo": "30-60 min before",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Acute anxiety",
+          "descricaoDose": "0.03-0.15 mg/kg PO (max 10 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.03,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "2-4 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Alcohol withdrawal",
+          "descricaoDose": "0.1-0.15 mg/kg PO (max 10 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Procedural sedation",
+          "descricaoDose": "0.1-0.2 mg/kg IV (max 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Anesthetic induction",
+          "descricaoDose": "0.2-0.5 mg/kg IV (max 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Status epilepticus (elderly)",
+          "descricaoDose": "0.05-0.1 mg/kg IV (max 5 mg/dose, total max 15 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Elderly",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 10-15 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Sedation (elderly)",
+          "descricaoDose": "0.02-0.075 mg/kg IM/IV (max 5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Elderly",
+            "sexo": "All",
+            "via": "IM/IV",
+            "intervalo": "30-60 min before",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric status epilepticus",
+          "descricaoDose": "0.2-0.5 mg/kg IV (max 10 mg per dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 10-15 min (max 30 mg total)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose"
+          }
+        },
+        {
+          "titulo": "Pediatric pre-procedure sedation",
+          "descricaoDose": "0.04-0.2 mg/kg IV (max 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose"
+          }
+        },
+        {
+          "titulo": "Pediatric anxiety",
+          "descricaoDose": "0.1-0.3 mg/kg PO (max 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose"
+          }
+        },
+        {
+          "titulo": "Pediatric rectal (seizures)",
+          "descricaoDose": "0.5 mg/kg rectal (max 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Rectal",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine - Anxiolytic, sedative, anticonvulsant, central muscle relaxant and hypnotic",
+      "apresentacoes": [
+        { "forma": "Tablet 2 mg", "obs": "PO" },
+        { "forma": "Tablet 5 mg", "obs": "PO" },
+        { "forma": "Tablet 10 mg", "obs": "PO" },
+        { "forma": "Oral solution 2 mg/mL", "obs": "PO" },
+        { "forma": "Vial 5 mg/mL (2 mL)", "obs": "10 mg - Valium®" },
+        { "forma": "Rectal gel/solution", "obs": "Pediatric emergency" }
+      ],
+      "preparo": [
+        { "diluicao": "Use vial directly", "concentracao": "5 mg/mL" },
+        { "diluicao": "10 mg + 8 mL NS (if needed)", "concentracao": "1 mg/mL" },
+        { "diluicao": "Slow IV mandatory", "concentracao": "Min 1 min per 5 mg" }
+      ],
+      "observacoes": [
+        "Continuous monitoring of vital signs, ECG and sedation",
+        "Have flumazenil available for reversal",
+        "Mandatory slow IV administration (min 1 min per 5 mg)",
+        "Prolonged half-life (20-50h), active metabolites up to 100h",
+        "Risk of paradoxical effects in children and elderly",
+        "Avoid combination with opioids - respiratory depression risk"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce 50% of dose. Increased sensitivity to adverse effects, prolonged sedation.",
+        "renal": "No initial adjustment required. Monitor sedation (accumulation of active metabolites in CKD).",
+        "hepatico": "Reduce dose in moderate/severe impairment. Hepatic metabolism, risk of prolonged sedation."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Diazepam Status Epilepticus (adult)",
+        "doseTexto": "5-10 mg IV every 10-15 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg (max 30 mg)",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Diazepam Status Epilepticus (pediatric)",
+        "doseTexto": "0.2-0.5 mg/kg IV (max 10 mg)",
+        "doseMin": 0.2,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Diazepam Sedation (adult)",
+        "doseTexto": "2-10 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Diazepam Sedation (pediatric)",
+        "doseTexto": "0.04-0.2 mg/kg IV (max 10 mg)",
+        "doseMin": 0.04,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Diazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epiléptico",
+          "descricaoDose": "0,1-0,15 mg/kg IV (máx 10 mg/dosis, total máx 30 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 10-15 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedación preoperatoria",
+          "descricaoDose": "0,04-0,15 mg/kg IM/IV (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "30-60 min antes",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Ansiedad aguda",
+          "descricaoDose": "0,03-0,15 mg/kg VO (máx 10 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.03,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-4 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Abstinencia alcohólica",
+          "descricaoDose": "0,1-0,15 mg/kg VO (máx 10 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedación procedimientos",
+          "descricaoDose": "0,1-0,2 mg/kg IV (máx 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Inducción anestésica",
+          "descricaoDose": "0,2-0,5 mg/kg IV (máx 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epiléptico (anciano)",
+          "descricaoDose": "0,05-0,1 mg/kg IV (máx 5 mg/dosis, total máx 15 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Anciano",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 10-15 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedación (anciano)",
+          "descricaoDose": "0,02-0,075 mg/kg IM/IV (máx 5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Anciano",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "30-60 min antes",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epiléptico pediátrico",
+          "descricaoDose": "0,2-0,5 mg/kg IV (máx 10 mg por dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 10-15 min (máx 30 mg total)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis"
+          }
+        },
+        {
+          "titulo": "Sedación pre-procedimiento pediátrica",
+          "descricaoDose": "0,04-0,2 mg/kg IV (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis"
+          }
+        },
+        {
+          "titulo": "Ansiedad pediátrica",
+          "descricaoDose": "0,1-0,3 mg/kg VO (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis"
+          }
+        },
+        {
+          "titulo": "Vía rectal pediátrica (convulsiones)",
+          "descricaoDose": "0,5 mg/kg rectal (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Rectal",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiacepina - Ansiolítico, sedativo, anticonvulsivante, miorrelajante central e hipnótico",
+      "apresentacoes": [
+        { "forma": "Comprimido 2 mg", "obs": "VO" },
+        { "forma": "Comprimido 5 mg", "obs": "VO" },
+        { "forma": "Comprimido 10 mg", "obs": "VO" },
+        { "forma": "Solución oral 2 mg/mL", "obs": "VO" },
+        { "forma": "Ampolla 5 mg/mL (2 mL)", "obs": "10 mg - Valium®" },
+        { "forma": "Gel/solución rectal", "obs": "Emergencia pediátrica" }
+      ],
+      "preparo": [
+        { "diluicao": "Usar ampolla directamente", "concentracao": "5 mg/mL" },
+        { "diluicao": "10 mg + 8 mL SSF (si necesario)", "concentracao": "1 mg/mL" },
+        { "diluicao": "IV lento obligatorio", "concentracao": "Mín 1 min por 5 mg" }
+      ],
+      "observacoes": [
+        "Monitorización continua de signos vitales, ECG y sedación",
+        "Tener disponible flumazenil para reversión",
+        "Administración IV lenta obligatoria (mín 1 min por 5 mg)",
+        "Vida media prolongada (20-50h), metabolitos activos hasta 100h",
+        "Riesgo de efectos paradójicos en niños y ancianos",
+        "Evitar asociación con opioides - riesgo de depresión respiratoria"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir 50% de la dosis. Mayor sensibilidad a efectos adversos, sedación prolongada.",
+        "renal": "No requiere ajuste inicial. Monitorizar sedación (acumulación de metabolitos activos en ERC).",
+        "hepatico": "Reducir dosis en insuficiencia moderada/grave. Metabolismo hepático, riesgo de sedación prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Diazepam Status Epiléptico (adulto)",
+        "doseTexto": "5-10 mg IV cada 10-15 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg (máx 30 mg)",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diazepam Status Epiléptico (pediátrico)",
+        "doseTexto": "0,2-0,5 mg/kg IV (máx 10 mg)",
+        "doseMin": 0.2,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Diazepam Sedación (adulto)",
+        "doseTexto": "2-10 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diazepam Sedación (pediátrico)",
+        "doseTexto": "0,04-0,2 mg/kg IV (máx 10 mg)",
+        "doseMin": 0.04,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "地西泮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "癫痫持续状态",
+          "descricaoDose": "0.1-0.15 mg/kg IV（单次最大10 mg，总量最大30 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每10-15分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "术前镇静",
+          "descricaoDose": "0.04-0.15 mg/kg IM/IV（最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/IV",
+            "intervalo": "术前30-60分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "急性焦虑",
+          "descricaoDose": "0.03-0.15 mg/kg 口服（单次最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.03,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日2-4次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "酒精戒断",
+          "descricaoDose": "0.1-0.15 mg/kg 口服（单次最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "操作镇静",
+          "descricaoDose": "0.1-0.2 mg/kg IV（最大20 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "麻醉诱导",
+          "descricaoDose": "0.2-0.5 mg/kg IV（最大20 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "癫痫持续状态（老年人）",
+          "descricaoDose": "0.05-0.1 mg/kg IV（单次最大5 mg，总量最大15 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "老年人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每10-15分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "镇静（老年人）",
+          "descricaoDose": "0.02-0.075 mg/kg IM/IV（最大5 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "老年人",
+            "sexo": "所有",
+            "via": "IM/IV",
+            "intervalo": "术前30-60分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "儿童癫痫持续状态",
+          "descricaoDose": "0.2-0.5 mg/kg IV（单次最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每10-15分钟（总量最大30 mg）",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减量"
+          }
+        },
+        {
+          "titulo": "儿童术前镇静",
+          "descricaoDose": "0.04-0.2 mg/kg IV（最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减量"
+          }
+        },
+        {
+          "titulo": "儿童焦虑",
+          "descricaoDose": "0.1-0.3 mg/kg 口服（最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减量"
+          }
+        },
+        {
+          "titulo": "儿童直肠给药（惊厥）",
+          "descricaoDose": "0.5 mg/kg 直肠（最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "直肠",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减量"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "苯二氮卓类 - 抗焦虑、镇静、抗惊厥、中枢性肌松和催眠药",
+      "apresentacoes": [
+        { "forma": "片剂 2 mg", "obs": "口服" },
+        { "forma": "片剂 5 mg", "obs": "口服" },
+        { "forma": "片剂 10 mg", "obs": "口服" },
+        { "forma": "口服溶液 2 mg/mL", "obs": "口服" },
+        { "forma": "安瓿 5 mg/mL (2 mL)", "obs": "10 mg - Valium®" },
+        { "forma": "直肠凝胶/溶液", "obs": "儿科急救" }
+      ],
+      "preparo": [
+        { "diluicao": "直接使用安瓿", "concentracao": "5 mg/mL" },
+        { "diluicao": "10 mg + 8 mL NS（如需要）", "concentracao": "1 mg/mL" },
+        { "diluicao": "必须缓慢静脉注射", "concentracao": "每5 mg至少1分钟" }
+      ],
+      "observacoes": [
+        "持续监测生命体征、心电图和镇静程度",
+        "备有氟马西尼用于逆转",
+        "必须缓慢静脉给药（每5 mg至少1分钟）",
+        "半衰期延长（20-50小时），活性代谢物可达100小时",
+        "儿童和老年人有矛盾反应风险",
+        "避免与阿片类药物联用 - 呼吸抑制风险"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量50%。对不良反应敏感性增加，镇静延长。",
+        "renal": "无需初始调整。监测镇静程度（慢性肾病中活性代谢物蓄积）。",
+        "hepatico": "中重度肝功能不全时减量。肝脏代谢，镇静延长风险。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "地西泮 癫痫持续状态（成人）",
+        "doseTexto": "5-10 mg IV 每10-15分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg（最大30 mg）",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地西泮 癫痫持续状态（儿童）",
+        "doseTexto": "0.2-0.5 mg/kg IV（最大10 mg）",
+        "doseMin": 0.2,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "地西泮 镇静（成人）",
+        "doseTexto": "2-10 mg IM/IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地西泮 镇静（儿童）",
+        "doseTexto": "0.04-0.2 mg/kg IV（最大10 mg）",
+        "doseMin": 0.04,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Cefalotina",
+      "nome_comercial": ["Keflin"],
+      "classe_terapeutica": "Cefalosporina de 1ª geração",
+      "mecanismo_acao": "Liga-se às proteínas ligadoras de penicilina (PBPs), inibindo a síntese da parede celular bacteriana.",
+      "espectro": {
+        "gram_positivos": ["Staphylococcus aureus (MSSA)", "Streptococcus pyogenes", "S. pneumoniae"],
+        "gram_negativos": ["E. coli", "Klebsiella pneumoniae", "Proteus mirabilis"]
+      },
+      "nao_cobre": ["MRSA", "Enterococcus", "Pseudomonas", "Bacteroides fragilis", "H. influenzae"],
+      "indicacoes": [
+        "Infecções de pele e tecidos moles",
+        "Infecções respiratórias (comunitárias)",
+        "Profilaxia cirúrgica",
+        "Infecções urinárias não complicadas"
+      ],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "1g", "liofilizado": true}
+      ],
+      "farmacocinetica": {
+        "meia_vida": "30-60 minutos",
+        "excrecao": "Renal (60-70%)",
+        "ligacao_proteica": "65-80%"
+      },
+      "ajuste_renal": {
+        "ClCr_25_50": "1-2g a cada 8h",
+        "ClCr_10_25": "1-2g a cada 12h",
+        "ClCr_menor_10": "500mg-1g a cada 12h"
+      },
+      "efeitos_adversos": ["Flebite", "Rash", "Eosinofilia", "Nefrotoxicidade (rara)"],
+      "contraindicacoes": ["Alergia a cefalosporinas"],
+      "observacoes": ["Meia-vida curta requer doses frequentes", "Cefazolina é preferida (meia-vida mais longa)"]
+    }
+  }
+}

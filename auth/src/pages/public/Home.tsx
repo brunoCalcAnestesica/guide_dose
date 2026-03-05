@@ -1,5 +1,25 @@
 import { Link } from 'react-router-dom'
-import { mockNews } from '../../mocks/data'
+
+const newsItems = [
+  {
+    id: '1',
+    titulo: 'Nova atualização do GuideDose 2.0',
+    resumo: 'Confira as novidades da versão 2.0 com novos cálculos e interface repaginada.',
+    data: '2026-02-20',
+  },
+  {
+    id: '2',
+    titulo: 'Protocolo de Sepse atualizado',
+    resumo: 'Os algoritmos de tratamento de sepse foram revisados conforme novas diretrizes do Surviving Sepsis 2025.',
+    data: '2026-02-15',
+  },
+  {
+    id: '3',
+    titulo: 'Farmacoteca ampliada',
+    resumo: 'Mais de 200 medicamentos com doses, diluições e orientações clínicas prontas para uso.',
+    data: '2026-02-01',
+  },
+]
 
 export default function Home() {
   return (
@@ -74,7 +94,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-gray-900">Novidades</h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {mockNews.map(news => (
+            {newsItems.map(news => (
               <article key={news.id} className="rounded-xl border border-gray-200 p-6 transition hover:shadow-md">
                 <time className="text-xs font-medium text-brand-600">{new Date(news.data).toLocaleDateString('pt-BR')}</time>
                 <h3 className="mt-2 text-lg font-semibold text-gray-900">{news.titulo}</h3>

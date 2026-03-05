@@ -1,0 +1,454 @@
+{
+  "PT": {
+    "nome": "Clemastina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reações alérgicas / Urticária (adulto)",
+          "descricaoDose": "1-2 mg IV/IM a cada 8-12h (máx 6 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 6,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 8-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Hepatopatia descompensada: reduzir 50%"
+          }
+        },
+        {
+          "titulo": "Reações alérgicas / Urticária (pediátrico)",
+          "descricaoDose": "0,025-0,05 mg/kg IV/IM a cada 8-12h (máx 2 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.0375,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 8-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Hepatopatia descompensada: reduzir 50%"
+          }
+        },
+        {
+          "titulo": "Neonatos / Lactentes",
+          "descricaoDose": "0,025 mg/kg IV/IM a cada 12h (dados limitados)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.025,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Hepatopatia descompensada: reduzir 50%"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anti-histamínico H1 de primeira geração, antialérgico",
+      "apresentacoes": [
+        { "forma": "Ampola 1 mg/mL (2 mL)", "obs": "IV/IM - Tavegil®, genérico" },
+        { "forma": "Comprimido 1 mg", "obs": "Via oral" },
+        { "forma": "Solução oral 0,5 mg/5 mL (100 mL)", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administrar lentamente em 2-3 min", "concentracao": "1 mg/mL - pronto para uso" },
+        { "diluicao": "IM: injetar profundamente no deltoide ou glúteo", "concentracao": "Não requer diluição" },
+        { "diluicao": "Não misturar com outras soluções na mesma seringa", "concentracao": "Incompatível com bicarbonato" }
+      ],
+      "observacoes": [
+        "Anti-histamínico H1 de 1ª geração com efeito sedativo e anticolinérgico",
+        "IV: administrar lentamente em 2-3 minutos (risco de reação no local)",
+        "Início de ação IV: 15-30 min; pico 2-4 h; duração 8-12 h",
+        "Cuidado em glaucoma de ângulo fechado, HBP e epilepsia",
+        "Potencializa depressores do SNC e álcool; evitar dirigir",
+        "Tratamento adjuvante em anafilaxia (após estabilização com adrenalina)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior sensibilidade aos efeitos. Cuidado com sedação e anticolinérgicos (queda, confusão).",
+        "renal": "Não requer ajuste em IR leve a moderada. Usar com cautela se ClCr <30 mL/min.",
+        "hepatico": "Cautela em insuficiência hepática moderada a grave. Reduzir dose em 50% em hepatopatia descompensada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clemastina (adulto)",
+        "doseTexto": "2 mg IV/IM 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clemastina (pediátrico)",
+        "doseTexto": "0,025 mg/kg/dia IV dividido 2x (máx 2 mg/dia)",
+        "doseMin": 0.025,
+        "doseMax": null,
+        "unidadeResultado": "mg/dia",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Clemastine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Allergic reactions / Urticaria (adult)",
+          "descricaoDose": "1-2 mg IV/IM every 8-12h (max 6 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 6,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "every 8-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Decompensated liver disease: reduce 50%"
+          }
+        },
+        {
+          "titulo": "Allergic reactions / Urticaria (pediatric)",
+          "descricaoDose": "0.025-0.05 mg/kg IV/IM every 8-12h (max 2 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.0375,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "every 8-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Decompensated liver disease: reduce 50%"
+          }
+        },
+        {
+          "titulo": "Neonates / Infants",
+          "descricaoDose": "0.025 mg/kg IV/IM every 12h (limited data)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.025,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "every 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Decompensated liver disease: reduce 50%"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "First-generation H1 antihistamine, antiallergic",
+      "apresentacoes": [
+        { "forma": "Vial 1 mg/mL (2 mL)", "obs": "IV/IM - Tavist®, generic" },
+        { "forma": "Tablet 1 mg", "obs": "Oral" },
+        { "forma": "Oral solution 0.5 mg/5 mL (100 mL)", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administer slowly over 2-3 min", "concentracao": "1 mg/mL - ready to use" },
+        { "diluicao": "IM: inject deeply into deltoid or gluteal muscle", "concentracao": "Does not require dilution" },
+        { "diluicao": "Do not mix with other solutions in the same syringe", "concentracao": "Incompatible with bicarbonate" }
+      ],
+      "observacoes": [
+        "First-generation H1 antihistamine with sedative and anticholinergic effects",
+        "IV: administer slowly over 2-3 minutes (risk of local reaction)",
+        "Onset IV: 15-30 min; peak 2-4 h; duration 8-12 h",
+        "Caution in angle-closure glaucoma, BPH and epilepsy",
+        "Potentiates CNS depressants and alcohol; avoid driving",
+        "Adjuvant in anaphylaxis (after stabilization with epinephrine)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Greater sensitivity to effects. Caution with sedation and anticholinergics (falls, confusion).",
+        "renal": "No adjustment in mild to moderate renal insufficiency. Use with caution if ClCr <30 mL/min.",
+        "hepatico": "Caution in moderate to severe hepatic insufficiency. Reduce dose by 50% in decompensated liver disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clemastine (adult)",
+        "doseTexto": "2 mg IV/IM q12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clemastine (pediatric)",
+        "doseTexto": "0.025 mg/kg/day IV divided twice daily (max 2 mg/day)",
+        "doseMin": 0.025,
+        "doseMax": null,
+        "unidadeResultado": "mg/day",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Clemastina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reacciones alérgicas / Urticaria (adulto)",
+          "descricaoDose": "1-2 mg IV/IM cada 8-12h (máx 6 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 6,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 8-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Hepatopatía descompensada: reducir 50%"
+          }
+        },
+        {
+          "titulo": "Reacciones alérgicas / Urticaria (pediátrico)",
+          "descricaoDose": "0,025-0,05 mg/kg IV/IM cada 8-12h (máx 2 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.0375,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 8-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Hepatopatía descompensada: reducir 50%"
+          }
+        },
+        {
+          "titulo": "Neonatos / Lactantes",
+          "descricaoDose": "0,025 mg/kg IV/IM cada 12h (datos limitados)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.025,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Hepatopatía descompensada: reducir 50%"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antihistamínico H1 de primera generación, antialérgico",
+      "apresentacoes": [
+        { "forma": "Ampolla 1 mg/mL (2 mL)", "obs": "IV/IM - Tavegil®, genérico" },
+        { "forma": "Comprimido 1 mg", "obs": "Vía oral" },
+        { "forma": "Solución oral 0,5 mg/5 mL (100 mL)", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administrar lentamente en 2-3 min", "concentracao": "1 mg/mL - listo para usar" },
+        { "diluicao": "IM: inyectar profundamente en deltoides o glúteo", "concentracao": "No requiere dilución" },
+        { "diluicao": "No mezclar con otras soluciones en la misma jeringa", "concentracao": "Incompatible con bicarbonato" }
+      ],
+      "observacoes": [
+        "Antihistamínico H1 de 1ª generación con efecto sedante y anticolinérgico",
+        "IV: administrar lentamente en 2-3 minutos (riesgo de reacción local)",
+        "Inicio de acción IV: 15-30 min; pico 2-4 h; duración 8-12 h",
+        "Precaución en glaucoma de ángulo cerrado, HBP y epilepsia",
+        "Potencia depresores del SNC y alcohol; evitar conducir",
+        "Tratamiento adyuvante en anafilaxia (tras estabilización con adrenalina)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor sensibilidad a los efectos. Cuidado con sedación y anticolinérgicos (caídas, confusión).",
+        "renal": "No requiere ajuste en IR leve a moderada. Usar con precaución si ClCr <30 mL/min.",
+        "hepatico": "Precaución en insuficiencia hepática moderada a grave. Reducir dosis 50% en hepatopatía descompensada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clemastina (adulto)",
+        "doseTexto": "2 mg IV/IM cada 12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clemastina (pediátrico)",
+        "doseTexto": "0,025 mg/kg/día IV dividido 2x (máx 2 mg/día)",
+        "doseMin": 0.025,
+        "doseMax": null,
+        "unidadeResultado": "mg/día",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氯马斯汀",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "过敏反应/荨麻疹（成人）",
+          "descricaoDose": "1-2 mg IV/IM 每8-12小时（最大6 mg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 6,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "每8-12小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "失代偿性肝病：减量50%"
+          }
+        },
+        {
+          "titulo": "过敏反应/荨麻疹（儿童）",
+          "descricaoDose": "0.025-0.05 mg/kg IV/IM 每8-12小时（最大2 mg/次）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.0375,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "每8-12小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "失代偿性肝病：减量50%"
+          }
+        },
+        {
+          "titulo": "新生儿/婴儿",
+          "descricaoDose": "0.025 mg/kg IV/IM 每12小时（数据有限）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.025,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "每12小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "失代偿性肝病：减量50%"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "第一代H1抗组胺药，抗过敏",
+      "apresentacoes": [
+        { "forma": "安瓿 1 mg/mL (2 mL)", "obs": "IV/IM - 泰为夷®、仿制药" },
+        { "forma": "片剂 1 mg", "obs": "口服" },
+        { "forma": "口服溶液 0.5 mg/5 mL (100 mL)", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "IV：2-3分钟内缓慢给药", "concentracao": "1 mg/mL - 即用型" },
+        { "diluicao": "IM：深部肌注三角肌或臀肌", "concentracao": "无需稀释" },
+        { "diluicao": "勿与其它溶液在同一注射器混合", "concentracao": "与碳酸氢钠不相容" }
+      ],
+      "observacoes": [
+        "第一代H1抗组胺药，具镇静及抗胆碱能作用",
+        "IV：2-3分钟内缓慢给药（局部反应风险）",
+        "IV起效15-30分钟；峰浓度2-4小时；作用8-12小时",
+        "慎用于闭角型青光眼、前列腺肥大及癫痫",
+        "增强中枢抑制药及酒精作用；避免驾驶",
+        "过敏性休克辅助治疗（肾上腺素稳定后）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "对作用更敏感。注意镇静及抗胆碱能效应（跌倒、意识模糊）。",
+        "renal": "轻至中度肾功能不全无需调整。ClCr <30 mL/min时慎用。",
+        "hepatico": "中重度肝功能不全慎用。失代偿性肝病减量50%。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氯马斯汀（成人）",
+        "doseTexto": "2 mg IV/IM 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "氯马斯汀（儿童）",
+        "doseTexto": "0.025 mg/kg/天 IV 分2次（最大2 mg/天）",
+        "doseMin": 0.025,
+        "doseMax": null,
+        "unidadeResultado": "mg/天",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

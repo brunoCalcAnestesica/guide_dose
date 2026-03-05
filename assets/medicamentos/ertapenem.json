@@ -1,0 +1,44 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Ertapenem",
+      "nome_comercial": ["Invanz"],
+      "classe_terapeutica": "Carbapenêmico",
+      "mecanismo_acao": "Liga-se às PBPs (especialmente PBP2), inibindo a síntese da parede celular bacteriana. Estável a beta-lactamases de espectro estendido (ESBL).",
+      "espectro": {
+        "gram_positivos": ["Staphylococcus (MSSA)", "Streptococcus"],
+        "gram_negativos": ["E. coli (incluindo ESBL)", "Klebsiella (incluindo ESBL)", "Proteus", "Enterobacter", "Citrobacter", "Serratia", "M. catarrhalis", "H. influenzae"],
+        "anaerobios": ["Bacteroides fragilis", "Peptostreptococcus", "Clostridium"]
+      },
+      "nao_cobre": ["Pseudomonas aeruginosa", "Acinetobacter", "MRSA", "Enterococcus"],
+      "indicacoes": [
+        "Infecções intra-abdominais complicadas",
+        "Pneumonia comunitária",
+        "Infecções de pele e tecidos moles",
+        "Pé diabético",
+        "Infecções pélvicas/ginecológicas",
+        "ITU complicada"
+      ],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "1g", "liofilizado": true}
+      ],
+      "farmacocinetica": {
+        "meia_vida": "4 horas",
+        "excrecao": "Renal (80%)",
+        "ligacao_proteica": "92-95%"
+      },
+      "ajuste_renal": {
+        "ClCr_maior_30": "1g 1x/dia",
+        "ClCr_menor_30": "500mg 1x/dia",
+        "hemodialise": "Dose após diálise"
+      },
+      "administracao_im": {
+        "diluente": "Lidocaína 1% sem vasoconstritor",
+        "volume": "3,2mL"
+      },
+      "efeitos_adversos": ["Diarreia", "Náusea", "Cefaleia", "Flebite", "Convulsões (raro)"],
+      "contraindicacoes": ["Alergia a carbapenêmicos", "IM com lidocaína se alergia a amidas"],
+      "vantagens": ["Dose única diária", "Pode ser dado IM", "Cobre ESBL"]
+    }
+  }
+}

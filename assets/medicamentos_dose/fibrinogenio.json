@@ -1,0 +1,566 @@
+{
+  "PT": {
+    "nome": "Fibrinogênio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemorragia (hipofibrinogenemia)",
+          "descricaoDose": "25-50 mg/kg IV (alvo fibrinogênio >150 mg/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única - repetir conforme fibrinogênio sérico",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia obstétrica",
+          "descricaoDose": "2-4 g IV (alvo fibrinogênio >200 mg/dL)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única - repetir conforme fibrinogênio",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Deficiência congênita - tratamento",
+          "descricaoDose": "70 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme fibrinogênio e clínica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Deficiência congênita - profilaxia",
+          "descricaoDose": "20-40 mg/kg IV 2-3x/semana",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "2-3x/semana",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Fator de coagulação (fibrinogênio humano concentrado)",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 1 g liofilizado", "obs": "Diluente: 50 mL água para injeção" },
+        { "forma": "Concentração final reconstituída", "obs": "20 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Adicionar 50 mL diluente ao frasco", "concentracao": "20 mg/mL" },
+        { "diluicao": "Agitar suavemente até dissolver (5-10 min)", "concentracao": "Aquecer à temperatura ambiente ou 37°C" },
+        { "diluicao": "Pode diluir em SF 0,9% se necessário", "concentracao": "Usar em até 8 h após reconstituição" }
+      ],
+      "observacoes": [
+        "Não requer tipagem sanguínea",
+        "Monitorar fibrinogênio antes e após infusão",
+        "Velocidade máx 5 mL/min",
+        "1 g eleva fibrinogênio ~25-30 mg/dL em adulto 70 kg",
+        "Preferível ao crioprecipitado quando disponível (dose previsível, menor volume)",
+        "Contraindicado em trombose conhecida; hipersensibilidade ao fibrinogênio humano"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar volemia e fibrinogênio sérico.",
+        "renal": "Não requer ajuste. Hemoderivado; uso conforme indicação clínica e laboratorial.",
+        "hepatico": "Frequentemente indicado em CIVD/hepatopatia com hipofibrinogenemia. Avaliar causa do sangramento."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fibrinogênio (hemorragia)",
+        "doseTexto": "25-50 mg/kg IV (alvo >150 mg/dL)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Fibrinogênio (obstetrícia)",
+        "doseTexto": "2-4 g IV (alvo >200 mg/dL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "2-4 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fibrinogênio (deficiência congênita - tratamento)",
+        "doseTexto": "70 mg/kg IV",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Fibrinogen",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemorrhage (hypofibrinogenemia)",
+          "descricaoDose": "25-50 mg/kg IV (target fibrinogen >150 mg/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose - repeat per serum fibrinogen",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Obstetric hemorrhage",
+          "descricaoDose": "2-4 g IV (target fibrinogen >200 mg/dL)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose - repeat per fibrinogen",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Congenital deficiency - treatment",
+          "descricaoDose": "70 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per fibrinogen and clinical response",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Congenital deficiency - prophylaxis",
+          "descricaoDose": "20-40 mg/kg IV 2-3x/week",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "2-3x/week",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivative - Coagulation factor (human fibrinogen concentrate)",
+      "apresentacoes": [
+        { "forma": "Vial 1 g lyophilized", "obs": "Diluent: 50 mL water for injection" },
+        { "forma": "Reconstituted final concentration", "obs": "20 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Add 50 mL diluent to vial", "concentracao": "20 mg/mL" },
+        { "diluicao": "Gently swirl until dissolved (5-10 min)", "concentracao": "Warm to room temp or 37°C" },
+        { "diluicao": "May dilute in 0.9% NS if needed", "concentracao": "Use within 8 h of reconstitution" }
+      ],
+      "observacoes": [
+        "No blood typing required",
+        "Monitor fibrinogen before and after infusion",
+        "Max rate 5 mL/min",
+        "1 g raises fibrinogen ~25-30 mg/dL in 70 kg adult",
+        "Preferred over cryoprecipitate when available (predictable dose, lower volume)",
+        "Contraindicated in known thrombosis; hypersensitivity to human fibrinogen"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor volume status and serum fibrinogen.",
+        "renal": "No adjustment. Hemoderivative; use per indication and labs.",
+        "hepatico": "Often indicated in DIC/liver disease with hypofibrinogenemia. Assess cause of bleeding."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fibrinogen (hemorrhage)",
+        "doseTexto": "25-50 mg/kg IV (target >150 mg/dL)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "Fibrinogen (obstetric)",
+        "doseTexto": "2-4 g IV (target >200 mg/dL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "2-4 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fibrinogen (congenital - treatment)",
+        "doseTexto": "70 mg/kg IV",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fibrinógeno",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemorragia (hipofibrinogenemia)",
+          "descricaoDose": "25-50 mg/kg IV (objetivo fibrinógeno >150 mg/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única - repetir según fibrinógeno sérico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemorragia obstétrica",
+          "descricaoDose": "2-4 g IV (objetivo fibrinógeno >200 mg/dL)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única - repetir según fibrinógeno",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Deficiencia congénita - tratamiento",
+          "descricaoDose": "70 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según fibrinógeno y clínica",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Deficiencia congénita - profilaxis",
+          "descricaoDose": "20-40 mg/kg IV 2-3x/semana",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "2-3x/semana",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Factor de coagulación (concentrado de fibrinógeno humano)",
+      "apresentacoes": [
+        { "forma": "Frasco 1 g liofilizado", "obs": "Diluente: 50 mL agua para inyección" },
+        { "forma": "Concentración final reconstituida", "obs": "20 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Añadir 50 mL diluyente al frasco", "concentracao": "20 mg/mL" },
+        { "diluicao": "Agitar suavemente hasta disolver (5-10 min)", "concentracao": "Calentar a temperatura ambiente o 37°C" },
+        { "diluicao": "Puede diluirse en SF 0,9% si necesario", "concentracao": "Usar en 8 h tras reconstitución" }
+      ],
+      "observacoes": [
+        "No requiere tipaje sanguíneo",
+        "Monitorizar fibrinógeno antes y tras infusión",
+        "Velocidad máx 5 mL/min",
+        "1 g eleva fibrinógeno ~25-30 mg/dL en adulto 70 kg",
+        "Preferible a crioprecipitado cuando disponible (dosis predecible, menor volumen)",
+        "Contraindicado en trombosis conocida; hipersensibilidad al fibrinógeno humano"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar volemia y fibrinógeno sérico.",
+        "renal": "No requiere ajuste. Hemoderivado; uso según indicación y laboratorio.",
+        "hepatico": "Frecuente en CID/hepatopatía con hipofibrinogenemia. Valorar causa del sangrado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fibrinógeno (hemorragia)",
+        "doseTexto": "25-50 mg/kg IV (objetivo >150 mg/dL)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Fibrinógeno (obstétrica)",
+        "doseTexto": "2-4 g IV (objetivo >200 mg/dL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "2-4 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fibrinógeno (deficiencia congénita - tratamiento)",
+        "doseTexto": "70 mg/kg IV",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "纤维蛋白原",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "出血（低纤维蛋白原血症）",
+          "descricaoDose": "25-50 mg/kg IV（目标纤维蛋白原 >150 mg/dL）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量 - 根据血清纤维蛋白原重复",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "产科出血",
+          "descricaoDose": "2-4 g IV（目标纤维蛋白原 >200 mg/dL）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量 - 根据纤维蛋白原重复",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "先天性缺乏 - 治疗",
+          "descricaoDose": "70 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "根据纤维蛋白原及临床",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "先天性缺乏 - 预防",
+          "descricaoDose": "20-40 mg/kg IV 每周2-3次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每周2-3次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "血液制品 - 凝血因子（人纤维蛋白原浓缩物）",
+      "apresentacoes": [
+        { "forma": "瓶 1 g 冻干粉", "obs": "稀释液：50 mL 注射用水" },
+        { "forma": "复溶后终浓度", "obs": "20 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "向瓶中加入50 mL稀释液", "concentracao": "20 mg/mL" },
+        { "diluicao": "轻轻摇动至溶解（5-10分钟）", "concentracao": "加温至室温或37°C" },
+        { "diluicao": "必要时可用0.9%生理盐水稀释", "concentracao": "复溶后8小时内使用" }
+      ],
+      "observacoes": [
+        "无需血型鉴定",
+        "输注前后监测纤维蛋白原",
+        "最大速率 5 mL/min",
+        "1 g 可使70 kg成人纤维蛋白原升高约25-30 mg/dL",
+        "有供应时优先于冷沉淀（剂量可预测、体积小）",
+        "已知血栓形成、对人纤维蛋白原过敏者禁用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调整剂量。监测容量和血清纤维蛋白原。",
+        "renal": "无需调整。血液制品；按适应症和化验使用。",
+        "hepatico": "DIC/肝病伴低纤维蛋白原血症常用。评估出血原因。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "纤维蛋白原（出血）",
+        "doseTexto": "25-50 mg/kg IV（目标 >150 mg/dL）",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "纤维蛋白原（产科）",
+        "doseTexto": "2-4 g IV（目标 >200 mg/dL）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "2-4 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "纤维蛋白原（先天性缺乏 - 治疗）",
+        "doseTexto": "70 mg/kg IV",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      }
+    ]
+  }
+}

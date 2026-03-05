@@ -1,0 +1,638 @@
+{
+  "PT": {
+    "nome": "Etomidato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução de anestesia geral (adulto)",
+          "descricaoDose": "0,2-0,6 mg/kg IV em bolus lento (30-60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 60,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sequência rápida de intubação (SRI)",
+          "descricaoDose": "0,3 mg/kg IV em bolus único",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cardioversão elétrica",
+          "descricaoDose": "0,15-0,3 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução pediátrica",
+          "descricaoDose": "0,2-0,4 mg/kg IV em bolus lento (30-60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hipnótico - Indutor anestésico intravenoso (não barbitúrico)",
+      "apresentacoes": [
+        { "forma": "Ampola 2 mg/mL (10 mL)", "obs": "20 mg total - Hypnomidate®, Amidate®" },
+        { "forma": "Ampola 2 mg/mL (20 mL)", "obs": "40 mg total" },
+        { "forma": "Solução aquosa ou emulsão lipídica", "obs": "Conforme fabricante" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso direto 2 mg/mL", "concentracao": "2 mg/mL" },
+        { "diluicao": "Diluir em SF 0,9% ou SG 5% se necessário", "concentracao": "0,2-1 mg/mL (reduzir dor)" }
+      ],
+      "observacoes": [
+        "NÃO recomendado para infusão contínua - uso exclusivo em bolus",
+        "Supressão adrenal dose-dependente (6-24h após dose única) - cautela em sepse/choque",
+        "Mínima depressão cardiovascular - ideal para paciente instável",
+        "Dor intensa na injeção (até 80%) e mioclonias (até 60%) - veia de bom calibre",
+        "Contraindicado em insuficiência adrenal; relativo em choque séptico",
+        "Não requer ajuste renal ou hepático (metabolismo por esterases)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Considerar 0,2 mg/kg (dose menor). Titular com cautela.",
+        "renal": "Não requer ajuste. Clearance por esterases plasmáticas preservado.",
+        "hepatico": "Não requer ajuste significativo. Cautela em insuficiência grave (fração livre)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Etomidato - Indução (adulto)",
+        "doseTexto": "0,2-0,6 mg/kg IV",
+        "doseMin": 0.2,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Etomidato - SRI",
+        "doseTexto": "0,3 mg/kg IV bolus único",
+        "doseMin": 0.3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Etomidato - Cardioversão",
+        "doseTexto": "0,15-0,3 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Etomidato - Indução (pediátrico)",
+        "doseTexto": "0,2-0,4 mg/kg IV",
+        "doseMin": 0.2,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Etomidate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "General anesthesia induction (adult)",
+          "descricaoDose": "0.2-0.6 mg/kg IV slow bolus (30-60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 60,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Rapid sequence intubation (RSI)",
+          "descricaoDose": "0.3 mg/kg IV single bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Electrical cardioversion",
+          "descricaoDose": "0.15-0.3 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric induction",
+          "descricaoDose": "0.2-0.4 mg/kg IV slow bolus (30-60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hypnotic - Intravenous anesthetic inducer (non-barbiturate)",
+      "apresentacoes": [
+        { "forma": "Ampoule 2 mg/mL (10 mL)", "obs": "20 mg total - Amidate®, Hypnomidate®" },
+        { "forma": "Ampoule 2 mg/mL (20 mL)", "obs": "40 mg total" },
+        { "forma": "Aqueous solution or lipid emulsion", "obs": "Depending on manufacturer" }
+      ],
+      "preparo": [
+        { "diluicao": "Use undiluted 2 mg/mL", "concentracao": "2 mg/mL" },
+        { "diluicao": "Dilute in 0.9% NS or D5W if needed", "concentracao": "0.2-1 mg/mL (reduce pain)" }
+      ],
+      "observacoes": [
+        "NOT recommended for continuous infusion - bolus use only",
+        "Dose-dependent adrenal suppression (6-24h after single dose) - caution in sepsis/shock",
+        "Minimal cardiovascular depression - ideal for unstable patients",
+        "Intense injection pain (up to 80%) and myoclonus (up to 60%) - use large vein",
+        "Contraindicated in adrenal insufficiency; relative in septic shock",
+        "No renal or hepatic dose adjustment (esterase metabolism)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Consider 0.2 mg/kg (lower dose). Titrate cautiously.",
+        "renal": "No adjustment required. Plasma esterase clearance preserved.",
+        "hepatico": "No significant adjustment. Caution in severe failure (free fraction)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Etomidate - Induction (adult)",
+        "doseTexto": "0.2-0.6 mg/kg IV",
+        "doseMin": 0.2,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Etomidate - RSI",
+        "doseTexto": "0.3 mg/kg IV single bolus",
+        "doseMin": 0.3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Etomidate - Cardioversion",
+        "doseTexto": "0.15-0.3 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Etomidate - Induction (pediatric)",
+        "doseTexto": "0.2-0.4 mg/kg IV",
+        "doseMin": 0.2,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Etomidato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción anestésica general (adulto)",
+          "descricaoDose": "0,2-0,6 mg/kg IV en bolo lento (30-60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 60,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Secuencia rápida de intubación (SRI)",
+          "descricaoDose": "0,3 mg/kg IV en bolo único",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cardioversión eléctrica",
+          "descricaoDose": "0,15-0,3 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción pediátrica",
+          "descricaoDose": "0,2-0,4 mg/kg IV en bolo lento (30-60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hipnótico - Inductor anestésico intravenoso (no barbitúrico)",
+      "apresentacoes": [
+        { "forma": "Ámpula 2 mg/mL (10 mL)", "obs": "20 mg total - Hypnomidate®, Amidate®" },
+        { "forma": "Ámpula 2 mg/mL (20 mL)", "obs": "40 mg total" },
+        { "forma": "Solución acuosa o emulsión lipídica", "obs": "Según fabricante" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso directo 2 mg/mL", "concentracao": "2 mg/mL" },
+        { "diluicao": "Diluir en SF 0,9% o SG 5% si necesario", "concentracao": "0,2-1 mg/mL (reducir dolor)" }
+      ],
+      "observacoes": [
+        "NO recomendado para infusión continua - uso exclusivo en bolo",
+        "Supresión adrenal dependiente de dosis (6-24h tras dosis única) - cautela en sepsis/choque",
+        "Mínima depresión cardiovascular - ideal en paciente inestable",
+        "Dolor intenso en inyección (hasta 80%) y mioclonías (hasta 60%) - vena de buen calibre",
+        "Contraindicado en insuficiencia adrenal; relativo en choque séptico",
+        "No requiere ajuste renal ni hepático (metabolismo por esterasas)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Considerar 0,2 mg/kg (dosis menor). Titular con cautela.",
+        "renal": "No requiere ajuste. Aclaramiento por esterasas plasmáticas preservado.",
+        "hepatico": "No requiere ajuste significativo. Precaución en insuficiencia grave (fracción libre)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Etomidato - Inducción (adulto)",
+        "doseTexto": "0,2-0,6 mg/kg IV",
+        "doseMin": 0.2,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Etomidato - SRI",
+        "doseTexto": "0,3 mg/kg IV bolo único",
+        "doseMin": 0.3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Etomidato - Cardioversión",
+        "doseTexto": "0,15-0,3 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Etomidato - Inducción (pediátrico)",
+        "doseTexto": "0,2-0,4 mg/kg IV",
+        "doseMin": 0.2,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "依托咪酯",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "全身麻醉诱导（成人）",
+          "descricaoDose": "0.2-0.6 mg/kg IV 缓慢推注（30-60秒）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 60,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "快速顺序插管（RSI）",
+          "descricaoDose": "0.3 mg/kg IV 单次推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "电复律",
+          "descricaoDose": "0.15-0.3 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童诱导",
+          "descricaoDose": "0.2-0.4 mg/kg IV 缓慢推注（30-60秒）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.3,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "催眠药 - 静脉麻醉诱导剂（非巴比妥类）",
+      "apresentacoes": [
+        { "forma": "安瓿 2 mg/mL (10 mL)", "obs": "20 mg - 依托咪酯注射液" },
+        { "forma": "安瓿 2 mg/mL (20 mL)", "obs": "40 mg" },
+        { "forma": "水溶液或脂肪乳剂", "obs": "视厂家而定" }
+      ],
+      "preparo": [
+        { "diluicao": "直接使用 2 mg/mL", "concentracao": "2 mg/mL" },
+        { "diluicao": "必要时用生理盐水或5%葡萄糖稀释", "concentracao": "0.2-1 mg/mL（减轻疼痛）" }
+      ],
+      "observacoes": [
+        "不推荐持续输注 - 仅推注使用",
+        "剂量依赖性肾上腺抑制（单次剂量后6-24小时）- 脓毒症/休克慎用",
+        "心血管抑制轻微 - 适用于不稳定患者",
+        "注射痛明显（可达80%）及肌阵挛（可达60%）- 选用粗静脉",
+        "肾上腺功能不全禁忌；感染性休克相对禁忌",
+        "无需肾或肝剂量调整（酯酶代谢）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "考虑0.2 mg/kg（较低剂量）。谨慎滴定。",
+        "renal": "无需调整。血浆酯酶清除率保持。",
+        "hepatico": "无需显著调整。严重肝衰竭注意游离分数。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "依托咪酯 - 诱导（成人）",
+        "doseTexto": "0.2-0.6 mg/kg IV",
+        "doseMin": 0.2,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依托咪酯 - RSI",
+        "doseTexto": "0.3 mg/kg IV 单次推注",
+        "doseMin": 0.3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依托咪酯 - 电复律",
+        "doseTexto": "0.15-0.3 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依托咪酯 - 诱导（儿童）",
+        "doseTexto": "0.2-0.4 mg/kg IV",
+        "doseMin": 0.2,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

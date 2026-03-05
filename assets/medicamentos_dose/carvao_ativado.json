@@ -1,0 +1,530 @@
+{
+  "PT": {
+    "nome": "Carvão Ativado",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicação - dose única (adulto)",
+          "descricaoDose": "50-100 g VO (ou 1 g/kg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação - dose única (pediátrico)",
+          "descricaoDose": "1 g/kg VO (máx 50 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDAC (adulto)",
+          "descricaoDose": "25-50 g VO a cada 4-6 h (sem sorbitol após 1ª dose)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDAC (pediátrico)",
+          "descricaoDose": "0,5 g/kg VO a cada 4-6 h (sem sorbitol)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Adsorvente gastrointestinal / Agente descontaminante",
+      "apresentacoes": [
+        { "forma": "Pó 25 g (frasco ou envelope)", "obs": "" },
+        { "forma": "Pó 50 g (frasco ou envelope)", "obs": "" },
+        { "forma": "Suspensão oral 25 g/120 mL", "obs": "" },
+        { "forma": "Suspensão com sorbitol 25 g/120 mL", "obs": "Evitar doses múltiplas" }
+      ],
+      "preparo": [
+        { "diluicao": "Misturar pó em água", "concentracao": "Proporção 1:4 a 1:8 (pó:água)" },
+        { "diluicao": "Via SNG se necessário", "concentracao": "Proteger via aérea se Glasgow < 8" }
+      ],
+      "observacoes": [
+        "Administrar dentro de 1-2 h da ingestão para máxima eficácia",
+        "Proteger via aérea se Glasgow < 8 (IOT antes do carvão)",
+        "Proporção ideal: Carvão:Droga = 10:1 (10 g carvão para cada 1 g de droga)",
+        "Não usar em intoxicação por cáusticos (ácidos/álcalis)",
+        "Substâncias pouco adsorvidas: álcoois, metais (ferro, lítio), cianeto, hidrocarbonetos",
+        "N-acetilcisteína VO: dar intervalo de 2 h entre carvão e NAC"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Atenção ao risco de aspiração e constipação.",
+        "renal": "Não aplicável (não absorvido).",
+        "hepatico": "Não aplicável (não absorvido)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Carvão ativado (adulto)",
+        "doseTexto": "50-100 g VO",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "50-100 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Carvão ativado (pediátrico)",
+        "doseTexto": "1 g/kg VO (máx 50 g)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Activated Charcoal",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxication - single dose (adult)",
+          "descricaoDose": "50-100 g PO (or 1 g/kg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxication - single dose (pediatric)",
+          "descricaoDose": "1 g/kg PO (max 50 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDAC (adult)",
+          "descricaoDose": "25-50 g PO every 4-6 h (no sorbitol after 1st dose)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDAC (pediatric)",
+          "descricaoDose": "0.5 g/kg PO every 4-6 h (no sorbitol)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Gastrointestinal adsorbent / Decontamination agent",
+      "apresentacoes": [
+        { "forma": "Powder 25 g (bottle or envelope)", "obs": "" },
+        { "forma": "Powder 50 g (bottle or envelope)", "obs": "" },
+        { "forma": "Oral suspension 25 g/120 mL", "obs": "" },
+        { "forma": "Sorbitol suspension 25 g/120 mL", "obs": "Avoid multiple doses" }
+      ],
+      "preparo": [
+        { "diluicao": "Mix powder in water", "concentracao": "Ratio 1:4 to 1:8 (powder:water)" },
+        { "diluicao": "Via NGT if needed", "concentracao": "Protect airway if Glasgow < 8" }
+      ],
+      "observacoes": [
+        "Administer within 1-2 h of ingestion for maximum efficacy",
+        "Protect airway if Glasgow < 8 (intubate before charcoal)",
+        "Ideal ratio: Charcoal:Drug = 10:1 (10 g charcoal per 1 g drug)",
+        "Do not use in caustic (acid/alkali) ingestion",
+        "Poorly adsorbed substances: alcohols, metals (iron, lithium), cyanide, hydrocarbons",
+        "Oral NAC: allow 2 h interval between charcoal and NAC"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Caution aspiration and constipation.",
+        "renal": "Not applicable (not absorbed).",
+        "hepatico": "Not applicable (not absorbed)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Activated charcoal (adult)",
+        "doseTexto": "50-100 g PO",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "50-100 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Activated charcoal (pediatric)",
+        "doseTexto": "1 g/kg PO (max 50 g)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Carbón Activado",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicación - dosis única (adulto)",
+          "descricaoDose": "50-100 g VO (o 1 g/kg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicación - dosis única (pediátrico)",
+          "descricaoDose": "1 g/kg VO (máx 50 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDAC (adulto)",
+          "descricaoDose": "25-50 g VO cada 4-6 h (sin sorbitol tras 1ª dosis)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDAC (pediátrico)",
+          "descricaoDose": "0,5 g/kg VO cada 4-6 h (sin sorbitol)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Adsorbente gastrointestinal / Agente de descontaminación",
+      "apresentacoes": [
+        { "forma": "Polvo 25 g (frasco o sobre)", "obs": "" },
+        { "forma": "Polvo 50 g (frasco o sobre)", "obs": "" },
+        { "forma": "Suspensión oral 25 g/120 mL", "obs": "" },
+        { "forma": "Suspensión con sorbitol 25 g/120 mL", "obs": "Evitar dosis múltiplas" }
+      ],
+      "preparo": [
+        { "diluicao": "Mezclar polvo en agua", "concentracao": "Proporción 1:4 a 1:8 (polvo:agua)" },
+        { "diluicao": "Via SNG si es necesario", "concentracao": "Proteger vía aérea si Glasgow < 8" }
+      ],
+      "observacoes": [
+        "Administrar en 1-2 h de la ingestión para máxima eficacia",
+        "Proteger vía aérea si Glasgow < 8 (IOT antes del carbón)",
+        "Proporción ideal: Carbón:Droga = 10:1 (10 g carbón por 1 g de droga)",
+        "No usar en intoxicación por cáusticos (ácidos/álcalis)",
+        "Sustancias poco adsorbidas: alcoholes, metales (hierro, litio), cianuro, hidrocarburos",
+        "NAC VO: dar intervalo de 2 h entre carbón y NAC"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Atención al riesgo de aspiración y estreñimiento.",
+        "renal": "No aplicable (no absorbido).",
+        "hepatico": "No aplicable (no absorbido)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Carbón activado (adulto)",
+        "doseTexto": "50-100 g VO",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "50-100 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Carbón activado (pediátrico)",
+        "doseTexto": "1 g/kg VO (máx 50 g)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "活性炭",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "中毒 - 单次剂量（成人）",
+          "descricaoDose": "50-100 g 口服（或 1 g/kg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "中毒 - 单次剂量（儿童）",
+          "descricaoDose": "1 g/kg 口服（最大 50 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDAC（成人）",
+          "descricaoDose": "25-50 g 口服 每 4-6 小时（首次剂量后不用山梨醇）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "每 4-6 小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDAC（儿童）",
+          "descricaoDose": "0,5 g/kg 口服 每 4-6 小时（不用山梨醇）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "每 4-6 小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "胃肠道吸附剂 / 去污剂",
+      "apresentacoes": [
+        { "forma": "粉末 25 g（瓶或袋）", "obs": "" },
+        { "forma": "粉末 50 g（瓶或袋）", "obs": "" },
+        { "forma": "口服混悬液 25 g/120 mL", "obs": "" },
+        { "forma": "山梨醇混悬液 25 g/120 mL", "obs": "避免多次剂量" }
+      ],
+      "preparo": [
+        { "diluicao": "粉末与水混合", "concentracao": "比例 1:4 至 1:8（粉:水）" },
+        { "diluicao": "必要时经鼻胃管", "concentracao": "Glasgow < 8 时保护气道" }
+      ],
+      "observacoes": [
+        "摄入后 1-2 小时内给药以达到最大疗效",
+        "Glasgow < 8 时保护气道（给活性炭前插管）",
+        "理想比例：活性炭:药物 = 10:1（每 1 g 药物用 10 g 活性炭）",
+        "腐蚀剂（酸/碱）中毒勿用",
+        "吸附差的物质：醇类、金属（铁、锂）、氰化物、碳氢化合物",
+        "口服 NAC：活性炭与 NAC 间隔 2 小时"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。注意误吸和便秘。",
+        "renal": "不适用（不吸收）。",
+        "hepatico": "不适用（不吸收）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "活性炭（成人）",
+        "doseTexto": "50-100 g 口服",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "50-100 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "活性炭（儿童）",
+        "doseTexto": "1 g/kg 口服（最大 50 g）",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  }
+}

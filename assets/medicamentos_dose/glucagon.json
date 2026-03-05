@@ -1,0 +1,638 @@
+{
+  "PT": {
+    "nome": "Glucagon",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipoglicemia - Adulto",
+          "descricaoDose": "1 mg IM, IV ou SC (repetir em 15 min se necessário)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV/SC",
+            "intervalo": "repetir em 15 min se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IR grave; menos efetivo se glicogênio hepático reduzido"
+          }
+        },
+        {
+          "titulo": "Hipoglicemia - Pediátrico",
+          "descricaoDose": "0,02-0,03 mg/kg IM/IV/SC (máx 1 mg; <25 kg: máx 0,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.025,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IM/IV/SC",
+            "intervalo": "repetir em 15 min se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação beta-bloq/BCC - Bolus",
+          "descricaoDose": "3-10 mg IV em bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "3-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação beta-bloq/BCC - Infusão",
+          "descricaoDose": "1-10 mg/h IV contínua",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "1-10 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação beta-bloq/BCC - Pediátrico",
+          "descricaoDose": "0,05-0,15 mg/kg IV (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "doseMin": 0.05,
+            "doseMax": 0.15,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus; pode seguir com infusão",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hormônio pancreático hiperglicemiante; antídoto para hipoglicemia e intoxicação por beta-bloqueador/BCC.",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 1 mg (1 UI) liofilizado", "obs": "com diluente 1 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "1 mg + 1 mL água para injeção ou SF", "concentracao": "1 mg/mL" },
+        { "diluicao": "Usar imediatamente após reconstituição", "concentracao": "" },
+        { "diluicao": "Para infusão: diluir em SF ou SG 5%", "concentracao": "conforme bomba" }
+      ],
+      "observacoes": [
+        "Primeira linha em hipoglicemia grave sem acesso IV (usar IM)",
+        "Antídoto em intoxicação por beta-bloqueador ou bloqueador de canal de cálcio",
+        "Efeito inotrópico positivo independente de catecolaminas",
+        "Náusea e vômito muito comuns (até 50%) - informar paciente",
+        "Contraindicado: feocromocitoma, insulinoma; menos efetivo em jejum prolongado/desnutrição",
+        "Monitorar glicemia após dose; risco de hipoglicemia rebote - garantir carboidrato"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar glicemia e reservas de glicogênio.",
+        "renal": "Não requer ajuste. Pode ser usado com segurança.",
+        "hepatico": "Cautela em IR grave. Pode ser menos efetivo (glicogênio reduzido). Preferir glicose IV se disponível."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Glucagon (adulto) - Hipoglicemia",
+        "doseTexto": "1 mg IM/IV/SC",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Glucagon (pediátrico) - Hipoglicemia",
+        "doseTexto": "0,02-0,03 mg/kg (máx 1 mg)",
+        "doseMin": 0.02,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Glucagon - Intoxicação beta-bloq/BCC",
+        "doseTexto": "3-10 mg IV bolus; depois 1-10 mg/h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3-10 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Glucagon",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypoglycemia - Adult",
+          "descricaoDose": "1 mg IM, IV or SC (repeat in 15 min if needed)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/IV/SC",
+            "intervalo": "repeat in 15 min if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic failure; less effective if hepatic glycogen reduced"
+          }
+        },
+        {
+          "titulo": "Hypoglycemia - Pediatric",
+          "descricaoDose": "0.02-0.03 mg/kg IM/IV/SC (max 1 mg; <25 kg: max 0.5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.025,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IM/IV/SC",
+            "intervalo": "repeat in 15 min if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Beta-blocker/CCB intoxication - Bolus",
+          "descricaoDose": "3-10 mg IV bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "3-10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "bolus",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Beta-blocker/CCB intoxication - Infusion",
+          "descricaoDose": "1-10 mg/h IV continuous",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "1-10 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Beta-blocker/CCB intoxication - Pediatric",
+          "descricaoDose": "0.05-0.15 mg/kg IV (max 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "doseMin": 0.05,
+            "doseMax": 0.15,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "bolus; may follow with infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Pancreatic hyperglycemic hormone; antidote for hypoglycemia and beta-blocker/CCB intoxication.",
+      "apresentacoes": [
+        { "forma": "Vial 1 mg (1 IU) lyophilized", "obs": "with 1 mL diluent" }
+      ],
+      "preparo": [
+        { "diluicao": "1 mg + 1 mL water for injection or NS", "concentracao": "1 mg/mL" },
+        { "diluicao": "Use immediately after reconstitution", "concentracao": "" },
+        { "diluicao": "For infusion: dilute in NS or D5W", "concentracao": "per pump" }
+      ],
+      "observacoes": [
+        "First-line in severe hypoglycemia without IV access (use IM)",
+        "Antidote in beta-blocker or calcium channel blocker intoxication",
+        "Positive inotropic effect independent of catecholamines",
+        "Nausea and vomiting very common (up to 50%) - inform patient",
+        "Contraindicated: pheochromocytoma, insulinoma; less effective in prolonged fasting/malnutrition",
+        "Monitor glucose after dose; rebound hypoglycemia risk - ensure carbohydrate intake"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor glucose and glycogen reserves.",
+        "renal": "No adjustment required. Can be used safely.",
+        "hepatico": "Caution in severe hepatic failure. May be less effective (reduced glycogen). Prefer IV glucose if available."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Glucagon (adult) - Hypoglycemia",
+        "doseTexto": "1 mg IM/IV/SC",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Glucagon (pediatric) - Hypoglycemia",
+        "doseTexto": "0.02-0.03 mg/kg (max 1 mg)",
+        "doseMin": 0.02,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Glucagon - Beta-blocker/CCB intoxication",
+        "doseTexto": "3-10 mg IV bolus; then 1-10 mg/h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3-10 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Glucagón",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipoglucemia - Adulto",
+          "descricaoDose": "1 mg IM, IV o SC (repetir en 15 min si es necesario)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV/SC",
+            "intervalo": "repetir en 15 min si es necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IR grave; menos efectivo si glucógeno hepático reducido"
+          }
+        },
+        {
+          "titulo": "Hipoglucemia - Pediátrico",
+          "descricaoDose": "0,02-0,03 mg/kg IM/IV/SC (máx 1 mg; <25 kg: máx 0,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.025,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IM/IV/SC",
+            "intervalo": "repetir en 15 min si es necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación beta-bloq/BCC - Bolo",
+          "descricaoDose": "3-10 mg IV en bolo",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "3-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolo",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación beta-bloq/BCC - Infusión",
+          "descricaoDose": "1-10 mg/h IV continua",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "1-10 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación beta-bloq/BCC - Pediátrico",
+          "descricaoDose": "0,05-0,15 mg/kg IV (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "doseMin": 0.05,
+            "doseMax": 0.15,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolo; puede seguir con infusión",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hormona pancreática hiperglucemiante; antídoto para hipoglucemia e intoxicación por betabloqueador/BCC.",
+      "apresentacoes": [
+        { "forma": "Vial 1 mg (1 UI) liofilizado", "obs": "con diluyente 1 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "1 mg + 1 mL agua para inyección o SF", "concentracao": "1 mg/mL" },
+        { "diluicao": "Usar inmediatamente tras reconstitución", "concentracao": "" },
+        { "diluicao": "Para infusión: diluir en SF o SG 5%", "concentracao": "según bomba" }
+      ],
+      "observacoes": [
+        "Primera línea en hipoglucemia grave sin acceso IV (usar IM)",
+        "Antídoto en intoxicación por betabloqueador o bloqueador de canales de calcio",
+        "Efecto inotrópico positivo independiente de catecolaminas",
+        "Náuseas y vómitos muy frecuentes (hasta 50%) - informar al paciente",
+        "Contraindicado: feocromocitoma, insulinoma; menos efectivo en ayuno prolongado/desnutrición",
+        "Monitorizar glucemia tras dosis; riesgo de hipoglucemia de rebote - garantizar carbohidrato"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar glucemia y reservas de glucógeno.",
+        "renal": "No requiere ajuste. Puede usarse con seguridad.",
+        "hepatico": "Precaución en IR grave. Puede ser menos efectivo (glucógeno reducido). Preferir glucosa IV si disponible."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Glucagón (adulto) - Hipoglucemia",
+        "doseTexto": "1 mg IM/IV/SC",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Glucagón (pediátrico) - Hipoglucemia",
+        "doseTexto": "0,02-0,03 mg/kg (máx 1 mg)",
+        "doseMin": 0.02,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Glucagón - Intoxicación beta-bloq/BCC",
+        "doseTexto": "3-10 mg IV bolo; luego 1-10 mg/h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3-10 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "胰高血糖素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "低血糖 - 成人",
+          "descricaoDose": "1 mg 肌注/静注/皮下（必要时15分钟重复）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IM/IV/SC",
+            "intervalo": "必要时15分钟重复",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "严重肝衰慎用；肝糖原减少时疗效下降"
+          }
+        },
+        {
+          "titulo": "低血糖 - 儿童",
+          "descricaoDose": "0,02-0,03 mg/kg 肌注/静注/皮下（最大1 mg；<25 kg最大0,5 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.025,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IM/IV/SC",
+            "intervalo": "必要时15分钟重复",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "β受体阻滞剂/钙通道阻滞剂中毒 - 推注",
+          "descricaoDose": "3-10 mg 静注推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "3-10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "推注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "β受体阻滞剂/钙通道阻滞剂中毒 - 输注",
+          "descricaoDose": "1-10 mg/h 持续静滴",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "1-10 mg/h",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "β受体阻滞剂/钙通道阻滞剂中毒 - 儿童",
+          "descricaoDose": "0,05-0,15 mg/kg 静注（最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "doseMin": 0.05,
+            "doseMax": 0.15,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "推注；可继以输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "胰腺升糖激素；低血糖及β受体阻滞剂/钙通道阻滞剂中毒解毒剂。",
+      "apresentacoes": [
+        { "forma": "瓶装 1 mg（1 IU）冻干粉", "obs": "附1 mL稀释液" }
+      ],
+      "preparo": [
+        { "diluicao": "1 mg + 1 mL 注射用水或生理盐水", "concentracao": "1 mg/mL" },
+        { "diluicao": "配制后立即使用", "concentracao": "" },
+        { "diluicao": "持续输注时用生理盐水或5%葡萄糖稀释", "concentracao": "按泵" }
+      ],
+      "observacoes": [
+        "无静脉通路时严重低血糖首选（肌注）",
+        "β受体阻滞剂或钙通道阻滞剂中毒时用作解毒剂",
+        "正性肌力作用不依赖儿茶酚胺",
+        "恶心呕吐很常见（可达50%）- 告知患者",
+        "禁忌：嗜铬细胞瘤、胰岛素瘤；长期禁食/营养不良时疗效差",
+        "用药后监测血糖；反跳性低血糖风险 - 确保补糖"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调量。监测血糖及糖原储备。",
+        "renal": "无需调整。可安全使用。",
+        "hepatico": "严重肝衰慎用。疗效可能下降（糖原减少）。有条件时优先静注葡萄糖。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "胰高血糖素（成人）- 低血糖",
+        "doseTexto": "1 mg 肌注/静注/皮下",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "胰高血糖素（儿童）- 低血糖",
+        "doseTexto": "0,02-0,03 mg/kg（最大1 mg）",
+        "doseMin": 0.02,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "胰高血糖素 - β受体阻滞剂/钙通道阻滞剂中毒",
+        "doseTexto": "3-10 mg 静注推注；继以1-10 mg/h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3-10 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

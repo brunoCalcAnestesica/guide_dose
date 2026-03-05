@@ -1,0 +1,63 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Apixabana",
+      "nome_comercial": ["Eliquis"],
+      "classe_terapeutica": "DOAC - Inibidor direto do fator Xa",
+      "mecanismo_acao": "Inibe direta e seletivamente o fator Xa, tanto livre quanto ligado ao complexo protrombinase, bloqueando a geração de trombina.",
+      "indicacoes": [
+        "Fibrilação atrial não valvar",
+        "Tratamento de TVP e TEP",
+        "Prevenção prolongada de TVP/TEP recorrente",
+        "Profilaxia de TVP em cirurgias ortopédicas"
+      ],
+      "contraindicacoes": [
+        "Sangramento ativo",
+        "Lesão ou condição com risco de sangramento",
+        "Doença hepática com coagulopatia",
+        "Gestação e lactação",
+        "Uso de outros anticoagulantes"
+      ],
+      "apresentacoes": [
+        {"forma": "Comprimido", "concentracao": "2,5 mg"},
+        {"forma": "Comprimido", "concentracao": "5 mg"}
+      ],
+      "farmacocinetica": {
+        "biodisponibilidade": "50%",
+        "inicio_acao": "3-4 horas",
+        "pico": "3-4 horas",
+        "meia_vida": "12 horas",
+        "metabolismo": "Hepático (CYP3A4 - minoritário)",
+        "excrecao": "Fecal (56%) e renal (27%)"
+      },
+      "ajuste_dose_fa": {
+        "dose_padrao": "5 mg 12/12h",
+        "dose_reduzida": "2,5 mg 12/12h",
+        "criterios_reducao": "≥2 de: idade ≥80 anos, peso ≤60 kg, Cr ≥1,5 mg/dL"
+      },
+      "efeitos_adversos": [
+        "Sangramento",
+        "Anemia",
+        "Náusea",
+        "Contusão"
+      ],
+      "reversao": {
+        "especifica": "Andexanet alfa",
+        "inespecifica": "CCP"
+      },
+      "vantagens": [
+        "Menor dependência renal (27%)",
+        "Pode usar em IR moderada-grave",
+        "Pode tomar com ou sem alimento",
+        "Menor interação medicamentosa"
+      ],
+      "observacoes": [
+        "Não requer monitoramento de rotina",
+        "Suspender 48h antes de cirurgia alto risco"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "Sim"
+      }
+    }
+  }
+}

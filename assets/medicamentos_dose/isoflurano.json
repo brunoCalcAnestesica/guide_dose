@@ -1,0 +1,690 @@
+{
+  "PT": {
+    "nome": "Isoflurano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução anestésica (em O₂) - Adulto",
+          "descricaoDose": "1,5-3% (CAM 1,15%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1,5-3%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução anestésica (em N₂O/O₂) - Adulto",
+          "descricaoDose": "0,5-1,5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-1,5%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção anestésica cirúrgica - Adulto",
+          "descricaoDose": "0,5-2% (ajustar conforme profundidade)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução anestésica pediátrica",
+          "descricaoDose": "1,5-3% em O₂ ou N₂O/O₂",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1,5-3%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção anestésica pediátrica",
+          "descricaoDose": "1-2% (CAM maior em crianças)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico inalatório halogenado - Agente anestésico volátil",
+      "apresentacoes": [
+        { "forma": "Frasco 100 mL", "obs": "Concentração 100%" },
+        { "forma": "Frasco 250 mL", "obs": "Concentração 100%" },
+        { "forma": "Líquido volátil", "obs": "Uso em vaporizador específico" }
+      ],
+      "preparo": [
+        { "diluicao": "Vaporizador específico", "concentracao": "Calibrar antes do uso" },
+        { "diluicao": "Preencher vaporizador", "concentracao": "Verificar nível constantemente" },
+        { "diluicao": "Compatível", "concentracao": "O₂ e N₂O" },
+        { "diluicao": "CAM adulto", "concentracao": "1,15%" }
+      ],
+      "observacoes": [
+        "CAM (Concentração Alveolar Mínima): 1,15%",
+        "Dose máxima indução: 3%; dose máxima manutenção: 2%",
+        "HIPERTERMIA MALIGNA: gatilho conhecido (contraindicado se história)",
+        "Contraindicado: hipertensão intracraniana; hepatopatia grave",
+        "Usar vaporizador calibrado específico para isoflurano",
+        "Monitorar EtISO, PA, FC, SpO₂ e EtCO₂ continuamente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir concentração. Manutenção 0,5-1,5%.",
+        "renal": "Não requer ajuste. Eliminação pulmonar predominante (>99%).",
+        "hepatico": "EVITAR em hepatopatia grave. Metabolização hepática mínima (0,2%)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Isoflurano - Indução O₂ (adulto)",
+        "doseTexto": "1,5-3% (CAM 1,15%)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1,5-3%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Isoflurano - Manutenção (adulto)",
+        "doseTexto": "0,5-2% (ajustar conforme profundidade)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Isoflurano - Indução (pediátrico)",
+        "doseTexto": "1,5-3% em O₂ ou N₂O/O₂",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1,5-3%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Isoflurano - Manutenção (pediátrico)",
+        "doseTexto": "1-2% (CAM maior em crianças)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Isoflurane",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anesthetic induction (in O₂) - Adult",
+          "descricaoDose": "1.5-3% (MAC 1.15%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1.5-3%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anesthetic induction (in N₂O/O₂) - Adult",
+          "descricaoDose": "0.5-1.5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-1.5%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Surgical anesthetic maintenance - Adult",
+          "descricaoDose": "0.5-2% (titrate to depth)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric anesthetic induction",
+          "descricaoDose": "1.5-3% in O₂ or N₂O/O₂",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1.5-3%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric anesthetic maintenance",
+          "descricaoDose": "1-2% (MAC higher in children)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Halogenated inhalational anesthetic - Volatile agent",
+      "apresentacoes": [
+        { "forma": "100 mL bottle", "obs": "100% concentration" },
+        { "forma": "250 mL bottle", "obs": "100% concentration" },
+        { "forma": "Volatile liquid", "obs": "Use in specific vaporizer" }
+      ],
+      "preparo": [
+        { "diluicao": "Specific vaporizer", "concentracao": "Calibrate before use" },
+        { "diluicao": "Fill vaporizer", "concentracao": "Check level constantly" },
+        { "diluicao": "Compatible with", "concentracao": "O₂ and N₂O" },
+        { "diluicao": "Adult MAC", "concentracao": "1.15%" }
+      ],
+      "observacoes": [
+        "MAC (Minimum Alveolar Concentration): 1.15%",
+        "Max induction dose: 3%; max maintenance dose: 2%",
+        "MALIGNANT HYPERTHERMIA: known trigger (contraindicated if history)",
+        "Contraindicated: intracranial hypertension; severe liver disease",
+        "Use calibrated vaporizer specific for isoflurane",
+        "Monitor EtISO, BP, HR, SpO₂ and EtCO₂ continuously"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce concentration. Maintenance 0.5-1.5%.",
+        "renal": "No dose adjustment. Predominant pulmonary elimination (>99%).",
+        "hepatico": "AVOID in severe liver disease. Minimal hepatic metabolism (0.2%)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Isoflurane - Induction O₂ (adult)",
+        "doseTexto": "1.5-3% (MAC 1.15%)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1.5-3%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Isoflurane - Maintenance (adult)",
+        "doseTexto": "0.5-2% (titrate to depth)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Isoflurane - Induction (pediatric)",
+        "doseTexto": "1.5-3% in O₂ or N₂O/O₂",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1.5-3%",
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Isoflurane - Maintenance (pediatric)",
+        "doseTexto": "1-2% (MAC higher in children)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2%",
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Isoflurano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción anestésica (en O₂) - Adulto",
+          "descricaoDose": "1,5-3% (CAM 1,15%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1,5-3%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción anestésica (en N₂O/O₂) - Adulto",
+          "descricaoDose": "0,5-1,5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-1,5%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento anestésico quirúrgico - Adulto",
+          "descricaoDose": "0,5-2% (ajustar según profundidad)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción anestésica pediátrica",
+          "descricaoDose": "1,5-3% en O₂ u N₂O/O₂",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1,5-3%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento anestésico pediátrico",
+          "descricaoDose": "1-2% (CAM mayor en niños)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico inhalatorio halogenado - Agente volátil",
+      "apresentacoes": [
+        { "forma": "Frasco 100 mL", "obs": "Concentración 100%" },
+        { "forma": "Frasco 250 mL", "obs": "Concentración 100%" },
+        { "forma": "Líquido volátil", "obs": "Uso en vaporizador específico" }
+      ],
+      "preparo": [
+        { "diluicao": "Vaporizador específico", "concentracao": "Calibrar antes del uso" },
+        { "diluicao": "Llenar vaporizador", "concentracao": "Verificar nivel constantemente" },
+        { "diluicao": "Compatible con", "concentracao": "O₂ y N₂O" },
+        { "diluicao": "CAM adulto", "concentracao": "1,15%" }
+      ],
+      "observacoes": [
+        "CAM (Concentración Alveolar Mínima): 1,15%",
+        "Dosis máxima inducción: 3%; dosis máxima mantenimiento: 2%",
+        "HIPERTERMIA MALIGNA: desencadenante conocido (contraindicado si antecedentes)",
+        "Contraindicado: hipertensión intracraneal; hepatopatía grave",
+        "Usar vaporizador calibrado específico para isoflurano",
+        "Monitorizar EtISO, PA, FC, SpO₂ y EtCO₂ continuamente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir concentración. Mantenimiento 0,5-1,5%.",
+        "renal": "No requiere ajuste. Eliminación pulmonar predominante (>99%).",
+        "hepatico": "EVITAR en hepatopatía grave. Metabolización hepática mínima (0,2%)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Isoflurano - Inducción O₂ (adulto)",
+        "doseTexto": "1,5-3% (CAM 1,15%)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1,5-3%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Isoflurano - Mantenimiento (adulto)",
+        "doseTexto": "0,5-2% (ajustar según profundidad)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Isoflurano - Inducción (pediátrico)",
+        "doseTexto": "1,5-3% en O₂ u N₂O/O₂",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1,5-3%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Isoflurano - Mantenimiento (pediátrico)",
+        "doseTexto": "1-2% (CAM mayor en niños)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "异氟烷",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "麻醉诱导（纯O₂） - 成人",
+          "descricaoDose": "1.5-3%（MAC 1.15%）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1.5-3%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "麻醉诱导（N₂O/O₂） - 成人",
+          "descricaoDose": "0.5-1.5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-1.5%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "手术麻醉维持 - 成人",
+          "descricaoDose": "0.5-2%（按深度调整）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童麻醉诱导",
+          "descricaoDose": "1.5-3% 于 O₂ 或 N₂O/O₂",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1.5-3%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童麻醉维持",
+          "descricaoDose": "1-2%（儿童MAC较高）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "卤化吸入麻醉药 - 挥发性麻醉药",
+      "apresentacoes": [
+        { "forma": "100 mL 瓶", "obs": "浓度 100%" },
+        { "forma": "250 mL 瓶", "obs": "浓度 100%" },
+        { "forma": "挥发性液体", "obs": "专用蒸发器使用" }
+      ],
+      "preparo": [
+        { "diluicao": "专用蒸发器", "concentracao": "使用前校准" },
+        { "diluicao": "灌注蒸发器", "concentracao": "持续检查液面" },
+        { "diluicao": "兼容", "concentracao": "O₂ 和 N₂O" },
+        { "diluicao": "成人MAC", "concentracao": "1.15%" }
+      ],
+      "observacoes": [
+        "MAC（最低肺泡浓度）：1.15%",
+        "诱导最大剂量：3%；维持最大剂量：2%",
+        "恶性高热：已知触发因素（有病史者禁用）",
+        "禁忌：颅内高压；严重肝病",
+        "使用异氟烷专用校准蒸发器",
+        "持续监测EtISO、血压、心率、SpO₂和EtCO₂"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "降低浓度。维持0.5-1.5%。",
+        "renal": "无需调整。主要经肺消除（>99%）。",
+        "hepatico": "严重肝病禁用。肝代谢极少（0.2%）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "异氟烷 - 诱导 O₂（成人）",
+        "doseTexto": "1.5-3%（MAC 1.15%）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1.5-3%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "异氟烷 - 维持（成人）",
+        "doseTexto": "0.5-2%（按深度调整）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "异氟烷 - 诱导（儿童）",
+        "doseTexto": "1.5-3% 于 O₂ 或 N₂O/O₂",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1.5-3%",
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "异氟烷 - 维持（儿童）",
+        "doseTexto": "1-2%（儿童MAC较高）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2%",
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

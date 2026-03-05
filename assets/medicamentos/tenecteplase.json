@@ -1,0 +1,78 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Tenecteplase",
+      "nomesComerciais": ["Metalyse®", "TNKase®"],
+      "classeTerapeutica": "Trombolítico / Ativador do plasminogênio tecidual modificado",
+      "mecanismoAcao": "Ativador do plasminogênio tecidual recombinante modificado (TNK-tPA) com substituições em três sítios. Liga-se à fibrina no trombo e converte plasminogênio em plasmina, promovendo fibrinólise. Possui maior especificidade pela fibrina, maior resistência ao PAI-1 e meia-vida mais longa que o alteplase, permitindo administração em bolus único.",
+      "indicacoes": [
+        "IAM com supradesnivelamento de ST (IAMCSST)",
+        "AVC isquêmico agudo (dose reduzida - estudos EXTEND-IA TNK)"
+      ],
+      "apresentacoes": [
+        "Frasco-ampola 40mg (8.000 U) + seringa com diluente",
+        "Frasco-ampola 50mg (10.000 U) + seringa com diluente"
+      ],
+      "posologia": {
+        "iam": {
+          "peso_menor_60kg": "30 mg IV bolus",
+          "peso_60_69kg": "35 mg IV bolus",
+          "peso_70_79kg": "40 mg IV bolus",
+          "peso_80_89kg": "45 mg IV bolus",
+          "peso_90kg_ou_mais": "50 mg IV bolus (dose máxima)"
+        },
+        "avc": {
+          "dose_reduzida": "0,25 mg/kg IV bolus (máx 25 mg)",
+          "janela": "≤4,5h do início dos sintomas"
+        }
+      },
+      "preparo": {
+        "reconstituicao": "Adicionar todo o diluente (10 mL) ao frasco",
+        "concentracao_final": "5 mg/mL",
+        "administracao": "Bolus IV em 5-10 segundos",
+        "via": "IV exclusiva ou flush com SF",
+        "estabilidade": "Usar imediatamente"
+      },
+      "farmacocinetica": {
+        "inicio_acao": "Imediato",
+        "meia_vida": "20-24 minutos (mais longa que alteplase)",
+        "metabolismo": "Hepático",
+        "eliminacao": "Renal"
+      },
+      "contraindicacoes": [
+        "Sangramento ativo ou diátese hemorrágica",
+        "AVC hemorrágico ou AVC de origem desconhecida",
+        "AVC isquêmico nos últimos 6 meses (exceto se indicado para AVC)",
+        "Neoplasia ou malformação do SNC",
+        "Trauma craniano grave recente",
+        "Cirurgia intracraniana ou espinhal recente",
+        "Dissecção aórtica suspeita",
+        "Punção de vaso não compressível recente",
+        "HAS não controlada (>180/110 mmHg)"
+      ],
+      "efeitosAdversos": [
+        "Sangramento (principal)",
+        "Hemorragia intracraniana",
+        "Sangramento no local de punção",
+        "Hematomas",
+        "Epistaxe",
+        "Reações alérgicas (raras)"
+      ],
+      "interacoes": [
+        "Anticoagulantes: aumenta risco de sangramento",
+        "Antiplaquetários: aumenta risco de sangramento",
+        "Inibidores da glicoproteína IIb/IIIa: aumenta risco de sangramento"
+      ],
+      "observacoes": [
+        "VANTAGEM: administração em bolus único (sem infusão)",
+        "Fibrino-específico com menor depleção de fibrinogênio sistêmico",
+        "Janela IAM: ≤12h do início dos sintomas (ideal <6h)",
+        "Janela AVC: ≤4,5h do início dos sintomas",
+        "Heparina: iniciar 1h após tenecteplase",
+        "Monitorar sinais de sangramento",
+        "Evitar procedimentos invasivos durante e após trombólise"
+      ],
+      "categoriaGravidez": "C"
+    }
+  }
+}

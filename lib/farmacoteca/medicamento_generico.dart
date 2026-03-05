@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'dart:convert';
 import '../shared_data.dart';
@@ -91,16 +92,16 @@ Widget _linhaIndicacaoDoseCalculada({
 }) {
   String doseCalculada = '';
 
-  print('💊 DEBUG: Calculando dose para: $titulo');
-  print('💊 DEBUG: Unidade: $unidade');
-  print('💊 DEBUG: Peso: $peso kg');
+  debugPrint('💊 DEBUG: Calculando dose para: $titulo');
+  debugPrint('💊 DEBUG: Unidade: $unidade');
+  debugPrint('💊 DEBUG: Peso: $peso kg');
 
   // Verificar se a unidade é uma infusão contínua usando o UnitConverter
   final isInfusaoContinua = UnitConverter.isInfusionUnit(unidade);
-  print('💊 DEBUG: É infusão contínua: $isInfusaoContinua');
+  debugPrint('💊 DEBUG: É infusão contínua: $isInfusaoContinua');
 
   if (!isInfusaoContinua) {
-    print('💊 DEBUG: Processando como dose de bolus...');
+    debugPrint('💊 DEBUG: Processando como dose de bolus...');
     // Fazer cálculo para doses únicas (mg/kg, mcg/kg, mg, mcg, etc.)
     if (dosePorKg != null) {
       final dose = dosePorKg * peso;
@@ -174,8 +175,8 @@ Widget _linhaIndicacaoDoseCalculada({
     }
   }
 
-  print('💊 DEBUG: Dose calculada final: $doseCalculada');
-  print('💊 DEBUG: --- Fim do cálculo ---\n');
+  debugPrint('💊 DEBUG: Dose calculada final: $doseCalculada');
+  debugPrint('💊 DEBUG: --- Fim do cálculo ---\n');
 
   return Padding(
     padding: const EdgeInsets.symmetric(vertical: 6),
@@ -264,18 +265,18 @@ Widget _buildSecaoTitulo(String titulo, IconData icone) {
 // Função para construir indicações por faixa etária
 List<Widget> _buildIndicacoesPorFaixa(
     Map<String, dynamic>? indicacoes, String faixaEtariaKey, double peso) {
-  print('🔍 DEBUG: Processando indicações para faixa etária: $faixaEtariaKey');
-  print('🔍 DEBUG: Peso do paciente: $peso kg');
+  debugPrint('🔍 DEBUG: Processando indicações para faixa etária: $faixaEtariaKey');
+  debugPrint('🔍 DEBUG: Peso do paciente: $peso kg');
 
   if (indicacoes == null || !indicacoes.containsKey(faixaEtariaKey)) {
-    print(
+    debugPrint(
         '❌ DEBUG: Indicações não disponíveis para faixa etária: $faixaEtariaKey');
     return [const Text('Indicações não disponíveis para esta faixa etária.')];
   }
 
   final indicacoesFaixa = indicacoes[faixaEtariaKey];
   if (indicacoesFaixa is! List) {
-    print(
+    debugPrint(
         '❌ DEBUG: Formato de indicações inválido para faixa etária: $faixaEtariaKey');
     return [
       const Text('Formato de indicações inválido para esta faixa etária.')
@@ -283,20 +284,20 @@ List<Widget> _buildIndicacoesPorFaixa(
   }
 
   if (indicacoesFaixa.isEmpty) {
-    print(
+    debugPrint(
         '❌ DEBUG: Nenhuma indicação específica para faixa etária: $faixaEtariaKey');
     return [const Text('Nenhuma indicação específica para esta faixa etária.')];
   }
 
-  print(
+  debugPrint(
       '✅ DEBUG: Encontradas ${indicacoesFaixa.length} indicações para $faixaEtariaKey');
 
   return indicacoesFaixa.map<Widget>((indicacao) {
     final dados = indicacao as Map<String, dynamic>;
 
-    print('📋 DEBUG: Processando indicação: ${dados['titulo']}');
-    print('📋 DEBUG: Descrição da dose: ${dados['descricaoDose']}');
-    print('📋 DEBUG: Unidade: ${dados['unidade']}');
+    debugPrint('📋 DEBUG: Processando indicação: ${dados['titulo']}');
+    debugPrint('📋 DEBUG: Descrição da dose: ${dados['descricaoDose']}');
+    debugPrint('📋 DEBUG: Unidade: ${dados['unidade']}');
 
     // Tratamento especial para doses calculadas por peso
     double? dosePorKgMinima;
@@ -307,10 +308,10 @@ List<Widget> _buildIndicacoesPorFaixa(
       final valor = double.tryParse(
           dados['dosePorKgMinima'].toString().split('/ peso')[0].trim());
       dosePorKgMinima = valor != null ? valor / peso : null;
-      print('📋 DEBUG: Dose por kg mínima (especial): $dosePorKgMinima');
+      debugPrint('📋 DEBUG: Dose por kg mínima (especial): $dosePorKgMinima');
     } else {
       dosePorKgMinima = _convertToDouble(dados['dosePorKgMinima']);
-      print('📋 DEBUG: Dose por kg mínima: $dosePorKgMinima');
+      debugPrint('📋 DEBUG: Dose por kg mínima: $dosePorKgMinima');
     }
 
     if (dados['dosePorKgMaxima'] is String &&
@@ -318,29 +319,29 @@ List<Widget> _buildIndicacoesPorFaixa(
       final valor = double.tryParse(
           dados['dosePorKgMaxima'].toString().split('/ peso')[0].trim());
       dosePorKgMaxima = valor != null ? valor / peso : null;
-      print('📋 DEBUG: Dose por kg máxima (especial): $dosePorKgMaxima');
+      debugPrint('📋 DEBUG: Dose por kg máxima (especial): $dosePorKgMaxima');
     } else {
       dosePorKgMaxima = _convertToDouble(dados['dosePorKgMaxima']);
-      print('📋 DEBUG: Dose por kg máxima: $dosePorKgMaxima');
+      debugPrint('📋 DEBUG: Dose por kg máxima: $dosePorKgMaxima');
     }
 
     // Verificar se tem dose fixa (doseMinima/doseMaxima) ou dose por kg
     final doseMinima = _convertToDouble(dados['doseMinima']);
     final doseMaxima = _convertToDouble(dados['doseMaxima']);
 
-    print('📋 DEBUG: Dose mínima fixa: $doseMinima');
-    print('📋 DEBUG: Dose máxima fixa: $doseMaxima');
+    debugPrint('📋 DEBUG: Dose mínima fixa: $doseMinima');
+    debugPrint('📋 DEBUG: Dose máxima fixa: $doseMaxima');
 
     // Mostrar indicações específicas se existirem
     if (dados['indicacoes'] != null) {
       final indicacoesEspecificas = dados['indicacoes'] as List;
-      print(
+      debugPrint(
           '📋 DEBUG: Indicações específicas (${indicacoesEspecificas.length} itens):');
       for (int i = 0; i < indicacoesEspecificas.length; i++) {
-        print('  ${i + 1}. ${indicacoesEspecificas[i]}');
+        debugPrint('  ${i + 1}. ${indicacoesEspecificas[i]}');
       }
     } else {
-      print('📋 DEBUG: Nenhuma indicação específica encontrada');
+      debugPrint('📋 DEBUG: Nenhuma indicação específica encontrada');
     }
 
     return _linhaIndicacaoDoseCalculada(
@@ -552,8 +553,6 @@ Widget _buildCardMedicamento(
   BuildContext context,
   double peso,
   bool isAdulto,
-  bool isFavorito,
-  VoidCallback onToggleFavorito,
   Map<String, dynamic> dados,
   String nomeMedicamento,
 ) {
@@ -563,7 +562,7 @@ Widget _buildCardMedicamento(
   // Extrair dados do medicamento (pode estar em wrapper ou diretamente)
   final medicamentoData = dados.containsKey('nome')
       ? dados
-      : dados.values.first as Map<String, dynamic>? ?? dados;
+      : (dados.values.isNotEmpty ? dados.values.first as Map<String, dynamic>? : null) ?? dados;
 
   // Classificar o tipo de medicamento
   final tipoMedicamento =
@@ -659,19 +658,26 @@ class MedicamentoGenerico {
   final String idBulario;
   final String arquivoJson;
 
+  static final Map<String, Map<String, dynamic>> _jsonCache = {};
+
   const MedicamentoGenerico({
     required this.nome,
     required this.idBulario,
     required this.arquivoJson,
   });
 
+  static Map<String, dynamic> _decodeJson(String raw) =>
+      json.decode(raw) as Map<String, dynamic>;
+
   Future<Map<String, dynamic>> carregarDados() async {
+    final cacheKey = 'farmacoteca/$arquivoJson';
+    final cached = _jsonCache[cacheKey];
+    if (cached != null) return cached;
     try {
       final String jsonStr =
           await rootBundle.loadString('assets/farmacoteca/$arquivoJson');
-      final Map<String, dynamic> jsonMap = json.decode(jsonStr);
-
-      // Nossos JSONs têm a estrutura direta, então retornamos o mapa completo
+      final Map<String, dynamic> jsonMap = await compute(_decodeJson, jsonStr);
+      _jsonCache[cacheKey] = jsonMap;
       return jsonMap;
     } catch (e) {
       throw Exception('Erro ao carregar dados de $nome: $e');
@@ -679,18 +685,21 @@ class MedicamentoGenerico {
   }
 
   Future<Map<String, dynamic>> carregarBulario() async {
+    final cacheKey = 'medicamentos/$arquivoJson';
+    final cached = _jsonCache[cacheKey];
+    if (cached != null) return cached['PT']?['bulario'] ?? {'erro': 'Bulário não encontrado'};
     try {
       final String jsonStr =
           await rootBundle.loadString('assets/medicamentos/$arquivoJson');
-      final Map<String, dynamic> jsonMap = json.decode(jsonStr);
+      final Map<String, dynamic> jsonMap = await compute(_decodeJson, jsonStr);
+      _jsonCache[cacheKey] = jsonMap;
       return jsonMap['PT']['bulario'];
     } catch (e) {
       throw Exception('Erro ao carregar bulário de $nome: $e');
     }
   }
 
-  Widget buildCard(BuildContext context, Set<String> favoritos,
-      void Function(String) onToggleFavorito) {
+  Widget buildCard(BuildContext context) {
     return FutureBuilder<Map<String, dynamic>>(
       future: carregarDados(),
       builder: (context, snapshot) {
@@ -736,20 +745,17 @@ class MedicamentoGenerico {
         final peso = SharedData.peso ?? 70;
         final isAdulto = SharedData.faixaEtaria == 'Adulto' ||
             SharedData.faixaEtaria == 'Idoso';
-        final isFavorito = favoritos.contains(nome);
 
         return buildMedicamentoExpansivel(
           context: context,
           nome: nome,
           idBulario: idBulario,
-          isFavorito: isFavorito,
-          onToggleFavorito: () => onToggleFavorito(nome),
+          isFavorito: false,
+          onToggleFavorito: () {},
           conteudo: _buildCardMedicamento(
             context,
             peso,
             isAdulto,
-            isFavorito,
-            () => onToggleFavorito(nome),
             dados,
             nome,
           ),
@@ -816,11 +822,6 @@ class FarmacotecaManager {
       nome: 'Atropina',
       idBulario: 'atropina',
       arquivoJson: '011_atropina.json',
-    ),
-    const MedicamentoGenerico(
-      nome: 'Azul de Metileno',
-      idBulario: 'azul_metileno',
-      arquivoJson: '012_azul_metileno.json',
     ),
     const MedicamentoGenerico(
       nome: 'Betametasona',
@@ -1036,11 +1037,6 @@ class FarmacotecaManager {
       nome: 'Glicose 50%',
       idBulario: 'glicose_50',
       arquivoJson: '055_glicose_50.json',
-    ),
-    const MedicamentoGenerico(
-      nome: 'Glucagon',
-      idBulario: 'glucagon',
-      arquivoJson: '056_glucagon.json',
     ),
     const MedicamentoGenerico(
       nome: 'Gluconato de Cálcio',
@@ -1264,7 +1260,7 @@ class FarmacotecaManager {
     ),
     const MedicamentoGenerico(
       nome: 'Plasma-Lyte',
-      idBulario: 'plasma_lyte',
+      idBulario: 'plasmalyte',
       arquivoJson: '101_plasma_lyte.json',
     ),
     const MedicamentoGenerico(
@@ -1368,11 +1364,6 @@ class FarmacotecaManager {
       arquivoJson: '121_tiopental.json',
     ),
     const MedicamentoGenerico(
-      nome: 'Tiossulfato de Sódio',
-      idBulario: 'tiossulfato_sodio',
-      arquivoJson: '122_tiossulfato_sodio.json',
-    ),
-    const MedicamentoGenerico(
       nome: 'Torasemida',
       idBulario: 'torasemida',
       arquivoJson: '123_torasemida.json',
@@ -1426,9 +1417,8 @@ class FarmacotecaManager {
     return _medicamentos
         .map((med) => {
               'nome': med.nome,
-              'builder': (BuildContext context, Set<String> favoritos,
-                      void Function(String) onToggleFavorito) =>
-                  med.buildCard(context, favoritos, onToggleFavorito),
+              'builder': (BuildContext context) =>
+                  med.buildCard(context),
             })
         .toList();
   }

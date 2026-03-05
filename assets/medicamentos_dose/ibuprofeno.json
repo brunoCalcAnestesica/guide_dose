@@ -1,0 +1,774 @@
+{
+  "PT": {
+    "nome": "Ibuprofeno",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor/febre IV (adulto)",
+          "descricaoDose": "400-800 mg a cada 6h. Máx 3200 mg/dia. Infundir IV em 30 min. Idade mínima conforme bula.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 3200,
+            "doseFixa": "400-800 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "IR leve/moderada: usar menor dose eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Dor/febre VO analgésico (adulto)",
+          "descricaoDose": "200-400 mg a cada 4-6h. Máx 1200 mg/dia (uso sem receita).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 1200,
+            "doseFixa": "200-400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "IR leve/moderada: usar menor dose eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Dor/inflamação VO anti-inflamatório (adulto)",
+          "descricaoDose": "400-800 mg a cada 6-8h. Máx 3200 mg/dia. Tomar com alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 3200,
+            "doseFixa": "400-800 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "IR leve/moderada: usar menor dose eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Dor/febre VO (pediátrico >6 meses)",
+          "descricaoDose": "5-10 mg/kg/dose a cada 6-8h. Máx 40 mg/kg/dia. Idade mínima >6 meses.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "IR leve/moderada: usar menor dose eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Dor/febre IV (pediátrico >6 meses)",
+          "descricaoDose": "10 mg/kg a cada 4-6h. Máx 400 mg/dose. Idade mínima >6 meses. Infundir em 30 min.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "IR leve/moderada: usar menor dose eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE; analgésico, antipirético e anti-inflamatório. Inibidor não seletivo da COX-1 e COX-2 (derivado do ácido propiônico).",
+      "apresentacoes": [
+        { "forma": "Frasco IV 400 mg/4 mL, 800 mg/8 mL (100 mg/mL)", "obs": "Caldolor®" },
+        { "forma": "Comprimido 200 mg, 400 mg, 600 mg", "obs": "VO" },
+        { "forma": "Cápsula 200 mg, 400 mg", "obs": "VO" },
+        { "forma": "Suspensão oral 50 mg/mL, 100 mg/5 mL", "obs": "VO" },
+        { "forma": "Gotas 50 mg/mL", "obs": "VO" },
+        { "forma": "Gel 5%", "obs": "Uso tópico" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 400 mg em 100 mL ou 800 mg em 200 mL de diluente; infundir em 30 min", "concentracao": "Conforme diluição" },
+        { "diluicao": "VO: comprimidos, cápsulas, suspensão ou gotas conforme bula; tomar com alimentos", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Infusão IV em 30 minutos; diluir 400 mg em 100 mL ou 800 mg em 200 mL",
+        "IR/IH leve ou moderada: usar menor dose eficaz; IR/IH grave: evitar",
+        "Contraindicações: úlcera péptica ativa, IR/IH grave, 3º trimestre, ICC grave (NYHA III-IV), pós-CABG",
+        "AAS: pode antagonizar efeito cardioprotetor (ibuprofeno 30 min após ou 8h antes do AAS)",
+        "Uso pediátrico: idade mínima >6 meses para VO e IV",
+        "Fechamento de canal arterial (PCA): protocolo específico em neonatologia; não usar esta calculadora"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar menor dose eficaz. Monitorar função renal e hepática e risco cardiovascular.",
+        "renal": "IR leve/moderada: usar menor dose eficaz. IR grave: evitar. Eliminação renal (90%).",
+        "hepatico": "Usar menor dose eficaz; evitar em hepatopatia grave. Metabolismo hepático (CYP2C9)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ibuprofeno IV (adulto)",
+        "doseTexto": "400-800 mg a cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400-800 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ibuprofeno VO analgésico (adulto)",
+        "doseTexto": "200-400 mg a cada 4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ibuprofeno VO anti-inflamatório (adulto)",
+        "doseTexto": "400-800 mg a cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400-800 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ibuprofeno VO (pediátrico >6 meses)",
+        "doseTexto": "5-10 mg/kg a cada 6-8h (máx 40 mg/kg/dia)",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ibuprofeno IV (pediátrico >6 meses)",
+        "doseTexto": "10 mg/kg a cada 4-6h (máx 400 mg/dose)",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ibuprofen",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Pain/fever IV (adult)",
+          "descricaoDose": "400-800 mg every 6h. Max 3200 mg/day. Infuse IV over 30 min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 3200,
+            "doseFixa": "400-800 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6h",
+            "ajusteRenal": "Mild/moderate renal impairment: use lowest effective dose. Severe: avoid.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Pain/fever PO analgesic (adult)",
+          "descricaoDose": "200-400 mg every 4-6h. Max 1200 mg/day (OTC use).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 1200,
+            "doseFixa": "200-400 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Mild/moderate renal impairment: use lowest effective dose. Severe: avoid.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Pain/inflammation PO anti-inflammatory (adult)",
+          "descricaoDose": "400-800 mg every 6-8h. Max 3200 mg/day. Take with food.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 3200,
+            "doseFixa": "400-800 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "Mild/moderate renal impairment: use lowest effective dose. Severe: avoid.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Pain/fever PO (pediatric >6 months)",
+          "descricaoDose": "5-10 mg/kg/dose every 6-8h. Max 40 mg/kg/day. Minimum age >6 months.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "Mild/moderate renal impairment: use lowest effective dose. Severe: avoid.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Pain/fever IV (pediatric >6 months)",
+          "descricaoDose": "10 mg/kg every 4-6h. Max 400 mg/dose. Minimum age >6 months. Infuse over 30 min.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Mild/moderate renal impairment: use lowest effective dose. Severe: avoid.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID; analgesic, antipyretic, and anti-inflammatory. Nonselective COX-1 and COX-2 inhibitor (propionic acid derivative).",
+      "apresentacoes": [
+        { "forma": "IV vial 400 mg/4 mL, 800 mg/8 mL (100 mg/mL)", "obs": "Caldolor®" },
+        { "forma": "Tablet 200 mg, 400 mg, 600 mg", "obs": "PO" },
+        { "forma": "Capsule 200 mg, 400 mg", "obs": "PO" },
+        { "forma": "Oral suspension 50 mg/mL, 100 mg/5 mL", "obs": "PO" },
+        { "forma": "Drops 50 mg/mL", "obs": "PO" },
+        { "forma": "Gel 5%", "obs": "Topical" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 400 mg in 100 mL or 800 mg in 200 mL diluent; infuse over 30 min", "concentracao": "As per dilution" },
+        { "diluicao": "PO: tablets, capsules, suspension or drops per label; take with food", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "IV infusion over 30 minutes; dilute 400 mg in 100 mL or 800 mg in 200 mL",
+        "Mild/moderate renal or hepatic impairment: use lowest effective dose; severe: avoid",
+        "Contraindications: active peptic ulcer, severe renal/hepatic failure, 3rd trimester, severe heart failure (NYHA III-IV), post-CABG",
+        "ASA: may antagonize cardioprotective effect (give ibuprofen 30 min after or 8h before ASA)",
+        "Pediatric use: minimum age >6 months for PO and IV",
+        "PDA closure: specific neonatal protocol; do not use this calculator"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use lowest effective dose. Monitor renal and hepatic function and cardiovascular risk.",
+        "renal": "Mild/moderate renal impairment: use lowest effective dose. Severe: avoid. Renal elimination (90%).",
+        "hepatico": "Use lowest effective dose; avoid in severe liver disease. Hepatic metabolism (CYP2C9)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ibuprofen IV (adult)",
+        "doseTexto": "400-800 mg every 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400-800 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ibuprofen PO analgesic (adult)",
+        "doseTexto": "200-400 mg every 4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ibuprofen PO anti-inflammatory (adult)",
+        "doseTexto": "400-800 mg every 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400-800 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ibuprofen PO (pediatric >6 months)",
+        "doseTexto": "5-10 mg/kg every 6-8h (max 40 mg/kg/day)",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Ibuprofen IV (pediatric >6 months)",
+        "doseTexto": "10 mg/kg every 4-6h (max 400 mg/dose)",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ibuprofeno",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor/fiebre IV (adulto)",
+          "descricaoDose": "400-800 mg cada 6h. Máx 3200 mg/día. Infundir IV en 30 min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 3200,
+            "doseFixa": "400-800 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "IR leve/moderada: usar menor dosis eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Dolor/fiebre VO analgésico (adulto)",
+          "descricaoDose": "200-400 mg cada 4-6h. Máx 1200 mg/día (uso sin receta).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 1200,
+            "doseFixa": "200-400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "IR leve/moderada: usar menor dosis eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Dolor/inflamación VO antiinflamatorio (adulto)",
+          "descricaoDose": "400-800 mg cada 6-8h. Máx 3200 mg/día. Tomar con alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 3200,
+            "doseFixa": "400-800 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "IR leve/moderada: usar menor dosis eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Dolor/fiebre VO (pediátrico >6 meses)",
+          "descricaoDose": "5-10 mg/kg/dosis cada 6-8h. Máx 40 mg/kg/día. Edad mínima >6 meses.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "IR leve/moderada: usar menor dosis eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Dolor/fiebre IV (pediátrico >6 meses)",
+          "descricaoDose": "10 mg/kg cada 4-6h. Máx 400 mg/dosis. Edad mínima >6 meses. Infundir en 30 min.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "IR leve/moderada: usar menor dosis eficaz. IR grave: evitar.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE; analgésico, antipirético y antiinflamatorio. Inhibidor no selectivo de COX-1 y COX-2 (derivado del ácido propiónico).",
+      "apresentacoes": [
+        { "forma": "Frasco IV 400 mg/4 mL, 800 mg/8 mL (100 mg/mL)", "obs": "Caldolor®" },
+        { "forma": "Comprimido 200 mg, 400 mg, 600 mg", "obs": "VO" },
+        { "forma": "Cápsula 200 mg, 400 mg", "obs": "VO" },
+        { "forma": "Suspensión oral 50 mg/mL, 100 mg/5 mL", "obs": "VO" },
+        { "forma": "Gotas 50 mg/mL", "obs": "VO" },
+        { "forma": "Gel 5%", "obs": "Uso tópico" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 400 mg en 100 mL o 800 mg en 200 mL de diluyente; infundir en 30 min", "concentracao": "Según dilución" },
+        { "diluicao": "VO: comprimidos, cápsulas, suspensión o gotas según ficha; tomar con alimentos", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Infusión IV en 30 minutos; diluir 400 mg en 100 mL o 800 mg en 200 mL",
+        "IR/IH leve o moderada: usar menor dosis eficaz; IR/IH grave: evitar",
+        "Contraindicaciones: úlcera péptica activa, IR/IH grave, 3º trimestre, ICC grave (NYHA III-IV), pos-CABG",
+        "AAS: puede antagonizar efecto cardioprotector (ibuprofeno 30 min después o 8h antes del AAS)",
+        "Uso pediátrico: edad mínima >6 meses para VO e IV",
+        "Cierre de conducto arterial (PCA): protocolo específico en neonatología; no usar esta calculadora"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar menor dosis eficaz. Monitorizar función renal y hepática y riesgo cardiovascular.",
+        "renal": "IR leve/moderada: usar menor dosis eficaz. IR grave: evitar. Eliminación renal (90%).",
+        "hepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave. Metabolismo hepático (CYP2C9)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ibuprofeno IV (adulto)",
+        "doseTexto": "400-800 mg cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400-800 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ibuprofeno VO analgésico (adulto)",
+        "doseTexto": "200-400 mg cada 4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ibuprofeno VO antiinflamatorio (adulto)",
+        "doseTexto": "400-800 mg cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400-800 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ibuprofeno VO (pediátrico >6 meses)",
+        "doseTexto": "5-10 mg/kg cada 6-8h (máx 40 mg/kg/día)",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ibuprofeno IV (pediátrico >6 meses)",
+        "doseTexto": "10 mg/kg cada 4-6h (máx 400 mg/dosis)",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "布洛芬",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "疼痛/发热 静注（成人）",
+          "descricaoDose": "400-800 mg 每 6 小时。最大 3200 mg/日。静注 30 分钟内输注。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 3200,
+            "doseFixa": "400-800 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "轻/中度肾功能不全：用最小有效剂量。重度：避免。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "疼痛/发热 口服镇痛（成人）",
+          "descricaoDose": "200-400 mg 每 4-6 小时。最大 1200 mg/日（非处方）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 1200,
+            "doseFixa": "200-400 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "轻/中度肾功能不全：用最小有效剂量。重度：避免。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "疼痛/炎症 口服抗炎（成人）",
+          "descricaoDose": "400-800 mg 每 6-8 小时。最大 3200 mg/日。与食物同服。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 3200,
+            "doseFixa": "400-800 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "轻/中度肾功能不全：用最小有效剂量。重度：避免。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "疼痛/发热 口服（儿童 >6 月）",
+          "descricaoDose": "5-10 mg/kg/次 每 6-8 小时。最大 40 mg/kg/日。最小年龄 >6 月。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "轻/中度肾功能不全：用最小有效剂量。重度：避免。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "疼痛/发热 静注（儿童 >6 月）",
+          "descricaoDose": "10 mg/kg 每 4-6 小时。最大 400 mg/次。最小年龄 >6 月。30 分钟内输注。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "轻/中度肾功能不全：用最小有效剂量。重度：避免。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "非甾体抗炎药；镇痛、解热、抗炎。非选择性 COX-1/COX-2 抑制剂（丙酸衍生物）。",
+      "apresentacoes": [
+        { "forma": "静注 400 mg/4 mL、800 mg/8 mL (100 mg/mL)", "obs": "Caldolor®" },
+        { "forma": "片剂 200、400、600 mg", "obs": "口服" },
+        { "forma": "胶囊 200、400 mg", "obs": "口服" },
+        { "forma": "口服混悬液 50 mg/mL、100 mg/5 mL", "obs": "口服" },
+        { "forma": "滴剂 50 mg/mL", "obs": "口服" },
+        { "forma": "凝胶 5%", "obs": "外用" }
+      ],
+      "preparo": [
+        { "diluicao": "静注：400 mg 溶于 100 mL 或 800 mg 溶于 200 mL 稀释液；30 分钟内输注", "concentracao": "按稀释" },
+        { "diluicao": "口服：片剂、胶囊、混悬液或滴剂按说明书；与食物同服", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "静注 30 分钟内输注；400 mg 溶于 100 mL 或 800 mg 溶于 200 mL",
+        "轻/中度肾或肝功能不全：用最小有效剂量；重度：避免",
+        "禁忌：活动性消化性溃疡、重度肾/肝衰竭、妊娠晚期、重度心衰（NYHA III-IV）、CABG 术后",
+        "阿司匹林：可拮抗心脏保护作用（布洛芬在阿司匹林后 30 分钟或前 8 小时给药）",
+        "儿童用药：口服和静注最小年龄 >6 月",
+        "动脉导管闭合（PCA）：新生儿专用方案；勿用本计算器"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "用最小有效剂量。监测肾功能、肝功能及心血管风险。",
+        "renal": "轻/中度肾功能不全：用最小有效剂量。重度：避免。经肾排泄（90%）。",
+        "hepatico": "用最小有效剂量；严重肝病避免。肝代谢（CYP2C9）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "布洛芬 静注（成人）",
+        "doseTexto": "400-800 mg 每 6 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400-800 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "布洛芬 口服镇痛（成人）",
+        "doseTexto": "200-400 mg 每 4-6 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "布洛芬 口服抗炎（成人）",
+        "doseTexto": "400-800 mg 每 6-8 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400-800 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "布洛芬 口服（儿童 >6 月）",
+        "doseTexto": "5-10 mg/kg 每 6-8 小时（最大 40 mg/kg/日）",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "布洛芬 静注（儿童 >6 月）",
+        "doseTexto": "10 mg/kg 每 4-6 小时（最大 400 mg/次）",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

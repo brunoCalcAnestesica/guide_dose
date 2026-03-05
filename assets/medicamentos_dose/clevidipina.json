@@ -1,0 +1,498 @@
+{
+  "PT": {
+    "nome": "Clevidipina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose inicial",
+          "descricaoDose": "1-2 mg/h IV, dobrar a cada 90 s até efeito",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção",
+          "descricaoDose": "4-6 mg/h IV (dose usual)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "4-6 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dose máxima",
+          "descricaoDose": "Não exceder 32 mg/h ou 1000 mL/24h (500 mL lipídeo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 32,
+            "doseFixa": "32 mg/h máx",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 1, "doseMax": 32 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Pronto para uso 0,5 mg/mL (emulsão)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canal de cálcio - Diidropiridina de ação ultracurta",
+      "apresentacoes": [
+        { "forma": "Emulsão injetável 0,5 mg/mL", "obs": "Frasco 50 mL" },
+        { "forma": "Emulsão injetável 0,5 mg/mL", "obs": "Frasco 100 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso", "concentracao": "0,5 mg/mL" },
+        { "diluicao": "NÃO diluir - emulsão lipídica", "concentracao": "" },
+        { "diluicao": "Usar dentro de 12 h após aberto", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Início e término de ação ultrarrápidos (1-2 min)",
+        "Meia-vida ~1 minuto - ideal para titulação precisa",
+        "Metabolizado por esterases (independente de fígado/rim)",
+        "Emulsão lipídica - contém 0,2 g lipídeo/mL",
+        "Contraindicado: alergia a soja/ovo/lecitina; pancreatite aguda com hiperlipidemia",
+        "Limite: máx 1000 mL (500 mL lipídeo) em 24h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar PA e efeitos adversos.",
+        "renal": "Não requer ajuste. Metabolismo por esterases plasmáticas e teciduais.",
+        "hepatico": "Não requer ajuste. Metabolismo independente da função hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clevidipina (infusão inicial)",
+        "doseTexto": "1-2 mg/h IV, dobrar a cada 90 s",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mg/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clevidipina (manutenção)",
+        "doseTexto": "4-6 mg/h IV (máx 32 mg/h)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "4-6 mg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Clevidipine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Initial dose",
+          "descricaoDose": "1-2 mg/h IV, double every 90 s until effect",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maintenance",
+          "descricaoDose": "4-6 mg/h IV (usual dose)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "4-6 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maximum dose",
+          "descricaoDose": "Do not exceed 32 mg/h or 1000 mL/24h (500 mL lipid)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 32,
+            "doseFixa": "32 mg/h max",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 1, "doseMax": 32 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Ready to use 0.5 mg/mL (emulsion)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Calcium channel blocker - Ultracort-acting dihydropyridine",
+      "apresentacoes": [
+        { "forma": "Injectable emulsion 0.5 mg/mL", "obs": "50 mL vial" },
+        { "forma": "Injectable emulsion 0.5 mg/mL", "obs": "100 mL vial" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready to use", "concentracao": "0.5 mg/mL" },
+        { "diluicao": "DO NOT dilute - lipid emulsion", "concentracao": "" },
+        { "diluicao": "Use within 12 h after opening", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Ultra-rapid onset and offset (1-2 min)",
+        "Half-life ~1 minute - ideal for precise titration",
+        "Metabolized by esterases (independent of liver/kidney)",
+        "Lipid emulsion - contains 0.2 g lipid/mL",
+        "Contraindicated: allergy to soy/egg/lecithin; acute pancreatitis with hyperlipidemia",
+        "Limit: max 1000 mL (500 mL lipid) in 24h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific dose adjustment. Monitor BP and adverse effects.",
+        "renal": "No adjustment required. Metabolism by plasma and tissue esterases.",
+        "hepatico": "No adjustment required. Metabolism independent of hepatic function."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clevidipine (initial infusion)",
+        "doseTexto": "1-2 mg/h IV, double every 90 s",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mg/h",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Clevidipine (maintenance)",
+        "doseTexto": "4-6 mg/h IV (max 32 mg/h)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "4-6 mg/h",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Clevidipino",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis inicial",
+          "descricaoDose": "1-2 mg/h IV, duplicar cada 90 s hasta efecto",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento",
+          "descricaoDose": "4-6 mg/h IV (dosis habitual)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "4-6 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dosis máxima",
+          "descricaoDose": "No exceder 32 mg/h ni 1000 mL/24h (500 mL lípido)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 32,
+            "doseFixa": "32 mg/h máx",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 1, "doseMax": 32 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Listo para usar 0,5 mg/mL (emulsión)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canales de calcio - Dihidropiridina de acción ultracorta",
+      "apresentacoes": [
+        { "forma": "Emulsión inyectable 0,5 mg/mL", "obs": "Frasco 50 mL" },
+        { "forma": "Emulsión inyectable 0,5 mg/mL", "obs": "Frasco 100 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para usar", "concentracao": "0,5 mg/mL" },
+        { "diluicao": "NO diluir - emulsión lipídica", "concentracao": "" },
+        { "diluicao": "Usar en 12 h tras abrir", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Inicio y fin de acción ultrarápidos (1-2 min)",
+        "Semivida ~1 minuto - ideal para titulación precisa",
+        "Metabolizado por esterasas (independiente de hígado/riñón)",
+        "Emulsión lipídica - contiene 0,2 g lípido/mL",
+        "Contraindicado: alergia a soja/huevo/lecitina; pancreatitis aguda con hiperlipidemia",
+        "Límite: máx 1000 mL (500 mL lípido) en 24h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar PA y efectos adversos.",
+        "renal": "No requiere ajuste. Metabolismo por esterasas plasmáticas y tisulares.",
+        "hepatico": "No requiere ajuste. Metabolismo independiente de la función hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clevidipino (infusión inicial)",
+        "doseTexto": "1-2 mg/h IV, duplicar cada 90 s",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mg/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clevidipino (mantenimiento)",
+        "doseTexto": "4-6 mg/h IV (máx 32 mg/h)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "4-6 mg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氯维地平",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "初始剂量",
+          "descricaoDose": "1-2 mg/h IV，每90秒加倍直至起效",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 mg/h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "维持",
+          "descricaoDose": "4-6 mg/h IV（常用剂量）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "4-6 mg/h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "最大剂量",
+          "descricaoDose": "不超过32 mg/h或1000 mL/24h（500 mL脂质）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 32,
+            "doseFixa": "32 mg/h 最大",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 1, "doseMax": 32 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "即用型 0.5 mg/mL（乳剂）", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "钙通道阻滞剂 - 超短效二氢吡啶类",
+      "apresentacoes": [
+        { "forma": "注射用乳剂 0.5 mg/mL", "obs": "50 mL 瓶" },
+        { "forma": "注射用乳剂 0.5 mg/mL", "obs": "100 mL 瓶" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "0.5 mg/mL" },
+        { "diluicao": "勿稀释 - 脂质乳剂", "concentracao": "" },
+        { "diluicao": "开封后12小时内使用", "concentracao": "" }
+      ],
+      "observacoes": [
+        "起效和失效超快（1-2分钟）",
+        "半衰期约1分钟 - 适合精确滴定",
+        "经酯酶代谢（不依赖肝/肾）",
+        "脂质乳剂 - 含0.2 g脂质/mL",
+        "禁忌：大豆/蛋/卵磷脂过敏；急性胰腺炎伴高脂血症",
+        "限制：24小时内最大1000 mL（500 mL脂质）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定剂量调整。监测血压及不良反应。",
+        "renal": "无需调整。经血浆和组织酯酶代谢。",
+        "hepatico": "无需调整。代谢不依赖肝功能。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氯维地平（初始输注）",
+        "doseTexto": "1-2 mg/h IV，每90秒加倍",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mg/h",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯维地平（维持）",
+        "doseTexto": "4-6 mg/h IV（最大32 mg/h）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "4-6 mg/h",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

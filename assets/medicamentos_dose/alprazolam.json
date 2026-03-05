@@ -1,0 +1,518 @@
+{
+  "PT": {
+    "nome": "Alprazolam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ansiedade generalizada",
+          "descricaoDose": "0,25-0,5 mg VO 3x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 4,
+            "doseFixa": "0,25-0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Insuficiência hepática: reduzir dose ou evitar"
+          }
+        },
+        {
+          "titulo": "Transtorno do pânico",
+          "descricaoDose": "0,5-1 mg VO 3x/dia (manutenção 1-4 mg/dia, máx 10 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 10,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Insuficiência hepática: reduzir dose ou evitar"
+          }
+        },
+        {
+          "titulo": "Ansiedade (idoso)",
+          "descricaoDose": "0,25 mg VO 2-3x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0,25 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Insuficiência hepática: reduzir dose ou evitar"
+          }
+        },
+        {
+          "titulo": "Pânico (idoso)",
+          "descricaoDose": "0,25 mg VO 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0,25 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Insuficiência hepática: reduzir dose ou evitar"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Triazolobenzodiazepina",
+      "apresentacoes": [
+        { "forma": "Comprimidos 0,25 mg, 0,5 mg, 1 mg, 2 mg", "obs": "Uso oral" },
+        { "forma": "Gotas 0,5 mg/mL", "obs": "Uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral - sem diluição", "concentracao": "Comprimido ou gotas conforme apresentação" }
+      ],
+      "observacoes": [
+        "Alto potencial de dependência; usar pelo menor tempo possível (2-4 semanas)",
+        "Retirada gradual obrigatória para evitar síndrome de abstinência",
+        "Não dirigir ou operar máquinas devido a sedação e alteração da atenção",
+        "Contraindicado em glaucoma de ângulo fechado, miastenia gravis e apneia do sono",
+        "Interage com CYP3A4 (cetoconazol, itraconazol) e álcool - evitar associação",
+        "Gestação categoria D - evitar uso"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com 0,25 mg 2-3x/dia; dose máxima habitualmente menor. Maior risco de sedação e quedas.",
+        "renal": "Não requer ajuste de dose na insuficiência renal. Metabolismo predominantemente hepático.",
+        "hepatico": "Reduzir dose ou evitar em insuficiência hepática (metabolismo CYP3A4). Risco de acúmulo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Alprazolam - Ansiedade",
+        "doseTexto": "0,25-0,5 mg VO 3x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,25-0,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Alprazolam - Pânico",
+        "doseTexto": "0,5-1 mg VO 3x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Alprazolam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Generalized anxiety disorder",
+          "descricaoDose": "0.25-0.5 mg PO 3x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 4,
+            "doseFixa": "0.25-0.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "3x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatic insufficiency: reduce dose or avoid"
+          }
+        },
+        {
+          "titulo": "Panic disorder",
+          "descricaoDose": "0.5-1 mg PO 3x/day (maintenance 1-4 mg/day, max 10 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 10,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "3x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatic insufficiency: reduce dose or avoid"
+          }
+        },
+        {
+          "titulo": "Anxiety (elderly)",
+          "descricaoDose": "0.25 mg PO 2-3x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0.25 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2-3x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatic insufficiency: reduce dose or avoid"
+          }
+        },
+        {
+          "titulo": "Panic (elderly)",
+          "descricaoDose": "0.25 mg PO 2x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0.25 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatic insufficiency: reduce dose or avoid"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine / Triazolobenzodiazepine",
+      "apresentacoes": [
+        { "forma": "Tablets 0.25 mg, 0.5 mg, 1 mg, 2 mg", "obs": "Oral use" },
+        { "forma": "Drops 0.5 mg/mL", "obs": "Oral use" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral use - no dilution", "concentracao": "Tablet or drops as per presentation" }
+      ],
+      "observacoes": [
+        "High dependence potential; use for shortest time (2-4 weeks)",
+        "Gradual withdrawal required to avoid withdrawal syndrome",
+        "Do not drive or operate machinery due to sedation and impaired attention",
+        "Contraindicated in angle-closure glaucoma, myasthenia gravis and sleep apnea",
+        "Interacts with CYP3A4 (ketoconazole, itraconazole) and alcohol - avoid combination",
+        "Pregnancy category D - avoid use"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with 0.25 mg 2-3x/day; maximum dose usually lower. Higher risk of sedation and falls.",
+        "renal": "No dose adjustment in renal impairment. Predominantly hepatic metabolism.",
+        "hepatico": "Reduce dose or avoid in hepatic insufficiency (CYP3A4 metabolism). Risk of accumulation."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Alprazolam - Anxiety",
+        "doseTexto": "0.25-0.5 mg PO 3x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.25-0.5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Alprazolam - Panic",
+        "doseTexto": "0.5-1 mg PO 3x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Alprazolam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Trastorno de ansiedad generalizada",
+          "descricaoDose": "0,25-0,5 mg VO 3x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 4,
+            "doseFixa": "0,25-0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Insuficiencia hepática: reducir dosis o evitar"
+          }
+        },
+        {
+          "titulo": "Trastorno de pánico",
+          "descricaoDose": "0,5-1 mg VO 3x/día (mantenimiento 1-4 mg/día, máx 10 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 10,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Insuficiencia hepática: reducir dosis o evitar"
+          }
+        },
+        {
+          "titulo": "Ansiedad (anciano)",
+          "descricaoDose": "0,25 mg VO 2-3x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0,25 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Insuficiencia hepática: reducir dosis o evitar"
+          }
+        },
+        {
+          "titulo": "Pánico (anciano)",
+          "descricaoDose": "0,25 mg VO 2x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0,25 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Insuficiencia hepática: reducir dosis o evitar"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Triazolobenzodiazepina",
+      "apresentacoes": [
+        { "forma": "Comprimidos 0,25 mg, 0,5 mg, 1 mg, 2 mg", "obs": "Uso oral" },
+        { "forma": "Gotas 0,5 mg/mL", "obs": "Uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral - sin dilución", "concentracao": "Comprimido o gotas según presentación" }
+      ],
+      "observacoes": [
+        "Alto potencial de dependencia; usar el menor tiempo posible (2-4 semanas)",
+        "Retirada gradual obligatoria para evitar síndrome de abstinencia",
+        "No conducir ni operar maquinaria por sedación y alteración de la atención",
+        "Contraindicado en glaucoma de ángulo cerrado, miastenia gravis y apnea del sueño",
+        "Interacción con CYP3A4 (cetoconazol, itraconazol) y alcohol - evitar asociación",
+        "Embarazo categoría D - evitar uso"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con 0,25 mg 2-3x/día; dosis máxima habitualmente menor. Mayor riesgo de sedación y caídas.",
+        "renal": "No requiere ajuste en insuficiencia renal. Metabolismo predominantemente hepático.",
+        "hepatico": "Reducir dosis o evitar en insuficiencia hepática (metabolismo CYP3A4). Riesgo de acúmulo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Alprazolam - Ansiedad",
+        "doseTexto": "0,25-0,5 mg VO 3x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,25-0,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Alprazolam - Pánico",
+        "doseTexto": "0,5-1 mg VO 3x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "阿普唑仑",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "广泛性焦虑障碍",
+          "descricaoDose": "0.25-0.5 mg 口服 每日3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 4,
+            "doseFixa": "0.25-0.5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日3次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝功能不全：减量或避免使用"
+          }
+        },
+        {
+          "titulo": "惊恐障碍",
+          "descricaoDose": "0.5-1 mg 口服 每日3次（维持1-4 mg/日，最大10 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 10,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日3次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝功能不全：减量或避免使用"
+          }
+        },
+        {
+          "titulo": "焦虑（老年）",
+          "descricaoDose": "0.25 mg 口服 每日2-3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0.25 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝功能不全：减量或避免使用"
+          }
+        },
+        {
+          "titulo": "惊恐（老年）",
+          "descricaoDose": "0.25 mg 口服 每日2次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0.25 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝功能不全：减量或避免使用"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "苯二氮䓬类 / 三唑苯二氮䓬",
+      "apresentacoes": [
+        { "forma": "片剂 0.25 mg、0.5 mg、1 mg、2 mg", "obs": "口服" },
+        { "forma": "滴剂 0.5 mg/mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "口服 - 无需稀释", "concentracao": "按剂型片剂或滴剂使用" }
+      ],
+      "observacoes": [
+        "依赖性高；尽量短疗程使用（2-4周）",
+        "需逐渐减量以防戒断综合征",
+        "因镇静及注意力受影响勿驾驶或操作机械",
+        "禁用于闭角型青光眼、重症肌无力及睡眠呼吸暂停",
+        "与CYP3A4（酮康唑、伊曲康唑）及酒精有相互作用，避免联用",
+        "妊娠D类 - 避免使用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从0.25 mg 每日2-3次起始；最大剂量通常较低。镇静及跌倒风险增加。",
+        "renal": "肾功能不全无需调整剂量。主要经肝代谢。",
+        "hepatico": "肝功能不全时减量或避免（CYP3A4代谢）。有蓄积风险。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿普唑仑 - 焦虑",
+        "doseTexto": "0.25-0.5 mg 口服 每日3次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.25-0.5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿普唑仑 - 惊恐",
+        "doseTexto": "0.5-1 mg 口服 每日3次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

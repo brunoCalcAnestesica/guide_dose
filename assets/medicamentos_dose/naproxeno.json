@@ -1,0 +1,810 @@
+{
+  "PT": {
+    "nome": "Naproxeno",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor aguda (adulto)",
+          "descricaoDose": "500 mg inicial, depois 250 mg a cada 6-8h. Máx 1250 mg/dia. Tomar com alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1250,
+            "doseFixa": "500 mg inicial, depois 250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30: evitar ou usar dose mínima com cautela.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Artrite reumatoide/osteoartrite (adulto)",
+          "descricaoDose": "250-500 mg 2x/dia. Máx 1500 mg/dia. Meia-vida longa permite 2x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: evitar ou usar dose mínima com cautela.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Gota aguda (adulto)",
+          "descricaoDose": "750 mg inicial, depois 250 mg a cada 8h. Tomar com alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 750,
+            "doseMaxima": null,
+            "doseFixa": "750 mg inicial, depois 250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 8h",
+            "ajusteRenal": "ClCr <30: evitar ou usar dose mínima com cautela.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Dismenorreia (adulto)",
+          "descricaoDose": "500 mg inicial, depois 250 mg a cada 6-8h conforme necessidade.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1250,
+            "doseFixa": "500 mg inicial, depois 250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30: evitar ou usar dose mínima com cautela.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Dor/inflamação VO (pediátrico >2 anos)",
+          "descricaoDose": "5-7 mg/kg/dose a cada 8-12h. Máx 1000 mg/dia. Idade mínima >2 anos.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 8-12h",
+            "ajusteRenal": "ClCr <30: evitar ou usar dose mínima com cautela.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Artrite juvenil (pediátrico >2 anos)",
+          "descricaoDose": "10-15 mg/kg/dia dividido em 2 doses. Idade mínima >2 anos.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: evitar ou usar dose mínima com cautela.",
+            "ajusteHepatico": "Usar menor dose eficaz; evitar em hepatopatia grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE; analgésico e anti-inflamatório. Inibidor não seletivo COX-1 e COX-2 (ácido propiônico). Meia-vida longa (12-17 h); administração 2x/dia. Menor risco cardiovascular entre AINEs tradicionais.",
+      "apresentacoes": [
+        { "forma": "Comprimido 250 mg, 500 mg (naproxeno base)", "obs": "VO" },
+        { "forma": "Comprimido 275 mg, 550 mg (naproxeno sódico)", "obs": "Flanax® – absorção mais rápida" },
+        { "forma": "Suspensão oral 25 mg/mL", "obs": "VO" },
+        { "forma": "Supositório 500 mg", "obs": "Retal" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimidos ou suspensão com alimentos", "concentracao": "25 mg/mL (suspensão)" },
+        { "diluicao": "Naproxeno sódico 275 mg ≈ 250 mg base; 550 mg ≈ 500 mg base", "concentracao": "Equivalência" }
+      ],
+      "observacoes": [
+        "Meia-vida longa (12-17 h) permite administração 2x/dia",
+        "Naproxeno sódico: absorção mais rápida que a base",
+        "Menor risco cardiovascular que outros AINEs não seletivos; preferido em risco CV moderado",
+        "Tomar com alimentos para reduzir irritação gastrointestinal",
+        "ClCr <30 mL/min: evitar ou usar dose mínima com cautela",
+        "Contraindicações: úlcera péptica ativa, IR/IH grave, 3º trimestre, pós-CABG"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar menor dose eficaz. Monitorar função renal e hepática. Preferir dose mínima.",
+        "renal": "ClCr <30: evitar ou usar dose mínima com cautela. Eliminação renal (95%).",
+        "hepatico": "Usar menor dose eficaz; evitar em hepatopatia grave. Metabolismo hepático (CYP2C9)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Naproxeno dor aguda (adulto)",
+        "doseTexto": "500 mg inicial, depois 250 mg a cada 6-8h",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Naproxeno artrite (adulto)",
+        "doseTexto": "250-500 mg 2x/dia",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Naproxeno gota (adulto)",
+        "doseTexto": "750 mg inicial, depois 250 mg a cada 8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg + 250 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Naproxeno VO (pediátrico >2 anos)",
+        "doseTexto": "5-7 mg/kg a cada 8-12h (máx 1000 mg/dia)",
+        "doseMin": 5,
+        "doseMax": 7,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Naproxen",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute pain (adult)",
+          "descricaoDose": "500 mg initial, then 250 mg every 6-8h. Max 1250 mg/day. Take with food.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1250,
+            "doseFixa": "500 mg initial, then 250 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: avoid or use minimum dose with caution.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Rheumatoid/osteoarthritis (adult)",
+          "descricaoDose": "250-500 mg twice daily. Max 1500 mg/day. Long half-life allows 2x/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "ClCr <30: avoid or use minimum dose with caution.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Acute gout (adult)",
+          "descricaoDose": "750 mg initial, then 250 mg every 8h. Take with food.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 750,
+            "doseMaxima": null,
+            "doseFixa": "750 mg initial, then 250 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 8h",
+            "ajusteRenal": "ClCr <30: avoid or use minimum dose with caution.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Primary dysmenorrhea (adult)",
+          "descricaoDose": "500 mg initial, then 250 mg every 6-8h as needed.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1250,
+            "doseFixa": "500 mg initial, then 250 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: avoid or use minimum dose with caution.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Pain/inflammation PO (pediatric >2 years)",
+          "descricaoDose": "5-7 mg/kg/dose every 8-12h. Max 1000 mg/day. Minimum age >2 years.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 8-12h",
+            "ajusteRenal": "ClCr <30: avoid or use minimum dose with caution.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Juvenile arthritis (pediatric >2 years)",
+          "descricaoDose": "10-15 mg/kg/day divided into 2 doses. Minimum age >2 years.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "ClCr <30: avoid or use minimum dose with caution.",
+            "ajusteHepatico": "Use lowest effective dose; avoid in severe liver disease."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID; analgesic and anti-inflammatory. Nonselective COX-1 and COX-2 inhibitor (propionic acid derivative). Long half-life (12-17 h); twice-daily dosing. Lower cardiovascular risk among traditional NSAIDs.",
+      "apresentacoes": [
+        { "forma": "Tablet 250 mg, 500 mg (naproxen base)", "obs": "PO" },
+        { "forma": "Tablet 275 mg, 550 mg (naproxen sodium)", "obs": "Aleve® – faster absorption" },
+        { "forma": "Oral suspension 25 mg/mL", "obs": "PO" },
+        { "forma": "Suppository 500 mg", "obs": "Rectal" }
+      ],
+      "preparo": [
+        { "diluicao": "PO: tablets or suspension with food", "concentracao": "25 mg/mL (suspension)" },
+        { "diluicao": "Naproxen sodium 275 mg ≈ 250 mg base; 550 mg ≈ 500 mg base", "concentracao": "Equivalence" }
+      ],
+      "observacoes": [
+        "Long half-life (12-17 h) allows twice-daily administration",
+        "Naproxen sodium: faster absorption than base",
+        "Lower cardiovascular risk than other nonselective NSAIDs; preferred in moderate CV risk",
+        "Take with food to reduce GI irritation",
+        "ClCr <30 mL/min: avoid or use minimum dose with caution",
+        "Contraindications: active peptic ulcer, severe renal/hepatic failure, 3rd trimester, post-CABG"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use lowest effective dose. Monitor renal and hepatic function. Prefer minimum dose.",
+        "renal": "ClCr <30: avoid or use minimum dose with caution. Renal elimination (95%).",
+        "hepatico": "Use lowest effective dose; avoid in severe liver disease. Hepatic metabolism (CYP2C9)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Naproxen acute pain (adult)",
+        "doseTexto": "500 mg initial, then 250 mg every 6-8h",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Naproxen arthritis (adult)",
+        "doseTexto": "250-500 mg twice daily",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Naproxen gout (adult)",
+        "doseTexto": "750 mg initial, then 250 mg every 8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg + 250 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Naproxen PO (pediatric >2 years)",
+        "doseTexto": "5-7 mg/kg every 8-12h (max 1000 mg/day)",
+        "doseMin": 5,
+        "doseMax": 7,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Naproxeno",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor agudo (adulto)",
+          "descricaoDose": "500 mg inicial, después 250 mg cada 6-8h. Máx 1250 mg/día. Tomar con alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1250,
+            "doseFixa": "500 mg inicial, después 250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30: evitar o usar dosis mínima con precaución.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Artritis reumatoide/osteoartritis (adulto)",
+          "descricaoDose": "250-500 mg 2x/día. Máx 1500 mg/día. Vida media larga permite 2x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr <30: evitar o usar dosis mínima con precaución.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Gota aguda (adulto)",
+          "descricaoDose": "750 mg inicial, después 250 mg cada 8h. Tomar con alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 750,
+            "doseMaxima": null,
+            "doseFixa": "750 mg inicial, después 250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 8h",
+            "ajusteRenal": "ClCr <30: evitar o usar dosis mínima con precaución.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Dismenorrea (adulto)",
+          "descricaoDose": "500 mg inicial, después 250 mg cada 6-8h según necesidad.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1250,
+            "doseFixa": "500 mg inicial, después 250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30: evitar o usar dosis mínima con precaución.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Dolor/inflamación VO (pediátrico >2 años)",
+          "descricaoDose": "5-7 mg/kg/dosis cada 8-12h. Máx 1000 mg/día. Edad mínima >2 años.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 8-12h",
+            "ajusteRenal": "ClCr <30: evitar o usar dosis mínima con precaución.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Artritis juvenil (pediátrico >2 años)",
+          "descricaoDose": "10-15 mg/kg/día dividido en 2 dosis. Edad mínima >2 años.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr <30: evitar o usar dosis mínima con precaución.",
+            "ajusteHepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE; analgésico y antiinflamatorio. Inhibidor no selectivo COX-1 y COX-2 (ácido propiónico). Vida media larga (12-17 h); administración 2x/día. Menor riesgo cardiovascular entre AINEs tradicionales.",
+      "apresentacoes": [
+        { "forma": "Comprimido 250 mg, 500 mg (naproxeno base)", "obs": "VO" },
+        { "forma": "Comprimido 275 mg, 550 mg (naproxeno sódico)", "obs": "Absorción más rápida" },
+        { "forma": "Suspensión oral 25 mg/mL", "obs": "VO" },
+        { "forma": "Supositorio 500 mg", "obs": "Retal" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimidos o suspensión con alimentos", "concentracao": "25 mg/mL (suspensión)" },
+        { "diluicao": "Naproxeno sódico 275 mg ≈ 250 mg base; 550 mg ≈ 500 mg base", "concentracao": "Equivalencia" }
+      ],
+      "observacoes": [
+        "Vida media larga (12-17 h) permite administración 2x/día",
+        "Naproxeno sódico: absorción más rápida que la base",
+        "Menor riesgo cardiovascular que otros AINEs no selectivos; preferido en riesgo CV moderado",
+        "Tomar con alimentos para reducir irritación gastrointestinal",
+        "ClCr <30 mL/min: evitar o usar dosis mínima con precaución",
+        "Contraindicaciones: úlcera péptica activa, IR/IH grave, 3º trimestre, pos-CABG"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar menor dosis eficaz. Monitorizar función renal y hepática. Preferir dosis mínima.",
+        "renal": "ClCr <30: evitar o usar dosis mínima con precaución. Eliminación renal (95%).",
+        "hepatico": "Usar menor dosis eficaz; evitar en hepatopatía grave. Metabolismo hepático (CYP2C9)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Naproxeno dolor agudo (adulto)",
+        "doseTexto": "500 mg inicial, después 250 mg cada 6-8h",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Naproxeno artritis (adulto)",
+        "doseTexto": "250-500 mg 2x/día",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Naproxeno gota (adulto)",
+        "doseTexto": "750 mg inicial, después 250 mg cada 8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg + 250 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Naproxeno VO (pediátrico >2 años)",
+        "doseTexto": "5-7 mg/kg cada 8-12h (máx 1000 mg/día)",
+        "doseMin": 5,
+        "doseMax": 7,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "萘普生",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性疼痛（成人）",
+          "descricaoDose": "首剂 500 mg，之后 250 mg 每 6-8 小时。最大 1250 mg/日。与食物同服。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1250,
+            "doseFixa": "首剂 500 mg，之后 250 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr <30：避免或慎用最小剂量。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "类风湿/骨关节炎（成人）",
+          "descricaoDose": "250-500 mg 每日两次。最大 1500 mg/日。半衰期长可 2 次/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1500,
+            "doseFixa": "250-500 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <30：避免或慎用最小剂量。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "急性痛风（成人）",
+          "descricaoDose": "首剂 750 mg，之后 250 mg 每 8 小时。与食物同服。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 750,
+            "doseMaxima": null,
+            "doseFixa": "首剂 750 mg，之后 250 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr <30：避免或慎用最小剂量。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "原发性痛经（成人）",
+          "descricaoDose": "首剂 500 mg，之后 250 mg 每 6-8 小时 按需。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 1250,
+            "doseFixa": "首剂 500 mg，之后 250 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr <30：避免或慎用最小剂量。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "疼痛/炎症 口服（儿童 >2 岁）",
+          "descricaoDose": "5-7 mg/kg/次 每 8-12 小时。最大 1000 mg/日。最小年龄 >2 岁。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每8-12小时",
+            "ajusteRenal": "ClCr <30：避免或慎用最小剂量。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "幼年关节炎（儿童 >2 岁）",
+          "descricaoDose": "10-15 mg/kg/日 分 2 次。最小年龄 >2 岁。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <30：避免或慎用最小剂量。",
+            "ajusteHepatico": "用最小有效剂量；严重肝病避免。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "非甾体抗炎药；镇痛、抗炎。非选择性 COX-1/COX-2 抑制剂（丙酸衍生物）。半衰期长（12-17 h）；每日 2 次。传统 NSAIDs 中心血管风险较低。",
+      "apresentacoes": [
+        { "forma": "片剂 250、500 mg（萘普生碱基）", "obs": "口服" },
+        { "forma": "片剂 275、550 mg（萘普生钠）", "obs": "吸收更快" },
+        { "forma": "口服混悬液 25 mg/mL", "obs": "口服" },
+        { "forma": "栓剂 500 mg", "obs": "直肠" }
+      ],
+      "preparo": [
+        { "diluicao": "口服：片剂或混悬液与食物同服", "concentracao": "25 mg/mL（混悬液）" },
+        { "diluicao": "萘普生钠 275 mg ≈ 250 mg 碱基；550 mg ≈ 500 mg 碱基", "concentracao": "等效" }
+      ],
+      "observacoes": [
+        "半衰期长（12-17 h）可每日 2 次给药",
+        "萘普生钠：较碱基吸收更快",
+        "较其他非选择性 NSAIDs 心血管风险更低；中危 CV 首选",
+        "与食物同服减少胃肠道刺激",
+        "ClCr <30 mL/min：避免或慎用最小剂量",
+        "禁忌：活动性消化性溃疡、重度肾/肝衰竭、妊娠晚期、CABG 术后"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "用最小有效剂量。监测肾功能、肝功能。首选最小剂量。",
+        "renal": "ClCr <30：避免或慎用最小剂量。经肾排泄（95%）。",
+        "hepatico": "用最小有效剂量；严重肝病避免。肝代谢（CYP2C9）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "萘普生 急性疼痛（成人）",
+        "doseTexto": "首剂 500 mg，之后 250 mg 每 6-8 小时",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "萘普生 关节炎（成人）",
+        "doseTexto": "250-500 mg 每日两次",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "萘普生 痛风（成人）",
+        "doseTexto": "首剂 750 mg，之后 250 mg 每 8 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg + 250 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "萘普生 口服（儿童 >2 岁）",
+        "doseTexto": "5-7 mg/kg 每 8-12 小时（最大 1000 mg/日）",
+        "doseMin": 5,
+        "doseMax": 7,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

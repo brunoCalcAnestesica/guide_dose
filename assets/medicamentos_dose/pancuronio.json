@@ -1,0 +1,1090 @@
+{
+  "PT": {
+    "nome": "Pancurônio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intubação",
+          "descricaoDose": "0,08-0,1 mg/kg IV bolus (intubação em 3-4 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.08,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr 50-80: reduzir 25%; ClCr 30-50: reduzir 40-50%; ClCr <30: reduzir 50%, evitar infusão prolongada",
+            "ajusteHepatico": "Leve-moderada: ajuste discreto (~20%). Cirrose grave: reduzir 30%. Monitorar TOF.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Manutenção (incrementos)",
+          "descricaoDose": "0,01-0,02 mg/kg IV a cada 40-60 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 40-60 min",
+            "ajusteRenal": "ClCr 50-80: reduzir 25%; ClCr 30-50: reduzir 40-50%; ClCr <30: reduzir 50%",
+            "ajusteHepatico": "Leve-moderada: ajuste discreto (~20%). Cirrose grave: reduzir 30%.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infusão contínua",
+          "descricaoDose": "0,02-0,04 mg/kg/h IV (titular conforme TOF)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.33,
+            "doseMax": 0.67,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr <30: reduzir 50%, evitar infusão prolongada (acúmulo)",
+            "ajusteHepatico": "Leve-moderada: ajuste discreto. Cirrose grave: reduzir 30%.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intubação neonatos",
+          "descricaoDose": "0,04-0,06 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.06,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: reduzir 50%. Monitorar TOF.",
+            "ajusteHepatico": "Ajuste discreto em IR grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intubação crianças/lactentes",
+          "descricaoDose": "0,1-0,15 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: reduzir 50%. Monitorar TOF.",
+            "ajusteHepatico": "Ajuste discreto em IR grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Manutenção (incrementos) pediátrico",
+          "descricaoDose": "0,01-0,03 mg/kg IV a cada 30-45 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.03,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 30-45 min",
+            "ajusteRenal": "ClCr <30: reduzir 50%. Monitorar TOF.",
+            "ajusteHepatico": "Ajuste discreto em IR grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infusão pediátrica",
+          "descricaoDose": "0,03-0,06 mg/kg/h IV (titular conforme TOF)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr <30: reduzir 50%, evitar infusão prolongada",
+            "ajusteHepatico": "Ajuste discreto em IR grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.33, "doseMax": 0.67 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg em 100 mL SF (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg em 100 mL SF (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "40 mg em 200 mL SF (200 mcg/mL)", "valor": 200 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador neuromuscular não despolarizante (aminosteroide), relaxante muscular esquelético",
+      "apresentacoes": [
+        { "forma": "Ampola 2 mg/2 mL (1 mg/mL)", "obs": "Pavulon®, Pancuron®" },
+        { "forma": "Ampola 4 mg/2 mL (2 mg/mL)", "obs": "Pavulon®, Pancuron®" },
+        { "forma": "Frasco 10 mg/5 mL (2 mg/mL)", "obs": "Pavulon®, Pancuron®" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: direto da ampola", "concentracao": "1-2 mg/mL" },
+        { "diluicao": "20 mg + 100 mL SF/SG", "concentracao": "0,2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "40 mg + 200 mL SF", "concentracao": "0,2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "10 mg + 100 mL SF", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Início: 2,5-3 min | Duração: 60-90 min | Recuperação 25%: 60-100 min",
+        "Aminosteroide: eliminação renal ~80%; acúmulo e metabólito 3-OH em IR - preferir atracúrio/cisatracúrio em IR grave",
+        "Efeito vagolítico: taquicardia e ↑PA frequentes (bloqueio M2 cardíaco)",
+        "Monitorização TOF obrigatória; reversão: neostigmina + atropina ou sugamadex",
+        "Incompatível com soluções alcalinas, tiopental; evitar infusão prolongada >48-72h em UTI (miopatia)",
+        "Conservar 15-30°C (refrigeração prolonga estabilidade); diluído: 24h refrigerado, 12h ambiente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir 30-40% (clearance reduzido, duração prolongada). Monitorar TOF.",
+        "renal": "ClCr 50-80: reduzir 25%. ClCr 30-50: reduzir 40-50%, aumentar intervalo. ClCr <30: reduzir 50%, evitar infusão prolongada. Preferir atracúrio/cisatracúrio em IR grave.",
+        "hepatico": "Leve-moderada: ajuste discreto (~20%). Cirrose grave/ascite: reduzir 30%. Monitorar TOF."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pancurônio intubação (adulto)",
+        "doseTexto": "0,08-0,1 mg/kg IV",
+        "doseMin": 0.08,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pancurônio manutenção (adulto)",
+        "doseTexto": "0,01-0,02 mg/kg IV a cada 40-60 min",
+        "doseMin": 0.01,
+        "doseMax": 0.02,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pancurônio infusão (adulto)",
+        "doseTexto": "0,02-0,04 mg/kg/h (0,33-0,67 mcg/kg/min)",
+        "doseMin": 0.33,
+        "doseMax": 0.67,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pancurônio intubação (pediátrico)",
+        "doseTexto": "Neonatos 0,04-0,06; crianças 0,1-0,15 mg/kg IV",
+        "doseMin": 0.04,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Pancurônio manutenção (pediátrico)",
+        "doseTexto": "0,01-0,03 mg/kg a cada 30-45 min",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Pancurônio infusão (pediátrico)",
+        "doseTexto": "0,03-0,06 mg/kg/h (0,5-1 mcg/kg/min)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Pancuronium",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intubation",
+          "descricaoDose": "0.08-0.1 mg/kg IV bolus (intubation in 3-4 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.08,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr 50-80: reduce 25%; ClCr 30-50: reduce 40-50%; ClCr <30: reduce 50%, avoid prolonged infusion",
+            "ajusteHepatico": "Mild-moderate: slight adjustment (~20%). Severe cirrhosis: reduce 30%. Monitor TOF.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Maintenance (incremental)",
+          "descricaoDose": "0.01-0.02 mg/kg IV every 40-60 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 40-60 min",
+            "ajusteRenal": "ClCr 50-80: reduce 25%; ClCr 30-50: reduce 40-50%; ClCr <30: reduce 50%",
+            "ajusteHepatico": "Mild-moderate: slight adjustment (~20%). Severe cirrhosis: reduce 30%.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Continuous infusion",
+          "descricaoDose": "0.02-0.04 mg/kg/h IV (titrate to TOF)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.33,
+            "doseMax": 0.67,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr <30: reduce 50%, avoid prolonged infusion (accumulation)",
+            "ajusteHepatico": "Mild-moderate: slight adjustment. Severe cirrhosis: reduce 30%.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intubation neonates",
+          "descricaoDose": "0.04-0.06 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.06,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr <30: reduce 50%. Monitor TOF.",
+            "ajusteHepatico": "Slight adjustment in severe impairment.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intubation children/infants",
+          "descricaoDose": "0.1-0.15 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr <30: reduce 50%. Monitor TOF.",
+            "ajusteHepatico": "Slight adjustment in severe impairment.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Maintenance (incremental) pediatric",
+          "descricaoDose": "0.01-0.03 mg/kg IV every 30-45 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.03,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 30-45 min",
+            "ajusteRenal": "ClCr <30: reduce 50%. Monitor TOF.",
+            "ajusteHepatico": "Slight adjustment in severe impairment.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric infusion",
+          "descricaoDose": "0.03-0.06 mg/kg/h IV (titrate to TOF)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr <30: reduce 50%, avoid prolonged infusion",
+            "ajusteHepatico": "Slight adjustment in severe impairment.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.33, "doseMax": 0.67 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg in 100 mL NS (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg in 100 mL NS (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "40 mg in 200 mL NS (200 mcg/mL)", "valor": 200 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Non-depolarizing neuromuscular blocker (aminosteroid), skeletal muscle relaxant",
+      "apresentacoes": [
+        { "forma": "Ampoule 2 mg/2 mL (1 mg/mL)", "obs": "Pavulon®" },
+        { "forma": "Ampoule 4 mg/2 mL (2 mg/mL)", "obs": "Pavulon®" },
+        { "forma": "Vial 10 mg/5 mL (2 mg/mL)", "obs": "Pavulon®" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: undiluted from ampoule", "concentracao": "1-2 mg/mL" },
+        { "diluicao": "20 mg + 100 mL NS/D5W", "concentracao": "0.2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "40 mg + 200 mL NS", "concentracao": "0.2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "10 mg + 100 mL NS", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Onset: 2.5-3 min | Duration: 60-90 min | 25% recovery: 60-100 min",
+        "Aminosteroid: ~80% renal elimination; accumulation and 3-OH metabolite in renal failure - prefer atracurium/cisatracurium in severe RF",
+        "Vagolytic effect: tachycardia and ↑BP common (cardiac M2 blockade)",
+        "TOF monitoring mandatory; reversal: neostigmine + atropine or sugammadex",
+        "Incompatible with alkaline solutions, thiopental; avoid prolonged infusion >48-72h in ICU (myopathy)",
+        "Store 15-30°C (refrigeration extends stability); diluted: 24h refrigerated, 12h room temperature"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce 30-40% (reduced clearance, prolonged duration). Monitor TOF.",
+        "renal": "ClCr 50-80: reduce 25%. ClCr 30-50: reduce 40-50%, increase interval. ClCr <30: reduce 50%, avoid prolonged infusion. Prefer atracurium/cisatracurium in severe RF.",
+        "hepatico": "Mild-moderate: slight adjustment (~20%). Severe cirrhosis/ascites: reduce 30%. Monitor TOF."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pancuronium intubation (adult)",
+        "doseTexto": "0.08-0.1 mg/kg IV",
+        "doseMin": 0.08,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pancuronium maintenance (adult)",
+        "doseTexto": "0.01-0.02 mg/kg IV every 40-60 min",
+        "doseMin": 0.01,
+        "doseMax": 0.02,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pancuronium infusion (adult)",
+        "doseTexto": "0.02-0.04 mg/kg/h (0.33-0.67 mcg/kg/min)",
+        "doseMin": 0.33,
+        "doseMax": 0.67,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pancuronium intubation (pediatric)",
+        "doseTexto": "Neonates 0.04-0.06; children 0.1-0.15 mg/kg IV",
+        "doseMin": 0.04,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Pancuronium maintenance (pediatric)",
+        "doseTexto": "0.01-0.03 mg/kg every 30-45 min",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Pancuronium infusion (pediatric)",
+        "doseTexto": "0.03-0.06 mg/kg/h (0.5-1 mcg/kg/min)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Pancuronio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intubación",
+          "descricaoDose": "0,08-0,1 mg/kg IV bolo (intubación en 3-4 min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.08,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr 50-80: reducir 25%; ClCr 30-50: reducir 40-50%; ClCr <30: reducir 50%, evitar infusión prolongada",
+            "ajusteHepatico": "Leve-moderada: ajuste discreto (~20%). Cirrosis grave: reducir 30%. Monitorizar TOF.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Mantenimiento (incremental)",
+          "descricaoDose": "0,01-0,02 mg/kg IV cada 40-60 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 40-60 min",
+            "ajusteRenal": "ClCr 50-80: reducir 25%; ClCr 30-50: reducir 40-50%; ClCr <30: reducir 50%",
+            "ajusteHepatico": "Leve-moderada: ajuste discreto (~20%). Cirrosis grave: reducir 30%.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infusión continua",
+          "descricaoDose": "0,02-0,04 mg/kg/h IV (titular según TOF)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.33,
+            "doseMax": 0.67,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr <30: reducir 50%, evitar infusión prolongada (acúmulo)",
+            "ajusteHepatico": "Leve-moderada: ajuste discreto. Cirrosis grave: reducir 30%.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intubación neonatos",
+          "descricaoDose": "0,04-0,06 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.06,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: reducir 50%. Monitorizar TOF.",
+            "ajusteHepatico": "Ajuste discreto en IR grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intubación niños/lactantes",
+          "descricaoDose": "0,1-0,15 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: reducir 50%. Monitorizar TOF.",
+            "ajusteHepatico": "Ajuste discreto en IR grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Mantenimiento (incremental) pediátrico",
+          "descricaoDose": "0,01-0,03 mg/kg IV cada 30-45 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.03,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 30-45 min",
+            "ajusteRenal": "ClCr <30: reducir 50%. Monitorizar TOF.",
+            "ajusteHepatico": "Ajuste discreto en IR grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infusión pediátrica",
+          "descricaoDose": "0,03-0,06 mg/kg/h IV (titular según TOF)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr <30: reducir 50%, evitar infusión prolongada",
+            "ajusteHepatico": "Ajuste discreto en IR grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.33, "doseMax": 0.67 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg en 100 mL SF (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg en 100 mL SF (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "40 mg en 200 mL SF (200 mcg/mL)", "valor": 200 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador neuromuscular no despolarizante (aminoesteroide), relajante muscular esquelético",
+      "apresentacoes": [
+        { "forma": "Ampolla 2 mg/2 mL (1 mg/mL)", "obs": "Pavulon®" },
+        { "forma": "Ampolla 4 mg/2 mL (2 mg/mL)", "obs": "Pavulon®" },
+        { "forma": "Frasco 10 mg/5 mL (2 mg/mL)", "obs": "Pavulon®" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo: directo de la ampolla", "concentracao": "1-2 mg/mL" },
+        { "diluicao": "20 mg + 100 mL SF/SG", "concentracao": "0,2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "40 mg + 200 mL SF", "concentracao": "0,2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "10 mg + 100 mL SF", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Inicio: 2,5-3 min | Duración: 60-90 min | Recuperación 25%: 60-100 min",
+        "Aminoesteroide: eliminación renal ~80%; acúmulo y metabolito 3-OH en IR - preferir atracurio/cisatracurio en IR grave",
+        "Efecto vagolítico: taquicardia y ↑PA frecuentes (bloqueo M2 cardíaco)",
+        "Monitorización TOF obligatoria; reversión: neostigmina + atropina o sugamadex",
+        "Incompatible con soluciones alcalinas, tiopental; evitar infusión prolongada >48-72h en UCI (miopatía)",
+        "Conservar 15-30°C; diluido: 24h refrigerado, 12h ambiente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir 30-40% (clearance reducido, duración prolongada). Monitorizar TOF.",
+        "renal": "ClCr 50-80: reducir 25%. ClCr 30-50: reducir 40-50%, aumentar intervalo. ClCr <30: reducir 50%, evitar infusión prolongada. Preferir atracurio/cisatracurio en IR grave.",
+        "hepatico": "Leve-moderada: ajuste discreto (~20%). Cirrosis grave/ascitis: reducir 30%. Monitorizar TOF."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pancuronio intubación (adulto)",
+        "doseTexto": "0,08-0,1 mg/kg IV",
+        "doseMin": 0.08,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pancuronio mantenimiento (adulto)",
+        "doseTexto": "0,01-0,02 mg/kg IV cada 40-60 min",
+        "doseMin": 0.01,
+        "doseMax": 0.02,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pancuronio infusión (adulto)",
+        "doseTexto": "0,02-0,04 mg/kg/h (0,33-0,67 mcg/kg/min)",
+        "doseMin": 0.33,
+        "doseMax": 0.67,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pancuronio intubación (pediátrico)",
+        "doseTexto": "Neonatos 0,04-0,06; niños 0,1-0,15 mg/kg IV",
+        "doseMin": 0.04,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Pancuronio mantenimiento (pediátrico)",
+        "doseTexto": "0,01-0,03 mg/kg cada 30-45 min",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Pancuronio infusión (pediátrico)",
+        "doseTexto": "0,03-0,06 mg/kg/h (0,5-1 mcg/kg/min)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "潘库溴铵",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "气管插管",
+          "descricaoDose": "0.08-0.1 mg/kg IV 推注（3-4 分钟插管）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.08,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr 50-80：减量25%；ClCr 30-50：减量40-50%；ClCr <30：减量50%，避免长时间输注",
+            "ajusteHepatico": "轻中度：酌情调整（约20%）。重度肝硬化：减量30%。监测TOF。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "维持（追加）",
+          "descricaoDose": "0.01-0.02 mg/kg IV 每40-60分钟",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每40-60分钟",
+            "ajusteRenal": "ClCr 50-80：减量25%；ClCr 30-50：减量40-50%；ClCr <30：减量50%",
+            "ajusteHepatico": "轻中度：酌情调整（约20%）。重度肝硬化：减量30%。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "持续输注",
+          "descricaoDose": "0.02-0.04 mg/kg/h IV（按TOF滴定）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.33,
+            "doseMax": 0.67,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr <30：减量50%，避免长时间输注（蓄积）",
+            "ajusteHepatico": "轻中度：酌情调整。重度肝硬化：减量30%。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "新生儿插管",
+          "descricaoDose": "0.04-0.06 mg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.06,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr <30：减量50%。监测TOF。",
+            "ajusteHepatico": "重度肝功能不全时酌情调整。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童/婴儿插管",
+          "descricaoDose": "0.1-0.15 mg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr <30：减量50%。监测TOF。",
+            "ajusteHepatico": "重度肝功能不全时酌情调整。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童维持（追加）",
+          "descricaoDose": "0.01-0.03 mg/kg IV 每30-45分钟",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.03,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每30-45分钟",
+            "ajusteRenal": "ClCr <30：减量50%。监测TOF。",
+            "ajusteHepatico": "重度肝功能不全时酌情调整。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童输注",
+          "descricaoDose": "0.03-0.06 mg/kg/h IV（按TOF滴定）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr <30：减量50%，避免长时间输注",
+            "ajusteHepatico": "重度肝功能不全时酌情调整。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.33, "doseMax": 0.67 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg 溶于 100 mL 生理盐水 (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg 溶于 100 mL 生理盐水 (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "40 mg 溶于 200 mL 生理盐水 (200 mcg/mL)", "valor": 200 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "非去极化神经肌肉阻滞剂（氨基甾体），骨骼肌松弛药",
+      "apresentacoes": [
+        { "forma": "安瓿 2 mg/2 mL (1 mg/mL)", "obs": "Pavulon®" },
+        { "forma": "安瓿 4 mg/2 mL (2 mg/mL)", "obs": "Pavulon®" },
+        { "forma": "瓶 10 mg/5 mL (2 mg/mL)", "obs": "Pavulon®" }
+      ],
+      "preparo": [
+        { "diluicao": "推注：原液", "concentracao": "1-2 mg/mL" },
+        { "diluicao": "20 mg + 100 mL 生理盐水/葡萄糖", "concentracao": "0.2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "40 mg + 200 mL 生理盐水", "concentracao": "0.2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "10 mg + 100 mL 生理盐水", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "起效：2.5-3 分钟 | 持续：60-90 分钟 | 25% 恢复：60-100 分钟",
+        "氨基甾体：约80%肾排泄；肾功能不全时蓄积及3-OH代谢物 - 严重肾衰优选阿曲库铵/顺阿曲库铵",
+        "迷走神经阻滞效应：常见心动过速及血压升高（心脏M2阻滞）",
+        "必须TOF监测；逆转：新斯的明+阿托品或舒更葡糖",
+        "与碱性溶液、硫喷妥钠不相容；ICU避免>48-72h长时间输注（肌病）",
+        "15-30°C保存；稀释后冷藏24h，室温12h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量30-40%（清除率降低，持续时间延长）。监测TOF。",
+        "renal": "ClCr 50-80：减量25%。ClCr 30-50：减量40-50%，延长间隔。ClCr <30：减量50%，避免长时间输注。严重肾衰优选阿曲库铵/顺阿曲库铵。",
+        "hepatico": "轻中度：酌情调整（约20%）。重度肝硬化/腹水：减量30%。监测TOF。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "潘库溴铵 插管（成人）",
+        "doseTexto": "0.08-0.1 mg/kg IV",
+        "doseMin": 0.08,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "潘库溴铵 维持（成人）",
+        "doseTexto": "0.01-0.02 mg/kg IV 每40-60分钟",
+        "doseMin": 0.01,
+        "doseMax": 0.02,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "潘库溴铵 输注（成人）",
+        "doseTexto": "0.02-0.04 mg/kg/h (0.33-0.67 mcg/kg/min)",
+        "doseMin": 0.33,
+        "doseMax": 0.67,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "潘库溴铵 插管（儿童）",
+        "doseTexto": "新生儿 0.04-0.06；儿童 0.1-0.15 mg/kg IV",
+        "doseMin": 0.04,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "潘库溴铵 维持（儿童）",
+        "doseTexto": "0.01-0.03 mg/kg 每30-45分钟",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "潘库溴铵 输注（儿童）",
+        "doseTexto": "0.03-0.06 mg/kg/h (0.5-1 mcg/kg/min)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

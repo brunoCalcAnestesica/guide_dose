@@ -1,0 +1,714 @@
+{
+  "PT": {
+    "nome": "Ampicilina/Sulbactam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções moderadas a graves",
+          "descricaoDose": "1,5–3 g IV 6/6h. ClCr 15-30: 6/12h; ClCr <15: 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1500,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "1,5–3 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 15-30: 6/12h; ClCr <15: 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções intra-abdominais",
+          "descricaoDose": "3 g IV 6/6h. ClCr 15-30: 6/12h; ClCr <15: 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "3 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 15-30: 6/12h; ClCr <15: 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "3 g IV 30–60 min antes da incisão.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "3 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes da incisão",
+            "ajusteRenal": "ClCr <15: considerar dose única ou intervalo prolongado.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções leves a moderadas (pediátrico)",
+          "descricaoDose": "100–200 mg/kg/dia IV dividido 6/6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 200,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves (pediátrico)",
+          "descricaoDose": "200–300 mg/kg/dia IV dividido 6/6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 200,
+            "dosePorKgMax": 300,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Penicilina + inibidor de beta-lactamase (proporção fixa 2:1 ampicilina:sulbactam)",
+      "apresentacoes": [
+        { "forma": "Frasco 1,5 g", "obs": "1 g ampicilina + 0,5 g sulbactam – pó injetável" },
+        { "forma": "Frasco 3 g", "obs": "2 g ampicilina + 1 g sulbactam – pó injetável" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 1,5 g em 3,2 mL água estéril; diluir em 50–100 mL SF ou SG.", "concentracao": "Infundir em 15–30 min" }
+      ],
+      "observacoes": [
+        "Espectro: Gram+, Gram- (incl. produtores de beta-lactamase), anaeróbios (B. fragilis)",
+        "Cobre H. influenzae, M. catarrhalis, E. coli, Klebsiella, Bacteroides. NÃO cobre Pseudomonas, MRSA",
+        "Excreção renal 75–85%; ajustar intervalo em insuficiência renal",
+        "Proporção fixa 2:1 – doses referem-se ao total (ampicilina + sulbactam)",
+        "Estabilidade: 8 h em ambiente; 48 h refrigerado após reconstituição",
+        "Contraindicado em alergia a penicilinas; reação cruzada com cefalosporinas (~10%)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal; ajustar intervalo conforme ClCr.",
+        "renal": "ClCr 30–50: sem ajuste. ClCr 15–30: a cada 12 h. ClCr <15: a cada 24 h.",
+        "hepatico": "Não requer ajuste. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ampicilina/Sulbactam – infecções graves (adulto)",
+        "doseTexto": "3 g IV 6/6h",
+        "doseMin": 3000,
+        "doseMax": 3000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ampicilina/Sulbactam – profilaxia cirúrgica",
+        "doseTexto": "3 g IV 30–60 min antes da incisão",
+        "doseMin": 3000,
+        "doseMax": 3000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ampicilina/Sulbactam – pediátrico (leve/moderado)",
+        "doseTexto": "100–200 mg/kg/dia IV 6/6h",
+        "doseMin": 100,
+        "doseMax": 200,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ampicilina/Sulbactam – pediátrico (grave)",
+        "doseTexto": "200–300 mg/kg/dia IV 6/6h",
+        "doseMin": 200,
+        "doseMax": 300,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ampicillin/sulbactam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderate to severe infections",
+          "descricaoDose": "1.5–3 g IV q6h. CrCl 15-30: q12h; CrCl <15: q24h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1500,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "1.5–3 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "CrCl 15-30: q12h; CrCl <15: q24h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intra-abdominal infections",
+          "descricaoDose": "3 g IV q6h. CrCl 15-30: q12h; CrCl <15: q24h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "3 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "CrCl 15-30: q12h; CrCl <15: q24h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "3 g IV 30–60 min before incision.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "3 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30–60 min before incision",
+            "ajusteRenal": "CrCl <15: consider single dose or extended interval.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mild to moderate infections (pediatric)",
+          "descricaoDose": "100–200 mg/kg/day IV divided q6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 200,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe infections (pediatric)",
+          "descricaoDose": "200–300 mg/kg/day IV divided q6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 200,
+            "dosePorKgMax": 300,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Penicillin + beta-lactamase inhibitor (fixed 2:1 ampicillin:sulbactam)",
+      "apresentacoes": [
+        { "forma": "Vial 1.5 g", "obs": "1 g ampicillin + 0.5 g sulbactam – powder for injection" },
+        { "forma": "Vial 3 g", "obs": "2 g ampicillin + 1 g sulbactam – powder for injection" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute 1.5 g with 3.2 mL sterile water; dilute in 50–100 mL NS or D5W.", "concentracao": "Infuse over 15–30 min" }
+      ],
+      "observacoes": [
+        "Spectrum: Gram+, Gram- (incl. beta-lactamase producers), anaerobes (B. fragilis)",
+        "Covers H. influenzae, M. catarrhalis, E. coli, Klebsiella, Bacteroides. Does NOT cover Pseudomonas, MRSA",
+        "Renal excretion 75–85%; extend interval in renal impairment",
+        "Fixed 2:1 ratio – doses refer to total (ampicillin + sulbactam)",
+        "Stability: 8 h room temp; 48 h refrigerated after reconstitution",
+        "Contraindicated in penicillin allergy; cross-reactivity with cephalosporins (~10%)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function; adjust interval per CrCl.",
+        "renal": "CrCl 30–50: no adjustment. CrCl 15–30: q12h. CrCl <15: q24h.",
+        "hepatico": "No dose adjustment. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ampicillin/sulbactam – severe infections (adult)",
+        "doseTexto": "3 g IV q6h",
+        "doseMin": 3000,
+        "doseMax": 3000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ampicillin/sulbactam – surgical prophylaxis",
+        "doseTexto": "3 g IV 30–60 min before incision",
+        "doseMin": 3000,
+        "doseMax": 3000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ampicillin/sulbactam – pediatric (mild/moderate)",
+        "doseTexto": "100–200 mg/kg/day IV q6h",
+        "doseMin": 100,
+        "doseMax": 200,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Ampicillin/sulbactam – pediatric (severe)",
+        "doseTexto": "200–300 mg/kg/day IV q6h",
+        "doseMin": 200,
+        "doseMax": 300,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ampicilina/sulbactam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones moderadas a graves",
+          "descricaoDose": "1,5–3 g IV 6/6h. ClCr 15-30: 6/12h; ClCr <15: 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1500,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "1,5–3 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 15-30: 6/12h; ClCr <15: 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones intraabdominales",
+          "descricaoDose": "3 g IV 6/6h. ClCr 15-30: 6/12h; ClCr <15: 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "3 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 15-30: 6/12h; ClCr <15: 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "3 g IV 30–60 min antes de la incisión.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "3 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes de la incisión",
+            "ajusteRenal": "ClCr <15: considerar dosis única o intervalo prolongado.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones leves a moderadas (pediátrico)",
+          "descricaoDose": "100–200 mg/kg/día IV dividido 6/6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 200,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves (pediátrico)",
+          "descricaoDose": "200–300 mg/kg/día IV dividido 6/6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 200,
+            "dosePorKgMax": 300,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Penicilina + inhibidor de beta-lactamasa (proporción fija 2:1 ampicilina:sulbactam)",
+      "apresentacoes": [
+        { "forma": "Frasco 1,5 g", "obs": "1 g ampicilina + 0,5 g sulbactam – polvo inyectable" },
+        { "forma": "Frasco 3 g", "obs": "2 g ampicilina + 1 g sulbactam – polvo inyectable" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 1,5 g en 3,2 mL agua estéril; diluir en 50–100 mL SF o SG.", "concentracao": "Perfundir en 15–30 min" }
+      ],
+      "observacoes": [
+        "Espectro: Gram+, Gram- (incl. productores beta-lactamasa), anaerobios (B. fragilis)",
+        "Cubre H. influenzae, M. catarrhalis, E. coli, Klebsiella, Bacteroides. NO cubre Pseudomonas, MRSA",
+        "Excreción renal 75–85%; alargar intervalo en insuficiencia renal",
+        "Proporción fija 2:1 – dosis referidas al total (ampicilina + sulbactam)",
+        "Estabilidad: 8 h ambiente; 48 h refrigerado tras reconstitución",
+        "Contraindicado en alergia a penicilinas; reacción cruzada con cefalosporinas (~10%)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal; ajustar intervalo según ClCr.",
+        "renal": "ClCr 30–50: sin ajuste. ClCr 15–30: cada 12 h. ClCr <15: cada 24 h.",
+        "hepatico": "No requiere ajuste. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ampicilina/sulbactam – infecciones graves (adulto)",
+        "doseTexto": "3 g IV 6/6h",
+        "doseMin": 3000,
+        "doseMax": 3000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ampicilina/sulbactam – profilaxis quirúrgica",
+        "doseTexto": "3 g IV 30–60 min antes de la incisión",
+        "doseMin": 3000,
+        "doseMax": 3000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ampicilina/sulbactam – pediátrico (leve/moderado)",
+        "doseTexto": "100–200 mg/kg/día IV 6/6h",
+        "doseMin": 100,
+        "doseMax": 200,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ampicilina/sulbactam – pediátrico (grave)",
+        "doseTexto": "200–300 mg/kg/día IV 6/6h",
+        "doseMin": 200,
+        "doseMax": 300,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氨苄西林/舒巴坦",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "中重度感染",
+          "descricaoDose": "1.5–3 g 静注 每6小时。ClCr 15-30：每12小时；ClCr <15：每24小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1500,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "1.5–3 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 15-30：每12小时；ClCr <15：每24小时。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "腹腔内感染",
+          "descricaoDose": "3 g 静注 每6小时。ClCr 15-30：每12小时；ClCr <15：每24小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "3 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 15-30：每12小时；ClCr <15：每24小时。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "3 g 静注 术前30–60分钟。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "3 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "术前30–60分钟",
+            "ajusteRenal": "ClCr <15：考虑单次或延长间隔。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "轻至中度感染（儿科）",
+          "descricaoDose": "100–200 mg/kg/日 静注 分次 每6小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 200,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "重度感染（儿科）",
+          "descricaoDose": "200–300 mg/kg/日 静注 分次 每6小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 200,
+            "dosePorKgMax": 300,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "青霉素 + β-内酰胺酶抑制剂（固定比例2:1 氨苄西林:舒巴坦）",
+      "apresentacoes": [
+        { "forma": "西林瓶 1.5 g", "obs": "1 g 氨苄西林 + 0.5 g 舒巴坦 – 注射用粉剂" },
+        { "forma": "西林瓶 3 g", "obs": "2 g 氨苄西林 + 1 g 舒巴坦 – 注射用粉剂" }
+      ],
+      "preparo": [
+        { "diluicao": "1.5 g 用3.2 mL灭菌注射用水配制；稀释于50–100 mL生理盐水或5%葡萄糖。", "concentracao": "15–30分钟内输完" }
+      ],
+      "observacoes": [
+        "谱：革兰+、革兰-（含产酶菌）、厌氧菌（脆弱拟杆菌）",
+        "覆盖流感嗜血杆菌、卡他莫拉菌、大肠杆菌、克雷伯菌、拟杆菌。不覆盖铜绿假单胞菌、MRSA",
+        "肾排泄75–85%；肾功能不全时延长给药间隔",
+        "固定2:1比例 – 剂量指总量（氨苄西林+舒巴坦）",
+        "稳定性：配制后室温8小时或冷藏48小时",
+        "青霉素过敏禁忌；与头孢菌素交叉反应约10%"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能；按ClCr调整间隔。",
+        "renal": "ClCr 30–50：无需调整。ClCr 15–30：每12小时。ClCr <15：每24小时。",
+        "hepatico": "无需调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氨苄西林/舒巴坦 – 重度感染（成人）",
+        "doseTexto": "3 g 静注 每6小时",
+        "doseMin": 3000,
+        "doseMax": 3000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氨苄西林/舒巴坦 – 手术预防",
+        "doseTexto": "3 g 静注 术前30–60分钟",
+        "doseMin": 3000,
+        "doseMax": 3000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氨苄西林/舒巴坦 – 儿科（轻/中度）",
+        "doseTexto": "100–200 mg/kg/日 静注 每6小时",
+        "doseMin": 100,
+        "doseMax": 200,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "氨苄西林/舒巴坦 – 儿科（重度）",
+        "doseTexto": "200–300 mg/kg/日 静注 每6小时",
+        "doseMin": 200,
+        "doseMax": 300,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

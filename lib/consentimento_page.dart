@@ -1,49 +1,56 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'storage_manager.dart';
 import 'home.dart';
+import 'theme/app_colors.dart';
 
 class ConsentimentoPage extends StatelessWidget {
-  const ConsentimentoPage({super.key});
+  const ConsentimentoPage({super.key, this.onAccepted});
+
+  final VoidCallback? onAccepted;
 
   String _getConsentText(BuildContext context) {
-    final locale = Localizations
-        .localeOf(context)
-        .languageCode;
+    final locale = Localizations.localeOf(context).languageCode;
     switch (locale) {
       case 'pt':
         return "Este aplicativo é destinado exclusivamente a profissionais de saúde habilitados, preferencialmente médicos, e seu uso pressupõe conhecimento técnico, responsabilidade clínica e julgamento profissional. "
-            "Ao prosseguir, você declara que possui qualificação para interpretar e aplicar as informações contidas no GuideDose.\n\n"
-            "Ao utilizar este aplicativo, você concorda plenamente com os termos abaixo e isenta as plataformas de distribuição (Google Play Store e Apple App Store) de qualquer responsabilidade, direta ou indireta, decorrente da instalação, funcionamento, interpretação, uso incorreto ou falhas deste aplicativo.\n\n"
-            "O GuideDose visa auxiliar o raciocínio clínico e facilitar cálculos médicos de uso profissional, não substituindo o julgamento médico, a conduta ética, as diretrizes clínicas atualizadas ou os protocolos institucionais. Toda informação tem caráter informativo e complementar, devendo ser validada antes de qualquer uso clínico.\n\n"
-            "A equipe responsável pelo GuideDose não se responsabiliza por eventos adversos, erros de dosagem, falhas terapêuticas ou quaisquer consequências clínicas oriundas do uso ou mau uso do conteúdo. Ao identificar erros, o usuário compromete-se a comunicar a equipe responsável para possível correção.\n\n"
+            "Ao prosseguir, você declara possuir qualificação para interpretar e aplicar as informações contidas no Guide Dose ®.\n\n"
+            "Este termo refere-se às políticas de uso do Guide Dose ®. Ao utilizar este aplicativo, você concorda plenamente com os termos abaixo e isenta as plataformas de distribuição (Google Play Store e Apple App Store) de qualquer responsabilidade, direta ou indireta, decorrente da instalação, funcionamento, interpretação, uso incorreto ou falhas deste aplicativo.\n\n"
+            "A MedCalk LTDA não se responsabiliza por condutas adotadas pelos usuários. O ato médico é intransferível. O aplicativo não responsabiliza as empresas que publicam o aplicativo. Trata-se de um programa experimental e todas as doses, informações e cálculos devem ser confirmados. Seu uso é exclusivo para fins de aprendizado.\n\n"
+            "O Guide Dose ® visa auxiliar o raciocínio clínico e facilitar cálculos médicos de uso profissional, não substituindo o julgamento médico, a conduta ética, as diretrizes clínicas atualizadas ou os protocolos institucionais. Toda informação tem caráter informativo e complementar, devendo ser validada antes de qualquer uso clínico.\n\n"
+            "As informações descritas no aplicativo são sigilosas e seguem a LGPD. Todas as condutas são baseadas na literatura.\n\n"
+            "A equipe responsável pelo Guide Dose ® não se responsabiliza por eventos adversos, erros de dosagem, falhas terapêuticas ou quaisquer consequências clínicas oriundas do uso ou mau uso do conteúdo. Ao identificar erros, o usuário compromete-se a comunicar a equipe responsável para possível correção.\n\n"
             "As decisões clínicas são de responsabilidade exclusiva do profissional usuário. Se não concordar integralmente com estes termos, interrompa imediatamente o uso e desinstale o aplicativo.";
       case 'es':
         return "Esta aplicación está destinada exclusivamente a profesionales de la salud calificados, preferentemente médicos, y su uso implica conocimiento técnico, responsabilidad clínica y juicio profesional. "
-            "Al continuar, usted declara poseer calificación para interpretar y aplicar la información contenida en GuideDose.\n\n"
-            "Al utilizar esta aplicación, usted acepta plenamente los términos a continuación y exime a las plataformas de distribución (Google Play Store y Apple App Store) de cualquier responsabilidad, directa o indirecta, derivada de la instalación, funcionamiento, interpretación o mal uso de esta aplicación.\n\n"
-            "GuideDose tiene como objetivo apoyar el razonamiento clínico y facilitar cálculos médicos profesionales, sin sustituir el juicio médico, la conducta ética, las guías clínicas actualizadas o los protocolos institucionales. Toda la información tiene carácter informativo y complementario, y debe ser verificada antes de su uso clínico.\n\n"
-            "El equipo responsable de GuideDose no se responsabiliza por eventos adversos, errores de dosificación, fallos terapéuticos o consecuencias clínicas derivadas del uso incorrecto del contenido. Al detectar errores, el usuario se compromete a informar al equipo para su posible corrección.\n\n"
+            "Al continuar, usted declara poseer calificación para interpretar y aplicar la información contenida en Guide Dose ®.\n\n"
+            "Este término se refiere a las políticas de uso de Guide Dose ®. Al utilizar esta aplicación, usted acepta plenamente los términos a continuación y exime a las plataformas de distribución (Google Play Store y Apple App Store) de cualquier responsabilidad, directa o indirecta, derivada de la instalación, funcionamiento, interpretación o mal uso de esta aplicación.\n\n"
+            "MedCalk LTDA no se responsabiliza por conductas adoptadas por los usuarios. El acto médico es intransferible. La aplicación no responsabiliza a las empresas que publican la aplicación. Se trata de un programa experimental y todas las dosis, informaciones y cálculos deben ser confirmados. Su uso es exclusivo para fines de aprendizaje.\n\n"
+            "Guide Dose ® tiene como objetivo apoyar el razonamiento clínico y facilitar cálculos médicos profesionales, sin sustituir el juicio médico, la conducta ética, las guías clínicas actualizadas o los protocolos institucionales. Toda la información tiene carácter informativo y complementario, y debe ser verificada antes de su uso clínico.\n\n"
+            "Las informaciones descritas en la aplicación son confidenciales y siguen la LGPD. Todas las conductas se basan en la literatura.\n\n"
+            "El equipo responsable de Guide Dose ® no se responsabiliza por eventos adversos, errores de dosificación, fallos terapéuticos o consecuencias clínicas derivadas del uso incorrecto del contenido. Al detectar errores, el usuario se compromete a informar al equipo para su posible corrección.\n\n"
             "Las decisiones clínicas son de responsabilidad exclusiva del usuario profesional. Si no está completamente de acuerdo con estos términos, interrumpa el uso y desinstale la aplicación inmediatamente.";
       case 'zh':
-        return "本应用程序专为具有资质的医疗专业人士（优选执业医师）设计，使用即表示您具备解读与应用 GuideDose 信息的能力。\n\n"
-            "使用本应用即视为您同意以下条款，并免除 Google Play 商店与 Apple App 商店因安装、操作、解释、误用或本应用任何故障导致的直接或间接责任。\n\n"
-            "GuideDose 用于辅助临床推理和专业医学计算，不能替代医学判断、道德规范、最新临床指南或机构协议。所有信息仅供参考，使用前需经过验证。\n\n"
-            "GuideDose 团队不对因使用、误用内容而造成的不良事件、剂量错误或临床后果承担责任。若发现错误，用户应立即通知开发团队以便修正。\n\n"
+        return "本应用程序专为具有资质的医疗专业人士（优选执业医师）设计，使用即表示您具备解读与应用 Guide Dose ® 信息的能力。\n\n"
+            "本条款涉及 Guide Dose ® 的使用政策。使用本应用即视为您同意以下条款，并免除 Google Play 商店与 Apple App 商店因安装、操作、解释、误用或本应用任何故障导致的直接或间接责任。\n\n"
+            "MedCalk LTDA 不对用户采取的行为承担责任。医疗行为不可转让。本应用不对发布应用的公司承担责任。本应用为实验性程序，所有剂量、信息和计算均需核实，仅供学习用途。\n\n"
+            "Guide Dose ® 用于辅助临床推理和专业医学计算，不能替代医学判断、道德规范、最新临床指南或机构协议。所有信息仅供参考，使用前需经过验证。\n\n"
+            "应用中描述的信息具有保密性并遵循 LGPD。所有处置均基于文献。\n\n"
+            "Guide Dose ® 团队不对因使用、误用内容而造成的不良事件、剂量错误或临床后果承担责任。若发现错误，用户应立即通知开发团队以便修正。\n\n"
             "所有临床决策由使用者独立负责。如果您不同意这些条款，请立即停止使用并卸载本应用。";
       default:
-        return "This application is intended exclusively for qualified healthcare professionals, preferably physicians. By continuing, you declare you have the qualifications to interpret and apply the content provided in GuideDose.\n\n"
-            "By using this app, you fully agree to the terms below and release the distribution platforms (Google Play Store and Apple App Store) from any direct or indirect liability related to installation, performance, interpretation, misuse, or errors.\n\n"
-            "GuideDose supports clinical reasoning and facilitates professional medical calculations. It does not replace medical judgment, ethics, updated clinical guidelines, or institutional protocols. All content is for informational purposes only and must be validated before clinical use.\n\n"
-            "The GuideDose team shall not be held responsible for adverse events, dosage errors, therapeutic failures, or clinical consequences from misuse. Upon finding errors, users agree to notify the team for review and correction.\n\n"
+        return "This application is intended exclusively for qualified healthcare professionals, preferably physicians. By continuing, you declare you have the qualifications to interpret and apply the content provided in Guide Dose ®.\n\n"
+            "This term refers to the Guide Dose ® usage policies. By using this app, you fully agree to the terms below and release the distribution platforms (Google Play Store and Apple App Store) from any direct or indirect liability related to installation, performance, interpretation, misuse, or errors.\n\n"
+            "MedCalk LTDA is not responsible for conduct adopted by users. The medical act is non-transferable. The app does not hold responsible the companies that publish the application. This is an experimental program, and all doses, information, and calculations must be confirmed. Its use is exclusively for learning purposes.\n\n"
+            "Guide Dose ® supports clinical reasoning and facilitates professional medical calculations. It does not replace medical judgment, ethics, updated clinical guidelines, or institutional protocols. All content is for informational purposes only and must be validated before clinical use.\n\n"
+            "The information described in the app is confidential and follows LGPD. All conduct is based on the literature.\n\n"
+            "The Guide Dose ® team shall not be held responsible for adverse events, dosage errors, therapeutic failures, or clinical consequences from misuse. Upon finding errors, users agree to notify the team for review and correction.\n\n"
             "All clinical decisions are the sole responsibility of the user. If you do not fully agree with these terms, stop using the app and uninstall it immediately.";
     }
   }
 
-
   String _getButtonText(BuildContext context) {
-    final locale = Localizations
-        .localeOf(context)
-        .languageCode;
+    final locale = Localizations.localeOf(context).languageCode;
     switch (locale) {
       case 'pt':
         return "Aceitar e Continuar";
@@ -60,6 +67,10 @@ class ConsentimentoPage extends StatelessWidget {
     try {
       await StorageManager.instance.initialize();
       await StorageManager.instance.setBool('termoAceito', true);
+      if (onAccepted != null) {
+        onAccepted!.call();
+        return;
+      }
 
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
@@ -68,6 +79,11 @@ class ConsentimentoPage extends StatelessWidget {
         ),
       );
     } catch (e) {
+      if (onAccepted != null) {
+        onAccepted!.call();
+        return;
+      }
+
       // Se houver erro, ainda navega para a tela principal
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
@@ -78,6 +94,12 @@ class ConsentimentoPage extends StatelessWidget {
     }
   }
 
+  Future<void> _abrirWhatsapp() async {
+    const whatsappUrl = 'https://wa.me/5511960176851';
+    final uri = Uri.parse(whatsappUrl);
+    await launchUrl(uri, mode: LaunchMode.externalApplication);
+  }
+
   @override
   Widget build(BuildContext context) {
     final consentText = _getConsentText(context);
@@ -85,67 +107,83 @@ class ConsentimentoPage extends StatelessWidget {
 
     return Scaffold(
       backgroundColor: Colors.grey[100],
-      body: Center(
-        child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 24.0),
-          child: SingleChildScrollView(
-            child: Card(
-              shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(16)),
-              elevation: 8,
-              child: Padding(
-                padding: const EdgeInsets.symmetric(
-                    horizontal: 20.0, vertical: 32.0),
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    const Icon(Icons.medical_services_outlined, size: 64,
-                        color: Colors.indigo),
-                    const SizedBox(height: 20),
-                    Text(
-                      "GuideDose",
-                      style: Theme
-                          .of(context)
-                          .textTheme
-                          .headlineSmall
-                          ?.copyWith(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.indigo,
-                      ),
-                    ),
-                    const SizedBox(height: 20),
-                    Text(
-                      consentText,
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(fontSize: 16, height: 1.5),
-                    ),
-                    const SizedBox(height: 30),
-                    SizedBox(
-                      width: double.infinity,
-                      child: ElevatedButton(
-                        style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.indigo,
-                          padding: const EdgeInsets.symmetric(vertical: 14),
-                          shape: RoundedRectangleBorder(
-                              borderRadius: BorderRadius.circular(12)),
-                          elevation: 3,
+      body: Stack(
+        children: [
+          Center(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24.0),
+              child: SingleChildScrollView(
+                child: Card(
+                  shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16)),
+                  elevation: 8,
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 20.0, vertical: 32.0),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        const Icon(Icons.medical_services_outlined,
+                            size: 64, color: AppColors.primary),
+                        const SizedBox(height: 20),
+                        Text(
+                          "Guide Dose ®",
+                          style: Theme.of(context)
+                              .textTheme
+                              .headlineSmall
+                              ?.copyWith(
+                                fontWeight: FontWeight.bold,
+                                color: AppColors.primary,
+                              ),
                         ),
-                        onPressed: () => _aceitarTermo(context),
-                        child: Text(
-                          buttonText,
-                          style: const TextStyle(
-                              fontSize: 16, color: Colors.white),
+                        const SizedBox(height: 20),
+                        Text(
+                          consentText,
+                          textAlign: TextAlign.center,
+                          style: const TextStyle(fontSize: 16, height: 1.5),
                         ),
-                      ),
+                        const SizedBox(height: 30),
+                        SizedBox(
+                          width: double.infinity,
+                          child: ElevatedButton(
+                            style: ElevatedButton.styleFrom(
+                              backgroundColor: AppColors.primary,
+                              padding: const EdgeInsets.symmetric(vertical: 14),
+                              shape: RoundedRectangleBorder(
+                                  borderRadius: BorderRadius.circular(12)),
+                              elevation: 3,
+                            ),
+                            onPressed: () => _aceitarTermo(context),
+                            child: Text(
+                              buttonText,
+                              style: const TextStyle(
+                                  fontSize: 16, color: Colors.white),
+                            ),
+                          ),
+                        ),
+                      ],
                     ),
-                  ],
+                  ),
                 ),
               ),
             ),
           ),
-        ),
+          SafeArea(
+            child: Align(
+              alignment: Alignment.topRight,
+              child: Padding(
+                padding: const EdgeInsets.only(top: 8.0, right: 12.0),
+                child: IconButton(
+                  tooltip: 'Contato no WhatsApp',
+                  icon: const Icon(Icons.chat_bubble_outline,
+                      color: AppColors.primary),
+                  onPressed: _abrirWhatsapp,
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
-
     );
   }
 }

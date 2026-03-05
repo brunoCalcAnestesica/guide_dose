@@ -1,0 +1,39 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Imipenem + Cilastatina",
+      "nome_comercial": ["Tienam"],
+      "classe_terapeutica": "Carbapenêmico + Inibidor da deidropeptidase renal",
+      "mecanismo_acao": "Imipenem liga-se às PBPs (especialmente PBP1 e PBP2), inibindo a síntese da parede celular. Cilastatina inibe a deidropeptidase-I renal, prevenindo a metabolização do imipenem nos rins.",
+      "espectro": {
+        "gram_positivos": ["Staphylococcus (MSSA)", "Streptococcus", "Enterococcus faecalis"],
+        "gram_negativos": ["E. coli", "Klebsiella", "Enterobacter", "Serratia", "Citrobacter", "Proteus", "Pseudomonas aeruginosa", "Acinetobacter (variável)"],
+        "anaerobios": ["Bacteroides fragilis", "Clostridium", "Peptostreptococcus"]
+      },
+      "nao_cobre": ["MRSA", "Enterococcus faecium", "Stenotrophomonas maltophilia", "Legionella"],
+      "indicacoes": [
+        "Infecções polimicrobianas graves",
+        "Infecções intra-abdominais",
+        "Pneumonia nosocomial",
+        "Infecções de pele complicadas",
+        "Neutropenia febril"
+      ],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "500mg/500mg", "liofilizado": true}
+      ],
+      "farmacocinetica": {
+        "meia_vida": "1 hora",
+        "excrecao": "Renal (70%)",
+        "ligacao_proteica": "20%"
+      },
+      "ajuste_renal": {
+        "ClCr_40_70": "500mg a cada 6-8h",
+        "ClCr_20_40": "250-500mg a cada 8-12h",
+        "ClCr_menor_20": "250mg a cada 12h"
+      },
+      "efeitos_adversos": ["Náusea/vômito", "Diarreia", "Convulsões (dose >50mg/kg, IR)", "Rash", "Flebite"],
+      "contraindicacoes": ["Alergia a carbapenêmicos", "Uso cauteloso se história de convulsões"],
+      "observacoes": ["Evitar em meningite (risco de convulsão)", "Preferir meropenem para Pseudomonas"]
+    }
+  }
+}

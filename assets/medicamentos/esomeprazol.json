@@ -1,0 +1,37 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Esomeprazol",
+      "nomesComerciais": ["Nexium®", "Esomex®"],
+      "classeTerapeutica": "Inibidor da Bomba de Prótons (IBP) / S-isômero do omeprazol",
+      "mecanismoAcao": "Inibe seletiva e irreversivelmente a H+/K+-ATPase (bomba de prótons) nas células parietais gástricas. O S-isômero apresenta menor metabolismo de primeira passagem e maior biodisponibilidade.",
+      "indicacoes": ["DRGE", "Esofagite erosiva", "Úlcera péptica", "Erradicação de H. pylori", "Síndrome de Zollinger-Ellison", "HDA", "Profilaxia de úlcera de estresse"],
+      "apresentacoes": ["Comprimidos 20 mg, 40 mg", "Cápsulas 20 mg, 40 mg", "Frasco-ampola 40 mg"],
+      "posologia": {
+        "DRGE": "20-40 mg VO 1x/dia por 4-8 semanas",
+        "ulceraPeptica": "20-40 mg VO 1x/dia por 4-8 semanas",
+        "erradicacaoHPylori": "20 mg VO 2x/dia + antibióticos por 7-14 dias",
+        "profilaxiaUTI": "40 mg IV 1x/dia",
+        "HDA": "80 mg IV bolus + 8 mg/h infusão por 72h",
+        "pediatrico": {
+          "menores20kg": "10 mg/dia",
+          "maiores20kg": "10-20 mg/dia"
+        }
+      },
+      "preparoIV": {
+        "bolus": "40 mg diluídos em 5 mL SF - infundir em 3 min",
+        "infusao": "40 mg em 100 mL SF - infundir em 10-30 min"
+      },
+      "vantagensSobreOmeprazol": [
+        "Biodisponibilidade ~90% vs ~30-40%",
+        "Menor variabilidade interindividual",
+        "Menor metabolismo via CYP2C19",
+        "Menor interação com clopidogrel"
+      ],
+      "contraindicacoes": ["Hipersensibilidade a IBPs", "Uso concomitante com nelfinavir"],
+      "efeitosAdversos": ["Cefaleia", "Diarreia", "Náusea", "Dor abdominal", "Hipomagnesemia (uso prolongado)", "Risco de fraturas (uso > 1 ano)"],
+      "observacoes": ["Administrar 30-60 min antes das refeições", "Menor interação com clopidogrel que omeprazol", "Monitorar magnésio em uso > 3 meses"],
+      "categoriaGravidez": "B"
+    }
+  }
+}

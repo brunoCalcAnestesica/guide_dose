@@ -1,0 +1,67 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Concentrado de Plaquetas",
+      "nomesComerciais": ["CP", "Plaquetas por aférese", "Pool de plaquetas"],
+      "classeTerapeutica": "Hemoderivado / Componente sanguíneo",
+      "composicao": "Plaquetas suspensas em plasma, obtidas por centrifugação de sangue total (concentrado randômico) ou por aférese de doador único. Cada unidade randômica contém ≥5,5 x 10¹⁰ plaquetas em 50-70 mL.",
+      "indicacoes": [
+        "Trombocitopenia com sangramento ativo",
+        "Profilaxia pré-procedimento invasivo",
+        "Transfusão maciça",
+        "Disfunção plaquetária com sangramento"
+      ],
+      "apresentacoes": [
+        "Concentrado randômico: 50-70 mL/unidade",
+        "Aférese: 200-400 mL/bolsa (equivale a 6-8 unidades)"
+      ],
+      "posologia": {
+        "adulto": {
+          "dose": "1 U/10 kg (pool) ou 1 bolsa de aférese",
+          "efeito_pool": "Eleva 5-10 mil/mm³ por unidade",
+          "efeito_aferese": "Eleva 30-50 mil/mm³"
+        },
+        "pediatrico": {
+          "dose": "10-20 mL/kg IV"
+        }
+      },
+      "triggers_transfusionais": {
+        "profilatico_estavel": "< 10.000/mm³",
+        "sangramento_febre": "< 20.000/mm³",
+        "procedimento_menor": "< 50.000/mm³",
+        "cirurgia_maior": "< 100.000/mm³",
+        "neurocirugia_oftalmo": "< 100.000/mm³"
+      },
+      "armazenamento": {
+        "temperatura": "20-24°C com agitação contínua",
+        "validade": "5 dias (risco bacteriano)",
+        "observacao": "NÃO refrigerar"
+      },
+      "administracao": {
+        "via": "IV através de equipo com filtro",
+        "velocidade": "Rápida (30-60 min)",
+        "observacao": "Não misturar com outros hemocomponentes"
+      },
+      "contraindicacoes": [
+        "PTT (púrpura trombocitopênica trombótica)",
+        "PTI (exceto sangramento grave)",
+        "Trombocitopenia induzida por heparina (HIT)"
+      ],
+      "efeitosAdversos": [
+        "Reação febril não hemolítica",
+        "Reação alérgica",
+        "Contaminação bacteriana",
+        "Aloimunização (refratariedade)",
+        "TRALI"
+      ],
+      "observacoes": [
+        "Compatibilidade ABO preferencial (não obrigatória)",
+        "Rh: mulheres em idade fértil devem receber Rh compatível",
+        "Refratariedade: considerar plaquetas HLA compatíveis",
+        "Verificar incremento 10-60 min após transfusão",
+        "Plaquetas irradiadas: para imunocomprometidos"
+      ],
+      "categoriaGravidez": "Compatível"
+    }
+  }
+}

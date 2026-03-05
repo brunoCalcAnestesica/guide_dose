@@ -15,9 +15,9 @@ class MedicamentoOxidoNitroso {
   }
 
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
-    final isFavorito = favoritos.contains(nome);
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -34,6 +34,23 @@ class MedicamentoOxidoNitroso {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+
+    return _buildCardOxidoNitroso(
+      context,
+        peso,
+        faixaEtaria,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static Widget _buildCardOxidoNitroso(BuildContext context, double peso, String faixaEtaria, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(

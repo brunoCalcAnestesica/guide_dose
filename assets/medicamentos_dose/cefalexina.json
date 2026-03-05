@@ -1,0 +1,690 @@
+{
+  "PT": {
+    "nome": "Cefalexina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções de pele (adulto)",
+          "descricaoDose": "500 mg VO 6/6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Faringite estreptocócica (adulto)",
+          "descricaoDose": "500 mg VO 12/12h por 10 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h por 10 dias",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "ITU não complicada (adulto)",
+          "descricaoDose": "500 mg VO 6/6h por 7-14 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h por 7-14 dias",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "1-2 g VO 1h antes do procedimento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única 1h antes",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico – dose padrão",
+          "descricaoDose": "12,5-25 mg/kg/dose VO 6/6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 12.5,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 10-50: reduzir dose ou alongar intervalo; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Cefalosporina de 1ª geração",
+      "apresentacoes": [
+        { "forma": "Cápsulas 250 mg, 500 mg", "obs": "" },
+        { "forma": "Comprimidos 500 mg, 1 g", "obs": "" },
+        { "forma": "Suspensão oral 125 mg/5 mL", "obs": "" },
+        { "forma": "Suspensão oral 250 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspensão: reconstituir com água conforme bula", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Pode ser administrada com ou sem alimentos",
+        "Reação cruzada com penicilinas ~1-2% – avaliar história de alergia",
+        "Categoria B na gestação",
+        "Excelente atividade contra MSSA e estreptococos",
+        "ClCr <50: ajustar dose ou intervalo conforme indicação",
+        "Probenecida aumenta níveis séricos; evitar associação com aminoglicosídeos (nefrotoxicidade)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajuste por função renal (ClCr). Manter hidratação.",
+        "renal": "ClCr 10-50 mL/min: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h. Hemodiálise: dose após sessão.",
+        "hepatico": "Não requer ajuste específico. Em insuficiência hepática grave, monitorar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefalexina (adulto – pele/ITU)",
+        "doseTexto": "500 mg VO 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalexina (adulto – faringite)",
+        "doseTexto": "500 mg VO 12/12h por 10 dias",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalexina (pediátrico)",
+        "doseTexto": "12,5-25 mg/kg/dose VO 6/6h",
+        "doseMin": 12.5,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Cephalexin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Skin infections (adult)",
+          "descricaoDose": "500 mg PO q6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q6h",
+            "ajusteRenal": "CrCl 10-50: 250-500 mg q8h; CrCl <10: 250 mg q12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Streptococcal pharyngitis (adult)",
+          "descricaoDose": "500 mg PO q12h for 10 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h for 10 days",
+            "ajusteRenal": "CrCl 10-50: 250-500 mg q8h; CrCl <10: 250 mg q12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Uncomplicated UTI (adult)",
+          "descricaoDose": "500 mg PO q6h for 7-14 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q6h for 7-14 days",
+            "ajusteRenal": "CrCl 10-50: 250-500 mg q8h; CrCl <10: 250 mg q12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "1-2 g PO 1h before procedure",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "single dose 1h before",
+            "ajusteRenal": "CrCl 10-50: 250-500 mg q8h; CrCl <10: 250 mg q12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediatric – standard dose",
+          "descricaoDose": "12.5-25 mg/kg/dose PO q6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 12.5,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q6h",
+            "ajusteRenal": "CrCl 10-50: reduce dose or extend interval; CrCl <10: 250 mg q12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiotic – First-generation cephalosporin",
+      "apresentacoes": [
+        { "forma": "Capsules 250 mg, 500 mg", "obs": "" },
+        { "forma": "Tablets 500 mg, 1 g", "obs": "" },
+        { "forma": "Oral suspension 125 mg/5 mL", "obs": "" },
+        { "forma": "Oral suspension 250 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspension: reconstitute with water per label", "concentracao": "Per presentation" }
+      ],
+      "observacoes": [
+        "May be taken with or without food",
+        "Cross-reactivity with penicillins ~1-2% – assess allergy history",
+        "Pregnancy category B",
+        "Excellent activity against MSSA and streptococci",
+        "CrCl <50: adjust dose or interval per indication",
+        "Probenecid increases serum levels; avoid combination with aminoglycosides (nephrotoxicity)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Adjust for renal function (CrCl). Maintain hydration.",
+        "renal": "CrCl 10-50 mL/min: 250-500 mg q8h; CrCl <10: 250 mg q12h. Hemodialysis: dose after session.",
+        "hepatico": "No specific adjustment. In severe hepatic failure, monitor."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cephalexin (adult – skin/UTI)",
+        "doseTexto": "500 mg PO q6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cephalexin (adult – pharyngitis)",
+        "doseTexto": "500 mg PO q12h for 10 days",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cephalexin (pediatric)",
+        "doseTexto": "12.5-25 mg/kg/dose PO q6h",
+        "doseMin": 12.5,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Cefalexina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones de piel (adulto)",
+          "descricaoDose": "500 mg VO 6/6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Faringitis estreptocócica (adulto)",
+          "descricaoDose": "500 mg VO 12/12h por 10 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h por 10 días",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "ITU no complicada (adulto)",
+          "descricaoDose": "500 mg VO 6/6h por 7-14 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h por 7-14 días",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "1-2 g VO 1 h antes del procedimiento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única 1 h antes",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico – dosis estándar",
+          "descricaoDose": "12,5-25 mg/kg/dosis VO 6/6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 12.5,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 10-50: reducir dosis o intervalo; ClCr <10: 250 mg 12/12h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Cefalosporina de 1.ª generación",
+      "apresentacoes": [
+        { "forma": "Cápsulas 250 mg, 500 mg", "obs": "" },
+        { "forma": "Comprimidos 500 mg, 1 g", "obs": "" },
+        { "forma": "Suspensión oral 125 mg/5 mL", "obs": "" },
+        { "forma": "Suspensión oral 250 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspensión: reconstituir con agua según prospecto", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Puede administrarse con o sin alimentos",
+        "Reacción cruzada con penicilinas ~1-2% – valorar historia de alergia",
+        "Categoría B en embarazo",
+        "Excelente actividad frente a MSSA y estreptococos",
+        "ClCr <50: ajustar dosis o intervalo según indicación",
+        "Probenecid aumenta niveles séricos; evitar asociación con aminoglucósidos (nefrotoxicidad)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajustar por función renal (ClCr). Mantener hidratación.",
+        "renal": "ClCr 10-50 mL/min: 250-500 mg 8/8h; ClCr <10: 250 mg 12/12h. Hemodiálisis: dosis tras sesión.",
+        "hepatico": "No requiere ajuste específico. En insuficiencia hepática grave, monitorizar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefalexina (adulto – piel/ITU)",
+        "doseTexto": "500 mg VO 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalexina (adulto – faringitis)",
+        "doseTexto": "500 mg VO 12/12h por 10 días",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalexina (pediátrico)",
+        "doseTexto": "12,5-25 mg/kg/dosis VO 6/6h",
+        "doseMin": 12.5,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "头孢氨苄",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "皮肤感染（成人）",
+          "descricaoDose": "500 mg 口服 每6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 每8小时; ClCr <10: 250 mg 每12小时",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "链球菌咽炎（成人）",
+          "descricaoDose": "500 mg 口服 每12小时 共10天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时 共10天",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 每8小时; ClCr <10: 250 mg 每12小时",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "单纯性尿路感染（成人）",
+          "descricaoDose": "500 mg 口服 每6小时 共7-14天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每6小时 共7-14天",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 每8小时; ClCr <10: 250 mg 每12小时",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "1-2 g 口服 术前1小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "术前1小时单次",
+            "ajusteRenal": "ClCr 10-50: 250-500 mg 每8小时; ClCr <10: 250 mg 每12小时",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "儿童 – 标准剂量",
+          "descricaoDose": "12.5-25 mg/kg/剂 口服 每6小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 12.5,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 10-50: 减量或延长间隔; ClCr <10: 250 mg 每12小时",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗生素 – 第一代头孢菌素",
+      "apresentacoes": [
+        { "forma": "胶囊 250 mg, 500 mg", "obs": "" },
+        { "forma": "片剂 500 mg, 1 g", "obs": "" },
+        { "forma": "口服混悬液 125 mg/5 mL", "obs": "" },
+        { "forma": "口服混悬液 250 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "混悬液：按说明书用水 reconstitute", "concentracao": "按规格" }
+      ],
+      "observacoes": [
+        "可与或不与食物同服",
+        "与青霉素交叉反应约1-2% – 评估过敏史",
+        "妊娠B类",
+        "对MSSA和链球菌活性良好",
+        "ClCr <50: 按适应证调整剂量或间隔",
+        "丙磺舒升高血药浓度；避免与氨基糖苷类联用（肾毒性）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "按肾功能（ClCr）调整。保持水化。",
+        "renal": "ClCr 10-50 mL/min: 250-500 mg 每8小时; ClCr <10: 250 mg 每12小时。血液透析：透析后给药。",
+        "hepatico": "无需特殊调整。严重肝衰竭时监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "头孢氨苄（成人 – 皮肤/尿路感染）",
+        "doseTexto": "500 mg 口服 每6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "头孢氨苄（成人 – 咽炎）",
+        "doseTexto": "500 mg 口服 每12小时 共10天",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "头孢氨苄（儿童）",
+        "doseTexto": "12.5-25 mg/kg/剂 口服 每6小时",
+        "doseMin": 12.5,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "PT": {
+    "nome": "Angiotensina II",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Choque vasodilatador refratário",
+          "descricaoDose": "Iniciar 20 ng/kg/min IV, titular a cada 5 min para PAM ≥65 mmHg",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção",
+          "descricaoDose": "1,25-40 ng/kg/min (titular para PAM ≥65 mmHg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Choque séptico (adjuvante a catecolaminas)",
+          "descricaoDose": "20-40 ng/kg/min (se noradrenalina >0,2 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "ng/kg/min",
+          "adulto": { "doseMin": 1.25, "doseMax": 40 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "2,5 mg em 250 mL SF/SG5% (10.000 ng/mL)", "valor": 10000 },
+            { "rotulo": "5 mg em 500 mL SF/SG5% (10.000 ng/mL)", "valor": 10000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Peptídeo vasoativo / Agonista receptor AT1",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 2,5 mg/mL (1 mL)", "obs": "Giapreza®" },
+        { "forma": "Frasco-ampola 2,5 mg/mL (2 mL = 5 mg)", "obs": "Giapreza®" }
+      ],
+      "preparo": [
+        { "diluicao": "2,5 mg em 250 mL SF/SG5%", "concentracao": "10.000 ng/mL" },
+        { "diluicao": "5 mg em 500 mL SF/SG5%", "concentracao": "10.000 ng/mL" }
+      ],
+      "observacoes": [
+        "Indicado para choque REFRATÁRIO a catecolaminas",
+        "Início: 5 min | Meia-vida: <1 min | Via independente de receptores beta",
+        "Reduzir doses de catecolaminas conforme resposta",
+        "RISCO TROMBÓTICO: manter profilaxia de TEV",
+        "Monitorar sinais de trombose arterial/venosa",
+        "Contraindicado: uso concomitante com IECA ou BRA (antagonismo)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares e trombose.",
+        "renal": "Não requer ajuste.",
+        "hepatico": "Não requer ajuste."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Angiotensina II (choque refratário)",
+        "doseTexto": "1,25-40 ng/kg/min IV",
+        "doseMin": 1.25,
+        "doseMax": 40,
+        "unidadeResultado": "ng/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Angiotensin II",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Vasodilatory shock refractory",
+          "descricaoDose": "Start 20 ng/kg/min IV, titrate every 5 min for MAP ≥65 mmHg",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance",
+          "descricaoDose": "1.25-40 ng/kg/min (titrate for MAP ≥65 mmHg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Septic shock (adjunct to catecholamines)",
+          "descricaoDose": "20-40 ng/kg/min (if norepinephrine >0.2 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "ng/kg/min",
+          "adulto": { "doseMin": 1.25, "doseMax": 40 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "2.5 mg in 250 mL NS/D5W (10,000 ng/mL)", "valor": 10000 },
+            { "rotulo": "5 mg in 500 mL NS/D5W (10,000 ng/mL)", "valor": 10000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Vasoactive peptide / AT1 receptor agonist",
+      "apresentacoes": [
+        { "forma": "Vial 2.5 mg/mL (1 mL)", "obs": "Giapreza®" },
+        { "forma": "Vial 2.5 mg/mL (2 mL = 5 mg)", "obs": "Giapreza®" }
+      ],
+      "preparo": [
+        { "diluicao": "2.5 mg in 250 mL NS/D5W", "concentracao": "10,000 ng/mL" },
+        { "diluicao": "5 mg in 500 mL NS/D5W", "concentracao": "10,000 ng/mL" }
+      ],
+      "observacoes": [
+        "Indicated for catecholamine-REFRACTORY shock",
+        "Onset: 5 min | Half-life: <1 min | Independent of beta-adrenergic receptors",
+        "Reduce catecholamine doses as response allows",
+        "THROMBOTIC RISK: maintain VTE prophylaxis",
+        "Monitor for arterial/venous thrombosis signs",
+        "Contraindicated: concomitant use with ACEi or ARB (antagonism)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular effects and thrombosis.",
+        "renal": "No dose adjustment required.",
+        "hepatico": "No dose adjustment required."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Angiotensin II (refractory shock)",
+        "doseTexto": "1.25-40 ng/kg/min IV",
+        "doseMin": 1.25,
+        "doseMax": 40,
+        "unidadeResultado": "ng/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Angiotensina II",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Shock vasodilatador refractario",
+          "descricaoDose": "Iniciar 20 ng/kg/min IV, titular cada 5 min para PAM ≥65 mmHg",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento",
+          "descricaoDose": "1,25-40 ng/kg/min (titular para PAM ≥65 mmHg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Shock séptico (adyuvante a catecolaminas)",
+          "descricaoDose": "20-40 ng/kg/min (si noradrenalina >0,2 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "ng/kg/min",
+          "adulto": { "doseMin": 1.25, "doseMax": 40 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "2,5 mg en 250 mL SF/SG5% (10.000 ng/mL)", "valor": 10000 },
+            { "rotulo": "5 mg en 500 mL SF/SG5% (10.000 ng/mL)", "valor": 10000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopresor - Péptido vasoactivo / Agonista receptor AT1",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 2,5 mg/mL (1 mL)", "obs": "Giapreza®" },
+        { "forma": "Frasco-ampolla 2,5 mg/mL (2 mL = 5 mg)", "obs": "Giapreza®" }
+      ],
+      "preparo": [
+        { "diluicao": "2,5 mg en 250 mL SF/SG5%", "concentracao": "10.000 ng/mL" },
+        { "diluicao": "5 mg en 500 mL SF/SG5%", "concentracao": "10.000 ng/mL" }
+      ],
+      "observacoes": [
+        "Indicado para shock REFRACTARIO a catecolaminas",
+        "Inicio: 5 min | Vida media: <1 min | Via independiente de receptores beta",
+        "Reducir dosis de catecolaminas segun respuesta",
+        "RIESGO TROMBOTICO: mantener profilaxis de ETV",
+        "Monitorizar signos de trombosis arterial/venosa",
+        "Contraindicado: uso concomitante con IECA o BRA (antagonismo)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste especifico. Monitorizar efectos cardiovasculares y trombosis.",
+        "renal": "No requiere ajuste.",
+        "hepatico": "No requiere ajuste."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Angiotensina II (shock refractario)",
+        "doseTexto": "1,25-40 ng/kg/min IV",
+        "doseMin": 1.25,
+        "doseMax": 40,
+        "unidadeResultado": "ng/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "血管紧张素II",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "难治性血管扩张性休克",
+          "descricaoDose": "起始20 ng/kg/min 静脉，每5分钟滴定至MAP≥65 mmHg",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "维持",
+          "descricaoDose": "1.25-40 ng/kg/min（滴定至MAP≥65 mmHg）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "感染性休克（儿茶酚胺辅助）",
+          "descricaoDose": "20-40 ng/kg/min（若去甲肾上腺素>0.2 mcg/kg/min）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "ng/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1.25,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "ng/kg/min",
+          "adulto": { "doseMin": 1.25, "doseMax": 40 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "2.5 mg 溶于 250 mL 生理盐水/5%葡萄糖 (10,000 ng/mL)", "valor": 10000 },
+            { "rotulo": "5 mg 溶于 500 mL 生理盐水/5%葡萄糖 (10,000 ng/mL)", "valor": 10000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "血管加压药 - 血管活性肽 / AT1受体激动剂",
+      "apresentacoes": [
+        { "forma": "瓶 2.5 mg/mL (1 mL)", "obs": "Giapreza®" },
+        { "forma": "瓶 2.5 mg/mL (2 mL = 5 mg)", "obs": "Giapreza®" }
+      ],
+      "preparo": [
+        { "diluicao": "2.5 mg 溶于 250 mL 生理盐水/5%葡萄糖", "concentracao": "10,000 ng/mL" },
+        { "diluicao": "5 mg 溶于 500 mL 生理盐水/5%葡萄糖", "concentracao": "10,000 ng/mL" }
+      ],
+      "observacoes": [
+        "适用于儿茶酚胺难治性休克",
+        "起效5分钟 | 半衰期<1分钟 | 不依赖β肾上腺素受体",
+        "根据反应减少儿茶酚胺剂量",
+        "血栓形成风险：维持VTE预防",
+        "监测动静脉血栓形成体征",
+        "禁忌：与ACEi或ARB联用（拮抗）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测心血管效应和血栓形成。",
+        "renal": "无需调整。",
+        "hepatico": "无需调整。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "血管紧张素II（难治性休克）",
+        "doseTexto": "1.25-40 ng/kg/min 静脉",
+        "doseMin": 1.25,
+        "doseMax": 40,
+        "unidadeResultado": "ng/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

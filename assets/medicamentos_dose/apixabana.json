@@ -1,0 +1,754 @@
+{
+  "PT": {
+    "nome": "Apixabana",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA – anticoagulação (adulto)",
+          "descricaoDose": "5 mg 12/12h VO. Se ≥2 de: idade ≥80 anos, peso ≤60 kg, Cr ≥1,5 mg/dL: 2,5 mg 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "≥2 de: idade ≥80 anos, peso ≤60 kg, Cr ≥1,5 mg/dL: 2,5 mg 12/12h",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – fase aguda (adulto)",
+          "descricaoDose": "10 mg 2x/dia VO por 7 dias. Após, 5 mg 2x/dia. Com ou sem alimento.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia por 7 dias",
+            "ajusteRenal": "ClCr <25: considerar alternativas.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – manutenção (adulto)",
+          "descricaoDose": "5 mg 2x/dia VO. Após 7 dias de fase aguda. Com ou sem alimento.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <25: considerar alternativas.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – profilaxia prolongada (adulto)",
+          "descricaoDose": "2,5 mg 2x/dia VO. Após ≥6 meses de tratamento. Redução do risco de recorrência.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <25: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "Profilaxia TVP – cirurgia ortopédica (adulto)",
+          "descricaoDose": "2,5 mg 2x/dia VO. Por 12-35 dias pós-artroplastia quadril/joelho.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <25: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Inibidor direto do fator Xa",
+      "apresentacoes": [
+        { "forma": "Comprimido 2,5 mg", "obs": "FA dose reduzida, profilaxia" },
+        { "forma": "Comprimido 5 mg", "obs": "FA padrão, TVP/TEP manutenção" }
+      ],
+      "preparo": [
+        { "diluicao": "VO. Pode tomar com ou sem alimento.", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "FA dose reduzida (2,5 mg 12/12h): ≥2 de idade ≥80 anos, peso ≤60 kg, Cr ≥1,5 mg/dL",
+        "Menor dependência renal que rivaroxabana (27% excreção renal inalterada)",
+        "Reversão específica: andexanet alfa. Inespecífica: CCP",
+        "Não requer monitorização de rotina (INR desnecessário)",
+        "ClCr <25 mL/min: contraindicado em profilaxia; cautela em tratamento",
+        "Suspender 48h antes de cirurgia de alto risco"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Idade ≥80 é critério para dose reduzida em FA (se ≥2 critérios). Avaliar benefício/risco.",
+        "renal": "FA: dose reduzida se ≥2 critérios (Cr ≥1,5 inclui). ClCr <25: contraindicado profilaxia; cautela tratamento.",
+        "hepatico": "Contraindicado em hepatopatia com coagulopatia (Child-Pugh B/C)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Apixabana FA (adulto)",
+        "doseTexto": "5 mg 12/12h (2,5 mg se ≥2 critérios)",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Apixabana TVP/TEP aguda (adulto)",
+        "doseTexto": "10 mg 2x/dia por 7 dias",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Apixabana TVP/TEP manutenção (adulto)",
+        "doseTexto": "5 mg 2x/dia",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Apixabana profilaxia prolongada (adulto)",
+        "doseTexto": "2,5 mg 2x/dia",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Apixabana profilaxia ortopédica (adulto)",
+        "doseTexto": "2,5 mg 2x/dia",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Apixaban",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "AF – anticoagulation (adult)",
+          "descricaoDose": "5 mg twice daily PO. If ≥2 of: age ≥80 years, weight ≤60 kg, Cr ≥1.5 mg/dL: 2.5 mg twice daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "≥2 of: age ≥80 years, weight ≤60 kg, Cr ≥1.5 mg/dL: 2.5 mg twice daily",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "DVT/PE – acute phase (adult)",
+          "descricaoDose": "10 mg twice daily PO for 7 days. Then 5 mg twice daily. With or without food.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily for 7 days",
+            "ajusteRenal": "CrCl <25: consider alternatives.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "DVT/PE – maintenance (adult)",
+          "descricaoDose": "5 mg twice daily PO. After 7 days of acute phase. With or without food.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <25: consider alternatives.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "DVT/PE – extended prophylaxis (adult)",
+          "descricaoDose": "2.5 mg twice daily PO. After ≥6 months of treatment. Recurrent DVT/PE risk reduction.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <25: contraindicated.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "VTE prophylaxis – orthopedic surgery (adult)",
+          "descricaoDose": "2.5 mg twice daily PO. For 12-35 days post-hip/knee arthroplasty.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <25: contraindicated.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Direct factor Xa inhibitor",
+      "apresentacoes": [
+        { "forma": "Tablet 2.5 mg", "obs": "AF reduced dose, prophylaxis" },
+        { "forma": "Tablet 5 mg", "obs": "AF standard, DVT/PE maintenance" }
+      ],
+      "preparo": [
+        { "diluicao": "PO. May take with or without food.", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "AF reduced dose (2.5 mg twice daily): ≥2 of age ≥80 years, weight ≤60 kg, Cr ≥1.5 mg/dL",
+        "Lower renal dependence than rivaroxaban (27% unchanged renal excretion)",
+        "Specific reversal: andexanet alfa. Nonspecific: PCC",
+        "No routine monitoring required (INR unnecessary)",
+        "CrCl <25 mL/min: contraindicated in prophylaxis; caution in treatment",
+        "Discontinue 48h before high-risk surgery"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Age ≥80 is criterion for reduced dose in AF (if ≥2 criteria). Assess benefit/risk.",
+        "renal": "AF: reduced dose if ≥2 criteria (Cr ≥1.5 included). CrCl <25: contraindicated prophylaxis; caution treatment.",
+        "hepatico": "Contraindicated in liver disease with coagulopathy (Child-Pugh B/C)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Apixaban AF (adult)",
+        "doseTexto": "5 mg twice daily (2.5 mg if ≥2 criteria)",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Apixaban DVT/PE acute (adult)",
+        "doseTexto": "10 mg twice daily for 7 days",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Apixaban DVT/PE maintenance (adult)",
+        "doseTexto": "5 mg twice daily",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Apixaban extended prophylaxis (adult)",
+        "doseTexto": "2.5 mg twice daily",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Apixaban orthopedic prophylaxis (adult)",
+        "doseTexto": "2.5 mg twice daily",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Apixabana",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA – anticoagulación (adulto)",
+          "descricaoDose": "5 mg 12/12h VO. Si ≥2 de: edad ≥80 años, peso ≤60 kg, Cr ≥1,5 mg/dL: 2,5 mg 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "≥2 de: edad ≥80 años, peso ≤60 kg, Cr ≥1,5 mg/dL: 2,5 mg 12/12h",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – fase aguda (adulto)",
+          "descricaoDose": "10 mg 2x/día VO por 7 días. Luego 5 mg 2x/día. Con o sin alimento.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día por 7 días",
+            "ajusteRenal": "ClCr <25: considerar alternativas.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – mantenimiento (adulto)",
+          "descricaoDose": "5 mg 2x/día VO. Tras 7 días de fase aguda. Con o sin alimento.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr <25: considerar alternativas.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – profilaxis prolongada (adulto)",
+          "descricaoDose": "2,5 mg 2x/día VO. Tras ≥6 meses de tratamiento. Reducción riesgo recidiva.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr <25: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "Profilaxis TVP – cirugía ortopédica (adulto)",
+          "descricaoDose": "2,5 mg 2x/día VO. Por 12-35 días post-artroplastia cadera/rodilla.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr <25: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Inhibidor directo del factor Xa",
+      "apresentacoes": [
+        { "forma": "Comprimido 2,5 mg", "obs": "FA dosis reducida, profilaxis" },
+        { "forma": "Comprimido 5 mg", "obs": "FA estándar, TVP/TEP mantenimiento" }
+      ],
+      "preparo": [
+        { "diluicao": "VO. Puede tomar con o sin comida.", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "FA dosis reducida (2,5 mg 12/12h): ≥2 de edad ≥80 años, peso ≤60 kg, Cr ≥1,5 mg/dL",
+        "Menor dependencia renal que rivaroxabana (27% excreción renal inalterada)",
+        "Reversión específica: andexanet alfa. Inespecífica: CCP",
+        "No requiere monitorización rutinaria (INR innecesario)",
+        "ClCr <25 mL/min: contraindicado en profilaxis; precaución en tratamiento",
+        "Suspender 48h antes de cirugía de alto riesgo"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Edad ≥80 es criterio para dosis reducida en FA (si ≥2 criterios). Evaluar beneficio/riesgo.",
+        "renal": "FA: dosis reducida si ≥2 criterios (Cr ≥1,5 incluido). ClCr <25: contraindicado profilaxis; precaución tratamiento.",
+        "hepatico": "Contraindicado en hepatopatía con coagulopatía (Child-Pugh B/C)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Apixabana FA (adulto)",
+        "doseTexto": "5 mg 12/12h (2,5 mg si ≥2 criterios)",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Apixabana TVP/TEP aguda (adulto)",
+        "doseTexto": "10 mg 2x/día por 7 días",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Apixabana TVP/TEP mantenimiento (adulto)",
+        "doseTexto": "5 mg 2x/día",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Apixabana profilaxis prolongada (adulto)",
+        "doseTexto": "2,5 mg 2x/día",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Apixabana profilaxis ortopédica (adulto)",
+        "doseTexto": "2,5 mg 2x/día",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "阿哌沙班",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "房颤抗凝（成人）",
+          "descricaoDose": "5 mg 每日2次 口服。若≥2项：年龄≥80岁、体重≤60 kg、Cr≥1.5 mg/dL：2.5 mg 每日2次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "≥2项：年龄≥80岁、体重≤60 kg、Cr≥1.5 mg/dL：2.5 mg 每日2次",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "DVT/PE急性期（成人）",
+          "descricaoDose": "10 mg 每日2次 口服7天。随后5 mg 每日2次。餐前或餐后。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次共7天",
+            "ajusteRenal": "ClCr <25：考虑替代方案。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "DVT/PE维持（成人）",
+          "descricaoDose": "5 mg 每日2次 口服。急性期7天后。餐前或餐后。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <25：考虑替代方案。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "DVT/PE长期预防（成人）",
+          "descricaoDose": "2.5 mg 每日2次 口服。治疗≥6个月后。降低复发风险。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <25：禁忌。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "VTE预防骨科手术（成人）",
+          "descricaoDose": "2.5 mg 每日2次 口服。髋/膝关节置换后12-35天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <25：禁忌。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - 直接Xa因子抑制剂",
+      "apresentacoes": [
+        { "forma": "片剂 2.5 mg", "obs": "房颤减量、预防" },
+        { "forma": "片剂 5 mg", "obs": "房颤标准、DVT/PE维持" }
+      ],
+      "preparo": [
+        { "diluicao": "口服。可空腹或餐后服用。", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "房颤减量（2.5 mg 每日2次）：≥2项：年龄≥80岁、体重≤60 kg、Cr≥1.5 mg/dL",
+        "肾功能依赖性低于利伐沙班（27%原形经肾排泄）",
+        "特异性逆转：andexanet alfa。非特异性：PCC",
+        "无需常规监测（不需INR）",
+        "ClCr <25 mL/min：预防禁忌；治疗慎用",
+        "高危手术前48小时停用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "年龄≥80为房颤减量标准（若≥2项）。评估获益/风险。",
+        "renal": "房颤：≥2项标准减量（Cr≥1.5含）。ClCr <25：预防禁忌；治疗慎用。",
+        "hepatico": "凝血功能障碍性肝病禁忌（Child-Pugh B/C）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿哌沙班 房颤（成人）",
+        "doseTexto": "5 mg 每日2次（≥2项时2.5 mg）",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿哌沙班 DVT/PE急性（成人）",
+        "doseTexto": "10 mg 每日2次 共7天",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿哌沙班 DVT/PE维持（成人）",
+        "doseTexto": "5 mg 每日2次",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿哌沙班 长期预防（成人）",
+        "doseTexto": "2.5 mg 每日2次",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿哌沙班 骨科预防（成人）",
+        "doseTexto": "2.5 mg 每日2次",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Concentrado de Hemácias",
+      "nomesComerciais": ["CH", "Hemácias Filtradas", "Hemácias Lavadas"],
+      "classeTerapeutica": "Hemoderivado / Componente sanguíneo",
+      "composicao": "Eritrócitos concentrados com hematócrito de 65-80%, volume aproximado de 250-300 mL por unidade, contendo plasma residual e anticoagulante-preservante.",
+      "indicacoes": [
+        "Anemia sintomática",
+        "Hemorragia aguda com instabilidade hemodinâmica",
+        "Anemia perioperatória",
+        "Doença falciforme (crises)",
+        "Protocolo de transfusão maciça"
+      ],
+      "apresentacoes": [
+        "Bolsa de 250-300 mL (1 unidade)",
+        "CH filtrado (leucorreduzido)",
+        "CH lavado (para alérgicos a proteínas plasmáticas)",
+        "CH irradiado (para imunocomprometidos)"
+      ],
+      "posologia": {
+        "adulto": {
+          "anemia": "1-2 unidades (eleva Hb ~1 g/dL por unidade)",
+          "trigger_restritivo": "Hb < 7 g/dL (estável)",
+          "trigger_cardiopata": "Hb < 8 g/dL"
+        },
+        "pediatrico": {
+          "dose": "10-15 mL/kg IV",
+          "efeito": "Eleva Hb 2-3 g/dL"
+        },
+        "hemorragia_macica": {
+          "protocolo": "1:1:1 (CH:PFC:Plaquetas)",
+          "definicao": "Perda >50% volemia em 3h ou >10 U CH em 24h"
+        }
+      },
+      "armazenamento": {
+        "temperatura": "2-6°C",
+        "validade": "Até 42 dias (dependendo do anticoagulante)",
+        "apos_retirada": "Transfundir em até 4 horas"
+      },
+      "administracao": {
+        "via": "IV através de equipo com filtro",
+        "velocidade": "1-2 mL/min nos primeiros 15 min, depois até 4 mL/kg/h",
+        "tempo_maximo": "4 horas por unidade"
+      },
+      "contraindicacoes": [
+        "Anemia assintomática sem indicação clara",
+        "Reação transfusional prévia grave (relativa)"
+      ],
+      "efeitosAdversos": [
+        "Reação febril não hemolítica",
+        "Reação alérgica/urticariforme",
+        "Reação hemolítica aguda",
+        "TRALI (lesão pulmonar)",
+        "TACO (sobrecarga circulatória)",
+        "Infecção transmitida por transfusão"
+      ],
+      "observacoes": [
+        "Tipagem ABO/Rh obrigatória (exceto emergência com O negativo)",
+        "Prova cruzada recomendada (45-60 min)",
+        "Monitorar sinais vitais durante transfusão",
+        "Em reação transfusional: PARAR imediatamente",
+        "Notificar banco de sangue em caso de reação"
+      ],
+      "categoriaGravidez": "Compatível"
+    }
+  }
+}

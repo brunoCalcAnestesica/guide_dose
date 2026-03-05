@@ -1,0 +1,598 @@
+{
+  "PT": {
+    "nome": "Minociclina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acne (moderada a grave)",
+          "descricaoDose": "50-100 mg VO a cada 12h ou 100 mg VO 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 12h ou 1x/dia",
+            "ajusteRenal": "ClCr <80: reduzir dose ou intervalo",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MRSA-CA (infecções de pele)",
+          "descricaoDose": "100 mg VO a cada 12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "ClCr <80: reduzir dose ou intervalo",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nocardiose",
+          "descricaoDose": "100 mg VO a cada 12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "ClCr <80: reduzir dose ou intervalo",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecção pediátrica (>8 anos)",
+          "descricaoDose": "1 mg/kg VO a cada 12h (máx 100 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "ClCr <80: reduzir dose ou intervalo",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico / Tetraciclina de 2ª geração",
+      "apresentacoes": [
+        { "forma": "Comprimidos / Cápsulas", "obs": "50 mg, 100 mg" },
+        { "forma": "Liberação prolongada", "obs": "45 mg, 90 mg, 135 mg (acne)" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso VO. Tomar com bastante água; evitar deitar 30 min após.", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Tetraciclina de 2ª geração; maior lipossolubilidade que doxiciclina, melhor penetração em SNC e tecidos sebáceos.",
+        "Cobertura: MRSA-CA, Mycoplasma, Chlamydia, Nocardia, P. acnes. Melhor que doxiciclina para MRSA e acne.",
+        "Efeitos vestibulares (tontura/vertigem) mais comuns que doxiciclina, especialmente em mulheres.",
+        "Pigmentação cutânea azul-acinzentada com uso prolongado; pode ser irreversível.",
+        "Requer ajuste renal: ClCr <80 mL/min – reduzir dose ou intervalo.",
+        "Contraindicado em menores de 8 anos, gestação e amamentação. Categoria D."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajuste conforme função renal (ClCr). Monitorar efeitos vestibulares e pigmentação.",
+        "renal": "ClCr <80 mL/min: reduzir dose ou intervalo. Evitar em insuficiência renal grave.",
+        "hepatico": "Hepatotoxicidade rara. Usar com cautela em hepatopatia; monitorar enzimas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Minociclina (adulto)",
+        "doseTexto": "100 mg VO a cada 12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Minociclina (pediátrico >8 anos)",
+        "doseTexto": "1 mg/kg VO a cada 12h (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Minociclina – Acne",
+        "doseTexto": "50-100 mg VO 12/12h ou 100 mg 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Minociclina – MRSA-CA",
+        "doseTexto": "100 mg VO a cada 12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Minocycline",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acne (moderate to severe)",
+          "descricaoDose": "50-100 mg PO every 12h or 100 mg PO once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 12h or once daily",
+            "ajusteRenal": "ClCr <80: reduce dose or interval",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "CA-MRSA (skin infections)",
+          "descricaoDose": "100 mg PO every 12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 12h",
+            "ajusteRenal": "ClCr <80: reduce dose or interval",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nocardiosis",
+          "descricaoDose": "100 mg PO every 12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 12h",
+            "ajusteRenal": "ClCr <80: reduce dose or interval",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric infection (>8 years)",
+          "descricaoDose": "1 mg/kg PO every 12h (max 100 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 12h",
+            "ajusteRenal": "ClCr <80: reduce dose or interval",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiotic / Second-generation tetracycline",
+      "apresentacoes": [
+        { "forma": "Tablets / Capsules", "obs": "50 mg, 100 mg" },
+        { "forma": "Extended release", "obs": "45 mg, 90 mg, 135 mg (acne)" }
+      ],
+      "preparo": [
+        { "diluicao": "PO use. Take with plenty of water; avoid lying down for 30 min after.", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Second-generation tetracycline; greater lipophilicity than doxycycline, better CNS and sebaceous tissue penetration.",
+        "Coverage: CA-MRSA, Mycoplasma, Chlamydia, Nocardia, P. acnes. Better than doxycycline for MRSA and acne.",
+        "Vestibular effects (dizziness/vertigo) more common than doxycycline, especially in women.",
+        "Blue-gray skin pigmentation with prolonged use; may be irreversible.",
+        "Requires renal adjustment: ClCr <80 mL/min – reduce dose or interval.",
+        "Contraindicated in children <8 years, pregnancy, and breastfeeding. Category D."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Adjust for renal function (ClCr). Monitor vestibular effects and pigmentation.",
+        "renal": "ClCr <80 mL/min: reduce dose or interval. Avoid in severe renal impairment.",
+        "hepatico": "Hepatotoxicity rare. Use with caution in liver disease; monitor enzymes."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Minocycline (adult)",
+        "doseTexto": "100 mg PO every 12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Minocycline (pediatric >8 years)",
+        "doseTexto": "1 mg/kg PO every 12h (max 100 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Minocycline – Acne",
+        "doseTexto": "50-100 mg PO 12h or 100 mg once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Minocycline – CA-MRSA",
+        "doseTexto": "100 mg PO every 12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Minociclina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acné (moderado a grave)",
+          "descricaoDose": "50-100 mg VO cada 12 h o 100 mg VO 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 12 h o 1x/día",
+            "ajusteRenal": "ClCr <80: reducir dosis o intervalo",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "SARM-CA (infecciones de piel)",
+          "descricaoDose": "100 mg VO cada 12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 12 h",
+            "ajusteRenal": "ClCr <80: reducir dosis o intervalo",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nocardiosis",
+          "descricaoDose": "100 mg VO cada 12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 12 h",
+            "ajusteRenal": "ClCr <80: reducir dosis o intervalo",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infección pediátrica (>8 años)",
+          "descricaoDose": "1 mg/kg VO cada 12 h (máx 100 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 12 h",
+            "ajusteRenal": "ClCr <80: reducir dosis o intervalo",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico / Tetraciclina de 2ª generación",
+      "apresentacoes": [
+        { "forma": "Comprimidos / Cápsulas", "obs": "50 mg, 100 mg" },
+        { "forma": "Liberación prolongada", "obs": "45 mg, 90 mg, 135 mg (acné)" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso VO. Tomar con abundante agua; evitar acostarse 30 min después.", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Tetraciclina de 2ª generación; mayor lipofilia que doxiciclina, mejor penetración en SNC y tejido sebáceo.",
+        "Cobertura: SARM-CA, Mycoplasma, Chlamydia, Nocardia, P. acnes. Mejor que doxiciclina para SARM y acné.",
+        "Efectos vestibulares (mareo/vértigo) más frecuentes que doxiciclina, sobre todo en mujeres.",
+        "Pigmentación cutánea azul-grisácea con uso prolongado; puede ser irreversible.",
+        "Requiere ajuste renal: ClCr <80 mL/min – reducir dosis o intervalo.",
+        "Contraindicado en menores de 8 años, embarazo y lactancia. Categoría D."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajustar según función renal (ClCr). Vigilar efectos vestibulares y pigmentación.",
+        "renal": "ClCr <80 mL/min: reducir dosis o intervalo. Evitar en insuficiencia renal grave.",
+        "hepatico": "Hepatotoxicidad rara. Usar con precaución en hepatopatía; vigilar enzimas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Minociclina (adulto)",
+        "doseTexto": "100 mg VO cada 12 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Minociclina (pediátrico >8 años)",
+        "doseTexto": "1 mg/kg VO cada 12 h (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Minociclina – Acné",
+        "doseTexto": "50-100 mg VO 12/12 h o 100 mg 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Minociclina – SARM-CA",
+        "doseTexto": "100 mg VO cada 12 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "米诺环素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "痤疮（中重度）",
+          "descricaoDose": "50-100 mg 口服 每12小时 或 100 mg 口服 每日1次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时或每日1次",
+            "ajusteRenal": "ClCr <80：减量或延长给药间隔",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "社区获得性MRSA（皮肤感染）",
+          "descricaoDose": "100 mg 口服 每12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <80：减量或延长给药间隔",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "诺卡菌病",
+          "descricaoDose": "100 mg 口服 每12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <80：减量或延长给药间隔",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童感染（>8岁）",
+          "descricaoDose": "1 mg/kg 口服 每12小时（最大100 mg/剂）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <80：减量或延长给药间隔",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗生素 / 第二代四环素类",
+      "apresentacoes": [
+        { "forma": "片剂/胶囊", "obs": "50 mg, 100 mg" },
+        { "forma": "缓释", "obs": "45 mg, 90 mg, 135 mg（痤疮）" }
+      ],
+      "preparo": [
+        { "diluicao": "口服。服用时多饮水；服药后30分钟内避免平卧。", "concentracao": "" }
+      ],
+      "observacoes": [
+        "第二代四环素；比多西环素脂溶性更高，中枢和皮脂组织渗透更好。",
+        "覆盖：社区获得性MRSA、支原体、衣原体、诺卡菌、痤疮丙酸杆菌。对MRSA和痤疮优于多西环素。",
+        "前庭反应（头晕/眩晕）较多西环素更常见，尤其女性。",
+        "长期使用可出现蓝灰色皮肤色素沉着；可能不可逆。",
+        "需肾调整：ClCr <80 mL/min 减量或延长间隔。",
+        "禁用于8岁以下儿童、妊娠及哺乳。D类。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "根据肾功能（ClCr）调整。监测前庭反应和色素沉着。",
+        "renal": "ClCr <80 mL/min：减量或延长间隔。严重肾功能不全避免使用。",
+        "hepatico": "肝毒性少见。肝病慎用；监测酶学。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "米诺环素（成人）",
+        "doseTexto": "100 mg 口服 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "米诺环素（儿童>8岁）",
+        "doseTexto": "1 mg/kg 口服 每12小时（最大100 mg）",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "米诺环素 – 痤疮",
+        "doseTexto": "50-100 mg 口服 每12小时 或 100 mg 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "米诺环素 – 社区MRSA",
+        "doseTexto": "100 mg 口服 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

@@ -17,10 +17,10 @@ class MedicamentoMidazolam {
 
   static Widget buildCard(BuildContext context, Set<String> favoritos,
       void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
-    final isFavorito = favoritos.contains(nome);
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -37,6 +37,24 @@ class MedicamentoMidazolam {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
+
+    return _buildCardMidazolam(
+      context,
+        peso,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static Widget _buildCardMidazolam(BuildContext context, double peso,
       bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
@@ -48,8 +66,9 @@ class MedicamentoMidazolam {
         const Text('Classe',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _linhaPreparo('Benzodiazepínico', 'Sedativo, ansiolítico, anticonvulsivante'),
-        
+        _linhaPreparo(
+            'Benzodiazepínico', 'Sedativo, ansiolítico, anticonvulsivante'),
+
         // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
         const Text('Apresentação',
@@ -58,7 +77,7 @@ class MedicamentoMidazolam {
         _linhaPreparo('Ampola 5mg/mL', '3mL ou 10mL | Dormonid®'),
         _linhaPreparo('Ampola 1mg/mL', '5mL (diluída)'),
         _linhaPreparo('Solução oral', '2 mg/mL'),
-        
+
         // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo',
@@ -68,7 +87,7 @@ class MedicamentoMidazolam {
         _linhaPreparo('50mg + 40mL SF', '1 mg/mL'),
         _linhaPreparo('15mg + 27mL SF', '0,5 mg/mL'),
         _textoObs('Bolus: administrar LENTO (>2 min)'),
-        
+
         // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas',
@@ -120,14 +139,14 @@ class MedicamentoMidazolam {
             descricaoDose: '0,06-0,12 mg/kg/h IV contínua',
           ),
         ],
-        
+
         // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _buildConversorInfusao(peso, isAdulto),
-        
+
         // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações',
@@ -254,7 +273,8 @@ class MedicamentoMidazolam {
         doseMax = doseMaxima;
         doseLimite = true;
       }
-      textoDose = '${doseMin.toStringAsFixed(1)}-${doseMax.toStringAsFixed(1)} $unidade';
+      textoDose =
+          '${doseMin.toStringAsFixed(1)}-${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(
@@ -280,14 +300,20 @@ class MedicamentoMidazolam {
                 color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
                 border: Border.all(
-                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                  color: doseLimite
+                      ? Colors.orange.shade200
+                      : Colors.blue.shade200,
                 ),
               ),
               child: Text(
-                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
+                doseLimite
+                    ? 'Dose: $textoDose (máx atingida)'
+                    : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  color: doseLimite
+                      ? Colors.orange.shade700
+                      : Colors.blue.shade700,
                   fontSize: 14,
                 ),
                 textAlign: TextAlign.center,

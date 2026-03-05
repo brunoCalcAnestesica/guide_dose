@@ -1,0 +1,598 @@
+{
+  "PT": {
+    "nome": "Atosiban",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Tocólise – Bolus",
+          "descricaoDose": "6,75 mg IV em 1 minuto",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6.75,
+            "doseFixa": "6,75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tocólise – Infusão inicial",
+          "descricaoDose": "300 mcg/min IV por 3 horas",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 300,
+            "doseMaxima": null,
+            "doseFixa": "300 mcg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tocólise – Infusão manutenção",
+          "descricaoDose": "100 mcg/min IV até 45 horas",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "100 mcg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão inicial (3 h)",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 200, "doseMax": 300 },
+          "pediatrico": null,
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg em 100 mL SF 0,9% (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "37,5 mg em 50 mL SF 0,9% (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "75 mg em 50 mL SF 0,9% (1500 mcg/mL)", "valor": 1500 }
+          ]
+        },
+        {
+          "titulo": "Infusão manutenção (até 45 h)",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 50, "doseMax": 100 },
+          "pediatrico": null,
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg em 100 mL SF 0,9% (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "37,5 mg em 50 mL SF 0,9% (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "75 mg em 50 mL SF 0,9% (1500 mcg/mL)", "valor": 1500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Tocolítico / Antagonista de receptores de ocitocina",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 6,75 mg/0,9 mL", "obs": "Para bolus" },
+        { "forma": "Frasco-ampola 37,5 mg/5 mL (7,5 mg/mL)", "obs": "Para infusão" }
+      ],
+      "preparo": [
+        { "diluicao": "2 frascos (75 mg) + 90 mL SF 0,9% ou SG 5%", "concentracao": "0,75 mg/mL (750 mcg/mL)" },
+        { "diluicao": "75 mg em 100 mL SF 0,9%", "concentracao": "750 mcg/mL" },
+        { "diluicao": "37,5 mg em 50 mL SF 0,9%", "concentracao": "750 mcg/mL" }
+      ],
+      "observacoes": [
+        "Usar APENAS entre 24-33 semanas de gestação",
+        "Dose máxima total: 330 mg em 48 horas",
+        "Máximo 3 ciclos de tratamento; pode repetir se contrações recorrerem",
+        "Uso exclusivamente obstétrico; sem indicação pediátrica",
+        "Efeitos adversos raros: náusea, cefaleia, rubor, hipotensão",
+        "Contraindicado: sangramento uterino anormal, eclâmpsia, sofrimento fetal, placenta prévia, infecção intrauterina"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Uso obstétrico; sem ajuste específico por idade.",
+        "renal": "Não requer ajuste de dose. Seguro em insuficiência renal.",
+        "hepatico": "Não requer ajuste de dose. Seguro em insuficiência hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Atosiban (bolus)",
+        "doseTexto": "6,75 mg IV em 1 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "6,75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Atosiban (infusão inicial)",
+        "doseTexto": "300 mcg/min IV por 3 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "300 mcg/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Atosiban (infusão manut)",
+        "doseTexto": "100 mcg/min IV por até 45 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "100 mcg/min",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Atosiban",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Tocolysis – Bolus",
+          "descricaoDose": "6.75 mg IV over 1 minute",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6.75,
+            "doseFixa": "6.75 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Tocolysis – Initial infusion",
+          "descricaoDose": "300 mcg/min IV for 3 hours",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 300,
+            "doseMaxima": null,
+            "doseFixa": "300 mcg/min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Tocolysis – Maintenance infusion",
+          "descricaoDose": "100 mcg/min IV for up to 45 hours",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "100 mcg/min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Initial infusion (3 h)",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 200, "doseMax": 300 },
+          "pediatrico": null,
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg in 100 mL NS (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "37.5 mg in 50 mL NS (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "75 mg in 50 mL NS (1500 mcg/mL)", "valor": 1500 }
+          ]
+        },
+        {
+          "titulo": "Maintenance infusion (up to 45 h)",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 50, "doseMax": 100 },
+          "pediatrico": null,
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg in 100 mL NS (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "37.5 mg in 50 mL NS (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "75 mg in 50 mL NS (1500 mcg/mL)", "valor": 1500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Tocolytic / Oxytocin receptor antagonist",
+      "apresentacoes": [
+        { "forma": "Vial 6.75 mg/0.9 mL", "obs": "For bolus" },
+        { "forma": "Vial 37.5 mg/5 mL (7.5 mg/mL)", "obs": "For infusion" }
+      ],
+      "preparo": [
+        { "diluicao": "2 vials (75 mg) + 90 mL NS or D5W", "concentracao": "0.75 mg/mL (750 mcg/mL)" },
+        { "diluicao": "75 mg in 100 mL NS", "concentracao": "750 mcg/mL" },
+        { "diluicao": "37.5 mg in 50 mL NS", "concentracao": "750 mcg/mL" }
+      ],
+      "observacoes": [
+        "Use ONLY between 24-33 weeks of gestation",
+        "Maximum total dose: 330 mg in 48 hours",
+        "Maximum 3 treatment cycles; may repeat if contractions recur",
+        "Obstetric use only; no pediatric indication",
+        "Rare adverse effects: nausea, headache, flushing, hypotension",
+        "Contraindicated: abnormal uterine bleeding, eclampsia, fetal distress, placenta previa, intrauterine infection"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Obstetric use; no specific age adjustment.",
+        "renal": "No dose adjustment required. Safe in renal impairment.",
+        "hepatico": "No dose adjustment required. Safe in hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Atosiban (bolus)",
+        "doseTexto": "6.75 mg IV over 1 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "6.75 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Atosiban (initial infusion)",
+        "doseTexto": "300 mcg/min IV for 3 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "300 mcg/min",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Atosiban (maintenance infusion)",
+        "doseTexto": "100 mcg/min IV for up to 45 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "100 mcg/min",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Atosiban",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Tocolisis – Bolus",
+          "descricaoDose": "6,75 mg IV en 1 minuto",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6.75,
+            "doseFixa": "6,75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Tocolisis – Infusión inicial",
+          "descricaoDose": "300 mcg/min IV durante 3 horas",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 300,
+            "doseMaxima": null,
+            "doseFixa": "300 mcg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Tocolisis – Infusión de mantenimiento",
+          "descricaoDose": "100 mcg/min IV hasta 45 horas",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "100 mcg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión inicial (3 h)",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 200, "doseMax": 300 },
+          "pediatrico": null,
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg en 100 mL SF 0,9% (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "37,5 mg en 50 mL SF 0,9% (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "75 mg en 50 mL SF 0,9% (1500 mcg/mL)", "valor": 1500 }
+          ]
+        },
+        {
+          "titulo": "Infusión de mantenimiento (hasta 45 h)",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 50, "doseMax": 100 },
+          "pediatrico": null,
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg en 100 mL SF 0,9% (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "37,5 mg en 50 mL SF 0,9% (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "75 mg en 50 mL SF 0,9% (1500 mcg/mL)", "valor": 1500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Tocolítico / Antagonista de receptores de oxitocina",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 6,75 mg/0,9 mL", "obs": "Para bolus" },
+        { "forma": "Frasco-ampolla 37,5 mg/5 mL (7,5 mg/mL)", "obs": "Para infusión" }
+      ],
+      "preparo": [
+        { "diluicao": "2 frascos (75 mg) + 90 mL SF 0,9% o SG 5%", "concentracao": "0,75 mg/mL (750 mcg/mL)" },
+        { "diluicao": "75 mg en 100 mL SF 0,9%", "concentracao": "750 mcg/mL" },
+        { "diluicao": "37,5 mg en 50 mL SF 0,9%", "concentracao": "750 mcg/mL" }
+      ],
+      "observacoes": [
+        "Usar SOLO entre 24-33 semanas de gestación",
+        "Dosis máxima total: 330 mg en 48 horas",
+        "Máximo 3 ciclos de tratamiento; puede repetirse si reaparecen contracciones",
+        "Uso exclusivamente obstétrico; sin indicación pediátrica",
+        "Efectos adversos raros: náusea, cefalea, rubor, hipotensión",
+        "Contraindicado: sangrado uterino anormal, eclampsia, sufrimiento fetal, placenta previa, infección intrauterina"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Uso obstétrico; sin ajuste específico por edad.",
+        "renal": "No requiere ajuste de dosis. Seguro en insuficiencia renal.",
+        "hepatico": "No requiere ajuste de dosis. Seguro en insuficiencia hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Atosiban (bolus)",
+        "doseTexto": "6,75 mg IV en 1 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "6,75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Atosiban (infusión inicial)",
+        "doseTexto": "300 mcg/min IV durante 3 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "300 mcg/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Atosiban (infusión mant)",
+        "doseTexto": "100 mcg/min IV hasta 45 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "100 mcg/min",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "阿托西班",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "宫缩抑制 – 推注",
+          "descricaoDose": "6.75 mg IV 1分钟内",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6.75,
+            "doseFixa": "6.75 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "宫缩抑制 – 初始输注",
+          "descricaoDose": "300 mcg/min IV 持续3小时",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 300,
+            "doseMaxima": null,
+            "doseFixa": "300 mcg/min",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "宫缩抑制 – 维持输注",
+          "descricaoDose": "100 mcg/min IV 最多45小时",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "100 mcg/min",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "初始输注（3小时）",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 200, "doseMax": 300 },
+          "pediatrico": null,
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg 溶于 100 mL 生理盐水 (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "37.5 mg 溶于 50 mL 生理盐水 (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "75 mg 溶于 50 mL 生理盐水 (1500 mcg/mL)", "valor": 1500 }
+          ]
+        },
+        {
+          "titulo": "维持输注（最多45小时）",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 50, "doseMax": 100 },
+          "pediatrico": null,
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg 溶于 100 mL 生理盐水 (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "37.5 mg 溶于 50 mL 生理盐水 (750 mcg/mL)", "valor": 750 },
+            { "rotulo": "75 mg 溶于 50 mL 生理盐水 (1500 mcg/mL)", "valor": 1500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "宫缩抑制剂 / 催产素受体拮抗剂",
+      "apresentacoes": [
+        { "forma": "瓶 6.75 mg/0.9 mL", "obs": "用于推注" },
+        { "forma": "瓶 37.5 mg/5 mL (7.5 mg/mL)", "obs": "用于输注" }
+      ],
+      "preparo": [
+        { "diluicao": "2瓶 (75 mg) + 90 mL 生理盐水或5%葡萄糖", "concentracao": "0.75 mg/mL (750 mcg/mL)" },
+        { "diluicao": "75 mg 溶于 100 mL 生理盐水", "concentracao": "750 mcg/mL" },
+        { "diluicao": "37.5 mg 溶于 50 mL 生理盐水", "concentracao": "750 mcg/mL" }
+      ],
+      "observacoes": [
+        "仅用于妊娠24-33周",
+        "48小时最大总剂量：330 mg",
+        "最多3个治疗周期；宫缩复发可重复",
+        "仅产科使用；无儿科适应症",
+        "罕见不良反应：恶心、头痛、潮红、低血压",
+        "禁忌：异常子宫出血、子痫、胎儿窘迫、前置胎盘、宫内感染"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "产科使用；无特定年龄调整。",
+        "renal": "无需调整剂量。肾功能不全时安全。",
+        "hepatico": "无需调整剂量。肝功能不全时安全。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿托西班（推注）",
+        "doseTexto": "6.75 mg IV 1分钟内",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "6.75 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿托西班（初始输注）",
+        "doseTexto": "300 mcg/min IV 3小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "300 mcg/min",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿托西班（维持输注）",
+        "doseTexto": "100 mcg/min IV 最多45小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "100 mcg/min",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

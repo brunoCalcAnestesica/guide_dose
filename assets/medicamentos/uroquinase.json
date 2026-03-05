@@ -1,0 +1,76 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Uroquinase",
+      "nomesComerciais": ["Abbokinase®", "Urokinase®"],
+      "classeTerapeutica": "Trombolítico / Ativador direto do plasminogênio",
+      "mecanismoAcao": "Enzima proteolítica produzida pelas células renais humanas. Converte diretamente o plasminogênio em plasmina, tanto livre quanto ligado à fibrina. NÃO é fibrino-específico. Por ser de origem humana, apresenta menor risco de reações alérgicas e não induz formação de anticorpos neutralizantes.",
+      "indicacoes": [
+        "Tromboembolismo pulmonar (TEP) maciço",
+        "Desobstrução de cateteres venosos centrais",
+        "Trombose arterial aguda (intra-arterial)"
+      ],
+      "apresentacoes": [
+        "Frasco-ampola 250.000 UI pó liofilizado",
+        "Frasco-ampola 500.000 UI pó liofilizado"
+      ],
+      "posologia": {
+        "tep": {
+          "ataque": "4.400 UI/kg IV em 10 minutos",
+          "manutencao": "4.400 UI/kg/h IV por 12 horas"
+        },
+        "desobstrucao_cateter": {
+          "dose": "5.000-25.000 UI instilado no lúmen",
+          "tecnica": "Preencher lúmen, aguardar 1-4 horas, aspirar"
+        }
+      },
+      "preparo": {
+        "reconstituicao": "Adicionar 5 mL de água estéril sem bacteriostático",
+        "tecnica": "Girar suavemente, não agitar",
+        "diluicao": "Diluir em SF 0,9% ou SG 5%",
+        "estabilidade": "24h refrigerado",
+        "observacao": "Filtrar através de filtro de 0,45 μm opcional"
+      },
+      "farmacocinetica": {
+        "inicio_acao": "Imediato",
+        "meia_vida": "10-20 minutos",
+        "metabolismo": "Hepático",
+        "eliminacao": "Renal e biliar"
+      },
+      "contraindicacoes": [
+        "Sangramento ativo ou diátese hemorrágica",
+        "AVC hemorrágico ou AVC nos últimos 2 meses",
+        "Neoplasia intracraniana",
+        "Cirurgia intracraniana recente",
+        "Trauma grave recente",
+        "HAS não controlada (>180/110 mmHg)",
+        "Endocardite bacteriana",
+        "Gravidez ou pós-parto recente"
+      ],
+      "efeitosAdversos": [
+        "Sangramento (principal)",
+        "Hemorragia intracraniana",
+        "Sangramento GI",
+        "Hematúria",
+        "Sangramento no local de punção",
+        "Febre",
+        "Reações alérgicas (raras - origem humana)"
+      ],
+      "interacoes": [
+        "Anticoagulantes: suspender durante trombólise",
+        "Antiplaquetários: aumenta risco de sangramento"
+      ],
+      "observacoes": [
+        "ORIGEM HUMANA: menor risco alérgico",
+        "PODE SER REUTILIZADA: não forma anticorpos",
+        "Uso limitado pela disponibilidade no mercado",
+        "Monitorar aPTT durante infusão",
+        "Suspender heparina durante trombólise",
+        "Reiniciar heparina quando aPTT <2x normal",
+        "Não aprovada para IAM nos EUA",
+        "Evitar procedimentos invasivos"
+      ],
+      "categoriaGravidez": "B"
+    }
+  }
+}

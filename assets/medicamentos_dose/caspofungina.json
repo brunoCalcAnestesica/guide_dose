@@ -1,0 +1,726 @@
+{
+  "PT": {
+    "nome": "Caspofungina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ataque (1º dia)",
+          "descricaoDose": "70 mg IV dose única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção (a partir do 2º dia)",
+          "descricaoDose": "50 mg IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção peso >80 kg",
+          "descricaoDose": "70 mg IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hepatopatia moderada (Child-Pugh 7-9)",
+          "descricaoDose": "35 mg IV 1x/dia (após ataque 70 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "35 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child-Pugh B: 35 mg/dia após ataque; Child-Pugh C: não estudado"
+          }
+        },
+        {
+          "titulo": "Candidemia / Candida invasiva (pediátrico 3m–17a)",
+          "descricaoDose": "70 mg/m² no 1º dia (máx 70 mg), depois 50 mg/m²/dia (máx 70 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg/m² dia 1; depois 50 mg/m²/dia (máx 70 mg)",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Equinocandina – Fungicida (inibe síntese de 1,3-beta-D-glucana)",
+      "apresentacoes": [
+        { "forma": "Frasco 50 mg liofilizado", "obs": "Cancidas®" },
+        { "forma": "Frasco 70 mg liofilizado", "obs": "Cancidas®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir com 10,8 mL água estéril", "concentracao": "" },
+        { "diluicao": "Diluir em 250 mL SF ou SG 5%", "concentracao": "" },
+        { "diluicao": "Infusão em 1 h", "concentracao": "" },
+        { "diluicao": "NÃO misturar com soluções com glicose concentrada", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: Candida spp (incl. C. glabrata, C. krusei) e Aspergillus.",
+        "NÃO cobre: Cryptococcus, Mucor, Fusarium.",
+        "NÃO penetra no LCR.",
+        "Não requer ajuste renal.",
+        "Ajuste hepático: Child-Pugh B (7-9) → 35 mg/dia após ataque.",
+        "Interação com ciclosporina (monitorar transaminases); com rifampicina/fenitoína/carbamazepina considerar 70 mg/dia."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico.",
+        "renal": "Não necessário.",
+        "hepatico": "Child-Pugh B: 35 mg/dia após ataque de 70 mg; Child-Pugh C: não estudado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Caspofungina – Ataque (adulto)",
+        "doseTexto": "70 mg IV dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungina – Manutenção (adulto)",
+        "doseTexto": "50 mg IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungina – Manutenção >80 kg",
+        "doseTexto": "70 mg IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungina – Hepatopatia (Child-Pugh B)",
+        "doseTexto": "35 mg IV 1x/dia (após ataque)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "35 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungina – Pediátrico (3m–17a)",
+        "doseTexto": "70 mg/m² dia 1; depois 50 mg/m²/dia (máx 70 mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg/m² → 50 mg/m²/dia",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Caspofungin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading dose (day 1)",
+          "descricaoDose": "70 mg IV single dose",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maintenance (from day 2)",
+          "descricaoDose": "50 mg IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maintenance weight >80 kg",
+          "descricaoDose": "70 mg IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Moderate hepatic impairment (Child-Pugh 7-9)",
+          "descricaoDose": "35 mg IV once daily (after 70 mg loading dose)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "35 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child-Pugh B: 35 mg/day after loading; Child-Pugh C: not studied"
+          }
+        },
+        {
+          "titulo": "Candidemia / Invasive candidiasis (pediatric 3mo–17y)",
+          "descricaoDose": "70 mg/m² on day 1 (max 70 mg), then 50 mg/m²/day (max 70 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg/m² day 1; then 50 mg/m²/day (max 70 mg)",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Echinocandin – Fungicide (inhibits 1,3-beta-D-glucan synthesis)",
+      "apresentacoes": [
+        { "forma": "Vial 50 mg lyophilized", "obs": "Cancidas®" },
+        { "forma": "Vial 70 mg lyophilized", "obs": "Cancidas®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with 10.8 mL sterile water", "concentracao": "" },
+        { "diluicao": "Dilute in 250 mL NS or D5W", "concentracao": "" },
+        { "diluicao": "Infuse over 1 hour", "concentracao": "" },
+        { "diluicao": "Do NOT mix with concentrated glucose solutions", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Spectrum: Candida spp (incl. C. glabrata, C. krusei) and Aspergillus.",
+        "Does NOT cover: Cryptococcus, Mucor, Fusarium.",
+        "Does NOT penetrate CSF.",
+        "No renal dose adjustment required.",
+        "Hepatic adjustment: Child-Pugh B (7-9) → 35 mg/day after loading dose.",
+        "Interaction with cyclosporine (monitor transaminases); with rifampin/phenytoin/carbamazepine consider 70 mg/day."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment.",
+        "renal": "Not required.",
+        "hepatico": "Child-Pugh B: 35 mg/day after 70 mg loading dose; Child-Pugh C: not studied."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Caspofungin – Loading (adult)",
+        "doseTexto": "70 mg IV single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungin – Maintenance (adult)",
+        "doseTexto": "50 mg IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungin – Maintenance >80 kg",
+        "doseTexto": "70 mg IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungin – Hepatic (Child-Pugh B)",
+        "doseTexto": "35 mg IV once daily (after loading)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "35 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungin – Pediatric (3mo–17y)",
+        "doseTexto": "70 mg/m² day 1; then 50 mg/m²/day (max 70 mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg/m² → 50 mg/m²/day",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Caspofungina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ataque (1º día)",
+          "descricaoDose": "70 mg IV dosis única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (desde el 2º día)",
+          "descricaoDose": "50 mg IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento peso >80 kg",
+          "descricaoDose": "70 mg IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hepatopatía moderada (Child-Pugh 7-9)",
+          "descricaoDose": "35 mg IV 1x/día (tras ataque 70 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "35 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child-Pugh B: 35 mg/día tras ataque; Child-Pugh C: no estudiado"
+          }
+        },
+        {
+          "titulo": "Candidemia / Candidiasis invasiva (pediátrico 3m–17a)",
+          "descricaoDose": "70 mg/m² el 1º día (máx 70 mg), luego 50 mg/m²/día (máx 70 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg/m² día 1; luego 50 mg/m²/día (máx 70 mg)",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Equinocandina – Fungicida (inhibe síntesis de 1,3-beta-D-glucana)",
+      "apresentacoes": [
+        { "forma": "Frasco 50 mg liofilizado", "obs": "Cancidas®" },
+        { "forma": "Frasco 70 mg liofilizado", "obs": "Cancidas®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir con 10,8 mL agua estéril", "concentracao": "" },
+        { "diluicao": "Diluir en 250 mL SF o SG 5%", "concentracao": "" },
+        { "diluicao": "Infusión en 1 h", "concentracao": "" },
+        { "diluicao": "NO mezclar con soluciones con glucosa concentrada", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: Candida spp (incl. C. glabrata, C. krusei) y Aspergillus.",
+        "NO cubre: Cryptococcus, Mucor, Fusarium.",
+        "NO penetra en LCR.",
+        "No requiere ajuste renal.",
+        "Ajuste hepático: Child-Pugh B (7-9) → 35 mg/día tras ataque.",
+        "Interacción con ciclosporina (monitorizar transaminasas); con rifampicina/fenitoína/carbamazepina considerar 70 mg/día."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico.",
+        "renal": "No necesario.",
+        "hepatico": "Child-Pugh B: 35 mg/día tras ataque de 70 mg; Child-Pugh C: no estudiado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Caspofungina – Ataque (adulto)",
+        "doseTexto": "70 mg IV dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungina – Mantenimiento (adulto)",
+        "doseTexto": "50 mg IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungina – Mantenimiento >80 kg",
+        "doseTexto": "70 mg IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungina – Hepatopatía (Child-Pugh B)",
+        "doseTexto": "35 mg IV 1x/día (tras ataque)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "35 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Caspofungina – Pediátrico (3m–17a)",
+        "doseTexto": "70 mg/m² día 1; luego 50 mg/m²/día (máx 70 mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg/m² → 50 mg/m²/día",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "卡泊芬净",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷剂量（第1天）",
+          "descricaoDose": "70 mg IV 单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "维持（第2天起）",
+          "descricaoDose": "50 mg IV 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "维持剂量 体重>80 kg",
+          "descricaoDose": "70 mg IV 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "70 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "中度肝功能不全（Child-Pugh 7-9）",
+          "descricaoDose": "35 mg IV 每日一次（负荷70 mg后）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "35 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child-Pugh B: 负荷后35 mg/日；Child-Pugh C: 未研究"
+          }
+        },
+        {
+          "titulo": "念珠菌血症/侵袭性念珠菌病（儿童3月–17岁）",
+          "descricaoDose": "第1天70 mg/m²（最大70 mg），之后50 mg/m²/日（最大70 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "第1天70 mg/m²；之后50 mg/m²/日（最大70 mg）",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "棘白菌素类 – 抗真菌药（抑制1,3-β-D-葡聚糖合成）",
+      "apresentacoes": [
+        { "forma": "冻干粉 50 mg/瓶", "obs": "Cancidas®" },
+        { "forma": "冻干粉 70 mg/瓶", "obs": "Cancidas®" }
+      ],
+      "preparo": [
+        { "diluicao": "用10.8 mL无菌注射用水复溶", "concentracao": "" },
+        { "diluicao": "稀释于250 mL生理盐水或5%葡萄糖", "concentracao": "" },
+        { "diluicao": "输注时间1小时", "concentracao": "" },
+        { "diluicao": "勿与高浓度葡萄糖溶液混合", "concentracao": "" }
+      ],
+      "observacoes": [
+        "谱：念珠菌（含光滑、克柔）及曲霉。",
+        "不覆盖：隐球菌、毛霉、镰刀菌。",
+        "不透过血脑屏障。",
+        "无需肾剂量调整。",
+        "肝功能不全：Child-Pugh B（7-9）→ 负荷后35 mg/日。",
+        "与环孢素联用需监测转氨酶；与利福平/苯妥英/卡马西平联用考虑70 mg/日。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。",
+        "renal": "不需要。",
+        "hepatico": "Child-Pugh B：负荷70 mg后35 mg/日；Child-Pugh C：未研究。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "卡泊芬净 – 负荷（成人）",
+        "doseTexto": "70 mg IV 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "卡泊芬净 – 维持（成人）",
+        "doseTexto": "50 mg IV 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "卡泊芬净 – 维持 >80 kg",
+        "doseTexto": "70 mg IV 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "卡泊芬净 – 肝功能不全（Child-Pugh B）",
+        "doseTexto": "35 mg IV 每日一次（负荷后）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "35 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "卡泊芬净 – 儿童（3月–17岁）",
+        "doseTexto": "第1天70 mg/m²；之后50 mg/m²/日（最大70 mg）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "70 mg/m² → 50 mg/m²/日",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

@@ -1,49 +1,83 @@
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Card } from '../../components/ui/Card'
 import { Button } from '../../components/ui/Button'
-import { Badge } from '../../components/ui/Badge'
 import { Modal } from '../../components/ui/Modal'
-import { mockGeneralNotes } from '../../mocks/data'
-import type { GeneralNote } from '../../types'
+import { useAuth } from '../../auth/AuthProvider'
+import { apiQuery, apiInsert, apiUpdate, apiDelete } from '../../lib/api'
+import type { Note } from '../../types'
 
 export default function GeneralNotes() {
-  const [notes, setNotes] = useState<GeneralNote[]>(mockGeneralNotes)
+  const { user } = useAuth()
+  const [notes, setNotes] = useState<Note[]>([])
+  const [loading, setLoading] = useState(true)
   const [modalOpen, setModalOpen] = useState(false)
-  const [editing, setEditing] = useState<GeneralNote | null>(null)
-  const [form, setForm] = useState({ titulo: '', texto: '', tags: '' })
+  const [editing, setEditing] = useState<Note | null>(null)
+  const [form, setForm] = useState({ title: '', content: '' })
+  const [saving, setSaving] = useState(false)
+
+  const fetchNotes = useCallback(async () => {
+    if (!user) return
+    setLoading(true)
+    const { data } = await apiQuery<Note[]>('notes', {
+      user_id: `eq.${user.id}`,
+      is_archived: 'eq.false',
+      order: 'updated_at.desc',
+      select: '*',
+    })
+    setNotes(data ?? [])
+    setLoading(false)
+  }, [user])
+
+  useEffect(() => { fetchNotes() }, [fetchNotes])
 
   const openNew = () => {
     setEditing(null)
-    setForm({ titulo: '', texto: '', tags: '' })
+    setForm({ title: '', content: '' })
     setModalOpen(true)
   }
 
-  const openEdit = (note: GeneralNote) => {
+  const openEdit = (note: Note) => {
     setEditing(note)
-    setForm({ titulo: note.titulo, texto: note.texto, tags: note.tags.join(', ') })
+    setForm({ title: note.title, content: note.content })
     setModalOpen(true)
   }
 
-  const handleSave = () => {
-    const tags = form.tags.split(',').map(t => t.trim()).filter(Boolean)
+  const handleSave = async () => {
+    if (!user) return
+    setSaving(true)
+
     if (editing) {
-      setNotes(prev => prev.map(n => n.id === editing.id ? { ...n, titulo: form.titulo, texto: form.texto, tags } : n))
+      await apiUpdate('notes', { id: `eq.${editing.id}` }, {
+        title: form.title,
+        content: form.content,
+        updated_at: new Date().toISOString(),
+      })
     } else {
-      const newNote: GeneralNote = {
-        id: `gn${Date.now()}`,
-        titulo: form.titulo,
-        texto: form.texto,
-        tags,
-        data: new Date().toISOString().slice(0, 10),
-        userId: 'u1',
-      }
-      setNotes(prev => [newNote, ...prev])
+      const id = crypto.randomUUID()
+      await apiInsert('notes', {
+        id,
+        user_id: user.id,
+        title: form.title || 'Sem título',
+        content: form.content,
+        is_archived: false,
+        created_at: new Date().toISOString(),
+        updated_at: new Date().toISOString(),
+      })
     }
+
+    setSaving(false)
     setModalOpen(false)
+    fetchNotes()
   }
 
-  const handleDelete = (id: string) => {
-    setNotes(prev => prev.filter(n => n.id !== id))
+  const handleDelete = async (id: string) => {
+    if (!confirm('Excluir esta nota?')) return
+    await apiDelete('notes', { id: `eq.${id}` })
+    fetchNotes()
+  }
+
+  if (loading) {
+    return <p className="text-sm text-gray-500">Carregando notas...</p>
   }
 
   return (
@@ -53,24 +87,25 @@ export default function GeneralNotes() {
         <Button onClick={openNew}>+ Nova Nota</Button>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {notes.map(note => (
-          <Card key={note.id} className="flex flex-col">
-            <h3 className="font-semibold text-gray-900">{note.titulo}</h3>
-            <time className="text-xs text-gray-400">{new Date(note.data).toLocaleDateString('pt-BR')}</time>
-            <p className="mt-2 flex-1 text-sm text-gray-600 line-clamp-3">{note.texto}</p>
-            <div className="mt-3 flex flex-wrap gap-1">
-              {note.tags.map(tag => (
-                <Badge key={tag} variant="info">{tag}</Badge>
-              ))}
-            </div>
-            <div className="mt-4 flex gap-2">
-              <Button size="sm" variant="secondary" onClick={() => openEdit(note)}>Editar</Button>
-              <Button size="sm" variant="danger" onClick={() => handleDelete(note.id)}>Excluir</Button>
-            </div>
-          </Card>
-        ))}
-      </div>
+      {notes.length === 0 ? (
+        <Card>
+          <p className="py-8 text-center text-sm text-gray-400">Nenhuma nota encontrada. Crie uma nova!</p>
+        </Card>
+      ) : (
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {notes.map(note => (
+            <Card key={note.id} className="flex flex-col">
+              <h3 className="font-semibold text-gray-900">{note.title}</h3>
+              <time className="text-xs text-gray-400">{new Date(note.updated_at).toLocaleDateString('pt-BR')}</time>
+              <p className="mt-2 flex-1 text-sm text-gray-600 line-clamp-3">{note.content}</p>
+              <div className="mt-4 flex gap-2">
+                <Button size="sm" variant="secondary" onClick={() => openEdit(note)}>Editar</Button>
+                <Button size="sm" variant="danger" onClick={() => handleDelete(note.id)}>Excluir</Button>
+              </div>
+            </Card>
+          ))}
+        </div>
+      )}
 
       <Modal open={modalOpen} onClose={() => setModalOpen(false)} title={editing ? 'Editar Nota' : 'Nova Nota'}>
         <form onSubmit={e => { e.preventDefault(); handleSave() }} className="space-y-4">
@@ -78,33 +113,24 @@ export default function GeneralNotes() {
             <label className="block text-sm font-medium text-gray-700">Título</label>
             <input
               required
-              value={form.titulo}
-              onChange={e => setForm(p => ({ ...p, titulo: e.target.value }))}
+              value={form.title}
+              onChange={e => setForm(p => ({ ...p, title: e.target.value }))}
               className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
             />
           </div>
           <div>
-            <label className="block text-sm font-medium text-gray-700">Texto</label>
+            <label className="block text-sm font-medium text-gray-700">Conteúdo</label>
             <textarea
               required
-              rows={4}
-              value={form.texto}
-              onChange={e => setForm(p => ({ ...p, texto: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Tags (separadas por vírgula)</label>
-            <input
-              value={form.tags}
-              onChange={e => setForm(p => ({ ...p, tags: e.target.value }))}
-              placeholder="Plantão, Ideia, Aula"
+              rows={6}
+              value={form.content}
+              onChange={e => setForm(p => ({ ...p, content: e.target.value }))}
               className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
             />
           </div>
           <div className="flex justify-end gap-2">
             <Button type="button" variant="secondary" onClick={() => setModalOpen(false)}>Cancelar</Button>
-            <Button type="submit">{editing ? 'Salvar' : 'Criar'}</Button>
+            <Button type="submit" disabled={saving}>{saving ? 'Salvando...' : editing ? 'Salvar' : 'Criar'}</Button>
           </div>
         </form>
       </Modal>

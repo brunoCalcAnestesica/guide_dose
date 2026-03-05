@@ -1,0 +1,766 @@
+{
+  "PT": {
+    "nome": "Hidromorfona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor aguda IV (adulto)",
+          "descricaoDose": "10-20 mcg/kg IV (máx 2 mg), a cada 4-6h conforme necessidade",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 4-6h conforme necessidade",
+            "ajusteRenal": "Útil em IR; cautela em IR grave. Ajustar conforme resposta.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave (metabolismo hepático)."
+          }
+        },
+        {
+          "titulo": "Dor aguda IV (idoso)",
+          "descricaoDose": "5-10 mcg/kg IV (máx 1 mg), a cada 4-6h conforme necessidade",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 4-6h conforme necessidade",
+            "ajusteRenal": "Útil em IR; cautela em IR grave.",
+            "ajusteHepatico": "Cautela em IR hepática grave."
+          }
+        },
+        {
+          "titulo": "Dor aguda IV (pediátrico)",
+          "descricaoDose": "10-15 mcg/kg IV a cada 4-6h (máx 1 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "Útil em IR; cautela em IR grave.",
+            "ajusteHepatico": "Cautela em IR hepática grave."
+          }
+        },
+        {
+          "titulo": "PCA (bolus por demanda)",
+          "descricaoDose": "0,2-0,4 mg IV por demanda (lockout 6-10 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.4,
+            "doseMaxima": 0.4,
+            "doseFixa": "0,2-0,4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "por demanda (lockout 6-10 min)",
+            "ajusteRenal": "Útil em IR; ajustar conforme resposta.",
+            "ajusteHepatico": "Cautela em IR hepática grave."
+          }
+        },
+        {
+          "titulo": "VO liberação imediata",
+          "descricaoDose": "2-4 mg VO a cada 4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "Útil em IR; ajustar conforme resposta.",
+            "ajusteHepatico": "Cautela em IR hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide / Agonista mu semissintético",
+      "apresentacoes": [
+        { "forma": "Ampola 2 mg/mL (1 mL)", "obs": "Dilaudid®, Exalgo®" },
+        { "forma": "Ampola 10 mg/mL (1 mL) – alta concentração", "obs": "Dilaudid®" },
+        { "forma": "Comprimido liberação imediata 2, 4, 8 mg", "obs": "VO" },
+        { "forma": "Comprimido liberação prolongada 8, 12, 16, 32 mg", "obs": "VO a cada 24h – não triturar" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: direto da ampola", "concentracao": "2 ou 10 mg/mL" },
+        { "diluicao": "PCA: diluir conforme protocolo (ex.: 0,2 mg/mL em SF)", "concentracao": "conforme diluição" }
+      ],
+      "observacoes": [
+        "Equivalência IV: hidromorfona : morfina ≈ 1 : 6-7 (1,5 mg IV ≈ 10 mg morfina IV)",
+        "Útil em insuficiência renal (sem metabólitos ativos clinicamente significativos)",
+        "Menos liberação de histamina que morfina",
+        "Reversão: naloxona; monitorização respiratória",
+        "Receita amarela (A1); alto potencial de dependência",
+        "Formas de liberação prolongada: NÃO triturar ou mastigar"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose (5-10 mcg/kg IV, máx 1 mg). Início lento, titular conforme resposta.",
+        "renal": "Útil em IR (sem metabólitos ativos relevantes). Cautela em IR grave; ajustar conforme resposta.",
+        "hepatico": "Metabolismo hepático (glicuronidação). Cautela em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hidromorfona dor IV (adulto)",
+        "doseTexto": "10-20 mcg/kg IV (máx 2 mg)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidromorfona dor IV (idoso)",
+        "doseTexto": "5-10 mcg/kg IV (máx 1 mg)",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidromorfona dor IV (pediátrico)",
+        "doseTexto": "10-15 mcg/kg IV (máx 1 mg)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hidromorfona PCA",
+        "doseTexto": "0,2-0,4 mg IV por demanda",
+        "doseMin": 0.2,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2-0,4 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidromorfona VO",
+        "doseTexto": "2-4 mg VO a cada 4-6h",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-4 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Hydromorphone",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute pain IV (adult)",
+          "descricaoDose": "10-20 mcg/kg IV (max 2 mg), every 4-6h as needed",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 4-6h as needed",
+            "ajusteRenal": "Useful in renal impairment; caution in severe RF. Titrate to response.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency (hepatic metabolism)."
+          }
+        },
+        {
+          "titulo": "Acute pain IV (elderly)",
+          "descricaoDose": "5-10 mcg/kg IV (max 1 mg), every 4-6h as needed",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 4-6h as needed",
+            "ajusteRenal": "Useful in renal impairment; caution in severe RF.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Acute pain IV (pediatric)",
+          "descricaoDose": "10-15 mcg/kg IV every 4-6h (max 1 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Useful in renal impairment; caution in severe RF.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "PCA (demand bolus)",
+          "descricaoDose": "0.2-0.4 mg IV per demand (lockout 6-10 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.4,
+            "doseMaxima": 0.4,
+            "doseFixa": "0.2-0.4 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per demand (lockout 6-10 min)",
+            "ajusteRenal": "Useful in renal impairment; titrate to response.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "PO immediate release",
+          "descricaoDose": "2-4 mg PO every 4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Useful in renal impairment; titrate to response.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioid / Semisynthetic mu agonist",
+      "apresentacoes": [
+        { "forma": "Ampoule 2 mg/mL (1 mL)", "obs": "Dilaudid®, Exalgo®" },
+        { "forma": "Ampoule 10 mg/mL (1 mL) – high concentration", "obs": "Dilaudid®" },
+        { "forma": "Immediate-release tablet 2, 4, 8 mg", "obs": "PO" },
+        { "forma": "Extended-release tablet 8, 12, 16, 32 mg", "obs": "PO every 24h – do not crush" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: undiluted from ampoule", "concentracao": "2 or 10 mg/mL" },
+        { "diluicao": "PCA: dilute per protocol (e.g. 0.2 mg/mL in NS)", "concentracao": "as per dilution" }
+      ],
+      "observacoes": [
+        "IV equivalence: hydromorphone : morphine ≈ 1 : 6-7 (1.5 mg IV ≈ 10 mg morphine IV)",
+        "Useful in renal impairment (no clinically significant active metabolites)",
+        "Less histamine release than morphine",
+        "Reversal: naloxone; respiratory monitoring",
+        "Schedule II; high abuse potential",
+        "Extended-release: do NOT crush or chew"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose (5-10 mcg/kg IV, max 1 mg). Start low, titrate to response.",
+        "renal": "Useful in renal impairment. Caution in severe RF; titrate to response.",
+        "hepatico": "Hepatic metabolism (glucuronidation). Caution in severe hepatic insufficiency."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hydromorphone pain IV (adult)",
+        "doseTexto": "10-20 mcg/kg IV (max 2 mg)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydromorphone pain IV (elderly)",
+        "doseTexto": "5-10 mcg/kg IV (max 1 mg)",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydromorphone pain IV (pediatric)",
+        "doseTexto": "10-15 mcg/kg IV (max 1 mg)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Hydromorphone PCA",
+        "doseTexto": "0.2-0.4 mg IV per demand",
+        "doseMin": 0.2,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2-0.4 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydromorphone PO",
+        "doseTexto": "2-4 mg PO every 4-6h",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-4 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Hidromorfona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor agudo IV (adulto)",
+          "descricaoDose": "10-20 mcg/kg IV (máx 2 mg), cada 4-6h según necesidad",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 4-6h según necesidad",
+            "ajusteRenal": "Útil en IR; precaución en IR grave. Ajustar según respuesta.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave (metabolismo hepático)."
+          }
+        },
+        {
+          "titulo": "Dolor agudo IV (anciano)",
+          "descricaoDose": "5-10 mcg/kg IV (máx 1 mg), cada 4-6h según necesidad",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 4-6h según necesidad",
+            "ajusteRenal": "Útil en IR; precaución en IR grave.",
+            "ajusteHepatico": "Precaución en IR hepática grave."
+          }
+        },
+        {
+          "titulo": "Dolor agudo IV (pediátrico)",
+          "descricaoDose": "10-15 mcg/kg IV cada 4-6h (máx 1 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "Útil en IR; precaución en IR grave.",
+            "ajusteHepatico": "Precaución en IR hepática grave."
+          }
+        },
+        {
+          "titulo": "PCA (bolo a demanda)",
+          "descricaoDose": "0,2-0,4 mg IV por demanda (lockout 6-10 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.4,
+            "doseMaxima": 0.4,
+            "doseFixa": "0,2-0,4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "por demanda (lockout 6-10 min)",
+            "ajusteRenal": "Útil en IR; ajustar según respuesta.",
+            "ajusteHepatico": "Precaución en IR hepática grave."
+          }
+        },
+        {
+          "titulo": "VO liberación inmediata",
+          "descricaoDose": "2-4 mg VO cada 4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "Útil en IR; ajustar según respuesta.",
+            "ajusteHepatico": "Precaución en IR hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide / Agonista mu semisintético",
+      "apresentacoes": [
+        { "forma": "Ampolla 2 mg/mL (1 mL)", "obs": "Dilaudid®, Exalgo®" },
+        { "forma": "Ampolla 10 mg/mL (1 mL) – alta concentración", "obs": "Dilaudid®" },
+        { "forma": "Comprimido liberación inmediata 2, 4, 8 mg", "obs": "VO" },
+        { "forma": "Comprimido liberación prolongada 8, 12, 16, 32 mg", "obs": "VO cada 24h – no triturar" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo: directo de la ampolla", "concentracao": "2 o 10 mg/mL" },
+        { "diluicao": "PCA: diluir según protocolo (ej. 0,2 mg/mL en SF)", "concentracao": "según dilución" }
+      ],
+      "observacoes": [
+        "Equivalencia IV: hidromorfona : morfina ≈ 1 : 6-7 (1,5 mg IV ≈ 10 mg morfina IV)",
+        "Útil en insuficiencia renal (sin metabolitos activos clínicamente significativos)",
+        "Menor liberación de histamina que morfina",
+        "Reversión: naloxona; monitorización respiratoria",
+        "Receta restringida (A1); alto potencial de dependencia",
+        "Liberación prolongada: NO triturar ni masticar"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis (5-10 mcg/kg IV, máx 1 mg). Inicio bajo, titular según respuesta.",
+        "renal": "Útil en IR. Precaución en IR grave; ajustar según respuesta.",
+        "hepatico": "Metabolismo hepático (glucuronidación). Precaución en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hidromorfona dolor IV (adulto)",
+        "doseTexto": "10-20 mcg/kg IV (máx 2 mg)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidromorfona dolor IV (anciano)",
+        "doseTexto": "5-10 mcg/kg IV (máx 1 mg)",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidromorfona dolor IV (pediátrico)",
+        "doseTexto": "10-15 mcg/kg IV (máx 1 mg)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hidromorfona PCA",
+        "doseTexto": "0,2-0,4 mg IV por demanda",
+        "doseMin": 0.2,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2-0,4 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidromorfona VO",
+        "doseTexto": "2-4 mg VO cada 4-6h",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-4 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氢吗啡酮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性疼痛 IV（成人）",
+          "descricaoDose": "10-20 mcg/kg IV（最大 2 mg），每 4-6 小时按需",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4-6小时按需",
+            "ajusteRenal": "肾功能不全时可用；重度慎用。按反应调整。",
+            "ajusteHepatico": "重度肝功能不全慎用（经肝代谢）。"
+          }
+        },
+        {
+          "titulo": "急性疼痛 IV（老年）",
+          "descricaoDose": "5-10 mcg/kg IV（最大 1 mg），每 4-6 小时按需",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4-6小时按需",
+            "ajusteRenal": "肾功能不全时可用；重度慎用。",
+            "ajusteHepatico": "重度肝功能不全慎用。"
+          }
+        },
+        {
+          "titulo": "急性疼痛 IV（儿童）",
+          "descricaoDose": "10-15 mcg/kg IV 每 4-6 小时（最大 1 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "肾功能不全时可用；重度慎用。",
+            "ajusteHepatico": "重度肝功能不全慎用。"
+          }
+        },
+        {
+          "titulo": "PCA（按需推注）",
+          "descricaoDose": "0.2-0.4 mg IV 按需（锁定 6-10 分钟）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.4,
+            "doseMaxima": 0.4,
+            "doseFixa": "0.2-0.4 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按需（锁定 6-10 分钟）",
+            "ajusteRenal": "肾功能不全时可用；按反应调整。",
+            "ajusteHepatico": "重度肝功能不全慎用。"
+          }
+        },
+        {
+          "titulo": "口服即释",
+          "descricaoDose": "2-4 mg 口服 每 4-6 小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "肾功能不全时可用；按反应调整。",
+            "ajusteHepatico": "重度肝功能不全慎用。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "阿片类 / 半合成 μ 受体激动剂",
+      "apresentacoes": [
+        { "forma": "安瓿 2 mg/mL (1 mL)", "obs": "Dilaudid®, Exalgo®" },
+        { "forma": "安瓿 10 mg/mL (1 mL) 高浓度", "obs": "Dilaudid®" },
+        { "forma": "即释片 2、4、8 mg", "obs": "口服" },
+        { "forma": "缓释片 8、12、16、32 mg", "obs": "口服 每24小时 – 不可碾碎" }
+      ],
+      "preparo": [
+        { "diluicao": "推注：原液", "concentracao": "2 或 10 mg/mL" },
+        { "diluicao": "PCA：按方案稀释（如 0.2 mg/mL 生理盐水）", "concentracao": "按稀释" }
+      ],
+      "observacoes": [
+        "IV 等效：氢吗啡酮 : 吗啡 ≈ 1 : 6-7（1.5 mg IV ≈ 10 mg 吗啡 IV）",
+        "肾功能不全时可用（无具临床意义的活性代谢物）",
+        "较吗啡组胺释放少",
+        "逆转：纳洛酮；呼吸监测",
+        "管制药品；滥用潜力高",
+        "缓释剂型：不可碾碎或咀嚼"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量（5-10 mcg/kg IV，最大 1 mg）。从低剂量开始，按反应滴定。",
+        "renal": "肾功能不全时可用。重度肾衰慎用；按反应调整。",
+        "hepatico": "经肝代谢（葡萄糖醛酸化）。重度肝功能不全慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氢吗啡酮 疼痛 IV（成人）",
+        "doseTexto": "10-20 mcg/kg IV（最大 2 mg）",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氢吗啡酮 疼痛 IV（老年）",
+        "doseTexto": "5-10 mcg/kg IV（最大 1 mg）",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氢吗啡酮 疼痛 IV（儿童）",
+        "doseTexto": "10-15 mcg/kg IV（最大 1 mg）",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "氢吗啡酮 PCA",
+        "doseTexto": "0.2-0.4 mg IV 按需",
+        "doseMin": 0.2,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2-0.4 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氢吗啡酮 口服",
+        "doseTexto": "2-4 mg 口服 每 4-6 小时",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-4 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

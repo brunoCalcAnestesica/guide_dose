@@ -1,0 +1,706 @@
+{
+  "PT": {
+    "nome": "Indometacina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Artrite / Gota (adulto)",
+          "descricaoDose": "25-50 mg VO a cada 8h. Máx 200 mg/dia. Tomar com alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 8h",
+            "ajusteRenal": "ClCr <30: evitar ou usar menor dose",
+            "ajusteHepatico": "Insuficiência hepática grave: evitar",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Tocólise (trabalho de parto prematuro)",
+          "descricaoDose": "50-100 mg retal ou 50 mg VO dose de ataque; depois 25-50 mg VO a cada 4-6h. Máx 200 mg/dia. Usar APENAS < 32 semanas. Duração máx 48-72h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "50-100 mg retal ou 50 mg VO ataque; 25-50 mg VO 4-6/6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "ataque depois a cada 4-6h",
+            "ajusteRenal": "ClCr <30: evitar",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Dor / Febre VO (adulto)",
+          "descricaoDose": "25-50 mg VO a cada 8-12h. Máx 200 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 8-12h",
+            "ajusteRenal": "ClCr <30: evitar ou usar menor dose",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PDA - Persistência do canal arterial (prematuro)",
+          "descricaoDose": "0,1-0,2 mg/kg VO/retal dose inicial; depois 0,1-0,2 mg/kg a cada 12-24h conforme protocolo (1-3 doses). Idade gestacional e critérios conforme protocolo local.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose inicial depois 12-24h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Febre / Dor VO (pediátrico)",
+          "descricaoDose": "1-2 mg/kg/dose VO a cada 6-8h. Máx 4 mg/kg/dia ou 150-200 mg/dia. Idade mínima conforme bula.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE - Inibidor não seletivo da COX-1 e COX-2 (derivado do ácido indolacético)",
+      "apresentacoes": [
+        { "forma": "Cápsula 25 mg, 50 mg", "obs": "VO" },
+        { "forma": "Supositório 50 mg, 100 mg", "obs": "Uso retal" },
+        { "forma": "Solução oral (gotas)", "obs": "Conforme bula" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: cápsulas com alimentos ou leite", "concentracao": "Conforme apresentação" },
+        { "diluicao": "Retal: supositório conforme bula (tocólise)", "concentracao": "50 ou 100 mg" }
+      ],
+      "observacoes": [
+        "Tocólise: usar apenas < 32 semanas; risco de fechamento do ducto arterioso e oligodrâmnio",
+        "Suspender tocólise 24-48h antes do parto; monitorizar ILA e ducto se uso > 48h",
+        "Evitar em úlcera péptica ativa, distúrbios de coagulação, asma induzida por AINEs",
+        "ClCr <30: evitar ou usar menor dose; insuficiência hepática grave: evitar",
+        "PDA em prematuros: protocolo específico; duração e número de doses variam",
+        "Interage com anticoagulantes, AAS, IECA, diuréticos; usar com cautela"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar menor dose eficaz. Maior risco de efeitos renais e cardiovasculares.",
+        "renal": "ClCr 30-59: usar menor dose. ClCr <30: evitar. Excreção renal relevante.",
+        "hepatico": "Evitar em insuficiência hepática grave. Metabolismo hepático (CYP2C9)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Indometacina (adulto - artrite/gota)",
+        "doseTexto": "25-50 mg VO 8/8h (máx 200 mg/dia)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Indometacina - Tocólise",
+        "doseTexto": "50-100 mg retal ou 50 mg VO; depois 25-50 mg VO 4-6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Indometacina VO (pediátrico)",
+        "doseTexto": "1-2 mg/kg 6-8/8h (máx 4 mg/kg/dia)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Indometacina - PDA (prematuro)",
+        "doseTexto": "0,1-0,2 mg/kg VO/retal (protocolo local)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Indomethacin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Arthritis / Gout (adult)",
+          "descricaoDose": "25-50 mg PO every 8h. Max 200 mg/day. Take with food.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 8h",
+            "ajusteRenal": "ClCr <30: avoid or use lower dose",
+            "ajusteHepatico": "Severe hepatic insufficiency: avoid",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Tocolysis (preterm labor)",
+          "descricaoDose": "50-100 mg rectal or 50 mg PO loading dose; then 25-50 mg PO every 4-6h. Max 200 mg/day. Use ONLY < 32 weeks. Max duration 48-72h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "50-100 mg rectal or 50 mg PO load; 25-50 mg PO q4-6h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "load then every 4-6h",
+            "ajusteRenal": "ClCr <30: avoid",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Pain / Fever PO (adult)",
+          "descricaoDose": "25-50 mg PO every 8-12h. Max 200 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 8-12h",
+            "ajusteRenal": "ClCr <30: avoid or use lower dose",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PDA - Patent ductus arteriosus (preterm)",
+          "descricaoDose": "0.1-0.2 mg/kg PO/rectal initial dose; then 0.1-0.2 mg/kg every 12-24h per protocol (1-3 doses). Gestational age and criteria per local protocol.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "initial then 12-24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Fever / Pain PO (pediatric)",
+          "descricaoDose": "1-2 mg/kg/dose PO every 6-8h. Max 4 mg/kg/day or 150-200 mg/day. Minimum age per label.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID - Non-selective COX-1 and COX-2 inhibitor (indoleacetic acid derivative)",
+      "apresentacoes": [
+        { "forma": "Capsule 25 mg, 50 mg", "obs": "PO" },
+        { "forma": "Suppository 50 mg, 100 mg", "obs": "Rectal" },
+        { "forma": "Oral solution (drops)", "obs": "Per label" }
+      ],
+      "preparo": [
+        { "diluicao": "PO: capsules with food or milk", "concentracao": "Per presentation" },
+        { "diluicao": "Rectal: suppository per label (tocolysis)", "concentracao": "50 or 100 mg" }
+      ],
+      "observacoes": [
+        "Tocolysis: use only < 32 weeks; risk of ductal closure and oligohydramnios",
+        "Discontinue tocolysis 24-48h before delivery; monitor AFI and duct if use > 48h",
+        "Avoid in active peptic ulcer, bleeding disorders, NSAID-induced asthma",
+        "ClCr <30: avoid or use lower dose; severe hepatic insufficiency: avoid",
+        "PDA in preterm: protocol-specific; duration and number of doses vary",
+        "Interacts with anticoagulants, ASA, ACEIs, diuretics; use with caution"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use lowest effective dose. Higher risk of renal and cardiovascular effects.",
+        "renal": "ClCr 30-59: use lower dose. ClCr <30: avoid. Renal excretion significant.",
+        "hepatico": "Avoid in severe hepatic insufficiency. Hepatic metabolism (CYP2C9)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Indomethacin (adult - arthritis/gout)",
+        "doseTexto": "25-50 mg PO q8h (max 200 mg/day)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-50 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Indomethacin - Tocolysis",
+        "doseTexto": "50-100 mg rectal or 50 mg PO; then 25-50 mg PO q4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Indomethacin PO (pediatric)",
+        "doseTexto": "1-2 mg/kg q6-8h (max 4 mg/kg/day)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Indomethacin - PDA (preterm)",
+        "doseTexto": "0.1-0.2 mg/kg PO/rectal (local protocol)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Indometacina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Artritis / Gota (adulto)",
+          "descricaoDose": "25-50 mg VO cada 8h. Máx 200 mg/día. Tomar con alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 8h",
+            "ajusteRenal": "ClCr <30: evitar o usar menor dosis",
+            "ajusteHepatico": "Insuficiencia hepática grave: evitar",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Tocólisis (parto prematuro)",
+          "descricaoDose": "50-100 mg rectal o 50 mg VO dosis de ataque; después 25-50 mg VO cada 4-6h. Máx 200 mg/día. Usar SOLO < 32 semanas. Duración máx 48-72h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "50-100 mg rectal o 50 mg VO ataque; 25-50 mg VO 4-6/6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "ataque después cada 4-6h",
+            "ajusteRenal": "ClCr <30: evitar",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Dolor / Fiebre VO (adulto)",
+          "descricaoDose": "25-50 mg VO cada 8-12h. Máx 200 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 8-12h",
+            "ajusteRenal": "ClCr <30: evitar o usar menor dosis",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PDA - Persistencia del conducto arterioso (pretérmino)",
+          "descricaoDose": "0,1-0,2 mg/kg VO/rectal dosis inicial; después 0,1-0,2 mg/kg cada 12-24h según protocolo (1-3 dosis). Edad gestacional y criterios según protocolo local.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "inicial después 12-24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Fiebre / Dolor VO (pediátrico)",
+          "descricaoDose": "1-2 mg/kg/dosis VO cada 6-8h. Máx 4 mg/kg/día o 150-200 mg/día. Edad mínima según ficha técnica.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE - Inhibidor no selectivo de COX-1 y COX-2 (derivado del ácido indolacético)",
+      "apresentacoes": [
+        { "forma": "Cápsula 25 mg, 50 mg", "obs": "VO" },
+        { "forma": "Supositorio 50 mg, 100 mg", "obs": "Uso rectal" },
+        { "forma": "Solución oral (gotas)", "obs": "Según ficha técnica" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: cápsulas con alimentos o leche", "concentracao": "Según presentación" },
+        { "diluicao": "Rectal: supositorio según ficha (tocólisis)", "concentracao": "50 o 100 mg" }
+      ],
+      "observacoes": [
+        "Tocólisis: usar solo < 32 semanas; riesgo de cierre del ductus y oligohidramnios",
+        "Suspender tocólisis 24-48h antes del parto; monitorizar ILA y ductus si uso > 48h",
+        "Evitar en úlcera péptica activa, trastornos de coagulación, asma inducida por AINEs",
+        "ClCr <30: evitar o usar menor dosis; insuficiencia hepática grave: evitar",
+        "PDA en prematuros: protocolo específico; duración y número de dosis varían",
+        "Interacción con anticoagulantes, AAS, IECA, diuréticos; usar con precaución"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar menor dosis eficaz. Mayor riesgo de efectos renales y cardiovasculares.",
+        "renal": "ClCr 30-59: usar menor dosis. ClCr <30: evitar. Excreción renal relevante.",
+        "hepatico": "Evitar en insuficiencia hepática grave. Metabolismo hepático (CYP2C9)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Indometacina (adulto - artritis/gota)",
+        "doseTexto": "25-50 mg VO 8/8h (máx 200 mg/día)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Indometacina - Tocólisis",
+        "doseTexto": "50-100 mg rectal o 50 mg VO; después 25-50 mg VO 4-6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Indometacina VO (pediátrico)",
+        "doseTexto": "1-2 mg/kg 6-8/8h (máx 4 mg/kg/día)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Indometacina - PDA (pretérmino)",
+        "doseTexto": "0,1-0,2 mg/kg VO/rectal (protocolo local)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "吲哚美辛",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "关节炎/痛风（成人）",
+          "descricaoDose": "25-50 mg 口服 每8小时。最大200 mg/天。与食物同服。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr <30：避免或使用较低剂量",
+            "ajusteHepatico": "严重肝功能不全：避免",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "保胎（早产）",
+          "descricaoDose": "50-100 mg 直肠或 50 mg 口服负荷；然后 25-50 mg 口服 每4-6小时。最大200 mg/天。仅用于 < 32周。最长48-72小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "50-100 mg 直肠或 50 mg 口服；25-50 mg 口服 每4-6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "负荷后每4-6小时",
+            "ajusteRenal": "ClCr <30：避免",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "疼痛/发热 口服（成人）",
+          "descricaoDose": "25-50 mg 口服 每8-12小时。最大200 mg/天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 200,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每8-12小时",
+            "ajusteRenal": "ClCr <30：避免或使用较低剂量",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PDA - 动脉导管未闭（早产儿）",
+          "descricaoDose": "0.1-0.2 mg/kg 口服/直肠 首剂；然后 0.1-0.2 mg/kg 每12-24小时 按方案（1-3剂）。胎龄及标准按当地方案。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "首剂后12-24小时",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "发热/疼痛 口服（儿童）",
+          "descricaoDose": "1-2 mg/kg/剂 口服 每6-8小时。最大 4 mg/kg/天 或 150-200 mg/天。最低年龄见说明书。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "非甾体抗炎药 - 非选择性COX-1和COX-2抑制剂（吲哚乙酸衍生物）",
+      "apresentacoes": [
+        { "forma": "胶囊 25 mg, 50 mg", "obs": "口服" },
+        { "forma": "栓剂 50 mg, 100 mg", "obs": "直肠" },
+        { "forma": "口服溶液（滴剂）", "obs": "见说明书" }
+      ],
+      "preparo": [
+        { "diluicao": "口服：胶囊与食物或牛奶同服", "concentracao": "按规格" },
+        { "diluicao": "直肠：栓剂见说明书（保胎）", "concentracao": "50 或 100 mg" }
+      ],
+      "observacoes": [
+        "保胎：仅用于 < 32周；动脉导管闭合及羊水过少风险",
+        "分娩前24-48小时停保胎；使用>48小时监测羊水指数及导管",
+        "活动性消化性溃疡、凝血障碍、NSAID诱发哮喘者禁用",
+        "ClCr <30：避免或减量；严重肝功能不全：避免",
+        "早产儿PDA：按方案；疗程与剂次各异",
+        "与抗凝药、阿司匹林、ACEI、利尿剂相互作用；慎用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "使用最低有效剂量。肾与心血管风险增加。",
+        "renal": "ClCr 30-59：减量。ClCr <30：避免。经肾排泄明显。",
+        "hepatico": "严重肝功能不全避免。肝代谢（CYP2C9）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "吲哚美辛（成人-关节炎/痛风）",
+        "doseTexto": "25-50 mg 口服 每8h（最大200 mg/天）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "吲哚美辛 - 保胎",
+        "doseTexto": "50-100 mg 直肠或 50 mg 口服；然后 25-50 mg 口服 每4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "吲哚美辛 口服（儿童）",
+        "doseTexto": "1-2 mg/kg 每6-8h（最大 4 mg/kg/天）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "吲哚美辛 - PDA（早产儿）",
+        "doseTexto": "0.1-0.2 mg/kg 口服/直肠（当地方案）",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

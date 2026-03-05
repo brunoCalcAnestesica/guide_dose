@@ -1,0 +1,722 @@
+{
+  "PT": {
+    "nome": "Digoxina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ataque IV (adulto)",
+          "descricaoDose": "0,5-1 mg IV em 24h dividido (50% + 25% + 25%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 24h dividido",
+            "ajusteRenal": "ClCr <50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Manutenção (adulto)",
+          "descricaoDose": "0,125-0,25 mg VO/IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.25,
+            "doseMaxima": 0.25,
+            "doseFixa": "0,125-0,25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "FA/Flutter - controle de frequência (adulto)",
+          "descricaoDose": "0,25-0,5 mg IV dose única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25-0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Ataque IV (pediátrico)",
+          "descricaoDose": "8-12 mcg/kg IV total dividido (50% + 25% + 25%) - máx 0,5 mg",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 24h dividido",
+            "ajusteRenal": "ClCr <50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Manutenção (pediátrico)",
+          "descricaoDose": "5-10 mcg/kg/dia VO dividido 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.0075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Glicosídeo cardíaco, antiarrítmico, inotrópico positivo",
+      "apresentacoes": [
+        { "forma": "Ampola 0,25 mg/mL (2 mL)", "obs": "Uso IV" },
+        { "forma": "Comprimido 0,25 mg", "obs": "VO" },
+        { "forma": "Solução oral 0,05 mg/mL", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administrar lentamente (2-3 min)", "concentracao": "Diluir em SF 0,9% ou SG 5% se necessário" },
+        { "diluicao": "Ampola 0,25 mg/mL", "concentracao": "Pode ser administrada diluída ou não" }
+      ],
+      "observacoes": [
+        "Monitorizar níveis séricos (0,8-2,0 ng/mL) e ECG",
+        "Meia-vida prolongada (36-48 h) - risco de acúmulo",
+        "Hipocalemia e hipomagnesemia aumentam toxicidade digitálica",
+        "Contraindicado em bloqueio AV 2º/3º grau e WPW com FA",
+        "Amiodarona e verapamil aumentam níveis - reduzir dose da digoxina",
+        "Ter atropina disponível para bradicardia severa"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose (0,125 mg/dia ou em dias alternados). Idosos >60a: dose de ataque máx 1 mg em 24h.",
+        "renal": "ClCr <50 mL/min: reduzir 50%. ClCr <10 mL/min ou diálise: reduzir 75%. Monitorizar níveis séricos.",
+        "hepatico": "Metabolização hepática limitada. Não requer ajuste específico; monitorar em insuficiência grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Digoxina - Ataque (adulto)",
+        "doseTexto": "0,5-1 mg IV em 24h dividido",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Digoxina - Manutenção (adulto)",
+        "doseTexto": "0,125-0,25 mg VO/IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,125-0,25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Digoxina - Ataque (pediátrico)",
+        "doseTexto": "8-12 mcg/kg IV total (50%+25%+25%) - máx 0,5 mg",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Digoxina - Manutenção (pediátrico)",
+        "doseTexto": "5-10 mcg/kg/dia VO 12/12h",
+        "doseMin": 0.0075,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Digoxin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading IV (adult)",
+          "descricaoDose": "0.5-1 mg IV over 24h divided (50% + 25% + 25%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 24h divided",
+            "ajusteRenal": "ClCr <50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Maintenance (adult)",
+          "descricaoDose": "0.125-0.25 mg PO/IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.25,
+            "doseMaxima": 0.25,
+            "doseFixa": "0.125-0.25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO/IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "AF/Flutter - rate control (adult)",
+          "descricaoDose": "0.25-0.5 mg IV single dose",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25-0.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr <50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Loading IV (pediatric)",
+          "descricaoDose": "8-12 mcg/kg IV total divided (50% + 25% + 25%) - max 0.5 mg",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 24h divided",
+            "ajusteRenal": "ClCr <50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Maintenance (pediatric)",
+          "descricaoDose": "5-10 mcg/kg/day PO divided 12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.0075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h",
+            "ajusteRenal": "ClCr <50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cardiac glycoside, antiarrhythmic, positive inotrope",
+      "apresentacoes": [
+        { "forma": "Ampoule 0.25 mg/mL (2 mL)", "obs": "IV use" },
+        { "forma": "Tablet 0.25 mg", "obs": "PO" },
+        { "forma": "Oral solution 0.05 mg/mL", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administer slowly (2-3 min)", "concentracao": "Dilute in NS or D5W if needed" },
+        { "diluicao": "Ampoule 0.25 mg/mL", "concentracao": "May be given undiluted or diluted" }
+      ],
+      "observacoes": [
+        "Monitor serum levels (0.8-2.0 ng/mL) and ECG",
+        "Long half-life (36-48 h) - risk of accumulation",
+        "Hypokalemia and hypomagnesemia increase digitalis toxicity",
+        "Contraindicated in 2nd/3rd degree AV block and WPW with AF",
+        "Amiodarone and verapamil increase levels - reduce digoxin dose",
+        "Have atropine available for severe bradycardia"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose (0.125 mg/day or every other day). Elderly >60y: max loading 1 mg over 24h.",
+        "renal": "ClCr <50 mL/min: reduce 50%. ClCr <10 mL/min or dialysis: reduce 75%. Monitor serum levels.",
+        "hepatico": "Limited hepatic metabolism. No specific adjustment; monitor in severe insufficiency."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Digoxin - Loading (adult)",
+        "doseTexto": "0.5-1 mg IV over 24h divided",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Digoxin - Maintenance (adult)",
+        "doseTexto": "0.125-0.25 mg PO/IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.125-0.25 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Digoxin - Loading (pediatric)",
+        "doseTexto": "8-12 mcg/kg IV total (50%+25%+25%) - max 0.5 mg",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Digoxin - Maintenance (pediatric)",
+        "doseTexto": "5-10 mcg/kg/day PO q12h",
+        "doseMin": 0.0075,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Digoxina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ataque IV (adulto)",
+          "descricaoDose": "0,5-1 mg IV en 24h dividido (50% + 25% + 25%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 24h dividido",
+            "ajusteRenal": "ClCr <50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Mantenimiento (adulto)",
+          "descricaoDose": "0,125-0,25 mg VO/IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.25,
+            "doseMaxima": 0.25,
+            "doseFixa": "0,125-0,25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "FA/Flutter - control de frecuencia (adulto)",
+          "descricaoDose": "0,25-0,5 mg IV dosis única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25-0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Ataque IV (pediátrico)",
+          "descricaoDose": "8-12 mcg/kg IV total dividido (50% + 25% + 25%) - máx 0,5 mg",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 24h dividido",
+            "ajusteRenal": "ClCr <50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Mantenimiento (pediátrico)",
+          "descricaoDose": "5-10 mcg/kg/día VO dividido 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.0075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Glucósido cardíaco, antiarrítmico, inotrópico positivo",
+      "apresentacoes": [
+        { "forma": "Ampolla 0,25 mg/mL (2 mL)", "obs": "Uso IV" },
+        { "forma": "Comprimido 0,25 mg", "obs": "VO" },
+        { "forma": "Solución oral 0,05 mg/mL", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administrar lentamente (2-3 min)", "concentracao": "Diluir en SF 0,9% o SG 5% si necesario" },
+        { "diluicao": "Ampolla 0,25 mg/mL", "concentracao": "Puede administrarse diluida o no" }
+      ],
+      "observacoes": [
+        "Monitorizar niveles séricos (0,8-2,0 ng/mL) y ECG",
+        "Vida media prolongada (36-48 h) - riesgo de acumulación",
+        "Hipopotasemia e hipomagnesemia aumentan toxicidad digitálica",
+        "Contraindicado en bloqueo AV 2º/3º grado y WPW con FA",
+        "Amiodarona y verapamilo aumentan niveles - reducir dosis de digoxina",
+        "Tener atropina disponible para bradicardia severa"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis (0,125 mg/día o en días alternos). Ancianos >60a: dosis de ataque máx 1 mg en 24h.",
+        "renal": "ClCr <50 mL/min: reducir 50%. ClCr <10 mL/min o diálisis: reducir 75%. Monitorizar niveles séricos.",
+        "hepatico": "Metabolización hepática limitada. No requiere ajuste específico; monitorizar en insuficiencia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Digoxina - Ataque (adulto)",
+        "doseTexto": "0,5-1 mg IV en 24h dividido",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Digoxina - Mantenimiento (adulto)",
+        "doseTexto": "0,125-0,25 mg VO/IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,125-0,25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Digoxina - Ataque (pediátrico)",
+        "doseTexto": "8-12 mcg/kg IV total (50%+25%+25%) - máx 0,5 mg",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Digoxina - Mantenimiento (pediátrico)",
+        "doseTexto": "5-10 mcg/kg/día VO 12/12h",
+        "doseMin": 0.0075,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "地高辛",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷量 IV（成人）",
+          "descricaoDose": "0.5-1 mg IV 24小时内分次（50% + 25% + 25%）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "24小时内分次",
+            "ajusteRenal": "ClCr <50: 减量50%；ClCr <10: 减量75%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "维持量（成人）",
+          "descricaoDose": "0.125-0.25 mg 口服/IV 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.25,
+            "doseMaxima": 0.25,
+            "doseFixa": "0.125-0.25 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "PO/IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <50: 减量50%；ClCr <10: 减量75%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "房颤/房扑 - 控制心室率（成人）",
+          "descricaoDose": "0.25-0.5 mg IV 单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25-0.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr <50: 减量50%；ClCr <10: 减量75%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "负荷量 IV（儿童）",
+          "descricaoDose": "8-12 mcg/kg IV 总量分次（50%+25%+25%）- 最大0.5 mg",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "24小时内分次",
+            "ajusteRenal": "ClCr <50: 减量50%；ClCr <10: 减量75%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "维持量（儿童）",
+          "descricaoDose": "5-10 mcg/kg/日 口服 每12小时分次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.0075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "PO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <50: 减量50%；ClCr <10: 减量75%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "强心苷，抗心律失常药，正性肌力药",
+      "apresentacoes": [
+        { "forma": "安瓿 0.25 mg/mL (2 mL)", "obs": "静脉用" },
+        { "forma": "片剂 0.25 mg", "obs": "口服" },
+        { "forma": "口服溶液 0.05 mg/mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 缓慢给药（2-3分钟）", "concentracao": "必要时用生理盐水或5%葡萄糖稀释" },
+        { "diluicao": "安瓿 0.25 mg/mL", "concentracao": "可稀释或不稀释给药" }
+      ],
+      "observacoes": [
+        "监测血药浓度（0.8-2.0 ng/mL）及心电图",
+        "半衰期长（36-48小时）- 蓄积风险",
+        "低钾、低镁加重洋地黄毒性",
+        "二/三度房室传导阻滞及WPW伴房颤禁用",
+        "胺碘酮、维拉帕米升高浓度 - 减量地高辛",
+        "备阿托品以应对严重心动过缓"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量（0.125 mg/日或隔日）。>60岁：负荷量最大1 mg/24h。",
+        "renal": "ClCr <50 mL/min：减量50%。ClCr <10 mL/min或透析：减量75%。监测血药浓度。",
+        "hepatico": "肝脏代谢有限。无特殊调整；严重肝功能不全时监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "地高辛 - 负荷量（成人）",
+        "doseTexto": "0.5-1 mg IV 24小时内分次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地高辛 - 维持量（成人）",
+        "doseTexto": "0.125-0.25 mg 口服/IV 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.125-0.25 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地高辛 - 负荷量（儿童）",
+        "doseTexto": "8-12 mcg/kg IV 总量（50%+25%+25%）- 最大0.5 mg",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "地高辛 - 维持量（儿童）",
+        "doseTexto": "5-10 mcg/kg/日 口服 每12小时",
+        "doseMin": 0.0075,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

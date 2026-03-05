@@ -1,0 +1,938 @@
+{
+  "PT": {
+    "nome": "Fenitoína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus - Carga IV (adulto)",
+          "descricaoDose": "15-20 mg/kg IV em 20-30 min (velocidade máx 50 mg/min; máx 1500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 20-30 min",
+            "ajusteRenal": "Em IR a fração livre aumenta; monitorar fração livre ou corrigir níveis (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiência hepática moderada a grave: reduzir dose e monitorizar níveis.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - Dose adicional (adulto)",
+          "descricaoDose": "5-10 mg/kg IV se crise persistir",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "se persistir",
+            "ajusteRenal": "Em IR a fração livre aumenta; monitorar fração livre ou corrigir níveis (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiência hepática moderada a grave: reduzir dose e monitorizar níveis.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Manutenção (adulto)",
+          "descricaoDose": "4-7 mg/kg/dia IV/VO dividido 8/12 h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "dividido 8/12 h",
+            "ajusteRenal": "Em IR a fração livre aumenta; monitorar fração livre ou corrigir níveis (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiência hepática moderada a grave: reduzir dose e monitorizar níveis.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - Carga IV (pediátrico)",
+          "descricaoDose": "15-20 mg/kg IV em 20-30 min (velocidade máx 1-3 mg/kg/min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 20-30 min",
+            "ajusteRenal": "Em IR a fração livre aumenta; monitorar fração livre ou corrigir níveis (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiência hepática moderada a grave: reduzir dose e monitorizar níveis.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - Dose adicional (pediátrico)",
+          "descricaoDose": "5-10 mg/kg IV se crise persistir",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "se persistir",
+            "ajusteRenal": "Em IR a fração livre aumenta; monitorar fração livre ou corrigir níveis (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiência hepática moderada a grave: reduzir dose e monitorizar níveis.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Manutenção (pediátrico)",
+          "descricaoDose": "4-7 mg/kg/dia IV/VO dividido 8/12 h (neonatos 5-8 mg/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "dividido 8/12 h",
+            "ajusteRenal": "Em IR a fração livre aumenta; monitorar fração livre ou corrigir níveis (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiência hepática moderada a grave: reduzir dose e monitorizar níveis.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico - Hidantoína, estabilizador de membrana neuronal",
+      "apresentacoes": [
+        { "forma": "Ampola 250 mg/5 mL (50 mg/mL)", "obs": "Uso IV; solução pronta" },
+        { "forma": "Comprimido 100 mg", "obs": "Uso oral - manutenção" }
+      ],
+      "preparo": [
+        { "diluicao": "Ampola pronta para uso ou diluir em 50-100 mL SF 0,9%", "concentracao": "Exclusivamente SF 0,9%" },
+        { "diluicao": "Velocidade máx IV adulto", "concentracao": "50 mg/min" },
+        { "diluicao": "Velocidade máx IV pediátrico", "concentracao": "1-3 mg/kg/min" },
+        { "diluicao": "NUNCA usar glicosado, bicarbonato ou Ringer", "concentracao": "pH 12 - risco de precipitação" }
+      ],
+      "observacoes": [
+        "Via IM contraindicada (necrose e absorção imprevisível). Uso exclusivo IV ou VO.",
+        "NUNCA administrar em bolus rápido; risco de hipotensão, bradicardia e colapso cardiovascular.",
+        "Solução altamente alcalina (pH 12); incompatível com soluções glicosadas; apenas SF 0,9%.",
+        "Monitorar PA, FC e FR durante infusão; observar nistagmo, ataxia e disartria (toxicidade).",
+        "Níveis terapêuticos: 10-20 mcg/mL total; 1-2 mcg/mL livre. Dosar níveis após carga.",
+        "Contraindicado em bloqueio AV, bradicardia sinusal e síndrome de Stokes-Adams."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Clearance pode estar reduzido; monitorar níveis e sinais de toxicidade (nistagmo, ataxia, disartria).",
+        "renal": "Na IR a fração livre aumenta (hipoalbuminemia, uremia). Monitorar fração livre ou corrigir níveis com fórmula de Sheiner-Tozer.",
+        "hepatico": "Ajuste obrigatório na insuficiência hepática moderada a grave; metabolismo reduzido com risco de acúmulo e toxicidade. Monitorizar níveis e parâmetros clínicos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenitoína - Carga (adulto)",
+        "doseTexto": "15-20 mg/kg IV (máx 1500 mg) em 20-30 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenitoína - Dose adicional (adulto)",
+        "doseTexto": "5-10 mg/kg IV se persistir",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenitoína - Manutenção (adulto)",
+        "doseTexto": "4-7 mg/kg/dia IV/VO dividido 2-3x",
+        "doseMin": 4,
+        "doseMax": 7,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenitoína - Carga (pediátrico)",
+        "doseTexto": "15-20 mg/kg IV em 20-30 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fenitoína - Dose adicional (pediátrico)",
+        "doseTexto": "5-10 mg/kg IV se persistir",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fenitoína - Manutenção (pediátrico)",
+        "doseTexto": "4-7 mg/kg/dia IV/VO dividido 2-3x",
+        "doseMin": 4,
+        "doseMax": 7,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Phenytoin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus - IV loading (adult)",
+          "descricaoDose": "15-20 mg/kg IV over 20-30 min (max rate 50 mg/min; max 1500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose over 20-30 min",
+            "ajusteRenal": "In renal failure free fraction increases; monitor free level or correct using Sheiner-Tozer formula.",
+            "ajusteHepatico": "Moderate to severe hepatic impairment: reduce dose and monitor levels.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - Additional dose (adult)",
+          "descricaoDose": "5-10 mg/kg IV if seizure persists",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "if persists",
+            "ajusteRenal": "In renal failure free fraction increases; monitor free level or correct using Sheiner-Tozer formula.",
+            "ajusteHepatico": "Moderate to severe hepatic impairment: reduce dose and monitor levels.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Maintenance (adult)",
+          "descricaoDose": "4-7 mg/kg/day IV/PO divided 8/12 h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/day",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/PO",
+            "intervalo": "divided 8/12 h",
+            "ajusteRenal": "In renal failure free fraction increases; monitor free level or correct using Sheiner-Tozer formula.",
+            "ajusteHepatico": "Moderate to severe hepatic impairment: reduce dose and monitor levels.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - IV loading (pediatric)",
+          "descricaoDose": "15-20 mg/kg IV over 20-30 min (max rate 1-3 mg/kg/min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose over 20-30 min",
+            "ajusteRenal": "In renal failure free fraction increases; monitor free level or correct using Sheiner-Tozer formula.",
+            "ajusteHepatico": "Moderate to severe hepatic impairment: reduce dose and monitor levels.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - Additional dose (pediatric)",
+          "descricaoDose": "5-10 mg/kg IV if seizure persists",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "if persists",
+            "ajusteRenal": "In renal failure free fraction increases; monitor free level or correct using Sheiner-Tozer formula.",
+            "ajusteHepatico": "Moderate to severe hepatic impairment: reduce dose and monitor levels.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Maintenance (pediatric)",
+          "descricaoDose": "4-7 mg/kg/day IV/PO divided 8/12 h (neonates 5-8 mg/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/day",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/PO",
+            "intervalo": "divided 8/12 h",
+            "ajusteRenal": "In renal failure free fraction increases; monitor free level or correct using Sheiner-Tozer formula.",
+            "ajusteHepatico": "Moderate to severe hepatic impairment: reduce dose and monitor levels.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepileptic - Hydantoin, neuronal membrane stabilizer",
+      "apresentacoes": [
+        { "forma": "Ampoule 250 mg/5 mL (50 mg/mL)", "obs": "IV use; ready-to-use solution" },
+        { "forma": "Tablet 100 mg", "obs": "Oral use - maintenance" }
+      ],
+      "preparo": [
+        { "diluicao": "Ampoule ready to use or dilute in 50-100 mL NS", "concentracao": "NS only" },
+        { "diluicao": "Max IV rate adult", "concentracao": "50 mg/min" },
+        { "diluicao": "Max IV rate pediatric", "concentracao": "1-3 mg/kg/min" },
+        { "diluicao": "NEVER use dextrose, bicarbonate or Ringer", "concentracao": "pH 12 - precipitation risk" }
+      ],
+      "observacoes": [
+        "IM route contraindicated (necrosis and unpredictable absorption). IV or PO only.",
+        "NEVER give rapid bolus; risk of hypotension, bradycardia and cardiovascular collapse.",
+        "Highly alkaline solution (pH 12); incompatible with dextrose; NS only.",
+        "Monitor BP, HR and RR during infusion; watch for nystagmus, ataxia, dysarthria (toxicity).",
+        "Therapeutic levels: 10-20 mcg/mL total; 1-2 mcg/mL free. Check levels after loading.",
+        "Contraindicated in AV block, sinus bradycardia and Stokes-Adams syndrome."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Clearance may be reduced; monitor levels and signs of toxicity (nystagmus, ataxia, dysarthria).",
+        "renal": "In renal failure free fraction increases (hypoalbuminemia, uremia). Monitor free level or correct using Sheiner-Tozer formula.",
+        "hepatico": "Dose adjustment required in moderate to severe hepatic impairment; reduced metabolism with accumulation and toxicity risk. Monitor levels and clinical parameters."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Phenytoin - Loading (adult)",
+        "doseTexto": "15-20 mg/kg IV (max 1500 mg) over 20-30 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Phenytoin - Additional dose (adult)",
+        "doseTexto": "5-10 mg/kg IV if persists",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Phenytoin - Maintenance (adult)",
+        "doseTexto": "4-7 mg/kg/day IV/PO divided 2-3x",
+        "doseMin": 4,
+        "doseMax": 7,
+        "unidadeResultado": "mg/day",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Phenytoin - Loading (pediatric)",
+        "doseTexto": "15-20 mg/kg IV over 20-30 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Phenytoin - Additional dose (pediatric)",
+        "doseTexto": "5-10 mg/kg IV if persists",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Phenytoin - Maintenance (pediatric)",
+        "doseTexto": "4-7 mg/kg/day IV/PO divided 2-3x",
+        "doseMin": 4,
+        "doseMax": 7,
+        "unidadeResultado": "mg/day",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fenitoína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Estado epiléptico - Carga IV (adulto)",
+          "descricaoDose": "15-20 mg/kg IV en 20-30 min (velocidad máx 50 mg/min; máx 1500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 20-30 min",
+            "ajusteRenal": "En IR la fracción libre aumenta; monitorizar fracción libre o corregir niveles (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiencia hepática moderada a grave: reducir dosis y monitorizar niveles.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Estado epiléptico - Dosis adicional (adulto)",
+          "descricaoDose": "5-10 mg/kg IV si crisis persiste",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "si persiste",
+            "ajusteRenal": "En IR la fracción libre aumenta; monitorizar fracción libre o corregir niveles (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiencia hepática moderada a grave: reducir dosis y monitorizar niveles.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Mantenimiento (adulto)",
+          "descricaoDose": "4-7 mg/kg/día IV/VO dividido 8/12 h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/día",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "dividido 8/12 h",
+            "ajusteRenal": "En IR la fracción libre aumenta; monitorizar fracción libre o corregir niveles (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiencia hepática moderada a grave: reducir dosis y monitorizar niveles.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Estado epiléptico - Carga IV (pediátrico)",
+          "descricaoDose": "15-20 mg/kg IV en 20-30 min (velocidad máx 1-3 mg/kg/min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 20-30 min",
+            "ajusteRenal": "En IR la fracción libre aumenta; monitorizar fracción libre o corregir niveles (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiencia hepática moderada a grave: reducir dosis y monitorizar niveles.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Estado epiléptico - Dosis adicional (pediátrico)",
+          "descricaoDose": "5-10 mg/kg IV si crisis persiste",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "si persiste",
+            "ajusteRenal": "En IR la fracción libre aumenta; monitorizar fracción libre o corregir niveles (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiencia hepática moderada a grave: reducir dosis y monitorizar niveles.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Mantenimiento (pediátrico)",
+          "descricaoDose": "4-7 mg/kg/día IV/VO dividido 8/12 h (neonatos 5-8 mg/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/día",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "dividido 8/12 h",
+            "ajusteRenal": "En IR la fracción libre aumenta; monitorizar fracción libre o corregir niveles (fórmula Sheiner-Tozer).",
+            "ajusteHepatico": "Insuficiencia hepática moderada a grave: reducir dosis y monitorizar niveles.",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico - Hidantoína, estabilizador de membrana neuronal",
+      "apresentacoes": [
+        { "forma": "Ampolla 250 mg/5 mL (50 mg/mL)", "obs": "Uso IV; solución lista" },
+        { "forma": "Comprimido 100 mg", "obs": "Uso oral - mantenimiento" }
+      ],
+      "preparo": [
+        { "diluicao": "Ampolla lista o diluir en 50-100 mL SF 0,9%", "concentracao": "Exclusivamente SF 0,9%" },
+        { "diluicao": "Velocidad máx IV adulto", "concentracao": "50 mg/min" },
+        { "diluicao": "Velocidad máx IV pediátrico", "concentracao": "1-3 mg/kg/min" },
+        { "diluicao": "NUNCA usar glucosado, bicarbonato o Ringer", "concentracao": "pH 12 - riesgo de precipitación" }
+      ],
+      "observacoes": [
+        "Vía IM contraindicada (necrosis y absorción impredecible). Uso exclusivo IV o VO.",
+        "NUNCA administrar en bolo rápido; riesgo de hipotensión, bradicardia y colapso cardiovascular.",
+        "Solución muy alcalina (pH 12); incompatible con glucosado; solo SF 0,9%.",
+        "Monitorizar PA, FC y FR durante infusión; observar nistagmo, ataxia y disartria (toxicidad).",
+        "Niveles terapéuticos: 10-20 mcg/mL total; 1-2 mcg/mL libre. Dosar niveles tras carga.",
+        "Contraindicado en bloqueo AV, bradicardia sinusal y síndrome de Stokes-Adams."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Aclaramiento puede estar reducido; monitorizar niveles y signos de toxicidad (nistagmo, ataxia, disartria).",
+        "renal": "En IR la fracción libre aumenta (hipoalbuminemia, uremia). Monitorizar fracción libre o corregir niveles con fórmula de Sheiner-Tozer.",
+        "hepatico": "Ajuste obligatorio en insuficiencia hepática moderada a grave; metabolismo reducido con riesgo de acumulación y toxicidad. Monitorizar niveles y parámetros clínicos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenitoína - Carga (adulto)",
+        "doseTexto": "15-20 mg/kg IV (máx 1500 mg) en 20-30 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenitoína - Dosis adicional (adulto)",
+        "doseTexto": "5-10 mg/kg IV si persiste",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenitoína - Mantenimiento (adulto)",
+        "doseTexto": "4-7 mg/kg/día IV/VO dividido 2-3x",
+        "doseMin": 4,
+        "doseMax": 7,
+        "unidadeResultado": "mg/día",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenitoína - Carga (pediátrico)",
+        "doseTexto": "15-20 mg/kg IV en 20-30 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fenitoína - Dosis adicional (pediátrico)",
+        "doseTexto": "5-10 mg/kg IV si persiste",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fenitoína - Mantenimiento (pediátrico)",
+        "doseTexto": "4-7 mg/kg/día IV/VO dividido 2-3x",
+        "doseMin": 4,
+        "doseMax": 7,
+        "unidadeResultado": "mg/día",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "苯妥英",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "癫痫持续状态 - IV负荷（成人）",
+          "descricaoDose": "15-20 mg/kg IV 20-30分钟内（最大速度50 mg/min；最大1500 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次20-30分钟内",
+            "ajusteRenal": "肾功能不全时游离分数升高；监测游离浓度或按Sheiner-Tozer公式校正。",
+            "ajusteHepatico": "中重度肝功能不全：减量并监测浓度。",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "癫痫持续状态 - 追加剂量（成人）",
+          "descricaoDose": "若发作持续 5-10 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "若持续",
+            "ajusteRenal": "肾功能不全时游离分数升高；监测游离浓度或按Sheiner-Tozer公式校正。",
+            "ajusteHepatico": "中重度肝功能不全：减量并监测浓度。",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "维持（成人）",
+          "descricaoDose": "4-7 mg/kg/天 IV/口服 每8/12小时分次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每8/12小时分次",
+            "ajusteRenal": "肾功能不全时游离分数升高；监测游离浓度或按Sheiner-Tozer公式校正。",
+            "ajusteHepatico": "中重度肝功能不全：减量并监测浓度。",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "癫痫持续状态 - IV负荷（儿童）",
+          "descricaoDose": "15-20 mg/kg IV 20-30分钟内（最大速度1-3 mg/kg/min）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次20-30分钟内",
+            "ajusteRenal": "肾功能不全时游离分数升高；监测游离浓度或按Sheiner-Tozer公式校正。",
+            "ajusteHepatico": "中重度肝功能不全：减量并监测浓度。",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "癫痫持续状态 - 追加剂量（儿童）",
+          "descricaoDose": "若发作持续 5-10 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "若持续",
+            "ajusteRenal": "肾功能不全时游离分数升高；监测游离浓度或按Sheiner-Tozer公式校正。",
+            "ajusteHepatico": "中重度肝功能不全：减量并监测浓度。",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "维持（儿童）",
+          "descricaoDose": "4-7 mg/kg/天 IV/口服 每8/12小时分次（新生儿5-8 mg/kg/天）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每8/12小时分次",
+            "ajusteRenal": "肾功能不全时游离分数升高；监测游离浓度或按Sheiner-Tozer公式校正。",
+            "ajusteHepatico": "中重度肝功能不全：减量并监测浓度。",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗癫痫药 - 乙内酰脲，神经元膜稳定剂",
+      "apresentacoes": [
+        { "forma": "安瓿 250 mg/5 mL (50 mg/mL)", "obs": "静脉用；即用溶液" },
+        { "forma": "片剂 100 mg", "obs": "口服 - 维持" }
+      ],
+      "preparo": [
+        { "diluicao": "安瓿即用或稀释于50-100 mL生理盐水", "concentracao": "仅生理盐水" },
+        { "diluicao": "成人IV最大速度", "concentracao": "50 mg/min" },
+        { "diluicao": "儿童IV最大速度", "concentracao": "1-3 mg/kg/min" },
+        { "diluicao": "切勿使用葡萄糖、碳酸氢盐或林格液", "concentracao": "pH 12 - 沉淀风险" }
+      ],
+      "observacoes": [
+        "肌注禁忌（坏死及吸收不可预测）。仅IV或口服。",
+        "切勿快速推注；低血压、心动过缓及心血管衰竭风险。",
+        "强碱性溶液（pH 12）；与葡萄糖不相容；仅生理盐水。",
+        "输注期间监测血压、心率、呼吸；观察眼震、共济失调、构音障碍（中毒）。",
+        "治疗浓度：总10-20 mcg/mL；游离1-2 mcg/mL。负荷后测浓度。",
+        "房室传导阻滞、窦性心动过缓、斯托克斯-亚当斯综合征禁忌。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "清除率可能降低；监测浓度及中毒征象（眼震、共济失调、构音障碍）。",
+        "renal": "肾功能不全时游离分数升高（低白蛋白血症、尿毒症）。监测游离浓度或按Sheiner-Tozer公式校正。",
+        "hepatico": "中重度肝功能不全需调整剂量；代谢降低有蓄积及中毒风险。监测浓度及临床参数。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "苯妥英 - 负荷（成人）",
+        "doseTexto": "15-20 mg/kg IV（最大1500 mg）20-30分钟内",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "苯妥英 - 追加剂量（成人）",
+        "doseTexto": "若持续 5-10 mg/kg IV",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "苯妥英 - 维持（成人）",
+        "doseTexto": "4-7 mg/kg/天 IV/口服 分2-3次",
+        "doseMin": 4,
+        "doseMax": 7,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "苯妥英 - 负荷（儿童）",
+        "doseTexto": "15-20 mg/kg IV 20-30分钟内",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "苯妥英 - 追加剂量（儿童）",
+        "doseTexto": "若持续 5-10 mg/kg IV",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "苯妥英 - 维持（儿童）",
+        "doseTexto": "4-7 mg/kg/天 IV/口服 分2-3次",
+        "doseMin": 4,
+        "doseMax": 7,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

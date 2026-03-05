@@ -1,0 +1,766 @@
+{
+  "PT": {
+    "nome": "Clindamicina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções de pele, partes moles e odontogênicas",
+          "descricaoDose": "300–600 mg VO ou IV a cada 6–8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 300,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "300–600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "6/6–8/8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções intra-abdominais e pélvicas",
+          "descricaoDose": "600–900 mg IV a cada 8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 900,
+            "doseMaxima": 900,
+            "doseFixa": "600–900 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Toxina estreptocócica (Strep. pyogenes)",
+          "descricaoDose": "600–900 mg IV a cada 8 h (+ penicilina)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 900,
+            "doseMaxima": 900,
+            "doseFixa": "600–900 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "600 mg IV 60 min antes da incisão (ex. alérgicos a beta-lactâmicos)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60 min antes da incisão",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções pediátricas (≥1 mês)",
+          "descricaoDose": "10–13 mg/kg/dose IV ou VO a cada 8 h (máx 600 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 13,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 600,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "8/8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico lincosamida, bacteriostático – ativo contra cocos Gram-positivos e anaeróbios",
+      "apresentacoes": [
+        { "forma": "Frasco 600 mg/4 mL", "obs": "Para uso IV" },
+        { "forma": "Cápsulas 300 mg", "obs": "Para uso VO" },
+        { "forma": "Creme vaginal", "obs": "Uso tópico" },
+        { "forma": "Solução tópica 1%", "obs": "Uso cutâneo" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 600 mg em 100 mL SF ou SG 5%", "concentracao": "Infusão lenta ≥30 min" },
+        { "diluicao": "VO: intervalo 6/6h ou 8/8h", "concentracao": "Com ou sem alimentos" }
+      ],
+      "observacoes": [
+        "Excelente cobertura contra cocos Gram-positivos e anaeróbios; opção para alérgicos à penicilina.",
+        "Bloqueia toxinas de Streptococcus pyogenes e Staphylococcus aureus – vantagem em fascite necrosante e síndrome do choque tóxico.",
+        "Risco de colite associada ao uso (C. difficile); suspender se diarreia e considerar tratamento específico.",
+        "Não requer ajuste para função renal – metabolismo hepático predominante.",
+        "Interação com relaxantes musculares não despolarizantes – potencializa bloqueio neuromuscular.",
+        "Evitar uso concomitante com eritromicina (antagonismo). Contraindicado em colite pseudomembranosa e miastenia gravis."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose específico. Monitorar efeitos adversos e colite por C. difficile.",
+        "renal": "Não requer ajuste – metabolismo hepático predominante; excreção renal mínima.",
+        "hepatico": "Em insuficiência hepática grave, monitorar e considerar redução de dose ou intervalo conforme bula."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clindamicina – pele/partes moles (adulto)",
+        "doseTexto": "300–600 mg VO ou IV 6/6–8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300–600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamicina – intra-abdominal (adulto)",
+        "doseTexto": "600–900 mg IV 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600–900 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamicina – toxina estreptocócica (adulto)",
+        "doseTexto": "600–900 mg IV 8/8h (+ penicilina)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600–900 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamicina – profilaxia cirúrgica",
+        "doseTexto": "600 mg IV 60 min antes da incisão",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamicina – pediátrico (≥1 mês)",
+        "doseTexto": "10–13 mg/kg/dose IV ou VO 8/8h (máx 600 mg/dose)",
+        "doseMin": 10,
+        "doseMax": 13,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Clindamycin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Skin, soft tissue, and odontogenic infections",
+          "descricaoDose": "300–600 mg PO or IV every 6–8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 300,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "300–600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "every 6–8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intra-abdominal and pelvic infections",
+          "descricaoDose": "600–900 mg IV every 8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 900,
+            "doseMaxima": 900,
+            "doseFixa": "600–900 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Streptococcal toxin (Strep. pyogenes)",
+          "descricaoDose": "600–900 mg IV every 8 h (+ penicillin)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 900,
+            "doseMaxima": 900,
+            "doseFixa": "600–900 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "600 mg IV 60 min before incision (e.g. beta-lactam allergic)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60 min before incision",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric infections (≥1 month)",
+          "descricaoDose": "10–13 mg/kg/dose IV or PO every 8 h (max 600 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 13,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 600,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "every 8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Lincosamide antibiotic, bacteriostatic – active against Gram-positive cocci and anaerobes",
+      "apresentacoes": [
+        { "forma": "Vial 600 mg/4 mL", "obs": "For IV use" },
+        { "forma": "Capsules 300 mg", "obs": "For PO use" },
+        { "forma": "Vaginal cream", "obs": "Topical" },
+        { "forma": "Topical solution 1%", "obs": "Cutaneous" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 600 mg in 100 mL NS or D5W", "concentracao": "Infuse slowly over ≥30 min" },
+        { "diluicao": "PO: every 6–8 h", "concentracao": "With or without food" }
+      ],
+      "observacoes": [
+        "Excellent coverage against Gram-positive cocci and anaerobes; option for penicillin-allergic patients.",
+        "Blocks toxins of Streptococcus pyogenes and Staphylococcus aureus – advantage in necrotizing fasciitis and toxic shock syndrome.",
+        "Risk of C. difficile-associated colitis; discontinue if diarrhea and consider specific treatment.",
+        "No dose adjustment for renal function – predominantly hepatic metabolism.",
+        "Interaction with nondepolarizing muscle relaxants – potentiates neuromuscular blockade.",
+        "Avoid concomitant use with erythromycin (antagonism). Contraindicated in pseudomembranous colitis and myasthenia gravis."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific dose adjustment. Monitor for adverse effects and C. difficile colitis.",
+        "renal": "No adjustment required – predominantly hepatic metabolism; minimal renal excretion.",
+        "hepatico": "In severe hepatic impairment, monitor and consider dose or interval reduction per labeling."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clindamycin – skin/soft tissue (adult)",
+        "doseTexto": "300–600 mg PO or IV every 6–8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300–600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamycin – intra-abdominal (adult)",
+        "doseTexto": "600–900 mg IV every 8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600–900 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamycin – streptococcal toxin (adult)",
+        "doseTexto": "600–900 mg IV every 8 h (+ penicillin)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600–900 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamycin – surgical prophylaxis",
+        "doseTexto": "600 mg IV 60 min before incision",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamycin – pediatric (≥1 month)",
+        "doseTexto": "10–13 mg/kg/dose IV or PO every 8 h (max 600 mg/dose)",
+        "doseMin": 10,
+        "doseMax": 13,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Clindamicina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones de piel, partes blandas y odontogénicas",
+          "descricaoDose": "300–600 mg VO o IV cada 6–8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 300,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "300–600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "cada 6–8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones intraabdominales y pélvicas",
+          "descricaoDose": "600–900 mg IV cada 8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 900,
+            "doseMaxima": 900,
+            "doseFixa": "600–900 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Toxina estreptocócica (Strep. pyogenes)",
+          "descricaoDose": "600–900 mg IV cada 8 h (+ penicilina)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 900,
+            "doseMaxima": 900,
+            "doseFixa": "600–900 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "600 mg IV 60 min antes de la incisión (ej. alérgicos a betalactámicos)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60 min antes de la incisión",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones pediátricas (≥1 mes)",
+          "descricaoDose": "10–13 mg/kg/dosis IV o VO cada 8 h (máx 600 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 13,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 600,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "cada 8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico lincosamida, bacteriostático – activo frente a cocos Gram positivos y anaerobios",
+      "apresentacoes": [
+        { "forma": "Frasco 600 mg/4 mL", "obs": "Para uso IV" },
+        { "forma": "Cápsulas 300 mg", "obs": "Para uso VO" },
+        { "forma": "Crema vaginal", "obs": "Uso tópico" },
+        { "forma": "Solución tópica 1%", "obs": "Uso cutáneo" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 600 mg en 100 mL SF o SG 5%", "concentracao": "Infusión lenta ≥30 min" },
+        { "diluicao": "VO: intervalo 6/6h o 8/8h", "concentracao": "Con o sin alimentos" }
+      ],
+      "observacoes": [
+        "Excelente cobertura frente a cocos Gram positivos y anaerobios; opción para alérgicos a penicilina.",
+        "Bloquea toxinas de Streptococcus pyogenes y Staphylococcus aureus – ventaja en fascitis necrotizante y síndrome de shock tóxico.",
+        "Riesgo de colitis por C. difficile; suspender si diarrea y considerar tratamiento específico.",
+        "No requiere ajuste por función renal – metabolismo hepático predominante.",
+        "Interacción con relajantes musculares no despolarizantes – potencia bloqueo neuromuscular.",
+        "Evitar uso concomitante con eritromicina (antagonismo). Contraindicado en colitis pseudomembranosa y miastenia gravis."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis específico. Monitorizar efectos adversos y colitis por C. difficile.",
+        "renal": "No requiere ajuste – metabolismo hepático predominante; excreción renal mínima.",
+        "hepatico": "En insuficiencia hepática grave, monitorizar y considerar reducción de dosis o intervalo según ficha técnica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clindamicina – piel/partes blandas (adulto)",
+        "doseTexto": "300–600 mg VO o IV cada 6–8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300–600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamicina – intraabdominal (adulto)",
+        "doseTexto": "600–900 mg IV cada 8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600–900 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamicina – toxina estreptocócica (adulto)",
+        "doseTexto": "600–900 mg IV cada 8 h (+ penicilina)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600–900 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamicina – profilaxis quirúrgica",
+        "doseTexto": "600 mg IV 60 min antes de la incisión",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clindamicina – pediátrico (≥1 mes)",
+        "doseTexto": "10–13 mg/kg/dosis IV o VO cada 8 h (máx 600 mg/dosis)",
+        "doseMin": 10,
+        "doseMax": 13,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "克林霉素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "皮肤、软组织和牙源性感染",
+          "descricaoDose": "300–600 mg 口服或IV 每6–8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 300,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "300–600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每6–8小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "腹腔和盆腔感染",
+          "descricaoDose": "600–900 mg IV 每8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 900,
+            "doseMaxima": 900,
+            "doseFixa": "600–900 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "链球菌毒素（化脓链球菌）",
+          "descricaoDose": "600–900 mg IV 每8小时（+ 青霉素）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 900,
+            "doseMaxima": 900,
+            "doseFixa": "600–900 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "600 mg IV 切皮前60分钟（如β-内酰胺过敏）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "切皮前60分钟",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童感染（≥1月龄）",
+          "descricaoDose": "10–13 mg/kg/剂 IV或口服 每8小时（最大600 mg/剂）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 13,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 600,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每8小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "林可酰胺类抗生素，抑菌 – 抗革兰阳性球菌和厌氧菌",
+      "apresentacoes": [
+        { "forma": "瓶 600 mg/4 mL", "obs": "静脉用" },
+        { "forma": "胶囊 300 mg", "obs": "口服" },
+        { "forma": "阴道乳膏", "obs": "外用" },
+        { "forma": "外用溶液 1%", "obs": "皮肤用" }
+      ],
+      "preparo": [
+        { "diluicao": "IV：600 mg 溶于100 mL 生理盐水或5%葡萄糖", "concentracao": "缓慢输注 ≥30分钟" },
+        { "diluicao": "口服：每6–8小时", "concentracao": "可与食物同服或不同服" }
+      ],
+      "observacoes": [
+        "对革兰阳性球菌和厌氧菌覆盖佳；青霉素过敏者可选。",
+        "抑制化脓链球菌和金黄色葡萄球菌毒素 – 坏死性筋膜炎和中毒性休克综合征有优势。",
+        "有艰难梭菌相关结肠炎风险；若出现腹泻应停药并考虑针对性治疗。",
+        "肾功能不全无需调整剂量 – 主要经肝代谢。",
+        "与非去极化肌松药有相互作用 – 增强神经肌肉阻滞。",
+        "避免与红霉素同用（拮抗）。假膜性结肠炎和重症肌无力禁用。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定剂量调整。监测不良反应及艰难梭菌结肠炎。",
+        "renal": "无需调整 – 主要经肝代谢；肾排泄少。",
+        "hepatico": "严重肝损时监测并按说明书考虑减量或延长给药间隔。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "克林霉素 – 皮肤/软组织（成人）",
+        "doseTexto": "300–600 mg 口服或IV 每6–8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300–600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "克林霉素 – 腹腔感染（成人）",
+        "doseTexto": "600–900 mg IV 每8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600–900 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "克林霉素 – 链球菌毒素（成人）",
+        "doseTexto": "600–900 mg IV 每8小时（+ 青霉素）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600–900 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "克林霉素 – 手术预防",
+        "doseTexto": "600 mg IV 切皮前60分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "克林霉素 – 儿童（≥1月）",
+        "doseTexto": "10–13 mg/kg/剂 IV或口服 每8小时（最大600 mg/剂）",
+        "doseMin": 10,
+        "doseMax": 13,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

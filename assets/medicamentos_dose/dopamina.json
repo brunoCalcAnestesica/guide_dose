@@ -1,0 +1,622 @@
+{
+  "PT": {
+    "nome": "Dopamina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Choque Séptico/Cardiogênico",
+          "descricaoDose": "2-20 mcg/kg/min IV contínua - titular conforme PAM e débito cardíaco",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Choque Pediátrico",
+          "descricaoDose": "2-20 mcg/kg/min IV contínua - titular conforme perfusão",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipotensão Refratária",
+          "descricaoDose": "5-20 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipotensão Refratária Pediátrica",
+          "descricaoDose": "2-20 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 2, "doseMax": 20 },
+          "pediatrico": { "doseMin": 2, "doseMax": 20 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "400mg em 250mL SF (1600 mcg/mL)", "valor": 1600 },
+            { "rotulo": "200mg em 250mL SF (800 mcg/mL)", "valor": 800 },
+            { "rotulo": "200mg em 500mL SF (400 mcg/mL)", "valor": 400 },
+            { "rotulo": "200mg em 250mL SG5% (800 mcg/mL)", "valor": 800 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inotrópico/vasopressor - Catecolamina dose-dependente (D1, β1, α1)",
+      "apresentacoes": [
+        { "forma": "Ampola 200mg/5mL (40 mg/mL)", "obs": "Revivan®, Dopamin®" }
+      ],
+      "preparo": [
+        { "diluicao": "400mg + 250mL SF/SG5%", "concentracao": "1600 mcg/mL" },
+        { "diluicao": "200mg + 250mL SF/SG5%", "concentracao": "800 mcg/mL" },
+        { "diluicao": "200mg + 500mL SF/SG5%", "concentracao": "400 mcg/mL" }
+      ],
+      "observacoes": [
+        "Efeito dose-dependente: 0,5-2 dopaminérgico; 2-10 β1 inotrópico; >10 α1 vasopressor",
+        "VIA CENTRAL preferencial - extravasamento = necrose (infiltrar fentolamina)",
+        "Início: 2-5 min | Meia-vida: ~2 min",
+        "Incompatível com bicarbonato e soluções alcalinas",
+        "Monitorar ECG, PA, perfusão renal e débito urinário",
+        "Considerar noradrenalina em choque distributivo refratário"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com doses menores. Maior sensibilidade a efeitos cardiovasculares.",
+        "renal": "Não requer ajuste. Monitorar perfusão renal e débito urinário em altas doses.",
+        "hepatico": "Sem necessidade de ajuste. Monitorar em insuficiência hepática grave (metabolização parcial)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dopamina (adulto)",
+        "doseTexto": "2-20 mcg/kg/min IV",
+        "doseMin": 2,
+        "doseMax": 20,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dopamina (pediátrico)",
+        "doseTexto": "2-20 mcg/kg/min IV",
+        "doseMin": 2,
+        "doseMax": 20,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Dopamina - Dose Máxima",
+        "doseTexto": "Até 50 mcg/kg/min (uso excepcional)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": "50 mcg/kg/min",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Dopamine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Septic/Cardiogenic Shock",
+          "descricaoDose": "2-20 mcg/kg/min IV continuous - titrate per MAP and cardiac output",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric Shock",
+          "descricaoDose": "2-20 mcg/kg/min IV continuous - titrate per perfusion",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Refractory Hypotension",
+          "descricaoDose": "5-20 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric Refractory Hypotension",
+          "descricaoDose": "2-20 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 2, "doseMax": 20 },
+          "pediatrico": { "doseMin": 2, "doseMax": 20 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "400mg in 250mL NS (1600 mcg/mL)", "valor": 1600 },
+            { "rotulo": "200mg in 250mL NS (800 mcg/mL)", "valor": 800 },
+            { "rotulo": "200mg in 500mL NS (400 mcg/mL)", "valor": 400 },
+            { "rotulo": "200mg in 250mL D5W (800 mcg/mL)", "valor": 800 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inotrope/vasopressor - Dose-dependent catecholamine (D1, β1, α1)",
+      "apresentacoes": [
+        { "forma": "Ampoule 200mg/5mL (40 mg/mL)", "obs": "Revivan®, Dopamine®" }
+      ],
+      "preparo": [
+        { "diluicao": "400mg + 250mL NS/D5W", "concentracao": "1600 mcg/mL" },
+        { "diluicao": "200mg + 250mL NS/D5W", "concentracao": "800 mcg/mL" },
+        { "diluicao": "200mg + 500mL NS/D5W", "concentracao": "400 mcg/mL" }
+      ],
+      "observacoes": [
+        "Dose-dependent effect: 0.5-2 dopaminergic; 2-10 β1 inotropic; >10 α1 vasopressor",
+        "CENTRAL line preferred - extravasation = necrosis (infiltrate phentolamine)",
+        "Onset: 2-5 min | Half-life: ~2 min",
+        "Incompatible with bicarbonate and alkaline solutions",
+        "Monitor ECG, BP, renal perfusion and urinary output",
+        "Consider norepinephrine in refractory distributive shock"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with lower doses. Increased sensitivity to cardiovascular effects.",
+        "renal": "No adjustment required. Monitor renal perfusion and urinary output at high doses.",
+        "hepatico": "No adjustment needed. Monitor in severe hepatic insufficiency (partial metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dopamine (adult)",
+        "doseTexto": "2-20 mcg/kg/min IV",
+        "doseMin": 2,
+        "doseMax": 20,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dopamine (pediatric)",
+        "doseTexto": "2-20 mcg/kg/min IV",
+        "doseMin": 2,
+        "doseMax": 20,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Dopamine - Max Dose",
+        "doseTexto": "Up to 50 mcg/kg/min (exceptional use)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": "50 mcg/kg/min",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Dopamina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Shock Séptico/Cardiogénico",
+          "descricaoDose": "2-20 mcg/kg/min IV continua - titular según PAM y gasto cardíaco",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Shock Pediátrico",
+          "descricaoDose": "2-20 mcg/kg/min IV continua - titular según perfusión",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipotensión Refractaria",
+          "descricaoDose": "5-20 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipotensión Refractaria Pediátrica",
+          "descricaoDose": "2-20 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 2, "doseMax": 20 },
+          "pediatrico": { "doseMin": 2, "doseMax": 20 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "400mg en 250mL SF (1600 mcg/mL)", "valor": 1600 },
+            { "rotulo": "200mg en 250mL SF (800 mcg/mL)", "valor": 800 },
+            { "rotulo": "200mg en 500mL SF (400 mcg/mL)", "valor": 400 },
+            { "rotulo": "200mg en 250mL SG5% (800 mcg/mL)", "valor": 800 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inotrópico/vasopressor - Catecolamina dependiente de dosis (D1, β1, α1)",
+      "apresentacoes": [
+        { "forma": "Ampolla 200mg/5mL (40 mg/mL)", "obs": "Revivan®, Dopamina®" }
+      ],
+      "preparo": [
+        { "diluicao": "400mg + 250mL SF/SG5%", "concentracao": "1600 mcg/mL" },
+        { "diluicao": "200mg + 250mL SF/SG5%", "concentracao": "800 mcg/mL" },
+        { "diluicao": "200mg + 500mL SF/SG5%", "concentracao": "400 mcg/mL" }
+      ],
+      "observacoes": [
+        "Efecto dependiente de dosis: 0,5-2 dopaminérgico; 2-10 β1 inotrópico; >10 α1 vasopresor",
+        "VIA CENTRAL preferente - extravasación = necrosis (infiltrar fentolamina)",
+        "Inicio: 2-5 min | Vida media: ~2 min",
+        "Incompatible con bicarbonato y soluciones alcalinas",
+        "Monitorizar ECG, PA, perfusión renal y débito urinario",
+        "Considerar noradrenalina en shock distributivo refractario"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis menores. Mayor sensibilidad a efectos cardiovasculares.",
+        "renal": "No requiere ajuste. Monitorizar perfusión renal y débito urinario a dosis altas.",
+        "hepatico": "Sin necesidad de ajuste. Monitorizar en insuficiencia hepática grave (metabolismo parcial)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dopamina (adulto)",
+        "doseTexto": "2-20 mcg/kg/min IV",
+        "doseMin": 2,
+        "doseMax": 20,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dopamina (pediátrico)",
+        "doseTexto": "2-20 mcg/kg/min IV",
+        "doseMin": 2,
+        "doseMax": 20,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Dopamina - Dosis Máxima",
+        "doseTexto": "Hasta 50 mcg/kg/min (uso excepcional)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": "50 mcg/kg/min",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "多巴胺",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "脓毒症/心源性休克",
+          "descricaoDose": "2-20 mcg/kg/min IV持续 - 根据MAP和心输出量滴定",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童休克",
+          "descricaoDose": "2-20 mcg/kg/min IV持续 - 根据灌注滴定",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "难治性低血压",
+          "descricaoDose": "5-20 mcg/kg/min IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童难治性低血压",
+          "descricaoDose": "2-20 mcg/kg/min IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 2, "doseMax": 20 },
+          "pediatrico": { "doseMin": 2, "doseMax": 20 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "400mg溶于250mL NS (1600 mcg/mL)", "valor": 1600 },
+            { "rotulo": "200mg溶于250mL NS (800 mcg/mL)", "valor": 800 },
+            { "rotulo": "200mg溶于500mL NS (400 mcg/mL)", "valor": 400 },
+            { "rotulo": "200mg溶于250mL 5%GS (800 mcg/mL)", "valor": 800 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "正性肌力药/血管加压药 - 剂量依赖性儿茶酚胺 (D1, β1, α1)",
+      "apresentacoes": [
+        { "forma": "安瓿 200mg/5mL (40 mg/mL)", "obs": "Revivan®" }
+      ],
+      "preparo": [
+        { "diluicao": "400mg + 250mL NS/5%GS", "concentracao": "1600 mcg/mL" },
+        { "diluicao": "200mg + 250mL NS/5%GS", "concentracao": "800 mcg/mL" },
+        { "diluicao": "200mg + 500mL NS/5%GS", "concentracao": "400 mcg/mL" }
+      ],
+      "observacoes": [
+        "剂量依赖性效应：0.5-2 多巴胺能；2-10 β1 正性肌力；>10 α1 血管加压",
+        "优先使用中心静脉 - 外渗可致坏死（酚妥拉明浸润）",
+        "起效：2-5分钟 | 半衰期：约2分钟",
+        "与碳酸氢钠和碱性溶液不相容",
+        "监测心电图、血压、肾灌注和尿量",
+        "难治性分布性休克考虑去甲肾上腺素"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从较低剂量开始。对心血管作用敏感性增加。",
+        "renal": "无需调整。高剂量时监测肾灌注和尿量。",
+        "hepatico": "无需调整。严重肝功能不全时监测（部分代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "多巴胺（成人）",
+        "doseTexto": "2-20 mcg/kg/min IV",
+        "doseMin": 2,
+        "doseMax": 20,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "多巴胺（儿童）",
+        "doseTexto": "2-20 mcg/kg/min IV",
+        "doseMin": 2,
+        "doseMax": 20,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "多巴胺 - 最大剂量",
+        "doseTexto": "最高50 mcg/kg/min（例外使用）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": "50 mcg/kg/min",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

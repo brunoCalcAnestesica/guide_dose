@@ -1,0 +1,658 @@
+{
+  "PT": {
+    "nome": "Amoxicilina/Clavulanato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecção leve a moderada (adulto)",
+          "descricaoDose": "500/125 mg VO 8/8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500/125 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 10-30: 500/125 mg 12/12h; ClCr <10: 500/125 mg 24/24h",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Infecção moderada a grave (adulto)",
+          "descricaoDose": "875/125 mg VO 12/12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "875/125 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 10-30: 500/125 mg 12/12h; ClCr <10: 500/125 mg 24/24h",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico – dose padrão (componente amoxicilina)",
+          "descricaoDose": "12,5-22,5 mg/kg/dose VO 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 12.5,
+            "dosePorKgMax": 22.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 10-30: 500/125 mg 12/12h; ClCr <10: 500/125 mg 24/24h",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico – dose alta (componente amoxicilina)",
+          "descricaoDose": "45 mg/kg/dose VO 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 45,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "Avaliar função renal.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Penicilina + inibidor de β-lactamase",
+      "apresentacoes": [
+        { "forma": "Comprimidos 500/125 mg", "obs": "Amoxicilina/ácido clavulânico" },
+        { "forma": "Comprimidos 875/125 mg", "obs": "" },
+        { "forma": "Suspensão 125/31,25 mg/5 mL", "obs": "" },
+        { "forma": "Suspensão 250/62,5 mg/5 mL", "obs": "" },
+        { "forma": "Suspensão 400/57 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspensão: reconstituir conforme bula", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Administrar no início das refeições para reduzir intolerância GI",
+        "Diarreia mais comum que amoxicilina isolada",
+        "Hepatotoxicidade colestática rara; mais comum em homens e uso prolongado",
+        "Contraindicado em hepatotoxicidade prévia por amox/clav e em mononucleose",
+        "Categoria B na gestação",
+        "ClCr <30: usar 500/125 mg e alongar intervalo conforme tabela"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajuste por função renal (ClCr). Administrar com alimentos.",
+        "renal": "ClCr 10-30 mL/min: 500/125 mg 12/12h; ClCr <10: 500/125 mg 24/24h. Hemodiálise: dose após sessão.",
+        "hepatico": "Contraindicado em hepatotoxicidade prévia. Em insuficiência hepática grave, evitar ou monitorar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amoxicilina/Clavulanato (adulto – padrão)",
+        "doseTexto": "500/125 mg VO 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500/125 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amoxicilina/Clavulanato (adulto – grave)",
+        "doseTexto": "875/125 mg VO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "875/125 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amoxicilina/Clavulanato (pediátrico)",
+        "doseTexto": "12,5-22,5 mg/kg/dose VO 12/12h",
+        "doseMin": 12.5,
+        "doseMax": 22.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Amoxicilina/Clavulanato – dose alta (ped)",
+        "doseTexto": "45 mg/kg/dose VO 12/12h",
+        "doseMin": 45,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Amoxicillin/Clavulanate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Mild to moderate infection (adult)",
+          "descricaoDose": "500/125 mg PO q8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500/125 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q8h",
+            "ajusteRenal": "CrCl 10-30: 500/125 mg q12h; CrCl <10: 500/125 mg q24h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Moderate to severe infection (adult)",
+          "descricaoDose": "875/125 mg PO q12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "875/125 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h",
+            "ajusteRenal": "CrCl 10-30: 500/125 mg q12h; CrCl <10: 500/125 mg q24h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediatric – standard dose (amoxicillin component)",
+          "descricaoDose": "12.5-22.5 mg/kg/dose PO q12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 12.5,
+            "dosePorKgMax": 22.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h",
+            "ajusteRenal": "CrCl 10-30: 500/125 mg q12h; CrCl <10: 500/125 mg q24h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediatric – high dose (amoxicillin component)",
+          "descricaoDose": "45 mg/kg/dose PO q12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 45,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h",
+            "ajusteRenal": "Assess renal function.",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiotic – Penicillin + beta-lactamase inhibitor",
+      "apresentacoes": [
+        { "forma": "Tablets 500/125 mg", "obs": "Amoxicillin/clavulanic acid" },
+        { "forma": "Tablets 875/125 mg", "obs": "" },
+        { "forma": "Suspension 125/31.25 mg/5 mL", "obs": "" },
+        { "forma": "Suspension 250/62.5 mg/5 mL", "obs": "" },
+        { "forma": "Suspension 400/57 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspension: reconstitute per package insert", "concentracao": "Per formulation" }
+      ],
+      "observacoes": [
+        "Give at start of meals to reduce GI intolerance",
+        "Diarrhea more common than amoxicillin alone",
+        "Cholestatic hepatotoxicity rare; more common in men and prolonged use",
+        "Contraindicated in prior amox/clav hepatotoxicity and in mononucleosis",
+        "Pregnancy category B",
+        "CrCl <30: use 500/125 mg and extend interval per table"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Adjust for renal function (CrCl). Give with food.",
+        "renal": "CrCl 10-30 mL/min: 500/125 mg q12h; CrCl <10: 500/125 mg q24h. Hemodialysis: dose after session.",
+        "hepatico": "Contraindicated in prior hepatotoxicity. In severe hepatic impairment, avoid or monitor."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amoxicillin/Clavulanate (adult – standard)",
+        "doseTexto": "500/125 mg PO q8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500/125 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Amoxicillin/Clavulanate (adult – severe)",
+        "doseTexto": "875/125 mg PO q12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "875/125 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Amoxicillin/Clavulanate (pediatric)",
+        "doseTexto": "12.5-22.5 mg/kg/dose PO q12h",
+        "doseMin": 12.5,
+        "doseMax": 22.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Amoxicillin/Clavulanate – high dose (ped)",
+        "doseTexto": "45 mg/kg/dose PO q12h",
+        "doseMin": 45,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Amoxicilina/Ácido clavulánico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infección leve a moderada (adulto)",
+          "descricaoDose": "500/125 mg VO 8/8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500/125 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 10-30: 500/125 mg 12/12h; ClCr <10: 500/125 mg 24/24h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Infección moderada a grave (adulto)",
+          "descricaoDose": "875/125 mg VO 12/12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "875/125 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 10-30: 500/125 mg 12/12h; ClCr <10: 500/125 mg 24/24h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico – dosis estándar (componente amoxicilina)",
+          "descricaoDose": "12,5-22,5 mg/kg/dosis VO 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 12.5,
+            "dosePorKgMax": 22.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 10-30: 500/125 mg 12/12h; ClCr <10: 500/125 mg 24/24h",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico – dosis alta (componente amoxicilina)",
+          "descricaoDose": "45 mg/kg/dosis VO 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 45,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "Evaluar función renal.",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Penicilina + inhibidor de betalactamasa",
+      "apresentacoes": [
+        { "forma": "Comprimidos 500/125 mg", "obs": "Amoxicilina/ácido clavulánico" },
+        { "forma": "Comprimidos 875/125 mg", "obs": "" },
+        { "forma": "Suspensión 125/31,25 mg/5 mL", "obs": "" },
+        { "forma": "Suspensión 250/62,5 mg/5 mL", "obs": "" },
+        { "forma": "Suspensión 400/57 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspensión: reconstituir según prospecto", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Administrar al inicio de las comidas para reducir intolerancia digestiva",
+        "Diarrea más frecuente que amoxicilina sola",
+        "Hepatotoxicidad colestásica rara; más común en varones y uso prolongado",
+        "Contraindicado en hepatotoxicidad previa por amox/clav y en mononucleosis",
+        "Categoría B en embarazo",
+        "ClCr <30: usar 500/125 mg y alargar intervalo según tabla"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajustar por función renal (ClCr). Administrar con alimentos.",
+        "renal": "ClCr 10-30 mL/min: 500/125 mg 12/12h; ClCr <10: 500/125 mg 24/24h. Hemodiálisis: dosis tras sesión.",
+        "hepatico": "Contraindicado en hepatotoxicidad previa. En insuficiencia hepática grave, evitar o monitorizar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amoxicilina/Clavulánico (adulto – estándar)",
+        "doseTexto": "500/125 mg VO 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500/125 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amoxicilina/Clavulánico (adulto – grave)",
+        "doseTexto": "875/125 mg VO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "875/125 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amoxicilina/Clavulánico (pediátrico)",
+        "doseTexto": "12,5-22,5 mg/kg/dosis VO 12/12h",
+        "doseMin": 12.5,
+        "doseMax": 22.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Amoxicilina/Clavulánico – dosis alta (ped)",
+        "doseTexto": "45 mg/kg/dosis VO 12/12h",
+        "doseMin": 45,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "阿莫西林/克拉维酸",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "轻至中度感染（成人）",
+          "descricaoDose": "500/125 mg 口服 每8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "500/125 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 10-30: 500/125 mg 每12小时; ClCr <10: 500/125 mg 每24小时",
+            "ajusteHepatico": "无",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "中至重度感染（成人）",
+          "descricaoDose": "875/125 mg 口服 每12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "875/125 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr 10-30: 500/125 mg 每12小时; ClCr <10: 500/125 mg 每24小时",
+            "ajusteHepatico": "无",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "儿童 – 标准剂量（阿莫西林组分）",
+          "descricaoDose": "12.5-22.5 mg/kg/剂 口服 每12小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 12.5,
+            "dosePorKgMax": 22.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr 10-30: 500/125 mg 每12小时; ClCr <10: 500/125 mg 每24小时",
+            "ajusteHepatico": "无",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "儿童 – 高剂量（阿莫西林组分）",
+          "descricaoDose": "45 mg/kg/剂 口服 每12小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 45,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每12小时",
+            "ajusteRenal": "评估肾功能。",
+            "ajusteHepatico": "无",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗生素 – 青霉素 + β-内酰胺酶抑制剂",
+      "apresentacoes": [
+        { "forma": "片剂 500/125 mg", "obs": "阿莫西林/克拉维酸" },
+        { "forma": "片剂 875/125 mg", "obs": "" },
+        { "forma": "口服混悬液 125/31.25 mg/5 mL", "obs": "" },
+        { "forma": "口服混悬液 250/62.5 mg/5 mL", "obs": "" },
+        { "forma": "口服混悬液 400/57 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "混悬液：按说明书 reconstitute", "concentracao": "按规格" }
+      ],
+      "observacoes": [
+        "餐初服用以减少胃肠道不耐受",
+        "腹泻较单用阿莫西林更常见",
+        "胆汁淤积性肝毒性罕见；男性及长期用药更常见",
+        "既往阿莫西林/克拉维酸肝毒性及传染性单核细胞增多症禁用",
+        "妊娠分级 B",
+        "ClCr <30：使用 500/125 mg 并按表延长给药间隔"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "按肾功能（ClCr）调整。与食物同服。",
+        "renal": "ClCr 10-30 mL/min: 500/125 mg 每12小时; ClCr <10: 500/125 mg 每24小时。血液透析：透析后给药。",
+        "hepatico": "既往肝毒性禁用。严重肝功能不全时避免或监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿莫西林/克拉维酸（成人 – 标准）",
+        "doseTexto": "500/125 mg 口服 每8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500/125 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿莫西林/克拉维酸（成人 – 重度）",
+        "doseTexto": "875/125 mg 口服 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "875/125 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿莫西林/克拉维酸（儿童）",
+        "doseTexto": "12.5-22.5 mg/kg/剂 口服 每12小时",
+        "doseMin": 12.5,
+        "doseMax": 22.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "阿莫西林/克拉维酸 – 高剂量（儿童）",
+        "doseTexto": "45 mg/kg/剂 口服 每12小时",
+        "doseMin": 45,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

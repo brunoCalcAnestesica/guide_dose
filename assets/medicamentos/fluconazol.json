@@ -1,0 +1,19 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Fluconazol",
+      "nome_comercial": ["Diflucan", "Zoltec"],
+      "classe_terapeutica": "Antifúngico triazólico",
+      "mecanismo_acao": "Inibe a 14-alfa-desmetilase (CYP51), enzima do citocromo P450 fúngico, bloqueando a conversão de lanosterol em ergosterol e comprometendo a integridade da membrana celular fúngica.",
+      "espectro": {"sensivel": ["Candida albicans", "C. parapsilosis", "C. tropicalis", "Cryptococcus neoformans"], "variavel": ["C. glabrata"], "resistente": ["C. krusei (intrínseco)", "Aspergillus", "Mucor"]},
+      "indicacoes": ["Candidemia", "Candidíase invasiva", "Candidíase orofaríngea/esofágica", "Meningite criptocócica (manutenção)", "Profilaxia em neutropênicos"],
+      "apresentacoes": [{"forma": "Solução IV", "concentracao": "200mg/100mL"}, {"forma": "Solução IV", "concentracao": "400mg/200mL"}, {"forma": "Cápsula", "concentracao": "50mg, 100mg, 150mg, 200mg"}],
+      "farmacocinetica": {"biodisponibilidade_oral": "90%", "meia_vida": "30 horas", "penetracao_lcr": "70-90%", "excrecao": "Renal (80%)", "ligacao_proteica": "11-12%"},
+      "ajuste_renal": {"ClCr_maior_50": "Dose normal", "ClCr_menor_50": "50% da dose"},
+      "efeitos_adversos": ["Hepatotoxicidade", "Náusea", "Cefaleia", "Rash", "Prolongamento QT"],
+      "interacoes": {"inibe": ["CYP2C9", "CYP2C19", "CYP3A4"], "aumenta_niveis": ["Warfarina", "Fenitoína", "Ciclosporina", "Tacrolimus", "Estatinas"]},
+      "contraindicacoes": ["Uso com terfenadina", "Prolongamento QT significativo"],
+      "vantagens": ["Excelente biodisponibilidade oral", "Boa penetração no LCR", "Dose única diária"]
+    }
+  }
+}

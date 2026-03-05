@@ -1,0 +1,37 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Cefadroxila",
+      "nomesComerciais": ["Cefamox®", "Duricef®"],
+      "classeTerapeutica": "Antibiótico / Cefalosporina de 1ª geração",
+      "mecanismoAcao": "Inibe a síntese da parede celular bacteriana. Mesmo espectro da cefalexina, porém com meia-vida mais longa permitindo posologia 12/12h.",
+      "espectro": {
+        "excelente": ["S. aureus MSSA", "Streptococcus pyogenes", "S. pneumoniae"],
+        "moderado": ["E. coli", "Proteus mirabilis", "Klebsiella (algumas)"],
+        "resistentes": ["MRSA", "Enterococcus", "Pseudomonas"]
+      },
+      "indicacoes": ["Infecções de pele e partes moles", "Faringite/Amigdalite estreptocócica", "ITU não complicada"],
+      "apresentacoes": ["Cápsulas 500 mg", "Comprimidos 1 g", "Suspensão oral 250 mg/5mL, 500 mg/5mL"],
+      "posologia": {
+        "adulto": {
+          "infeccoes_gerais": "500 mg - 1 g VO 12/12h",
+          "faringite": "500 mg VO 12/12h por 10 dias",
+          "ITU": "1 g VO 12/12h por 7-14 dias"
+        },
+        "pediatrico": {
+          "dose": "15 mg/kg/dose VO 12/12h"
+        }
+      },
+      "ajusteRenal": {
+        "ClCr_25_50": "500 mg 12/12h",
+        "ClCr_10_25": "500 mg 24/24h",
+        "ClCr_menor_10": "500 mg 36/36h"
+      },
+      "vantagens": ["Posologia 12/12h (melhor adesão)", "Meia-vida mais longa que cefalexina"],
+      "contraindicacoes": ["Hipersensibilidade a cefalosporinas"],
+      "efeitosAdversos": ["Diarreia", "Náusea", "Rash", "Candidíase"],
+      "observacoes": ["Pode ser administrada com ou sem alimentos", "Categoria B na gestação", "Equivalente à cefalexina com posologia mais conveniente"],
+      "categoriaGravidez": "B"
+    }
+  }
+}

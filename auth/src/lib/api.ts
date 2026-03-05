@@ -1,5 +1,8 @@
 const AUTH_URL = '/.netlify/functions/auth'
 const API_URL = '/.netlify/functions/api'
+const ADMIN_API_URL = '/.netlify/functions/admin-api'
+const USERS_URL = '/.netlify/functions/users'
+const PUSH_URL = '/.netlify/functions/push'
 
 const TOKEN_KEY = 'gd_access_token'
 const REFRESH_KEY = 'gd_refresh_token'
@@ -74,7 +77,10 @@ export async function apiSignup(email: string, password: string): Promise<AuthRe
       body: JSON.stringify({ action: 'signup', email, password }),
     })
     const data = await res.json()
-    if (!res.ok) return { error: data.error || 'Falha ao criar conta.' }
+    if (!res.ok) {
+      const msg = data?.error ?? data?.message ?? 'Falha ao criar conta.'
+      return { error: typeof msg === 'string' ? msg : 'Falha ao criar conta.' }
+    }
     return { error: null, user: data.user, message: data.message }
   } catch {
     return { error: 'Erro de conexao.' }
@@ -242,5 +248,54 @@ export async function apiDelete(
     return { error: null }
   } catch {
     return { error: 'Erro de conexao.' }
+  }
+}
+
+export async function adminQuery<T = unknown>(
+  table: string,
+  params?: Record<string, string>,
+): Promise<{ data: T | null; error: string | null }> {
+  try {
+    const qs = new URLSearchParams({ table, ...params }).toString()
+    const res = await fetch(`${ADMIN_API_URL}?${qs}`, {
+      method: 'GET',
+      headers: authHeaders(),
+    })
+    const data = await res.json()
+    if (!res.ok) return { data: null, error: data.error || 'Erro na consulta admin.' }
+    return { data: data as T, error: null }
+  } catch {
+    return { data: null, error: 'Erro de conexao.' }
+  }
+}
+
+export async function adminListUsers(): Promise<{ data: unknown[] | null; error: string | null }> {
+  try {
+    const res = await fetch(USERS_URL, {
+      method: 'GET',
+      headers: authHeaders(),
+    })
+    const data = await res.json()
+    if (!res.ok) return { data: null, error: data.error || 'Erro ao listar usuarios.' }
+    return { data: data.users || [], error: null }
+  } catch {
+    return { data: null, error: 'Erro de conexao.' }
+  }
+}
+
+export async function apiSendPush(
+  payload: { target: string | string[]; title: string; body: string; link?: string; source?: string },
+): Promise<{ data: { sent?: number; total_tokens?: number } | null; error: string | null }> {
+  try {
+    const res = await fetch(PUSH_URL, {
+      method: 'POST',
+      headers: authHeaders(),
+      body: JSON.stringify(payload),
+    })
+    const data = await res.json()
+    if (!res.ok) return { data: null, error: data.error || 'Erro ao enviar push.' }
+    return { data, error: null }
+  } catch {
+    return { data: null, error: 'Erro de conexao.' }
   }
 }

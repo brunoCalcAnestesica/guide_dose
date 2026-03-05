@@ -1,0 +1,486 @@
+{
+  "PT": {
+    "nome": "Metilergometrina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemorragia pós-parto (HPP) - Tratamento",
+          "descricaoDose": "0,2 mg IM ou IV muito lento (1-2 min); repetir a cada 2-4 h se necessário (máx. 1 mg em 24 h - 5 doses)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 2-4 h se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prevenção da HPP (2ª linha)",
+          "descricaoDose": "0,2 mg IM imediatamente após dequitação placentária",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Subinvolução uterina / Manutenção",
+          "descricaoDose": "0,125-0,25 mg VO a cada 6 horas por 2-7 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.25,
+            "doseMaxima": 0.25,
+            "doseFixa": "0,125-0,25 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Uterotônico - Derivado semissintético do ergot (alcaloide)",
+      "apresentacoes": [
+        { "forma": "Ampola 0,2 mg/mL (1 mL)", "obs": "Methergina® - uso IV ou IM" },
+        { "forma": "Comprimido 0,125 mg", "obs": "Uso VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Via IV: administrar muito lento em 1-2 min", "concentracao": "Pode diluir em 5-10 mL SF 0,9%" },
+        { "diluicao": "Via IM", "concentracao": "Uso direto - administrar profundamente" }
+      ],
+      "observacoes": [
+        "Uso exclusivamente obstétrico; 2ª linha na HPP após ocitocina",
+        "Início de ação: 2-5 min IM, imediato IV. Duração: 3-4 horas",
+        "Dose máxima: 1 mg em 24 h (5 doses de 0,2 mg)",
+        "Preferir via IM (menor risco de hipertensão que IV)",
+        "Contraindicado em hipertensão e pré-eclâmpsia/eclâmpsia",
+        "Conservar protegido da luz; monitorizar PA (vasoconstrição)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Uso obstétrico em adultas. Sem ajuste específico por idade.",
+        "renal": "Usar com cautela em insuficiência renal grave. Pode haver acúmulo e aumento do risco de vasoespasmo.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave (metabolismo hepático). Risco de prolongamento do efeito e toxicidade."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Metilergometrina - HPP",
+        "doseTexto": "0,2 mg IM ou IV lento (1-2 min); repetir 2-4 h se necessário",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metilergometrina - Prevenção HPP",
+        "doseTexto": "0,2 mg IM após dequitação placentária",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metilergometrina - Subinvolução",
+        "doseTexto": "0,125-0,25 mg VO a cada 6 h por 2-7 dias",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,125-0,25 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Methylergonovine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Postpartum hemorrhage (PPH) - Treatment",
+          "descricaoDose": "0.2 mg IM or very slow IV (1-2 min); repeat every 2-4 h if needed (max 1 mg in 24 h - 5 doses)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 2-4 h if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "PPH prevention (2nd line)",
+          "descricaoDose": "0.2 mg IM immediately after placental delivery",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Uterine subinvolution / Maintenance",
+          "descricaoDose": "0.125-0.25 mg PO every 6 hours for 2-7 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.25,
+            "doseMaxima": 0.25,
+            "doseFixa": "0.125-0.25 mg PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Uterotonic - Semisynthetic ergot derivative (alkaloid)",
+      "apresentacoes": [
+        { "forma": "Ampule 0.2 mg/mL (1 mL)", "obs": "Methergine® - IV or IM use" },
+        { "forma": "Tablet 0.125 mg", "obs": "PO use" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: administer very slowly over 1-2 min", "concentracao": "May dilute in 5-10 mL NS 0.9%" },
+        { "diluicao": "IM", "concentracao": "Direct use - inject deeply" }
+      ],
+      "observacoes": [
+        "Obstetric use only; 2nd line in PPH after oxytocin",
+        "Onset: 2-5 min IM, immediate IV. Duration: 3-4 hours",
+        "Maximum dose: 1 mg in 24 h (5 doses of 0.2 mg)",
+        "Prefer IM route (lower hypertension risk than IV)",
+        "Contraindicated in hypertension and preeclampsia/eclampsia",
+        "Protect from light; monitor BP (vasoconstriction)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Obstetric use in adults. No specific age adjustment.",
+        "renal": "Use with caution in severe renal insufficiency. Accumulation and increased vasospasm risk possible.",
+        "hepatico": "Use with caution in severe hepatic insufficiency (hepatic metabolism). Prolonged effect and toxicity risk possible."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Methylergonovine - PPH",
+        "doseTexto": "0.2 mg IM or slow IV (1-2 min); repeat every 2-4 h if needed",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Methylergonovine - PPH prevention",
+        "doseTexto": "0.2 mg IM after placental delivery",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Methylergonovine - Subinvolution",
+        "doseTexto": "0.125-0.25 mg PO every 6 h for 2-7 days",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.125-0.25 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Metilergometrina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemorragia posparto (HPP) - Tratamiento",
+          "descricaoDose": "0,2 mg IM o IV muy lento (1-2 min); repetir cada 2-4 h si es necesario (máx. 1 mg en 24 h - 5 dosis)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 2-4 h si es necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Prevención de la HPP (2ª línea)",
+          "descricaoDose": "0,2 mg IM inmediatamente tras la expulsión placentaria",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Subinvolución uterina / Mantenimiento",
+          "descricaoDose": "0,125-0,25 mg VO cada 6 horas por 2-7 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.25,
+            "doseMaxima": 0.25,
+            "doseFixa": "0,125-0,25 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Uterotónico - Derivado semisintético del ergot (alcaloide)",
+      "apresentacoes": [
+        { "forma": "Ampolla 0,2 mg/mL (1 mL)", "obs": "Methergina® - uso IV o IM" },
+        { "forma": "Comprimido 0,125 mg", "obs": "Uso VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Vía IV: administrar muy lento en 1-2 min", "concentracao": "Puede diluirse en 5-10 mL SF 0,9%" },
+        { "diluicao": "Vía IM", "concentracao": "Uso directo - administrar profundamente" }
+      ],
+      "observacoes": [
+        "Uso exclusivamente obstétrico; 2ª línea en HPP tras oxitocina",
+        "Inicio de acción: 2-5 min IM, inmediato IV. Duración: 3-4 horas",
+        "Dosis máxima: 1 mg en 24 h (5 dosis de 0,2 mg)",
+        "Preferir vía IM (menor riesgo de hipertensión que IV)",
+        "Contraindicado en hipertensión y preeclampsia/eclampsia",
+        "Conservar protegido de la luz; monitorizar PA (vasoconstricción)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Uso obstétrico en adultas. Sin ajuste específico por edad.",
+        "renal": "Usar con precaución en insuficiencia renal grave. Puede haber acumulación y mayor riesgo de vasoespasmo.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave (metabolismo hepático). Riesgo de prolongación del efecto y toxicidad."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Metilergometrina - HPP",
+        "doseTexto": "0,2 mg IM o IV lento (1-2 min); repetir 2-4 h si es necesario",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metilergometrina - Prevención HPP",
+        "doseTexto": "0,2 mg IM tras expulsión placentaria",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metilergometrina - Subinvolución",
+        "doseTexto": "0,125-0,25 mg VO cada 6 h por 2-7 días",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,125-0,25 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "甲基麦角新碱",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "产后出血 (PPH) - 治疗",
+          "descricaoDose": "0.2 mg 肌注或极缓慢静注（1-2分钟）；必要时每2-4小时重复（24小时内最多1 mg - 5次）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 2-4 h if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "预防产后出血（二线）",
+          "descricaoDose": "胎盘娩出后立即0.2 mg 肌注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "子宫复旧不全 / 维持",
+          "descricaoDose": "0.125-0.25 mg 口服，每6小时一次，共2-7天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.25,
+            "doseMaxima": 0.25,
+            "doseFixa": "0.125-0.25 mg PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "子宫收缩剂 - 麦角半合成衍生物（生物碱）",
+      "apresentacoes": [
+        { "forma": "安瓿 0.2 mg/mL (1 mL)", "obs": "Methergine® - 静注或肌注" },
+        { "forma": "片剂 0.125 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "静注：1-2分钟内极缓慢给药", "concentracao": "可用5-10 mL 0.9%生理盐水稀释" },
+        { "diluicao": "肌注", "concentracao": "直接使用 - 深部注射" }
+      ],
+      "observacoes": [
+        "仅用于产科；产后出血中催产素后二线用药",
+        "起效：肌注2-5分钟，静注即刻。持续时间：3-4小时",
+        "最大剂量：24小时内1 mg（0.2 mg 共5次）",
+        "优先肌注（比静注高血压风险更低）",
+        "高血压和先兆子痫/子痫禁用",
+        "避光保存；监测血压（血管收缩）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "成人产科用药。无特定年龄调整。",
+        "renal": "严重肾功能不全慎用。可能蓄积并增加血管痉挛风险。",
+        "hepatico": "严重肝功能不全慎用（经肝代谢）。可能延长作用并增加毒性风险。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "甲基麦角新碱 - 产后出血",
+        "doseTexto": "0.2 mg 肌注或缓慢静注（1-2分钟）；必要时每2-4小时重复",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "甲基麦角新碱 - 预防产后出血",
+        "doseTexto": "胎盘娩出后0.2 mg 肌注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "甲基麦角新碱 - 子宫复旧不全",
+        "doseTexto": "0.125-0.25 mg 口服 每6小时 共2-7天",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.125-0.25 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  }
+}

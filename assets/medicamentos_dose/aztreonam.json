@@ -1,0 +1,642 @@
+{
+  "PT": {
+    "nome": "Aztreonam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções moderadas",
+          "descricaoDose": "1–2 g IV a cada 8–12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8–12/12h",
+            "ajusteRenal": "ClCr 10-30: dose inicial normal, depois 50%; ClCr <10: dose inicial, depois 25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves / Pseudomonas",
+          "descricaoDose": "2 g IV a cada 6–8 h (máx 8 g/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 8000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6–8/8h",
+            "ajusteRenal": "ClCr 10-30: dose inicial normal, depois 50%; ClCr <10: dose inicial, depois 25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ITU não complicada",
+          "descricaoDose": "500 mg–1 g IV a cada 8–12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8–12/12h",
+            "ajusteRenal": "ClCr 10-30: dose inicial normal, depois 50%; ClCr <10: dose inicial, depois 25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "90–120 mg/kg/dia IV dividido 6/6–8/8h (máx 8 g/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 90,
+            "dosePorKgMax": 120,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dividido 6/6–8/8h",
+            "ajusteRenal": "ClCr 10-30: dose inicial normal, depois 50%; ClCr <10: dose inicial, depois 25%",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Monobactâmico – bactericida, somente Gram-negativos aeróbios",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg liofilizado", "obs": "Azactam®" },
+        { "forma": "Frasco 1 g liofilizado", "obs": "" },
+        { "forma": "Frasco 2 g liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir em 6–10 mL água/SF", "concentracao": "" },
+        { "diluicao": "Diluir em 50–100 mL SF ou SG 5%", "concentracao": "" },
+        { "diluicao": "Infusão em 20–60 min", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Somente Gram-negativos aeróbios; não cobre Gram-positivos, anaeróbios nem Acinetobacter.",
+        "Cobre: Pseudomonas aeruginosa, Enterobactérias (E. coli, Klebsiella, Proteus, Enterobacter, etc.).",
+        "Seguro em alergia a penicilinas/cefalosporinas (sem reação cruzada com beta-lactâmicos).",
+        "Ajuste renal: ClCr 10–30 → dose inicial normal, depois 50%; ClCr <10 → dose inicial, depois 25%.",
+        "Geralmente associado a vancomicina ou metronidazol quando há indicação de cobertura Gram+ ou anaeróbios.",
+        "Opção em alérgicos a beta-lactâmicos para cobertura Gram-negativa."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal. Ajuste de dose conforme ClCr conforme bula.",
+        "renal": "ClCr 10–30: dose inicial normal, manutenção 50%; ClCr <10: dose inicial, manutenção 25%. Hemodiálise: dose suplementar após sessão conforme protocolo.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aztreonam – infecções moderadas (adulto)",
+        "doseTexto": "1–2 g IV 8/8–12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1–2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aztreonam – infecções graves / Pseudomonas (adulto)",
+        "doseTexto": "2 g IV 6/6–8/8h (máx 8 g/dia)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aztreonam – ITU não complicada (adulto)",
+        "doseTexto": "500 mg–1 g IV 8/8–12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg–1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aztreonam – pediátrico",
+        "doseTexto": "90–120 mg/kg/dia IV dividido 6/6–8/8h (máx 8 g/dia)",
+        "doseMin": 90,
+        "doseMax": 120,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Aztreonam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderate infections",
+          "descricaoDose": "1–2 g IV every 8–12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 8–12 h",
+            "ajusteRenal": "ClCr 10-30: normal initial dose, then 50%; ClCr <10: initial dose, then 25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe infections / Pseudomonas",
+          "descricaoDose": "2 g IV every 6–8 h (max 8 g/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 8000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 6–8 h",
+            "ajusteRenal": "ClCr 10-30: normal initial dose, then 50%; ClCr <10: initial dose, then 25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Uncomplicated UTI",
+          "descricaoDose": "500 mg–1 g IV every 8–12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 8–12 h",
+            "ajusteRenal": "ClCr 10-30: normal initial dose, then 50%; ClCr <10: initial dose, then 25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric",
+          "descricaoDose": "90–120 mg/kg/day IV divided every 6–8 h (max 8 g/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 90,
+            "dosePorKgMax": 120,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "divided every 6–8 h",
+            "ajusteRenal": "ClCr 10-30: normal initial dose, then 50%; ClCr <10: initial dose, then 25%",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Monobactam – bactericidal, Gram-negative aerobes only",
+      "apresentacoes": [
+        { "forma": "Vial 500 mg lyophilized", "obs": "Azactam®" },
+        { "forma": "Vial 1 g lyophilized", "obs": "" },
+        { "forma": "Vial 2 g lyophilized", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with 6–10 mL water for injection/NS", "concentracao": "" },
+        { "diluicao": "Dilute in 50–100 mL NS or D5W", "concentracao": "" },
+        { "diluicao": "Infuse over 20–60 min", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Gram-negative aerobes only; does not cover Gram-positive, anaerobes, or Acinetobacter.",
+        "Covers: Pseudomonas aeruginosa, Enterobacteriaceae (E. coli, Klebsiella, Proteus, Enterobacter, etc.).",
+        "Safe in penicillin/cephalosporin allergy (no cross-reactivity with beta-lactams).",
+        "Renal adjustment: ClCr 10–30 → normal initial dose, then 50%; ClCr <10 → initial dose, then 25%.",
+        "Often combined with vancomycin or metronidazole when Gram-positive or anaerobic coverage is needed.",
+        "Option in beta-lactam-allergic patients for Gram-negative coverage."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function. Dose adjustment per ClCr per labeling.",
+        "renal": "ClCr 10–30: normal initial dose, maintenance 50%; ClCr <10: initial dose, maintenance 25%. Hemodialysis: supplemental dose after session per protocol.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aztreonam – moderate infections (adult)",
+        "doseTexto": "1–2 g IV every 8–12 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1–2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aztreonam – severe / Pseudomonas (adult)",
+        "doseTexto": "2 g IV every 6–8 h (max 8 g/day)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aztreonam – uncomplicated UTI (adult)",
+        "doseTexto": "500 mg–1 g IV every 8–12 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg–1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aztreonam – pediatric",
+        "doseTexto": "90–120 mg/kg/day IV divided every 6–8 h (max 8 g/day)",
+        "doseMin": 90,
+        "doseMax": 120,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Aztreonam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones moderadas",
+          "descricaoDose": "1–2 g IV cada 8–12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 8–12 h",
+            "ajusteRenal": "ClCr 10-30: dosis inicial normal, luego 50%; ClCr <10: dosis inicial, luego 25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves / Pseudomonas",
+          "descricaoDose": "2 g IV cada 6–8 h (máx 8 g/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 8000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6–8 h",
+            "ajusteRenal": "ClCr 10-30: dosis inicial normal, luego 50%; ClCr <10: dosis inicial, luego 25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ITU no complicada",
+          "descricaoDose": "500 mg–1 g IV cada 8–12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 8–12 h",
+            "ajusteRenal": "ClCr 10-30: dosis inicial normal, luego 50%; ClCr <10: dosis inicial, luego 25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "90–120 mg/kg/día IV dividido 6/6–8/8h (máx 8 g/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 90,
+            "dosePorKgMax": 120,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dividido 6/6–8/8h",
+            "ajusteRenal": "ClCr 10-30: dosis inicial normal, luego 50%; ClCr <10: dosis inicial, luego 25%",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Monobactámico – bactericida, solo aerobios Gram negativos",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg liofilizado", "obs": "Azactam®" },
+        { "forma": "Frasco 1 g liofilizado", "obs": "" },
+        { "forma": "Frasco 2 g liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir en 6–10 mL agua/SF", "concentracao": "" },
+        { "diluicao": "Diluir en 50–100 mL SF o SG 5%", "concentracao": "" },
+        { "diluicao": "Infusión en 20–60 min", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Solo aerobios Gram negativos; no cubre Gram positivos, anaerobios ni Acinetobacter.",
+        "Cubre: Pseudomonas aeruginosa, enterobacterias (E. coli, Klebsiella, Proteus, Enterobacter, etc.).",
+        "Seguro en alergia a penicilinas/cefalosporinas (sin reacción cruzada con betalactámicos).",
+        "Ajuste renal: ClCr 10–30 → dosis inicial normal, luego 50%; ClCr <10 → dosis inicial, luego 25%.",
+        "Suele asociarse a vancomicina o metronidazol cuando se requiere cobertura Gram+ o anaerobia.",
+        "Opción en alérgicos a betalactámicos para cobertura Gram negativa."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal. Ajuste de dosis según ClCr según ficha técnica.",
+        "renal": "ClCr 10–30: dosis inicial normal, mantenimiento 50%; ClCr <10: dosis inicial, mantenimiento 25%. Hemodiálisis: dosis suplementaria tras sesión según protocolo.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aztreonam – infecciones moderadas (adulto)",
+        "doseTexto": "1–2 g IV cada 8–12 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1–2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aztreonam – infecciones graves / Pseudomonas (adulto)",
+        "doseTexto": "2 g IV cada 6–8 h (máx 8 g/día)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aztreonam – ITU no complicada (adulto)",
+        "doseTexto": "500 mg–1 g IV cada 8–12 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg–1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aztreonam – pediátrico",
+        "doseTexto": "90–120 mg/kg/día IV dividido 6/6–8/8h (máx 8 g/día)",
+        "doseMin": 90,
+        "doseMax": 120,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氨曲南",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "中度感染",
+          "descricaoDose": "1–2 g IV 每8–12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每8–12小时",
+            "ajusteRenal": "ClCr 10-30：首剂正常，之后50%；ClCr <10：首剂后25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "严重感染/假单胞菌",
+          "descricaoDose": "2 g IV 每6–8小时（最大8 g/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 8000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每6–8小时",
+            "ajusteRenal": "ClCr 10-30：首剂正常，之后50%；ClCr <10：首剂后25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "单纯性尿路感染",
+          "descricaoDose": "500 mg–1 g IV 每8–12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每8–12小时",
+            "ajusteRenal": "ClCr 10-30：首剂正常，之后50%；ClCr <10：首剂后25%",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童",
+          "descricaoDose": "90–120 mg/kg/天 IV 分6/6–8/8h（最大8 g/天）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 90,
+            "dosePorKgMax": 120,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "分6/6–8/8h",
+            "ajusteRenal": "ClCr 10-30：首剂正常，之后50%；ClCr <10：首剂后25%",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "单环β-内酰胺类 – 杀菌，仅需氧革兰阴性菌",
+      "apresentacoes": [
+        { "forma": "瓶 500 mg 冻干", "obs": "Azactam®" },
+        { "forma": "瓶 1 g 冻干", "obs": "" },
+        { "forma": "瓶 2 g 冻干", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "用6–10 mL 注射用水/生理盐水复溶", "concentracao": "" },
+        { "diluicao": "稀释于50–100 mL 生理盐水或5%葡萄糖", "concentracao": "" },
+        { "diluicao": "20–60分钟内输注", "concentracao": "" }
+      ],
+      "observacoes": [
+        "仅需氧革兰阴性菌；不覆盖革兰阳性、厌氧菌或不动杆菌。",
+        "覆盖：铜绿假单胞菌、肠杆菌科（大肠杆菌、克雷伯菌、变形杆菌、肠杆菌等）。",
+        "青霉素/头孢菌素过敏时安全（与β-内酰胺无交叉反应）。",
+        "肾调整：ClCr 10–30 → 首剂正常，之后50%；ClCr <10 → 首剂后25%。",
+        "需革兰阳性或厌氧覆盖时常与万古霉素或甲硝唑联用。",
+        "β-内酰胺过敏患者革兰阴性覆盖的选择。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能。按说明书根据ClCr调整剂量。",
+        "renal": "ClCr 10–30：首剂正常，维持50%；ClCr <10：首剂后维持25%。血液透析：按方案透析后追加剂量。",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氨曲南 – 中度感染（成人）",
+        "doseTexto": "1–2 g IV 每8–12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1–2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "氨曲南 – 严重/假单胞菌（成人）",
+        "doseTexto": "2 g IV 每6–8小时（最大8 g/天）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "氨曲南 – 单纯性尿路感染（成人）",
+        "doseTexto": "500 mg–1 g IV 每8–12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg–1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "氨曲南 – 儿童",
+        "doseTexto": "90–120 mg/kg/天 IV 分6/6–8/8h（最大8 g/天）",
+        "doseMin": 90,
+        "doseMax": 120,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

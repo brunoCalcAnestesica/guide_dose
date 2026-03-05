@@ -1,0 +1,80 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Naproxeno (Sódico)",
+      "nomesComerciais": ["Flanax®", "Naprosyn®", "Naprosin®", "Aleve®"],
+      "classeTerapeutica": "AINE / Analgésico / Anti-inflamatório",
+      "mecanismoAcao": "Inibidor não-seletivo da ciclooxigenase (COX-1 e COX-2), derivado do ácido propiônico. Possui meia-vida longa (12-17h), permitindo administração 2x/dia. É considerado o AINE com menor risco cardiovascular (junto com AAS em baixas doses) entre os AINEs tradicionais.",
+      "indicacoes": [
+        "Dor aguda leve a moderada",
+        "Artrite reumatoide e osteoartrite",
+        "Espondilite anquilosante",
+        "Gota aguda",
+        "Dismenorreia primária",
+        "Tendinite e bursite",
+        "Enxaqueca"
+      ],
+      "apresentacoes": [
+        "Comprimido 250mg, 500mg (naproxeno base)",
+        "Comprimido 275mg, 550mg (naproxeno sódico)",
+        "Suspensão oral 25mg/mL",
+        "Supositório 500mg"
+      ],
+      "posologia": {
+        "adulto": {
+          "dor_aguda_inicial": "500 mg, depois 250 mg a cada 6-8h (máx 1250 mg/dia)",
+          "artrite": "250-500 mg 2x/dia (máx 1500 mg/dia)",
+          "gota": "750 mg inicial, depois 250 mg a cada 8h",
+          "dismenorreia": "500 mg inicial, depois 250 mg a cada 6-8h"
+        },
+        "pediatrico": {
+          "vo": "5-7 mg/kg/dose a cada 8-12h (máx 1000 mg/dia)",
+          "artrite_juvenil": "10-15 mg/kg/dia dividido em 2 doses",
+          "idade_minima": ">2 anos"
+        }
+      },
+      "farmacocinetica": {
+        "inicio_acao": "1 hora",
+        "pico_plasmatico": "2-4 horas",
+        "duracao": "até 12 horas",
+        "meia_vida": "12-17 horas",
+        "metabolismo": "Hepático (CYP2C9)",
+        "eliminacao": "Renal (95%)"
+      },
+      "ajusteRenal": "ClCr <30: evitar ou usar dose mínima com cautela",
+      "ajusteHepatico": "Usar menor dose eficaz, evitar em hepatopatia grave",
+      "contraindicacoes": [
+        "Úlcera péptica ativa",
+        "Insuficiência renal grave",
+        "Insuficiência hepática grave",
+        "Gestação (3º trimestre)",
+        "Alergia a AINEs",
+        "Pós-operatório de revascularização coronária"
+      ],
+      "efeitosAdversos": [
+        "Dispepsia, náuseas, dor abdominal",
+        "Constipação ou diarreia",
+        "Cefaleia, tontura, sonolência",
+        "Edema periférico",
+        "Elevação de transaminases",
+        "Sangramento GI"
+      ],
+      "interacoes": [
+        "Anticoagulantes: aumenta risco de sangramento",
+        "Lítio: aumenta níveis séricos significativamente",
+        "Metotrexato: aumenta toxicidade",
+        "Diuréticos e anti-hipertensivos: reduz eficácia",
+        "AAS baixa dose: possível interferência no efeito cardioprotetor"
+      ],
+      "observacoes": [
+        "Meia-vida longa permite dose 2x/dia",
+        "Naproxeno sódico: absorção mais rápida",
+        "Menor risco CV que outros AINEs não-seletivos",
+        "Disponível sem receita em alguns países",
+        "Tomar com alimentos para reduzir irritação GI",
+        "Preferido em pacientes com risco cardiovascular moderado"
+      ],
+      "categoriaGravidez": "C (1º/2º tri) / D (3º tri)"
+    }
+  }
+}

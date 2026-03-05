@@ -1,0 +1,482 @@
+{
+  "PT": {
+    "nome": "Timoglobulina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução em transplante de órgão sólido",
+          "descricaoDose": "1-1,5 mg/kg/dia IV por 4-7 dias",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "uma vez ao dia por 4-7 dias",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Rejeição aguda (transplante)",
+          "descricaoDose": "1,5 mg/kg/dia IV por 7-14 dias",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "uma vez ao dia por 7-14 dias",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anemia aplástica severa",
+          "descricaoDose": "2,5-3,5 mg/kg/dia IV por 5 dias",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "uma vez ao dia por 5 dias",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Imunossupressor - Imunoglobulina policlonal antitimócito (anticorpo de coelho)",
+      "apresentacoes": [
+        { "forma": "Frasco 25 mg", "obs": "Pó liofilizado para reconstituição IV" }
+      ],
+      "preparo": [
+        { "diluicao": "25 mg + 5 mL água p/ injeção", "concentracao": "5 mg/mL (reconstituído)" },
+        { "diluicao": "Reconstituído em 50-500 mL SF 0,9% ou SG 5%", "concentracao": "Conforme volume - infusão em 4-6 h" }
+      ],
+      "observacoes": [
+        "Pré-medicação obrigatória: corticosteróide, anti-histamínico e antipirético",
+        "Infusão em 4-6 horas; usar filtro de 0,2 micra",
+        "Solução reconstituída: usar em até 24 h sob refrigeração (2-8°C), protegida da luz",
+        "Monitorizar sinais vitais e hemograma; risco de síndrome de liberação de citocinas",
+        "Contraindicado em hipersensibilidade a proteínas de coelho e infecções ativas não controladas",
+        "Interação aditiva com outros imunossupressores; aumentar vigilância para infecção e PTLD"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar parâmetros hematológicos e infecções.",
+        "renal": "Não requer ajuste de dose. Monitorar parâmetros hematológicos e sinais de toxicidade.",
+        "hepatico": "Não necessita ajuste específico. Monitorar função hepática (elevação transitória de enzimas pode ocorrer)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Timoglobulina (transplante - indução)",
+        "doseTexto": "1-1,5 mg/kg/dia IV por 4-7 dias",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg/dia",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Timoglobulina (rejeição aguda)",
+        "doseTexto": "1,5 mg/kg/dia IV por 7-14 dias",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg/dia",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Timoglobulina (anemia aplástica)",
+        "doseTexto": "2,5-3,5 mg/kg/dia IV por 5 dias",
+        "doseMin": 2.5,
+        "doseMax": 3.5,
+        "unidadeResultado": "mg/dia",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Thymoglobulin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Induction in solid organ transplantation",
+          "descricaoDose": "1-1.5 mg/kg/day IV for 4-7 days",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily for 4-7 days",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Acute rejection (transplantation)",
+          "descricaoDose": "1.5 mg/kg/day IV for 7-14 days",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily for 7-14 days",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Severe aplastic anemia",
+          "descricaoDose": "2.5-3.5 mg/kg/day IV for 5 days",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily for 5 days",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Immunosuppressant - Polyclonal antithymocyte immunoglobulin (rabbit antibody)",
+      "apresentacoes": [
+        { "forma": "25 mg vial", "obs": "Lyophilized powder for IV reconstitution" }
+      ],
+      "preparo": [
+        { "diluicao": "25 mg + 5 mL water for injection", "concentracao": "5 mg/mL (reconstituted)" },
+        { "diluicao": "Reconstituted in 50-500 mL 0.9% saline or 5% glucose", "concentracao": "According to volume - infuse over 4-6 h" }
+      ],
+      "observacoes": [
+        "Mandatory premedication: corticosteroid, antihistamine and antipyretic",
+        "Infusion over 4-6 hours; use 0.2 micron filter",
+        "Reconstituted solution: use within 24 h under refrigeration (2-8°C), protected from light",
+        "Monitor vital signs and CBC; risk of cytokine release syndrome",
+        "Contraindicated in hypersensitivity to rabbit proteins and uncontrolled active infections",
+        "Additive interaction with other immunosuppressants; increased vigilance for infection and PTLD"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor hematological parameters and infections.",
+        "renal": "No dose adjustment required. Monitor hematological parameters and signs of toxicity.",
+        "hepatico": "No specific adjustment required. Monitor liver function (transient enzyme elevation may occur)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Thymoglobulin (transplant - induction)",
+        "doseTexto": "1-1.5 mg/kg/day IV for 4-7 days",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg/day",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Thymoglobulin (acute rejection)",
+        "doseTexto": "1.5 mg/kg/day IV for 7-14 days",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg/day",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Thymoglobulin (aplastic anemia)",
+        "doseTexto": "2.5-3.5 mg/kg/day IV for 5 days",
+        "doseMin": 2.5,
+        "doseMax": 3.5,
+        "unidadeResultado": "mg/day",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Timoglobulina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción en trasplante de órgano sólido",
+          "descricaoDose": "1-1,5 mg/kg/día IV por 4-7 días",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "una vez al día por 4-7 días",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Rechazo agudo (trasplante)",
+          "descricaoDose": "1,5 mg/kg/día IV por 7-14 días",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "una vez al día por 7-14 días",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anemia aplásica severa",
+          "descricaoDose": "2,5-3,5 mg/kg/día IV por 5 días",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "una vez al día por 5 días",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Inmunosupresor - Inmunoglobulina policlonal antitimocito (anticuerpo de conejo)",
+      "apresentacoes": [
+        { "forma": "Frasco 25 mg", "obs": "Polvo liofilizado para reconstitución IV" }
+      ],
+      "preparo": [
+        { "diluicao": "25 mg + 5 mL agua p/ inyección", "concentracao": "5 mg/mL (reconstituido)" },
+        { "diluicao": "Reconstituido en 50-500 mL SF 0,9% o SG 5%", "concentracao": "Según volumen - infusión en 4-6 h" }
+      ],
+      "observacoes": [
+        "Premedicación obligatoria: corticosteroide, antihistamínico y antipirético",
+        "Infusión en 4-6 horas; usar filtro de 0,2 micras",
+        "Solución reconstituida: usar en hasta 24 h bajo refrigeración (2-8°C), protegida de la luz",
+        "Monitorizar signos vitales y hemograma; riesgo de síndrome de liberación de citocinas",
+        "Contraindicado en hipersensibilidad a proteínas de conejo e infecciones activas no controladas",
+        "Interacción aditiva con otros inmunosupresores; aumentar vigilancia para infección y PTLD"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar parámetros hematológicos e infecciones.",
+        "renal": "No requiere ajuste de dosis. Monitorizar parámetros hematológicos y signos de toxicidad.",
+        "hepatico": "No necesita ajuste específico. Monitorizar función hepática (elevación transitoria de enzimas puede ocurrir)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Timoglobulina (trasplante - inducción)",
+        "doseTexto": "1-1,5 mg/kg/día IV por 4-7 días",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg/día",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Timoglobulina (rechazo agudo)",
+        "doseTexto": "1,5 mg/kg/día IV por 7-14 días",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg/día",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Timoglobulina (anemia aplásica)",
+        "doseTexto": "2,5-3,5 mg/kg/día IV por 5 días",
+        "doseMin": 2.5,
+        "doseMax": 3.5,
+        "unidadeResultado": "mg/día",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "抗胸腺细胞球蛋白",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "实体器官移植诱导",
+          "descricaoDose": "1-1.5 mg/kg/天 IV 4-7天",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日一次，4-7天",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "急性排斥反应（移植）",
+          "descricaoDose": "1.5 mg/kg/天 IV 7-14天",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日一次，7-14天",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "严重再生障碍性贫血",
+          "descricaoDose": "2.5-3.5 mg/kg/天 IV 5天",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3.5,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日一次，5天",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "免疫抑制剂 - 多克隆抗胸腺细胞免疫球蛋白（兔抗体）",
+      "apresentacoes": [
+        { "forma": "25 mg 瓶", "obs": "静脉用冻干粉" }
+      ],
+      "preparo": [
+        { "diluicao": "25 mg + 5 mL 注射用水", "concentracao": "5 mg/mL（复溶后）" },
+        { "diluicao": "复溶于50-500 mL 0.9%生理盐水或5%葡萄糖", "concentracao": "按体积 - 4-6小时输注" }
+      ],
+      "observacoes": [
+        "必须预用药：皮质类固醇、抗组胺药和解热药",
+        "4-6小时输注；使用0.2微米过滤器",
+        "复溶溶液：24小时内冷藏（2-8°C）避光使用",
+        "监测生命体征和血常规；细胞因子释放综合征风险",
+        "对兔蛋白过敏和未控制的活动性感染禁用",
+        "与其他免疫抑制剂相加作用；加强感染和PTLD监测"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。监测血液学参数和感染。",
+        "renal": "无需调整剂量。监测血液学参数和毒性征象。",
+        "hepatico": "无需特定调整。监测肝功能（可能出现一过性酶升高）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "抗胸腺细胞球蛋白（移植-诱导）",
+        "doseTexto": "1-1.5 mg/kg/天 IV 4-7天",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg/天",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "抗胸腺细胞球蛋白（急性排斥）",
+        "doseTexto": "1.5 mg/kg/天 IV 7-14天",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg/天",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "抗胸腺细胞球蛋白（再生障碍性贫血）",
+        "doseTexto": "2.5-3.5 mg/kg/天 IV 5天",
+        "doseMin": 2.5,
+        "doseMax": 3.5,
+        "unidadeResultado": "mg/天",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

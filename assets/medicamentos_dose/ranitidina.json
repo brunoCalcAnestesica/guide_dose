@@ -1,0 +1,866 @@
+{
+  "PT": {
+    "nome": "Ranitidina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Úlcera ativa (adulto)",
+          "descricaoDose": "150 mg VO 2x/dia ou 300 mg VO à noite por 4-8 semanas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": "150 mg 2x/dia ou 300 mg noite",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia ou 1x noite",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "DRGE",
+          "descricaoDose": "150 mg VO 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg 2x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxia úlcera por estresse (UTI)",
+          "descricaoDose": "50 mg IV 6-8h ou infusão contínua 6,25 mg/h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg IV 6-8h ou 6,25 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6-8h ou infusão contínua",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxia aspiração (pré-anestesia)",
+          "descricaoDose": "50 mg IV 45-60 min antes da indução",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única 45-60 min pré",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico VO",
+          "descricaoDose": "2-4 mg/kg/dia VO dividido 12/12h (máx 300 mg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <50: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico IV",
+          "descricaoDose": "2-4 mg/kg/dia IV dividido 6-8h (máx 200 mg/dia). Neonatos: 2 mg/kg/dia IV 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6-8h (neonatos 12/12h)",
+            "ajusteRenal": "ClCr <50: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua (profilaxia UTI)",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 6.25, "doseMax": 6.25 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "150 mg em 250 mL SF 0,9% (0,6 mg/mL)", "valor": 0.6 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antagonista dos receptores H2 da histamina, antissecretor gástrico",
+      "apresentacoes": [
+        { "forma": "Comprimidos 150 mg, 300 mg", "obs": "Uso oral" },
+        { "forma": "Solução oral 15 mg/mL", "obs": "Frasco 120 mL" },
+        { "forma": "Ampola 50 mg/2 mL (25 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Frasco-ampola 50 mg/5 mL (10 mg/mL)", "obs": "Uso IV" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: 50 mg em 20 mL SF 0,9%", "concentracao": "2,5 mg/mL - administrar ≥5 min" },
+        { "diluicao": "IV infusão intermitente: 50 mg em 100 mL SF/SG 5%", "concentracao": "Infundir 15-20 min" },
+        { "diluicao": "IV infusão contínua: 150 mg em 250 mL SF 0,9%", "concentracao": "0,6 mg/mL - 10,4 mL/h = 6,25 mg/h" },
+        { "diluicao": "IM: usar direto da ampola", "concentracao": "25 mg/mL" }
+      ],
+      "observacoes": [
+        "Administrar IV lentamente (≥5 min bolus) - risco de bradicardia e bloqueio AV",
+        "Ajuste renal obrigatório: ClCr 10-50 reduzir 50%; ClCr <10 reduzir 75% ou intervalo 24h",
+        "Idosos: risco de confusão mental - monitorar e considerar redução de dose",
+        "Menos eficaz que IBPs em hemorragia digestiva ativa - preferir IBPs quando indicado",
+        "Incompatível com anfotericina B, fenobarbital, midazolam (via Y), propofol",
+        "Antagonista H2 - potência 4-10x maior que cimetidina; menos interações que cimetidina"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Risco de confusão mental. Reduzir dose e monitorar. Meia-vida prolongada (4-5h).",
+        "renal": "ClCr 10-50 mL/min: 50% da dose ou intervalo 12-24h. ClCr <10: 25% ou intervalo 24h. Hemodiálise: dose suplementar 50 mg pós-diálise.",
+        "hepatico": "Insuficiência leve-moderada: não requer. Child-Pugh C: monitorar, considerar redução 50% (risco encefalopatia)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ranitidina (adulto - profilaxia UTI)",
+        "doseTexto": "50 mg IV 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ranitidina (adulto - profilaxia aspiração)",
+        "doseTexto": "50 mg IV 45-60 min pré-anestesia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ranitidina (pediátrico VO)",
+        "doseTexto": "2-4 mg/kg/dia VO 12/12h (máx 300 mg/dia)",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ranitidina (pediátrico IV)",
+        "doseTexto": "1 mg/kg IV 6-8h (máx 50 mg/dose)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ranitidine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Active ulcer (adult)",
+          "descricaoDose": "150 mg PO twice daily or 300 mg PO at night for 4-8 weeks",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": "150 mg twice daily or 300 mg at night",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily or once at night",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "GERD",
+          "descricaoDose": "150 mg PO twice daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg twice daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Stress ulcer prophylaxis (ICU)",
+          "descricaoDose": "50 mg IV every 6-8h or continuous infusion 6.25 mg/h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg IV every 6-8h or 6.25 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6-8h or continuous infusion",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Aspiration prophylaxis (pre-anesthesia)",
+          "descricaoDose": "50 mg IV 45-60 min before induction",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg IV",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose 45-60 min pre-op",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric PO",
+          "descricaoDose": "2-4 mg/kg/day PO divided every 12h (max 300 mg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 12h",
+            "ajusteRenal": "ClCr <50: reduce 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric IV",
+          "descricaoDose": "2-4 mg/kg/day IV divided every 6-8h (max 200 mg/day). Neonates: 2 mg/kg/day IV every 12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6-8h (neonates every 12h)",
+            "ajusteRenal": "ClCr <50: reduce 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion (ICU prophylaxis)",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 6.25, "doseMax": 6.25 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "150 mg in 250 mL NS (0.6 mg/mL)", "valor": 0.6 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Histamine H2-receptor antagonist, gastric antisecretory agent",
+      "apresentacoes": [
+        { "forma": "Tablets 150 mg, 300 mg", "obs": "Oral use" },
+        { "forma": "Oral solution 15 mg/mL", "obs": "120 mL bottle" },
+        { "forma": "Ampule 50 mg/2 mL (25 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Vial 50 mg/5 mL (10 mg/mL)", "obs": "IV use" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: 50 mg in 20 mL NS", "concentracao": "2.5 mg/mL - administer over ≥5 min" },
+        { "diluicao": "IV intermittent infusion: 50 mg in 100 mL NS/D5W", "concentracao": "Infuse over 15-20 min" },
+        { "diluicao": "IV continuous infusion: 150 mg in 250 mL NS", "concentracao": "0.6 mg/mL - 10.4 mL/h = 6.25 mg/h" },
+        { "diluicao": "IM: use undiluted from ampule", "concentracao": "25 mg/mL" }
+      ],
+      "observacoes": [
+        "Administer IV slowly (≥5 min bolus) - risk of bradycardia and AV block",
+        "Renal dose adjustment required: ClCr 10-50 reduce 50%; ClCr <10 reduce 75% or 24h interval",
+        "Elderly: risk of confusion - monitor and consider dose reduction",
+        "Less effective than PPIs in active GI bleeding - prefer PPIs when indicated",
+        "Incompatible with amphotericin B, phenobarbital, midazolam (Y-site), propofol",
+        "H2 antagonist - 4-10x more potent than cimetidine; fewer drug interactions than cimetidine"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Risk of confusion. Reduce dose and monitor. Prolonged half-life (4-5h).",
+        "renal": "ClCr 10-50 mL/min: 50% of dose or 12-24h interval. ClCr <10: 25% or 24h interval. Hemodialysis: supplemental dose 50 mg after dialysis.",
+        "hepatico": "Mild-moderate insufficiency: no adjustment. Child-Pugh C: monitor, consider 50% reduction (encephalopathy risk)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ranitidine (adult - ICU prophylaxis)",
+        "doseTexto": "50 mg IV every 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ranitidine (adult - aspiration prophylaxis)",
+        "doseTexto": "50 mg IV 45-60 min pre-anesthesia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ranitidine (pediatric PO)",
+        "doseTexto": "2-4 mg/kg/day PO every 12h (max 300 mg/day)",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Ranitidine (pediatric IV)",
+        "doseTexto": "1 mg/kg IV every 6-8h (max 50 mg/dose)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ranitidina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Úlcera activa (adulto)",
+          "descricaoDose": "150 mg VO 2x/día o 300 mg VO por la noche durante 4-8 sem",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": "150 mg 2x/día o 300 mg noche",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día o 1x noche",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "ERGE",
+          "descricaoDose": "150 mg VO 2x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg 2x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxis úlcera por estrés (UCI)",
+          "descricaoDose": "50 mg IV 6-8h o infusión continua 6,25 mg/h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg IV 6-8h o 6,25 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6-8h o infusión continua",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxis aspiración (pre-anestesia)",
+          "descricaoDose": "50 mg IV 45-60 min antes de la inducción",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única 45-60 min pre",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico VO",
+          "descricaoDose": "2-4 mg/kg/día VO dividido 12/12h (máx 300 mg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <50: reducir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico IV",
+          "descricaoDose": "2-4 mg/kg/día IV dividido 6-8h (máx 200 mg/día). Neonatos: 2 mg/kg/día IV 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6-8h (neonatos 12/12h)",
+            "ajusteRenal": "ClCr <50: reducir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua (profilaxis UCI)",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 6.25, "doseMax": 6.25 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "150 mg en 250 mL SF 0,9% (0,6 mg/mL)", "valor": 0.6 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antagonista de los receptores H2 de la histamina, antisecretor gástrico",
+      "apresentacoes": [
+        { "forma": "Comprimidos 150 mg, 300 mg", "obs": "Uso oral" },
+        { "forma": "Solución oral 15 mg/mL", "obs": "Frasco 120 mL" },
+        { "forma": "Ampolla 50 mg/2 mL (25 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Frasco-ampolla 50 mg/5 mL (10 mg/mL)", "obs": "Uso IV" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: 50 mg en 20 mL SF 0,9%", "concentracao": "2,5 mg/mL - administrar ≥5 min" },
+        { "diluicao": "IV infusión intermitente: 50 mg en 100 mL SF/SG 5%", "concentracao": "Infundir 15-20 min" },
+        { "diluicao": "IV infusión continua: 150 mg en 250 mL SF 0,9%", "concentracao": "0,6 mg/mL - 10,4 mL/h = 6,25 mg/h" },
+        { "diluicao": "IM: usar directo de la ampolla", "concentracao": "25 mg/mL" }
+      ],
+      "observacoes": [
+        "Administrar IV lentamente (≥5 min bolus) - riesgo de bradicardia y bloqueo AV",
+        "Ajuste renal obligatorio: ClCr 10-50 reducir 50%; ClCr <10 reducir 75% o intervalo 24h",
+        "Ancianos: riesgo de confusión - monitorizar y considerar reducción de dosis",
+        "Menos eficaz que IBPs en hemorragia digestiva activa - preferir IBPs cuando esté indicado",
+        "Incompatible con anfotericina B, fenobarbital, midazolam (vía Y), propofol",
+        "Antagonista H2 - potencia 4-10x mayor que cimetidina; menos interacciones que cimetidina"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Riesgo de confusión. Reducir dosis y monitorizar. Semivida prolongada (4-5h).",
+        "renal": "ClCr 10-50 mL/min: 50% de la dosis o intervalo 12-24h. ClCr <10: 25% o intervalo 24h. Hemodiálisis: dosis suplementaria 50 mg post-diálisis.",
+        "hepatico": "Insuficiencia leve-moderada: no requiere. Child-Pugh C: monitorizar, considerar reducción 50% (riesgo encefalopatía)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ranitidina (adulto - profilaxis UCI)",
+        "doseTexto": "50 mg IV 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ranitidina (adulto - profilaxis aspiración)",
+        "doseTexto": "50 mg IV 45-60 min pre-anestesia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ranitidina (pediátrico VO)",
+        "doseTexto": "2-4 mg/kg/día VO 12/12h (máx 300 mg/día)",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ranitidina (pediátrico IV)",
+        "doseTexto": "1 mg/kg IV 6-8h (máx 50 mg/dosis)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "雷尼替丁",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "活动性溃疡（成人）",
+          "descricaoDose": "150 mg 口服 每日两次或300 mg 睡前口服，持续4-8周",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": "150 mg 每日两次或300 mg 睡前",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日两次或每晚一次",
+            "ajusteRenal": "ClCr 10-50：减量50%；ClCr <10：减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "胃食管反流病",
+          "descricaoDose": "150 mg 口服 每日两次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg 每日两次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日两次",
+            "ajusteRenal": "ClCr 10-50：减量50%；ClCr <10：减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "应激性溃疡预防（ICU）",
+          "descricaoDose": "50 mg 静脉 每6-8小时或持续输注6.25 mg/h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg 静脉 6-8h 或 6.25 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每6-8小时或持续输注",
+            "ajusteRenal": "ClCr 10-50：减量50%；ClCr <10：减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "误吸预防（麻醉前）",
+          "descricaoDose": "50 mg 静脉 诱导前45-60分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg 静脉",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次 诱导前45-60分钟",
+            "ajusteRenal": "ClCr 10-50：减量50%；ClCr <10：减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童口服",
+          "descricaoDose": "2-4 mg/kg/天 口服 每12小时分次（最大300 mg/天）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <50：减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童静脉",
+          "descricaoDose": "2-4 mg/kg/天 静脉 每6-8小时分次（最大200 mg/天）。新生儿：2 mg/kg/天 静脉 每12小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每6-8小时（新生儿每12小时）",
+            "ajusteRenal": "ClCr <50：减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注（ICU预防）",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 6.25, "doseMax": 6.25 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "150 mg 于 250 mL 生理盐水 (0.6 mg/mL)", "valor": 0.6 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "组胺H2受体拮抗剂，胃酸分泌抑制药",
+      "apresentacoes": [
+        { "forma": "片剂 150 mg、300 mg", "obs": "口服" },
+        { "forma": "口服溶液 15 mg/mL", "obs": "120 mL瓶" },
+        { "forma": "安瓿 50 mg/2 mL (25 mg/mL)", "obs": "静脉/肌注" },
+        { "forma": "西林瓶 50 mg/5 mL (10 mg/mL)", "obs": "静脉用" }
+      ],
+      "preparo": [
+        { "diluicao": "静脉推注：50 mg 于 20 mL 生理盐水", "concentracao": "2.5 mg/mL - 至少5分钟" },
+        { "diluicao": "静脉间歇输注：50 mg 于 100 mL 生理盐水/5%葡萄糖", "concentracao": "15-20分钟输注" },
+        { "diluicao": "静脉持续输注：150 mg 于 250 mL 生理盐水", "concentracao": "0.6 mg/mL - 10.4 mL/h = 6.25 mg/h" },
+        { "diluicao": "肌注：安瓿原液", "concentracao": "25 mg/mL" }
+      ],
+      "observacoes": [
+        "静脉缓慢给药（推注≥5分钟）- 心动过缓及房室传导阻滞风险",
+        "必须肾剂量调整：ClCr 10-50 减量50%；ClCr <10 减量75%或24小时间隔",
+        "老年人：谵妄风险 - 监测并考虑减量",
+        "活动性消化道出血疗效不如PPI - 有指征时首选PPI",
+        "与两性霉素B、苯巴比妥、咪达唑仑（Y型管）、丙泊酚不相容",
+        "H2拮抗剂 - 比西咪替丁强4-10倍；药物相互作用较少"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "谵妄风险。减量并监测。半衰期延长（4-5小时）。",
+        "renal": "ClCr 10-50 mL/min：常规剂量50%或12-24小时间隔。ClCr <10：25%或24小时间隔。血液透析：透析后补充50 mg。",
+        "hepatico": "轻中度不全：无需调整。Child-Pugh C：监测，考虑减量50%（脑病风险）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "雷尼替丁（成人 - ICU预防）",
+        "doseTexto": "50 mg 静脉 每6-8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "雷尼替丁（成人 - 误吸预防）",
+        "doseTexto": "50 mg 静脉 麻醉前45-60分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "雷尼替丁（儿童口服）",
+        "doseTexto": "2-4 mg/kg/天 口服 每12小时（最大300 mg/天）",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "雷尼替丁（儿童静脉）",
+        "doseTexto": "1 mg/kg 静脉 每6-8小时（最大50 mg/次）",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

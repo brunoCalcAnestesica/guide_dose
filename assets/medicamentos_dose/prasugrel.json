@@ -1,0 +1,506 @@
+{
+  "PT": {
+    "nome": "Prasugrel",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA – dose de ataque (adulto)",
+          "descricaoDose": "60 mg VO dose única. Preferencialmente no momento do PCI (não antes da angiografia). Com AAS 75-325 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única (ataque)",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "SCA – manutenção (≥60 kg) (adulto)",
+          "descricaoDose": "10 mg 1x/dia VO. DAPT com AAS 75-325 mg/dia. Duração até 12 meses. Contraindicado: AVC/AIT prévio, idade ≥75 anos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "SCA – manutenção (<60 kg) (adulto)",
+          "descricaoDose": "5 mg 1x/dia VO. Reduzir dose por maior risco de sangramento em peso <60 kg.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetário – Inibidor P2Y12 irreversível (tienopiridina 3ª geração)",
+      "apresentacoes": [
+        { "forma": "Comprimido 10 mg", "obs": "Manutenção (≥60 kg)" },
+        { "forma": "Comprimido 5 mg", "obs": "Manutenção (<60 kg ou ≥75 anos)" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido inteiro com água. Loading 60 mg = 6 comprimidos de 10 mg.", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Dose de ataque: preferir no momento do PCI, não antes da angiografia (ACCOAST)",
+        "NÃO indicado em IAMSSST com tratamento conservador – apenas com ICP planejada",
+        "Contraindicado: AVC/AIT prévio (qualquer tipo), idade ≥75 anos, peso <60 kg (maior risco – 5 mg pode ser considerado)",
+        "Suspender 7 dias antes de CRM (marcapasso)",
+        "AAS 75-325 mg/dia. Ativação mais rápida que clopidogrel (15-30 min)",
+        "Sangramento mais frequente que clopidogrel. Preferido em diabéticos com SCA."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Idade ≥75 anos: 5 mg 1x/dia ou evitar (benefício não estabelecido). Maior risco sangramento.",
+        "renal": "Sem ajuste em IR leve/moderada. Cautela em IR grave (excreção renal 68%).",
+        "hepatico": "Contraindicado em insuficiência hepática grave (ativação hepática necessária)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Prasugrel SCA ataque (adulto)",
+        "doseTexto": "60 mg VO dose única",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prasugrel manutenção ≥60 kg (adulto)",
+        "doseTexto": "10 mg 1x/dia VO",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prasugrel manutenção <60 kg (adulto)",
+        "doseTexto": "5 mg 1x/dia VO",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Prasugrel",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ACS – loading dose (adult)",
+          "descricaoDose": "60 mg PO single dose. Preferably at time of PCI (not before angiography). With aspirin 75-325 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose (loading)",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment."
+          }
+        },
+        {
+          "titulo": "ACS – maintenance (≥60 kg) (adult)",
+          "descricaoDose": "10 mg once daily PO. DAPT with aspirin 75-325 mg/day. Duration up to 12 months. Contraindicated: prior stroke/TIA, age ≥75 years.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment."
+          }
+        },
+        {
+          "titulo": "ACS – maintenance (<60 kg) (adult)",
+          "descricaoDose": "5 mg once daily PO. Reduce dose due to higher bleeding risk in weight <60 kg.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiplatelet agent – Irreversible P2Y12 inhibitor (3rd generation thienopyridine)",
+      "apresentacoes": [
+        { "forma": "Tablet 10 mg", "obs": "Maintenance (≥60 kg)" },
+        { "forma": "Tablet 5 mg", "obs": "Maintenance (<60 kg or ≥75 years)" }
+      ],
+      "preparo": [
+        { "diluicao": "PO: whole tablet with water. Loading 60 mg = 6 tablets of 10 mg.", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "Loading dose: prefer at time of PCI, not before angiography (ACCOAST)",
+        "NOT indicated in NSTE-ACS with conservative management – only with planned PCI",
+        "Contraindicated: prior stroke/TIA (any type), age ≥75 years, weight <60 kg (higher risk – 5 mg may be considered)",
+        "Discontinue 7 days before pacemaker implantation",
+        "Aspirin 75-325 mg/day. Faster onset than clopidogrel (15-30 min)",
+        "Bleeding more frequent than clopidogrel. Preferred in diabetics with ACS."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Age ≥75 years: 5 mg once daily or avoid (benefit not established). Higher bleeding risk.",
+        "renal": "No adjustment in mild/moderate impairment. Caution in severe impairment (68% renal excretion).",
+        "hepatico": "Contraindicated in severe hepatic impairment (hepatic activation required)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Prasugrel ACS loading (adult)",
+        "doseTexto": "60 mg PO single dose",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Prasugrel maintenance ≥60 kg (adult)",
+        "doseTexto": "10 mg once daily PO",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Prasugrel maintenance <60 kg (adult)",
+        "doseTexto": "5 mg once daily PO",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Prasugrel",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA – dosis de ataque (adulto)",
+          "descricaoDose": "60 mg VO dosis única. Preferible en el momento del ICP (no antes de la angiografía). Con AAS 75-325 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única (ataque)",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "SCA – mantenimiento (≥60 kg) (adulto)",
+          "descricaoDose": "10 mg 1x/día VO. DAPT con AAS 75-325 mg/día. Duración hasta 12 meses. Contraindicado: AVC/AIT previo, edad ≥75 años.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "SCA – mantenimiento (<60 kg) (adulto)",
+          "descricaoDose": "5 mg 1x/día VO. Reducir dosis por mayor riesgo sangrado en peso <60 kg.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetario – Inhibidor P2Y12 irreversible (tienopiridina 3ª generación)",
+      "apresentacoes": [
+        { "forma": "Comprimido 10 mg", "obs": "Mantenimiento (≥60 kg)" },
+        { "forma": "Comprimido 5 mg", "obs": "Mantenimiento (<60 kg o ≥75 años)" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido entero con agua. Carga 60 mg = 6 comprimidos de 10 mg.", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Dosis ataque: preferir en el momento del ICP, no antes de la angiografía (ACCOAST)",
+        "NO indicado en IAMSSST con tratamiento conservador – solo con ICP planeada",
+        "Contraindicado: AVC/AIT previo (cualquier tipo), edad ≥75 años, peso <60 kg (mayor riesgo – 5 mg puede considerarse)",
+        "Suspender 7 días antes de marcapasos",
+        "AAS 75-325 mg/día. Activación más rápida que clopidogrel (15-30 min)",
+        "Sangrado más frecuente que clopidogrel. Preferido en diabéticos con SCA."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Edad ≥75 años: 5 mg 1x/día o evitar (beneficio no establecido). Mayor riesgo sangrado.",
+        "renal": "Sin ajuste en IR leve/moderada. Precaución en IR grave (excreción renal 68%).",
+        "hepatico": "Contraindicado en insuficiencia hepática grave (activación hepática necesaria)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Prasugrel SCA ataque (adulto)",
+        "doseTexto": "60 mg VO dosis única",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prasugrel mantenimiento ≥60 kg (adulto)",
+        "doseTexto": "10 mg 1x/día VO",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prasugrel mantenimiento <60 kg (adulto)",
+        "doseTexto": "5 mg 1x/día VO",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "普拉格雷",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性冠脉综合征 负荷量（成人）",
+          "descricaoDose": "60 mg 口服单次。优选PCI时给药（非造影前）。与阿司匹林75-325 mg/日联用。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "单次负荷",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌。"
+          }
+        },
+        {
+          "titulo": "急性冠脉综合征 维持（≥60 kg）（成人）",
+          "descricaoDose": "10 mg 每日1次 口服。与阿司匹林75-325 mg/日双抗。疗程最多12个月。禁忌：既往卒中/TIA、年龄≥75岁。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌。"
+          }
+        },
+        {
+          "titulo": "急性冠脉综合征 维持（<60 kg）（成人）",
+          "descricaoDose": "5 mg 每日1次 口服。体重<60 kg出血风险更高，减量。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗血小板药 - 不可逆P2Y12抑制剂（第三代噻吩并吡啶）",
+      "apresentacoes": [
+        { "forma": "片剂 10 mg", "obs": "维持（≥60 kg）" },
+        { "forma": "片剂 5 mg", "obs": "维持（<60 kg或≥75岁）" }
+      ],
+      "preparo": [
+        { "diluicao": "口服：整片与水同服。负荷量60 mg=6片10 mg。", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "负荷量：优选PCI时给药，非造影前（ACCOAST）",
+        "不适用于NSTE-ACS保守治疗–仅计划PCI",
+        "禁忌：既往卒中/TIA、年龄≥75岁、体重<60 kg（可考虑5 mg）",
+        "起搏器植入前停用7天",
+        "阿司匹林75-325 mg/日。起效比氯吡格雷更快（15-30分钟）",
+        "出血较氯吡格雷更常见。糖尿病患者ACS优选。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "年龄≥75岁：5 mg每日1次或避免。出血风险更高。",
+        "renal": "轻中度肾功能不全无需调整。严重慎用（68%经肾排泄）。",
+        "hepatico": "严重肝功能不全禁忌（需肝活化）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "普拉格雷 ACS负荷（成人）",
+        "doseTexto": "60 mg 口服单次",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "普拉格雷 维持≥60 kg（成人）",
+        "doseTexto": "10 mg 每日1次 口服",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "普拉格雷 维持<60 kg（成人）",
+        "doseTexto": "5 mg 每日1次 口服",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

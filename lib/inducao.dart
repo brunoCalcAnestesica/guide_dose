@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
+import 'theme/app_theme.dart';
 import 'storage_manager.dart';
+
 import 'shared_data.dart';
 import 'condicao_clinica_page.dart';
 
@@ -57,9 +59,10 @@ class _InducaoPageState extends State<InducaoPage> {
       await StorageManager.instance.initialize();
       await StorageManager.instance
           .setStringList('favoritos_inducao', favoritos.toList());
+
     } catch (e) {
       // Se houver erro, continua sem salvar
-      print('Erro ao salvar favoritos: $e');
+      debugPrint('Erro ao salvar favoritos: $e');
     }
   }
 
@@ -114,6 +117,15 @@ class _InducaoPageState extends State<InducaoPage> {
     });
   }
 
+  void _abrirDetalhes(String arquivoJson) {
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (_) => CondicaoClinicaPage(arquivoJson: arquivoJson),
+      ),
+    );
+  }
+
   @override
   void dispose() {
     _searchController.dispose();
@@ -127,178 +139,171 @@ class _InducaoPageState extends State<InducaoPage> {
     return Scaffold(
       appBar: AppBar(title: const Text('Dose de Indução')),
       body: SafeArea(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
-              child: TextField(
-                controller: _searchController,
-                decoration: const InputDecoration(
-                  labelText: 'Busque pela condição clínica...',
-                  prefixIcon: Icon(Icons.search),
-                  border: OutlineInputBorder(),
-                  isDense: true,
-                  contentPadding:
-                      EdgeInsets.symmetric(vertical: 10, horizontal: 12),
-                ),
-              ),
-            ),
-            const SizedBox(height: 4),
-            Expanded(
-              child: Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 12),
-                child: filtradas.isEmpty
-                    ? _buildEmptyState()
-                    : ListView.builder(
-                        itemCount: filtradas.length,
-                        itemBuilder: (context, index) {
-                          final key = filtradas[index].key;
-                          final dados = filtradas[index].value;
-                          final List medicamentos = dados['medicamentos'];
+        child: ListView.builder(
+          padding: const EdgeInsets.only(bottom: 12),
+          itemCount: filtradas.isEmpty ? 2 : filtradas.length + 1,
+          itemBuilder: (context, index) {
+            if (index == 0) {
+              return Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(
+                        AppSpacing.screenPadding, AppSpacing.md, AppSpacing.screenPadding, AppSpacing.xs),
+                    child: SizedBox(
+                      width: double.infinity,
+                      child: TextField(
+                        controller: _searchController,
+                        style: TextStyle(
+                            fontSize: 15,
+                            color: Theme.of(context).colorScheme.onSurface),
+                        decoration: InputDecoration(
+                          labelText: 'Pesquisa',
+                          prefixIcon: const Icon(Icons.search),
+                          filled: true,
+                          fillColor: Theme.of(context)
+                              .colorScheme
+                              .surfaceContainerHighest
+                              .withValues(alpha: 0.5),
+                          border: OutlineInputBorder(
+                            borderRadius: AppRadius.card,
+                            borderSide: BorderSide.none,
+                          ),
+                          enabledBorder: OutlineInputBorder(
+                            borderRadius: AppRadius.card,
+                            borderSide: BorderSide.none,
+                          ),
+                          focusedBorder: OutlineInputBorder(
+                            borderRadius: AppRadius.card,
+                            borderSide: BorderSide(
+                              color: Theme.of(context).colorScheme.primary,
+                              width: 1.2,
+                            ),
+                          ),
+                          isDense: true,
+                          contentPadding: const EdgeInsets.symmetric(
+                              vertical: 10, horizontal: AppSpacing.md),
+                        ),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(height: 4),
+                ],
+              );
+            }
 
-                          return Card(
-                            margin: const EdgeInsets.symmetric(vertical: 8),
-                            child: Padding(
-                              padding: const EdgeInsets.all(12),
-                              child: Column(
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Row(
-                                    children: [
-                                      Expanded(
-                                        child: Text(
-                                          dados['titulo'],
-                                          style: const TextStyle(
-                                              fontSize: 18,
-                                              fontWeight: FontWeight.bold),
-                                        ),
-                                      ),
-                                      IconButton(
-                                        icon: Icon(
-                                          favoritos.contains(key)
-                                              ? Icons.star_rounded
-                                              : Icons.star_border_rounded,
-                                          color: favoritos.contains(key)
-                                              ? Colors.amber[700]
-                                              : Colors.grey[400],
-                                          size: 22,
-                                        ),
-                                        tooltip: favoritos.contains(key)
-                                            ? 'Remover dos favoritos'
-                                            : 'Adicionar aos favoritos',
-                                        onPressed: () => alternarFavorito(key),
-                                        padding: EdgeInsets.zero,
-                                        constraints: const BoxConstraints(
-                                            minWidth: 24, minHeight: 24),
-                                        visualDensity: VisualDensity.compact,
-                                      ),
-                                      IconButton(
-                                        icon: const Icon(Icons.info_outline,
-                                            size: 22, color: Colors.blueGrey),
-                                        tooltip: 'Abrir detalhes clínicos',
-                                        onPressed: () {
-                                          Navigator.push(
-                                            context,
-                                            MaterialPageRoute(
-                                              builder: (_) =>
-                                                  CondicaoClinicaPage(
-                                                      arquivoJson: key),
-                                            ),
-                                          );
-                                        },
-                                        padding: EdgeInsets.zero,
-                                        constraints: const BoxConstraints(
-                                            minWidth: 24, minHeight: 24),
-                                        visualDensity: VisualDensity.compact,
-                                      ),
-                                    ],
-                                  ),
-                                  const SizedBox(height: 8),
-                                  // Cabeçalho da tabela
-                                  Padding(
-                                    padding:
-                                        const EdgeInsets.symmetric(vertical: 6),
-                                    child: Row(
-                                      children: [
-                                        Expanded(
-                                          flex: 6,
-                                          child: Text(
-                                            'Medicamento',
-                                            style: const TextStyle(
-                                              fontSize: 14,
-                                              fontWeight: FontWeight.w600,
-                                              color: Colors.grey,
-                                            ),
-                                          ),
-                                        ),
-                                        Expanded(
-                                          flex: 4,
-                                          child: Text(
-                                            'Dose / Volume',
-                                            textAlign: TextAlign.right,
-                                            style: const TextStyle(
-                                              fontSize: 14,
-                                              fontWeight: FontWeight.w600,
-                                              color: Colors.grey,
-                                            ),
-                                          ),
-                                        ),
-                                      ],
-                                    ),
-                                  ),
-                                  // Linhas dos medicamentos
-                                  ...medicamentos.map((med) {
-                                    final nome = med['nome'];
-                                    final doseMg = med['dose_mg_kg'] * peso;
-                                    final concentracao =
-                                        _obterConcentracao(nome);
-                                    final doseMl = concentracao > 0
-                                        ? doseMg / concentracao
-                                        : 0.0;
-                                    final nomeComConcentracao = concentracao > 0
-                                        ? '$nome (${concentracao.toStringAsFixed(1)} mg/mL)'
-                                        : nome;
-                                    return Padding(
-                                      padding: const EdgeInsets.symmetric(
-                                          vertical: 2),
-                                      child: Row(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Expanded(
-                                            flex: 6,
-                                            child: Text(
-                                              nomeComConcentracao,
-                                              style: const TextStyle(
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.w500,
-                                              ),
-                                            ),
-                                          ),
-                                          Expanded(
-                                            flex: 4,
-                                            child: Text(
-                                              '${doseMg.toStringAsFixed(2)} mg / ${doseMl > 0 ? doseMl.toStringAsFixed(1) : '-'} mL',
-                                              textAlign: TextAlign.right,
-                                              style: const TextStyle(
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.w500,
-                                              ),
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                    );
-                                  }).toList(),
-                                ],
+            if (filtradas.isEmpty) {
+              return Padding(
+                padding: const EdgeInsets.symmetric(horizontal: AppSpacing.md),
+                child: _buildEmptyState(),
+              );
+            }
+
+            final itemIndex = index - 1;
+            final key = filtradas[itemIndex].key;
+            final dados = filtradas[itemIndex].value;
+            final List medicamentos = dados['medicamentos'];
+
+            return Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Card(
+                margin: const EdgeInsets.symmetric(vertical: 5),
+                child: Padding(
+                  padding: const EdgeInsets.all(AppSpacing.cardPadding),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Row(
+                        children: [
+                          Expanded(
+                            child: InkWell(
+                              onTap: () => _abrirDetalhes(key),
+                              child: Text(
+                                dados['titulo'],
+                                style: const TextStyle(
+                                    fontSize: 18, fontWeight: FontWeight.bold),
                               ),
                             ),
-                          );
-                        },
+                          ),
+                        ],
                       ),
+                      const SizedBox(height: 8),
+                      // Cabeçalho da tabela
+                      Padding(
+                        padding: const EdgeInsets.symmetric(vertical: 6),
+                        child: Row(
+                          children: [
+                            Expanded(
+                              flex: 6,
+                              child: Text(
+                                'Medicamento',
+                                style: TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.bold,
+                                    color: Theme.of(context).colorScheme.onSurface,
+                                ),
+                              ),
+                            ),
+                            Expanded(
+                              flex: 4,
+                              child: Text(
+                                'Dose / Volume',
+                                textAlign: TextAlign.right,
+                                style: TextStyle(
+                                  fontSize: 14,
+                                  fontWeight: FontWeight.bold,
+                                  color: Theme.of(context).colorScheme.onSurface,
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                      // Linhas dos medicamentos
+                      ...medicamentos.map((med) {
+                        final nome = med['nome'];
+                        final doseMg = med['dose_mg_kg'] * peso;
+                        final concentracao = _obterConcentracao(nome);
+                        final doseMl =
+                            concentracao > 0 ? doseMg / concentracao : 0.0;
+                        final nomeComConcentracao = concentracao > 0
+                            ? '$nome (${concentracao.toStringAsFixed(1)} mg/mL)'
+                            : nome;
+                        return Padding(
+                          padding: const EdgeInsets.symmetric(vertical: 2),
+                          child: Row(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Expanded(
+                                flex: 6,
+                                child: Text(
+                                  nomeComConcentracao,
+                                  style: const TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.normal,
+                                  ),
+                                ),
+                              ),
+                              Expanded(
+                                flex: 4,
+                                child: Text(
+                                  '${doseMg.toStringAsFixed(2)} mg / ${doseMl > 0 ? doseMl.toStringAsFixed(1) : '-'} mL',
+                                  textAlign: TextAlign.right,
+                                  style: const TextStyle(
+                                    fontSize: 14,
+                                    fontWeight: FontWeight.normal,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        );
+                      }).toList(),
+                    ],
+                  ),
+                ),
               ),
-            ),
-          ],
+            );
+          },
         ),
       ),
     );
@@ -371,7 +376,6 @@ class _InducaoPageState extends State<InducaoPage> {
       'Sugamadex': 100.0, // 100 mg/mL
       'Protamina': 10.0, // 10 mg/mL
       'Dantroleno': 0.333, // 0.333 mg/mL (20mg/60mL)
-      'Tiossulfato de Sódio': 250.0, // 250 mg/mL
       'Hidroxicobalamina': 2.5, // 2.5 mg/mL
       'Neostigmina': 0.5, // 0.5 mg/mL
       'Adrenalina': 1, // 1 mg/mL

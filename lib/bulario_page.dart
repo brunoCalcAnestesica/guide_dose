@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'theme/app_colors.dart';
 import 'package:flutter/services.dart';
 
 class BularioPage extends StatefulWidget {
@@ -31,7 +32,7 @@ class _BularioPageState extends State<BularioPage> {
       });
     } catch (e) {
       setState(() {
-        bulario = {'erro': 'Erro ao carregar o bulário: $e'};
+        bulario = {'erro': 'Erro ao carregar o bulário. Tente novamente.'};
       });
     }
   }
@@ -111,14 +112,28 @@ class _BularioPageState extends State<BularioPage> {
         style: const TextStyle(
           fontSize: 18,
           fontWeight: FontWeight.bold,
-          color: Colors.indigo,
+          color: AppColors.primary,
         ),
       ),
     );
   }
 
-  Widget _info(String label, String? value) {
-    if (value == null || value.isEmpty) return const SizedBox.shrink();
+  Widget _info(String label, dynamic value) {
+    if (value == null) return const SizedBox.shrink();
+    
+    // Converte o valor para String, tratando listas e maps
+    String displayValue;
+    if (value is List) {
+      if (value.isEmpty) return const SizedBox.shrink();
+      displayValue = value.map((e) => '• $e').join('\n');
+    } else if (value is Map) {
+      if (value.isEmpty) return const SizedBox.shrink();
+      displayValue = value.entries.map((e) => '${e.key}: ${e.value}').join('\n');
+    } else {
+      displayValue = value.toString();
+      if (displayValue.isEmpty) return const SizedBox.shrink();
+    }
+    
     return Padding(
       padding: const EdgeInsets.only(bottom: 12),
       child: Column(
@@ -133,7 +148,7 @@ class _BularioPageState extends State<BularioPage> {
           ),
           const SizedBox(height: 4),
           Text(
-            value,
+            displayValue,
             textAlign: TextAlign.justify,
             style: const TextStyle(fontSize: 14),
           ),

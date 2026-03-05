@@ -1,0 +1,634 @@
+{
+  "PT": {
+    "nome": "Penicilina G Procaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sífilis latente/tardia",
+          "descricaoDose": "600.000 UI IM 1x/dia (ou conforme protocolo 1,2–2,4 milhões UI). Duração conforme protocolo.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "600.000 UI (ou 1,2–2,4 milhões UI)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "IR grave: cautela; avaliar intervalo conforme função renal.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sífilis – dose única (protocolos selecionados)",
+          "descricaoDose": "1.200.000 UI IM dose única. Apenas quando indicado pelo protocolo.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1200000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "1.200.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "IR grave: cautela.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções estreptocócicas leves (IM)",
+          "descricaoDose": "600.000–1.200.000 UI IM 1x/dia. Não usar em neurossífilis (usar penicilina G cristalina IV).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "600.000–1.200.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "IR grave: reduzir frequência ou avaliar alternativa.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sífilis congênita – neonato (alternativa)",
+          "descricaoDose": "50.000 UI/kg IM 1x/dia (conforme protocolo). Duração conforme guia.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 50000,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Avaliar função renal no neonato.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Penicilina natural (benzilpenicilina – sal de procaína; liberação prolongada)",
+      "apresentacoes": [
+        { "forma": "Frasco 300.000 UI", "obs": "Suspensão injetável IM" },
+        { "forma": "Frasco 600.000 UI", "obs": "Suspensão injetável IM" },
+        { "forma": "Frasco 1.200.000 UI", "obs": "Suspensão injetável IM" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir conforme bula. Agitar até homogeneizar.", "concentracao": "Administrar por via IM apenas (nunca IV)" }
+      ],
+      "observacoes": [
+        "Via exclusivamente IM. NUNCA administrar IV (risco de reação grave à procaína).",
+        "Liberação prolongada (meia-vida ~12–24 h); permite dose 1x/dia em sífilis latente.",
+        "Não usar em neurossífilis – usar penicilina G cristalina IV.",
+        "Espectro: Streptococcus, Treponema pallidum (sífilis). Não cobre Staphylococcus produtor de penicilinase.",
+        "Contraindicado em alergia a penicilinas ou a procaína. Reação de Jarisch-Herxheimer possível na sífilis.",
+        "Sítio de aplicação: região superior externa do glúteo (evitar nervo ciático)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal; em IR grave considerar intervalo ou alternativa.",
+        "renal": "Insuficiência renal grave: cautela; pode ser necessário alongar intervalo.",
+        "hepatico": "Não requer ajuste. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Penicilina G Procaína – sífilis latente (adulto)",
+        "doseTexto": "600.000 UI IM 1x/dia",
+        "doseMin": 600000,
+        "doseMax": 600000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "600.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G Procaína – sífilis dose única",
+        "doseTexto": "1.200.000 UI IM dose única",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1.200.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G Procaína – estreptocócicas (adulto)",
+        "doseTexto": "600.000–1.200.000 UI IM 1x/dia",
+        "doseMin": 600000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G Procaína – sífilis congênita (neonato)",
+        "doseTexto": "50.000 UI/kg IM 1x/dia",
+        "doseMin": 50000,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Penicillin G procaine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Latent/late syphilis",
+          "descricaoDose": "600,000 units IM once daily (or per protocol 1.2–2.4 million units). Duration per protocol.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "600,000 units (or 1.2–2.4 million)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "once daily",
+            "ajusteRenal": "Severe renal impairment: use with caution; adjust interval per renal function.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Syphilis – single dose (selected protocols)",
+          "descricaoDose": "1,200,000 units IM single dose. Only when indicated by protocol.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1200000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "1,200,000 units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "Severe renal impairment: use with caution.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mild streptococcal infections (IM)",
+          "descricaoDose": "600,000–1,200,000 units IM once daily. Do NOT use for neurosyphilis (use penicillin G crystalline IV).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "600,000–1,200,000 units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "once daily",
+            "ajusteRenal": "Severe renal impairment: reduce frequency or consider alternative.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Congenital syphilis – neonate (alternative)",
+          "descricaoDose": "50,000 units/kg IM once daily (per protocol). Duration per guidelines.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 50000,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "once daily",
+            "ajusteRenal": "Assess renal function in neonate.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Natural penicillin (benzylpenicillin – procaine salt; prolonged release)",
+      "apresentacoes": [
+        { "forma": "Vial 300,000 units", "obs": "Injectable suspension IM" },
+        { "forma": "Vial 600,000 units", "obs": "Injectable suspension IM" },
+        { "forma": "Vial 1,200,000 units", "obs": "Injectable suspension IM" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute per label. Shake until uniform.", "concentracao": "Administer IM only (never IV)" }
+      ],
+      "observacoes": [
+        "IM route only. NEVER give IV (risk of severe procaine reaction).",
+        "Prolonged release (half-life ~12–24 h); allows once-daily dosing in latent syphilis.",
+        "Do NOT use for neurosyphilis – use penicillin G crystalline IV.",
+        "Spectrum: Streptococcus, Treponema pallidum (syphilis). Does not cover penicillinase-producing Staphylococcus.",
+        "Contraindicated in penicillin or procaine allergy. Jarisch-Herxheimer reaction possible in syphilis.",
+        "Injection site: upper outer quadrant of gluteus (avoid sciatic nerve)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function; in severe renal impairment consider interval or alternative.",
+        "renal": "Severe renal impairment: use with caution; may need to extend interval.",
+        "hepatico": "No dose adjustment. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Penicillin G procaine – latent syphilis (adult)",
+        "doseTexto": "600,000 units IM once daily",
+        "doseMin": 600000,
+        "doseMax": 600000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "600,000 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G procaine – syphilis single dose",
+        "doseTexto": "1,200,000 units IM single dose",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1,200,000 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G procaine – streptococcal (adult)",
+        "doseTexto": "600,000–1,200,000 units IM once daily",
+        "doseMin": 600000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G procaine – congenital syphilis (neonate)",
+        "doseTexto": "50,000 units/kg IM once daily",
+        "doseMin": 50000,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Penicilina G procaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sífilis latente/tardía",
+          "descricaoDose": "600.000 UI IM 1x/día (o según protocolo 1,2–2,4 millones UI). Duración según protocolo.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "600.000 UI (o 1,2–2,4 millones UI)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/día",
+            "ajusteRenal": "IR grave: precaución; valorar intervalo según función renal.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sífilis – dosis única (protocolos seleccionados)",
+          "descricaoDose": "1.200.000 UI IM dosis única. Solo cuando lo indique el protocolo.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1200000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "1.200.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "IR grave: precaución.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones estreptocócicas leves (IM)",
+          "descricaoDose": "600.000–1.200.000 UI IM 1x/día. No usar en neurosífilis (usar penicilina G cristalina IV).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "600.000–1.200.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/día",
+            "ajusteRenal": "IR grave: reducir frecuencia o valorar alternativa.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sífilis congénita – neonato (alternativa)",
+          "descricaoDose": "50.000 UI/kg IM 1x/día (según protocolo). Duración según guía.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 50000,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Valorar función renal en neonato.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Penicilina natural (benzilpenicilina – sal de procaína; liberación prolongada)",
+      "apresentacoes": [
+        { "forma": "Frasco 300.000 UI", "obs": "Suspensión inyectable IM" },
+        { "forma": "Frasco 600.000 UI", "obs": "Suspensión inyectable IM" },
+        { "forma": "Frasco 1.200.000 UI", "obs": "Suspensión inyectable IM" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir según ficha. Agitar hasta homogeneizar.", "concentracao": "Administrar solo por vía IM (nunca IV)" }
+      ],
+      "observacoes": [
+        "Vía exclusivamente IM. NUNCA administrar IV (riesgo de reacción grave a procaína).",
+        "Liberación prolongada (vida media ~12–24 h); permite dosis 1x/día en sífilis latente.",
+        "No usar en neurosífilis – usar penicilina G cristalina IV.",
+        "Espectro: Streptococcus, Treponema pallidum (sífilis). No cubre Staphylococcus productor de penicilinasa.",
+        "Contraindicado en alergia a penicilinas o a procaína. Reacción de Jarisch-Herxheimer posible en sífilis.",
+        "Sitio de aplicación: región superior externa del glúteo (evitar nervio ciático)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal; en IR grave considerar intervalo o alternativa.",
+        "renal": "Insuficiencia renal grave: precaución; puede ser necesario alargar intervalo.",
+        "hepatico": "No requiere ajuste. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Penicilina G procaína – sífilis latente (adulto)",
+        "doseTexto": "600.000 UI IM 1x/día",
+        "doseMin": 600000,
+        "doseMax": 600000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "600.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G procaína – sífilis dosis única",
+        "doseTexto": "1.200.000 UI IM dosis única",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1.200.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G procaína – estreptocócicas (adulto)",
+        "doseTexto": "600.000–1.200.000 UI IM 1x/día",
+        "doseMin": 600000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G procaína – sífilis congénita (neonato)",
+        "doseTexto": "50.000 UI/kg IM 1x/día",
+        "doseMin": 50000,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "普鲁卡因青霉素G",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "潜伏/晚期梅毒",
+          "descricaoDose": "60万单位 肌注 每日1次（或按方案120–240万单位）。疗程按方案。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "60万单位（或120–240万单位）",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "每日1次",
+            "ajusteRenal": "严重肾功能不全：谨慎；根据肾功能调整间隔。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "梅毒 – 单次剂量（特定方案）",
+          "descricaoDose": "120万单位 肌注 单次。仅当方案指明时使用。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1200000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "120万单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次",
+            "ajusteRenal": "严重肾功能不全：谨慎。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "轻症链球菌感染（肌注）",
+          "descricaoDose": "60–120万单位 肌注 每日1次。神经梅毒勿用（用青霉素G结晶IV）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "60–120万单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "每日1次",
+            "ajusteRenal": "严重肾功能不全：减少频次或考虑替代。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "先天性梅毒 – 新生儿（替代）",
+          "descricaoDose": "5万 UI/kg 肌注 每日1次（按方案）。疗程按指南。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 50000,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "每日1次",
+            "ajusteRenal": "评估新生儿肾功能。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "天然青霉素（苄青霉素 – 普鲁卡因盐；缓释）",
+      "apresentacoes": [
+        { "forma": "西林瓶 30万单位", "obs": "注射用混悬液 肌注" },
+        { "forma": "西林瓶 60万单位", "obs": "注射用混悬液 肌注" },
+        { "forma": "西林瓶 120万单位", "obs": "注射用混悬液 肌注" }
+      ],
+      "preparo": [
+        { "diluicao": "按说明书配制。振摇至均匀。", "concentracao": "仅肌注（切勿静注）" }
+      ],
+      "observacoes": [
+        "仅限肌注。切勿静注（普鲁卡因严重反应风险）。",
+        "缓释（半衰期约12–24小时）；潜伏梅毒可每日1次给药。",
+        "神经梅毒勿用 – 用青霉素G结晶静注。",
+        "谱：链球菌、梅毒螺旋体。不覆盖产青霉素酶葡萄球菌。",
+        "青霉素或普鲁卡因过敏禁忌。梅毒治疗可能出现吉海反应。",
+        "注射部位：臀上外侧（避免坐骨神经）。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能；严重肾功能不全时考虑间隔或替代。",
+        "renal": "严重肾功能不全：谨慎；可能需延长间隔。",
+        "hepatico": "无需调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "普鲁卡因青霉素G – 潜伏梅毒（成人）",
+        "doseTexto": "60万单位 肌注 每日1次",
+        "doseMin": 600000,
+        "doseMax": 600000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "60万单位",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "普鲁卡因青霉素G – 梅毒单次",
+        "doseTexto": "120万单位 肌注 单次",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "120万单位",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "普鲁卡因青霉素G – 链球菌（成人）",
+        "doseTexto": "60–120万单位 肌注 每日1次",
+        "doseMin": 600000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "普鲁卡因青霉素G – 先天性梅毒（新生儿）",
+        "doseTexto": "5万 UI/kg 肌注 每日1次",
+        "doseMin": 50000,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Dabigatrana etexilato",
+      "nome_comercial": ["Pradaxa"],
+      "classe_terapeutica": "DOAC - Inibidor direto da trombina (fator IIa)",
+      "mecanismo_acao": "Pró-droga que, após ativação, inibe direta e reversivelmente a trombina (fator IIa), tanto livre quanto ligada à fibrina, bloqueando a conversão de fibrinogênio em fibrina.",
+      "indicacoes": [
+        "Fibrilação atrial não valvar",
+        "Tratamento de TVP e TEP (após anticoagulação parenteral)",
+        "Prevenção de TVP/TEP recorrente",
+        "Profilaxia de TVP em cirurgias ortopédicas"
+      ],
+      "contraindicacoes": [
+        "ClCr <30 mL/min",
+        "Sangramento ativo",
+        "Prótese valvar cardíaca mecânica",
+        "Doença hepática grave",
+        "Uso de inibidores potentes P-gp (cetoconazol, ciclosporina)"
+      ],
+      "apresentacoes": [
+        {"forma": "Cápsula", "concentracao": "75 mg"},
+        {"forma": "Cápsula", "concentracao": "110 mg"},
+        {"forma": "Cápsula", "concentracao": "150 mg"}
+      ],
+      "farmacocinetica": {
+        "biodisponibilidade": "3-7%",
+        "inicio_acao": "0,5-2 horas",
+        "pico": "0,5-2 horas",
+        "meia_vida": "12-17 horas",
+        "metabolismo": "Esterases plasmáticas",
+        "excrecao": "Renal (80%)"
+      },
+      "ajuste_dose_fa": {
+        "dose_padrao": "150 mg 12/12h",
+        "dose_reduzida": "110 mg 12/12h",
+        "criterios_110mg": ["Idade ≥80 anos", "Uso de verapamil", "Alto risco sangramento", "ClCr 30-50 (considerar)"]
+      },
+      "efeitos_adversos": [
+        "Sangramento",
+        "Dispepsia (muito comum)",
+        "Dor abdominal",
+        "Diarreia"
+      ],
+      "reversao": {
+        "especifica": "Idarucizumab (Praxbind)",
+        "hemodialise": "Eficaz (remove 60% em 2-3h)"
+      },
+      "vantagens": [
+        "Único DOAC dialisável",
+        "Antídoto específico disponível",
+        "Sem interação com CYP450"
+      ],
+      "desvantagens": [
+        "Alta excreção renal",
+        "Dispepsia frequente",
+        "Cápsulas não podem ser abertas"
+      ],
+      "observacoes": [
+        "NÃO abrir, triturar ou mastigar cápsulas",
+        "Manter no blister original até uso (sensível à umidade)"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "Sim, manter no blister"
+      }
+    }
+  }
+}

@@ -1,25 +1,50 @@
+import { useState, useEffect } from 'react'
 import { Card } from '../../components/ui/Card'
 import { Table } from '../../components/ui/Table'
 import { Badge } from '../../components/ui/Badge'
-import { mockUsers } from '../../mocks/data'
-import type { User } from '../../types'
+import { adminListUsers } from '../../lib/api'
+import type { AdminUser } from '../../types'
+
+const ADMIN_EMAIL_EXCLUDE_FROM_TELEMETRY = 'bhdaroz@gmail.com'
 
 export default function Telemetry() {
+  const [users, setUsers] = useState<AdminUser[]>([])
+  const [loading, setLoading] = useState(true)
+
+  useEffect(() => {
+    adminListUsers().then(({ data }) => {
+      setUsers((data as AdminUser[]) ?? [])
+      setLoading(false)
+    })
+  }, [])
+
+  if (loading) return <p className="text-sm text-gray-500">Carregando telemetria...</p>
+
+  const totalAccess = users
+    .filter((u) => (u.email || '').toLowerCase() !== ADMIN_EMAIL_EXCLUDE_FROM_TELEMETRY)
+    .reduce((sum, u) => sum + (u.access_count ?? 0), 0)
+  const confirmedUsers = users.filter(u => u.email_confirmed_at)
+  const recentUsers = users.filter(u => {
+    if (!u.last_sign_in_at) return false
+    const diff = Date.now() - new Date(u.last_sign_in_at).getTime()
+    return diff < 30 * 24 * 60 * 60 * 1000
+  })
+
   const columns = [
-    { key: 'nome', header: 'Usuário', render: (u: User) => (
+    { key: 'email', header: 'Usuário', render: (u: AdminUser) => (
       <div>
-        <p className="font-medium text-gray-900">{u.nome || '—'}</p>
-        <p className="text-xs text-gray-500">{u.email}</p>
+        <p className="font-medium text-gray-900">{u.email}</p>
       </div>
     )},
-    { key: 'totalLogins', header: 'Total Logins', render: (u: User) => String(u.totalLogins ?? 0) },
-    { key: 'ultimoAcesso', header: 'Último Acesso', render: (u: User) => u.ultimoAcesso ? new Date(u.ultimoAcesso).toLocaleDateString('pt-BR') : '—' },
-    { key: 'pais', header: 'País' },
-    { key: 'cidade', header: 'Cidade' },
-    { key: 'deviceType', header: 'Dispositivo', render: (u: User) => <Badge>{u.deviceType || '—'}</Badge> },
+    { key: 'access_count', header: 'Total Acessos', render: (u: AdminUser) => String(u.access_count ?? 0) },
+    { key: 'last_sign_in_at', header: 'Último Login', render: (u: AdminUser) => u.last_sign_in_at ? new Date(u.last_sign_in_at).toLocaleString('pt-BR') : '—' },
+    { key: 'created_at', header: 'Cadastro', render: (u: AdminUser) => new Date(u.created_at).toLocaleDateString('pt-BR') },
+    { key: 'status', header: 'Status', render: (u: AdminUser) => (
+      <Badge variant={u.email_confirmed_at ? 'success' : 'warning'}>
+        {u.email_confirmed_at ? 'Ativo' : 'Pendente'}
+      </Badge>
+    )},
   ]
-
-  const totalLogins = mockUsers.reduce((sum, u) => sum + (u.totalLogins ?? 0), 0)
 
   return (
     <div className="space-y-6">
@@ -28,20 +53,31 @@ export default function Telemetry() {
       <div className="grid gap-4 sm:grid-cols-3">
         <Card className="border-l-4 border-l-brand-500">
           <p className="text-sm text-gray-500">Usuários Cadastrados</p>
-          <p className="mt-1 text-3xl font-bold text-gray-900">{mockUsers.length}</p>
+          <p className="mt-1 text-3xl font-bold text-gray-900">{users.length}</p>
         </Card>
         <Card className="border-l-4 border-l-green-500">
-          <p className="text-sm text-gray-500">Total de Logins</p>
-          <p className="mt-1 text-3xl font-bold text-gray-900">{totalLogins}</p>
+          <p className="text-sm text-gray-500">Total de Acessos</p>
+          <p className="mt-1 text-3xl font-bold text-gray-900">{totalAccess}</p>
         </Card>
         <Card className="border-l-4 border-l-yellow-500">
-          <p className="text-sm text-gray-500">Usuários Ativos (30d)</p>
-          <p className="mt-1 text-3xl font-bold text-gray-900">{mockUsers.filter(u => u.status === 'ativo').length}</p>
+          <p className="text-sm text-gray-500">Ativos (30 dias)</p>
+          <p className="mt-1 text-3xl font-bold text-gray-900">{recentUsers.length}</p>
+        </Card>
+      </div>
+
+      <div className="grid gap-4 sm:grid-cols-2">
+        <Card className="border-l-4 border-l-blue-500">
+          <p className="text-sm text-gray-500">E-mails Confirmados</p>
+          <p className="mt-1 text-3xl font-bold text-gray-900">{confirmedUsers.length}</p>
+        </Card>
+        <Card className="border-l-4 border-l-red-400">
+          <p className="text-sm text-gray-500">E-mails Pendentes</p>
+          <p className="mt-1 text-3xl font-bold text-gray-900">{users.length - confirmedUsers.length}</p>
         </Card>
       </div>
 
       <Card title="Detalhamento por Usuário">
-        <Table columns={columns} data={mockUsers as unknown as Record<string, unknown>[]} />
+        <Table columns={columns} data={users as unknown as Record<string, unknown>[]} />
       </Card>
     </div>
   )

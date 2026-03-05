@@ -1,0 +1,77 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Teofilina",
+      "nomesComerciais": ["Teolong®", "Talofilina®", "Marax®"],
+      "classeTerapeutica": "Metilxantina / Broncodilatador oral",
+      "mecanismoAcao": "Inibe a fosfodiesterase, aumentando AMPc intracelular. Antagoniza receptores de adenosina. Causa relaxamento da musculatura lisa brônquica, melhora da função diafragmática, estimulação respiratória central e efeito anti-inflamatório leve em doses baixas.",
+      "indicacoes": [
+        "Asma persistente (adjuvante)",
+        "DPOC estável (manutenção)",
+        "Apneia do prematuro"
+      ],
+      "apresentacoes": [
+        "Comprimido 100mg, 200mg, 300mg (liberação imediata)",
+        "Cápsula 100mg, 200mg, 300mg (liberação prolongada)",
+        "Xarope 50mg/5mL"
+      ],
+      "posologia": {
+        "adulto": {
+          "inicial": "200-300 mg VO 12/12h (liberação prolongada)",
+          "manutencao": "200-400 mg VO 12/12h",
+          "dose_maxima": "900 mg/dia",
+          "por_peso": "10-15 mg/kg/dia dividido em 2-4 doses"
+        },
+        "pediatrico": {
+          "dose": "10-15 mg/kg/dia VO dividido em 3-4 doses",
+          "liberacao_prolongada": "10-15 mg/kg/dia dividido em 2 doses"
+        },
+        "ajustes": {
+          "icc": "Reduzir 50%",
+          "hepatopatia": "Reduzir 50%",
+          "idosos": "Iniciar com doses baixas"
+        }
+      },
+      "farmacocinetica": {
+        "inicio_acao": "1-2 horas (VO)",
+        "pico_plasmatico": "1-2h (imediata), 4-8h (prolongada)",
+        "meia_vida": "6-10 horas (variável)",
+        "nivel_terapeutico": "10-20 mcg/mL",
+        "metabolismo": "Hepático (CYP1A2)",
+        "eliminacao": "Renal"
+      },
+      "niveis_sericos": {
+        "terapeutico": "10-20 mcg/mL",
+        "anti_inflamatorio": "5-10 mcg/mL (efeito em doses baixas)",
+        "toxicidade": ">20 mcg/mL"
+      },
+      "contraindicacoes": [
+        "Hipersensibilidade às xantinas",
+        "Arritmias não controladas",
+        "Úlcera péptica ativa"
+      ],
+      "efeitosAdversos": [
+        "Náuseas, vômitos, dispepsia",
+        "Cefaleia, insônia",
+        "Taquicardia, palpitações",
+        "Tremores",
+        "Diurese aumentada",
+        "Arritmias, convulsões (toxicidade)"
+      ],
+      "interacoes": [
+        "Aumentam níveis: eritromicina, ciprofloxacino, cimetidina, alopurinol",
+        "Diminuem níveis: rifampicina, fenitoína, carbamazepina, tabagismo",
+        "Álcool: pode alterar absorção"
+      ],
+      "observacoes": [
+        "JANELA TERAPÊUTICA ESTREITA: monitorar níveis séricos",
+        "Tomar com alimento para reduzir irritação GI",
+        "Não mastigar formulações de liberação prolongada",
+        "Tabagismo aumenta metabolismo significativamente",
+        "Interações medicamentosas frequentes (CYP1A2)",
+        "Uso menos comum atualmente devido a alternativas mais seguras"
+      ],
+      "categoriaGravidez": "C"
+    }
+  }
+}

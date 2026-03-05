@@ -1,0 +1,454 @@
+{
+  "PT": {
+    "nome": "Tiossulfato de Sódio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicação por cianeto - Adulto",
+          "descricaoDose": "12,5 g IV em infusão lenta (10 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12.5,
+            "doseFixa": "12,5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão lenta 10 min",
+            "ajusteRenal": "Cautela em IR (acúmulo tiocianato)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação por cianeto - Pediátrico",
+          "descricaoDose": "400 mg/kg IV em 10 min (máx 12,5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão lenta 10 min",
+            "ajusteRenal": "Cautela em IR (acúmulo tiocianato)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Calcifilaxia (off-label)",
+          "descricaoDose": "25 g IV 3x/semana após hemodiálise",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "3x por semana após HD",
+            "ajusteRenal": "Uso em IR terminal (após HD)",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto para intoxicação por cianeto; agente quelante; uso em toxicidade por cisplatina e calcifilaxia.",
+      "apresentacoes": [
+        { "forma": "Ampola 10 mL (2,5 g) a 25%", "obs": "250 mg/mL" },
+        { "forma": "Ampola 50 mL (12,5 g) a 25%", "obs": "250 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso (solução 25%)", "concentracao": "250 mg/mL" },
+        { "diluicao": "Pode diluir em SF 0,9% ou SG 5%", "concentracao": "controle da velocidade" },
+        { "diluicao": "Ex.: 12,5 g (50 mL) em 100 mL SF", "concentracao": "83 mg/mL" },
+        { "diluicao": "Infusão lenta obrigatória: mínimo 10 min", "concentracao": "risco hipotensão" }
+      ],
+      "observacoes": [
+        "Sempre associar hidroxicobalamina (antídoto primário cianeto)",
+        "Infusão lenta obrigatória ≥10 min - risco de hipotensão severa",
+        "Incompatível com nitrito de sódio - administrar separado com flushing",
+        "Cautela em IR: acúmulo de tiocianato (neurotóxico) - considerar hemodiálise",
+        "Sobrecarga volêmica em renais/cardiopatas (25 g = 100 mL líquido)",
+        "Contraindicado: hipervolemia não controlada, ICC descompensada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar PA e sinais de hipervolemia. Cautela em cardiopatas.",
+        "renal": "Usar com cautela na IR. Acúmulo de tiocianato; considerar hemodiálise em uso prolongado ou dose alta.",
+        "hepatico": "Não é necessário ajuste. Eliminação não depende do metabolismo hepático."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tiossulfato de Sódio (adulto) - Cianeto",
+        "doseTexto": "12,5 g IV em 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "12,5 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tiossulfato de Sódio (pediátrico) - Cianeto",
+        "doseTexto": "400 mg/kg IV em 10 min (máx 12,5 g)",
+        "doseMin": 400,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Sodium Thiosulfate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Cyanide poisoning - Adult",
+          "descricaoDose": "12.5 g IV slow infusion (10 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12.5,
+            "doseFixa": "12.5 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "slow infusion 10 min",
+            "ajusteRenal": "Caution in renal failure (thiocyanate accumulation)",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cyanide poisoning - Pediatric",
+          "descricaoDose": "400 mg/kg IV over 10 min (max 12.5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "slow infusion 10 min",
+            "ajusteRenal": "Caution in renal failure (thiocyanate accumulation)",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Calciphylaxis (off-label)",
+          "descricaoDose": "25 g IV 3x/week after hemodialysis",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "3x per week after HD",
+            "ajusteRenal": "Use in ESRD (after HD)",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antidote for cyanide poisoning; chelating agent; use in cisplatin toxicity and calciphylaxis.",
+      "apresentacoes": [
+        { "forma": "Ampule 10 mL (2.5 g) 25%", "obs": "250 mg/mL" },
+        { "forma": "Ampule 50 mL (12.5 g) 25%", "obs": "250 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for use (25% solution)", "concentracao": "250 mg/mL" },
+        { "diluicao": "May dilute in 0.9% NS or D5W", "concentracao": "rate control" },
+        { "diluicao": "E.g.: 12.5 g (50 mL) in 100 mL NS", "concentracao": "83 mg/mL" },
+        { "diluicao": "Slow infusion mandatory: minimum 10 min", "concentracao": "hypotension risk" }
+      ],
+      "observacoes": [
+        "Always combine with hydroxocobalamin (primary cyanide antidote)",
+        "Slow infusion mandatory ≥10 min - risk of severe hypotension",
+        "Incompatible with sodium nitrite - give separately with flushing",
+        "Caution in renal failure: thiocyanate accumulation (neurotoxic) - consider hemodialysis",
+        "Volume overload in renal/cardiac patients (25 g = 100 mL fluid)",
+        "Contraindicated: uncontrolled hypervolemia, decompensated CHF"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor BP and signs of hypervolemia. Caution in cardiac patients.",
+        "renal": "Use with caution in renal failure. Thiocyanate accumulation; consider hemodialysis with prolonged use or high dose.",
+        "hepatico": "No adjustment needed. Elimination does not depend on hepatic metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sodium Thiosulfate (adult) - Cyanide",
+        "doseTexto": "12.5 g IV over 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "12.5 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Sodium Thiosulfate (pediatric) - Cyanide",
+        "doseTexto": "400 mg/kg IV over 10 min (max 12.5 g)",
+        "doseMin": 400,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Tiosulfato de Sodio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicación por cianuro - Adulto",
+          "descricaoDose": "12,5 g IV en infusión lenta (10 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12.5,
+            "doseFixa": "12,5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión lenta 10 min",
+            "ajusteRenal": "Precaución en IR (acúmulo tiocianato)",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación por cianuro - Pediátrico",
+          "descricaoDose": "400 mg/kg IV en 10 min (máx 12,5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión lenta 10 min",
+            "ajusteRenal": "Precaución en IR (acúmulo tiocianato)",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Calcifilaxia (off-label)",
+          "descricaoDose": "25 g IV 3x/semana tras hemodiálisis",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "3x por semana tras HD",
+            "ajusteRenal": "Uso en IR terminal (tras HD)",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto para intoxicación por cianuro; agente quelante; uso en toxicidad por cisplatino y calcifilaxia.",
+      "apresentacoes": [
+        { "forma": "Ampolla 10 mL (2,5 g) al 25%", "obs": "250 mg/mL" },
+        { "forma": "Ampolla 50 mL (12,5 g) al 25%", "obs": "250 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para usar (solución 25%)", "concentracao": "250 mg/mL" },
+        { "diluicao": "Puede diluirse en SF 0,9% o SG 5%", "concentracao": "control de velocidad" },
+        { "diluicao": "Ej.: 12,5 g (50 mL) en 100 mL SF", "concentracao": "83 mg/mL" },
+        { "diluicao": "Infusión lenta obligatoria: mínimo 10 min", "concentracao": "riesgo hipotensión" }
+      ],
+      "observacoes": [
+        "Siempre asociar hidroxicobalamina (antídoto primario cianuro)",
+        "Infusión lenta obligatoria ≥10 min - riesgo de hipotensión severa",
+        "Incompatible con nitrito de sodio - administrar por separado con flushing",
+        "Precaución en IR: acúmulo de tiocianato (neurotóxico) - considerar hemodiálisis",
+        "Sobrecarga volémica en renales/cardiopatas (25 g = 100 mL líquido)",
+        "Contraindicado: hipervolemia no controlada, ICC descompensada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar PA y signos de hipervolemia. Precaución en cardiópatas.",
+        "renal": "Usar con precaución en IR. Acúmulo de tiocianato; considerar hemodiálisis en uso prolongado o dosis alta.",
+        "hepatico": "No es necesario ajuste. Eliminación no depende del metabolismo hepático."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tiosulfato de Sodio (adulto) - Cianuro",
+        "doseTexto": "12,5 g IV en 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "12,5 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tiosulfato de Sodio (pediátrico) - Cianuro",
+        "doseTexto": "400 mg/kg IV en 10 min (máx 12,5 g)",
+        "doseMin": 400,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "硫代硫酸钠",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "氰化物中毒 - 成人",
+          "descricaoDose": "12,5 g IV 缓慢输注（10 分钟）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12.5,
+            "doseFixa": "12,5 g",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "缓慢输注 10 分钟",
+            "ajusteRenal": "肾功能不全慎用（硫氰酸盐蓄积）",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "氰化物中毒 - 儿童",
+          "descricaoDose": "400 mg/kg IV 10 分钟内（最大 12,5 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12500,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "缓慢输注 10 分钟",
+            "ajusteRenal": "肾功能不全慎用（硫氰酸盐蓄积）",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "钙化防御（超说明书）",
+          "descricaoDose": "25 g IV 每周3次透析后",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "每周3次透析后",
+            "ajusteRenal": "终末期肾病（透析后）使用",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "氰化物中毒解毒剂；螯合剂；用于顺铂毒性和钙化防御。",
+      "apresentacoes": [
+        { "forma": "安瓿 10 mL (2,5 g) 25%", "obs": "250 mg/mL" },
+        { "forma": "安瓿 50 mL (12,5 g) 25%", "obs": "250 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "即用（25% 溶液）", "concentracao": "250 mg/mL" },
+        { "diluicao": "可用生理盐水或5%葡萄糖稀释", "concentracao": "控制滴速" },
+        { "diluicao": "例：12,5 g (50 mL) 加入 100 mL 生理盐水", "concentracao": "83 mg/mL" },
+        { "diluicao": "必须缓慢输注：至少 10 分钟", "concentracao": "低血压风险" }
+      ],
+      "observacoes": [
+        "始终与羟钴胺联用（氰化物一线解毒剂）",
+        "必须缓慢输注 ≥10 分钟 - 严重低血压风险",
+        "与亚硝酸钠不相容 - 分开给药并冲管",
+        "肾功能不全慎用：硫氰酸盐蓄积（神经毒性）- 考虑血液透析",
+        "肾/心衰患者注意容量负荷（25 g = 100 mL 液体）",
+        "禁忌：未控制的高血容量、失代偿性心衰"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测血压及高血容量征象。心脏病患者慎用。",
+        "renal": "肾功能不全慎用。硫氰酸盐蓄积；长期或大剂量使用考虑血液透析。",
+        "hepatico": "无需调整。清除不依赖肝脏代谢。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "硫代硫酸钠（成人）- 氰化物",
+        "doseTexto": "12,5 g IV 10 分钟内",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "12,5 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "硫代硫酸钠（儿童）- 氰化物",
+        "doseTexto": "400 mg/kg IV 10 分钟内（最大 12,5 g）",
+        "doseMin": 400,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

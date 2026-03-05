@@ -1,0 +1,1006 @@
+{
+  "PT": {
+    "nome": "Cloreto de Cálcio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipocalcemia Aguda",
+          "descricaoDose": "500-1000 mg IV lento em 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir a cada 10-20 min PRN",
+            "ajusteRenal": "Cautela em DRC - risco de hipercalcemia",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia Grave (Estabilizador)",
+          "descricaoDose": "500-1000 mg IV lento em 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir em 5 min se ECG anormal",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipermagnesemia Grave",
+          "descricaoDose": "500-1000 mg IV lento em 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou repetir PRN",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intox. BCC - Bolus",
+          "descricaoDose": "1000 mg IV bolus em 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": "1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intox. BCC - Infusão Contínua",
+          "descricaoDose": "0,5-2 g/h IV infusão",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "g/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCR com Hipercalemia/Hipocalcemia",
+          "descricaoDose": "1000 mg IV bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": "1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipocalcemia (Pediátrico)",
+          "descricaoDose": "20 mg/kg IV lento (máx 1 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir PRN",
+            "ajusteRenal": "Cautela em DRC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia (Pediátrico)",
+          "descricaoDose": "20 mg/kg IV lento (máx 1 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir em 5 min se ECG anormal",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua - Intox. BCC",
+          "unidade": "g/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "3 g em 250 mL SF (12 mg/mL)", "valor": 12 },
+            { "rotulo": "2 g em 100 mL SF (20 mg/mL)", "valor": 20 },
+            { "rotulo": "1 g em 100 mL SF (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Repositor eletrolítico - Estabilizador de membrana cardíaca",
+      "apresentacoes": [
+        { "forma": "Ampola 10% (100 mg/mL) - 10mL", "obs": "1 g/ampola (272 mg Ca elementar)" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: usar ampola pura", "concentracao": "100 mg/mL" },
+        { "diluicao": "3 g + 250 mL SF", "concentracao": "12 mg/mL" },
+        { "diluicao": "2 g + 100 mL SF", "concentracao": "20 mg/mL" },
+        { "diluicao": "1 g + 100 mL SF", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "ACESSO CENTRAL OBRIGATÓRIO - alto risco de necrose tecidual",
+        "CONTRAINDICADO com digitálicos - arritmias fatais",
+        "INCOMPATÍVEL com bicarbonato e fosfato na mesma via",
+        "Infundir LENTAMENTE (mín 2-5 min) - risco de arritmias",
+        "Monitorar ECG contínuo durante administração",
+        "1 g cloreto = 272 mg Ca elementar (3x mais potente que gluconato)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar com cautela. Monitorar Ca++ sérico e função renal.",
+        "renal": "DRC: risco de hipercalcemia. Reduzir dose e monitorar Ca++ sérico rigorosamente.",
+        "hepatico": "Não requer ajuste. Não é metabolizado pelo fígado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hipocalcemia (adulto)",
+        "doseTexto": "500-1000 mg IV lento em 2-5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hipercalemia (adulto)",
+        "doseTexto": "500-1000 mg IV lento em 2-5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Intox. BCC (adulto)",
+        "doseTexto": "1000 mg IV bolus + infusão",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hipocalcemia (ped)",
+        "doseTexto": "20 mg/kg IV (máx 1 g)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hipercalemia (ped)",
+        "doseTexto": "20 mg/kg IV (máx 1 g)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Calcium Chloride",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute Hypocalcemia",
+          "descricaoDose": "500-1000 mg IV slow over 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repeat every 10-20 min PRN",
+            "ajusteRenal": "Caution in CKD - hypercalcemia risk",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe Hyperkalemia (Membrane Stabilizer)",
+          "descricaoDose": "500-1000 mg IV slow over 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repeat in 5 min if ECG abnormal",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe Hypermagnesemia",
+          "descricaoDose": "500-1000 mg IV slow over 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose or repeat PRN",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "CCB Overdose - Bolus",
+          "descricaoDose": "1000 mg IV bolus over 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": "1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "CCB Overdose - Continuous Infusion",
+          "descricaoDose": "0.5-2 g/h IV infusion",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "g/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cardiac Arrest with Hyperkalemia/Hypocalcemia",
+          "descricaoDose": "1000 mg IV bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": "1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hypocalcemia (Pediatric)",
+          "descricaoDose": "20 mg/kg IV slow (max 1 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repeat PRN",
+            "ajusteRenal": "Caution in CKD",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hyperkalemia (Pediatric)",
+          "descricaoDose": "20 mg/kg IV slow (max 1 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repeat in 5 min if ECG abnormal",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion - CCB Overdose",
+          "unidade": "g/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "3 g in 250 mL NS (12 mg/mL)", "valor": 12 },
+            { "rotulo": "2 g in 100 mL NS (20 mg/mL)", "valor": 20 },
+            { "rotulo": "1 g in 100 mL NS (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Electrolyte replacer - Cardiac membrane stabilizer",
+      "apresentacoes": [
+        { "forma": "Ampoule 10% (100 mg/mL) - 10mL", "obs": "1 g/ampoule (272 mg elemental Ca)" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: use undiluted ampoule", "concentracao": "100 mg/mL" },
+        { "diluicao": "3 g + 250 mL NS", "concentracao": "12 mg/mL" },
+        { "diluicao": "2 g + 100 mL NS", "concentracao": "20 mg/mL" },
+        { "diluicao": "1 g + 100 mL NS", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "CENTRAL ACCESS REQUIRED - high risk of tissue necrosis",
+        "CONTRAINDICATED with digitalis - fatal arrhythmias",
+        "INCOMPATIBLE with bicarbonate and phosphate in same line",
+        "Infuse SLOWLY (min 2-5 min) - arrhythmia risk",
+        "Continuous ECG monitoring during administration",
+        "1 g chloride = 272 mg elemental Ca (3x more potent than gluconate)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use with caution. Monitor serum Ca++ and renal function.",
+        "renal": "CKD: hypercalcemia risk. Reduce dose and monitor serum Ca++ rigorously.",
+        "hepatico": "No adjustment required. Not metabolized by liver."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hypocalcemia (adult)",
+        "doseTexto": "500-1000 mg IV slow over 2-5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hyperkalemia (adult)",
+        "doseTexto": "500-1000 mg IV slow over 2-5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCB Overdose (adult)",
+        "doseTexto": "1000 mg IV bolus + infusion",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hypocalcemia (ped)",
+        "doseTexto": "20 mg/kg IV (max 1 g)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hyperkalemia (ped)",
+        "doseTexto": "20 mg/kg IV (max 1 g)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Cloruro de Calcio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipocalcemia Aguda",
+          "descricaoDose": "500-1000 mg IV lento en 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir cada 10-20 min PRN",
+            "ajusteRenal": "Precaución en ERC - riesgo de hipercalcemia",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia Grave (Estabilizador)",
+          "descricaoDose": "500-1000 mg IV lento en 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir en 5 min si ECG anormal",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipermagnesemia Grave",
+          "descricaoDose": "500-1000 mg IV lento en 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o repetir PRN",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intox. BCC - Bolo",
+          "descricaoDose": "1000 mg IV bolo en 2-5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": "1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intox. BCC - Infusión Continua",
+          "descricaoDose": "0,5-2 g/h IV infusión",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "g/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCR con Hipercalemia/Hipocalcemia",
+          "descricaoDose": "1000 mg IV bolo",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": "1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipocalcemia (Pediátrico)",
+          "descricaoDose": "20 mg/kg IV lento (máx 1 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir PRN",
+            "ajusteRenal": "Precaución en ERC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia (Pediátrico)",
+          "descricaoDose": "20 mg/kg IV lento (máx 1 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir en 5 min si ECG anormal",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua - Intox. BCC",
+          "unidade": "g/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "3 g en 250 mL SSF (12 mg/mL)", "valor": 12 },
+            { "rotulo": "2 g en 100 mL SSF (20 mg/mL)", "valor": 20 },
+            { "rotulo": "1 g en 100 mL SSF (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Reponedor electrolítico - Estabilizador de membrana cardíaca",
+      "apresentacoes": [
+        { "forma": "Ampolla 10% (100 mg/mL) - 10mL", "obs": "1 g/ampolla (272 mg Ca elemental)" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo: usar ampolla pura", "concentracao": "100 mg/mL" },
+        { "diluicao": "3 g + 250 mL SSF", "concentracao": "12 mg/mL" },
+        { "diluicao": "2 g + 100 mL SSF", "concentracao": "20 mg/mL" },
+        { "diluicao": "1 g + 100 mL SSF", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "ACCESO CENTRAL OBLIGATORIO - alto riesgo de necrosis tisular",
+        "CONTRAINDICADO con digitálicos - arritmias fatales",
+        "INCOMPATIBLE con bicarbonato y fosfato en misma vía",
+        "Infundir LENTAMENTE (mín 2-5 min) - riesgo de arritmias",
+        "Monitorizar ECG continuo durante administración",
+        "1 g cloruro = 272 mg Ca elemental (3x más potente que gluconato)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar con precaución. Monitorizar Ca++ sérico y función renal.",
+        "renal": "ERC: riesgo de hipercalcemia. Reducir dosis y monitorizar Ca++ sérico rigurosamente.",
+        "hepatico": "No requiere ajuste. No es metabolizado por el hígado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hipocalcemia (adulto)",
+        "doseTexto": "500-1000 mg IV lento en 2-5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hipercalemia (adulto)",
+        "doseTexto": "500-1000 mg IV lento en 2-5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Intox. BCC (adulto)",
+        "doseTexto": "1000 mg IV bolo + infusión",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hipocalcemia (ped)",
+        "doseTexto": "20 mg/kg IV (máx 1 g)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hipercalemia (ped)",
+        "doseTexto": "20 mg/kg IV (máx 1 g)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氯化钙",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性低钙血症",
+          "descricaoDose": "500-1000 mg IV缓慢推注2-5分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每10-20分钟重复PRN",
+            "ajusteRenal": "慢性肾病慎用 - 高钙血症风险",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "严重高钾血症（膜稳定剂）",
+          "descricaoDose": "500-1000 mg IV缓慢推注2-5分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "如ECG异常5分钟后重复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "严重高镁血症",
+          "descricaoDose": "500-1000 mg IV缓慢推注2-5分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量或PRN重复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "CCB中毒 - 推注",
+          "descricaoDose": "1000 mg IV推注 2-5分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": "1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "CCB中毒 - 持续输注",
+          "descricaoDose": "0.5-2 g/h IV输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "g/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "伴高钾/低钙的心脏骤停",
+          "descricaoDose": "1000 mg IV推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": "1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "低钙血症（儿童）",
+          "descricaoDose": "20 mg/kg IV缓慢（最大1 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "PRN重复",
+            "ajusteRenal": "慢性肾病慎用",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "高钾血症（儿童）",
+          "descricaoDose": "20 mg/kg IV缓慢（最大1 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "如ECG异常5分钟后重复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注 - CCB中毒",
+          "unidade": "g/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "3 g溶于250 mL NS (12 mg/mL)", "valor": 12 },
+            { "rotulo": "2 g溶于100 mL NS (20 mg/mL)", "valor": 20 },
+            { "rotulo": "1 g溶于100 mL NS (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "电解质补充剂 - 心脏膜稳定剂",
+      "apresentacoes": [
+        { "forma": "安瓿 10% (100 mg/mL) - 10mL", "obs": "1 g/安瓿 (272 mg元素钙)" }
+      ],
+      "preparo": [
+        { "diluicao": "推注：使用原液安瓿", "concentracao": "100 mg/mL" },
+        { "diluicao": "3 g + 250 mL NS", "concentracao": "12 mg/mL" },
+        { "diluicao": "2 g + 100 mL NS", "concentracao": "20 mg/mL" },
+        { "diluicao": "1 g + 100 mL NS", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "必须使用中心静脉通路 - 高组织坏死风险",
+        "与洋地黄类药物禁忌合用 - 致命性心律失常",
+        "与碳酸氢盐和磷酸盐在同一管路不相容",
+        "缓慢输注（至少2-5分钟）- 心律失常风险",
+        "给药期间持续心电监护",
+        "1 g氯化钙 = 272 mg元素钙（比葡萄糖酸钙强3倍）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "慎用。监测血清Ca++和肾功能。",
+        "renal": "慢性肾病：高钙血症风险。减少剂量并严格监测血清Ca++。",
+        "hepatico": "无需调整。不经肝脏代谢。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "低钙血症（成人）",
+        "doseTexto": "500-1000 mg IV缓慢2-5分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "高钾血症（成人）",
+        "doseTexto": "500-1000 mg IV缓慢2-5分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCB中毒（成人）",
+        "doseTexto": "1000 mg IV推注 + 输注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "低钙血症（儿童）",
+        "doseTexto": "20 mg/kg IV（最大1 g）",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "高钾血症（儿童）",
+        "doseTexto": "20 mg/kg IV（最大1 g）",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1102 @@
+{
+  "PT": {
+    "nome": "Propofol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução anestésica (adulto)",
+          "descricaoDose": "2-2,5 mg/kg IV em 30-40 s (ASA I-II)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução anestésica (pediátrico)",
+          "descricaoDose": "2,5-3,5 mg/kg IV em 20-30 s (3-16 anos, ASA I-II)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 2.5,
+            "dosePorKgMax": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução idoso / debilitado (ASA III-IV)",
+          "descricaoDose": "1-1,5 mg/kg IV - 20 mg a cada 10 s até início",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.25,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 120,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução cirurgia cardíaca",
+          "descricaoDose": "0,5-1,5 mg/kg IV - 20 mg a cada 10 s",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução neurocirurgia",
+          "descricaoDose": "1-2 mg/kg IV - 20 mg a cada 10 s",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cardioversão elétrica",
+          "descricaoDose": "0,5-1 mg/kg IV (1 mg/kg estável; 0,5 mg/kg se instável)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 80,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação MAC / procedimentos",
+          "descricaoDose": "50-150 mcg/kg/min (3-9 mg/kg/h) - início 0,5 mg/kg em 3-5 min ou infusão",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 150,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação UTI (adulto)",
+          "descricaoDose": "0,3-4 mg/kg/h (5-67 mcg/kg/min) - não exceder 4 mg/kg/h >48h (risco PRIS)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 67,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação UTI (pediátrico)",
+          "descricaoDose": "1-3 mg/kg/h (17-50 mcg/kg/min) - titular conforme alvo",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 55,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 5, "doseMax": 100 },
+          "pediatrico": { "doseMin": 5, "doseMax": 60 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "Emulsão 20 mg/mL (2%) - 20000 mcg/mL", "valor": 20000 },
+            { "rotulo": "Emulsão 10 mg/mL (1%) - 10000 mcg/mL", "valor": 10000 },
+            { "rotulo": "250 mg em 50 mL (5 mg/mL - 5000 mcg/mL)", "valor": 5000 },
+            { "rotulo": "200 mg em 50 mL (4 mg/mL - 4000 mcg/mL)", "valor": 4000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Hipnótico - Anestésico intravenoso (fenol)",
+      "apresentacoes": [
+        { "forma": "Emulsão 10 mg/mL (1%) - 20 mL, 50 mL", "obs": "Diprivan®, Propovan®" },
+        { "forma": "Emulsão 20 mg/mL (2%) - 50 mL", "obs": "Forma concentrada" },
+        { "forma": "Emulsão lipídica 1% em frasco/ampola", "obs": "Não refrigerar; validade 12h após abertura" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso direto 10 mg/mL (1%)", "concentracao": "10000 mcg/mL" },
+        { "diluicao": "Uso direto 20 mg/mL (2%)", "concentracao": "20000 mcg/mL" },
+        { "diluicao": "250 mg + 50 mL (sem diluir)", "concentracao": "5000 mcg/mL" },
+        { "diluicao": "200 mg + 50 mL SF/SG", "concentracao": "4000 mcg/mL" }
+      ],
+      "observacoes": [
+        "Depressão respiratória e cardiovascular dose-dependente",
+        "Não usar em alérgicos a ovo/soja (emulsão lipídica)",
+        "PRIS: UTI não exceder 4 mg/kg/h (67 mcg/kg/min) por >48h - risco acidose, rabdomiólise, falência cardíaca",
+        "Início: 30-60 s | Meia-vida: 30-60 min (redistribuição)",
+        "Via exclusiva IV; extravasamento causa dor e irritação",
+        "Não misturar com outros fármacos na mesma via"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Indução 1-1,5 mg/kg (20 mg a cada 10 s). MAC/UTI: 80% da dose. Evitar bolus rápido.",
+        "renal": "Não requer ajuste. Propofol não dialisável; eliminação hepática/extra-hepática.",
+        "hepatico": "Reduzir dose em insuficiência hepática grave. Monitorar nível de consciência."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Propofol - Indução (adulto)",
+        "doseTexto": "2-2,5 mg/kg IV",
+        "doseMin": 2,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Propofol - Indução (pediátrico)",
+        "doseTexto": "2,5-3,5 mg/kg IV",
+        "doseMin": 2.5,
+        "doseMax": 3.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Propofol - Sedação MAC",
+        "doseTexto": "50-150 mcg/kg/min IV",
+        "doseMin": 50,
+        "doseMax": 150,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Propofol - Sedação UTI",
+        "doseTexto": "5-67 mcg/kg/min (máx 4 mg/kg/h >48h)",
+        "doseMin": 5,
+        "doseMax": 67,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Propofol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anesthetic induction (adult)",
+          "descricaoDose": "2-2.5 mg/kg IV over 30-40 s (ASA I-II)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anesthetic induction (pediatric)",
+          "descricaoDose": "2.5-3.5 mg/kg IV over 20-30 s (3-16 years, ASA I-II)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 2.5,
+            "dosePorKgMax": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Induction elderly / debilitated (ASA III-IV)",
+          "descricaoDose": "1-1.5 mg/kg IV - 20 mg every 10 s until onset",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.25,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 120,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cardiac surgery induction",
+          "descricaoDose": "0.5-1.5 mg/kg IV - 20 mg every 10 s",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Neurosurgical induction",
+          "descricaoDose": "1-2 mg/kg IV - 20 mg every 10 s",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Electrical cardioversion",
+          "descricaoDose": "0.5-1 mg/kg IV (1 mg/kg if stable; 0.5 mg/kg if unstable)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 80,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "MAC / procedural sedation",
+          "descricaoDose": "50-150 mcg/kg/min (3-9 mg/kg/h) - init 0.5 mg/kg over 3-5 min or infusion",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 150,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "ICU sedation (adult)",
+          "descricaoDose": "0.3-4 mg/kg/h (5-67 mcg/kg/min) - do not exceed 4 mg/kg/h >48h (PRIS risk)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 67,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "ICU sedation (pediatric)",
+          "descricaoDose": "1-3 mg/kg/h (17-50 mcg/kg/min) - titrate to target",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 55,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 5, "doseMax": 100 },
+          "pediatrico": { "doseMin": 5, "doseMax": 60 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "Emulsion 20 mg/mL (2%) - 20000 mcg/mL", "valor": 20000 },
+            { "rotulo": "Emulsion 10 mg/mL (1%) - 10000 mcg/mL", "valor": 10000 },
+            { "rotulo": "250 mg in 50 mL (5 mg/mL - 5000 mcg/mL)", "valor": 5000 },
+            { "rotulo": "200 mg in 50 mL (4 mg/mL - 4000 mcg/mL)", "valor": 4000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Hypnotic - Intravenous anesthetic (phenol)",
+      "apresentacoes": [
+        { "forma": "Emulsion 10 mg/mL (1%) - 20 mL, 50 mL", "obs": "Diprivan®, generic" },
+        { "forma": "Emulsion 20 mg/mL (2%) - 50 mL", "obs": "Concentrated form" },
+        { "forma": "Lipid emulsion 1% vial/ampule", "obs": "Do not refrigerate; 12h stability after opening" }
+      ],
+      "preparo": [
+        { "diluicao": "Use undiluted 10 mg/mL (1%)", "concentracao": "10000 mcg/mL" },
+        { "diluicao": "Use undiluted 20 mg/mL (2%)", "concentracao": "20000 mcg/mL" },
+        { "diluicao": "250 mg + 50 mL (undiluted)", "concentracao": "5000 mcg/mL" },
+        { "diluicao": "200 mg + 50 mL NS/D5W", "concentracao": "4000 mcg/mL" }
+      ],
+      "observacoes": [
+        "Dose-dependent respiratory and cardiovascular depression",
+        "Do not use in egg/soy allergy (lipid emulsion)",
+        "PRIS: ICU do not exceed 4 mg/kg/h (67 mcg/kg/min) for >48h - risk acidosis, rhabdomyolysis, cardiac failure",
+        "Onset: 30-60 s | Half-life: 30-60 min (redistribution)",
+        "IV only; extravasation causes pain and irritation",
+        "Do not mix with other drugs in same line"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Induction 1-1.5 mg/kg (20 mg every 10 s). MAC/ICU: 80% of dose. Avoid rapid bolus.",
+        "renal": "No adjustment. Propofol not dialyzable; hepatic/extra-hepatic elimination.",
+        "hepatico": "Reduce dose in severe hepatic failure. Monitor level of consciousness."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Propofol - Induction (adult)",
+        "doseTexto": "2-2.5 mg/kg IV",
+        "doseMin": 2,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Propofol - Induction (pediatric)",
+        "doseTexto": "2.5-3.5 mg/kg IV",
+        "doseMin": 2.5,
+        "doseMax": 3.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Propofol - MAC sedation",
+        "doseTexto": "50-150 mcg/kg/min IV",
+        "doseMin": 50,
+        "doseMax": 150,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Propofol - ICU sedation",
+        "doseTexto": "5-67 mcg/kg/min (max 4 mg/kg/h >48h)",
+        "doseMin": 5,
+        "doseMax": 67,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Propofol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción anestésica (adulto)",
+          "descricaoDose": "2-2,5 mg/kg IV en 30-40 s (ASA I-II)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción anestésica (pediátrico)",
+          "descricaoDose": "2,5-3,5 mg/kg IV en 20-30 s (3-16 años, ASA I-II)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 2.5,
+            "dosePorKgMax": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción anciano / debilitado (ASA III-IV)",
+          "descricaoDose": "1-1,5 mg/kg IV - 20 mg cada 10 s hasta inicio",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.25,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 120,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción cirugía cardíaca",
+          "descricaoDose": "0,5-1,5 mg/kg IV - 20 mg cada 10 s",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción neurocirugía",
+          "descricaoDose": "1-2 mg/kg IV - 20 mg cada 10 s",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cardioversión eléctrica",
+          "descricaoDose": "0,5-1 mg/kg IV (1 mg/kg estable; 0,5 mg/kg si inestable)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 80,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedación MAC / procedimientos",
+          "descricaoDose": "50-150 mcg/kg/min (3-9 mg/kg/h) - inicio 0,5 mg/kg en 3-5 min o infusión",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 150,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedación UCI (adulto)",
+          "descricaoDose": "0,3-4 mg/kg/h (5-67 mcg/kg/min) - no superar 4 mg/kg/h >48h (riesgo PRIS)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 67,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedación UCI (pediátrico)",
+          "descricaoDose": "1-3 mg/kg/h (17-50 mcg/kg/min) - titular según objetivo",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 55,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 5, "doseMax": 100 },
+          "pediatrico": { "doseMin": 5, "doseMax": 60 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "Emulsión 20 mg/mL (2%) - 20000 mcg/mL", "valor": 20000 },
+            { "rotulo": "Emulsión 10 mg/mL (1%) - 10000 mcg/mL", "valor": 10000 },
+            { "rotulo": "250 mg en 50 mL (5 mg/mL - 5000 mcg/mL)", "valor": 5000 },
+            { "rotulo": "200 mg en 50 mL (4 mg/mL - 4000 mcg/mL)", "valor": 4000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Hipnótico - Anestésico intravenoso (fenol)",
+      "apresentacoes": [
+        { "forma": "Emulsión 10 mg/mL (1%) - 20 mL, 50 mL", "obs": "Diprivan®, genérico" },
+        { "forma": "Emulsión 20 mg/mL (2%) - 50 mL", "obs": "Forma concentrada" },
+        { "forma": "Emulsión lipídica 1% vial/ámcula", "obs": "No refrigerar; estabilidad 12h tras apertura" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso directo 10 mg/mL (1%)", "concentracao": "10000 mcg/mL" },
+        { "diluicao": "Uso directo 20 mg/mL (2%)", "concentracao": "20000 mcg/mL" },
+        { "diluicao": "250 mg + 50 mL (sin diluir)", "concentracao": "5000 mcg/mL" },
+        { "diluicao": "200 mg + 50 mL SF/SG", "concentracao": "4000 mcg/mL" }
+      ],
+      "observacoes": [
+        "Depresión respiratoria y cardiovascular dependiente de dosis",
+        "No usar en alérgicos a huevo/soja (emulsión lipídica)",
+        "PRIS: UCI no superar 4 mg/kg/h (67 mcg/kg/min) >48h - riesgo acidosis, rabdomiólisis, fallo cardíaco",
+        "Inicio: 30-60 s | Vida media: 30-60 min (redistribución)",
+        "Vía exclusiva IV; extravasación causa dolor e irritación",
+        "No mezclar con otros fármacos en la misma vía"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Inducción 1-1,5 mg/kg (20 mg cada 10 s). MAC/UCI: 80% de dosis. Evitar bolos rápidos.",
+        "renal": "No requiere ajuste. Propofol no dializable; eliminación hepática/extrahepática.",
+        "hepatico": "Reducir dosis en insuficiencia hepática grave. Monitorizar nivel de consciencia."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Propofol - Inducción (adulto)",
+        "doseTexto": "2-2,5 mg/kg IV",
+        "doseMin": 2,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Propofol - Inducción (pediátrico)",
+        "doseTexto": "2,5-3,5 mg/kg IV",
+        "doseMin": 2.5,
+        "doseMax": 3.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Propofol - Sedación MAC",
+        "doseTexto": "50-150 mcg/kg/min IV",
+        "doseMin": 50,
+        "doseMax": 150,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Propofol - Sedación UCI",
+        "doseTexto": "5-67 mcg/kg/min (máx 4 mg/kg/h >48h)",
+        "doseMin": 5,
+        "doseMax": 67,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "丙泊酚",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "麻醉诱导（成人）",
+          "descricaoDose": "2-2.5 mg/kg IV 30-40秒内（ASA I-II）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 250,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "麻醉诱导（儿童）",
+          "descricaoDose": "2.5-3.5 mg/kg IV 20-30秒内（3-16岁，ASA I-II）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 2.5,
+            "dosePorKgMax": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "老年/衰弱患者诱导（ASA III-IV）",
+          "descricaoDose": "1-1.5 mg/kg IV - 每10秒20mg直至起效",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.25,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 120,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "心脏手术诱导",
+          "descricaoDose": "0.5-1.5 mg/kg IV - 每10秒20mg",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "神经外科诱导",
+          "descricaoDose": "1-2 mg/kg IV - 每10秒20mg",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "电复律",
+          "descricaoDose": "0.5-1 mg/kg IV（稳定1 mg/kg；不稳定0.5 mg/kg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 80,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "MAC/手术镇静",
+          "descricaoDose": "50-150 mcg/kg/min（3-9 mg/kg/h）- 起始0.5 mg/kg 3-5分钟或输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 150,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "ICU镇静（成人）",
+          "descricaoDose": "0.3-4 mg/kg/h（5-67 mcg/kg/min）- >48h勿超4 mg/kg/h（PRIS风险）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 67,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "ICU镇静（儿童）",
+          "descricaoDose": "1-3 mg/kg/h（17-50 mcg/kg/min）- 按目标滴定",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 55,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 5, "doseMax": 100 },
+          "pediatrico": { "doseMin": 5, "doseMax": 60 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "乳剂20 mg/mL (2%) - 20000 mcg/mL", "valor": 20000 },
+            { "rotulo": "乳剂10 mg/mL (1%) - 10000 mcg/mL", "valor": 10000 },
+            { "rotulo": "250mg溶于50mL (5 mg/mL - 5000 mcg/mL)", "valor": 5000 },
+            { "rotulo": "200mg溶于50mL (4 mg/mL - 4000 mcg/mL)", "valor": 4000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "催眠药 - 静脉麻醉药（酚类）",
+      "apresentacoes": [
+        { "forma": "乳剂10 mg/mL (1%) - 20 mL, 50 mL", "obs": "丙泊酚注射液" },
+        { "forma": "乳剂20 mg/mL (2%) - 50 mL", "obs": "浓缩型" },
+        { "forma": "脂肪乳剂1% 瓶/安瓿", "obs": "勿冷藏；开封后12小时稳定" }
+      ],
+      "preparo": [
+        { "diluicao": "直接使用10 mg/mL (1%)", "concentracao": "10000 mcg/mL" },
+        { "diluicao": "直接使用20 mg/mL (2%)", "concentracao": "20000 mcg/mL" },
+        { "diluicao": "250 mg + 50 mL（不稀释）", "concentracao": "5000 mcg/mL" },
+        { "diluicao": "200 mg + 50 mL 生理盐水/5%GS", "concentracao": "4000 mcg/mL" }
+      ],
+      "observacoes": [
+        "剂量依赖性呼吸和心血管抑制",
+        "蛋/豆过敏者禁用（脂肪乳剂）",
+        "PRIS：ICU >48h勿超4 mg/kg/h（67 mcg/kg/min）- 酸中毒、横纹肌溶解、心衰风险",
+        "起效：30-60秒 | 半衰期：30-60分钟（再分布）",
+        "仅静脉使用；外渗致疼痛和刺激",
+        "勿与其它药物同路混合"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "诱导1-1.5 mg/kg（每10秒20mg）。MAC/ICU：80%剂量。避免快速推注。",
+        "renal": "无需调整。丙泊酚不可透析；肝/肝外清除。",
+        "hepatico": "严重肝衰竭减量。监测意识水平。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "丙泊酚 - 诱导（成人）",
+        "doseTexto": "2-2.5 mg/kg IV",
+        "doseMin": 2,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "丙泊酚 - 诱导（儿童）",
+        "doseTexto": "2.5-3.5 mg/kg IV",
+        "doseMin": 2.5,
+        "doseMax": 3.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "丙泊酚 - MAC镇静",
+        "doseTexto": "50-150 mcg/kg/min IV",
+        "doseMin": 50,
+        "doseMax": 150,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "丙泊酚 - ICU镇静",
+        "doseTexto": "5-67 mcg/kg/min（>48h勿超4 mg/kg/h）",
+        "doseMin": 5,
+        "doseMax": 67,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

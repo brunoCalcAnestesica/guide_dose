@@ -1,0 +1,758 @@
+{
+  "PT": {
+    "nome": "Nalbufina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor aguda IM/SC (adulto)",
+          "descricaoDose": "10 mg IM ou SC a cada 3-6h. Máx 160 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 160,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "a cada 3-6h",
+            "ajusteRenal": "Usar com cautela em insuficiência renal grave. Prolongar intervalos e monitorar sedação.",
+            "ajusteHepatico": "Necessário ajuste em hepatopatia moderada a grave. Reduzir dose e frequência."
+          }
+        },
+        {
+          "titulo": "Dor aguda IV (adulto)",
+          "descricaoDose": "0,1-0,2 mg/kg IV em bolus lento (2-3 min), repetir conforme resposta. Máx 20 mg/dose.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus lento 2-3 min, repetir conforme resposta",
+            "ajusteRenal": "Cautela em IR grave. Prolongar intervalos e monitorar sedação.",
+            "ajusteHepatico": "Reduzir dose e frequência em hepatopatia moderada a grave."
+          }
+        },
+        {
+          "titulo": "Prurido por opioide (adulto)",
+          "descricaoDose": "0,05-0,1 mg/kg IV (máx 5 mg). Uso off-label.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "Cautela em IR grave.",
+            "ajusteHepatico": "Reduzir dose em hepatopatia moderada a grave."
+          }
+        },
+        {
+          "titulo": "Dor aguda (pediátrico)",
+          "descricaoDose": "0,1-0,2 mg/kg IV/IM/SC a cada 4-6h. Máx 0,3-0,4 mg/kg/dia.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM/SC",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "Cautela em IR grave. Prolongar intervalos.",
+            "ajusteHepatico": "Reduzir dose e frequência em hepatopatia."
+          }
+        },
+        {
+          "titulo": "Neonatos",
+          "descricaoDose": "0,05 mg/kg IV sob monitorização respiratória",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "Cautela em IR grave.",
+            "ajusteHepatico": "Reduzir dose em hepatopatia."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide; agonista-antagonista; agonista κ e antagonista μ",
+      "apresentacoes": [
+        { "forma": "Solução injetável 10 mg/mL (1 mL ou 2 mL)", "obs": "Nubain®" },
+        { "forma": "Sem apresentação oral disponível comercialmente", "obs": "Apenas parenteral" }
+      ],
+      "preparo": [
+        { "diluicao": "Administração direta IM, SC ou IV lenta (2-3 min)", "concentracao": "10 mg/mL" },
+        { "diluicao": "Pode diluir em SF 0,9% para infusão contínua", "concentracao": "conforme diluição" }
+      ],
+      "observacoes": [
+        "Efeito teto para analgesia e depressão respiratória; menor risco respiratório que opioides μ puros",
+        "Menos prurido, náusea e vômito que morfina; alternativa em pós-operatório e obstetrícia",
+        "Pode precipitar abstinência em usuários de opioides μ (morfina, fentanil); contraindicado uso concomitante com agonistas μ crônicos",
+        "IV sempre lento (2-3 min). Avaliar histórico de uso de opioides μ antes de prescrever",
+        "Ter naloxona disponível para reversão. Monitorar FR, sedação e PA continuamente",
+        "Dose máxima: 160 mg/dia (adultos); 0,3-0,4 mg/kg/dia (pediatria). Compatível com SF 0,9% e SG 5%; incompatível com soluções alcalinas."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Perfil de segurança superior; titular conforme resposta. Monitorar sedação.",
+        "renal": "Usar com cautela em insuficiência renal grave. Prolongar intervalos de administração e monitorar sedação.",
+        "hepatico": "Necessário ajuste em hepatopatia moderada a grave. Reduzir dose e frequência."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nalbufina IM/SC",
+        "doseTexto": "10 mg IM/SC a cada 3-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nalbufina IV (bolus)",
+        "doseTexto": "0,1-0,2 mg/kg IV (máx 20 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nalbufina - Prurido por opioide",
+        "doseTexto": "0,05-0,1 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nalbufina (pediátrico)",
+        "doseTexto": "0,1-0,2 mg/kg IV/IM/SC a cada 4-6h",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Nalbufina (neonatos)",
+        "doseTexto": "0,05 mg/kg IV",
+        "doseMin": 0.05,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Nalbuphine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute pain IM/SC (adult)",
+          "descricaoDose": "10 mg IM or SC every 3-6h. Max 160 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 160,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/SC",
+            "intervalo": "every 3-6h",
+            "ajusteRenal": "Use with caution in severe renal insufficiency. Prolong intervals and monitor sedation.",
+            "ajusteHepatico": "Dose adjustment necessary in moderate to severe liver disease. Reduce dose and frequency."
+          }
+        },
+        {
+          "titulo": "Acute pain IV (adult)",
+          "descricaoDose": "0.1-0.2 mg/kg IV slow bolus (2-3 min), repeat as needed. Max 20 mg/dose.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "slow bolus 2-3 min, repeat as needed",
+            "ajusteRenal": "Caution in severe renal failure. Prolong intervals and monitor sedation.",
+            "ajusteHepatico": "Reduce dose and frequency in moderate to severe liver disease."
+          }
+        },
+        {
+          "titulo": "Opioid-induced pruritus (adult)",
+          "descricaoDose": "0.05-0.1 mg/kg IV (max 5 mg). Off-label use.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as needed",
+            "ajusteRenal": "Caution in severe renal failure.",
+            "ajusteHepatico": "Reduce dose in moderate to severe liver disease."
+          }
+        },
+        {
+          "titulo": "Acute pain (pediatric)",
+          "descricaoDose": "0.1-0.2 mg/kg IV/IM/SC every 4-6h. Max 0.3-0.4 mg/kg/day.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM/SC",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Caution in severe renal failure. Prolong intervals.",
+            "ajusteHepatico": "Reduce dose and frequency in liver disease."
+          }
+        },
+        {
+          "titulo": "Neonates",
+          "descricaoDose": "0.05 mg/kg IV under respiratory monitoring",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as needed",
+            "ajusteRenal": "Caution in severe renal failure.",
+            "ajusteHepatico": "Reduce dose in liver disease."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioid analgesic; agonist-antagonist; κ agonist and μ antagonist",
+      "apresentacoes": [
+        { "forma": "Injectable solution 10 mg/mL (1 mL or 2 mL)", "obs": "Nubain®" },
+        { "forma": "No oral formulation commercially available", "obs": "Parenteral only" }
+      ],
+      "preparo": [
+        { "diluicao": "Direct IM, SC, or slow IV (2-3 min) administration", "concentracao": "10 mg/mL" },
+        { "diluicao": "May dilute in 0.9% NS for continuous infusion", "concentracao": "as per dilution" }
+      ],
+      "observacoes": [
+        "Ceiling effect for analgesia and respiratory depression; lower respiratory risk than pure μ opioids",
+        "Less pruritus, nausea, and vomiting than morphine; alternative in postoperative and obstetric use",
+        "May precipitate withdrawal in μ opioid users (morphine, fentanyl); contraindicated with chronic μ agonists",
+        "IV always slow (2-3 min). Assess history of μ opioid use before prescribing",
+        "Have naloxone available for reversal. Monitor RR, sedation, and BP continuously",
+        "Max dose: 160 mg/day (adults); 0.3-0.4 mg/kg/day (pediatrics). Compatible with 0.9% NS and D5W; incompatible with alkaline solutions."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Superior safety profile; titrate to response. Monitor sedation.",
+        "renal": "Use with caution in severe renal insufficiency. Prolong administration intervals and monitor sedation.",
+        "hepatico": "Dose adjustment necessary in moderate to severe liver disease. Reduce dose and frequency."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nalbuphine IM/SC",
+        "doseTexto": "10 mg IM/SC every 3-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Nalbuphine IV (bolus)",
+        "doseTexto": "0.1-0.2 mg/kg IV (max 20 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Nalbuphine - Opioid pruritus",
+        "doseTexto": "0.05-0.1 mg/kg IV (max 5 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Nalbuphine (pediatric)",
+        "doseTexto": "0.1-0.2 mg/kg IV/IM/SC every 4-6h",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Nalbuphine (neonates)",
+        "doseTexto": "0.05 mg/kg IV",
+        "doseMin": 0.05,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Nalbufina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor agudo IM/SC (adulto)",
+          "descricaoDose": "10 mg IM o SC cada 3-6h. Máx 160 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 160,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "cada 3-6h",
+            "ajusteRenal": "Usar con precaución en insuficiencia renal grave. Prolongar intervalos y monitorizar sedación.",
+            "ajusteHepatico": "Necesario ajuste en hepatopatía moderada a grave. Reducir dosis y frecuencia."
+          }
+        },
+        {
+          "titulo": "Dolor agudo IV (adulto)",
+          "descricaoDose": "0,1-0,2 mg/kg IV en bolo lento (2-3 min), repetir según respuesta. Máx 20 mg/dosis.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolo lento 2-3 min, repetir según respuesta",
+            "ajusteRenal": "Precaución en IR grave. Prolongar intervalos y monitorizar sedación.",
+            "ajusteHepatico": "Reducir dosis y frecuencia en hepatopatía moderada a grave."
+          }
+        },
+        {
+          "titulo": "Prurito por opioide (adulto)",
+          "descricaoDose": "0,05-0,1 mg/kg IV (máx 5 mg). Uso off-label.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "Precaución en IR grave.",
+            "ajusteHepatico": "Reducir dosis en hepatopatía moderada a grave."
+          }
+        },
+        {
+          "titulo": "Dolor agudo (pediátrico)",
+          "descricaoDose": "0,1-0,2 mg/kg IV/IM/SC cada 4-6h. Máx 0,3-0,4 mg/kg/día.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM/SC",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "Precaución en IR grave. Prolongar intervalos.",
+            "ajusteHepatico": "Reducir dosis y frecuencia en hepatopatía."
+          }
+        },
+        {
+          "titulo": "Neonatos",
+          "descricaoDose": "0,05 mg/kg IV bajo monitorización respiratoria",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "Precaución en IR grave.",
+            "ajusteHepatico": "Reducir dosis en hepatopatía."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide; agonista-antagonista; agonista κ y antagonista μ",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 10 mg/mL (1 mL o 2 mL)", "obs": "Nubain®" },
+        { "forma": "Sin presentación oral disponible comercialmente", "obs": "Solo parenteral" }
+      ],
+      "preparo": [
+        { "diluicao": "Administración directa IM, SC o IV lenta (2-3 min)", "concentracao": "10 mg/mL" },
+        { "diluicao": "Puede diluirse en SF 0,9% para infusión continua", "concentracao": "según dilución" }
+      ],
+      "observacoes": [
+        "Efecto techo para analgesia y depresión respiratoria; menor riesgo respiratorio que opioides μ puros",
+        "Menos prurito, náusea y vómito que morfina; alternativa en postoperatorio y obstetricia",
+        "Puede precipitar abstinencia en usuarios de opioides μ (morfina, fentanilo); contraindicado uso concomitante con agonistas μ crónicos",
+        "IV siempre lento (2-3 min). Evaluar historial de uso de opioides μ antes de prescribir",
+        "Tener naloxona disponible para reversión. Monitorizar FR, sedación y PA continuamente",
+        "Dosis máxima: 160 mg/día (adultos); 0,3-0,4 mg/kg/día (pediatría). Compatible con SF 0,9% y SG 5%; incompatible con soluciones alcalinas."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Perfil de seguridad superior; titular según respuesta. Monitorizar sedación.",
+        "renal": "Usar con precaución en insuficiencia renal grave. Prolongar intervalos y monitorizar sedación.",
+        "hepatico": "Necesario ajuste en hepatopatía moderada a grave. Reducir dosis y frecuencia."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nalbufina IM/SC",
+        "doseTexto": "10 mg IM/SC cada 3-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nalbufina IV (bolo)",
+        "doseTexto": "0,1-0,2 mg/kg IV (máx 20 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nalbufina - Prurito por opioide",
+        "doseTexto": "0,05-0,1 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nalbufina (pediátrico)",
+        "doseTexto": "0,1-0,2 mg/kg IV/IM/SC cada 4-6h",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Nalbufina (neonatos)",
+        "doseTexto": "0,05 mg/kg IV",
+        "doseMin": 0.05,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "纳布啡",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性疼痛 肌注/皮下（成人）",
+          "descricaoDose": "10 mg 肌注或皮下 每 3-6 小时。最大 160 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 160,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/SC",
+            "intervalo": "每3-6小时",
+            "ajusteRenal": "严重肾功能不全慎用。延长间隔并监测镇静。",
+            "ajusteHepatico": "中重度肝病需调整剂量。减量并延长给药间隔。"
+          }
+        },
+        {
+          "titulo": "急性疼痛 IV（成人）",
+          "descricaoDose": "0.1-0.2 mg/kg IV 缓慢推注（2-3 分钟），按需重复。最大 20 mg/次。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "缓慢推注 2-3 分钟，按需重复",
+            "ajusteRenal": "严重肾衰竭慎用。延长间隔并监测镇静。",
+            "ajusteHepatico": "中重度肝病减量并延长间隔。"
+          }
+        },
+        {
+          "titulo": "阿片所致瘙痒（成人）",
+          "descricaoDose": "0.05-0.1 mg/kg IV（最大 5 mg）。超说明书用药。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按需",
+            "ajusteRenal": "严重肾衰竭慎用。",
+            "ajusteHepatico": "中重度肝病减量。"
+          }
+        },
+        {
+          "titulo": "急性疼痛（儿童）",
+          "descricaoDose": "0.1-0.2 mg/kg IV/肌注/皮下 每 4-6 小时。最大 0.3-0.4 mg/kg/日。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM/SC",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "严重肾衰竭慎用。延长间隔。",
+            "ajusteHepatico": "肝病时减量并延长间隔。"
+          }
+        },
+        {
+          "titulo": "新生儿",
+          "descricaoDose": "0.05 mg/kg IV，呼吸监测下",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按需",
+            "ajusteRenal": "严重肾衰竭慎用。",
+            "ajusteHepatico": "肝病时减量。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "阿片类镇痛药；激动-拮抗剂；κ 激动剂与 μ 拮抗剂",
+      "apresentacoes": [
+        { "forma": "注射液 10 mg/mL（1 mL 或 2 mL）", "obs": "Nubain®" },
+        { "forma": "无口服制剂上市", "obs": "仅肠外" }
+      ],
+      "preparo": [
+        { "diluicao": "直接肌注、皮下或 IV 缓慢（2-3 分钟）", "concentracao": "10 mg/mL" },
+        { "diluicao": "可用生理盐水稀释用于持续输注", "concentracao": "按稀释" }
+      ],
+      "observacoes": [
+        "镇痛与呼吸抑制有封顶效应；较纯 μ 阿片呼吸风险更低",
+        "较吗啡瘙痒、恶心、呕吐少；用于术后及产科",
+        "可诱发 μ 阿片使用者戒断（吗啡、芬太尼）；禁与慢性 μ 激动剂同用",
+        "IV 始终缓慢（2-3 分钟）。处方前评估 μ 阿片用药史",
+        "备纳洛酮。持续监测呼吸、镇静与血压",
+        "最大剂量：160 mg/日（成人）；0.3-0.4 mg/kg/日（儿童）。与生理盐水、5% 葡萄糖相容；与碱性液不相容。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "安全性较好；按反应滴定。监测镇静。",
+        "renal": "严重肾功能不全慎用。延长给药间隔并监测镇静。",
+        "hepatico": "中重度肝病需调整剂量。减量并延长间隔。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "纳布啡 肌注/皮下",
+        "doseTexto": "10 mg 肌注/皮下 每 3-6 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "纳布啡 IV（推注）",
+        "doseTexto": "0.1-0.2 mg/kg IV（最大 20 mg）",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "纳布啡 - 阿片所致瘙痒",
+        "doseTexto": "0.05-0.1 mg/kg IV（最大 5 mg）",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "纳布啡（儿童）",
+        "doseTexto": "0.1-0.2 mg/kg IV/肌注/皮下 每 4-6 小时",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "纳布啡（新生儿）",
+        "doseTexto": "0.05 mg/kg IV",
+        "doseMin": 0.05,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "PT": {
+    "nome": "Tenecteplase",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "IAM com supradesnivelamento de ST (IAMCSST) - peso < 60 kg",
+          "descricaoDose": "30 mg IV em bolus único",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "IAM com supradesnivelamento de ST (IAMCSST) - peso 60-69 kg",
+          "descricaoDose": "35 mg IV em bolus único",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "35 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "IAM com supradesnivelamento de ST (IAMCSST) - peso 70-79 kg",
+          "descricaoDose": "40 mg IV em bolus único",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "IAM com supradesnivelamento de ST (IAMCSST) - peso 80-89 kg",
+          "descricaoDose": "45 mg IV em bolus único",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "45 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "IAM com supradesnivelamento de ST (IAMCSST) - peso ≥ 90 kg",
+          "descricaoDose": "50 mg IV em bolus único (dose máxima)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "AVC isquêmico agudo (dose reduzida - EXTEND-IA TNK)",
+          "descricaoDose": "0,25 mg/kg IV bolus único (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Trombolítico / Ativador do plasminogênio tecidual modificado (TNK-tPA)",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 40 mg (8.000 U) + seringa com diluente", "obs": "Metalyse®, TNKase®" },
+        { "forma": "Frasco-ampola 50 mg (10.000 U) + seringa com diluente", "obs": "Metalyse®, TNKase®" }
+      ],
+      "preparo": [
+        { "diluicao": "Adicionar todo o diluente (10 mL) ao frasco", "concentracao": "5 mg/mL" },
+        { "diluicao": "Administração: bolus IV em 5-10 segundos", "concentracao": "Via exclusiva ou flush com SF" },
+        { "diluicao": "Usar imediatamente após reconstituição", "concentracao": "" }
+      ],
+      "observacoes": [
+        "VANTAGEM: administração em bolus único (sem infusão contínua)",
+        "Fibrino-específico com menor depleção de fibrinogênio sistêmico",
+        "Janela IAM: ≤12 h do início dos sintomas (ideal <6 h)",
+        "Janela AVC: ≤4,5 h do início dos sintomas",
+        "Heparina: iniciar 1 h após tenecteplase",
+        "Monitorar sinais de sangramento; evitar procedimentos invasivos durante e após trombólise"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Avaliar risco hemorrágico e função renal.",
+        "renal": "Não requer ajuste de dose. Metabolismo hepático; eliminação renal. Avaliar risco hemorrágico em DRC.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave (metabolismo hepático). Avaliar relação benefício/risco."
+      }
+    },
+    "vistaRapida": [
+      { "nome": "Tenecteplase (IAM < 60 kg)", "doseTexto": "30 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "30 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplase (IAM 60-69 kg)", "doseTexto": "35 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "35 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplase (IAM 70-79 kg)", "doseTexto": "40 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "40 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplase (IAM 80-89 kg)", "doseTexto": "45 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "45 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplase (IAM ≥ 90 kg)", "doseTexto": "50 mg IV bolus (dose máxima)", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "50 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplase (AVC - dose reduzida)", "doseTexto": "0,25 mg/kg IV bolus (máx 25 mg)", "doseMin": 0.25, "doseMax": null, "unidadeResultado": "mg", "decimais": 1, "resultadoFixo": null, "faixaEtaria": "Adulto" }
+    ]
+  },
+  "US": {
+    "nome": "Tenecteplase",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "STEMI (ST-elevation MI) - weight < 60 kg",
+          "descricaoDose": "30 mg IV single bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "STEMI - weight 60-69 kg",
+          "descricaoDose": "35 mg IV single bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "35 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "STEMI - weight 70-79 kg",
+          "descricaoDose": "40 mg IV single bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "STEMI - weight 80-89 kg",
+          "descricaoDose": "45 mg IV single bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "45 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "STEMI - weight ≥ 90 kg",
+          "descricaoDose": "50 mg IV single bolus (maximum dose)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Acute ischemic stroke (reduced dose - EXTEND-IA TNK)",
+          "descricaoDose": "0.25 mg/kg IV single bolus (max 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Thrombolytic / Modified tissue plasminogen activator (TNK-tPA)",
+      "apresentacoes": [
+        { "forma": "Vial 40 mg (8,000 U) + prefilled syringe with diluent", "obs": "TNKase®, Metalyse®" },
+        { "forma": "Vial 50 mg (10,000 U) + prefilled syringe with diluent", "obs": "TNKase®, Metalyse®" }
+      ],
+      "preparo": [
+        { "diluicao": "Add entire diluent (10 mL) to vial", "concentracao": "5 mg/mL" },
+        { "diluicao": "Administration: IV bolus over 5-10 seconds", "concentracao": "Exclusive line or NS flush" },
+        { "diluicao": "Use immediately after reconstitution", "concentracao": "" }
+      ],
+      "observacoes": [
+        "ADVANTAGE: single-bolus administration (no continuous infusion)",
+        "Fibrin-specific with less systemic fibrinogen depletion",
+        "STEMI window: ≤12 h from symptom onset (ideal <6 h)",
+        "Stroke window: ≤4.5 h from symptom onset",
+        "Heparin: start 1 h after tenecteplase",
+        "Monitor for bleeding; avoid invasive procedures during and after thrombolysis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Assess bleeding risk and renal function.",
+        "renal": "No dose adjustment required. Hepatic metabolism; renal elimination. Assess bleeding risk in CKD.",
+        "hepatico": "Use with caution in severe hepatic impairment (hepatic metabolism). Weigh benefit/risk."
+      }
+    },
+    "vistaRapida": [
+      { "nome": "Tenecteplase (STEMI < 60 kg)", "doseTexto": "30 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "30 mg", "faixaEtaria": "Adult" },
+      { "nome": "Tenecteplase (STEMI 60-69 kg)", "doseTexto": "35 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "35 mg", "faixaEtaria": "Adult" },
+      { "nome": "Tenecteplase (STEMI 70-79 kg)", "doseTexto": "40 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "40 mg", "faixaEtaria": "Adult" },
+      { "nome": "Tenecteplase (STEMI 80-89 kg)", "doseTexto": "45 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "45 mg", "faixaEtaria": "Adult" },
+      { "nome": "Tenecteplase (STEMI ≥ 90 kg)", "doseTexto": "50 mg IV bolus (max dose)", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "50 mg", "faixaEtaria": "Adult" },
+      { "nome": "Tenecteplase (Stroke - reduced dose)", "doseTexto": "0.25 mg/kg IV bolus (max 25 mg)", "doseMin": 0.25, "doseMax": null, "unidadeResultado": "mg", "decimais": 1, "resultadoFixo": null, "faixaEtaria": "Adult" }
+    ]
+  },
+  "ES": {
+    "nome": "Tenecteplasa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "IAM con supradesnivelamiento del ST (IAMCEST) - peso < 60 kg",
+          "descricaoDose": "30 mg IV en bolo único",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "IAMCEST - peso 60-69 kg",
+          "descricaoDose": "35 mg IV en bolo único",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "35 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "IAMCEST - peso 70-79 kg",
+          "descricaoDose": "40 mg IV en bolo único",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "IAMCEST - peso 80-89 kg",
+          "descricaoDose": "45 mg IV en bolo único",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "45 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "IAMCEST - peso ≥ 90 kg",
+          "descricaoDose": "50 mg IV en bolo único (dosis máxima)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "AVC isquémico agudo (dosis reducida - EXTEND-IA TNK)",
+          "descricaoDose": "0,25 mg/kg IV bolo único (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Trombolítico / Activador del plasminógeno tisular modificado (TNK-tPA)",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 40 mg (8.000 U) + jeringa con diluyente", "obs": "Metalyse®, TNKase®" },
+        { "forma": "Frasco-ampolla 50 mg (10.000 U) + jeringa con diluyente", "obs": "Metalyse®, TNKase®" }
+      ],
+      "preparo": [
+        { "diluicao": "Añadir todo el diluyente (10 mL) al frasco", "concentracao": "5 mg/mL" },
+        { "diluicao": "Administración: bolo IV en 5-10 segundos", "concentracao": "Vía exclusiva o lavado con SF" },
+        { "diluicao": "Usar inmediatamente tras reconstitución", "concentracao": "" }
+      ],
+      "observacoes": [
+        "VENTAJA: administración en bolo único (sin infusión continua)",
+        "Fibrino-específico con menor depleción de fibrinógeno sistémico",
+        "Ventana IAM: ≤12 h del inicio de síntomas (ideal <6 h)",
+        "Ventana AVC: ≤4,5 h del inicio de síntomas",
+        "Heparina: iniciar 1 h después de tenecteplasa",
+        "Monitorizar signos de sangrado; evitar procedimientos invasivos durante y tras trombólisis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Valorar riesgo hemorrágico y función renal.",
+        "renal": "No requiere ajuste de dosis. Metabolismo hepático; eliminación renal. Valorar riesgo hemorrágico en ERC.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave (metabolismo hepático). Valorar beneficio/riesgo."
+      }
+    },
+    "vistaRapida": [
+      { "nome": "Tenecteplasa (IAM < 60 kg)", "doseTexto": "30 mg IV bolo", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "30 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplasa (IAM 60-69 kg)", "doseTexto": "35 mg IV bolo", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "35 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplasa (IAM 70-79 kg)", "doseTexto": "40 mg IV bolo", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "40 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplasa (IAM 80-89 kg)", "doseTexto": "45 mg IV bolo", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "45 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplasa (IAM ≥ 90 kg)", "doseTexto": "50 mg IV bolo (dosis máxima)", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "50 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Tenecteplasa (AVC - dosis reducida)", "doseTexto": "0,25 mg/kg IV bolo (máx 25 mg)", "doseMin": 0.25, "doseMax": null, "unidadeResultado": "mg", "decimais": 1, "resultadoFixo": null, "faixaEtaria": "Adulto" }
+    ]
+  },
+  "ZH": {
+    "nome": "替奈普酶",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ST段抬高型心肌梗死 (STEMI) - 体重 < 60 kg",
+          "descricaoDose": "30 mg IV 单次弹丸",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "STEMI - 体重 60-69 kg",
+          "descricaoDose": "35 mg IV 单次弹丸",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "35 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "STEMI - 体重 70-79 kg",
+          "descricaoDose": "40 mg IV 单次弹丸",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "STEMI - 体重 80-89 kg",
+          "descricaoDose": "45 mg IV 单次弹丸",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "45 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "STEMI - 体重 ≥ 90 kg",
+          "descricaoDose": "50 mg IV 单次弹丸（最大剂量）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "急性缺血性卒中（减量 - EXTEND-IA TNK）",
+          "descricaoDose": "0.25 mg/kg IV 单次弹丸（最大 25 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "溶栓药 / 修饰组织型纤溶酶原激活剂 (TNK-tPA)",
+      "apresentacoes": [
+        { "forma": "40 mg（8,000 U）西林瓶 + 预充稀释液注射器", "obs": "Metalyse®、TNKase®" },
+        { "forma": "50 mg（10,000 U）西林瓶 + 预充稀释液注射器", "obs": "Metalyse®、TNKase®" }
+      ],
+      "preparo": [
+        { "diluicao": "将全部稀释液（10 mL）加入西林瓶", "concentracao": "5 mg/mL" },
+        { "diluicao": "给药：IV 弹丸 5-10 秒", "concentracao": "专用管路或生理盐水冲管" },
+        { "diluicao": "复溶后立即使用", "concentracao": "" }
+      ],
+      "observacoes": [
+        "优点：单次弹丸给药（无持续输注）",
+        "纤维蛋白特异性，全身纤维蛋白原消耗较少",
+        "心梗时间窗：症状发作后≤12小时（理想<6小时）",
+        "卒中时间窗：症状发作后≤4.5小时",
+        "肝素：替奈普酶后1小时开始",
+        "监测出血征象；溶栓期间及之后避免有创操作"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需剂量调整。评估出血风险和肾功能。",
+        "renal": "无需剂量调整。肝脏代谢；肾脏清除。CKD患者评估出血风险。",
+        "hepatico": "严重肝功能不全慎用（肝脏代谢）。权衡获益与风险。"
+      }
+    },
+    "vistaRapida": [
+      { "nome": "替奈普酶（心梗 < 60 kg）", "doseTexto": "30 mg IV 弹丸", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "30 mg", "faixaEtaria": "成人" },
+      { "nome": "替奈普酶（心梗 60-69 kg）", "doseTexto": "35 mg IV 弹丸", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "35 mg", "faixaEtaria": "成人" },
+      { "nome": "替奈普酶（心梗 70-79 kg）", "doseTexto": "40 mg IV 弹丸", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "40 mg", "faixaEtaria": "成人" },
+      { "nome": "替奈普酶（心梗 80-89 kg）", "doseTexto": "45 mg IV 弹丸", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "45 mg", "faixaEtaria": "成人" },
+      { "nome": "替奈普酶（心梗 ≥ 90 kg）", "doseTexto": "50 mg IV 弹丸（最大剂量）", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "50 mg", "faixaEtaria": "成人" },
+      { "nome": "替奈普酶（卒中 - 减量）", "doseTexto": "0.25 mg/kg IV 弹丸（最大 25 mg）", "doseMin": 0.25, "doseMax": null, "unidadeResultado": "mg", "decimais": 1, "resultadoFixo": null, "faixaEtaria": "成人" }
+    ]
+  }
+}

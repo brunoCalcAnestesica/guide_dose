@@ -1,0 +1,762 @@
+{
+  "PT": {
+    "nome": "Teicoplanina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose de ataque (infecções moderadas-graves)",
+          "descricaoDose": "6 mg/kg IV/IM 12/12h × 3 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "12/12h × 3 doses",
+            "ajusteRenal": "ClCr 40-60: dose normal por 3 dias, depois reduzir intervalo ou dose; ClCr <40: dose normal por 3 dias, depois 50% ou dias alternados",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção (infecções moderadas)",
+          "descricaoDose": "6 mg/kg IV/IM 1x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr 40-60: dose normal por 3 dias, depois reduzir intervalo ou dose; ClCr <40: dose normal por 3 dias, depois 50% ou dias alternados",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves (endocardite, osteomielite)",
+          "descricaoDose": "12 mg/kg IV 12/12h × 3-5 doses, depois 12 mg/kg 1x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h × 3-5 doses, depois 1x/dia",
+            "ajusteRenal": "ClCr 40-60: dose normal por 3 dias, depois reduzir intervalo ou dose; ClCr <40: dose normal por 3 dias, depois 50% ou dias alternados",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Ataque",
+          "descricaoDose": "10 mg/kg IV 12/12h × 3 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h × 3 doses",
+            "ajusteRenal": "ClCr 40-60: dose normal por 3 dias, depois reduzir intervalo ou dose; ClCr <40: dose normal por 3 dias, depois 50% ou dias alternados",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Manutenção",
+          "descricaoDose": "6-10 mg/kg IV 1x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr 40-60: dose normal por 3 dias, depois reduzir intervalo ou dose; ClCr <40: dose normal por 3 dias, depois 50% ou dias alternados",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Glicopeptídeo (similar à vancomicina); bactericida – inibe síntese da parede celular",
+      "apresentacoes": [
+        { "forma": "Frasco 200 mg liofilizado", "obs": "Targocid®" },
+        { "forma": "Frasco 400 mg liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir lentamente com diluente próprio", "concentracao": "" },
+        { "diluicao": "IV direto em 3-5 min ou diluir em 50 mL SF", "concentracao": "" },
+        { "diluicao": "IM: pode ser administrado", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: MRSA, Enterococcus (exceto VRE), cocos Gram+.",
+        "Vantagens vs vancomicina: 1x/dia, pode IM, menos nefrotóxico.",
+        "Meia-vida longa: 100-170 h (permite dose única diária).",
+        "Vale sérico alvo: 15-30 mcg/mL (graves: 30-40).",
+        "Ajuste renal: ClCr <40 → dose normal 3 dias, depois 50% ou dias alternados.",
+        "Monitorar função renal e auditiva."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal; aplicar ajuste renal conforme ClCr.",
+        "renal": "ClCr 40-60: dose normal por 3 dias, depois reduzir intervalo ou dose. ClCr <40: dose normal por 3 dias, depois 50% ou dias alternados.",
+        "hepatico": "Não requer ajuste específico. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Teicoplanina – Ataque (adulto)",
+        "doseTexto": "6 mg/kg IV/IM 12/12h × 3 doses",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teicoplanina – Manutenção (adulto)",
+        "doseTexto": "6 mg/kg IV/IM 1x/dia",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teicoplanina – Graves (adulto)",
+        "doseTexto": "12 mg/kg IV 12/12h × 3-5, depois 1x/dia",
+        "doseMin": 12,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teicoplanina – Ataque (pediátrico)",
+        "doseTexto": "10 mg/kg IV 12/12h × 3 doses",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Teicoplanina – Manutenção (pediátrico)",
+        "doseTexto": "6-10 mg/kg IV 1x/dia",
+        "doseMin": 6,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Teicoplanin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading dose (moderate-severe infections)",
+          "descricaoDose": "6 mg/kg IV/IM q12h × 3 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "q12h × 3 doses",
+            "ajusteRenal": "ClCr 40-60: standard dose for 3 days, then reduce interval or dose; ClCr <40: standard dose for 3 days, then 50% or alternate days",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maintenance (moderate infections)",
+          "descricaoDose": "6 mg/kg IV/IM once daily",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr 40-60: standard dose for 3 days, then reduce interval or dose; ClCr <40: standard dose for 3 days, then 50% or alternate days",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe infections (endocarditis, osteomyelitis)",
+          "descricaoDose": "12 mg/kg IV q12h × 3-5 doses, then 12 mg/kg once daily",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "q12h × 3-5 doses, then once daily",
+            "ajusteRenal": "ClCr 40-60: standard dose for 3 days, then reduce interval or dose; ClCr <40: standard dose for 3 days, then 50% or alternate days",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric – Loading",
+          "descricaoDose": "10 mg/kg IV q12h × 3 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "q12h × 3 doses",
+            "ajusteRenal": "ClCr 40-60: standard dose for 3 days, then reduce interval or dose; ClCr <40: standard dose for 3 days, then 50% or alternate days",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric – Maintenance",
+          "descricaoDose": "6-10 mg/kg IV once daily",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr 40-60: standard dose for 3 days, then reduce interval or dose; ClCr <40: standard dose for 3 days, then 50% or alternate days",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Glycopeptide (similar to vancomycin); bactericidal – inhibits cell wall synthesis",
+      "apresentacoes": [
+        { "forma": "Vial 200 mg lyophilized", "obs": "Targocid®" },
+        { "forma": "Vial 400 mg lyophilized", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute slowly with provided diluent", "concentracao": "" },
+        { "diluicao": "IV direct over 3-5 min or dilute in 50 mL NS", "concentracao": "" },
+        { "diluicao": "IM: may be administered", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Spectrum: MRSA, Enterococcus (except VRE), Gram+ cocci.",
+        "Advantages vs vancomycin: once daily, can give IM, less nephrotoxic.",
+        "Long half-life: 100-170 h (allows once-daily dosing).",
+        "Target trough: 15-30 mcg/mL (severe: 30-40).",
+        "Renal adjustment: ClCr <40 → standard dose 3 days, then 50% or alternate days.",
+        "Monitor renal function and hearing."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function; apply renal adjustment per ClCr.",
+        "renal": "ClCr 40-60: standard dose for 3 days, then reduce interval or dose. ClCr <40: standard dose for 3 days, then 50% or alternate days.",
+        "hepatico": "No specific adjustment. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Teicoplanin – Loading (adult)",
+        "doseTexto": "6 mg/kg IV/IM q12h × 3 doses",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teicoplanin – Maintenance (adult)",
+        "doseTexto": "6 mg/kg IV/IM once daily",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teicoplanin – Severe (adult)",
+        "doseTexto": "12 mg/kg IV q12h × 3-5, then once daily",
+        "doseMin": 12,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teicoplanin – Loading (pediatric)",
+        "doseTexto": "10 mg/kg IV q12h × 3 doses",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Teicoplanin – Maintenance (pediatric)",
+        "doseTexto": "6-10 mg/kg IV once daily",
+        "doseMin": 6,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Teicoplanina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis de ataque (infecciones moderadas-graves)",
+          "descricaoDose": "6 mg/kg IV/IM 12/12h × 3 dosis",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "12/12h × 3 dosis",
+            "ajusteRenal": "ClCr 40-60: dosis estándar 3 días, luego reducir intervalo o dosis; ClCr <40: dosis estándar 3 días, luego 50% o días alternos",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (infecciones moderadas)",
+          "descricaoDose": "6 mg/kg IV/IM 1x/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr 40-60: dosis estándar 3 días, luego reducir intervalo o dosis; ClCr <40: dosis estándar 3 días, luego 50% o días alternos",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves (endocarditis, osteomielitis)",
+          "descricaoDose": "12 mg/kg IV 12/12h × 3-5 dosis, luego 12 mg/kg 1x/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h × 3-5 dosis, luego 1x/día",
+            "ajusteRenal": "ClCr 40-60: dosis estándar 3 días, luego reducir intervalo o dosis; ClCr <40: dosis estándar 3 días, luego 50% o días alternos",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Ataque",
+          "descricaoDose": "10 mg/kg IV 12/12h × 3 dosis",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h × 3 dosis",
+            "ajusteRenal": "ClCr 40-60: dosis estándar 3 días, luego reducir intervalo o dosis; ClCr <40: dosis estándar 3 días, luego 50% o días alternos",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Mantenimiento",
+          "descricaoDose": "6-10 mg/kg IV 1x/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr 40-60: dosis estándar 3 días, luego reducir intervalo o dosis; ClCr <40: dosis estándar 3 días, luego 50% o días alternos",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Glicopéptido (similar a vancomicina); bactericida – inhibe síntesis de pared celular",
+      "apresentacoes": [
+        { "forma": "Frasco 200 mg liofilizado", "obs": "Targocid®" },
+        { "forma": "Frasco 400 mg liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir lentamente con diluyente propio", "concentracao": "" },
+        { "diluicao": "IV directo en 3-5 min o diluir en 50 mL SF", "concentracao": "" },
+        { "diluicao": "IM: puede administrarse", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: MRSA, Enterococcus (excepto VRE), cocos Gram+.",
+        "Ventajas vs vancomicina: 1x/día, puede IM, menos nefrotóxico.",
+        "Vida media larga: 100-170 h (permite dosis única diaria).",
+        "Valle sérico objetivo: 15-30 mcg/mL (graves: 30-40).",
+        "Ajuste renal: ClCr <40 → dosis estándar 3 días, luego 50% o días alternos.",
+        "Monitorizar función renal y auditiva."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal; aplicar ajuste renal según ClCr.",
+        "renal": "ClCr 40-60: dosis estándar 3 días, luego reducir intervalo o dosis. ClCr <40: dosis estándar 3 días, luego 50% o días alternos.",
+        "hepatico": "No requiere ajuste específico. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Teicoplanina – Ataque (adulto)",
+        "doseTexto": "6 mg/kg IV/IM 12/12h × 3 dosis",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teicoplanina – Mantenimiento (adulto)",
+        "doseTexto": "6 mg/kg IV/IM 1x/día",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teicoplanina – Graves (adulto)",
+        "doseTexto": "12 mg/kg IV 12/12h × 3-5, luego 1x/día",
+        "doseMin": 12,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teicoplanina – Ataque (pediátrico)",
+        "doseTexto": "10 mg/kg IV 12/12h × 3 dosis",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Teicoplanina – Mantenimiento (pediátrico)",
+        "doseTexto": "6-10 mg/kg IV 1x/día",
+        "doseMin": 6,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "替考拉宁",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷剂量（中重度感染）",
+          "descricaoDose": "6 mg/kg IV/IM 每12小时×3次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "每12小时×3次",
+            "ajusteRenal": "ClCr 40-60: 前3天标准剂量，之后减量或延长间隔；ClCr <40: 前3天标准剂量，之后50%或隔日",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "维持（中度感染）",
+          "descricaoDose": "6 mg/kg IV/IM 每日1次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr 40-60: 前3天标准剂量，之后减量或延长间隔；ClCr <40: 前3天标准剂量，之后50%或隔日",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "严重感染（心内膜炎、骨髓炎）",
+          "descricaoDose": "12 mg/kg IV 每12小时×3-5次，后12 mg/kg 每日1次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每12小时×3-5次，后每日1次",
+            "ajusteRenal": "ClCr 40-60: 前3天标准剂量，之后减量或延长间隔；ClCr <40: 前3天标准剂量，之后50%或隔日",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童 – 负荷",
+          "descricaoDose": "10 mg/kg IV 每12小时×3次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每12小时×3次",
+            "ajusteRenal": "ClCr 40-60: 前3天标准剂量，之后减量或延长间隔；ClCr <40: 前3天标准剂量，之后50%或隔日",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童 – 维持",
+          "descricaoDose": "6-10 mg/kg IV 每日1次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr 40-60: 前3天标准剂量，之后减量或延长间隔；ClCr <40: 前3天标准剂量，之后50%或隔日",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "糖肽类（与万古霉素相似）；杀菌剂 – 抑制细胞壁合成",
+      "apresentacoes": [
+        { "forma": "瓶 200 mg 冻干", "obs": "Targocid®" },
+        { "forma": "瓶 400 mg 冻干", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "用所附稀释液缓慢 reconstitute", "concentracao": "" },
+        { "diluicao": "IV 直接 3-5 分钟或稀释于 50 mL 生理盐水", "concentracao": "" },
+        { "diluicao": "可肌内注射", "concentracao": "" }
+      ],
+      "observacoes": [
+        "谱：MRSA、肠球菌（除VRE）、革兰阳性球菌。",
+        "较万古霉素优势：每日1次、可肌注、肾毒性较低。",
+        "半衰期长：100-170 h（可每日单次给药）。",
+        "目标谷浓度：15-30 mcg/mL（重症：30-40）。",
+        "肾调整：ClCr <40 → 前3天标准剂量，之后50%或隔日。",
+        "监测肾功能与听力。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能；按 ClCr 进行肾调整。",
+        "renal": "ClCr 40-60: 前3天标准剂量，之后减量或延长间隔。ClCr <40: 前3天标准剂量，之后50%或隔日。",
+        "hepatico": "无需特殊调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "替考拉宁 – 负荷（成人）",
+        "doseTexto": "6 mg/kg IV/IM 每12小时×3次",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "替考拉宁 – 维持（成人）",
+        "doseTexto": "6 mg/kg IV/IM 每日1次",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "替考拉宁 – 重症（成人）",
+        "doseTexto": "12 mg/kg IV 每12小时×3-5次，后每日1次",
+        "doseMin": 12,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "替考拉宁 – 负荷（儿童）",
+        "doseTexto": "10 mg/kg IV 每12小时×3次",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "替考拉宁 – 维持（儿童）",
+        "doseTexto": "6-10 mg/kg IV 每日1次",
+        "doseMin": 6,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "PT": {
+    "nome": "Gelatina Coloide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Expansão volêmica (adulto)",
+          "descricaoDose": "10-20 mL/kg IV (máx 1500 mL/dia ou 20 mL/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade hemodinâmica",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Expansão volêmica (pediátrico)",
+          "descricaoDose": "10-20 mL/kg IV (máx 20 mL/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade hemodinâmica",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Expansor plasmático - Coloide sintético (gelatina fluida modificada)",
+      "apresentacoes": [
+        { "forma": "Solução 3,5% (Haemaccel®, Gelafundin®)", "obs": "Bolsas 250 mL, 500 mL" },
+        { "forma": "Solução 4% (Gelofusine®)", "obs": "Bolsas 250 mL, 500 mL, 1000 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso", "concentracao": "Não diluir" },
+        { "diluicao": "Não misturar com concentrados de eletrólitos ou bicarbonato na mesma via", "concentracao": "Risco de precipitação" }
+      ],
+      "observacoes": [
+        "Indicada na expansão volêmica quando cristaloides insuficientes; meia-vida intravascular 2-6 h",
+        "Risco de reações anafiláticas/anafilactoides (liberação de histamina) — monitorar especialmente na primeira infusão",
+        "Dose máxima habitual: 20 mL/kg/dia; em adultos frequentemente limitada a 1500 mL/dia na prática",
+        "Reduzir dose em insuficiência renal (ClCr <30 mL/min); evitar em anúria não dialítica",
+        "Pode interferir em provas de coagulação e agregação plaquetária em uso prolongado",
+        "Incompatível com bicarbonato e soluções fortemente alcalinas na mesma via"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar volemia e função cardíaca. Risco de hipervolemia e sobrecarga; preferir volumes menores e avaliação hemodinâmica.",
+        "renal": "ClCr <30 mL/min: reduzir dose em 50%. Evitar em anúria não dialítica. Monitorar diurese e creatinina.",
+        "hepatico": "Não exige ajuste específico. Usar com cautela em cirrose com disfunção renal (considerar albumina conforme protocolo)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Gelatina Coloide (adulto)",
+        "doseTexto": "10-20 mL/kg IV (máx 1500 mL/dia)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Gelatina Coloide (pediátrico)",
+        "doseTexto": "10-20 mL/kg IV (máx 20 mL/kg/dia)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Colloid Gelatin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Volume expansion (adult)",
+          "descricaoDose": "10-20 mL/kg IV (max 1500 mL/day or 20 mL/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as hemodynamically needed",
+            "ajusteRenal": "ClCr <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Volume expansion (pediatric)",
+          "descricaoDose": "10-20 mL/kg IV (max 20 mL/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as hemodynamically needed",
+            "ajusteRenal": "ClCr <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Plasma expander - Synthetic colloid (modified fluid gelatin)",
+      "apresentacoes": [
+        { "forma": "Solution 3.5% (Haemaccel®, Gelafundin®)", "obs": "Bags 250 mL, 500 mL" },
+        { "forma": "Solution 4% (Gelofusine®)", "obs": "Bags 250 mL, 500 mL, 1000 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for use", "concentracao": "Do not dilute" },
+        { "diluicao": "Do not mix with concentrated electrolytes or bicarbonate in same line", "concentracao": "Precipitation risk" }
+      ],
+      "observacoes": [
+        "Indicated for volume expansion when crystalloids insufficient; intravascular half-life 2-6 h",
+        "Risk of anaphylactic/anaphylactoid reactions (histamine release) — monitor especially during first infusion",
+        "Usual maximum dose: 20 mL/kg/day; in adults often limited to 1500 mL/day in practice",
+        "Reduce dose in renal insufficiency (ClCr <30 mL/min); avoid in non-dialytic anuria",
+        "May interfere with coagulation tests and platelet aggregation with prolonged use",
+        "Incompatible with bicarbonate and strongly alkaline solutions in same line"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor volume status and cardiac function. Risk of hypervolemia and overload; prefer smaller volumes and hemodynamic assessment.",
+        "renal": "ClCr <30 mL/min: reduce dose by 50%. Avoid in non-dialytic anuria. Monitor urine output and creatinine.",
+        "hepatico": "No specific adjustment required. Use with caution in cirrhosis with renal dysfunction (consider albumin per protocol)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Colloid Gelatin (adult)",
+        "doseTexto": "10-20 mL/kg IV (max 1500 mL/day)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Colloid Gelatin (pediatric)",
+        "doseTexto": "10-20 mL/kg IV (max 20 mL/kg/day)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Gelatina Coloide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Expansión volémica (adulto)",
+          "descricaoDose": "10-20 mL/kg IV (máx 1500 mL/día o 20 mL/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad hemodinámica",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Expansión volémica (pediátrico)",
+          "descricaoDose": "10-20 mL/kg IV (máx 20 mL/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad hemodinámica",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Expansor plasmático - Coloide sintético (gelatina fluida modificada)",
+      "apresentacoes": [
+        { "forma": "Solución 3,5% (Haemaccel®, Gelafundin®)", "obs": "Bolsas 250 mL, 500 mL" },
+        { "forma": "Solución 4% (Gelofusine®)", "obs": "Bolsas 250 mL, 500 mL, 1000 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso", "concentracao": "No diluir" },
+        { "diluicao": "No mezclar con electrolitos concentrados ni bicarbonato en la misma vía", "concentracao": "Riesgo de precipitación" }
+      ],
+      "observacoes": [
+        "Indicada en expansión volémica cuando cristaloides insuficientes; vida media intravascular 2-6 h",
+        "Riesgo de reacciones anafilácticas/anafilactoides (liberación de histamina) — monitorizar sobre todo en la primera infusión",
+        "Dosis máxima habitual: 20 mL/kg/día; en adultos a menudo limitada a 1500 mL/día en la práctica",
+        "Reducir dosis en insuficiencia renal (ClCr <30 mL/min); evitar en anuria no dialítica",
+        "Puede interferir en pruebas de coagulación y agregación plaquetaria con uso prolongado",
+        "Incompatible con bicarbonato y soluciones fuertemente alcalinas en la misma vía"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar volemia y función cardíaca. Riesgo de hipervolemia y sobrecarga; preferir volúmenes menores y valoración hemodinámica.",
+        "renal": "ClCr <30 mL/min: reducir dosis 50%. Evitar en anuria no dialítica. Monitorizar diuresis y creatinina.",
+        "hepatico": "No exige ajuste específico. Usar con cautela en cirrosis con disfunción renal (considerar albúmina según protocolo)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Gelatina Coloide (adulto)",
+        "doseTexto": "10-20 mL/kg IV (máx 1500 mL/día)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Gelatina Coloide (pediátrico)",
+        "doseTexto": "10-20 mL/kg IV (máx 20 mL/kg/día)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "明胶胶体",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "容量扩张（成人）",
+          "descricaoDose": "10-20 mL/kg IV（最大 1500 mL/日 或 20 mL/kg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按血流动力学需要",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "容量扩张（儿童）",
+          "descricaoDose": "10-20 mL/kg IV（最大 20 mL/kg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按血流动力学需要",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "血浆扩容剂 - 合成胶体（改良液体明胶）",
+      "apresentacoes": [
+        { "forma": "溶液 3.5%（Haemaccel®、Gelafundin®）", "obs": "袋装 250 mL、500 mL" },
+        { "forma": "溶液 4%（Gelofusine®）", "obs": "袋装 250 mL、500 mL、1000 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "勿稀释" },
+        { "diluicao": "勿与浓电解质或碳酸氢盐同路混合", "concentracao": "沉淀风险" }
+      ],
+      "observacoes": [
+        "晶体液不足时用于容量扩张；血管内半衰期 2-6 h",
+        "过敏/类过敏反应风险（组胺释放）— 首次输注时尤其需监测",
+        "常用最大剂量：20 mL/kg/日；成人实践中常限 1500 mL/日",
+        "肾功能不全（ClCr <30 mL/min）时减量；非透析性无尿时避免使用",
+        "长期使用可能影响凝血及血小板聚集检测",
+        "与碳酸氢盐及强碱性溶液同路不相容"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测容量与心功能。高血容量与负荷风险；宜小容量并评估血流动力学。",
+        "renal": "ClCr <30 mL/min：剂量减半。非透析性无尿时避免。监测尿量与肌酐。",
+        "hepatico": "无需特殊调整。肝硬化伴肾功能不全时慎用（按方案考虑白蛋白）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "明胶胶体（成人）",
+        "doseTexto": "10-20 mL/kg IV（最大 1500 mL/日）",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "明胶胶体（儿童）",
+        "doseTexto": "10-20 mL/kg IV（最大 20 mL/kg/日）",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

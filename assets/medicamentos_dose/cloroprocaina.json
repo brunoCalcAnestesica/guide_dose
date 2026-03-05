@@ -1,0 +1,646 @@
+{
+  "PT": {
+    "nome": "Cloroprocaina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infiltração local - SEM epinefrina",
+          "descricaoDose": "11 mg/kg (máx 800 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 11,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 800,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infiltração local - COM epinefrina",
+          "descricaoDose": "14 mg/kg (máx 1000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 14,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anestesia epidural",
+          "descricaoDose": "2-3%: 15-25 mL (cesariana: 18-20 mL)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "15-25 mL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Epidural",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bloqueio de nervos periféricos",
+          "descricaoDose": "1-2%: volume conforme nervo",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Volume conforme nervo",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dose máxima absoluta",
+          "descricaoDose": "800 mg (sem epi) | 1000 mg (com epi)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800 mg (sem epi) | 1000 mg (com epi)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração/Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local – tipo éster (ação ultra-curta)",
+      "apresentacoes": [
+        { "forma": "Solução 1% (10 mg/mL)", "obs": "Frasco 20-30 mL" },
+        { "forma": "Solução 2% (20 mg/mL)", "obs": "Frasco 20-30 mL" },
+        { "forma": "Solução 3% (30 mg/mL)", "obs": "Para epidural" }
+      ],
+      "preparo": [
+        { "diluicao": "Soluções prontas para uso", "concentracao": "Não diluir" },
+        { "diluicao": "Não misturar com soluções alcalinas", "concentracao": "Inativa o fármaco" },
+        { "diluicao": "Aspiração prévia obrigatória", "concentracao": "Evitar injeção intravascular" }
+      ],
+      "observacoes": [
+        "Início rápido: 6-12 min | Duração: 30-60 min (sem epi), 60-90 min (com epi)",
+        "Éster: metabolizado por colinesterases plasmáticas (meia-vida 21-25 s)",
+        "Baixa toxicidade sistêmica: ideal para doses maiores e procedimentos curtos",
+        "NÃO usar via intratecal: risco de aracnoidite",
+        "CI: alergia a ésteres (PABA), deficiência de pseudocolinesterase",
+        "Ter emulsão lipídica 20% disponível para LAST"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos e toxicidade.",
+        "renal": "Não requer ajuste. Eliminação por hidrólise plasmática.",
+        "hepatico": "Não requer ajuste. Metabolismo extrahepático (colinesterases)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cloroprocaina - Infiltração sem epi (adulto)",
+        "doseTexto": "11 mg/kg (máx 800 mg)",
+        "doseMin": 11,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cloroprocaina - Infiltração com epi (adulto)",
+        "doseTexto": "14 mg/kg (máx 1000 mg)",
+        "doseMin": 14,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cloroprocaina - Epidural",
+        "doseTexto": "2-3%: 15-25 mL (cesariana 18-20 mL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "15-25 mL",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Chloroprocaine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Local infiltration - WITHOUT epinephrine",
+          "descricaoDose": "11 mg/kg (max 800 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 11,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 800,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Local infiltration - WITH epinephrine",
+          "descricaoDose": "14 mg/kg (max 1000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 14,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Epidural anesthesia",
+          "descricaoDose": "2-3%: 15-25 mL (cesarean: 18-20 mL)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "15-25 mL",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Epidural",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Peripheral nerve block",
+          "descricaoDose": "1-2%: volume according to nerve",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Volume according to nerve",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Absolute maximum dose",
+          "descricaoDose": "800 mg (without epi) | 1000 mg (with epi)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800 mg (without epi) | 1000 mg (with epi)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration/Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Local anesthetic – ester type (ultra-short action)",
+      "apresentacoes": [
+        { "forma": "Solution 1% (10 mg/mL)", "obs": "Vial 20-30 mL" },
+        { "forma": "Solution 2% (20 mg/mL)", "obs": "Vial 20-30 mL" },
+        { "forma": "Solution 3% (30 mg/mL)", "obs": "For epidural" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready to use", "concentracao": "Do not dilute" },
+        { "diluicao": "Do not mix with alkaline solutions", "concentracao": "Inactivates drug" },
+        { "diluicao": "Prior aspiration mandatory", "concentracao": "Avoid intravascular injection" }
+      ],
+      "observacoes": [
+        "Rapid onset: 6-12 min | Duration: 30-60 min (without epi), 60-90 min (with epi)",
+        "Ester: metabolized by plasma cholinesterases (half-life 21-25 s)",
+        "Low systemic toxicity: ideal for larger doses and short procedures",
+        "Do NOT use intrathecally: risk of arachnoiditis",
+        "CI: allergy to esters (PABA), pseudocholinesterase deficiency",
+        "Have 20% lipid emulsion available for LAST"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor effects and toxicity.",
+        "renal": "No adjustment needed. Elimination by plasma hydrolysis.",
+        "hepatico": "No adjustment needed. Extrahepatic metabolism (cholinesterases)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Chloroprocaine - Infiltration without epi (adult)",
+        "doseTexto": "11 mg/kg (max 800 mg)",
+        "doseMin": 11,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Chloroprocaine - Infiltration with epi (adult)",
+        "doseTexto": "14 mg/kg (max 1000 mg)",
+        "doseMin": 14,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Chloroprocaine - Epidural",
+        "doseTexto": "2-3%: 15-25 mL (cesarean 18-20 mL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "15-25 mL",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Cloroprocaina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infiltración local - SIN epinefrina",
+          "descricaoDose": "11 mg/kg (máx 800 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 11,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 800,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Infiltración local - CON epinefrina",
+          "descricaoDose": "14 mg/kg (máx 1000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 14,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anestesia epidural",
+          "descricaoDose": "2-3%: 15-25 mL (cesárea: 18-20 mL)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "15-25 mL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Epidural",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Bloqueo de nervios periféricos",
+          "descricaoDose": "1-2%: volumen según nervio",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Volumen según nervio",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Dosis máxima absoluta",
+          "descricaoDose": "800 mg (sin epi) | 1000 mg (con epi)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800 mg (sin epi) | 1000 mg (con epi)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración/Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local – tipo éster (acción ultracorta)",
+      "apresentacoes": [
+        { "forma": "Solución 1% (10 mg/mL)", "obs": "Frasco 20-30 mL" },
+        { "forma": "Solución 2% (20 mg/mL)", "obs": "Frasco 20-30 mL" },
+        { "forma": "Solución 3% (30 mg/mL)", "obs": "Para epidural" }
+      ],
+      "preparo": [
+        { "diluicao": "Listas para uso", "concentracao": "No diluir" },
+        { "diluicao": "No mezclar con soluciones alcalinas", "concentracao": "Inactiva el fármaco" },
+        { "diluicao": "Aspiración previa obligatoria", "concentracao": "Evitar inyección intravascular" }
+      ],
+      "observacoes": [
+        "Inicio rápido: 6-12 min | Duración: 30-60 min (sin epi), 60-90 min (con epi)",
+        "Éster: metabolizado por colinesterasas plasmáticas (vida media 21-25 s)",
+        "Baja toxicidad sistémica: ideal para dosis mayores y procedimientos cortos",
+        "NO usar vía intratecal: riesgo de aracnoiditis",
+        "CI: alergia a ésteres (PABA), deficiencia de pseudocolinesterasa",
+        "Tener emulsión lipídica 20% disponible para LAST"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos y toxicidad.",
+        "renal": "No requiere ajuste. Eliminación por hidrólisis plasmática.",
+        "hepatico": "No requiere ajuste. Metabolismo extrahepático (colinesterasas)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cloroprocaina - Infiltración sin epi (adulto)",
+        "doseTexto": "11 mg/kg (máx 800 mg)",
+        "doseMin": 11,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cloroprocaina - Infiltración con epi (adulto)",
+        "doseTexto": "14 mg/kg (máx 1000 mg)",
+        "doseMin": 14,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cloroprocaina - Epidural",
+        "doseTexto": "2-3%: 15-25 mL (cesárea 18-20 mL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "15-25 mL",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氯普鲁卡因",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "局部浸润 - 无肾上腺素",
+          "descricaoDose": "11 mg/kg（最大 800 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 11,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 800,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "局部浸润 - 含肾上腺素",
+          "descricaoDose": "14 mg/kg（最大 1000 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 14,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "硬膜外麻醉",
+          "descricaoDose": "2-3%：15-25 mL（剖宫产 18-20 mL）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "15-25 mL",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "硬膜外",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "周围神经阻滞",
+          "descricaoDose": "1-2%：根据神经选择容量",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "根据神经选择容量",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "绝对最大剂量",
+          "descricaoDose": "800 mg（无肾上腺素）| 1000 mg（含肾上腺素）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800 mg（无肾上腺素）| 1000 mg（含肾上腺素）",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润/阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "酯类局部麻醉药（超短效）",
+      "apresentacoes": [
+        { "forma": "溶液 1%（10 mg/mL）", "obs": "20-30 mL 瓶" },
+        { "forma": "溶液 2%（20 mg/mL）", "obs": "20-30 mL 瓶" },
+        { "forma": "溶液 3%（30 mg/mL）", "obs": "硬膜外用" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "无需稀释" },
+        { "diluicao": "勿与碱性溶液混合", "concentracao": "可使药物失活" },
+        { "diluicao": "注射前必须回抽", "concentracao": "避免血管内注射" }
+      ],
+      "observacoes": [
+        "起效快：6-12 分钟 | 作用时间：30-60 分钟（无肾上腺素），60-90 分钟（含肾上腺素）",
+        "酯类：经血浆胆碱酯酶代谢（半衰期 21-25 秒）",
+        "全身毒性低：适用于较大剂量和短时手术",
+        "禁止鞘内使用：有蛛网膜炎风险",
+        "禁忌：酯类（PABA）过敏、假性胆碱酯酶缺乏",
+        "备有 20% 脂肪乳用于 LAST"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测效应与毒性。",
+        "renal": "无需调整。经血浆水解消除。",
+        "hepatico": "无需调整。肝外代谢（胆碱酯酶）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氯普鲁卡因 无肾上腺素浸润（成人）",
+        "doseTexto": "11 mg/kg（最大 800 mg）",
+        "doseMin": 11,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯普鲁卡因 含肾上腺素浸润（成人）",
+        "doseTexto": "14 mg/kg（最大 1000 mg）",
+        "doseMin": 14,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯普鲁卡因 硬膜外",
+        "doseTexto": "2-3%：15-25 mL（剖宫产 18-20 mL）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "15-25 mL",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

@@ -1,0 +1,842 @@
+{
+  "PT": {
+    "nome": "Sugamadex",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bloqueio Moderado (TOF 2 respostas)",
+          "descricaoDose": "2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Bloqueio Profundo (POT 1-2 ou sem TOF)",
+          "descricaoDose": "4 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Reversão Imediata (após rocurônio 1,2 mg/kg)",
+          "descricaoDose": "16 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 16,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Bloqueio Moderado (Pediátrico ≥2 anos)",
+          "descricaoDose": "2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Bloqueio Profundo (Pediátrico ≥2 anos)",
+          "descricaoDose": "4 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Reversão Imediata (Pediátrico ≥2 anos)",
+          "descricaoDose": "16 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 16,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Agente de reversão de bloqueador neuromuscular - Antagonista seletivo de relaxantes esteroidais",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 200 mg/2 mL", "obs": "100 mg/mL" },
+        { "forma": "Frasco-ampola 500 mg/5 mL", "obs": "100 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso", "concentracao": "100 mg/mL" },
+        { "diluicao": "Pode diluir em SF 0,9% ou SG 5%", "concentracao": "estável 48h refrigerado" }
+      ],
+      "observacoes": [
+        "Monitorizar TOF rigorosamente para evitar recurarização",
+        "Exclusivo para rocurônio e vecurônio (não reverte benzilisoquinolínicos)",
+        "CONTRAINDICADO em ClCr <30 mL/min (>95% excreção renal)",
+        "Pode reduzir eficácia de anticoncepcionais hormonais por 7 dias",
+        "Risco de anafilaxia - ter suporte de vida disponível",
+        "Administrar em bolus rápido (<10 segundos), sem necessidade de diluição"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar função renal.",
+        "renal": "ClCr <30: CONTRAINDICADO. ClCr 30-59: usar com cautela.",
+        "hepatico": "Não requer ajuste. Não é metabolizado pelo fígado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bloqueio Moderado (adulto)",
+        "doseTexto": "2 mg/kg IV bolus",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bloqueio Profundo (adulto)",
+        "doseTexto": "4 mg/kg IV bolus",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Reversão Imediata (adulto)",
+        "doseTexto": "16 mg/kg IV bolus",
+        "doseMin": 16,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bloqueio Moderado (ped ≥2a)",
+        "doseTexto": "2 mg/kg IV bolus",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Bloqueio Profundo (ped ≥2a)",
+        "doseTexto": "4 mg/kg IV bolus",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Sugammadex",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderate Block (TOF 2 responses)",
+          "descricaoDose": "2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: CONTRAINDICATED",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Deep Block (POT 1-2 or no TOF)",
+          "descricaoDose": "4 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: CONTRAINDICATED",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Immediate Reversal (after rocuronium 1.2 mg/kg)",
+          "descricaoDose": "16 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 16,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: CONTRAINDICATED",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Moderate Block (Pediatric ≥2 years)",
+          "descricaoDose": "2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: CONTRAINDICATED",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Deep Block (Pediatric ≥2 years)",
+          "descricaoDose": "4 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: CONTRAINDICATED",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Immediate Reversal (Pediatric ≥2 years)",
+          "descricaoDose": "16 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 16,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: CONTRAINDICATED",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Neuromuscular blocking agent reversal - Selective steroidal relaxant antagonist",
+      "apresentacoes": [
+        { "forma": "Vial 200 mg/2 mL", "obs": "100 mg/mL" },
+        { "forma": "Vial 500 mg/5 mL", "obs": "100 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready to use", "concentracao": "100 mg/mL" },
+        { "diluicao": "May dilute in NS 0.9% or D5W", "concentracao": "stable 48h refrigerated" }
+      ],
+      "observacoes": [
+        "Monitor TOF rigorously to avoid recurarization",
+        "Exclusive for rocuronium and vecuronium (does not reverse benzylisoquinolines)",
+        "CONTRAINDICATED in CrCl <30 mL/min (>95% renal excretion)",
+        "May reduce efficacy of hormonal contraceptives for 7 days",
+        "Risk of anaphylaxis - have life support available",
+        "Administer as rapid bolus (<10 seconds), no dilution required"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor renal function.",
+        "renal": "CrCl <30: CONTRAINDICATED. CrCl 30-59: use with caution.",
+        "hepatico": "No adjustment required. Not metabolized by liver."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Moderate Block (adult)",
+        "doseTexto": "2 mg/kg IV bolus",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Deep Block (adult)",
+        "doseTexto": "4 mg/kg IV bolus",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Immediate Reversal (adult)",
+        "doseTexto": "16 mg/kg IV bolus",
+        "doseMin": 16,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Moderate Block (ped ≥2y)",
+        "doseTexto": "2 mg/kg IV bolus",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Deep Block (ped ≥2y)",
+        "doseTexto": "4 mg/kg IV bolus",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Sugamadex",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bloqueo Moderado (TOF 2 respuestas)",
+          "descricaoDose": "2 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Bloqueo Profundo (POT 1-2 o sin TOF)",
+          "descricaoDose": "4 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Reversión Inmediata (tras rocuronio 1,2 mg/kg)",
+          "descricaoDose": "16 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 16,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Bloqueo Moderado (Pediátrico ≥2 años)",
+          "descricaoDose": "2 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Bloqueo Profundo (Pediátrico ≥2 años)",
+          "descricaoDose": "4 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "Reversión Inmediata (Pediátrico ≥2 años)",
+          "descricaoDose": "16 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 16,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: CONTRAINDICADO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Agente de reversión de bloqueador neuromuscular - Antagonista selectivo de relajantes esteroideos",
+      "apresentacoes": [
+        { "forma": "Frasco 200 mg/2 mL", "obs": "100 mg/mL" },
+        { "forma": "Frasco 500 mg/5 mL", "obs": "100 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para usar", "concentracao": "100 mg/mL" },
+        { "diluicao": "Puede diluir en SF 0,9% o SG 5%", "concentracao": "estable 48h refrigerado" }
+      ],
+      "observacoes": [
+        "Monitorizar TOF rigurosamente para evitar recurarización",
+        "Exclusivo para rocuronio y vecuronio (no revierte bencilisoquinolínicos)",
+        "CONTRAINDICADO en ClCr <30 mL/min (>95% excreción renal)",
+        "Puede reducir eficacia de anticonceptivos hormonales por 7 días",
+        "Riesgo de anafilaxia - tener soporte vital disponible",
+        "Administrar en bolo rápido (<10 segundos), sin necesidad de dilución"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar función renal.",
+        "renal": "ClCr <30: CONTRAINDICADO. ClCr 30-59: usar con precaución.",
+        "hepatico": "No requiere ajuste. No es metabolizado por el hígado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bloqueo Moderado (adulto)",
+        "doseTexto": "2 mg/kg IV bolo",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bloqueo Profundo (adulto)",
+        "doseTexto": "4 mg/kg IV bolo",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Reversión Inmediata (adulto)",
+        "doseTexto": "16 mg/kg IV bolo",
+        "doseMin": 16,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bloqueo Moderado (ped ≥2a)",
+        "doseTexto": "2 mg/kg IV bolo",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Bloqueo Profundo (ped ≥2a)",
+        "doseTexto": "4 mg/kg IV bolo",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "舒更葡糖钠",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "中度阻滞（TOF 2个反应）",
+          "descricaoDose": "2 mg/kg IV推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30: 禁忌",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "深度阻滞（POT 1-2或无TOF）",
+          "descricaoDose": "4 mg/kg IV推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30: 禁忌",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "即时逆转（罗库溴铵1.2 mg/kg后）",
+          "descricaoDose": "16 mg/kg IV推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 16,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30: 禁忌",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "中度阻滞（儿童≥2岁）",
+          "descricaoDose": "2 mg/kg IV推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30: 禁忌",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "深度阻滞（儿童≥2岁）",
+          "descricaoDose": "4 mg/kg IV推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30: 禁忌",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        },
+        {
+          "titulo": "即时逆转（儿童≥2岁）",
+          "descricaoDose": "16 mg/kg IV推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 16,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30: 禁忌",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "神经肌肉阻滞剂逆转药 - 甾体类肌松剂选择性拮抗剂",
+      "apresentacoes": [
+        { "forma": "瓶装 200 mg/2 mL", "obs": "100 mg/mL" },
+        { "forma": "瓶装 500 mg/5 mL", "obs": "100 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "100 mg/mL" },
+        { "diluicao": "可用0.9%生理盐水或5%葡萄糖稀释", "concentracao": "冷藏稳定48小时" }
+      ],
+      "observacoes": [
+        "严格监测TOF以避免残余肌松",
+        "仅用于罗库溴铵和维库溴铵（不逆转苄基异喹啉类）",
+        "ClCr <30 mL/min禁忌（>95%肾脏排泄）",
+        "可能降低激素避孕药效力7天",
+        "有过敏反应风险 - 需备好生命支持设备",
+        "快速推注给药（<10秒），无需稀释"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需特殊调整。监测肾功能。",
+        "renal": "ClCr <30: 禁忌。ClCr 30-59: 谨慎使用。",
+        "hepatico": "无需调整。不经肝脏代谢。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "中度阻滞（成人）",
+        "doseTexto": "2 mg/kg IV推注",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "深度阻滞（成人）",
+        "doseTexto": "4 mg/kg IV推注",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "即时逆转（成人）",
+        "doseTexto": "16 mg/kg IV推注",
+        "doseMin": 16,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "中度阻滞（儿童≥2岁）",
+        "doseTexto": "2 mg/kg IV推注",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "深度阻滞（儿童≥2岁）",
+        "doseTexto": "4 mg/kg IV推注",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  }
+}

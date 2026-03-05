@@ -1,0 +1,26 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Daptomicina",
+      "nome_comercial": ["Cubicin"],
+      "classe_terapeutica": "Lipopeptídeo cíclico",
+      "mecanismo_acao": "Liga-se à membrana celular bacteriana de forma cálcio-dependente, causando despolarização rápida, efluxo de potássio e morte celular. Bactericida concentração-dependente.",
+      "espectro": {
+        "gram_positivos": ["MRSA", "VRSA", "VRE", "Streptococcus", "Enterococcus (incluindo VRE)", "Staphylococcus coagulase-negativo"]
+      },
+      "nao_cobre": ["Gram-negativos"],
+      "indicacoes": ["Bacteremia por S. aureus", "Endocardite direita por S. aureus", "Infecções de pele complicadas", "Osteomielite", "Artrite séptica"],
+      "contraindicacao_absoluta": "PNEUMONIA (inativado pelo surfactante pulmonar)",
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "350mg", "liofilizado": true},
+        {"forma": "Frasco", "concentracao": "500mg", "liofilizado": true}
+      ],
+      "farmacocinetica": {"meia_vida": "8-9 horas", "excrecao": "Renal (78%)", "ligacao_proteica": "92%"},
+      "ajuste_renal": {"ClCr_maior_30": "Dose padrão 1x/dia", "ClCr_menor_30": "Dose padrão 48/48h"},
+      "monitoramento": {"CPK": "Semanalmente - suspender se >10x LSN ou sintomas musculares"},
+      "efeitos_adversos": ["Miopatia/Rabdomiólise", "Elevação CPK", "Diarreia", "Náusea", "Pneumonia eosinofílica (rara)"],
+      "interacoes": {"estatinas": "Evitar uso concomitante (risco aumentado de miopatia)"},
+      "observacoes": ["NÃO usar em pneumonia", "Considerar dose alta (8-10 mg/kg) em bacteremia", "NÃO diluir em glicose"]
+    }
+  }
+}

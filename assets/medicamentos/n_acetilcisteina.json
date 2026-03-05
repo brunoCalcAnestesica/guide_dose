@@ -1,0 +1,77 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "N-Acetilcisteína (NAC)",
+      "nomesComerciais": ["Fluimucil®", "Acetadote®", "Mucomyst®", "Parvolex®"],
+      "classeTerapeutica": "Antídoto / Mucolítico / Precursor de Glutationa",
+      "mecanismoAcao": "A N-acetilcisteína atua como precursor de glutationa, restaurando os estoques hepáticos depletados pela metabolização do paracetamol. A glutationa neutraliza o metabólito tóxico NAPQI (N-acetil-p-benzoquinoneimina), prevenindo a lesão hepatocelular. Também possui propriedades antioxidantes diretas e melhora a microcirculação hepática.",
+      "indicacoes": [
+        "Intoxicação por paracetamol (acetaminofeno)",
+        "Hepatotoxicidade por paracetamol",
+        "Mucolítico em doenças respiratórias (uso secundário)",
+        "Nefropatia por contraste (uso off-label)",
+        "Síndrome hepatorrenal (adjuvante)"
+      ],
+      "apresentacoes": [
+        "Ampola 300mg/3mL (100mg/mL)",
+        "Ampola 600mg/3mL (200mg/mL)",
+        "Ampola 2g/10mL (200mg/mL)",
+        "Sachê/Envelope 600mg (via oral)",
+        "Sachê 200mg (via oral)"
+      ],
+      "posologia": {
+        "adulto": {
+          "protocolo_21h_dose1": "150 mg/kg IV em 200mL SG5% em 1 hora",
+          "protocolo_21h_dose2": "50 mg/kg IV em 500mL SG5% em 4 horas",
+          "protocolo_21h_dose3": "100 mg/kg IV em 1000mL SG5% em 16 horas",
+          "dose_total_21h": "300 mg/kg em 21 horas",
+          "via_oral_ataque": "140 mg/kg VO",
+          "via_oral_manutencao": "70 mg/kg VO a cada 4h por 17 doses"
+        },
+        "pediatrico": {
+          "protocolo_21h_dose1": "150 mg/kg IV em 3mL/kg SG5% em 1 hora",
+          "protocolo_21h_dose2": "50 mg/kg IV em 7mL/kg SG5% em 4 horas",
+          "protocolo_21h_dose3": "100 mg/kg IV em 14mL/kg SG5% em 16 horas",
+          "peso_menor_20kg": "Reduzir volume de diluição proporcionalmente"
+        }
+      },
+      "farmacocinetica": {
+        "inicio_acao": "30-60 minutos",
+        "pico_plasmatico": "1-2 horas (IV)",
+        "meia_vida": "5,6 horas",
+        "metabolismo": "Hepático (desacetilação a cisteína)",
+        "eliminacao": "Renal",
+        "biodisponibilidade_oral": "6-10%"
+      },
+      "ajusteRenal": "Não necessário em intoxicação aguda",
+      "ajusteHepatico": "Não necessário - é o tratamento da hepatotoxicidade",
+      "contraindicacoes": [
+        "Hipersensibilidade conhecida",
+        "Asma grave não controlada (relativa)"
+      ],
+      "efeitosAdversos": [
+        "Reações anafilactoides (5-10%, mais comum na 1ª dose)",
+        "Náuseas e vômitos",
+        "Urticária, prurido, rubor",
+        "Broncoespasmo",
+        "Angioedema (raro)",
+        "Hipotensão"
+      ],
+      "interacoes": [
+        "Nitroglicerina: pode potencializar hipotensão",
+        "Carvão ativado: pode reduzir absorção VO (dar intervalo de 2h)"
+      ],
+      "observacoes": [
+        "Máxima eficácia se iniciada até 8-10h após ingestão",
+        "Ainda eficaz se iniciada até 24h após ingestão",
+        "Usar nomograma de Rumack-Matthew para indicação",
+        "Se reação anafilactoide: pausar infusão, dar anti-histamínico, reiniciar lentamente",
+        "Solução amarelada é normal - descartar se turva",
+        "Monitorar: TGO, TGP, INR, creatinina, nível de paracetamol",
+        "Diluir em SG5% (preferencial) ou SF0,9%",
+        "Estável 24h após diluição"
+      ],
+      "categoriaGravidez": "B"
+    }
+  }
+}

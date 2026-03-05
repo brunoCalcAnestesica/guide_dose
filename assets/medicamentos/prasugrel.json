@@ -1,0 +1,62 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Prasugrel",
+      "nome_comercial": ["Effient"],
+      "classe_terapeutica": "Antiagregante plaquetário - Inibidor P2Y12 irreversível",
+      "mecanismo_acao": "Pró-droga tienopiridínica de 3ª geração que, após ativação hepática, inibe irreversivelmente o receptor P2Y12. Ativação mais rápida e eficiente que clopidogrel, com menor variabilidade de resposta.",
+      "indicacoes": [
+        "SCA com ICP planejada",
+        "IAMCSST com ICP primária",
+        "Preferido em diabéticos com SCA"
+      ],
+      "contraindicacoes": [
+        "AVC ou AIT prévio (qualquer tipo)",
+        "Sangramento ativo",
+        "Insuficiência hepática grave",
+        "Idade ≥75 anos (benefício não estabelecido)",
+        "Peso <60 kg (maior risco de sangramento)"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Comprimido",
+          "concentracao": "5 mg",
+          "indicacao": "Manutenção (<60 kg)"
+        },
+        {
+          "forma": "Comprimido",
+          "concentracao": "10 mg",
+          "indicacao": "Manutenção (≥60 kg)"
+        }
+      ],
+      "farmacocinetica": {
+        "biodisponibilidade": ">79%",
+        "inicio_acao": "15-30 minutos (ataque)",
+        "pico": "30 minutos (metabólito ativo)",
+        "meia_vida": "7 horas (metabólito ativo)",
+        "metabolismo": "Intestinal e hepático (CYP3A4, CYP2B6)",
+        "excrecao": "Renal (68%) e fecal (27%)"
+      },
+      "vantagens_vs_clopidogrel": [
+        "Ativação mais rápida e consistente",
+        "Menor variabilidade de resposta",
+        "Não afetado por polimorfismos CYP2C19",
+        "Mais potente"
+      ],
+      "efeitos_adversos": [
+        "Sangramento (mais que clopidogrel)",
+        "Dispneia",
+        "Cefaleia",
+        "Rash"
+      ],
+      "observacoes": [
+        "NÃO indicado em IAMSSST com tratamento conservador",
+        "Suspender 7 dias antes de CRM",
+        "Usar com AAS 75-325 mg/dia"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "Sim"
+      }
+    }
+  }
+}

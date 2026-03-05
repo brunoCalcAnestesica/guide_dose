@@ -1,0 +1,38 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Rifampicina",
+      "nomesComerciais": ["Rifampicina Genérico", "Rifaldin®"],
+      "classeTerapeutica": "Antibiótico / Rifamicina (Antimicobacteriano)",
+      "mecanismoAcao": "Inibe a RNA polimerase DNA-dependente bacteriana, bloqueando a transcrição de RNA. Bactericida com excelente penetração intracelular.",
+      "espectro": {
+        "excelente": ["Mycobacterium tuberculosis", "M. leprae", "Staphylococcus spp. (incluindo MRSA)", "Legionella", "Brucella", "N. meningitidis (profilaxia)", "H. influenzae tipo B (profilaxia)"],
+        "caracteristica": "Alta resistência se usada em monoterapia"
+      },
+      "indicacoes": ["Tuberculose (esquema RIPE)", "Hanseníase", "Profilaxia de meningite meningocócica", "Profilaxia de H. influenzae tipo B", "Endocardite por S. aureus (associação)", "Brucelose", "Osteomielite crônica (associação)"],
+      "apresentacoes": ["Cápsulas 150 mg, 300 mg", "Suspensão oral 100 mg/5mL (manipulação)", "Solução IV 600 mg"],
+      "posologia": {
+        "tuberculose": {
+          "adulto": "10 mg/kg/dia VO 1x/dia (máx 600 mg)",
+          "pediatrico": "10-20 mg/kg/dia VO 1x/dia (máx 600 mg)"
+        },
+        "hanseniase": "600 mg VO 1x/mês (supervisionada)",
+        "profilaxia_meningococo": {
+          "adulto": "600 mg VO 12/12h por 2 dias",
+          "pediatrico": "10-20 mg/kg/dose VO 12/12h por 2 dias"
+        },
+        "profilaxia_hib": "600 mg VO 1x/dia por 4 dias"
+      },
+      "ajusteRenal": "Não requer ajuste",
+      "ajusteHepatico": "Usar com cautela, monitorar transaminases",
+      "interacoes_importantes": {
+        "alerta": "POTENTE INDUTOR ENZIMÁTICO (CYP450)",
+        "reduz_niveis_de": ["Anticoncepcionais orais", "Warfarina", "Antirretrovirais", "Corticoides", "Antifúngicos azólicos", "BCC, betabloqueadores", "Metadona", "Imunossupressores (ciclosporina, tacrolimus)", "Digoxina", "Benzodiazepínicos"]
+      },
+      "contraindicacoes": ["Hipersensibilidade", "Icterícia", "Uso de ritonavir/saquinavir"],
+      "efeitosAdversos": ["Hepatotoxicidade", "Coloração laranja de secreções (urina, lágrimas, suor)", "Síndrome flu-like (uso intermitente)", "Trombocitopenia", "Náusea, vômitos", "Rash"],
+      "observacoes": ["Tomar em jejum (1h antes ou 2h após refeições)", "Coloração laranja de secreções é esperada", "Monitorar transaminases mensalmente", "NUNCA usar em monoterapia (resistência rápida)", "Categoria C na gestação"],
+      "categoriaGravidez": "C"
+    }
+  }
+}

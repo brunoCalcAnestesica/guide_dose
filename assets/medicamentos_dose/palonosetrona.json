@@ -1,0 +1,558 @@
+{
+  "PT": {
+    "nome": "Palonosetrona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Quimioterapia (prevenção NVIQ)",
+          "descricaoDose": "0,25 mg IV dose única, 30 min antes da quimioterapia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": "0,25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Quimioterapia (via oral)",
+          "descricaoDose": "0,5 mg VO dose única, 1h antes da quimioterapia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única 1h antes",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (prevenção pós-operatória)",
+          "descricaoDose": "0,075 mg IV dose única, na indução anestésica",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.075,
+            "doseFixa": "0,075 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (1 mês - 17 anos)",
+          "descricaoDose": "20 mcg/kg IV dose única (máx 1,5 mg). Prevenção NVIQ e NVPO.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético, antagonista seletivo 5-HT3 de 2ª geração",
+      "apresentacoes": [
+        { "forma": "Ampola 0,25 mg/5 mL (0,05 mg/mL)", "obs": "Aloxi®" },
+        { "forma": "Cápsula 0,5 mg", "obs": "Aloxi® - uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV", "concentracao": "Administrar em 30 segundos" },
+        { "diluicao": "Diluição opcional", "concentracao": "Até 50 mL SF 0,9% ou SG 5%" },
+        { "diluicao": "Via oral", "concentracao": "Cápsula 1h antes da quimioterapia" }
+      ],
+      "observacoes": [
+        "Dose única eficaz por vários dias (meia-vida 40h)",
+        "Não repetir dose no mesmo ciclo de quimioterapia",
+        "Eficaz tanto na fase aguda quanto tardia da êmese (24-120h)",
+        "Efeitos adversos: cefaleia, constipação",
+        "Prolongamento QTc (menor risco que outros antagonistas 5-HT3)",
+        "Contraindicado com apomorfina (hipotensão grave)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos adversos.",
+        "renal": "Não requer ajuste. Excreção renal 80%.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave. Metabolismo hepático extenso."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Palonosetrona (adulto)",
+        "doseTexto": "0,075 mg IV dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": "0,075 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Palonosetrona (pediátrico)",
+        "doseTexto": "20 mcg/kg IV (máx 1,5 mg)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Palonosetron",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Chemotherapy (CINV prevention)",
+          "descricaoDose": "0.25 mg IV single dose, 30 min before chemotherapy",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": "0.25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Chemotherapy (oral)",
+          "descricaoDose": "0.5 mg PO single dose, 1h before chemotherapy",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "single dose 1h before",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PONV (postoperative prevention)",
+          "descricaoDose": "0.075 mg IV single dose, at induction",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.075,
+            "doseFixa": "0.075 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric (1 month - 17 years)",
+          "descricaoDose": "20 mcg/kg IV single dose (max 1.5 mg). CINV and PONV prevention.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemetic, selective 5-HT3 receptor antagonist (2nd generation)",
+      "apresentacoes": [
+        { "forma": "Vial 0.25 mg/5 mL (0.05 mg/mL)", "obs": "Aloxi®" },
+        { "forma": "Capsule 0.5 mg", "obs": "Aloxi® - oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus", "concentracao": "Administer over 30 seconds" },
+        { "diluicao": "Optional dilution", "concentracao": "Up to 50 mL 0.9% NS or D5W" },
+        { "diluicao": "Oral route", "concentracao": "Capsule 1h before chemotherapy" }
+      ],
+      "observacoes": [
+        "Single dose effective for several days (40h half-life)",
+        "Do not repeat dose in same chemotherapy cycle",
+        "Effective in both acute and delayed phase emesis (24-120h)",
+        "Adverse effects: headache, constipation",
+        "QT prolongation (lower risk than other 5-HT3 antagonists)",
+        "Contraindicated with apomorphine (severe hypotension)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor adverse effects.",
+        "renal": "No dose adjustment. Renal excretion 80%.",
+        "hepatico": "Use with caution in severe hepatic impairment. Extensive hepatic metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Palonosetron (adult)",
+        "doseTexto": "0.075 mg IV single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": "0.075 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Palonosetron (pediatric)",
+        "doseTexto": "20 mcg/kg IV (max 1.5 mg)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Palonosetrón",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Quimioterapia (prevención NVIC)",
+          "descricaoDose": "0,25 mg IV dosis única, 30 min antes de la quimioterapia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": "0,25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Quimioterapia (vía oral)",
+          "descricaoDose": "0,5 mg VO dosis única, 1h antes de la quimioterapia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única 1h antes",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (prevención postoperatoria)",
+          "descricaoDose": "0,075 mg IV dosis única, en la inducción anestésica",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.075,
+            "doseFixa": "0,075 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (1 mes - 17 años)",
+          "descricaoDose": "20 mcg/kg IV dosis única (máx 1,5 mg). Prevención NVIC y NVPO.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético, antagonista selectivo 5-HT3 de 2ª generación",
+      "apresentacoes": [
+        { "forma": "Ampolla 0,25 mg/5 mL (0,05 mg/mL)", "obs": "Aloxi®" },
+        { "forma": "Cápsula 0,5 mg", "obs": "Aloxi® - uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV", "concentracao": "Administrar en 30 segundos" },
+        { "diluicao": "Dilución opcional", "concentracao": "Hasta 50 mL SF 0,9% o SG 5%" },
+        { "diluicao": "Vía oral", "concentracao": "Cápsula 1h antes de la quimioterapia" }
+      ],
+      "observacoes": [
+        "Dosis única eficaz durante varios días (vida media 40h)",
+        "No repetir dosis en el mismo ciclo de quimioterapia",
+        "Eficaz en fase aguda y tardía de la emesis (24-120h)",
+        "Efectos adversos: cefalea, estreñimiento",
+        "Prolongación QTc (menor riesgo que otros antagonistas 5-HT3)",
+        "Contraindicado con apomorfina (hipotensión grave)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos adversos.",
+        "renal": "No requiere ajuste. Excreción renal 80%.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave. Metabolismo hepático extenso."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Palonosetrón (adulto)",
+        "doseTexto": "0,075 mg IV dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": "0,075 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Palonosetrón (pediátrico)",
+        "doseTexto": "20 mcg/kg IV (máx 1,5 mg)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "帕洛诺司琼",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "化疗（预防恶心呕吐）",
+          "descricaoDose": "化疗前 30 分钟 0.25 mg 静注 单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": "0.25 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "化疗（口服）",
+          "descricaoDose": "化疗前 1h 0.5 mg 口服 单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "单次 1h 前",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "术后恶心呕吐（预防）",
+          "descricaoDose": "麻醉诱导时 0.075 mg 静注 单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.075,
+            "doseFixa": "0.075 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童（1 月 - 17 岁）",
+          "descricaoDose": "20 mcg/kg 静注 单次（最大 1.5 mg）。预防化疗及术后恶心呕吐。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "止吐药，第二代选择性 5-HT3 受体拮抗剂",
+      "apresentacoes": [
+        { "forma": "安瓿 0.25 mg/5 mL (0.05 mg/mL)", "obs": "阿洛西®" },
+        { "forma": "胶囊 0.5 mg", "obs": "阿洛西® - 口服" }
+      ],
+      "preparo": [
+        { "diluicao": "静注推注", "concentracao": "30 秒内给药" },
+        { "diluicao": "可选稀释", "concentracao": "至 50 mL 生理盐水或 5% 葡萄糖" },
+        { "diluicao": "口服", "concentracao": "化疗前 1h 胶囊" }
+      ],
+      "observacoes": [
+        "单次给药可有效数日（半衰期 40h）",
+        "同一化疗周期内勿重复给药",
+        "对急性及迟发性呕吐（24-120h）均有效",
+        "不良反应：头痛、便秘",
+        "QT 延长（较其他 5-HT3 拮抗剂风险低）",
+        "禁与阿扑吗啡联用（严重低血压）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测不良反应。",
+        "renal": "无需调整。肾脏排泄 80%。",
+        "hepatico": "严重肝功能不全慎用。肝脏代谢广泛。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "帕洛诺司琼（成人）",
+        "doseTexto": "0.075 mg 静注 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": "0.075 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "帕洛诺司琼（儿童）",
+        "doseTexto": "20 mcg/kg 静注（最大 1.5 mg）",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,390 @@
+{
+  "PT": {
+    "nome": "Citrato de Sódio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "CRRT – Anticoagulação regional",
+          "descricaoDose": "2,5-4,5 mmol/L de sangue (ajustar por Ca iônico pós-filtro alvo 0,25-0,35 mmol/L)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mmol/L",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2,5-4,5 mmol/L sangue",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua pré-filtro",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "CONTRAINDICADO ou extremo cuidado em IH grave",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Profilaxia aspiração (alcalinização gástrica)",
+          "descricaoDose": "30 mL VO 15-30 min antes da indução",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "30 mL VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulante regional / Quelante de cálcio / Alcalinizante",
+      "apresentacoes": [
+        { "forma": "Citrato de sódio 4% em bolsas", "obs": "CRRT - pronto para uso" },
+        { "forma": "ACD-A (Ácido-Citrato-Dextrose)", "obs": "3% citrato - aférese/hemodiálise" },
+        { "forma": "Bicitra® solução oral", "obs": "Profilaxia aspiração" }
+      ],
+      "preparo": [
+        { "diluicao": "Citrato 4% pronto para uso", "concentracao": "Não diluir" },
+        { "diluicao": "ACD-A conforme fabricante", "concentracao": "3% citrato" }
+      ],
+      "observacoes": [
+        "Hipocalcemia se reposição de Ca pós-filtro inadequada; monitorar Ca iônico sistêmico a cada 4-6h",
+        "Metabolismo hepático do citrato gera bicarbonato — risco de alcalose metabólica se não compensada",
+        "Ratio citrato/Ca total >2,5 sugere acúmulo de citrato; ajustar infusão e reposição de cálcio",
+        "Não misturar com soluções contendo cálcio no mesmo acesso (neutralizam o efeito)",
+        "Manter via de reposição de cálcio pós-filtro; monitorar sinais de hipocalcemia (parestesias, tetania)",
+        "CONTRAINDICADO ou usar com extremo cuidado em insuficiência hepática grave (acúmulo de citrato)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar Ca iônico e função hepática.",
+        "renal": "Pode ser usado em anúria (CRRT é indicação principal). Ajustar conforme Ca iônico.",
+        "hepatico": "CONTRAINDICADO ou extremo cuidado em IH grave. Risco de acúmulo de citrato e alcalose."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Citrato de Sódio - Profilaxia aspiração",
+        "doseTexto": "30 mL VO 15-30 min antes da indução",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "30 mL",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Citrato de Sódio - CRRT",
+        "doseTexto": "2,5-4,5 mmol/L sangue (ajustar por Ca iônico)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mmol/L",
+        "decimais": 1,
+        "resultadoFixo": "2,5-4,5 mmol/L",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Sodium Citrate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "CRRT – Regional anticoagulation",
+          "descricaoDose": "2.5-4.5 mmol/L of blood (titrate by post-filter ionized Ca target 0.25-0.35 mmol/L)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mmol/L",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2.5-4.5 mmol/L blood",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous pre-filter infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "CONTRAINDICATED or extreme caution in severe hepatic failure",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Aspiration prophylaxis (gastric alkalinization)",
+          "descricaoDose": "30 mL PO 15-30 min before induction",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "30 mL PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Regional anticoagulant / Calcium chelator / Alkalinizing agent",
+      "apresentacoes": [
+        { "forma": "Sodium citrate 4% in bags", "obs": "CRRT - ready for use" },
+        { "forma": "ACD-A (Acid-Citrate-Dextrose)", "obs": "3% citrate - apheresis/hemodialysis" },
+        { "forma": "Bicitra® oral solution", "obs": "Aspiration prophylaxis" }
+      ],
+      "preparo": [
+        { "diluicao": "Citrate 4% ready for use", "concentracao": "Do not dilute" },
+        { "diluicao": "ACD-A per manufacturer", "concentracao": "3% citrate" }
+      ],
+      "observacoes": [
+        "Hypocalcemia if post-filter Ca replacement inadequate; monitor systemic ionized Ca every 4-6h",
+        "Hepatic metabolism of citrate produces bicarbonate — risk of metabolic alkalosis if uncompensated",
+        "Citrate/total Ca ratio >2.5 suggests citrate accumulation; adjust infusion and calcium replacement",
+        "Do not mix with calcium-containing solutions in same access (neutralize effect)",
+        "Maintain post-filter calcium replacement line; monitor for hypocalcemia (paresthesias, tetany)",
+        "CONTRAINDICATED or use with extreme caution in severe hepatic failure (citrate accumulation)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor ionized Ca and hepatic function.",
+        "renal": "May be used in anuria (CRRT is main indication). Titrate per ionized Ca.",
+        "hepatico": "CONTRAINDICATED or extreme caution in severe hepatic failure. Risk of citrate accumulation and alkalosis."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sodium Citrate - Aspiration prophylaxis",
+        "doseTexto": "30 mL PO 15-30 min before induction",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "30 mL",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Sodium Citrate - CRRT",
+        "doseTexto": "2.5-4.5 mmol/L blood (titrate by ionized Ca)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mmol/L",
+        "decimais": 1,
+        "resultadoFixo": "2.5-4.5 mmol/L",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Citrato de Sodio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "CRRT – Anticoagulación regional",
+          "descricaoDose": "2,5-4,5 mmol/L de sangre (ajustar por Ca iónico posfiltro diana 0,25-0,35 mmol/L)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mmol/L",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2,5-4,5 mmol/L sangre",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua pre-filtro",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "CONTRAINDICADO o extremo cuidado en IH grave",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Profilaxis aspiración (alcalinización gástrica)",
+          "descricaoDose": "30 mL VO 15-30 min antes de la inducción",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "30 mL VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulante regional / Quelante de calcio / Alcalinizante",
+      "apresentacoes": [
+        { "forma": "Citrato de sodio 4% en bolsas", "obs": "CRRT - listo para uso" },
+        { "forma": "ACD-A (Ácido-Citrato-Dextrosa)", "obs": "3% citrato - aféresis/hemodiálisis" },
+        { "forma": "Bicitra® solución oral", "obs": "Profilaxis aspiración" }
+      ],
+      "preparo": [
+        { "diluicao": "Citrato 4% listo para uso", "concentracao": "No diluir" },
+        { "diluicao": "ACD-A según fabricante", "concentracao": "3% citrato" }
+      ],
+      "observacoes": [
+        "Hipocalcemia si reposición de Ca posfiltro inadecuada; monitorizar Ca iónico sistémico cada 4-6h",
+        "Metabolismo hepático del citrato genera bicarbonato — riesgo de alcalosis metabólica si no compensada",
+        "Ratio citrato/Ca total >2,5 sugiere acúmulo de citrato; ajustar infusión y reposición de calcio",
+        "No mezclar con soluciones que contengan calcio en el mismo acceso (neutralizan el efecto)",
+        "Mantener vía de reposición de calcio posfiltro; monitorizar signos de hipocalcemia (parestesias, tetania)",
+        "CONTRAINDICADO o usar con extremo cuidado en insuficiencia hepática grave (acúmulo de citrato)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar Ca iónico y función hepática.",
+        "renal": "Puede usarse en anuria (CRRT es indicación principal). Ajustar según Ca iónico.",
+        "hepatico": "CONTRAINDICADO o extremo cuidado en IH grave. Riesgo de acúmulo de citrato y alcalosis."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Citrato de Sodio - Profilaxis aspiración",
+        "doseTexto": "30 mL VO 15-30 min antes de la inducción",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "30 mL",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Citrato de Sodio - CRRT",
+        "doseTexto": "2,5-4,5 mmol/L sangre (ajustar por Ca iónico)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mmol/L",
+        "decimais": 1,
+        "resultadoFixo": "2,5-4,5 mmol/L",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "枸橼酸钠",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "CRRT – 局部抗凝",
+          "descricaoDose": "2.5-4.5 mmol/L 血液（按滤器后离子钙目标 0.25-0.35 mmol/L 调整）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mmol/L",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2.5-4.5 mmol/L 血液",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "滤器前持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "严重肝衰竭禁用或极度谨慎",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "误吸预防（胃碱化）",
+          "descricaoDose": "诱导前15-30分钟 30 mL 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "30 mL 口服",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "VO",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "局部抗凝剂 / 钙螯合剂 / 碱化剂",
+      "apresentacoes": [
+        { "forma": "枸橼酸钠 4% 袋装", "obs": "CRRT - 即用" },
+        { "forma": "ACD-A（枸橼酸-葡萄糖）", "obs": "3% 枸橼酸 - 单采/血液透析" },
+        { "forma": "Bicitra® 口服液", "obs": "误吸预防" }
+      ],
+      "preparo": [
+        { "diluicao": "4% 枸橼酸即用", "concentracao": "勿稀释" },
+        { "diluicao": "ACD-A 按说明书", "concentracao": "3% 枸橼酸" }
+      ],
+      "observacoes": [
+        "滤器后钙置换不足可致低钙血症；每4-6h监测全身离子钙",
+        "枸橼酸经肝代谢生成碳酸氢盐—未代偿时有代谢性碱中毒风险",
+        "枸橼酸/总钙比>2.5提示枸橼酸蓄积；调整输注及钙置换",
+        "同一通路勿与含钙溶液混合（中和效应）",
+        "维持滤器后钙置换通路；监测低钙征象（感觉异常、手足搐搦）",
+        "严重肝衰竭禁用或极度谨慎（枸橼酸蓄积）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。监测离子钙及肝功能。",
+        "renal": "可用于无尿（CRRT为主要适应症）。按离子钙调整。",
+        "hepatico": "严重肝衰竭禁用或极度谨慎。枸橼酸蓄积及碱中毒风险。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "枸橼酸钠 - 误吸预防",
+        "doseTexto": "诱导前15-30分钟 30 mL 口服",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "30 mL",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "枸橼酸钠 - CRRT",
+        "doseTexto": "2.5-4.5 mmol/L 血液（按离子钙调整）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mmol/L",
+        "decimais": 1,
+        "resultadoFixo": "2.5-4.5 mmol/L",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

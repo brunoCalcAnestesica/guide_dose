@@ -1,0 +1,82 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Warfarina sódica",
+      "nome_comercial": ["Marevan", "Coumadin"],
+      "classe_terapeutica": "Anticoagulante oral - Antagonista da vitamina K",
+      "mecanismo_acao": "Inibe a enzima vitamina K epóxido redutase (VKORC1), bloqueando a reciclagem da vitamina K e impedindo a carboxilação dos fatores de coagulação dependentes de vitamina K (II, VII, IX, X) e proteínas C e S.",
+      "indicacoes": [
+        "Fibrilação atrial",
+        "Prótese valvar mecânica",
+        "Tromboembolismo venoso (TVP/TEP)",
+        "Prevenção de AVC em FA",
+        "Estados de hipercoagulabilidade"
+      ],
+      "contraindicacoes": [
+        "Gestação (teratogênico - especialmente 1º trimestre)",
+        "Sangramento ativo",
+        "Hipertensão grave não controlada",
+        "Cirurgia recente de SNC",
+        "Aneurisma cerebral",
+        "Endocardite bacteriana"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Comprimido",
+          "concentracao": "1 mg",
+          "cor": "Rosa"
+        },
+        {
+          "forma": "Comprimido",
+          "concentracao": "2,5 mg",
+          "cor": "Verde"
+        },
+        {
+          "forma": "Comprimido",
+          "concentracao": "5 mg",
+          "cor": "Amarelo"
+        },
+        {
+          "forma": "Comprimido",
+          "concentracao": "7,5 mg",
+          "cor": ""
+        }
+      ],
+      "farmacocinetica": {
+        "biodisponibilidade": "100%",
+        "inicio_acao": "24-72 horas (efeito pleno 5-7 dias)",
+        "pico": "4 horas",
+        "meia_vida": "20-60 horas (média 40h)",
+        "metabolismo": "Hepático (CYP2C9, CYP3A4)",
+        "excrecao": "Renal (metabolitos)"
+      },
+      "alvos_inr": {
+        "fa_nao_valvar": "2,0-3,0",
+        "tvp_tep": "2,0-3,0",
+        "protese_valvar_mecanica_aortica": "2,0-3,0",
+        "protese_valvar_mecanica_mitral": "2,5-3,5"
+      },
+      "efeitos_adversos": [
+        "Sangramento",
+        "Necrose cutânea (rara - deficiência proteína C)",
+        "Síndrome do dedo roxo",
+        "Alopecia",
+        "Calcificação vascular"
+      ],
+      "interacoes_importantes": [
+        "Amiodarona: aumenta INR (reduzir dose 30-50%)",
+        "Antibióticos: alteram flora intestinal e INR",
+        "AINEs: aumentam risco de sangramento",
+        "Alimentos ricos em vitamina K: reduzem efeito"
+      ],
+      "reversao": {
+        "leve": "Suspender, monitorar INR",
+        "moderada": "Vitamina K 1-2,5 mg VO",
+        "grave": "Vitamina K 10 mg IV + CCP ou PFC"
+      },
+      "estabilidade": {
+        "temperatura_ambiente": "Sim, proteger da luz"
+      }
+    }
+  }
+}

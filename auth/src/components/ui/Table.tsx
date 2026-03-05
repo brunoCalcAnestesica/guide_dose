@@ -1,9 +1,10 @@
 import type { ReactNode } from 'react'
 
-interface Column<T> {
+export interface Column<T> {
   key: string
   header: string
   render?: (item: T) => ReactNode
+  sortable?: boolean
 }
 
 interface TableProps<T> {
@@ -11,6 +12,9 @@ interface TableProps<T> {
   data: T[]
   onRowClick?: (item: T) => void
   emptyMessage?: string
+  sortKey?: string
+  sortDirection?: 'asc' | 'desc'
+  onSort?: (key: string) => void
 }
 
 export function Table<T extends Record<string, unknown>>({
@@ -18,6 +22,9 @@ export function Table<T extends Record<string, unknown>>({
   data,
   onRowClick,
   emptyMessage = 'Nenhum registro encontrado.',
+  sortKey,
+  sortDirection,
+  onSort,
 }: TableProps<T>) {
   if (data.length === 0) {
     return <p className="py-8 text-center text-sm text-gray-500">{emptyMessage}</p>
@@ -29,8 +36,34 @@ export function Table<T extends Record<string, unknown>>({
         <thead className="bg-gray-50">
           <tr>
             {columns.map(col => (
-              <th key={col.key} className="px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-500">
-                {col.header}
+              <th
+                key={col.key}
+                className={`px-4 py-3 text-left text-xs font-semibold uppercase tracking-wider text-gray-500 ${col.sortable && onSort ? 'cursor-pointer select-none hover:bg-gray-100' : ''}`}
+                onClick={() => col.sortable && onSort && onSort(col.key)}
+              >
+                <span className="inline-flex items-center gap-1">
+                  {col.header}
+                  {col.sortable && onSort && (
+                    <span className="inline-flex flex-col text-gray-400">
+                      <svg
+                        className={`h-3 w-3 -mb-0.5 ${sortKey === col.key && sortDirection === 'asc' ? 'text-blue-600' : ''}`}
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
+                        <path d="M7 14l5-5 5 5H7z" />
+                      </svg>
+                      <svg
+                        className={`h-3 w-3 -mt-0.5 ${sortKey === col.key && sortDirection === 'desc' ? 'text-blue-600' : ''}`}
+                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        aria-hidden="true"
+                      >
+                        <path d="M7 10l5 5 5-5H7z" />
+                      </svg>
+                    </span>
+                  )}
+                </span>
               </th>
             ))}
           </tr>

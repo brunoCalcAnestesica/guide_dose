@@ -1,0 +1,642 @@
+{
+  "PT": {
+    "nome": "Cefoxitina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções intra-abdominais",
+          "descricaoDose": "1–2 g IV 6–8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6–8h",
+            "ajusteRenal": "ClCr 30–50: 1–2 g 8–12h; ClCr 10–30: 1–2 g 12–24h; ClCr <10: 1–2 g 24–48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções pélvicas/ginecológicas",
+          "descricaoDose": "2 g IV 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 30–50: 1–2 g 8–12h; ClCr 10–30: 1–2 g 12–24h; ClCr <10: 1–2 g 24–48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirurgia colorretal",
+          "descricaoDose": "2 g IV 30–60 min antes da incisão (repetir 2/2h intraop).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes da incisão; repetir 2/2h intraop",
+            "ajusteRenal": "ClCr 30–50: 1–2 g 8–12h; ClCr 10–30: 1–2 g 12–24h; ClCr <10: 1–2 g 24–48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções moderadas a graves (pediátrico)",
+          "descricaoDose": "80–160 mg/kg/dia IV 4–6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 80,
+            "dosePorKgMax": 160,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4–6h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cefamicina (cefalosporina de 2ª geração); bactericida – inibe síntese da parede celular",
+      "apresentacoes": [
+        { "forma": "Frasco 1 g liofilizado", "obs": "Mefoxin®" },
+        { "forma": "Frasco 2 g liofilizado", "obs": "Compatível SF e SG 5%" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 1 g em 10 mL água estéril", "concentracao": "" },
+        { "diluicao": "Diluir em 50–100 mL SF ou SG 5%", "concentracao": "Para infusão" },
+        { "diluicao": "Infusão em 10–60 min", "concentracao": "IV" },
+        { "diluicao": "Estabilidade: 24 h TA, 1 semana refrigerado", "concentracao": "Após reconstituição" }
+      ],
+      "observacoes": [
+        "EXCELENTE cobertura de ANAERÓBIOS (Bacteroides fragilis).",
+        "Espectro: Gram+ moderado, Gram- (E. coli, Klebsiella), anaeróbios. NÃO cobre: MRSA, Pseudomonas, Enterobacter.",
+        "Resistente a beta-lactamases (estrutura cefamicina).",
+        "Profilaxia de escolha: cirurgias colorretais e ginecológicas.",
+        "Ajuste renal: ClCr 30–50 → 8/8h; ClCr 10–30 → 12/12h; ClCr <10 → 24–48h.",
+        "ATENÇÃO: pode induzir produção de AmpC em Enterobacter."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal. Ajuste de intervalo conforme ClCr.",
+        "renal": "ClCr 30–50: 1–2 g 8–12h; ClCr 10–30: 1–2 g 12–24h; ClCr <10: 1–2 g 24–48h.",
+        "hepatico": "NAO. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefoxitina – infecções pélvicas/ginecológicas (adulto)",
+        "doseTexto": "2 g IV 6/6h",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefoxitina – infecções intra-abdominais (adulto)",
+        "doseTexto": "1–2 g IV 6–8h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefoxitina – profilaxia cirurgia colorretal",
+        "doseTexto": "2 g IV 30–60 min antes da incisão",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefoxitina – pediátrico",
+        "doseTexto": "80–160 mg/kg/dia IV 4–6h",
+        "doseMin": 80,
+        "doseMax": 160,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Cefoxitin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intra-abdominal infections",
+          "descricaoDose": "1–2 g IV q6–8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6–8h",
+            "ajusteRenal": "ClCr 30–50: 1–2 g q8–12h; ClCr 10–30: 1–2 g q12–24h; ClCr <10: 1–2 g q24–48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pelvic/gynecological infections",
+          "descricaoDose": "2 g IV q6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "ClCr 30–50: 1–2 g q8–12h; ClCr 10–30: 1–2 g q12–24h; ClCr <10: 1–2 g q24–48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Colorectal surgery prophylaxis",
+          "descricaoDose": "2 g IV 30–60 min before incision (repeat q2h intraop).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30–60 min before incision; repeat q2h intraop",
+            "ajusteRenal": "ClCr 30–50: 1–2 g q8–12h; ClCr 10–30: 1–2 g q12–24h; ClCr <10: 1–2 g q24–48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Moderate to severe infections (pediatric)",
+          "descricaoDose": "80–160 mg/kg/day IV q4–6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 80,
+            "dosePorKgMax": 160,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4–6h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cephamycin (second-generation cephalosporin); bactericidal – inhibits cell wall synthesis",
+      "apresentacoes": [
+        { "forma": "Vial 1 g lyophilized", "obs": "Mefoxin®" },
+        { "forma": "Vial 2 g lyophilized", "obs": "Compatible with NS and D5W" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute 1 g with 10 mL sterile water", "concentracao": "" },
+        { "diluicao": "Dilute in 50–100 mL NS or D5W", "concentracao": "For infusion" },
+        { "diluicao": "Infuse over 10–60 min", "concentracao": "IV" },
+        { "diluicao": "Stability: 24 h room temp, 1 week refrigerated", "concentracao": "After reconstitution" }
+      ],
+      "observacoes": [
+        "EXCELLENT anaerobic coverage (Bacteroides fragilis).",
+        "Spectrum: moderate Gram+, Gram- (E. coli, Klebsiella), anaerobes. Does NOT cover: MRSA, Pseudomonas, Enterobacter.",
+        "Resistant to beta-lactamases (cephamycin structure).",
+        "Prophylaxis of choice: colorectal and gynecological surgery.",
+        "Renal adjustment: ClCr 30–50 → q8h; ClCr 10–30 → q12h; ClCr <10 → q24–48h.",
+        "CAUTION: may induce AmpC production in Enterobacter."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function. Interval adjustment per ClCr.",
+        "renal": "ClCr 30–50: 1–2 g q8–12h; ClCr 10–30: 1–2 g q12–24h; ClCr <10: 1–2 g q24–48h.",
+        "hepatico": "NAO. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefoxitin – pelvic/gynecological (adult)",
+        "doseTexto": "2 g IV q6h",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cefoxitin – intra-abdominal (adult)",
+        "doseTexto": "1–2 g IV q6–8h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cefoxitin – colorectal prophylaxis",
+        "doseTexto": "2 g IV 30–60 min before incision",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cefoxitin – pediatric",
+        "doseTexto": "80–160 mg/kg/day IV q4–6h",
+        "doseMin": 80,
+        "doseMax": 160,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Cefoxitina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones intraabdominales",
+          "descricaoDose": "1–2 g IV 6–8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6–8h",
+            "ajusteRenal": "ClCr 30–50: 1–2 g 8–12h; ClCr 10–30: 1–2 g 12–24h; ClCr <10: 1–2 g 24–48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones pélvicas/ginecológicas",
+          "descricaoDose": "2 g IV 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 30–50: 1–2 g 8–12h; ClCr 10–30: 1–2 g 12–24h; ClCr <10: 1–2 g 24–48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis cirugía colorrectal",
+          "descricaoDose": "2 g IV 30–60 min antes de la incisión (repetir 2/2h intraop).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes de la incisión; repetir 2/2h intraop",
+            "ajusteRenal": "ClCr 30–50: 1–2 g 8–12h; ClCr 10–30: 1–2 g 12–24h; ClCr <10: 1–2 g 24–48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones moderadas a graves (pediátrico)",
+          "descricaoDose": "80–160 mg/kg/día IV 4–6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 80,
+            "dosePorKgMax": 160,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4–6h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cefamicina (cefalosporina de 2ª generación); bactericida – inhibe síntesis de pared celular",
+      "apresentacoes": [
+        { "forma": "Frasco 1 g liofilizado", "obs": "Mefoxin®" },
+        { "forma": "Frasco 2 g liofilizado", "obs": "Compatible SF y SG 5%" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 1 g en 10 mL agua estéril", "concentracao": "" },
+        { "diluicao": "Diluir en 50–100 mL SF o SG 5%", "concentracao": "Para perfusión" },
+        { "diluicao": "Perfusión en 10–60 min", "concentracao": "IV" },
+        { "diluicao": "Estabilidad: 24 h ambiente, 1 semana refrigerado", "concentracao": "Tras reconstitución" }
+      ],
+      "observacoes": [
+        "EXCELENTE cobertura de ANAEROBIOS (Bacteroides fragilis).",
+        "Espectro: Gram+ moderado, Gram- (E. coli, Klebsiella), anaerobios. NO cubre: MRSA, Pseudomonas, Enterobacter.",
+        "Resistente a beta-lactamasas (estructura cefamicina).",
+        "Profilaxis de elección: cirugía colorrectal y ginecológica.",
+        "Ajuste renal: ClCr 30–50 → 8/8h; ClCr 10–30 → 12/12h; ClCr <10 → 24–48h.",
+        "ATENCIÓN: puede inducir producción de AmpC en Enterobacter."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal. Ajuste de intervalo según ClCr.",
+        "renal": "ClCr 30–50: 1–2 g 8–12h; ClCr 10–30: 1–2 g 12–24h; ClCr <10: 1–2 g 24–48h.",
+        "hepatico": "NAO. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefoxitina – pélvicas/ginecológicas (adulto)",
+        "doseTexto": "2 g IV 6/6h",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefoxitina – intraabdominales (adulto)",
+        "doseTexto": "1–2 g IV 6–8h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefoxitina – profilaxis colorrectal",
+        "doseTexto": "2 g IV 30–60 min antes de la incisión",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefoxitina – pediátrico",
+        "doseTexto": "80–160 mg/kg/día IV 4–6h",
+        "doseMin": 80,
+        "doseMax": 160,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "头孢西丁",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "腹腔感染",
+          "descricaoDose": "1–2 g 静注 每6–8小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6–8小时",
+            "ajusteRenal": "ClCr 30–50: 1–2 g 每8–12h; ClCr 10–30: 1–2 g 每12–24h; ClCr <10: 1–2 g 每24–48h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "盆腔/妇科感染",
+          "descricaoDose": "2 g 静注 每6小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 30–50: 1–2 g 每8–12h; ClCr 10–30: 1–2 g 每12–24h; ClCr <10: 1–2 g 每24–48h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "结直肠手术预防",
+          "descricaoDose": "2 g 静注 术前30–60分钟（术中每2小时重复）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "术前30–60分钟；术中每2小时重复",
+            "ajusteRenal": "ClCr 30–50: 1–2 g 每8–12h; ClCr 10–30: 1–2 g 每12–24h; ClCr <10: 1–2 g 每24–48h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "中重度感染（儿科）",
+          "descricaoDose": "80–160 mg/kg/日 静注 每4–6小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 80,
+            "dosePorKgMax": 160,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4–6小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "头孢霉素（第二代头孢菌素）；杀菌，抑制细胞壁合成",
+      "apresentacoes": [
+        { "forma": "西林瓶 1 g 冻干粉", "obs": "Mefoxin®" },
+        { "forma": "西林瓶 2 g 冻干粉", "obs": "与生理盐水、5%葡萄糖兼容" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g 用10 mL灭菌注射用水配制", "concentracao": "" },
+        { "diluicao": "稀释于50–100 mL生理盐水或5%葡萄糖", "concentracao": "用于输注" },
+        { "diluicao": "10–60分钟内输注", "concentracao": "静注" },
+        { "diluicao": "稳定性：室温24小时，冷藏1周", "concentracao": "配制后" }
+      ],
+      "observacoes": [
+        "厌氧菌覆盖佳（脆弱拟杆菌）。",
+        "谱：革兰阳性中等，革兰阴性（大肠、克雷伯）、厌氧菌。不覆盖：MRSA、假单胞菌、肠杆菌。",
+        "耐β-内酰胺酶（头孢霉素结构）。",
+        "结直肠及妇科手术预防首选。",
+        "肾调整：ClCr 30–50 → 每8h；ClCr 10–30 → 每12h；ClCr <10 → 每24–48h。",
+        "注意：可诱导肠杆菌AmpC产生。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "用药前评估肾功能。按ClCr调整间隔。",
+        "renal": "ClCr 30–50: 1–2 g 每8–12h; ClCr 10–30: 1–2 g 每12–24h; ClCr <10: 1–2 g 每24–48h。",
+        "hepatico": "NAO。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "头孢西丁 – 盆腔/妇科（成人）",
+        "doseTexto": "2 g 静注 每6小时",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢西丁 – 腹腔感染（成人）",
+        "doseTexto": "1–2 g 静注 每6–8小时",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢西丁 – 结直肠预防",
+        "doseTexto": "2 g 静注 术前30–60分钟",
+        "doseMin": 2000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢西丁 – 儿科",
+        "doseTexto": "80–160 mg/kg/日 静注 每4–6小时",
+        "doseMin": 80,
+        "doseMax": 160,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

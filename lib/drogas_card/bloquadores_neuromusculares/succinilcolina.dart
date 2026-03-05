@@ -9,7 +9,8 @@ class MedicamentoSuccinilcolina {
   static const String idBulario = 'succinilcolina';
 
   static Future<Map<String, dynamic>> carregarBulario() async {
-    final String jsonStr = await rootBundle.loadString('assets/medicamentos/succinilcolina.json');
+    final String jsonStr =
+        await rootBundle.loadString('assets/medicamentos/succinilcolina.json');
     final Map<String, dynamic> jsonMap = json.decode(jsonStr);
     return jsonMap['PT']['bulario'];
   }
@@ -20,7 +21,9 @@ class MedicamentoSuccinilcolina {
     return true;
   }
 
-  static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+  static Widget buildCard(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     // Verificar se deve mostrar o card para a faixa etária atual
     if (!_temIndicacoesParaFaixaEtaria()) {
       return const SizedBox.shrink();
@@ -28,7 +31,6 @@ class MedicamentoSuccinilcolina {
 
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
-    final isFavorito = favoritos.contains(nome);
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -46,7 +48,25 @@ class MedicamentoSuccinilcolina {
     );
   }
 
-  static Widget _buildCardSuccinilcolina(BuildContext context, double peso, String faixaEtaria, bool isFavorito, VoidCallback onToggleFavorito) {
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+
+    return _buildCardSuccinilcolina(
+      context,
+      peso,
+      faixaEtaria,
+      isFavorito,
+      () => onToggleFavorito(nome),
+    );
+  }
+
+  static Widget _buildCardSuccinilcolina(BuildContext context, double peso,
+      String faixaEtaria, bool isFavorito, VoidCallback onToggleFavorito) {
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
     final isNeonato = faixaEtaria == 'Neonato' || faixaEtaria == 'Lactente';
 
@@ -54,24 +74,36 @@ class MedicamentoSuccinilcolina {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const SizedBox(height: 16),
-        const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Classe',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoSuccinilcolina._textoObs('Bloqueador neuromuscular DESPOLARIZANTE - Ultra curta duração'),
+        MedicamentoSuccinilcolina._textoObs(
+            'Bloqueador neuromuscular DESPOLARIZANTE - Ultra curta duração'),
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoSuccinilcolina._linhaPreparo('Ampola 100mg/5mL (20mg/mL)', 'Anectine®, Quelicin®'),
-        MedicamentoSuccinilcolina._linhaPreparo('Início: 30-60 seg (IV), 2-3 min (IM)', 'Ultra rápido'),
-        MedicamentoSuccinilcolina._linhaPreparo('Duração: 4-6 minutos', 'Ultra curta - meia-vida 47 seg'),
+        MedicamentoSuccinilcolina._linhaPreparo(
+            'Ampola 100mg/5mL (20mg/mL)', 'Anectine®, Quelicin®'),
+        MedicamentoSuccinilcolina._linhaPreparo(
+            'Início: 30-60 seg (IV), 2-3 min (IM)', 'Ultra rápido'),
+        MedicamentoSuccinilcolina._linhaPreparo(
+            'Duração: 4-6 minutos', 'Ultra curta - meia-vida 47 seg'),
         const SizedBox(height: 16),
-        const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Preparo',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoSuccinilcolina._linhaPreparo('Pronto uso - NÃO diluir', 'Administrar diretamente'),
-        MedicamentoSuccinilcolina._linhaPreparo('Se necessário: diluir em SF 0,9%', 'Ajuste volume pediátrico'),
-        MedicamentoSuccinilcolina._linhaPreparo('NUNCA infusão contínua', 'Risco hipercalemia + bloqueio prolongado'),
-        MedicamentoSuccinilcolina._linhaPreparo('Armazenamento: 2-8°C refrigerado', 'Proteger da luz'),
+        MedicamentoSuccinilcolina._linhaPreparo(
+            'Pronto uso - NÃO diluir', 'Administrar diretamente'),
+        MedicamentoSuccinilcolina._linhaPreparo(
+            'Se necessário: diluir em SF 0,9%', 'Ajuste volume pediátrico'),
+        MedicamentoSuccinilcolina._linhaPreparo('NUNCA infusão contínua',
+            'Risco hipercalemia + bloqueio prolongado'),
+        MedicamentoSuccinilcolina._linhaPreparo(
+            'Armazenamento: 2-8°C refrigerado', 'Proteger da luz'),
         const SizedBox(height: 16),
-        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
           MedicamentoSuccinilcolina._linhaIndicacaoDoseCalculada(
@@ -133,15 +165,23 @@ class MedicamentoSuccinilcolina {
           ),
         ],
         const SizedBox(height: 16),
-        const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoSuccinilcolina._textoObs('PADRÃO OURO para sequência rápida intubação (onset 30-60 seg)'),
-        MedicamentoSuccinilcolina._textoObs('Bloqueador DESPOLARIZANTE - fasciculações antes bloqueio total'),
-        MedicamentoSuccinilcolina._textoObs('Duração ultra curta (4-6 min) - metabolizado por butirilcolinesterase'),
-        MedicamentoSuccinilcolina._textoObs('Não há antídoto - reversão depende da metabolização'),
-        MedicamentoSuccinilcolina._textoObs('Suporte ventilatório obrigatório até recuperação (4-10 min típico)'),
-        MedicamentoSuccinilcolina._textoObs('Monitorar: SatO2, capnografia, TOF, ECG (bradicardia/arritmias)'),
-        MedicamentoSuccinilcolina._textoObs('Doses IM: 3-5x dose IV (absorção lenta - onset 2-3 min)'),
+        MedicamentoSuccinilcolina._textoObs(
+            'PADRÃO OURO para sequência rápida intubação (onset 30-60 seg)'),
+        MedicamentoSuccinilcolina._textoObs(
+            'Bloqueador DESPOLARIZANTE - fasciculações antes bloqueio total'),
+        MedicamentoSuccinilcolina._textoObs(
+            'Duração ultra curta (4-6 min) - metabolizado por butirilcolinesterase'),
+        MedicamentoSuccinilcolina._textoObs(
+            'Não há antídoto - reversão depende da metabolização'),
+        MedicamentoSuccinilcolina._textoObs(
+            'Suporte ventilatório obrigatório até recuperação (4-10 min típico)'),
+        MedicamentoSuccinilcolina._textoObs(
+            'Monitorar: SatO2, capnografia, TOF, ECG (bradicardia/arritmias)'),
+        MedicamentoSuccinilcolina._textoObs(
+            'Doses IM: 3-5x dose IV (absorção lenta - onset 2-3 min)'),
       ],
     );
   }
@@ -160,8 +200,12 @@ class MedicamentoSuccinilcolina {
                 children: [
                   TextSpan(text: texto),
                   if (marca.isNotEmpty) ...[
-                    const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                    const TextSpan(
+                        text: ' | ',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(
+                        text: marca,
+                        style: const TextStyle(fontStyle: FontStyle.italic)),
                   ],
                 ],
               ),
@@ -196,7 +240,8 @@ class MedicamentoSuccinilcolina {
       if (doseMaxima != null) {
         doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
       }
-      textoDose = '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      textoDose =
+          '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(

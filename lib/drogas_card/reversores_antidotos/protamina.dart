@@ -15,9 +15,9 @@ class MedicamentoProtamina {
   }
 
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final isAdulto = SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
-    final isFavorito = favoritos.contains(nome);
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -34,6 +34,23 @@ class MedicamentoProtamina {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final isAdulto = SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
+
+    return _buildCardProtamina(
+      context,
+        peso,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static Widget _buildCardProtamina(BuildContext context, double peso, bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(

@@ -1,0 +1,918 @@
+{
+  "PT": {
+    "nome": "Quetiapina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Delirium em UTI",
+          "descricaoDose": "25-50 mg VO 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitação",
+          "descricaoDose": "50-200 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "50-200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Esquizofrenia (manutenção)",
+          "descricaoDose": "300-800 mg/dia VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 300,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "300-800 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ou dividido",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Transtorno bipolar (mania)",
+          "descricaoDose": "400-800 mg/dia VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "400-800 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ou dividido",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Insônia / delirium (sedação)",
+          "descricaoDose": "25-50 mg VO à noite",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "à noite",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Agitação em demência (off-label)",
+          "descricaoDose": "25-50 mg VO 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Delirium (idoso)",
+          "descricaoDose": "12,5-25 mg VO 2x/dia (iniciar baixo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitação (idoso)",
+          "descricaoDose": "25-100 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "25-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antipsicótico atípico (dibenzodiazepina)",
+      "apresentacoes": [
+        { "forma": "Comprimido liberação imediata 25 mg", "obs": "" },
+        { "forma": "Comprimido liberação imediata 50 mg", "obs": "" },
+        { "forma": "Comprimido liberação imediata 100 mg", "obs": "" },
+        { "forma": "Comprimido liberação imediata 200 mg", "obs": "" },
+        { "forma": "Comprimido liberação imediata 300 mg", "obs": "" },
+        { "forma": "Comprimido liberação prolongada (XR) 50-400 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Via oral apenas", "concentracao": "Não há forma injetável" },
+        { "diluicao": "Administrar com ou sem alimentos", "concentracao": "" },
+        { "diluicao": "XR: engolir inteiro, não partir ou mastigar", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Início: 1-2h | Pico: 1,5h (IR), 6h (XR) | Meia-vida: 6-7h",
+        "Metabolismo hepático (CYP3A4); excreção renal 73%",
+        "Sedação e hipotensão ortostática frequentes",
+        "Risco de ganho de peso e hiperglicemia",
+        "Idoso com demência: usar com cautela (risco AVC/mortalidade)",
+        "Evitar inibidores potentes de CYP3A4 (aumentam níveis)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com 12,5-25 mg 2x/dia; titular lentamente. Demência: cautela (risco AVC).",
+        "renal": "ClCr <30 mL/min: reduzir 50%. Hemodiálise: dose após diálise.",
+        "hepatico": "Insuficiência hepática moderada a grave: reduzir dose (CYP3A4)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Quetiapina (delirium)",
+        "doseTexto": "25-50 mg VO 2x/dia",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Quetiapina (agitação)",
+        "doseTexto": "50-200 mg VO",
+        "doseMin": 50,
+        "doseMax": 200,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Quetiapina (idoso - delirium)",
+        "doseTexto": "12,5-25 mg VO 2x/dia",
+        "doseMin": 12.5,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Quetiapine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ICU delirium",
+          "descricaoDose": "25-50 mg PO twice daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitation",
+          "descricaoDose": "50-200 mg PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "50-200 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Schizophrenia (maintenance)",
+          "descricaoDose": "300-800 mg/day PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 300,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "300-800 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily or divided",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Bipolar disorder (mania)",
+          "descricaoDose": "400-800 mg/day PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "400-800 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily or divided",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Insomnia / delirium (sedation)",
+          "descricaoDose": "25-50 mg PO at bedtime",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "at bedtime",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Agitation in dementia (off-label)",
+          "descricaoDose": "25-50 mg PO twice daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Delirium (elderly)",
+          "descricaoDose": "12.5-25 mg PO twice daily (start low)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitation (elderly)",
+          "descricaoDose": "25-100 mg PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "25-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Atypical antipsychotic (dibenzodiazepine)",
+      "apresentacoes": [
+        { "forma": "Immediate-release tablet 25 mg", "obs": "" },
+        { "forma": "Immediate-release tablet 50 mg", "obs": "" },
+        { "forma": "Immediate-release tablet 100 mg", "obs": "" },
+        { "forma": "Immediate-release tablet 200 mg", "obs": "" },
+        { "forma": "Immediate-release tablet 300 mg", "obs": "" },
+        { "forma": "Extended-release (XR) tablet 50-400 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral route only", "concentracao": "No injectable form" },
+        { "diluicao": "Give with or without food", "concentracao": "" },
+        { "diluicao": "XR: swallow whole, do not split or chew", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Onset: 1-2h | Peak: 1.5h (IR), 6h (XR) | Half-life: 6-7h",
+        "Hepatic metabolism (CYP3A4); renal excretion 73%",
+        "Sedation and orthostatic hypotension common",
+        "Risk of weight gain and hyperglycemia",
+        "Elderly with dementia: use with caution (stroke/mortality risk)",
+        "Avoid potent CYP3A4 inhibitors (increase levels)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start 12.5-25 mg twice daily; titrate slowly. Dementia: caution (stroke risk).",
+        "renal": "CrCl <30 mL/min: reduce 50%. Hemodialysis: dose after dialysis.",
+        "hepatico": "Moderate to severe hepatic impairment: reduce dose (CYP3A4)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Quetiapine (delirium)",
+        "doseTexto": "25-50 mg PO twice daily",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Quetiapine (agitation)",
+        "doseTexto": "50-200 mg PO",
+        "doseMin": 50,
+        "doseMax": 200,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Quetiapine (elderly - delirium)",
+        "doseTexto": "12.5-25 mg PO twice daily",
+        "doseMin": 12.5,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Quetiapina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Delirium en UCI",
+          "descricaoDose": "25-50 mg VO 2 veces/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2 veces/día",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitación",
+          "descricaoDose": "50-200 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "50-200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Esquizofrenia (mantenimiento)",
+          "descricaoDose": "300-800 mg/día VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 300,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "300-800 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1 vez/día o dividido",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Trastorno bipolar (mania)",
+          "descricaoDose": "400-800 mg/día VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "400-800 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1 vez/día o dividido",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Insomnio / delirium (sedación)",
+          "descricaoDose": "25-50 mg VO al acostarse",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "al acostarse",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Agitación en demencia (off-label)",
+          "descricaoDose": "25-50 mg VO 2 veces/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2 veces/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Delirium (anciano)",
+          "descricaoDose": "12,5-25 mg VO 2 veces/día (iniciar bajo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2 veces/día",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitación (anciano)",
+          "descricaoDose": "25-100 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "25-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antipsicótico atípico (dibenzodiazepina)",
+      "apresentacoes": [
+        { "forma": "Comprimido liberación inmediata 25 mg", "obs": "" },
+        { "forma": "Comprimido liberación inmediata 50 mg", "obs": "" },
+        { "forma": "Comprimido liberación inmediata 100 mg", "obs": "" },
+        { "forma": "Comprimido liberación inmediata 200 mg", "obs": "" },
+        { "forma": "Comprimido liberación inmediata 300 mg", "obs": "" },
+        { "forma": "Comprimido liberación prolongada (XR) 50-400 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Solo vía oral", "concentracao": "No hay forma inyectable" },
+        { "diluicao": "Administrar con o sin alimentos", "concentracao": "" },
+        { "diluicao": "XR: tragar entero, no partir ni masticar", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Inicio: 1-2h | Pico: 1,5h (IR), 6h (XR) | Vida media: 6-7h",
+        "Metabolismo hepático (CYP3A4); excreción renal 73%",
+        "Sedación e hipotensión ortostática frecuentes",
+        "Riesgo de ganancia de peso e hiperglucemia",
+        "Anciano con demencia: usar con precaución (riesgo AVC/mortalidad)",
+        "Evitar inhibidores potentes de CYP3A4 (aumentan niveles)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar 12,5-25 mg 2 veces/día; titular lentamente. Demencia: precaución (riesgo AVC).",
+        "renal": "ClCr <30 mL/min: reducir 50%. Hemodiálisis: dosis tras diálisis.",
+        "hepatico": "Insuficiencia hepática moderada a grave: reducir dosis (CYP3A4)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Quetiapina (delirium)",
+        "doseTexto": "25-50 mg VO 2 veces/día",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Quetiapina (agitación)",
+        "doseTexto": "50-200 mg VO",
+        "doseMin": 50,
+        "doseMax": 200,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Quetiapina (anciano - delirium)",
+        "doseTexto": "12,5-25 mg VO 2 veces/día",
+        "doseMin": 12.5,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "喹硫平",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ICU谵妄",
+          "descricaoDose": "25-50 mg 口服 每日两次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: 减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "激越",
+          "descricaoDose": "50-200 mg 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "50-200 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "精神分裂症（维持）",
+          "descricaoDose": "300-800 mg/日 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 300,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "300-800 mg/日",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily or divided",
+            "ajusteRenal": "CrCl <30: 减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "双相障碍（躁狂）",
+          "descricaoDose": "400-800 mg/日 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 800,
+            "doseMaxima": 800,
+            "doseFixa": "400-800 mg/日",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily or divided",
+            "ajusteRenal": "CrCl <30: 减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "失眠/谵妄（镇静）",
+          "descricaoDose": "25-50 mg 口服 睡前",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "at bedtime",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "痴呆激越（超适应症）",
+          "descricaoDose": "25-50 mg 口服 每日两次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "25-50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "谵妄（老年）",
+          "descricaoDose": "12.5-25 mg 口服 每日两次（从低剂量开始）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: 减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "激越（老年）",
+          "descricaoDose": "25-100 mg 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "25-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "非典型抗精神病药（二苯并二氮卓）",
+      "apresentacoes": [
+        { "forma": "速释片 25 mg", "obs": "" },
+        { "forma": "速释片 50 mg", "obs": "" },
+        { "forma": "速释片 100 mg", "obs": "" },
+        { "forma": "速释片 200 mg", "obs": "" },
+        { "forma": "速释片 300 mg", "obs": "" },
+        { "forma": "缓释片(XR) 50-400 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "仅口服", "concentracao": "无注射剂型" },
+        { "diluicao": "可与食物同服或空腹", "concentracao": "" },
+        { "diluicao": "XR：整片吞服，勿掰开或咀嚼", "concentracao": "" }
+      ],
+      "observacoes": [
+        "起效1-2h | 峰浓度1.5h(IR)、6h(XR) | 半衰期6-7h",
+        "肝代谢(CYP3A4)；肾排泄73%",
+        "常见镇静与直立性低血压",
+        "体重增加与高血糖风险",
+        "老年痴呆：慎用(卒中/死亡风险)",
+        "避免强CYP3A4抑制剂(升高浓度)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从12.5-25 mg 每日两次起始；缓慢加量。痴呆：慎用(卒中风险)。",
+        "renal": "CrCl <30 mL/min：减量50%。血液透析：透析后给药。",
+        "hepatico": "中重度肝损：减量(CYP3A4)。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "喹硫平（谵妄）",
+        "doseTexto": "25-50 mg 口服 每日两次",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "喹硫平（激越）",
+        "doseTexto": "50-200 mg 口服",
+        "doseMin": 50,
+        "doseMax": 200,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "喹硫平（老年-谵妄）",
+        "doseTexto": "12.5-25 mg 口服 每日两次",
+        "doseMin": 12.5,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  }
+}

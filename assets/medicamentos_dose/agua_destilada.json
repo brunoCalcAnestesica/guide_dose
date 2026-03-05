@@ -1,0 +1,446 @@
+{
+  "PT": {
+    "nome": "Água Destilada",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Diluição de medicamentos",
+          "descricaoDose": "Volume conforme bula do fármaco (2 mL a 100 mL conforme orientação)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Conforme necessidade",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV/IM/SC",
+            "intervalo": "conforme preparo do medicamento",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Lavagem de cateter / flush",
+          "descricaoDose": "5-10 mL para flush de cateter ou sonda",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Irrigação / limpeza de feridas",
+          "descricaoDose": "Irrigação estéril conforme volume necessário (não infundir IV em bolus)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Conforme necessidade",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "Tópica/irrigação",
+            "intervalo": "conforme protocolo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Veículo – Solução estéril; diluente universal; solução hipotônica",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 2 mL, 5 mL, 10 mL, 20 mL, 50 mL", "obs": "Uso injetável – reconstituição" },
+        { "forma": "Bolsa de irrigação 250 mL, 500 mL, 1000 mL", "obs": "Uso estéril – irrigação" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronta para uso", "concentracao": "Não diluir" },
+        { "diluicao": "Reconstituição de medicamentos", "concentracao": "Volume conforme bula do fármaco (2-100 mL)" }
+      ],
+      "observacoes": [
+        "Solução estéril para uso médico e farmacêutico – não contém conservantes",
+        "Hipotônica: não infundir em bolus ou grandes volumes IV isolados (risco de hemólise)",
+        "Diluente para reconstituição de antibióticos liofilizados, vacinas e medicamentos compatíveis",
+        "Verificar compatibilidade com o princípio ativo antes da reconstituição",
+        "Frascos abertos descartar em 24 h salvo em sistema fechado e asséptico",
+        "Armazenar entre 15°C e 30°C; proteger da luz"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Não se aplica para reconstituição ou irrigação. Evitar infusão IV isolada em grandes volumes.",
+        "renal": "Não se aplica para reconstituição. Evitar infusão parenteral de grandes volumes em insuficiência renal grave.",
+        "hepatico": "Não aplicável em diluições ou irrigação tópica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Água Destilada – diluição",
+        "doseTexto": "Conforme bula do medicamento (2-100 mL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "Conforme necessidade",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Água Destilada – lavagem de cateter",
+        "doseTexto": "5-10 mL para flush",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mL",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Distilled Water",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Medication dilution",
+          "descricaoDose": "Volume per drug package insert (2 mL to 100 mL as directed)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "As needed",
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV/IM/SC",
+            "intervalo": "per medication preparation",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Catheter flush",
+          "descricaoDose": "5-10 mL for catheter or line flush",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mL",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as needed",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Irrigation / wound cleansing",
+          "descricaoDose": "Sterile irrigation as needed (do not give IV bolus)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "As needed",
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "Topical/irrigation",
+            "intervalo": "per protocol",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vehicle – Sterile solution; universal diluent; hypotonic solution",
+      "apresentacoes": [
+        { "forma": "Vial 2 mL, 5 mL, 10 mL, 20 mL, 50 mL", "obs": "Injectable use – reconstitution" },
+        { "forma": "Irrigation bag 250 mL, 500 mL, 1000 mL", "obs": "Sterile use – irrigation" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for use", "concentracao": "Do not dilute" },
+        { "diluicao": "Medication reconstitution", "concentracao": "Volume per drug package insert (2-100 mL)" }
+      ],
+      "observacoes": [
+        "Sterile solution for medical and pharmaceutical use – no preservatives",
+        "Hypotonic: do not give as IV bolus or large isolated IV volumes (hemolysis risk)",
+        "Diluent for reconstitution of lyophilized antibiotics, vaccines and compatible drugs",
+        "Verify compatibility with active ingredient before reconstitution",
+        "Discard opened vials within 24 h unless in closed aseptic system",
+        "Store between 15°C and 30°C; protect from light"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Not applicable for reconstitution or irrigation. Avoid isolated large IV infusion.",
+        "renal": "Not applicable for reconstitution. Avoid large parenteral volumes in severe renal failure.",
+        "hepatico": "Not applicable for dilutions or topical irrigation."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Distilled Water – dilution",
+        "doseTexto": "Per drug insert (2-100 mL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "As needed",
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "Distilled Water – catheter flush",
+        "doseTexto": "5-10 mL for flush",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mL",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Agua destilada",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dilución de medicamentos",
+          "descricaoDose": "Volumen según ficha técnica (2 mL a 100 mL según indicación)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Según necesidad",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV/IM/SC",
+            "intervalo": "según preparación del medicamento",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Lavado de catéter / flush",
+          "descricaoDose": "5-10 mL para flush de catéter o sonda",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Irrigación / limpieza de heridas",
+          "descricaoDose": "Irrigación estéril según volumen necesario (no infundir IV en bolo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Según necesidad",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "Tópica/irrigación",
+            "intervalo": "según protocolo",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vehículo – Solución estéril; diluyente universal; solución hipotónica",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 2 mL, 5 mL, 10 mL, 20 mL, 50 mL", "obs": "Uso inyectable – reconstitución" },
+        { "forma": "Bolsa de irrigación 250 mL, 500 mL, 1000 mL", "obs": "Uso estéril – irrigación" }
+      ],
+      "preparo": [
+        { "diluicao": "Lista para uso", "concentracao": "No diluir" },
+        { "diluicao": "Reconstitución de medicamentos", "concentracao": "Volumen según ficha técnica (2-100 mL)" }
+      ],
+      "observacoes": [
+        "Solución estéril para uso médico y farmacéutico – sin conservantes",
+        "Hipotónica: no infundir en bolo ni grandes volúmenes IV aislados (riesgo de hemólisis)",
+        "Diluyente para reconstitución de antibióticos liofilizados, vacunas y medicamentos compatibles",
+        "Verificar compatibilidad con el principio activo antes de la reconstitución",
+        "Descartar frascos abiertos en 24 h salvo sistema cerrado y aséptico",
+        "Conservar entre 15°C y 30°C; proteger de la luz"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No aplica para reconstitución o irrigación. Evitar infusión IV aislada en grandes volúmenes.",
+        "renal": "No aplica para reconstitución. Evitar grandes volúmenes parenterales en insuficiencia renal grave.",
+        "hepatico": "No aplicable en diluciones o irrigación tópica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Agua destilada – dilución",
+        "doseTexto": "Según ficha del medicamento (2-100 mL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "Según necesidad",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Agua destilada – lavado de catéter",
+        "doseTexto": "5-10 mL para flush",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mL",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "蒸馏水",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "药物稀释",
+          "descricaoDose": "体积按药品说明书（2 mL 至 100 mL 按说明）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "按需",
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV/IM/SC",
+            "intervalo": "按药物配制",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "导管冲洗",
+          "descricaoDose": "5-10 mL 用于导管或管路冲洗",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mL",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按需",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "冲洗/伤口清洁",
+          "descricaoDose": "无菌冲洗按需（勿静脉推注）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "按需",
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "局部/冲洗",
+            "intervalo": "按规范",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "溶媒 – 无菌溶液；通用稀释剂；低渗溶液",
+      "apresentacoes": [
+        { "forma": "安瓿 2 mL、5 mL、10 mL、20 mL、50 mL", "obs": "注射用 – 复溶" },
+        { "forma": "冲洗袋 250 mL、500 mL、1000 mL", "obs": "无菌用 – 冲洗" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "勿稀释" },
+        { "diluicao": "药物复溶", "concentracao": "体积按说明书（2-100 mL）" }
+      ],
+      "observacoes": [
+        "医用与药用无菌溶液 – 无防腐剂",
+        "低渗：勿静脉推注或大量单独静脉输注（溶血风险）",
+        "用于冻干抗生素、疫苗及相容药物的稀释",
+        "复溶前确认与活性成分相容",
+        "开启后 24 小时内丢弃（密闭无菌系统除外）",
+        "15-30°C 保存；避光"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "不适用于复溶或冲洗。避免大量单独静脉输注。",
+        "renal": "不适用于复溶。严重肾功能不全时避免大量肠外输注。",
+        "hepatico": "稀释或局部冲洗不适用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "蒸馏水 – 稀释",
+        "doseTexto": "按药品说明书（2-100 mL）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "按需",
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "蒸馏水 – 导管冲洗",
+        "doseTexto": "5-10 mL 冲洗",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mL",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

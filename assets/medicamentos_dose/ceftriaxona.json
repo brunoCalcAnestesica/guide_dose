@@ -1,0 +1,1334 @@
+{
+  "PT": {
+    "nome": "Ceftriaxona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções comuns",
+          "descricaoDose": "1–2 g IV 1x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50% se dose >2 g/dia.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite bacteriana",
+          "descricaoDose": "2 g IV 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: reduzir 50% se dose >2 g/dia.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pneumonia comunitária",
+          "descricaoDose": "1–2 g IV 1x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50% se dose >2 g/dia.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções urinárias complicadas",
+          "descricaoDose": "1–2 g IV 1x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50% se dose >2 g/dia.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Gonorreia não complicada",
+          "descricaoDose": "250 mg IM dose única.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neurossífilis",
+          "descricaoDose": "2 g IV 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: reduzir 50% se dose >2 g/dia.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "1–2 g IV 30–60 min antes da incisão.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes da incisão",
+            "ajusteRenal": "ClCr <30: reduzir 50% se dose >2 g/dia.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções pediátricas gerais",
+          "descricaoDose": "50–100 mg/kg/dia IV 1x/dia (máx 4 g/dia).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite bacteriana pediátrica",
+          "descricaoDose": "80–100 mg/kg/dia IV divididos 12/12h (máx 4 g/dia).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 80,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves pediátricas",
+          "descricaoDose": "100 mg/kg/dia IV 1x/dia (máx 4 g/dia).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Recém-nascido (evitar cálcio IV)",
+          "descricaoDose": "50 mg/kg/dia IV 1x/dia.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cefalosporina de 3ª geração; bactericida – inibe síntese da parede celular",
+      "apresentacoes": [
+        { "forma": "Frasco 250 mg liofilizado", "obs": "Reconstituir com água estéril, lidocaína 1% (IM), SF 0,9% ou SG 5% (IV)" },
+        { "forma": "Frasco 500 mg liofilizado", "obs": "Idem" },
+        { "forma": "Frasco 1 g liofilizado", "obs": "Idem" },
+        { "forma": "Frasco 2 g liofilizado", "obs": "Idem" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g IV: 10 mL água estéril", "concentracao": "Administrar em 2–4 min ou diluir em 100 mL e infundir em 30 min" },
+        { "diluicao": "1 g IM: 3,5 mL lidocaína 1% (sem epinefrina)", "concentracao": "Reduz dor local" },
+        { "diluicao": "Solução pronta: 6 h ambiente ou 24 h refrigerado", "concentracao": "Após reconstituição" },
+        { "diluicao": "Incompatível com soluções contendo cálcio", "concentracao": "Risco de precipitação fatal em neonatos" }
+      ],
+      "observacoes": [
+        "Cefalosporina de 3ª geração – bactericida tempo-dependente.",
+        "Amplo espectro: gram-positivos e gram-negativos. Excelente penetração no LCR – opção preferencial em meningites.",
+        "Meia-vida longa (6–9 h) – permite dose única diária.",
+        "Ativa contra: S. pneumoniae, N. meningitidis, H. influenzae, E. coli, Klebsiella. NÃO ativa contra: Enterococcus, P. aeruginosa, ESBL.",
+        "CONTRAINDICADO: neonatos recebendo cálcio IV. Evitar hiperbilirrubinemia neonatal.",
+        "Ajuste renal: ClCr <30 mL/min: reduzir 50% se dose >2 g/dia."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Avaliar função renal se dose >2 g/dia.",
+        "renal": "ClCr ≥30: sem ajuste. ClCr <30: 50% da dose se uso >2 g/dia. Hemodiálise: não requer dose suplementar.",
+        "hepatico": "Não é necessário ajuste isolado. Em disfunção hepatorrenal combinada: monitorar e considerar redução."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ceftriaxona – infecções comuns (adulto)",
+        "doseTexto": "1–2 g IV 1x/dia",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftriaxona – meningite (adulto)",
+        "doseTexto": "2 g IV 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftriaxona – gonorreia",
+        "doseTexto": "250 mg IM dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftriaxona – profilaxia cirúrgica",
+        "doseTexto": "1–2 g IV 30–60 min antes da incisão",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftriaxona – pediátrico",
+        "doseTexto": "50–100 mg/kg/dia IV 1x/dia (máx 4 g)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ceftriaxona – meningite (pediátrico)",
+        "doseTexto": "80–100 mg/kg/dia IV 12/12h (máx 4 g)",
+        "doseMin": 80,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ceftriaxone",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Common infections",
+          "descricaoDose": "1–2 g IV once daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: reduce 50% if dose >2 g/day.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bacterial meningitis",
+          "descricaoDose": "2 g IV q12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q12h",
+            "ajusteRenal": "ClCr <30: reduce 50% if dose >2 g/day.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Community-acquired pneumonia",
+          "descricaoDose": "1–2 g IV once daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: reduce 50% if dose >2 g/day.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Complicated urinary tract infections",
+          "descricaoDose": "1–2 g IV once daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: reduce 50% if dose >2 g/day.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Uncomplicated gonorrhea",
+          "descricaoDose": "250 mg IM single dose.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "250 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neurosyphilis",
+          "descricaoDose": "2 g IV q12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q12h",
+            "ajusteRenal": "ClCr <30: reduce 50% if dose >2 g/day.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "1–2 g IV 30–60 min before incision.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30–60 min before incision",
+            "ajusteRenal": "ClCr <30: reduce 50% if dose >2 g/day.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "General pediatric infections",
+          "descricaoDose": "50–100 mg/kg/day IV once daily (max 4 g/day).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric bacterial meningitis",
+          "descricaoDose": "80–100 mg/kg/day IV q12h (max 4 g/day).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 80,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe pediatric infections",
+          "descricaoDose": "100 mg/kg/day IV once daily (max 4 g/day).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonate (avoid calcium IV)",
+          "descricaoDose": "50 mg/kg/day IV once daily.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Third-generation cephalosporin; bactericidal – inhibits cell wall synthesis",
+      "apresentacoes": [
+        { "forma": "Vial 250 mg lyophilized", "obs": "Reconstitute with sterile water, 1% lidocaine (IM), 0.9% saline or D5W (IV)" },
+        { "forma": "Vial 500 mg lyophilized", "obs": "Same" },
+        { "forma": "Vial 1 g lyophilized", "obs": "Same" },
+        { "forma": "Vial 2 g lyophilized", "obs": "Same" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g IV: 10 mL sterile water", "concentracao": "Administer over 2–4 min or dilute in 100 mL and infuse over 30 min" },
+        { "diluicao": "1 g IM: 3.5 mL 1% lidocaine (without epinephrine)", "concentracao": "Reduces local pain" },
+        { "diluicao": "Ready solution: 6 h room temp or 24 h refrigerated", "concentracao": "After reconstitution" },
+        { "diluicao": "Incompatible with calcium-containing solutions", "concentracao": "Risk of fatal precipitation in neonates" }
+      ],
+      "observacoes": [
+        "Third-generation cephalosporin – time-dependent bactericidal.",
+        "Broad spectrum: gram-positive and gram-negative. Excellent CSF penetration – preferred option in meningitis.",
+        "Long half-life (6–9 h) – allows once-daily dosing.",
+        "Active against: S. pneumoniae, N. meningitidis, H. influenzae, E. coli, Klebsiella. NOT active against: Enterococcus, P. aeruginosa, ESBL.",
+        "CONTRAINDICATED: neonates receiving IV calcium. Avoid in severe neonatal hyperbilirubinemia.",
+        "Renal adjustment: ClCr <30 mL/min: reduce 50% if dose >2 g/day."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Assess renal function if dose >2 g/day.",
+        "renal": "ClCr ≥30: no adjustment. ClCr <30: 50% of dose if use >2 g/day. Hemodialysis: no supplemental dose required.",
+        "hepatico": "No isolated adjustment needed. In combined hepatorenal dysfunction: monitor and consider reduction."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ceftriaxone – common infections (adult)",
+        "doseTexto": "1–2 g IV once daily",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ceftriaxone – meningitis (adult)",
+        "doseTexto": "2 g IV q12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ceftriaxone – gonorrhea",
+        "doseTexto": "250 mg IM single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ceftriaxone – surgical prophylaxis",
+        "doseTexto": "1–2 g IV 30–60 min before incision",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ceftriaxone – pediatric",
+        "doseTexto": "50–100 mg/kg/day IV once daily (max 4 g)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Ceftriaxone – meningitis (pediatric)",
+        "doseTexto": "80–100 mg/kg/day IV q12h (max 4 g)",
+        "doseMin": 80,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ceftriaxona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones comunes",
+          "descricaoDose": "1–2 g IV 1x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: reducir 50% si dosis >2 g/día.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis bacteriana",
+          "descricaoDose": "2 g IV 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: reducir 50% si dosis >2 g/día.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Neumonía comunitaria",
+          "descricaoDose": "1–2 g IV 1x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: reducir 50% si dosis >2 g/día.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones urinarias complicadas",
+          "descricaoDose": "1–2 g IV 1x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: reducir 50% si dosis >2 g/día.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Gonorrea no complicada",
+          "descricaoDose": "250 mg IM dosis única.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neurosífilis",
+          "descricaoDose": "2 g IV 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: reducir 50% si dosis >2 g/día.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "1–2 g IV 30–60 min antes de la incisión.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes de la incisión",
+            "ajusteRenal": "ClCr <30: reducir 50% si dosis >2 g/día.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones pediátricas generales",
+          "descricaoDose": "50–100 mg/kg/día IV 1x/día (máx 4 g/día).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis bacteriana pediátrica",
+          "descricaoDose": "80–100 mg/kg/día IV 12/12h (máx 4 g/día).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 80,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves pediátricas",
+          "descricaoDose": "100 mg/kg/día IV 1x/día (máx 4 g/día).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Recién nacido (evitar calcio IV)",
+          "descricaoDose": "50 mg/kg/día IV 1x/día.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cefalosporina de 3ª generación; bactericida – inhibe síntesis de pared celular",
+      "apresentacoes": [
+        { "forma": "Frasco 250 mg liofilizado", "obs": "Reconstituir con agua estéril, lidocaína 1% (IM), SF 0,9% o SG 5% (IV)" },
+        { "forma": "Frasco 500 mg liofilizado", "obs": "Idem" },
+        { "forma": "Frasco 1 g liofilizado", "obs": "Idem" },
+        { "forma": "Frasco 2 g liofilizado", "obs": "Idem" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g IV: 10 mL agua estéril", "concentracao": "Administrar en 2–4 min o diluir en 100 mL e infundir en 30 min" },
+        { "diluicao": "1 g IM: 3,5 mL lidocaína 1% (sin epinefrina)", "concentracao": "Reduce dolor local" },
+        { "diluicao": "Solución lista: 6 h ambiente o 24 h refrigerado", "concentracao": "Tras reconstitución" },
+        { "diluicao": "Incompatible con soluciones que contengan calcio", "concentracao": "Riesgo de precipitación fatal en neonatos" }
+      ],
+      "observacoes": [
+        "Cefalosporina de 3ª generación – bactericida tiempo-dependiente.",
+        "Amplio espectro: grampositivos y gramnegativos. Excelente penetración en LCR – opción preferencial en meningitis.",
+        "Vida media larga (6–9 h) – permite dosis única diaria.",
+        "Activa contra: S. pneumoniae, N. meningitidis, H. influenzae, E. coli, Klebsiella. NO activa contra: Enterococcus, P. aeruginosa, BLEE.",
+        "CONTRAINDICADO: neonatos que reciben calcio IV. Evitar hiperbilirrubinemia neonatal grave.",
+        "Ajuste renal: ClCr <30 mL/min: reducir 50% si dosis >2 g/día."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Valorar función renal si dosis >2 g/día.",
+        "renal": "ClCr ≥30: sin ajuste. ClCr <30: 50% de la dosis si uso >2 g/día. Hemodiálisis: no requiere dosis suplementaria.",
+        "hepatico": "No es necesario ajuste aislado. En disfunción hepatorrenal combinada: monitorizar y considerar reducción."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ceftriaxona – infecciones comunes (adulto)",
+        "doseTexto": "1–2 g IV 1x/día",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftriaxona – meningitis (adulto)",
+        "doseTexto": "2 g IV 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftriaxona – gonorrea",
+        "doseTexto": "250 mg IM dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftriaxona – profilaxis quirúrgica",
+        "doseTexto": "1–2 g IV 30–60 min antes de la incisión",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftriaxona – pediátrico",
+        "doseTexto": "50–100 mg/kg/día IV 1x/día (máx 4 g)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ceftriaxona – meningitis (pediátrico)",
+        "doseTexto": "80–100 mg/kg/día IV 12/12h (máx 4 g)",
+        "doseMin": 80,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "头孢曲松",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "常见感染",
+          "descricaoDose": "1–2 g 静注 每日一次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <30：若剂量>2 g/日则减量50%。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "细菌性脑膜炎",
+          "descricaoDose": "2 g 静注 每12小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <30：若剂量>2 g/日则减量50%。",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "社区获得性肺炎",
+          "descricaoDose": "1–2 g 静注 每日一次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <30：若剂量>2 g/日则减量50%。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "复杂性尿路感染",
+          "descricaoDose": "1–2 g 静注 每日一次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <30：若剂量>2 g/日则减量50%。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "单纯性淋病",
+          "descricaoDose": "250 mg 肌注 单次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "250 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "神经梅毒",
+          "descricaoDose": "2 g 静注 每12小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <30：若剂量>2 g/日则减量50%。",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "1–2 g 静注 切皮前30–60分钟。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "切皮前30–60分钟",
+            "ajusteRenal": "ClCr <30：若剂量>2 g/日则减量50%。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童一般感染",
+          "descricaoDose": "50–100 mg/kg/日 静注 每日一次（最大4 g/日）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童细菌性脑膜炎",
+          "descricaoDose": "80–100 mg/kg/日 静注 每12小时（最大4 g/日）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 80,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童严重感染",
+          "descricaoDose": "100 mg/kg/日 静注 每日一次（最大4 g/日）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "新生儿（避免静注钙剂）",
+          "descricaoDose": "50 mg/kg/日 静注 每日一次。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "第三代头孢菌素；杀菌，抑制细胞壁合成",
+      "apresentacoes": [
+        { "forma": "西林瓶 250 mg 冻干粉", "obs": "用灭菌注射用水、1%利多卡因（肌注）、0.9%生理盐水或5%葡萄糖（静注）配制" },
+        { "forma": "西林瓶 500 mg 冻干粉", "obs": "同上" },
+        { "forma": "西林瓶 1 g 冻干粉", "obs": "同上" },
+        { "forma": "西林瓶 2 g 冻干粉", "obs": "同上" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g 静注：10 mL 灭菌注射用水", "concentracao": "2–4分钟内推注或稀释于100 mL 30分钟内输注" },
+        { "diluicao": "1 g 肌注：3.5 mL 1%利多卡因（无肾上腺素）", "concentracao": "减轻局部疼痛" },
+        { "diluicao": "配制后：室温6小时或冷藏24小时", "concentracao": "稳定性" },
+        { "diluicao": "与含钙溶液不相容", "concentracao": "新生儿有致命沉淀风险" }
+      ],
+      "observacoes": [
+        "第三代头孢菌素，时间依赖性杀菌。",
+        "广谱：革兰阳性与阴性。脑脊液穿透佳，脑膜炎首选。",
+        "半衰期长（6–9 h），可每日一次给药。",
+        "对：肺炎链球菌、脑膜炎奈瑟菌、流感嗜血杆菌、大肠、克雷伯有效。对：肠球菌、铜绿假单胞菌、ESBL无效。",
+        "禁忌：新生儿静注钙剂。避免严重新生儿高胆红素血症。",
+        "肾调整：ClCr <30 mL/min：若剂量>2 g/日则减量50%。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。若剂量>2 g/日需评估肾功能。",
+        "renal": "ClCr ≥30：无需调整。ClCr <30：若>2 g/日则剂量减半。血液透析：无需补充剂量。",
+        "hepatico": "无需单独调整。肝肾联合功能障碍时监测并考虑减量。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "头孢曲松 – 常见感染（成人）",
+        "doseTexto": "1–2 g 静注 每日一次",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢曲松 – 脑膜炎（成人）",
+        "doseTexto": "2 g 静注 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢曲松 – 淋病",
+        "doseTexto": "250 mg 肌注 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "250 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢曲松 – 手术预防",
+        "doseTexto": "1–2 g 静注 切皮前30–60分钟",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢曲松 – 儿童",
+        "doseTexto": "50–100 mg/kg/日 静注 每日一次（最大4 g）",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "头孢曲松 – 脑膜炎（儿童）",
+        "doseTexto": "80–100 mg/kg/日 静注 每12小时（最大4 g）",
+        "doseMin": 80,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

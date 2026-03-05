@@ -1,0 +1,570 @@
+{
+  "PT": {
+    "nome": "Sucralfato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Úlcera duodenal ou gástrica",
+          "descricaoDose": "1 g VO 4x/dia (1h antes das refeições e ao deitar) ou 2 g VO 2x/dia por 4-8 semanas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "1 g 4x/dia ou 2 g 2x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/dia ou 2x/dia",
+            "ajusteRenal": "ClCr <30: evitar (acúmulo de alumínio)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia de úlcera de estresse",
+          "descricaoDose": "1 g VO ou SNG 6/6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/SNG",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr <30: evitar (acúmulo de alumínio)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mucosite oral",
+          "descricaoDose": "1 g bochechar e engolir 4x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/dia",
+            "ajusteRenal": "ClCr <30: evitar (acúmulo de alumínio)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (úlcera / profilaxia)",
+          "descricaoDose": "40-80 mg/kg/dia VO divididos em 4 doses (máx 1 g/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/dia",
+            "ajusteRenal": "Insuficiência renal: evitar ou reduzir (acúmulo de alumínio)",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Citoprotetor gástrico - Sal de alumínio da sacarose sulfatada",
+      "apresentacoes": [
+        { "forma": "Comprimidos 1 g", "obs": "Não triturar" },
+        { "forma": "Suspensão oral 1 g/5 mL (200 mg/mL)", "obs": "Agitar bem antes de usar" }
+      ],
+      "preparo": [
+        { "diluicao": "Comprimido: administrar inteiro com água", "concentracao": "1 g/comprimido" },
+        { "diluicao": "Suspensão: usar conforme rotulagem", "concentracao": "200 mg/mL" }
+      ],
+      "observacoes": [
+        "Requer ambiente ácido para ativação (pH < 4) - administrar 1h antes das refeições",
+        "Evitar antiácidos 30 min antes ou depois da dose",
+        "Opção para profilaxia de úlcera de estresse quando IBP não disponível",
+        "Administrar outros medicamentos (fluoroquinolonas, fenitoína, digoxina, warfarina) 2h antes ou depois - reduz absorção",
+        "Contraindicado em insuficiência renal grave (acúmulo de alumínio) e obstrução gastrointestinal",
+        "Efeitos adversos: constipação, boca seca, náusea"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar constipação e interações (múltiplos medicamentos).",
+        "renal": "Evitar em insuficiência renal grave (acúmulo de alumínio). ClCr <30: considerar alternativa (IBP).",
+        "hepatico": "Não requer ajuste. Ação local, absorção mínima."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sucralfato (adulto - profilaxia)",
+        "doseTexto": "1 g VO 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sucralfato (adulto - úlcera)",
+        "doseTexto": "1 g VO 4x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sucralfato (pediátrico)",
+        "doseTexto": "40-80 mg/kg/dia VO 4x/dia (máx 1 g/dose)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Sucralfate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Duodenal or gastric ulcer",
+          "descricaoDose": "1 g PO 4 times daily (1h before meals and at bedtime) or 2 g PO twice daily for 4-8 weeks",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "1 g 4x daily or 2 g twice daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "4x daily or twice daily",
+            "ajusteRenal": "ClCr <30: avoid (aluminum accumulation)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Stress ulcer prophylaxis",
+          "descricaoDose": "1 g PO or NG 6/6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO/NG",
+            "intervalo": "every 6h",
+            "ajusteRenal": "ClCr <30: avoid (aluminum accumulation)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Oral mucositis",
+          "descricaoDose": "1 g swish and swallow 4 times daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "4x daily",
+            "ajusteRenal": "ClCr <30: avoid (aluminum accumulation)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric (ulcer / prophylaxis)",
+          "descricaoDose": "40-80 mg/kg/day PO divided in 4 doses (max 1 g/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "4x daily",
+            "ajusteRenal": "Renal insufficiency: avoid or reduce (aluminum accumulation)",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Gastric cytoprotector - Aluminum salt of sulfated sucrose",
+      "apresentacoes": [
+        { "forma": "Tablets 1 g", "obs": "Do not crush" },
+        { "forma": "Oral suspension 1 g/5 mL (200 mg/mL)", "obs": "Shake well before use" }
+      ],
+      "preparo": [
+        { "diluicao": "Tablet: administer whole with water", "concentracao": "1 g/tablet" },
+        { "diluicao": "Suspension: use as labeled", "concentracao": "200 mg/mL" }
+      ],
+      "observacoes": [
+        "Requires acidic environment for activation (pH < 4) - give 1h before meals",
+        "Avoid antacids 30 min before or after dose",
+        "Option for stress ulcer prophylaxis when PPI not available",
+        "Give other drugs (fluoroquinolones, phenytoin, digoxin, warfarin) 2h before or after - reduces absorption",
+        "Contraindicated in severe renal failure (aluminum accumulation) and GI obstruction",
+        "Adverse effects: constipation, dry mouth, nausea"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor constipation and drug interactions.",
+        "renal": "Avoid in severe renal failure (aluminum accumulation). ClCr <30: consider alternative (PPI).",
+        "hepatico": "No adjustment needed. Local action, minimal absorption."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sucralfate (adult - prophylaxis)",
+        "doseTexto": "1 g PO every 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Sucralfate (adult - ulcer)",
+        "doseTexto": "1 g PO 4 times daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Sucralfate (pediatric)",
+        "doseTexto": "40-80 mg/kg/day PO 4x daily (max 1 g/dose)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Sucralfato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Úlcera duodenal o gástrica",
+          "descricaoDose": "1 g VO 4x/día (1 h antes de comidas y al acostar) o 2 g VO 2x/día durante 4-8 semanas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "1 g 4x/día o 2 g 2x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/día o 2x/día",
+            "ajusteRenal": "ClCr <30: evitar (acumulación de aluminio)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis de úlcera por estrés",
+          "descricaoDose": "1 g VO o SNG 6/6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/SNG",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr <30: evitar (acumulación de aluminio)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mucositis oral",
+          "descricaoDose": "1 g enjuagar y tragar 4x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/día",
+            "ajusteRenal": "ClCr <30: evitar (acumulación de aluminio)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (úlcera / profilaxis)",
+          "descricaoDose": "40-80 mg/kg/día VO dividido en 4 dosis (máx 1 g/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/día",
+            "ajusteRenal": "Insuficiencia renal: evitar o reducir (acumulación de aluminio)",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Citoprotector gástrico - Sal de aluminio de sacarosa sulfatada",
+      "apresentacoes": [
+        { "forma": "Comprimidos 1 g", "obs": "No triturar" },
+        { "forma": "Suspensión oral 1 g/5 mL (200 mg/mL)", "obs": "Agitar antes de usar" }
+      ],
+      "preparo": [
+        { "diluicao": "Comprimido: administrar entero con agua", "concentracao": "1 g/comprimido" },
+        { "diluicao": "Suspensión: usar según etiquetado", "concentracao": "200 mg/mL" }
+      ],
+      "observacoes": [
+        "Requiere medio ácido para activación (pH < 4) - administrar 1 h antes de comidas",
+        "Evitar antiácidos 30 min antes o después de la dosis",
+        "Opción para profilaxis de úlcera por estrés cuando IBP no disponible",
+        "Administrar otros fármacos (fluoroquinolonas, fenitoína, digoxina, warfarina) 2 h antes o después - reduce absorción",
+        "Contraindicado en insuficiencia renal grave (acumulación de aluminio) y obstrucción gastrointestinal",
+        "Efectos adversos: estreñimiento, boca seca, náusea"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Vigilar estreñimiento e interacciones.",
+        "renal": "Evitar en insuficiencia renal grave (acumulación de aluminio). ClCr <30: considerar alternativa (IBP).",
+        "hepatico": "No requiere ajuste. Acción local, absorción mínima."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sucralfato (adulto - profilaxis)",
+        "doseTexto": "1 g VO 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sucralfato (adulto - úlcera)",
+        "doseTexto": "1 g VO 4x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sucralfato (pediátrico)",
+        "doseTexto": "40-80 mg/kg/día VO 4x/día (máx 1 g/dosis)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "硫糖铝",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "十二指肠或胃溃疡",
+          "descricaoDose": "1 g 口服 每日4次（餐前1小时和睡前）或 2 g 口服 每日2次，疗程4-8周",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "1 g 4次/日 或 2 g 2次/日",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "4次/日 或 2次/日",
+            "ajusteRenal": "ClCr <30：避免（铝蓄积）",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "应激性溃疡预防",
+          "descricaoDose": "1 g 口服或鼻饲 每6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服/鼻饲",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr <30：避免（铝蓄积）",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "口腔黏膜炎",
+          "descricaoDose": "1 g 含漱后咽下 每日4次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "4次/日",
+            "ajusteRenal": "ClCr <30：避免（铝蓄积）",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童（溃疡/预防）",
+          "descricaoDose": "40-80 mg/kg/日 口服 分4次（最大 1 g/次）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "4次/日",
+            "ajusteRenal": "肾功能不全：避免或减量（铝蓄积）",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "胃黏膜保护剂 - 硫糖铝铝盐",
+      "apresentacoes": [
+        { "forma": "片剂 1 g", "obs": "不可碾碎" },
+        { "forma": "口服混悬液 1 g/5 mL (200 mg/mL)", "obs": "用前摇匀" }
+      ],
+      "preparo": [
+        { "diluicao": "片剂：整片与水同服", "concentracao": "1 g/片" },
+        { "diluicao": "混悬液：按说明书使用", "concentracao": "200 mg/mL" }
+      ],
+      "observacoes": [
+        "需酸性环境激活（pH < 4）- 餐前1小时给药",
+        "给药前后30分钟避免抗酸剂",
+        "无PPI时可用于应激性溃疡预防",
+        "其他药物（氟喹诺酮、苯妥英、地高辛、华法林）需间隔2小时 - 减少吸收",
+        "严重肾功能不全（铝蓄积）及消化道梗阻禁用",
+        "不良反应：便秘、口干、恶心"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调量。注意便秘及药物相互作用。",
+        "renal": "严重肾衰避免使用（铝蓄积）。ClCr <30考虑替代（PPI）。",
+        "hepatico": "无需调整。局部作用，吸收极少。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "硫糖铝（成人-预防）",
+        "doseTexto": "1 g 口服 每6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "硫糖铝（成人-溃疡）",
+        "doseTexto": "1 g 口服 4次/日",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "硫糖铝（儿童）",
+        "doseTexto": "40-80 mg/kg/日 口服 4次/日（最大 1 g/次）",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

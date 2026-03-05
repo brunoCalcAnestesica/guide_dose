@@ -1,0 +1,842 @@
+{
+  "PT": {
+    "nome": "Ácido Acetilsalicílico (AAS)",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA/IAM – dose de ataque (adulto)",
+          "descricaoDose": "150-300 mg mastigado (dose única). Se já em uso crônico: 100 mg. Absorção mais rápida mastigando.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única (ataque)",
+            "ajusteRenal": "Contraindicado em insuficiência renal grave. Cautela em IR.",
+            "ajusteHepatico": "Cautela em hepatopatia grave; metabolismo hepático."
+          }
+        },
+        {
+          "titulo": "SCA/IAM – manutenção (adulto)",
+          "descricaoDose": "75-100 mg/dia VO. Manutenção após dose de ataque.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "75-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Contraindicado em IR grave. Cautela em IR.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Prevenção secundária cardiovascular (adulto)",
+          "descricaoDose": "75-100 mg/dia VO (ou 81 mg/dia). Antiagregação plaquetária de longo prazo.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "75-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Contraindicado em IR grave. Cautela em IR.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "AVC isquêmico agudo (adulto)",
+          "descricaoDose": "150-300 mg inicial (mastigado quando possível). Conforme protocolo local.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose inicial",
+            "ajusteRenal": "Contraindicado em IR grave. Cautela em IR.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Kawasaki – fase aguda (pediátrico)",
+          "descricaoDose": "80-100 mg/kg/dia em 4 doses. Conforme protocolo (geralmente até febre e PCR negativos).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 20,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/dia",
+            "ajusteRenal": "Contraindicado em IR grave. Cautela em IR.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Kawasaki – fase antiagregação (pediátrico)",
+          "descricaoDose": "3-5 mg/kg/dia 1x/dia. Até normalização dos marcadores (ex.: plaquetas).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Contraindicado em IR grave. Cautela em IR.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetário; inibidor irreversível da COX-1 plaquetária; bloqueia tromboxano A2; efeito na plaqueta por 7-10 dias.",
+      "apresentacoes": [
+        { "forma": "Comprimido 100 mg", "obs": "Dose cardio – Aspirina®, AAS" },
+        { "forma": "Comprimido 325 mg", "obs": "VO" },
+        { "forma": "Comprimido 500 mg", "obs": "Dose adulto" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido com água. Na SCA: mastigar para absorção rápida (5-10 min).", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Na SCA/IAM: mastigar comprimido para absorção rápida (início 5-10 min)",
+        "Efeito antiplaquetário irreversível por toda vida da plaqueta (7-10 dias)",
+        "Suspender 7 dias antes de cirurgias eletivas (risco hemorrágico)",
+        "Considerar IBP para proteção gástrica em uso prolongado",
+        "Ibuprofeno pode antagonizar efeito cardioprotetor: dar AAS pelo menos 2 h antes do ibuprofeno",
+        "Contraindicações: úlcera péptica ativa, sangramento ativo, dengue, hemofilia, IR grave, 3º trimestre"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mesmas doses; maior risco de sangramento GI. Considerar IBP. Monitorar hemoglobina.",
+        "renal": "Contraindicado em insuficiência renal grave. Cautela em IR; excreção renal.",
+        "hepatico": "Cautela em hepatopatia grave; metabolismo hepático (hidrólise a salicilato)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "AAS SCA/IAM ataque (adulto)",
+        "doseTexto": "150-300 mg mastigado (dose única)",
+        "doseMin": 150,
+        "doseMax": 300,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150-300 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "AAS manutenção (adulto)",
+        "doseTexto": "75-100 mg/dia VO",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "AAS prevenção secundária (adulto)",
+        "doseTexto": "75-100 mg/dia VO",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "AAS Kawasaki fase aguda (pediátrico)",
+        "doseTexto": "80-100 mg/kg/dia em 4 doses",
+        "doseMin": 20,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "AAS Kawasaki manutenção (pediátrico)",
+        "doseTexto": "3-5 mg/kg/dia 1x/dia",
+        "doseMin": 3,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Acetylsalicylic acid (Aspirin)",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ACS/MI – loading dose (adult)",
+          "descricaoDose": "150-300 mg chewed (single dose). If already on chronic use: 100 mg. Chew for faster absorption.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose (loading)",
+            "ajusteRenal": "Contraindicated in severe renal impairment. Caution in renal impairment.",
+            "ajusteHepatico": "Caution in severe liver disease; hepatic metabolism."
+          }
+        },
+        {
+          "titulo": "ACS/MI – maintenance (adult)",
+          "descricaoDose": "75-100 mg/day PO. Maintenance after loading dose.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "75-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Contraindicated in severe renal failure. Caution in renal impairment.",
+            "ajusteHepatico": "Caution in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Secondary cardiovascular prevention (adult)",
+          "descricaoDose": "75-100 mg/day PO (or 81 mg/day). Long-term antiplatelet therapy.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "75-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Contraindicated in severe renal failure. Caution in renal impairment.",
+            "ajusteHepatico": "Caution in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Acute ischemic stroke (adult)",
+          "descricaoDose": "150-300 mg initial (chewed when possible). Per local protocol.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "initial dose",
+            "ajusteRenal": "Contraindicated in severe renal failure. Caution in renal impairment.",
+            "ajusteHepatico": "Caution in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Kawasaki – acute phase (pediatric)",
+          "descricaoDose": "80-100 mg/kg/day in 4 doses. Per protocol (usually until afebrile and CRP negative).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 20,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "4x/day",
+            "ajusteRenal": "Contraindicated in severe renal failure. Caution in renal impairment.",
+            "ajusteHepatico": "Caution in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Kawasaki – antiplatelet phase (pediatric)",
+          "descricaoDose": "3-5 mg/kg/day once daily. Until markers normalize (e.g. platelets).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Contraindicated in severe renal failure. Caution in renal impairment.",
+            "ajusteHepatico": "Caution in severe liver disease."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiplatelet agent; irreversible platelet COX-1 inhibitor; blocks thromboxane A2; effect on platelet for 7-10 days.",
+      "apresentacoes": [
+        { "forma": "Tablet 100 mg", "obs": "Cardiac dose" },
+        { "forma": "Tablet 325 mg", "obs": "PO" },
+        { "forma": "Tablet 500 mg", "obs": "Adult dose" }
+      ],
+      "preparo": [
+        { "diluicao": "PO: tablet with water. In ACS: chew for faster absorption (5-10 min).", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "In ACS/MI: chew tablet for faster absorption (onset 5-10 min)",
+        "Irreversible antiplatelet effect for platelet lifetime (7-10 days)",
+        "Discontinue 7 days before elective surgery (bleeding risk)",
+        "Consider PPI for gastric protection with long-term use",
+        "Ibuprofen may antagonize cardioprotective effect: give aspirin at least 2 h before ibuprofen",
+        "Contraindications: active peptic ulcer, active bleeding, dengue, hemophilia, severe renal failure, 3rd trimester"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Same doses; higher GI bleeding risk. Consider PPI. Monitor hemoglobin.",
+        "renal": "Contraindicated in severe renal failure. Caution in renal impairment; renal excretion.",
+        "hepatico": "Caution in severe liver disease; hepatic metabolism (hydrolysis to salicylate)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aspirin ACS/MI loading (adult)",
+        "doseTexto": "150-300 mg chewed (single dose)",
+        "doseMin": 150,
+        "doseMax": 300,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150-300 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Aspirin maintenance (adult)",
+        "doseTexto": "75-100 mg/day PO",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Aspirin secondary prevention (adult)",
+        "doseTexto": "75-100 mg/day PO",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Aspirin Kawasaki acute (pediatric)",
+        "doseTexto": "80-100 mg/kg/day in 4 doses",
+        "doseMin": 20,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Aspirin Kawasaki maintenance (pediatric)",
+        "doseTexto": "3-5 mg/kg/day once daily",
+        "doseMin": 3,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ácido acetilsalicílico (AAS)",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA/IAM – dosis de ataque (adulto)",
+          "descricaoDose": "150-300 mg masticado (dosis única). Si ya en uso crónico: 100 mg. Masticar para absorción rápida.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única (ataque)",
+            "ajusteRenal": "Contraindicado en insuficiencia renal grave. Precaución en IR.",
+            "ajusteHepatico": "Precaución en hepatopatía grave; metabolismo hepático."
+          }
+        },
+        {
+          "titulo": "SCA/IAM – mantenimiento (adulto)",
+          "descricaoDose": "75-100 mg/día VO. Mantenimiento tras dosis de ataque.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "75-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Contraindicado en IR grave. Precaución en IR.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Prevención secundaria cardiovascular (adulto)",
+          "descricaoDose": "75-100 mg/día VO (u 81 mg/día). Antiagregación a largo plazo.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "75-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Contraindicado en IR grave. Precaución en IR.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "ACV isquémico agudo (adulto)",
+          "descricaoDose": "150-300 mg inicial (masticado cuando sea posible). Según protocolo local.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis inicial",
+            "ajusteRenal": "Contraindicado en IR grave. Precaución en IR.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Kawasaki – fase aguda (pediátrico)",
+          "descricaoDose": "80-100 mg/kg/día en 4 dosis. Según protocolo (hasta afebril y PCR negativo).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 20,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4x/día",
+            "ajusteRenal": "Contraindicado en IR grave. Precaución en IR.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Kawasaki – fase antiagregación (pediátrico)",
+          "descricaoDose": "3-5 mg/kg/día 1x/día. Hasta normalización de marcadores (ej. plaquetas).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Contraindicado en IR grave. Precaución en IR.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetario; inhibidor irreversible de COX-1 plaquetaria; bloquea tromboxano A2; efecto en plaqueta 7-10 días.",
+      "apresentacoes": [
+        { "forma": "Comprimido 100 mg", "obs": "Dosis cardio" },
+        { "forma": "Comprimido 325 mg", "obs": "VO" },
+        { "forma": "Comprimido 500 mg", "obs": "Dosis adulto" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido con agua. En SCA: masticar para absorción rápida (5-10 min).", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "En SCA/IAM: masticar comprimido para absorción rápida (inicio 5-10 min)",
+        "Efecto antiplaquetario irreversible durante vida de la plaqueta (7-10 días)",
+        "Suspender 7 días antes de cirugía electiva (riesgo hemorrágico)",
+        "Considerar IBP para protección gástrica en uso prolongado",
+        "Ibuprofeno puede antagonizar efecto cardioprotector: dar AAS al menos 2 h antes",
+        "Contraindicaciones: úlcera péptica activa, sangrado activo, dengue, hemofilia, IR grave, 3º trimestre"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mismas dosis; mayor riesgo sangrado GI. Considerar IBP. Monitorizar hemoglobina.",
+        "renal": "Contraindicado en insuficiencia renal grave. Precaución en IR; excreción renal.",
+        "hepatico": "Precaución en hepatopatía grave; metabolismo hepático (hidrólisis a salicilato)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "AAS SCA/IAM ataque (adulto)",
+        "doseTexto": "150-300 mg masticado (dosis única)",
+        "doseMin": 150,
+        "doseMax": 300,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150-300 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "AAS mantenimiento (adulto)",
+        "doseTexto": "75-100 mg/día VO",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "AAS prevención secundaria (adulto)",
+        "doseTexto": "75-100 mg/día VO",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "AAS Kawasaki fase aguda (pediátrico)",
+        "doseTexto": "80-100 mg/kg/día en 4 dosis",
+        "doseMin": 20,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "AAS Kawasaki mantenimiento (pediátrico)",
+        "doseTexto": "3-5 mg/kg/día 1x/día",
+        "doseMin": 3,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "阿司匹林",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性冠脉综合征/心梗 负荷量（成人）",
+          "descricaoDose": "150-300 mg 嚼服（单次）。若已长期服用：100 mg。嚼服吸收更快。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "单次负荷",
+            "ajusteRenal": "严重肾功能不全禁忌。肾功能不全慎用。",
+            "ajusteHepatico": "严重肝病慎用；肝代谢。"
+          }
+        },
+        {
+          "titulo": "急性冠脉综合征/心梗 维持（成人）",
+          "descricaoDose": "75-100 mg/日 口服。负荷后维持。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "75-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "严重肾衰竭禁忌。肾功能不全慎用。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        },
+        {
+          "titulo": "心血管二级预防（成人）",
+          "descricaoDose": "75-100 mg/日 口服（或 81 mg/日）。长期抗血小板。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "75-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "严重肾衰竭禁忌。肾功能不全慎用。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        },
+        {
+          "titulo": "急性缺血性卒中（成人）",
+          "descricaoDose": "首剂 150-300 mg（可能时嚼服）。按当地方案。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "首剂",
+            "ajusteRenal": "严重肾衰竭禁忌。肾功能不全慎用。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        },
+        {
+          "titulo": "川崎病 急性期（儿童）",
+          "descricaoDose": "80-100 mg/kg/日 分 4 次。按方案（通常至热退、CRP 转阴）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 20,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日4次",
+            "ajusteRenal": "严重肾衰竭禁忌。肾功能不全慎用。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        },
+        {
+          "titulo": "川崎病 抗血小板维持（儿童）",
+          "descricaoDose": "3-5 mg/kg/日 每日 1 次。至指标正常（如血小板）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "严重肾衰竭禁忌。肾功能不全慎用。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗血小板药；不可逆血小板 COX-1 抑制剂；阻断血栓烷 A2；对血小板作用 7-10 天。",
+      "apresentacoes": [
+        { "forma": "片剂 100 mg", "obs": "心脏剂量" },
+        { "forma": "片剂 325 mg", "obs": "口服" },
+        { "forma": "片剂 500 mg", "obs": "成人剂量" }
+      ],
+      "preparo": [
+        { "diluicao": "口服：片剂与水同服。ACS 时嚼服以加快吸收（5-10 分钟）。", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "ACS/心梗时：嚼服以加快吸收（起效 5-10 分钟）",
+        "抗血小板作用不可逆，持续血小板寿命（7-10 天）",
+        "择期手术前停用 7 天（出血风险）",
+        "长期用药考虑 PPI 保护胃黏膜",
+        "布洛芬可拮抗心脏保护作用：阿司匹林至少提前 2 小时服用",
+        "禁忌：活动性消化性溃疡、活动性出血、登革热、血友病、严重肾衰竭、妊娠晚期"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "剂量同；消化道出血风险更高。考虑 PPI。监测血红蛋白。",
+        "renal": "严重肾衰竭禁忌。肾功能不全慎用；经肾排泄。",
+        "hepatico": "严重肝病慎用；肝代谢（水解为水杨酸）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿司匹林 ACS/心梗 负荷（成人）",
+        "doseTexto": "150-300 mg 嚼服（单次）",
+        "doseMin": 150,
+        "doseMax": 300,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150-300 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿司匹林 维持（成人）",
+        "doseTexto": "75-100 mg/日 口服",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿司匹林 二级预防（成人）",
+        "doseTexto": "75-100 mg/日 口服",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿司匹林 川崎病 急性期（儿童）",
+        "doseTexto": "80-100 mg/kg/日 分 4 次",
+        "doseMin": 20,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "阿司匹林 川崎病 维持（儿童）",
+        "doseTexto": "3-5 mg/kg/日 每日 1 次",
+        "doseMin": 3,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

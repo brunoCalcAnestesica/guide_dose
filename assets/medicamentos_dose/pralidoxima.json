@@ -1,0 +1,830 @@
+{
+  "PT": {
+    "nome": "Pralidoxima",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicação organofosforados - Dose de ataque (adulto)",
+          "descricaoDose": "1-2 g IV em 15-30 min. USAR SEMPRE COM ATROPINA.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única (repetir se indicado)",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intoxicação organofosforados - Repetição (adulto)",
+          "descricaoDose": "1-2 g a cada 1 h se fraqueza muscular persistir (máx 12 g/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 1 h se necessário",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intoxicação organofosforados - Infusão contínua (adulto)",
+          "descricaoDose": "500 mg/h IV - preferencial em casos graves",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": null,
+            "doseFixa": "500 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intoxicação organofosforados - Dose de ataque (pediátrico)",
+          "descricaoDose": "25-50 mg/kg IV em 15-30 min (máx 2 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 15-30 min",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intoxicação organofosforados - Infusão contínua (pediátrico)",
+          "descricaoDose": "10-20 mg/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua adulto",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 500, "doseMax": 500 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g em 100mL SF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1g em 250mL SF (4 mg/mL)", "valor": 4 },
+            { "rotulo": "4g em 100mL SF (40 mg/mL)", "valor": 40 }
+          ]
+        },
+        {
+          "titulo": "Infusão contínua pediátrica",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 10, "doseMax": 20 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g em 100mL SF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1g em 250mL SF (4 mg/mL)", "valor": 4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antídoto - Reativador da acetilcolinesterase (oxima)",
+      "apresentacoes": [
+        { "forma": "Ampola 200 mg/mL (20 mL) = 4 g", "obs": "Contrathion®" },
+        { "forma": "Frasco-ampola 1 g pó liofilizado", "obs": "Protopam®" },
+        { "forma": "Auto-injetor 600 mg", "obs": "Uso militar" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g em 100 mL SF 0,9%", "concentracao": "10 mg/mL" },
+        { "diluicao": "1 g em 250 mL SF 0,9%", "concentracao": "4 mg/mL" },
+        { "diluicao": "Infundir dose de ataque em 15-30 min", "concentracao": "Evitar infusão rápida" }
+      ],
+      "observacoes": [
+        "USAR SEMPRE EM CONJUNTO COM ATROPINA (atropinizar primeiro)",
+        "Iniciar nas primeiras 24-48 h após exposição",
+        "Após envelhecimento da enzima (24-48 h), pralidoxima é ineficaz",
+        "Infusão rápida causa rigidez muscular e laringoespasmo",
+        "Endpoint: melhora da força muscular e redução de fasciculações",
+        "Monitorar: força muscular, sinais vitais, colinesterase sérica"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajuste por função renal. Monitorar efeitos adversos.",
+        "renal": "ClCr <30: reduzir 50%. Eliminação renal 80-90%. Evitar acúmulo.",
+        "hepatico": "Não requer ajuste. Metabolismo hepático parcial."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pralidoxima (adulto) - Ataque",
+        "doseTexto": "1-2 g IV em 15-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "1-2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pralidoxima (adulto) - Infusão",
+        "doseTexto": "500 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": "500 mg/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pralidoxima (pediátrico) - Ataque",
+        "doseTexto": "25-50 mg/kg IV (máx 2 g)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Pralidoxima (pediátrico) - Infusão",
+        "doseTexto": "10-20 mg/kg/h IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Pralidoxime",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Organophosphate poisoning - Loading dose (adult)",
+          "descricaoDose": "1-2 g IV over 15-30 min. ALWAYS USE WITH ATROPINE.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose (repeat if indicated)",
+            "ajusteRenal": "ClCr <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Organophosphate poisoning - Repeat (adult)",
+          "descricaoDose": "1-2 g every 1 h if muscle weakness persists (max 12 g/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 1 h if needed",
+            "ajusteRenal": "ClCr <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Organophosphate poisoning - Continuous infusion (adult)",
+          "descricaoDose": "500 mg/h IV - preferred in severe cases",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": null,
+            "doseFixa": "500 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Organophosphate poisoning - Loading dose (pediatric)",
+          "descricaoDose": "25-50 mg/kg IV over 15-30 min (max 2 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 15-30 min",
+            "ajusteRenal": "ClCr <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Organophosphate poisoning - Continuous infusion (pediatric)",
+          "descricaoDose": "10-20 mg/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Adult continuous infusion",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 500, "doseMax": 500 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g in 100mL NS (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1g in 250mL NS (4 mg/mL)", "valor": 4 },
+            { "rotulo": "4g in 100mL NS (40 mg/mL)", "valor": 40 }
+          ]
+        },
+        {
+          "titulo": "Pediatric continuous infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 10, "doseMax": 20 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g in 100mL NS (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1g in 250mL NS (4 mg/mL)", "valor": 4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antidote - Acetylcholinesterase reactivator (oxime)",
+      "apresentacoes": [
+        { "forma": "Vial 200 mg/mL (20 mL) = 4 g", "obs": "Contrathion®" },
+        { "forma": "Vial 1 g lyophilized powder", "obs": "Protopam®" },
+        { "forma": "Auto-injector 600 mg", "obs": "Military use" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g in 100 mL NS", "concentracao": "10 mg/mL" },
+        { "diluicao": "1 g in 250 mL NS", "concentracao": "4 mg/mL" },
+        { "diluicao": "Infuse loading dose over 15-30 min", "concentracao": "Avoid rapid infusion" }
+      ],
+      "observacoes": [
+        "ALWAYS USE WITH ATROPINE (atropinize first)",
+        "Initiate within first 24-48 h after exposure",
+        "After enzyme aging (24-48 h), pralidoxime is ineffective",
+        "Rapid infusion causes muscle rigidity and laryngospasm",
+        "Endpoint: improved muscle strength and reduced fasciculations",
+        "Monitor: muscle strength, vital signs, serum cholinesterase"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Adjust for renal function. Monitor adverse effects.",
+        "renal": "ClCr <30: reduce 50%. Renal elimination 80-90%. Avoid accumulation.",
+        "hepatico": "No dose adjustment. Partial hepatic metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pralidoxime (adult) - Loading",
+        "doseTexto": "1-2 g IV over 15-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "1-2 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pralidoxime (adult) - Infusion",
+        "doseTexto": "500 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": "500 mg/h",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pralidoxime (pediatric) - Loading",
+        "doseTexto": "25-50 mg/kg IV (max 2 g)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Pralidoxime (pediatric) - Infusion",
+        "doseTexto": "10-20 mg/kg/h IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Pralidoxima",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicación organofosforados - Dosis de ataque (adulto)",
+          "descricaoDose": "1-2 g IV en 15-30 min. USAR SIEMPRE CON ATROPINA.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única (repetir si indicado)",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intoxicación organofosforados - Repetición (adulto)",
+          "descricaoDose": "1-2 g cada 1 h si debilidad muscular persiste (máx 12 g/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 1 h si necesario",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intoxicación organofosforados - Infusión continua (adulto)",
+          "descricaoDose": "500 mg/h IV - preferente en casos graves",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": null,
+            "doseFixa": "500 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intoxicación organofosforados - Dosis de ataque (pediátrico)",
+          "descricaoDose": "25-50 mg/kg IV en 15-30 min (máx 2 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 15-30 min",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Intoxicación organofosforados - Infusión continua (pediátrico)",
+          "descricaoDose": "10-20 mg/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua adulto",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 500, "doseMax": 500 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g en 100mL SF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1g en 250mL SF (4 mg/mL)", "valor": 4 },
+            { "rotulo": "4g en 100mL SF (40 mg/mL)", "valor": 40 }
+          ]
+        },
+        {
+          "titulo": "Infusión continua pediátrica",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 10, "doseMax": 20 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g en 100mL SF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1g en 250mL SF (4 mg/mL)", "valor": 4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antídoto - Reactivador de la acetilcolinesterasa (oxima)",
+      "apresentacoes": [
+        { "forma": "Ampolla 200 mg/mL (20 mL) = 4 g", "obs": "Contrathion®" },
+        { "forma": "Frasco 1 g polvo liofilizado", "obs": "Protopam®" },
+        { "forma": "Autoinyector 600 mg", "obs": "Uso militar" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g en 100 mL SF 0,9%", "concentracao": "10 mg/mL" },
+        { "diluicao": "1 g en 250 mL SF 0,9%", "concentracao": "4 mg/mL" },
+        { "diluicao": "Infundir dosis de ataque en 15-30 min", "concentracao": "Evitar infusión rápida" }
+      ],
+      "observacoes": [
+        "USAR SIEMPRE JUNTO CON ATROPINA (atropinizar primero)",
+        "Iniciar en las primeras 24-48 h tras la exposición",
+        "Tras envejecimiento de la enzima (24-48 h), pralidoxima es ineficaz",
+        "Infusión rápida causa rigidez muscular y laringoespasmo",
+        "Objetivo: mejora de fuerza muscular y reducción de fasciculaciones",
+        "Monitorizar: fuerza muscular, constantes, colinesterasa sérica"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajustar por función renal. Monitorizar efectos adversos.",
+        "renal": "ClCr <30: reducir 50%. Eliminación renal 80-90%. Evitar acúmulo.",
+        "hepatico": "No requiere ajuste. Metabolismo hepático parcial."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pralidoxima (adulto) - Ataque",
+        "doseTexto": "1-2 g IV en 15-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "1-2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pralidoxima (adulto) - Infusión",
+        "doseTexto": "500 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": "500 mg/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pralidoxima (pediátrico) - Ataque",
+        "doseTexto": "25-50 mg/kg IV (máx 2 g)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Pralidoxima (pediátrico) - Infusión",
+        "doseTexto": "10-20 mg/kg/h IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "解磷定",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "有机磷中毒 - 负荷量（成人）",
+          "descricaoDose": "1-2 g IV 15-30分钟内。始终与阿托品联用。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次（必要时重复）",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "有机磷中毒 - 重复剂量（成人）",
+          "descricaoDose": "肌无力持续时每1小时1-2 g（最大12 g/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "每1小时必要时",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "有机磷中毒 - 持续输注（成人）",
+          "descricaoDose": "500 mg/h IV - 重症首选",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": null,
+            "doseFixa": "500 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "有机磷中毒 - 负荷量（儿童）",
+          "descricaoDose": "25-50 mg/kg IV 15-30分钟内（最大2 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "15-30分钟内",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "有机磷中毒 - 持续输注（儿童）",
+          "descricaoDose": "10-20 mg/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "成人持续输注",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 500, "doseMax": 500 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g 溶于100mL生理盐水 (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1g 溶于250mL生理盐水 (4 mg/mL)", "valor": 4 },
+            { "rotulo": "4g 溶于100mL生理盐水 (40 mg/mL)", "valor": 40 }
+          ]
+        },
+        {
+          "titulo": "儿童持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 10, "doseMax": 20 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g 溶于100mL生理盐水 (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1g 溶于250mL生理盐水 (4 mg/mL)", "valor": 4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "解毒剂 - 乙酰胆碱酯酶重活化剂（肟类）",
+      "apresentacoes": [
+        { "forma": "安瓿 200 mg/mL (20 mL) = 4 g", "obs": "Contrathion®" },
+        { "forma": "瓶装 1 g 冻干粉", "obs": "Protopam®" },
+        { "forma": "自动注射器 600 mg", "obs": "军用" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g 溶于 100 mL 生理盐水", "concentracao": "10 mg/mL" },
+        { "diluicao": "1 g 溶于 250 mL 生理盐水", "concentracao": "4 mg/mL" },
+        { "diluicao": "负荷量15-30分钟内输注", "concentracao": "避免快速输注" }
+      ],
+      "observacoes": [
+        "始终与阿托品联用（先阿托品化）",
+        "暴露后24-48小时内开始使用",
+        "酶老化（24-48h）后无效",
+        "快速输注可致肌强直和喉痉挛",
+        "终点：肌力改善、肌束颤动减少",
+        "监测：肌力、生命体征、血清胆碱酯酶"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "按肾功能调整。监测不良反应。",
+        "renal": "ClCr <30：减量50%。肾排泄80-90%。避免蓄积。",
+        "hepatico": "无需调整。部分经肝代谢。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "解磷定（成人）- 负荷",
+        "doseTexto": "1-2 g IV 15-30分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "1-2 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "解磷定（成人）- 输注",
+        "doseTexto": "500 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": "500 mg/h",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "解磷定（儿童）- 负荷",
+        "doseTexto": "25-50 mg/kg IV（最大2 g）",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "解磷定（儿童）- 输注",
+        "doseTexto": "10-20 mg/kg/h IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  }
+}

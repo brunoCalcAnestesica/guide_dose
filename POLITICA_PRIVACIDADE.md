@@ -1,6 +1,6 @@
 # Política de Privacidade - Guide Dose
 
-**Última atualização: 30 de Outubro de 2025**
+**Última atualização: 27 de Fevereiro de 2026**
 
 ## Introdução
 
@@ -20,30 +20,41 @@ Nosso aplicativo:
 
 ## Armazenamento de Dados
 
-Todos os dados e configurações são armazenados **localmente no seu dispositivo**.
+Todos os dados e configurações são armazenados **localmente no seu dispositivo** por padrão.
 
 - Preferências do aplicativo são salvas localmente
 - Histórico de cálculos (se houver) permanece no dispositivo
-- Nenhuma informação é sincronizada com servidores externos
 - Nenhum backup automático é feito em nuvem
+
+## Funcionalidades Opcionais com Conexão
+
+O Guide Dose oferece funcionalidades opcionais que utilizam conexão com a internet. Essas funcionalidades só são ativadas quando você opta por usá-las:
+
+- **Sincronização (Supabase)**: Caso você opte pela sincronização de dados entre dispositivos, suas informações de plantões e configurações são transmitidas de forma segura para nosso serviço de banco de dados (Supabase). Esses dados são usados exclusivamente para a sincronização e não são compartilhados com terceiros.
+- **Assistente de IA (OpenAI)**: O módulo de IA Médica permite enviar textos e imagens de exames para análise por inteligência artificial. Os dados enviados são processados pela OpenAI exclusivamente para gerar a resposta solicitada e não são armazenados por nós após o processamento. Consulte a [política de privacidade da OpenAI](https://openai.com/policies/privacy-policy) para mais detalhes sobre o tratamento de dados pelo provedor.
+
+Nenhuma dessas funcionalidades é ativada automaticamente. Você mantém total controle sobre quais dados são transmitidos.
 
 ## Permissões do Aplicativo
 
 O Guide Dose pode solicitar as seguintes permissões:
 
 ### Android
-- **INTERNET**: Usada apenas para funcionalidades futuras (atualmente não utilizada)
-- **READ_EXTERNAL_STORAGE / WRITE_EXTERNAL_STORAGE**: Para salvar relatórios em PDF (opcional, apenas em versões antigas do Android)
+- **INTERNET**: Usada para sincronização opcional (Supabase) e funcionalidades de IA (OpenAI)
+- **POST_NOTIFICATIONS**: Para lembretes e notificações locais de plantões
+- **CALENDAR**: Para sincronização de plantões com o calendário do dispositivo
+- **RECEIVE_BOOT_COMPLETED**: Para restaurar notificações agendadas após reinício do dispositivo
 
 ### iOS
-- **Microfone**: Usado apenas para síntese de voz (Text-to-Speech) no módulo PCR
-- **Galeria de Fotos**: Para salvar relatórios em PDF (opcional)
+- **Calendário**: Para sincronização de plantões com o calendário do dispositivo
+- **Câmera**: Para leitura de códigos de barras e fotografar exames para análise por IA
+- **Galeria de Fotos**: Para salvar relatórios em PDF e selecionar imagens de exames
 
 Nenhuma dessas permissões é usada para coletar dados pessoais.
 
 ## Uso Offline
 
-O Guide Dose funciona **100% offline**. Você não precisa de conexão com a internet para usar o aplicativo. Todas as funcionalidades estão disponíveis sem necessidade de conexão.
+O Guide Dose funciona **majoritariamente offline**. As funcionalidades principais (calculadora de doses, farmacoteca, protocolos PCR, condições clínicas e escala de plantões) não requerem conexão com a internet. A conexão é necessária apenas para as funcionalidades opcionais de sincronização entre dispositivos e de assistente de IA.
 
 ## Compartilhamento de Dados
 
@@ -120,5 +131,5 @@ Ao usar o Guide Dose, você concorda com esta Política de Privacidade.
 
 ---
 
-*Esta política foi atualizada pela última vez em 30 de Outubro de 2025.*
+*Esta política foi atualizada pela última vez em 27 de Fevereiro de 2026.*
 

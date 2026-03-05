@@ -1,0 +1,650 @@
+{
+  "PT": {
+    "nome": "Aprepitanto",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Quimioterapia altamente emetogênica (3 dias)",
+          "descricaoDose": "D1: 125 mg VO 1h antes; D2-D3: 80 mg VO pela manhã",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "D1: 125mg → D2-D3: 80mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "regime 3 dias",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Quimioterapia moderadamente emetogênica",
+          "descricaoDose": "125 mg VO 1h antes (dose única ou regime 3 dias)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 125,
+            "doseFixa": "125 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1h antes da quimioterapia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (prevenção pós-operatória)",
+          "descricaoDose": "40 mg VO 3h antes da indução anestésica",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3h antes da indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (6 meses - 12 anos)",
+          "descricaoDose": "3 mg/kg VO 1h antes da quimioterapia (máx 125 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 125,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1h antes da quimioterapia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (>12 anos)",
+          "descricaoDose": "Usar dose de adulto: D1 125mg, D2-D3 80mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "D1: 125mg → D2-D3: 80mg",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "regime 3 dias",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético - Antagonista do receptor NK1 (neurocinina-1)",
+      "apresentacoes": [
+        { "forma": "Cápsula 80 mg", "obs": "Emend®" },
+        { "forma": "Cápsula 125 mg", "obs": "Emend®" },
+        { "forma": "Kit 3 dias", "obs": "1 x 125 mg + 2 x 80 mg" },
+        { "forma": "Suspensão oral 125 mg", "obs": "Pediátrico - Emend®" }
+      ],
+      "preparo": [
+        { "diluicao": "Cápsula com ou sem alimentos", "concentracao": "VO 1h antes da quimioterapia" },
+        { "diluicao": "NVPO: 3h antes da indução", "concentracao": "40 mg VO" },
+        { "diluicao": "Suspensão oral (pediátrico)", "concentracao": "Conforme bula" }
+      ],
+      "observacoes": [
+        "Inibidor moderado de CYP3A4 - múltiplas interações",
+        "Reduzir dexametasona em 50% quando em combinação",
+        "Reduz eficácia de contraceptivos orais - usar método alternativo",
+        "Interação com warfarina - monitorar INR",
+        "Contraindicado com pimozida e cisaprida (risco de arritmia)",
+        "Categoria B na gravidez"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos adversos.",
+        "renal": "Não requer ajuste. Excreção fecal predominante.",
+        "hepatico": "Cautela em insuficiência hepática - metabolismo CYP3A4."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aprepitanto (quimioterapia)",
+        "doseTexto": "125 mg VO (D1) / 80 mg (D2-D3)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "125 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aprepitanto (NVPO)",
+        "doseTexto": "40 mg VO 3h antes",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aprepitanto (pediátrico)",
+        "doseTexto": "3 mg/kg VO (máx 125 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Aprepitant",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Highly emetogenic chemotherapy (3-day regimen)",
+          "descricaoDose": "D1: 125 mg PO 1h before; D2-D3: 80 mg PO in the morning",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "D1: 125mg → D2-D3: 80mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "3-day regimen",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Moderately emetogenic chemotherapy",
+          "descricaoDose": "125 mg PO 1h before (single dose or 3-day regimen)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 125,
+            "doseFixa": "125 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "1h before chemotherapy",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PONV (postoperative prevention)",
+          "descricaoDose": "40 mg PO 3h before anesthesia induction",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "3h before induction",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric (6 months - 12 years)",
+          "descricaoDose": "3 mg/kg PO 1h before chemotherapy (max 125 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 125,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "1h before chemotherapy",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric (>12 years)",
+          "descricaoDose": "Use adult dose: D1 125mg, D2-D3 80mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "D1: 125mg → D2-D3: 80mg",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "3-day regimen",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemetic - NK1 receptor antagonist",
+      "apresentacoes": [
+        { "forma": "Capsule 80 mg", "obs": "Emend®" },
+        { "forma": "Capsule 125 mg", "obs": "Emend®" },
+        { "forma": "3-day kit", "obs": "1 x 125 mg + 2 x 80 mg" },
+        { "forma": "Oral suspension 125 mg", "obs": "Pediatric - Emend®" }
+      ],
+      "preparo": [
+        { "diluicao": "Capsule with or without food", "concentracao": "PO 1h before chemotherapy" },
+        { "diluicao": "PONV: 3h before induction", "concentracao": "40 mg PO" },
+        { "diluicao": "Oral suspension (pediatric)", "concentracao": "Per package insert" }
+      ],
+      "observacoes": [
+        "Moderate CYP3A4 inhibitor - multiple drug interactions",
+        "Reduce dexamethasone by 50% when used in combination",
+        "Decreases oral contraceptive efficacy - use alternative contraception",
+        "Warfarin interaction - monitor INR",
+        "Contraindicated with pimozide and cisapride (arrhythmia risk)",
+        "Pregnancy category B"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific dose adjustment. Monitor adverse effects.",
+        "renal": "No dose adjustment required. Predominant fecal excretion.",
+        "hepatico": "Caution in hepatic impairment - CYP3A4 metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aprepitant (chemotherapy)",
+        "doseTexto": "125 mg PO (D1) / 80 mg (D2-D3)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "125 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Aprepitant (PONV)",
+        "doseTexto": "40 mg PO 3h before",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Aprepitant (pediatric)",
+        "doseTexto": "3 mg/kg PO (max 125 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Aprepitant",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Quimioterapia altamente emetógena (3 días)",
+          "descricaoDose": "D1: 125 mg VO 1h antes; D2-D3: 80 mg VO por la mañana",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "D1: 125mg → D2-D3: 80mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "regimen 3 días",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Quimioterapia moderadamente emetógena",
+          "descricaoDose": "125 mg VO 1h antes (dosis única o regimen 3 días)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 125,
+            "doseFixa": "125 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1h antes de la quimioterapia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (prevención postoperatoria)",
+          "descricaoDose": "40 mg VO 3h antes de la inducción anestésica",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3h antes de la inducción",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (6 meses - 12 años)",
+          "descricaoDose": "3 mg/kg VO 1h antes de la quimioterapia (máx 125 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 125,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1h antes de la quimioterapia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (>12 años)",
+          "descricaoDose": "Usar dosis de adulto: D1 125mg, D2-D3 80mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "D1: 125mg → D2-D3: 80mg",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "regimen 3 días",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético - Antagonista del receptor NK1 (neuroquinina-1)",
+      "apresentacoes": [
+        { "forma": "Cápsula 80 mg", "obs": "Emend®" },
+        { "forma": "Cápsula 125 mg", "obs": "Emend®" },
+        { "forma": "Kit 3 días", "obs": "1 x 125 mg + 2 x 80 mg" },
+        { "forma": "Suspensión oral 125 mg", "obs": "Pediátrico - Emend®" }
+      ],
+      "preparo": [
+        { "diluicao": "Cápsula con o sin alimentos", "concentracao": "VO 1h antes de la quimioterapia" },
+        { "diluicao": "NVPO: 3h antes de la inducción", "concentracao": "40 mg VO" },
+        { "diluicao": "Suspensión oral (pediátrico)", "concentracao": "Conforme prospecto" }
+      ],
+      "observacoes": [
+        "Inhibidor moderado de CYP3A4 - múltiples interacciones",
+        "Reducir dexametasona 50% en combinación",
+        "Reduce eficacia de anticonceptivos orales - usar método alternativo",
+        "Interacción con warfarina - monitorizar INR",
+        "Contraindicado con pimozida y cisaprida (riesgo de arritmia)",
+        "Categoría B en embarazo"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos adversos.",
+        "renal": "No requiere ajuste. Excreción fecal predominante.",
+        "hepatico": "Precaución en insuficiencia hepática - metabolismo CYP3A4."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aprepitant (quimioterapia)",
+        "doseTexto": "125 mg VO (D1) / 80 mg (D2-D3)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "125 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aprepitant (NVPO)",
+        "doseTexto": "40 mg VO 3h antes",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aprepitant (pediátrico)",
+        "doseTexto": "3 mg/kg VO (máx 125 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "阿瑞匹坦",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "高致吐性化疗（3天方案）",
+          "descricaoDose": "D1：125 mg 口服 化疗前1小时；D2-D3：80 mg 口服 早晨",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "D1: 125mg → D2-D3: 80mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "3天方案",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "中致吐性化疗",
+          "descricaoDose": "125 mg 口服 化疗前1小时（单次或3天方案）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 125,
+            "doseFixa": "125 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "化疗前1小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "术后恶心呕吐预防",
+          "descricaoDose": "40 mg 口服 麻醉诱导前3小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "诱导前3小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿科（6月-12岁）",
+          "descricaoDose": "3 mg/kg 口服 化疗前1小时（最大125 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 125,
+            "doseFixa": null,
+            "faixaEtaria": "儿科",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "化疗前1小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿科（>12岁）",
+          "descricaoDose": "使用成人剂量：D1 125mg，D2-D3 80mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "D1: 125mg → D2-D3: 80mg",
+            "faixaEtaria": "儿科",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "3天方案",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "止吐药 - NK1受体拮抗剂",
+      "apresentacoes": [
+        { "forma": "胶囊 80 mg", "obs": "Emend®" },
+        { "forma": "胶囊 125 mg", "obs": "Emend®" },
+        { "forma": "3天套件", "obs": "1 x 125 mg + 2 x 80 mg" },
+        { "forma": "口服混悬液 125 mg", "obs": "儿科 - Emend®" }
+      ],
+      "preparo": [
+        { "diluicao": "胶囊可空腹或餐后服用", "concentracao": "化疗前1小时口服" },
+        { "diluicao": "术后恶心呕吐：诱导前3小时", "concentracao": "40 mg 口服" },
+        { "diluicao": "口服混悬液（儿科）", "concentracao": "按说明书" }
+      ],
+      "observacoes": [
+        "CYP3A4中效抑制剂 - 多种药物相互作用",
+        "联用时地塞米松减量50%",
+        "降低口服避孕药疗效 - 使用其他避孕方法",
+        "与华法林相互作用 - 监测INR",
+        "禁与匹莫齐特和西沙必利联用（心律失常风险）",
+        "妊娠B类"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定剂量调整。监测不良反应。",
+        "renal": "无需调整。主要经粪便排泄。",
+        "hepatico": "肝功能不全时慎用 - CYP3A4代谢。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿瑞匹坦（化疗）",
+        "doseTexto": "125 mg 口服 (D1) / 80 mg (D2-D3)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "125 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿瑞匹坦（术后恶心呕吐）",
+        "doseTexto": "40 mg 口服 诱导前3小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿瑞匹坦（儿科）",
+        "doseTexto": "3 mg/kg 口服（最大125 mg）",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿科"
+      }
+    ]
+  }
+}

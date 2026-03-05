@@ -1,0 +1,442 @@
+{
+  "PT": {
+    "nome": "Ibutilida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA/Flutter atrial (≥60 kg) - Conversão",
+          "descricaoDose": "1 mg IV em 10 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão em 10 min",
+            "ajusteRenal": "ClCr <30: evitar ou usar com cautela",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "FA/Flutter atrial (<60 kg) - Conversão",
+          "descricaoDose": "0,01 mg/kg IV em 10 min (máx 1 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão em 10 min",
+            "ajusteRenal": "ClCr <30: evitar ou usar com cautela",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "2ª dose (se não converter)",
+          "descricaoDose": "Repetir mesma dose após 10 min se ritmo não converter",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Mesma dose após 10 min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única (repetir 1x se necessário)",
+            "ajusteRenal": "ClCr <30: evitar ou usar com cautela",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiarrítmico Classe III - Bloqueador de canais de potássio (IKr)",
+      "apresentacoes": [
+        { "forma": "Ampola 1 mg/10 mL", "obs": "0,1 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso direto (sem diluição)", "concentracao": "0,1 mg/mL" },
+        { "diluicao": "1 mg em 50 mL SF ou SG 5%", "concentracao": "Infundir em 10 min" }
+      ],
+      "observacoes": [
+        "Alto risco de Torsades de Pointes (4-8%) - monitorar ECG por 4-6h após infusão",
+        "Ter desfibrilador e sulfato de magnésio disponíveis",
+        "Contraindicado: QTc >440 ms, hipocalemia, hipomagnesemia, bradicardia",
+        "Corrigir K+ e Mg2+ antes do uso",
+        "Mais eficaz para Flutter atrial (50-70%) que para FA (30-50%)",
+        "Não recomendado em pediatria - dados limitados de segurança"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar ECG e eletrólitos. Maior risco de prolongamento QT.",
+        "renal": "Excreção renal ~82%. ClCr <30: evitar ou usar com cautela.",
+        "hepatico": "Metabolismo hepático. Sem ajuste de dose estabelecido; monitorar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ibutilida (adulto ≥60 kg)",
+        "doseTexto": "1 mg IV em 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ibutilida (adulto <60 kg)",
+        "doseTexto": "0,01 mg/kg IV em 10 min (máx 1 mg)",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ibutilide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "AF/Atrial flutter (≥60 kg) - Conversion",
+          "descricaoDose": "1 mg IV over 10 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "infusion over 10 min",
+            "ajusteRenal": "CrCl <30: avoid or use with caution",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "AF/Atrial flutter (<60 kg) - Conversion",
+          "descricaoDose": "0.01 mg/kg IV over 10 min (max 1 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "infusion over 10 min",
+            "ajusteRenal": "CrCl <30: avoid or use with caution",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "2nd dose (if no conversion)",
+          "descricaoDose": "Repeat same dose after 10 min if rhythm does not convert",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Same dose after 10 min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose (repeat once if needed)",
+            "ajusteRenal": "CrCl <30: avoid or use with caution",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Class III Antiarrhythmic - Potassium channel blocker (IKr)",
+      "apresentacoes": [
+        { "forma": "Vial 1 mg/10 mL", "obs": "0.1 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Use undiluted", "concentracao": "0.1 mg/mL" },
+        { "diluicao": "1 mg in 50 mL NS or D5W", "concentracao": "Infuse over 10 min" }
+      ],
+      "observacoes": [
+        "High risk of Torsades de Pointes (4-8%) - monitor ECG for 4-6h after infusion",
+        "Have defibrillator and magnesium sulfate available",
+        "Contraindicated: QTc >440 ms, hypokalemia, hypomagnesemia, bradycardia",
+        "Correct K+ and Mg2+ before use",
+        "More effective for atrial flutter (50-70%) than AF (30-50%)",
+        "Not recommended in pediatrics - limited safety data"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor ECG and electrolytes. Higher risk of QT prolongation.",
+        "renal": "Renal excretion ~82%. CrCl <30: avoid or use with caution.",
+        "hepatico": "Hepatic metabolism. No established dose adjustment; monitor."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ibutilide (adult ≥60 kg)",
+        "doseTexto": "1 mg IV over 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ibutilide (adult <60 kg)",
+        "doseTexto": "0.01 mg/kg IV over 10 min (max 1 mg)",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ibutilida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA/Flutter atrial (≥60 kg) - Conversión",
+          "descricaoDose": "1 mg IV en 10 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión en 10 min",
+            "ajusteRenal": "ClCr <30: evitar o usar con precaución",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "FA/Flutter atrial (<60 kg) - Conversión",
+          "descricaoDose": "0,01 mg/kg IV en 10 min (máx 1 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión en 10 min",
+            "ajusteRenal": "ClCr <30: evitar o usar con precaución",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "2ª dosis (si no convierte)",
+          "descricaoDose": "Repetir misma dosis tras 10 min si no convierte el ritmo",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Misma dosis tras 10 min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única (repetir 1x si necesario)",
+            "ajusteRenal": "ClCr <30: evitar o usar con precaución",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiarrítmico Clase III - Bloqueador de canales de potasio (IKr)",
+      "apresentacoes": [
+        { "forma": "Ampolla 1 mg/10 mL", "obs": "0,1 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso directo (sin dilución)", "concentracao": "0,1 mg/mL" },
+        { "diluicao": "1 mg en 50 mL SF o SG 5%", "concentracao": "Infundir en 10 min" }
+      ],
+      "observacoes": [
+        "Alto riesgo de Torsades de Pointes (4-8%) - monitorizar ECG 4-6h tras infusión",
+        "Tener desfibrilador y sulfato de magnesio disponibles",
+        "Contraindicado: QTc >440 ms, hipopotasemia, hipomagnesemia, bradicardia",
+        "Corregir K+ y Mg2+ antes del uso",
+        "Más eficaz en Flutter atrial (50-70%) que en FA (30-50%)",
+        "No recomendado en pediatría - datos limitados de seguridad"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar ECG y electrolitos. Mayor riesgo de prolongación QT.",
+        "renal": "Excreción renal ~82%. ClCr <30: evitar o usar con precaución.",
+        "hepatico": "Metabolismo hepático. Sin ajuste de dosis establecido; monitorizar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ibutilida (adulto ≥60 kg)",
+        "doseTexto": "1 mg IV en 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ibutilida (adulto <60 kg)",
+        "doseTexto": "0,01 mg/kg IV en 10 min (máx 1 mg)",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "伊布利特",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "房颤/房扑 (≥60 kg) - 复律",
+          "descricaoDose": "1 mg IV 10分钟内",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "10分钟内输注",
+            "ajusteRenal": "CrCl <30：避免或慎用",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "房颤/房扑 (<60 kg) - 复律",
+          "descricaoDose": "0,01 mg/kg IV 10分钟内（最大1 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "10分钟内输注",
+            "ajusteRenal": "CrCl <30：避免或慎用",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "第二次剂量（未转复时）",
+          "descricaoDose": "若10分钟后未转复可重复相同剂量",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "10分钟后相同剂量",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次（必要时可重复1次）",
+            "ajusteRenal": "CrCl <30：避免或慎用",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "III类抗心律失常药 - 钾通道阻滞剂 (IKr)",
+      "apresentacoes": [
+        { "forma": "安瓿 1 mg/10 mL", "obs": "0,1 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "直接使用（不稀释）", "concentracao": "0,1 mg/mL" },
+        { "diluicao": "1 mg 加入 50 mL 生理盐水或5%葡萄糖", "concentracao": "10分钟内输注" }
+      ],
+      "observacoes": [
+        "尖端扭转型室速风险高(4-8%) - 输注后心电监护4-6小时",
+        "备好除颤器及硫酸镁",
+        "禁忌：QTc >440 ms、低钾、低镁、心动过缓",
+        "使用前纠正K+和Mg2+",
+        "房扑转复率(50-70%)高于房颤(30-50%)",
+        "儿童不推荐 - 安全性数据有限"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测心电图和电解质。QT延长风险增加。",
+        "renal": "肾脏排泄约82%。CrCl <30：避免或慎用。",
+        "hepatico": "经肝代谢。无明确剂量调整建议；需监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "伊布利特 (成人 ≥60 kg)",
+        "doseTexto": "1 mg IV 10分钟内",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "伊布利特 (成人 <60 kg)",
+        "doseTexto": "0,01 mg/kg IV 10分钟内（最大1 mg）",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

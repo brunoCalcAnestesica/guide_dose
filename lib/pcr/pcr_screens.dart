@@ -101,7 +101,11 @@ class _ModeSelectionScreenState extends State<ModeSelectionScreen> {
     final size = MediaQuery.of(context).size;
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Parada Cardio Respiratória'),
+        title: const Text(
+          'Parada Cardio Respiratória',
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+        ),
         actions: [
           IconButton(
             icon: const Icon(Icons.menu_book),
@@ -174,10 +178,10 @@ class _ModeSelectionScreenState extends State<ModeSelectionScreen> {
                                     children: [
                                       const Text(
                                         'Confirmar Atendimento PCR',
-                                    style: TextStyle(
+                                        style: TextStyle(
                                           fontSize: 20,
-                                      fontWeight: FontWeight.bold,
-                                    ),
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                         textAlign: TextAlign.center,
                                       ),
                                       const SizedBox(height: 8),
@@ -196,36 +200,36 @@ class _ModeSelectionScreenState extends State<ModeSelectionScreen> {
                                 Padding(
                                   padding: const EdgeInsets.symmetric(
                                       horizontal: 16),
-                                    child: Column(
-                                      mainAxisSize: MainAxisSize.min,
-                                      children: [
-                                  _buildCheckboxTile(
+                                  child: Column(
+                                    mainAxisSize: MainAxisSize.min,
+                                    children: [
+                                      _buildCheckboxTile(
                                         title:
                                             strings[appLanguage]!['monitor']!,
-                                    value: monitorChecked,
-                                    onChanged: (value) {
+                                        value: monitorChecked,
+                                        onChanged: (value) {
                                           setState(
                                               () => monitorChecked = value!);
-                                      setStateDialog(() {});
-                                    },
-                                  ),
-                                  _buildCheckboxTile(
-                                    title: strings[appLanguage]!['balao']!,
-                                    value: balaoChecked,
-                                    onChanged: (value) {
-                                      setState(() => balaoChecked = value!);
-                                      setStateDialog(() {});
-                                    },
-                                  ),
-                                  _buildCheckboxTile(
-                                    title: strings[appLanguage]!['veia']!,
-                                    value: veiaChecked,
-                                    onChanged: (value) {
-                                      setState(() => veiaChecked = value!);
-                                      setStateDialog(() {});
-                                    },
-                                  ),
-                                      ],
+                                          setStateDialog(() {});
+                                        },
+                                      ),
+                                      _buildCheckboxTile(
+                                        title: strings[appLanguage]!['balao']!,
+                                        value: balaoChecked,
+                                        onChanged: (value) {
+                                          setState(() => balaoChecked = value!);
+                                          setStateDialog(() {});
+                                        },
+                                      ),
+                                      _buildCheckboxTile(
+                                        title: strings[appLanguage]!['veia']!,
+                                        value: veiaChecked,
+                                        onChanged: (value) {
+                                          setState(() => veiaChecked = value!);
+                                          setStateDialog(() {});
+                                        },
+                                      ),
+                                    ],
                                   ),
                                 ),
                                 // Actions
@@ -242,28 +246,28 @@ class _ModeSelectionScreenState extends State<ModeSelectionScreen> {
                                       ),
                                       const SizedBox(width: 12),
                                       Expanded(
-                                    child: ElevatedButton(
-                              onPressed: () {
+                                        child: ElevatedButton(
+                                          onPressed: () {
                                             final modo =
                                                 idade < 8 ? 'PALS' : 'ACLS';
-                                Navigator.of(context).pop();
-                                Navigator.push(
-                                  context,
-                                  MaterialPageRoute(
-                                    builder: (_) => CodeLogScreen(
-                                      mode: modo,
-                                      idade: idade,
-                                      peso: peso,
-                                      monitor: monitorChecked,
-                                      balao: balaoChecked,
-                                      veia: veiaChecked,
-                                      autoStart: true,
-                                    ),
-                                  ),
-                                );
-                              },
+                                            Navigator.of(context).pop();
+                                            Navigator.push(
+                                              context,
+                                              MaterialPageRoute(
+                                                builder: (_) => CodeLogScreen(
+                                                  mode: modo,
+                                                  idade: idade,
+                                                  peso: peso,
+                                                  monitor: monitorChecked,
+                                                  balao: balaoChecked,
+                                                  veia: veiaChecked,
+                                                  autoStart: true,
+                                                ),
+                                              ),
+                                            );
+                                          },
                                           child: const Text('Iniciar'),
-                            ),
+                                        ),
                                       ),
                                     ],
                                   ),
@@ -910,8 +914,8 @@ class _CodeLogScreenState extends State<CodeLogScreen> {
                       child: Text(item['desc'] as String,
                           textAlign: TextAlign.center))
                   : null,
-          onTap: item['onTap'] as void Function()?,
-        )),
+              onTap: item['onTap'] as void Function()?,
+            )),
         ListTile(
           title: Center(
             child: Text(
@@ -1021,11 +1025,11 @@ class _CodeLogScreenState extends State<CodeLogScreen> {
                           children: [
                             Text(
                               "H's:\n"
-                                  "- Hipovolemia\n"
-                                  "- Hipóxia\n"
-                                  "- Hidrogênio (acidose)\n"
-                                  "- Hiper-/Hipocalemia\n"
-                                  "- Hipotermia" +
+                                      "- Hipovolemia\n"
+                                      "- Hipóxia\n"
+                                      "- Hidrogênio (acidose)\n"
+                                      "- Hiper-/Hipocalemia\n"
+                                      "- Hipotermia" +
                                   (widget.idade < 12
                                       ? "\n- Hipoglicemia"
                                       : "") +
@@ -1053,7 +1057,7 @@ class _CodeLogScreenState extends State<CodeLogScreen> {
             ),
           ],
         ),
-      body: IndexedStack(
+        body: IndexedStack(
           // Garante que o índice seja 0 ou 1, pois temos 2 filhos no IndexedStack
           index: (_selectedIndex == 1) ? 1 : 0,
           children: [
@@ -2045,10 +2049,10 @@ class _CodeLogScreenState extends State<CodeLogScreen> {
                               ? const Icon(Icons.check_circle_outline,
                                   color: Colors.white, size: 36)
                               : Transform.rotate(
-                            angle: 3.14159, // 180 graus em radianos
+                                  angle: 3.14159, // 180 graus em radianos
                                   child: const Icon(Icons.hardware_outlined,
                                       color: Colors.white, size: 36),
-                          ),
+                                ),
                         ),
                       ),
                     ),
@@ -2143,8 +2147,8 @@ class _CodeLogScreenState extends State<CodeLogScreen> {
                                 secondsElapsed < 10
                                     ? strings[appLanguage]!['start_cpr_label']!
                                     : ((showCPRLabel || secondsElapsed < 50)
-                                    ? strings[appLanguage]!['cpr']!
-                                    : strings[appLanguage]!['switch']!),
+                                        ? strings[appLanguage]!['cpr']!
+                                        : strings[appLanguage]!['switch']!),
                                 style: const TextStyle(color: Colors.white),
                               ),
                             ],
@@ -2254,13 +2258,13 @@ class _CodeLogScreenState extends State<CodeLogScreen> {
                           children: [
                             countdownAdrenaline > 0
                                 ? Text(
-                              formatTime(countdownAdrenaline),
+                                    formatTime(countdownAdrenaline),
                                     style: TextStyle(
                                         color: Colors.white,
                                         fontWeight: FontWeight.bold,
                                         fontSize: isIOS ? 11 : 14),
-                              textAlign: TextAlign.center,
-                            )
+                                    textAlign: TextAlign.center,
+                                  )
                                 : Icon(Icons.vaccines,
                                     color: Colors.white, size: isIOS ? 24 : 36),
                           ],
@@ -2687,26 +2691,26 @@ class _ResumoEventosScreenState extends State<ResumoEventosScreen> {
                                   fontStyle: FontStyle.italic,
                                   color: Colors.grey)))
                       : ListView.builder(
-                    itemCount: widget.logEntries.length,
-                    itemBuilder: (context, index) {
-                      final entry = widget.logEntries[index];
+                          itemCount: widget.logEntries.length,
+                          itemBuilder: (context, index) {
+                            final entry = widget.logEntries[index];
                             final regex = RegExp(
                                 r'^(\[\\d{2}:\\d{2}:\\d{2}\\]\\s*\\+\\d{2}:\\d{2})\\s*→\\s*(.*)$');
-                      final match = regex.firstMatch(entry);
-                      final timeAndElapsed = match?.group(1) ?? '';
-                      final message = match?.group(2) ?? entry;
+                            final match = regex.firstMatch(entry);
+                            final timeAndElapsed = match?.group(1) ?? '';
+                            final message = match?.group(2) ?? entry;
                             final cleanMessage = message
                                 .replaceAll('💉', '')
                                 .replaceAll('⚡', '')
                                 .replaceAll('🔁', '')
                                 .replaceAll('🩺', '')
                                 .trim();
-                      return Container(
-                        padding: const EdgeInsets.symmetric(vertical: 6),
-                        margin: const EdgeInsets.only(bottom: 8),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(8),
+                            return Container(
+                              padding: const EdgeInsets.symmetric(vertical: 6),
+                              margin: const EdgeInsets.only(bottom: 8),
+                              decoration: BoxDecoration(
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(8),
                                 boxShadow: [
                                   BoxShadow(
                                       color:
@@ -2714,34 +2718,34 @@ class _ResumoEventosScreenState extends State<ResumoEventosScreen> {
                                       blurRadius: 4,
                                       offset: const Offset(0, 2))
                                 ],
-                        ),
-                        child: Padding(
-                          padding: const EdgeInsets.all(10.0),
-                          child: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              if (timeAndElapsed.isNotEmpty)
-                                Text(
-                                  timeAndElapsed,
+                              ),
+                              child: Padding(
+                                padding: const EdgeInsets.all(10.0),
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    if (timeAndElapsed.isNotEmpty)
+                                      Text(
+                                        timeAndElapsed,
                                         style: TextStyle(
                                             fontFamily: 'Poppins',
                                             fontSize: 12,
                                             color: Colors.grey.shade600,
                                             fontWeight: FontWeight.bold),
-                                ),
-                              const SizedBox(height: 4),
+                                      ),
+                                    const SizedBox(height: 4),
                                     SelectableText(cleanMessage,
                                         style: TextStyle(
                                             fontFamily: 'Poppins',
                                             fontSize: 15,
                                             color: Colors.black87,
                                             fontWeight: FontWeight.w500)),
-                            ],
-                          ),
+                                  ],
+                                ),
+                              ),
+                            );
+                          },
                         ),
-                      );
-                    },
-                  ),
                 ),
               ),
             ],
@@ -2752,76 +2756,76 @@ class _ResumoEventosScreenState extends State<ResumoEventosScreen> {
   }
 }
 
-  void _showReferencesDialog(BuildContext context) {
-    showDialog(
-      context: context,
-      builder: (context) => AlertDialog(
-        backgroundColor: Colors.white,
-        title: const Text('Referências Bibliográficas'),
-        content: SizedBox(
-          width: double.maxFinite,
-          child: ListView(
-            shrinkWrap: true,
-            children: const [
-              ListTile(
-                leading: Text('1.'),
+void _showReferencesDialog(BuildContext context) {
+  showDialog(
+    context: context,
+    builder: (context) => AlertDialog(
+      backgroundColor: Colors.white,
+      title: const Text('Referências Bibliográficas'),
+      content: SizedBox(
+        width: double.maxFinite,
+        child: ListView(
+          shrinkWrap: true,
+          children: const [
+            ListTile(
+              leading: Text('1.'),
               title: Text(
                   "Miller RD. Miller’s Anesthesia. 8th ed. Elsevier; 2015."),
-              ),
-              ListTile(
-                leading: Text('2.'),
+            ),
+            ListTile(
+              leading: Text('2.'),
               title: Text(
                   "Barash PG, Cullen BF, Stoelting RK. Clinical Anesthesia. 7th ed. Lippincott Williams & Wilkins; 2013."),
-              ),
-              ListTile(
-                leading: Text('3.'),
+            ),
+            ListTile(
+              leading: Text('3.'),
               title: Text(
                   "American Heart Association. Guidelines for CPR and ECC. 2020."),
-              ),
-              ListTile(
-                leading: Text('4.'),
+            ),
+            ListTile(
+              leading: Text('4.'),
               title: Text(
                   "Butterworth JF, Mackey DC, Wasnick JD. Morgan & Mikhail’s Clinical Anesthesiology. 6th ed. McGraw-Hill; 2018."),
-              ),
-              ListTile(
-                leading: Text('5.'),
+            ),
+            ListTile(
+              leading: Text('5.'),
               title: Text(
                   "Gan TJ. Anesthesia: A Comprehensive Review. 4th ed. Elsevier; 2017."),
-              ),
-              ListTile(
-                leading: Text('6.'),
+            ),
+            ListTile(
+              leading: Text('6.'),
               title: Text(
                   "Jaffe RS, Schwab R, Stevens RD. Critical Care Neurology. 2nd ed. Elsevier; 2018."),
-              ),
-              ListTile(
-                leading: Text('7.'),
+            ),
+            ListTile(
+              leading: Text('7.'),
               title: Text(
                   "Smith I, White PF. Sedation and Analgesia in Intensive Care Medicine. 3rd ed. Springer; 2016."),
-              ),
-              ListTile(
-                leading: Text('8.'),
+            ),
+            ListTile(
+              leading: Text('8.'),
               title: Text(
                   "Levy JH, Tanaka KA, Refsum EK. Anesthesia and Co-Existing Disease. 5th ed. Elsevier; 2017."),
-              ),
-              ListTile(
-                leading: Text('9.'),
+            ),
+            ListTile(
+              leading: Text('9.'),
               title: Text(
                   "Morgan GE, Mikhail MS, Murray MJ. Clinical Anesthesiology. 6th ed. McGraw-Hill; 2018."),
-              ),
-              ListTile(
-                leading: Text('10.'),
+            ),
+            ListTile(
+              leading: Text('10.'),
               title: Text(
                   "Weinger MB, Slagle JM. Handbook of Clinical Anesthesia. 7th ed. Wolters Kluwer; 2019."),
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
-        actions: [
-          TextButton(
-            child: const Text('Fechar'),
-            onPressed: () => Navigator.of(context).pop(),
-          ),
-        ],
       ),
-    );
-  }
+      actions: [
+        TextButton(
+          child: const Text('Fechar'),
+          onPressed: () => Navigator.of(context).pop(),
+        ),
+      ],
+    ),
+  );
+}

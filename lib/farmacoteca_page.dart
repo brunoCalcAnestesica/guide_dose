@@ -1,7 +1,9 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
-import 'storage_manager.dart';
+
 import 'shared_data.dart';
 import 'farmacoteca/medicamento_generico.dart';
+import 'utils/error_messages.dart';
 
 class FarmacotecaPage extends StatefulWidget {
   const FarmacotecaPage({super.key});
@@ -11,91 +13,74 @@ class FarmacotecaPage extends StatefulWidget {
 }
 
 class _FarmacotecaPageState extends State<FarmacotecaPage> {
-  Set<String> favoritos = {};
   final TextEditingController _searchController = TextEditingController();
   String _query = '';
   List<Map<String, dynamic>> medicamentos = [];
+  List<Map<String, dynamic>> _medicamentosFiltrados = [];
   bool _carregando = true;
+  Timer? _searchDebounce;
 
   @override
   void initState() {
     super.initState();
-    _carregarFavoritos();
     _carregarMedicamentos();
-    _searchController.addListener(() {
+    _searchController.addListener(_onSearchChanged);
+  }
+
+  void _onSearchChanged() {
+    _searchDebounce?.cancel();
+    _searchDebounce = Timer(const Duration(milliseconds: 300), () {
+      if (!mounted) return;
       setState(() {
         _query = _searchController.text.toLowerCase();
+        _recalcularFiltro();
       });
     });
   }
 
-  Future<void> _carregarFavoritos() async {
-    try {
-      await StorageManager.instance.initialize();
-      final favoritosList =
-          StorageManager.instance.getStringList('farmacoteca_favoritos');
-      setState(() {
-        favoritos = favoritosList.toSet();
-      });
-    } catch (e) {
-      setState(() {
-        favoritos = {};
-      });
-    }
+  void _recalcularFiltro() {
+    final filtrados = _query.isEmpty
+        ? List<Map<String, dynamic>>.from(medicamentos)
+        : medicamentos
+            .where((med) => (med['nome'] ?? '').toString().toLowerCase().contains(_query))
+            .toList();
+
+    filtrados.sort((a, b) {
+      final nomeA = a['nome'] as String;
+      final nomeB = b['nome'] as String;
+      return nomeA.compareTo(nomeB);
+    });
+
+    _medicamentosFiltrados = filtrados;
   }
 
   Future<void> _carregarMedicamentos() async {
     try {
       final medicamentosCarregados =
           await FarmacotecaManager.getMedicamentosParaUI();
+      if (!mounted) return;
       setState(() {
         medicamentos = medicamentosCarregados;
         _carregando = false;
+        _recalcularFiltro();
       });
     } catch (e) {
+      if (!mounted) return;
       setState(() {
         _carregando = false;
       });
-      if (mounted) {
-        ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(
-            content: Text('Erro ao carregar medicamentos: $e'),
-            backgroundColor: Colors.red,
-          ),
-        );
-      }
-    }
-  }
-
-  void _alternarFavorito(String nomeMedicamento) async {
-    try {
-      await StorageManager.instance.initialize();
-      final novoEstado = !favoritos.contains(nomeMedicamento);
-
-      setState(() {
-        if (novoEstado) {
-          favoritos.add(nomeMedicamento);
-        } else {
-          favoritos.remove(nomeMedicamento);
-        }
-      });
-
-      await StorageManager.instance
-          .setStringList('farmacoteca_favoritos', favoritos.toList());
-    } catch (e) {
-      // Se houver erro, reverte a mudança
-      setState(() {
-        if (favoritos.contains(nomeMedicamento)) {
-          favoritos.remove(nomeMedicamento);
-        } else {
-          favoritos.add(nomeMedicamento);
-        }
-      });
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text('Erro ao carregar medicamentos: ${mensagemErroAmigavel(e)}'),
+          backgroundColor: Colors.red,
+        ),
+      );
     }
   }
 
   @override
   void dispose() {
+    _searchDebounce?.cancel();
     _searchController.dispose();
     super.dispose();
   }
@@ -119,25 +104,6 @@ class _FarmacotecaPageState extends State<FarmacotecaPage> {
       );
     }
 
-    // Medicamentos já carregados no initState
-
-    // Filtrar medicamentos baseado na busca
-    final medicamentosFiltrados = medicamentos
-        .where((med) => med['nome'].toLowerCase().contains(_query))
-        .toList();
-
-    // Ordenar: favoritos primeiro, depois alfabético
-    medicamentosFiltrados.sort((a, b) {
-      final nomeA = a['nome'] as String;
-      final nomeB = b['nome'] as String;
-      final aFav = favoritos.contains(nomeA);
-      final bFav = favoritos.contains(nomeB);
-
-      if (aFav && !bFav) return -1;
-      if (!aFav && bFav) return 1;
-      return nomeA.compareTo(nomeB);
-    });
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Farmacoteca'),
@@ -150,6 +116,7 @@ class _FarmacotecaPageState extends State<FarmacotecaPage> {
               padding: const EdgeInsets.all(16),
               child: TextField(
                 controller: _searchController,
+                style: TextStyle(fontSize: 15, color: Colors.black87),
                 decoration: InputDecoration(
                   labelText: 'Buscar medicamentos...',
                   prefixIcon: const Icon(Icons.search),
@@ -175,16 +142,17 @@ class _FarmacotecaPageState extends State<FarmacotecaPage> {
             Expanded(
               child: _carregando
                   ? const Center(child: CircularProgressIndicator())
-                  : medicamentosFiltrados.isEmpty
+                  : _medicamentosFiltrados.isEmpty
                       ? _buildEmptyState()
                       : ListView.builder(
                           padding: const EdgeInsets.symmetric(horizontal: 16),
-                          itemCount: medicamentosFiltrados.length,
+                          itemCount: _medicamentosFiltrados.length,
                           itemBuilder: (context, index) {
-                            final med = medicamentosFiltrados[index];
+                            final med = _medicamentosFiltrados[index];
                             try {
-                              return med['builder'](
-                                  context, favoritos, _alternarFavorito);
+                              return RepaintBoundary(
+                                child: med['builder'](context),
+                              );
                             } catch (e) {
                               return Padding(
                                 padding: const EdgeInsets.all(8.0),
@@ -205,7 +173,7 @@ class _FarmacotecaPageState extends State<FarmacotecaPage> {
                                         ),
                                         const SizedBox(height: 4),
                                         Text(
-                                          e.toString(),
+                                          mensagemErroAmigavel(e),
                                           style: TextStyle(
                                             fontSize: 12,
                                             color: Colors.red.shade600,

@@ -1,0 +1,490 @@
+{
+  "PT": {
+    "nome": "Concentrado de Hemácias",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anemia (adulto)",
+          "descricaoDose": "1-2 unidades IV (eleva Hb ~1 g/dL por unidade)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 unidades",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme Hb (trigger restritivo Hb < 7 g/dL)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anemia (pediátrico)",
+          "descricaoDose": "10-15 mL/kg IV (eleva Hb 2-3 g/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme Hb e clínica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia maciça",
+          "descricaoDose": "Protocolo 1:1:1 (CH:PFC:Plaquetas)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Protocolo 1:1:1",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "perda >50% volemia em 3h ou >10 U em 24h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado / Componente sanguíneo",
+      "apresentacoes": [
+        { "forma": "Bolsa 250-300 mL (1 unidade)", "obs": "Hematócrito 65-80%" },
+        { "forma": "CH filtrado (leucorreduzido)", "obs": "Redução de reações febris" },
+        { "forma": "CH lavado", "obs": "Para alérgicos a proteínas plasmáticas" },
+        { "forma": "CH irradiado", "obs": "Para imunocomprometidos" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso", "concentracao": "Transfundir com equipo e filtro" }
+      ],
+      "observacoes": [
+        "Tipagem ABO/Rh obrigatória (exceto emergência com O negativo)",
+        "Prova cruzada recomendada (45-60 min)",
+        "Velocidade: 1-2 mL/min nos primeiros 15 min, depois até 4 mL/kg/h",
+        "Tempo máximo: 4 horas por unidade",
+        "Em reação transfusional: PARAR imediatamente",
+        "Notificar banco de sangue em caso de reação"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar volemia e função cardíaca; trigger cardiopata Hb < 8 g/dL.",
+        "renal": "Não requer ajuste. Hemoderivado; uso conforme indicação clínica e Hb.",
+        "hepatico": "Não requer ajuste. Hemoderivado; uso conforme indicação clínica e Hb."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Concentrado Hemácias (adulto)",
+        "doseTexto": "1-2 unidades IV (eleva Hb ~1 g/dL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "1-2 unidades",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Concentrado Hemácias (pediátrico)",
+        "doseTexto": "10-15 mL/kg IV (eleva Hb 2-3 g/dL)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Concentrado Hemácias (hemorragia maciça)",
+        "doseTexto": "Protocolo 1:1:1 com PFC e plaquetas",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "Protocolo 1:1:1",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Red Blood Cell Concentrate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anemia (adult)",
+          "descricaoDose": "1-2 units IV (raises Hb ~1 g/dL per unit)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per Hb (restrictive trigger Hb < 7 g/dL)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anemia (pediatric)",
+          "descricaoDose": "10-15 mL/kg IV (raises Hb 2-3 g/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per Hb and clinical response",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Massive hemorrhage",
+          "descricaoDose": "1:1:1 protocol (RBC:FFP:Platelets)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1:1:1 protocol",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "loss >50% blood volume in 3h or >10 U in 24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Blood product / Blood component",
+      "apresentacoes": [
+        { "forma": "Bag 250-300 mL (1 unit)", "obs": "Hematocrit 65-80%" },
+        { "forma": "Filtered RBC (leukoreduced)", "obs": "Reduces febrile reactions" },
+        { "forma": "Washed RBC", "obs": "For plasma protein allergy" },
+        { "forma": "Irradiated RBC", "obs": "For immunocompromised" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready to use", "concentracao": "Administer through blood filter" }
+      ],
+      "observacoes": [
+        "ABO/Rh typing required (except emergency with O negative)",
+        "Crossmatch recommended (45-60 min)",
+        "Rate: 1-2 mL/min first 15 min, then up to 4 mL/kg/h",
+        "Maximum time: 4 hours per unit",
+        "In transfusion reaction: STOP immediately",
+        "Notify blood bank in case of reaction"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor volume status and cardiac function; cardiac trigger Hb < 8 g/dL.",
+        "renal": "No adjustment. Blood product; use per clinical indication and Hb.",
+        "hepatico": "No adjustment. Blood product; use per clinical indication and Hb."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "RBC (adult)",
+        "doseTexto": "1-2 units IV (raises Hb ~1 g/dL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "1-2 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "RBC (pediatric)",
+        "doseTexto": "10-15 mL/kg IV (raises Hb 2-3 g/dL)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "RBC (massive hemorrhage)",
+        "doseTexto": "1:1:1 protocol with FFP and platelets",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "1:1:1 protocol",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Concentrado de Hematíes",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anemia (adulto)",
+          "descricaoDose": "1-2 unidades IV (eleva Hb ~1 g/dL por unidad)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 unidades",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según Hb (disparo restrictivo Hb < 7 g/dL)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anemia (pediátrico)",
+          "descricaoDose": "10-15 mL/kg IV (eleva Hb 2-3 g/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según Hb y clínica",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemorragia masiva",
+          "descricaoDose": "Protocolo 1:1:1 (CH:PFC:Plaquetas)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Protocolo 1:1:1",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "pérdida >50% volemia en 3h o >10 U en 24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado / Componente sanguíneo",
+      "apresentacoes": [
+        { "forma": "Bolsa 250-300 mL (1 unidad)", "obs": "Hematocrito 65-80%" },
+        { "forma": "CH filtrado (leucorreducido)", "obs": "Menos reacciones febriles" },
+        { "forma": "CH lavado", "obs": "Para alérgicos a proteínas plasmáticas" },
+        { "forma": "CH irradiado", "obs": "Para inmunodeprimidos" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso", "concentracao": "Transfundir con equipo y filtro" }
+      ],
+      "observacoes": [
+        "Tipaje ABO/Rh obligatorio (excepto emergencia con O negativo)",
+        "Prueba cruzada recomendada (45-60 min)",
+        "Velocidad: 1-2 mL/min los primeros 15 min, luego hasta 4 mL/kg/h",
+        "Tiempo máximo: 4 horas por unidad",
+        "En reacción transfusional: PARAR de inmediato",
+        "Notificar banco de sangre en caso de reacción"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar volemia y función cardíaca; disparo cardiópata Hb < 8 g/dL.",
+        "renal": "No requiere ajuste. Hemoderivado; uso según indicación clínica y Hb.",
+        "hepatico": "No requiere ajuste. Hemoderivado; uso según indicación clínica y Hb."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Concentrado Hematíes (adulto)",
+        "doseTexto": "1-2 unidades IV (eleva Hb ~1 g/dL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "1-2 unidades",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Concentrado Hematíes (pediátrico)",
+        "doseTexto": "10-15 mL/kg IV (eleva Hb 2-3 g/dL)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Concentrado Hematíes (hemorragia masiva)",
+        "doseTexto": "Protocolo 1:1:1 con PFC y plaquetas",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "Protocolo 1:1:1",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "红细胞浓缩液",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "贫血（成人）",
+          "descricaoDose": "1-2 单位 IV（每单位约升高 Hb 1 g/dL）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 单位",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "根据 Hb（限制性指征 Hb < 7 g/dL）",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "贫血（儿童）",
+          "descricaoDose": "10-15 mL/kg IV（升高 Hb 2-3 g/dL）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "根据 Hb 及临床",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "大出血",
+          "descricaoDose": "1:1:1 方案（红细胞:新鲜冰冻血浆:血小板）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1:1:1 方案",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "3h内失血>50%或24h内>10单位",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "血液制品 / 血液成分",
+      "apresentacoes": [
+        { "forma": "袋装 250-300 mL（1 单位）", "obs": "红细胞压积 65-80%" },
+        { "forma": "过滤红细胞（去白细胞）", "obs": "减少发热反应" },
+        { "forma": "洗涤红细胞", "obs": "用于血浆蛋白过敏" },
+        { "forma": "辐照红细胞", "obs": "用于免疫低下" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "经输血器及滤器输注" }
+      ],
+      "observacoes": [
+        "需 ABO/Rh 定型（紧急时可用 O 型阴性）",
+        "建议交叉配血（45-60 分钟）",
+        "速度：前 15 分钟 1-2 mL/min，之后可达 4 mL/kg/h",
+        "每单位输注时间不超过 4 小时",
+        "输血反应时：立即停止",
+        "发生反应时通知血库"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调整剂量。监测容量及心功能；心脏病患者指征 Hb < 8 g/dL。",
+        "renal": "无需调整。血液制品；按临床指征及 Hb 使用。",
+        "hepatico": "无需调整。血液制品；按临床指征及 Hb 使用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "红细胞（成人）",
+        "doseTexto": "1-2 单位 IV（约升高 Hb 1 g/dL）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "1-2 单位",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "红细胞（儿童）",
+        "doseTexto": "10-15 mL/kg IV（升高 Hb 2-3 g/dL）",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "红细胞（大出血）",
+        "doseTexto": "1:1:1 方案（与新鲜冰冻血浆、血小板）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "1:1:1 方案",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  }
+}

@@ -1,0 +1,526 @@
+{
+  "PT": {
+    "nome": "Polimixina B",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose padrão (adulto)",
+          "descricaoDose": "0,75-1,25 mg/kg IV a cada 12h (15.000-25.000 UI/kg/dia; máx 100 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.75,
+            "dosePorKgMax": 1.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Dose máxima diária",
+          "descricaoDose": "200 mg/dia (1.000.000 UI 12/12h) – não exceder",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg (1.000.000 UI) a cada 12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "0,75-1,25 mg/kg IV a cada 12h (15.000-25.000 UI/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.75,
+            "dosePorKgMax": 1.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Polimixina (polipeptídeo catiônico)",
+      "apresentacoes": [
+        { "forma": "Frasco 500.000 UI liofilizado", "obs": "1 mg = 10.000 UI" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir em 5 mL água estéril", "concentracao": "—" },
+        { "diluicao": "Diluir em 250-500 mL SG 5%", "concentracao": "—" },
+        { "diluicao": "Infusão em 60-90 min", "concentracao": "Evitar infusão rápida" }
+      ],
+      "observacoes": [
+        "Espectro: P. aeruginosa MDR, Acinetobacter, K. pneumoniae KPC; não cobre Proteus, Serratia, Burkholderia, Gram+",
+        "Última linha para Gram-negativos multirresistentes",
+        "Nefrotoxicidade frequente (30-60%): monitorar creatinina diariamente",
+        "Neurotoxicidade: parestesias, bloqueio neuromuscular, confusão",
+        "Não requer ajuste renal (excreção não-renal); diferente da colistina – não precisa dose de ataque",
+        "Pode causar hiperpigmentação cutânea; infundir lentamente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mesma dose; monitorar função renal e neurológica de perto.",
+        "renal": "Não requer ajuste de dose (excreção predominantemente não-renal). Monitorar creatinina por nefrotoxicidade.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Polimixina B (adulto)",
+        "doseTexto": "0,75-1,25 mg/kg IV 12/12h (máx 100 mg/dose)",
+        "doseMin": 0.75,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Polimixina B – dose máx",
+        "doseTexto": "100 mg (1.000.000 UI) IV 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Polimixina B (pediátrico)",
+        "doseTexto": "0,75-1,25 mg/kg IV 12/12h",
+        "doseMin": 0.75,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Polymyxin B",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Standard dose (adult)",
+          "descricaoDose": "0.75-1.25 mg/kg IV every 12h (15,000-25,000 units/kg/day; max 100 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.75,
+            "dosePorKgMax": 1.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Maximum daily dose",
+          "descricaoDose": "200 mg/day (1,000,000 units q12h) – do not exceed",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg (1,000,000 units) every 12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediatric",
+          "descricaoDose": "0.75-1.25 mg/kg IV every 12h (15,000-25,000 units/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.75,
+            "dosePorKgMax": 1.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Polymyxin (cationic polypeptide)",
+      "apresentacoes": [
+        { "forma": "Vial 500,000 units lyophilized", "obs": "1 mg = 10,000 units" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with 5 mL sterile water", "concentracao": "—" },
+        { "diluicao": "Dilute in 250-500 mL D5W", "concentracao": "—" },
+        { "diluicao": "Infuse over 60-90 min", "concentracao": "Avoid rapid infusion" }
+      ],
+      "observacoes": [
+        "Spectrum: MDR P. aeruginosa, Acinetobacter, KPC K. pneumoniae; does not cover Proteus, Serratia, Burkholderia, Gram+",
+        "Last-line for multidrug-resistant Gram-negative infections",
+        "Nephrotoxicity common (30-60%): monitor creatinine daily",
+        "Neurotoxicity: paresthesias, neuromuscular blockade, confusion",
+        "No renal dose adjustment (non-renal excretion); unlike colistin – no loading dose",
+        "May cause cutaneous hyperpigmentation; infuse slowly"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Same dose; monitor renal and neurologic function closely.",
+        "renal": "No dose adjustment (predominantly non-renal excretion). Monitor creatinine for nephrotoxicity.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Polymyxin B (adult)",
+        "doseTexto": "0.75-1.25 mg/kg IV q12h (max 100 mg/dose)",
+        "doseMin": 0.75,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Polymyxin B – max dose",
+        "doseTexto": "100 mg (1,000,000 units) IV q12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Polymyxin B (pediatric)",
+        "doseTexto": "0.75-1.25 mg/kg IV q12h",
+        "doseMin": 0.75,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Polimixina B",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis estándar (adulto)",
+          "descricaoDose": "0,75-1,25 mg/kg IV cada 12 h (15.000-25.000 UI/kg/día; máx 100 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.75,
+            "dosePorKgMax": 1.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 12 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Dosis máxima diaria",
+          "descricaoDose": "200 mg/día (1.000.000 UI 12/12 h) – no superar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg (1.000.000 UI) cada 12 h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 12 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "0,75-1,25 mg/kg IV cada 12 h (15.000-25.000 UI/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.75,
+            "dosePorKgMax": 1.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 12 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Polimixina (péptido catiónico)",
+      "apresentacoes": [
+        { "forma": "Frasco 500.000 UI liofilizado", "obs": "1 mg = 10.000 UI" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir en 5 mL agua estéril", "concentracao": "—" },
+        { "diluicao": "Diluir en 250-500 mL glucosado 5%", "concentracao": "—" },
+        { "diluicao": "Infusión en 60-90 min", "concentracao": "Evitar infusión rápida" }
+      ],
+      "observacoes": [
+        "Espectro: P. aeruginosa MDR, Acinetobacter, K. pneumoniae KPC; no cubre Proteus, Serratia, Burkholderia, Gram+",
+        "Última línea para Gram-negativos multirresistentes",
+        "Nefrotoxicidad frecuente (30-60%): monitorizar creatinina diariamente",
+        "Neurotoxicidad: parestesias, bloqueo neuromuscular, confusión",
+        "No requiere ajuste renal (excreción no renal); distinto de colistina – no precisa dosis de ataque",
+        "Puede causar hiperpigmentación cutánea; infundir lentamente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Misma dosis; monitorizar función renal y neurológica de cerca.",
+        "renal": "No requiere ajuste de dosis (excreción predominantemente no renal). Monitorizar creatinina por nefrotoxicidad.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Polimixina B (adulto)",
+        "doseTexto": "0,75-1,25 mg/kg IV 12/12 h (máx 100 mg/dosis)",
+        "doseMin": 0.75,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Polimixina B – dosis máx",
+        "doseTexto": "100 mg (1.000.000 UI) IV 12/12 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Polimixina B (pediátrico)",
+        "doseTexto": "0,75-1,25 mg/kg IV 12/12 h",
+        "doseMin": 0.75,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "多粘菌素B",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "标准剂量（成人）",
+          "descricaoDose": "0.75-1.25 mg/kg IV 每12小时（15,000-25,000单位/kg/天；最大100 mg/剂）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.75,
+            "dosePorKgMax": 1.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "每日最大剂量",
+          "descricaoDose": "200 mg/天（1,000,000单位 每12小时）– 勿超过",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg（1,000,000单位）每12小时",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "儿童",
+          "descricaoDose": "0.75-1.25 mg/kg IV 每12小时（15,000-25,000单位/kg/天）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.75,
+            "dosePorKgMax": 1.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "多粘菌素（阳离子多肽）",
+      "apresentacoes": [
+        { "forma": "瓶 500,000 单位 冻干", "obs": "1 mg = 10,000 单位" }
+      ],
+      "preparo": [
+        { "diluicao": "用5 mL无菌水复溶", "concentracao": "—" },
+        { "diluicao": "稀释于250-500 mL 5%葡萄糖", "concentracao": "—" },
+        { "diluicao": "60-90分钟输注", "concentracao": "避免快速输注" }
+      ],
+      "observacoes": [
+        "谱：MDR铜绿假单胞菌、鲍曼不动杆菌、KPC肺炎克雷伯菌；不覆盖变形杆菌、沙雷菌、伯克霍尔德菌、革兰阳性菌",
+        "多重耐药革兰阴性菌最后线用药",
+        "肾毒性常见（30-60%）：每日监测肌酐",
+        "神经毒性：感觉异常、神经肌肉阻滞、意识模糊",
+        "无需肾剂量调整（非肾排泄）；与多粘菌素E不同–无需负荷剂量",
+        "可致皮肤色素沉着；缓慢输注"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "同剂量；密切监测肾功能和神经功能。",
+        "renal": "无需剂量调整（主要非肾排泄）。监测肌酐以防肾毒性。",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "多粘菌素B（成人）",
+        "doseTexto": "0.75-1.25 mg/kg IV 每12小时（最大100 mg/剂）",
+        "doseMin": 0.75,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "多粘菌素B – 最大剂量",
+        "doseTexto": "100 mg（1,000,000单位）IV 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "多粘菌素B（儿童）",
+        "doseTexto": "0.75-1.25 mg/kg IV 每12小时",
+        "doseMin": 0.75,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

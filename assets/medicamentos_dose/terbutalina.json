@@ -1,0 +1,942 @@
+{
+  "PT": {
+    "nome": "Terbutalina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Broncoespasmo agudo (SC)",
+          "descricaoDose": "0,25 mg SC a cada 4 h (máx 0,5 mg/dose)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "a cada 4 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulização (adulto)",
+          "descricaoDose": "0,25-0,5 mg por nebulização a cada 4-6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25-0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "a cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Oral (asma persistente)",
+          "descricaoDose": "2,5-5 mg VO 3 vezes ao dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Inalação (spray)",
+          "descricaoDose": "250 mcg (1 jato) a cada 4-6 h (máx 1,5 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": "250 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "a cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tocolítico (trabalho de parto prematuro)",
+          "descricaoDose": "5-10 mcg/min IV em bomba de infusão",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mcg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Broncoespasmo (SC pediátrico)",
+          "descricaoDose": "0,005-0,01 mg/kg SC a cada 4-6 h (máx 0,25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "a cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Oral pediátrico (<12 anos)",
+          "descricaoDose": "0,075 mg/kg VO a cada 8 h (máx 2,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão tocolítica",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 5, "doseMax": 10 },
+          "pediatrico": { "doseMin": 5, "doseMax": 10 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "0,5 mg em 100 mL SF (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0,5 mg em 50 mL SF (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "1 mg em 100 mL SF (10 mcg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agonista beta-2 adrenérgico seletivo (SABA); broncodilatador; tocolítico",
+      "apresentacoes": [
+        { "forma": "Spray inalatório 0,25 mg/dose", "obs": "Bricanyl®" },
+        { "forma": "Solução oral 0,3 mg/mL", "obs": "Frasco 100 mL" },
+        { "forma": "Comprimidos 2,5 mg e 5 mg", "obs": "Oral" },
+        { "forma": "Ampola SC/IV 0,5 mg/mL (1 mL)", "obs": "Uso hospitalar" }
+      ],
+      "preparo": [
+        { "diluicao": "Nebulização: 0,25-0,5 mg em 2-3 mL SF 0,9%", "concentracao": "nebulizar 5-15 min" },
+        { "diluicao": "SC: administrar direto da ampola (0,5 mg/mL)", "concentracao": "pronto uso" },
+        { "diluicao": "IV tocolítico: 0,5 mg em 100 mL SF 0,9%", "concentracao": "5 mcg/mL" },
+        { "diluicao": "Inalação: 1 jato (250 mcg) com técnica correta", "concentracao": "dose fixa" }
+      ],
+      "observacoes": [
+        "Agonista beta-2 seletivo: broncodilatação e relaxamento uterino (tocolítico)",
+        "Início de ação: 1-5 min (SC/IV); 5 min (inalação); duração 4-6 h",
+        "Doses altas perdem seletividade e ativam beta-1 (taquicardia, arritmias)",
+        "Monitorar K+ e glicemia em uso contínuo; risco de hipocalemia",
+        "Tocolítico: monitorar edema pulmonar e saturação em gestantes",
+        "Contraindicado: hipertireoidismo não controlado, arritmias graves, cardiomiopatia obstrutiva"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares e potássio.",
+        "renal": "Não exige ajuste em uso inalatório. Cautela em insuficiência renal avançada para uso IV ou oral.",
+        "hepatico": "Não requer ajuste em uso inalatório. Monitorar em hepatopatia grave com metabolismo reduzido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Terbutalina - SC (adulto)",
+        "doseTexto": "0,25 mg SC a cada 4 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Terbutalina - Nebulização",
+        "doseTexto": "0,25-0,5 mg a cada 4-6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,25-0,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Terbutalina - Tocolítico IV",
+        "doseTexto": "5-10 mcg/min IV",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mcg/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Terbutalina - SC (pediátrico)",
+        "doseTexto": "0,01 mg/kg SC (máx 0,25 mg)",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Terbutalina - Oral (pediátrico)",
+        "doseTexto": "0,075 mg/kg VO a cada 8 h (máx 2,5 mg)",
+        "doseMin": 0.075,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Terbutaline",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute bronchospasm (SC)",
+          "descricaoDose": "0.25 mg SC every 4 h (max 0.5 mg/dose)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "every 4 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Nebulization (adult)",
+          "descricaoDose": "0.25-0.5 mg per nebulization every 4-6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25-0.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "every 4-6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Oral (persistent asthma)",
+          "descricaoDose": "2.5-5 mg PO 3 times daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "3 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inhalation (spray)",
+          "descricaoDose": "250 mcg (1 puff) every 4-6 h (max 1.5 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": "250 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "every 4-6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Tocolytic (preterm labor)",
+          "descricaoDose": "5-10 mcg/min IV by infusion pump",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mcg/min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Bronchospasm (SC pediatric)",
+          "descricaoDose": "0.005-0.01 mg/kg SC every 4-6 h (max 0.25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "every 4-6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Oral pediatric (<12 years)",
+          "descricaoDose": "0.075 mg/kg PO every 8 h (max 2.5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 8 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Tocolytic infusion",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 5, "doseMax": 10 },
+          "pediatrico": { "doseMin": 5, "doseMax": 10 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "0.5 mg in 100 mL NS (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0.5 mg in 50 mL NS (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "1 mg in 100 mL NS (10 mcg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Selective beta-2 adrenergic agonist (SABA); bronchodilator; tocolytic",
+      "apresentacoes": [
+        { "forma": "Inhalation spray 0.25 mg/dose", "obs": "Brethine®" },
+        { "forma": "Oral solution 0.3 mg/mL", "obs": "100 mL bottle" },
+        { "forma": "Tablets 2.5 mg and 5 mg", "obs": "Oral" },
+        { "forma": "SC/IV ampule 0.5 mg/mL (1 mL)", "obs": "Hospital use" }
+      ],
+      "preparo": [
+        { "diluicao": "Nebulization: 0.25-0.5 mg in 2-3 mL 0.9% NS", "concentracao": "nebulize 5-15 min" },
+        { "diluicao": "SC: administer undiluted from ampule (0.5 mg/mL)", "concentracao": "ready to use" },
+        { "diluicao": "IV tocolytic: 0.5 mg in 100 mL 0.9% NS", "concentracao": "5 mcg/mL" },
+        { "diluicao": "Inhalation: 1 puff (250 mcg) with correct technique", "concentracao": "fixed dose" }
+      ],
+      "observacoes": [
+        "Selective beta-2 agonist: bronchodilation and uterine relaxation (tocolytic)",
+        "Onset: 1-5 min (SC/IV); 5 min (inhalation); duration 4-6 h",
+        "High doses lose selectivity and activate beta-1 (tachycardia, arrhythmias)",
+        "Monitor K+ and blood glucose with continuous use; hypokalemia risk",
+        "Tocolytic: monitor pulmonary edema and saturation in pregnant women",
+        "Contraindicated: uncontrolled hyperthyroidism, severe arrhythmias, obstructive cardiomyopathy"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular effects and potassium.",
+        "renal": "No adjustment for inhalational use. Caution in advanced renal insufficiency for IV or oral use.",
+        "hepatico": "No adjustment for inhalational use. Monitor in severe liver disease with reduced metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Terbutaline - SC (adult)",
+        "doseTexto": "0.25 mg SC every 4 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.25 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Terbutaline - Nebulization",
+        "doseTexto": "0.25-0.5 mg every 4-6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.25-0.5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Terbutaline - Tocolytic IV",
+        "doseTexto": "5-10 mcg/min IV",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mcg/min",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Terbutaline - SC (pediatric)",
+        "doseTexto": "0.01 mg/kg SC (max 0.25 mg)",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Terbutaline - Oral (pediatric)",
+        "doseTexto": "0.075 mg/kg PO every 8 h (max 2.5 mg)",
+        "doseMin": 0.075,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Terbutalina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Broncoespasmo agudo (SC)",
+          "descricaoDose": "0,25 mg SC cada 4 h (máx 0,5 mg/dosis)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "cada 4 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Nebulización (adulto)",
+          "descricaoDose": "0,25-0,5 mg por nebulización cada 4-6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25-0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalatoria",
+            "intervalo": "cada 4-6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Oral (asma persistente)",
+          "descricaoDose": "2,5-5 mg VO 3 veces al día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inhalación (spray)",
+          "descricaoDose": "250 mcg (1 puff) cada 4-6 h (máx 1,5 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": "250 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalatoria",
+            "intervalo": "cada 4-6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Tocolítico (trabajo de parto prematuro)",
+          "descricaoDose": "5-10 mcg/min IV en bomba de infusión",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mcg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Broncoespasmo (SC pediátrico)",
+          "descricaoDose": "0,005-0,01 mg/kg SC cada 4-6 h (máx 0,25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "cada 4-6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Oral pediátrico (<12 años)",
+          "descricaoDose": "0,075 mg/kg VO cada 8 h (máx 2,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 8 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión tocolítica",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 5, "doseMax": 10 },
+          "pediatrico": { "doseMin": 5, "doseMax": 10 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "0,5 mg en 100 mL SF (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0,5 mg en 50 mL SF (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "1 mg en 100 mL SF (10 mcg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agonista beta-2 adrenérgico selectivo (SABA); broncodilatador; tocolítico",
+      "apresentacoes": [
+        { "forma": "Spray inhalatorio 0,25 mg/dosis", "obs": "Bricanyl®" },
+        { "forma": "Solución oral 0,3 mg/mL", "obs": "Frasco 100 mL" },
+        { "forma": "Comprimidos 2,5 mg y 5 mg", "obs": "Oral" },
+        { "forma": "Ampolla SC/IV 0,5 mg/mL (1 mL)", "obs": "Uso hospitalario" }
+      ],
+      "preparo": [
+        { "diluicao": "Nebulización: 0,25-0,5 mg en 2-3 mL SF 0,9%", "concentracao": "nebulizar 5-15 min" },
+        { "diluicao": "SC: administrar directo de ampolla (0,5 mg/mL)", "concentracao": "listo uso" },
+        { "diluicao": "IV tocolítico: 0,5 mg en 100 mL SF 0,9%", "concentracao": "5 mcg/mL" },
+        { "diluicao": "Inhalación: 1 puff (250 mcg) con técnica correcta", "concentracao": "dosis fija" }
+      ],
+      "observacoes": [
+        "Agonista beta-2 selectivo: broncodilatación y relajación uterina (tocolítico)",
+        "Inicio de acción: 1-5 min (SC/IV); 5 min (inhalación); duración 4-6 h",
+        "Dosis altas pierden selectividad y activan beta-1 (taquicardia, arritmias)",
+        "Monitorizar K+ y glucemia en uso continuo; riesgo de hipocalemia",
+        "Tocolítico: monitorizar edema pulmonar y saturación en gestantes",
+        "Contraindicado: hipertiroidismo no controlado, arritmias graves, miocardiopatía obstructiva"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares y potasio.",
+        "renal": "No exige ajuste en uso inhalatorio. Cautela en insuficiencia renal avanzada para uso IV u oral.",
+        "hepatico": "No requiere ajuste en uso inhalatorio. Monitorizar en hepatopatía grave con metabolismo reducido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Terbutalina - SC (adulto)",
+        "doseTexto": "0,25 mg SC cada 4 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Terbutalina - Nebulización",
+        "doseTexto": "0,25-0,5 mg cada 4-6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,25-0,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Terbutalina - Tocolítico IV",
+        "doseTexto": "5-10 mcg/min IV",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mcg/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Terbutalina - SC (pediátrico)",
+        "doseTexto": "0,01 mg/kg SC (máx 0,25 mg)",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Terbutalina - Oral (pediátrico)",
+        "doseTexto": "0,075 mg/kg VO cada 8 h (máx 2,5 mg)",
+        "doseMin": 0.075,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "特布他林",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性支气管痉挛（皮下）",
+          "descricaoDose": "0.25 mg 皮下 每4小时（最大 0.5 mg/次）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "每4小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "雾化（成人）",
+          "descricaoDose": "0.25-0.5 mg 每次雾化 每4-6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25-0.5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "口服（持续性哮喘）",
+          "descricaoDose": "2.5-5 mg 口服 每日3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日3次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "吸入（喷雾）",
+          "descricaoDose": "250 mcg（1喷）每4-6小时（最大 1.5 mg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": "250 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "保胎（早产）",
+          "descricaoDose": "5-10 mcg/min 静脉泵入",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mcg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "支气管痉挛（儿童皮下）",
+          "descricaoDose": "0.005-0.01 mg/kg 皮下 每4-6小时（最大 0.25 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童口服（<12岁）",
+          "descricaoDose": "0.075 mg/kg 口服 每8小时（最大 2.5 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.075,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每8小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "保胎输注",
+          "unidade": "mcg/min",
+          "adulto": { "doseMin": 5, "doseMax": 10 },
+          "pediatrico": { "doseMin": 5, "doseMax": 10 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "0.5 mg 溶于 100 mL 生理盐水 (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0.5 mg 溶于 50 mL 生理盐水 (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "1 mg 溶于 100 mL 生理盐水 (10 mcg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "选择性β2受体激动剂（SABA）；支气管扩张剂；保胎药",
+      "apresentacoes": [
+        { "forma": "吸入喷雾 0.25 mg/喷", "obs": "Bricanyl®" },
+        { "forma": "口服溶液 0.3 mg/mL", "obs": "100 mL瓶" },
+        { "forma": "片剂 2.5 mg 和 5 mg", "obs": "口服" },
+        { "forma": "皮下/静脉安瓿 0.5 mg/mL (1 mL)", "obs": "医院用" }
+      ],
+      "preparo": [
+        { "diluicao": "雾化：0.25-0.5 mg 加入 2-3 mL 0.9% 生理盐水", "concentracao": "雾化 5-15 分钟" },
+        { "diluicao": "皮下：安瓿直接使用 (0.5 mg/mL)", "concentracao": "即用" },
+        { "diluicao": "静脉保胎：0.5 mg 加入 100 mL 0.9% 生理盐水", "concentracao": "5 mcg/mL" },
+        { "diluicao": "吸入：1喷（250 mcg）正确技巧", "concentracao": "固定剂量" }
+      ],
+      "observacoes": [
+        "选择性β2激动剂：支气管扩张和子宫松弛（保胎）",
+        "起效：1-5分钟（皮下/静脉）；5分钟（吸入）；持续4-6小时",
+        "高剂量失去选择性激活β1（心动过速、心律失常）",
+        "持续使用时监测钾和血糖；低钾风险",
+        "保胎：孕妇监测肺水肿和血氧饱和度",
+        "禁忌：未控制甲亢、严重心律失常、梗阻性心肌病"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。监测心血管效应和钾。",
+        "renal": "吸入无需调整。晚期肾功能不全静脉或口服慎用。",
+        "hepatico": "吸入无需调整。严重肝病代谢减退时监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "特布他林 - 皮下（成人）",
+        "doseTexto": "0.25 mg 皮下 每4小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "特布他林 - 雾化",
+        "doseTexto": "0.25-0.5 mg 每4-6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.25-0.5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "特布他林 - 保胎静脉",
+        "doseTexto": "5-10 mcg/min 静脉",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mcg/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "特布他林 - 皮下（儿童）",
+        "doseTexto": "0.01 mg/kg 皮下（最大 0.25 mg）",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "特布他林 - 口服（儿童）",
+        "doseTexto": "0.075 mg/kg 口服 每8小时（最大 2.5 mg）",
+        "doseMin": 0.075,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

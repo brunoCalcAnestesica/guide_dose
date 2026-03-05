@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'shared_data.dart';
+import 'theme/app_theme.dart';
 import 'dart:math';
 
 
@@ -33,7 +34,11 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
     double altura = SharedData.altura!;
     double idade = SharedData.idade!;
     double imcPaciente = calcularIMC(peso, altura);
-    String classificacaoIMC = classificarIMC(imcPaciente);
+    String classificacaoIMC = classificarIMC(imcPaciente, idade);
+    double pesoIdeal = calcularPesoIdeal(altura, idade, SharedData.sexo);
+    double pesoParaDispositivos = idade >= 18 ? pesoIdeal : peso;
+    String tuboComCuffTexto = calcularTuboOrotraquealComCuff(idade, peso, altura, SharedData.sexo);
+    double tuboComCuffNumero = _extrairPrimeiroNumero(tuboComCuffTexto);
 
     // Cálculos
 
@@ -46,14 +51,16 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
         title: const Text('Parâmetros de Fisiologia'),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding: const EdgeInsets.all(AppSpacing.screenPadding),
         child: ListView(
+          padding: EdgeInsets.only(
+              bottom: MediaQuery.of(context).viewPadding.bottom + AppSpacing.screenPadding),
           children: [ //_________________________________ Retorno do Calculo
 
             _buildListaAntropometrica([
               _buildResultadoSimplesListaAntropometrica(
                 'Peso Ideal',
-                calcularPesoIdeal(altura, idade, SharedData.sexo),
+                pesoIdeal,
                 'kg',
               ),
               _buildResultadoSimplesValorPronto(
@@ -101,7 +108,7 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
 
             _buildListaParametrosCirculatorios([
               ResultadoExpandido(
-                subtitulo: 'Frequência Cardíaca',
+                subtitulo: 'FC',
                 valores: calcularFrequenciaCardiacaEsperada(
                   idade,
                   peso,
@@ -113,7 +120,7 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
 
 
               ResultadoExpandidoPressao(
-                subtitulo: 'Pressão Arterial',
+                subtitulo: 'PA',
                 valores: calcularPressaoArterialEsperada(
                   idade,
                   SharedData.sexo,
@@ -170,23 +177,35 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
             ]), // Parâmetros Circulatórios
 
             _buildListaParametrosVentilatorios([
+              // Dispositivos de via aérea: em adultos (>18 anos), o tamanho das
+              // estruturas anatômicas (face, faringe) não aumenta com obesidade,
+              // então usamos peso ideal. Em crianças, peso real correlaciona bem.
               _buildResultadoVentilatorio(
                 'Máscara Facial',
-                calcularMascaraFacial(peso, idade),
+                calcularMascaraFacial(
+                  pesoParaDispositivos,
+                  idade,
+                ),
               ),
 
               _buildResultadoVentilatorio(
                 'Cânula de Guedel ',
-                calcularCanulaOroFaringea(peso, idade),
+                calcularCanulaOroFaringea(
+                  pesoParaDispositivos,
+                  idade,
+                ),
               ),
               _buildResultadoVentilatorio(
                 'Cânula Nasofaringea',
-                calcularCanulaNasoFaringea(peso, idade),
+                calcularCanulaNasoFaringea(
+                  pesoParaDispositivos,
+                  idade,
+                ),
               ),
               _buildResultadoVentilatorio(
                 'Tubo Laringeo',
                 calcularCombitubo(
-                  peso,
+                  pesoParaDispositivos,
                   altura,
                 ),
                 '',
@@ -194,7 +213,9 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
 
               _buildResultadoVentilatorio(
                 'Máscara Laríngea',
-                calcularMascaraLaringea(peso),
+                calcularMascaraLaringea(
+                  pesoParaDispositivos,
+                ),
                 '',
               ),
               _buildResultadoVentilatorio(
@@ -209,12 +230,7 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
 
               _buildResultadoVentilatorio(
                 'TOT (com cuff)',
-                calcularTuboOrotraquealComCuff(
-                  idade,
-                  peso,
-                  altura,
-                  SharedData.sexo,
-                ),
+                tuboComCuffTexto,
                 '',
               ),
 
@@ -244,7 +260,7 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
                 'Cânula de Traqueostomia',
                 calcularCanulaTraqueostomia(
                   idade,
-                  peso,
+                  pesoParaDispositivos,
                   altura,
                   SharedData.sexo,
                 ),
@@ -254,9 +270,7 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
               _buildResultadoDispositivoExtra(
                 'Cateter de Aspiração Brônquica',
                 calcularBroncoCat(
-                  idade,
-                  peso,
-                  7.5, // substituir pelo valor do TOT utilizado
+                  tuboComCuffNumero, // Usa o TOT calculado
                 ),
               ),
 
@@ -285,9 +299,11 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
                 calcularFrequenciaRespiratoria(idade),
                 'rpm',
               ),
+              // IMPORTANTE: Volume Corrente usa PESO IDEAL (não peso real)
+              // para evitar volutrauma em obesos
               _buildResultadoVentilatorio(
                 'Volume Corrente',
-                calcularVolumeCorrente(peso, idade),
+                calcularVolumeCorrente(pesoIdeal, idade),
                 'mL',
               ),
 
@@ -295,7 +311,7 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
                 'Volume Minuto',
                 calcularVolumeMinuto(
                   idade,
-                  peso,
+                  pesoIdeal, // Usa peso ideal
                 ),
                 'L/min',
               ),
@@ -309,7 +325,7 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
                 'Espaço Morto',
                 calcularEspacoMorto(
                   idade,
-                  peso,
+                  pesoIdeal, // Usa peso ideal
                 ),
                 'mL',
               ),
@@ -346,22 +362,23 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
                 'Dreno de Kehr',
                 calcularDrenoKehr(
                   idade,
-                  peso,
                 ),
               ),
 
+              // SNG/SNE: calibre baseado em idade. Em adultos, peso ideal é mais
+              // apropriado pois o diâmetro do esôfago não aumenta com obesidade
               _buildResultadoDispositivoExtra(
                 'Sonda Nasogástrica (SNG)',
                 calcularSondaNasogastrica(
                   idade,
-                  peso,
+                  pesoParaDispositivos,
                 ),
               ),
 
               _buildResultadoDispositivoExtra(
                 'Fixação da SNG',
                 calcularFixacaoSNG(
-                  peso,
+                  pesoParaDispositivos,
                   altura,
                 ),
               ),
@@ -370,7 +387,7 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
                 'Sonda Nasoentérica (SNE)',
                 calcularSondaNasoenterica(
                   idade,
-                  peso,
+                  pesoParaDispositivos,
                 ),
               ),
               _buildResultadoDispositivoExtra(
@@ -381,17 +398,27 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
               ),
 
 
+              _buildResultadoDispositivoExtra(
+                'Calibre recomendado',
+                calcularCateterShilley(
+                  altura: altura,
+                  peso: pesoParaDispositivos,
+                  idade: idade,
+                  local: 'jugular',
+                )['Calibre'] ?? '-',
+              ),
+
               ResultadoExpandidoAcessoCentral(
                 subtitulo: 'Acesso Central',
                 jugular: calcularCateterShilley(
                   altura: altura,
-                  peso: peso,
+                  peso: pesoParaDispositivos,
                   idade: idade,
                   local: 'jugular',
                 ),
                 subclavia: calcularCateterShilley(
                   altura: altura,
-                  peso: peso,
+                  peso: pesoParaDispositivos,
                   idade: idade,
                   local: 'subclavia',
                 ),
@@ -401,19 +428,19 @@ class _FisiologiaPageState extends State<FisiologiaPage> {
                 subtitulo: 'Cateter de Shilley',
                 jugular: calcularCateterShilley(
                   altura: altura,
-                  peso: peso,
+                  peso: pesoParaDispositivos,
                   idade: idade,
                   local: 'jugular',
                 ),
                 subclavia: calcularCateterShilley(
                   altura: altura,
-                  peso: peso,
+                  peso: pesoParaDispositivos,
                   idade: idade,
                   local: 'subclavia',
                 ),
                 femoral: calcularCateterShilley(
                   altura: altura,
-                  peso: peso,
+                  peso: pesoParaDispositivos,
                   idade: idade,
                   local: 'femoral',
                 ),
@@ -461,7 +488,7 @@ class _ResultadoExpandidoAcessoCentralState extends State<ResultadoExpandidoAces
     String comprimentoSubclavia = widget.subclavia['Comprimento'] ?? '-';
 
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6),
+      padding: const EdgeInsets.symmetric(vertical: 2),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -472,7 +499,7 @@ class _ResultadoExpandidoAcessoCentralState extends State<ResultadoExpandidoAces
               children: [
                 Row(
                   children: [
-                    Text(widget.subtitulo, style: const TextStyle(fontSize: 16)),
+                    Text(widget.subtitulo, style: const TextStyle(fontSize: 14)),
                     const SizedBox(width: 4),
                     Icon(
                       expandido ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down,
@@ -482,15 +509,15 @@ class _ResultadoExpandidoAcessoCentralState extends State<ResultadoExpandidoAces
                 ),
                 Text(
                   '$calibreJugular / $calibreSubclavia',
-                  style: const TextStyle(fontSize: 16),
+                  style: const TextStyle(fontSize: 14),
                 ),
               ],
             ),
           ),
           if (expandido) ...[
-            const SizedBox(height: 8),
-            _linhaLocal('Jugular', calibreJugular, comprimentoJugular),
             const SizedBox(height: 4),
+            _linhaLocal('Jugular', calibreJugular, comprimentoJugular),
+            const SizedBox(height: 2),
             _linhaLocal('Subclávia', calibreSubclavia, comprimentoSubclavia),
           ],
         ],
@@ -502,8 +529,8 @@ class _ResultadoExpandidoAcessoCentralState extends State<ResultadoExpandidoAces
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(titulo, style: const TextStyle(fontSize: 16)),
-        Text('$calibre / $comprimento', style: const TextStyle(fontSize: 16)),
+        Text(titulo, style: const TextStyle(fontSize: 14)),
+        Text('$calibre / $comprimento', style: const TextStyle(fontSize: 14)),
       ],
     );
   }
@@ -552,19 +579,30 @@ class _ResultadoExpandidoAcessoCentralState extends State<ResultadoExpandidoAces
 // PARAMETROS CIRCULATÓRIOS
 double calcularPesoIdeal(double altura, double idade, String sexo) {
   if (idade < (1 / 30)) {
-    // Menos de 1 mês de vida
+    // Menos de 1 mês de vida (RN)
     return 3.5;
-  } else if (idade >= (1 / 30) && idade < 2) {
-    // De 1 mês a 2 anos
-    return 4 + (idade * 4); // Ajuste proporcional (1 ano ≈ 8 kg)
+  } else if (idade >= (1 / 30) && idade < 1) {
+    // De 1 mês a 12 meses
+    // Fórmula: (idade em meses + 9) / 2
+    double idadeEmMeses = idade * 12;
+    return (idadeEmMeses + 9) / 2;
+  } else if (idade >= 1 && idade < 2) {
+    // De 1 a 2 anos
+    // Peso médio de 10 kg aos 12 meses, aumentando ~2.5 kg/ano
+    return 10 + ((idade - 1) * 2.5);
   } else if (idade >= 2 && idade <= 10) {
-    // Criança
+    // Criança (2-10 anos)
     return (idade * 2) + 8;
   } else if (idade > 10 && idade < 18) {
-    // Adolescente
-    return idade * 3;
+    // Adolescente (10-18 anos)
+    // Fórmula ajustada: considera crescimento mais acelerado
+    if (sexo == 'Masculino') {
+      return 30 + ((idade - 10) * 4.5); // ~30kg aos 10 anos, +4.5kg/ano
+    } else {
+      return 30 + ((idade - 10) * 4.0); // ~30kg aos 10 anos, +4kg/ano
+    }
   } else {
-    // Adultos (considera altura e sexo)
+    // Adultos (considera altura e sexo) - Fórmula de Devine
     if (sexo == 'Masculino') {
       return 50 + 0.91 * (altura - 152.4);
     } else {
@@ -574,20 +612,20 @@ double calcularPesoIdeal(double altura, double idade, String sexo) {
 }// Peso Ideal 1
 Widget _buildResultadoSimplesListaAntropometrica(String subtitulo, double valor, String unidade) {
   return Padding(
-    padding: const EdgeInsets.symmetric(vertical: 6),
+    padding: const EdgeInsets.symmetric(vertical: 2),
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
           subtitulo,
           style: const TextStyle(
-            fontSize: 16,
+            fontSize: 14,
           ),
         ),
         Text(
           '${valor.toStringAsFixed(1)} $unidade',
           style: const TextStyle(
-            fontSize: 16,
+            fontSize: 14,
           ),
         ),
       ],
@@ -615,26 +653,34 @@ String calcularPesoCorrigido(double pesoAtual, double altura, double idade, Stri
 }  // Peso Corrigido 1
 Widget _buildResultadoSimplesValorPronto(String subtitulo, String valor) {
   return Padding(
-    padding: const EdgeInsets.symmetric(vertical: 6),
+    padding: const EdgeInsets.symmetric(vertical: 2),
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
           subtitulo,
           style: const TextStyle(
-            fontSize: 16,
+            fontSize: 14,
           ),
         ),
         Text(
           valor,
           style: const TextStyle(
-            fontSize: 16,
+            fontSize: 14,
           ),
         ),
       ],
     ),
   );
 }  // Peso Corrigido 2
+
+double _extrairPrimeiroNumero(String texto) {
+  final match = RegExp(r'([0-9]+(?:[.,][0-9]+)?)').firstMatch(texto);
+  if (match == null) return 0;
+  final raw = match.group(1)!.replaceAll(',', '.');
+  return double.tryParse(raw) ?? 0;
+}
+
 String calcularSuperficieCorporal(double peso, double altura, double idade, String sexo) {
   if (peso == 0 || altura == 0 || idade == 0) {
     return '-';
@@ -662,27 +708,43 @@ Map<String, String> calcularPesoEsperado(double idade, String sexo) {
   double p95 = 0;
 
   if (idade < (1 / 30)) {
-    // Neonatos
+    // Neonatos (< 1 mês)
     p5 = (sexo == 'Masculino') ? 2.5 : 2.4;
     p50 = (sexo == 'Masculino') ? 3.5 : 3.4;
     p95 = (sexo == 'Masculino') ? 4.5 : 4.4;
-  } else if (idade < 2) {
-    // Lactentes
-    p5 = (sexo == 'Masculino') ? 8.0 : 7.5;
-    p50 = (sexo == 'Masculino') ? 10.0 : 9.5;
-    p95 = (sexo == 'Masculino') ? 12.0 : 11.5;
+  } else if (idade < 1) {
+    // Lactentes (1 mês a 1 ano)
+    // Usando curvas de crescimento aproximadas
+    double idadeEmMeses = idade * 12;
+    if (sexo == 'Masculino') {
+      p50 = 4.0 + (idadeEmMeses * 0.6); // ~10 kg aos 12 meses
+    } else {
+      p50 = 3.8 + (idadeEmMeses * 0.55); // ~9.5 kg aos 12 meses
+    }
+    p5 = p50 * 0.82;
+    p95 = p50 * 1.18;
+  } else if (idade >= 1 && idade < 2) {
+    // Criança pequena (1-2 anos)
+    p50 = (sexo == 'Masculino') ? 10.0 + ((idade - 1) * 2.5) : 9.5 + ((idade - 1) * 2.3);
+    p5 = p50 * 0.82;
+    p95 = p50 * 1.18;
   } else if (idade >= 2 && idade <= 10) {
-    // Crianças 2-10 anos
+    // Crianças (2-10 anos)
     p50 = (sexo == 'Masculino') ? (idade * 2) + 8 : (idade * 2) + 7;
     p5 = p50 * 0.85;
     p95 = p50 * 1.15;
   } else if (idade > 10 && idade <= 18) {
-    // Adolescentes
-    p50 = (sexo == 'Masculino') ? (idade * 3.0) : (idade * 2.7);
-    p5 = p50 * 0.85;
-    p95 = p50 * 1.15;
+    // Adolescentes (10-18 anos)
+    // Fórmula ajustada: ~28-30 kg aos 10 anos, crescimento acelerado
+    if (sexo == 'Masculino') {
+      p50 = 30.0 + ((idade - 10) * 4.5); // ~66 kg aos 18 anos
+    } else {
+      p50 = 30.0 + ((idade - 10) * 3.8); // ~60 kg aos 18 anos
+    }
+    p5 = p50 * 0.80;
+    p95 = p50 * 1.20;
   } else {
-    // Adultos
+    // Adultos (> 18 anos)
     p50 = (sexo == 'Masculino') ? 70 : 60;
     p5 = p50 * 0.85;
     p95 = p50 * 1.15;
@@ -701,7 +763,10 @@ double calcularIMC(double peso, double altura) {
   double alturaMetros = altura / 100; // transformar cm para metros
   return peso / (alturaMetros * alturaMetros);
 } // IMC
-String classificarIMC(double imc) {
+String classificarIMC(double imc, double idade) {
+  if (idade < 18) {
+    return 'interpretar por percentil';
+  }
   if (imc < 18.5) {
     return 'Abaixo do Peso';
   } else if (imc < 25) {
@@ -715,7 +780,7 @@ String classificarIMC(double imc) {
   } else {
     return 'Obesidade Grau III';
   }
-} // IMC calculado e classificado
+}
 Map<String, String> calcularIMCEsperado(double idade, String sexo) {
   double p5 = 0;
   double p50 = 0;
@@ -830,10 +895,36 @@ double calcularPercentualPesoIdeal(double pesoAtual, double altura, double idade
   if (pesoIdeal == 0) return 0;
   return (pesoAtual / pesoIdeal) * 100;
 } //  % Peso Ideal
+
 double calcularPesoParaAltura(double pesoAtual, double altura, double idade, String sexo) {
-  double pesoIdeal = calcularPesoIdeal(altura, idade, sexo);
-  if (pesoIdeal == 0) return 0;
-  return (pesoAtual / pesoIdeal) * 100;
+  // Peso mediano esperado para a altura (independente da idade)
+  // Usando aproximação baseada em curvas de crescimento OMS
+  double pesoMedianoParaAltura;
+  
+  if (altura < 50) {
+    // Recém-nascido muito pequeno
+    pesoMedianoParaAltura = 3.0;
+  } else if (altura < 75) {
+    // Lactente (50-75 cm)
+    pesoMedianoParaAltura = 3.0 + ((altura - 50) * 0.28);
+  } else if (altura < 100) {
+    // Criança pequena (75-100 cm)
+    pesoMedianoParaAltura = 10.0 + ((altura - 75) * 0.32);
+  } else if (altura < 120) {
+    // Criança (100-120 cm)
+    pesoMedianoParaAltura = 18.0 + ((altura - 100) * 0.5);
+  } else if (altura < 150) {
+    // Criança maior/pré-adolescente (120-150 cm)
+    pesoMedianoParaAltura = 28.0 + ((altura - 120) * 0.8);
+  } else {
+    // Adolescente/Adulto (>150 cm)
+    // Usa IMC de referência de 22 kg/m²
+    double alturaMetros = altura / 100;
+    pesoMedianoParaAltura = 22.0 * (alturaMetros * alturaMetros);
+  }
+  
+  if (pesoMedianoParaAltura == 0) return 0;
+  return (pesoAtual / pesoMedianoParaAltura) * 100;
 } //  % Peso para Altura
 
 // PARAMETROS HEMODINÂMICOS
@@ -864,12 +955,14 @@ Map<String, String> calcularFrequenciaCardiacaEsperada(double idade, double peso
     fcBase += 2;
   }
 
-  // Ajuste por IMC
-  double imc = peso / pow((altura / 100), 2); // Altura em metros
-  if (imc < 18.5) {
-    fcBase += 3; // magro -> FC maior
-  } else if (imc > 30) {
-    fcBase -= 3; // obeso -> FC menor
+  // Ajuste por IMC (apenas para adultos)
+  if (idade >= 18) {
+    double imc = peso / pow((altura / 100), 2); // Altura em metros
+    if (imc < 18.5) {
+      fcBase -= 3; // magro/atlético -> FC menor em repouso
+    } else if (imc > 30) {
+      fcBase += 5; // obeso -> FC maior (sobrecarga cardíaca)
+    }
   }
 
   // Cálculo dos percentis
@@ -897,13 +990,13 @@ Map<String, Map<String, String>> calcularPressaoArterialEsperada(double idade, S
     pasP5 = 70; pasP50 = 80; pasP95 = 90;
     padP5 = 40; padP50 = 50; padP95 = 60;
   } else if (idade >= 1 && idade < 10) {
-    // Crianças
-    pasP5 = 70 + (idade * 2);
-    pasP50 = 80 + (idade * 2);
-    pasP95 = 90 + (idade * 2);
-    padP5 = 40 + (idade * 2);
-    padP50 = 50 + (idade * 2);
-    padP95 = 60 + (idade * 2);
+    // Crianças - Fórmula clássica: PAS normal = 90 + (idade × 2)
+    pasP5 = 80 + (idade * 2);   // Limite inferior normal
+    pasP50 = 90 + (idade * 2);  // Valor médio esperado
+    pasP95 = 105 + (idade * 2); // Limite superior (pré-hipertensão)
+    padP5 = 50 + idade;         // Diastólica limite inferior
+    padP50 = 55 + idade;        // Diastólica média
+    padP95 = 65 + idade;        // Diastólica limite superior
   } else if (idade >= 10 && idade <= 18) {
     // Adolescentes
     if (sexo == 'Masculino') {
@@ -967,10 +1060,23 @@ Map<String, Map<String, String>> calcularPressaoArterialEsperada(double idade, S
 } //  Pressão Arterial
 String calcularVolumePlasmatico(double idade, double peso, String sexo) {
   double volumeSanguineoTotal;
+  double fatorPlasma = 0.55; // Plasma é ~55% do sangue total
 
-  if (idade < (1 / 12)) { // Recém-nascido até 1 mês
-    volumeSanguineoTotal = 85 * peso; // Média entre 80–90 mL/kg
+  if (idade < (1 / 12)) {
+    // Recém-nascido (< 1 mês): 80-90 mL/kg
+    volumeSanguineoTotal = 85 * peso;
+    fatorPlasma = 0.50; // RN tem mais hemácias proporcionalmente
+  } else if (idade < 1) {
+    // Lactente (1 mês - 1 ano): 75-80 mL/kg
+    volumeSanguineoTotal = 78 * peso;
+  } else if (idade < 12) {
+    // Criança (1-12 anos): 70-75 mL/kg
+    volumeSanguineoTotal = 72 * peso;
+  } else if (idade < 18) {
+    // Adolescente: 65-70 mL/kg
+    volumeSanguineoTotal = (sexo == 'Feminino') ? 65 * peso : 70 * peso;
   } else {
+    // Adulto: 60-70 mL/kg dependendo do sexo
     if (sexo == 'Feminino') {
       volumeSanguineoTotal = 65 * peso;
     } else {
@@ -978,8 +1084,8 @@ String calcularVolumePlasmatico(double idade, double peso, String sexo) {
     }
   }
 
-  // Agora calcular o volume plasmático
-  double volumePlasmatico = volumeSanguineoTotal * 0.55;
+  // Calcular o volume plasmático
+  double volumePlasmatico = volumeSanguineoTotal * fatorPlasma;
 
   return volumePlasmatico.toStringAsFixed(0); // Retorna só o número em mL
 } // Volume Plasmático
@@ -1086,7 +1192,7 @@ String calcularCombitubo(double peso, double altura) {
     return 'Transparente (0)';
   } else if (peso >= 5 && peso <= 10) {
     return 'Branco (0,5)';
-  } else if (peso >11 && peso <= 12) {
+  } else if (peso > 10 && peso <= 12) {
     return 'Amarelo (1)';
   } else if (peso > 12 && peso <= 25) {
     return 'Verde (2)';
@@ -1102,7 +1208,7 @@ String calcularCombitubo(double peso, double altura) {
 } // Combitubo
 String calcularMascaraLaringea(double peso) {
   if (peso < 5) {
-    return '0 ';
+    return '1'; // Tamanho 1 para neonatos (2-5 kg) - tamanho 0 não existe comercialmente
   } else if (peso <= 10) {
     return '1.5';
   } else if (peso <= 20) {
@@ -1149,6 +1255,7 @@ String calcularTuboOrotraquealComCuff(double idade, double peso, double altura, 
   double tamanhoEstimado;
 
   if (idade < (1 / 12)) { // Recém-nascido
+    // Em neonatos, o peso é bom indicador do tamanho da traqueia
     if (peso < 1.5) {
       tamanhoEstimado = 2.5;
     } else if (peso < 2.5) {
@@ -1158,27 +1265,29 @@ String calcularTuboOrotraquealComCuff(double idade, double peso, double altura, 
     } else {
       tamanhoEstimado = 3.5;
     }
-  } else if (idade < 1) { // Lactente
-    if (peso <= 5) {
-      tamanhoEstimado = 3.5;
-    } else {
-      tamanhoEstimado = 4.0;
-    }
-  } else if (idade < 8) { // Crianças pequenas
-    tamanhoEstimado = (idade / 4) + 3.5;
   } else {
-    // Adultos
-    if (sexo == 'Feminino') {
-      if (peso > 80 || altura > 165) {
-        tamanhoEstimado = 7.5;
-      } else {
-        tamanhoEstimado = 7.0;
-      }
+    // Aplica fórmula (idade/4) + 3.5 até atingir tamanho 7
+    double tamanhoCalculado = (idade / 4) + 3.5;
+    
+    if (tamanhoCalculado < 7.0) {
+      // Usa a fórmula para crianças até o tubo atingir 7
+      tamanhoEstimado = tamanhoCalculado;
     } else {
-      if (peso > 100 || altura > 180) {
-        tamanhoEstimado = 8.0;
+      // Adultos (quando fórmula já daria >= 7)
+      // IMPORTANTE: Tamanho da traqueia NÃO aumenta com obesidade
+      // Usar apenas ALTURA como critério (traqueia correlaciona com altura)
+      if (sexo == 'Feminino') {
+        if (altura >= 165) {
+          tamanhoEstimado = 7.5;
+        } else {
+          tamanhoEstimado = 7.0;
+        }
       } else {
-        tamanhoEstimado = 7.5;
+        if (altura >= 180) {
+          tamanhoEstimado = 8.0;
+        } else {
+          tamanhoEstimado = 7.5;
+        }
       }
     }
   }
@@ -1243,10 +1352,12 @@ String calcularCanulaTraqueostomia(double idade, double peso, double altura, Str
     tamanhoEstimado = 3.0;
   } else if (idade < 1) { // Lactentes
     tamanhoEstimado = 3.5;
-  } else if (idade <= 8) { // Crianças pequenas
-    tamanhoEstimado = (idade / 2) + 3.0; // fórmula clínica aproximada
+  } else if (idade <= 2) { // Crianças 1-2 anos
+    tamanhoEstimado = 3.5 + ((idade - 1) * 0.5);
+  } else if (idade <= 12) { // Crianças 2-12 anos: fórmula (idade/4) + 3.5
+    tamanhoEstimado = (idade / 4) + 3.5;
   } else {
-    // Adultos
+    // Adolescentes e Adultos (> 12 anos)
     if (sexo == 'Feminino') {
       if (peso > 100 || altura > 180) {
         tamanhoEstimado = 7.5;
@@ -1288,10 +1399,13 @@ String calcularCanulaTraqueostomia(double idade, double peso, double altura, Str
 
 
 // Cálculo do diâmetro do Cateter de Aspiração Brônquica
-String calcularBroncoCat(double idade, double peso, double tuboOrotraqueal) {
-  // A regra prática: cateter com diâmetro externo até 50% do tubo traqueal interno
-  // Tamanho em French (Fr) = mm × 3
-  double cateterIdealFr = tuboOrotraqueal * 3 * 0.5;
+// Baseado no tamanho do tubo orotraqueal utilizado
+String calcularBroncoCat(double tuboOrotraqueal) {
+  if (tuboOrotraqueal <= 0) return '-';
+  double diametroInterno = tuboOrotraqueal > 4
+      ? tuboOrotraqueal - 0.5
+      : tuboOrotraqueal;
+  double cateterIdealFr = diametroInterno * 3 * 0.5;
 
   // Arredondar para tamanho padrão comercial
   if (cateterIdealFr < 6) return '6 Fr';
@@ -1332,10 +1446,10 @@ Widget buildResultadoRobertshaw(double altura, String sexo, double idade) {
   final calibre = calcularTuboRobertshaw(altura, sexo, idade);
   final fixacao = calcularFixacaoRobertshaw(altura, idade);
 
-  return Card(
-    margin: const EdgeInsets.symmetric(vertical: 8),
+    return Card(
+    margin: const EdgeInsets.symmetric(vertical: 5),
     child: Padding(
-      padding: const EdgeInsets.all(12.0),
+      padding: const EdgeInsets.all(AppSpacing.cardPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -1380,25 +1494,25 @@ String calcularFrequenciaRespiratoria(double idade) {
   int min = 12;
   int max = 20;
 
-  if (idade < (1 / 12)) { // Recém-nascido
+  if (idade < (1 / 12)) { // Recém-nascido (< 1 mês)
     min = 30;
     max = 60;
-  } else if (idade < 1) { // Lactente
-    min = 30;
-    max = 50;
-  } else if (idade < 3) {
-    min = 24;
+  } else if (idade < 1) { // Lactente (1-12 meses)
+    min = 25;
     max = 40;
-  } else if (idade < 6) {
-    min = 22;
-    max = 34;
-  } else if (idade < 12) {
-    min = 18;
+  } else if (idade < 3) { // 1-3 anos
+    min = 20;
     max = 30;
-  } else if (idade < 18) {
-    min = 12;
+  } else if (idade < 6) { // 3-6 anos
+    min = 18;
+    max = 25;
+  } else if (idade < 12) { // 6-12 anos
+    min = 15;
     max = 20;
-  } else {
+  } else if (idade < 18) { // Adolescente
+    min = 12;
+    max = 18;
+  } else { // Adulto
     min = 12;
     max = 20;
   }
@@ -1451,13 +1565,13 @@ String calcularVolumeMinuto(double idade, double peso) {
   double volumeCorrentePorKg;
 
   if (idade < (1 / 12)) { // Recém-nascido
-    volumeCorrentePorKg = 6.5;
+    volumeCorrentePorKg = 5.0; // Média de 4-6 mL/kg (consistente com VC)
   } else if (idade < 1) { // Lactente
-    volumeCorrentePorKg = 6.5;
+    volumeCorrentePorKg = 7.0; // Média de 6-8 mL/kg
   } else if (idade < 12) { // Criança
     volumeCorrentePorKg = 7.0;
   } else {
-    volumeCorrentePorKg = 7.5; // Adolescente e Adulto
+    volumeCorrentePorKg = 7.0; // Adolescente e Adulto (6-8 mL/kg, média 7)
   }
 
   // Calcula Volume Corrente (mL)
@@ -1478,32 +1592,39 @@ String calcularRelacaoIE(double idade) {
   if (idade < (1 / 12)) { // Recém-nascido (até 1 mês)
     return '1:1 - 1:1.5';
   } else if (idade < 1) { // Lactente
-    return '1:1.5';
+    return '1:1.5 - 1:2';
   } else if (idade < 6) { // Criança pequena
     return '1:2';
   } else if (idade < 12) { // Criança maior
-    return '1:2 - 1:2.5';
+    return '1:2';
   } else if (idade < 18) { // Adolescente
-    return '1:2.5';
+    return '1:2';
   } else { // Adulto
-    return '1:2.5 - 1:3';
+    return '1:2'; // Padrão inicial VM; usar 1:3 ou maior apenas em DPOC
   }
 } // Relação I/E
 String calcularEspacoMorto(double idade, double peso) {
+  // Espaço morto anatômico é aproximadamente 2.2 mL/kg ou 1/3 do VC
+  // Em ventilação mecânica, adiciona-se o espaço morto do circuito
   double fatorEspacoMorto;
 
   if (idade < (1 / 12)) { // Recém-nascido (até 1 mês)
-    fatorEspacoMorto = 3.0;
+    fatorEspacoMorto = 2.2; // ~2.2 mL/kg anatômico
   } else if (idade < 1) { // Lactente
-    fatorEspacoMorto = 2.8;
+    fatorEspacoMorto = 2.2;
   } else if (idade < 8) { // Criança pequena
-    fatorEspacoMorto = 2.5;
+    fatorEspacoMorto = 2.2;
   } else {
     // Crianças maiores, adolescentes e adultos
     fatorEspacoMorto = 2.2;
   }
 
   double espacoMorto = fatorEspacoMorto * peso;
+
+  // Espaço morto mínimo em adultos ~150 mL
+  if (idade >= 18 && espacoMorto < 150) {
+    espacoMorto = 150;
+  }
 
   return espacoMorto.toStringAsFixed(0); // Retorna o valor arredondado (mL)
 } // Espaço Morto
@@ -1555,10 +1676,10 @@ String calcularPressaoDePico(double idade) {
 //______________________________________ Regras de Exibição
  // Card Simples e Card Elabora
 Widget _buildListaAntropometrica(List<Widget> resultados) {
-  return Card(
-    margin: const EdgeInsets.symmetric(vertical: 12),
+    return Card(
+    margin: const EdgeInsets.symmetric(vertical: 5),
     child: Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(AppSpacing.cardPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -1569,7 +1690,7 @@ Widget _buildListaAntropometrica(List<Widget> resultados) {
               fontSize: 18,
             ),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 8),
           ...resultados,
         ],
       ),
@@ -1577,10 +1698,10 @@ Widget _buildListaAntropometrica(List<Widget> resultados) {
   );
 }
 Widget _buildListaParametrosCirculatorios(List<Widget> resultados) {
-  return Card(
-    margin: const EdgeInsets.symmetric(vertical: 12),
+    return Card(
+    margin: const EdgeInsets.symmetric(vertical: 5),
     child: Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(AppSpacing.cardPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -1591,7 +1712,7 @@ Widget _buildListaParametrosCirculatorios(List<Widget> resultados) {
               fontSize: 18,
             ),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 8),
           ...resultados, // aqui entram os resultados (simples ou elaborados)
         ],
       ),
@@ -1600,7 +1721,7 @@ Widget _buildListaParametrosCirculatorios(List<Widget> resultados) {
 }
 Widget _buildResultadoVentilatorio(String subtitulo, String resultado, [String unidade = '']) {
   return Padding(
-    padding: const EdgeInsets.symmetric(vertical: 6),
+    padding: const EdgeInsets.symmetric(vertical: 2),
     child: Row(
       children: [
         Expanded(
@@ -1608,7 +1729,7 @@ Widget _buildResultadoVentilatorio(String subtitulo, String resultado, [String u
           child: Text(
             subtitulo,
             style: const TextStyle(
-              fontSize: 16,
+              fontSize: 14,
             ),
           ),
         ),
@@ -1617,7 +1738,7 @@ Widget _buildResultadoVentilatorio(String subtitulo, String resultado, [String u
           child: Text(
             '$resultado ${unidade.isNotEmpty ? unidade : ''}',
             textAlign: TextAlign.right,
-            style: const TextStyle(fontSize: 16),
+            style: const TextStyle(fontSize: 14),
           ),
         ),
       ],
@@ -1625,10 +1746,10 @@ Widget _buildResultadoVentilatorio(String subtitulo, String resultado, [String u
   );
 }
 Widget _buildListaParametrosVentilatorios(List<Widget> resultados) {
-  return Card(
-    margin: const EdgeInsets.symmetric(vertical: 12),
+    return Card(
+    margin: const EdgeInsets.symmetric(vertical: 5),
     child: Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(AppSpacing.cardPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -1639,7 +1760,7 @@ Widget _buildListaParametrosVentilatorios(List<Widget> resultados) {
               fontSize: 18,
             ),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 8),
           ...resultados, // aqui entram as linhas de resultados
         ],
       ),
@@ -1647,10 +1768,10 @@ Widget _buildListaParametrosVentilatorios(List<Widget> resultados) {
   );
 }
 Widget _buildListaParametrosRespiratorios(List<Widget> resultados) {
-  return Card(
-    margin: const EdgeInsets.symmetric(vertical: 12),
+    return Card(
+    margin: const EdgeInsets.symmetric(vertical: 5),
     child: Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(AppSpacing.cardPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -1661,7 +1782,7 @@ Widget _buildListaParametrosRespiratorios(List<Widget> resultados) {
               fontSize: 18,
             ),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 8),
           ...resultados, // Resultados aqui
         ],
       ),
@@ -1686,7 +1807,7 @@ Widget _buildListaParametrosRespiratorios(List<Widget> resultados) {
 // Função de cálculo para Sonda Vesical de Demora
 String calcularSondaVesical(double idade, String sexo) {
   if (idade < 1 / 30) {
-    return '6 – 8 Fr';
+    return '6 – 10 Fr';
   } else if (idade < 5) {
     return '8 – 10 Fr';
   } else if (idade < 12) {
@@ -1735,39 +1856,83 @@ String calcularSondaNasoenterica(double idade, double peso) {
 }
 
 // Função para estimar a profundidade de inserção/fixação da SNG
+// Baseado em fórmulas validadas: NEX modificado e correlação com altura
 String calcularFixacaoSNG(double peso, double altura) {
   if (peso <= 0 || altura <= 0) return '-';
 
-  double fixacao = 3 * peso + 12;
-  if (fixacao < 20) fixacao = 20;
+  double fixacao;
+  
+  if (altura < 50) {
+    // RN prematuro
+    fixacao = 15 + (altura * 0.1);
+  } else if (altura < 75) {
+    // Lactente pequeno (50-75 cm)
+    fixacao = (altura * 0.38) + 5; // ~25-33 cm
+  } else if (altura < 100) {
+    // Lactente/criança pequena (75-100 cm)
+    fixacao = (altura * 0.40) + 3; // ~33-43 cm
+  } else if (altura < 150) {
+    // Criança (100-150 cm)
+    fixacao = (altura * 0.35) + 8; // ~43-60 cm
+  } else {
+    // Adolescente/Adulto (>150 cm) – alvo corpo gástrico ~58-65 cm
+    fixacao = 50 + (altura - 150) * 0.15 + 8;
+  }
+  
+  // Limites de segurança
+  if (altura <= 45) {
+    if (fixacao < 10) fixacao = 10;
+  } else {
+    if (fixacao < 18) fixacao = 18;
+  }
   if (fixacao > 65) fixacao = 65;
 
   return '${fixacao.toStringAsFixed(0)} cm';
 }
 
 // Função para estimar a profundidade de inserção da sonda nasoentérica
+// SNE vai além do piloro (duodeno/jejuno), portanto mais profunda que SNG
 String calcularFixacaoSondaNasoenterica(double altura) {
   if (altura <= 0) return '-';
-  double estimativa = altura * 0.9;
-  if (estimativa < 45) estimativa = 45;
-  if (estimativa > 70) estimativa = 70;
+  
+  double estimativa;
+  
+  if (altura < 75) {
+    // Lactente pequeno
+    estimativa = (altura * 0.55) + 10; // ~50-51 cm
+  } else if (altura < 100) {
+    // Lactente/criança pequena
+    estimativa = (altura * 0.55) + 8; // ~49-63 cm
+  } else if (altura < 150) {
+    // Criança
+    estimativa = (altura * 0.50) + 15; // ~65-90 cm
+  } else {
+    // Adolescente/Adulto
+    // SNE posicionada no duodeno/jejuno: ~90-110 cm
+    estimativa = (altura * 0.52) + 15; // ~93-108 cm para 150-180 cm altura
+  }
+  
+  // Limites de segurança
+  if (estimativa < 40) estimativa = 40;
+  if (estimativa > 125) estimativa = 125;
+  
   return '${estimativa.toStringAsFixed(0)} cm';
 }
 
 // Widget adicional para exibir dispositivos extras
 Widget _buildResultadoDispositivoExtra(String subtitulo, String resultado) {
   return Padding(
-    padding: const EdgeInsets.symmetric(vertical: 6),
+    padding: const EdgeInsets.symmetric(vertical: 2),
     child: Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Text(
           subtitulo,
-          style: const TextStyle(fontSize: 16),
+          style: const TextStyle(fontSize: 14),
         ),
         Text(
           resultado,
-          style: const TextStyle(fontSize: 16),
+          style: const TextStyle(fontSize: 14),
         ),
       ],
     ),
@@ -1775,21 +1940,21 @@ Widget _buildResultadoDispositivoExtra(String subtitulo, String resultado) {
 }
 
 Widget _buildListaDispositivosExtras(List<Widget> resultados) {
-  return Card(
-    margin: const EdgeInsets.symmetric(vertical: 12),
+    return Card(
+    margin: const EdgeInsets.symmetric(vertical: 5),
     child: Padding(
-      padding: const EdgeInsets.all(16.0),
+      padding: const EdgeInsets.all(AppSpacing.cardPadding),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text(
-            'Calculos Extra',
+            'Cálculos Extras',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 18,
             ),
           ),
-          const SizedBox(height: 16),
+          const SizedBox(height: 8),
           ...resultados,
         ],
       ),
@@ -1812,6 +1977,7 @@ String calcularAcessoCentral(double idade, double peso) {
 }
 
 // Cálculo do volume diário de reposição gástrica (nutrição enteral)
+// Em adultos, limita o volume máximo para evitar sobrecarga em obesos
 String calcularVolumeReposicaoGastrica(double peso, double idade) {
   if (peso <= 0) return '-';
 
@@ -1819,28 +1985,40 @@ String calcularVolumeReposicaoGastrica(double peso, double idade) {
   double maxMlKgDia = 150;
 
   if (idade < 1) {
+    // Lactentes: maior necessidade hídrica
     minMlKgDia = 120;
     maxMlKgDia = 150;
   } else if (idade < 10) {
-    minMlKgDia = 100;
-    maxMlKgDia = 120;
-  } else if (idade >= 10 && idade < 18) {
+    // Crianças
     minMlKgDia = 80;
     maxMlKgDia = 100;
+  } else if (idade >= 10 && idade < 18) {
+    // Adolescentes
+    minMlKgDia = 50;
+    maxMlKgDia = 80;
   } else {
-    minMlKgDia = 30;
-    maxMlKgDia = 50;
+    // Adultos: 25-35 mL/kg/dia para manutenção
+    minMlKgDia = 25;
+    maxMlKgDia = 35;
   }
 
   double volumeMin = peso * minMlKgDia;
   double volumeMax = peso * maxMlKgDia;
 
+  // Em adultos, limitar volume máximo para evitar sobrecarga hídrica em obesos
+  if (idade >= 18) {
+    if (volumeMin > 2000) volumeMin = 2000;
+    if (volumeMax > 2500) volumeMax = 2500;
+  }
+
   return '${volumeMin.toStringAsFixed(0)} – ${volumeMax.toStringAsFixed(0)} mL/dia';
 }
 
-String calcularDrenoKehr(double idade, double peso) {
+// Dreno de Kehr: calibre baseado apenas na idade
+// O tamanho da via biliar é relacionado à idade/altura, não ao peso
+String calcularDrenoKehr(double idade) {
   if (idade < 1 / 12) {
-    return '6 – 8 Fr';
+    return '5 – 8 Fr';
   } else if (idade < 1) {
     return '8 – 10 Fr';
   } else if (idade < 5) {
@@ -1887,19 +2065,23 @@ String calcularCreatininaEsperada(double idade, String sexo) {
   double min = 0.0;
   double max = 0.0;
 
-  if (idade < 1 / 12) { // RN pré-termo
-    min = 0.4;
-    max = 1.0;
-  } else if (idade < 1) { // RN termo e lactentes
+  if (idade < 1 / 12) { // RN (primeiro mês)
+    // Creatinina reflete valores maternos nos primeiros dias
     min = 0.3;
-    max = 0.9;
-  } else if (idade < 12) { // crianças
+    max = 0.8;
+  } else if (idade < 1) { // Lactentes (1-12 meses)
+    min = 0.2;
+    max = 0.4; // Corrigido: lactentes têm creatinina baixa
+  } else if (idade < 6) { // Crianças pequenas (1-6 anos)
+    min = 0.2;
+    max = 0.5;
+  } else if (idade < 12) { // Crianças maiores (6-12 anos)
     min = 0.3;
     max = 0.7;
-  } else if (idade < 18) { // adolescentes
+  } else if (idade < 18) { // Adolescentes
     min = 0.5;
     max = (sexo == 'Masculino') ? 1.0 : 0.9;
-  } else { // adultos
+  } else { // Adultos
     min = (sexo == 'Masculino') ? 0.7 : 0.6;
     max = (sexo == 'Masculino') ? 1.3 : 1.1;
   }
@@ -1935,7 +2117,7 @@ class _ResultadoExpandidoState extends State<ResultadoExpandido> {
     String p95 = widget.valores['P95'] ?? '-';
 
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6),
+      padding: const EdgeInsets.symmetric(vertical: 2),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -1953,7 +2135,7 @@ class _ResultadoExpandidoState extends State<ResultadoExpandido> {
                     Text(
                       widget.subtitulo,
                       style: const TextStyle(
-                        fontSize: 16,
+                        fontSize: 14,
                       ),
                     ),
                     const SizedBox(width: 4),
@@ -1965,34 +2147,34 @@ class _ResultadoExpandidoState extends State<ResultadoExpandido> {
                 ),
                 Text(
                   '$p5  -  $p95',
-                  style: const TextStyle(fontSize: 16),
+                  style: const TextStyle(fontSize: 14),
                 ),
               ],
             ),
           ),
           if (expandido) ...[
-            const SizedBox(height: 8),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                const Text('P5', style: TextStyle(fontSize: 16)),
-                Text(p5, style: const TextStyle(fontSize: 16)),
-              ],
-            ),
             const SizedBox(height: 4),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                const Text('P50', style: TextStyle(fontSize: 16)),
-                Text(p50, style: const TextStyle(fontSize: 16)),
+                const Text('P5', style: TextStyle(fontSize: 14)),
+                Text(p5, style: const TextStyle(fontSize: 14)),
               ],
             ),
-            const SizedBox(height: 4),
+            const SizedBox(height: 2),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
-                const Text('P95', style: TextStyle(fontSize: 16)),
-                Text(p95, style: const TextStyle(fontSize: 16)),
+                const Text('P50', style: TextStyle(fontSize: 14)),
+                Text(p50, style: const TextStyle(fontSize: 14)),
+              ],
+            ),
+            const SizedBox(height: 2),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                const Text('P95', style: TextStyle(fontSize: 14)),
+                Text(p95, style: const TextStyle(fontSize: 14)),
               ],
             ),
           ],
@@ -2027,7 +2209,7 @@ class _ResultadoExpandidoPressaoState extends State<ResultadoExpandidoPressao> {
     String mediaP50 = widget.valores['P50']?['Média']?.replaceAll(' mmHg', '') ?? '-';
 
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6),
+      padding: const EdgeInsets.symmetric(vertical: 2),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -2045,7 +2227,7 @@ class _ResultadoExpandidoPressaoState extends State<ResultadoExpandidoPressao> {
                     Text(
                       widget.subtitulo,
                       style: const TextStyle(
-                        fontSize: 16,
+                        fontSize: 14,
                       ),
                     ),
                     const SizedBox(width: 4),
@@ -2057,13 +2239,13 @@ class _ResultadoExpandidoPressaoState extends State<ResultadoExpandidoPressao> {
                 ),
                 Text(
                   '$sistolicaP50 - $diastolicaP50 ($mediaP50) mmHg',
-                  style: const TextStyle(fontSize: 16),
+                  style: const TextStyle(fontSize: 14),
                 ),
               ],
             ),
           ),
           if (expandido) ...[
-            const SizedBox(height: 12),
+            const SizedBox(height: 6),
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: const [
@@ -2082,33 +2264,33 @@ class _ResultadoExpandidoPressaoState extends State<ResultadoExpandidoPressao> {
                 ),
               ],
             ),
-            const SizedBox(height: 6),
+            const SizedBox(height: 2),
             ...widget.valores.entries.map((entry) {
               return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 4),
+                padding: const EdgeInsets.symmetric(vertical: 2),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceAround,
                   children: [
                     Expanded(
                       flex: 2,
-                      child: Text(entry.key, textAlign: TextAlign.left, style: const TextStyle(fontSize: 16)),
+                      child: Text(entry.key, textAlign: TextAlign.left, style: const TextStyle(fontSize: 14)),
                     ),
                     Expanded(
                       flex: 2,
                       child: Center(
-                        child: Text(entry.value['Sistólica'] ?? '-', style: const TextStyle(fontSize: 16)),
+                        child: Text(entry.value['Sistólica'] ?? '-', style: const TextStyle(fontSize: 14)),
                       ),
                     ),
                     Expanded(
                       flex: 2,
                       child: Center(
-                        child: Text(entry.value['Diastólica'] ?? '-', style: const TextStyle(fontSize: 16)),
+                        child: Text(entry.value['Diastólica'] ?? '-', style: const TextStyle(fontSize: 14)),
                       ),
                     ),
                     Expanded(
                       flex: 2,
                       child: Center(
-                        child: Text(entry.value['Média'] ?? '-', style: const TextStyle(fontSize: 16)),
+                        child: Text(entry.value['Média'] ?? '-', style: const TextStyle(fontSize: 14)),
                       ),
                     ),
                   ],
@@ -2133,27 +2315,31 @@ Map<String, String> calcularCateterShilley({
   String calibre = '';
   String comprimento = '';
 
-  // 🔹 Calibre baseado no peso
   if (peso < 10) {
-    calibre = '6.5 – 8 Fr';
+    calibre = '3 – 5 Fr';
   } else if (peso < 20) {
-    calibre = '8 – 10 Fr';
+    calibre = '5 – 7 Fr';
   } else if (peso < 40) {
-    calibre = '10 – 11 Fr';
+    calibre = '7 – 9 Fr';
   } else {
-    calibre = '12 – 14 Fr';
+    calibre = '7 – 9 Fr';
   }
 
-  // 🔸 Comprimento baseado em idade e local
   if (local == 'jugular' || local == 'subclavia') {
-    if (idade < 1) {
-      comprimento = '8 – 10 cm';
-    } else if (idade < 8) {
-      comprimento = '10 – 15 cm';
-    } else if (idade < 14) {
-      comprimento = '15 – 19 cm';
+    if (altura <= 100) {
+      double prof = (altura / 10) - 1;
+      int min = prof.floor().clamp(5, 8);
+      int max = (prof + 3).ceil().clamp(6, 10);
+      comprimento = '$min – $max cm';
+    } else if (altura <= 140) {
+      double prof = (altura / 10) - 2;
+      int min = prof.floor().clamp(8, 13);
+      int max = (prof + 3).ceil().clamp(10, 15);
+      comprimento = '$min – $max cm';
+    } else if (altura <= 170) {
+      comprimento = '13 – 18 cm';
     } else {
-      comprimento = '19 – 20 cm';
+      comprimento = '15 – 20 cm';
     }
   } else if (local == 'femoral') {
     if (idade < 1) {
@@ -2226,7 +2412,7 @@ class _ResultadoExpandidoCateterShilleyState extends State<ResultadoExpandidoCat
     int maior = (numeros.isNotEmpty) ? numeros.reduce((a, b) => a > b ? a : b) : 0;
 
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 6),
+      padding: const EdgeInsets.symmetric(vertical: 2),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
@@ -2237,7 +2423,7 @@ class _ResultadoExpandidoCateterShilleyState extends State<ResultadoExpandidoCat
               children: [
                 Row(
                   children: [
-                    Text(widget.subtitulo, style: const TextStyle(fontSize: 16)),
+                    Text(widget.subtitulo, style: const TextStyle(fontSize: 14)),
                     const SizedBox(width: 4),
                     Icon(
                       expandido ? Icons.keyboard_arrow_up : Icons.keyboard_arrow_down,
@@ -2247,17 +2433,17 @@ class _ResultadoExpandidoCateterShilleyState extends State<ResultadoExpandidoCat
                 ),
                 Text(
                   '$menor – $maior cm',
-                  style: const TextStyle(fontSize: 16),
+                  style: const TextStyle(fontSize: 14),
                 ),
               ],
             ),
           ),
           if (expandido) ...[
-            const SizedBox(height: 8),
+            const SizedBox(height: 4),
             _linhaLocal('Jugular Interna', comprimentoJugular),
-            const SizedBox(height: 4),
+            const SizedBox(height: 2),
             _linhaLocal('Subclávia', comprimentoSubclavia),
-            const SizedBox(height: 4),
+            const SizedBox(height: 2),
             _linhaLocal('Femoral', comprimentoFemoral),
           ],
         ],
@@ -2269,8 +2455,8 @@ class _ResultadoExpandidoCateterShilleyState extends State<ResultadoExpandidoCat
     return Row(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        Text(titulo, style: const TextStyle(fontSize: 16)),
-        Text('$comprimento cm', style: const TextStyle(fontSize: 16)),
+        Text(titulo, style: const TextStyle(fontSize: 14)),
+        Text('$comprimento cm', style: const TextStyle(fontSize: 14)),
       ],
     );
   }

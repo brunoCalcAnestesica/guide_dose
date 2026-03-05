@@ -1,0 +1,570 @@
+{
+  "PT": {
+    "nome": "Bupivacaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infiltração - SEM vasoconstritor",
+          "descricaoDose": "2 mg/kg (máx 175 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 175,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Infiltração - COM vasoconstritor",
+          "descricaoDose": "3 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Infiltração - SEM vaso (ped)",
+          "descricaoDose": "1,25-2,5 mg/kg (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Infiltração - COM vaso (ped)",
+          "descricaoDose": "2,5 mg/kg (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local do tipo amida; bloqueador de canais de sódio; agente de longa duração",
+      "apresentacoes": [
+        { "forma": "Solução 0,25% (2,5 mg/mL)", "obs": "10 mL, 20 mL, 50 mL - sem vasoconstritor" },
+        { "forma": "Solução 0,5% (5 mg/mL)", "obs": "10 mL, 20 mL, 50 mL - sem vasoconstritor" },
+        { "forma": "Solução 0,75% (7,5 mg/mL)", "obs": "10 mL, 20 mL - sem vasoconstritor" },
+        { "forma": "Solução com adrenalina 1:200.000", "obs": "Disponível em algumas formulações" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronta para uso", "concentracao": "Não diluir; não alcalinizar" },
+        { "diluicao": "Pediatria: diluir em SF para 0,25% se necessário", "concentracao": "conforme volume" }
+      ],
+      "observacoes": [
+        "Maior cardiotoxicidade entre anestésicos locais tipo amida – precaução rigorosa",
+        "Aspiração antes da injeção para evitar via intravascular",
+        "Ter emulsão lipídica 20% disponível (protocolo LAST)",
+        "Não misturar com bicarbonato (precipitação); incompatível pH >6,5",
+        "Monitorar paciente ≥30 min após administração",
+        "0,25%: predominância sensorial; 0,5% e 0,75%: bloqueio motor importante"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico para infiltração única. Monitorar toxicidade.",
+        "renal": "Não é necessário ajuste para infiltração única.",
+        "hepatico": "Usar com cautela em hepatopatia grave, especialmente em infusões prolongadas. Monitorar sinais precoces de toxicidade."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bupivacaína SEM vaso (adulto)",
+        "doseTexto": "2 mg/kg (máx 175 mg)",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bupivacaína COM vaso (adulto)",
+        "doseTexto": "3 mg/kg (máx 300 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bupivacaína (pediátrico)",
+        "doseTexto": "1,25-2,5 mg/kg (máx 100 mg)",
+        "doseMin": 1.25,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Bupivacaine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infiltration - WITHOUT vasoconstrictor",
+          "descricaoDose": "2 mg/kg (max 175 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 175,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Infiltration - WITH vasoconstrictor",
+          "descricaoDose": "3 mg/kg (max 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Infiltration - WITHOUT vaso (ped)",
+          "descricaoDose": "1.25-2.5 mg/kg (max 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Infiltration - WITH vaso (ped)",
+          "descricaoDose": "2.5 mg/kg (max 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Local anesthetic of the amide type; voltage-dependent sodium channel blocker; long-acting agent",
+      "apresentacoes": [
+        { "forma": "Solution 0.25% (2.5 mg/mL)", "obs": "10 mL, 20 mL, 50 mL - without vasoconstrictor" },
+        { "forma": "Solution 0.5% (5 mg/mL)", "obs": "10 mL, 20 mL, 50 mL - without vasoconstrictor" },
+        { "forma": "Solution 0.75% (7.5 mg/mL)", "obs": "10 mL, 20 mL - without vasoconstrictor" },
+        { "forma": "Solution with epinephrine 1:200,000", "obs": "Available in some formulations" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for use", "concentracao": "Do not dilute; do not alkalinize" },
+        { "diluicao": "Pediatrics: dilute in NS to 0.25% if needed", "concentracao": "per volume" }
+      ],
+      "observacoes": [
+        "Highest cardiotoxicity among amide-type local anesthetics – rigorous precaution",
+        "Aspirate before injection to avoid intravascular route",
+        "Have 20% lipid emulsion available (LAST protocol)",
+        "Do not mix with bicarbonate (precipitation); incompatible pH >6.5",
+        "Monitor patient ≥30 min after administration",
+        "0.25%: predominantly sensory; 0.5% and 0.75%: significant motor blockade"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment for single infiltration. Monitor for toxicity.",
+        "renal": "No adjustment necessary for single infiltration.",
+        "hepatico": "Use with caution in severe liver disease, especially in prolonged infusions. Monitor for early signs of toxicity."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bupivacaine WITHOUT vaso (adult)",
+        "doseTexto": "2 mg/kg (max 175 mg)",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Bupivacaine WITH vaso (adult)",
+        "doseTexto": "3 mg/kg (max 300 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Bupivacaine (pediatric)",
+        "doseTexto": "1.25-2.5 mg/kg (max 100 mg)",
+        "doseMin": 1.25,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Bupivacaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infiltración - SIN vasoconstrictor",
+          "descricaoDose": "2 mg/kg (máx 175 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 175,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Infiltración - CON vasoconstrictor",
+          "descricaoDose": "3 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Infiltración - SIN vaso (ped)",
+          "descricaoDose": "1,25-2,5 mg/kg (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Infiltración - CON vaso (ped)",
+          "descricaoDose": "2,5 mg/kg (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local del tipo amida; bloqueador de canales de sodio voltaje-dependientes; agente de larga duración",
+      "apresentacoes": [
+        { "forma": "Solución 0,25% (2,5 mg/mL)", "obs": "10 mL, 20 mL, 50 mL - sin vasoconstrictor" },
+        { "forma": "Solución 0,5% (5 mg/mL)", "obs": "10 mL, 20 mL, 50 mL - sin vasoconstrictor" },
+        { "forma": "Solución 0,75% (7,5 mg/mL)", "obs": "10 mL, 20 mL - sin vasoconstrictor" },
+        { "forma": "Solución con adrenalina 1:200.000", "obs": "Disponible en algunas formulaciones" }
+      ],
+      "preparo": [
+        { "diluicao": "Lista para uso", "concentracao": "No diluir; no alcalinizar" },
+        { "diluicao": "Pediatría: diluir en SF a 0,25% si es necesario", "concentracao": "según volumen" }
+      ],
+      "observacoes": [
+        "Mayor cardiotoxicidad entre anestésicos locales tipo amida – precaución rigurosa",
+        "Aspiración antes de la inyección para evitar vía intravascular",
+        "Tener emulsión lipídica 20% disponible (protocolo LAST)",
+        "No mezclar con bicarbonato (precipitación); incompatible pH >6,5",
+        "Monitorizar paciente ≥30 min tras administración",
+        "0,25%: predominio sensorial; 0,5% y 0,75%: bloqueo motor importante"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico para infiltración única. Monitorizar toxicidad.",
+        "renal": "No es necesario ajuste para infiltración única.",
+        "hepatico": "Usar con precaución en hepatopatía grave, especialmente en infusiones prolongadas. Monitorizar signos precoces de toxicidad."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bupivacaína SIN vaso (adulto)",
+        "doseTexto": "2 mg/kg (máx 175 mg)",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bupivacaína CON vaso (adulto)",
+        "doseTexto": "3 mg/kg (máx 300 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bupivacaína (pediátrico)",
+        "doseTexto": "1,25-2,5 mg/kg (máx 100 mg)",
+        "doseMin": 1.25,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "布比卡因",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "浸润 - 无血管收缩药",
+          "descricaoDose": "2 mg/kg（最大175 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 175,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "严重肝病慎用"
+          }
+        },
+        {
+          "titulo": "浸润 - 含血管收缩药",
+          "descricaoDose": "3 mg/kg（最大300 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "严重肝病慎用"
+          }
+        },
+        {
+          "titulo": "浸润 - 无血管收缩药（儿童）",
+          "descricaoDose": "1.25-2.5 mg/kg（最大100 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "严重肝病慎用"
+          }
+        },
+        {
+          "titulo": "浸润 - 含血管收缩药（儿童）",
+          "descricaoDose": "2.5 mg/kg（最大100 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "严重肝病慎用"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "酰胺类局麻药；电压依赖性钠通道阻滞剂；长效制剂",
+      "apresentacoes": [
+        { "forma": "溶液 0.25%（2.5 mg/mL）", "obs": "10 mL、20 mL、50 mL - 无血管收缩药" },
+        { "forma": "溶液 0.5%（5 mg/mL）", "obs": "10 mL、20 mL、50 mL - 无血管收缩药" },
+        { "forma": "溶液 0.75%（7.5 mg/mL）", "obs": "10 mL、20 mL - 无血管收缩药" },
+        { "forma": "含肾上腺素 1:200,000 溶液", "obs": "部分剂型可用" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "勿稀释；勿碱化" },
+        { "diluicao": "儿童：必要时用生理盐水稀释至0.25%", "concentracao": "按体积" }
+      ],
+      "observacoes": [
+        "酰胺类局麻药中心脏毒性最高，须严格谨慎",
+        "注射前回抽以避免血管内注射",
+        "备有20%脂肪乳（LAST方案）",
+        "勿与碳酸氢盐混合（沉淀）；pH>6.5不相容",
+        "给药后监测患者≥30分钟",
+        "0.25%：以感觉为主；0.5%和0.75%：明显运动阻滞"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "单次浸润无需调整。监测毒性。",
+        "renal": "单次浸润无需调整。",
+        "hepatico": "严重肝病慎用，尤其长时间输注。监测早期毒性征象。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "布比卡因 无血管收缩药（成人）",
+        "doseTexto": "2 mg/kg（最大175 mg）",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "布比卡因 含血管收缩药（成人）",
+        "doseTexto": "3 mg/kg（最大300 mg）",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "布比卡因（儿童）",
+        "doseTexto": "1.25-2.5 mg/kg（最大100 mg）",
+        "doseMin": 1.25,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  }
+}

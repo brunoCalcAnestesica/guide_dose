@@ -1,0 +1,426 @@
+{
+  "PT": {
+    "nome": "Nitroglicerina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Síndrome coronariana aguda / Edema agudo de pulmão / Controle de hipertensão arterial",
+          "descricaoDose": "5-200 mcg/min IV contínuo (até 400 mcg/min em situações críticas)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": "5-200 mcg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela; metabolização hepática extensa"
+          }
+        },
+        {
+          "titulo": "Infusão contínua (pediátrico)",
+          "descricaoDose": "0,25-5 mcg/kg/min IV contínuo (off-label)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "50 mg em 100 mL SF/SG5% (500 mcg/mL)", "valor": 500 },
+            { "rotulo": "50 mg em 250 mL SF/SG5% (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "50 mg em 500 mL SF/SG5% (100 mcg/mL)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasodilatador venoso - nitrato orgânico, antianginoso e anti-hipertensivo",
+      "apresentacoes": [
+        { "forma": "Ampola 50 mg/10 mL (5 mg/mL)", "obs": "Uso IV - Tridil®, Nitronal®" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg (10 mL) + 100 mL SF ou SG5%", "concentracao": "500 mcg/mL" },
+        { "diluicao": "50 mg (10 mL) + 250 mL SF ou SG5%", "concentracao": "200 mcg/mL" },
+        { "diluicao": "50 mg (10 mL) + 500 mL SF ou SG5%", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Primeira linha em síndrome coronariana aguda, edema agudo de pulmão e controle de hipertensão perioperatório",
+        "Início de ação IV em 1-2 min; pico em até 5 min",
+        "Taquifilaxia após 24-48 h de infusão contínua",
+        "Dissecção de aorta: associar betabloqueador; evitar IECA/ARA2",
+        "Contraindicado com inibidores da PDE5 (sildenafil, tadalafil, vardenafil)",
+        "Proteger solução da luz; usar bomba de infusão"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com dose menor; monitorar PA e resposta.",
+        "renal": "Não exige ajuste. Cautela em DRC grave por risco de hipotensão.",
+        "hepatico": "Usar com cautela; metabolização hepática extensa. Monitorizar resposta hemodinâmica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nitroglicerina (adulto)",
+        "doseTexto": "5-200 mcg/min IV contínuo",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "5-200 mcg/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitroglicerina (pediátrico)",
+        "doseTexto": "0,25-5 mcg/kg/min IV contínuo",
+        "doseMin": 0.25,
+        "doseMax": 5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Nitroglycerin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute coronary syndrome / Pulmonary edema / Blood pressure control",
+          "descricaoDose": "5-200 mcg/min IV continuous (up to 400 mcg/min in critical situations)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": "5-200 mcg/min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Use with caution; extensive hepatic metabolism"
+          }
+        },
+        {
+          "titulo": "Continuous infusion (pediatric)",
+          "descricaoDose": "0.25-5 mcg/kg/min IV continuous (off-label)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Use with caution"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "50 mg in 100 mL NS/D5% (500 mcg/mL)", "valor": 500 },
+            { "rotulo": "50 mg in 250 mL NS/D5% (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "50 mg in 500 mL NS/D5% (100 mcg/mL)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Venous vasodilator - organic nitrate, antianginal and antihypertensive",
+      "apresentacoes": [
+        { "forma": "Ampule 50 mg/10 mL (5 mg/mL)", "obs": "IV use - Tridil®, Nitronal®" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg (10 mL) + 100 mL NS or D5%", "concentracao": "500 mcg/mL" },
+        { "diluicao": "50 mg (10 mL) + 250 mL NS or D5%", "concentracao": "200 mcg/mL" },
+        { "diluicao": "50 mg (10 mL) + 500 mL NS or D5%", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "First line in acute coronary syndrome, pulmonary edema, and perioperative blood pressure control",
+        "IV onset 1-2 min; peak effect within 5 min",
+        "Tachyphylaxis after 24-48 h of continuous infusion",
+        "Aortic dissection: combine with beta-blocker; avoid ACEi/ARB",
+        "Contraindicated with PDE5 inhibitors (sildenafil, tadalafil, vardenafil)",
+        "Protect solution from light; use infusion pump"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with lower dose; monitor blood pressure and response.",
+        "renal": "No dose adjustment. Caution in severe CKD due to hypotension risk.",
+        "hepatico": "Use with caution; extensive hepatic metabolism. Monitor hemodynamic response."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nitroglycerin (adult)",
+        "doseTexto": "5-200 mcg/min IV continuous",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "5-200 mcg/min",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Nitroglycerin (pediatric)",
+        "doseTexto": "0.25-5 mcg/kg/min IV continuous",
+        "doseMin": 0.25,
+        "doseMax": 5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Nitroglicerina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Síndrome coronariano agudo / Edema agudo de pulmón / Control de hipertensión arterial",
+          "descricaoDose": "5-200 mcg/min IV continuo (hasta 400 mcg/min en situaciones críticas)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": "5-200 mcg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Usar con precaución; metabolización hepática extensa"
+          }
+        },
+        {
+          "titulo": "Infusión continua (pediátrico)",
+          "descricaoDose": "0,25-5 mcg/kg/min IV continuo (off-label)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Usar con precaución"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "50 mg en 100 mL SF/SG5% (500 mcg/mL)", "valor": 500 },
+            { "rotulo": "50 mg en 250 mL SF/SG5% (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "50 mg en 500 mL SF/SG5% (100 mcg/mL)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasodilatador venoso - nitrato orgánico, antianginoso y antihipertensivo",
+      "apresentacoes": [
+        { "forma": "Ampolla 50 mg/10 mL (5 mg/mL)", "obs": "Uso IV - Tridil®, Nitronal®" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg (10 mL) + 100 mL SF o SG5%", "concentracao": "500 mcg/mL" },
+        { "diluicao": "50 mg (10 mL) + 250 mL SF o SG5%", "concentracao": "200 mcg/mL" },
+        { "diluicao": "50 mg (10 mL) + 500 mL SF o SG5%", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Primera línea en síndrome coronariano agudo, edema agudo de pulmón y control de hipertensión perioperatorio",
+        "Inicio de acción IV en 1-2 min; pico en hasta 5 min",
+        "Taquifilaxia tras 24-48 h de infusión continua",
+        "Disección de aorta: asociar betabloqueador; evitar IECA/ARA2",
+        "Contraindicado con inhibidores de PDE5 (sildenafil, tadalafil, vardenafil)",
+        "Proteger solución de la luz; usar bomba de infusión"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis menor; monitorizar PA y respuesta.",
+        "renal": "No exige ajuste. Precaución en ERC grave por riesgo de hipotensión.",
+        "hepatico": "Usar con precaución; metabolización hepática extensa. Monitorizar respuesta hemodinámica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nitroglicerina (adulto)",
+        "doseTexto": "5-200 mcg/min IV continuo",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "5-200 mcg/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitroglicerina (pediátrico)",
+        "doseTexto": "0,25-5 mcg/kg/min IV continuo",
+        "doseMin": 0.25,
+        "doseMax": 5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "硝酸甘油",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性冠脉综合征/急性肺水肿/血压控制",
+          "descricaoDose": "5-200 mcg/min 静脉持续（危重时可达400 mcg/min）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": "5-200 mcg/min",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "慎用；肝脏代谢广泛"
+          }
+        },
+        {
+          "titulo": "持续输注（儿童）",
+          "descricaoDose": "0.25-5 mcg/kg/min 静脉持续（超说明书）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "慎用"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "50 mg 溶于 100 mL 生理盐水/5%葡萄糖 (500 mcg/mL)", "valor": 500 },
+            { "rotulo": "50 mg 溶于 250 mL 生理盐水/5%葡萄糖 (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "50 mg 溶于 500 mL 生理盐水/5%葡萄糖 (100 mcg/mL)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "静脉血管扩张剂 - 有机硝酸酯，抗心绞痛和抗高血压",
+      "apresentacoes": [
+        { "forma": "安瓿 50 mg/10 mL (5 mg/mL)", "obs": "静脉用 - Tridil®, Nitronal®" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg (10 mL) + 100 mL 生理盐水或5%葡萄糖", "concentracao": "500 mcg/mL" },
+        { "diluicao": "50 mg (10 mL) + 250 mL 生理盐水或5%葡萄糖", "concentracao": "200 mcg/mL" },
+        { "diluicao": "50 mg (10 mL) + 500 mL 生理盐水或5%葡萄糖", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "急性冠脉综合征、急性肺水肿及围术期血压控制一线用药",
+        "静脉给药1-2分钟起效；5分钟内达峰",
+        "持续输注24-48小时后可出现快速耐受",
+        "主动脉夹层：联用β受体阻滞剂；避免ACEI/ARB",
+        "禁与PDE5抑制剂（西地那非、他达拉非、伐地那非）合用",
+        "避光保存；使用输液泵"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从小剂量开始；监测血压及反应。",
+        "renal": "无需调整剂量。严重肾功能不全慎用，注意低血压风险。",
+        "hepatico": "慎用；肝脏代谢广泛。监测血流动力学反应。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "硝酸甘油（成人）",
+        "doseTexto": "5-200 mcg/min 静脉持续",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": "5-200 mcg/min",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "硝酸甘油（儿童）",
+        "doseTexto": "0.25-5 mcg/kg/min 静脉持续",
+        "doseMin": 0.25,
+        "doseMax": 5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

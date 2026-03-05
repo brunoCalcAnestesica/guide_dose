@@ -9,15 +9,18 @@ class MedicamentoAtropina {
   static const String idBulario = 'atropina';
 
   static Future<Map<String, dynamic>> carregarBulario() async {
-    final String jsonStr = await rootBundle.loadString('assets/medicamentos/atropina.json');
+    final String jsonStr =
+        await rootBundle.loadString('assets/medicamentos/atropina.json');
     final Map<String, dynamic> jsonMap = json.decode(jsonStr);
     return jsonMap['PT']['bulario'];
   }
 
-  static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
-    final peso = SharedData.peso ?? 70;
-    final isAdulto = SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
+  static Widget buildCard(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
     final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final isAdulto =
+        SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -34,29 +37,59 @@ class MedicamentoAtropina {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final isAdulto =
+        SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
 
-  static Widget _buildCardAtropina(BuildContext context, double peso, bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
+    return _buildCardAtropina(
+      context,
+        peso,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
+
+  static Widget _buildCardAtropina(BuildContext context, double peso,
+      bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         const SizedBox(height: 16),
-        const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Classe',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAtropina._textoObs('• Anticolinérgico - Antagonista muscarínico'),
+        MedicamentoAtropina._textoObs(
+            '• Anticolinérgico - Antagonista muscarínico'),
         const SizedBox(height: 16),
-        const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAtropina._linhaPreparo('Ampola 1mg/mL (1mL)', 'Solução injetável'),
-        MedicamentoAtropina._linhaPreparo('Ampola 0,25mg/mL (1mL)', 'Solução injetável diluída'),
+        MedicamentoAtropina._linhaPreparo(
+            'Ampola 1mg/mL (1mL)', 'Solução injetável'),
+        MedicamentoAtropina._linhaPreparo(
+            'Ampola 0,25mg/mL (1mL)', 'Solução injetável diluída'),
         MedicamentoAtropina._linhaPreparo('Comprimidos 0,5mg', 'Via oral'),
         const SizedBox(height: 16),
-        const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Preparo',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAtropina._linhaPreparo('Pode ser administrado sem diluição', 'Direto da ampola'),
-        MedicamentoAtropina._linhaPreparo('Para doses baixas: diluir em SF 0,9%', 'Concentração conforme necessidade'),
-        MedicamentoAtropina._linhaPreparo('1mg em 10mL SF 0,9%', '0,1 mg/mL para doses precisas'),
+        MedicamentoAtropina._linhaPreparo(
+            'Pode ser administrado sem diluição', 'Direto da ampola'),
+        MedicamentoAtropina._linhaPreparo(
+            'Para doses baixas: diluir em SF 0,9%',
+            'Concentração conforme necessidade'),
+        MedicamentoAtropina._linhaPreparo(
+            '1mg em 10mL SF 0,9%', '0,1 mg/mL para doses precisas'),
         const SizedBox(height: 16),
-        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
           MedicamentoAtropina._linhaIndicacaoDoseFixa(
@@ -121,20 +154,31 @@ class MedicamentoAtropina {
           ],
         ],
         const SizedBox(height: 16),
-        const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Infusão Contínua',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAtropina._textoObs('• Infusão contínua não é rotina para atropina'),
-        MedicamentoAtropina._textoObs('• Usar doses intermitentes conforme necessidade'),
+        MedicamentoAtropina._textoObs(
+            '• Infusão contínua não é rotina para atropina'),
+        MedicamentoAtropina._textoObs(
+            '• Usar doses intermitentes conforme necessidade'),
         const SizedBox(height: 16),
-        const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        MedicamentoAtropina._textoObs('• Anticolinérgico para bradicardia e pré-medicação'),
-        MedicamentoAtropina._textoObs('• Efeito imediato (1-2 minutos), duração 2-4 horas'),
-        MedicamentoAtropina._textoObs('• Contraindicado em glaucoma de ângulo fechado'),
-        MedicamentoAtropina._textoObs('• Cuidado em hipertrofia prostática e íleo paralítico'),
-        MedicamentoAtropina._textoObs('• Efeitos adversos: boca seca, taquicardia, retenção urinária'),
-        MedicamentoAtropina._textoObs('• Monitorar frequência cardíaca e sinais vitais'),
-        MedicamentoAtropina._textoObs('• Antídoto para intoxicações por organofosforados'),
+        MedicamentoAtropina._textoObs(
+            '• Anticolinérgico para bradicardia e pré-medicação'),
+        MedicamentoAtropina._textoObs(
+            '• Efeito imediato (1-2 minutos), duração 2-4 horas'),
+        MedicamentoAtropina._textoObs(
+            '• Contraindicado em glaucoma de ângulo fechado'),
+        MedicamentoAtropina._textoObs(
+            '• Cuidado em hipertrofia prostática e íleo paralítico'),
+        MedicamentoAtropina._textoObs(
+            '• Efeitos adversos: boca seca, taquicardia, retenção urinária'),
+        MedicamentoAtropina._textoObs(
+            '• Monitorar frequência cardíaca e sinais vitais'),
+        MedicamentoAtropina._textoObs(
+            '• Antídoto para intoxicações por organofosforados'),
       ],
     );
   }
@@ -153,8 +197,12 @@ class MedicamentoAtropina {
                 children: [
                   TextSpan(text: texto),
                   if (marca.isNotEmpty) ...[
-                    const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                    const TextSpan(
+                        text: ' | ',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(
+                        text: marca,
+                        style: const TextStyle(fontStyle: FontStyle.italic)),
                   ],
                 ],
               ),
@@ -197,7 +245,8 @@ class MedicamentoAtropina {
       if (doseMaxima != null) {
         doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
       }
-      textoDose = '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      textoDose =
+          '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(

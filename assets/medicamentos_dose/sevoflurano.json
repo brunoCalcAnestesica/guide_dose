@@ -1,0 +1,842 @@
+{
+  "PT": {
+    "nome": "Sevoflurano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução anestésica (máscara) - Adulto",
+          "descricaoDose": "5-8% em O₂ 100% ou O₂/N₂O 50/50",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5-8%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção anestésica - Adulto",
+          "descricaoDose": "0,5-3% (CAM 0,5-1,5 típico) com O₂ ou N₂O",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-3%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção balanceada (com opioide) - Adulto",
+          "descricaoDose": "0,5-2% (reduzir CAM com fentanil/remifentanil)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução pediátrica (máscara)",
+          "descricaoDose": "5-8% em O₂ 100% (aumentar gradualmente)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5-8%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção pediátrica",
+          "descricaoDose": "2-3,5% conforme idade (neonatos 3-3,5%; lactentes 2,5-3%; crianças 2-2,5%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3,5%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "CAM pediátrico (1 CAM)",
+          "descricaoDose": "2-3,3% (neonato 3,3%; lactente 3,2%; criança 2,5%; adolescente 2%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3,3%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico geral inalatório halogenado - Éter fluorado",
+      "apresentacoes": [
+        { "forma": "Líquido volátil 100%", "obs": "Frasco 250 mL - uso em vaporizador calibrado" },
+        { "forma": "Densidade 1,52 g/mL a 20°C", "obs": "Pressão de vapor: 160 mmHg" }
+      ],
+      "preparo": [
+        { "diluicao": "Vaporizador calibrado específico", "concentracao": "Sevoflurano Tec 5/7" },
+        { "diluicao": "Circuito anestésico", "concentracao": "Fluxo gás fresco 1-6 L/min" },
+        { "diluicao": "Monitor de gases anestésicos", "concentracao": "Fração inspirada/expirada" },
+        { "diluicao": "CAM adulto em O₂", "concentracao": "2,05%; em N₂O 70%: 0,66%" }
+      ],
+      "observacoes": [
+        "Baixa solubilidade sangue/gás (0,65). Indução e despertar rápidos (2-4 min)",
+        "CAM adulto: 2,05% em O₂; 0,66% em N₂O 70%",
+        "Odor agradável - ideal para indução inalatória pediátrica; não irritante vias aéreas",
+        "Mínima biotransformação (2-5%) - seguro em hepatopatas",
+        "ATENÇÃO: Evitar cal sodada ressecada (produz composto A - nefrotóxico)",
+        "Usar fluxo gás fresco ≥2 L/min (evitar acúmulo de composto A)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir concentração. Titular conforme resposta.",
+        "renal": "Cautela: composto A em circuito com cal sodada. Usar fluxo ≥2 L/min; evitar cal sodada ressecada.",
+        "hepatico": "Mínima biotransformação (2-5%). Seguro em hepatopatas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sevoflurano - Indução (adulto)",
+        "doseTexto": "5-8% em O₂ 100% ou O₂/N₂O 50/50",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "5-8%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sevoflurano - Manutenção (adulto)",
+        "doseTexto": "0,5-3% (CAM 0,5-1,5 típico)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-3%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sevoflurano - Manutenção balanceada (adulto)",
+        "doseTexto": "0,5-2% (com opioide)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sevoflurano - Indução (pediátrico)",
+        "doseTexto": "5-8% em O₂ 100%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "5-8%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Sevoflurano - Manutenção (pediátrico)",
+        "doseTexto": "2-3,5% (conforme idade)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2-3,5%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Sevoflurano - CAM pediátrico (1 CAM)",
+        "doseTexto": "2-3,3%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2-3,3%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Sevoflurane",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anesthetic induction (mask) - Adult",
+          "descricaoDose": "5-8% in 100% O₂ or O₂/N₂O 50/50",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5-8%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anesthetic maintenance - Adult",
+          "descricaoDose": "0.5-3% (MAC 0.5-1.5 typical) with O₂ or N₂O",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-3%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Balanced maintenance (with opioid) - Adult",
+          "descricaoDose": "0.5-2% (reduce MAC with fentanyl/remifentanil)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric induction (mask)",
+          "descricaoDose": "5-8% in 100% O₂ (increase gradually)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5-8%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric maintenance",
+          "descricaoDose": "2-3.5% by age (neonates 3-3.5%; infants 2.5-3%; children 2-2.5%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3.5%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric MAC (1 MAC)",
+          "descricaoDose": "2-3.3% (neonate 3.3%; infant 3.2%; child 2.5%; adolescent 2%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3.3%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Halogenated inhalational general anesthetic - Fluorinated ether",
+      "apresentacoes": [
+        { "forma": "Volatile liquid 100%", "obs": "250 mL bottle - use in calibrated vaporizer" },
+        { "forma": "Density 1.52 g/mL at 20°C", "obs": "Vapor pressure: 160 mmHg" }
+      ],
+      "preparo": [
+        { "diluicao": "Calibrated specific vaporizer", "concentracao": "Sevoflurane Tec 5/7" },
+        { "diluicao": "Anesthetic circuit", "concentracao": "Fresh gas flow 1-6 L/min" },
+        { "diluicao": "Anesthetic gas monitor", "concentracao": "Inspired/expired fraction" },
+        { "diluicao": "Adult MAC in O₂", "concentracao": "2.05%; in 70% N₂O: 0.66%" }
+      ],
+      "observacoes": [
+        "Low blood/gas solubility (0.65). Fast induction and emergence (2-4 min)",
+        "Adult MAC: 2.05% in O₂; 0.66% in 70% N₂O",
+        "Pleasant odor - ideal for pediatric inhalational induction; non-irritating to airways",
+        "Minimal biotransformation (2-5%) - safe in liver disease",
+        "CAUTION: Avoid desiccated soda lime (produces compound A - nephrotoxic)",
+        "Use fresh gas flow ≥2 L/min (avoid compound A accumulation)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce concentration. Titrate to response.",
+        "renal": "Caution: compound A in soda lime circuit. Use flow ≥2 L/min; avoid desiccated soda lime.",
+        "hepatico": "Minimal biotransformation (2-5%). Safe in liver disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sevoflurane - Induction (adult)",
+        "doseTexto": "5-8% in 100% O₂ or O₂/N₂O 50/50",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "5-8%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Sevoflurane - Maintenance (adult)",
+        "doseTexto": "0.5-3% (MAC 0.5-1.5 typical)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-3%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Sevoflurane - Balanced maintenance (adult)",
+        "doseTexto": "0.5-2% (with opioid)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Sevoflurane - Induction (pediatric)",
+        "doseTexto": "5-8% in 100% O₂",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "5-8%",
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Sevoflurane - Maintenance (pediatric)",
+        "doseTexto": "2-3.5% (by age)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2-3.5%",
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Sevoflurane - Pediatric MAC (1 MAC)",
+        "doseTexto": "2-3.3%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2-3.3%",
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Sevoflurano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción anestésica (máscara) - Adulto",
+          "descricaoDose": "5-8% en O₂ 100% u O₂/N₂O 50/50",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5-8%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento anestésico - Adulto",
+          "descricaoDose": "0,5-3% (CAM 0,5-1,5 típico) con O₂ o N₂O",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-3%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento balanceado (con opioide) - Adulto",
+          "descricaoDose": "0,5-2% (reducir CAM con fentanilo/remifentanilo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción pediátrica (máscara)",
+          "descricaoDose": "5-8% en O₂ 100% (aumentar gradualmente)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5-8%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento pediátrico",
+          "descricaoDose": "2-3,5% según edad (neonatos 3-3,5%; lactantes 2,5-3%; niños 2-2,5%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3,5%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "CAM pediátrico (1 CAM)",
+          "descricaoDose": "2-3,3% (neonato 3,3%; lactante 3,2%; niño 2,5%; adolescente 2%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3,3%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico general inhalatorio halogenado - Éter fluorado",
+      "apresentacoes": [
+        { "forma": "Líquido volátil 100%", "obs": "Frasco 250 mL - uso en vaporizador calibrado" },
+        { "forma": "Densidad 1,52 g/mL a 20°C", "obs": "Presión de vapor: 160 mmHg" }
+      ],
+      "preparo": [
+        { "diluicao": "Vaporizador calibrado específico", "concentracao": "Sevoflurano Tec 5/7" },
+        { "diluicao": "Circuito anestésico", "concentracao": "Flujo gas fresco 1-6 L/min" },
+        { "diluicao": "Monitor de gases anestésicos", "concentracao": "Fracción inspirada/espirada" },
+        { "diluicao": "CAM adulto en O₂", "concentracao": "2,05%; en N₂O 70%: 0,66%" }
+      ],
+      "observacoes": [
+        "Baja solubilidad sangre/gas (0,65). Inducción y despertar rápidos (2-4 min)",
+        "CAM adulto: 2,05% en O₂; 0,66% en N₂O 70%",
+        "Olor agradable - ideal inducción inhalatoria pediátrica; no irritante vías aéreas",
+        "Mínima biotransformación (2-5%) - seguro en hepatópatas",
+        "ATENCIÓN: Evitar cal sodada desecada (produce compuesto A - nefrotóxico)",
+        "Usar flujo gas fresco ≥2 L/min (evitar acumulación compuesto A)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir concentración. Titular según respuesta.",
+        "renal": "Precaución: compuesto A en circuito con cal sodada. Flujo ≥2 L/min; evitar cal sodada desecada.",
+        "hepatico": "Mínima biotransformación (2-5%). Seguro en hepatópatas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sevoflurano - Inducción (adulto)",
+        "doseTexto": "5-8% en O₂ 100% u O₂/N₂O 50/50",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "5-8%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sevoflurano - Mantenimiento (adulto)",
+        "doseTexto": "0,5-3% (CAM 0,5-1,5 típico)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-3%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sevoflurano - Mantenimiento balanceado (adulto)",
+        "doseTexto": "0,5-2% (con opioide)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sevoflurano - Inducción (pediátrico)",
+        "doseTexto": "5-8% en O₂ 100%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "5-8%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Sevoflurano - Mantenimiento (pediátrico)",
+        "doseTexto": "2-3,5% (según edad)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2-3,5%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Sevoflurano - CAM pediátrico (1 CAM)",
+        "doseTexto": "2-3,3%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2-3,3%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "七氟烷",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "麻醉诱导（面罩） - 成人",
+          "descricaoDose": "5-8% 于 100% O₂ 或 O₂/N₂O 50/50",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5-8%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "麻醉维持 - 成人",
+          "descricaoDose": "0.5-3%（MAC 0.5-1.5 典型）于 O₂ 或 N₂O",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-3%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "平衡维持（联用阿片类） - 成人",
+          "descricaoDose": "0.5-2%（联用芬太尼/瑞芬太尼降低MAC）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童诱导（面罩）",
+          "descricaoDose": "5-8% 于 100% O₂（逐渐增加）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5-8%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童维持",
+          "descricaoDose": "2-3.5% 按年龄（新生儿 3-3.5%；婴儿 2.5-3%；儿童 2-2.5%）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3.5%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童MAC（1 MAC）",
+          "descricaoDose": "2-3.3%（新生儿 3.3%；婴儿 3.2%；儿童 2.5%；青少年 2%）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3.3%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "卤化吸入全身麻醉药 - 氟化醚",
+      "apresentacoes": [
+        { "forma": "挥发性液体 100%", "obs": "250 mL 瓶 - 校准蒸发器使用" },
+        { "forma": "密度 1.52 g/mL 20°C", "obs": "蒸气压：160 mmHg" }
+      ],
+      "preparo": [
+        { "diluicao": "专用校准蒸发器", "concentracao": "Sevoflurane Tec 5/7" },
+        { "diluicao": "麻醉回路", "concentracao": "新鲜气流量 1-6 L/min" },
+        { "diluicao": "麻醉气体监测", "concentracao": "吸入/呼出浓度" },
+        { "diluicao": "成人MAC 纯O₂", "concentracao": "2.05%；70% N₂O：0.66%" }
+      ],
+      "observacoes": [
+        "血/气溶解度低（0.65）。诱导与苏醒快（2-4分钟）",
+        "成人MAC：纯O₂ 2.05%；70% N₂O 0.66%",
+        "气味宜人，适合儿童吸入诱导；不刺激气道",
+        "生物转化极少（2-5%）- 肝病患者安全",
+        "注意：避免干燥钠石灰（产生化合物A-肾毒性）",
+        "新鲜气流量≥2 L/min（避免化合物A蓄积）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "降低浓度。按反应滴定。",
+        "renal": "注意：钠石灰回路中化合物A。流量≥2 L/min；避免干燥钠石灰。",
+        "hepatico": "生物转化极少（2-5%）。肝病患者安全。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "七氟烷 - 诱导（成人）",
+        "doseTexto": "5-8% 于 100% O₂ 或 O₂/N₂O 50/50",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "5-8%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "七氟烷 - 维持（成人）",
+        "doseTexto": "0.5-3%（MAC 0.5-1.5 典型）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-3%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "七氟烷 - 平衡维持（成人）",
+        "doseTexto": "0.5-2%（联用阿片类）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "七氟烷 - 诱导（儿童）",
+        "doseTexto": "5-8% 于 100% O₂",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "5-8%",
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "七氟烷 - 维持（儿童）",
+        "doseTexto": "2-3.5%（按年龄）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2-3.5%",
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "七氟烷 - 儿童MAC（1 MAC）",
+        "doseTexto": "2-3.3%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2-3.3%",
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

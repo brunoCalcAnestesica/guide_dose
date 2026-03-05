@@ -1,22 +1,19 @@
 import 'package:flutter/material.dart';
+import '../theme/app_colors.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
-import '../drogas_card/drogas.dart';
 import '../shared_data.dart';
+import '../drogas_card/drogas.dart' show ConversaoInfusaoSlider;
 
 /// Cria um card expansível para exibir informações de um medicamento.
 Widget buildMedicamentoExpansivel({
   required BuildContext context,
   required String nome,
   required String idBulario,
-  required bool isFavorito,
-  required VoidCallback onToggleFavorito,
   required Widget conteudo,
 }) {
   return _CustomExpansionCard(
     nome: nome,
-    isFavorito: isFavorito,
-    onToggleFavorito: onToggleFavorito,
     onBularioPressed: () {
       Navigator.pushNamed(context, '/bulario', arguments: idBulario);
     },
@@ -26,15 +23,11 @@ Widget buildMedicamentoExpansivel({
 
 class _CustomExpansionCard extends StatefulWidget {
   final String nome;
-  final bool isFavorito;
-  final VoidCallback onToggleFavorito;
   final VoidCallback onBularioPressed;
   final Widget conteudo;
 
   const _CustomExpansionCard({
     required this.nome,
-    required this.isFavorito,
-    required this.onToggleFavorito,
     required this.onBularioPressed,
     required this.conteudo,
   });
@@ -94,7 +87,7 @@ class _CustomExpansionCardState extends State<_CustomExpansionCard>
                 children: [
                   Icon(
                     _isExpanded ? Icons.expand_less : Icons.expand_more,
-                    color: Colors.indigo,
+                    color: AppColors.primary,
                   ),
                   const SizedBox(width: 8),
                   Expanded(
@@ -107,25 +100,12 @@ class _CustomExpansionCardState extends State<_CustomExpansionCard>
                       overflow: TextOverflow.ellipsis,
                     ),
                   ),
-                  Row(
-                    children: [
-                      IconButton(
-                        icon: Icon(
-                          widget.isFavorito ? Icons.star_rounded : Icons.star_border_rounded,
-                          color: widget.isFavorito ? Colors.amber[700] : Colors.grey[400],
-                          size: 24,
-                        ),
-                        tooltip: widget.isFavorito ? 'Remover dos favoritos' : 'Adicionar aos favoritos',
-                        onPressed: widget.onToggleFavorito,
-                        visualDensity: VisualDensity.compact,
-                      ),
-                      IconButton(
-                        icon: const Icon(Icons.medical_information_rounded, size: 24, color: Colors.blueGrey),
-                        tooltip: 'Abrir bulário',
-                        onPressed: widget.onBularioPressed,
-                        visualDensity: VisualDensity.compact,
-                      ),
-                    ],
+                  IconButton(
+                    icon: const Icon(Icons.medical_information_rounded,
+                        size: 24, color: Colors.blueGrey),
+                    tooltip: 'Abrir bulário',
+                    onPressed: widget.onBularioPressed,
+                    visualDensity: VisualDensity.compact,
                   ),
                 ],
               ),
@@ -140,7 +120,8 @@ class _CustomExpansionCardState extends State<_CustomExpansionCard>
                   heightFactor: _heightFactor.value,
                   child: _isExpanded
                       ? Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                          padding: const EdgeInsets.symmetric(
+                              horizontal: 16, vertical: 8),
                           child: widget.conteudo,
                         )
                       : null,
@@ -159,13 +140,11 @@ Widget _buildCardAdrenalina(
   BuildContext context,
   double peso,
   bool isAdulto,
-  bool isFavorito,
-  VoidCallback onToggleFavorito,
   Map<String, dynamic> dados,
 ) {
   final faixaEtaria = SharedData.faixaEtaria;
   final faixaEtariaKey = _getFaixaEtariaKey(faixaEtaria);
-  
+
   return Column(
     crossAxisAlignment: CrossAxisAlignment.start,
     children: [
@@ -179,15 +158,19 @@ Widget _buildCardAdrenalina(
           padding: const EdgeInsets.only(top: 4, bottom: 8),
           child: Text(
             'Faixa etária: $faixaEtaria',
-            style: const TextStyle(fontSize: 14, fontWeight: FontWeight.w500, color: Colors.indigo),
+            style: const TextStyle(
+                fontSize: 14,
+                fontWeight: FontWeight.w500,
+                color: AppColors.primary),
           ),
         ),
-      
+
       // Apresentações
-      const Text('Apresentações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+      const Text('Apresentações',
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
       const SizedBox(height: 8),
-      ...((dados['apresentacoes'] as List?) ?? []).map((apresentacao) => 
-        _linhaPreparo(
+      ...((dados['apresentacoes'] as List?) ?? []).map(
+        (apresentacao) => _linhaPreparo(
           apresentacao['nome'] ?? '',
           apresentacao['observacao'] ?? '',
         ),
@@ -195,10 +178,11 @@ Widget _buildCardAdrenalina(
 
       const SizedBox(height: 16),
       // Preparo
-      const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+      const Text('Preparo',
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
       const SizedBox(height: 8),
-      ...((dados['preparo'] as List?) ?? []).map((preparo) => 
-        _linhaPreparo(
+      ...((dados['preparo'] as List?) ?? []).map(
+        (preparo) => _linhaPreparo(
           preparo['nome'] ?? '',
           preparo['observacao'] ?? '',
         ),
@@ -206,33 +190,41 @@ Widget _buildCardAdrenalina(
 
       const SizedBox(height: 16),
       // Indicações clínicas
-      const Text('Indicações clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+      const Text('Indicações clínicas',
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
       const SizedBox(height: 8),
       ..._buildIndicacoesPorFaixa(dados['indicacoes'], faixaEtariaKey, peso),
 
       const SizedBox(height: 16),
       // Off-label
-      const Text('Off-label', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+      const Text('Off-label',
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
       const SizedBox(height: 8),
-      _textoObs('• ${dados['off_label']?[faixaEtariaKey] ?? 'Informação não disponível.'}'),
+      _textoObs(
+          '• ${dados['off_label']?[faixaEtariaKey] ?? 'Informação não disponível.'}'),
 
       const SizedBox(height: 16),
       // Cálculo de Infusão
-      const Text('Cálculo de Infusão', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+      const Text('Cálculo de Infusão',
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
       const SizedBox(height: 8),
       _buildCalculadoraInfusao(dados['infusao'], peso),
 
       const SizedBox(height: 16),
       // Observações
-      const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+      const Text('Observações',
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
       const SizedBox(height: 8),
-      ...((dados['observacoes'] as List?) ?? []).map((obs) => _textoObs('• $obs')),
+      ...((dados['observacoes'] as List?) ?? [])
+          .map((obs) => _textoObs('• $obs')),
 
       const SizedBox(height: 16),
       // Metabolismo
-      const Text('Metabolismo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+      const Text('Metabolismo',
+          style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
       const SizedBox(height: 8),
-      ...((dados['metabolismo'] as List?) ?? []).map((met) => _textoObs('• $met')),
+      ...((dados['metabolismo'] as List?) ?? [])
+          .map((met) => _textoObs('• $met')),
     ],
   );
 }
@@ -269,13 +261,16 @@ Widget _linhaIndicacaoDoseCalculada({
   double? dosePorKgMinima,
   double? dosePorKgMaxima,
   double? doseMaxima,
+  double? doseFixa,
+  double? doseFixaMinima,
+  double? doseFixaMaxima,
   required double peso,
 }) {
   double? doseCalculada;
   double? doseCalculadaMin;
   double? doseCalculadaMax;
 
-  // Nova lógica: identificar se é dose de infusão
+  // Identificar se é dose de infusão contínua (não exibe dose calculada)
   final isInfusao = descricaoDose.contains('/kg/min') ||
       descricaoDose.contains('/kg/h') ||
       descricaoDose.contains('mcg/kg/min') ||
@@ -284,6 +279,20 @@ Widget _linhaIndicacaoDoseCalculada({
       descricaoDose.contains('IV contínua') ||
       descricaoDose.contains('EV contínua');
 
+  // DOSE FIXA: não depende do peso
+  if (doseFixa != null) {
+    doseCalculada = doseFixa;
+  }
+
+  if (doseFixaMinima != null) {
+    doseCalculadaMin = doseFixaMinima;
+  }
+
+  if (doseFixaMaxima != null) {
+    doseCalculadaMax = doseFixaMaxima;
+  }
+
+  // DOSE POR KG: multiplica pelo peso
   if (dosePorKg != null) {
     doseCalculada = dosePorKg * peso;
     if (doseMaxima != null && doseCalculada > doseMaxima) {
@@ -319,33 +328,46 @@ Widget _linhaIndicacaoDoseCalculada({
           descricaoDose,
           style: const TextStyle(fontSize: 13),
         ),
-        if (!isInfusao && doseCalculada != null)
+        // Mostra dose única (fixa ou calculada por kg)
+        if (!isInfusao &&
+            doseCalculada != null &&
+            doseCalculadaMin == null &&
+            doseCalculadaMax == null)
           Padding(
             padding: const EdgeInsets.only(top: 4),
             child: Text(
-              'Dose calculada: 	${doseCalculada.toStringAsFixed(2)} $unidade',
+              'Dose: ${_formatarDose(doseCalculada)} $unidade',
               style: const TextStyle(
                 fontSize: 13,
                 fontWeight: FontWeight.bold,
-                color: Colors.indigo,
+                color: AppColors.primary,
               ),
             ),
           ),
+        // Mostra faixa de dose (fixa ou calculada por kg)
         if (!isInfusao && doseCalculadaMin != null && doseCalculadaMax != null)
           Padding(
             padding: const EdgeInsets.only(top: 4),
             child: Text(
-              'Dose calculada: ${doseCalculadaMin.toStringAsFixed(2)}–${doseCalculadaMax.toStringAsFixed(2)} $unidade',
+              'Dose: ${_formatarDose(doseCalculadaMin)}–${_formatarDose(doseCalculadaMax)} $unidade',
               style: const TextStyle(
                 fontSize: 13,
                 fontWeight: FontWeight.bold,
-                color: Colors.indigo,
+                color: AppColors.primary,
               ),
             ),
           ),
       ],
     ),
   );
+}
+
+/// Formata a dose removendo decimais desnecessários
+String _formatarDose(double dose) {
+  if (dose == dose.roundToDouble()) {
+    return dose.toInt().toString();
+  }
+  return dose.toStringAsFixed(2);
 }
 
 Widget _textoObs(String texto) {
@@ -378,41 +400,29 @@ String _getFaixaEtariaKey(String faixaEtaria) {
   }
 }
 
-List<Widget> _buildIndicacoesPorFaixa(Map<String, dynamic>? indicacoes, String faixaEtariaKey, double peso) {
+List<Widget> _buildIndicacoesPorFaixa(
+    Map<String, dynamic>? indicacoes, String faixaEtariaKey, double peso) {
   if (indicacoes == null || !indicacoes.containsKey(faixaEtariaKey)) {
     return [const Text('Indicações não disponíveis para esta faixa etária.')];
   }
 
   final indicacoesFaixa = indicacoes[faixaEtariaKey] as List? ?? [];
-  
+
   return indicacoesFaixa.map<Widget>((indicacao) {
     final dados = indicacao as Map<String, dynamic>;
-    
-    // Tratamento especial para doses calculadas por peso
-    double? dosePorKgMinima;
-    double? dosePorKgMaxima;
-    
-    if (dados['dosePorKgMinima'] is String && dados['dosePorKgMinima'].contains('/ peso')) {
-      final valor = double.tryParse(dados['dosePorKgMinima'].toString().split('/ peso')[0].trim());
-      dosePorKgMinima = valor != null ? valor / peso : null;
-    } else {
-      dosePorKgMinima = _convertToDouble(dados['dosePorKgMinima']);
-    }
-    
-    if (dados['dosePorKgMaxima'] is String && dados['dosePorKgMaxima'].contains('/ peso')) {
-      final valor = double.tryParse(dados['dosePorKgMaxima'].toString().split('/ peso')[0].trim());
-      dosePorKgMaxima = valor != null ? valor / peso : null;
-    } else {
-      dosePorKgMaxima = _convertToDouble(dados['dosePorKgMaxima']);
-    }
-    
+
     return _linhaIndicacaoDoseCalculada(
       titulo: dados['titulo'] ?? '',
       descricaoDose: dados['descricaoDose'] ?? '',
+      // Doses por kg (calculadas com base no peso)
       dosePorKg: _convertToDouble(dados['dosePorKg']),
-      dosePorKgMinima: dosePorKgMinima,
-      dosePorKgMaxima: dosePorKgMaxima,
+      dosePorKgMinima: _convertToDouble(dados['dosePorKgMinima']),
+      dosePorKgMaxima: _convertToDouble(dados['dosePorKgMaxima']),
       doseMaxima: _convertToDouble(dados['doseMaxima']),
+      // Doses fixas (não dependem do peso)
+      doseFixa: _convertToDouble(dados['doseFixa']),
+      doseFixaMinima: _convertToDouble(dados['doseFixaMinima']),
+      doseFixaMaxima: _convertToDouble(dados['doseFixaMaxima']),
       unidade: dados['unidade'] ?? '',
       peso: peso,
     );
@@ -427,7 +437,8 @@ Widget _buildCalculadoraInfusao(Map<String, dynamic>? infusao, double peso) {
   final opcoesConcentracoes = <String, double>{};
   final opcoesMap = infusao['opcoesConcentracoes'] as Map? ?? {};
   for (final entry in opcoesMap.entries) {
-    opcoesConcentracoes[entry.key.toString()] = _convertToDouble(entry.value) ?? 0.0;
+    opcoesConcentracoes[entry.key.toString()] =
+        _convertToDouble(entry.value) ?? 0.0;
   }
 
   return ConversaoInfusaoSlider(
@@ -453,18 +464,20 @@ class MedicamentoAdrenalina {
   static const String idBulario = 'adrenalina';
 
   static Future<Map<String, dynamic>> carregarDados() async {
-    final String jsonStr = await rootBundle.loadString('assets/farmacoteca/005_adrenalina.json');
+    final String jsonStr =
+        await rootBundle.loadString('assets/farmacoteca/005_adrenalina.json');
     final Map<String, dynamic> jsonMap = json.decode(jsonStr);
     return jsonMap['adrenalina'] ?? {};
   }
 
   static Future<Map<String, dynamic>> carregarBulario() async {
-    final String jsonStr = await rootBundle.loadString('assets/medicamentos/adrenalina.json');
+    final String jsonStr =
+        await rootBundle.loadString('assets/medicamentos/adrenalina.json');
     final Map<String, dynamic> jsonMap = json.decode(jsonStr);
     return jsonMap['PT']['bulario'];
   }
 
-  static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+  static Widget buildCard(BuildContext context) {
     return FutureBuilder<Map<String, dynamic>>(
       future: carregarDados(),
       builder: (context, snapshot) {
@@ -508,21 +521,17 @@ class MedicamentoAdrenalina {
 
         final dados = snapshot.data ?? {};
         final peso = SharedData.peso ?? 70;
-        final isAdulto = SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
-        final isFavorito = favoritos.contains(nome);
+        final isAdulto = SharedData.faixaEtaria == 'Adulto' ||
+            SharedData.faixaEtaria == 'Idoso';
 
         return buildMedicamentoExpansivel(
           context: context,
           nome: nome,
           idBulario: idBulario,
-          isFavorito: isFavorito,
-          onToggleFavorito: () => onToggleFavorito(nome),
           conteudo: _buildCardAdrenalina(
             context,
             peso,
             isAdulto,
-            isFavorito,
-            () => onToggleFavorito(nome),
             dados,
           ),
         );

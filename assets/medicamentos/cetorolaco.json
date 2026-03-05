@@ -1,0 +1,81 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Cetorolaco (Trometamol)",
+      "nomesComerciais": ["Toradol®", "Toragesic®", "Toradol SL®"],
+      "classeTerapeutica": "AINE / Analgésico",
+      "mecanismoAcao": "Inibidor não-seletivo da ciclooxigenase (COX-1 e COX-2), derivado do ácido pirrolizina-carboxílico. Possui potente ação analgésica periférica, com menor efeito anti-inflamatório comparado a outros AINEs. Equivalência analgésica: 30mg cetorolaco ≈ 10mg morfina.",
+      "indicacoes": [
+        "Dor aguda moderada a severa de curta duração",
+        "Analgesia pós-operatória",
+        "Cólica renal",
+        "Dor musculoesquelética aguda",
+        "Enxaqueca aguda"
+      ],
+      "apresentacoes": [
+        "Ampola 30mg/mL (1mL)",
+        "Ampola 10mg/mL (1mL)",
+        "Comprimido 10mg",
+        "Comprimido sublingual 10mg"
+      ],
+      "posologia": {
+        "adulto": {
+          "iv_im_inicial": "30 mg dose única ou 30 mg a cada 6h",
+          "iv_im_maximo": "120 mg/dia",
+          "vo": "10 mg a cada 4-6h (máx 40 mg/dia)",
+          "duracao_maxima": "5 dias (parenteral) / 7 dias (total)"
+        },
+        "idoso": {
+          "iv_im": "15 mg a cada 6h (máx 60 mg/dia)",
+          "vo": "10 mg a cada 6-8h (máx 40 mg/dia)"
+        },
+        "pediatrico": {
+          "iv_im": "0,5 mg/kg dose única (máx 30 mg)",
+          "idade_minima": ">2 anos"
+        }
+      },
+      "farmacocinetica": {
+        "inicio_acao": "10-30 min (IV)",
+        "pico_plasmatico": "1-2h (IM), 30-60 min (IV)",
+        "duracao": "4-6 horas",
+        "meia_vida": "5-6 horas",
+        "metabolismo": "Hepático (conjugação)",
+        "eliminacao": "Renal (91%)"
+      },
+      "ajusteRenal": "ClCr <30: reduzir dose pela metade, máx 60 mg/dia",
+      "ajusteHepatico": "Usar com cautela, evitar em hepatopatia grave",
+      "contraindicacoes": [
+        "Úlcera péptica ativa ou história de sangramento GI",
+        "Insuficiência renal grave (ClCr <30)",
+        "Gestação (3º trimestre) e lactação",
+        "Cirurgia com alto risco de sangramento",
+        "Uso concomitante com AAS ou outros AINEs",
+        "Hipovolemia ou desidratação",
+        "Alergia a AINEs ou aspirina"
+      ],
+      "efeitosAdversos": [
+        "Dispepsia, náuseas, dor abdominal",
+        "Sangramento GI (risco aumentado com >5 dias)",
+        "Insuficiência renal aguda",
+        "Inibição plaquetária",
+        "Retenção hídrica, edema",
+        "Cefaleia, tontura, sonolência"
+      ],
+      "interacoes": [
+        "Anticoagulantes: aumenta risco de sangramento",
+        "AAS: antagonismo e aumento risco GI",
+        "Diuréticos e IECAs: reduz eficácia",
+        "Lítio: aumenta níveis séricos",
+        "Metotrexato: aumenta toxicidade"
+      ],
+      "observacoes": [
+        "Uso máximo: 5 dias (maior risco de eventos adversos)",
+        "Não usar em analgesia obstétrica (risco fetal)",
+        "Potência analgésica superior a outros AINEs",
+        "Cautela em asma (broncoespasmo)",
+        "Evitar em idosos quando possível"
+      ],
+      "categoriaGravidez": "C (1º/2º tri) / D (3º tri)"
+    }
+  }
+}

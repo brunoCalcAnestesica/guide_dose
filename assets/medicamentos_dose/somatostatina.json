@@ -1,0 +1,538 @@
+{
+  "PT": {
+    "nome": "Somatostatina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "HDA varicosa - Bolus",
+          "descricaoDose": "250 mcg IV em bolus lento (3-5 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "250 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "HDA varicosa - Infusão contínua",
+          "descricaoDose": "250-500 mcg/h IV por até 5 dias",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": null,
+            "doseFixa": "250-500 mcg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Fístula pancreática ou entérica",
+          "descricaoDose": "250 mcg/h IV contínua",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "250 mcg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua (HDA)",
+          "unidade": "mcg/h",
+          "adulto": { "doseMin": 250, "doseMax": 500 },
+          "pediatrico": { "doseMin": 250, "doseMax": 500 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "3 mg em 500 mL SF 0,9% (6 mcg/mL)", "valor": 6 },
+            { "rotulo": "1,5 mg em 250 mL SF 0,9% (6 mcg/mL)", "valor": 6 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Hormônio peptídico / Análogo natural da somatostatina",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 250 mcg", "obs": "Stilamin®" },
+        { "forma": "Frasco-ampola 3 mg", "obs": "Uso em infusão" }
+      ],
+      "preparo": [
+        { "diluicao": "3 mg + 500 mL SF 0,9%", "concentracao": "6 mcg/mL" },
+        { "diluicao": "1,5 mg + 250 mL SF 0,9%", "concentracao": "6 mcg/mL" }
+      ],
+      "observacoes": [
+        "Meia-vida 1-3 min - infusão contínua obrigatória (não usar em bolus isolado para manutenção)",
+        "Manter por 2-5 dias após cessação do sangramento em HDA",
+        "Reduz fluxo sanguíneo esplâncnico em 20-30% e pressão portal",
+        "Monitorar glicemia (risco de hiper e hipoglicemia)",
+        "Associar com IBP e antibióticos profiláticos em HDA varicosa",
+        "Hipersensibilidade à somatostatina - contraindicado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar glicemia e efeitos adversos.",
+        "renal": "Não requer ajuste de dose.",
+        "hepatico": "Não requer ajuste - indicado em doença hepática (HDA varicosa)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Somatostatina (HDA - bolus)",
+        "doseTexto": "250 mcg IV bolus lento (3-5 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "250 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Somatostatina (HDA - infusão)",
+        "doseTexto": "250-500 mcg/h IV",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Somatostatina (fístula)",
+        "doseTexto": "250 mcg/h IV contínua",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": "250 mcg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Somatostatin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Variceal hemorrhage - Bolus",
+          "descricaoDose": "250 mcg IV slow bolus (3-5 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "250 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Variceal hemorrhage - Continuous infusion",
+          "descricaoDose": "250-500 mcg/h IV for up to 5 days",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": null,
+            "doseFixa": "250-500 mcg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pancreatic or enteric fistula",
+          "descricaoDose": "250 mcg/h IV continuous",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "250 mcg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion (variceal hemorrhage)",
+          "unidade": "mcg/h",
+          "adulto": { "doseMin": 250, "doseMax": 500 },
+          "pediatrico": { "doseMin": 250, "doseMax": 500 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "3 mg in 500 mL NS (6 mcg/mL)", "valor": 6 },
+            { "rotulo": "1.5 mg in 250 mL NS (6 mcg/mL)", "valor": 6 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Peptide hormone / Natural somatostatin analogue",
+      "apresentacoes": [
+        { "forma": "Vial 250 mcg", "obs": "Stilamin®" },
+        { "forma": "Vial 3 mg", "obs": "For infusion" }
+      ],
+      "preparo": [
+        { "diluicao": "3 mg + 500 mL NS", "concentracao": "6 mcg/mL" },
+        { "diluicao": "1.5 mg + 250 mL NS", "concentracao": "6 mcg/mL" }
+      ],
+      "observacoes": [
+        "Half-life 1-3 min - continuous infusion required (do not use as single bolus for maintenance)",
+        "Continue for 2-5 days after bleeding stops in variceal hemorrhage",
+        "Reduces splanchnic blood flow by 20-30% and portal pressure",
+        "Monitor blood glucose (risk of hyper and hypoglycemia)",
+        "Combine with PPI and prophylactic antibiotics in variceal hemorrhage",
+        "Hypersensitivity to somatostatin - contraindicated"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific dose adjustment. Monitor glucose and adverse effects.",
+        "renal": "No dose adjustment required.",
+        "hepatico": "No adjustment - indicated in liver disease (variceal hemorrhage)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Somatostatin (variceal - bolus)",
+        "doseTexto": "250 mcg IV slow bolus (3-5 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "250 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Somatostatin (variceal - infusion)",
+        "doseTexto": "250-500 mcg/h IV",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Somatostatin (fistula)",
+        "doseTexto": "250 mcg/h IV continuous",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": "250 mcg/h",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Somatostatina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "HDA varicosa - Bolus",
+          "descricaoDose": "250 mcg IV en bolus lento (3-5 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "250 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "HDA varicosa - Infusión continua",
+          "descricaoDose": "250-500 mcg/h IV hasta 5 días",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": null,
+            "doseFixa": "250-500 mcg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Fístula pancreática o entérica",
+          "descricaoDose": "250 mcg/h IV continua",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "250 mcg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua (HDA)",
+          "unidade": "mcg/h",
+          "adulto": { "doseMin": 250, "doseMax": 500 },
+          "pediatrico": { "doseMin": 250, "doseMax": 500 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "3 mg en 500 mL SF 0,9% (6 mcg/mL)", "valor": 6 },
+            { "rotulo": "1,5 mg en 250 mL SF 0,9% (6 mcg/mL)", "valor": 6 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Hormona peptídica / Análogo natural de la somatostatina",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 250 mcg", "obs": "Stilamin®" },
+        { "forma": "Frasco-ampolla 3 mg", "obs": "Uso en infusión" }
+      ],
+      "preparo": [
+        { "diluicao": "3 mg + 500 mL SF 0,9%", "concentracao": "6 mcg/mL" },
+        { "diluicao": "1,5 mg + 250 mL SF 0,9%", "concentracao": "6 mcg/mL" }
+      ],
+      "observacoes": [
+        "Vida media 1-3 min - infusión continua obligatoria (no usar en bolus aislado para mantenimiento)",
+        "Mantener 2-5 días tras cese del sangrado en HDA",
+        "Reduce flujo esplácnico 20-30% y presión portal",
+        "Monitorizar glucemia (riesgo de hiper e hipoglucemia)",
+        "Asociar con IBP y antibióticos profilácticos en HDA varicosa",
+        "Hipersensibilidad a somatostatina - contraindicado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar glucemia y efectos adversos.",
+        "renal": "No requiere ajuste de dosis.",
+        "hepatico": "No requiere ajuste - indicado en hepatopatía (HDA varicosa)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Somatostatina (HDA - bolus)",
+        "doseTexto": "250 mcg IV bolus lento (3-5 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "250 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Somatostatina (HDA - infusión)",
+        "doseTexto": "250-500 mcg/h IV",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Somatostatina (fístula)",
+        "doseTexto": "250 mcg/h IV continua",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": "250 mcg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "生长抑素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "静脉曲张出血 - 推注",
+          "descricaoDose": "250 mcg IV 缓慢推注（3-5分钟）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "250 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "静脉曲张出血 - 持续输注",
+          "descricaoDose": "250-500 mcg/h IV 最多5天",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": null,
+            "doseFixa": "250-500 mcg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "胰瘘或肠瘘",
+          "descricaoDose": "250 mcg/h IV 持续",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "250 mcg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注（静脉曲张出血）",
+          "unidade": "mcg/h",
+          "adulto": { "doseMin": 250, "doseMax": 500 },
+          "pediatrico": { "doseMin": 250, "doseMax": 500 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "3 mg 溶于 500 mL 生理盐水 (6 mcg/mL)", "valor": 6 },
+            { "rotulo": "1,5 mg 溶于 250 mL 生理盐水 (6 mcg/mL)", "valor": 6 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "肽类激素 / 生长抑素天然类似物",
+      "apresentacoes": [
+        { "forma": "西林瓶 250 mcg", "obs": "Stilamin®" },
+        { "forma": "西林瓶 3 mg", "obs": "用于输注" }
+      ],
+      "preparo": [
+        { "diluicao": "3 mg + 500 mL 生理盐水", "concentracao": "6 mcg/mL" },
+        { "diluicao": "1,5 mg + 250 mL 生理盐水", "concentracao": "6 mcg/mL" }
+      ],
+      "observacoes": [
+        "半衰期1-3分钟 - 必须持续输注（维持治疗勿单次推注）",
+        "静脉曲张出血止血后继续2-5天",
+        "减少内脏血流20-30%及门脉压",
+        "监测血糖（高血糖及低血糖风险）",
+        "静脉曲张出血时联用PPI及预防用抗生素",
+        "对生长抑素过敏 - 禁忌"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定剂量调整。监测血糖及不良反应。",
+        "renal": "无需调整剂量。",
+        "hepatico": "无需调整 - 适用于肝病（静脉曲张出血）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "生长抑素（静脉曲张 - 推注）",
+        "doseTexto": "250 mcg IV 缓慢推注（3-5分钟）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "250 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "生长抑素（静脉曲张 - 输注）",
+        "doseTexto": "250-500 mcg/h IV",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "生长抑素（瘘）",
+        "doseTexto": "250 mcg/h IV 持续",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": "250 mcg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

@@ -6,10 +6,11 @@ import { useAuth } from '../../auth/AuthProvider'
 const adminNavItems = [
   { to: '/admin', label: 'Usuários', icon: '👥' },
   { to: '/admin/telemetria', label: 'Telemetria', icon: '📈' },
+  { to: '/admin/notificacoes', label: 'Notificações', icon: '🔔' },
   { to: '/admin/versao', label: 'Versão do App', icon: '🔄' },
   { to: '/admin/analytics', label: 'Analytics', icon: '📊' },
   { to: '/admin/feedback', label: 'Feedback', icon: '💬' },
-  { to: '/admin/billing', label: 'Billing', icon: '💳' },
+  { to: '/admin/cobranca', label: 'Cobrança / Pagamento', icon: '💳' },
   { to: '/admin/logs', label: 'Logs de Acesso', icon: '📋' },
   { to: '/admin/export', label: 'Exportar', icon: '📤' },
 ]

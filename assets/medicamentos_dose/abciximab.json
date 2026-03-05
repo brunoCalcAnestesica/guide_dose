@@ -1,0 +1,418 @@
+{
+  "PT": {
+    "nome": "Abciximab",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ICP – Bolus (10-60 min antes)",
+          "descricaoDose": "0,25 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ICP – Infusão",
+          "descricaoDose": "0,125 mcg/kg/min IV por 12 h (máx 10 mcg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.125,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua por 12 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.125, "doseMax": 0.125 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg em 250 mL SF (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetário IV – Inibidor GP IIb/IIIa (anticorpo monoclonal, fragmento Fab)",
+      "apresentacoes": [
+        { "forma": "Frasco 10 mg/5 mL", "obs": "2 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: usar sem diluição ou diluir em SF", "concentracao": "Conforme necessidade" },
+        { "diluicao": "Infusão: diluir em 250 mL SF", "concentracao": "40 mcg/mL" },
+        { "diluicao": "Usar filtro 0,2-0,22 µm", "concentracao": "Obrigatório" }
+      ],
+      "observacoes": [
+        "Início de ação: imediato",
+        "Duração prolongada: 24-48 h após suspensão (liga-se irreversivelmente)",
+        "Mais potente dos inibidores GP IIb/IIIa. Infusão: teto 10 mcg/min",
+        "USAR FILTRO 0,2-0,22 µm obrigatório",
+        "NÃO reexpor (risco de trombocitopenia grave). Monitorar plaquetas 2-4 h e 24 h após início",
+        "Contraindicado: sangramento ativo, AVC <2 anos, cirurgia/trauma maior <6 sem"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Não requer ajuste específico.",
+        "renal": "Não requer ajuste.",
+        "hepatico": "Não requer ajuste. Degradação proteolítica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Abciximab – Bolus",
+        "doseTexto": "0,25 mg/kg IV",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Abciximab – Infusão",
+        "doseTexto": "0,125 mcg/kg/min IV por 12 h (máx 10 mcg/min)",
+        "doseMin": 0.125,
+        "doseMax": 0.125,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Abciximab",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "PCI – Bolus (10-60 min before)",
+          "descricaoDose": "0.25 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCI – Infusion",
+          "descricaoDose": "0.125 mcg/kg/min IV for 12 h (max 10 mcg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.125,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion for 12 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.125, "doseMax": 0.125 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg in 250 mL NS (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "IV antiplatelet – GP IIb/IIIa inhibitor (monoclonal antibody Fab fragment)",
+      "apresentacoes": [
+        { "forma": "Vial 10 mg/5 mL", "obs": "2 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: use undiluted or dilute in NS", "concentracao": "As needed" },
+        { "diluicao": "Infusion: dilute in 250 mL NS", "concentracao": "40 mcg/mL" },
+        { "diluicao": "Use 0.2-0.22 µm filter", "concentracao": "Required" }
+      ],
+      "observacoes": [
+        "Onset: immediate",
+        "Prolonged duration: 24-48 h after discontinuation (irreversible binding)",
+        "Most potent GP IIb/IIIa inhibitor. Infusion: cap 10 mcg/min",
+        "USE 0.2-0.22 µm filter required",
+        "Do NOT re-expose (severe thrombocytopenia risk). Monitor platelets at 2-4 h and 24 h",
+        "Contraindicated: active bleeding, stroke <2 years, major surgery/trauma <6 wk"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment required.",
+        "renal": "No adjustment required.",
+        "hepatico": "No adjustment required. Proteolytic degradation."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Abciximab – Bolus",
+        "doseTexto": "0.25 mg/kg IV",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Abciximab – Infusion",
+        "doseTexto": "0.125 mcg/kg/min IV for 12 h (max 10 mcg/min)",
+        "doseMin": 0.125,
+        "doseMax": 0.125,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Abciximab",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ICP – Bolo (10-60 min antes)",
+          "descricaoDose": "0,25 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ICP – Infusión",
+          "descricaoDose": "0,125 mcg/kg/min IV 12 h (máx 10 mcg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.125,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua 12 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.125, "doseMax": 0.125 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg en 250 mL SF (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetario IV – Inhibidor GP IIb/IIIa (anticuerpo monoclonal, fragmento Fab)",
+      "apresentacoes": [
+        { "forma": "Frasco 10 mg/5 mL", "obs": "2 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo: usar sin diluir o diluir en SF", "concentracao": "Según necesidad" },
+        { "diluicao": "Infusión: diluir en 250 mL SF", "concentracao": "40 mcg/mL" },
+        { "diluicao": "Usar filtro 0,2-0,22 µm", "concentracao": "Obligatorio" }
+      ],
+      "observacoes": [
+        "Inicio de acción: inmediato",
+        "Duración prolongada: 24-48 h tras suspensión (unión irreversible)",
+        "Más potente de los inhibidores GP IIb/IIIa. Infusión: techo 10 mcg/min",
+        "USAR FILTRO 0,2-0,22 µm obligatorio",
+        "NO reexponer (riesgo trombocitopenia grave). Monitorizar plaquetas 2-4 h y 24 h",
+        "Contraindicado: sangrado activo, AVC <2 años, cirugía/trauma mayor <6 sem"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No requiere ajuste específico.",
+        "renal": "No requiere ajuste.",
+        "hepatico": "No requiere ajuste. Degradación proteolítica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Abciximab – Bolo",
+        "doseTexto": "0,25 mg/kg IV",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Abciximab – Infusión",
+        "doseTexto": "0,125 mcg/kg/min IV 12 h (máx 10 mcg/min)",
+        "doseMin": 0.125,
+        "doseMax": 0.125,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "阿昔单抗",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "PCI – 负荷量（术前10-60分钟）",
+          "descricaoDose": "0.25 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCI – 输注",
+          "descricaoDose": "0.125 mcg/kg/min IV 12 h（最大 10 mcg/min）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.125,
+            "doseMax": 0.125,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注 12 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.125, "doseMax": 0.125 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg 溶于 250 mL 生理盐水 (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "静脉抗血小板药 – GP IIb/IIIa 抑制剂（单克隆抗体 Fab 片段）",
+      "apresentacoes": [
+        { "forma": "瓶 10 mg/5 mL", "obs": "2 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "负荷量：可直接使用或溶于生理盐水", "concentracao": "按需" },
+        { "diluicao": "输注：溶于 250 mL 生理盐水", "concentracao": "40 mcg/mL" },
+        { "diluicao": "使用 0.2-0.22 µm 滤器", "concentracao": "必需" }
+      ],
+      "observacoes": [
+        "起效：立即",
+        "持续时间长：停药后 24-48 小时（不可逆结合）",
+        "最强的 GP IIb/IIIa 抑制剂。输注：上限 10 mcg/min",
+        "必须使用 0.2-0.22 µm 滤器",
+        "不可再次暴露（严重血小板减少风险）。用药后 2-4 h 和 24 h 监测血小板",
+        "禁忌：活动性出血、2 年内卒中、6 周内大手术/创伤"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需特殊调整。",
+        "renal": "无需调整。",
+        "hepatico": "无需调整。蛋白水解降解。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿昔单抗 – 负荷量",
+        "doseTexto": "0.25 mg/kg IV",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿昔单抗 – 输注",
+        "doseTexto": "0.125 mcg/kg/min IV 12 h（最大 10 mcg/min）",
+        "doseMin": 0.125,
+        "doseMax": 0.125,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

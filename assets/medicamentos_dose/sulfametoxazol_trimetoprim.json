@@ -1,0 +1,814 @@
+{
+  "PT": {
+    "nome": "Sulfametoxazol/Trimetoprim",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ITU não complicada",
+          "descricaoDose": "800/160 mg (1 cp F) VO 12/12h por 3-5 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg (1 cp F)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 15-30: reduzir 50%; ClCr <15: não recomendado",
+            "ajusteHepatico": "Evitar em insuficiência hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infecções de pele por MRSA",
+          "descricaoDose": "800/160 mg VO 12/12h por 7-10 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 15-30: reduzir 50%; ClCr <15: não recomendado",
+            "ajusteHepatico": "Evitar em insuficiência hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – Tratamento",
+          "descricaoDose": "15-20 mg TMP/kg/dia VO dividido 6/6h ou 8/8h por 21 dias",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h ou 8/8h",
+            "ajusteRenal": "ClCr 15-30: reduzir 50%; ClCr <15: não recomendado",
+            "ajusteHepatico": "Evitar em insuficiência hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – Profilaxia",
+          "descricaoDose": "800/160 mg VO 1x/dia ou 3x/semana",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ou 3x/semana",
+            "ajusteRenal": "ClCr 15-30: reduzir 50%; ClCr <15: não recomendado",
+            "ajusteHepatico": "Evitar em insuficiência hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico – infecção",
+          "descricaoDose": "4-5 mg TMP/kg/dose VO 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4.5,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 15-30: reduzir 50%; ClCr <15: não recomendado",
+            "ajusteHepatico": "Evitar em insuficiência hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – Profilaxia (pediátrico)",
+          "descricaoDose": "5 mg TMP/kg/dia VO 1x/dia ou dividido 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ou 12/12h",
+            "ajusteRenal": "ClCr 15-30: reduzir 50%; ClCr <15: não recomendado",
+            "ajusteHepatico": "Evitar em insuficiência hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Sulfonamida (SMX) + Inibidor de DHFR (TMP). Proporção fixa 5:1. Sinergismo bactericida.",
+      "apresentacoes": [
+        { "forma": "Comprimido simples", "obs": "SMX 400 mg + TMP 80 mg" },
+        { "forma": "Comprimido F (forte)", "obs": "SMX 800 mg + TMP 160 mg" },
+        { "forma": "Suspensão oral", "obs": "SMX 200 mg + TMP 40 mg/5 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral – tomar com líquido", "concentracao": "" },
+        { "diluicao": "Suspensão: agitar antes de usar", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Doses referidas ao componente TMP quando por peso (ex.: 4-5 mg TMP/kg).",
+        "Contraindicado em deficiência de G6PD e no 1º trimestre/próximo ao parto.",
+        "Risco de hipercalemia – monitorar K+; cuidado com IECA/BRA e diuréticos poupadores.",
+        "Aumenta efeito da warfarina e toxicidade do metotrexato.",
+        "Tomar com bastante líquido; risco de cristalúria.",
+        "Categoria C/D na gestação; evitar em insuficiência hepática grave."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior risco de hipercalemia e mielossupressão. Avaliar função renal. Monitorar K+ e hemograma.",
+        "renal": "ClCr 15-30 mL/min: reduzir 50% da dose. ClCr <15 ou diálise: não recomendado.",
+        "hepatico": "Evitar em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sulfametoxazol/Trimetoprim – adulto (ITU/MRSA)",
+        "doseTexto": "800/160 mg VO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800/160 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfametoxazol/Trimetoprim – PCP profilaxia",
+        "doseTexto": "800/160 mg VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800/160 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfametoxazol/Trimetoprim – pediátrico",
+        "doseTexto": "4-5 mg TMP/kg VO 12/12h",
+        "doseMin": 4,
+        "doseMax": 5,
+        "unidadeResultado": "mg TMP",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Sulfamethoxazole/Trimethoprim",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Uncomplicated UTI",
+          "descricaoDose": "800/160 mg (1 double-strength tab) PO 12/12h for 3-5 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg (1 DS tab)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 12 h",
+            "ajusteRenal": "ClCr 15-30: reduce 50%; ClCr <15: not recommended",
+            "ajusteHepatico": "Avoid in severe hepatic impairment",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "MRSA skin infections",
+          "descricaoDose": "800/160 mg PO 12/12h for 7-10 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 12 h",
+            "ajusteRenal": "ClCr 15-30: reduce 50%; ClCr <15: not recommended",
+            "ajusteHepatico": "Avoid in severe hepatic impairment",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – Treatment",
+          "descricaoDose": "15-20 mg TMP/kg/day PO divided 6/6h or 8/8h for 21 days",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 6-8 h",
+            "ajusteRenal": "ClCr 15-30: reduce 50%; ClCr <15: not recommended",
+            "ajusteHepatico": "Avoid in severe hepatic impairment",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – Prophylaxis",
+          "descricaoDose": "800/160 mg PO once daily or 3x/week",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once daily or 3x/week",
+            "ajusteRenal": "ClCr 15-30: reduce 50%; ClCr <15: not recommended",
+            "ajusteHepatico": "Avoid in severe hepatic impairment",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric – infection",
+          "descricaoDose": "4-5 mg TMP/kg/dose PO 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4.5,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 12 h",
+            "ajusteRenal": "ClCr 15-30: reduce 50%; ClCr <15: not recommended",
+            "ajusteHepatico": "Avoid in severe hepatic impairment",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – Prophylaxis (pediatric)",
+          "descricaoDose": "5 mg TMP/kg/day PO once daily or divided 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once daily or 12/12h",
+            "ajusteRenal": "ClCr 15-30: reduce 50%; ClCr <15: not recommended",
+            "ajusteHepatico": "Avoid in severe hepatic impairment",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiotic – Sulfonamide (SMX) + DHFR inhibitor (TMP). Fixed ratio 5:1. Bactericidal synergy.",
+      "apresentacoes": [
+        { "forma": "Single-strength tablet", "obs": "SMX 400 mg + TMP 80 mg" },
+        { "forma": "Double-strength tablet", "obs": "SMX 800 mg + TMP 160 mg" },
+        { "forma": "Oral suspension", "obs": "SMX 200 mg + TMP 40 mg/5 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral use – take with fluid", "concentracao": "" },
+        { "diluicao": "Suspension: shake before use", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Doses by weight refer to TMP component (e.g. 4-5 mg TMP/kg).",
+        "Contraindicated in G6PD deficiency and in 1st trimester/near delivery.",
+        "Risk of hyperkalemia – monitor K+; caution with ACEi/ARB and potassium-sparing diuretics.",
+        "Increases warfarin effect and methotrexate toxicity.",
+        "Take with plenty of fluid; risk of crystalluria.",
+        "Pregnancy category C/D; avoid in severe hepatic impairment."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Higher risk of hyperkalemia and myelosuppression. Assess renal function. Monitor K+ and CBC.",
+        "renal": "ClCr 15-30 mL/min: reduce dose by 50%. ClCr <15 or dialysis: not recommended.",
+        "hepatico": "Avoid in severe hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sulfamethoxazole/Trimethoprim – adult (UTI/MRSA)",
+        "doseTexto": "800/160 mg PO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800/160 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfamethoxazole/Trimethoprim – PCP prophylaxis",
+        "doseTexto": "800/160 mg PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800/160 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfamethoxazole/Trimethoprim – pediatric",
+        "doseTexto": "4-5 mg TMP/kg PO 12/12h",
+        "doseMin": 4,
+        "doseMax": 5,
+        "unidadeResultado": "mg TMP",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Sulfametoxazol/Trimetoprim",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ITU no complicada",
+          "descricaoDose": "800/160 mg (1 comp F) VO 12/12h por 3-5 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg (1 comp F)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 15-30: reducir 50%; ClCr <15: no recomendado",
+            "ajusteHepatico": "Evitar en insuficiencia hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infecciones de piel por MRSA",
+          "descricaoDose": "800/160 mg VO 12/12h por 7-10 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 15-30: reducir 50%; ClCr <15: no recomendado",
+            "ajusteHepatico": "Evitar en insuficiencia hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – Tratamiento",
+          "descricaoDose": "15-20 mg TMP/kg/día VO dividido 6/6h u 8/8h por 21 días",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h u 8/8h",
+            "ajusteRenal": "ClCr 15-30: reducir 50%; ClCr <15: no recomendado",
+            "ajusteHepatico": "Evitar en insuficiencia hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – Profilaxis",
+          "descricaoDose": "800/160 mg VO 1x/día o 3x/semana",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día o 3x/semana",
+            "ajusteRenal": "ClCr 15-30: reducir 50%; ClCr <15: no recomendado",
+            "ajusteHepatico": "Evitar en insuficiencia hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico – infección",
+          "descricaoDose": "4-5 mg TMP/kg/dosis VO 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4.5,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 15-30: reducir 50%; ClCr <15: no recomendado",
+            "ajusteHepatico": "Evitar en insuficiencia hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – Profilaxis (pediátrico)",
+          "descricaoDose": "5 mg TMP/kg/día VO 1x/día o dividido 12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día o 12/12h",
+            "ajusteRenal": "ClCr 15-30: reducir 50%; ClCr <15: no recomendado",
+            "ajusteHepatico": "Evitar en insuficiencia hepática grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Sulfonamida (SMX) + Inhibidor DHFR (TMP). Proporción fija 5:1. Sinergismo bactericida.",
+      "apresentacoes": [
+        { "forma": "Comprimido simple", "obs": "SMX 400 mg + TMP 80 mg" },
+        { "forma": "Comprimido F (forte)", "obs": "SMX 800 mg + TMP 160 mg" },
+        { "forma": "Suspensión oral", "obs": "SMX 200 mg + TMP 40 mg/5 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral – tomar con líquido", "concentracao": "" },
+        { "diluicao": "Suspensión: agitar antes de usar", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Dosis por peso referidas al componente TMP (ej. 4-5 mg TMP/kg).",
+        "Contraindicado en déficit de G6PD y en 1.º trimestre/cerca del parto.",
+        "Riesgo de hiperpotasemia – monitorizar K+; cuidado con IECA/ARA-II y diuréticos ahorradores.",
+        "Aumenta efecto de warfarina y toxicidad de metotrexato.",
+        "Tomar con bastante líquido; riesgo de cristaluria.",
+        "Categoría C/D en gestación; evitar en insuficiencia hepática grave."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor riesgo de hiperpotasemia y mielosupresión. Valorar función renal. Monitorizar K+ y hemograma.",
+        "renal": "ClCr 15-30 mL/min: reducir 50% de la dosis. ClCr <15 o diálisis: no recomendado.",
+        "hepatico": "Evitar en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sulfametoxazol/Trimetoprim – adulto (ITU/MRSA)",
+        "doseTexto": "800/160 mg VO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800/160 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfametoxazol/Trimetoprim – PCP profilaxis",
+        "doseTexto": "800/160 mg VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800/160 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfametoxazol/Trimetoprim – pediátrico",
+        "doseTexto": "4-5 mg TMP/kg VO 12/12h",
+        "doseMin": 4,
+        "doseMax": 5,
+        "unidadeResultado": "mg TMP",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "复方磺胺甲噁唑",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "单纯性尿路感染",
+          "descricaoDose": "800/160 mg（1片双强度）口服 每12小时 3-5天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr 15-30: 减量50%; ClCr <15: 不推荐",
+            "ajusteHepatico": "严重肝功能不全避免",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "MRSA皮肤感染",
+          "descricaoDose": "800/160 mg 口服 每12小时 7-10天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr 15-30: 减量50%; ClCr <15: 不推荐",
+            "ajusteHepatico": "严重肝功能不全避免",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – 治疗",
+          "descricaoDose": "15-20 mg TMP/kg/日 口服 分3-4次 21天",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr 15-30: 减量50%; ClCr <15: 不推荐",
+            "ajusteHepatico": "严重肝功能不全避免",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – 预防",
+          "descricaoDose": "800/160 mg 口服 每日1次或每周3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800/160 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次或每周3次",
+            "ajusteRenal": "ClCr 15-30: 减量50%; ClCr <15: 不推荐",
+            "ajusteHepatico": "严重肝功能不全避免",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿科 – 感染",
+          "descricaoDose": "4-5 mg TMP/kg/剂 口服 每12小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4.5,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr 15-30: 减量50%; ClCr <15: 不推荐",
+            "ajusteHepatico": "严重肝功能不全避免",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "PCP – 预防（儿科）",
+          "descricaoDose": "5 mg TMP/kg/日 口服 每日1次或12/12h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次或12/12h",
+            "ajusteRenal": "ClCr 15-30: 减量50%; ClCr <15: 不推荐",
+            "ajusteHepatico": "严重肝功能不全避免",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗生素 – 磺胺(SMX) + 二氢叶酸还原酶抑制剂(TMP)。固定比例5:1。杀菌协同。",
+      "apresentacoes": [
+        { "forma": "单强度片", "obs": "SMX 400 mg + TMP 80 mg" },
+        { "forma": "双强度片", "obs": "SMX 800 mg + TMP 160 mg" },
+        { "forma": "口服混悬液", "obs": "SMX 200 mg + TMP 40 mg/5 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "口服，与液体同服", "concentracao": "" },
+        { "diluicao": "混悬液：用前摇匀", "concentracao": "" }
+      ],
+      "observacoes": [
+        "按体重剂量以TMP计（如4-5 mg TMP/kg）。",
+        "G6PD缺乏及妊娠首三月/临产禁用。",
+        "高钾血症风险 – 监测K+；慎与ACEI/ARB及保钾利尿剂同用。",
+        "增强华法林作用及甲氨蝶呤毒性。",
+        "多饮水；结晶尿风险。",
+        "妊娠C/D类；严重肝功能不全避免。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "高钾及骨髓抑制风险增加。评估肾功能。监测K+及血常规。",
+        "renal": "ClCr 15-30 mL/min: 减量50%。ClCr <15或透析: 不推荐。",
+        "hepatico": "严重肝功能不全避免。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "复方磺胺甲噁唑 – 成人（尿感/MRSA）",
+        "doseTexto": "800/160 mg 口服 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800/160 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "复方磺胺甲噁唑 – PCP预防",
+        "doseTexto": "800/160 mg 口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800/160 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "复方磺胺甲噁唑 – 儿科",
+        "doseTexto": "4-5 mg TMP/kg 口服 每12小时",
+        "doseMin": 4,
+        "doseMax": 5,
+        "unidadeResultado": "mg TMP",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

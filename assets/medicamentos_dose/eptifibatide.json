@@ -1,0 +1,426 @@
+{
+  "PT": {
+    "nome": "Eptifibatide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA/ICP – Bolus (2 doses)",
+          "descricaoDose": "180 mcg/kg IV; 2ª dose em 10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 180,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "2ª dose em 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "SCA/ICP – Infusão",
+          "descricaoDose": "2 mcg/kg/min IV até 72 h. ClCr <50: 1 mcg/kg/min (50%)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua até 72 h",
+            "ajusteRenal": "ClCr <50: reduzir 50% (1 mcg/kg/min). ClCr <30: contraindicado",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg em 100 mL (750 mcg/mL)", "valor": 750 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetário IV – Inibidor GP IIb/IIIa (peptídeo cíclico sintético, reversível)",
+      "apresentacoes": [
+        { "forma": "Frasco 20 mg/10 mL", "obs": "2 mg/mL (bolus)" },
+        { "forma": "Frasco 75 mg/100 mL", "obs": "0,75 mg/mL (infusão)" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: usar sem diluição", "concentracao": "Conforme apresentação" },
+        { "diluicao": "Infusão: usar frasco pronto", "concentracao": "0,75 mg/mL" }
+      ],
+      "observacoes": [
+        "Início de ação: imediato",
+        "Duração: 2-4 h após suspensão. Reversível rapidamente",
+        "Usar com AAS + heparina",
+        "Contraindicado: ClCr <30 mL/min e diálise",
+        "Monitorar plaquetas. Menor risco de trombocitopenia que abciximab",
+        "Duplo bolus: 180 mcg/kg; repetir em 10 min"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Não requer ajuste específico. Avaliar função renal.",
+        "renal": "ClCr 30-50: reduzir infusão para 1 mcg/kg/min. ClCr <30: contraindicado.",
+        "hepatico": "Não requer ajuste."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Eptifibatide – Bolus",
+        "doseTexto": "180 mcg/kg IV (repetir em 10 min)",
+        "doseMin": 180,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Eptifibatide – Infusão",
+        "doseTexto": "1-2 mcg/kg/min IV (ClCr <50: 1)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Eptifibatide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ACS/PCI – Bolus (2 doses)",
+          "descricaoDose": "180 mcg/kg IV; 2nd dose in 10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 180,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "2nd dose in 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ACS/PCI – Infusion",
+          "descricaoDose": "2 mcg/kg/min IV up to 72 h. CrCl <50: 1 mcg/kg/min (50%)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion up to 72 h",
+            "ajusteRenal": "CrCl <50: reduce 50% (1 mcg/kg/min). CrCl <30: contraindicated",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg in 100 mL (750 mcg/mL)", "valor": 750 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "IV antiplatelet – GP IIb/IIIa inhibitor (synthetic cyclic peptide, reversible)",
+      "apresentacoes": [
+        { "forma": "Vial 20 mg/10 mL", "obs": "2 mg/mL (bolus)" },
+        { "forma": "Vial 75 mg/100 mL", "obs": "0.75 mg/mL (infusion)" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: use undiluted", "concentracao": "Per presentation" },
+        { "diluicao": "Infusion: use ready vial", "concentracao": "0.75 mg/mL" }
+      ],
+      "observacoes": [
+        "Onset: immediate",
+        "Duration: 2-4 h after discontinuation. Rapidly reversible",
+        "Use with ASA + heparin",
+        "Contraindicated: CrCl <30 mL/min and dialysis",
+        "Monitor platelets. Lower thrombocytopenia risk than abciximab",
+        "Double bolus: 180 mcg/kg; repeat in 10 min"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Assess renal function.",
+        "renal": "CrCl 30-50: reduce infusion to 1 mcg/kg/min. CrCl <30: contraindicated.",
+        "hepatico": "No adjustment required."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Eptifibatide – Bolus",
+        "doseTexto": "180 mcg/kg IV (repeat in 10 min)",
+        "doseMin": 180,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Eptifibatide – Infusion",
+        "doseTexto": "1-2 mcg/kg/min IV (CrCl <50: 1)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Eptifibatide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA/ICP – Bolo (2 dosis)",
+          "descricaoDose": "180 mcg/kg IV; 2ª dosis en 10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 180,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "2ª dosis en 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "SCA/ICP – Infusión",
+          "descricaoDose": "2 mcg/kg/min IV hasta 72 h. ClCr <50: 1 mcg/kg/min (50%)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua hasta 72 h",
+            "ajusteRenal": "ClCr <50: reducir 50% (1 mcg/kg/min). ClCr <30: contraindicado",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg en 100 mL (750 mcg/mL)", "valor": 750 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetario IV – Inhibidor GP IIb/IIIa (péptido cíclico sintético, reversible)",
+      "apresentacoes": [
+        { "forma": "Frasco 20 mg/10 mL", "obs": "2 mg/mL (bolo)" },
+        { "forma": "Frasco 75 mg/100 mL", "obs": "0,75 mg/mL (infusión)" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo: usar sin diluir", "concentracao": "Según presentación" },
+        { "diluicao": "Infusión: usar frasco listo", "concentracao": "0,75 mg/mL" }
+      ],
+      "observacoes": [
+        "Inicio de acción: inmediato",
+        "Duración: 2-4 h tras suspensión. Reversible con rapidez",
+        "Usar con AAS + heparina",
+        "Contraindicado: ClCr <30 mL/min y diálisis",
+        "Monitorizar plaquetas. Menor riesgo de trombocitopenia que abciximab",
+        "Doble bolo: 180 mcg/kg; repetir en 10 min"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No requiere ajuste específico. Valorar función renal.",
+        "renal": "ClCr 30-50: reducir infusión a 1 mcg/kg/min. ClCr <30: contraindicado.",
+        "hepatico": "No requiere ajuste."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Eptifibatide – Bolo",
+        "doseTexto": "180 mcg/kg IV (repetir en 10 min)",
+        "doseMin": 180,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Eptifibatide – Infusión",
+        "doseTexto": "1-2 mcg/kg/min IV (ClCr <50: 1)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "依替巴肽",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ACS/PCI – 负荷量（2次）",
+          "descricaoDose": "180 mcg/kg IV；10 分钟后重复",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 180,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "10 分钟后第2次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ACS/PCI – 输注",
+          "descricaoDose": "2 mcg/kg/min IV 最多72 h。ClCr <50: 1 mcg/kg/min（50%）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注最多72 h",
+            "ajusteRenal": "ClCr <50: 减量50%（1 mcg/kg/min）。ClCr <30: 禁忌",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "75 mg 溶于 100 mL (750 mcg/mL)", "valor": 750 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "静脉抗血小板药 – GP IIb/IIIa 抑制剂（合成环肽，可逆）",
+      "apresentacoes": [
+        { "forma": "瓶 20 mg/10 mL", "obs": "2 mg/mL（负荷量）" },
+        { "forma": "瓶 75 mg/100 mL", "obs": "0.75 mg/mL（输注）" }
+      ],
+      "preparo": [
+        { "diluicao": "负荷量：可直接使用", "concentracao": "按说明书" },
+        { "diluicao": "输注：使用即用瓶", "concentracao": "0.75 mg/mL" }
+      ],
+      "observacoes": [
+        "起效：立即",
+        "持续时间：停药后 2-4 小时。可快速逆转",
+        "与阿司匹林 + 肝素联用",
+        "禁忌：ClCr <30 mL/min 及透析",
+        "监测血小板。血小板减少风险低于阿昔单抗",
+        "双负荷量：180 mcg/kg；10 分钟后重复"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需特殊调整。评估肾功能。",
+        "renal": "ClCr 30-50：输注减至 1 mcg/kg/min。ClCr <30：禁忌。",
+        "hepatico": "无需调整。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "依替巴肽 – 负荷量",
+        "doseTexto": "180 mcg/kg IV（10 分钟后重复）",
+        "doseMin": 180,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依替巴肽 – 输注",
+        "doseTexto": "1-2 mcg/kg/min IV（ClCr <50: 1）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

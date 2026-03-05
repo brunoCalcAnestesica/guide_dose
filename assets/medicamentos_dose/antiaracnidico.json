@@ -1,0 +1,646 @@
+{
+  "PT": {
+    "nome": "Antiaracnídico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Phoneutria (armadeira) - Moderado",
+          "descricaoDose": "2-4 ampolas IV conforme gravidade",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 ampolas IV",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Phoneutria (armadeira) - Grave",
+          "descricaoDose": "5-10 ampolas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 ampolas IV",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Loxosceles (aranha-marrom) - Moderado",
+          "descricaoDose": "5 ampolas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 ampolas IV",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Loxosceles (aranha-marrom) - Grave",
+          "descricaoDose": "10 ampolas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 ampolas IV",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Latrodectus (viúva-negra)",
+          "descricaoDose": "1-2 ampolas IV ou IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 ampolas IV ou IM",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Imunobiológico - Soro heterólogo antiveneno (imunoglobulinas equinas)",
+      "apresentacoes": [
+        { "forma": "Soro Antiaracnídico (Phoneutria)", "obs": "Ampola 5 mL - Instituto Butantan" },
+        { "forma": "Soro Antiloxoscélico", "obs": "Ampola 5 mL - CPPI/Funed" },
+        { "forma": "Soro Antilatrodectus", "obs": "Ampola 2 mL - Instituto Butantan" }
+      ],
+      "preparo": [
+        { "diluicao": "Conteúdo da(s) ampola(s) em 100-250 mL SF 0,9%", "concentracao": "Para infusão IV" },
+        { "diluicao": "Infundir em 20-60 minutos", "concentracao": "Iniciar lentamente" },
+        { "diluicao": "Manter em geladeira (2-8°C)", "concentracao": "Não congelar" }
+      ],
+      "observacoes": [
+        "Administrar o mais precocemente possível",
+        "Reação anafilática: adrenalina 0,01 mg/kg IM",
+        "Observar por 24 h após soroterapia",
+        "Doença do soro pode ocorrer 7-14 dias após",
+        "Capturar aranha para identificação quando possível",
+        "Loxosceles: soroterapia mais eficaz nas primeiras 36 h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Doses são fixas e não dependem da idade. Monitorar função renal em Loxosceles (risco de forma visceral).",
+        "renal": "Não requer ajuste de dose. Em acidente Loxosceles com IRA, manter suporte e soroterapia conforme gravidade.",
+        "hepatico": "Não requer ajuste. Soros são imunoglobulinas; metabolização hepática não altera dose."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Antiaracnídico - Phoneutria (armadeira)",
+        "doseTexto": "2-5 ampolas IV (conforme gravidade)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "2-5 ampolas",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Antiloxoscélico (Loxosceles - aranha-marrom)",
+        "doseTexto": "5 ampolas IV (moderado) ou 10 ampolas (grave)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "5-10 ampolas",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Antilatrodectus (viúva-negra)",
+        "doseTexto": "1-2 ampolas IV ou IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "1-2 ampolas",
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Antiarachnid",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Phoneutria (armed spider) - Moderate",
+          "descricaoDose": "2-4 vials IV according to severity",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 vials IV",
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Phoneutria (armed spider) - Severe",
+          "descricaoDose": "5-10 vials IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 vials IV",
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Loxosceles (brown spider) - Moderate",
+          "descricaoDose": "5 vials IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 vials IV",
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Loxosceles (brown spider) - Severe",
+          "descricaoDose": "10 vials IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 vials IV",
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Latrodectus (black widow)",
+          "descricaoDose": "1-2 vials IV or IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 vials IV or IM",
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Immunobiological - Heterologous antivenom serum (equine immunoglobulins)",
+      "apresentacoes": [
+        { "forma": "Antiarachnid serum (Phoneutria)", "obs": "5 mL vial - Butantan Institute" },
+        { "forma": "Antiloxoscelic serum", "obs": "5 mL vial - CPPI/Funed" },
+        { "forma": "Antilatrodectus serum", "obs": "2 mL vial - Butantan Institute" }
+      ],
+      "preparo": [
+        { "diluicao": "Vial(s) content in 100-250 mL NS", "concentracao": "For IV infusion" },
+        { "diluicao": "Infuse over 20-60 minutes", "concentracao": "Start slowly" },
+        { "diluicao": "Refrigerate (2-8°C)", "concentracao": "Do not freeze" }
+      ],
+      "observacoes": [
+        "Administer as early as possible",
+        "Anaphylactic reaction: epinephrine 0.01 mg/kg IM",
+        "Observe for 24 h after serotherapy",
+        "Serum sickness may occur 7-14 days after",
+        "Capture spider for identification when possible",
+        "Loxosceles: serotherapy most effective within first 36 h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Doses are fixed and do not depend on age. Monitor renal function in Loxosceles (visceral form risk).",
+        "renal": "No dose adjustment. In Loxosceles envenomation with AKI, maintain support and serotherapy per severity.",
+        "hepatico": "No adjustment. Sera are immunoglobulins; hepatic metabolism does not change dose."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Antiarachnid - Phoneutria (armed spider)",
+        "doseTexto": "2-5 vials IV (according to severity)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "2-5 vials",
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "Antiloxoscelic (Loxosceles - brown spider)",
+        "doseTexto": "5 vials IV (moderate) or 10 vials (severe)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "5-10 vials",
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "Antilatrodectus (black widow)",
+        "doseTexto": "1-2 vials IV or IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "1-2 vials",
+        "faixaEtaria": "All"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Antiaracnídico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Phoneutria (armadeira) - Moderado",
+          "descricaoDose": "2-4 ampollas IV según gravedad",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 ampollas IV",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Phoneutria (armadeira) - Grave",
+          "descricaoDose": "5-10 ampollas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 ampollas IV",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Loxosceles (araña marrón) - Moderado",
+          "descricaoDose": "5 ampollas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 ampollas IV",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Loxosceles (araña marrón) - Grave",
+          "descricaoDose": "10 ampollas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 ampollas IV",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Latrodectus (viuda negra)",
+          "descricaoDose": "1-2 ampollas IV o IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 ampollas IV o IM",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Inmunobiológico - Suero heterólogo antiveneno (inmunoglobulinas equinas)",
+      "apresentacoes": [
+        { "forma": "Suero Antiaracnídico (Phoneutria)", "obs": "Ampolla 5 mL - Instituto Butantan" },
+        { "forma": "Suero Antiloxoscélico", "obs": "Ampolla 5 mL - CPPI/Funed" },
+        { "forma": "Suero Antilatrodectus", "obs": "Ampolla 2 mL - Instituto Butantan" }
+      ],
+      "preparo": [
+        { "diluicao": "Contenido de la(s) ampolla(s) en 100-250 mL SF 0,9%", "concentracao": "Para infusión IV" },
+        { "diluicao": "Infundir en 20-60 minutos", "concentracao": "Iniciar lentamente" },
+        { "diluicao": "Mantener en nevera (2-8°C)", "concentracao": "No congelar" }
+      ],
+      "observacoes": [
+        "Administrar lo más precozmente posible",
+        "Reacción anafiláctica: adrenalina 0,01 mg/kg IM",
+        "Observar 24 h tras seroterapia",
+        "Enfermedad del suero puede ocurrir 7-14 días después",
+        "Capturar araña para identificación cuando sea posible",
+        "Loxosceles: seroterapia más eficaz en las primeras 36 h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Dosis fijas, no dependen de la edad. Monitorizar función renal en Loxosceles (riesgo forma visceral).",
+        "renal": "No requiere ajuste. En Loxosceles con IRA, mantener soporte y seroterapia según gravedad.",
+        "hepatico": "No requiere ajuste. Sueros son inmunoglobulinas; metabolización hepática no altera dosis."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Antiaracnídico - Phoneutria (armadeira)",
+        "doseTexto": "2-5 ampollas IV (según gravedad)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "2-5 ampollas",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Antiloxoscélico (Loxosceles - araña marrón)",
+        "doseTexto": "5 ampollas IV (moderado) o 10 (grave)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "5-10 ampollas",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Antilatrodectus (viuda negra)",
+        "doseTexto": "1-2 ampollas IV o IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "1-2 ampollas",
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "抗蜘蛛毒血清",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Phoneutria（武装蜘蛛）- 中度",
+          "descricaoDose": "2-4安瓿 IV 根据严重程度",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 安瓿 IV",
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Phoneutria（武装蜘蛛）- 重度",
+          "descricaoDose": "5-10安瓿 IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 安瓿 IV",
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Loxosceles（褐蛛）- 中度",
+          "descricaoDose": "5安瓿 IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 安瓿 IV",
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Loxosceles（褐蛛）- 重度",
+          "descricaoDose": "10安瓿 IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 安瓿 IV",
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Latrodectus（黑寡妇）",
+          "descricaoDose": "1-2安瓿 IV 或 IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 安瓿 IV 或 IM",
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "免疫生物制剂 - 异源抗毒血清（马免疫球蛋白）",
+      "apresentacoes": [
+        { "forma": "抗Phoneutria血清", "obs": "5 mL 安瓿 - 布坦坦研究所" },
+        { "forma": "抗Loxosceles血清", "obs": "5 mL 安瓿 - CPPI/Funed" },
+        { "forma": "抗Latrodectus血清", "obs": "2 mL 安瓿 - 布坦坦研究所" }
+      ],
+      "preparo": [
+        { "diluicao": "安瓿内容物加入100-250 mL 0.9%生理盐水", "concentracao": "静脉输注" },
+        { "diluicao": "20-60分钟内输注", "concentracao": "缓慢开始" },
+        { "diluicao": "冷藏（2-8°C）", "concentracao": "勿冷冻" }
+      ],
+      "observacoes": [
+        "尽早给药",
+        "过敏反应：肾上腺素 0.01 mg/kg IM",
+        "血清治疗后观察24小时",
+        "血清病可能于7-14天后发生",
+        "可能时捕获蜘蛛以便鉴定",
+        "Loxosceles：血清治疗在36小时内最有效"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "剂量固定，不随年龄调整。Loxosceles时监测肾功能（内脏型风险）。",
+        "renal": "无需调整。Loxosceles致AKI时，按严重程度维持支持与血清治疗。",
+        "hepatico": "无需调整。血清为免疫球蛋白；肝脏代谢不改变剂量。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "抗蜘蛛毒血清 - Phoneutria（武装蜘蛛）",
+        "doseTexto": "2-5安瓿 IV（根据严重程度）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "2-5 安瓿",
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "抗Loxosceles血清（褐蛛）",
+        "doseTexto": "5安瓿 IV（中度）或 10安瓿（重度）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "5-10 安瓿",
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "抗Latrodectus血清（黑寡妇）",
+        "doseTexto": "1-2安瓿 IV 或 IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "1-2 安瓿",
+        "faixaEtaria": "所有"
+      }
+    ]
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "PT": {
+    "nome": "Furosemida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema (dose inicial)",
+          "descricaoDose": "20-40 mg IV em bolus lento (2-5 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou repetir conforme resposta",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Edema agudo de pulmão",
+          "descricaoDose": "40-80 mg IV em bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 40,
+            "doseMax": 80,
+            "doseMaxima": 80,
+            "doseFixa": "40-80 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir conforme resposta diurética",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Crise hipertensiva",
+          "descricaoDose": "20-40 mg IV (associado a outros anti-hipertensivos)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalcemia",
+          "descricaoDose": "80-100 mg IV (associado a hidratação vigorosa)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 80,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "80-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Edema pediátrico",
+          "descricaoDose": "1-2 mg/kg/dose IV ou VO (a cada 6-12h, máx 120 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 120,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "a cada 6-12h",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão contínua",
+          "descricaoDose": "0,1-0,4 mg/kg/h IV - doses altas ou resistência",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.4,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.4 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 0.4 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mg em 50 mL SF (0,8 mg/mL)", "valor": 0.8 },
+            { "rotulo": "40 mg em 100 mL SF (0,4 mg/mL)", "valor": 0.4 },
+            { "rotulo": "80 mg em 100 mL SF (0,8 mg/mL)", "valor": 0.8 },
+            { "rotulo": "80 mg em 250 mL SF (0,32 mg/mL)", "valor": 0.32 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Diurético de alça - Derivado da sulfonamida",
+      "apresentacoes": [
+        { "forma": "Ampola 20 mg/2 mL (10 mg/mL)", "obs": "" },
+        { "forma": "Comprimido 40 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV", "concentracao": "Usar direto da ampola em 2-5 min" },
+        { "diluicao": "40 mg (2 amp) em 50-100 mL SF 0,9% ou SG 5%", "concentracao": "Infusão em 10-20 min" },
+        { "diluicao": "80 mg em 100 mL SF", "concentracao": "0,8 mg/mL - infusão contínua" }
+      ],
+      "observacoes": [
+        "Início de ação IV: 5 minutos | Pico: 30 min | Duração: 2 horas",
+        "Administrar bolus LENTO (2-5 min) - risco de ototoxicidade se rápido",
+        "Infusão recomendada para doses >80 mg",
+        "Monitorar PA, balanço hídrico e eletrólitos (K+, Na+, Mg2+, Ca2+)",
+        "Contraindicado em anúria e hipovolemia severa",
+        "Dose máxima adultos: 600 mg/dia | Pediátrica: 6 mg/kg/dia"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares e eletrolíticos.",
+        "renal": "Pode necessitar doses maiores em DRC (menor entrega à alça de Henle). Monitorizar eletrólitos e balanço hídrico rigorosamente.",
+        "hepatico": "Usar com cautela. Risco aumentado de desequilíbrios eletrolíticos, hipovolemia e encefalopatia hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Furosemida (adulto - edema)",
+        "doseTexto": "20-40 mg IV em bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Furosemida (edema agudo pulmão)",
+        "doseTexto": "40-80 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40-80 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Furosemida (pediátrico)",
+        "doseTexto": "1-2 mg/kg/dose IV ou VO (máx 120 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Furosemida (infusão)",
+        "doseTexto": "0,1-0,4 mg/kg/h IV",
+        "doseMin": 0.1,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Furosemide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema (initial dose)",
+          "descricaoDose": "20-40 mg IV slow bolus (2-5 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose or repeat as needed",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Acute pulmonary edema",
+          "descricaoDose": "40-80 mg IV bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 40,
+            "doseMax": 80,
+            "doseMaxima": 80,
+            "doseFixa": "40-80 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat per diuretic response",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hypertensive emergency",
+          "descricaoDose": "20-40 mg IV (with other antihypertensives)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hypercalcemia",
+          "descricaoDose": "80-100 mg IV (with vigorous hydration)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 80,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "80-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric edema",
+          "descricaoDose": "1-2 mg/kg/dose IV or PO (every 6-12h, max 120 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 120,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "every 6-12h",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Continuous infusion",
+          "descricaoDose": "0.1-0.4 mg/kg/h IV - high doses or resistance",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.4,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.4 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 0.4 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mg in 50 mL NS (0.8 mg/mL)", "valor": 0.8 },
+            { "rotulo": "40 mg in 100 mL NS (0.4 mg/mL)", "valor": 0.4 },
+            { "rotulo": "80 mg in 100 mL NS (0.8 mg/mL)", "valor": 0.8 },
+            { "rotulo": "80 mg in 250 mL NS (0.32 mg/mL)", "valor": 0.32 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Loop diuretic - Sulfonamide derivative",
+      "apresentacoes": [
+        { "forma": "Ampoule 20 mg/2 mL (10 mg/mL)", "obs": "" },
+        { "forma": "Tablet 40 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus", "concentracao": "Use directly from ampoule over 2-5 min" },
+        { "diluicao": "40 mg (2 amp) in 50-100 mL NS or D5W", "concentracao": "Infusion over 10-20 min" },
+        { "diluicao": "80 mg in 100 mL NS", "concentracao": "0.8 mg/mL - continuous infusion" }
+      ],
+      "observacoes": [
+        "Onset IV: 5 min | Peak: 30 min | Duration: 2 hours",
+        "Administer bolus SLOWLY (2-5 min) - ototoxicity risk if rapid",
+        "Infusion recommended for doses >80 mg",
+        "Monitor BP, fluid balance and electrolytes (K+, Na+, Mg2+, Ca2+)",
+        "Contraindicated in anuria and severe hypovolemia",
+        "Max dose adults: 600 mg/day | Pediatric: 6 mg/kg/day"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular and electrolyte effects.",
+        "renal": "May require higher doses in CKD (reduced delivery to loop of Henle). Monitor electrolytes and fluid balance rigorously.",
+        "hepatico": "Use with caution. Increased risk of electrolyte imbalance, hypovolemia and hepatic encephalopathy."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Furosemide (adult - edema)",
+        "doseTexto": "20-40 mg IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Furosemide (acute pulmonary edema)",
+        "doseTexto": "40-80 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40-80 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Furosemide (pediatric)",
+        "doseTexto": "1-2 mg/kg/dose IV or PO (max 120 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Furosemide (infusion)",
+        "doseTexto": "0.1-0.4 mg/kg/h IV",
+        "doseMin": 0.1,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Furosemida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema (dosis inicial)",
+          "descricaoDose": "20-40 mg IV en bolo lento (2-5 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o repetir según respuesta",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Edema agudo de pulmón",
+          "descricaoDose": "40-80 mg IV en bolo",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 40,
+            "doseMax": 80,
+            "doseMaxima": 80,
+            "doseFixa": "40-80 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir según respuesta diurética",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Crisis hipertensiva",
+          "descricaoDose": "20-40 mg IV (asociado a otros antihipertensivos)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipercalcemia",
+          "descricaoDose": "80-100 mg IV (asociado a hidratación vigorosa)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 80,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "80-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Edema pediátrico",
+          "descricaoDose": "1-2 mg/kg/dosis IV o VO (cada 6-12h, máx 120 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 120,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "cada 6-12h",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Infusión continua",
+          "descricaoDose": "0,1-0,4 mg/kg/h IV - dosis altas o resistencia",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.4,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.4 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 0.4 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mg en 50 mL SSF (0,8 mg/mL)", "valor": 0.8 },
+            { "rotulo": "40 mg en 100 mL SSF (0,4 mg/mL)", "valor": 0.4 },
+            { "rotulo": "80 mg en 100 mL SSF (0,8 mg/mL)", "valor": 0.8 },
+            { "rotulo": "80 mg en 250 mL SSF (0,32 mg/mL)", "valor": 0.32 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Diurético de asa - Derivado de sulfonamida",
+      "apresentacoes": [
+        { "forma": "Ampolla 20 mg/2 mL (10 mg/mL)", "obs": "" },
+        { "forma": "Comprimido 40 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo IV", "concentracao": "Usar directo de la ampolla en 2-5 min" },
+        { "diluicao": "40 mg (2 amp) en 50-100 mL SSF 0,9% o SG 5%", "concentracao": "Infusión en 10-20 min" },
+        { "diluicao": "80 mg en 100 mL SSF", "concentracao": "0,8 mg/mL - infusión continua" }
+      ],
+      "observacoes": [
+        "Inicio de acción IV: 5 min | Pico: 30 min | Duración: 2 horas",
+        "Administrar bolo LENTO (2-5 min) - riesgo de ototoxicidad si rápido",
+        "Infusión recomendada para dosis >80 mg",
+        "Monitorizar PA, balance hídrico y electrolitos (K+, Na+, Mg2+, Ca2+)",
+        "Contraindicado en anuria e hipovolemia severa",
+        "Dosis máxima adultos: 600 mg/día | Pediátrica: 6 mg/kg/día"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares y electrolíticos.",
+        "renal": "Puede requerir dosis mayores en ERC (menor entrega al asa de Henle). Monitorizar electrolitos y balance hídrico rigurosamente.",
+        "hepatico": "Usar con precaución. Mayor riesgo de desequilibrios electrolíticos, hipovolemia y encefalopatía hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Furosemida (adulto - edema)",
+        "doseTexto": "20-40 mg IV en bolo",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Furosemida (edema agudo pulmón)",
+        "doseTexto": "40-80 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40-80 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Furosemida (pediátrico)",
+        "doseTexto": "1-2 mg/kg/dosis IV o VO (máx 120 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Furosemida (infusión)",
+        "doseTexto": "0,1-0,4 mg/kg/h IV",
+        "doseMin": 0.1,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "呋塞米",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "水肿（初始剂量）",
+          "descricaoDose": "20-40 mg IV 缓慢推注（2-5分钟）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次或按需重复",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "急性肺水肿",
+          "descricaoDose": "40-80 mg IV 推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 40,
+            "doseMax": 80,
+            "doseMaxima": 80,
+            "doseFixa": "40-80 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "根据利尿反应重复",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "高血压急症",
+          "descricaoDose": "20-40 mg IV（联合其他降压药）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "高钙血症",
+          "descricaoDose": "80-100 mg IV（配合充分水化）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 80,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "80-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童水肿",
+          "descricaoDose": "1-2 mg/kg/次 IV 或 PO（每6-12小时，最大120 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 120,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/PO",
+            "intervalo": "每6-12小时",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "持续输注",
+          "descricaoDose": "0.1-0.4 mg/kg/h IV - 高剂量或耐药",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.4,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.4 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 0.4 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mg 溶于 50 mL NS (0.8 mg/mL)", "valor": 0.8 },
+            { "rotulo": "40 mg 溶于 100 mL NS (0.4 mg/mL)", "valor": 0.4 },
+            { "rotulo": "80 mg 溶于 100 mL NS (0.8 mg/mL)", "valor": 0.8 },
+            { "rotulo": "80 mg 溶于 250 mL NS (0.32 mg/mL)", "valor": 0.32 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "袢利尿剂 - 磺胺衍生物",
+      "apresentacoes": [
+        { "forma": "安瓿 20 mg/2 mL (10 mg/mL)", "obs": "" },
+        { "forma": "片剂 40 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "IV 推注", "concentracao": "直接使用安瓿，2-5分钟内" },
+        { "diluicao": "40 mg（2支）溶于 50-100 mL NS 或 D5W", "concentracao": "10-20分钟内输注" },
+        { "diluicao": "80 mg 溶于 100 mL NS", "concentracao": "0.8 mg/mL - 持续输注" }
+      ],
+      "observacoes": [
+        "IV起效：5分钟 | 峰值：30分钟 | 持续时间：2小时",
+        "推注需缓慢（2-5分钟）- 快速给药有耳毒性风险",
+        "剂量>80 mg建议输注",
+        "监测血压、液体平衡和电解质（K+、Na+、Mg2+、Ca2+）",
+        "禁用于无尿和严重低血容量",
+        "成人最大剂量：600 mg/天 | 儿童：6 mg/kg/天"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测心血管和电解质效应。",
+        "renal": "CKD患者可能需要更高剂量（肾单位袢递送减少）。严格监测电解质和液体平衡。",
+        "hepatico": "谨慎使用。电解质失衡、低血容量和肝性脑病风险增加。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "呋塞米（成人-水肿）",
+        "doseTexto": "20-40 mg IV 推注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "呋塞米（急性肺水肿）",
+        "doseTexto": "40-80 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40-80 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "呋塞米（儿童）",
+        "doseTexto": "1-2 mg/kg/次 IV 或 PO（最大120 mg）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "呋塞米（输注）",
+        "doseTexto": "0.1-0.4 mg/kg/h IV",
+        "doseMin": 0.1,
+        "doseMax": 0.4,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      }
+    ]
+  }
+}

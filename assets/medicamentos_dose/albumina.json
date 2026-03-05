@@ -1,0 +1,486 @@
+{
+  "PT": {
+    "nome": "Albumina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ressuscitação volêmica (5%)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipoalbuminemia (20%)",
+          "descricaoDose": "0,5-1 g/kg IV (máx 100 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.75,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou conforme prescrição",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Paracentese de grande volume (20%)",
+          "descricaoDose": "6-8 g por litro de ascite drenado (>5L)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "6-8 g/L drenado",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "após paracentese >5L",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Expansor plasmático - Coloide natural (proteína humana)",
+      "apresentacoes": [
+        { "forma": "Solução 5% (50 g/L)", "obs": "250 mL, 500 mL - iso-oncótica" },
+        { "forma": "Solução 20% (200 g/L)", "obs": "50 mL, 100 mL - hiperoncótica" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso", "concentracao": "5% ou 20% conforme apresentação" },
+        { "diluicao": "Não misturar com bicarbonato ou concentrados de eletrólitos", "concentracao": "Incompatível - risco de precipitação" }
+      ],
+      "observacoes": [
+        "Albumina 5%: expansão volêmica; 20%: hipoalbuminemia, paracentese, síndrome nefrótica",
+        "20% é hiperoncótica: recruta líquido do interstício para o intravascular",
+        "Preferir acesso central para albumina 20% (hiperosmolar)",
+        "Incompatível com bicarbonato e soluções com cálcio na mesma via",
+        "Dose máxima habitual: 2 g/kg/dia",
+        "Pode alterar farmacocinética de fármacos ligados à proteína (ex.: diazepam)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar volemia e função cardíaca. Risco de hipervolemia e ICC se excesso de volume.",
+        "renal": "Não requer ajuste de dose. Albumina não é dialisável; uso em síndrome nefrótica sob critério clínico.",
+        "hepatico": "Indicada em hepatopatia com hipoalbuminemia e em paracentese de grande volume. Síndrome hepatorrenal: associar com vasopressores conforme protocolo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Albumina 5% (ressuscitação)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Albumina 20% (hipoalbuminemia)",
+        "doseTexto": "0,5-1 g/kg IV (máx 100 g)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Albumina 20% (paracentese)",
+        "doseTexto": "6-8 g por litro drenado (>5L)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g/L",
+        "decimais": 0,
+        "resultadoFixo": "6-8 g/L drenado",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Albumin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Volume resuscitation (5%)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hypoalbuminemia (20%)",
+          "descricaoDose": "0.5-1 g/kg IV (max 100 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.75,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose or as prescribed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Large-volume paracentesis (20%)",
+          "descricaoDose": "6-8 g per liter of ascites drained (>5L)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "6-8 g/L drained",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "after paracentesis >5L",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Plasma expander - Natural colloid (human protein)",
+      "apresentacoes": [
+        { "forma": "Solution 5% (50 g/L)", "obs": "250 mL, 500 mL - iso-oncotic" },
+        { "forma": "Solution 20% (200 g/L)", "obs": "50 mL, 100 mL - hyperoncotic" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for use", "concentracao": "5% or 20% as per presentation" },
+        { "diluicao": "Do not mix with bicarbonate or concentrated electrolytes", "concentracao": "Incompatible - precipitation risk" }
+      ],
+      "observacoes": [
+        "5%: volume expansion; 20%: hypoalbuminemia, paracentesis, nephrotic syndrome",
+        "20% is hyperoncotic: draws fluid from interstitium to intravascular space",
+        "Prefer central access for 20% albumin (hyperosmolar)",
+        "Incompatible with bicarbonate and calcium-containing solutions in same line",
+        "Usual maximum dose: 2 g/kg/day",
+        "May alter pharmacokinetics of protein-bound drugs (e.g., diazepam)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor volume status and cardiac function. Risk of hypervolemia and CHF with excess volume.",
+        "renal": "No dose adjustment required. Albumin not dialyzable; use in nephrotic syndrome per clinical judgment.",
+        "hepatico": "Indicated in liver disease with hypoalbuminemia and large-volume paracentesis. Hepatorenal syndrome: combine with vasopressors per protocol."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Albumin 5% (resuscitation)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "Albumin 20% (hypoalbuminemia)",
+        "doseTexto": "0.5-1 g/kg IV (max 100 g)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Albumin 20% (paracentesis)",
+        "doseTexto": "6-8 g per liter drained (>5L)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g/L",
+        "decimais": 0,
+        "resultadoFixo": "6-8 g/L drained",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Albúmina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reanimación volémica (5%)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipoalbuminemia (20%)",
+          "descricaoDose": "0,5-1 g/kg IV (máx 100 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.75,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o según prescripción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Paracentesis de gran volumen (20%)",
+          "descricaoDose": "6-8 g por litro de ascitis drenado (>5L)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "6-8 g/L drenado",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "tras paracentesis >5L",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Expansor plasmático - Coloide natural (proteína humana)",
+      "apresentacoes": [
+        { "forma": "Solución 5% (50 g/L)", "obs": "250 mL, 500 mL - iso-oncótica" },
+        { "forma": "Solución 20% (200 g/L)", "obs": "50 mL, 100 mL - hiperoncótica" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso", "concentracao": "5% o 20% según presentación" },
+        { "diluicao": "No mezclar con bicarbonato ni electrolitos concentrados", "concentracao": "Incompatible - riesgo de precipitación" }
+      ],
+      "observacoes": [
+        "5%: expansión volémica; 20%: hipoalbuminemia, paracentesis, síndrome nefrótico",
+        "20% es hiperoncótica: recluta líquido del intersticio al espacio intravascular",
+        "Preferir acceso central para albúmina 20% (hiperosmolar)",
+        "Incompatible con bicarbonato y soluciones con calcio en la misma vía",
+        "Dosis máxima habitual: 2 g/kg/día",
+        "Puede alterar farmacocinética de fármacos unidos a proteína (ej.: diazepam)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar volemia y función cardíaca. Riesgo de hipervolemia e ICC con exceso de volumen.",
+        "renal": "No requiere ajuste de dosis. La albúmina no es dializable; uso en síndrome nefrótico según criterio clínico.",
+        "hepatico": "Indicada en hepatopatía con hipoalbuminemia y en paracentesis de gran volumen. Síndrome hepatorrenal: asociar con vasopresores según protocolo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Albúmina 5% (reanimación)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Albúmina 20% (hipoalbuminemia)",
+        "doseTexto": "0,5-1 g/kg IV (máx 100 g)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Albúmina 20% (paracentesis)",
+        "doseTexto": "6-8 g por litro drenado (>5L)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g/L",
+        "decimais": 0,
+        "resultadoFixo": "6-8 g/L drenado",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "白蛋白",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "容量复苏 (5%)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按需",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "低白蛋白血症 (20%)",
+          "descricaoDose": "0.5-1 g/kg IV (最大 100 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.75,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次或遵医嘱",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "大量腹腔穿刺 (20%)",
+          "descricaoDose": "引流腹水每升 6-8 g (>5L)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "6-8 g/L 引流",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "穿刺 >5L 后",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "血浆扩容剂 - 天然胶体（人蛋白）",
+      "apresentacoes": [
+        { "forma": "溶液 5% (50 g/L)", "obs": "250 mL, 500 mL - 等渗" },
+        { "forma": "溶液 20% (200 g/L)", "obs": "50 mL, 100 mL - 高渗" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "按规格 5% 或 20%" },
+        { "diluicao": "勿与碳酸氢盐或浓电解质混合", "concentracao": "不相容 - 沉淀风险" }
+      ],
+      "observacoes": [
+        "5%：扩容；20%：低白蛋白血症、腹腔穿刺、肾病综合征",
+        "20% 为高渗：将组织间液吸入血管内",
+        "20% 建议中心静脉通路（高渗）",
+        "与碳酸氢盐及含钙溶液同路不相容",
+        "常用最大剂量：2 g/kg/日",
+        "可能改变蛋白结合药物药代动力学（如地西泮）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测容量与心功能。容量过多有高血容量与心衰风险。",
+        "renal": "无需调整剂量。白蛋白不可透析；肾病综合征按临床判断使用。",
+        "hepatico": "适用于肝病伴低白蛋白血症及大量腹腔穿刺。肝肾综合征：按方案联用血管加压药。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "白蛋白 5% (复苏)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "白蛋白 20% (低白蛋白血症)",
+        "doseTexto": "0.5-1 g/kg IV (最大 100 g)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "白蛋白 20% (腹腔穿刺)",
+        "doseTexto": "引流每升 6-8 g (>5L)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g/L",
+        "decimais": 0,
+        "resultadoFixo": "6-8 g/L 引流",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

@@ -1,0 +1,826 @@
+{
+  "PT": {
+    "nome": "Ondansetrona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "NVPO (adulto)",
+          "descricaoDose": "4 mg IV/IM dose única (pré-indução ou pós-operatório)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": "4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (pediátrico)",
+          "descricaoDose": "0,1-0,15 mg/kg IV dose única (máx 4 mg). >1 mês.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Quimioterapia moderadamente emetogênica",
+          "descricaoDose": "8 mg IV pré-quimio + 8 mg IV 8h depois",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "8 mg + 8 mg 8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose 1: 30 min pré-quimio; dose 2: 8h depois",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Quimioterapia altamente emetogênica",
+          "descricaoDose": "8 mg IV + 8 mg IV 8h + 8 mg VO 12/12h por 1-2 dias. Alternativa: 24 mg VO dose única 30 min pré-quimio.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 24,
+            "doseFixa": "8-24 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "dias 1-2 pós-quimio",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child B/C: dose máxima 8 mg/dia"
+          }
+        },
+        {
+          "titulo": "Quimioterapia altamente emetogênica (pediátrico)",
+          "descricaoDose": "0,15 mg/kg IV pré-quimio + 4-8h + 8h depois (máx 16 mg total). >6 meses.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "pré + 4-8h + 8h pós-quimio",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Radioterapia",
+          "descricaoDose": "8 mg VO 3x/dia. Fração única: 1-2h antes. Frações múltiplas: continuar 1-2 dias pós.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "8 mg 3x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia NVPO pré-anestesia",
+          "descricaoDose": "16 mg VO dose única 1h antes da indução anestésica",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": "16 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única 1h pré",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético, antagonista seletivo dos receptores 5-HT3 de serotonina",
+      "apresentacoes": [
+        { "forma": "Comprimidos 4 mg, 8 mg", "obs": "Uso oral" },
+        { "forma": "Comprimidos orodispersíveis 4 mg, 8 mg", "obs": "Dissolvem na língua" },
+        { "forma": "Solução oral 4 mg/5 mL", "obs": "Frasco 50 mL" },
+        { "forma": "Ampola 2 mg/mL (2 mL, 4 mL)", "obs": "IV/IM" },
+        { "forma": "Frasco-ampola 8 mg/4 mL", "obs": "IV" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: administrar lento 2-5 min", "concentracao": "Direto da ampola" },
+        { "diluicao": "IV infusão: diluir em 50-100 mL SF 0,9% ou SG 5%", "concentracao": "Infundir 15-30 min" },
+        { "diluicao": "IM: injeção profunda", "concentracao": "Deltóide ou glúteo" },
+        { "diluicao": "VO: 30-60 min antes quimio/radioterapia", "concentracao": "Com ou sem alimento" }
+      ],
+      "observacoes": [
+        "Dose única IV máxima 16 mg (FDA 2012 - risco prolongamento QTc/arritmias)",
+        "Monitorar ECG em pacientes com risco cardiovascular e em doses >16 mg IV",
+        "Efeito colateral mais comum: cefaleia (9-27%) e constipação (6-11%)",
+        "Sinergismo com dexametasona e aprepitante em quimio altamente emetogênica",
+        "Contraindicado com apomorfina (hipotensão grave, perda de consciência)",
+        "Antiemético de primeira linha em quimioterapia emetogênica e NVPO"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares e prolongamento QTc.",
+        "renal": "Não requer ajuste. Excreção renal mínima (<5% inalterado).",
+        "hepatico": "Child B/C: dose máxima 8 mg/dia (clearance reduzido 50%, meia-vida prolongada)"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ondansetrona (adulto)",
+        "doseTexto": "4 mg IV dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ondansetrona (pediátrico)",
+        "doseTexto": "0,1-0,15 mg/kg IV (máx 4 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ondansetron",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "PONV (adult)",
+          "descricaoDose": "4 mg IV/IM single dose (pre-induction or postoperative)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": "4 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PONV (pediatric)",
+          "descricaoDose": "0.1-0.15 mg/kg IV single dose (max 4 mg). >1 month.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Moderately emetogenic chemotherapy",
+          "descricaoDose": "8 mg IV pre-chemo + 8 mg IV 8h later",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "8 mg + 8 mg 8h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "dose 1: 30 min pre-chemo; dose 2: 8h later",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Highly emetogenic chemotherapy",
+          "descricaoDose": "8 mg IV + 8 mg IV 8h + 8 mg PO q12h for 1-2 days. Alternative: 24 mg PO single dose 30 min pre-chemo.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 24,
+            "doseFixa": "8-24 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "days 1-2 post-chemo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child B/C: max 8 mg/day"
+          }
+        },
+        {
+          "titulo": "Highly emetogenic chemo (pediatric)",
+          "descricaoDose": "0.15 mg/kg IV pre-chemo + 4-8h + 8h after (max 16 mg total). >6 months.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "pre + 4-8h + 8h post-chemo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Radiotherapy",
+          "descricaoDose": "8 mg PO 3x/day. Single fraction: 1-2h before. Multiple fractions: continue 1-2 days post.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "8 mg 3x/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "3x/day",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PONV prophylaxis pre-anesthesia",
+          "descricaoDose": "16 mg PO single dose 1h before anesthetic induction",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": "16 mg PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "single dose 1h pre",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemetic, selective 5-HT3 serotonin receptor antagonist",
+      "apresentacoes": [
+        { "forma": "Tablets 4 mg, 8 mg", "obs": "Oral" },
+        { "forma": "Orally disintegrating tablets 4 mg, 8 mg", "obs": "Dissolve on tongue" },
+        { "forma": "Oral solution 4 mg/5 mL", "obs": "50 mL bottle" },
+        { "forma": "Ampoule 2 mg/mL (2 mL, 4 mL)", "obs": "IV/IM" },
+        { "forma": "Vial 8 mg/4 mL", "obs": "IV" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: administer slow 2-5 min", "concentracao": "Direct from ampoule" },
+        { "diluicao": "IV infusion: dilute in 50-100 mL 0.9% NS or D5W", "concentracao": "Infuse 15-30 min" },
+        { "diluicao": "IM: deep injection", "concentracao": "Deltoid or gluteus" },
+        { "diluicao": "PO: 30-60 min before chemo/radiotherapy", "concentracao": "With or without food" }
+      ],
+      "observacoes": [
+        "Maximum single IV dose 16 mg (FDA 2012 - QT prolongation/arrhythmia risk)",
+        "Monitor ECG in patients with cardiovascular risk and doses >16 mg IV",
+        "Most common adverse effect: headache (9-27%) and constipation (6-11%)",
+        "Synergy with dexamethasone and aprepitant in highly emetogenic chemo",
+        "Contraindicated with apomorphine (severe hypotension, loss of consciousness)",
+        "First-line antiemetic in emetogenic chemotherapy and PONV"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular effects and QT prolongation.",
+        "renal": "No dose adjustment. Minimal renal excretion (<5% unchanged).",
+        "hepatico": "Child B/C: max 8 mg/day (reduced clearance 50%, prolonged half-life)"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ondansetron (adult)",
+        "doseTexto": "4 mg IV single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ondansetron (pediatric)",
+        "doseTexto": "0.1-0.15 mg/kg IV (max 4 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ondansetrón",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "NVPO (adulto)",
+          "descricaoDose": "4 mg IV/IM dosis única (pre-inducción o postoperatorio)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": "4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (pediátrico)",
+          "descricaoDose": "0,1-0,15 mg/kg IV dosis única (máx 4 mg). >1 mes.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Quimioterapia moderadamente emetogénica",
+          "descricaoDose": "8 mg IV pre-quimio + 8 mg IV 8h después",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "8 mg + 8 mg 8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis 1: 30 min pre-quimio; dosis 2: 8h después",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Quimioterapia altamente emetogénica",
+          "descricaoDose": "8 mg IV + 8 mg IV 8h + 8 mg VO 12/12h por 1-2 días. Alternativa: 24 mg VO dosis única 30 min pre-quimio.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 24,
+            "doseFixa": "8-24 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "días 1-2 post-quimio",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child B/C: dosis máxima 8 mg/día"
+          }
+        },
+        {
+          "titulo": "Quimioterapia altamente emetogénica (pediátrico)",
+          "descricaoDose": "0,15 mg/kg IV pre-quimio + 4-8h + 8h después (máx 16 mg total). >6 meses.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "pre + 4-8h + 8h post-quimio",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Radioterapia",
+          "descricaoDose": "8 mg VO 3x/día. Fracción única: 1-2h antes. Fracciones múltiples: continuar 1-2 días post.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "8 mg 3x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis NVPO pre-anestesia",
+          "descricaoDose": "16 mg VO dosis única 1h antes de inducción anestésica",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": "16 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única 1h pre",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético, antagonista selectivo de receptores 5-HT3 de serotonina",
+      "apresentacoes": [
+        { "forma": "Comprimidos 4 mg, 8 mg", "obs": "Uso oral" },
+        { "forma": "Comprimidos orodispersibles 4 mg, 8 mg", "obs": "Se disuelven en la lengua" },
+        { "forma": "Solución oral 4 mg/5 mL", "obs": "Frasco 50 mL" },
+        { "forma": "Ampolla 2 mg/mL (2 mL, 4 mL)", "obs": "IV/IM" },
+        { "forma": "Frasco-ampolla 8 mg/4 mL", "obs": "IV" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: administrar lento 2-5 min", "concentracao": "Directo de la ampolla" },
+        { "diluicao": "IV infusión: diluir en 50-100 mL SF 0,9% o SG 5%", "concentracao": "Infundir 15-30 min" },
+        { "diluicao": "IM: inyección profunda", "concentracao": "Deltoides o glúteo" },
+        { "diluicao": "VO: 30-60 min antes quimio/radioterapia", "concentracao": "Con o sin alimento" }
+      ],
+      "observacoes": [
+        "Dosis única IV máxima 16 mg (FDA 2012 - riesgo prolongación QTc/arritmias)",
+        "Monitorizar ECG en pacientes con riesgo cardiovascular y dosis >16 mg IV",
+        "Efecto adverso más común: cefalea (9-27%) y estreñimiento (6-11%)",
+        "Sinergismo con dexametasona y aprepitante en quimio altamente emetogénica",
+        "Contraindicado con apomorfina (hipotensión grave, pérdida de consciencia)",
+        "Antiemético de primera línea en quimioterapia emetogénica y NVPO"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares y prolongación QTc.",
+        "renal": "No requiere ajuste. Excreción renal mínima (<5% sin cambios).",
+        "hepatico": "Child B/C: dosis máxima 8 mg/día (clearance reducido 50%, vida media prolongada)"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ondansetrón (adulto)",
+        "doseTexto": "4 mg IV dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ondansetrón (pediátrico)",
+        "doseTexto": "0,1-0,15 mg/kg IV (máx 4 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "昂丹司琼",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "术后恶心呕吐（成人）",
+          "descricaoDose": "4 mg 静注/肌注 单次（麻醉诱导前或术后）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": "4 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "术后恶心呕吐（儿童）",
+          "descricaoDose": "0.1-0.15 mg/kg 静注 单次（最大 4 mg）。>1 月。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "中度致吐化疗",
+          "descricaoDose": "化疗前 8 mg 静注 + 8h 后 8 mg 静注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "8 mg + 8 mg 8h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "剂量1：化疗前30分钟；剂量2：8小时后",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "高度致吐化疗",
+          "descricaoDose": "8 mg 静注 + 8 mg 静注 8h + 8 mg 口服 12/12h 1-2天。替代：化疗前30分钟 24 mg 口服单次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 24,
+            "doseFixa": "8-24 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/PO",
+            "intervalo": "化疗后1-2天",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child B/C: 最大 8 mg/日"
+          }
+        },
+        {
+          "titulo": "高度致吐化疗（儿童）",
+          "descricaoDose": "化疗前 0.15 mg/kg 静注 + 4-8h + 8h 后（最大 16 mg）。>6 月。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "化疗前 + 4-8h + 8h 后",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "放疗",
+          "descricaoDose": "8 mg 口服 3次/日。单次：1-2h 前。多次：继续 1-2 天后。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "8 mg 3次/日",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "3次/日",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "麻醉前 NVPO 预防",
+          "descricaoDose": "麻醉诱导前 1h 16 mg 口服单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": "16 mg 口服",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "单次 1h 前",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "止吐药，选择性 5-HT3 血清素受体拮抗剂",
+      "apresentacoes": [
+        { "forma": "片剂 4 mg、8 mg", "obs": "口服" },
+        { "forma": "口腔崩解片 4 mg、8 mg", "obs": "舌下溶解" },
+        { "forma": "口服液 4 mg/5 mL", "obs": "50 mL 瓶" },
+        { "forma": "安瓿 2 mg/mL (2 mL、4 mL)", "obs": "静注/肌注" },
+        { "forma": "西林瓶 8 mg/4 mL", "obs": "静注" }
+      ],
+      "preparo": [
+        { "diluicao": "静注推注：缓慢 2-5 分钟", "concentracao": "安瓿直接" },
+        { "diluicao": "静注输注：用 50-100 mL 生理盐水或 5% 葡萄糖稀释", "concentracao": "输注 15-30 分钟" },
+        { "diluicao": "肌注：深部注射", "concentracao": "三角肌或臀肌" },
+        { "diluicao": "口服：化疗/放疗前 30-60 分钟", "concentracao": "可与食物同服或不与食物同服" }
+      ],
+      "observacoes": [
+        "单次静注最大 16 mg（FDA 2012 - QT 延长/心律失常风险）",
+        "有心血管风险及剂量 >16 mg 静注时监测心电图",
+        "最常见不良反应：头痛（9-27%）和便秘（6-11%）",
+        "与地塞米松和阿瑞匹坦联用可增强高度致吐化疗疗效",
+        "禁与阿扑吗啡联用（严重低血压、意识丧失）",
+        "化疗致吐及术后恶心呕吐的一线止吐药"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测心血管效应及 QT 延长。",
+        "renal": "无需调整。肾脏排泄极少（<5% 原形）。",
+        "hepatico": "Child B/C：最大 8 mg/日（清除率降低 50%，半衰期延长）"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "昂丹司琼（成人）",
+        "doseTexto": "4 mg 静注 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "昂丹司琼（儿童）",
+        "doseTexto": "0.1-0.15 mg/kg 静注（最大 4 mg）",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

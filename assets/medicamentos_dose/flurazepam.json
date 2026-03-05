@@ -1,0 +1,362 @@
+{
+  "PT": {
+    "nome": "Flurazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Insônia",
+          "descricaoDose": "15-30 mg VO ao deitar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "ao deitar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insônia (idoso)",
+          "descricaoDose": "15 mg VO ao deitar (evitar se possível)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "ao deitar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Hipnótico",
+      "apresentacoes": [
+        { "forma": "Cápsulas 30 mg", "obs": "Dalmadorm®" }
+      ],
+      "preparo": [
+        { "diluicao": "Cápsulas - uso oral", "concentracao": "Não requer diluição" }
+      ],
+      "observacoes": [
+        "EVITAR EM IDOSOS - alto risco de quedas e confusão (Critérios de Beers)",
+        "Meia-vida muito longa (40-100h do metabólito ativo) - acúmulo com doses repetidas",
+        "Preferir hipnóticos de ação curta (ex.: zolpidem, temazepam)",
+        "Retirada gradual após uso > 2 semanas; duração máxima 2-4 semanas",
+        "Não dirigir na manhã seguinte; evitar álcool",
+        "Contraindicado em apneia do sono, insuficiência respiratória e gestação (categoria X)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Evitar se possível (Critérios de Beers). Se necessário: 15 mg ao deitar. Alto risco de quedas e confusão.",
+        "renal": "Não requer ajuste. Eliminação principalmente por metabolismo hepático.",
+        "hepatico": "Contraindicado em insuficiência hepática grave. Metabolismo hepático; meia-vida prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Flurazepam (adulto)",
+        "doseTexto": "15-30 mg VO ao deitar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Flurazepam (idoso)",
+        "doseTexto": "15 mg VO ao deitar (evitar se possível)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Idoso"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Flurazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Insomnia",
+          "descricaoDose": "15-30 mg PO at bedtime",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "at bedtime",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insomnia (elderly)",
+          "descricaoDose": "15 mg PO at bedtime (avoid if possible)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "at bedtime",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine / Hypnotic",
+      "apresentacoes": [
+        { "forma": "Capsules 30 mg", "obs": "Dalmadorm®" }
+      ],
+      "preparo": [
+        { "diluicao": "Capsules - oral use", "concentracao": "No dilution required" }
+      ],
+      "observacoes": [
+        "AVOID IN ELDERLY - high risk of falls and confusion (Beers Criteria)",
+        "Very long half-life (40-100h of active metabolite) - accumulation with repeated doses",
+        "Prefer short-acting hypnotics (e.g. zolpidem, temazepam)",
+        "Gradual taper after use > 2 weeks; max duration 2-4 weeks",
+        "Do not drive the next morning; avoid alcohol",
+        "Contraindicated in sleep apnea, respiratory failure and pregnancy (category X)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avoid if possible (Beers Criteria). If needed: 15 mg at bedtime. High risk of falls and confusion.",
+        "renal": "No dose adjustment. Mainly eliminated by hepatic metabolism.",
+        "hepatico": "Contraindicated in severe hepatic impairment. Hepatic metabolism; prolonged half-life."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Flurazepam (adult)",
+        "doseTexto": "15-30 mg PO at bedtime",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Flurazepam (elderly)",
+        "doseTexto": "15 mg PO at bedtime (avoid if possible)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Idoso"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Flurazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Insomnio",
+          "descricaoDose": "15-30 mg VO al acostar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "al acostar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insomnio (anciano)",
+          "descricaoDose": "15 mg VO al acostar (evitar si es posible)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "al acostar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Hipnótico",
+      "apresentacoes": [
+        { "forma": "Cápsulas 30 mg", "obs": "Dalmadorm®" }
+      ],
+      "preparo": [
+        { "diluicao": "Cápsulas - uso oral", "concentracao": "No requiere dilución" }
+      ],
+      "observacoes": [
+        "EVITAR EN ANCIANOS - alto riesgo de caídas y confusión (Criterios de Beers)",
+        "Vida media muy larga (40-100h del metabolito activo) - acúmulo con dosis repetidas",
+        "Preferir hipnóticos de acción corta (ej.: zolpidem, temazepam)",
+        "Retirada gradual tras uso > 2 semanas; duración máxima 2-4 semanas",
+        "No conducir a la mañana siguiente; evitar alcohol",
+        "Contraindicado en apnea del sueño, insuficiencia respiratoria y gestación (categoría X)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Evitar si es posible (Criterios de Beers). Si necesario: 15 mg al acostar. Alto riesgo de caídas y confusión.",
+        "renal": "No requiere ajuste. Eliminación principalmente por metabolismo hepático.",
+        "hepatico": "Contraindicado en insuficiencia hepática grave. Metabolismo hepático; vida media prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Flurazepam (adulto)",
+        "doseTexto": "15-30 mg VO al acostar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Flurazepam (anciano)",
+        "doseTexto": "15 mg VO al acostar (evitar si es posible)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Idoso"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氟西泮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "失眠",
+          "descricaoDose": "15-30 mg 口服 睡前",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "睡前",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "失眠（老年）",
+          "descricaoDose": "15 mg 口服 睡前（如可能避免使用）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "睡前",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "苯二氮䓬类/催眠药",
+      "apresentacoes": [
+        { "forma": "胶囊 30 mg", "obs": "Dalmadorm®" }
+      ],
+      "preparo": [
+        { "diluicao": "胶囊 - 口服", "concentracao": "无需稀释" }
+      ],
+      "observacoes": [
+        "老年人避免使用 - 跌倒与谵妄风险高（Beers标准）",
+        "半衰期很长（活性代谢物40-100小时）- 重复给药易蓄积",
+        "优先选用短效催眠药（如唑吡坦、替马西泮）",
+        "使用超过2周后需逐渐减量；最长疗程2-4周",
+        "次日早晨勿驾车；避免饮酒",
+        "睡眠呼吸暂停、呼吸衰竭及妊娠禁忌（X类）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "如可能避免使用（Beers标准）。必要时：睡前15 mg。跌倒与谵妄风险高。",
+        "renal": "无需调整。主要经肝脏代谢消除。",
+        "hepatico": "严重肝功能不全禁忌。经肝代谢；半衰期延长。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氟西泮（成人）",
+        "doseTexto": "15-30 mg 口服 睡前",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "氟西泮（老年）",
+        "doseTexto": "15 mg 口服 睡前（如可能避免使用）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Idoso"
+      }
+    ]
+  }
+}

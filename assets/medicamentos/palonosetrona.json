@@ -1,0 +1,64 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Palonosetrona",
+      "nomesComerciais": [
+        "Aloxi®"
+      ],
+      "classeTerapeutica": "Antiemético / Antagonista seletivo 5-HT3 de 2ª geração",
+      "mecanismoAcao": "Antagonista seletivo de alta afinidade dos receptores 5-HT3. Possui meia-vida muito longa (40h) permitindo dose única eficaz por vários dias. Maior afinidade pelo receptor que outros antagonistas 5-HT3.",
+      "indicacoes": [
+        "Prevenção de náusea/vômito induzidos por quimioterapia (NVIQ)",
+        "Prevenção de náusea/vômito pós-operatórios (NVPO)"
+      ],
+      "apresentacoes": {
+        "ampola": "0,25 mg/5 mL (0,05 mg/mL)",
+        "capsula": "0,5 mg"
+      },
+      "posologia": {
+        "quimioterapiaIV": "0,25 mg IV dose única, 30 min antes",
+        "quimioterapiaVO": "0,5 mg VO dose única, 1h antes",
+        "NVPO": "0,075 mg IV dose única na indução",
+        "pediatrico": "20 mcg/kg IV dose única (máx 1,5 mg)"
+      },
+      "vantagens": [
+        "Meia-vida 40h (vs 4-9h da ondansetrona)",
+        "Dose única cobre todo o ciclo",
+        "Maior afinidade pelo receptor 5-HT3 (100x ondansetrona)",
+        "Eficaz na êmese tardia (24-120h)",
+        "Menor potencial de prolongamento QT"
+      ],
+      "comparacao5HT3": {
+        "meiaVida": {
+          "palonosetrona": "40 horas",
+          "granisetrona": "4-9 horas",
+          "ondansetrona": "3-6 horas"
+        },
+        "afinidadeReceptor": "Palonosetrona 100x maior que ondansetrona"
+      },
+      "farmacocinetica": {
+        "inicioAcao": "30 minutos",
+        "meiaVida": "40 horas",
+        "duracaoEfeito": "Até 5 dias",
+        "ligacaoProteica": "62%",
+        "metabolismo": "CYP2D6 (50%), CYP3A4, CYP1A2",
+        "excrecao": "Renal (80%), Fecal"
+      },
+      "efeitosAdversos": [
+        "Cefaleia",
+        "Constipação",
+        "Prolongamento QTc (menor que outros 5-HT3)"
+      ],
+      "contraindicacoes": [
+        "Hipersensibilidade",
+        "Síndrome do QT longo congênito",
+        "Uso com apomorfina"
+      ],
+      "observacoes": [
+        "Dose única eficaz por vários dias",
+        "Não repetir no mesmo ciclo de quimioterapia"
+      ],
+      "categoriaGravidez": "B"
+    }
+  }
+}

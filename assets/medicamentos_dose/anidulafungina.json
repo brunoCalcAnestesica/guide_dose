@@ -1,0 +1,722 @@
+{
+  "PT": {
+    "nome": "Anidulafungina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Candidemia / Candida invasiva – Ataque (1º dia)",
+          "descricaoDose": "200 mg IV dose única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Candidemia / Candida invasiva – Manutenção (a partir do 2º dia)",
+          "descricaoDose": "100 mg IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Candidíase esofágica – Ataque (1º dia)",
+          "descricaoDose": "100 mg IV dose única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Candidíase esofágica – Manutenção (a partir do 2º dia)",
+          "descricaoDose": "50 mg IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Candidemia (off-label)",
+          "descricaoDose": "3 mg/kg no 1º dia (máx 200 mg), depois 1,5 mg/kg/dia (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Equinocandina – Fungicida (inibe síntese de 1,3-beta-D-glucana)",
+      "apresentacoes": [
+        { "forma": "Frasco 100 mg liofilizado", "obs": "Ecalta® / Eraxis®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir com 30 mL água estéril", "concentracao": "3,33 mg/mL" },
+        { "diluicao": "Diluir em 250 mL SF ou SG 5%", "concentracao": "0,77 mg/mL" },
+        { "diluicao": "Infusão mínima 1,5 h (não ultrapassar 1,1 mg/min)", "concentracao": "" },
+        { "diluicao": "NÃO usar dextrose para reconstituição", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: Candida spp (incl. C. glabrata, C. krusei); atividade limitada contra Aspergillus.",
+        "NÃO cobre: Cryptococcus, Mucor, Fusarium.",
+        "NÃO penetra no LCR.",
+        "Degradação química (não CYP) – sem interações medicamentosas significativas.",
+        "Meia-vida longa: 40-50 horas.",
+        "Infundir lentamente (≥1,5 h) para evitar reações histaminoides."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico.",
+        "renal": "Não requer ajuste renal (não dialisável significativamente).",
+        "hepatico": "Não requer ajuste hepático (não metabolizada por CYP)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Anidulafungina – Ataque candidemia (adulto)",
+        "doseTexto": "200 mg IV dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungina – Manutenção candidemia (adulto)",
+        "doseTexto": "100 mg IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungina – Ataque esofágica (adulto)",
+        "doseTexto": "100 mg IV dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungina – Manutenção esofágica (adulto)",
+        "doseTexto": "50 mg IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungina – Pediátrico (off-label)",
+        "doseTexto": "1,5 mg/kg IV 1x/dia (máx 100 mg)",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Anidulafungin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Candidemia / Invasive candidiasis – Loading (day 1)",
+          "descricaoDose": "200 mg IV single dose",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Candidemia / Invasive candidiasis – Maintenance (from day 2)",
+          "descricaoDose": "100 mg IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Esophageal candidiasis – Loading (day 1)",
+          "descricaoDose": "100 mg IV single dose",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Esophageal candidiasis – Maintenance (from day 2)",
+          "descricaoDose": "50 mg IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric – Candidemia (off-label)",
+          "descricaoDose": "3 mg/kg on day 1 (max 200 mg), then 1.5 mg/kg/day (max 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Echinocandin – Fungicide (inhibits 1,3-beta-D-glucan synthesis)",
+      "apresentacoes": [
+        { "forma": "Vial 100 mg lyophilized", "obs": "Ecalta® / Eraxis®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with 30 mL sterile water", "concentracao": "3.33 mg/mL" },
+        { "diluicao": "Dilute in 250 mL NS or D5W", "concentracao": "0.77 mg/mL" },
+        { "diluicao": "Infuse over at least 1.5 h (do not exceed 1.1 mg/min)", "concentracao": "" },
+        { "diluicao": "Do NOT use dextrose for reconstitution", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Spectrum: Candida spp (incl. C. glabrata, C. krusei); limited activity against Aspergillus.",
+        "Does NOT cover: Cryptococcus, Mucor, Fusarium.",
+        "Does NOT penetrate CSF.",
+        "Chemical degradation (non-CYP) – no significant drug interactions.",
+        "Long half-life: 40-50 hours.",
+        "Infuse slowly (≥1.5 h) to avoid histamine-like reactions."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment.",
+        "renal": "No renal dose adjustment required (not significantly dialyzable).",
+        "hepatico": "No hepatic dose adjustment required (not CYP-metabolized)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Anidulafungin – Loading candidemia (adult)",
+        "doseTexto": "200 mg IV single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungin – Maintenance candidemia (adult)",
+        "doseTexto": "100 mg IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungin – Loading esophageal (adult)",
+        "doseTexto": "100 mg IV single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungin – Maintenance esophageal (adult)",
+        "doseTexto": "50 mg IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungin – Pediatric (off-label)",
+        "doseTexto": "1.5 mg/kg IV once daily (max 100 mg)",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Anidulafungina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Candidemia / Candidiasis invasiva – Ataque (1º día)",
+          "descricaoDose": "200 mg IV dosis única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Candidemia / Candidiasis invasiva – Mantenimiento (desde el 2º día)",
+          "descricaoDose": "100 mg IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Candidiasis esofágica – Ataque (1º día)",
+          "descricaoDose": "100 mg IV dosis única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Candidiasis esofágica – Mantenimiento (desde el 2º día)",
+          "descricaoDose": "50 mg IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Candidemia (off-label)",
+          "descricaoDose": "3 mg/kg el 1º día (máx 200 mg), luego 1,5 mg/kg/día (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Equinocandina – Fungicida (inhibe síntesis de 1,3-beta-D-glucana)",
+      "apresentacoes": [
+        { "forma": "Frasco 100 mg liofilizado", "obs": "Ecalta® / Eraxis®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir con 30 mL agua estéril", "concentracao": "3,33 mg/mL" },
+        { "diluicao": "Diluir en 250 mL SF o SG 5%", "concentracao": "0,77 mg/mL" },
+        { "diluicao": "Infusión mínima 1,5 h (no superar 1,1 mg/min)", "concentracao": "" },
+        { "diluicao": "NO usar dextrosa para reconstitución", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: Candida spp (incl. C. glabrata, C. krusei); actividad limitada contra Aspergillus.",
+        "NO cubre: Cryptococcus, Mucor, Fusarium.",
+        "NO penetra en LCR.",
+        "Degradación química (no CYP) – sin interacciones medicamentosas significativas.",
+        "Vida media larga: 40-50 horas.",
+        "Infundir lentamente (≥1,5 h) para evitar reacciones histaminoides."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico.",
+        "renal": "No requiere ajuste renal (no dializable significativamente).",
+        "hepatico": "No requiere ajuste hepático (no metabolizada por CYP)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Anidulafungina – Ataque candidemia (adulto)",
+        "doseTexto": "200 mg IV dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungina – Mantenimiento candidemia (adulto)",
+        "doseTexto": "100 mg IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungina – Ataque esofágica (adulto)",
+        "doseTexto": "100 mg IV dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungina – Mantenimiento esofágica (adulto)",
+        "doseTexto": "50 mg IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anidulafungina – Pediátrico (off-label)",
+        "doseTexto": "1,5 mg/kg IV 1x/día (máx 100 mg)",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "阿尼芬净",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "念珠菌血症/侵袭性念珠菌病 – 负荷剂量（第1天）",
+          "descricaoDose": "200 mg IV 单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "念珠菌血症/侵袭性念珠菌病 – 维持（第2天起）",
+          "descricaoDose": "100 mg IV 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "食管念珠菌病 – 负荷剂量（第1天）",
+          "descricaoDose": "100 mg IV 单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "食管念珠菌病 – 维持（第2天起）",
+          "descricaoDose": "50 mg IV 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童 – 念珠菌血症（超说明书）",
+          "descricaoDose": "第1天3 mg/kg（最大200 mg），之后1.5 mg/kg/日（最大100 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "棘白菌素类 – 抗真菌药（抑制1,3-β-D-葡聚糖合成）",
+      "apresentacoes": [
+        { "forma": "冻干粉 100 mg/瓶", "obs": "Ecalta® / Eraxis®" }
+      ],
+      "preparo": [
+        { "diluicao": "用30 mL无菌注射用水复溶", "concentracao": "3.33 mg/mL" },
+        { "diluicao": "稀释于250 mL生理盐水或5%葡萄糖", "concentracao": "0.77 mg/mL" },
+        { "diluicao": "输注时间至少1.5小时（不超过1.1 mg/min）", "concentracao": "" },
+        { "diluicao": "勿用葡萄糖溶液复溶", "concentracao": "" }
+      ],
+      "observacoes": [
+        "谱：念珠菌（含光滑、克柔）；对曲霉活性有限。",
+        "不覆盖：隐球菌、毛霉、镰刀菌。",
+        "不透过血脑屏障。",
+        "化学降解（非CYP代谢）——无显著药物相互作用。",
+        "半衰期长：40-50小时。",
+        "缓慢输注（≥1.5小时）以避免类组胺反应。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。",
+        "renal": "无需肾剂量调整（不可显著透析）。",
+        "hepatico": "无需肝剂量调整（非CYP代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿尼芬净 – 负荷念珠菌血症（成人）",
+        "doseTexto": "200 mg IV 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿尼芬净 – 维持念珠菌血症（成人）",
+        "doseTexto": "100 mg IV 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿尼芬净 – 负荷食管（成人）",
+        "doseTexto": "100 mg IV 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿尼芬净 – 维持食管（成人）",
+        "doseTexto": "50 mg IV 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿尼芬净 – 儿童（超说明书）",
+        "doseTexto": "1.5 mg/kg IV 每日一次（最大100 mg）",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

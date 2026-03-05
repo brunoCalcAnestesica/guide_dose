@@ -15,9 +15,9 @@ class MedicamentoOxidoNitrico {
   }
 
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
-    final isFavorito = favoritos.contains(nome);
 
     // Óxido nítrico tem uso muito específico - principalmente neonatal
     if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
@@ -39,6 +39,23 @@ class MedicamentoOxidoNitrico {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+
+    return _buildCardOxidoNitrico(
+      context,
+        peso,
+        faixaEtaria,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
     // Óxido nítrico inalatório: uso primário em neonatos, pediátrico e adultos em situações específicas

@@ -1,0 +1,33 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Moxifloxacino",
+      "nomesComerciais": ["Avalox®", "Moxifloxacino Genérico"],
+      "classeTerapeutica": "Antibiótico / Fluoroquinolona respiratória (4ª geração)",
+      "mecanismoAcao": "Inibe a DNA girase (topoisomerase II) e topoisomerase IV bacterianas, impedindo a replicação do DNA. Bactericida com efeito concentração-dependente.",
+      "espectro": {
+        "excelente": ["S. pneumoniae (incluindo resistentes a penicilina)", "H. influenzae", "M. catarrhalis", "Mycoplasma", "Chlamydia", "Legionella", "Bacteroides e anaeróbios"],
+        "moderado": ["E. coli", "Klebsiella"],
+        "diferencial": "Única quinolona com boa cobertura de anaeróbios",
+        "resistentes": ["Pseudomonas aeruginosa", "MRSA"]
+      },
+      "indicacoes": ["Pneumonia comunitária", "Sinusite bacteriana aguda", "Exacerbação de DPOC", "Infecções intra-abdominais", "Infecções de pele complicadas"],
+      "apresentacoes": ["Comprimidos 400 mg", "Solução IV 400 mg/250 mL", "Colírio oftálmico 0,5%"],
+      "posologia": {
+        "adulto": {
+          "infeccoes_gerais": "400 mg VO/IV 1x/dia",
+          "duracao_pneumonia": "7-14 dias",
+          "duracao_sinusite": "7-10 dias"
+        },
+        "pediatrico": "NÃO RECOMENDADO (risco de artropatia)"
+      },
+      "ajusteRenal": "Não requer ajuste",
+      "vantagens": ["Dose única diária", "Biodisponibilidade oral ~90%", "Cobre anaeróbios", "Excelente para S. pneumoniae resistente"],
+      "contraindicacoes": ["Hipersensibilidade a quinolonas", "Prolongamento QT", "Uso de fármacos que prolongam QT", "Miastenia gravis"],
+      "efeitosAdversos": ["Náusea, diarreia", "Cefaleia, tontura", "Prolongamento QT", "Tendinite/ruptura de tendão", "Neuropatia periférica", "Fotossensibilidade"],
+      "interacoes": ["Antiácidos, ferro, cálcio: reduzem absorção (2h antes/6h após)", "Fármacos que prolongam QT: evitar associação", "Warfarina: monitorar INR"],
+      "observacoes": ["Evitar em pediatria", "Risco de tendinite especialmente em idosos e uso de corticoides", "Pode ser tomada com ou sem alimentos", "Categoria C na gestação"],
+      "categoriaGravidez": "C"
+    }
+  }
+}

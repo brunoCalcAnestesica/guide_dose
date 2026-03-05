@@ -20,10 +20,11 @@ import Export from './pages/app/Export'
 import Users from './pages/admin/Users'
 import UserDetail from './pages/admin/UserDetail'
 import Telemetry from './pages/admin/Telemetry'
+import Notifications from './pages/admin/Notifications'
 import AppVersion from './pages/admin/AppVersion'
 import Analytics from './pages/admin/Analytics'
 import AdminFeedback from './pages/admin/AdminFeedback'
-import Billing from './pages/admin/Billing'
+import Cobranca from './pages/admin/Cobranca'
 import Logs from './pages/admin/Logs'
 import AdminExport from './pages/admin/AdminExport'
 
@@ -55,10 +56,11 @@ export default function AppRouter() {
           <Route path="/admin" element={<Users />} />
           <Route path="/admin/usuarios/:id" element={<UserDetail />} />
           <Route path="/admin/telemetria" element={<Telemetry />} />
+          <Route path="/admin/notificacoes" element={<Notifications />} />
           <Route path="/admin/versao" element={<AppVersion />} />
           <Route path="/admin/analytics" element={<Analytics />} />
           <Route path="/admin/feedback" element={<AdminFeedback />} />
-          <Route path="/admin/billing" element={<Billing />} />
+          <Route path="/admin/cobranca" element={<Cobranca />} />
           <Route path="/admin/logs" element={<Logs />} />
           <Route path="/admin/export" element={<AdminExport />} />
         </Route>

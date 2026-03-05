@@ -1,0 +1,886 @@
+{
+  "PT": {
+    "nome": "Meperidina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor aguda IM/SC (adulto)",
+          "descricaoDose": "50-150 mg IM ou SC a cada 3-4h. Máx 400 mg/dia parenteral.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 150,
+            "doseMaxima": 400,
+            "doseFixa": "50-150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "a cada 3-4h",
+            "ajusteRenal": "Reduzir dose em insuficiência renal. Monitorar metabólito normeperidina. Evitar em IR grave.",
+            "ajusteHepatico": "Reduzir dose em insuficiência hepática (reduzir 50% em hepatopatia)."
+          }
+        },
+        {
+          "titulo": "Dor aguda IV (adulto)",
+          "descricaoDose": "50-100 mg IV a cada 2-3h. IV lento (máx 25 mg/min).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 2-3h",
+            "ajusteRenal": "Reduzir dose em IR. Monitorar normeperidina. Evitar em IR grave.",
+            "ajusteHepatico": "Reduzir dose em insuficiência hepática (50% em hepatopatia)."
+          }
+        },
+        {
+          "titulo": "Dor aguda VO (adulto)",
+          "descricaoDose": "50-100 mg VO a cada 4-6h. Máx 600 mg/dia oral.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "Reduzir dose em IR. Monitorar normeperidina.",
+            "ajusteHepatico": "Reduzir dose em insuficiência hepática."
+          }
+        },
+        {
+          "titulo": "Trabalho de parto",
+          "descricaoDose": "50-100 mg IM conforme necessidade",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "Reduzir dose em IR. Monitorar normeperidina.",
+            "ajusteHepatico": "Reduzir dose em insuficiência hepática."
+          }
+        },
+        {
+          "titulo": "Dor aguda (idoso)",
+          "descricaoDose": "25-75 mg IM/SC ou IV a cada 3-4h (reduzir ~50%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 75,
+            "doseMaxima": null,
+            "doseFixa": "25-75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC/IV",
+            "intervalo": "a cada 3-4h",
+            "ajusteRenal": "Reduzir dose em IR. Evitar em IR grave.",
+            "ajusteHepatico": "Reduzir dose (50% em hepatopatia)."
+          }
+        },
+        {
+          "titulo": "Dor aguda (pediátrico)",
+          "descricaoDose": "1-2 mg/kg/dose IM ou IV a cada 3-4h (máx 100 mg). Uso restrito; preferir alternativas.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "a cada 3-4h",
+            "ajusteRenal": "Reduzir dose em IR. Evitar em IR grave (acúmulo normeperidina).",
+            "ajusteHepatico": "Reduzir dose em insuficiência hepática."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide sintético; analgésico narcótico; agonista μ-opioide",
+      "apresentacoes": [
+        { "forma": "Ampola 50 mg/mL (1 mL, 2 mL)", "obs": "Dolosal®, Demerol®, Meperidina®" },
+        { "forma": "Ampola 100 mg/mL", "obs": "Alta concentração" },
+        { "forma": "Comprimido 50 mg, 100 mg", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV: diluir em SF 0,9%; administrar lento (máx 25 mg/min)", "concentracao": "conforme diluição" },
+        { "diluicao": "Infusão IV: diluir em SF 0,9% conforme protocolo", "concentracao": "conforme diluição" }
+      ],
+      "observacoes": [
+        "Metabólito normeperidina neurotóxico: acúmulo causa tremores, mioclonias, convulsões (não revertidas por naloxona)",
+        "Evitar uso prolongado >48 h. Contraindicado em insuficiência renal grave e com IMAO (janela 15 dias)",
+        "IV sempre lento: máx 25 mg/min (bolus rápido causa hipotensão e bradicardia)",
+        "Reduzir 50% em idosos e em insuficiência hepática; evitar em IR (acúmulo de normeperidina)",
+        "Ter naloxona disponível. Monitorar FR, SpO₂, PA, FC. Preferir morfina ou fentanil quando possível",
+        "Dose máxima: 600 mg/dia (oral); 400 mg/dia (parenteral). Dose mínima 25 mg/dose."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose em ~50%. Início baixo, titular com cautela.",
+        "renal": "Reduzir dose em insuficiência renal. Monitorar normeperidina. Evitar em IR grave (acúmulo neurotóxico).",
+        "hepatico": "Reduzir dose em insuficiência hepática (50%). Clearance diminuído, maior risco de sedação."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Meperidina IM/SC",
+        "doseTexto": "50-150 mg IM/SC a cada 3-4h",
+        "doseMin": 50,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina IV",
+        "doseTexto": "50-100 mg IV a cada 2-3h (lento máx 25 mg/min)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina VO",
+        "doseTexto": "50-100 mg VO a cada 4-6h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina - Trabalho de parto",
+        "doseTexto": "50-100 mg IM conforme necessidade",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina (idoso)",
+        "doseTexto": "25-75 mg (reduzir ~50%)",
+        "doseMin": 25,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina (pediátrico)",
+        "doseTexto": "1-2 mg/kg/dose IM/IV (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Meperidine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute pain IM/SC (adult)",
+          "descricaoDose": "50-150 mg IM or SC every 3-4h. Max 400 mg/day parenteral.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 150,
+            "doseMaxima": 400,
+            "doseFixa": "50-150 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/SC",
+            "intervalo": "every 3-4h",
+            "ajusteRenal": "Reduce dose in renal insufficiency. Monitor normeperidine metabolite. Avoid in severe renal failure.",
+            "ajusteHepatico": "Reduce dose in hepatic insufficiency (50% in liver disease)."
+          }
+        },
+        {
+          "titulo": "Acute pain IV (adult)",
+          "descricaoDose": "50-100 mg IV every 2-3h. Give slow (max 25 mg/min).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 2-3h",
+            "ajusteRenal": "Reduce dose in renal failure. Monitor normeperidine. Avoid in severe renal failure.",
+            "ajusteHepatico": "Reduce dose in hepatic insufficiency (50% in liver disease)."
+          }
+        },
+        {
+          "titulo": "Acute pain PO (adult)",
+          "descricaoDose": "50-100 mg PO every 4-6h. Max 600 mg/day oral.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Reduce dose in renal failure. Monitor normeperidine.",
+            "ajusteHepatico": "Reduce dose in hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Labor pain",
+          "descricaoDose": "50-100 mg IM as needed",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "as needed",
+            "ajusteRenal": "Reduce dose in renal failure. Monitor normeperidine.",
+            "ajusteHepatico": "Reduce dose in hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Acute pain (elderly)",
+          "descricaoDose": "25-75 mg IM/SC or IV every 3-4h (reduce ~50%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 75,
+            "doseMaxima": null,
+            "doseFixa": "25-75 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/SC/IV",
+            "intervalo": "every 3-4h",
+            "ajusteRenal": "Reduce dose in renal failure. Avoid in severe renal failure.",
+            "ajusteHepatico": "Reduce dose (50% in liver disease)."
+          }
+        },
+        {
+          "titulo": "Acute pain (pediatric)",
+          "descricaoDose": "1-2 mg/kg/dose IM or IV every 3-4h (max 100 mg). Restricted use; prefer alternatives.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IM/IV",
+            "intervalo": "every 3-4h",
+            "ajusteRenal": "Reduce dose in renal failure. Avoid in severe renal failure (normeperidine accumulation).",
+            "ajusteHepatico": "Reduce dose in hepatic insufficiency."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Synthetic opioid; narcotic analgesic; μ-opioid agonist",
+      "apresentacoes": [
+        { "forma": "Ampoule 50 mg/mL (1 mL, 2 mL)", "obs": "Dolosal®, Demerol®, Meperidine®" },
+        { "forma": "Ampoule 100 mg/mL", "obs": "High concentration" },
+        { "forma": "Tablet 50 mg, 100 mg", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: dilute in 0.9% NS; give slow (max 25 mg/min)", "concentracao": "as per dilution" },
+        { "diluicao": "IV infusion: dilute in 0.9% NS per protocol", "concentracao": "as per dilution" }
+      ],
+      "observacoes": [
+        "Normeperidine metabolite is neurotoxic: accumulation causes tremors, myoclonus, seizures (not reversed by naloxone)",
+        "Avoid prolonged use >48 h. Contraindicated in severe renal failure and with MAOIs (15-day window)",
+        "IV always slow: max 25 mg/min (rapid bolus causes hypotension and bradycardia)",
+        "Reduce 50% in elderly and in hepatic insufficiency; avoid in renal failure (normeperidine accumulation)",
+        "Have naloxone available. Monitor RR, SpO₂, BP, HR. Prefer morphine or fentanyl when possible",
+        "Max dose: 600 mg/day (oral); 400 mg/day (parenteral). Min dose 25 mg/dose."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose by ~50%. Start low, titrate with caution.",
+        "renal": "Reduce dose in renal insufficiency. Monitor normeperidine. Avoid in severe renal failure (neurotoxic accumulation).",
+        "hepatico": "Reduce dose in hepatic insufficiency (50%). Decreased clearance, greater sedation risk."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Meperidine IM/SC",
+        "doseTexto": "50-150 mg IM/SC every 3-4h",
+        "doseMin": 50,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-150 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meperidine IV",
+        "doseTexto": "50-100 mg IV every 2-3h (slow max 25 mg/min)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meperidine PO",
+        "doseTexto": "50-100 mg PO every 4-6h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meperidine - Labor",
+        "doseTexto": "50-100 mg IM as needed",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meperidine (elderly)",
+        "doseTexto": "25-75 mg (reduce ~50%)",
+        "doseMin": 25,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-75 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meperidine (pediatric)",
+        "doseTexto": "1-2 mg/kg/dose IM/IV (max 100 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Meperidina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor agudo IM/SC (adulto)",
+          "descricaoDose": "50-150 mg IM o SC cada 3-4h. Máx 400 mg/día parenteral.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 150,
+            "doseMaxima": 400,
+            "doseFixa": "50-150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "cada 3-4h",
+            "ajusteRenal": "Reducir dosis en insuficiencia renal. Monitorizar metabolito normeperidina. Evitar en IR grave.",
+            "ajusteHepatico": "Reducir dosis en insuficiencia hepática (50% en hepatopatía)."
+          }
+        },
+        {
+          "titulo": "Dolor agudo IV (adulto)",
+          "descricaoDose": "50-100 mg IV cada 2-3h. IV lento (máx 25 mg/min).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 2-3h",
+            "ajusteRenal": "Reducir dosis en IR. Monitorizar normeperidina. Evitar en IR grave.",
+            "ajusteHepatico": "Reducir dosis en insuficiencia hepática (50% en hepatopatía)."
+          }
+        },
+        {
+          "titulo": "Dolor agudo VO (adulto)",
+          "descricaoDose": "50-100 mg VO cada 4-6h. Máx 600 mg/día oral.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "Reducir dosis en IR. Monitorizar normeperidina.",
+            "ajusteHepatico": "Reducir dosis en insuficiencia hepática."
+          }
+        },
+        {
+          "titulo": "Trabajo de parto",
+          "descricaoDose": "50-100 mg IM según necesidad",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "Reducir dosis en IR. Monitorizar normeperidina.",
+            "ajusteHepatico": "Reducir dosis en insuficiencia hepática."
+          }
+        },
+        {
+          "titulo": "Dolor agudo (anciano)",
+          "descricaoDose": "25-75 mg IM/SC o IV cada 3-4h (reducir ~50%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 75,
+            "doseMaxima": null,
+            "doseFixa": "25-75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC/IV",
+            "intervalo": "cada 3-4h",
+            "ajusteRenal": "Reducir dosis en IR. Evitar en IR grave.",
+            "ajusteHepatico": "Reducir dosis (50% en hepatopatía)."
+          }
+        },
+        {
+          "titulo": "Dolor agudo (pediátrico)",
+          "descricaoDose": "1-2 mg/kg/dosis IM o IV cada 3-4h (máx 100 mg). Uso restringido; preferir alternativas.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "cada 3-4h",
+            "ajusteRenal": "Reducir dosis en IR. Evitar en IR grave (acumulación normeperidina).",
+            "ajusteHepatico": "Reducir dosis en insuficiencia hepática."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide sintético; analgésico narcótico; agonista μ-opioide",
+      "apresentacoes": [
+        { "forma": "Ampolla 50 mg/mL (1 mL, 2 mL)", "obs": "Dolosal®, Demerol®, Meperidina®" },
+        { "forma": "Ampolla 100 mg/mL", "obs": "Alta concentración" },
+        { "forma": "Comprimido 50 mg, 100 mg", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo IV: diluir en SF 0,9%; administrar lento (máx 25 mg/min)", "concentracao": "según dilución" },
+        { "diluicao": "Infusión IV: diluir en SF 0,9% según protocolo", "concentracao": "según dilución" }
+      ],
+      "observacoes": [
+        "Metabolito normeperidina neurotóxico: acumulación causa temblores, mioclonías, convulsiones (no revertidas por naloxona)",
+        "Evitar uso prolongado >48 h. Contraindicado en insuficiencia renal grave y con IMAO (ventana 15 días)",
+        "IV siempre lento: máx 25 mg/min (bolo rápido causa hipotensión y bradicardia)",
+        "Reducir 50% en ancianos y en insuficiencia hepática; evitar en IR (acumulación de normeperidina)",
+        "Tener naloxona disponible. Monitorizar FR, SpO₂, PA, FC. Preferir morfina o fentanilo cuando sea posible",
+        "Dosis máxima: 600 mg/día (oral); 400 mg/día (parenteral). Dosis mínima 25 mg/dosis."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis ~50%. Inicio bajo, titular con precaución.",
+        "renal": "Reducir dosis en insuficiencia renal. Monitorizar normeperidina. Evitar en IR grave (acumulación neurotóxica).",
+        "hepatico": "Reducir dosis en insuficiencia hepática (50%). Aclaramiento disminuido, mayor riesgo de sedación."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Meperidina IM/SC",
+        "doseTexto": "50-150 mg IM/SC cada 3-4h",
+        "doseMin": 50,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina IV",
+        "doseTexto": "50-100 mg IV cada 2-3h (lento máx 25 mg/min)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina VO",
+        "doseTexto": "50-100 mg VO cada 4-6h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina - Trabajo de parto",
+        "doseTexto": "50-100 mg IM según necesidad",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina (anciano)",
+        "doseTexto": "25-75 mg (reducir ~50%)",
+        "doseMin": 25,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meperidina (pediátrico)",
+        "doseTexto": "1-2 mg/kg/dosis IM/IV (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "哌替啶",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性疼痛 肌注/皮下（成人）",
+          "descricaoDose": "50-150 mg 肌注或皮下 每 3-4 小时。最大 400 mg/日 肠外。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 150,
+            "doseMaxima": 400,
+            "doseFixa": "50-150 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/SC",
+            "intervalo": "每3-4小时",
+            "ajusteRenal": "肾功能不全时减量。监测去甲哌替啶代谢物。严重肾衰竭避免使用。",
+            "ajusteHepatico": "肝功能不全时减量（肝病时减50%）。"
+          }
+        },
+        {
+          "titulo": "急性疼痛 IV（成人）",
+          "descricaoDose": "50-100 mg IV 每 2-3 小时。缓慢给药（最大 25 mg/分钟）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 400,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每2-3小时",
+            "ajusteRenal": "肾衰竭时减量。监测去甲哌替啶。严重肾衰竭避免。",
+            "ajusteHepatico": "肝功能不全时减量（肝病50%）。"
+          }
+        },
+        {
+          "titulo": "急性疼痛 口服（成人）",
+          "descricaoDose": "50-100 mg 口服 每 4-6 小时。最大 600 mg/日 口服。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "肾衰竭时减量。监测去甲哌替啶。",
+            "ajusteHepatico": "肝功能不全时减量。"
+          }
+        },
+        {
+          "titulo": "分娩镇痛",
+          "descricaoDose": "50-100 mg 肌注 按需",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "按需",
+            "ajusteRenal": "肾衰竭时减量。监测去甲哌替啶。",
+            "ajusteHepatico": "肝功能不全时减量。"
+          }
+        },
+        {
+          "titulo": "急性疼痛（老年）",
+          "descricaoDose": "25-75 mg 肌注/皮下或 IV 每 3-4 小时（减量约50%）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 25,
+            "doseMax": 75,
+            "doseMaxima": null,
+            "doseFixa": "25-75 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/SC/IV",
+            "intervalo": "每3-4小时",
+            "ajusteRenal": "肾衰竭时减量。严重肾衰竭避免。",
+            "ajusteHepatico": "减量（肝病50%）。"
+          }
+        },
+        {
+          "titulo": "急性疼痛（儿童）",
+          "descricaoDose": "1-2 mg/kg/次 肌注或 IV 每 3-4 小时（最大 100 mg）。限制使用；优先替代药物。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IM/IV",
+            "intervalo": "每3-4小时",
+            "ajusteRenal": "肾衰竭时减量。严重肾衰竭避免（去甲哌替啶蓄积）。",
+            "ajusteHepatico": "肝功能不全时减量。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "合成阿片类；麻醉性镇痛药；μ 受体激动剂",
+      "apresentacoes": [
+        { "forma": "注射液 50 mg/mL（1 mL、2 mL）", "obs": "Dolosal®, Demerol®, 哌替啶®" },
+        { "forma": "注射液 100 mg/mL", "obs": "高浓度" },
+        { "forma": "片剂 50 mg、100 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "IV 推注：用生理盐水稀释；缓慢给药（最大 25 mg/分钟）", "concentracao": "按稀释" },
+        { "diluicao": "IV 输注：按方案用生理盐水稀释", "concentracao": "按稀释" }
+      ],
+      "observacoes": [
+        "去甲哌替啶代谢物神经毒性：蓄积致震颤、肌阵挛、癫痫发作（纳洛酮不能逆转）",
+        "避免长期使用 >48 小时。严重肾衰竭及与 MAOI 合用禁忌（15 天窗口）",
+        "IV 始终缓慢：最大 25 mg/分钟（快速推注致低血压、心动过缓）",
+        "老年人及肝功能不全减量 50%；肾衰竭避免（去甲哌替啶蓄积）",
+        "备纳洛酮。监测呼吸、SpO₂、血压、心率。可能时优先吗啡或芬太尼",
+        "最大剂量：600 mg/日（口服）；400 mg/日（肠外）。最小剂量 25 mg/次。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量约 50%。从低剂量开始，谨慎滴定。",
+        "renal": "肾功能不全减量。监测去甲哌替啶。严重肾衰竭避免（神经毒性蓄积）。",
+        "hepatico": "肝功能不全减量（50%）。清除率降低，镇静风险增加。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "哌替啶 肌注/皮下",
+        "doseTexto": "50-150 mg 肌注/皮下 每 3-4 小时",
+        "doseMin": 50,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-150 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "哌替啶 IV",
+        "doseTexto": "50-100 mg IV 每 2-3 小时（缓慢最大 25 mg/分钟）",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "哌替啶 口服",
+        "doseTexto": "50-100 mg 口服 每 4-6 小时",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "哌替啶 - 分娩",
+        "doseTexto": "50-100 mg 肌注 按需",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "哌替啶（老年）",
+        "doseTexto": "25-75 mg（减量约50%）",
+        "doseMin": 25,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25-75 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "哌替啶（儿童）",
+        "doseTexto": "1-2 mg/kg/次 肌注/IV（最大 100 mg）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

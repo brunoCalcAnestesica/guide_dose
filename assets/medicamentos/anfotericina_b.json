@@ -1,0 +1,26 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Anfotericina B",
+      "formulacoes": {
+        "lipossomal": {"nome_comercial": "AmBisome", "dose": "3-5 mg/kg/dia", "vantagem": "Menor nefrotoxicidade"},
+        "deoxicolato": {"nome_comercial": "Fungizone", "dose": "0,5-1 mg/kg/dia", "desvantagem": "Maior nefrotoxicidade"},
+        "complexo_lipidico": {"nome_comercial": "Abelcet", "dose": "5 mg/kg/dia"}
+      },
+      "classe_terapeutica": "Antifúngico poliênico",
+      "mecanismo_acao": "Liga-se ao ergosterol da membrana fúngica, formando poros que causam extravasamento de conteúdo celular e morte do fungo.",
+      "espectro": {"sensivel": ["Candida spp", "Aspergillus", "Cryptococcus", "Mucorales", "Histoplasma", "Blastomyces", "Coccidioides"]},
+      "indicacoes": ["Aspergilose invasiva", "Candidemia refratária", "Mucormicose", "Meningite criptocócica", "Histoplasmose", "Leishmaniose visceral"],
+      "apresentacoes": [{"forma": "Frasco lipossomal", "concentracao": "50mg"}, {"forma": "Frasco deoxicolato", "concentracao": "50mg"}],
+      "preparo": {"diluente": "SG 5% APENAS (NÃO usar SF - precipita)", "infusao": "2h (lipossomal), 4-6h (deoxicolato)", "proteger_luz": true},
+      "toxicidades": {
+        "nefrotoxicidade": "Principal - hidratação prévia pode reduzir",
+        "disturbios_eletroliticos": "Hipocalemia, hipomagnesemia",
+        "reacoes_infusao": "Febre, calafrios, rigidez"
+      },
+      "premedicacao": ["Paracetamol", "Difenidramina", "Hidrocortisona (se necessário)"],
+      "monitoramento": ["Creatinina 2-3x/semana", "Potássio", "Magnésio"],
+      "observacoes": ["Lipossomal preferida se disponível", "Hidratação com 500-1000mL SF antes da deoxicolato"]
+    }
+  }
+}

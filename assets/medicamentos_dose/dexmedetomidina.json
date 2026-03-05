@@ -1,0 +1,786 @@
+{
+  "PT": {
+    "nome": "Dexmedetomidina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose de ataque (opcional)",
+          "descricaoDose": "0,5-1 mcg/kg IV em 10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.0,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir 50-75% em Child-Pugh C"
+          }
+        },
+        {
+          "titulo": "Sedação UTI",
+          "descricaoDose": "0,2-0,7 mcg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.7,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir taxa de infusão 50-75%"
+          }
+        },
+        {
+          "titulo": "Sedação procedimentos",
+          "descricaoDose": "0,2-1,0 mcg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 1.0,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir taxa de infusão 50-75%"
+          }
+        },
+        {
+          "titulo": "Dose de ataque pediátrica",
+          "descricaoDose": "0,5-1 mcg/kg IV em 10 min (cautela)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.0,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose"
+          }
+        },
+        {
+          "titulo": "Sedação UTI pediátrica",
+          "descricaoDose": "0,2-0,7 mcg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.7,
+            "doseMaxima": 1.0,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir taxa de infusão"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/h",
+          "adulto": { "doseMin": 0.2, "doseMax": 1.0 },
+          "pediatrico": { "doseMin": 0.2, "doseMax": 0.7 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "200mcg + 50mL SF (4 mcg/mL)", "valor": 4 },
+            { "rotulo": "100mcg + 50mL SF (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50mcg + 50mL SF (1 mcg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agonista alfa-2 adrenérgico - Sedativo-hipnótico",
+      "apresentacoes": [
+        { "forma": "Ampola 200mcg/2mL", "obs": "100 mcg/mL | Precedex®" },
+        { "forma": "Ampola 100mcg/1mL", "obs": "100 mcg/mL" },
+        { "forma": "Frasco-ampola 400mcg/4mL", "obs": "100 mcg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "200mcg + 50mL SF", "concentracao": "4 mcg/mL" },
+        { "diluicao": "100mcg + 50mL SF", "concentracao": "2 mcg/mL" },
+        { "diluicao": "50mcg + 50mL SF", "concentracao": "1 mcg/mL" },
+        { "diluicao": "Bolus IV", "concentracao": "SEMPRE LENTO (10 min)" }
+      ],
+      "observacoes": [
+        "Sedação consciente - paciente despertável",
+        "NÃO causa depressão respiratória significativa",
+        "Bradicardia e hipotensão dose-dependentes - monitorar",
+        "CI: BAV 2º/3º grau sem marcapasso, bradicardia grave",
+        "Reduzir dose em idosos e hepatopatas (50-75%)",
+        "Início: 5-10min | Pico: 15-30min | Meia-vida: 2-3h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar sem bolus ou bolus reduzido (0,5 mcg/kg). Maior sensibilidade a efeitos cardiovasculares.",
+        "renal": "Não requer ajuste. Metabólitos inativos excretados pela urina não afetam efeito clínico.",
+        "hepatico": "Reduzir dose inicial e velocidade de infusão em 50-75% em insuficiência moderada a grave (Child-Pugh C). Clearance significativamente reduzido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dexmedetomidina Ataque (adulto)",
+        "doseTexto": "0,5-1 mcg/kg IV em 10 min",
+        "doseMin": 0.5,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dexmedetomidina Infusão (adulto)",
+        "doseTexto": "0,2-0,7 mcg/kg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": "0,2-0,7 mcg/kg/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dexmedetomidina Ataque (pediátrico)",
+        "doseTexto": "0,5-1 mcg/kg IV em 10 min",
+        "doseMin": 0.5,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Dexmedetomidina Infusão (pediátrico)",
+        "doseTexto": "0,2-0,7 mcg/kg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": "0,2-0,7 mcg/kg/h",
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Dexmedetomidine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading dose (optional)",
+          "descricaoDose": "0.5-1 mcg/kg IV over 10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.0,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose over 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce 50-75% in Child-Pugh C"
+          }
+        },
+        {
+          "titulo": "ICU Sedation",
+          "descricaoDose": "0.2-0.7 mcg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.7,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce infusion rate 50-75%"
+          }
+        },
+        {
+          "titulo": "Procedural Sedation",
+          "descricaoDose": "0.2-1.0 mcg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 1.0,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce infusion rate 50-75%"
+          }
+        },
+        {
+          "titulo": "Pediatric Loading Dose",
+          "descricaoDose": "0.5-1 mcg/kg IV over 10 min (caution)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.0,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose over 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose"
+          }
+        },
+        {
+          "titulo": "Pediatric ICU Sedation",
+          "descricaoDose": "0.2-0.7 mcg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.7,
+            "doseMaxima": 1.0,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce infusion rate"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/h",
+          "adulto": { "doseMin": 0.2, "doseMax": 1.0 },
+          "pediatrico": { "doseMin": 0.2, "doseMax": 0.7 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "200mcg + 50mL NS (4 mcg/mL)", "valor": 4 },
+            { "rotulo": "100mcg + 50mL NS (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50mcg + 50mL NS (1 mcg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Alpha-2 adrenergic agonist - Sedative-hypnotic",
+      "apresentacoes": [
+        { "forma": "Vial 200mcg/2mL", "obs": "100 mcg/mL | Precedex®" },
+        { "forma": "Vial 100mcg/1mL", "obs": "100 mcg/mL" },
+        { "forma": "Vial 400mcg/4mL", "obs": "100 mcg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "200mcg + 50mL NS", "concentracao": "4 mcg/mL" },
+        { "diluicao": "100mcg + 50mL NS", "concentracao": "2 mcg/mL" },
+        { "diluicao": "50mcg + 50mL NS", "concentracao": "1 mcg/mL" },
+        { "diluicao": "IV Bolus", "concentracao": "ALWAYS SLOW (10 min)" }
+      ],
+      "observacoes": [
+        "Cooperative sedation - patient arousable",
+        "Does NOT cause significant respiratory depression",
+        "Dose-dependent bradycardia and hypotension - monitor",
+        "CI: 2nd/3rd degree AV block without pacemaker, severe bradycardia",
+        "Reduce dose in elderly and hepatic impairment (50-75%)",
+        "Onset: 5-10min | Peak: 15-30min | Half-life: 2-3h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use without bolus or reduced bolus (0.5 mcg/kg). Increased sensitivity to cardiovascular effects.",
+        "renal": "No adjustment required. Inactive metabolites excreted in urine do not affect clinical effect.",
+        "hepatico": "Reduce initial dose and infusion rate by 50-75% in moderate to severe impairment (Child-Pugh C). Significantly reduced clearance."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dexmedetomidine Loading (adult)",
+        "doseTexto": "0.5-1 mcg/kg IV over 10 min",
+        "doseMin": 0.5,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dexmedetomidine Infusion (adult)",
+        "doseTexto": "0.2-0.7 mcg/kg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": "0.2-0.7 mcg/kg/h",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dexmedetomidine Loading (pediatric)",
+        "doseTexto": "0.5-1 mcg/kg IV over 10 min",
+        "doseMin": 0.5,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Dexmedetomidine Infusion (pediatric)",
+        "doseTexto": "0.2-0.7 mcg/kg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": "0.2-0.7 mcg/kg/h",
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Dexmedetomidina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis de carga (opcional)",
+          "descricaoDose": "0,5-1 mcg/kg IV en 10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.0,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir 50-75% en Child-Pugh C"
+          }
+        },
+        {
+          "titulo": "Sedación UCI",
+          "descricaoDose": "0,2-0,7 mcg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.7,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir tasa de infusión 50-75%"
+          }
+        },
+        {
+          "titulo": "Sedación procedimientos",
+          "descricaoDose": "0,2-1,0 mcg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 1.0,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir tasa de infusión 50-75%"
+          }
+        },
+        {
+          "titulo": "Dosis de carga pediátrica",
+          "descricaoDose": "0,5-1 mcg/kg IV en 10 min (cautela)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.0,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis"
+          }
+        },
+        {
+          "titulo": "Sedación UCI pediátrica",
+          "descricaoDose": "0,2-0,7 mcg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.7,
+            "doseMaxima": 1.0,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir tasa de infusión"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/h",
+          "adulto": { "doseMin": 0.2, "doseMax": 1.0 },
+          "pediatrico": { "doseMin": 0.2, "doseMax": 0.7 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "200mcg + 50mL SSF (4 mcg/mL)", "valor": 4 },
+            { "rotulo": "100mcg + 50mL SSF (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50mcg + 50mL SSF (1 mcg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agonista alfa-2 adrenérgico - Sedante-hipnótico",
+      "apresentacoes": [
+        { "forma": "Ampolla 200mcg/2mL", "obs": "100 mcg/mL | Precedex®" },
+        { "forma": "Ampolla 100mcg/1mL", "obs": "100 mcg/mL" },
+        { "forma": "Frasco-ampolla 400mcg/4mL", "obs": "100 mcg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "200mcg + 50mL SSF", "concentracao": "4 mcg/mL" },
+        { "diluicao": "100mcg + 50mL SSF", "concentracao": "2 mcg/mL" },
+        { "diluicao": "50mcg + 50mL SSF", "concentracao": "1 mcg/mL" },
+        { "diluicao": "Bolo IV", "concentracao": "SIEMPRE LENTO (10 min)" }
+      ],
+      "observacoes": [
+        "Sedación cooperativa - paciente despertable",
+        "NO causa depresión respiratoria significativa",
+        "Bradicardia e hipotensión dosis-dependientes - monitorizar",
+        "CI: BAV 2º/3º grado sin marcapasos, bradicardia grave",
+        "Reducir dosis en ancianos y hepatópatas (50-75%)",
+        "Inicio: 5-10min | Pico: 15-30min | Vida media: 2-3h"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar sin bolo o bolo reducido (0,5 mcg/kg). Mayor sensibilidad a efectos cardiovasculares.",
+        "renal": "No requiere ajuste. Metabolitos inactivos excretados en orina no afectan efecto clínico.",
+        "hepatico": "Reducir dosis inicial y velocidad de infusión en 50-75% en insuficiencia moderada a grave (Child-Pugh C). Aclaramiento significativamente reducido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dexmedetomidina Carga (adulto)",
+        "doseTexto": "0,5-1 mcg/kg IV en 10 min",
+        "doseMin": 0.5,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dexmedetomidina Infusión (adulto)",
+        "doseTexto": "0,2-0,7 mcg/kg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": "0,2-0,7 mcg/kg/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dexmedetomidina Carga (pediátrico)",
+        "doseTexto": "0,5-1 mcg/kg IV en 10 min",
+        "doseMin": 0.5,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Dexmedetomidina Infusión (pediátrico)",
+        "doseTexto": "0,2-0,7 mcg/kg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": "0,2-0,7 mcg/kg/h",
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "右美托咪定",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷剂量（可选）",
+          "descricaoDose": "0.5-1 mcg/kg IV 10分钟内",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.0,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量10分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "Child-Pugh C时减量50-75%"
+          }
+        },
+        {
+          "titulo": "ICU镇静",
+          "descricaoDose": "0.2-0.7 mcg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.7,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减少输注速率50-75%"
+          }
+        },
+        {
+          "titulo": "操作镇静",
+          "descricaoDose": "0.2-1.0 mcg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 1.0,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减少输注速率50-75%"
+          }
+        },
+        {
+          "titulo": "儿童负荷剂量",
+          "descricaoDose": "0.5-1 mcg/kg IV 10分钟内（慎用）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1.0,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量10分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减量"
+          }
+        },
+        {
+          "titulo": "儿童ICU镇静",
+          "descricaoDose": "0.2-0.7 mcg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.2,
+            "doseMax": 0.7,
+            "doseMaxima": 1.0,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减少输注速率"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/h",
+          "adulto": { "doseMin": 0.2, "doseMax": 1.0 },
+          "pediatrico": { "doseMin": 0.2, "doseMax": 0.7 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "200mcg + 50mL NS (4 mcg/mL)", "valor": 4 },
+            { "rotulo": "100mcg + 50mL NS (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50mcg + 50mL NS (1 mcg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "α-2肾上腺素能激动剂 - 镇静催眠药",
+      "apresentacoes": [
+        { "forma": "安瓿 200mcg/2mL", "obs": "100 mcg/mL | Precedex®" },
+        { "forma": "安瓿 100mcg/1mL", "obs": "100 mcg/mL" },
+        { "forma": "瓶装 400mcg/4mL", "obs": "100 mcg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "200mcg + 50mL NS", "concentracao": "4 mcg/mL" },
+        { "diluicao": "100mcg + 50mL NS", "concentracao": "2 mcg/mL" },
+        { "diluicao": "50mcg + 50mL NS", "concentracao": "1 mcg/mL" },
+        { "diluicao": "静脉推注", "concentracao": "必须缓慢（10分钟）" }
+      ],
+      "observacoes": [
+        "配合性镇静 - 患者可唤醒",
+        "不引起显著呼吸抑制",
+        "剂量依赖性心动过缓和低血压 - 监测",
+        "禁忌：无起搏器的二/三度房室传导阻滞、严重心动过缓",
+        "老年人和肝功能不全时减量（50-75%）",
+        "起效：5-10分钟 | 峰值：15-30分钟 | 半衰期：2-3小时"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "不用负荷剂量或减少负荷剂量（0.5 mcg/kg）。对心血管效应敏感性增加。",
+        "renal": "无需调整。尿液排出的非活性代谢物不影响临床效果。",
+        "hepatico": "中重度肝功能不全（Child-Pugh C）时减少初始剂量和输注速率50-75%。清除率显著降低。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "右美托咪定 负荷（成人）",
+        "doseTexto": "0.5-1 mcg/kg IV 10分钟内",
+        "doseMin": 0.5,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "右美托咪定 输注（成人）",
+        "doseTexto": "0.2-0.7 mcg/kg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": "0.2-0.7 mcg/kg/h",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "右美托咪定 负荷（儿童）",
+        "doseTexto": "0.5-1 mcg/kg IV 10分钟内",
+        "doseMin": 0.5,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "右美托咪定 输注（儿童）",
+        "doseTexto": "0.2-0.7 mcg/kg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": "0.2-0.7 mcg/kg/h",
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

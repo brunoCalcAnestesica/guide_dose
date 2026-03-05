@@ -1,0 +1,43 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Ceftazidima",
+      "nome_comercial": ["Fortaz", "Tazicef"],
+      "classe_terapeutica": "Cefalosporina de 3ª geração anti-Pseudomonas",
+      "mecanismo_acao": "Liga-se às PBPs (especialmente PBP3), inibindo a síntese da parede celular. Alta atividade contra Pseudomonas aeruginosa.",
+      "espectro": {
+        "gram_positivos": ["Streptococcus (limitado)"],
+        "gram_negativos": ["Pseudomonas aeruginosa", "E. coli", "Klebsiella", "Proteus", "Serratia", "Enterobacter", "Citrobacter"]
+      },
+      "nao_cobre": ["MRSA", "Staphylococcus (atividade fraca)", "Enterococcus", "Bacteroides fragilis", "Acinetobacter"],
+      "indicacoes": [
+        "Infecções por Pseudomonas aeruginosa",
+        "Pneumonia nosocomial",
+        "Neutropenia febril",
+        "Meningite por Gram-negativo",
+        "Infecções em fibrose cística"
+      ],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "1g", "liofilizado": true},
+        {"forma": "Frasco", "concentracao": "2g", "liofilizado": true}
+      ],
+      "farmacocinetica": {
+        "meia_vida": "1,5-2 horas",
+        "excrecao": "Renal (80-90%)",
+        "penetracao_lcr": "Boa"
+      },
+      "ajuste_renal": {
+        "ClCr_30_50": "1g a cada 12h",
+        "ClCr_10_30": "1g a cada 24h",
+        "ClCr_menor_10": "1g a cada 48h"
+      },
+      "infusao_prolongada": {
+        "indicacao": "Infecções graves, MIC alta",
+        "dose": "2g em infusão de 3h a cada 8h"
+      },
+      "efeitos_adversos": ["Diarreia", "Rash", "Elevação transaminases", "Colite por C. difficile"],
+      "contraindicacoes": ["Alergia a cefalosporinas"],
+      "combinacoes": ["Ceftazidima/Avibactam (Zavicefta) para KPC"]
+    }
+  }
+}

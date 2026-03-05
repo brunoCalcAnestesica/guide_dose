@@ -1,0 +1,1158 @@
+{
+  "PT": {
+    "nome": "Bicarbonato de Sódio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acidose Metabólica Grave",
+          "descricaoDose": "1-2 mEq/kg IV lento (máx 150 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir conforme gasometria",
+            "ajusteRenal": "Cautela em DRC - risco de sobrecarga de Na+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia Grave",
+          "descricaoDose": "50 mEq IV em 5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mEq",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "Cautela em DRC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação Tricíclicos",
+          "descricaoDose": "1-2 mEq/kg IV bolus (máx 150 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "manter pH 7,45-7,55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação Salicilatos",
+          "descricaoDose": "1-2 mEq/kg IV (máx 150 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "manter pH 7,45-7,55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCR (ACLS) - Situações Selecionadas",
+          "descricaoDose": "1 mEq/kg IV (uso controverso)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "a cada 10 min se indicado",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Alcalinização Urinária",
+          "descricaoDose": "100-150 mEq/h IV infusão",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mEq/h",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 150,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "Cautela em DRC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Acidose Metabólica (Pediátrico)",
+          "descricaoDose": "1-2 mEq/kg IV lento (máx 50 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir conforme gasometria",
+            "ajusteRenal": "Cautela em DRC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia (Pediátrico)",
+          "descricaoDose": "1-2 mEq/kg IV em 5 min (máx 50 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "Cautela em DRC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação Tricíclicos (Ped)",
+          "descricaoDose": "1-2 mEq/kg IV (máx 50 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "manter pH 7,45-7,55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCR (PALS) - Situações Selecionadas",
+          "descricaoDose": "1 mEq/kg IV (uso controverso)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "a cada 10 min se indicado",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Alcalinização Urinária",
+          "unidade": "mEq/h",
+          "adulto": { "doseMin": 100, "doseMax": 150 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "150 mEq em 1L SG5% (150 mEq/L)", "valor": 150 },
+            { "rotulo": "100 mEq em 1L SG5% (100 mEq/L)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agente alcalinizante - Corretor de distúrbios ácido-base",
+      "apresentacoes": [
+        { "forma": "Ampola 8,4% - 50mL", "obs": "1 mEq/mL (50 mEq total)" },
+        { "forma": "Ampola 8,4% - 10mL", "obs": "1 mEq/mL (10 mEq total)" },
+        { "forma": "Frasco 1,4% - 250mL", "obs": "0,17 mEq/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "150 mEq + 1L SG5%", "concentracao": "150 mEq/L" },
+        { "diluicao": "100 mEq + 1L SG5%", "concentracao": "100 mEq/L" },
+        { "diluicao": "Bolus: ampola 8,4% pura", "concentracao": "1 mEq/mL" }
+      ],
+      "observacoes": [
+        "NUNCA diluir em SF 0,9% - risco de precipitação",
+        "Incompatível com cálcio, potássio, catecolaminas",
+        "Via central preferencial (osmolaridade 2000 mOsm/L)",
+        "Monitorar gasometria, K+, Ca++, Na+ rigorosamente",
+        "Uso em PCR é CONTROVERSO - considerar apenas em acidose prévia",
+        "Pode agravar acidose respiratória - garantir ventilação adequada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar com cautela. Maior risco de sobrecarga volêmica e hipernatremia.",
+        "renal": "DRC: risco de acúmulo de sódio, hipervolemia e alcalose. Monitorar rigorosamente.",
+        "hepatico": "Não requer ajuste específico. Não é metabolizado no fígado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Acidose Metabólica (adulto)",
+        "doseTexto": "1-2 mEq/kg IV (máx 150 mEq)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hipercalemia (adulto)",
+        "doseTexto": "50 mEq IV em 5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "50 mEq",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Intoxicação Tricíclicos",
+        "doseTexto": "1-2 mEq/kg IV bolus",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Acidose Metabólica (ped)",
+        "doseTexto": "1-2 mEq/kg IV (máx 50 mEq)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hipercalemia (ped)",
+        "doseTexto": "1-2 mEq/kg IV (máx 50 mEq)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Sodium Bicarbonate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Severe Metabolic Acidosis",
+          "descricaoDose": "1-2 mEq/kg IV slow (max 150 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repeat per ABG",
+            "ajusteRenal": "Caution in CKD - risk of Na+ overload",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe Hyperkalemia",
+          "descricaoDose": "50 mEq IV over 5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mEq",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "Caution in CKD",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tricyclic Poisoning",
+          "descricaoDose": "1-2 mEq/kg IV bolus (max 150 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "maintain pH 7.45-7.55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Salicylate Poisoning",
+          "descricaoDose": "1-2 mEq/kg IV (max 150 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "maintain pH 7.45-7.55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cardiac Arrest (ACLS) - Selected Cases",
+          "descricaoDose": "1 mEq/kg IV (controversial use)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "every 10 min if indicated",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Urinary Alkalinization",
+          "descricaoDose": "100-150 mEq/h IV infusion",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mEq/h",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 150,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "Caution in CKD",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Metabolic Acidosis (Pediatric)",
+          "descricaoDose": "1-2 mEq/kg IV slow (max 50 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repeat per ABG",
+            "ajusteRenal": "Caution in CKD",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hyperkalemia (Pediatric)",
+          "descricaoDose": "1-2 mEq/kg IV over 5 min (max 50 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "Caution in CKD",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tricyclic Poisoning (Ped)",
+          "descricaoDose": "1-2 mEq/kg IV (max 50 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "maintain pH 7.45-7.55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cardiac Arrest (PALS) - Selected Cases",
+          "descricaoDose": "1 mEq/kg IV (controversial use)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "every 10 min if indicated",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Urinary Alkalinization",
+          "unidade": "mEq/h",
+          "adulto": { "doseMin": 100, "doseMax": 150 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "150 mEq in 1L D5W (150 mEq/L)", "valor": 150 },
+            { "rotulo": "100 mEq in 1L D5W (100 mEq/L)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Alkalizing agent - Acid-base disorder corrector",
+      "apresentacoes": [
+        { "forma": "Ampoule 8.4% - 50mL", "obs": "1 mEq/mL (50 mEq total)" },
+        { "forma": "Ampoule 8.4% - 10mL", "obs": "1 mEq/mL (10 mEq total)" },
+        { "forma": "Vial 1.4% - 250mL", "obs": "0.17 mEq/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "150 mEq + 1L D5W", "concentracao": "150 mEq/L" },
+        { "diluicao": "100 mEq + 1L D5W", "concentracao": "100 mEq/L" },
+        { "diluicao": "Bolus: undiluted 8.4% ampoule", "concentracao": "1 mEq/mL" }
+      ],
+      "observacoes": [
+        "NEVER dilute in NS 0.9% - risk of precipitation",
+        "Incompatible with calcium, potassium, catecholamines",
+        "Central line preferred (osmolarity 2000 mOsm/L)",
+        "Monitor ABG, K+, Ca++, Na+ rigorously",
+        "Use in cardiac arrest is CONTROVERSIAL - consider only with pre-existing acidosis",
+        "May worsen respiratory acidosis - ensure adequate ventilation"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use with caution. Higher risk of volume overload and hypernatremia.",
+        "renal": "CKD: risk of sodium accumulation, hypervolemia, and alkalosis. Monitor rigorously.",
+        "hepatico": "No specific adjustment required. Not metabolized in liver."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Metabolic Acidosis (adult)",
+        "doseTexto": "1-2 mEq/kg IV (max 150 mEq)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hyperkalemia (adult)",
+        "doseTexto": "50 mEq IV over 5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "50 mEq",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tricyclic Poisoning",
+        "doseTexto": "1-2 mEq/kg IV bolus",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metabolic Acidosis (ped)",
+        "doseTexto": "1-2 mEq/kg IV (max 50 mEq)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hyperkalemia (ped)",
+        "doseTexto": "1-2 mEq/kg IV (max 50 mEq)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Bicarbonato de Sodio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acidosis Metabólica Grave",
+          "descricaoDose": "1-2 mEq/kg IV lento (máx 150 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir según gasometría",
+            "ajusteRenal": "Precaución en ERC - riesgo de sobrecarga de Na+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia Grave",
+          "descricaoDose": "50 mEq IV en 5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mEq",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Precaución en ERC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicación por Tricíclicos",
+          "descricaoDose": "1-2 mEq/kg IV bolo (máx 150 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "mantener pH 7,45-7,55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicación por Salicilatos",
+          "descricaoDose": "1-2 mEq/kg IV (máx 150 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "mantener pH 7,45-7,55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCR (ACLS) - Casos Seleccionados",
+          "descricaoDose": "1 mEq/kg IV (uso controvertido)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "cada 10 min si indicado",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Alcalinización Urinaria",
+          "descricaoDose": "100-150 mEq/h IV infusión",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mEq/h",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 150,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "Precaución en ERC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Acidosis Metabólica (Pediátrico)",
+          "descricaoDose": "1-2 mEq/kg IV lento (máx 50 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir según gasometría",
+            "ajusteRenal": "Precaución en ERC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia (Pediátrico)",
+          "descricaoDose": "1-2 mEq/kg IV en 5 min (máx 50 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Precaución en ERC",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicación Tricíclicos (Ped)",
+          "descricaoDose": "1-2 mEq/kg IV (máx 50 mEq)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "mantener pH 7,45-7,55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCR (PALS) - Casos Seleccionados",
+          "descricaoDose": "1 mEq/kg IV (uso controvertido)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "cada 10 min si indicado",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Alcalinización Urinaria",
+          "unidade": "mEq/h",
+          "adulto": { "doseMin": 100, "doseMax": 150 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "150 mEq en 1L SG5% (150 mEq/L)", "valor": 150 },
+            { "rotulo": "100 mEq en 1L SG5% (100 mEq/L)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agente alcalinizante - Corrector de trastornos ácido-base",
+      "apresentacoes": [
+        { "forma": "Ampolla 8,4% - 50mL", "obs": "1 mEq/mL (50 mEq total)" },
+        { "forma": "Ampolla 8,4% - 10mL", "obs": "1 mEq/mL (10 mEq total)" },
+        { "forma": "Frasco 1,4% - 250mL", "obs": "0,17 mEq/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "150 mEq + 1L SG5%", "concentracao": "150 mEq/L" },
+        { "diluicao": "100 mEq + 1L SG5%", "concentracao": "100 mEq/L" },
+        { "diluicao": "Bolo: ampolla 8,4% pura", "concentracao": "1 mEq/mL" }
+      ],
+      "observacoes": [
+        "NUNCA diluir en SF 0,9% - riesgo de precipitación",
+        "Incompatible con calcio, potasio, catecolaminas",
+        "Vía central preferencial (osmolaridad 2000 mOsm/L)",
+        "Monitorizar gasometría, K+, Ca++, Na+ rigurosamente",
+        "Uso en PCR es CONTROVERTIDO - considerar solo con acidosis previa",
+        "Puede agravar acidosis respiratoria - garantizar ventilación adecuada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar con precaución. Mayor riesgo de sobrecarga volémica e hipernatremia.",
+        "renal": "ERC: riesgo de acumulación de sodio, hipervolemia y alcalosis. Monitorizar rigurosamente.",
+        "hepatico": "No requiere ajuste específico. No se metaboliza en hígado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Acidosis Metabólica (adulto)",
+        "doseTexto": "1-2 mEq/kg IV (máx 150 mEq)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hipercalemia (adulto)",
+        "doseTexto": "50 mEq IV en 5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "50 mEq",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Intoxicación Tricíclicos",
+        "doseTexto": "1-2 mEq/kg IV bolo",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Acidosis Metabólica (ped)",
+        "doseTexto": "1-2 mEq/kg IV (máx 50 mEq)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hipercalemia (ped)",
+        "doseTexto": "1-2 mEq/kg IV (máx 50 mEq)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "碳酸氢钠",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "严重代谢性酸中毒",
+          "descricaoDose": "1-2 mEq/kg IV缓慢推注（最大150 mEq）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "根据血气分析重复",
+            "ajusteRenal": "慢性肾病慎用 - 钠超载风险",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "严重高钾血症",
+          "descricaoDose": "50 mEq IV 5分钟内",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mEq",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "慢性肾病慎用",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "三环类抗抑郁药中毒",
+          "descricaoDose": "1-2 mEq/kg IV推注（最大150 mEq）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "维持pH 7.45-7.55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "水杨酸盐中毒",
+          "descricaoDose": "1-2 mEq/kg IV（最大150 mEq）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "维持pH 7.45-7.55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "心脏骤停(ACLS) - 特选病例",
+          "descricaoDose": "1 mEq/kg IV（争议用法）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "如有指征每10分钟",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "尿液碱化",
+          "descricaoDose": "100-150 mEq/h IV输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mEq/h",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 150,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "慢性肾病慎用",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "代谢性酸中毒（儿童）",
+          "descricaoDose": "1-2 mEq/kg IV缓慢（最大50 mEq）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "根据血气分析重复",
+            "ajusteRenal": "慢性肾病慎用",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "高钾血症（儿童）",
+          "descricaoDose": "1-2 mEq/kg IV 5分钟内（最大50 mEq）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "慢性肾病慎用",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "三环类中毒（儿童）",
+          "descricaoDose": "1-2 mEq/kg IV（最大50 mEq）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "维持pH 7.45-7.55",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "心脏骤停(PALS) - 特选病例",
+          "descricaoDose": "1 mEq/kg IV（争议用法）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "如有指征每10分钟",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "尿液碱化",
+          "unidade": "mEq/h",
+          "adulto": { "doseMin": 100, "doseMax": 150 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "150 mEq溶于1L 5%葡萄糖 (150 mEq/L)", "valor": 150 },
+            { "rotulo": "100 mEq溶于1L 5%葡萄糖 (100 mEq/L)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "碱化剂 - 酸碱平衡纠正剂",
+      "apresentacoes": [
+        { "forma": "安瓿 8.4% - 50mL", "obs": "1 mEq/mL（共50 mEq）" },
+        { "forma": "安瓿 8.4% - 10mL", "obs": "1 mEq/mL（共10 mEq）" },
+        { "forma": "瓶装 1.4% - 250mL", "obs": "0.17 mEq/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "150 mEq + 1L 5%葡萄糖", "concentracao": "150 mEq/L" },
+        { "diluicao": "100 mEq + 1L 5%葡萄糖", "concentracao": "100 mEq/L" },
+        { "diluicao": "推注：8.4%安瓿原液", "concentracao": "1 mEq/mL" }
+      ],
+      "observacoes": [
+        "切勿用0.9%生理盐水稀释 - 有沉淀风险",
+        "与钙、钾、儿茶酚胺类不相容",
+        "首选中心静脉通路（渗透压2000 mOsm/L）",
+        "严格监测血气、K+、Ca++、Na+",
+        "心脏骤停时使用存在争议 - 仅在既往酸中毒时考虑",
+        "可能加重呼吸性酸中毒 - 确保充分通气"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "慎用。容量超负荷和高钠血症风险较高。",
+        "renal": "慢性肾病：钠蓄积、高容量血症和碱中毒风险。严格监测。",
+        "hepatico": "无需特殊调整。不经肝脏代谢。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "代谢性酸中毒（成人）",
+        "doseTexto": "1-2 mEq/kg IV（最大150 mEq）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "高钾血症（成人）",
+        "doseTexto": "50 mEq IV 5分钟内",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "50 mEq",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "三环类中毒",
+        "doseTexto": "1-2 mEq/kg IV推注",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "代谢性酸中毒（儿童）",
+        "doseTexto": "1-2 mEq/kg IV（最大50 mEq）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "高钾血症（儿童）",
+        "doseTexto": "1-2 mEq/kg IV（最大50 mEq）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  }
+}

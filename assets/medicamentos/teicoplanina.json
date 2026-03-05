@@ -1,0 +1,25 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Teicoplanina",
+      "nome_comercial": ["Targocid"],
+      "classe_terapeutica": "Glicopeptídeo",
+      "mecanismo_acao": "Inibe a síntese da parede celular ligando-se ao terminal D-Ala-D-Ala do peptidoglicano, similar à vancomicina.",
+      "espectro": {
+        "gram_positivos": ["MRSA", "Staphylococcus coagulase-negativo", "Streptococcus", "Enterococcus faecalis", "Corynebacterium", "Clostridium difficile"]
+      },
+      "nao_cobre": ["Gram-negativos", "VRE (Enterococcus faecium vanA/vanB)"],
+      "indicacoes": ["Bacteremia/Endocardite por MRSA", "Osteomielite", "Artrite séptica", "Infecções de pele e tecidos moles", "Pneumonia por MRSA", "Alternativa à vancomicina"],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "200mg", "liofilizado": true},
+        {"forma": "Frasco", "concentracao": "400mg", "liofilizado": true}
+      ],
+      "farmacocinetica": {"meia_vida": "100-170 horas", "excrecao": "Renal (80%)", "ligacao_proteica": "90%"},
+      "ajuste_renal": {"ClCr_40_60": "Dose normal por 3 dias, depois reduzir intervalo ou dose", "ClCr_menor_40": "Dose normal por 3 dias, depois 50% ou dias alternados"},
+      "monitoramento": {"vale_serico": "15-30 mcg/mL (graves: 30-40)"},
+      "efeitos_adversos": ["Rash", "Febre", "Eosinofilia", "Nefrotoxicidade (menos que vancomicina)", "Ototoxicidade (rara)"],
+      "contraindicacoes": ["Alergia a glicopeptídeos"],
+      "vantagens": ["Dose única diária", "Pode ser dado IM", "Menor nefrotoxicidade que vancomicina", "Menor risco de síndrome do homem vermelho"]
+    }
+  }
+}

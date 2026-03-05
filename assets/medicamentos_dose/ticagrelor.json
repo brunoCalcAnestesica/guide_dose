@@ -1,0 +1,506 @@
+{
+  "PT": {
+    "nome": "Ticagrelor",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA – dose de ataque (adulto)",
+          "descricaoDose": "180 mg VO dose única. Início em 30 min. Sempre com AAS 75-100 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 180,
+            "doseMax": 180,
+            "doseMaxima": 180,
+            "doseFixa": "180 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única (ataque)",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave (metabolismo CYP3A4)."
+          }
+        },
+        {
+          "titulo": "SCA – manutenção 1º ano / DAPT (adulto)",
+          "descricaoDose": "90 mg 2x/dia VO. DAPT com AAS 75-100 mg/dia (não exceder 100 mg AAS). Duração 12 meses.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 90,
+            "doseMax": 90,
+            "doseMaxima": 90,
+            "doseFixa": "90 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "Prevenção prolongada (após 12 meses) (adulto)",
+          "descricaoDose": "60 mg 2x/dia VO. Após 12 meses de 90 mg 2x/dia. Reduz eventos cardiovasculares.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetário – Inibidor P2Y12 reversível (não pró-droga)",
+      "apresentacoes": [
+        { "forma": "Comprimido 90 mg", "obs": "SCA – 1º ano" },
+        { "forma": "Comprimido 60 mg", "obs": "Prevenção prolongada" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido inteiro com água", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Ação direta: não é pró-droga, não depende de CYP2C19",
+        "AAS 75-100 mg/dia obrigatório. Não exceder 100 mg AAS (reduz eficácia do ticagrelor)",
+        "Suspender 5 dias antes de CRM (marcapasso)",
+        "Dispneia em ~15% (geralmente leve, autolimitada)",
+        "Evitar inibidores potentes CYP3A4 (cetoconazol). Indutores reduzem níveis",
+        "Efeito reversível em 3-5 dias. Contraindicado: sangramento ativo, AVC hemorrágico prévio"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mesmas doses. Maior risco de sangramento. Monitorar hemoglobina.",
+        "renal": "Sem ajuste em IR leve/moderada. Cautela em IR grave (excreção renal 26%).",
+        "hepatico": "Contraindicado em insuficiência hepática grave (metabolismo CYP3A4)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ticagrelor SCA ataque (adulto)",
+        "doseTexto": "180 mg VO dose única",
+        "doseMin": 180,
+        "doseMax": 180,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "180 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ticagrelor manutenção (adulto)",
+        "doseTexto": "90 mg 2x/dia VO",
+        "doseMin": 90,
+        "doseMax": 90,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "90 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ticagrelor prevenção prolongada (adulto)",
+        "doseTexto": "60 mg 2x/dia VO",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ticagrelor",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ACS – loading dose (adult)",
+          "descricaoDose": "180 mg PO single dose. Onset in 30 min. Always with aspirin 75-100 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 180,
+            "doseMax": 180,
+            "doseMaxima": 180,
+            "doseFixa": "180 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose (loading)",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment (CYP3A4 metabolism)."
+          }
+        },
+        {
+          "titulo": "ACS – maintenance 1st year / DAPT (adult)",
+          "descricaoDose": "90 mg twice daily PO. DAPT with aspirin 75-100 mg/day (do not exceed 100 mg aspirin). Duration 12 months.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 90,
+            "doseMax": 90,
+            "doseMaxima": 90,
+            "doseFixa": "90 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment."
+          }
+        },
+        {
+          "titulo": "Prolonged prevention (after 12 months) (adult)",
+          "descricaoDose": "60 mg twice daily PO. After 12 months of 90 mg BID. Reduces cardiovascular events.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiplatelet agent – Reversible P2Y12 inhibitor (not a prodrug)",
+      "apresentacoes": [
+        { "forma": "Tablet 90 mg", "obs": "ACS – 1st year" },
+        { "forma": "Tablet 60 mg", "obs": "Prolonged prevention" }
+      ],
+      "preparo": [
+        { "diluicao": "PO: whole tablet with water", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "Direct action: not a prodrug, does not depend on CYP2C19",
+        "Aspirin 75-100 mg/day required. Do not exceed 100 mg aspirin (reduces ticagrelor efficacy)",
+        "Discontinue 5 days before pacemaker implantation",
+        "Dyspnea in ~15% (usually mild, self-limited)",
+        "Avoid potent CYP3A4 inhibitors (ketoconazole). Inducers reduce levels",
+        "Reversible effect in 3-5 days. Contraindicated: active bleeding, prior hemorrhagic stroke"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Same doses. Higher bleeding risk. Monitor hemoglobin.",
+        "renal": "No adjustment in mild/moderate impairment. Caution in severe impairment (26% renal excretion).",
+        "hepatico": "Contraindicated in severe hepatic impairment (CYP3A4 metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ticagrelor ACS loading (adult)",
+        "doseTexto": "180 mg PO single dose",
+        "doseMin": 180,
+        "doseMax": 180,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "180 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ticagrelor maintenance (adult)",
+        "doseTexto": "90 mg twice daily PO",
+        "doseMin": 90,
+        "doseMax": 90,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "90 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ticagrelor prolonged prevention (adult)",
+        "doseTexto": "60 mg twice daily PO",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ticagrelor",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA – dosis de ataque (adulto)",
+          "descricaoDose": "180 mg VO dosis única. Inicio en 30 min. Siempre con AAS 75-100 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 180,
+            "doseMax": 180,
+            "doseMaxima": 180,
+            "doseFixa": "180 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única (ataque)",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave (metabolismo CYP3A4)."
+          }
+        },
+        {
+          "titulo": "SCA – mantenimiento 1º año / DAPT (adulto)",
+          "descricaoDose": "90 mg 2x/día VO. DAPT con AAS 75-100 mg/día (no exceder 100 mg AAS). Duración 12 meses.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 90,
+            "doseMax": 90,
+            "doseMaxima": 90,
+            "doseFixa": "90 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Prevención prolongada (tras 12 meses) (adulto)",
+          "descricaoDose": "60 mg 2x/día VO. Tras 12 meses de 90 mg 2x/día. Reduce eventos cardiovasculares.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetario – Inhibidor P2Y12 reversible (no pro fármaco)",
+      "apresentacoes": [
+        { "forma": "Comprimido 90 mg", "obs": "SCA – 1º año" },
+        { "forma": "Comprimido 60 mg", "obs": "Prevención prolongada" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido entero con agua", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Acción directa: no es pro fármaco, no depende de CYP2C19",
+        "AAS 75-100 mg/día obligatorio. No exceder 100 mg AAS (reduce eficacia de ticagrelor)",
+        "Suspender 5 días antes de marcapasos",
+        "Disnea en ~15% (generalmente leve, autolimitada)",
+        "Evitar inhibidores potentes CYP3A4 (cetoconazol). Inductores reducen niveles",
+        "Efecto reversible en 3-5 días. Contraindicado: sangrado activo, AVC hemorrágico previo"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mismas dosis. Mayor riesgo sangrado. Monitorizar hemoglobina.",
+        "renal": "Sin ajuste en IR leve/moderada. Precaución en IR grave (excreción renal 26%).",
+        "hepatico": "Contraindicado en insuficiencia hepática grave (metabolismo CYP3A4)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ticagrelor SCA ataque (adulto)",
+        "doseTexto": "180 mg VO dosis única",
+        "doseMin": 180,
+        "doseMax": 180,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "180 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ticagrelor mantenimiento (adulto)",
+        "doseTexto": "90 mg 2x/día VO",
+        "doseMin": 90,
+        "doseMax": 90,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "90 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ticagrelor prevención prolongada (adulto)",
+        "doseTexto": "60 mg 2x/día VO",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "替格瑞洛",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性冠脉综合征 负荷量（成人）",
+          "descricaoDose": "180 mg 口服单次。30分钟起效。需与阿司匹林75-100 mg/日联用。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 180,
+            "doseMax": 180,
+            "doseMaxima": 180,
+            "doseFixa": "180 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "单次负荷",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌（CYP3A4代谢）。"
+          }
+        },
+        {
+          "titulo": "急性冠脉综合征 维持1年/DAPT（成人）",
+          "descricaoDose": "90 mg 每日2次 口服。与阿司匹林75-100 mg/日双抗（阿司匹林不超过100 mg）。疗程12个月。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 90,
+            "doseMax": 90,
+            "doseMaxima": 90,
+            "doseFixa": "90 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌。"
+          }
+        },
+        {
+          "titulo": "长期预防（12个月后）（成人）",
+          "descricaoDose": "60 mg 每日2次 口服。90 mg 2次/日满12个月后。减少心血管事件。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗血小板药 - 可逆性P2Y12抑制剂（非前药）",
+      "apresentacoes": [
+        { "forma": "片剂 90 mg", "obs": "ACS - 第1年" },
+        { "forma": "片剂 60 mg", "obs": "长期预防" }
+      ],
+      "preparo": [
+        { "diluicao": "口服：整片与水同服", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "直接作用：非前药，不依赖CYP2C19",
+        "阿司匹林75-100 mg/日必需。不超过100 mg（降低替格瑞洛疗效）",
+        "起搏器植入前停用5天",
+        "约15%出现呼吸困难（常为轻度、自限）",
+        "避免CYP3A4强抑制剂（酮康唑）。诱导剂降低血药浓度",
+        "3-5天可逆。禁忌：活动性出血、既往出血性卒中"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "剂量同。出血风险更高。监测血红蛋白。",
+        "renal": "轻中度肾功能不全无需调整。严重慎用（26%经肾排泄）。",
+        "hepatico": "严重肝功能不全禁忌（CYP3A4代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "替格瑞洛 ACS负荷（成人）",
+        "doseTexto": "180 mg 口服单次",
+        "doseMin": 180,
+        "doseMax": 180,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "180 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "替格瑞洛 维持（成人）",
+        "doseTexto": "90 mg 每日2次 口服",
+        "doseMin": 90,
+        "doseMax": 90,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "90 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "替格瑞洛 长期预防（成人）",
+        "doseTexto": "60 mg 每日2次 口服",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

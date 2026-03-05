@@ -1,0 +1,33 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Doxiciclina",
+      "nomesComerciais": ["Vibramicina®", "Doxiciclina Genérico"],
+      "classeTerapeutica": "Antibiótico / Tetraciclina",
+      "mecanismoAcao": "Liga-se à subunidade 30S do ribossomo bacteriano, inibindo a síntese proteica. Bacteriostático. Tetraciclina de escolha devido à meia-vida longa e menor toxicidade renal.",
+      "espectro": {
+        "excelente": ["Mycoplasma pneumoniae", "Chlamydia spp.", "Ureaplasma", "Rickettsia", "Ehrlichia", "Anaplasma", "Borrelia burgdorferi", "Brucella", "Vibrio cholerae", "MRSA-CA"],
+        "moderado": ["S. pneumoniae", "H. influenzae"],
+        "resistentes": ["Pseudomonas", "Proteus"]
+      },
+      "indicacoes": ["Pneumonia atípica", "IST (Chlamydia, Ureaplasma)", "Doença de Lyme", "Febre maculosa", "Malária (profilaxia)", "Acne moderada", "MRSA-CA (infecções de pele)", "Brucelose"],
+      "apresentacoes": ["Comprimidos/Cápsulas 100 mg", "Comprimidos 50 mg (acne)"],
+      "posologia": {
+        "adulto": {
+          "infeccoes_gerais": "100 mg VO 12/12h",
+          "IST_chlamydia": "100 mg VO 12/12h por 7 dias",
+          "malaria_profilaxia": "100 mg VO 1x/dia",
+          "acne": "50-100 mg VO 1x/dia"
+        },
+        "pediatrico_maior_8_anos": {
+          "dose": "1-2 mg/kg/dose VO 12/12h (máx 100 mg/dose)"
+        }
+      },
+      "contraindicacoes": ["Menores de 8 anos (manchas dentárias)", "Gestação (2º e 3º trimestres)", "Amamentação"],
+      "efeitosAdversos": ["Fotossensibilidade", "Esofagite (se tomada sem água)", "Náusea, vômitos", "Candidíase vaginal", "Manchas dentárias (em crianças)"],
+      "interacoes": ["Antiácidos, ferro, cálcio: reduzem absorção (dar 2h antes ou 6h após)", "Warfarina: aumenta efeito", "Isotretinoína: risco de pseudotumor cerebri"],
+      "observacoes": ["Tomar com bastante água, evitar deitar após", "Não requer ajuste renal", "Fotossensibilidade: evitar exposição solar", "Categoria D na gestação"],
+      "categoriaGravidez": "D"
+    }
+  }
+}

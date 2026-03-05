@@ -24,10 +24,10 @@ class MedicamentoColoides {
   }
 
   static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
-    final isFavorito = favoritos.contains(nome);
 
     if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
       return const SizedBox.shrink();
@@ -49,6 +49,25 @@ class MedicamentoColoides {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
+
+    return _buildCardColoides(
+      context,
+        peso,
+        faixaEtaria,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static Widget _buildCardColoides(BuildContext context, double peso, String faixaEtaria, bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
@@ -92,7 +111,7 @@ class MedicamentoColoides {
   static List<Widget> _buildIndicacoesPorFaixaEtaria(double peso, String faixaEtaria, bool isAdulto) {
     List<Widget> indicacoes = [];
 
-    if (faixaEtaria == 'RN') {
+    if (faixaEtaria == 'Recém-nascido') {
       // Recém-nascidos
       indicacoes.addAll([
         MedicamentoColoides._linhaIndicacaoDoseCalculada(

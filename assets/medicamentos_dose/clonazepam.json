@@ -1,0 +1,730 @@
+{
+  "PT": {
+    "nome": "Clonazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Transtorno do pânico",
+          "descricaoDose": "0,5-2 mg VO 2-3x/dia (inicial 0,5 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2 mg VO 2-3x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Epilepsia (adulto)",
+          "descricaoDose": "1,5-8 mg/dia VO divididos em 2-3 doses (máx 20 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1.5,
+            "doseMax": 8,
+            "doseMaxima": 20,
+            "doseFixa": "1,5-8 mg/dia (máx 20 mg/dia)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Epilepsia (pediátrico)",
+          "descricaoDose": "0,01-0,03 mg/kg/dia VO inicial; manutenção 0,1-0,2 mg/kg/dia (máx 0,2 mg/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose"
+          }
+        },
+        {
+          "titulo": "Ansiedade / Ansiolítico",
+          "descricaoDose": "0,5-2 mg VO 2-3x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2 mg VO 2-3x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sublingual (crise/agudo)",
+          "descricaoDose": "0,25-0,5 mg SL conforme necessidade",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": "0,25-0,5 mg SL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Sublingual",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Idoso (pânico/ansiedade)",
+          "descricaoDose": "0,25 mg VO 2x/dia (inicial); titular com cautela",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": "0,25 mg 2x/dia",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose; maior sensibilidade"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Anticonvulsivante / Ansiolítico",
+      "apresentacoes": [
+        { "forma": "Comprimido 0,5 mg", "obs": "VO" },
+        { "forma": "Comprimido 2 mg", "obs": "VO" },
+        { "forma": "Sublingual 0,25 mg", "obs": "SL - crise" },
+        { "forma": "Gotas 2,5 mg/mL", "obs": "1 gota ≈ 0,1 mg" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral - não diluir", "concentracao": "Conforme apresentação" },
+        { "diluicao": "Gotas: usar conta-gotas do frasco", "concentracao": "2,5 mg/mL" }
+      ],
+      "observacoes": [
+        "Alto potencial de dependência; retirada gradual obrigatória (10-25%/semana)",
+        "Meia-vida longa (18-50 h); evitar associação com outros depressores do SNC",
+        "Equivalência: 0,5 mg clonazepam ≈ 10 mg diazepam",
+        "Sublingual: início 10-15 min; VO 20-60 min até pico",
+        "Tolerância pode desenvolver após 1-6 meses; síndrome de abstinência grave se suspensão abrupta",
+        "Contraindicado em glaucoma de ângulo fechado, miastenia gravis, insuficiência respiratória grave"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com 0,25 mg 2x/dia. Maior sensibilidade; reduzir dose e titular lentamente.",
+        "renal": "Não requer ajuste. Metabolismo hepático; monitorar sedação em IRC.",
+        "hepatico": "Reduzir dose em insuficiência hepática moderada/grave. Meia-vida prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clonazepam (adulto VO)",
+        "doseTexto": "0,5 - 2 mg VO 2-3x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5 - 2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clonazepam (pediátrico VO)",
+        "doseTexto": "0,01 - 0,03 mg/kg/dia VO dividido 2-3x",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg/dia",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Clonazepam (sublingual)",
+        "doseTexto": "0,25 - 0,5 mg SL",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,25 - 0,5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Clonazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Panic disorder",
+          "descricaoDose": "0.5-2 mg PO 2-3x/day (initial 0.5 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2 mg PO 2-3x/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "2-3 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Epilepsy (adult)",
+          "descricaoDose": "1.5-8 mg/day PO in 2-3 divided doses (max 20 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1.5,
+            "doseMax": 8,
+            "doseMaxima": 20,
+            "doseFixa": "1.5-8 mg/day (max 20 mg/day)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "2-3 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Epilepsy (pediatric)",
+          "descricaoDose": "0.01-0.03 mg/kg/day PO initial; maintenance 0.1-0.2 mg/kg/day (max 0.2 mg/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "2-3 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose"
+          }
+        },
+        {
+          "titulo": "Anxiety / Anxiolytic",
+          "descricaoDose": "0.5-2 mg PO 2-3x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2 mg PO 2-3x/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "2-3 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Sublingual (acute)",
+          "descricaoDose": "0.25-0.5 mg SL as needed",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": "0.25-0.5 mg SL",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Sublingual",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Elderly (panic/anxiety)",
+          "descricaoDose": "0.25 mg PO twice daily (initial); titrate cautiously",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": "0.25 mg twice daily",
+            "faixaEtaria": "Elderly",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose; increased sensitivity"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine / Anticonvulsant / Anxiolytic",
+      "apresentacoes": [
+        { "forma": "Tablet 0.5 mg", "obs": "PO" },
+        { "forma": "Tablet 2 mg", "obs": "PO" },
+        { "forma": "Sublingual 0.25 mg", "obs": "SL - acute" },
+        { "forma": "Drops 2.5 mg/mL", "obs": "1 drop ≈ 0.1 mg" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral use - do not dilute", "concentracao": "As per formulation" },
+        { "diluicao": "Drops: use bottle dropper", "concentracao": "2.5 mg/mL" }
+      ],
+      "observacoes": [
+        "High dependence potential; gradual taper required (10-25%/week)",
+        "Long half-life (18-50 h); avoid combination with other CNS depressants",
+        "Equivalence: 0.5 mg clonazepam ≈ 10 mg diazepam",
+        "Sublingual: onset 10-15 min; PO 20-60 min to peak",
+        "Tolerance may develop after 1-6 months; severe withdrawal if abrupt discontinuation",
+        "Contraindicated in narrow-angle glaucoma, myasthenia gravis, severe respiratory failure"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start 0.25 mg twice daily. Increased sensitivity; reduce dose and titrate slowly.",
+        "renal": "No dose adjustment. Hepatic metabolism; monitor sedation in CKD.",
+        "hepatico": "Reduce dose in moderate/severe hepatic impairment. Prolonged half-life."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clonazepam (adult PO)",
+        "doseTexto": "0.5 - 2 mg PO 2-3x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5 - 2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Clonazepam (pediatric PO)",
+        "doseTexto": "0.01 - 0.03 mg/kg/day PO divided 2-3x",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg/day",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Clonazepam (sublingual)",
+        "doseTexto": "0.25 - 0.5 mg SL",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.25 - 0.5 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Clonazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Trastorno de pánico",
+          "descricaoDose": "0,5-2 mg VO 2-3x/día (inicial 0,5 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2 mg VO 2-3x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en insuficiencia moderada/grave"
+          }
+        },
+        {
+          "titulo": "Epilepsia (adulto)",
+          "descricaoDose": "1,5-8 mg/día VO en 2-3 dosis (máx 20 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1.5,
+            "doseMax": 8,
+            "doseMaxima": 20,
+            "doseFixa": "1,5-8 mg/día (máx 20 mg/día)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en insuficiencia moderada/grave"
+          }
+        },
+        {
+          "titulo": "Epilepsia (pediátrico)",
+          "descricaoDose": "0,01-0,03 mg/kg/día VO inicial; mantenimiento 0,1-0,2 mg/kg/día (máx 0,2 mg/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis"
+          }
+        },
+        {
+          "titulo": "Ansiedad / Ansiolítico",
+          "descricaoDose": "0,5-2 mg VO 2-3x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "0,5-2 mg VO 2-3x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en insuficiencia moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sublingual (agudo)",
+          "descricaoDose": "0,25-0,5 mg SL según necesidad",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": "0,25-0,5 mg SL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Sublingual",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anciano (pánico/ansiedad)",
+          "descricaoDose": "0,25 mg VO 2x/día (inicial); titular con cautela",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": "0,25 mg 2x/día",
+            "faixaEtaria": "Anciano",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis; mayor sensibilidad"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Anticonvulsivante / Ansiolítico",
+      "apresentacoes": [
+        { "forma": "Comprimido 0,5 mg", "obs": "VO" },
+        { "forma": "Comprimido 2 mg", "obs": "VO" },
+        { "forma": "Sublingual 0,25 mg", "obs": "SL - agudo" },
+        { "forma": "Gotas 2,5 mg/mL", "obs": "1 gota ≈ 0,1 mg" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral - no diluir", "concentracao": "Según presentación" },
+        { "diluicao": "Gotas: usar cuentagotas del frasco", "concentracao": "2,5 mg/mL" }
+      ],
+      "observacoes": [
+        "Alto potencial de dependencia; retirada gradual obligatoria (10-25%/semana)",
+        "Vida media larga (18-50 h); evitar asociación con otros depresores del SNC",
+        "Equivalencia: 0,5 mg clonazepam ≈ 10 mg diazepam",
+        "Sublingual: inicio 10-15 min; VO 20-60 min hasta pico",
+        "Puede desarrollarse tolerancia a 1-6 meses; abstinencia grave si suspensión brusca",
+        "Contraindicado en glaucoma de ángulo cerrado, miastenia gravis, insuficiencia respiratoria grave"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar 0,25 mg 2x/día. Mayor sensibilidad; reducir dosis y titular lentamente.",
+        "renal": "No requiere ajuste. Metabolismo hepático; vigilar sedación en IRC.",
+        "hepatico": "Reducir dosis en insuficiencia hepática moderada/grave. Vida media prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clonazepam (adulto VO)",
+        "doseTexto": "0,5 - 2 mg VO 2-3x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5 - 2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clonazepam (pediátrico VO)",
+        "doseTexto": "0,01 - 0,03 mg/kg/día VO dividido 2-3x",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg/día",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Clonazepam (sublingual)",
+        "doseTexto": "0,25 - 0,5 mg SL",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,25 - 0,5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氯硝西泮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "惊恐障碍",
+          "descricaoDose": "0.5-2 mg 口服 每日2-3次（初始0.5 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2 mg 口服 每日2-3次",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全减量"
+          }
+        },
+        {
+          "titulo": "癫痫（成人）",
+          "descricaoDose": "1.5-8 mg/日 口服 分2-3次（最大20 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1.5,
+            "doseMax": 8,
+            "doseMaxima": 20,
+            "doseFixa": "1.5-8 mg/日（最大20 mg/日）",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全减量"
+          }
+        },
+        {
+          "titulo": "癫痫（儿童）",
+          "descricaoDose": "0.01-0.03 mg/kg/日 口服 初始；维持0.1-0.2 mg/kg/日（最大0.2 mg/kg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减量"
+          }
+        },
+        {
+          "titulo": "焦虑 / 抗焦虑",
+          "descricaoDose": "0.5-2 mg 口服 每日2-3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "0.5-2 mg 口服 每日2-3次",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全减量"
+          }
+        },
+        {
+          "titulo": "舌下（急性）",
+          "descricaoDose": "0.25-0.5 mg 舌下 按需",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": "0.25-0.5 mg 舌下",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "舌下",
+            "intervalo": "按需",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "老年（惊恐/焦虑）",
+          "descricaoDose": "0.25 mg 口服 每日2次（初始）；谨慎滴定",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": "0.25 mg 每日2次",
+            "faixaEtaria": "老年",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日2次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减量；敏感性增加"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "苯二氮䓬类 / 抗癫痫 / 抗焦虑",
+      "apresentacoes": [
+        { "forma": "片剂 0.5 mg", "obs": "口服" },
+        { "forma": "片剂 2 mg", "obs": "口服" },
+        { "forma": "舌下 0.25 mg", "obs": "舌下 - 急性" },
+        { "forma": "滴剂 2.5 mg/mL", "obs": "1滴 ≈ 0.1 mg" }
+      ],
+      "preparo": [
+        { "diluicao": "口服使用 - 勿稀释", "concentracao": "按剂型" },
+        { "diluicao": "滴剂：使用瓶装滴管", "concentracao": "2.5 mg/mL" }
+      ],
+      "observacoes": [
+        "依赖性高；需逐渐减量（每周10-25%）",
+        "半衰期长（18-50 h）；避免与其他中枢抑制剂联用",
+        "等效：0.5 mg 氯硝西泮 ≈ 10 mg 地西泮",
+        "舌下：起效10-15分钟；口服20-60分钟达峰",
+        "1-6个月后可产生耐受；骤停可致严重戒断",
+        "禁用于闭角型青光眼、重症肌无力、严重呼吸衰竭"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "起始0.25 mg 每日2次。敏感性增加；减量并缓慢滴定。",
+        "renal": "无需调整。肝代谢；肾功能不全时监测镇静。",
+        "hepatico": "中重度肝功能不全减量。半衰期延长。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氯硝西泮（成人口服）",
+        "doseTexto": "0.5 - 2 mg 口服 每日2-3次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5 - 2 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯硝西泮（儿童口服）",
+        "doseTexto": "0.01 - 0.03 mg/kg/日 口服 分2-3次",
+        "doseMin": 0.01,
+        "doseMax": 0.03,
+        "unidadeResultado": "mg/日",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "氯硝西泮（舌下）",
+        "doseTexto": "0.25 - 0.5 mg 舌下",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.25 - 0.5 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

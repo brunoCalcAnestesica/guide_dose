@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'theme/app_colors.dart';
 import 'shared_data.dart';
 
 class CardMedicamentoDinamico extends StatefulWidget {
@@ -31,7 +32,7 @@ class _CardMedicamentoDinamicoState extends State<CardMedicamentoDinamico> {
     final isAdulto = idade >= 18;
 
     final grupo = isAdulto ? 'adulto' : 'pediatrico';
-    final indicacoes = widget.medicamento['indicacoes'][grupo] ?? [];
+    final indicacoes = (widget.medicamento['indicacoes'] as Map?)?[grupo] ?? [];
     final observacoes = widget.medicamento['observacoes'] ?? [];
     final apresentacao = widget.medicamento['apresentacao'] ?? '-';
 
@@ -41,7 +42,7 @@ class _CardMedicamentoDinamicoState extends State<CardMedicamentoDinamico> {
     final concentracaoInfusao = _extrairConcentracao(textoDiluicaoInfusao);
 
     final unidadePadrao =
-        indicacoes.isNotEmpty ? indicacoes[0]['unidade'] : 'mcg/kg/min';
+        (indicacoes.isNotEmpty ? indicacoes[0]['unidade'] : null) ?? 'mcg/kg/min';
     final resultadoMlH =
         _calcularMlH(doseSelecionada, peso, unidadePadrao, concentracaoInfusao);
 
@@ -172,7 +173,7 @@ class _CardMedicamentoDinamicoState extends State<CardMedicamentoDinamico> {
                     style: const TextStyle(
                         fontSize: 15,
                         fontWeight: FontWeight.bold,
-                        color: Colors.indigo))
+                        color: AppColors.primary))
               ],
             ),
             Slider(

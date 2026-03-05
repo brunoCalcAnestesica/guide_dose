@@ -1,0 +1,898 @@
+{
+  "PT": {
+    "nome": "Enoxaparina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Profilaxia TEV (adulto)",
+          "descricaoDose": "40 mg SC 1x/dia. ClCr <30: 30 mg SC 1x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 40,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: 30 mg SC 1x/dia.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "Profilaxia TEV – ortopedia (adulto)",
+          "descricaoDose": "30 mg SC 2x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: considerar 30 mg SC 1x/dia.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "TEV agudo – 2x/dia (adulto)",
+          "descricaoDose": "1 mg/kg SC 2x/dia (máx 100 mg/dose). ClCr <30: 1 mg/kg SC 1x/dia.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: 1 mg/kg SC 1x/dia com monitorização anti-Xa se possível.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "TEV agudo – 1x/dia (adulto)",
+          "descricaoDose": "1,5 mg/kg SC 1x/dia (máx 150 mg/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: 1 mg/kg SC 1x/dia com monitorização anti-Xa se possível.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "SCA – NSTEMI/angina (adulto)",
+          "descricaoDose": "1 mg/kg SC 2x/dia (máx 100 mg/dose) por 2-8 dias.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/dia por 2-8 dias",
+            "ajusteRenal": "ClCr <30: 1 mg/kg SC 1x/dia com monitorização anti-Xa se possível.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "Ponte anticoagulante (adulto)",
+          "descricaoDose": "1 mg/kg SC 2x/dia (máx 100 mg/dose) até retorno da anticoagulação oral.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: 1 mg/kg SC 1x/dia com monitorização anti-Xa se possível.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "Pediatria – tratamento (ex. neonato)",
+          "descricaoDose": "1,5 mg/kg SC 2x/dia. Monitorização anti-Xa recomendada.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulante - Heparina de baixo peso molecular (HBPM)",
+      "apresentacoes": [
+        { "forma": "Seringa pré‑cheia 20 mg/0,2 mL", "obs": "Profilaxia baixo peso" },
+        { "forma": "Seringa pré‑cheia 40 mg/0,4 mL", "obs": "Profilaxia TEV" },
+        { "forma": "Seringa pré‑cheia 60 mg/0,6 mL", "obs": "Tratamento" },
+        { "forma": "Seringa pré‑cheia 80 mg/0,8 mL", "obs": "Tratamento" },
+        { "forma": "Seringa pré‑cheia 100 mg/1 mL", "obs": "Tratamento" },
+        { "forma": "Frasco 300 mg/3 mL", "obs": "Uso IV hospitalar" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso SC.", "concentracao": "Não aspirar nem massagear o local" }
+      ],
+      "observacoes": [
+        "Via subcutânea exclusiva (IV apenas em protocolos hospitalares específicos)",
+        "Aplicar em região abdominal, alternando os lados; não massagear após aplicação",
+        "ClCr <30: profilaxia 30 mg 1x/dia; tratamento 1 mg/kg 1x/dia com anti-Xa se possível",
+        "Monitorizar atividade anti-Xa em gestantes, neonatos, obesos e IR grave",
+        "Reversão parcial: protamina (1 mg neutraliza 1 mg enoxaparina; 60-70% efeito anti-Xa)",
+        "Cuidado com bloqueios neuroaxiais (raquianestesia/peridural) – ver diretrizes"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal; ajuste se ClCr <30 conforme indicação.",
+        "renal": "ClCr <30: profilaxia 30 mg 1x/dia; tratamento 1 mg/kg SC 1x/dia com monitorização anti-Xa.",
+        "hepatico": "Cautela em insuficiência hepática grave (risco de sangramento). Monitorar TP e sangramentos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Enoxaparina profilaxia TEV (adulto)",
+        "doseTexto": "40 mg SC 1x/dia",
+        "doseMin": 40,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enoxaparina TEV 2x/dia (adulto)",
+        "doseTexto": "1 mg/kg SC 2x/dia (máx 100 mg/dose)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enoxaparina TEV 1x/dia (adulto)",
+        "doseTexto": "1,5 mg/kg SC 1x/dia (máx 150 mg)",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enoxaparina pediatria (ex. neonato)",
+        "doseTexto": "1,5 mg/kg SC 2x/dia",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Enoxaparin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "VTE prophylaxis (adult)",
+          "descricaoDose": "40 mg SC once daily. CrCl <30: 30 mg SC once daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 40,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <30: 30 mg SC once daily.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "VTE prophylaxis – orthopedic (adult)",
+          "descricaoDose": "30 mg SC twice daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: consider 30 mg SC once daily.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Acute VTE – twice daily (adult)",
+          "descricaoDose": "1 mg/kg SC twice daily (max 100 mg/dose). CrCl <30: 1 mg/kg SC once daily.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: 1 mg/kg SC once daily with anti-Xa monitoring if possible.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Acute VTE – once daily (adult)",
+          "descricaoDose": "1.5 mg/kg SC once daily (max 150 mg/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <30: 1 mg/kg SC once daily with anti-Xa monitoring if possible.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "ACS – NSTEMI/angina (adult)",
+          "descricaoDose": "1 mg/kg SC twice daily (max 100 mg/dose) for 2-8 days.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "twice daily for 2-8 days",
+            "ajusteRenal": "CrCl <30: 1 mg/kg SC once daily with anti-Xa monitoring if possible.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Anticoagulant bridge (adult)",
+          "descricaoDose": "1 mg/kg SC twice daily (max 100 mg/dose) until return of oral anticoagulation.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: 1 mg/kg SC once daily with anti-Xa monitoring if possible.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Pediatrics – treatment (e.g. neonate)",
+          "descricaoDose": "1.5 mg/kg SC twice daily. Anti-Xa monitoring recommended.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "twice daily",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulant - Low molecular weight heparin (LMWH)",
+      "apresentacoes": [
+        { "forma": "Pre-filled syringe 20 mg/0.2 mL", "obs": "Prophylaxis low weight" },
+        { "forma": "Pre-filled syringe 40 mg/0.4 mL", "obs": "VTE prophylaxis" },
+        { "forma": "Pre-filled syringe 60 mg/0.6 mL", "obs": "Treatment" },
+        { "forma": "Pre-filled syringe 80 mg/0.8 mL", "obs": "Treatment" },
+        { "forma": "Pre-filled syringe 100 mg/1 mL", "obs": "Treatment" },
+        { "forma": "Vial 300 mg/3 mL", "obs": "Hospital IV use" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for SC use.", "concentracao": "Do not aspirate or massage site" }
+      ],
+      "observacoes": [
+        "Subcutaneous route only (IV only in specific hospital protocols)",
+        "Inject in abdominal region, alternate sides; do not massage after injection",
+        "CrCl <30: prophylaxis 30 mg once daily; treatment 1 mg/kg once daily with anti-Xa if possible",
+        "Monitor anti-Xa activity in pregnancy, neonates, obese and severe renal insufficiency",
+        "Partial reversal: protamine (1 mg neutralizes 1 mg enoxaparin; 60-70% anti-Xa effect)",
+        "Caution with neuraxial blocks (spinal/epidural) – see guidelines"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function; adjust if CrCl <30 per indication.",
+        "renal": "CrCl <30: prophylaxis 30 mg once daily; treatment 1 mg/kg SC once daily with anti-Xa monitoring.",
+        "hepatico": "Caution in severe hepatic insufficiency (bleeding risk). Monitor PT and bleeding."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Enoxaparin VTE prophylaxis (adult)",
+        "doseTexto": "40 mg SC once daily",
+        "doseMin": 40,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Enoxaparin VTE twice daily (adult)",
+        "doseTexto": "1 mg/kg SC twice daily (max 100 mg/dose)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Enoxaparin VTE once daily (adult)",
+        "doseTexto": "1.5 mg/kg SC once daily (max 150 mg)",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Enoxaparin pediatrics (e.g. neonate)",
+        "doseTexto": "1.5 mg/kg SC twice daily",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Enoxaparina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Profilaxis TEV (adulto)",
+          "descricaoDose": "40 mg SC 1x/día. ClCr <30: 30 mg SC 1x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 40,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: 30 mg SC 1x/día.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Profilaxis TEV – ortopedia (adulto)",
+          "descricaoDose": "30 mg SC 2x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr <30: considerar 30 mg SC 1x/día.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "TEV agudo – 2x/día (adulto)",
+          "descricaoDose": "1 mg/kg SC 2x/día (máx 100 mg/dosis). ClCr <30: 1 mg/kg SC 1x/día.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr <30: 1 mg/kg SC 1x/día con monitorización anti-Xa si es posible.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "TEV agudo – 1x/día (adulto)",
+          "descricaoDose": "1,5 mg/kg SC 1x/día (máx 150 mg/dosis).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: 1 mg/kg SC 1x/día con monitorización anti-Xa si es posible.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "SCA – NSTEMI/angina (adulto)",
+          "descricaoDose": "1 mg/kg SC 2x/día (máx 100 mg/dosis) por 2-8 días.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/día por 2-8 días",
+            "ajusteRenal": "ClCr <30: 1 mg/kg SC 1x/día con monitorización anti-Xa si es posible.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Puente anticoagulante (adulto)",
+          "descricaoDose": "1 mg/kg SC 2x/día (máx 100 mg/dosis) hasta retorno de anticoagulación oral.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr <30: 1 mg/kg SC 1x/día con monitorización anti-Xa si es posible.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Pediatría – tratamiento (ej. neonato)",
+          "descricaoDose": "1,5 mg/kg SC 2x/día. Monitorización anti-Xa recomendada.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2x/día",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulante - Heparina de bajo peso molecular (HBPM)",
+      "apresentacoes": [
+        { "forma": "Jeringa prellenada 20 mg/0,2 mL", "obs": "Profilaxis bajo peso" },
+        { "forma": "Jeringa prellenada 40 mg/0,4 mL", "obs": "Profilaxis TEV" },
+        { "forma": "Jeringa prellenada 60 mg/0,6 mL", "obs": "Tratamiento" },
+        { "forma": "Jeringa prellenada 80 mg/0,8 mL", "obs": "Tratamiento" },
+        { "forma": "Jeringa prellenada 100 mg/1 mL", "obs": "Tratamiento" },
+        { "forma": "Frasco 300 mg/3 mL", "obs": "Uso IV hospitalario" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso SC.", "concentracao": "No aspirar ni masajear el lugar" }
+      ],
+      "observacoes": [
+        "Vía subcutánea exclusiva (IV solo en protocolos hospitalarios específicos)",
+        "Aplicar en región abdominal alternando lados; no masajear tras aplicación",
+        "ClCr <30: profilaxis 30 mg 1x/día; tratamiento 1 mg/kg 1x/día con anti-Xa si es posible",
+        "Monitorizar actividad anti-Xa en gestantes, neonatos, obesos e IR grave",
+        "Reversión parcial: protamina (1 mg neutraliza 1 mg enoxaparina; 60-70% efecto anti-Xa)",
+        "Precaución con bloqueos neuroaxiales (raquianestesia/peridural) – ver guías"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal; ajuste si ClCr <30 según indicación.",
+        "renal": "ClCr <30: profilaxis 30 mg 1x/día; tratamiento 1 mg/kg SC 1x/día con monitorización anti-Xa.",
+        "hepatico": "Precaución en insuficiencia hepática grave (riesgo sangrado). Monitorizar TP y sangrados."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Enoxaparina profilaxis TEV (adulto)",
+        "doseTexto": "40 mg SC 1x/día",
+        "doseMin": 40,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enoxaparina TEV 2x/día (adulto)",
+        "doseTexto": "1 mg/kg SC 2x/día (máx 100 mg/dosis)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enoxaparina TEV 1x/día (adulto)",
+        "doseTexto": "1,5 mg/kg SC 1x/día (máx 150 mg)",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enoxaparina pediatría (ej. neonato)",
+        "doseTexto": "1,5 mg/kg SC 2x/día",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "依诺肝素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "VTE预防（成人）",
+          "descricaoDose": "40 mg 皮下 每日1次。ClCr <30：30 mg 皮下 每日1次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 40,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <30：30 mg 皮下 每日1次。",
+            "ajusteHepatico": "严重肝衰竭慎用。"
+          }
+        },
+        {
+          "titulo": "VTE预防骨科（成人）",
+          "descricaoDose": "30 mg 皮下 每日2次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <30：考虑30 mg 皮下 每日1次。",
+            "ajusteHepatico": "严重肝衰竭慎用。"
+          }
+        },
+        {
+          "titulo": "急性VTE 每日2次（成人）",
+          "descricaoDose": "1 mg/kg 皮下 每日2次（最大100 mg/次）。ClCr <30：1 mg/kg 皮下 每日1次。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <30：1 mg/kg 皮下 每日1次，可行时监测anti-Xa。",
+            "ajusteHepatico": "严重肝衰竭慎用。"
+          }
+        },
+        {
+          "titulo": "急性VTE 每日1次（成人）",
+          "descricaoDose": "1.5 mg/kg 皮下 每日1次（最大150 mg/次）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <30：1 mg/kg 皮下 每日1次，可行时监测anti-Xa。",
+            "ajusteHepatico": "严重肝衰竭慎用。"
+          }
+        },
+        {
+          "titulo": "ACS NSTEMI/心绞痛（成人）",
+          "descricaoDose": "1 mg/kg 皮下 每日2次（最大100 mg/次）2-8天。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日2次 共2-8天",
+            "ajusteRenal": "ClCr <30：1 mg/kg 皮下 每日1次，可行时监测anti-Xa。",
+            "ajusteHepatico": "严重肝衰竭慎用。"
+          }
+        },
+        {
+          "titulo": "抗凝桥接（成人）",
+          "descricaoDose": "1 mg/kg 皮下 每日2次（最大100 mg/次）直至恢复口服抗凝。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <30：1 mg/kg 皮下 每日1次，可行时监测anti-Xa。",
+            "ajusteHepatico": "严重肝衰竭慎用。"
+          }
+        },
+        {
+          "titulo": "儿科治疗（如新生儿）",
+          "descricaoDose": "1.5 mg/kg 皮下 每日2次。建议监测anti-Xa。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日2次",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "严重肝衰竭慎用。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗凝药 - 低分子肝素",
+      "apresentacoes": [
+        { "forma": "预灌注射器 20 mg/0.2 mL", "obs": "低体重预防" },
+        { "forma": "预灌注射器 40 mg/0.4 mL", "obs": "VTE预防" },
+        { "forma": "预灌注射器 60 mg/0.6 mL", "obs": "治疗" },
+        { "forma": "预灌注射器 80 mg/0.8 mL", "obs": "治疗" },
+        { "forma": "预灌注射器 100 mg/1 mL", "obs": "治疗" },
+        { "forma": "西林瓶 300 mg/3 mL", "obs": "院内IV用" }
+      ],
+      "preparo": [
+        { "diluicao": "皮下即用。", "concentracao": "勿抽回血或按摩注射部位" }
+      ],
+      "observacoes": [
+        "仅皮下给药（IV仅用于特定医院方案）",
+        "腹部注射，轮换部位；注射后勿按摩",
+        "ClCr <30：预防30 mg 每日1次；治疗1 mg/kg 每日1次，可行时测anti-Xa",
+        "妊娠、新生儿、肥胖及严重肾衰时监测anti-Xa",
+        "部分逆转：鱼精蛋白（1 mg中和1 mg依诺肝素；约60-70% anti-Xa效应）",
+        "椎管内麻醉注意 – 见指南"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能；ClCr <30时按指征调整。",
+        "renal": "ClCr <30：预防30 mg 每日1次；治疗1 mg/kg 皮下 每日1次并监测anti-Xa。",
+        "hepatico": "严重肝衰竭慎用（出血风险）。监测凝血及出血。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "依诺肝素 VTE预防（成人）",
+        "doseTexto": "40 mg 皮下 每日1次",
+        "doseMin": 40,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依诺肝素 VTE 每日2次（成人）",
+        "doseTexto": "1 mg/kg 皮下 每日2次（最大100 mg/次）",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依诺肝素 VTE 每日1次（成人）",
+        "doseTexto": "1.5 mg/kg 皮下 每日1次（最大150 mg）",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依诺肝素 儿科（如新生儿）",
+        "doseTexto": "1.5 mg/kg 皮下 每日2次",
+        "doseMin": 1.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

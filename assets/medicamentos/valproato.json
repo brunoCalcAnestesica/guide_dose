@@ -1,0 +1,52 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Valproato de Sódio / Ácido Valproico",
+      "nomesComerciais": ["Depakene®", "Valpakine®", "Depakote®", "Epilim®"],
+      "classeTerapeutica": "Antiepiléptico de amplo espectro",
+      "mecanismoAcao": "Mecanismo múltiplo: aumenta níveis de GABA (inibe GABA transaminase e succinato semialdeído desidrogenase), bloqueia canais de sódio voltagem-dependentes e canais de cálcio tipo T.",
+      "espectro": {
+        "eficazEm": [
+          "Crises tônico-clônicas generalizadas",
+          "Crises de ausência",
+          "Crises mioclônicas",
+          "Crises focais (parciais)",
+          "Síndrome de Lennox-Gastaut",
+          "Status epilepticus refratário"
+        ]
+      },
+      "apresentacoes": ["Ampola 100 mg/mL (5 mL = 500 mg)", "Comprimidos 250 mg, 500 mg", "Comprimidos de liberação prolongada 250 mg, 500 mg", "Xarope 250 mg/5 mL"],
+      "posologia": {
+        "statusEpilepticus": {
+          "ataque": "20-40 mg/kg IV em 10 min (máx 3000 mg)",
+          "infusaoContinua": "1-2 mg/kg/h IV"
+        },
+        "manutencao": {
+          "adulto": "10-15 mg/kg/dia IV/VO dividido 2-3x",
+          "pediatrico": "10-15 mg/kg/dia dividido 2-3x",
+          "doseMaxima": "60 mg/kg/dia"
+        }
+      },
+      "monitorizacao": {
+        "nivelSerico": "50-100 mcg/mL",
+        "coletaNivel": "2-4h após dose IV",
+        "examesLaboratoriais": ["TGO, TGP, bilirrubinas", "Amônia (se alteração do sensório)", "Hemograma com plaquetas"]
+      },
+      "farmacocinetica": {
+        "inicioAcaoIV": "15-30 minutos",
+        "meiaVida": "9-16 horas",
+        "ligacaoProteica": "90%",
+        "metabolismo": "Hepático (glucuronidação, beta-oxidação)"
+      },
+      "contraindicacoes": ["Doença hepática ativa", "Disfunção hepática significativa", "Desordens do ciclo da ureia", "Desordens mitocondriais conhecidas", "Porfiria"],
+      "efeitosAdversos": ["Hepatotoxicidade (risco maior em < 2 anos)", "Hiperamonemia", "Trombocitopenia dose-dependente", "Ganho de peso", "Tremor", "Alopecia", "Náusea, vômitos", "Pancreatite (rara)"],
+      "teratogenicidade": {
+        "risco": "ALTO - Categoria X",
+        "defeitos": ["Defeitos do tubo neural (espinha bífida)", "Dismorfismo facial", "Déficit cognitivo"],
+        "recomendacao": "Evitar em mulheres em idade fértil"
+      },
+      "interacoes": ["Inibe CYP2C9 (aumenta níveis de fenitoína)", "Desloca fenitoína das proteínas", "Aumenta níveis de lamotrigina"],
+      "categoriaGravidez": "X"
+    }
+  }
+}

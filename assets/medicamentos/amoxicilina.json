@@ -1,0 +1,37 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Amoxicilina",
+      "nomesComerciais": ["Amoxil®", "Novocilin®", "Amoximed®"],
+      "classeTerapeutica": "Antibiótico / Penicilina semissintética (Aminopenicilina)",
+      "mecanismoAcao": "Inibe a síntese da parede celular bacteriana ligando-se às proteínas ligadoras de penicilina (PBPs), resultando em ação bactericida.",
+      "espectro": {
+        "sensiveis": ["Streptococcus spp.", "S. pneumoniae", "E. faecalis", "H. influenzae (não produtor β-lactamase)", "E. coli (não produtor β-lactamase)", "Listeria monocytogenes"],
+        "resistentes": ["S. aureus (penicilinase+)", "Klebsiella", "Pseudomonas", "Bacteroides"]
+      },
+      "indicacoes": ["Otite média aguda", "Sinusite", "Faringite estreptocócica", "Pneumonia comunitária leve", "ITU não complicada", "Profilaxia de endocardite", "Erradicação de H. pylori"],
+      "apresentacoes": ["Cápsulas 250 mg, 500 mg", "Comprimidos 875 mg", "Suspensão oral 125 mg/5mL, 250 mg/5mL, 400 mg/5mL"],
+      "posologia": {
+        "adulto": {
+          "leve_moderada": "500 mg VO 8/8h",
+          "moderada_grave": "875 mg VO 12/12h",
+          "h_pylori": "1 g VO 12/12h (com IBP + claritromicina)",
+          "profilaxia_endocardite": "2 g VO 1h antes do procedimento"
+        },
+        "pediatrico": {
+          "padrao": "15-25 mg/kg/dose VO 8/8h",
+          "dose_alta_OMA": "40 mg/kg/dose VO 8/8h"
+        }
+      },
+      "ajusteRenal": {
+        "ClCr_10_30": "250-500 mg 12/12h",
+        "ClCr_menor_10": "250-500 mg 24/24h"
+      },
+      "contraindicacoes": ["Hipersensibilidade a penicilinas", "Mononucleose infecciosa (risco de rash)"],
+      "efeitosAdversos": ["Diarreia", "Náusea", "Rash cutâneo (~10%)", "Reação alérgica", "Colite pseudomembranosa (raro)"],
+      "interacoes": ["Alopurinol (aumenta risco de rash)", "Metotrexato (aumenta toxicidade)", "Anticoagulantes orais (monitorar)"],
+      "observacoes": ["Pode ser administrada com ou sem alimentos", "Categoria B na gestação", "Rash mais comum em pacientes com mononucleose"],
+      "categoriaGravidez": "B"
+    }
+  }
+}

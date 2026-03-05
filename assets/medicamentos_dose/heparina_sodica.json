@@ -1,0 +1,1302 @@
+{
+  "PT": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anticoagulação Plena",
+          "descricaoDose": "60-70 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "SCA/IAM",
+          "descricaoDose": "60 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 60,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "CEC/Hemodiálise (HNF)",
+          "descricaoDose": "300-400 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única - monitorar TCA",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "75-100 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonato",
+          "descricaoDose": "75 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia TVP/TEP",
+          "descricaoDose": "5000 UI SC a cada 8-12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": "5000 UI SC",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "a cada 8-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anticoagulação Plena",
+          "descricaoDose": "12-15 UI/kg/h IV contínua - ajustar por TTPa",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/kg/h",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "Monitorar TTPa em DRC",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "SCA/IAM",
+          "descricaoDose": "12 UI/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/kg/h",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 12,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "Monitorar TTPa em DRC",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "15-25 UI/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/kg/h",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 25,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "Monitorar TTPa",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonato",
+          "descricaoDose": "28 UI/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/kg/h",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 28,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "UI/kg/h",
+          "adulto": {
+            "doseMin": 10,
+            "doseMax": 18
+          },
+          "pediatrico": {
+            "doseMin": 15,
+            "doseMax": 28
+          },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "calculoMlH": "mL/h = (dose × peso) ÷ concentração",
+          "opcoesConcentracao": [
+            {
+              "rotulo": "25000 UI em 250mL SF 0,9% (100 UI/mL)",
+              "valor": 100
+            },
+            {
+              "rotulo": "25000 UI em 500mL SF 0,9% (50 UI/mL)",
+              "valor": 50
+            },
+            {
+              "rotulo": "10000 UI em 100mL SF 0,9% (100 UI/mL) - Pediátrico",
+              "valor": 100
+            },
+            {
+              "rotulo": "5000 UI em 250mL SF 0,9% (20 UI/mL) - Neonatal",
+              "valor": 20
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Anticoagulante parenteral - Heparina não fracionada (HNF)",
+      "apresentacoes": [
+        {
+          "forma": "Ampola 5000 UI/mL (5mL)",
+          "obs": "25000 UI total"
+        },
+        {
+          "forma": "Ampola 5000 UI/0,25mL",
+          "obs": "Para SC"
+        },
+        {
+          "forma": "Frasco 25000 UI/250mL",
+          "obs": "Solução pronta 100 UI/mL"
+        },
+        {
+          "forma": "Ampola 5000 UI/5mL",
+          "obs": "1000 UI/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "25000 UI + 250mL SF",
+          "concentracao": "100 UI/mL"
+        },
+        {
+          "diluicao": "25000 UI + 500mL SF",
+          "concentracao": "50 UI/mL"
+        },
+        {
+          "diluicao": "12500 UI + 250mL SF",
+          "concentracao": "50 UI/mL"
+        },
+        {
+          "diluicao": "5000 UI + 50mL SF",
+          "concentracao": "100 UI/mL"
+        }
+      ],
+      "observacoes": [
+        "Monitorar TTPa a cada 6h até estabilizar (alvo: 1,5-2,5x controle)",
+        "Risco de HIT (trombocitopenia): dosar plaquetas a cada 2-3 dias",
+        "Reversão com protamina: 1mg neutraliza ~100 UI de heparina",
+        "Não administrar IM (risco de hematoma)",
+        "Meia-vida: 30-150 min (dose-dependente)",
+        "Incompatível com soluções alcalinas"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior risco de sangramento. Iniciar com doses mais baixas e monitorar TTPa rigorosamente.",
+        "renal": "Geralmente não requer ajuste. Em DRC grave, monitorar TTPa frequentemente (risco de bioacumulação).",
+        "hepatico": "Usar com cautela em hepatopatia grave. Risco aumentado de sangramento. Monitorar TTPa e função hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "HNF - Dose Inicial (adulto)",
+        "doseTexto": "60-70 UI/kg IV",
+        "doseMin": 60,
+        "doseMax": 70,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Heparina Profilaxia",
+        "doseTexto": "5000 UI SC 8/8h ou 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "HNF - Dose Inicial (pediátrico)",
+        "doseTexto": "75-100 UI/kg IV",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Heparina CEC",
+        "doseTexto": "300-400 UI/kg IV",
+        "doseMin": 300,
+        "doseMax": 400,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Full Anticoagulation",
+          "descricaoDose": "60-70 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe liver disease"
+          }
+        },
+        {
+          "titulo": "ACS/MI",
+          "descricaoDose": "60 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 60,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe liver disease"
+          }
+        },
+        {
+          "titulo": "CPB/Hemodialysis (UFH)",
+          "descricaoDose": "300-400 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose - monitor ACT",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric",
+          "descricaoDose": "75-100 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Neonate",
+          "descricaoDose": "75 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "DVT/PE Prophylaxis",
+          "descricaoDose": "5000 IU SC every 8-12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": "5000 IU SC",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "every 8-12h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Full Anticoagulation",
+          "descricaoDose": "12-15 IU/kg/h IV continuous - adjust by aPTT",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "IU/kg/h",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "Monitor aPTT in CKD",
+            "ajusteHepatico": "Caution in severe liver disease"
+          }
+        },
+        {
+          "titulo": "ACS/MI",
+          "descricaoDose": "12 IU/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "IU/kg/h",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 12,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "Monitor aPTT in CKD",
+            "ajusteHepatico": "Caution in severe liver disease"
+          }
+        },
+        {
+          "titulo": "Pediatric",
+          "descricaoDose": "15-25 IU/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "IU/kg/h",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 25,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "Monitor aPTT",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Neonate",
+          "descricaoDose": "28 IU/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "IU/kg/h",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 28,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "IU/kg/h",
+          "adulto": {
+            "doseMin": 10,
+            "doseMax": 18
+          },
+          "pediatrico": {
+            "doseMin": 15,
+            "doseMax": 28
+          },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "calculoMlH": "mL/h = (dose × weight) ÷ concentration",
+          "opcoesConcentracao": [
+            {
+              "rotulo": "25000 IU in 250mL NS (100 IU/mL)",
+              "valor": 100
+            },
+            {
+              "rotulo": "25000 IU in 500mL NS (50 IU/mL)",
+              "valor": 50
+            },
+            {
+              "rotulo": "10000 IU in 100mL NS (100 IU/mL) - Pediatric",
+              "valor": 100
+            },
+            {
+              "rotulo": "5000 IU in 250mL NS (20 IU/mL) - Neonatal",
+              "valor": 20
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Parenteral anticoagulant - Unfractionated heparin (UFH)",
+      "apresentacoes": [
+        {
+          "forma": "Ampoule 5000 IU/mL (5mL)",
+          "obs": "25000 IU total"
+        },
+        {
+          "forma": "Ampoule 5000 IU/0.25mL",
+          "obs": "For SC use"
+        },
+        {
+          "forma": "Vial 25000 IU/250mL",
+          "obs": "Ready solution 100 IU/mL"
+        },
+        {
+          "forma": "Ampoule 5000 IU/5mL",
+          "obs": "1000 IU/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "25000 IU + 250mL NS",
+          "concentracao": "100 IU/mL"
+        },
+        {
+          "diluicao": "25000 IU + 500mL NS",
+          "concentracao": "50 IU/mL"
+        },
+        {
+          "diluicao": "12500 IU + 250mL NS",
+          "concentracao": "50 IU/mL"
+        },
+        {
+          "diluicao": "5000 IU + 50mL NS",
+          "concentracao": "100 IU/mL"
+        }
+      ],
+      "observacoes": [
+        "Monitor aPTT every 6h until stable (target: 1.5-2.5x control)",
+        "HIT risk (thrombocytopenia): check platelets every 2-3 days",
+        "Reversal with protamine: 1mg neutralizes ~100 IU heparin",
+        "Do not administer IM (hematoma risk)",
+        "Half-life: 30-150 min (dose-dependent)",
+        "Incompatible with alkaline solutions"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Higher bleeding risk. Start with lower doses and monitor aPTT closely.",
+        "renal": "Usually no adjustment needed. In severe CKD, monitor aPTT frequently (bioaccumulation risk).",
+        "hepatico": "Use with caution in severe liver disease. Increased bleeding risk. Monitor aPTT and liver function."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "UFH - Initial Dose (adult)",
+        "doseTexto": "60-70 IU/kg IV",
+        "doseMin": 60,
+        "doseMax": 70,
+        "unidadeResultado": "IU",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Heparin Prophylaxis",
+        "doseTexto": "5000 IU SC q8h or q12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "IU",
+        "decimais": 0,
+        "resultadoFixo": "5000 IU",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "UFH - Initial Dose (pediatric)",
+        "doseTexto": "75-100 IU/kg IV",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "IU",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Heparin CPB",
+        "doseTexto": "300-400 IU/kg IV",
+        "doseMin": 300,
+        "doseMax": 400,
+        "unidadeResultado": "IU",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anticoagulación Plena",
+          "descricaoDose": "60-70 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "SCA/IAM",
+          "descricaoDose": "60 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 60,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "CEC/Hemodiálisis (HNF)",
+          "descricaoDose": "300-400 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única - monitorear TCA",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "75-100 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Neonato",
+          "descricaoDose": "75 UI/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Profilaxis TVP/TEP",
+          "descricaoDose": "5000 UI SC cada 8-12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": "5000 UI SC",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "cada 8-12h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anticoagulación Plena",
+          "descricaoDose": "12-15 UI/kg/h IV continua - ajustar por TTPa",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/kg/h",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "Monitorear TTPa en ERC",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "SCA/IAM",
+          "descricaoDose": "12 UI/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/kg/h",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 12,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "Monitorear TTPa en ERC",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "15-25 UI/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/kg/h",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 25,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "Monitorear TTPa",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Neonato",
+          "descricaoDose": "28 UI/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "UI/kg/h",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 28,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "UI/kg/h",
+          "adulto": {
+            "doseMin": 10,
+            "doseMax": 18
+          },
+          "pediatrico": {
+            "doseMin": 15,
+            "doseMax": 28
+          },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "calculoMlH": "mL/h = (dosis × peso) ÷ concentración",
+          "opcoesConcentracao": [
+            {
+              "rotulo": "25000 UI en 250mL SSF 0,9% (100 UI/mL)",
+              "valor": 100
+            },
+            {
+              "rotulo": "25000 UI en 500mL SSF 0,9% (50 UI/mL)",
+              "valor": 50
+            },
+            {
+              "rotulo": "10000 UI en 100mL SSF 0,9% (100 UI/mL) - Pediátrico",
+              "valor": 100
+            },
+            {
+              "rotulo": "5000 UI en 250mL SSF 0,9% (20 UI/mL) - Neonatal",
+              "valor": 20
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Anticoagulante parenteral - Heparina no fraccionada (HNF)",
+      "apresentacoes": [
+        {
+          "forma": "Ampolla 5000 UI/mL (5mL)",
+          "obs": "25000 UI total"
+        },
+        {
+          "forma": "Ampolla 5000 UI/0,25mL",
+          "obs": "Para SC"
+        },
+        {
+          "forma": "Frasco 25000 UI/250mL",
+          "obs": "Solución lista 100 UI/mL"
+        },
+        {
+          "forma": "Ampolla 5000 UI/5mL",
+          "obs": "1000 UI/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "25000 UI + 250mL SSF",
+          "concentracao": "100 UI/mL"
+        },
+        {
+          "diluicao": "25000 UI + 500mL SSF",
+          "concentracao": "50 UI/mL"
+        },
+        {
+          "diluicao": "12500 UI + 250mL SSF",
+          "concentracao": "50 UI/mL"
+        },
+        {
+          "diluicao": "5000 UI + 50mL SSF",
+          "concentracao": "100 UI/mL"
+        }
+      ],
+      "observacoes": [
+        "Monitorear TTPa cada 6h hasta estabilizar (objetivo: 1,5-2,5x control)",
+        "Riesgo de HIT (trombocitopenia): evaluar plaquetas cada 2-3 días",
+        "Reversión con protamina: 1mg neutraliza ~100 UI de heparina",
+        "No administrar IM (riesgo de hematoma)",
+        "Vida media: 30-150 min (dependiente de dosis)",
+        "Incompatible con soluciones alcalinas"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor riesgo de sangrado. Iniciar con dosis más bajas y monitorear TTPa rigurosamente.",
+        "renal": "Generalmente no requiere ajuste. En ERC grave, monitorear TTPa frecuentemente (riesgo de bioacumulación).",
+        "hepatico": "Usar con precaución en hepatopatía grave. Riesgo aumentado de sangrado. Monitorear TTPa y función hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "HNF - Dosis Inicial (adulto)",
+        "doseTexto": "60-70 UI/kg IV",
+        "doseMin": 60,
+        "doseMax": 70,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Heparina Profilaxis",
+        "doseTexto": "5000 UI SC c/8h o c/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "HNF - Dosis Inicial (pediátrico)",
+        "doseTexto": "75-100 UI/kg IV",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Heparina CEC",
+        "doseTexto": "300-400 UI/kg IV",
+        "doseMin": 300,
+        "doseMax": 400,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "全量抗凝",
+          "descricaoDose": "60-70 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病时谨慎"
+          }
+        },
+        {
+          "titulo": "ACS/MI",
+          "descricaoDose": "60 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 60,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4000,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病时谨慎"
+          }
+        },
+        {
+          "titulo": "CPB/血液透析 (UFH)",
+          "descricaoDose": "300-400 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量 - 监测ACT",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童",
+          "descricaoDose": "75-100 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "新生儿",
+          "descricaoDose": "75 IU/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "DVT/PE预防",
+          "descricaoDose": "5000 IU SC 每8-12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "IU",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": "5000 IU SC",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每8-12小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "全量抗凝",
+          "descricaoDose": "12-15 IU/kg/h IV持续 - 根据aPTT调整",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "IU/kg/h",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "CKD时监测aPTT",
+            "ajusteHepatico": "严重肝病时谨慎"
+          }
+        },
+        {
+          "titulo": "ACS/MI",
+          "descricaoDose": "12 IU/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "IU/kg/h",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 12,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "CKD时监测aPTT",
+            "ajusteHepatico": "严重肝病时谨慎"
+          }
+        },
+        {
+          "titulo": "儿童",
+          "descricaoDose": "15-25 IU/kg/h IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "IU/kg/h",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 25,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "监测aPTT",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "新生儿",
+          "descricaoDose": "28 IU/kg/h IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "IU/kg/h",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 28,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "IU/kg/h",
+          "adulto": {
+            "doseMin": 10,
+            "doseMax": 18
+          },
+          "pediatrico": {
+            "doseMin": 15,
+            "doseMax": 28
+          },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "calculoMlH": "mL/h = (剂量 × 体重) ÷ 浓度",
+          "opcoesConcentracao": [
+            {
+              "rotulo": "25000 IU 溶于 250mL NS (100 IU/mL)",
+              "valor": 100
+            },
+            {
+              "rotulo": "25000 IU 溶于 500mL NS (50 IU/mL)",
+              "valor": 50
+            },
+            {
+              "rotulo": "10000 IU 溶于 100mL NS (100 IU/mL) - 儿童",
+              "valor": 100
+            },
+            {
+              "rotulo": "5000 IU 溶于 250mL NS (20 IU/mL) - 新生儿",
+              "valor": 20
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "肠外抗凝剂 - 普通肝素（UFH）",
+      "apresentacoes": [
+        {
+          "forma": "安瓿 5000 IU/mL (5mL)",
+          "obs": "共25000 IU"
+        },
+        {
+          "forma": "安瓿 5000 IU/0.25mL",
+          "obs": "皮下用"
+        },
+        {
+          "forma": "瓶装 25000 IU/250mL",
+          "obs": "即用溶液 100 IU/mL"
+        },
+        {
+          "forma": "安瓿 5000 IU/5mL",
+          "obs": "1000 IU/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "25000 IU + 250mL NS",
+          "concentracao": "100 IU/mL"
+        },
+        {
+          "diluicao": "25000 IU + 500mL NS",
+          "concentracao": "50 IU/mL"
+        },
+        {
+          "diluicao": "12500 IU + 250mL NS",
+          "concentracao": "50 IU/mL"
+        },
+        {
+          "diluicao": "5000 IU + 50mL NS",
+          "concentracao": "100 IU/mL"
+        }
+      ],
+      "observacoes": [
+        "每6小时监测aPTT直至稳定（目标：对照值的1.5-2.5倍）",
+        "HIT风险（血小板减少）：每2-3天检查血小板",
+        "鱼精蛋白逆转：1mg中和约100 IU肝素",
+        "禁止肌肉注射（血肿风险）",
+        "半衰期：30-150分钟（剂量依赖）",
+        "与碱性溶液不相容"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "出血风险较高。从较低剂量开始并严格监测aPTT。",
+        "renal": "通常无需调整。严重CKD时频繁监测aPTT（生物蓄积风险）。",
+        "hepatico": "严重肝病时谨慎使用。出血风险增加。监测aPTT和肝功能。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "UFH - 初始剂量（成人）",
+        "doseTexto": "60-70 IU/kg IV",
+        "doseMin": 60,
+        "doseMax": 70,
+        "unidadeResultado": "IU",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "肝素预防",
+        "doseTexto": "5000 IU SC q8h或q12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "IU",
+        "decimais": 0,
+        "resultadoFixo": "5000 IU",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "UFH - 初始剂量（儿童）",
+        "doseTexto": "75-100 IU/kg IV",
+        "doseMin": 75,
+        "doseMax": 100,
+        "unidadeResultado": "IU",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "肝素CPB",
+        "doseTexto": "300-400 IU/kg IV",
+        "doseMin": 300,
+        "doseMax": 400,
+        "unidadeResultado": "IU",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

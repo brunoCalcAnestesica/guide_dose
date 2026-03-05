@@ -1,0 +1,906 @@
+{
+  "PT": {
+    "nome": "Remidazolam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sedação procedimentos (ASA I-II)",
+          "descricaoDose": "5 mg IV em 1 min, aguardar 2 min, incrementos 2,5 mg PRN",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg IV em 1 min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "incrementos 2,5 mg PRN",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação procedimentos (Idosos/ASA III)",
+          "descricaoDose": "2,5-3 mg IV em 1 min, incrementos 1,25-2,5 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "2,5-3 mg IV em 1 min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "incrementos 1,25-2,5 mg",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "0,2-0,3 mg/kg IV em 1 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção sedação",
+          "descricaoDose": "0,5-1 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção anestésica",
+          "descricaoDose": "1-2 mg/kg/h IV contínua (com opioide)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação pediátrica (investigacional)",
+          "descricaoDose": "0,1-0,2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção pediátrica (off-label)",
+          "descricaoDose": "0,3-1 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.3,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.3, "doseMax": 1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Puro 8 mg/mL (bolus)", "valor": 8 },
+            { "rotulo": "100mg + 50mL SF (2 mg/mL)", "valor": 2 },
+            { "rotulo": "100mg + 100mL SF (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico - Ação ultra-curta (metabolismo por esterases)",
+      "apresentacoes": [
+        { "forma": "Frasco 20 mg", "obs": "Pó liofilizado | Byfavo®" },
+        { "forma": "Solução 20 mg/2,5 mL", "obs": "8 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Puro (reconstituído)", "concentracao": "8 mg/mL - bolus" },
+        { "diluicao": "100mg + 50mL SF", "concentracao": "2 mg/mL" },
+        { "diluicao": "100mg + 100mL SF", "concentracao": "1 mg/mL - infusão" }
+      ],
+      "observacoes": [
+        "Recuperação: 5-10 min (vs 2-4h midazolam)",
+        "Metabolismo por esterases - NÃO CYP450",
+        "NÃO requer ajuste renal/hepático",
+        "Onset: 1-3 min | Duração: 5-15 min",
+        "Reversão: flumazenil 0,2-1 mg IV disponível",
+        "Monitorar SpO2/PA/FC - ter O2 disponível"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose (2,5-3 mg IV). Incrementos 1,25-2,5 mg.",
+        "renal": "Não requer ajuste. Metabolismo por esterases teciduais.",
+        "hepatico": "Não requer ajuste. Metabolismo independente de CYP450."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Remidazolam - Sedação (adulto)",
+        "doseTexto": "5 mg IV em 1 min, incrementos 2,5 mg PRN",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remidazolam - Indução anestésica",
+        "doseTexto": "0,2-0,3 mg/kg IV em 1 min",
+        "doseMin": 0.2,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remidazolam - Manutenção sedação",
+        "doseTexto": "0,5-2 mg/kg/h IV",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remidazolam - Sedação (pediátrico)",
+        "doseTexto": "0,1-0,2 mg/kg IV (investigacional)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Remimazolam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Procedure sedation (ASA I-II)",
+          "descricaoDose": "5 mg IV over 1 min, wait 2 min, increments 2.5 mg PRN",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg IV over 1 min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "increments 2.5 mg PRN",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Procedure sedation (Elderly/ASA III)",
+          "descricaoDose": "2.5-3 mg IV over 1 min, increments 1.25-2.5 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "2.5-3 mg IV over 1 min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "increments 1.25-2.5 mg",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anesthetic induction",
+          "descricaoDose": "0.2-0.3 mg/kg IV over 1 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedation maintenance",
+          "descricaoDose": "0.5-1 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anesthetic maintenance",
+          "descricaoDose": "1-2 mg/kg/h IV continuous (with opioid)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric sedation (investigational)",
+          "descricaoDose": "0.1-0.2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric maintenance (off-label)",
+          "descricaoDose": "0.3-1 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.3,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.3, "doseMax": 1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Undiluted 8 mg/mL (bolus)", "valor": 8 },
+            { "rotulo": "100mg + 50mL NS (2 mg/mL)", "valor": 2 },
+            { "rotulo": "100mg + 100mL NS (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine - Ultrashort-acting (esterase metabolism)",
+      "apresentacoes": [
+        { "forma": "Vial 20 mg", "obs": "Lyophilized powder | Byfavo®" },
+        { "forma": "Solution 20 mg/2.5 mL", "obs": "8 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Undiluted (reconstituted)", "concentracao": "8 mg/mL - bolus" },
+        { "diluicao": "100mg + 50mL NS", "concentracao": "2 mg/mL" },
+        { "diluicao": "100mg + 100mL NS", "concentracao": "1 mg/mL - infusion" }
+      ],
+      "observacoes": [
+        "Recovery: 5-10 min (vs 2-4h midazolam)",
+        "Esterase metabolism - NOT CYP450",
+        "No renal/hepatic dose adjustment required",
+        "Onset: 1-3 min | Duration: 5-15 min",
+        "Reversal: flumazenil 0.2-1 mg IV available",
+        "Monitor SpO2/BP/HR - have O2 available"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose (2.5-3 mg IV). Increments 1.25-2.5 mg.",
+        "renal": "No adjustment. Tissue esterase metabolism.",
+        "hepatico": "No adjustment. Metabolism independent of CYP450."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Remimazolam - Sedation (adult)",
+        "doseTexto": "5 mg IV over 1 min, increments 2.5 mg PRN",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Remimazolam - Anesthetic induction",
+        "doseTexto": "0.2-0.3 mg/kg IV over 1 min",
+        "doseMin": 0.2,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Remimazolam - Sedation maintenance",
+        "doseTexto": "0.5-2 mg/kg/h IV",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Remimazolam - Sedation (pediatric)",
+        "doseTexto": "0.1-0.2 mg/kg IV (investigational)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Remidazolam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sedación procedimientos (ASA I-II)",
+          "descricaoDose": "5 mg IV en 1 min, esperar 2 min, incrementos 2,5 mg PRN",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg IV en 1 min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "incrementos 2,5 mg PRN",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedación procedimientos (Ancianos/ASA III)",
+          "descricaoDose": "2,5-3 mg IV en 1 min, incrementos 1,25-2,5 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "2,5-3 mg IV en 1 min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "incrementos 1,25-2,5 mg",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción anestésica",
+          "descricaoDose": "0,2-0,3 mg/kg IV en 1 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento sedación",
+          "descricaoDose": "0,5-1 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento anestésico",
+          "descricaoDose": "1-2 mg/kg/h IV continua (con opioide)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedación pediátrica (investigacional)",
+          "descricaoDose": "0,1-0,2 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento pediátrico (off-label)",
+          "descricaoDose": "0,3-1 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.3,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.3, "doseMax": 1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Puro 8 mg/mL (bolo)", "valor": 8 },
+            { "rotulo": "100mg + 50mL SF (2 mg/mL)", "valor": 2 },
+            { "rotulo": "100mg + 100mL SF (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico - Acción ultracorta (metabolismo por esterasas)",
+      "apresentacoes": [
+        { "forma": "Frasco 20 mg", "obs": "Polvo liofilizado | Byfavo®" },
+        { "forma": "Solución 20 mg/2,5 mL", "obs": "8 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Puro (reconstituido)", "concentracao": "8 mg/mL - bolo" },
+        { "diluicao": "100mg + 50mL SF", "concentracao": "2 mg/mL" },
+        { "diluicao": "100mg + 100mL SF", "concentracao": "1 mg/mL - infusión" }
+      ],
+      "observacoes": [
+        "Recuperación: 5-10 min (vs 2-4h midazolam)",
+        "Metabolismo por esterasas - NO CYP450",
+        "NO requiere ajuste renal/hepático",
+        "Inicio: 1-3 min | Duración: 5-15 min",
+        "Reversión: flumazenil 0,2-1 mg IV disponible",
+        "Monitorizar SpO2/PA/FC - tener O2 disponible"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis (2,5-3 mg IV). Incrementos 1,25-2,5 mg.",
+        "renal": "No requiere ajuste. Metabolismo por esterasas tisulares.",
+        "hepatico": "No requiere ajuste. Metabolismo independiente de CYP450."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Remidazolam - Sedación (adulto)",
+        "doseTexto": "5 mg IV en 1 min, incrementos 2,5 mg PRN",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remidazolam - Inducción anestésica",
+        "doseTexto": "0,2-0,3 mg/kg IV en 1 min",
+        "doseMin": 0.2,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remidazolam - Mantenimiento sedación",
+        "doseTexto": "0,5-2 mg/kg/h IV",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remidazolam - Sedación (pediátrico)",
+        "doseTexto": "0,1-0,2 mg/kg IV (investigacional)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "瑞马唑仑",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "手术镇静 (ASA I-II)",
+          "descricaoDose": "5 mg IV 1分钟内，等2分钟，按需追加2.5 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg IV 1分钟内",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "按需追加2.5 mg",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "手术镇静 (老年/ASA III)",
+          "descricaoDose": "2.5-3 mg IV 1分钟内，追加1.25-2.5 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "2.5-3 mg IV 1分钟内",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "追加1.25-2.5 mg",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "麻醉诱导",
+          "descricaoDose": "0.2-0.3 mg/kg IV 1分钟内",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "镇静维持",
+          "descricaoDose": "0.5-1 mg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "麻醉维持",
+          "descricaoDose": "1-2 mg/kg/h IV 持续（联用阿片类）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童镇静（研究中）",
+          "descricaoDose": "0.1-0.2 mg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童维持（超说明书）",
+          "descricaoDose": "0.3-1 mg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.3,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.3, "doseMax": 1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "原液 8 mg/mL（推注）", "valor": 8 },
+            { "rotulo": "100mg + 50mL 生理盐水 (2 mg/mL)", "valor": 2 },
+            { "rotulo": "100mg + 100mL 生理盐水 (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "苯二氮䓬类 - 超短效（酯酶代谢）",
+      "apresentacoes": [
+        { "forma": "瓶 20 mg", "obs": "冻干粉 | Byfavo®" },
+        { "forma": "溶液 20 mg/2.5 mL", "obs": "8 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "原液（复溶）", "concentracao": "8 mg/mL - 推注" },
+        { "diluicao": "100mg + 50mL 生理盐水", "concentracao": "2 mg/mL" },
+        { "diluicao": "100mg + 100mL 生理盐水", "concentracao": "1 mg/mL - 输注" }
+      ],
+      "observacoes": [
+        "恢复：5-10分钟（咪达唑仑约2-4小时）",
+        "酯酶代谢 - 非CYP450",
+        "无需肾/肝剂量调整",
+        "起效：1-3分钟 | 持续时间：5-15分钟",
+        "拮抗：氟马西尼 0.2-1 mg IV 备用",
+        "监测SpO2/血压/心率 - 备氧"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量（2.5-3 mg IV）。追加1.25-2.5 mg。",
+        "renal": "无需调整。组织酯酶代谢。",
+        "hepatico": "无需调整。代谢不依赖CYP450。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "瑞马唑仑 - 镇静（成人）",
+        "doseTexto": "5 mg IV 1分钟内，按需追加2.5 mg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "瑞马唑仑 - 麻醉诱导",
+        "doseTexto": "0.2-0.3 mg/kg IV 1分钟内",
+        "doseMin": 0.2,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "瑞马唑仑 - 镇静维持",
+        "doseTexto": "0.5-2 mg/kg/h IV",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "瑞马唑仑 - 镇静（儿童）",
+        "doseTexto": "0.1-0.2 mg/kg IV（研究中）",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

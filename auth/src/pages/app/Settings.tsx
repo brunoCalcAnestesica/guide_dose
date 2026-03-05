@@ -1,34 +1,86 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { Card } from '../../components/ui/Card'
 import { Button } from '../../components/ui/Button'
+import { useAuth } from '../../auth/AuthProvider'
+import { apiQuery, apiUpdate, apiUpdatePassword } from '../../lib/api'
+import type { Profile } from '../../types'
 
 export default function Settings() {
+  const { user } = useAuth()
+  const [loading, setLoading] = useState(true)
   const [form, setForm] = useState({
-    nome: 'Bruno Daroz',
-    email: 'bhdaroz@gmail.com',
-    crm: '123456-SP',
-    especialidade: 'Medicina Intensiva',
-    tema: 'claro',
-    idioma: 'pt-BR',
-    notificacoes: true,
+    full_name: '',
+    email: '',
+    crm: '',
+    specialty: '',
+    phone: '',
+    address: '',
+    rqe: '',
   })
-  const [senha, setSenha] = useState({ atual: '', nova: '', confirmar: '' })
+  const [senha, setSenha] = useState({ nova: '', confirmar: '' })
   const [saved, setSaved] = useState(false)
+  const [error, setError] = useState<string | null>(null)
 
-  const handleSave = (e: React.FormEvent) => {
+  useEffect(() => {
+    if (!user) return
+    apiQuery<Profile[]>('profiles', { id: `eq.${user.id}`, select: '*' }).then(({ data }) => {
+      if (data && data.length > 0) {
+        const p = data[0]
+        setForm({
+          full_name: p.full_name || '',
+          email: p.email || user.email || '',
+          crm: p.crm || '',
+          specialty: p.specialty || '',
+          phone: p.phone || '',
+          address: p.address || '',
+          rqe: p.rqe || '',
+        })
+      } else {
+        setForm(prev => ({ ...prev, email: user.email || '' }))
+      }
+      setLoading(false)
+    })
+  }, [user])
+
+  const handleSave = async (e: React.FormEvent) => {
     e.preventDefault()
-    setSaved(true)
-    setTimeout(() => setSaved(false), 2000)
+    if (!user) return
+    setError(null)
+
+    const { error: err } = await apiUpdate('profiles', { id: `eq.${user.id}` }, {
+      full_name: form.full_name || null,
+      crm: form.crm || null,
+      specialty: form.specialty || null,
+      phone: form.phone || null,
+      address: form.address || null,
+      rqe: form.rqe || null,
+    })
+
+    if (err) {
+      setError(err)
+    } else {
+      setSaved(true)
+      setTimeout(() => setSaved(false), 2000)
+    }
   }
 
-  const handleChangePassword = (e: React.FormEvent) => {
+  const handleChangePassword = async (e: React.FormEvent) => {
     e.preventDefault()
     if (senha.nova !== senha.confirmar) {
       alert('As senhas não conferem.')
       return
     }
-    alert('Senha alterada com sucesso (mock).')
-    setSenha({ atual: '', nova: '', confirmar: '' })
+    const result = await apiUpdatePassword(senha.nova)
+    if (result.error) {
+      alert(result.error)
+    } else {
+      alert('Senha alterada com sucesso!')
+      setSenha({ nova: '', confirmar: '' })
+    }
+  }
+
+  if (loading) {
+    return <p className="text-sm text-gray-500">Carregando configurações...</p>
   }
 
   return (
@@ -40,13 +92,13 @@ export default function Settings() {
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label className="block text-sm font-medium text-gray-700">Nome completo</label>
-              <input value={form.nome} onChange={e => setForm(p => ({ ...p, nome: e.target.value }))}
+              <input value={form.full_name} onChange={e => setForm(p => ({ ...p, full_name: e.target.value }))}
                 className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700">E-mail</label>
-              <input type="email" value={form.email} onChange={e => setForm(p => ({ ...p, email: e.target.value }))}
-                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+              <input type="email" value={form.email} disabled
+                className="mt-1 block w-full rounded-lg border border-gray-200 bg-gray-50 px-3 py-2 text-sm text-gray-500" />
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700">CRM</label>
@@ -55,10 +107,26 @@ export default function Settings() {
             </div>
             <div>
               <label className="block text-sm font-medium text-gray-700">Especialidade</label>
-              <input value={form.especialidade} onChange={e => setForm(p => ({ ...p, especialidade: e.target.value }))}
+              <input value={form.specialty} onChange={e => setForm(p => ({ ...p, specialty: e.target.value }))}
+                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Telefone</label>
+              <input value={form.phone} onChange={e => setForm(p => ({ ...p, phone: e.target.value }))}
+                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">RQE</label>
+              <input value={form.rqe} onChange={e => setForm(p => ({ ...p, rqe: e.target.value }))}
                 className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
             </div>
           </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Endereço</label>
+            <input value={form.address} onChange={e => setForm(p => ({ ...p, address: e.target.value }))}
+              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+          </div>
+          {error && <p className="text-sm text-red-600">{error}</p>}
           <div className="flex items-center gap-4">
             <Button type="submit">Salvar Alterações</Button>
             {saved && <span className="text-sm text-green-600">Salvo!</span>}
@@ -66,53 +134,8 @@ export default function Settings() {
         </form>
       </Card>
 
-      <Card title="Preferências">
-        <div className="space-y-4">
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm font-medium text-gray-700">Tema</p>
-              <p className="text-xs text-gray-500">Claro ou escuro</p>
-            </div>
-            <select value={form.tema} onChange={e => setForm(p => ({ ...p, tema: e.target.value }))}
-              className="rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500">
-              <option value="claro">Claro</option>
-              <option value="escuro">Escuro</option>
-            </select>
-          </div>
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm font-medium text-gray-700">Idioma</p>
-              <p className="text-xs text-gray-500">Preparado para internacionalização</p>
-            </div>
-            <select value={form.idioma} onChange={e => setForm(p => ({ ...p, idioma: e.target.value }))}
-              className="rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500">
-              <option value="pt-BR">Português (BR)</option>
-              <option value="en">English</option>
-              <option value="es">Español</option>
-            </select>
-          </div>
-          <div className="flex items-center justify-between">
-            <div>
-              <p className="text-sm font-medium text-gray-700">Notificações</p>
-              <p className="text-xs text-gray-500">Receber alertas de novas versões e plantões</p>
-            </div>
-            <button
-              onClick={() => setForm(p => ({ ...p, notificacoes: !p.notificacoes }))}
-              className={`relative h-6 w-11 rounded-full transition-colors ${form.notificacoes ? 'bg-brand-600' : 'bg-gray-300'}`}
-            >
-              <span className={`absolute top-0.5 left-0.5 h-5 w-5 rounded-full bg-white transition-transform shadow ${form.notificacoes ? 'translate-x-5' : ''}`} />
-            </button>
-          </div>
-        </div>
-      </Card>
-
       <Card title="Alterar Senha">
         <form onSubmit={handleChangePassword} className="space-y-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Senha atual</label>
-            <input type="password" required value={senha.atual} onChange={e => setSenha(p => ({ ...p, atual: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-          </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <div>
               <label className="block text-sm font-medium text-gray-700">Nova senha</label>

@@ -1,0 +1,546 @@
+{
+  "PT": {
+    "nome": "Uroquinase",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "TEP (Tromboembolismo Pulmonar) - Ataque",
+          "descricaoDose": "4.400 UI/kg IV em 10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 4400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TEP - Manutenção (12h)",
+          "descricaoDose": "4.400 UI/kg/h IV por 12 horas (use o slider abaixo para mL/h)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": 4400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua por 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Desobstrução de cateter",
+          "descricaoDose": "5.000-25.000 UI instilado no lúmen",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": 5000,
+            "doseMax": 25000,
+            "doseMaxima": 25000,
+            "doseFixa": "5.000-25.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Instilação",
+            "intervalo": "Preencher lúmen, aguardar 1-4h, aspirar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão TEP - Manutenção (12h)",
+          "unidade": "UI/kg/h",
+          "adulto": { "doseMin": 4400, "doseMax": 4400 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "250.000 UI em 250 mL SF 0,9% (1.000 UI/mL)", "valor": 1000 },
+            { "rotulo": "250.000 UI em 500 mL SF 0,9% (500 UI/mL)", "valor": 500 },
+            { "rotulo": "500.000 UI em 500 mL SF 0,9% (1.000 UI/mL)", "valor": 1000 },
+            { "rotulo": "500.000 UI em 250 mL SF 0,9% (2.000 UI/mL)", "valor": 2000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Trombolítico / Ativador direto do plasminogênio (origem humana)",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 250.000 UI pó liofilizado", "obs": "Abbokinase®, Urokinase®" },
+        { "forma": "Frasco-ampola 500.000 UI pó liofilizado", "obs": "Abbokinase®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir com 5 mL água estéril (sem bacteriostático)", "concentracao": "Pó" },
+        { "diluicao": "Diluir em SF 0,9% ou SG 5% para infusão", "concentracao": "Conforme prescrição" }
+      ],
+      "observacoes": [
+        "Origem humana: menor risco alérgico que estreptoquinase",
+        "Pode ser reutilizada: não forma anticorpos neutralizantes",
+        "Uso limitado pela disponibilidade no mercado",
+        "Monitorar aPTT durante infusão; suspender heparina durante trombólise",
+        "Contraindicações: sangramento ativo, AVC hemorrágico, cirurgia intracraniana recente",
+        "Reiniciar heparina quando aPTT <2x normal; evitar procedimentos invasivos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Avaliar risco hemorrágico.",
+        "renal": "Não requer ajuste de dose. Meia-vida 10-20 min; eliminação renal e biliar.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Uroquinase (adulto) - TEP ataque",
+        "doseTexto": "4.400 UI/kg IV em 10 min",
+        "doseMin": 4400,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Uroquinase (adulto) - TEP manutenção",
+        "doseTexto": "4.400 UI/kg/h IV por 12h",
+        "doseMin": 4400,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Uroquinase - Desobstrução cateter",
+        "doseTexto": "5.000-25.000 UI no lúmen",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5.000-25.000 UI",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Urokinase",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "PE (Pulmonary Embolism) - Bolus",
+          "descricaoDose": "4,400 IU/kg IV over 10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 4400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose over 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PE - Maintenance (12h)",
+          "descricaoDose": "4,400 IU/kg/h IV for 12 hours (use slider below for mL/h)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": 4400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion for 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Catheter clearance",
+          "descricaoDose": "5,000-25,000 IU instilled into lumen",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": 5000,
+            "doseMax": 25000,
+            "doseMaxima": 25000,
+            "doseFixa": "5,000-25,000 IU",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Instillation",
+            "intervalo": "Fill lumen, wait 1-4h, aspirate",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "PE maintenance infusion (12h)",
+          "unidade": "UI/kg/h",
+          "adulto": { "doseMin": 4400, "doseMax": 4400 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "250,000 IU in 250 mL NS (1,000 IU/mL)", "valor": 1000 },
+            { "rotulo": "250,000 IU in 500 mL NS (500 IU/mL)", "valor": 500 },
+            { "rotulo": "500,000 IU in 500 mL NS (1,000 IU/mL)", "valor": 1000 },
+            { "rotulo": "500,000 IU in 250 mL NS (2,000 IU/mL)", "valor": 2000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Thrombolytic / Direct plasminogen activator (human origin)",
+      "apresentacoes": [
+        { "forma": "Vial 250,000 IU lyophilized powder", "obs": "Abbokinase®, Urokinase®" },
+        { "forma": "Vial 500,000 IU lyophilized powder", "obs": "Abbokinase®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with 5 mL sterile water (no bacteriostatic)", "concentracao": "Powder" },
+        { "diluicao": "Dilute in 0.9% NS or D5W for infusion", "concentracao": "As prescribed" }
+      ],
+      "observacoes": [
+        "Human origin: lower allergic risk than streptokinase",
+        "Can be reused: does not induce neutralizing antibodies",
+        "Limited use due to market availability",
+        "Monitor aPTT during infusion; hold heparin during thrombolysis",
+        "Contraindications: active bleeding, hemorrhagic stroke, recent intracranial surgery",
+        "Resume heparin when aPTT <2x normal; avoid invasive procedures"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Assess bleeding risk.",
+        "renal": "No dose adjustment. Half-life 10-20 min; renal and biliary elimination.",
+        "hepatico": "Use with caution in severe hepatic insufficiency."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Urokinase (adult) - PE bolus",
+        "doseTexto": "4,400 IU/kg IV over 10 min",
+        "doseMin": 4400,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Urokinase (adult) - PE maintenance",
+        "doseTexto": "4,400 IU/kg/h IV for 12h",
+        "doseMin": 4400,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Urokinase - Catheter clearance",
+        "doseTexto": "5,000-25,000 IU into lumen",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5,000-25,000 IU",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Uroquinasa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "TEP (Tromboembolismo Pulmonar) - Ataque",
+          "descricaoDose": "4.400 UI/kg IV en 10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 4400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TEP - Mantenimiento (12h)",
+          "descricaoDose": "4.400 UI/kg/h IV por 12 horas (use el control para mL/h)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": 4400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua por 12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Desobstrucción de catéter",
+          "descricaoDose": "5.000-25.000 UI instilado en el lumen",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": 5000,
+            "doseMax": 25000,
+            "doseMaxima": 25000,
+            "doseFixa": "5.000-25.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Instilación",
+            "intervalo": "Llenar lumen, esperar 1-4h, aspirar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión TEP - Mantenimiento (12h)",
+          "unidade": "UI/kg/h",
+          "adulto": { "doseMin": 4400, "doseMax": 4400 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "250.000 UI en 250 mL SF 0,9% (1.000 UI/mL)", "valor": 1000 },
+            { "rotulo": "250.000 UI en 500 mL SF 0,9% (500 UI/mL)", "valor": 500 },
+            { "rotulo": "500.000 UI en 500 mL SF 0,9% (1.000 UI/mL)", "valor": 1000 },
+            { "rotulo": "500.000 UI en 250 mL SF 0,9% (2.000 UI/mL)", "valor": 2000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Trombolítico / Activador directo del plasminógeno (origen humano)",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 250.000 UI polvo liofilizado", "obs": "Abbokinase®, Urokinase®" },
+        { "forma": "Frasco-ampolla 500.000 UI polvo liofilizado", "obs": "Abbokinase®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir con 5 mL agua estéril (sin bacteriostático)", "concentracao": "Polvo" },
+        { "diluicao": "Diluir en SF 0,9% o SG 5% para infusión", "concentracao": "Según prescripción" }
+      ],
+      "observacoes": [
+        "Origen humano: menor riesgo alérgico que estreptoquinasa",
+        "Puede reutilizarse: no forma anticuerpos neutralizantes",
+        "Uso limitado por disponibilidad en el mercado",
+        "Monitorizar aPTT durante infusión; suspender heparina durante trombólisis",
+        "Contraindicaciones: sangrado activo, AVC hemorrágico, cirugía intracraneal reciente",
+        "Reiniciar heparina cuando aPTT <2x normal; evitar procedimientos invasivos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Valorar riesgo hemorrágico.",
+        "renal": "No requiere ajuste. Vida media 10-20 min; eliminación renal y biliar.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Uroquinasa (adulto) - TEP ataque",
+        "doseTexto": "4.400 UI/kg IV en 10 min",
+        "doseMin": 4400,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Uroquinasa (adulto) - TEP mantenimiento",
+        "doseTexto": "4.400 UI/kg/h IV por 12h",
+        "doseMin": 4400,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Uroquinasa - Desobstrucción catéter",
+        "doseTexto": "5.000-25.000 UI en el lumen",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5.000-25.000 UI",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "尿激酶",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "肺栓塞 (TEP) - 负荷量",
+          "descricaoDose": "4.400 UI/kg 静注 10分钟",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 4400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次 10分钟内",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TEP - 维持 (12h)",
+          "descricaoDose": "4.400 UI/kg/h 静注 12小时（用下方滑块计算 mL/h）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI/h",
+            "dosePorKg": 4400,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注12小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "导管通畅",
+          "descricaoDose": "5.000-25.000 UI 注入管腔",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": 5000,
+            "doseMax": 25000,
+            "doseMaxima": 25000,
+            "doseFixa": "5.000-25.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Instilación",
+            "intervalo": "充盈管腔，等待1-4小时，抽吸",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "TEP 维持输注 (12h)",
+          "unidade": "UI/kg/h",
+          "adulto": { "doseMin": 4400, "doseMax": 4400 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "25万 UI 溶于 250 mL 生理盐水 (1.000 UI/mL)", "valor": 1000 },
+            { "rotulo": "25万 UI 溶于 500 mL 生理盐水 (500 UI/mL)", "valor": 500 },
+            { "rotulo": "50万 UI 溶于 500 mL 生理盐水 (1.000 UI/mL)", "valor": 1000 },
+            { "rotulo": "50万 UI 溶于 250 mL 生理盐水 (2.000 UI/mL)", "valor": 2000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "溶栓药 / 直接纤溶酶原激活剂（人源）",
+      "apresentacoes": [
+        { "forma": "西林瓶 25万 UI 冻干粉", "obs": "Abbokinase®、Urokinase®" },
+        { "forma": "西林瓶 50万 UI 冻干粉", "obs": "Abbokinase®" }
+      ],
+      "preparo": [
+        { "diluicao": "用5 mL无菌注射用水复溶（无防腐剂）", "concentracao": "粉剂" },
+        { "diluicao": "用0.9%生理盐水或5%葡萄糖稀释输注", "concentracao": "遵医嘱" }
+      ],
+      "observacoes": [
+        "人源：比链激酶过敏风险低",
+        "可重复使用：不产生中和抗体",
+        "市场供应有限",
+        "输注期间监测aPTT；溶栓时停用肝素",
+        "禁忌：活动性出血、出血性卒中、近期颅内手术",
+        "aPTT<2倍正常时恢复肝素；避免有创操作"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。评估出血风险。",
+        "renal": "无需调整。半衰期10-20分钟；经肾和胆汁消除。",
+        "hepatico": "严重肝功能不全慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "尿激酶 (成人) - TEP负荷",
+        "doseTexto": "4.400 UI/kg 静注 10分钟",
+        "doseMin": 4400,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "尿激酶 (成人) - TEP维持",
+        "doseTexto": "4.400 UI/kg/h 静注 12小时",
+        "doseMin": 4400,
+        "doseMax": null,
+        "unidadeResultado": "UI/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "尿激酶 - 导管通畅",
+        "doseTexto": "5.000-25.000 UI 管腔注入",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5.000-25.000 UI",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Minociclina",
+      "nomesComerciais": ["Minomax®", "Minoderm®"],
+      "classeTerapeutica": "Antibiótico / Tetraciclina de 2ª geração",
+      "mecanismoAcao": "Liga-se à subunidade 30S do ribossomo bacteriano, inibindo a síntese proteica. Maior lipossolubilidade que doxiciclina, com melhor penetração em SNC e tecidos sebáceos.",
+      "espectro": {
+        "excelente": ["MRSA-CA (melhor que doxiciclina)", "Mycoplasma", "Chlamydia", "Nocardia", "Propionibacterium acnes"],
+        "moderado": ["S. pneumoniae", "H. influenzae"],
+        "diferencial": "Maior atividade contra MRSA e Nocardia comparada à doxiciclina"
+      },
+      "indicacoes": ["Acne moderada a grave (1ª linha)", "MRSA-CA (infecções de pele)", "Nocardiose", "Artrite reumatoide (off-label)"],
+      "apresentacoes": ["Comprimidos/Cápsulas 50 mg, 100 mg", "Liberação prolongada 45 mg, 90 mg, 135 mg (acne)"],
+      "posologia": {
+        "adulto": {
+          "acne": "50-100 mg VO 12/12h ou 100 mg 1x/dia",
+          "MRSA": "100 mg VO 12/12h",
+          "nocardiose": "100 mg VO 12/12h"
+        },
+        "pediatrico_maior_8_anos": {
+          "dose": "1 mg/kg/dose VO 12/12h (máx 100 mg/dose)"
+        }
+      },
+      "ajusteRenal": {
+        "ClCr_menor_80": "Reduzir dose ou intervalo"
+      },
+      "diferencas_doxiciclina": {
+        "vantagens": ["Melhor para acne (concentração sebácea)", "Melhor para MRSA", "Menos fotossensibilidade", "Melhor penetração SNC"],
+        "desvantagens": ["Mais efeitos vestibulares (tontura)", "Pigmentação cutânea com uso prolongado", "Requer ajuste renal"]
+      },
+      "contraindicacoes": ["Menores de 8 anos", "Gestação", "Amamentação"],
+      "efeitosAdversos": ["Vertigem/tontura (vestibular)", "Pigmentação azul-acinzentada", "Náusea", "Cefaleia", "Hepatotoxicidade (rara)"],
+      "observacoes": ["Efeitos vestibulares mais comuns em mulheres", "Pigmentação pode ser irreversível", "Categoria D na gestação"],
+      "categoriaGravidez": "D"
+    }
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "PT": {
+    "nome": "Fenilefrina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipotensão (raquianestesia/peridural)",
+          "descricaoDose": "50-200 mcg IV bolus, repetir a cada 2-3 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "50-200 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 2-3 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção / Hipotensão refratária",
+          "descricaoDose": "0,1-0,5 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipotensão pediátrica (bolus)",
+          "descricaoDose": "1-5 mcg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção pediátrica",
+          "descricaoDose": "0,1-0,5 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.5 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 0.5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10mg em 100mL SF 0,9% (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "10mg em 250mL SF 0,9% (40 mcg/mL)", "valor": 40 },
+            { "rotulo": "10mg em 500mL SF 0,9% (20 mcg/mL)", "valor": 20 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Agonista α1 seletivo",
+      "apresentacoes": [
+        { "forma": "Ampola 10mg/mL", "obs": "1 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "10mg + 100mL SF", "concentracao": "100 mcg/mL (bolus)" },
+        { "diluicao": "10mg + 250mL SF", "concentracao": "40 mcg/mL" },
+        { "diluicao": "10mg + 500mL SF", "concentracao": "20 mcg/mL" }
+      ],
+      "observacoes": [
+        "Início: <1 min | Duração: 5-20 min",
+        "Bradicardia reflexa - ideal se FC elevada",
+        "CI: hipertensão grave, feocromocitoma",
+        "Extravasamento → necrose - preferir acesso central",
+        "Interação com IMAO - crise hipertensiva",
+        "Vasoconstritor puro (sem efeito β)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares.",
+        "renal": "Não requer ajuste formal. Monitorizar cuidadosamente na insuficiência renal grave.",
+        "hepatico": "Sem necessidade de ajuste específico. Usar com cautela na insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenilefrina (adulto) - Bolus",
+        "doseTexto": "50-200 mcg IV a cada 2-3 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "50-200 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenilefrina (adulto) - Infusão",
+        "doseTexto": "0,1-0,5 mcg/kg/min IV contínua",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenilefrina (pediátrico) - Bolus",
+        "doseTexto": "1-5 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 5,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Fenilefrina (pediátrico) - Infusão",
+        "doseTexto": "0,1-0,5 mcg/kg/min IV contínua",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Phenylephrine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypotension (spinal/epidural anesthesia)",
+          "descricaoDose": "50-200 mcg IV bolus, repeat every 2-3 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "50-200 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 2-3 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance / Refractory hypotension",
+          "descricaoDose": "0.1-0.5 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric hypotension (bolus)",
+          "descricaoDose": "1-5 mcg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric maintenance",
+          "descricaoDose": "0.1-0.5 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.5 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 0.5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10mg in 100mL NS (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "10mg in 250mL NS (40 mcg/mL)", "valor": 40 },
+            { "rotulo": "10mg in 500mL NS (20 mcg/mL)", "valor": 20 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Selective alpha-1 agonist",
+      "apresentacoes": [
+        { "forma": "Ampoule 10mg/mL", "obs": "1 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "10mg + 100mL NS", "concentracao": "100 mcg/mL (bolus)" },
+        { "diluicao": "10mg + 250mL NS", "concentracao": "40 mcg/mL" },
+        { "diluicao": "10mg + 500mL NS", "concentracao": "20 mcg/mL" }
+      ],
+      "observacoes": [
+        "Onset: <1 min | Duration: 5-20 min",
+        "Reflex bradycardia - ideal if elevated HR",
+        "CI: severe hypertension, pheochromocytoma",
+        "Extravasation → necrosis - prefer central access",
+        "MAOI interaction - hypertensive crisis",
+        "Pure vasoconstrictor (no β effect)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular effects.",
+        "renal": "No formal adjustment required. Monitor closely in severe renal impairment.",
+        "hepatico": "No specific adjustment needed. Use with caution in severe hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Phenylephrine (adult) - Bolus",
+        "doseTexto": "50-200 mcg IV every 2-3 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "50-200 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Phenylephrine (adult) - Infusion",
+        "doseTexto": "0.1-0.5 mcg/kg/min IV continuous",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Phenylephrine (pediatric) - Bolus",
+        "doseTexto": "1-5 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 5,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Phenylephrine (pediatric) - Infusion",
+        "doseTexto": "0.1-0.5 mcg/kg/min IV continuous",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fenilefrina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipotensión (raquianestesia/peridural)",
+          "descricaoDose": "50-200 mcg IV bolo, repetir cada 2-3 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "50-200 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 2-3 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento / Hipotensión refractaria",
+          "descricaoDose": "0,1-0,5 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipotensión pediátrica (bolo)",
+          "descricaoDose": "1-5 mcg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento pediátrico",
+          "descricaoDose": "0,1-0,5 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.5 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 0.5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10mg en 100mL SF 0,9% (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "10mg en 250mL SF 0,9% (40 mcg/mL)", "valor": 40 },
+            { "rotulo": "10mg en 500mL SF 0,9% (20 mcg/mL)", "valor": 20 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopresor - Agonista α1 selectivo",
+      "apresentacoes": [
+        { "forma": "Ampolla 10mg/mL", "obs": "1 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "10mg + 100mL SF", "concentracao": "100 mcg/mL (bolo)" },
+        { "diluicao": "10mg + 250mL SF", "concentracao": "40 mcg/mL" },
+        { "diluicao": "10mg + 500mL SF", "concentracao": "20 mcg/mL" }
+      ],
+      "observacoes": [
+        "Inicio: <1 min | Duración: 5-20 min",
+        "Bradicardia refleja - ideal si FC elevada",
+        "CI: hipertensión grave, feocromocitoma",
+        "Extravasación → necrosis - preferir acceso central",
+        "Interacción con IMAO - crisis hipertensiva",
+        "Vasoconstrictor puro (sin efecto β)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares.",
+        "renal": "No requiere ajuste formal. Vigilancia estrecha en insuficiencia renal grave.",
+        "hepatico": "Sin ajuste específico. Usar con precaución en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenilefrina (adulto) - Bolo",
+        "doseTexto": "50-200 mcg IV cada 2-3 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "50-200 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenilefrina (adulto) - Infusión",
+        "doseTexto": "0,1-0,5 mcg/kg/min IV continua",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenilefrina (pediátrico) - Bolo",
+        "doseTexto": "1-5 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 5,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Fenilefrina (pediátrico) - Infusión",
+        "doseTexto": "0,1-0,5 mcg/kg/min IV continua",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "去氧肾上腺素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "低血压（腰麻/硬膜外麻醉）",
+          "descricaoDose": "50-200 mcg IV 推注，每2-3分钟重复",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "50-200 mcg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每2-3分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "维持/难治性低血压",
+          "descricaoDose": "0.1-0.5 mcg/kg/min IV 持续输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童低血压（推注）",
+          "descricaoDose": "1-5 mcg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童维持",
+          "descricaoDose": "0.1-0.5 mcg/kg/min IV 持续输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.5 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 0.5 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10mg 溶于 100mL NS (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "10mg 溶于 250mL NS (40 mcg/mL)", "valor": 40 },
+            { "rotulo": "10mg 溶于 500mL NS (20 mcg/mL)", "valor": 20 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "升压药 - 选择性α1激动剂",
+      "apresentacoes": [
+        { "forma": "安瓿 10mg/mL", "obs": "1 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "10mg + 100mL NS", "concentracao": "100 mcg/mL (推注)" },
+        { "diluicao": "10mg + 250mL NS", "concentracao": "40 mcg/mL" },
+        { "diluicao": "10mg + 500mL NS", "concentracao": "20 mcg/mL" }
+      ],
+      "observacoes": [
+        "起效: <1分钟 | 持续时间: 5-20分钟",
+        "反射性心动过缓 - 心率增快时适用",
+        "禁忌: 严重高血压、嗜铬细胞瘤",
+        "外渗→坏死 - 优先中心静脉",
+        "与MAOI相互作用 - 高血压危象",
+        "纯血管收缩药（无β效应）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测心血管效应。",
+        "renal": "无需正式调整。严重肾功能不全时密切监测。",
+        "hepatico": "无特定调整。严重肝功能不全时慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "去氧肾上腺素 (成人) - 推注",
+        "doseTexto": "50-200 mcg IV 每2-3分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "50-200 mcg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "去氧肾上腺素 (成人) - 输注",
+        "doseTexto": "0.1-0.5 mcg/kg/min IV 持续",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "去氧肾上腺素 (儿童) - 推注",
+        "doseTexto": "1-5 mcg/kg IV",
+        "doseMin": 1,
+        "doseMax": 5,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "去氧肾上腺素 (儿童) - 输注",
+        "doseTexto": "0.1-0.5 mcg/kg/min IV 持续",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

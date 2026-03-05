@@ -1,0 +1,554 @@
+{
+  "PT": {
+    "nome": "Crioprecipitado",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipofibrinogenemia / CIVD (adulto)",
+          "descricaoDose": "1 U/5-10 kg IV (eleva fibrinogênio 50-100 mg/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme fibrinogênio sérico",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipofibrinogenemia / CIVD (pediátrico)",
+          "descricaoDose": "1-2 U/10 kg IV (eleva fibrinogênio 50-100 mg/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme fibrinogênio sérico",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemofilia A (emergência)",
+          "descricaoDose": "1 U/5 kg IV (se concentrado de fator VIII não disponível)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme fator VIII e clínica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Doença de von Willebrand",
+          "descricaoDose": "1 U/10 kg IV (se concentrado fvW não disponível)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme atividade fvW e clínica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Fração crioprecipitada do plasma (fibrinogênio, FVIII, FvW, FXIII)",
+      "apresentacoes": [
+        { "forma": "Bolsa 10-20 mL (1 unidade)", "obs": "~150-250 mg fibrinogênio, 80-120 UI FVIII" },
+        { "forma": "Pool 8-10 unidades", "obs": "~2-3 g fibrinogênio total" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso após descongelamento", "concentracao": "1 unidade em 10-20 mL" },
+        { "diluicao": "Descongelar 37°C em banho-maria", "concentracao": "Usar em até 6 h (20-24°C)" }
+      ],
+      "observacoes": [
+        "Compatibilidade ABO preferencial; transfundir por equipo com filtro",
+        "1 pool (10 U) contém aproximadamente 2-3 g de fibrinogênio",
+        "Preferir fibrinogênio concentrado se disponível (dose mais previsível)",
+        "Monitorar fibrinogênio sérico após transfusão (alvo conforme indicação)",
+        "Não usar para deficiência isolada de FVIII quando concentrado disponível",
+        "Risco de reação febril, alérgica e TRALI (raro); hipersensibilidade a proteínas plasmáticas contraindicada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar volemia e função cardíaca em transfusões múltiplas.",
+        "renal": "Não requer ajuste. Hemoderivado; uso conforme indicação clínica e laboratorial.",
+        "hepatico": "Frequentemente indicado em CIVD/hepatopatia com hipofibrinogenemia. Avaliar causa do sangramento e alvo de fibrinogênio."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Crioprecipitado (adulto)",
+        "doseTexto": "1 U/5-10 kg IV (eleva fibrinogênio 50-100 mg/dL)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Crioprecipitado (pediátrico)",
+        "doseTexto": "1-2 U/10 kg IV",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Cryoprecipitate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypofibrinogenemia / DIC (adult)",
+          "descricaoDose": "1 U/5-10 kg IV (raises fibrinogen 50-100 mg/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per serum fibrinogen",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hypofibrinogenemia / DIC (pediatric)",
+          "descricaoDose": "1-2 U/10 kg IV (raises fibrinogen 50-100 mg/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per serum fibrinogen",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemophilia A (emergency)",
+          "descricaoDose": "1 U/5 kg IV (if factor VIII concentrate unavailable)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per factor VIII level and clinical response",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Von Willebrand disease",
+          "descricaoDose": "1 U/10 kg IV (if vWF concentrate unavailable)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per vWF activity and clinical response",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Blood product - Cryoprecipitated plasma fraction (fibrinogen, FVIII, vWF, FXIII)",
+      "apresentacoes": [
+        { "forma": "Bag 10-20 mL (1 unit)", "obs": "~150-250 mg fibrinogen, 80-120 IU FVIII" },
+        { "forma": "Pool 8-10 units", "obs": "~2-3 g total fibrinogen" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready to use after thawing", "concentracao": "1 unit in 10-20 mL" },
+        { "diluicao": "Thaw at 37°C water bath", "concentracao": "Use within 6 h (20-24°C)" }
+      ],
+      "observacoes": [
+        "ABO compatibility preferred; administer through blood filter",
+        "1 pool (10 U) contains approximately 2-3 g fibrinogen",
+        "Prefer fibrinogen concentrate if available (more predictable dosing)",
+        "Monitor serum fibrinogen after transfusion (target per indication)",
+        "Do not use for isolated FVIII deficiency when concentrate available",
+        "Risk of febrile/allergic reaction and TRALI (rare); hypersensitivity to plasma proteins contraindicated"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor volume status and cardiac function with multiple units.",
+        "renal": "No adjustment. Blood product; use per clinical and laboratory indication.",
+        "hepatico": "Often indicated in DIC/liver disease with hypofibrinogenemia. Assess cause of bleeding and fibrinogen target."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cryoprecipitate (adult)",
+        "doseTexto": "1 U/5-10 kg IV (raises fibrinogen 50-100 mg/dL)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cryoprecipitate (pediatric)",
+        "doseTexto": "1-2 U/10 kg IV",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Crioprecipitado",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipofibrinogenemia / CID (adulto)",
+          "descricaoDose": "1 U/5-10 kg IV (eleva fibrinógeno 50-100 mg/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según fibrinógeno sérico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipofibrinogenemia / CID (pediátrico)",
+          "descricaoDose": "1-2 U/10 kg IV (eleva fibrinógeno 50-100 mg/dL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según fibrinógeno sérico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemofilia A (emergencia)",
+          "descricaoDose": "1 U/5 kg IV (si concentrado de factor VIII no disponible)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según factor VIII y clínica",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Enfermedad de von Willebrand",
+          "descricaoDose": "1 U/10 kg IV (si concentrado fvW no disponible)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según actividad fvW y clínica",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Fracción crioprecipitada del plasma (fibrinógeno, FVIII, FvW, FXIII)",
+      "apresentacoes": [
+        { "forma": "Bolsa 10-20 mL (1 unidad)", "obs": "~150-250 mg fibrinógeno, 80-120 UI FVIII" },
+        { "forma": "Pool 8-10 unidades", "obs": "~2-3 g fibrinógeno total" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso tras descongelación", "concentracao": "1 unidad en 10-20 mL" },
+        { "diluicao": "Descongelar 37°C en baño María", "concentracao": "Usar en 6 h (20-24°C)" }
+      ],
+      "observacoes": [
+        "Compatibilidad ABO preferente; transfundir con equipo con filtro",
+        "1 pool (10 U) contiene aproximadamente 2-3 g de fibrinógeno",
+        "Preferir fibrinógeno concentrado si disponible (dosis más predecible)",
+        "Monitorizar fibrinógeno sérico tras transfusión (objetivo según indicación)",
+        "No usar en déficit aislado de FVIII si hay concentrado disponible",
+        "Riesgo de reacción febril, alérgica y TRALI (raro); hipersensibilidad a proteínas plasmáticas contraindicada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar volemia y función cardíaca en transfusiones múltiples.",
+        "renal": "No requiere ajuste. Hemoderivado; uso según indicación clínica y analítica.",
+        "hepatico": "Frecuente en CID/hepatopatía con hipofibrinogenemia. Valorar causa del sangrado y objetivo de fibrinógeno."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Crioprecipitado (adulto)",
+        "doseTexto": "1 U/5-10 kg IV (eleva fibrinógeno 50-100 mg/dL)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Crioprecipitado (pediátrico)",
+        "doseTexto": "1-2 U/10 kg IV",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "冷沉淀",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "低纤维蛋白原血症 / DIC（成人）",
+          "descricaoDose": "1 U/5-10 kg IV（提高纤维蛋白原 50-100 mg/dL）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "根据血清纤维蛋白原",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "低纤维蛋白原血症 / DIC（儿童）",
+          "descricaoDose": "1-2 U/10 kg IV（提高纤维蛋白原 50-100 mg/dL）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "根据血清纤维蛋白原",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "血友病 A（急诊）",
+          "descricaoDose": "1 U/5 kg IV（无因子 VIII 浓缩物时）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "根据因子 VIII 与临床",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "血管性血友病",
+          "descricaoDose": "1 U/10 kg IV（无 vWF 浓缩物时）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "根据 vWF 活性与临床",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "血液制品 - 血浆冷沉淀（纤维蛋白原、FVIII、vWF、FXIII）",
+      "apresentacoes": [
+        { "forma": "袋 10-20 mL (1 单位)", "obs": "约 150-250 mg 纤维蛋白原，80-120 IU FVIII" },
+        { "forma": "混合 8-10 单位", "obs": "约 2-3 g 纤维蛋白原总量" }
+      ],
+      "preparo": [
+        { "diluicao": "解冻后即用", "concentracao": "1 单位 10-20 mL" },
+        { "diluicao": "37°C 水浴解冻", "concentracao": "6 小时内使用 (20-24°C)" }
+      ],
+      "observacoes": [
+        "优先 ABO 相容；经输血滤器输注",
+        "1 份混合 (10 U) 约含 2-3 g 纤维蛋白原",
+        "有纤维蛋白原浓缩物时优先使用（剂量更可预测）",
+        "输血后监测血清纤维蛋白原（按适应证定目标）",
+        "单纯 FVIII 缺乏且有浓缩物时勿用冷沉淀",
+        "发热/过敏反应及 TRALI 风险（少见）；血浆蛋白过敏禁忌"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调量。多单位输注时监测容量与心功能。",
+        "renal": "无需调整。血液制品；按临床与实验室指征使用。",
+        "hepatico": "常用于 DIC/肝病伴低纤维蛋白原血症。评估出血原因及纤维蛋白原目标。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "冷沉淀（成人）",
+        "doseTexto": "1 U/5-10 kg IV（提高纤维蛋白原 50-100 mg/dL）",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "冷沉淀（儿童）",
+        "doseTexto": "1-2 U/10 kg IV",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

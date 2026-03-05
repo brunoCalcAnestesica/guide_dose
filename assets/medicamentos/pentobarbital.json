@@ -1,0 +1,45 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Pentobarbital",
+      "nomesComerciais": ["Nembutal®"],
+      "classeTerapeutica": "Barbitúrico de ação curta / Antiepiléptico",
+      "mecanismoAcao": "Potencializa a ação do GABA no receptor GABA-A, prolongando a abertura dos canais de cloro. Em altas doses, ativa diretamente os receptores GABA-A independentemente do GABA. Depressor profundo do SNC.",
+      "indicacaoPrincipal": "Status epilepticus SUPER-REFRATÁRIO (falha a benzodiazepínicos + 2 antiepilépticos)",
+      "usoExclusivoUTI": true,
+      "apresentacoes": ["Ampola 50 mg/mL", "Disponibilidade limitada no Brasil"],
+      "posologia": {
+        "statusSuperRefratario": {
+          "ataque": "5-15 mg/kg IV em 1 hora",
+          "infusao": "0,5-5 mg/kg/h IV",
+          "alvoEEG": "Burst-suppression ou supressão de surtos"
+        },
+        "protocolo": [
+          "1. Intubação e ventilação mecânica",
+          "2. Acesso venoso central + PAI",
+          "3. EEG contínuo instalado",
+          "4. Bolus de ataque lento (1 hora)",
+          "5. Iniciar infusão contínua",
+          "6. Titular para burst-suppression",
+          "7. Manter 24-48h após última crise",
+          "8. Desmame gradual (10-20%/dia)"
+        ]
+      },
+      "monitorizacao": {
+        "obrigatoria": ["EEG contínuo", "Monitorização hemodinâmica invasiva (PAI)", "Ventilação mecânica", "Acesso venoso central"],
+        "nivelSerico": "20-40 mcg/mL",
+        "outros": ["Temperatura (hipotermia comum)", "Função hepática", "Eletrólitos"]
+      },
+      "farmacocinetica": {
+        "meiaVida": "15-50 horas",
+        "meiaVidaContextoSensivel": "Pode exceder 50h com infusão prolongada",
+        "metabolismo": "Hepático",
+        "inducaoEnzimatica": "Indutor potente de CYP450"
+      },
+      "efeitosAdversos": ["Hipotensão severa (requer vasopressores)", "Depressão miocárdica", "Hipotermia", "Íleo paralítico", "Imunossupressão (uso prolongado)", "Infecções nosocomiais"],
+      "contraindicacoes": ["Porfiria", "Hipersensibilidade a barbitúricos"],
+      "observacoes": ["Requer vasopressores na maioria dos casos", "Desmame lento obrigatório", "Risco de recorrência de crises no desmame"],
+      "categoriaGravidez": "D"
+    }
+  }
+}

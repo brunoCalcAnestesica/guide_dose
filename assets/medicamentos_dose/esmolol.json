@@ -1,0 +1,786 @@
+{
+  "PT": {
+    "nome": "Esmolol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bolus inicial - TSV/FA",
+          "descricaoDose": "500 mcg/kg IV em 1 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TSV/FA - Infusão contínua",
+          "descricaoDose": "50-200 mcg/kg/min IV após bolus",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Crise Hipertensiva com Taquicardia",
+          "descricaoDose": "50-200 mcg/kg/min IV (iniciar ~80 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Taquicardia Perioperatória",
+          "descricaoDose": "50-200 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bolus inicial - Pediátrico TSV/FA",
+          "descricaoDose": "500 mcg/kg IV em 1 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TSV/FA Pediátrico - Infusão contínua",
+          "descricaoDose": "50-200 mcg/kg/min IV após bolus",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 50, "doseMax": 200 },
+          "pediatrico": { "doseMin": 50, "doseMax": 200 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "Uso puro - 100mg/10mL (10000 mcg/mL)", "valor": 10000 },
+            { "rotulo": "250mg em 50mL SG5% (5000 mcg/mL)", "valor": 5000 },
+            { "rotulo": "200mg em 100mL SG5% (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "100mg em 100mL SG5% (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "100mg em 200mL SG5% (500 mcg/mL)", "valor": 500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Betabloqueador cardioseletivo β1 - Ação ultracurta",
+      "apresentacoes": [
+        { "forma": "Ampola 100mg/10mL (10 mg/mL)", "obs": "Brevibloc®" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso puro em bomba: 100mg/10mL (10 mg/mL)", "concentracao": "10000 mcg/mL" },
+        { "diluicao": "250mg + 50mL SG5%", "concentracao": "5000 mcg/mL" },
+        { "diluicao": "200mg + 100mL SG5%", "concentracao": "2000 mcg/mL" },
+        { "diluicao": "100mg + 100mL SG5%", "concentracao": "1000 mcg/mL" },
+        { "diluicao": "100mg + 200mL SG5%", "concentracao": "500 mcg/mL" }
+      ],
+      "observacoes": [
+        "Meia-vida ultra-curta: ~9 min - permite titulação precisa e reversão rápida",
+        "CI: ICC descompensada, choque cardiogênico, bradicardia grave, BAV 2º/3º grau",
+        "CI: Asma brônquica grave não controlada",
+        "Incompatível com soluções alcalinas",
+        "Usar bomba de infusão; monitorizar ECG, PA e FC continuamente",
+        "Ter glucagon e atropina disponíveis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Não requer ajuste. Titular conforme resposta clínica.",
+        "renal": "Não requer ajuste. Metabolização independente da função renal.",
+        "hepatico": "Não requer ajuste. Metabolização por esterases plasmáticas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Esmolol - Bolus (adulto)",
+        "doseTexto": "500 mcg/kg IV em 1 min",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Esmolol - Infusão (adulto)",
+        "doseTexto": "50-200 mcg/kg/min IV",
+        "doseMin": 50,
+        "doseMax": 200,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Esmolol (pediátrico)",
+        "doseTexto": "Bolus 500 mcg/kg + infusão 50-200 mcg/kg/min",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Esmolol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Initial bolus - SVT/AF",
+          "descricaoDose": "500 mcg/kg IV over 1 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "SVT/AF - Continuous infusion",
+          "descricaoDose": "50-200 mcg/kg/min IV after bolus",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hypertensive crisis with tachycardia",
+          "descricaoDose": "50-200 mcg/kg/min IV (start ~80 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Perioperative tachycardia",
+          "descricaoDose": "50-200 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Initial bolus - Pediatric SVT/AF",
+          "descricaoDose": "500 mcg/kg IV over 1 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric SVT/AF - Continuous infusion",
+          "descricaoDose": "50-200 mcg/kg/min IV after bolus",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 50, "doseMax": 200 },
+          "pediatrico": { "doseMin": 50, "doseMax": 200 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "Neat use - 100mg/10mL (10000 mcg/mL)", "valor": 10000 },
+            { "rotulo": "250mg in 50mL D5W (5000 mcg/mL)", "valor": 5000 },
+            { "rotulo": "200mg in 100mL D5W (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "100mg in 100mL D5W (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "100mg in 200mL D5W (500 mcg/mL)", "valor": 500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Cardioselective β1 beta-blocker - Ultra-short acting",
+      "apresentacoes": [
+        { "forma": "Ampoule 100mg/10mL (10 mg/mL)", "obs": "Brevibloc®" }
+      ],
+      "preparo": [
+        { "diluicao": "Neat pump use: 100mg/10mL (10 mg/mL)", "concentracao": "10000 mcg/mL" },
+        { "diluicao": "250mg + 50mL D5W", "concentracao": "5000 mcg/mL" },
+        { "diluicao": "200mg + 100mL D5W", "concentracao": "2000 mcg/mL" },
+        { "diluicao": "100mg + 100mL D5W", "concentracao": "1000 mcg/mL" },
+        { "diluicao": "100mg + 200mL D5W", "concentracao": "500 mcg/mL" }
+      ],
+      "observacoes": [
+        "Ultra-short half-life: ~9 min - allows precise titration and rapid reversal",
+        "CI: Decompensated CHF, cardiogenic shock, severe bradycardia, 2nd/3rd degree AV block",
+        "CI: Severe uncontrolled bronchial asthma",
+        "Incompatible with alkaline solutions",
+        "Use infusion pump; continuously monitor ECG, BP and HR",
+        "Have glucagon and atropine available"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No adjustment required. Titrate per clinical response.",
+        "renal": "No adjustment required. Metabolism independent of renal function.",
+        "hepatico": "No adjustment required. Metabolized by plasma esterases."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Esmolol - Bolus (adult)",
+        "doseTexto": "500 mcg/kg IV over 1 min",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Esmolol - Infusion (adult)",
+        "doseTexto": "50-200 mcg/kg/min IV",
+        "doseMin": 50,
+        "doseMax": 200,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Esmolol (pediatric)",
+        "doseTexto": "Bolus 500 mcg/kg + infusion 50-200 mcg/kg/min",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Esmolol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bolo inicial - TSV/FA",
+          "descricaoDose": "500 mcg/kg IV en 1 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "TSV/FA - Infusión continua",
+          "descricaoDose": "50-200 mcg/kg/min IV tras bolo",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Crisis hipertensiva con taquicardia",
+          "descricaoDose": "50-200 mcg/kg/min IV (iniciar ~80 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Taquicardia perioperatoria",
+          "descricaoDose": "50-200 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Bolo inicial - Pediátrico TSV/FA",
+          "descricaoDose": "500 mcg/kg IV en 1 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "TSV/FA Pediátrico - Infusión continua",
+          "descricaoDose": "50-200 mcg/kg/min IV tras bolo",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 50, "doseMax": 200 },
+          "pediatrico": { "doseMin": 50, "doseMax": 200 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "Uso puro - 100mg/10mL (10000 mcg/mL)", "valor": 10000 },
+            { "rotulo": "250mg en 50mL SG5% (5000 mcg/mL)", "valor": 5000 },
+            { "rotulo": "200mg en 100mL SG5% (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "100mg en 100mL SG5% (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "100mg en 200mL SG5% (500 mcg/mL)", "valor": 500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Betabloqueador cardioselectivo β1 - Acción ultracorta",
+      "apresentacoes": [
+        { "forma": "Ampolla 100mg/10mL (10 mg/mL)", "obs": "Brevibloc®" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso puro en bomba: 100mg/10mL (10 mg/mL)", "concentracao": "10000 mcg/mL" },
+        { "diluicao": "250mg + 50mL SG5%", "concentracao": "5000 mcg/mL" },
+        { "diluicao": "200mg + 100mL SG5%", "concentracao": "2000 mcg/mL" },
+        { "diluicao": "100mg + 100mL SG5%", "concentracao": "1000 mcg/mL" },
+        { "diluicao": "100mg + 200mL SG5%", "concentracao": "500 mcg/mL" }
+      ],
+      "observacoes": [
+        "Vida media ultracorta: ~9 min - permite titulación precisa y reversión rápida",
+        "CI: ICC descompensada, shock cardiogénico, bradicardia grave, BAV 2º/3º grado",
+        "CI: Asma bronquial grave no controlada",
+        "Incompatible con soluciones alcalinas",
+        "Usar bomba de infusión; monitorizar ECG, PA y FC continuamente",
+        "Tener glucagón y atropina disponibles"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No requiere ajuste. Titular según respuesta clínica.",
+        "renal": "No requiere ajuste. Metabolismo independiente de la función renal.",
+        "hepatico": "No requiere ajuste. Metabolizado por esterasas plasmáticas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Esmolol - Bolo (adulto)",
+        "doseTexto": "500 mcg/kg IV en 1 min",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Esmolol - Infusión (adulto)",
+        "doseTexto": "50-200 mcg/kg/min IV",
+        "doseMin": 50,
+        "doseMax": 200,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Esmolol (pediátrico)",
+        "doseTexto": "Bolo 500 mcg/kg + infusión 50-200 mcg/kg/min",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "艾司洛尔",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "首剂负荷 - 室上性心动过速/房颤",
+          "descricaoDose": "500 mcg/kg IV 1分钟内",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "室上性心动过速/房颤 - 持续输注",
+          "descricaoDose": "负荷后50-200 mcg/kg/min IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "伴有心动过速的高血压危象",
+          "descricaoDose": "50-200 mcg/kg/min IV（起始约80 mcg/kg/min）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "围术期心动过速",
+          "descricaoDose": "50-200 mcg/kg/min IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "首剂负荷 - 儿童室上性心动过速/房颤",
+          "descricaoDose": "500 mcg/kg IV 1分钟内",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童室上性心动过速/房颤 - 持续输注",
+          "descricaoDose": "负荷后50-200 mcg/kg/min IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 200,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 50, "doseMax": 200 },
+          "pediatrico": { "doseMin": 50, "doseMax": 200 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "原液 - 100mg/10mL (10000 mcg/mL)", "valor": 10000 },
+            { "rotulo": "250mg溶于50mL 5%GS (5000 mcg/mL)", "valor": 5000 },
+            { "rotulo": "200mg溶于100mL 5%GS (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "100mg溶于100mL 5%GS (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "100mg溶于200mL 5%GS (500 mcg/mL)", "valor": 500 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "选择性β1受体阻滞剂 - 超短效",
+      "apresentacoes": [
+        { "forma": "安瓿 100mg/10mL (10 mg/mL)", "obs": "Brevibloc®" }
+      ],
+      "preparo": [
+        { "diluicao": "泵内原液: 100mg/10mL (10 mg/mL)", "concentracao": "10000 mcg/mL" },
+        { "diluicao": "250mg + 50mL 5%GS", "concentracao": "5000 mcg/mL" },
+        { "diluicao": "200mg + 100mL 5%GS", "concentracao": "2000 mcg/mL" },
+        { "diluicao": "100mg + 100mL 5%GS", "concentracao": "1000 mcg/mL" },
+        { "diluicao": "100mg + 200mL 5%GS", "concentracao": "500 mcg/mL" }
+      ],
+      "observacoes": [
+        "超短半衰期：约9分钟 - 可精确滴定和快速逆转",
+        "禁忌：失代偿性心衰、心源性休克、严重心动过缓、二/三度房室传导阻滞",
+        "禁忌：严重未控制的支气管哮喘",
+        "与碱性溶液不相容",
+        "使用输液泵；持续监测心电图、血压和心率",
+        "备有胰高血糖素和阿托品"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调整。根据临床反应滴定。",
+        "renal": "无需调整。代谢不依赖肾功能。",
+        "hepatico": "无需调整。由血浆酯酶代谢。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "艾司洛尔 - 负荷量（成人）",
+        "doseTexto": "500 mcg/kg IV 1分钟内",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "艾司洛尔 - 输注（成人）",
+        "doseTexto": "50-200 mcg/kg/min IV",
+        "doseMin": 50,
+        "doseMax": 200,
+        "unidadeResultado": "mcg/min",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "艾司洛尔（儿童）",
+        "doseTexto": "负荷500 mcg/kg + 输注50-200 mcg/kg/min",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

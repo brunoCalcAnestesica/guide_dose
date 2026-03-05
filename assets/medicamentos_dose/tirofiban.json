@@ -1,0 +1,430 @@
+{
+  "PT": {
+    "nome": "Tirofiban",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA/ICP – Bolus",
+          "descricaoDose": "25 mcg/kg IV em 3 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 3 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "SCA/ICP – Infusão",
+          "descricaoDose": "0,15 mcg/kg/min IV por 12-24 h (até 48 h). ClCr <60: 0,075 mcg/kg/min",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.075,
+            "doseMax": 0.15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua 12-24 h (até 48 h)",
+            "ajusteRenal": "ClCr <60: reduzir 50% (0,075 mcg/kg/min)",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 60,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.075, "doseMax": 0.15 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "12,5 mg em 50 mL (250 mcg/mL)", "valor": 250 },
+            { "rotulo": "5 mg em 100 mL (50 mcg/mL)", "valor": 50 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetário IV – Inibidor GP IIb/IIIa (molécula pequena não peptídica)",
+      "apresentacoes": [
+        { "forma": "Frasco 12,5 mg/50 mL", "obs": "0,25 mg/mL" },
+        { "forma": "Bolsa 5 mg/100 mL", "obs": "0,05 mg/mL (pronto)" }
+      ],
+      "preparo": [
+        { "diluicao": "Usar direto ou diluir em SF/SG", "concentracao": "Conforme apresentação" },
+        { "diluicao": "Compatível com heparina", "concentracao": "Mesma via" }
+      ],
+      "observacoes": [
+        "Início de ação: imediato (>90% inibição em 5 min)",
+        "Duração: 4-8 h após suspensão. Reversível rapidamente",
+        "Usar com AAS + heparina",
+        "Monitorar plaquetas (risco de trombocitopenia)",
+        "Contraindicado: sangramento ativo, AVC <30 dias, cirurgia/trauma maior <6 sem",
+        "Ajustar dose em insuficiência renal (ClCr <60 mL/min)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Avaliar função renal.",
+        "renal": "ClCr <60 mL/min: reduzir infusão para 0,075 mcg/kg/min (50%).",
+        "hepatico": "Não requer ajuste. Excreção principalmente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tirofiban – Bolus",
+        "doseTexto": "25 mcg/kg IV em 3 min",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tirofiban – Infusão",
+        "doseTexto": "0,075-0,15 mcg/kg/min IV (ClCr <60: 0,075)",
+        "doseMin": 0.075,
+        "doseMax": 0.15,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Tirofiban",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ACS/PCI – Bolus",
+          "descricaoDose": "25 mcg/kg IV over 3 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 3 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ACS/PCI – Infusion",
+          "descricaoDose": "0.15 mcg/kg/min IV for 12-24 h (up to 48 h). CrCl <60: 0.075 mcg/kg/min",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.075,
+            "doseMax": 0.15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion 12-24 h (up to 48 h)",
+            "ajusteRenal": "CrCl <60: reduce 50% (0.075 mcg/kg/min)",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 60,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.075, "doseMax": 0.15 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "12.5 mg in 50 mL (250 mcg/mL)", "valor": 250 },
+            { "rotulo": "5 mg in 100 mL (50 mcg/mL)", "valor": 50 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "IV antiplatelet – GP IIb/IIIa inhibitor (small non-peptide molecule)",
+      "apresentacoes": [
+        { "forma": "Vial 12.5 mg/50 mL", "obs": "0.25 mg/mL" },
+        { "forma": "Bag 5 mg/100 mL", "obs": "0.05 mg/mL (ready to use)" }
+      ],
+      "preparo": [
+        { "diluicao": "Use undiluted or dilute in NS/D5W", "concentracao": "Per presentation" },
+        { "diluicao": "Compatible with heparin", "concentracao": "Same line" }
+      ],
+      "observacoes": [
+        "Onset: immediate (>90% inhibition in 5 min)",
+        "Duration: 4-8 h after discontinuation. Rapidly reversible",
+        "Use with ASA + heparin",
+        "Monitor platelets (thrombocytopenia risk)",
+        "Contraindicated: active bleeding, stroke <30 days, major surgery/trauma <6 wk",
+        "Adjust dose in renal impairment (CrCl <60 mL/min)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Assess renal function.",
+        "renal": "CrCl <60 mL/min: reduce infusion to 0.075 mcg/kg/min (50%).",
+        "hepatico": "No adjustment required. Primarily renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tirofiban – Bolus",
+        "doseTexto": "25 mcg/kg IV over 3 min",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tirofiban – Infusion",
+        "doseTexto": "0.075-0.15 mcg/kg/min IV (CrCl <60: 0.075)",
+        "doseMin": 0.075,
+        "doseMax": 0.15,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Tirofiban",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA/ICP – Bolo",
+          "descricaoDose": "25 mcg/kg IV en 3 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 3 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "SCA/ICP – Infusión",
+          "descricaoDose": "0,15 mcg/kg/min IV 12-24 h (hasta 48 h). ClCr <60: 0,075 mcg/kg/min",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.075,
+            "doseMax": 0.15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua 12-24 h (hasta 48 h)",
+            "ajusteRenal": "ClCr <60: reducir 50% (0,075 mcg/kg/min)",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 60,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.075, "doseMax": 0.15 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "12,5 mg en 50 mL (250 mcg/mL)", "valor": 250 },
+            { "rotulo": "5 mg en 100 mL (50 mcg/mL)", "valor": 50 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetario IV – Inhibidor GP IIb/IIIa (molécula pequeña no peptídica)",
+      "apresentacoes": [
+        { "forma": "Frasco 12,5 mg/50 mL", "obs": "0,25 mg/mL" },
+        { "forma": "Bolsa 5 mg/100 mL", "obs": "0,05 mg/mL (listo)" }
+      ],
+      "preparo": [
+        { "diluicao": "Usar directo o diluir en SF/SG", "concentracao": "Según presentación" },
+        { "diluicao": "Compatible con heparina", "concentracao": "Misma vía" }
+      ],
+      "observacoes": [
+        "Inicio de acción: inmediato (>90% inhibición en 5 min)",
+        "Duración: 4-8 h tras suspensión. Reversible con rapidez",
+        "Usar con AAS + heparina",
+        "Monitorizar plaquetas (riesgo trombocitopenia)",
+        "Contraindicado: sangrado activo, AVC <30 días, cirugía/trauma mayor <6 sem",
+        "Ajustar dosis en insuficiencia renal (ClCr <60 mL/min)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Valorar función renal.",
+        "renal": "ClCr <60 mL/min: reducir infusión a 0,075 mcg/kg/min (50%).",
+        "hepatico": "No requiere ajuste. Excreción principalmente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tirofiban – Bolo",
+        "doseTexto": "25 mcg/kg IV en 3 min",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tirofiban – Infusión",
+        "doseTexto": "0,075-0,15 mcg/kg/min IV (ClCr <60: 0,075)",
+        "doseMin": 0.075,
+        "doseMax": 0.15,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "替罗非班",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ACS/PCI – 负荷量",
+          "descricaoDose": "25 mcg/kg IV 3 分钟内",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "3 分钟内",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ACS/PCI – 持续输注",
+          "descricaoDose": "0.15 mcg/kg/min IV 12-24 h（最多48 h）。ClCr <60: 0.075 mcg/kg/min",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.075,
+            "doseMax": 0.15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注 12-24 h（最多48 h）",
+            "ajusteRenal": "ClCr <60: 减量50%（0.075 mcg/kg/min）",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 60,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.075, "doseMax": 0.15 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "12.5 mg 溶于 50 mL (250 mcg/mL)", "valor": 250 },
+            { "rotulo": "5 mg 溶于 100 mL (50 mcg/mL)", "valor": 50 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "静脉抗血小板药 – GP IIb/IIIa 抑制剂（小分子非肽类）",
+      "apresentacoes": [
+        { "forma": "瓶 12.5 mg/50 mL", "obs": "0.25 mg/mL" },
+        { "forma": "袋 5 mg/100 mL", "obs": "0.05 mg/mL（即用）" }
+      ],
+      "preparo": [
+        { "diluicao": "可直接使用或溶于生理盐水/5%葡萄糖", "concentracao": "按说明书" },
+        { "diluicao": "与肝素兼容", "concentracao": "同路" }
+      ],
+      "observacoes": [
+        "起效：立即（5 分钟内 >90% 抑制）",
+        "持续时间：停药后 4-8 小时。可快速逆转",
+        "与阿司匹林 + 肝素联用",
+        "监测血小板（血小板减少风险）",
+        "禁忌：活动性出血、30 天内卒中、6 周内大手术/创伤",
+        "肾功能不全时调整剂量（ClCr <60 mL/min）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。评估肾功能。",
+        "renal": "ClCr <60 mL/min：输注减至 0.075 mcg/kg/min（50%）。",
+        "hepatico": "无需调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "替罗非班 – 负荷量",
+        "doseTexto": "25 mcg/kg IV 3 分钟内",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "替罗非班 – 输注",
+        "doseTexto": "0.075-0.15 mcg/kg/min IV（ClCr <60: 0.075）",
+        "doseMin": 0.075,
+        "doseMax": 0.15,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

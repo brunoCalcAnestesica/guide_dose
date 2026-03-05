@@ -1,0 +1,70 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Voriconazol",
+      "nome_comercial": ["Vfend"],
+      "classe_terapeutica": "Antifúngico triazólico de 2ª geração",
+      "mecanismo_acao": "Inibe a 14-alfa-desmetilase (CYP51) fúngica, bloqueando a síntese de ergosterol. Mais potente que fluconazol e com espectro ampliado.",
+      "espectro": {"sensivel": ["Aspergillus spp", "Candida spp (incluindo C. krusei)", "Fusarium", "Scedosporium"], "resistente": ["Mucorales (Mucor, Rhizopus)"]},
+      "indicacoes": ["Aspergilose invasiva (1ª escolha)", "Candidemia refratária", "Fusariose", "Scedosporiose", "Febre neutropênica refratária"],
+      "apresentacoes": [{"forma": "Frasco IV", "concentracao": "200mg liofilizado"}, {"forma": "Comprimido", "concentracao": "50mg, 200mg"}, {"forma": "Suspensão", "concentracao": "40mg/mL"}],
+      "farmacocinetica": {"biodisponibilidade_oral": "96%", "meia_vida": "6 horas (variável)", "metabolismo": "Hepático (CYP2C19, CYP2C9, CYP3A4)", "excrecao": "Renal (metabolitos)"},
+      "monitoramento_terapeutico": {"vale_serico": {"alvo": "1-5,5 mcg/mL", "baixo": "<1 - risco falha", "alto": ">5,5 - risco toxicidade"}, "quando": "Após 5-7 dias"},
+      "ajuste_renal": {"oral": "Sem ajuste", "iv": "Evitar se ClCr <50 (acúmulo de ciclodextrina)"},
+      "efeitos_adversos": ["Distúrbios visuais (30%)", "Hepatotoxicidade", "Fotossensibilidade", "Alucinações", "Rash"],
+      "interacoes": {"metabolismo_CYP": ["CYP2C19", "CYP2C9", "CYP3A4"], "contraindicados": ["Rifampicina", "Carbamazepina", "Barbitúricos", "Alcaloides do ergot"]},
+      "observacoes": ["Polimorfismo CYP2C19 afeta níveis", "Monitoramento terapêutico recomendado", "Fotoproteção rigorosa"]
+    }
+  },
+  "US": {
+    "bulario": {
+      "nome_generico": "Voriconazole",
+      "nome_comercial": ["Vfend"],
+      "classe_terapeutica": "Second-generation triazole antifungal",
+      "mecanismo_acao": "Inhibits fungal 14-alpha-demethylase (CYP51), blocking ergosterol synthesis. More potent than fluconazole with expanded spectrum.",
+      "espectro": {"sensivel": ["Aspergillus spp", "Candida spp (including C. krusei)", "Fusarium", "Scedosporium"], "resistente": ["Mucorales (Mucor, Rhizopus)"]},
+      "indicacoes": ["Invasive aspergillosis (first-line)", "Refractory candidemia", "Fusariosis", "Scedosporiosis", "Refractory febrile neutropenia"],
+      "apresentacoes": [{"forma": "IV vial", "concentracao": "200 mg lyophilized"}, {"forma": "Tablet", "concentracao": "50 mg, 200 mg"}, {"forma": "Suspension", "concentracao": "40 mg/mL"}],
+      "farmacocinetica": {"biodisponibilidade_oral": "96%", "meia_vida": "6 hours (variable)", "metabolismo": "Hepatic (CYP2C19, CYP2C9, CYP3A4)", "excrecao": "Renal (metabolites)"},
+      "monitoramento_terapeutico": {"vale_serico": {"alvo": "1-5.5 mcg/mL", "baixo": "<1 - risk of failure", "alto": ">5.5 - risk of toxicity"}, "quando": "After 5-7 days"},
+      "ajuste_renal": {"oral": "No adjustment", "iv": "Avoid if CrCl <50 (cyclodextrin accumulation)"},
+      "efeitos_adversos": ["Visual disturbances (30%)", "Hepatotoxicity", "Photosensitivity", "Hallucinations", "Rash"],
+      "interacoes": {"metabolismo_CYP": ["CYP2C19", "CYP2C9", "CYP3A4"], "contraindicados": ["Rifampin", "Carbamazepine", "Barbiturates", "Ergot alkaloids"]},
+      "observacoes": ["CYP2C19 polymorphism affects levels", "Therapeutic drug monitoring recommended", "Strict photoprotection"]
+    }
+  },
+  "ES": {
+    "bulario": {
+      "nome_generico": "Voriconazol",
+      "nome_comercial": ["Vfend"],
+      "classe_terapeutica": "Antifúngico triazólico de 2ª generación",
+      "mecanismo_acao": "Inhibe la 14-alfa-desmetilasa (CYP51) fúngica, bloqueando la síntesis de ergosterol. Más potente que fluconazol y con espectro ampliado.",
+      "espectro": {"sensivel": ["Aspergillus spp", "Candida spp (incluida C. krusei)", "Fusarium", "Scedosporium"], "resistente": ["Mucorales (Mucor, Rhizopus)"]},
+      "indicacoes": ["Aspergilosis invasiva (1ª elección)", "Candidemia refractaria", "Fusariosis", "Scedosporiosis", "Neutropenia febril refractaria"],
+      "apresentacoes": [{"forma": "Frasco IV", "concentracao": "200 mg liofilizado"}, {"forma": "Comprimido", "concentracao": "50 mg, 200 mg"}, {"forma": "Suspensión", "concentracao": "40 mg/mL"}],
+      "farmacocinetica": {"biodisponibilidade_oral": "96%", "meia_vida": "6 horas (variable)", "metabolismo": "Hepático (CYP2C19, CYP2C9, CYP3A4)", "excrecao": "Renal (metabolitos)"},
+      "monitoramento_terapeutico": {"vale_serico": {"alvo": "1-5,5 mcg/mL", "baixo": "<1 - riesgo de fracaso", "alto": ">5,5 - riesgo de toxicidad"}, "quando": "Después de 5-7 días"},
+      "ajuste_renal": {"oral": "Sin ajuste", "iv": "Evitar si ClCr <50 (acumulación de ciclodextrina)"},
+      "efeitos_adversos": ["Trastornos visuales (30%)", "Hepatotoxicidad", "Fotosensibilidad", "Alucinaciones", "Rash"],
+      "interacoes": {"metabolismo_CYP": ["CYP2C19", "CYP2C9", "CYP3A4"], "contraindicados": ["Rifampicina", "Carbamazepina", "Barbitúricos", "Alcaloides del ergot"]},
+      "observacoes": ["El polimorfismo CYP2C19 afecta los niveles", "Monitoreo terapéutico recomendado", "Fotoprotección rigurosa"]
+    }
+  },
+  "ZH": {
+    "bulario": {
+      "nome_generico": "伏立康唑",
+      "nome_comercial": ["威凡 (Vfend)"],
+      "classe_terapeutica": "第二代三唑类抗真菌药",
+      "mecanismo_acao": "抑制真菌14-α-去甲基化酶（CYP51），阻断麦角固醇合成。比氟康唑更强效，抗菌谱更广。",
+      "espectro": {"sensivel": ["曲霉属", "念珠菌属（包括克柔念珠菌）", "镰刀菌属", "赛多孢子菌属"], "resistente": ["毛霉目（毛霉、根霉）"]},
+      "indicacoes": ["侵袭性曲霉病（一线）", "难治性念珠菌血症", "镰刀菌病", "赛多孢子菌病", "难治性粒缺发热"],
+      "apresentacoes": [{"forma": "IV冻干粉", "concentracao": "200 mg"}, {"forma": "片剂", "concentracao": "50 mg、200 mg"}, {"forma": "口服混悬液", "concentracao": "40 mg/mL"}],
+      "farmacocinetica": {"biodisponibilidade_oral": "96%", "meia_vida": "6小时（可变）", "metabolismo": "肝脏（CYP2C19、CYP2C9、CYP3A4）", "excrecao": "肾脏（代谢产物）"},
+      "monitoramento_terapeutico": {"vale_serico": {"alvo": "1-5.5 mcg/mL", "baixo": "<1 - 治疗失败风险", "alto": ">5.5 - 毒性风险"}, "quando": "用药5-7天后"},
+      "ajuste_renal": {"oral": "无需调整", "iv": "ClCr <50时避免使用（环糊精蓄积）"},
+      "efeitos_adversos": ["视觉障碍（30%）", "肝毒性", "光敏性", "幻觉", "皮疹"],
+      "interacoes": {"metabolismo_CYP": ["CYP2C19", "CYP2C9", "CYP3A4"], "contraindicados": ["利福平", "卡马西平", "巴比妥类", "麦角生物碱"]},
+      "observacoes": ["CYP2C19多态性影响血药浓度", "建议治疗药物监测", "严格防晒"]
+    }
+  }
+}

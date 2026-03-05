@@ -1,0 +1,682 @@
+{
+  "PT": {
+    "nome": "Meloxicam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Osteoartrite (adulto)",
+          "descricaoDose": "7,5 mg VO 1x/dia. Pode aumentar para 15 mg se necessário. Máx 15 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "7,5-15 mg 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <25: evitar. Diálise: não é removido.",
+            "ajusteHepatico": "IH leve/moderada: sem ajuste. IH grave: evitar."
+          }
+        },
+        {
+          "titulo": "Artrite reumatoide (adulto)",
+          "descricaoDose": "15 mg VO 1x/dia. Reduzir para 7,5 mg após controle. Máx 15 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <25: evitar. Diálise: não é removido.",
+            "ajusteHepatico": "IH leve/moderada: sem ajuste. IH grave: evitar."
+          }
+        },
+        {
+          "titulo": "Dor aguda / IM (adulto)",
+          "descricaoDose": "15 mg IM 1x/dia. Máx 1-2 dias de uso. Dose máxima 15 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg IM 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/dia (máx 1-2 dias)",
+            "ajusteRenal": "ClCr <25: evitar. Diálise: não é removido.",
+            "ajusteHepatico": "IH leve/moderada: sem ajuste. IH grave: evitar."
+          }
+        },
+        {
+          "titulo": "Idoso (adulto)",
+          "descricaoDose": "Iniciar com 7,5 mg/dia. Máx 15 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 7.5,
+            "doseMaxima": 15,
+            "doseFixa": "7,5 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <25: evitar. Diálise: não é removido.",
+            "ajusteHepatico": "IH leve/moderada: sem ajuste. IH grave: evitar."
+          }
+        },
+        {
+          "titulo": "Artrite juvenil idiopática (pediátrico >2 anos)",
+          "descricaoDose": "0,125 mg/kg/dia VO 1x/dia. Máx 7,5 mg/dia. Idade mínima >2 anos.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 7.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <25: evitar. Diálise: não é removido.",
+            "ajusteHepatico": "IH leve/moderada: sem ajuste. IH grave: evitar."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Inibidor COX-2 preferencial. Derivado oxicam (enólico); menor toxicidade GI que AINEs não seletivos.",
+      "apresentacoes": [
+        { "forma": "Comprimido 7,5 mg, 15 mg", "obs": "VO - Movatec®, Meloxil®" },
+        { "forma": "Ampola 15 mg/1,5 mL (10 mg/mL)", "obs": "IM" },
+        { "forma": "Suspensão oral 7,5 mg/5 mL", "obs": "VO" },
+        { "forma": "Supositório 15 mg", "obs": "Retal" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido ou suspensão com ou sem alimentos. IM: administrar em profundidade; uso limitado a 1-2 dias.", "concentracao": "N/A (VO/IM)" }
+      ],
+      "observacoes": [
+        "Inibidor COX-2 preferencial: menor toxicidade GI; dose única diária (meia-vida 15-20 h)",
+        "Dose máxima 15 mg/dia (aumentar não melhora eficácia, aumenta riscos)",
+        "Uso IM limitado a 1-2 dias",
+        "Cautela em pacientes com risco cardiovascular",
+        "ClCr <25 mL/min: evitar. Diálise: não é removido",
+        "IH grave: evitar. Úlcera péptica ativa e ICC grave (NYHA III-IV): contraindicado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com 7,5 mg/dia. Cautela por risco renal e cardiovascular.",
+        "renal": "ClCr <25: evitar. Diálise: não é removido.",
+        "hepatico": "IH leve/moderada: sem ajuste. IH grave: evitar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Meloxicam - Osteoartrite (adulto)",
+        "doseTexto": "7,5-15 mg VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7,5-15 mg/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meloxicam - Artrite reumatoide (adulto)",
+        "doseTexto": "15 mg VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meloxicam - IM (adulto)",
+        "doseTexto": "15 mg IM 1x/dia (máx 1-2 dias)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg IM",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meloxicam - Artrite juvenil (pediátrico)",
+        "doseTexto": "0,125 mg/kg/dia VO 1x/dia (máx 7,5 mg)",
+        "doseMin": 0.125,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Meloxicam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Osteoarthritis (adult)",
+          "descricaoDose": "7.5 mg PO once daily. May increase to 15 mg if needed. Max 15 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "7.5-15 mg once daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <25: avoid. Dialysis: not removed.",
+            "ajusteHepatico": "Mild/moderate hepatic impairment: no adjustment. Severe: avoid."
+          }
+        },
+        {
+          "titulo": "Rheumatoid arthritis (adult)",
+          "descricaoDose": "15 mg PO once daily. Reduce to 7.5 mg after control. Max 15 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg once daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <25: avoid. Dialysis: not removed.",
+            "ajusteHepatico": "Mild/moderate hepatic impairment: no adjustment. Severe: avoid."
+          }
+        },
+        {
+          "titulo": "Acute pain / IM (adult)",
+          "descricaoDose": "15 mg IM once daily. Max 1-2 days of use. Max dose 15 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg IM once daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "once daily (max 1-2 days)",
+            "ajusteRenal": "ClCr <25: avoid. Dialysis: not removed.",
+            "ajusteHepatico": "Mild/moderate hepatic impairment: no adjustment. Severe: avoid."
+          }
+        },
+        {
+          "titulo": "Elderly (adult)",
+          "descricaoDose": "Start with 7.5 mg/day. Max 15 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 7.5,
+            "doseMaxima": 15,
+            "doseFixa": "7.5 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <25: avoid. Dialysis: not removed.",
+            "ajusteHepatico": "Mild/moderate hepatic impairment: no adjustment. Severe: avoid."
+          }
+        },
+        {
+          "titulo": "Juvenile idiopathic arthritis (pediatric >2 years)",
+          "descricaoDose": "0.125 mg/kg/day PO once daily. Max 7.5 mg/day. Minimum age >2 years.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 7.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <25: avoid. Dialysis: not removed.",
+            "ajusteHepatico": "Mild/moderate hepatic impairment: no adjustment. Severe: avoid."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID / Preferential COX-2 inhibitor. Oxicam derivative (enolic); lower GI toxicity than non-selective NSAIDs.",
+      "apresentacoes": [
+        { "forma": "Tablet 7.5 mg, 15 mg", "obs": "PO" },
+        { "forma": "Vial 15 mg/1.5 mL (10 mg/mL)", "obs": "IM" },
+        { "forma": "Oral suspension 7.5 mg/5 mL", "obs": "PO" },
+        { "forma": "Suppository 15 mg", "obs": "Rectal" }
+      ],
+      "preparo": [
+        { "diluicao": "PO: tablet or suspension with or without food. IM: administer deep; use limited to 1-2 days.", "concentracao": "N/A (PO/IM)" }
+      ],
+      "observacoes": [
+        "Preferential COX-2 inhibitor: lower GI toxicity; once-daily dosing (half-life 15-20 h)",
+        "Max dose 15 mg/day (increasing does not improve efficacy, increases risks)",
+        "IM use limited to 1-2 days",
+        "Caution in patients with cardiovascular risk",
+        "ClCr <25 mL/min: avoid. Dialysis: not removed",
+        "Severe hepatic impairment: avoid. Active peptic ulcer and severe CHF (NYHA III-IV): contraindicated"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with 7.5 mg/day. Caution for renal and cardiovascular risk.",
+        "renal": "ClCr <25: avoid. Dialysis: not removed.",
+        "hepatico": "Mild/moderate hepatic impairment: no adjustment. Severe: avoid."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Meloxicam - Osteoarthritis (adult)",
+        "doseTexto": "7.5-15 mg PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7.5-15 mg/day",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meloxicam - Rheumatoid arthritis (adult)",
+        "doseTexto": "15 mg PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg/day",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meloxicam - IM (adult)",
+        "doseTexto": "15 mg IM once daily (max 1-2 days)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg IM",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meloxicam - Juvenile arthritis (pediatric)",
+        "doseTexto": "0.125 mg/kg/day PO once daily (max 7.5 mg)",
+        "doseMin": 0.125,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Meloxicam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Osteoartritis (adulto)",
+          "descricaoDose": "7,5 mg VO 1x/día. Puede aumentar a 15 mg si es necesario. Máx 15 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "7,5-15 mg 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <25: evitar. Diálisis: no se elimina.",
+            "ajusteHepatico": "IH leve/moderada: sin ajuste. IH grave: evitar."
+          }
+        },
+        {
+          "titulo": "Artritis reumatoide (adulto)",
+          "descricaoDose": "15 mg VO 1x/día. Reducir a 7,5 mg tras control. Máx 15 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <25: evitar. Diálisis: no se elimina.",
+            "ajusteHepatico": "IH leve/moderada: sin ajuste. IH grave: evitar."
+          }
+        },
+        {
+          "titulo": "Dolor agudo / IM (adulto)",
+          "descricaoDose": "15 mg IM 1x/día. Máx 1-2 días de uso. Dosis máxima 15 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg IM 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/día (máx 1-2 días)",
+            "ajusteRenal": "ClCr <25: evitar. Diálisis: no se elimina.",
+            "ajusteHepatico": "IH leve/moderada: sin ajuste. IH grave: evitar."
+          }
+        },
+        {
+          "titulo": "Anciano (adulto)",
+          "descricaoDose": "Iniciar con 7,5 mg/día. Máx 15 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 7.5,
+            "doseMaxima": 15,
+            "doseFixa": "7,5 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <25: evitar. Diálisis: no se elimina.",
+            "ajusteHepatico": "IH leve/moderada: sin ajuste. IH grave: evitar."
+          }
+        },
+        {
+          "titulo": "Artritis idiopática juvenil (pediátrico >2 años)",
+          "descricaoDose": "0,125 mg/kg/día VO 1x/día. Máx 7,5 mg/día. Edad mínima >2 años.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 7.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <25: evitar. Diálisis: no se elimina.",
+            "ajusteHepatico": "IH leve/moderada: sin ajuste. IH grave: evitar."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Inhibidor COX-2 preferencial. Derivado oxicam (enólico); menor toxicidad GI que AINEs no selectivos.",
+      "apresentacoes": [
+        { "forma": "Comprimido 7,5 mg, 15 mg", "obs": "VO" },
+        { "forma": "Ampolla 15 mg/1,5 mL (10 mg/mL)", "obs": "IM" },
+        { "forma": "Suspensión oral 7,5 mg/5 mL", "obs": "VO" },
+        { "forma": "Supositorio 15 mg", "obs": "Rectal" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido o suspensión con o sin alimentos. IM: administrar en profundidad; uso limitado a 1-2 días.", "concentracao": "N/A (VO/IM)" }
+      ],
+      "observacoes": [
+        "Inhibidor COX-2 preferencial: menor toxicidad GI; dosis única diaria (vida media 15-20 h)",
+        "Dosis máxima 15 mg/día (aumentar no mejora eficacia, aumenta riesgos)",
+        "Uso IM limitado a 1-2 días",
+        "Precaución en pacientes con riesgo cardiovascular",
+        "ClCr <25 mL/min: evitar. Diálisis: no se elimina",
+        "IH grave: evitar. Úlcera péptica activa e ICC grave (NYHA III-IV): contraindicado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con 7,5 mg/día. Precaución por riesgo renal y cardiovascular.",
+        "renal": "ClCr <25: evitar. Diálisis: no se elimina.",
+        "hepatico": "IH leve/moderada: sin ajuste. IH grave: evitar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Meloxicam - Osteoartritis (adulto)",
+        "doseTexto": "7,5-15 mg VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7,5-15 mg/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meloxicam - Artritis reumatoide (adulto)",
+        "doseTexto": "15 mg VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meloxicam - IM (adulto)",
+        "doseTexto": "15 mg IM 1x/día (máx 1-2 días)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg IM",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meloxicam - Artritis juvenil (pediátrico)",
+        "doseTexto": "0,125 mg/kg/día VO 1x/día (máx 7,5 mg)",
+        "doseMin": 0.125,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "美洛昔康",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "骨关节炎（成人）",
+          "descricaoDose": "7.5 mg 口服 每日1次。必要时可增至15 mg。最大15 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "7.5-15 mg 每日1次",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <25：避免。透析：不被清除。",
+            "ajusteHepatico": "轻中度肝损：无需调整。重度：避免。"
+          }
+        },
+        {
+          "titulo": "类风湿关节炎（成人）",
+          "descricaoDose": "15 mg 口服 每日1次。控制后可减至7.5 mg。最大15 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg 每日1次",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <25：避免。透析：不被清除。",
+            "ajusteHepatico": "轻中度肝损：无需调整。重度：避免。"
+          }
+        },
+        {
+          "titulo": "急性疼痛/肌注（成人）",
+          "descricaoDose": "15 mg 肌注 每日1次。最多用1-2天。最大剂量15 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg 肌注 每日1次",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "每日1次（最多1-2天）",
+            "ajusteRenal": "ClCr <25：避免。透析：不被清除。",
+            "ajusteHepatico": "轻中度肝损：无需调整。重度：避免。"
+          }
+        },
+        {
+          "titulo": "老年（成人）",
+          "descricaoDose": "以7.5 mg/日起始。最大15 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 7.5,
+            "doseMaxima": 15,
+            "doseFixa": "7.5 mg/日",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <25：避免。透析：不被清除。",
+            "ajusteHepatico": "轻中度肝损：无需调整。重度：避免。"
+          }
+        },
+        {
+          "titulo": "幼年特发性关节炎（儿科>2岁）",
+          "descricaoDose": "0.125 mg/kg/日 口服 每日1次。最大7.5 mg/日。最小年龄>2岁。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 7.5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <25：避免。透析：不被清除。",
+            "ajusteHepatico": "轻中度肝损：无需调整。重度：避免。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "非甾体抗炎药/倾向性COX-2抑制剂。昔康类衍生物；较非选择性NSAIDs胃肠道毒性低。",
+      "apresentacoes": [
+        { "forma": "片剂 7.5 mg、15 mg", "obs": "口服" },
+        { "forma": "安瓿 15 mg/1.5 mL (10 mg/mL)", "obs": "肌注" },
+        { "forma": "口服混悬液 7.5 mg/5 mL", "obs": "口服" },
+        { "forma": "栓剂 15 mg", "obs": "直肠" }
+      ],
+      "preparo": [
+        { "diluicao": "口服：片剂或混悬液可与食物同服或不同服。肌注：深部注射；限用1-2天。", "concentracao": "N/A（口服/肌注）" }
+      ],
+      "observacoes": [
+        "倾向性COX-2抑制剂：胃肠道毒性较低；每日一次（半衰期15-20 h）",
+        "最大剂量15 mg/日（增加剂量不提高疗效，增加风险）",
+        "肌注限用1-2天",
+        "心血管风险患者慎用",
+        "ClCr <25 mL/min：避免。透析：不被清除",
+        "严重肝损：避免。活动性消化性溃疡及严重心衰（NYHA III-IV）：禁忌"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "以7.5 mg/日起始。注意肾脏和心血管风险。",
+        "renal": "ClCr <25：避免。透析：不被清除。",
+        "hepatico": "轻中度肝损：无需调整。重度：避免。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "美洛昔康 - 骨关节炎（成人）",
+        "doseTexto": "7.5-15 mg 口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7.5-15 mg/日",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美洛昔康 - 类风湿关节炎（成人）",
+        "doseTexto": "15 mg 口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg/日",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美洛昔康 - 肌注（成人）",
+        "doseTexto": "15 mg 肌注 每日1次（最多1-2天）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg 肌注",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美洛昔康 - 幼年关节炎（儿科）",
+        "doseTexto": "0.125 mg/kg/日 口服 每日1次（最大7.5 mg）",
+        "doseMin": 0.125,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "PT": {
+    "nome": "Mepivacaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anest. Local - SEM vasoconstritor",
+          "descricaoDose": "5 mg/kg (máx 350 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 350,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração/Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Anest. Local - COM vasoconstritor",
+          "descricaoDose": "7 mg/kg (máx 500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração/Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Anest. Local - SEM vaso (ped)",
+          "descricaoDose": "4 mg/kg (máx 200 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração/Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Anest. Local - COM vaso (ped)",
+          "descricaoDose": "5 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração/Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local – amida",
+      "apresentacoes": [
+        { "forma": "Ampola 1% (10 mg/mL)", "obs": "Infiltração e bloqueios" },
+        { "forma": "Ampola 2% (20 mg/mL)", "obs": "Infiltração e bloqueios" },
+        { "forma": "Ampola 3% (30 mg/mL)", "obs": "Bloqueio neuroaxial" },
+        { "forma": "Com vasoconstritor (1%, 2%)", "obs": "Prolonga duração" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronta para uso", "concentracao": "1%, 2% ou 3%" },
+        { "diluicao": "Aspiração prévia obrigatória", "concentracao": "Evitar injeção intravascular" }
+      ],
+      "observacoes": [
+        "Duração intermediária (2–3 h sem vaso; até 5 h com vaso)",
+        "Menor vasodilatação que lidocaína; pode ser usada sem vasoconstritor",
+        "Ter emulsão lipídica 20% disponível para LAST",
+        "Não usar vasoconstritor em regiões de circulação terminal",
+        "Monitorar sinais de toxicidade sistêmica (LAST)",
+        "Reduzir dose em hepatopatia grave"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose de infiltração. Monitorar toxicidade.",
+        "renal": "Não requer ajuste para dose única de bloqueio/infiltração.",
+        "hepatico": "Cautela em hepatopatia grave; reduzir dose total e monitorar toxicidade."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Mepivacaína SEM vaso (adulto)",
+        "doseTexto": "5 mg/kg (máx 350 mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Mepivacaína COM vaso (adulto)",
+        "doseTexto": "7 mg/kg (máx 500 mg)",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Mepivacaína SEM vaso (ped)",
+        "doseTexto": "4 mg/kg (máx 200 mg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Mepivacaína COM vaso (ped)",
+        "doseTexto": "5 mg/kg (máx 300 mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Mepivacaine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Local Anesth. - WITHOUT vasoconstrictor",
+          "descricaoDose": "5 mg/kg (max 350 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 350,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration/Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Local Anesth. - WITH vasoconstrictor",
+          "descricaoDose": "7 mg/kg (max 500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration/Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Local Anesth. - WITHOUT vaso (ped)",
+          "descricaoDose": "4 mg/kg (max 200 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Infiltration/Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Local Anesth. - WITH vaso (ped)",
+          "descricaoDose": "5 mg/kg (max 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Infiltration/Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Local anesthetic – amide",
+      "apresentacoes": [
+        { "forma": "Ampule 1% (10 mg/mL)", "obs": "Infiltration and blocks" },
+        { "forma": "Ampule 2% (20 mg/mL)", "obs": "Infiltration and blocks" },
+        { "forma": "Ampule 3% (30 mg/mL)", "obs": "Neuraxial block" },
+        { "forma": "With vasoconstrictor (1%, 2%)", "obs": "Prolongs duration" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready to use", "concentracao": "1%, 2% or 3%" },
+        { "diluicao": "Prior aspiration mandatory", "concentracao": "Avoid intravascular injection" }
+      ],
+      "observacoes": [
+        "Intermediate duration (2–3 h without vaso; up to 5 h with vaso)",
+        "Less vasodilation than lidocaine; may be used without vasoconstrictor",
+        "Have 20% lipid emulsion available for LAST",
+        "Do not use vasoconstrictor in end-artery regions",
+        "Monitor for systemic toxicity (LAST)",
+        "Reduce dose in severe hepatic impairment"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce infiltration dose. Monitor for toxicity.",
+        "renal": "No adjustment needed for single block/infiltration dose.",
+        "hepatico": "Caution in severe hepatic impairment; reduce total dose and monitor toxicity."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Mepivacaine WITHOUT vaso (adult)",
+        "doseTexto": "5 mg/kg (max 350 mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Mepivacaine WITH vaso (adult)",
+        "doseTexto": "7 mg/kg (max 500 mg)",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Mepivacaine WITHOUT vaso (ped)",
+        "doseTexto": "4 mg/kg (max 200 mg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Mepivacaine WITH vaso (ped)",
+        "doseTexto": "5 mg/kg (max 300 mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Mepivacaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anest. local - SIN vasoconstrictor",
+          "descricaoDose": "5 mg/kg (máx 350 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 350,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración/Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Anest. local - CON vasoconstrictor",
+          "descricaoDose": "7 mg/kg (máx 500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración/Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Anest. local - SIN vaso (ped)",
+          "descricaoDose": "4 mg/kg (máx 200 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltración/Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Anest. local - CON vaso (ped)",
+          "descricaoDose": "5 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltración/Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local – amida",
+      "apresentacoes": [
+        { "forma": "Ampolla 1% (10 mg/mL)", "obs": "Infiltración y bloqueos" },
+        { "forma": "Ampolla 2% (20 mg/mL)", "obs": "Infiltración y bloqueos" },
+        { "forma": "Ampolla 3% (30 mg/mL)", "obs": "Bloqueo neuroaxial" },
+        { "forma": "Con vasoconstrictor (1%, 2%)", "obs": "Prolonga duración" }
+      ],
+      "preparo": [
+        { "diluicao": "Lista para uso", "concentracao": "1%, 2% o 3%" },
+        { "diluicao": "Aspiración previa obligatoria", "concentracao": "Evitar inyección intravascular" }
+      ],
+      "observacoes": [
+        "Duración intermedia (2–3 h sin vaso; hasta 5 h con vaso)",
+        "Menor vasodilatación que lidocaína; puede usarse sin vasoconstrictor",
+        "Tener emulsión lipídica 20% disponible para LAST",
+        "No usar vasoconstrictor en regiones de circulación terminal",
+        "Monitorizar signos de toxicidad sistémica (LAST)",
+        "Reducir dosis en hepatopatía grave"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis de infiltración. Monitorizar toxicidad.",
+        "renal": "No requiere ajuste para dosis única de bloqueo/infiltración.",
+        "hepatico": "Precaución en hepatopatía grave; reducir dosis total y monitorizar toxicidad."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Mepivacaína SIN vaso (adulto)",
+        "doseTexto": "5 mg/kg (máx 350 mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Mepivacaína CON vaso (adulto)",
+        "doseTexto": "7 mg/kg (máx 500 mg)",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Mepivacaína SIN vaso (ped)",
+        "doseTexto": "4 mg/kg (máx 200 mg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Mepivacaína CON vaso (ped)",
+        "doseTexto": "5 mg/kg (máx 300 mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "甲哌卡因",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "局部麻醉 - 无血管收缩药",
+          "descricaoDose": "5 mg/kg（最大 350 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 350,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润/阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病慎用"
+          }
+        },
+        {
+          "titulo": "局部麻醉 - 含血管收缩药",
+          "descricaoDose": "7 mg/kg（最大 500 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润/阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病慎用"
+          }
+        },
+        {
+          "titulo": "局部麻醉 - 无血管收缩药（儿童）",
+          "descricaoDose": "4 mg/kg（最大 200 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "浸润/阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病慎用"
+          }
+        },
+        {
+          "titulo": "局部麻醉 - 含血管收缩药（儿童）",
+          "descricaoDose": "5 mg/kg（最大 300 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "浸润/阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病慎用"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "酰胺类局部麻醉药",
+      "apresentacoes": [
+        { "forma": "安瓿 1%（10 mg/mL）", "obs": "浸润与阻滞" },
+        { "forma": "安瓿 2%（20 mg/mL）", "obs": "浸润与阻滞" },
+        { "forma": "安瓿 3%（30 mg/mL）", "obs": "椎管内阻滞" },
+        { "forma": "含血管收缩药（1%、2%）", "obs": "延长作用时间" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "1%、2% 或 3%" },
+        { "diluicao": "注射前必须回抽", "concentracao": "避免血管内注射" }
+      ],
+      "observacoes": [
+        "作用时间中等（无血管收缩药 2–3 小时；含药可达 5 小时）",
+        "血管扩张较利多卡因轻；可不用血管收缩药",
+        "备有 20% 脂肪乳用于 LAST",
+        "末梢循环区域勿用血管收缩药",
+        "监测全身毒性（LAST）征象",
+        "严重肝病减量"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减少浸润剂量。监测毒性。",
+        "renal": "单次阻滞/浸润无需调整。",
+        "hepatico": "严重肝病慎用；减少总剂量并监测毒性。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "甲哌卡因 无血管收缩药（成人）",
+        "doseTexto": "5 mg/kg（最大 350 mg）",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "甲哌卡因 含血管收缩药（成人）",
+        "doseTexto": "7 mg/kg（最大 500 mg）",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "甲哌卡因 无血管收缩药（儿童）",
+        "doseTexto": "4 mg/kg（最大 200 mg）",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "甲哌卡因 含血管收缩药（儿童）",
+        "doseTexto": "5 mg/kg（最大 300 mg）",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

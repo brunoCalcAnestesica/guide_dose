@@ -1,0 +1,994 @@
+{
+  "PT": {
+    "nome": "Risperidona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Delirium",
+          "descricaoDose": "0,5-1 mg VO 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitação",
+          "descricaoDose": "1-2 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Esquizofrenia (manutenção)",
+          "descricaoDose": "2-8 mg/dia VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 8,
+            "doseMaxima": 8,
+            "doseFixa": "2-8 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ou dividido",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Mania aguda",
+          "descricaoDose": "2-6 mg/dia VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 6,
+            "doseMaxima": 6,
+            "doseFixa": "2-6 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ou dividido",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Delirium (idoso)",
+          "descricaoDose": "0,25-0,5 mg VO 2x/dia (iniciar baixo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25-0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitação (idoso)",
+          "descricaoDose": "0,5-1 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Irritabilidade no autismo (> 5 anos)",
+          "descricaoDose": "0,25-0,5 mg/dia VO (iniciar baixo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25-0,5 mg/dia",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Agitação/Psicose (adolescente)",
+          "descricaoDose": "0,5-2 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Irritabilidade autismo (adolescente)",
+          "descricaoDose": "0,5-3 mg/dia VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "0,5-3 mg/dia",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ou dividido",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antipsicótico atípico (benzisoxazol)",
+      "apresentacoes": [
+        { "forma": "Comprimido 0,25 mg", "obs": "" },
+        { "forma": "Comprimido 0,5 mg", "obs": "" },
+        { "forma": "Comprimido 1 mg", "obs": "" },
+        { "forma": "Comprimido 2 mg", "obs": "" },
+        { "forma": "Comprimido 3 mg", "obs": "" },
+        { "forma": "Solução oral 1 mg/mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Via oral apenas", "concentracao": "Não há forma injetável de ação rápida" },
+        { "diluicao": "Administrar com ou sem alimentos", "concentracao": "" },
+        { "diluicao": "Solução: diluir em água, suco ou leite", "concentracao": "Não usar chá ou cola" }
+      ],
+      "observacoes": [
+        "Início: 1-2h | Pico: 1-2h | Meia-vida: 20h (metabólito ativo 9-hidroxi-risperidona)",
+        "Menor sedação que outros antipsicóticos atípicos",
+        "Maior risco de efeitos extrapiramidais em doses altas",
+        "Hiperprolactinemia: galactorreia, amenorreia",
+        "Idoso com demência: risco aumentado de AVC e mortalidade",
+        "Ajustar dose em insuficiência renal (ClCr <30) e hepática (CYP2D6)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com 0,25-0,5 mg/dia; titular lentamente. Demência: usar com cautela (risco AVC).",
+        "renal": "ClCr <30 mL/min: reduzir 50%. Hemodiálise: dose após diálise.",
+        "hepatico": "Insuficiência hepática moderada a grave: reduzir dose (metabolismo CYP2D6)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Risperidona (delirium)",
+        "doseTexto": "0,5-1 mg VO 2x/dia",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Risperidona (agitação)",
+        "doseTexto": "1-2 mg VO",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Risperidona (adolescente)",
+        "doseTexto": "0,5-2 mg VO",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Risperidone",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Delirium",
+          "descricaoDose": "0.5-1 mg PO twice daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitation",
+          "descricaoDose": "1-2 mg PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Schizophrenia (maintenance)",
+          "descricaoDose": "2-8 mg/day PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 8,
+            "doseMaxima": 8,
+            "doseFixa": "2-8 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily or divided",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Acute mania",
+          "descricaoDose": "2-6 mg/day PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 6,
+            "doseMaxima": 6,
+            "doseFixa": "2-6 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily or divided",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Delirium (elderly)",
+          "descricaoDose": "0.25-0.5 mg PO twice daily (start low)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25-0.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitation (elderly)",
+          "descricaoDose": "0.5-1 mg PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Irritability in autism (> 5 years)",
+          "descricaoDose": "0.25-0.5 mg/day PO (start low)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25-0.5 mg/day",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Agitation/Psychosis (adolescent)",
+          "descricaoDose": "0.5-2 mg PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Autism irritability (adolescent)",
+          "descricaoDose": "0.5-3 mg/day PO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "0.5-3 mg/day",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily or divided",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Atypical antipsychotic (benzisoxazole)",
+      "apresentacoes": [
+        { "forma": "Tablet 0.25 mg", "obs": "" },
+        { "forma": "Tablet 0.5 mg", "obs": "" },
+        { "forma": "Tablet 1 mg", "obs": "" },
+        { "forma": "Tablet 2 mg", "obs": "" },
+        { "forma": "Tablet 3 mg", "obs": "" },
+        { "forma": "Oral solution 1 mg/mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral route only", "concentracao": "No rapid-acting injectable form" },
+        { "diluicao": "Give with or without food", "concentracao": "" },
+        { "diluicao": "Solution: dilute in water, juice or milk", "concentracao": "Do not use tea or cola" }
+      ],
+      "observacoes": [
+        "Onset: 1-2h | Peak: 1-2h | Half-life: 20h (active metabolite 9-hydroxyrisperidone)",
+        "Less sedation than other atypical antipsychotics",
+        "Higher risk of extrapyramidal effects at high doses",
+        "Hyperprolactinemia: galactorrhea, amenorrhea",
+        "Elderly with dementia: increased stroke and mortality risk",
+        "Adjust dose in renal (CrCl <30) and hepatic (CYP2D6) impairment"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start 0.25-0.5 mg/day; titrate slowly. Dementia: use with caution (stroke risk).",
+        "renal": "CrCl <30 mL/min: reduce 50%. Hemodialysis: dose after dialysis.",
+        "hepatico": "Moderate to severe hepatic impairment: reduce dose (CYP2D6 metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Risperidone (delirium)",
+        "doseTexto": "0.5-1 mg PO twice daily",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Risperidone (agitation)",
+        "doseTexto": "1-2 mg PO",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Risperidone (adolescent)",
+        "doseTexto": "0.5-2 mg PO",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Risperidona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Delirium",
+          "descricaoDose": "0,5-1 mg VO 2 veces/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2 veces/día",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitación",
+          "descricaoDose": "1-2 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Esquizofrenia (mantenimiento)",
+          "descricaoDose": "2-8 mg/día VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 8,
+            "doseMaxima": 8,
+            "doseFixa": "2-8 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1 vez/día o dividido",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Mania aguda",
+          "descricaoDose": "2-6 mg/día VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 6,
+            "doseMaxima": 6,
+            "doseFixa": "2-6 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1 vez/día o dividido",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Delirium (anciano)",
+          "descricaoDose": "0,25-0,5 mg VO 2 veces/día (iniciar bajo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25-0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2 veces/día",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Agitación (anciano)",
+          "descricaoDose": "0,5-1 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Irritabilidad en autismo (> 5 años)",
+          "descricaoDose": "0,25-0,5 mg/día VO (iniciar bajo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,25-0,5 mg/día",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1 vez/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Agitación/Psicosis (adolescente)",
+          "descricaoDose": "0,5-2 mg VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Irritabilidad autismo (adolescente)",
+          "descricaoDose": "0,5-3 mg/día VO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "0,5-3 mg/día",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1 vez/día o dividido",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antipsicótico atípico (benzisoxazol)",
+      "apresentacoes": [
+        { "forma": "Comprimido 0,25 mg", "obs": "" },
+        { "forma": "Comprimido 0,5 mg", "obs": "" },
+        { "forma": "Comprimido 1 mg", "obs": "" },
+        { "forma": "Comprimido 2 mg", "obs": "" },
+        { "forma": "Comprimido 3 mg", "obs": "" },
+        { "forma": "Solución oral 1 mg/mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Solo vía oral", "concentracao": "No hay forma inyectable de acción rápida" },
+        { "diluicao": "Administrar con o sin alimentos", "concentracao": "" },
+        { "diluicao": "Solución: diluir en agua, zumo o leche", "concentracao": "No usar té ni cola" }
+      ],
+      "observacoes": [
+        "Inicio: 1-2h | Pico: 1-2h | Semivida: 20h (metabolito activo 9-hidroxi-risperidona)",
+        "Menor sedación que otros antipsicóticos atípicos",
+        "Mayor riesgo de efectos extrapiramidales a dosis altas",
+        "Hiperprolactinemia: galactorrea, amenorrea",
+        "Anciano con demencia: mayor riesgo de ACV y mortalidad",
+        "Ajustar dosis en insuficiencia renal (ClCr <30) y hepática (CYP2D6)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar 0,25-0,5 mg/día; titular lentamente. Demencia: usar con precaución (riesgo ACV).",
+        "renal": "ClCr <30 mL/min: reducir 50%. Hemodiálisis: dosis tras diálisis.",
+        "hepatico": "Insuficiencia hepática moderada-grave: reducir dosis (metabolismo CYP2D6)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Risperidona (delirium)",
+        "doseTexto": "0,5-1 mg VO 2 veces/día",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Risperidona (agitación)",
+        "doseTexto": "1-2 mg VO",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Risperidona (adolescente)",
+        "doseTexto": "0,5-2 mg VO",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "利培酮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "谵妄",
+          "descricaoDose": "0.5-1 mg 口服 每日两次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "每日两次",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "激越",
+          "descricaoDose": "1-2 mg 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "按需",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "精神分裂症（维持）",
+          "descricaoDose": "2-8 mg/日 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 8,
+            "doseMaxima": 8,
+            "doseFixa": "2-8 mg/日",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "每日一次或分次",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "急性躁狂",
+          "descricaoDose": "2-6 mg/日 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 6,
+            "doseMaxima": 6,
+            "doseFixa": "2-6 mg/日",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "每日一次或分次",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "谵妄（老年）",
+          "descricaoDose": "0.25-0.5 mg 口服 每日两次（从低剂量开始）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25-0.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "每日两次",
+            "ajusteRenal": "ClCr <30：减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "激越（老年）",
+          "descricaoDose": "0.5-1 mg 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "按需",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "自闭症易激惹（>5岁）",
+          "descricaoDose": "0.25-0.5 mg/日 口服（从低剂量开始）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.25-0.5 mg/日",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "激越/精神病（青少年）",
+          "descricaoDose": "0.5-2 mg 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "按需",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "自闭症易激惹（青少年）",
+          "descricaoDose": "0.5-3 mg/日 口服",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "0.5-3 mg/日",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "每日一次或分次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "非典型抗精神病药（苯并异噁唑）",
+      "apresentacoes": [
+        { "forma": "片剂 0.25 mg", "obs": "" },
+        { "forma": "片剂 0.5 mg", "obs": "" },
+        { "forma": "片剂 1 mg", "obs": "" },
+        { "forma": "片剂 2 mg", "obs": "" },
+        { "forma": "片剂 3 mg", "obs": "" },
+        { "forma": "口服液 1 mg/mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "仅口服", "concentracao": "无速效注射剂型" },
+        { "diluicao": "可与食物同服或空腹", "concentracao": "" },
+        { "diluicao": "溶液：可稀释于水、果汁或牛奶", "concentracao": "勿用茶或可乐" }
+      ],
+      "observacoes": [
+        "起效：1-2小时 | 达峰：1-2小时 | 半衰期：20小时（活性代谢物9-羟基利培酮）",
+        "较其他非典型抗精神病药镇静作用轻",
+        "高剂量时锥体外系反应风险增加",
+        "高催乳素血症：溢乳、闭经",
+        "老年痴呆：卒中及死亡风险增加",
+        "肾功能（ClCr <30）及肝功能（CYP2D6）不全时调整剂量"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "起始0.25-0.5 mg/日；缓慢滴定。痴呆：慎用（卒中风险）。",
+        "renal": "ClCr <30 mL/min：减量50%。血液透析：透析后给药。",
+        "hepatico": "中重度肝功能不全：减量（CYP2D6代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "利培酮（谵妄）",
+        "doseTexto": "0.5-1 mg 口服 每日两次",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "利培酮（激越）",
+        "doseTexto": "1-2 mg 口服",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "利培酮（青少年）",
+        "doseTexto": "0.5-2 mg 口服",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "PT": {
+    "nome": "Codeína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor leve a moderada (adulto)",
+          "descricaoDose": "15-60 mg VO a cada 4-6h. Máx 360 mg/dia. Eficácia depende do fenótipo CYP2D6.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 60,
+            "doseMaxima": 360,
+            "doseFixa": "15-60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "Reduzir dose ou aumentar intervalo em insuficiência renal.",
+            "ajusteHepatico": "Usar com cautela em hepatopatia; metabolismo CYP2D6/CYP3A4. Ajustar conforme função hepática."
+          }
+        },
+        {
+          "titulo": "Dor leve a moderada (idoso)",
+          "descricaoDose": "15-30 mg VO a cada 4-6h. Máx 180 mg/dia. Início baixo, titular conforme resposta.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 180,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "Reduzir dose ou aumentar intervalo em insuficiência renal.",
+            "ajusteHepatico": "Cautela em hepatopatia; ajustar conforme função hepática."
+          }
+        },
+        {
+          "titulo": "Tosse (adulto)",
+          "descricaoDose": "10-20 mg VO a cada 4-6h. Máx 120 mg/dia. Uso limitado/off-label.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 120,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "Reduzir dose ou aumentar intervalo em insuficiência renal.",
+            "ajusteHepatico": "Cautela em hepatopatia; ajustar conforme função hepática."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide fraco; agonista μ (pró-droga). Conversão hepática em morfina via CYP2D6 (~10% da dose). Eficácia depende do fenótipo CYP2D6.",
+      "apresentacoes": [
+        { "forma": "Comprimido 30 mg, 60 mg", "obs": "Codein®, Paco®" },
+        { "forma": "Solução oral 3 mg/mL", "obs": "VO" },
+        { "forma": "Associações com paracetamol", "obs": "Tylex®, Codex®" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimidos ou solução oral conforme bula", "concentracao": "3 mg/mL (solução)" },
+        { "diluicao": "Associações codeína + paracetamol: seguir posologia do produto", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "CYP2D6: metabolizadores lentos (~5-10%) não têm efeito analgésico; ultrarrápidos (~5%) risco de toxicidade",
+        "Se o paciente não responder: NÃO aumentar dose; trocar por outro opioide",
+        "Contraindicado em crianças <12 anos e pós-amigdalectomia/adenoidectomia <18 anos",
+        "Associar com paracetamol potencializa analgesia (Tylex®, Codex®)",
+        "Receita A1. Variabilidade interpessoal por fenótipo CYP2D6",
+        "Naloxona disponível para reversão em depressão respiratória"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com dose baixa (15-30 mg). Máx 180 mg/dia. Titular conforme resposta.",
+        "renal": "Reduzir dose ou aumentar intervalo em insuficiência renal. Monitorar sedação.",
+        "hepatico": "Usar com cautela; metabolismo hepático (CYP2D6, CYP3A4). Ajustar conforme função hepática. Metabolizadores ultrarrápidos: risco aumentado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Codeína dor (adulto)",
+        "doseTexto": "15-60 mg VO a cada 4-6h",
+        "doseMin": 15,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-60 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Codeína dor (idoso)",
+        "doseTexto": "15-30 mg VO a cada 4-6h",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Codeína tosse (adulto)",
+        "doseTexto": "10-20 mg VO a cada 4-6h",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Codeine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Mild to moderate pain (adult)",
+          "descricaoDose": "15-60 mg PO every 4-6h. Max 360 mg/day. Efficacy depends on CYP2D6 phenotype.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 60,
+            "doseMaxima": 360,
+            "doseFixa": "15-60 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Reduce dose or increase interval in renal impairment.",
+            "ajusteHepatico": "Use with caution in liver disease; CYP2D6/CYP3A4 metabolism. Adjust per hepatic function."
+          }
+        },
+        {
+          "titulo": "Mild to moderate pain (elderly)",
+          "descricaoDose": "15-30 mg PO every 4-6h. Max 180 mg/day. Start low, titrate to response.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 180,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Reduce dose or increase interval in renal impairment.",
+            "ajusteHepatico": "Caution in liver disease; adjust per hepatic function."
+          }
+        },
+        {
+          "titulo": "Cough (adult)",
+          "descricaoDose": "10-20 mg PO every 4-6h. Max 120 mg/day. Limited/off-label use.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 120,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Reduce dose or increase interval in renal impairment.",
+            "ajusteHepatico": "Caution in liver disease; adjust per hepatic function."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Weak opioid; μ-agonist (prodrug). Hepatic conversion to morphine via CYP2D6 (~10% of dose). Efficacy depends on CYP2D6 phenotype.",
+      "apresentacoes": [
+        { "forma": "Tablet 30 mg, 60 mg", "obs": "PO" },
+        { "forma": "Oral solution 3 mg/mL", "obs": "PO" },
+        { "forma": "Combinations with acetaminophen", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "PO: tablets or oral solution per label", "concentracao": "3 mg/mL (solution)" },
+        { "diluicao": "Codeine + acetaminophen combinations: follow product dosing", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "CYP2D6: poor metabolizers (~5-10%) have no analgesic effect; ultrarapid metabolizers (~5%) at risk of toxicity",
+        "If patient does not respond: do NOT increase dose; switch to another opioid",
+        "Contraindicated in children <12 years and post-tonsillectomy/adenoidectomy <18 years",
+        "Combination with acetaminophen potentiates analgesia",
+        "Schedule II (US). Interindividual variability due to CYP2D6 phenotype",
+        "Naloxone available for reversal of respiratory depression"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with low dose (15-30 mg). Max 180 mg/day. Titrate to response.",
+        "renal": "Reduce dose or increase interval in renal impairment. Monitor sedation.",
+        "hepatico": "Use with caution; hepatic metabolism (CYP2D6, CYP3A4). Adjust per hepatic function. Ultrarapid metabolizers: increased risk."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Codeine pain (adult)",
+        "doseTexto": "15-60 mg PO every 4-6h",
+        "doseMin": 15,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-60 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Codeine pain (elderly)",
+        "doseTexto": "15-30 mg PO every 4-6h",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Codeine cough (adult)",
+        "doseTexto": "10-20 mg PO every 4-6h",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Codeína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor leve a moderado (adulto)",
+          "descricaoDose": "15-60 mg VO cada 4-6h. Máx 360 mg/día. Eficacia depende del fenotipo CYP2D6.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 60,
+            "doseMaxima": 360,
+            "doseFixa": "15-60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "Reducir dosis o aumentar intervalo en insuficiencia renal.",
+            "ajusteHepatico": "Usar con precaución en hepatopatía; metabolismo CYP2D6/CYP3A4. Ajustar según función hepática."
+          }
+        },
+        {
+          "titulo": "Dolor leve a moderado (anciano)",
+          "descricaoDose": "15-30 mg VO cada 4-6h. Máx 180 mg/día. Inicio bajo, titular según respuesta.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 180,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "Reducir dosis o aumentar intervalo en insuficiencia renal.",
+            "ajusteHepatico": "Precaución en hepatopatía; ajustar según función hepática."
+          }
+        },
+        {
+          "titulo": "Tos (adulto)",
+          "descricaoDose": "10-20 mg VO cada 4-6h. Máx 120 mg/día. Uso limitado/off-label.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 120,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "Reducir dosis o aumentar intervalo en insuficiencia renal.",
+            "ajusteHepatico": "Precaución en hepatopatía; ajustar según función hepática."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide débil; agonista μ (profármaco). Conversión hepática a morfina vía CYP2D6 (~10% de la dosis). Eficacia depende del fenotipo CYP2D6.",
+      "apresentacoes": [
+        { "forma": "Comprimido 30 mg, 60 mg", "obs": "VO" },
+        { "forma": "Solución oral 3 mg/mL", "obs": "VO" },
+        { "forma": "Asociaciones con paracetamol", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimidos o solución oral según ficha", "concentracao": "3 mg/mL (solución)" },
+        { "diluicao": "Asociaciones codeína + paracetamol: seguir posología del producto", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "CYP2D6: metabolizadores lentos (~5-10%) no tienen efecto analgésico; ultrarrápidos (~5%) riesgo de toxicidad",
+        "Si el paciente no responde: NO aumentar dosis; cambiar a otro opioide",
+        "Contraindicado en niños <12 años y pos-amigdalectomía/adenoidectomía <18 años",
+        "Asociar con paracetamol potencia analgesia",
+        "Receta controlada. Variabilidad interindividual por fenotipo CYP2D6",
+        "Naloxona disponible para reversión en depresión respiratoria"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis baja (15-30 mg). Máx 180 mg/día. Titular según respuesta.",
+        "renal": "Reducir dosis o aumentar intervalo en insuficiencia renal. Monitorizar sedación.",
+        "hepatico": "Usar con precaución; metabolismo hepático (CYP2D6, CYP3A4). Ajustar según función hepática. Metabolizadores ultrarrápidos: riesgo aumentado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Codeína dolor (adulto)",
+        "doseTexto": "15-60 mg VO cada 4-6h",
+        "doseMin": 15,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-60 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Codeína dolor (anciano)",
+        "doseTexto": "15-30 mg VO cada 4-6h",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Codeína tos (adulto)",
+        "doseTexto": "10-20 mg VO cada 4-6h",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "可待因",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "轻至中度疼痛（成人）",
+          "descricaoDose": "15-60 mg 口服 每 4-6 小时。最大 360 mg/日。疗效取决于 CYP2D6 表型。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 60,
+            "doseMaxima": 360,
+            "doseFixa": "15-60 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "肾功能不全时减量或延长给药间隔。",
+            "ajusteHepatico": "肝病慎用；CYP2D6/CYP3A4 代谢。根据肝功能调整。"
+          }
+        },
+        {
+          "titulo": "轻至中度疼痛（老年）",
+          "descricaoDose": "15-30 mg 口服 每 4-6 小时。最大 180 mg/日。从低剂量开始，按反应滴定。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 180,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "肾功能不全时减量或延长间隔。",
+            "ajusteHepatico": "肝病慎用；根据肝功能调整。"
+          }
+        },
+        {
+          "titulo": "咳嗽（成人）",
+          "descricaoDose": "10-20 mg 口服 每 4-6 小时。最大 120 mg/日。使用有限/超说明书。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 120,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "肾功能不全时减量或延长间隔。",
+            "ajusteHepatico": "肝病慎用；根据肝功能调整。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "弱阿片类；μ 受体激动剂（前体药物）。经 CYP2D6 在肝内转化为吗啡（约 10% 剂量）。疗效取决于 CYP2D6 表型。",
+      "apresentacoes": [
+        { "forma": "片剂 30、60 mg", "obs": "口服" },
+        { "forma": "口服液 3 mg/mL", "obs": "口服" },
+        { "forma": "与对乙酰氨基酚复方", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "口服：片剂或口服液按说明书", "concentracao": "3 mg/mL（口服液）" },
+        { "diluicao": "可待因+对乙酰氨基酚复方：按产品说明给药", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "CYP2D6：慢代谢者（约5-10%）无镇痛作用；超快代谢者（约5%）有毒性风险",
+        "若患者无反应：勿增加剂量；换用其他阿片类",
+        "禁用于 12 岁以下儿童及 18 岁以下扁桃体/腺样体切除术后",
+        "与对乙酰氨基酚联用增强镇痛",
+        "管制药品。CYP2D6 表型导致个体差异",
+        "备纳洛酮用于呼吸抑制逆转"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从低剂量开始（15-30 mg）。最大 180 mg/日。按反应滴定。",
+        "renal": "肾功能不全时减量或延长间隔。监测镇静。",
+        "hepatico": "肝病慎用；肝代谢（CYP2D6、CYP3A4）。根据肝功能调整。超快代谢者风险增加。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "可待因 镇痛（成人）",
+        "doseTexto": "15-60 mg 口服 每 4-6 小时",
+        "doseMin": 15,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-60 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "可待因 镇痛（老年）",
+        "doseTexto": "15-30 mg 口服 每 4-6 小时",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "可待因 镇咳（成人）",
+        "doseTexto": "10-20 mg 口服 每 4-6 小时",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

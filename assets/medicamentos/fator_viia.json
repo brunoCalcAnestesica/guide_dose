@@ -1,0 +1,76 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Fator VII Ativado Recombinante (rFVIIa)",
+      "nomesComerciais": ["NovoSeven®", "NovoSeven RT®"],
+      "classeTerapeutica": "Hemoderivado / Fator de coagulação recombinante",
+      "mecanismoAcao": "Fator VIIa recombinante que inicia a cascata de coagulação ligando-se ao fator tecidual exposto no local da lesão vascular. Também ativa diretamente o fator X na superfície de plaquetas ativadas, gerando trombina e formação de coágulo estável.",
+      "indicacoes": [
+        "Hemofilia A ou B com inibidores de fator VIII ou IX",
+        "Deficiência congênita de fator VII",
+        "Trombastenia de Glanzmann refratária",
+        "Hemorragia grave refratária a tratamento convencional (off-label)"
+      ],
+      "apresentacoes": [
+        "Frasco 1 mg (50 KUI) + diluente 1,1 mL",
+        "Frasco 2 mg (100 KUI) + diluente 2,1 mL",
+        "Frasco 5 mg (250 KUI) + diluente 5,2 mL",
+        "Concentração após reconstituição: 1 mg/mL"
+      ],
+      "posologia": {
+        "hemofilia_com_inibidores": {
+          "dose": "90 mcg/kg IV em bolus",
+          "intervalo": "Repetir a cada 2-3 horas até hemostasia",
+          "manutencao": "Espaçar intervalos progressivamente"
+        },
+        "deficiencia_fator_VII": {
+          "sangramento": "15-30 mcg/kg IV a cada 4-6h",
+          "profilaxia": "15-30 mcg/kg 2-3x/semana"
+        },
+        "hemorragia_refrataria_off_label": {
+          "dose_padrao": "90 mcg/kg IV",
+          "dose_baixa": "20-40 mcg/kg IV"
+        }
+      },
+      "preparo": {
+        "reconstituicao": "Adicionar diluente lentamente ao frasco",
+        "tecnica": "Girar suavemente - NÃO agitar",
+        "estabilidade": "Usar em até 3h após reconstituição",
+        "temperatura": "Pode usar a temperatura ambiente"
+      },
+      "administracao": {
+        "via": "IV em bolus",
+        "tempo": "2-5 minutos",
+        "observacao": "Não misturar com outros medicamentos"
+      },
+      "farmacocinetica": {
+        "inicio_acao": "10-20 minutos",
+        "meia_vida": "2-3 horas",
+        "observacao": "Doses repetidas frequentemente necessárias"
+      },
+      "contraindicacoes": [
+        "Hipersensibilidade ao produto ou proteínas de hamster/bovino",
+        "IAM recente (risco trombótico)",
+        "AVC recente",
+        "Trombose arterial ativa"
+      ],
+      "efeitosAdversos": [
+        "Trombose venosa e arterial",
+        "IAM",
+        "AVC",
+        "CIVD",
+        "Reação alérgica",
+        "Febre"
+      ],
+      "observacoes": [
+        "CUSTO MUITO ELEVADO - uso restrito",
+        "Uso off-label em hemorragia refratária é controverso",
+        "Risco trombótico aumentado - usar menor dose efetiva",
+        "Monitorar TP, INR, fibrinogênio",
+        "Evidência limitada para uso fora das indicações aprovadas",
+        "Requer autorização especial em muitas instituições"
+      ],
+      "categoriaGravidez": "C"
+    }
+  }
+}

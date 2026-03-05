@@ -1,0 +1,1074 @@
+{
+  "PT": {
+    "nome": "Octreotida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "HDA varicosa - Bolus",
+          "descricaoDose": "50-100 mcg IV em bolus lento (3-5 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cirrose: reduzir dose inicial 50% e titular"
+          }
+        },
+        {
+          "titulo": "HDA varicosa - Infusão contínua",
+          "descricaoDose": "25-50 mcg/h IV por 2-5 dias",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": "25-50 mcg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cirrose: reduzir dose inicial 50% e titular"
+          }
+        },
+        {
+          "titulo": "Fístula pancreática ou entérica",
+          "descricaoDose": "100-250 mcg SC 8/8h ou 50-200 mcg SC 2-3x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 250,
+            "doseMaxima": null,
+            "doseFixa": "100-250 mcg SC 8/8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "a cada 8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cirrose: reduzir dose inicial 50% e titular"
+          }
+        },
+        {
+          "titulo": "Tumores neuroendócrinos / Acromegalia",
+          "descricaoDose": "50-100 mcg SC 2-3x/dia (ou LAR 10-30 mg IM a cada 4 semanas)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mcg SC 2-3x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2-3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cirrose: reduzir dose inicial 50% e titular"
+          }
+        },
+        {
+          "titulo": "HDA varicosa pediátrico - Bolus",
+          "descricaoDose": "1-2 mcg/kg IV bolus (máx 50 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "HDA varicosa pediátrico - Infusão",
+          "descricaoDose": "1-2 mcg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Quilotórax / Ascite quilosa (pediátrico)",
+          "descricaoDose": "1-10 mcg/kg SC 2-3x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 5,
+            "doseMin": 1,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2-3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hiperinsulinismo congênito (pediátrico)",
+          "descricaoDose": "2-10 mcg/kg/dia SC dividido em 2-4 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 5,
+            "doseMin": 2,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2-4x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua (HDA - adulto)",
+          "unidade": "mcg/h",
+          "adulto": { "doseMin": 25, "doseMax": 50 },
+          "pediatrico": { "doseMin": 25, "doseMax": 50 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "600 mcg em 500 mL SF 0,9% (1,2 mcg/mL)", "valor": 1.2 },
+            { "rotulo": "500 mcg em 250 mL SF 0,9% (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "100 mcg em 50 mL SF 0,9% (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50 mcg em 50 mL SF 0,9% (1 mcg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "Infusão contínua (HDA - pediátrico)",
+          "unidade": "mcg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "500 mcg em 50 mL SF 0,9% (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "100 mcg em 50 mL SF 0,9% (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50 mcg em 50 mL SF 0,9% (1 mcg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Análogo sintético da somatostatina - antissecretor e vasoativo",
+      "apresentacoes": [
+        { "forma": "Ampola 50 mcg/mL (1 mL)", "obs": "Sandostatin®" },
+        { "forma": "Ampola 100 mcg/mL (1 mL)", "obs": "" },
+        { "forma": "Ampola 500 mcg/mL (1 mL)", "obs": "" },
+        { "forma": "LAR 10 mg, 20 mg, 30 mg", "obs": "Pó para suspensão IM - liberação prolongada" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV: puro ou 50-100 mL SF 0,9%", "concentracao": "Administração lenta 3-5 min" },
+        { "diluicao": "600 mcg em 500 mL SF 0,9%", "concentracao": "1,2 mcg/mL (infusão contínua)" },
+        { "diluicao": "500 mcg em 250 mL SF 0,9%", "concentracao": "2 mcg/mL" },
+        { "diluicao": "SC: sem diluição", "concentracao": "Temperatura ambiente" }
+      ],
+      "observacoes": [
+        "Meia-vida 90-120 min (IV/SC); infusão contínua em HDA por 2-5 dias",
+        "Monitorar glicemia (risco de hipo e hiperglicemia)",
+        "Risco de colelitíase e lama biliar em uso prolongado (ultrassom 6-12/12 meses)",
+        "Pode causar bradicardia e prolongamento do QT - monitorar ECG",
+        "Associar IBP e antibióticos profiláticos em HDA varicosa",
+        "Incompatível com NPT na mesma linha"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar glicemia e efeitos cardiovasculares.",
+        "renal": "Liberação imediata: não requer ajuste. Diálise/LAR: aumentar intervalo ou reduzir dose inicial em 50%.",
+        "hepatico": "Cirrose: reduzir dose inicial em 50% e titular. Meia-vida pode prolongar-se."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Octreotida (HDA - bolus)",
+        "doseTexto": "50-100 mcg IV bolus lento (3-5 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Octreotida (HDA - infusão)",
+        "doseTexto": "25-50 mcg/h IV por 2-5 dias",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Octreotida (fístula pancreática)",
+        "doseTexto": "100-250 mcg SC 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "100-250 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Octreotida (HDA pediátrico - bolus)",
+        "doseTexto": "1-2 mcg/kg IV (máx 50 mcg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Octreotida (HDA pediátrico - infusão)",
+        "doseTexto": "1-2 mcg/kg/h IV contínua",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Octreotide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Variceal hemorrhage - Bolus",
+          "descricaoDose": "50-100 mcg IV slow bolus (3-5 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Cirrhosis: reduce initial dose 50% and titrate"
+          }
+        },
+        {
+          "titulo": "Variceal hemorrhage - Continuous infusion",
+          "descricaoDose": "25-50 mcg/h IV for 2-5 days",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": "25-50 mcg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Cirrhosis: reduce initial dose 50% and titrate"
+          }
+        },
+        {
+          "titulo": "Pancreatic or enteric fistula",
+          "descricaoDose": "100-250 mcg SC q8h or 50-200 mcg SC 2-3x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 250,
+            "doseMaxima": null,
+            "doseFixa": "100-250 mcg SC q8h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "every 8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Cirrhosis: reduce initial dose 50% and titrate"
+          }
+        },
+        {
+          "titulo": "Neuroendocrine tumors / Acromegaly",
+          "descricaoDose": "50-100 mcg SC 2-3x/day (or LAR 10-30 mg IM every 4 weeks)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mcg SC 2-3x/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "2-3x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Cirrhosis: reduce initial dose 50% and titrate"
+          }
+        },
+        {
+          "titulo": "Pediatric variceal hemorrhage - Bolus",
+          "descricaoDose": "1-2 mcg/kg IV bolus (max 50 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric variceal hemorrhage - Infusion",
+          "descricaoDose": "1-2 mcg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Chylothorax / Chylous ascites (pediatric)",
+          "descricaoDose": "1-10 mcg/kg SC 2-3x/day",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 5,
+            "doseMin": 1,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "2-3x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Congenital hyperinsulinism (pediatric)",
+          "descricaoDose": "2-10 mcg/kg/day SC divided in 2-4 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 5,
+            "doseMin": 2,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "2-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion (variceal - adult)",
+          "unidade": "mcg/h",
+          "adulto": { "doseMin": 25, "doseMax": 50 },
+          "pediatrico": { "doseMin": 25, "doseMax": 50 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "600 mcg in 500 mL NS (1.2 mcg/mL)", "valor": 1.2 },
+            { "rotulo": "500 mcg in 250 mL NS (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "100 mcg in 50 mL NS (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50 mcg in 50 mL NS (1 mcg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "Continuous infusion (variceal - pediatric)",
+          "unidade": "mcg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "500 mcg in 50 mL NS (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "100 mcg in 50 mL NS (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50 mcg in 50 mL NS (1 mcg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Synthetic somatostatin analogue - antisecretory and vasoactive",
+      "apresentacoes": [
+        { "forma": "Ampoule 50 mcg/mL (1 mL)", "obs": "Sandostatin®" },
+        { "forma": "Ampoule 100 mcg/mL (1 mL)", "obs": "" },
+        { "forma": "Ampoule 500 mcg/mL (1 mL)", "obs": "" },
+        { "forma": "LAR 10 mg, 20 mg, 30 mg", "obs": "Powder for IM suspension - extended release" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: undiluted or 50-100 mL NS", "concentracao": "Administer slowly over 3-5 min" },
+        { "diluicao": "600 mcg in 500 mL NS", "concentracao": "1.2 mcg/mL (continuous infusion)" },
+        { "diluicao": "500 mcg in 250 mL NS", "concentracao": "2 mcg/mL" },
+        { "diluicao": "SC: undiluted", "concentracao": "Room temperature" }
+      ],
+      "observacoes": [
+        "Half-life 90-120 min (IV/SC); continuous infusion in variceal hemorrhage for 2-5 days",
+        "Monitor blood glucose (risk of hypo and hyperglycemia)",
+        "Risk of cholelithiasis and biliary sludge with prolonged use (ultrasound every 6-12 months)",
+        "May cause bradycardia and QT prolongation - monitor ECG",
+        "Combine with PPI and prophylactic antibiotics in variceal hemorrhage",
+        "Incompatible with TPN in same line"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor glucose and cardiovascular effects.",
+        "renal": "Immediate-release: no adjustment. Dialysis/LAR: increase interval or reduce initial dose by 50%.",
+        "hepatico": "Cirrhosis: reduce initial dose by 50% and titrate. Half-life may be prolonged."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Octreotide (variceal - bolus)",
+        "doseTexto": "50-100 mcg IV slow bolus (3-5 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Octreotide (variceal - infusion)",
+        "doseTexto": "25-50 mcg/h IV for 2-5 days",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Octreotide (pancreatic fistula)",
+        "doseTexto": "100-250 mcg SC q8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "100-250 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Octreotide (pediatric variceal - bolus)",
+        "doseTexto": "1-2 mcg/kg IV (max 50 mcg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Octreotide (pediatric variceal - infusion)",
+        "doseTexto": "1-2 mcg/kg/h IV continuous",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Octreotida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "HDA varicosa - Bolus",
+          "descricaoDose": "50-100 mcg IV en bolus lento (3-5 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Cirrosis: reducir dosis inicial 50% y titular"
+          }
+        },
+        {
+          "titulo": "HDA varicosa - Infusión continua",
+          "descricaoDose": "25-50 mcg/h IV por 2-5 días",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": "25-50 mcg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Cirrosis: reducir dosis inicial 50% y titular"
+          }
+        },
+        {
+          "titulo": "Fístula pancreática o entérica",
+          "descricaoDose": "100-250 mcg SC 8/8h o 50-200 mcg SC 2-3x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 250,
+            "doseMaxima": null,
+            "doseFixa": "100-250 mcg SC 8/8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "cada 8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Cirrosis: reducir dosis inicial 50% y titular"
+          }
+        },
+        {
+          "titulo": "Tumores neuroendocrinos / Acromegalia",
+          "descricaoDose": "50-100 mcg SC 2-3x/día (o LAR 10-30 mg IM cada 4 semanas)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mcg SC 2-3x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2-3x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Cirrosis: reducir dosis inicial 50% y titular"
+          }
+        },
+        {
+          "titulo": "HDA varicosa pediátrico - Bolus",
+          "descricaoDose": "1-2 mcg/kg IV bolus (máx 50 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "HDA varicosa pediátrico - Infusión",
+          "descricaoDose": "1-2 mcg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Quilotórax / Ascitis quilosa (pediátrico)",
+          "descricaoDose": "1-10 mcg/kg SC 2-3x/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 5,
+            "doseMin": 1,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2-3x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hiperinsulinismo congénito (pediátrico)",
+          "descricaoDose": "2-10 mcg/kg/día SC dividido en 2-4 dosis",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 5,
+            "doseMin": 2,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "2-4x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua (HDA - adulto)",
+          "unidade": "mcg/h",
+          "adulto": { "doseMin": 25, "doseMax": 50 },
+          "pediatrico": { "doseMin": 25, "doseMax": 50 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "600 mcg en 500 mL SF 0,9% (1,2 mcg/mL)", "valor": 1.2 },
+            { "rotulo": "500 mcg en 250 mL SF 0,9% (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "100 mcg en 50 mL SF 0,9% (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50 mcg en 50 mL SF 0,9% (1 mcg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "Infusión continua (HDA - pediátrico)",
+          "unidade": "mcg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "500 mcg en 50 mL SF 0,9% (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "100 mcg en 50 mL SF 0,9% (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50 mcg en 50 mL SF 0,9% (1 mcg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Análogo sintético de somatostatina - antisecretor y vasoactivo",
+      "apresentacoes": [
+        { "forma": "Ampolla 50 mcg/mL (1 mL)", "obs": "Sandostatin®" },
+        { "forma": "Ampolla 100 mcg/mL (1 mL)", "obs": "" },
+        { "forma": "Ampolla 500 mcg/mL (1 mL)", "obs": "" },
+        { "forma": "LAR 10 mg, 20 mg, 30 mg", "obs": "Polvo para suspensión IM - liberación prolongada" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV: puro o 50-100 mL SF 0,9%", "concentracao": "Administración lenta 3-5 min" },
+        { "diluicao": "600 mcg en 500 mL SF 0,9%", "concentracao": "1,2 mcg/mL (infusión continua)" },
+        { "diluicao": "500 mcg en 250 mL SF 0,9%", "concentracao": "2 mcg/mL" },
+        { "diluicao": "SC: sin dilución", "concentracao": "Temperatura ambiente" }
+      ],
+      "observacoes": [
+        "Vida media 90-120 min (IV/SC); infusión continua en HDA por 2-5 días",
+        "Monitorizar glucemia (riesgo de hipo e hiperglucemia)",
+        "Riesgo de colelitiasis y lodo biliar con uso prolongado (ecografía 6-12/12 meses)",
+        "Puede causar bradicardia y prolongación del QT - monitorizar ECG",
+        "Asociar IBP y antibióticos profilácticos en HDA varicosa",
+        "Incompatible con NPT en la misma línea"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar glucemia y efectos cardiovasculares.",
+        "renal": "Liberación inmediata: no requiere ajuste. Diálisis/LAR: aumentar intervalo o reducir dosis inicial 50%.",
+        "hepatico": "Cirrosis: reducir dosis inicial 50% y titular. Vida media puede prolongarse."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Octreotida (HDA - bolus)",
+        "doseTexto": "50-100 mcg IV bolus lento (3-5 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Octreotida (HDA - infusión)",
+        "doseTexto": "25-50 mcg/h IV por 2-5 días",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Octreotida (fístula pancreática)",
+        "doseTexto": "100-250 mcg SC 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "100-250 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Octreotida (HDA pediátrico - bolus)",
+        "doseTexto": "1-2 mcg/kg IV (máx 50 mcg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Octreotida (HDA pediátrico - infusión)",
+        "doseTexto": "1-2 mcg/kg/h IV continua",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "奥曲肽",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "静脉曲张出血 - 推注",
+          "descricaoDose": "50-100 mcg IV 缓慢推注（3-5分钟）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝硬化：首剂减量50%并滴定"
+          }
+        },
+        {
+          "titulo": "静脉曲张出血 - 持续输注",
+          "descricaoDose": "25-50 mcg/h IV 2-5天",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/h",
+            "dosePorKg": null,
+            "doseMin": 25,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": "25-50 mcg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝硬化：首剂减量50%并滴定"
+          }
+        },
+        {
+          "titulo": "胰瘘或肠瘘",
+          "descricaoDose": "100-250 mcg 皮下 每8小时 或 50-200 mcg 皮下 每日2-3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 250,
+            "doseMaxima": null,
+            "doseFixa": "100-250 mcg SC 每8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "每8小时",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝硬化：首剂减量50%并滴定"
+          }
+        },
+        {
+          "titulo": "神经内分泌肿瘤 / 肢端肥大症",
+          "descricaoDose": "50-100 mcg 皮下 每日2-3次（或 LAR 10-30 mg 肌注 每4周）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mcg SC 每日2-3次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝硬化：首剂减量50%并滴定"
+          }
+        },
+        {
+          "titulo": "儿童静脉曲张出血 - 推注",
+          "descricaoDose": "1-2 mcg/kg IV 推注（最大50 mcg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "儿童静脉曲张出血 - 输注",
+          "descricaoDose": "1-2 mcg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "乳糜胸 / 乳糜腹（儿童）",
+          "descricaoDose": "1-10 mcg/kg 皮下 每日2-3次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 5,
+            "doseMin": 1,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "先天性高胰岛素血症（儿童）",
+          "descricaoDose": "2-10 mcg/kg/日 皮下 分2-4次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 5,
+            "doseMin": 2,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "每日2-4次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注（静脉曲张 - 成人）",
+          "unidade": "mcg/h",
+          "adulto": { "doseMin": 25, "doseMax": 50 },
+          "pediatrico": { "doseMin": 25, "doseMax": 50 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "600 mcg 溶于 500 mL 生理盐水 (1,2 mcg/mL)", "valor": 1.2 },
+            { "rotulo": "500 mcg 溶于 250 mL 生理盐水 (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "100 mcg 溶于 50 mL 生理盐水 (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50 mcg 溶于 50 mL 生理盐水 (1 mcg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "持续输注（静脉曲张 - 儿童）",
+          "unidade": "mcg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "500 mcg 溶于 50 mL 生理盐水 (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "100 mcg 溶于 50 mL 生理盐水 (2 mcg/mL)", "valor": 2 },
+            { "rotulo": "50 mcg 溶于 50 mL 生理盐水 (1 mcg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "生长抑素合成类似物 - 抗分泌与血管活性",
+      "apresentacoes": [
+        { "forma": "安瓿 50 mcg/mL (1 mL)", "obs": "Sandostatin®" },
+        { "forma": "安瓿 100 mcg/mL (1 mL)", "obs": "" },
+        { "forma": "安瓿 500 mcg/mL (1 mL)", "obs": "" },
+        { "forma": "LAR 10 mg、20 mg、30 mg", "obs": "肌注混悬液 - 缓释" }
+      ],
+      "preparo": [
+        { "diluicao": "IV推注：原液或50-100 mL生理盐水", "concentracao": "缓慢给药3-5分钟" },
+        { "diluicao": "600 mcg 溶于 500 mL 生理盐水", "concentracao": "1,2 mcg/mL（持续输注）" },
+        { "diluicao": "500 mcg 溶于 250 mL 生理盐水", "concentracao": "2 mcg/mL" },
+        { "diluicao": "皮下：不稀释", "concentracao": "室温" }
+      ],
+      "observacoes": [
+        "半衰期90-120分钟（IV/皮下）；静脉曲张出血持续输注2-5天",
+        "监测血糖（低血糖及高血糖风险）",
+        "长期使用有胆石症及胆汁淤积风险（每6-12个月超声）",
+        "可致心动过缓及QT延长 - 监测心电图",
+        "静脉曲张出血时联用PPI及预防用抗生素",
+        "与全肠外营养不可同路"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定剂量调整。监测血糖及心血管效应。",
+        "renal": "即释剂：无需调整。透析/LAR：延长间隔或首剂减半。",
+        "hepatico": "肝硬化：首剂减量50%并滴定。半衰期可能延长。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "奥曲肽（静脉曲张 - 推注）",
+        "doseTexto": "50-100 mcg IV 缓慢推注（3-5分钟）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "奥曲肽（静脉曲张 - 输注）",
+        "doseTexto": "25-50 mcg/h IV 2-5天",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mcg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "奥曲肽（胰瘘）",
+        "doseTexto": "100-250 mcg 皮下 每8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "100-250 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "奥曲肽（儿童静脉曲张 - 推注）",
+        "doseTexto": "1-2 mcg/kg IV（最大50 mcg）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "奥曲肽（儿童静脉曲张 - 输注）",
+        "doseTexto": "1-2 mcg/kg/h IV 持续",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  }
+}

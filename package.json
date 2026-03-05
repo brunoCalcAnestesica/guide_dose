@@ -1,0 +1,8 @@
+{
+  "name": "guide-dose",
+  "private": true,
+  "scripts": {
+    "web:dev": "cd auth && npm run dev",
+    "deploy": "npx netlify-cli deploy --prod"
+  }
+}

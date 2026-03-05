@@ -1,0 +1,802 @@
+{
+  "PT": {
+    "nome": "Ganciclovir",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Retinite por CMV - Indução",
+          "descricaoDose": "5 mg/kg IV 12/12h por 14-21 dias",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h (14-21 dias)",
+            "ajusteRenal": "ClCr 50-69: 2,5 mg/kg 12/12h; ClCr 25-49: 2,5 mg/kg 24/24h; ClCr 10-24: 1,25 mg/kg 24/24h; ClCr <10: 1,25 mg/kg 3x/sem",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Retinite por CMV - Manutenção",
+          "descricaoDose": "5 mg/kg IV 24/24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "24/24h",
+            "ajusteRenal": "ClCr 50-69: 2,5 mg/kg 24/24h; ClCr 25-49: 1,25 mg/kg 24/24h; ClCr 10-24: 0,625 mg/kg 24/24h; ClCr <10: 0,625 mg/kg 3x/sem",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Tratamento CMV (pneumonite/colite/esofagite)",
+          "descricaoDose": "5 mg/kg IV 12/12h por 14-21 dias",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h (14-21 dias)",
+            "ajusteRenal": "ClCr 50-69: 2,5 mg/kg 12/12h; ClCr 25-49: 2,5 mg/kg 24/24h; ClCr 10-24: 1,25 mg/kg 24/24h; ClCr <10: 1,25 mg/kg 3x/sem",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxia CMV em transplantados",
+          "descricaoDose": "5 mg/kg IV 24/24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "24/24h",
+            "ajusteRenal": "ClCr 50-69: 2,5 mg/kg 24/24h; ClCr 25-49: 1,25 mg/kg 24/24h; ClCr 10-24: 0,625 mg/kg 24/24h; ClCr <10: 0,625 mg/kg 3x/sem",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "CMV congênito sintomático",
+          "descricaoDose": "6 mg/kg IV 12/12h por 6 semanas",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h (6 semanas)",
+            "ajusteRenal": "Ajustar conforme ClCr (Schwartz). ClCr <50: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxia CMV pediátrica",
+          "descricaoDose": "5 mg/kg IV 24/24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "24/24h",
+            "ajusteRenal": "Ajustar conforme ClCr (Schwartz). ClCr <50: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiviral - Análogo de nucleosídeo (guanosina)",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 500 mg", "obs": "Pó liofilizado para reconstituição IV" }
+      ],
+      "preparo": [
+        { "diluicao": "500 mg + 10 mL AD", "concentracao": "50 mg/mL (reconstituição)" },
+        { "diluicao": "Dose + 100 mL SF 0,9%", "concentracao": "≤10 mg/mL (infusão)" },
+        { "diluicao": "Dose + 250 mL SF 0,9%", "concentracao": "≤2 mg/mL (infusão)" }
+      ],
+      "observacoes": [
+        "Mielotóxico: hemograma 2-3x/semana na indução (neutropenia 30-40%)",
+        "Nefrotóxico: manter hidratação adequada e monitorar creatinina",
+        "Infundir em no mínimo 1 hora - nunca administrar em bolus IV",
+        "Contraindicado se neutrófilos <500/mm³ ou plaquetas <25.000/mm³",
+        "Teratogênico e mutagênico - contraindicado na gestação",
+        "Pró-droga oral: Valganciclovir (900 mg VO ≈ 5 mg/kg IV)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajustar conforme função renal (declínio fisiológico da TFG). Monitorar mielotoxicidade com maior rigor.",
+        "renal": "Ajuste obrigatório por ClCr. Indução: ClCr 50-69: 2,5 mg/kg 12/12h; ClCr 25-49: 2,5 mg/kg 24/24h; ClCr 10-24: 1,25 mg/kg 24/24h; ClCr <10: 1,25 mg/kg 3x/sem. Hemodiálise: administrar dose pós-diálise.",
+        "hepatico": "Sem ajuste específico. Excreção predominantemente renal (>90%)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ganciclovir Indução (adulto)",
+        "doseTexto": "5 mg/kg IV 12/12h",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ganciclovir Manutenção (adulto)",
+        "doseTexto": "5 mg/kg IV 24/24h",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ganciclovir CMV congênito (ped)",
+        "doseTexto": "6 mg/kg IV 12/12h",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Ganciclovir Profilaxia (ped)",
+        "doseTexto": "5 mg/kg IV 24/24h",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ganciclovir",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "CMV Retinitis - Induction",
+          "descricaoDose": "5 mg/kg IV q12h for 14-21 days",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q12h (14-21 days)",
+            "ajusteRenal": "CrCl 50-69: 2.5 mg/kg q12h; CrCl 25-49: 2.5 mg/kg q24h; CrCl 10-24: 1.25 mg/kg q24h; CrCl <10: 1.25 mg/kg 3x/wk",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "CMV Retinitis - Maintenance",
+          "descricaoDose": "5 mg/kg IV q24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q24h",
+            "ajusteRenal": "CrCl 50-69: 2.5 mg/kg q24h; CrCl 25-49: 1.25 mg/kg q24h; CrCl 10-24: 0.625 mg/kg q24h; CrCl <10: 0.625 mg/kg 3x/wk",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "CMV Treatment (pneumonitis/colitis/esophagitis)",
+          "descricaoDose": "5 mg/kg IV q12h for 14-21 days",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q12h (14-21 days)",
+            "ajusteRenal": "CrCl 50-69: 2.5 mg/kg q12h; CrCl 25-49: 2.5 mg/kg q24h; CrCl 10-24: 1.25 mg/kg q24h; CrCl <10: 1.25 mg/kg 3x/wk",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "CMV Prophylaxis in Transplant",
+          "descricaoDose": "5 mg/kg IV q24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q24h",
+            "ajusteRenal": "CrCl 50-69: 2.5 mg/kg q24h; CrCl 25-49: 1.25 mg/kg q24h; CrCl 10-24: 0.625 mg/kg q24h; CrCl <10: 0.625 mg/kg 3x/wk",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Symptomatic Congenital CMV",
+          "descricaoDose": "6 mg/kg IV q12h for 6 weeks",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q12h (6 weeks)",
+            "ajusteRenal": "Adjust per CrCl (Schwartz). CrCl <50: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric CMV Prophylaxis",
+          "descricaoDose": "5 mg/kg IV q24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q24h",
+            "ajusteRenal": "Adjust per CrCl (Schwartz). CrCl <50: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiviral - Nucleoside analogue (guanosine)",
+      "apresentacoes": [
+        { "forma": "Vial 500 mg", "obs": "Lyophilized powder for IV reconstitution" }
+      ],
+      "preparo": [
+        { "diluicao": "500 mg + 10 mL SW", "concentracao": "50 mg/mL (reconstitution)" },
+        { "diluicao": "Dose + 100 mL NS", "concentracao": "≤10 mg/mL (infusion)" },
+        { "diluicao": "Dose + 250 mL NS", "concentracao": "≤2 mg/mL (infusion)" }
+      ],
+      "observacoes": [
+        "Myelotoxic: CBC 2-3x/week during induction (neutropenia 30-40%)",
+        "Nephrotoxic: maintain adequate hydration and monitor creatinine",
+        "Infuse over at least 1 hour - never administer as IV bolus",
+        "Contraindicated if ANC <500/mm³ or platelets <25,000/mm³",
+        "Teratogenic and mutagenic - contraindicated in pregnancy",
+        "Oral prodrug: Valganciclovir (900 mg PO ≈ 5 mg/kg IV)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Adjust per renal function (physiologic GFR decline). Monitor myelotoxicity closely.",
+        "renal": "Mandatory CrCl-based adjustment. Induction: CrCl 50-69: 2.5 mg/kg q12h; CrCl 25-49: 2.5 mg/kg q24h; CrCl 10-24: 1.25 mg/kg q24h; CrCl <10: 1.25 mg/kg 3x/wk. Hemodialysis: administer post-dialysis dose.",
+        "hepatico": "No specific adjustment. Predominantly renal excretion (>90%)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ganciclovir Induction (adult)",
+        "doseTexto": "5 mg/kg IV q12h",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ganciclovir Maintenance (adult)",
+        "doseTexto": "5 mg/kg IV q24h",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ganciclovir Congenital CMV (ped)",
+        "doseTexto": "6 mg/kg IV q12h",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Ganciclovir Prophylaxis (ped)",
+        "doseTexto": "5 mg/kg IV q24h",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ganciclovir",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Retinitis por CMV - Inducción",
+          "descricaoDose": "5 mg/kg IV c/12h por 14-21 días",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "c/12h (14-21 días)",
+            "ajusteRenal": "ClCr 50-69: 2,5 mg/kg c/12h; ClCr 25-49: 2,5 mg/kg c/24h; ClCr 10-24: 1,25 mg/kg c/24h; ClCr <10: 1,25 mg/kg 3x/sem",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Retinitis por CMV - Mantenimiento",
+          "descricaoDose": "5 mg/kg IV c/24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "c/24h",
+            "ajusteRenal": "ClCr 50-69: 2,5 mg/kg c/24h; ClCr 25-49: 1,25 mg/kg c/24h; ClCr 10-24: 0,625 mg/kg c/24h; ClCr <10: 0,625 mg/kg 3x/sem",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Tratamiento CMV (neumonitis/colitis/esofagitis)",
+          "descricaoDose": "5 mg/kg IV c/12h por 14-21 días",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "c/12h (14-21 días)",
+            "ajusteRenal": "ClCr 50-69: 2,5 mg/kg c/12h; ClCr 25-49: 2,5 mg/kg c/24h; ClCr 10-24: 1,25 mg/kg c/24h; ClCr <10: 1,25 mg/kg 3x/sem",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxis CMV en trasplantados",
+          "descricaoDose": "5 mg/kg IV c/24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "c/24h",
+            "ajusteRenal": "ClCr 50-69: 2,5 mg/kg c/24h; ClCr 25-49: 1,25 mg/kg c/24h; ClCr 10-24: 0,625 mg/kg c/24h; ClCr <10: 0,625 mg/kg 3x/sem",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "CMV congénito sintomático",
+          "descricaoDose": "6 mg/kg IV c/12h por 6 semanas",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "c/12h (6 semanas)",
+            "ajusteRenal": "Ajustar según ClCr (Schwartz). ClCr <50: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxis CMV pediátrica",
+          "descricaoDose": "5 mg/kg IV c/24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "c/24h",
+            "ajusteRenal": "Ajustar según ClCr (Schwartz). ClCr <50: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiviral - Análogo de nucleósido (guanosina)",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 500 mg", "obs": "Polvo liofilizado para reconstitución IV" }
+      ],
+      "preparo": [
+        { "diluicao": "500 mg + 10 mL AD", "concentracao": "50 mg/mL (reconstitución)" },
+        { "diluicao": "Dosis + 100 mL SSF", "concentracao": "≤10 mg/mL (infusión)" },
+        { "diluicao": "Dosis + 250 mL SSF", "concentracao": "≤2 mg/mL (infusión)" }
+      ],
+      "observacoes": [
+        "Mielotóxico: hemograma 2-3x/semana en inducción (neutropenia 30-40%)",
+        "Nefrotóxico: mantener hidratación adecuada y monitorear creatinina",
+        "Infundir en mínimo 1 hora - nunca administrar en bolo IV",
+        "Contraindicado si neutrófilos <500/mm³ o plaquetas <25.000/mm³",
+        "Teratogénico y mutagénico - contraindicado en embarazo",
+        "Prodroga oral: Valganciclovir (900 mg VO ≈ 5 mg/kg IV)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajustar según función renal (declive fisiológico del FG). Monitorear mielotoxicidad con mayor rigor.",
+        "renal": "Ajuste obligatorio por ClCr. Inducción: ClCr 50-69: 2,5 mg/kg c/12h; ClCr 25-49: 2,5 mg/kg c/24h; ClCr 10-24: 1,25 mg/kg c/24h; ClCr <10: 1,25 mg/kg 3x/sem. Hemodiálisis: administrar dosis post-diálisis.",
+        "hepatico": "Sin ajuste específico. Excreción predominantemente renal (>90%)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ganciclovir Inducción (adulto)",
+        "doseTexto": "5 mg/kg IV c/12h",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ganciclovir Mantenimiento (adulto)",
+        "doseTexto": "5 mg/kg IV c/24h",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ganciclovir CMV congénito (ped)",
+        "doseTexto": "6 mg/kg IV c/12h",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Ganciclovir Profilaxis (ped)",
+        "doseTexto": "5 mg/kg IV c/24h",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "更昔洛韦",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "CMV视网膜炎 - 诱导期",
+          "descricaoDose": "5 mg/kg IV 每12小时 持续14-21天",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每12小时（14-21天）",
+            "ajusteRenal": "ClCr 50-69: 2.5 mg/kg q12h; ClCr 25-49: 2.5 mg/kg q24h; ClCr 10-24: 1.25 mg/kg q24h; ClCr <10: 1.25 mg/kg 每周3次",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "CMV视网膜炎 - 维持期",
+          "descricaoDose": "5 mg/kg IV 每24小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每24小时",
+            "ajusteRenal": "ClCr 50-69: 2.5 mg/kg q24h; ClCr 25-49: 1.25 mg/kg q24h; ClCr 10-24: 0.625 mg/kg q24h; ClCr <10: 0.625 mg/kg 每周3次",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "CMV治疗（肺炎/结肠炎/食管炎）",
+          "descricaoDose": "5 mg/kg IV 每12小时 持续14-21天",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每12小时（14-21天）",
+            "ajusteRenal": "ClCr 50-69: 2.5 mg/kg q12h; ClCr 25-49: 2.5 mg/kg q24h; ClCr 10-24: 1.25 mg/kg q24h; ClCr <10: 1.25 mg/kg 每周3次",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "移植患者CMV预防",
+          "descricaoDose": "5 mg/kg IV 每24小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每24小时",
+            "ajusteRenal": "ClCr 50-69: 2.5 mg/kg q24h; ClCr 25-49: 1.25 mg/kg q24h; ClCr 10-24: 0.625 mg/kg q24h; ClCr <10: 0.625 mg/kg 每周3次",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "先天性CMV感染（有症状）",
+          "descricaoDose": "6 mg/kg IV 每12小时 持续6周",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每12小时（6周）",
+            "ajusteRenal": "按ClCr调整（Schwartz公式）。ClCr <50: 减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童CMV预防",
+          "descricaoDose": "5 mg/kg IV 每24小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每24小时",
+            "ajusteRenal": "按ClCr调整（Schwartz公式）。ClCr <50: 减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗病毒药 - 核苷类似物（鸟苷）",
+      "apresentacoes": [
+        { "forma": "小瓶 500 mg", "obs": "冻干粉 供静脉重新配制" }
+      ],
+      "preparo": [
+        { "diluicao": "500 mg + 10 mL 注射用水", "concentracao": "50 mg/mL（配制）" },
+        { "diluicao": "剂量 + 100 mL NS", "concentracao": "≤10 mg/mL（输注）" },
+        { "diluicao": "剂量 + 250 mL NS", "concentracao": "≤2 mg/mL（输注）" }
+      ],
+      "observacoes": [
+        "骨髓毒性：诱导期每周血常规2-3次（中性粒细胞减少30-40%）",
+        "肾毒性：保持充分水化并监测肌酐",
+        "输注时间至少1小时 - 切勿静脉推注",
+        "中性粒细胞<500/mm³或血小板<25,000/mm³时禁用",
+        "致畸和致突变 - 妊娠期禁用",
+        "口服前药：缬更昔洛韦（900 mg PO ≈ 5 mg/kg IV）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "根据肾功能调整（生理性GFR下降）。更严密监测骨髓毒性。",
+        "renal": "必须按ClCr调整。诱导期：ClCr 50-69: 2.5 mg/kg q12h; ClCr 25-49: 2.5 mg/kg q24h; ClCr 10-24: 1.25 mg/kg q24h; ClCr <10: 1.25 mg/kg 每周3次。血液透析：透析后给药。",
+        "hepatico": "无特殊调整。主要经肾排泄（>90%）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "更昔洛韦 诱导（成人）",
+        "doseTexto": "5 mg/kg IV 每12小时",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "更昔洛韦 维持（成人）",
+        "doseTexto": "5 mg/kg IV 每24小时",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "更昔洛韦 先天性CMV（儿童）",
+        "doseTexto": "6 mg/kg IV 每12小时",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "更昔洛韦 预防（儿童）",
+        "doseTexto": "5 mg/kg IV 每24小时",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

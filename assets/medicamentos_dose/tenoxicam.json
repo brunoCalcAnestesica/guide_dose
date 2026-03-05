@@ -1,0 +1,542 @@
+{
+  "PT": {
+    "nome": "Tenoxicam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor IV/IM (adulto)",
+          "descricaoDose": "20 mg 1x/dia por 1-2 dias. Duração parenteral máx 2 dias. Meia-vida longa (~70 h).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1x/dia (1-2 dias)",
+            "ajusteRenal": "IR moderada/grave: evitar ou reduzir dose significativamente",
+            "ajusteHepatico": "Reduzir dose em hepatopatia; evitar em grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor VO (adulto)",
+          "descricaoDose": "20 mg 1x/dia. Meia-vida longa permite dose única diária.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "IR moderada/grave: evitar ou reduzir dose significativamente",
+            "ajusteHepatico": "Reduzir dose em hepatopatia; evitar em grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Gota aguda (adulto)",
+          "descricaoDose": "40 mg/dia (20 mg 2x/dia) nos primeiros 2 dias; depois 20 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "20 mg 2x/dia (2 dias) ou 20 mg 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia (2 dias) depois 1x/dia",
+            "ajusteRenal": "IR moderada/grave: evitar ou reduzir dose significativamente",
+            "ajusteHepatico": "Reduzir dose em hepatopatia; evitar em grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Analgésico / Anti-inflamatório. Inibidor não seletivo da COX-1 e COX-2 (derivado do grupo oxicam – tienopiridina). Meia-vida longa (~60-75 h); dose única diária; ação analgésica, anti-inflamatória e antipirética.",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 20 mg + diluente 2 mL", "obs": "IV/IM - Tilatil®, Tenoxen®" },
+        { "forma": "Comprimido 20 mg", "obs": "VO" },
+        { "forma": "Comprimido dispersível 20 mg", "obs": "VO" },
+        { "forma": "Supositório 20 mg", "obs": "Retal" }
+      ],
+      "preparo": [
+        { "diluicao": "IV/IM: reconstituir com diluente conforme bula (2 mL)", "concentracao": "10 mg/mL" },
+        { "diluicao": "VO: comprimido ou dispersível conforme apresentação", "concentracao": "20 mg" }
+      ],
+      "observacoes": [
+        "MEIA-VIDA MUITO LONGA (~70 h): dose única diária; pode levar dias para estado de equilíbrio",
+        "Uso parenteral (IV/IM) máximo 2 dias; depois passar para VO se necessário",
+        "Risco de acúmulo em idosos; cautela extrema em idosos e nefropatas",
+        "Não usar em crianças (não recomendado)",
+        "IR moderada/grave: evitar ou reduzir dose significativamente; hepatopatia: reduzir dose, evitar em grave",
+        "Contraindicação: úlcera péptica ativa, IR/IH grave, insuficiência cardíaca grave, gestação"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Cautela extrema. Risco de acúmulo (meia-vida longa). Usar dose mínima eficaz; monitorar função renal/hepática.",
+        "renal": "IR moderada/grave: evitar ou reduzir dose significativamente. Contraindicado em IR grave.",
+        "hepatico": "Reduzir dose em hepatopatia; evitar em hepatopatia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tenoxicam IV/IM (adulto)",
+        "doseTexto": "20 mg 1x/dia (1-2 dias)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tenoxicam VO (adulto)",
+        "doseTexto": "20 mg 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tenoxicam - Gota aguda (adulto)",
+        "doseTexto": "40 mg/dia (20 mg 2x) 2 dias, depois 20 mg/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Tenoxicam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Pain IV/IM (adult)",
+          "descricaoDose": "20 mg once daily for 1-2 days. Max parenteral duration 2 days. Long half-life (~70 h).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "once daily (1-2 days)",
+            "ajusteRenal": "Moderate/severe renal impairment: avoid or reduce dose significantly",
+            "ajusteHepatico": "Reduce dose in liver disease; avoid in severe.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pain PO (adult)",
+          "descricaoDose": "20 mg once daily. Long half-life allows once-daily dosing.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Moderate/severe renal impairment: avoid or reduce dose significantly",
+            "ajusteHepatico": "Reduce dose in liver disease; avoid in severe.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Acute gout (adult)",
+          "descricaoDose": "40 mg/day (20 mg twice daily) for first 2 days; then 20 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "20 mg twice daily (2 days) or 20 mg once daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily (2 days) then once daily",
+            "ajusteRenal": "Moderate/severe renal impairment: avoid or reduce dose significantly",
+            "ajusteHepatico": "Reduce dose in liver disease; avoid in severe.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID / Analgesic / Anti-inflammatory. Nonselective COX-1 and COX-2 inhibitor (oxicam group – thienopyridine derivative). Long half-life (~60-75 h); once-daily dosing; analgesic, anti-inflammatory, antipyretic.",
+      "apresentacoes": [
+        { "forma": "Vial 20 mg + 2 mL diluent", "obs": "IV/IM" },
+        { "forma": "Tablet 20 mg", "obs": "PO" },
+        { "forma": "Dispersible tablet 20 mg", "obs": "PO" },
+        { "forma": "Suppository 20 mg", "obs": "Rectal" }
+      ],
+      "preparo": [
+        { "diluicao": "IV/IM: reconstitute with diluent as per leaflet (2 mL)", "concentracao": "10 mg/mL" },
+        { "diluicao": "PO: tablet or dispersible as per formulation", "concentracao": "20 mg" }
+      ],
+      "observacoes": [
+        "VERY LONG HALF-LIFE (~70 h): once-daily dosing; may take days to reach steady state",
+        "Max parenteral (IV/IM) use 2 days; then switch to PO if needed",
+        "Risk of accumulation in elderly; extreme caution in elderly and renal impairment",
+        "Do not use in children (not recommended)",
+        "Moderate/severe renal impairment: avoid or reduce dose significantly; liver disease: reduce dose, avoid in severe",
+        "Contraindicated: active peptic ulcer, severe renal/hepatic failure, severe heart failure, pregnancy"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Extreme caution. Risk of accumulation (long half-life). Use minimum effective dose; monitor renal/hepatic function.",
+        "renal": "Moderate/severe renal impairment: avoid or reduce dose significantly. Contraindicated in severe renal failure.",
+        "hepatico": "Reduce dose in liver disease; avoid in severe liver disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tenoxicam IV/IM (adult)",
+        "doseTexto": "20 mg once daily (1-2 days)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tenoxicam PO (adult)",
+        "doseTexto": "20 mg once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tenoxicam - Acute gout (adult)",
+        "doseTexto": "40 mg/day (20 mg 2x) 2 days, then 20 mg/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Tenoxicam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor IV/IM (adulto)",
+          "descricaoDose": "20 mg 1x/día por 1-2 días. Duración parenteral máx 2 días. Vida media larga (~70 h).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1x/día (1-2 días)",
+            "ajusteRenal": "IR moderada/grave: evitar o reducir dosis significativamente",
+            "ajusteHepatico": "Reducir dosis en hepatopatía; evitar en grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor VO (adulto)",
+          "descricaoDose": "20 mg 1x/día. Vida media larga permite dosis única diaria.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "IR moderada/grave: evitar o reducir dosis significativamente",
+            "ajusteHepatico": "Reducir dosis en hepatopatía; evitar en grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Gota aguda (adulto)",
+          "descricaoDose": "40 mg/día (20 mg 2x/día) los primeros 2 días; después 20 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "20 mg 2x/día (2 días) o 20 mg 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día (2 días) después 1x/día",
+            "ajusteRenal": "IR moderada/grave: evitar o reducir dosis significativamente",
+            "ajusteHepatico": "Reducir dosis en hepatopatía; evitar en grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Analgésico / Anti-inflamatorio. Inhibidor no selectivo de COX-1 y COX-2 (derivado del grupo oxicam – tienopiridina). Vida media larga (~60-75 h); dosis única diaria; acción analgésica, anti-inflamatoria y antipirética.",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 20 mg + diluyente 2 mL", "obs": "IV/IM" },
+        { "forma": "Comprimido 20 mg", "obs": "VO" },
+        { "forma": "Comprimido dispersible 20 mg", "obs": "VO" },
+        { "forma": "Supositorio 20 mg", "obs": "Rectal" }
+      ],
+      "preparo": [
+        { "diluicao": "IV/IM: reconstituir con diluyente según ficha (2 mL)", "concentracao": "10 mg/mL" },
+        { "diluicao": "VO: comprimido o dispersible según presentación", "concentracao": "20 mg" }
+      ],
+      "observacoes": [
+        "VIDA MEDIA MUY LARGA (~70 h): dosis única diaria; puede tardar días en equilibrio",
+        "Uso parenteral (IV/IM) máximo 2 días; luego pasar a VO si es necesario",
+        "Riesgo de acumulación en ancianos; precaución extrema en ancianos y nefrópatas",
+        "No usar en niños (no recomendado)",
+        "IR moderada/grave: evitar o reducir dosis significativamente; hepatopatía: reducir dosis, evitar en grave",
+        "Contraindicado: úlcera péptica activa, IR/IH grave, insuficiencia cardíaca grave, gestación"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Precaución extrema. Riesgo de acumulación (vida media larga). Usar dosis mínima eficaz; monitorizar función renal/hepática.",
+        "renal": "IR moderada/grave: evitar o reducir dosis significativamente. Contraindicado en IR grave.",
+        "hepatico": "Reducir dosis en hepatopatía; evitar en hepatopatía grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tenoxicam IV/IM (adulto)",
+        "doseTexto": "20 mg 1x/día (1-2 días)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tenoxicam VO (adulto)",
+        "doseTexto": "20 mg 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tenoxicam - Gota aguda (adulto)",
+        "doseTexto": "40 mg/día (20 mg 2x) 2 días, después 20 mg/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "替诺昔康",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "疼痛 静注/肌注（成人）",
+          "descricaoDose": "20 mg 每日1次，连用1-2天。肠外最多2天。半衰期长（约70小时）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每日1次（1-2天）",
+            "ajusteRenal": "中重度肾损：避免或显著减量",
+            "ajusteHepatico": "肝病减量；重度避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "疼痛 口服（成人）",
+          "descricaoDose": "20 mg 每日1次。半衰期长，可每日单次给药。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "中重度肾损：避免或显著减量",
+            "ajusteHepatico": "肝病减量；重度避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "急性痛风（成人）",
+          "descricaoDose": "前2天40 mg/日（20 mg 每日2次）；之后20 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "20 mg 每日2次（2天）或20 mg 每日1次",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次（2天）后每日1次",
+            "ajusteRenal": "中重度肾损：避免或显著减量",
+            "ajusteHepatico": "肝病减量；重度避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID/镇痛/抗炎。非选择性COX-1、COX-2抑制剂（昔康类-噻吩吡啶衍生物）。半衰期长（约60-75小时）；每日单次给药；镇痛、抗炎、解热。",
+      "apresentacoes": [
+        { "forma": "西林瓶 20 mg + 稀释液 2 mL", "obs": "静注/肌注" },
+        { "forma": "片剂 20 mg", "obs": "口服" },
+        { "forma": "分散片 20 mg", "obs": "口服" },
+        { "forma": "栓剂 20 mg", "obs": "直肠" }
+      ],
+      "preparo": [
+        { "diluicao": "静注/肌注：按说明书用稀释液复溶（2 mL）", "concentracao": "10 mg/mL" },
+        { "diluicao": "口服：片剂或分散片按剂型", "concentracao": "20 mg" }
+      ],
+      "observacoes": [
+        "半衰期很长（约70小时）：每日单次；达稳态可能需数日",
+        "肠外（静注/肌注）最多2天；必要时改为口服",
+        "老年人有蓄积风险；老年人及肾病者需格外谨慎",
+        "不用于儿童（不推荐）",
+        "中重度肾损：避免或显著减量；肝病减量，重度避免",
+        "禁忌：活动性消化性溃疡、严重肾/肝衰竭、严重心衰、妊娠"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "格外谨慎。蓄积风险（半衰期长）。用最小有效剂量；监测肾功能和肝功能。",
+        "renal": "中重度肾损：避免或显著减量。严重肾衰竭禁忌。",
+        "hepatico": "肝病减量；严重肝病避免。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "替诺昔康 静注/肌注（成人）",
+        "doseTexto": "20 mg 每日1次（1-2天）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "替诺昔康 口服（成人）",
+        "doseTexto": "20 mg 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "替诺昔康 - 急性痛风（成人）",
+        "doseTexto": "40 mg/日（20 mg 2次）2天，后20 mg/日",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

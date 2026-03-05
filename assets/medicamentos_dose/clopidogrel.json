@@ -1,0 +1,714 @@
+{
+  "PT": {
+    "nome": "Clopidogrel",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA – dose de ataque (adulto)",
+          "descricaoDose": "300-600 mg VO dose única. 300 mg padrão; 600 mg para PCI imediato (início mais rápido).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 300,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "300-600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única (ataque)",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave (ativação CYP2C19)."
+          }
+        },
+        {
+          "titulo": "SCA – manutenção / DAPT (adulto)",
+          "descricaoDose": "75 mg/dia VO. Em DAPT com AAS pós-ICP/stent. Duração conforme risco hemorrágico.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "Prevenção secundária AVC/AIT (adulto)",
+          "descricaoDose": "75 mg/dia VO. Antiagregação de longo prazo após AVC/AIT não cardioembólico.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "Doença arterial periférica (adulto)",
+          "descricaoDose": "75 mg/dia VO. Reduz eventos cardiovasculares em DAP sintomática.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "Alergia a AAS (adulto)",
+          "descricaoDose": "75 mg/dia VO. Alternativa ao AAS quando contraindicação ou alergia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Contraindicado em sangramento ativo. Cautela em IR grave.",
+            "ajusteHepatico": "Contraindicado em insuficiência hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetário – Inibidor P2Y12 (tienopiridina)",
+      "apresentacoes": [
+        { "forma": "Comprimido 75 mg", "obs": "Manutenção" },
+        { "forma": "Comprimido 300 mg", "obs": "Dose de ataque" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido inteiro com água", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Pró-droga: ativação hepática por CYP2C19 (30% metabolizadores lentos – resposta reduzida)",
+        "Suspender 5-7 dias antes de cirurgias eletivas (risco hemorrágico)",
+        "Evitar omeprazol/esomeprazol (inibem CYP2C19). Preferir pantoprazol se IBP necessário",
+        "DAPT com AAS: duração 6-12 meses pós-ICP conforme guidelines",
+        "Efeito antiplaquetário irreversível por 7-10 dias (vida da plaqueta)",
+        "Contraindicações: sangramento ativo, insuficiência hepática grave, hipersensibilidade"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mesmas doses. Maior risco de sangramento. Monitorar hemoglobina.",
+        "renal": "Sem ajuste em IR leve/moderada. Cautela em IR grave (excreção renal 50%).",
+        "hepatico": "Contraindicado em insuficiência hepática grave (ativação hepática necessária)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clopidogrel SCA ataque (adulto)",
+        "doseTexto": "300-600 mg VO dose única",
+        "doseMin": 300,
+        "doseMax": 600,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300-600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clopidogrel manutenção (adulto)",
+        "doseTexto": "75 mg/dia VO",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clopidogrel prevenção secundária (adulto)",
+        "doseTexto": "75 mg/dia VO",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clopidogrel alergia AAS (adulto)",
+        "doseTexto": "75 mg/dia VO",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Clopidogrel",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ACS – loading dose (adult)",
+          "descricaoDose": "300-600 mg PO single dose. 300 mg standard; 600 mg for immediate PCI (faster onset).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 300,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "300-600 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose (loading)",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment (CYP2C19 activation)."
+          }
+        },
+        {
+          "titulo": "ACS – maintenance / DAPT (adult)",
+          "descricaoDose": "75 mg/day PO. DAPT with aspirin post-PCI/stent. Duration per bleeding risk.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment."
+          }
+        },
+        {
+          "titulo": "Secondary prevention stroke/TIA (adult)",
+          "descricaoDose": "75 mg/day PO. Long-term antiplatelet after non-cardioembolic stroke/TIA.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment."
+          }
+        },
+        {
+          "titulo": "Peripheral artery disease (adult)",
+          "descricaoDose": "75 mg/day PO. Reduces cardiovascular events in symptomatic PAD.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment."
+          }
+        },
+        {
+          "titulo": "Aspirin allergy (adult)",
+          "descricaoDose": "75 mg/day PO. Alternative to aspirin when contraindicated or allergic.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Contraindicated in active bleeding. Caution in severe renal impairment.",
+            "ajusteHepatico": "Contraindicated in severe hepatic impairment."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiplatelet agent – P2Y12 inhibitor (thienopyridine)",
+      "apresentacoes": [
+        { "forma": "Tablet 75 mg", "obs": "Maintenance" },
+        { "forma": "Tablet 300 mg", "obs": "Loading dose" }
+      ],
+      "preparo": [
+        { "diluicao": "PO: whole tablet with water", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "Prodrug: hepatic activation via CYP2C19 (30% poor metabolizers – reduced response)",
+        "Discontinue 5-7 days before elective surgery (bleeding risk)",
+        "Avoid omeprazole/esomeprazole (inhibit CYP2C19). Prefer pantoprazole if PPI needed",
+        "DAPT with aspirin: duration 6-12 months post-PCI per guidelines",
+        "Irreversible antiplatelet effect for 7-10 days (platelet lifespan)",
+        "Contraindications: active bleeding, severe hepatic impairment, hypersensitivity"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Same doses. Higher bleeding risk. Monitor hemoglobin.",
+        "renal": "No adjustment in mild/moderate impairment. Caution in severe impairment (50% renal excretion).",
+        "hepatico": "Contraindicated in severe hepatic impairment (hepatic activation required)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clopidogrel ACS loading (adult)",
+        "doseTexto": "300-600 mg PO single dose",
+        "doseMin": 300,
+        "doseMax": 600,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300-600 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Clopidogrel maintenance (adult)",
+        "doseTexto": "75 mg/day PO",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Clopidogrel secondary prevention (adult)",
+        "doseTexto": "75 mg/day PO",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Clopidogrel aspirin allergy (adult)",
+        "doseTexto": "75 mg/day PO",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Clopidogrel",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SCA – dosis de ataque (adulto)",
+          "descricaoDose": "300-600 mg VO dosis única. 300 mg estándar; 600 mg para ICP inmediato (inicio más rápido).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 300,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "300-600 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única (ataque)",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave (activación CYP2C19)."
+          }
+        },
+        {
+          "titulo": "SCA – mantenimiento / DAPT (adulto)",
+          "descricaoDose": "75 mg/día VO. DAPT con AAS tras ICP/stent. Duración según riesgo hemorrágico.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Prevención secundaria AVC/AIT (adulto)",
+          "descricaoDose": "75 mg/día VO. Antiagregación a largo plazo tras AVC/AIT no cardioembólico.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Enfermedad arterial periférica (adulto)",
+          "descricaoDose": "75 mg/día VO. Reduce eventos cardiovasculares en EAP sintomática.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Alergia a AAS (adulto)",
+          "descricaoDose": "75 mg/día VO. Alternativa al AAS cuando contraindicado o alérgico.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Contraindicado en sangrado activo. Precaución en IR grave.",
+            "ajusteHepatico": "Contraindicado en insuficiencia hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiagregante plaquetario – Inhibidor P2Y12 (tienopiridina)",
+      "apresentacoes": [
+        { "forma": "Comprimido 75 mg", "obs": "Mantenimiento" },
+        { "forma": "Comprimido 300 mg", "obs": "Dosis de ataque" }
+      ],
+      "preparo": [
+        { "diluicao": "VO: comprimido entero con agua", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Pro fármaco: activación hepática por CYP2C19 (30% metabolizadores lentos – respuesta reducida)",
+        "Suspender 5-7 días antes de cirugía electiva (riesgo hemorrágico)",
+        "Evitar omeprazol/esomeprazol (inhiben CYP2C19). Preferir pantoprazol si IBP necesario",
+        "DAPT con AAS: duración 6-12 meses tras ICP según guías",
+        "Efecto antiplaquetario irreversible 7-10 días (vida plaqueta)",
+        "Contraindicaciones: sangrado activo, insuficiencia hepática grave, hipersensibilidad"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mismas dosis. Mayor riesgo sangrado. Monitorizar hemoglobina.",
+        "renal": "Sin ajuste en IR leve/moderada. Precaución en IR grave (excreción renal 50%).",
+        "hepatico": "Contraindicado en insuficiencia hepática grave (activación hepática necesaria)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clopidogrel SCA ataque (adulto)",
+        "doseTexto": "300-600 mg VO dosis única",
+        "doseMin": 300,
+        "doseMax": 600,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300-600 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clopidogrel mantenimiento (adulto)",
+        "doseTexto": "75 mg/día VO",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clopidogrel prevención secundaria (adulto)",
+        "doseTexto": "75 mg/día VO",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clopidogrel alergia AAS (adulto)",
+        "doseTexto": "75 mg/día VO",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氯吡格雷",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性冠脉综合征 负荷量（成人）",
+          "descricaoDose": "300-600 mg 口服单次。300 mg 标准；600 mg 用于即刻PCI（起效更快）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 300,
+            "doseMax": 600,
+            "doseMaxima": 600,
+            "doseFixa": "300-600 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "单次负荷",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌（CYP2C19活化）。"
+          }
+        },
+        {
+          "titulo": "急性冠脉综合征 维持/DAPT（成人）",
+          "descricaoDose": "75 mg/日 口服。PCI/支架术后与阿司匹林双抗。疗程依出血风险。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌。"
+          }
+        },
+        {
+          "titulo": "卒中/TIA二级预防（成人）",
+          "descricaoDose": "75 mg/日 口服。非心源性卒中/TIA后长期抗血小板。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌。"
+          }
+        },
+        {
+          "titulo": "外周动脉疾病（成人）",
+          "descricaoDose": "75 mg/日 口服。减少症状性PAD心血管事件。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌。"
+          }
+        },
+        {
+          "titulo": "阿司匹林过敏（成人）",
+          "descricaoDose": "75 mg/日 口服。阿司匹林禁忌或过敏时的替代。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "活动性出血禁忌。严重肾功能不全慎用。",
+            "ajusteHepatico": "严重肝功能不全禁忌。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗血小板药 - P2Y12抑制剂（噻吩并吡啶）",
+      "apresentacoes": [
+        { "forma": "片剂 75 mg", "obs": "维持" },
+        { "forma": "片剂 300 mg", "obs": "负荷量" }
+      ],
+      "preparo": [
+        { "diluicao": "口服：整片与水同服", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "前药：经CYP2C19肝活化（30%慢代谢者-应答降低）",
+        "择期手术前停用5-7天（出血风险）",
+        "避免奥美拉唑/埃索美拉唑（抑制CYP2C19）。需PPI时优选泮托拉唑",
+        "与阿司匹林双抗：PCI术后6-12个月按指南",
+        "抗血小板作用不可逆7-10天（血小板寿命）",
+        "禁忌：活动性出血、严重肝衰竭、过敏"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "剂量同。出血风险更高。监测血红蛋白。",
+        "renal": "轻中度肾功能不全无需调整。严重慎用（50%经肾排泄）。",
+        "hepatico": "严重肝功能不全禁忌（需肝活化）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氯吡格雷 ACS负荷（成人）",
+        "doseTexto": "300-600 mg 口服单次",
+        "doseMin": 300,
+        "doseMax": 600,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300-600 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯吡格雷 维持（成人）",
+        "doseTexto": "75 mg/日 口服",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯吡格雷 二级预防（成人）",
+        "doseTexto": "75 mg/日 口服",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯吡格雷 阿司匹林过敏（成人）",
+        "doseTexto": "75 mg/日 口服",
+        "doseMin": 75,
+        "doseMax": 75,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

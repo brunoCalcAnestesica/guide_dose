@@ -1,0 +1,698 @@
+{
+  "PT": {
+    "nome": "Milrinona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose de ataque (opcional)",
+          "descricaoDose": "50 mcg/kg IV em 10 min (omitir se hipotenso)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "IC descompensada / Choque cardiogênico",
+          "descricaoDose": "0,375-0,75 mcg/kg/min IV contínua (titular conforme débito)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.375,
+            "doseMax": 0.75,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr <50: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dose de ataque pediátrica",
+          "descricaoDose": "50-75 mcg/kg IV em 10-60 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 10-60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção pediátrica",
+          "descricaoDose": "0,25-0,75 mcg/kg/min IV contínua (titular conforme débito)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.25,
+            "doseMax": 0.75,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr <50: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.375, "doseMax": 0.75 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 0.75 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg em 50 mL SF (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg em 100 mL SF (100 mcg/mL)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inodilatador - Inibidor da fosfodiesterase tipo 3 (PDE3)",
+      "apresentacoes": [
+        { "forma": "Frascos 10 mg/10 mL (1 mg/mL)", "obs": "Primacor® - uso IV" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mg em 50 mL SF 0,9% ou SG5%", "concentracao": "200 mcg/mL" },
+        { "diluicao": "10 mg em 100 mL SF 0,9% ou SG5%", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Início de ação em 5-15 min; meia-vida 2-3 h",
+        "Inodilatador - reduz pré e pós-carga",
+        "Hipovolemia: omitir dose de ataque; corrigir volemia antes",
+        "Arritmias: monitorar ECG contínuo",
+        "Reduzir 50% da infusão se ClCr <50 mL/min",
+        "Pode ser associada a catecolaminas"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Titular com cautela. Monitorar PA e arritmias.",
+        "renal": "ClCr <50 mL/min: reduzir 50% da infusão. Dose de ataque mantida.",
+        "hepatico": "Não exige ajuste. Metabolização hepática mínima."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Milrinona (adulto) - Dose ataque",
+        "doseTexto": "50 mcg/kg IV em 10 min",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Milrinona (adulto) - Infusão",
+        "doseTexto": "0,375-0,75 mcg/kg/min IV",
+        "doseMin": 0.375,
+        "doseMax": 0.75,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Milrinona (pediátrico) - Dose ataque",
+        "doseTexto": "50-75 mcg/kg IV em 10-60 min",
+        "doseMin": 50,
+        "doseMax": 75,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Milrinona (pediátrico) - Infusão",
+        "doseTexto": "0,25-0,75 mcg/kg/min IV",
+        "doseMin": 0.25,
+        "doseMax": 0.75,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Milrinone",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading dose (optional)",
+          "descricaoDose": "50 mcg/kg IV over 10 min (omit if hypotensive)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose over 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Decompensated HF / Cardiogenic shock",
+          "descricaoDose": "0.375-0.75 mcg/kg/min IV continuous (titrate to cardiac output)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.375,
+            "doseMax": 0.75,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr <50: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric loading dose",
+          "descricaoDose": "50-75 mcg/kg IV over 10-60 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose over 10-60 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric maintenance",
+          "descricaoDose": "0.25-0.75 mcg/kg/min IV continuous (titrate to cardiac output)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.25,
+            "doseMax": 0.75,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr <50: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.375, "doseMax": 0.75 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 0.75 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg in 50 mL NS (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg in 100 mL NS (100 mcg/mL)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inodilator - Phosphodiesterase type 3 (PDE3) inhibitor",
+      "apresentacoes": [
+        { "forma": "Vials 10 mg/10 mL (1 mg/mL)", "obs": "Primacor® - IV use" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mg in 50 mL NS or D5W", "concentracao": "200 mcg/mL" },
+        { "diluicao": "10 mg in 100 mL NS or D5W", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Onset 5-15 min; half-life 2-3 h",
+        "Inodilator - reduces preload and afterload",
+        "Hypovolemia: omit loading dose; correct volume before",
+        "Arrhythmias: continuous ECG monitoring",
+        "Reduce infusion 50% if ClCr <50 mL/min",
+        "Can be combined with catecholamines"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Titrate with caution. Monitor BP and arrhythmias.",
+        "renal": "ClCr <50 mL/min: reduce infusion 50%. Loading dose unchanged.",
+        "hepatico": "No dose adjustment. Minimal hepatic metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Milrinone (adult) - Loading dose",
+        "doseTexto": "50 mcg/kg IV over 10 min",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Milrinone (adult) - Infusion",
+        "doseTexto": "0.375-0.75 mcg/kg/min IV",
+        "doseMin": 0.375,
+        "doseMax": 0.75,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Milrinone (pediatric) - Loading dose",
+        "doseTexto": "50-75 mcg/kg IV over 10-60 min",
+        "doseMin": 50,
+        "doseMax": 75,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Milrinone (pediatric) - Infusion",
+        "doseTexto": "0.25-0.75 mcg/kg/min IV",
+        "doseMin": 0.25,
+        "doseMax": 0.75,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Milrinona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis de carga (opcional)",
+          "descricaoDose": "50 mcg/kg IV en 10 min (omitir si hipotenso)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "IC descompensada / Shock cardiogénico",
+          "descricaoDose": "0,375-0,75 mcg/kg/min IV continuo (titular según gasto cardíaco)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.375,
+            "doseMax": 0.75,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr <50: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dosis de carga pediátrica",
+          "descricaoDose": "50-75 mcg/kg IV en 10-60 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 10-60 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento pediátrico",
+          "descricaoDose": "0,25-0,75 mcg/kg/min IV continuo (titular según gasto cardíaco)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.25,
+            "doseMax": 0.75,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr <50: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.375, "doseMax": 0.75 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 0.75 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg en 50 mL SSF (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg en 100 mL SSF (100 mcg/mL)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inodilatador - Inhibidor de fosfodiesterasa tipo 3 (PDE3)",
+      "apresentacoes": [
+        { "forma": "Viales 10 mg/10 mL (1 mg/mL)", "obs": "Primacor® - uso IV" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mg en 50 mL SSF 0,9% o SG5%", "concentracao": "200 mcg/mL" },
+        { "diluicao": "10 mg en 100 mL SSF 0,9% o SG5%", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "Inicio de acción 5-15 min; vida media 2-3 h",
+        "Inodilatador - reduce precarga y poscarga",
+        "Hipovolemia: omitir dosis de carga; corregir volemia antes",
+        "Arritmias: monitorizar ECG continuo",
+        "Reducir 50% de la infusión si ClCr <50 mL/min",
+        "Puede asociarse con catecolaminas"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Titular con precaución. Monitorizar PA y arritmias.",
+        "renal": "ClCr <50 mL/min: reducir 50% de la infusión. Dosis de carga sin cambios.",
+        "hepatico": "No requiere ajuste. Metabolismo hepático mínimo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Milrinona (adulto) - Dosis de carga",
+        "doseTexto": "50 mcg/kg IV en 10 min",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Milrinona (adulto) - Infusión",
+        "doseTexto": "0,375-0,75 mcg/kg/min IV",
+        "doseMin": 0.375,
+        "doseMax": 0.75,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Milrinona (pediátrico) - Dosis de carga",
+        "doseTexto": "50-75 mcg/kg IV en 10-60 min",
+        "doseMin": 50,
+        "doseMax": 75,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Milrinona (pediátrico) - Infusión",
+        "doseTexto": "0,25-0,75 mcg/kg/min IV",
+        "doseMin": 0.25,
+        "doseMax": 0.75,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "米力农",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷剂量（可选）",
+          "descricaoDose": "50 mcg/kg 静脉 10分钟内（低血压时省略）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 50,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "10分钟内单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "失代偿性心衰/心源性休克",
+          "descricaoDose": "0.375-0.75 mcg/kg/min 静脉持续（根据心输出量滴定）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.375,
+            "doseMax": 0.75,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr <50：减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童负荷剂量",
+          "descricaoDose": "50-75 mcg/kg 静脉 10-60分钟内",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "10-60分钟内单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童维持剂量",
+          "descricaoDose": "0.25-0.75 mcg/kg/min 静脉持续（根据心输出量滴定）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.25,
+            "doseMax": 0.75,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr <50：减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.375, "doseMax": 0.75 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 0.75 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg 溶于 50 mL 生理盐水 (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "10 mg 溶于 100 mL 生理盐水 (100 mcg/mL)", "valor": 100 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "正性肌力血管扩张剂 - 磷酸二酯酶3型（PDE3）抑制剂",
+      "apresentacoes": [
+        { "forma": "瓶装 10 mg/10 mL (1 mg/mL)", "obs": "Primacor® - 静脉用" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mg 溶于 50 mL 生理盐水或5%葡萄糖", "concentracao": "200 mcg/mL" },
+        { "diluicao": "10 mg 溶于 100 mL 生理盐水或5%葡萄糖", "concentracao": "100 mcg/mL" }
+      ],
+      "observacoes": [
+        "起效5-15分钟；半衰期2-3小时",
+        "正性肌力血管扩张剂 - 降低前后负荷",
+        "低血容量：省略负荷剂量；先纠正容量",
+        "心律失常：持续心电图监测",
+        "ClCr <50 mL/min时减量50%",
+        "可与儿茶酚胺联用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "谨慎滴定。监测血压和心律失常。",
+        "renal": "ClCr <50 mL/min：减量50%。负荷剂量不变。",
+        "hepatico": "无需调整。肝脏代谢极少。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "米力农（成人）- 负荷剂量",
+        "doseTexto": "50 mcg/kg 静脉 10分钟内",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "米力农（成人）- 输注",
+        "doseTexto": "0.375-0.75 mcg/kg/min 静脉",
+        "doseMin": 0.375,
+        "doseMax": 0.75,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "米力农（儿童）- 负荷剂量",
+        "doseTexto": "50-75 mcg/kg 静脉 10-60分钟内",
+        "doseMin": 50,
+        "doseMax": 75,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "米力农（儿童）- 输注",
+        "doseTexto": "0.25-0.75 mcg/kg/min 静脉",
+        "doseMin": 0.25,
+        "doseMax": 0.75,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

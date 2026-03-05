@@ -1,0 +1,842 @@
+{
+  "PT": {
+    "nome": "Penicilina G",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Neurossífilis",
+          "descricaoDose": "3–4 milhões UI IV 4/4h (18–24 milhões UI/dia, 10–14 dias). ClCr <10: máx 10 milhões UI/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "3–4 milhões UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr <10: máx 10 milhões UI/dia.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Endocardite estreptocócica",
+          "descricaoDose": "2–3 milhões UI IV 4/4h (12–18 milhões UI/dia, 4–6 sem). ClCr <10: máx 10 milhões UI/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000000,
+            "doseMax": 3000000,
+            "doseMaxima": 3000000,
+            "doseFixa": "2–3 milhões UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr <10: máx 10 milhões UI/dia.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite meningocócica/pneumocócica",
+          "descricaoDose": "4 milhões UI IV 4/4h (20–24 milhões UI/dia).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "4 milhões UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr <10: máx 10 milhões UI/dia.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Fasciíte necrosante (Streptococcus)",
+          "descricaoDose": "4 milhões UI IV 4/4h (24 milhões UI/dia).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "4 milhões UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr <10: máx 10 milhões UI/dia.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves (pediátrico)",
+          "descricaoDose": "200.000–400.000 UI/kg/dia IV dividido 4/4h ou 6/6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 200000,
+            "dosePorKgMax": 400000,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h ou 6/6h",
+            "ajusteRenal": "Avaliar função renal; ClCr baixo considerar teto de dose.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sífilis congênita – neonato",
+          "descricaoDose": "50.000 UI/kg IV 12/12h (1ª semana) ou 8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 50000,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h ou 8/8h",
+            "ajusteRenal": "Avaliar função renal no neonato.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Penicilina natural (benzilpenicilina)",
+      "apresentacoes": [
+        { "forma": "Frasco 1.000.000 UI", "obs": "Penicilina G cristalina – pó injetável" },
+        { "forma": "Frasco 5.000.000 UI", "obs": "Pó injetável" },
+        { "forma": "Frasco 10.000.000 UI", "obs": "Pó injetável" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir em água estéril; diluir em 50–100 mL SF ou SG.", "concentracao": "Infundir em 15–30 min" }
+      ],
+      "observacoes": [
+        "Espectro estreito: Streptococcus, Neisseria, Treponema, Clostridium. NÃO cobre Staphylococcus (maioria), enterobactérias, Pseudomonas",
+        "Contém potássio: 1,7 mEq K+/milhão UI – risco de hipercalemia em doses altas ou IR",
+        "Ajuste renal: ClCr 10–50 dose normal; ClCr <10 máx 10 milhões UI/dia",
+        "Meia-vida curta (~30 min); excreção renal 60–90% – requer doses frequentes (4/4h)",
+        "Droga de escolha: sífilis, faringite estreptocócica, febre reumática, endocardite estreptocócica",
+        "Contraindicado em alergia a penicilinas. Reação de Jarisch-Herxheimer possível no tratamento de sífilis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal; respeitar teto 10 milhões UI/dia se ClCr <10.",
+        "renal": "ClCr 10–50: dose e intervalo normais. ClCr <10: máx 10 milhões UI/dia.",
+        "hepatico": "Não requer ajuste. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Penicilina G – neurossífilis (adulto)",
+        "doseTexto": "3–4 milhões UI IV 4/4h",
+        "doseMin": 3000000,
+        "doseMax": 4000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G – endocardite (adulto)",
+        "doseTexto": "2–3 milhões UI IV 4/4h",
+        "doseMin": 2000000,
+        "doseMax": 3000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G – meningite/fasciíte (adulto)",
+        "doseTexto": "4 milhões UI IV 4/4h",
+        "doseMin": 4000000,
+        "doseMax": 4000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "4 milhões UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G – pediátrico (grave)",
+        "doseTexto": "200.000–400.000 UI/kg/dia IV 4/4h ou 6/6h",
+        "doseMin": 200000,
+        "doseMax": 400000,
+        "unidadeResultado": "UI/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Penicilina G – sífilis congênita (neonato)",
+        "doseTexto": "50.000 UI/kg IV 12/12h ou 8/8h",
+        "doseMin": 50000,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Penicillin G",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Neurosyphilis",
+          "descricaoDose": "3–4 million units IV q4h (18–24 million units/day, 10–14 days). CrCl <10: max 10 million units/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "3–4 million units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4h",
+            "ajusteRenal": "CrCl <10: max 10 million units/day.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Streptococcal endocarditis",
+          "descricaoDose": "2–3 million units IV q4h (12–18 million units/day, 4–6 wk). CrCl <10: max 10 million units/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000000,
+            "doseMax": 3000000,
+            "doseMaxima": 3000000,
+            "doseFixa": "2–3 million units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4h",
+            "ajusteRenal": "CrCl <10: max 10 million units/day.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningococcal/pneumococcal meningitis",
+          "descricaoDose": "4 million units IV q4h (20–24 million units/day).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "4 million units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4h",
+            "ajusteRenal": "CrCl <10: max 10 million units/day.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Necrotizing fasciitis (Streptococcus)",
+          "descricaoDose": "4 million units IV q4h (24 million units/day).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "4 million units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4h",
+            "ajusteRenal": "CrCl <10: max 10 million units/day.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe infections (pediatric)",
+          "descricaoDose": "200,000–400,000 units/kg/day IV divided q4h or q6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 200000,
+            "dosePorKgMax": 400000,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4h or q6h",
+            "ajusteRenal": "Assess renal function; consider dose cap if low CrCl.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Congenital syphilis – neonate",
+          "descricaoDose": "50,000 units/kg IV q12h (1st week) or q8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 50000,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q12h or q8h",
+            "ajusteRenal": "Assess renal function in neonate.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Natural penicillin (benzylpenicillin)",
+      "apresentacoes": [
+        { "forma": "Vial 1,000,000 units", "obs": "Penicillin G potassium – powder for injection" },
+        { "forma": "Vial 5,000,000 units", "obs": "Powder for injection" },
+        { "forma": "Vial 10,000,000 units", "obs": "Powder for injection" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with sterile water; dilute in 50–100 mL NS or D5W.", "concentracao": "Infuse over 15–30 min" }
+      ],
+      "observacoes": [
+        "Narrow spectrum: Streptococcus, Neisseria, Treponema, Clostridium. Does NOT cover Staphylococcus (most), Enterobacteriaceae, Pseudomonas",
+        "Contains potassium: 1.7 mEq K+/million units – hyperkalemia risk at high doses or in renal impairment",
+        "Renal adjustment: CrCl 10–50 usual dose; CrCl <10 max 10 million units/day",
+        "Short half-life (~30 min); renal excretion 60–90% – requires frequent dosing (q4h)",
+        "Drug of choice: syphilis, streptococcal pharyngitis, rheumatic fever, streptococcal endocarditis",
+        "Contraindicated in penicillin allergy. Jarisch-Herxheimer reaction possible when treating syphilis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function; respect 10 million units/day cap if CrCl <10.",
+        "renal": "CrCl 10–50: usual dose and interval. CrCl <10: max 10 million units/day.",
+        "hepatico": "No dose adjustment. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Penicillin G – neurosyphilis (adult)",
+        "doseTexto": "3–4 million units IV q4h",
+        "doseMin": 3000000,
+        "doseMax": 4000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G – endocarditis (adult)",
+        "doseTexto": "2–3 million units IV q4h",
+        "doseMin": 2000000,
+        "doseMax": 3000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G – meningitis/necrotizing (adult)",
+        "doseTexto": "4 million units IV q4h",
+        "doseMin": 4000000,
+        "doseMax": 4000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "4 million units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G – pediatric (severe)",
+        "doseTexto": "200,000–400,000 units/kg/day IV q4h or q6h",
+        "doseMin": 200000,
+        "doseMax": 400000,
+        "unidadeResultado": "UI/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Penicillin G – congenital syphilis (neonate)",
+        "doseTexto": "50,000 units/kg IV q12h or q8h",
+        "doseMin": 50000,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Penicilina G",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Neurosífilis",
+          "descricaoDose": "3–4 millones UI IV 4/4h (18–24 millones UI/día, 10–14 días). ClCr <10: máx 10 millones UI/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "3–4 millones UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr <10: máx 10 millones UI/día.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Endocarditis estreptocócica",
+          "descricaoDose": "2–3 millones UI IV 4/4h (12–18 millones UI/día, 4–6 sem). ClCr <10: máx 10 millones UI/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000000,
+            "doseMax": 3000000,
+            "doseMaxima": 3000000,
+            "doseFixa": "2–3 millones UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr <10: máx 10 millones UI/día.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis meningocócica/neumocócica",
+          "descricaoDose": "4 millones UI IV 4/4h (20–24 millones UI/día).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "4 millones UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr <10: máx 10 millones UI/día.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Fascitis necrotizante (Streptococcus)",
+          "descricaoDose": "4 millones UI IV 4/4h (24 millones UI/día).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "4 millones UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h",
+            "ajusteRenal": "ClCr <10: máx 10 millones UI/día.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves (pediátrico)",
+          "descricaoDose": "200.000–400.000 UI/kg/día IV dividido 4/4h o 6/6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 200000,
+            "dosePorKgMax": 400000,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4/4h o 6/6h",
+            "ajusteRenal": "Valorar función renal; ClCr bajo considerar techo de dosis.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sífilis congénita – neonato",
+          "descricaoDose": "50.000 UI/kg IV 12/12h (1ª semana) o 8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 50000,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h o 8/8h",
+            "ajusteRenal": "Valorar función renal en neonato.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Penicilina natural (benzilpenicilina)",
+      "apresentacoes": [
+        { "forma": "Frasco 1.000.000 UI", "obs": "Penicilina G cristalina – polvo inyectable" },
+        { "forma": "Frasco 5.000.000 UI", "obs": "Polvo inyectable" },
+        { "forma": "Frasco 10.000.000 UI", "obs": "Polvo inyectable" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir en agua estéril; diluir en 50–100 mL SF o SG.", "concentracao": "Perfundir en 15–30 min" }
+      ],
+      "observacoes": [
+        "Espectro estrecho: Streptococcus, Neisseria, Treponema, Clostridium. NO cubre Staphylococcus (mayoría), enterobacterias, Pseudomonas",
+        "Contiene potasio: 1,7 mEq K+/millón UI – riesgo de hiperpotasemia a dosis altas o en IR",
+        "Ajuste renal: ClCr 10–50 dosis normal; ClCr <10 máx 10 millones UI/día",
+        "Vida media corta (~30 min); excreción renal 60–90% – requiere dosis frecuentes (4/4h)",
+        "Fármaco de elección: sífilis, faringitis estreptocócica, fiebre reumática, endocarditis estreptocócica",
+        "Contraindicado en alergia a penicilinas. Reacción de Jarisch-Herxheimer posible en tratamiento de sífilis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal; respetar techo 10 millones UI/día si ClCr <10.",
+        "renal": "ClCr 10–50: dosis e intervalo normales. ClCr <10: máx 10 millones UI/día.",
+        "hepatico": "No requiere ajuste. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Penicilina G – neurosífilis (adulto)",
+        "doseTexto": "3–4 millones UI IV 4/4h",
+        "doseMin": 3000000,
+        "doseMax": 4000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G – endocarditis (adulto)",
+        "doseTexto": "2–3 millones UI IV 4/4h",
+        "doseMin": 2000000,
+        "doseMax": 3000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G – meningitis/fascitis (adulto)",
+        "doseTexto": "4 millones UI IV 4/4h",
+        "doseMin": 4000000,
+        "doseMax": 4000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "4 millones UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G – pediátrico (grave)",
+        "doseTexto": "200.000–400.000 UI/kg/día IV 4/4h o 6/6h",
+        "doseMin": 200000,
+        "doseMax": 400000,
+        "unidadeResultado": "UI/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Penicilina G – sífilis congénita (neonato)",
+        "doseTexto": "50.000 UI/kg IV 12/12h o 8/8h",
+        "doseMin": 50000,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "青霉素G",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "神经梅毒",
+          "descricaoDose": "3–4百万单位 静注 每4小时（18–24百万单位/日，10–14天）。ClCr <10：最大10百万单位/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 3000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "3–4百万单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4小时",
+            "ajusteRenal": "ClCr <10：最大10百万单位/日。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "链球菌心内膜炎",
+          "descricaoDose": "2–3百万单位 静注 每4小时（12–18百万单位/日，4–6周）。ClCr <10：最大10百万单位/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000000,
+            "doseMax": 3000000,
+            "doseMaxima": 3000000,
+            "doseFixa": "2–3百万单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4小时",
+            "ajusteRenal": "ClCr <10：最大10百万单位/日。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "脑膜炎球菌/肺炎球菌脑膜炎",
+          "descricaoDose": "4百万单位 静注 每4小时（20–24百万单位/日）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "4百万单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4小时",
+            "ajusteRenal": "ClCr <10：最大10百万单位/日。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "坏死性筋膜炎（链球菌）",
+          "descricaoDose": "4百万单位 静注 每4小时（24百万单位/日）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4000000,
+            "doseMax": 4000000,
+            "doseMaxima": 4000000,
+            "doseFixa": "4百万单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4小时",
+            "ajusteRenal": "ClCr <10：最大10百万单位/日。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "严重感染（儿科）",
+          "descricaoDose": "20–40万 UI/kg/日 静注 分次 每4或6小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 200000,
+            "dosePorKgMax": 400000,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4或6小时",
+            "ajusteRenal": "评估肾功能；ClCr低时考虑剂量上限。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "先天性梅毒 – 新生儿",
+          "descricaoDose": "5万 UI/kg 静注 每12小时（第1周）或每8小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": 50000,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每12或8小时",
+            "ajusteRenal": "评估新生儿肾功能。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "天然青霉素（苄青霉素）",
+      "apresentacoes": [
+        { "forma": "西林瓶 100万单位", "obs": "青霉素G钾 – 注射用粉剂" },
+        { "forma": "西林瓶 500万单位", "obs": "注射用粉剂" },
+        { "forma": "西林瓶 1000万单位", "obs": "注射用粉剂" }
+      ],
+      "preparo": [
+        { "diluicao": "灭菌注射用水配制；稀释于50–100 mL生理盐水或5%葡萄糖。", "concentracao": "15–30分钟内输完" }
+      ],
+      "observacoes": [
+        "窄谱：链球菌、奈瑟菌、密螺旋体、梭菌。不覆盖葡萄球菌（多数）、肠杆菌、铜绿假单胞菌",
+        "含钾：1.7 mEq K+/百万单位 – 大剂量或肾功能不全时高钾风险",
+        "肾调整：ClCr 10–50常规剂量；ClCr <10最大10百万单位/日",
+        "半衰期短（约30分钟）；肾排泄60–90% – 需频繁给药（每4小时）",
+        "首选：梅毒、链球菌咽炎、风湿热、链球菌心内膜炎",
+        "青霉素过敏禁忌。治疗梅毒可能出现吉海反应"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能；ClCr <10时遵守10百万单位/日上限。",
+        "renal": "ClCr 10–50：常规剂量与间隔。ClCr <10：最大10百万单位/日。",
+        "hepatico": "无需调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "青霉素G – 神经梅毒（成人）",
+        "doseTexto": "3–4百万单位 静注 每4小时",
+        "doseMin": 3000000,
+        "doseMax": 4000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "青霉素G – 心内膜炎（成人）",
+        "doseTexto": "2–3百万单位 静注 每4小时",
+        "doseMin": 2000000,
+        "doseMax": 3000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "青霉素G – 脑膜炎/坏死性（成人）",
+        "doseTexto": "4百万单位 静注 每4小时",
+        "doseMin": 4000000,
+        "doseMax": 4000000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "4百万单位",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "青霉素G – 儿科（严重）",
+        "doseTexto": "20–40万 UI/kg/日 静注 每4或6小时",
+        "doseMin": 200000,
+        "doseMax": 400000,
+        "unidadeResultado": "UI/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "青霉素G – 先天性梅毒（新生儿）",
+        "doseTexto": "5万 UI/kg 静注 每12或8小时",
+        "doseMin": 50000,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

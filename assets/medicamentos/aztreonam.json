@@ -1,0 +1,25 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Aztreonam",
+      "nome_comercial": ["Azactam"],
+      "classe_terapeutica": "Monobactâmico",
+      "mecanismo_acao": "Liga-se especificamente à PBP3 de bactérias Gram-negativas aeróbias, inibindo a síntese da parede celular.",
+      "espectro": {
+        "gram_negativos_aerobios": ["Pseudomonas aeruginosa", "E. coli", "Klebsiella", "Proteus", "Enterobacter", "Serratia", "Citrobacter", "H. influenzae", "N. gonorrhoeae"]
+      },
+      "nao_cobre": ["Gram-positivos", "Anaeróbios", "Acinetobacter"],
+      "indicacoes": ["Infecções por Gram-negativos em alérgicos a penicilinas", "Pneumonia nosocomial", "Sepse por Gram-negativo", "ITU complicada"],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "500mg"},
+        {"forma": "Frasco", "concentracao": "1g"},
+        {"forma": "Frasco", "concentracao": "2g"}
+      ],
+      "farmacocinetica": {"meia_vida": "1,7 horas", "excrecao": "Renal (70%)", "ligacao_proteica": "56%"},
+      "ajuste_renal": {"ClCr_10_30": "Dose inicial normal, depois 50%", "ClCr_menor_10": "Dose inicial, depois 25%"},
+      "efeitos_adversos": ["Rash", "Diarreia", "Náusea", "Flebite"],
+      "contraindicacoes": ["Alergia ao aztreonam"],
+      "vantagens": ["Sem reação cruzada com penicilinas/cefalosporinas", "Seguro em alérgicos a beta-lactâmicos"]
+    }
+  }
+}

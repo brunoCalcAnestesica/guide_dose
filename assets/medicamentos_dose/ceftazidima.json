@@ -1,0 +1,934 @@
+{
+  "PT": {
+    "nome": "Ceftazidima",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções moderadas a graves",
+          "descricaoDose": "1–2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pneumonia/Bacteremia por Pseudomonas",
+          "descricaoDose": "2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite",
+          "descricaoDose": "2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neutropenia febril",
+          "descricaoDose": "2 g IV 8/8h (+ aminoglicosídeo quando indicado).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "1–2 g IV 30–60 min antes da incisão.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes da incisão",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções moderadas a graves (pediátrico)",
+          "descricaoDose": "100–150 mg/kg/dia IV 8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite pediátrica",
+          "descricaoDose": "150–200 mg/kg/dia IV 8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 150,
+            "dosePorKgMax": 200,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cefalosporina de 3ª geração anti-Pseudomonas; bactericida – inibe síntese da parede celular",
+      "apresentacoes": [
+        { "forma": "Frasco 1 g liofilizado", "obs": "Fortaz®, Tazicef®" },
+        { "forma": "Frasco 2 g liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 1 g em 10 mL água estéril", "concentracao": "" },
+        { "diluicao": "Diluir em 50–100 mL SF 0,9% ou SG 5%", "concentracao": "Para infusão" },
+        { "diluicao": "Infusão em 15–30 min", "concentracao": "IV" },
+        { "diluicao": "Infusão prolongada (3 h) otimiza PK/PD em infecções graves", "concentracao": "2 g 8/8h" }
+      ],
+      "observacoes": [
+        "Cobre Pseudomonas aeruginosa – cefalosporina de escolha anti-pseudomonas.",
+        "Espectro: gram-negativos ampliado (Pseudomonas, E. coli, Klebsiella, Proteus, Serratia, Enterobacter).",
+        "NÃO cobre: MRSA, Enterococcus, anaeróbios. Atividade gram-positiva fraca – não usar em infecções estafilocócicas.",
+        "Excreção renal 80–90%. Ajuste renal: ClCr 30–50 → 1 g 12/12h; ClCr 10–30 → 1 g 24/24h; ClCr <10 → 1 g 48/48h.",
+        "Infusão prolongada (3 h) melhora eficácia em infecções graves ou MIC elevada.",
+        "Disponível combinação ceftazidima/avibactam (Zavicefta®) para KPC e BLEE."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal. Ajuste de dose/intervalo conforme ClCr.",
+        "renal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+        "hepatico": "Não é necessário ajuste isolado. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ceftazidima – infecções moderadas/graves (adulto)",
+        "doseTexto": "1–2 g IV 8/8h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftazidima – Pseudomonas/meningite/neutropenia (adulto)",
+        "doseTexto": "2 g IV 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftazidima – profilaxia cirúrgica",
+        "doseTexto": "1–2 g IV 30–60 min antes da incisão",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftazidima – pediátrico",
+        "doseTexto": "100–150 mg/kg/dia IV 8/8h",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ceftazidima – meningite (pediátrico)",
+        "doseTexto": "150–200 mg/kg/dia IV 8/8h",
+        "doseMin": 150,
+        "doseMax": 200,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ceftazidime",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderate to severe infections",
+          "descricaoDose": "1–2 g IV q8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr 30–50: 1 g q12h; ClCr 10–30: 1 g q24h; ClCr <10: 1 g q48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pseudomonas pneumonia/bacteremia",
+          "descricaoDose": "2 g IV q8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr 30–50: 1 g q12h; ClCr 10–30: 1 g q24h; ClCr <10: 1 g q48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis",
+          "descricaoDose": "2 g IV q8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr 30–50: 1 g q12h; ClCr 10–30: 1 g q24h; ClCr <10: 1 g q48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Febrile neutropenia",
+          "descricaoDose": "2 g IV q8h (+ aminoglycoside when indicated).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr 30–50: 1 g q12h; ClCr 10–30: 1 g q24h; ClCr <10: 1 g q48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "1–2 g IV 30–60 min before incision.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30–60 min before incision",
+            "ajusteRenal": "ClCr 30–50: 1 g q12h; ClCr 10–30: 1 g q24h; ClCr <10: 1 g q48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Moderate to severe infections (pediatric)",
+          "descricaoDose": "100–150 mg/kg/day IV q8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric meningitis",
+          "descricaoDose": "150–200 mg/kg/day IV q8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 150,
+            "dosePorKgMax": 200,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Third-generation anti-Pseudomonas cephalosporin; bactericidal – inhibits cell wall synthesis",
+      "apresentacoes": [
+        { "forma": "Vial 1 g lyophilized", "obs": "Fortaz®, Tazicef®" },
+        { "forma": "Vial 2 g lyophilized", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute 1 g with 10 mL sterile water", "concentracao": "" },
+        { "diluicao": "Dilute in 50–100 mL 0.9% saline or D5W", "concentracao": "For infusion" },
+        { "diluicao": "Infuse over 15–30 min", "concentracao": "IV" },
+        { "diluicao": "Prolonged infusion (3 h) optimizes PK/PD in severe infections", "concentracao": "2 g q8h" }
+      ],
+      "observacoes": [
+        "Covers Pseudomonas aeruginosa – cephalosporin of choice for anti-pseudomonal therapy.",
+        "Spectrum: broad gram-negative (Pseudomonas, E. coli, Klebsiella, Proteus, Serratia, Enterobacter).",
+        "Does NOT cover: MRSA, Enterococcus, anaerobes. Weak gram-positive activity – do not use for staphylococcal infections.",
+        "Renal excretion 80–90%. Renal adjustment: ClCr 30–50 → 1 g q12h; ClCr 10–30 → 1 g q24h; ClCr <10 → 1 g q48h.",
+        "Prolonged infusion (3 h) improves efficacy in severe infections or elevated MIC.",
+        "Ceftazidime/avibactam (Avycaz®) available for KPC and ESBL."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function. Adjust dose/interval per ClCr.",
+        "renal": "ClCr 30–50: 1 g q12h; ClCr 10–30: 1 g q24h; ClCr <10: 1 g q48h.",
+        "hepatico": "No isolated adjustment. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ceftazidime – moderate/severe (adult)",
+        "doseTexto": "1–2 g IV q8h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ceftazidime – Pseudomonas/meningitis/neutropenia (adult)",
+        "doseTexto": "2 g IV q8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ceftazidime – surgical prophylaxis",
+        "doseTexto": "1–2 g IV 30–60 min before incision",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ceftazidime – pediatric",
+        "doseTexto": "100–150 mg/kg/day IV q8h",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Ceftazidime – meningitis (pediatric)",
+        "doseTexto": "150–200 mg/kg/day IV q8h",
+        "doseMin": 150,
+        "doseMax": 200,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ceftazidima",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones moderadas a graves",
+          "descricaoDose": "1–2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neumonía/bacteriemia por Pseudomonas",
+          "descricaoDose": "2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis",
+          "descricaoDose": "2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neutropenia febril",
+          "descricaoDose": "2 g IV 8/8h (+ aminoglucósido cuando indicado).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "1–2 g IV 30–60 min antes de la incisión.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes de la incisión",
+            "ajusteRenal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones moderadas a graves (pediátrico)",
+          "descricaoDose": "100–150 mg/kg/día IV 8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis pediátrica",
+          "descricaoDose": "150–200 mg/kg/día IV 8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 150,
+            "dosePorKgMax": 200,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cefalosporina de 3ª generación anti-Pseudomonas; bactericida – inhibe síntesis de pared celular",
+      "apresentacoes": [
+        { "forma": "Frasco 1 g liofilizado", "obs": "Fortaz®, Tazicef®" },
+        { "forma": "Frasco 2 g liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 1 g en 10 mL agua estéril", "concentracao": "" },
+        { "diluicao": "Diluir en 50–100 mL SF 0,9% o SG 5%", "concentracao": "Para perfusión" },
+        { "diluicao": "Perfusión en 15–30 min", "concentracao": "IV" },
+        { "diluicao": "Perfusión prolongada (3 h) optimiza PK/PD en infecciones graves", "concentracao": "2 g 8/8h" }
+      ],
+      "observacoes": [
+        "Cubre Pseudomonas aeruginosa – cefalosporina de elección anti-pseudomonas.",
+        "Espectro: gramnegativos amplio (Pseudomonas, E. coli, Klebsiella, Proteus, Serratia, Enterobacter).",
+        "NO cubre: MRSA, Enterococcus, anaerobios. Actividad grampositiva débil – no usar en infecciones estafilocócicas.",
+        "Excreción renal 80–90%. Ajuste renal: ClCr 30–50 → 1 g 12/12h; ClCr 10–30 → 1 g 24/24h; ClCr <10 → 1 g 48/48h.",
+        "Perfusión prolongada (3 h) mejora eficacia en infecciones graves o CIM elevada.",
+        "Disponible combinación ceftazidima/avibactam (Zavicefta®) para KPC y BLEE."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal. Ajuste de dosis/intervalo según ClCr.",
+        "renal": "ClCr 30–50: 1 g 12/12h; ClCr 10–30: 1 g 24/24h; ClCr <10: 1 g 48/48h.",
+        "hepatico": "No es necesario ajuste aislado. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ceftazidima – moderadas/graves (adulto)",
+        "doseTexto": "1–2 g IV 8/8h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftazidima – Pseudomonas/meningitis/neutropenia (adulto)",
+        "doseTexto": "2 g IV 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftazidima – profilaxis quirúrgica",
+        "doseTexto": "1–2 g IV 30–60 min antes de la incisión",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ceftazidima – pediátrico",
+        "doseTexto": "100–150 mg/kg/día IV 8/8h",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ceftazidima – meningitis (pediátrico)",
+        "doseTexto": "150–200 mg/kg/día IV 8/8h",
+        "doseMin": 150,
+        "doseMax": 200,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "头孢他啶",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "中重度感染",
+          "descricaoDose": "1–2 g 静注 每8小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 30–50：1 g 每12h；ClCr 10–30：1 g 每24h；ClCr <10：1 g 每48h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "铜绿假单胞菌肺炎/菌血症",
+          "descricaoDose": "2 g 静注 每8小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 30–50：1 g 每12h；ClCr 10–30：1 g 每24h；ClCr <10：1 g 每48h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "脑膜炎",
+          "descricaoDose": "2 g 静注 每8小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 30–50：1 g 每12h；ClCr 10–30：1 g 每24h；ClCr <10：1 g 每48h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "发热性中性粒细胞减少",
+          "descricaoDose": "2 g 静注 每8小时（必要时联用氨基糖苷类）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 30–50：1 g 每12h；ClCr 10–30：1 g 每24h；ClCr <10：1 g 每48h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "1–2 g 静注 切皮前30–60分钟。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "切皮前30–60分钟",
+            "ajusteRenal": "ClCr 30–50：1 g 每12h；ClCr 10–30：1 g 每24h；ClCr <10：1 g 每48h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "中重度感染（儿科）",
+          "descricaoDose": "100–150 mg/kg/日 静注 每8小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童脑膜炎",
+          "descricaoDose": "150–200 mg/kg/日 静注 每8小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 150,
+            "dosePorKgMax": 200,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "第三代抗铜绿假单胞菌头孢菌素；杀菌，抑制细胞壁合成",
+      "apresentacoes": [
+        { "forma": "西林瓶 1 g 冻干粉", "obs": "Fortaz®、Tazicef®" },
+        { "forma": "西林瓶 2 g 冻干粉", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g 用10 mL灭菌注射用水配制", "concentracao": "" },
+        { "diluicao": "稀释于50–100 mL生理盐水或5%葡萄糖", "concentracao": "用于输注" },
+        { "diluicao": "15–30分钟内输注", "concentracao": "静注" },
+        { "diluicao": "严重感染可延长输注3小时以优化PK/PD", "concentracao": "2 g 每8小时" }
+      ],
+      "observacoes": [
+        "覆盖铜绿假单胞菌，抗假单胞菌首选头孢。",
+        "谱：革兰阴性广（铜绿、大肠、克雷伯、变形杆菌、沙雷、肠杆菌）。",
+        "不覆盖：MRSA、肠球菌、厌氧菌。革兰阳性弱，勿用于葡萄球菌感染。",
+        "约80–90%经肾排泄。肾调整：ClCr 30–50 → 1 g 每12h；ClCr 10–30 → 1 g 每24h；ClCr <10 → 1 g 每48h。",
+        "严重感染或高MIC时延长输注3小时可提高疗效。",
+        "头孢他啶/阿维巴坦（Zavicefta®）可用于KPC及ESBL。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "用药前评估肾功能。按ClCr调整剂量/间隔。",
+        "renal": "ClCr 30–50：1 g 每12h；ClCr 10–30：1 g 每24h；ClCr <10：1 g 每48h。",
+        "hepatico": "无需单独调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "头孢他啶 – 中重度（成人）",
+        "doseTexto": "1–2 g 静注 每8小时",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢他啶 – 铜绿/脑膜炎/粒细胞缺乏（成人）",
+        "doseTexto": "2 g 静注 每8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢他啶 – 手术预防",
+        "doseTexto": "1–2 g 静注 切皮前30–60分钟",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢他啶 – 儿童",
+        "doseTexto": "100–150 mg/kg/日 静注 每8小时",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "头孢他啶 – 脑膜炎（儿童）",
+        "doseTexto": "150–200 mg/kg/日 静注 每8小时",
+        "doseMin": 150,
+        "doseMax": 200,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

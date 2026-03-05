@@ -1,0 +1,41 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Clobazam",
+      "nomesComerciais": ["Frisium®", "Urbanil®"],
+      "classeTerapeutica": "Benzodiazepínico / 1,5-Benzodiazepina / Anticonvulsivante",
+      "mecanismoAcao": "Benzodiazepínico com estrutura 1,5 (diferente da 1,4 tradicional). Potencializa GABA com menor efeito sedativo comparado a outros BZDs. Mecanismo anticonvulsivante por modulação GABAérgica.",
+      "indicacoes": ["Epilepsia - terapia adjuvante", "Síndrome de Lennox-Gastaut", "Ansiedade (off-label)"],
+      "apresentacoes": ["Comprimidos 10 mg, 20 mg", "Suspensão oral 2,5 mg/mL"],
+      "posologia": {
+        "epilepsiaAdulto": {
+          "inicial": "5-15 mg/dia",
+          "manutencao": "20-30 mg/dia",
+          "maxima": "60 mg/dia"
+        },
+        "epilepsiaPediatrica": {
+          "dose": "0,5-1 mg/kg/dia divididos em 2 doses",
+          "maxima": "40 mg/dia"
+        },
+        "lennoxGastaut": {
+          "atePeso30kg": "5-20 mg/dia",
+          "acimaPeso30kg": "5-40 mg/dia"
+        }
+      },
+      "farmacocinetica": {
+        "inicioAcao": "30-60 minutos",
+        "picoPlasmatico": "1-4 horas",
+        "meiaVida": "18-42 horas",
+        "metabolitoAtivo": "N-desmetilclobazam (T1/2: 36-46h)",
+        "metabolismo": "CYP3A4 e CYP2C19"
+      },
+      "farmacogenetica": {
+        "CYP2C19": "Metabolizadores lentos podem precisar de 50% da dose"
+      },
+      "contraindicacoes": ["Miastenia gravis", "Insuficiência respiratória grave", "Apneia do sono", "Insuficiência hepática grave", "Gestação (categoria D)"],
+      "efeitosAdversos": ["Sedação (menor que outros BZDs)", "Tontura", "Ataxia", "Sialorreia", "Irritabilidade"],
+      "observacoes": ["Menor sedação que outros benzodiazepínicos", "Tolerância pode desenvolver", "Retirada gradual obrigatória", "Não interromper abruptamente"],
+      "categoriaGravidez": "D"
+    }
+  }
+}

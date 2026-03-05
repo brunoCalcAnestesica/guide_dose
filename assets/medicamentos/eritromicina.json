@@ -1,0 +1,32 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Eritromicina",
+      "nome_comercial": ["Eritromicina", "Ilosone"],
+      "classe_terapeutica": "Macrolídeo",
+      "mecanismo_acao": "Liga-se à subunidade 50S do ribossomo bacteriano, inibindo a síntese proteica. Também atua como agonista do receptor de motilina (efeito procinético).",
+      "espectro": {
+        "gram_positivos": ["Streptococcus", "S. pneumoniae", "Corynebacterium diphtheriae"],
+        "gram_negativos": ["Bordetella pertussis", "Campylobacter", "Legionella"],
+        "atipicos": ["Mycoplasma pneumoniae", "Chlamydia", "Ureaplasma"]
+      },
+      "indicacoes": {
+        "antibiotico": ["Pneumonia comunitária", "Coqueluche", "Legionella", "Infecções em alérgicos a penicilina"],
+        "procinetico": ["Gastroparesia", "Preparo pré-EDA (estômago cheio)", "Intolerância a dieta enteral"]
+      },
+      "apresentacoes": [
+        {"forma": "Frasco IV", "concentracao": "1g lactobionato"},
+        {"forma": "Comprimido", "concentracao": "250mg, 500mg"},
+        {"forma": "Suspensão", "concentracao": "125mg/5mL, 250mg/5mL"}
+      ],
+      "farmacocinetica": {"meia_vida": "1,5-2 horas", "metabolismo": "Hepático (CYP3A4)", "excrecao": "Biliar"},
+      "efeitos_adversos": ["Náusea/vômito (comum)", "Dor abdominal", "Prolongamento QT", "Flebite (IV)", "Hepatotoxicidade colestática"],
+      "interacoes": {
+        "inibicao_CYP3A4": ["Estatinas (rabdomiólise)", "Ciclosporina", "Tacrolimus", "Carbamazepina", "Teofilina", "Digoxina", "Warfarina"],
+        "contraindicados": ["Cisaprida", "Pimozida", "Ergotamínicos"]
+      },
+      "contraindicacoes": ["Prolongamento QT", "Uso de cisaprida/pimozida", "Hepatopatia grave"],
+      "observacoes": ["Infundir lentamente para evitar flebite", "Prolonga QT - monitorar ECG"]
+    }
+  }
+}

@@ -1,0 +1,758 @@
+{
+  "PT": {
+    "nome": "Glicopirrolato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Pré-medicação anestésica (anti-sialagogo)",
+          "descricaoDose": "4 mcg/kg IV/IM (adulto e pediátrico, máx 200 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: reduzir dose ou evitar (excreção renal).",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pré-medicação anestésica (pediátrico)",
+          "descricaoDose": "4 mcg/kg IV/IM (máx 200 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: reduzir dose ou evitar.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversão de bloqueio neuromuscular (com neostigmina)",
+          "descricaoDose": "200 mcg IV para cada 1 mg de neostigmina",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": "200 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única (com neostigmina)",
+            "ajusteRenal": "ClCr <30: reduzir dose ou evitar.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bradicardia (adulto)",
+          "descricaoDose": "200-400 mcg IV (bolus lento)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "200-400 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única (repetir se necessário)",
+            "ajusteRenal": "ClCr <30: reduzir dose ou evitar.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bradicardia (pediátrico)",
+          "descricaoDose": "4 mcg/kg IV (mín 20 mcg, máx 200 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única (repetir se necessário)",
+            "ajusteRenal": "ClCr <30: reduzir dose ou evitar.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinérgico / Antimuscarínico quaternário",
+      "apresentacoes": [
+        { "forma": "Ampola 0,2 mg/mL (1 mL)", "obs": "Robinul®" },
+        { "forma": "Ampola 0,4 mg/2 mL", "obs": "Robinul®" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso (direto da ampola)", "concentracao": "0,2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "Pode diluir em SF 0,9% ou SG 5% se necessário", "concentracao": "conforme diluição" }
+      ],
+      "observacoes": [
+        "Sal de amônio quaternário: não atravessa barreira hematoencefálica (sem efeitos centrais)",
+        "Excreção renal ~85% inalterado; ClCr <30: reduzir dose ou evitar",
+        "Reversão BNM: administrar com neostigmina (200 mcg glicopirrolato por 1 mg neostigmina)",
+        "Bradicardia: taquicardia menor que atropina; início IV 1-2 min, IM 15-30 min",
+        "Contraindicações: glaucoma ângulo fechado, retenção urinária, íleo paralítico, miastenia gravis",
+        "Compatível com SF 0,9% e SG 5%; estável 24h diluído. Temperatura ambiente, proteger da luz"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Cautela (retenção urinária, glaucoma). Monitorar FC. ClCr <30: reduzir dose ou evitar.",
+        "renal": "ClCr <30: reduzir dose ou evitar (excreção renal 85%).",
+        "hepatico": "Não necessário ajuste."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Glicopirrolato pré-med (adulto)",
+        "doseTexto": "4 mcg/kg IV/IM (máx 200 mcg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Glicopirrolato pré-med (pediátrico)",
+        "doseTexto": "4 mcg/kg IV/IM (máx 200 mcg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Glicopirrolato reversão BNM",
+        "doseTexto": "200 mcg IV (por cada 1 mg neostigmina)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Glicopirrolato bradicardia (adulto)",
+        "doseTexto": "200-400 mcg IV",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Glicopirrolato bradicardia (pediátrico)",
+        "doseTexto": "4 mcg/kg IV (mín 20, máx 200 mcg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Glycopyrrolate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anesthetic premedication (antisialagogue)",
+          "descricaoDose": "4 mcg/kg IV/IM (adult and pediatric, max 200 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr <30: reduce dose or avoid (renal excretion).",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anesthetic premedication (pediatric)",
+          "descricaoDose": "4 mcg/kg IV/IM (max 200 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr <30: reduce dose or avoid.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neuromuscular blockade reversal (with neostigmine)",
+          "descricaoDose": "200 mcg IV per 1 mg neostigmine",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": "200 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose (with neostigmine)",
+            "ajusteRenal": "ClCr <30: reduce dose or avoid.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bradycardia (adult)",
+          "descricaoDose": "200-400 mcg IV (slow bolus)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "200-400 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose (repeat if needed)",
+            "ajusteRenal": "ClCr <30: reduce dose or avoid.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bradycardia (pediatric)",
+          "descricaoDose": "4 mcg/kg IV (min 20 mcg, max 200 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose (repeat if needed)",
+            "ajusteRenal": "ClCr <30: reduce dose or avoid.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticholinergic / Quaternary antimuscarinic",
+      "apresentacoes": [
+        { "forma": "Ampoule 0.2 mg/mL (1 mL)", "obs": "Robinul®" },
+        { "forma": "Ampoule 0.4 mg/2 mL", "obs": "Robinul®" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for use (undiluted)", "concentracao": "0.2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "May dilute in 0.9% NS or D5W if needed", "concentracao": "as per dilution" }
+      ],
+      "observacoes": [
+        "Quaternary ammonium salt: does not cross blood-brain barrier (no central effects)",
+        "Renal excretion ~85% unchanged; ClCr <30: reduce dose or avoid",
+        "NMB reversal: give with neostigmine (200 mcg glycopyrrolate per 1 mg neostigmine)",
+        "Bradycardia: less tachycardia than atropine; IV onset 1-2 min, IM 15-30 min",
+        "Contraindications: narrow-angle glaucoma, urinary retention, paralytic ileus, myasthenia gravis",
+        "Compatible with 0.9% NS and D5W; stable 24h diluted. Room temperature, protect from light"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Caution (urinary retention, glaucoma). Monitor HR. ClCr <30: reduce dose or avoid.",
+        "renal": "ClCr <30: reduce dose or avoid (85% renal excretion).",
+        "hepatico": "No adjustment necessary."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Glycopyrrolate premed (adult)",
+        "doseTexto": "4 mcg/kg IV/IM (max 200 mcg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Glycopyrrolate premed (pediatric)",
+        "doseTexto": "4 mcg/kg IV/IM (max 200 mcg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Glycopyrrolate NMB reversal",
+        "doseTexto": "200 mcg IV (per 1 mg neostigmine)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Glycopyrrolate bradycardia (adult)",
+        "doseTexto": "200-400 mcg IV",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Glycopyrrolate bradycardia (pediatric)",
+        "doseTexto": "4 mcg/kg IV (min 20, max 200 mcg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Glicopirrolato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Premedicación anestésica (antisialagogo)",
+          "descricaoDose": "4 mcg/kg IV/IM (adulto y pediátrico, máx 200 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: reducir dosis o evitar (excreción renal).",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Premedicación anestésica (pediátrico)",
+          "descricaoDose": "4 mcg/kg IV/IM (máx 200 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: reducir dosis o evitar.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversión de bloqueo neuromuscular (con neostigmina)",
+          "descricaoDose": "200 mcg IV por cada 1 mg de neostigmina",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": "200 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única (con neostigmina)",
+            "ajusteRenal": "ClCr <30: reducir dosis o evitar.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bradicardia (adulto)",
+          "descricaoDose": "200-400 mcg IV (bolo lento)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "200-400 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única (repetir si necesario)",
+            "ajusteRenal": "ClCr <30: reducir dosis o evitar.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bradicardia (pediátrico)",
+          "descricaoDose": "4 mcg/kg IV (mín 20 mcg, máx 200 mcg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única (repetir si necesario)",
+            "ajusteRenal": "ClCr <30: reducir dosis o evitar.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinérgico / Antimuscarínico quaternario",
+      "apresentacoes": [
+        { "forma": "Ampolla 0,2 mg/mL (1 mL)", "obs": "Robinul®" },
+        { "forma": "Ampolla 0,4 mg/2 mL", "obs": "Robinul®" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso (directo de la ampolla)", "concentracao": "0,2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "Puede diluirse en SF 0,9% o SG 5% si necesario", "concentracao": "según dilución" }
+      ],
+      "observacoes": [
+        "Sal de amonio cuaternario: no cruza barrera hematoencefálica (sin efectos centrales)",
+        "Excreción renal ~85% inalterado; ClCr <30: reducir dosis o evitar",
+        "Reversión BNM: administrar con neostigmina (200 mcg glicopirrolato por 1 mg neostigmina)",
+        "Bradicardia: taquicardia menor que atropina; inicio IV 1-2 min, IM 15-30 min",
+        "Contraindicaciones: glaucoma ángulo cerrado, retención urinaria, íleo paralítico, miastenia gravis",
+        "Compatible con SF 0,9% y SG 5%; estable 24h diluido. Temperatura ambiente, proteger de la luz"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Precaución (retención urinaria, glaucoma). Monitorizar FC. ClCr <30: reducir dosis o evitar.",
+        "renal": "ClCr <30: reducir dosis o evitar (excreción renal 85%).",
+        "hepatico": "No es necesario ajuste."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Glicopirrolato premed (adulto)",
+        "doseTexto": "4 mcg/kg IV/IM (máx 200 mcg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Glicopirrolato premed (pediátrico)",
+        "doseTexto": "4 mcg/kg IV/IM (máx 200 mcg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Glicopirrolato reversión BNM",
+        "doseTexto": "200 mcg IV (por cada 1 mg neostigmina)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Glicopirrolato bradicardia (adulto)",
+        "doseTexto": "200-400 mcg IV",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Glicopirrolato bradicardia (pediátrico)",
+        "doseTexto": "4 mcg/kg IV (mín 20, máx 200 mcg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "格隆溴铵",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "麻醉前用药（抗涎）",
+          "descricaoDose": "4 mcg/kg IV/IM（成人及儿童，最大 200 mcg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr <30：减量或避免（经肾排泄）。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "麻醉前用药（儿童）",
+          "descricaoDose": "4 mcg/kg IV/IM（最大 200 mcg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr <30：减量或避免。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "神经肌肉阻滞逆转（与新斯的明联用）",
+          "descricaoDose": "200 mcg IV / 每 1 mg 新斯的明",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": "200 mcg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次（与新斯的明同用）",
+            "ajusteRenal": "ClCr <30：减量或避免。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "心动过缓（成人）",
+          "descricaoDose": "200-400 mcg IV（缓慢推注）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "200-400 mcg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次（必要时重复）",
+            "ajusteRenal": "ClCr <30：减量或避免。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "心动过缓（儿童）",
+          "descricaoDose": "4 mcg/kg IV（最小 20 mcg，最大 200 mcg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次（必要时重复）",
+            "ajusteRenal": "ClCr <30：减量或避免。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗胆碱药 / 季铵类抗毒蕈碱药",
+      "apresentacoes": [
+        { "forma": "安瓿 0.2 mg/mL (1 mL)", "obs": "Robinul®" },
+        { "forma": "安瓿 0.4 mg/2 mL", "obs": "Robinul®" }
+      ],
+      "preparo": [
+        { "diluicao": "即用（原液）", "concentracao": "0.2 mg/mL (200 mcg/mL)" },
+        { "diluicao": "可溶于生理盐水或5%葡萄糖", "concentracao": "按稀释比例" }
+      ],
+      "observacoes": [
+        "季铵盐：不透过血脑屏障（无中枢作用）",
+        "约85%以原形经肾排泄；ClCr <30：减量或避免",
+        "神经肌肉阻滞逆转：与新斯的明同用（每1 mg新斯的明用200 mcg格隆溴铵）",
+        "心动过缓：较阿托品心动过速少；IV 1-2分钟起效，IM 15-30分钟",
+        "禁忌：闭角型青光眼、尿潴留、麻痹性肠梗阻、重症肌无力",
+        "与生理盐水、5%葡萄糖相容；稀释后稳定24小时。室温避光"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "慎用（尿潴留、青光眼）。监测心率。ClCr <30：减量或避免。",
+        "renal": "ClCr <30：减量或避免（85%肾排泄）。",
+        "hepatico": "无需调整。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "格隆溴铵 术前用药（成人）",
+        "doseTexto": "4 mcg/kg IV/IM（最大 200 mcg）",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "格隆溴铵 术前用药（儿童）",
+        "doseTexto": "4 mcg/kg IV/IM（最大 200 mcg）",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "格隆溴铵 神经肌肉阻滞逆转",
+        "doseTexto": "200 mcg IV（每 1 mg 新斯的明）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200 mcg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "格隆溴铵 心动过缓（成人）",
+        "doseTexto": "200-400 mcg IV",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mcg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "格隆溴铵 心动过缓（儿童）",
+        "doseTexto": "4 mcg/kg IV（最小 20，最大 200 mcg）",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

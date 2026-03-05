@@ -1,0 +1,41 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Sucralfato",
+      "nomesComerciais": ["Sucrafilm®", "Sucralfin®"],
+      "classeTerapeutica": "Citoprotetor gástrico / Sal de alumínio da sacarose sulfatada",
+      "mecanismoAcao": "Em pH ácido, forma gel viscoso que se liga às proteínas da base da úlcera, criando barreira protetora contra ácido, pepsina e bile. Também estimula prostaglandinas e secreção de muco.",
+      "indicacoes": ["Úlcera duodenal", "Úlcera gástrica", "Profilaxia de úlcera de estresse", "DRGE leve", "Mucosite oral"],
+      "apresentacoes": ["Comprimidos 1 g", "Suspensão oral 1 g/5 mL (200 mg/mL)"],
+      "posologia": {
+        "ulceraDuodenal": {
+          "padrao": "1 g VO 4x/dia (1h antes das refeições e ao deitar)",
+          "alternativa": "2 g VO 2x/dia",
+          "duracao": "4-8 semanas"
+        },
+        "ulceraGastrica": "1 g VO 4x/dia por 8-12 semanas",
+        "profilaxiaEstresse": "1 g VO/SNG 6/6h",
+        "mucositeOral": "1 g bochechar e engolir 4x/dia",
+        "pediatrico": {
+          "dose": "40-80 mg/kg/dia divididos em 4 doses",
+          "maxima": "1 g/dose"
+        }
+      },
+      "administracao": {
+        "momento": "Com estômago vazio, 1h antes das refeições",
+        "aoDeitar": "2h após última refeição",
+        "comprimidos": "Não triturar",
+        "suspensao": "Agitar bem antes de usar"
+      },
+      "absorcao": "Mínima (<5%) - ação local",
+      "contraindicacoes": ["Insuficiência renal grave (acúmulo de alumínio)", "Obstrução gastrointestinal"],
+      "interacoes": {
+        "reduzAbsorcao": ["Fluoroquinolonas", "Fenitoína", "Digoxina", "Warfarina"],
+        "orientacao": "Administrar outros medicamentos 2h antes ou depois"
+      },
+      "efeitosAdversos": ["Constipação", "Boca seca", "Náusea"],
+      "observacoes": ["Requer ambiente ácido para ativação (pH < 4)", "Evitar antiácidos 30 min antes/depois", "Opção para profilaxia se IBP não disponível"],
+      "categoriaGravidez": "B"
+    }
+  }
+}

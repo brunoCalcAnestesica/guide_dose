@@ -1,0 +1,81 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Estreptoquinase",
+      "nomesComerciais": ["Streptase®", "Kabikinase®"],
+      "classeTerapeutica": "Trombolítico / Ativador indireto do plasminogênio",
+      "mecanismoAcao": "Proteína purificada do Streptococcus beta-hemolítico do grupo C. Forma um complexo com o plasminogênio que ativa outras moléculas de plasminogênio em plasmina. NÃO é fibrino-específico, causando fibrinólise sistêmica e consumo de fibrinogênio. Pode induzir resposta imune com formação de anticorpos.",
+      "indicacoes": [
+        "IAM com supradesnivelamento de ST (IAMCSST)",
+        "Tromboembolismo pulmonar (TEP) maciço",
+        "Trombose venosa profunda (TVP) extensa",
+        "Trombose arterial aguda",
+        "Desobstrução de fístulas arteriovenosas"
+      ],
+      "apresentacoes": [
+        "Frasco-ampola 750.000 UI pó liofilizado",
+        "Frasco-ampola 1.500.000 UI pó liofilizado"
+      ],
+      "posologia": {
+        "iam": {
+          "dose": "1.500.000 UI IV em 60 minutos"
+        },
+        "tep": {
+          "ataque": "250.000 UI IV em 30 minutos",
+          "manutencao": "100.000 UI/h por 24 horas"
+        },
+        "tvp": {
+          "ataque": "250.000 UI IV em 30 minutos",
+          "manutencao": "100.000 UI/h por 24-72 horas"
+        }
+      },
+      "preparo": {
+        "reconstituicao": "Adicionar 5 mL de SF 0,9% lentamente",
+        "tecnica": "Girar suavemente, não agitar",
+        "diluicao": "Diluir em 100-250 mL SF 0,9%",
+        "estabilidade": "Usar imediatamente",
+        "observacao": "Não misturar com outras medicações"
+      },
+      "farmacocinetica": {
+        "inicio_acao": "Imediato",
+        "meia_vida": "23 minutos (inicial), 83 minutos (terminal)",
+        "duracao_efeito": "Até 24h (estado lítico sistêmico)",
+        "eliminacao": "Reticuloendotelial"
+      },
+      "contraindicacoes": [
+        "Uso nos últimos 6-12 meses (anticorpos neutralizantes)",
+        "Infecção estreptocócica recente",
+        "Sangramento ativo ou diátese hemorrágica",
+        "AVC hemorrágico ou AVC recente",
+        "Neoplasia intracraniana",
+        "Cirurgia maior recente (<10 dias)",
+        "Trauma grave recente",
+        "HAS não controlada"
+      ],
+      "efeitosAdversos": [
+        "Reações alérgicas/anafiláticas (origem bacteriana)",
+        "Febre, calafrios",
+        "Hipotensão",
+        "Sangramento (sistêmico devido à não especificidade)",
+        "Hemorragia intracraniana",
+        "Náuseas, vômitos",
+        "Formação de anticorpos"
+      ],
+      "interacoes": [
+        "Anticoagulantes: aumenta risco de sangramento",
+        "Antiplaquetários: aumenta risco de sangramento"
+      ],
+      "observacoes": [
+        "MENOR CUSTO entre os trombolíticos",
+        "RISCO ALÉRGICO: origem bacteriana (Streptococcus)",
+        "NÃO reutilizar em 6-12 meses (anticorpos neutralizantes)",
+        "Pré-medicação opcional: hidrocortisona 100mg IV",
+        "Não fibrino-específico: causa estado lítico sistêmico",
+        "Janela IAM: ≤12h do início dos sintomas",
+        "Monitorar sinais de anafilaxia e sangramento",
+        "Suspender heparina durante infusão"
+      ],
+      "categoriaGravidez": "C"
+    }
+  }
+}

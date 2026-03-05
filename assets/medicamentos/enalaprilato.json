@@ -1,0 +1,67 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Enalaprilato",
+      "nome_comercial": ["Renitec IV", "Vasotec IV"],
+      "classe_terapeutica": "Inibidor da ECA (IECA) - forma IV",
+      "mecanismo_acao": "Inibe a enzima conversora de angiotensina, reduzindo a formação de angiotensina II (vasoconstritor) e a degradação de bradicinina (vasodilatador). Forma ativa do enalapril, não requer metabolização hepática.",
+      "indicacoes": [
+        "Emergência hipertensiva (2ª linha)",
+        "Hipertensão grave quando VO não é possível",
+        "ICC hipertensiva",
+        "Transição de IECA oral para IV"
+      ],
+      "contraindicacoes": [
+        "Gestação (teratogênico)",
+        "Estenose bilateral da artéria renal",
+        "Hipercalemia (K+ > 5,5 mEq/L)",
+        "Histórico de angioedema com IECA",
+        "Uso concomitante de alisquireno em diabéticos"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Solução injetável",
+          "concentracao": "1,25 mg/mL",
+          "volume": "1 mL"
+        },
+        {
+          "forma": "Solução injetável",
+          "concentracao": "1 mg/mL",
+          "volume": "2 mL"
+        }
+      ],
+      "farmacocinetica": {
+        "inicio_acao_iv": "15-30 minutos",
+        "pico_iv": "1-4 horas",
+        "duracao": "6 horas",
+        "meia_vida": "11 horas",
+        "metabolismo": "Nenhum (forma ativa)",
+        "excrecao": "Renal (100%)"
+      },
+      "efeitos_adversos": [
+        "Hipotensão (especialmente na 1ª dose)",
+        "Hipercalemia",
+        "Insuficiência renal aguda",
+        "Tosse seca",
+        "Angioedema (raro, mas grave)"
+      ],
+      "interacoes_importantes": [
+        "Diuréticos: risco de hipotensão grave",
+        "Suplementos de K+ / poupadores de K+: hipercalemia",
+        "AINEs: reduzem eficácia",
+        "Lítio: aumento dos níveis de lítio"
+      ],
+      "ajuste_renal": {
+        "ClCr_maior_30": "Dose normal",
+        "ClCr_menor_30": "Iniciar com 0,625 mg"
+      },
+      "observacoes": [
+        "Resposta imprevisível - não é 1ª escolha em emergência",
+        "Início de ação lento comparado a outros agentes IV"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "24 horas após diluição"
+      }
+    }
+  }
+}

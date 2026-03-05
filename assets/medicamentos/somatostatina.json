@@ -1,0 +1,38 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Somatostatina",
+      "nomesComerciais": ["Stilamin®"],
+      "classeTerapeutica": "Hormônio peptídico / Análogo natural da somatostatina",
+      "mecanismoAcao": "Inibe a secreção de hormônios gastrointestinais (gastrina, VIP, secretina). Causa vasoconstrição esplâncnica, reduzindo o fluxo sanguíneo portal e a pressão nas varizes esofágicas.",
+      "indicacoes": ["HDA varicosa", "Fístula pancreática", "Fístula entérica"],
+      "apresentacoes": ["Frasco-ampola 250 mcg", "Frasco-ampola 3 mg"],
+      "farmacocinetica": {
+        "meiaVida": "1-3 minutos",
+        "observacao": "Requer infusão contínua devido à meia-vida curta"
+      },
+      "posologia": {
+        "HDA_bolus": "250 mcg IV em bolus lento (3-5 min)",
+        "HDA_infusao": "250-500 mcg/h IV contínua por até 5 dias",
+        "fistula": "250 mcg/h IV contínua"
+      },
+      "preparo": {
+        "solucao": "3 mg + 500 mL SF 0,9% = 6 mcg/mL",
+        "estabilidade": "24h em temperatura ambiente"
+      },
+      "velocidadeInfusao": {
+        "250mcgPorHora": "~42 mL/h (solução 6 mcg/mL)",
+        "500mcgPorHora": "~83 mL/h (solução 6 mcg/mL)"
+      },
+      "comparacaoOctreotida": {
+        "somatostatina": "Meia-vida 1-3 min (infusão obrigatória)",
+        "octreotida": "Meia-vida 90-120 min (bolus possível)",
+        "eficacia": "Equivalente"
+      },
+      "contraindicacoes": ["Hipersensibilidade à somatostatina"],
+      "efeitosAdversos": ["Náusea", "Dor abdominal", "Hiperglicemia", "Hipoglicemia", "Bradicardia", "Rubor facial"],
+      "observacoes": ["Manter por 2-5 dias após cessação do sangramento", "Reduz fluxo esplâncnico em 20-30%", "Monitorar glicemia", "Associar com IBP e antibióticos profiláticos"],
+      "categoriaGravidez": "Dados limitados"
+    }
+  }
+}

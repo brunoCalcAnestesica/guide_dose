@@ -1,0 +1,606 @@
+{
+  "PT": {
+    "nome": "Brivaracetam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epiléptico – ataque (adulto)",
+          "descricaoDose": "100-200 mg IV em 15 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child-Pugh C: máx 75 mg 12/12h"
+          }
+        },
+        {
+          "titulo": "Manutenção (adulto)",
+          "descricaoDose": "50-100 mg IV/VO 12/12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 200,
+            "doseFixa": "50-100 mg 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child-Pugh C: máx 75 mg 12/12h"
+          }
+        },
+        {
+          "titulo": "Status epiléptico – ataque (pediátrico)",
+          "descricaoDose": "1-2 mg/kg IV em 15 min (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child-Pugh C: reduzir dose"
+          }
+        },
+        {
+          "titulo": "Manutenção (pediátrico)",
+          "descricaoDose": "0,5-2 mg/kg/dose IV/VO 12/12h (peso <50 kg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Child-Pugh C: reduzir dose"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico de 2ª geração - Ligante SV2A (análogo do levetiracetam)",
+      "apresentacoes": [
+        { "forma": "Ampola 50 mg/5 mL (10 mg/mL)", "obs": "Uso IV" },
+        { "forma": "Comprimidos 10 mg, 25 mg, 50 mg, 75 mg, 100 mg", "obs": "Via oral" },
+        { "forma": "Solução oral 10 mg/mL", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg (5 mL) em 50 mL SF 0,9% ou SG 5%", "concentracao": "1 mg/mL - infundir em 15 min" },
+        { "diluicao": "100 mg (10 mL) em 50 mL SF 0,9%", "concentracao": "2 mg/mL - infundir em 15 min" }
+      ],
+      "observacoes": [
+        "Início de ação IV mais rápido que levetiracetam; afinidade SV2A 15-30x maior",
+        "Meia-vida: ~9 h; metabolismo hepático CYP2C19 + hidrólise",
+        "Não requer ajuste renal; excreção renal como metabólitos",
+        "Child-Pugh C: dose máxima 75 mg 12/12h",
+        "Não suspender abruptamente; desmame gradual",
+        "Menos efeitos comportamentais/irritabilidade que levetiracetam"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função hepática. Child-Pugh C: máx 75 mg 12/12h. Monitorar efeitos neuropsiquiátricos.",
+        "renal": "Não requer ajuste de dose.",
+        "hepatico": "Child-Pugh C: dose máxima 75 mg 12/12h."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Brivaracetam (adulto ataque)",
+        "doseTexto": "100-200 mg IV em 15 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Brivaracetam (adulto manutenção)",
+        "doseTexto": "50-100 mg IV/VO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg 12/12h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Brivaracetam (pediátrico ataque)",
+        "doseTexto": "1-2 mg/kg IV em 15 min (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Brivaracetam (pediátrico manutenção)",
+        "doseTexto": "0,5-2 mg/kg/dose 12/12h",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Brivaracetam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus – loading (adult)",
+          "descricaoDose": "100-200 mg IV over 15 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C: max 75 mg twice daily"
+          }
+        },
+        {
+          "titulo": "Maintenance (adult)",
+          "descricaoDose": "50-100 mg IV/PO every 12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 200,
+            "doseFixa": "50-100 mg every 12 h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "every 12 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C: max 75 mg twice daily"
+          }
+        },
+        {
+          "titulo": "Status epilepticus – loading (pediatric)",
+          "descricaoDose": "1-2 mg/kg IV over 15 min (max 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C: reduce dose"
+          }
+        },
+        {
+          "titulo": "Maintenance (pediatric)",
+          "descricaoDose": "0.5-2 mg/kg/dose IV/PO every 12 h (weight <50 kg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "every 12 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C: reduce dose"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Second-generation antiepileptic - SV2A ligand (levetiracetam analogue)",
+      "apresentacoes": [
+        { "forma": "Vial 50 mg/5 mL (10 mg/mL)", "obs": "IV use" },
+        { "forma": "Tablets 10 mg, 25 mg, 50 mg, 75 mg, 100 mg", "obs": "Oral" },
+        { "forma": "Oral solution 10 mg/mL", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg (5 mL) in 50 mL NS or D5W", "concentracao": "1 mg/mL - infuse over 15 min" },
+        { "diluicao": "100 mg (10 mL) in 50 mL NS", "concentracao": "2 mg/mL - infuse over 15 min" }
+      ],
+      "observacoes": [
+        "IV onset faster than levetiracetam; SV2A affinity 15-30x higher",
+        "Half-life ~9 h; hepatic metabolism CYP2C19 + hydrolysis",
+        "No renal dose adjustment; renal excretion as metabolites",
+        "Child-Pugh C: maximum dose 75 mg twice daily",
+        "Do not discontinue abruptly; taper gradually",
+        "Fewer behavioral/irritability effects than levetiracetam"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess liver function. Child-Pugh C: max 75 mg twice daily. Monitor neuropsychiatric effects.",
+        "renal": "No dose adjustment required.",
+        "hepatico": "Child-Pugh C: maximum dose 75 mg twice daily."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Brivaracetam (adult loading)",
+        "doseTexto": "100-200 mg IV over 15 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Brivaracetam (adult maintenance)",
+        "doseTexto": "50-100 mg IV/PO every 12 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg every 12 h",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Brivaracetam (pediatric loading)",
+        "doseTexto": "1-2 mg/kg IV over 15 min (max 100 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Brivaracetam (pediatric maintenance)",
+        "doseTexto": "0.5-2 mg/kg/dose every 12 h",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Brivaracetam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Estado epiléptico – ataque (adulto)",
+          "descricaoDose": "100-200 mg IV en 15 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C: máx 75 mg 12/12h"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (adulto)",
+          "descricaoDose": "50-100 mg IV/VO cada 12 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 200,
+            "doseFixa": "50-100 mg cada 12 h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "cada 12 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C: máx 75 mg 12/12h"
+          }
+        },
+        {
+          "titulo": "Estado epiléptico – ataque (pediátrico)",
+          "descricaoDose": "1-2 mg/kg IV en 15 min (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C: reducir dosis"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (pediátrico)",
+          "descricaoDose": "0,5-2 mg/kg/dosis IV/VO cada 12 h (peso <50 kg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "cada 12 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C: reducir dosis"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico de 2ª generación - Ligando SV2A (análogo de levetiracetam)",
+      "apresentacoes": [
+        { "forma": "Ampolla 50 mg/5 mL (10 mg/mL)", "obs": "Uso IV" },
+        { "forma": "Comprimidos 10 mg, 25 mg, 50 mg, 75 mg, 100 mg", "obs": "Vía oral" },
+        { "forma": "Solución oral 10 mg/mL", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg (5 mL) en 50 mL SF 0,9% o SG 5%", "concentracao": "1 mg/mL - infundir en 15 min" },
+        { "diluicao": "100 mg (10 mL) en 50 mL SF 0,9%", "concentracao": "2 mg/mL - infundir en 15 min" }
+      ],
+      "observacoes": [
+        "Inicio de acción IV más rápido que levetiracetam; afinidad SV2A 15-30x mayor",
+        "Vida media: ~9 h; metabolismo hepático CYP2C19 + hidrólisis",
+        "No requiere ajuste renal; excreción renal como metabolitos",
+        "Child-Pugh C: dosis máxima 75 mg 12/12h",
+        "No suspender bruscamente; desmame gradual",
+        "Menos efectos conductuales/irritabilidad que levetiracetam"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función hepática. Child-Pugh C: máx 75 mg 12/12h. Monitorizar efectos neuropsiquiátricos.",
+        "renal": "No requiere ajuste de dosis.",
+        "hepatico": "Child-Pugh C: dosis máxima 75 mg 12/12h."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Brivaracetam (adulto ataque)",
+        "doseTexto": "100-200 mg IV en 15 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Brivaracetam (adulto mantenimiento)",
+        "doseTexto": "50-100 mg IV/VO cada 12 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg cada 12 h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Brivaracetam (pediátrico ataque)",
+        "doseTexto": "1-2 mg/kg IV en 15 min (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Brivaracetam (pediátrico mantenimiento)",
+        "doseTexto": "0,5-2 mg/kg/dosis cada 12 h",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "布瓦西坦",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "癫痫持续状态 - 负荷（成人）",
+          "descricaoDose": "100-200 mg IV 15分钟内",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C：最大75 mg 每12小时"
+          }
+        },
+        {
+          "titulo": "维持（成人）",
+          "descricaoDose": "50-100 mg IV/口服 每12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 200,
+            "doseFixa": "50-100 mg 每12小时",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C：最大75 mg 每12小时"
+          }
+        },
+        {
+          "titulo": "癫痫持续状态 - 负荷（儿童）",
+          "descricaoDose": "1-2 mg/kg IV 15分钟内（最大100 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C：减量"
+          }
+        },
+        {
+          "titulo": "维持（儿童）",
+          "descricaoDose": "0,5-2 mg/kg/次 IV/口服 每12小时（体重<50 kg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Child-Pugh C：减量"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "第二代抗癫痫药 - SV2A配体（左乙拉西坦类似物）",
+      "apresentacoes": [
+        { "forma": "安瓿 50 mg/5 mL（10 mg/mL）", "obs": "静脉用" },
+        { "forma": "片剂 10/25/50/75/100 mg", "obs": "口服" },
+        { "forma": "口服溶液 10 mg/mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg（5 mL）稀释于50 mL生理盐水或5%葡萄糖", "concentracao": "1 mg/mL，15分钟内输注" },
+        { "diluicao": "100 mg（10 mL）稀释于50 mL生理盐水", "concentracao": "2 mg/mL，15分钟内输注" }
+      ],
+      "observacoes": [
+        "静脉起效较左乙拉西坦更快；SV2A亲和力高15-30倍",
+        "半衰期约9小时；肝脏代谢CYP2C19+水解",
+        "无需肾剂量调整；肾脏以代谢物排泄",
+        "Child-Pugh C：最大剂量75 mg 每12小时",
+        "勿突然停药；逐渐减量",
+        "行为/易激惹较左乙拉西坦少"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肝功能。Child-Pugh C：最大75 mg 每12小时。监测神经精神作用。",
+        "renal": "无需调整剂量。",
+        "hepatico": "Child-Pugh C：最大剂量75 mg 每12小时。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "布瓦西坦（成人负荷）",
+        "doseTexto": "100-200 mg IV 15分钟内",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "布瓦西坦（成人维持）",
+        "doseTexto": "50-100 mg IV/口服 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg 每12小时",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "布瓦西坦（儿童负荷）",
+        "doseTexto": "1-2 mg/kg IV 15分钟内（最大100 mg）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "布瓦西坦（儿童维持）",
+        "doseTexto": "0,5-2 mg/kg/次 每12小时",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  }
+}

@@ -1,0 +1,842 @@
+{
+  "PT": {
+    "nome": "Levofloxacino",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Pneumonia comunitária",
+          "descricaoDose": "500–750 mg IV/VO 1x/dia por 7–14 dias ou 750 mg 1x/dia por 5 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "500–750 mg 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, depois 750 mg 48/48h; ClCr <20: 750 mg inicial, depois 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pneumonia nosocomial",
+          "descricaoDose": "750 mg IV 1x/dia por 7–14 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 750,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "750 mg IV 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, depois 750 mg 48/48h; ClCr <20: 750 mg inicial, depois 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ITU complicada / Pielonefrite",
+          "descricaoDose": "750 mg IV/VO 1x/dia por 5–14 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 750,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "750 mg 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, depois 750 mg 48/48h; ClCr <20: 750 mg inicial, depois 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prostatite",
+          "descricaoDose": "500 mg IV/VO 1x/dia por 28 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, depois 750 mg 48/48h; ClCr <20: 750 mg inicial, depois 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "500 mg IV 60 min antes da incisão",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60 min antes da incisão",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, depois 750 mg 48/48h; ClCr <20: 750 mg inicial, depois 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatria (uso restrito)",
+          "descricaoDose": "Uso pediátrico restrito – risco de lesão articular/tendínea. Usar apenas quando não houver alternativa (conforme protocolo).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Conforme protocolo – uso restrito",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "conforme protocolo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Fluoroquinolona respiratória (3ª geração) – bactericida, inibe DNA girase e topoisomerase IV",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg/100 mL solução", "obs": "Levaquin®/Tavanic®" },
+        { "forma": "Comprimido 250 mg, 500 mg, 750 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Solução pronta para uso", "concentracao": "" },
+        { "diluicao": "Infusão em 60–90 min", "concentracao": "Evitar infusão rápida" }
+      ],
+      "observacoes": [
+        "Espectro: Gram+, Gram-, atípicos (Legionella, Mycoplasma, Chlamydia). Fluoroquinolona respiratória – boa cobertura pneumococo.",
+        "BLACK BOX: tendinite e ruptura de tendão (especialmente idosos, corticoides); suspender se surgir tendinite.",
+        "BLACK BOX: neuropatia periférica; descontinuar se sintomas de neuropatia.",
+        "BLACK BOX: efeitos no SNC (convulsões, psicose); precaução em epilepsia.",
+        "Prolonga QT – evitar associação com outros medicamentos que prolongam QT.",
+        "Ajuste renal: ClCr 20–50 → 750 mg inicial, depois 750 mg 48/48h; ClCr <20 → 750 mg inicial, depois 500 mg 48/48h. Evitar em miastenia gravis."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior risco de tendinopatia e prolongamento QT. Avaliar função renal. Evitar se possível em idosos frágeis.",
+        "renal": "ClCr 20–50: dose inicial 750 mg, depois 750 mg a cada 48 h; ClCr <20 ou diálise: dose inicial 750 mg, depois 500 mg a cada 48 h. Hemodiálise: dose suplementar após sessão conforme protocolo.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levofloxacino – pneumonia comunitária (adulto)",
+        "doseTexto": "500–750 mg IV/VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500–750 mg 1x/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacino – pneumonia nosocomial (adulto)",
+        "doseTexto": "750 mg IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg IV 1x/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacino – ITU complicada / Pielonefrite (adulto)",
+        "doseTexto": "750 mg IV/VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg 1x/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacino – prostatite (adulto)",
+        "doseTexto": "500 mg IV/VO 1x/dia por 28 dias",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg 1x/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacino – pediatria (uso restrito)",
+        "doseTexto": "Conforme protocolo – uso restrito",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "Conforme protocolo",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Levofloxacin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Community-acquired pneumonia",
+          "descricaoDose": "500–750 mg IV/PO once daily for 7–14 days or 750 mg once daily for 5 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "500–750 mg once daily",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr 20-50: 750 mg initial, then 750 mg every 48h; ClCr <20: 750 mg initial, then 500 mg every 48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nosocomial pneumonia",
+          "descricaoDose": "750 mg IV once daily for 7–14 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 750,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "750 mg IV once daily",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr 20-50: 750 mg initial, then 750 mg every 48h; ClCr <20: 750 mg initial, then 500 mg every 48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Complicated UTI / Pyelonephritis",
+          "descricaoDose": "750 mg IV/PO once daily for 5–14 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 750,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "750 mg once daily",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr 20-50: 750 mg initial, then 750 mg every 48h; ClCr <20: 750 mg initial, then 500 mg every 48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prostatitis",
+          "descricaoDose": "500 mg IV/PO once daily for 28 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg once daily",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr 20-50: 750 mg initial, then 750 mg every 48h; ClCr <20: 750 mg initial, then 500 mg every 48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "500 mg IV 60 min before incision",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60 min before incision",
+            "ajusteRenal": "ClCr 20-50: 750 mg initial, then 750 mg every 48h; ClCr <20: 750 mg initial, then 500 mg every 48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric (restricted use)",
+          "descricaoDose": "Pediatric use restricted – risk of joint/tendon injury. Use only when no alternative (per protocol).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Per protocol – restricted use",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "per protocol",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Respiratory fluoroquinolone (3rd generation) – bactericidal, inhibits DNA gyrase and topoisomerase IV",
+      "apresentacoes": [
+        { "forma": "Vial 500 mg/100 mL solution", "obs": "Levaquin®/Tavanic®" },
+        { "forma": "Tablet 250 mg, 500 mg, 750 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready-to-use solution", "concentracao": "" },
+        { "diluicao": "Infuse over 60–90 min", "concentracao": "Avoid rapid infusion" }
+      ],
+      "observacoes": [
+        "Spectrum: Gram+, Gram-, atypicals (Legionella, Mycoplasma, Chlamydia). Respiratory fluoroquinolone – good pneumococcal coverage.",
+        "BLACK BOX: tendinitis and tendon rupture (especially elderly, corticosteroids); discontinue if tendinitis occurs.",
+        "BLACK BOX: peripheral neuropathy; discontinue if neuropathy symptoms.",
+        "BLACK BOX: CNS effects (seizures, psychosis); caution in epilepsy.",
+        "Prolongs QT – avoid combination with other QT-prolonging drugs.",
+        "Renal adjustment: ClCr 20–50 → 750 mg initial, then 750 mg every 48 h; ClCr <20 → 750 mg initial, then 500 mg every 48 h. Avoid in myasthenia gravis."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Higher risk of tendinopathy and QT prolongation. Assess renal function. Avoid if possible in frail elderly.",
+        "renal": "ClCr 20–50: initial dose 750 mg, then 750 mg every 48 h; ClCr <20 or dialysis: initial 750 mg, then 500 mg every 48 h. Hemodialysis: supplemental dose after session per protocol.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levofloxacin – community-acquired pneumonia (adult)",
+        "doseTexto": "500–750 mg IV/PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500–750 mg once daily",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacin – nosocomial pneumonia (adult)",
+        "doseTexto": "750 mg IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg IV once daily",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacin – complicated UTI (adult)",
+        "doseTexto": "750 mg IV/PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg once daily",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacin – prostatitis (adult)",
+        "doseTexto": "500 mg IV/PO once daily for 28 days",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg once daily",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacin – pediatric (restricted)",
+        "doseTexto": "Per protocol – restricted use",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "Per protocol",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Levofloxacino",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Neumonía adquirida en la comunidad",
+          "descricaoDose": "500–750 mg IV/VO 1x/día por 7–14 días o 750 mg 1x/día por 5 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "500–750 mg 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, luego 750 mg 48/48h; ClCr <20: 750 mg inicial, luego 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neumonía nosocomial",
+          "descricaoDose": "750 mg IV 1x/día por 7–14 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 750,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "750 mg IV 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, luego 750 mg 48/48h; ClCr <20: 750 mg inicial, luego 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "ITU complicada / Pielonefritis",
+          "descricaoDose": "750 mg IV/VO 1x/día por 5–14 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 750,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "750 mg 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, luego 750 mg 48/48h; ClCr <20: 750 mg inicial, luego 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prostatitis",
+          "descricaoDose": "500 mg IV/VO 1x/día por 28 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, luego 750 mg 48/48h; ClCr <20: 750 mg inicial, luego 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "500 mg IV 60 min antes de la incisión",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60 min antes de la incisión",
+            "ajusteRenal": "ClCr 20-50: 750 mg inicial, luego 750 mg 48/48h; ClCr <20: 750 mg inicial, luego 500 mg 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (uso restringido)",
+          "descricaoDose": "Uso pediátrico restringido – riesgo de lesión articular/tendinosa. Usar solo cuando no haya alternativa (según protocolo).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Según protocolo – uso restringido",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "según protocolo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Fluoroquinolona respiratoria (3.ª generación) – bactericida, inhibe DNA girasa y topoisomerasa IV",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg/100 mL solución", "obs": "Levaquin®/Tavanic®" },
+        { "forma": "Comprimido 250 mg, 500 mg, 750 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Solución lista para uso", "concentracao": "" },
+        { "diluicao": "Infusión en 60–90 min", "concentracao": "Evitar infusión rápida" }
+      ],
+      "observacoes": [
+        "Espectro: Gram+, Gram-, atípicos (Legionella, Mycoplasma, Chlamydia). Fluoroquinolona respiratoria – buena cobertura neumococo.",
+        "BLACK BOX: tendinitis y rotura tendinosa (especialmente ancianos, corticoides); suspender si aparece tendinitis.",
+        "BLACK BOX: neuropatía periférica; descontinuar si síntomas de neuropatía.",
+        "BLACK BOX: efectos en SNC (convulsiones, psicosis); precaución en epilepsia.",
+        "Prolonga QT – evitar asociación con otros fármacos que prolongan QT.",
+        "Ajuste renal: ClCr 20–50 → 750 mg inicial, luego 750 mg 48/48h; ClCr <20 → 750 mg inicial, luego 500 mg 48/48h. Evitar en miastenia gravis."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor riesgo de tendinopatía y prolongación QT. Valorar función renal. Evitar si es posible en ancianos frágiles.",
+        "renal": "ClCr 20–50: dosis inicial 750 mg, luego 750 mg cada 48 h; ClCr <20 o diálisis: inicial 750 mg, luego 500 mg cada 48 h. Hemodiálisis: dosis suplementaria tras sesión según protocolo.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levofloxacino – neumonía comunitaria (adulto)",
+        "doseTexto": "500–750 mg IV/VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500–750 mg 1x/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacino – neumonía nosocomial (adulto)",
+        "doseTexto": "750 mg IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg IV 1x/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacino – ITU complicada (adulto)",
+        "doseTexto": "750 mg IV/VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg 1x/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacino – prostatitis (adulto)",
+        "doseTexto": "500 mg IV/VO 1x/día por 28 días",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg 1x/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levofloxacino – pediátrico (uso restringido)",
+        "doseTexto": "Según protocolo – uso restringido",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "Según protocolo",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "左氧氟沙星",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "社区获得性肺炎",
+          "descricaoDose": "500–750 mg IV/口服 每日1次 7–14天 或 750 mg 每日1次 5天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "500–750 mg 每日1次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr 20-50：首剂750 mg，之后750 mg 每48小时；ClCr <20：首剂750 mg，之后500 mg 每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "院内获得性肺炎",
+          "descricaoDose": "750 mg IV 每日1次 7–14天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 750,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "750 mg IV 每日1次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr 20-50：首剂750 mg，之后750 mg 每48小时；ClCr <20：首剂750 mg，之后500 mg 每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "复杂性尿路感染/肾盂肾炎",
+          "descricaoDose": "750 mg IV/口服 每日1次 5–14天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 750,
+            "doseMax": 750,
+            "doseMaxima": 750,
+            "doseFixa": "750 mg 每日1次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr 20-50：首剂750 mg，之后750 mg 每48小时；ClCr <20：首剂750 mg，之后500 mg 每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "前列腺炎",
+          "descricaoDose": "500 mg IV/口服 每日1次 28天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg 每日1次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr 20-50：首剂750 mg，之后750 mg 每48小时；ClCr <20：首剂750 mg，之后500 mg 每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "500 mg IV 切皮前60分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "切皮前60分钟",
+            "ajusteRenal": "ClCr 20-50：首剂750 mg，之后750 mg 每48小时；ClCr <20：首剂750 mg，之后500 mg 每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童（限制使用）",
+          "descricaoDose": "儿童使用受限 – 关节/肌腱损伤风险。仅在没有替代方案时使用（按方案）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "按方案 – 限制使用",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "按方案",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "呼吸道氟喹诺酮类（第三代）– 杀菌，抑制DNA旋转酶和拓扑异构酶IV",
+      "apresentacoes": [
+        { "forma": "瓶 500 mg/100 mL 溶液", "obs": "Levaquin®/Tavanic®" },
+        { "forma": "片 250 mg、500 mg、750 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型溶液", "concentracao": "" },
+        { "diluicao": "60–90分钟内输注", "concentracao": "避免快速输注" }
+      ],
+      "observacoes": [
+        "谱：革兰阳性、革兰阴性、非典型（军团菌、支原体、衣原体）。呼吸道氟喹诺酮 – 良好肺炎球菌覆盖。",
+        "黑框：肌腱炎与肌腱断裂（尤其老年人、皮质激素）；若出现肌腱炎应停药。",
+        "黑框：周围神经病变；若出现神经病变症状应停药。",
+        "黑框：中枢神经系统效应（癫痫、精神病）；癫痫患者慎用。",
+        "延长QT – 避免与其它延长QT药物联用。",
+        "肾调整：ClCr 20–50 → 首剂750 mg，之后750 mg 每48小时；ClCr <20 → 首剂750 mg，之后500 mg 每48小时。重症肌无力禁用。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "肌腱病及QT延长风险增加。评估肾功能。尽可能避免用于虚弱老年人。",
+        "renal": "ClCr 20–50：首剂750 mg，之后750 mg 每48小时；ClCr <20或透析：首剂750 mg，之后500 mg 每48小时。血液透析：按方案透析后追加剂量。",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "左氧氟沙星 – 社区获得性肺炎（成人）",
+        "doseTexto": "500–750 mg IV/口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500–750 mg 每日1次",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "左氧氟沙星 – 院内肺炎（成人）",
+        "doseTexto": "750 mg IV 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg IV 每日1次",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "左氧氟沙星 – 复杂性尿路感染（成人）",
+        "doseTexto": "750 mg IV/口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "750 mg 每日1次",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "左氧氟沙星 – 前列腺炎（成人）",
+        "doseTexto": "500 mg IV/口服 每日1次 28天",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg 每日1次",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "左氧氟沙星 – 儿童（限制）",
+        "doseTexto": "按方案 – 限制使用",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "按方案",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

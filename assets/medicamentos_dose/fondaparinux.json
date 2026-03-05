@@ -1,0 +1,762 @@
+{
+  "PT": {
+    "nome": "Fondaparinux",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Profilaxia TVP (ortopedia/abdominal) (adulto)",
+          "descricaoDose": "2,5 mg SC 1x/dia. Peso <50 kg: contraindicado na profilaxia (maior risco sangramento).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Tratamento TVP/TEP – peso <50 kg (adulto)",
+          "descricaoDose": "5 mg SC 1x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Tratamento TVP/TEP – 50-100 kg (adulto)",
+          "descricaoDose": "7,5 mg SC 1x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 7.5,
+            "doseMax": 7.5,
+            "doseMaxima": 7.5,
+            "doseFixa": "7,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Tratamento TVP/TEP – >100 kg (adulto)",
+          "descricaoDose": "10 mg SC 1x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "SCA – NSTEMI (adulto)",
+          "descricaoDose": "2,5 mg SC 1x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulante - Inibidor indireto do fator Xa (pentassacarídeo sintético)",
+      "apresentacoes": [
+        { "forma": "Seringa 2,5 mg/0,5 mL", "obs": "Profilaxia, SCA" },
+        { "forma": "Seringa 5 mg/0,4 mL", "obs": "Tratamento <50 kg" },
+        { "forma": "Seringa 7,5 mg/0,6 mL", "obs": "Tratamento 50-100 kg" },
+        { "forma": "Seringa 10 mg/0,8 mL", "obs": "Tratamento >100 kg" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso SC.", "concentracao": "Não aspirar nem massagear o local" }
+      ],
+      "observacoes": [
+        "NÃO causa HIT; alternativa em pacientes com HIT",
+        "Não tem antídoto específico; protamina NÃO reverte",
+        "ClCr <30 mL/min: contraindicado. Excreção renal ~77%",
+        "Profilaxia: peso <50 kg contraindicado (maior risco sangramento)",
+        "Dose única diária; não requer monitorização de rotina",
+        "Via subcutânea exclusiva; região abdominal alternando lados"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal; ClCr <30 contraindicado.",
+        "renal": "ClCr <30 mL/min: contraindicado. Sem ajuste de dose em insuficiência moderada.",
+        "hepatico": "Cautela em hepatopatia grave (risco de sangramento)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fondaparinux profilaxia (adulto)",
+        "doseTexto": "2,5 mg SC 1x/dia",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fondaparinux tratamento <50 kg (adulto)",
+        "doseTexto": "5 mg SC 1x/dia",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fondaparinux tratamento 50-100 kg (adulto)",
+        "doseTexto": "7,5 mg SC 1x/dia",
+        "doseMin": 7.5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fondaparinux tratamento >100 kg (adulto)",
+        "doseTexto": "10 mg SC 1x/dia",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fondaparinux SCA NSTEMI (adulto)",
+        "doseTexto": "2,5 mg SC 1x/dia",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Fondaparinux",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "VTE prophylaxis (orthopedic/abdominal) (adult)",
+          "descricaoDose": "2.5 mg SC once daily. Weight <50 kg: contraindicated for prophylaxis (increased bleeding risk).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <30: contraindicated.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "DVT/PE treatment – weight <50 kg (adult)",
+          "descricaoDose": "5 mg SC once daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <30: contraindicated.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "DVT/PE treatment – 50-100 kg (adult)",
+          "descricaoDose": "7.5 mg SC once daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 7.5,
+            "doseMax": 7.5,
+            "doseMaxima": 7.5,
+            "doseFixa": "7.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <30: contraindicated.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "DVT/PE treatment – >100 kg (adult)",
+          "descricaoDose": "10 mg SC once daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <30: contraindicated.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "ACS – NSTEMI (adult)",
+          "descricaoDose": "2.5 mg SC once daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <30: contraindicated.",
+            "ajusteHepatico": "Caution in severe hepatic insufficiency."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulant - Indirect factor Xa inhibitor (synthetic pentasaccharide)",
+      "apresentacoes": [
+        { "forma": "Syringe 2.5 mg/0.5 mL", "obs": "Prophylaxis, ACS" },
+        { "forma": "Syringe 5 mg/0.4 mL", "obs": "Treatment <50 kg" },
+        { "forma": "Syringe 7.5 mg/0.6 mL", "obs": "Treatment 50-100 kg" },
+        { "forma": "Syringe 10 mg/0.8 mL", "obs": "Treatment >100 kg" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for SC use.", "concentracao": "Do not aspirate or massage site" }
+      ],
+      "observacoes": [
+        "Does NOT cause HIT; alternative in HIT patients",
+        "No specific antidote; protamine does NOT reverse",
+        "CrCl <30 mL/min: contraindicated. Renal excretion ~77%",
+        "Prophylaxis: weight <50 kg contraindicated (increased bleeding risk)",
+        "Once daily; no routine monitoring required",
+        "Subcutaneous route only; abdominal region alternating sides"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function; CrCl <30 contraindicated.",
+        "renal": "CrCl <30 mL/min: contraindicated. No dose adjustment in moderate insufficiency.",
+        "hepatico": "Caution in severe hepatic insufficiency (bleeding risk)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fondaparinux prophylaxis (adult)",
+        "doseTexto": "2.5 mg SC once daily",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fondaparinux treatment <50 kg (adult)",
+        "doseTexto": "5 mg SC once daily",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fondaparinux treatment 50-100 kg (adult)",
+        "doseTexto": "7.5 mg SC once daily",
+        "doseMin": 7.5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7.5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fondaparinux treatment >100 kg (adult)",
+        "doseTexto": "10 mg SC once daily",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fondaparinux ACS NSTEMI (adult)",
+        "doseTexto": "2.5 mg SC once daily",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fondaparinux",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Profilaxis TVP (ortopedia/abdominal) (adulto)",
+          "descricaoDose": "2,5 mg SC 1x/día. Peso <50 kg: contraindicado en profilaxis (mayor riesgo sangrado).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Tratamiento TVP/TEP – peso <50 kg (adulto)",
+          "descricaoDose": "5 mg SC 1x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Tratamiento TVP/TEP – 50-100 kg (adulto)",
+          "descricaoDose": "7,5 mg SC 1x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 7.5,
+            "doseMax": 7.5,
+            "doseMaxima": 7.5,
+            "doseFixa": "7,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Tratamiento TVP/TEP – >100 kg (adulto)",
+          "descricaoDose": "10 mg SC 1x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "SCA – NSTEMI (adulto)",
+          "descricaoDose": "2,5 mg SC 1x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulante - Inhibidor indirecto del factor Xa (pentasacárido sintético)",
+      "apresentacoes": [
+        { "forma": "Jeringa 2,5 mg/0,5 mL", "obs": "Profilaxis, SCA" },
+        { "forma": "Jeringa 5 mg/0,4 mL", "obs": "Tratamiento <50 kg" },
+        { "forma": "Jeringa 7,5 mg/0,6 mL", "obs": "Tratamiento 50-100 kg" },
+        { "forma": "Jeringa 10 mg/0,8 mL", "obs": "Tratamiento >100 kg" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso SC.", "concentracao": "No aspirar ni masajear el lugar" }
+      ],
+      "observacoes": [
+        "NO causa HIT; alternativa en HIT",
+        "No tiene antídoto específico; protamina NO revierte",
+        "ClCr <30 mL/min: contraindicado. Excreción renal ~77%",
+        "Profilaxis: peso <50 kg contraindicado (mayor riesgo sangrado)",
+        "Una dosis diaria; no requiere monitorización rutinaria",
+        "Vía subcutánea exclusiva; región abdominal alternando lados"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal; ClCr <30 contraindicado.",
+        "renal": "ClCr <30 mL/min: contraindicado. Sin ajuste en insuficiencia moderada.",
+        "hepatico": "Precaución en hepatopatía grave (riesgo sangrado)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fondaparinux profilaxis (adulto)",
+        "doseTexto": "2,5 mg SC 1x/día",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fondaparinux tratamiento <50 kg (adulto)",
+        "doseTexto": "5 mg SC 1x/día",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fondaparinux tratamiento 50-100 kg (adulto)",
+        "doseTexto": "7,5 mg SC 1x/día",
+        "doseMin": 7.5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fondaparinux tratamiento >100 kg (adulto)",
+        "doseTexto": "10 mg SC 1x/día",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fondaparinux SCA NSTEMI (adulto)",
+        "doseTexto": "2,5 mg SC 1x/día",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "磺达肝癸钠",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "VTE预防骨科/腹部（成人）",
+          "descricaoDose": "2.5 mg 皮下 每日1次。体重<50 kg：预防禁忌（出血风险增加）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <30：禁忌。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        },
+        {
+          "titulo": "DVT/PE治疗 体重<50 kg（成人）",
+          "descricaoDose": "5 mg 皮下 每日1次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <30：禁忌。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        },
+        {
+          "titulo": "DVT/PE治疗 50-100 kg（成人）",
+          "descricaoDose": "7.5 mg 皮下 每日1次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 7.5,
+            "doseMax": 7.5,
+            "doseMaxima": 7.5,
+            "doseFixa": "7.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <30：禁忌。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        },
+        {
+          "titulo": "DVT/PE治疗 >100 kg（成人）",
+          "descricaoDose": "10 mg 皮下 每日1次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <30：禁忌。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        },
+        {
+          "titulo": "ACS NSTEMI（成人）",
+          "descricaoDose": "2.5 mg 皮下 每日1次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "2.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <30：禁忌。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗凝药 - 间接Xa因子抑制剂（合成戊糖）",
+      "apresentacoes": [
+        { "forma": "注射器 2.5 mg/0.5 mL", "obs": "预防、ACS" },
+        { "forma": "注射器 5 mg/0.4 mL", "obs": "治疗<50 kg" },
+        { "forma": "注射器 7.5 mg/0.6 mL", "obs": "治疗50-100 kg" },
+        { "forma": "注射器 10 mg/0.8 mL", "obs": "治疗>100 kg" }
+      ],
+      "preparo": [
+        { "diluicao": "皮下即用。", "concentracao": "勿抽回血或按摩注射部位" }
+      ],
+      "observacoes": [
+        "不引起HIT；HIT患者可选",
+        "无特异性拮抗剂；鱼精蛋白不能逆转",
+        "ClCr <30 mL/min：禁忌。肾排泄约77%",
+        "预防：体重<50 kg禁忌（出血风险增加）",
+        "每日1次；无需常规监测",
+        "仅皮下给药；腹部轮换部位"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能；ClCr <30禁忌。",
+        "renal": "ClCr <30 mL/min：禁忌。中度肾功能不全无剂量调整。",
+        "hepatico": "严重肝病慎用（出血风险）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "磺达肝癸钠 预防（成人）",
+        "doseTexto": "2.5 mg 皮下 每日1次",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "磺达肝癸钠 治疗<50 kg（成人）",
+        "doseTexto": "5 mg 皮下 每日1次",
+        "doseMin": 5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "磺达肝癸钠 治疗50-100 kg（成人）",
+        "doseTexto": "7.5 mg 皮下 每日1次",
+        "doseMin": 7.5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7.5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "磺达肝癸钠 治疗>100 kg（成人）",
+        "doseTexto": "10 mg 皮下 每日1次",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "磺达肝癸钠 ACS NSTEMI（成人）",
+        "doseTexto": "2.5 mg 皮下 每日1次",
+        "doseMin": 2.5,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

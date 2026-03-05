@@ -1,3 +1,39 @@
+const path = require("path");
+const fs = require("fs");
+
+function loadEnvFromFile(filePath) {
+  if (!filePath || !fs.existsSync(filePath)) return;
+  const content = fs.readFileSync(filePath, "utf8").replace(/\r\n/g, "\n");
+  content.split("\n").forEach((line) => {
+    const trimmed = line.trim();
+    if (!trimmed || trimmed.startsWith("#")) return;
+    const eq = trimmed.indexOf("=");
+    if (eq <= 0) return;
+    const key = trimmed.slice(0, eq).trim();
+    const value = trimmed.slice(eq + 1).trim().replace(/^["']|["']$/g, "");
+    if (key && !process.env[key]) process.env[key] = value;
+  });
+}
+
+function findEnvDir(startDir) {
+  let dir = startDir;
+  for (let i = 0; i < 10; i++) {
+    if (fs.existsSync(path.join(dir, ".env"))) return dir;
+    const parent = path.dirname(dir);
+    if (parent === dir) break;
+    dir = parent;
+  }
+  return null;
+}
+
+if (!process.env.SUPABASE_SERVICE_ROLE_KEY || !process.env.SUPABASE_URL) {
+  try {
+    loadEnvFromFile(path.join(__dirname, ".env"));
+    const envDir = findEnvDir(__dirname) || findEnvDir(process.cwd());
+    if (envDir) loadEnvFromFile(path.join(envDir, ".env"));
+  } catch (_) {}
+}
+
 const SUPABASE_URL = process.env.SUPABASE_URL || "";
 const SUPABASE_ANON_KEY = process.env.SUPABASE_ANON_KEY || "";
 const SUPABASE_SERVICE_ROLE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || "";
@@ -11,6 +47,9 @@ function jsonResponse(statusCode, payload) {
     statusCode,
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Headers": "Content-Type, Authorization",
+      "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
     },
     body: JSON.stringify(payload),
   };
@@ -37,18 +76,33 @@ async function listUsers() {
   if (!SUPABASE_SERVICE_ROLE_KEY) {
     throw new Error("Service role key nao configurada.");
   }
-  const response = await fetch(`${SUPABASE_URL}/auth/v1/admin/users`, {
-    headers: {
-      Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
-      apikey: SUPABASE_SERVICE_ROLE_KEY,
-    },
-  });
+  const perPage = 1000;
+  let page = 1;
+  let allUsers = [];
+  let hasMore = true;
 
-  const data = await response.json();
-  if (!response.ok) {
-    throw new Error(data?.msg || "Falha ao listar usuarios.");
+  while (hasMore) {
+    const response = await fetch(
+      `${SUPABASE_URL}/auth/v1/admin/users?per_page=${perPage}&page=${page}`,
+      {
+        headers: {
+          Authorization: `Bearer ${SUPABASE_SERVICE_ROLE_KEY}`,
+          apikey: SUPABASE_SERVICE_ROLE_KEY,
+        },
+      }
+    );
+
+    const data = await response.json();
+    if (!response.ok) {
+      throw new Error(data?.msg || "Falha ao listar usuarios.");
+    }
+    const users = data.users || [];
+    allUsers = allUsers.concat(users);
+    hasMore = users.length === perPage;
+    page += 1;
   }
-  return data.users || [];
+
+  return allUsers;
 }
 
 async function listAccessStats() {
@@ -151,6 +205,10 @@ async function deleteUser(userId) {
 }
 
 exports.handler = async (event) => {
+  if (event.httpMethod === "OPTIONS") {
+    return jsonResponse(200, {});
+  }
+
   try {
     if (!SUPABASE_URL || !SUPABASE_ANON_KEY) {
       return jsonResponse(500, {
@@ -182,10 +240,32 @@ exports.handler = async (event) => {
       const accessMap = new Map(
         accessStats.map((item) => [item.id, item.access_count || 0])
       );
-      const usersWithAccess = users.map((user) => ({
-        ...user,
-        access_count: accessMap.get(user.id) ?? 0,
-      }));
+      const usersWithAccess = users.map((user) => {
+        const meta = user.raw_user_meta_data || user.user_metadata || {};
+        const localeRaw = meta.locale || meta.language || meta.preferred_locale || "";
+        const localeStr = String(localeRaw).trim();
+        let countryFromLocale = null;
+        if (localeStr.length >= 2) {
+          if (localeStr.includes("_")) {
+            countryFromLocale = localeStr.split("_")[1]?.toUpperCase() || null;
+          } else if (localeStr.includes("-")) {
+            countryFromLocale = localeStr.split("-")[1]?.toUpperCase() || null;
+          } else if (localeStr.length === 2) {
+            countryFromLocale = localeStr.toUpperCase();
+          }
+        }
+        const country =
+          meta.country ||
+          meta.country_code ||
+          meta.pais ||
+          countryFromLocale ||
+          null;
+        return {
+          ...user,
+          access_count: accessMap.get(user.id) ?? 0,
+          country: country || null,
+        };
+      });
       return jsonResponse(200, { users: usersWithAccess });
     }
 

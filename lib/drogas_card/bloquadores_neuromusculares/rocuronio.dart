@@ -9,15 +9,18 @@ class MedicamentoRocuronio {
   static const String idBulario = 'rocuronio';
 
   static Future<Map<String, dynamic>> carregarBulario() async {
-    final String jsonStr = await rootBundle.loadString('assets/medicamentos/rocuronio.json');
+    final String jsonStr =
+        await rootBundle.loadString('assets/medicamentos/rocuronio.json');
     final Map<String, dynamic> jsonMap = json.decode(jsonStr);
     return jsonMap['PT']['bulario'];
   }
 
-  static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
-    final peso = SharedData.peso ?? 70;
-    final isAdulto = SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
+  static Widget buildCard(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
     final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final isAdulto =
+        SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -34,27 +37,50 @@ class MedicamentoRocuronio {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final isAdulto =
+        SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
 
-  static Widget _buildCardRocuronio(BuildContext context, double peso, bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
+    return _buildCardRocuronio(
+      context,
+        peso,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
+
+  static Widget _buildCardRocuronio(BuildContext context, double peso,
+      bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         // 1. CLASSE
         const SizedBox(height: 16),
-        const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Classe',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
-        _linhaPreparo('BNM não despolarizante', 'Aminoesteroide, ação intermediária'),
+        _linhaPreparo(
+            'BNM não despolarizante', 'Aminoesteroide, ação intermediária'),
 
         // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('Ampola 50mg/5mL', '10 mg/mL'),
         _linhaPreparo('Ampola 100mg/10mL', '10 mg/mL'),
 
         // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-        const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Preparo',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('Bolus: puro da ampola', '10 mg/mL (10.000 mcg/mL)'),
         _linhaPreparo('200mg + 100mL SF', '2000 mcg/mL'),
@@ -63,7 +89,8 @@ class MedicamentoRocuronio {
 
         // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
           // BOLUS - caixa azul calculada
@@ -128,18 +155,21 @@ class MedicamentoRocuronio {
 
         // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
-        const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Infusão Contínua',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _buildConversorInfusao(peso, isAdulto),
 
         // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
-        const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _textoObs('Início: 60-90 seg | Duração: 30-40 min'),
         _textoObs('NÃO libera histamina - estabilidade cardiovascular'),
         _textoObs('Monitorização TOF obrigatória (meta: 1-2 respostas)'),
-        _textoObs('Reversão: sugamadex 2-4 mg/kg (imediata) ou 16 mg/kg (emergência)'),
+        _textoObs(
+            'Reversão: sugamadex 2-4 mg/kg (imediata) ou 16 mg/kg (emergência)'),
         _textoObs('Potencializado por: voláteis, aminoglicosídeos, Mg'),
         _textoObs('Eliminação hepática - cautela em hepatopatia'),
       ],
@@ -160,8 +190,12 @@ class MedicamentoRocuronio {
                 children: [
                   TextSpan(text: texto),
                   if (marca.isNotEmpty) ...[
-                    const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                    const TextSpan(
+                        text: ' | ',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(
+                        text: marca,
+                        style: const TextStyle(fontStyle: FontStyle.italic)),
                   ],
                 ],
               ),
@@ -217,7 +251,8 @@ class MedicamentoRocuronio {
         doseMax = doseMaxima;
         doseLimite = true;
       }
-      textoDose = '${doseMin.toStringAsFixed(1)}-${doseMax.toStringAsFixed(1)} $unidade';
+      textoDose =
+          '${doseMin.toStringAsFixed(1)}-${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(
@@ -243,14 +278,20 @@ class MedicamentoRocuronio {
                 color: doseLimite ? Colors.orange.shade50 : Colors.blue.shade50,
                 borderRadius: BorderRadius.circular(6),
                 border: Border.all(
-                  color: doseLimite ? Colors.orange.shade200 : Colors.blue.shade200,
+                  color: doseLimite
+                      ? Colors.orange.shade200
+                      : Colors.blue.shade200,
                 ),
               ),
               child: Text(
-                doseLimite ? 'Dose: $textoDose (máx atingida)' : 'Dose: $textoDose',
+                doseLimite
+                    ? 'Dose: $textoDose (máx atingida)'
+                    : 'Dose: $textoDose',
                 style: TextStyle(
                   fontWeight: FontWeight.bold,
-                  color: doseLimite ? Colors.orange.shade700 : Colors.blue.shade700,
+                  color: doseLimite
+                      ? Colors.orange.shade700
+                      : Colors.blue.shade700,
                   fontSize: 14,
                 ),
                 textAlign: TextAlign.center,
@@ -304,7 +345,8 @@ class MedicamentoRocuronio {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          const Text('• ',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
           Expanded(
             child: Text(texto, style: const TextStyle(fontSize: 13)),
           ),

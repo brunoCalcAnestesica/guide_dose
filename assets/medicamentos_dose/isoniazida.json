@@ -1,0 +1,770 @@
+{
+  "PT": {
+    "nome": "Isoniazida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Tuberculose (tratamento) – adulto",
+          "descricaoDose": "5 mg/kg/dia VO 1x/dia em jejum (máx 300 mg). Associar piridoxina 25-50 mg/dia.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia em jejum",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela; monitorar transaminases. Evitar em doença hepática grave."
+          }
+        },
+        {
+          "titulo": "Tuberculose (tratamento) – pediátrico",
+          "descricaoDose": "10-15 mg/kg/dia VO 1x/dia em jejum (máx 300 mg). Associar piridoxina.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12.5,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia em jejum",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela; monitorar transaminases. Evitar em doença hepática grave."
+          }
+        },
+        {
+          "titulo": "TB latente (profilaxia) – adulto",
+          "descricaoDose": "300 mg VO 1x/dia em jejum por 6-9 meses. Associar piridoxina 25-50 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia por 6-9 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela; monitorar transaminases."
+          }
+        },
+        {
+          "titulo": "TB latente (profilaxia) – pediátrico",
+          "descricaoDose": "10 mg/kg/dia VO 1x/dia (máx 300 mg) por 9 meses. Associar piridoxina.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia por 9 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela; monitorar transaminases."
+          }
+        },
+        {
+          "titulo": "TB latente 3HP (semanal com rifapentina) – ≥12 anos",
+          "descricaoDose": "15 mg/kg VO 1x/semana (máx 900 mg) por 3 meses – terapia supervisionada.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/semana por 3 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela; monitorar transaminases."
+          }
+        },
+        {
+          "titulo": "TB latente 3HP (semanal com rifapentina) – 2-11 anos",
+          "descricaoDose": "25 mg/kg VO 1x/semana (máx 900 mg) por 3 meses – terapia supervisionada.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/semana por 3 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela; monitorar transaminases."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antimicobacteriano – hidrazida. Inibe síntese de ácido micólico da parede do M. tuberculosis. Bactericida para bacilos em divisão; bacteriostático para bacilos em repouso.",
+      "apresentacoes": [
+        { "forma": "Comprimido 100 mg", "obs": "Uso oral" },
+        { "forma": "Comprimido 300 mg", "obs": "Uso oral" },
+        { "forma": "Xarope 50 mg/5 mL", "obs": "Pediátrico" },
+        { "forma": "Solução injetável", "obs": "Quando VO não possível" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral – tomar em jejum (1 h antes ou 2 h após refeições)", "concentracao": "" },
+        { "diluicao": "Sempre associar piridoxina (vit. B6) 25-50 mg/dia para prevenir neuropatia", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Tomar em jejum para máxima absorção. Piridoxina 25-50 mg/dia reduz risco de neuropatia periférica.",
+        "Hepatotoxicidade (elevação de TGO/TGP) – monitorar transaminases; suspender se sintomas ou TGO >3-5× ULN.",
+        "Interage com fenitoína (aumenta níveis), dissulfiram, carbamazepina, álcool (aumenta hepatotoxicidade).",
+        "Nunca em monoterapia para TB ativa (resistência rápida). Sempre em esquema combinado (RIPE ou similar).",
+        "Excluir TB ativa antes de iniciar tratamento de TB latente.",
+        "Contraindicado em hepatite ativa, neuropatia por piridoxina não tratada. Categoria C na gestação."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior risco de hepatotoxicidade. Monitorar transaminases. Manter piridoxina.",
+        "renal": "Não requer ajuste de dose (metabolizado no fígado; dialisável – repor após diálise se regime diário).",
+        "hepatico": "Usar com cautela; monitorar transaminases. Evitar ou suspender em doença hepática ativa/grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Isoniazida – tuberculose (adulto)",
+        "doseTexto": "5 mg/kg/dia VO 1x/dia (máx 300 mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Isoniazida – tuberculose (pediátrico)",
+        "doseTexto": "10-15 mg/kg/dia VO 1x/dia (máx 300 mg)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Isoniazida – TB latente (profilaxia)",
+        "doseTexto": "300 mg VO 1x/dia por 6-9 meses",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Isoniazid",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Tuberculosis (treatment) – adult",
+          "descricaoDose": "5 mg/kg/day PO once daily fasting (max 300 mg). Give pyridoxine 25-50 mg/day.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once daily fasting",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Use with caution; monitor transaminases. Avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Tuberculosis (treatment) – pediatric",
+          "descricaoDose": "10-15 mg/kg/day PO once daily fasting (max 300 mg). Give pyridoxine.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12.5,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once daily fasting",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Use with caution; monitor transaminases. Avoid in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Latent TB (prophylaxis) – adult",
+          "descricaoDose": "300 mg PO once daily fasting for 6-9 months. Give pyridoxine 25-50 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once daily for 6-9 months",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Use with caution; monitor transaminases."
+          }
+        },
+        {
+          "titulo": "Latent TB (prophylaxis) – pediatric",
+          "descricaoDose": "10 mg/kg/day PO once daily (max 300 mg) for 9 months. Give pyridoxine.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once daily for 9 months",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Use with caution; monitor transaminases."
+          }
+        },
+        {
+          "titulo": "Latent TB 3HP (weekly with rifapentine) – ≥12 years",
+          "descricaoDose": "15 mg/kg PO once weekly (max 900 mg) for 3 months – directly observed therapy.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once weekly for 3 months",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Use with caution; monitor transaminases."
+          }
+        },
+        {
+          "titulo": "Latent TB 3HP (weekly with rifapentine) – 2-11 years",
+          "descricaoDose": "25 mg/kg PO once weekly (max 900 mg) for 3 months – directly observed therapy.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once weekly for 3 months",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Use with caution; monitor transaminases."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antimycobacterial – hydrazide. Inhibits mycolic acid synthesis in M. tuberculosis cell wall. Bactericidal for dividing bacilli; bacteriostatic for dormant bacilli.",
+      "apresentacoes": [
+        { "forma": "Tablet 100 mg", "obs": "Oral" },
+        { "forma": "Tablet 300 mg", "obs": "Oral" },
+        { "forma": "Syrup 50 mg/5 mL", "obs": "Pediatric" },
+        { "forma": "Injectable solution", "obs": "When PO not feasible" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral – take on empty stomach (1 h before or 2 h after meals)", "concentracao": "" },
+        { "diluicao": "Always give pyridoxine (vitamin B6) 25-50 mg/day to prevent neuropathy", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Take on empty stomach for maximum absorption. Pyridoxine 25-50 mg/day reduces peripheral neuropathy risk.",
+        "Hepatotoxicity (elevated AST/ALT) – monitor transaminases; discontinue if symptoms or AST >3-5× ULN.",
+        "Interacts with phenytoin (increases levels), disulfiram, carbamazepine, alcohol (increases hepatotoxicity).",
+        "Never use as monotherapy for active TB (rapid resistance). Always in combination regimen (RIPE or similar).",
+        "Exclude active TB before starting latent TB treatment.",
+        "Contraindicated in active hepatitis, untreated pyridoxine-deficient neuropathy. Pregnancy category C."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Higher hepatotoxicity risk. Monitor transaminases. Continue pyridoxine.",
+        "renal": "No dose adjustment (hepatic metabolism; dialyzable – give after dialysis if daily regimen).",
+        "hepatico": "Use with caution; monitor transaminases. Avoid or discontinue in active/severe liver disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Isoniazid – tuberculosis (adult)",
+        "doseTexto": "5 mg/kg/day PO once daily (max 300 mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Isoniazid – tuberculosis (pediatric)",
+        "doseTexto": "10-15 mg/kg/day PO once daily (max 300 mg)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Isoniazid – latent TB (prophylaxis)",
+        "doseTexto": "300 mg PO once daily for 6-9 months",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Isoniacida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Tuberculosis (tratamiento) – adulto",
+          "descricaoDose": "5 mg/kg/día VO 1x/día en ayunas (máx 300 mg). Asociar piridoxina 25-50 mg/día.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día en ayunas",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar con cautela; monitorizar transaminasas. Evitar en enfermedad hepática grave."
+          }
+        },
+        {
+          "titulo": "Tuberculosis (tratamiento) – pediátrico",
+          "descricaoDose": "10-15 mg/kg/día VO 1x/día en ayunas (máx 300 mg). Asociar piridoxina.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12.5,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día en ayunas",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar con cautela; monitorizar transaminasas. Evitar en enfermedad hepática grave."
+          }
+        },
+        {
+          "titulo": "TB latente (profilaxis) – adulto",
+          "descricaoDose": "300 mg VO 1x/día en ayunas por 6-9 meses. Asociar piridoxina 25-50 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día por 6-9 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar con cautela; monitorizar transaminasas."
+          }
+        },
+        {
+          "titulo": "TB latente (profilaxis) – pediátrico",
+          "descricaoDose": "10 mg/kg/día VO 1x/día (máx 300 mg) por 9 meses. Asociar piridoxina.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día por 9 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar con cautela; monitorizar transaminasas."
+          }
+        },
+        {
+          "titulo": "TB latente 3HP (semanal con rifapentina) – ≥12 años",
+          "descricaoDose": "15 mg/kg VO 1x/semana (máx 900 mg) por 3 meses – terapia supervisada.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/semana por 3 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar con cautela; monitorizar transaminasas."
+          }
+        },
+        {
+          "titulo": "TB latente 3HP (semanal con rifapentina) – 2-11 años",
+          "descricaoDose": "25 mg/kg VO 1x/semana (máx 900 mg) por 3 meses – terapia supervisada.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/semana por 3 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar con cautela; monitorizar transaminasas."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antimicobacteriano – hidracida. Inhibe la síntesis de ácido micólico de la pared de M. tuberculosis. Bactericida para bacilos en división; bacteriostático para bacilos en reposo.",
+      "apresentacoes": [
+        { "forma": "Comprimido 100 mg", "obs": "Uso oral" },
+        { "forma": "Comprimido 300 mg", "obs": "Uso oral" },
+        { "forma": "Jarabe 50 mg/5 mL", "obs": "Pediátrico" },
+        { "forma": "Solución inyectable", "obs": "Cuando VO no posible" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral – tomar en ayunas (1 h antes o 2 h después de comidas)", "concentracao": "" },
+        { "diluicao": "Siempre asociar piridoxina (vit. B6) 25-50 mg/día para prevenir neuropatía", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Tomar en ayunas para máxima absorción. Piridoxina 25-50 mg/día reduce riesgo de neuropatía periférica.",
+        "Hepatotoxicidad (elevación TGO/TGP) – monitorizar transaminasas; suspender si síntomas o TGO >3-5× LSN.",
+        "Interacciona con fenitoína (aumenta niveles), disulfiram, carbamazepina, alcohol (aumenta hepatotoxicidad).",
+        "Nunca en monoterapia para TB activa (resistencia rápida). Siempre en esquema combinado (RIPE o similar).",
+        "Excluir TB activa antes de iniciar tratamiento de TB latente.",
+        "Contraindicado en hepatitis activa, neuropatía por déficit de piridoxina no tratada. Categoría C en gestación."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor riesgo de hepatotoxicidad. Monitorizar transaminasas. Mantener piridoxina.",
+        "renal": "No requiere ajuste de dosis (metabolizado en hígado; dializable – reponer tras diálisis si régimen diario).",
+        "hepatico": "Usar con cautela; monitorizar transaminasas. Evitar o suspender en enfermedad hepática activa/grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Isoniacida – tuberculosis (adulto)",
+        "doseTexto": "5 mg/kg/día VO 1x/día (máx 300 mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Isoniacida – tuberculosis (pediátrico)",
+        "doseTexto": "10-15 mg/kg/día VO 1x/día (máx 300 mg)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Isoniacida – TB latente (profilaxis)",
+        "doseTexto": "300 mg VO 1x/día por 6-9 meses",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "异烟肼",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "结核病（治疗）– 成人",
+          "descricaoDose": "5 mg/kg/日 口服 每日1次 空腹（最大300 mg）。联用吡哆醇25-50 mg/日。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次空腹",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "慎用；监测转氨酶。严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "结核病（治疗）– 儿科",
+          "descricaoDose": "10-15 mg/kg/日 口服 每日1次 空腹（最大300 mg）。联用吡哆醇。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 12.5,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次空腹",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "慎用；监测转氨酶。严重肝病避免。"
+          }
+        },
+        {
+          "titulo": "潜伏结核（预防）– 成人",
+          "descricaoDose": "300 mg 口服 每日1次 空腹 6-9月。联用吡哆醇25-50 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次 6-9月",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "慎用；监测转氨酶。"
+          }
+        },
+        {
+          "titulo": "潜伏结核（预防）– 儿科",
+          "descricaoDose": "10 mg/kg/日 口服 每日1次（最大300 mg）共9月。联用吡哆醇。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次 9月",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "慎用；监测转氨酶。"
+          }
+        },
+        {
+          "titulo": "潜伏结核3HP（每周+利福喷丁）– ≥12岁",
+          "descricaoDose": "15 mg/kg 口服 每周1次（最大900 mg）共3月 – 督导服药。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每周1次 3月",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "慎用；监测转氨酶。"
+          }
+        },
+        {
+          "titulo": "潜伏结核3HP（每周+利福喷丁）– 2-11岁",
+          "descricaoDose": "25 mg/kg 口服 每周1次（最大900 mg）共3月 – 督导服药。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每周1次 3月",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "慎用；监测转氨酶。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗分枝杆菌药 – 肼类。抑制结核杆菌细胞壁分枝菌酸合成。对繁殖期杀菌；静止期抑菌。",
+      "apresentacoes": [
+        { "forma": "片剂 100 mg", "obs": "口服" },
+        { "forma": "片剂 300 mg", "obs": "口服" },
+        { "forma": "糖浆 50 mg/5 mL", "obs": "儿科" },
+        { "forma": "注射剂", "obs": "无法口服时" }
+      ],
+      "preparo": [
+        { "diluicao": "口服 – 空腹（餐前1小时或餐后2小时）", "concentracao": "" },
+        { "diluicao": "始终联用吡哆醇（维生素B6）25-50 mg/日预防神经病变", "concentracao": "" }
+      ],
+      "observacoes": [
+        "空腹服用以利吸收。吡哆醇25-50 mg/日降低周围神经病变风险。",
+        "肝毒性（转氨酶升高）– 监测转氨酶；症状或AST>3-5×ULN时停药。",
+        "与苯妥英（升高浓度）、双硫仑、卡马西平、酒精（增加肝毒性）有相互作用。",
+        "活动性结核绝不可单药（快速耐药）。始终联合方案（RIPE等）。",
+        "开始潜伏结核治疗前排除活动性结核。",
+        "活动性肝炎、未纠正的吡哆醇缺乏性神经病禁忌。妊娠C类。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "肝毒性风险更高。监测转氨酶。继续吡哆醇。",
+        "renal": "无需调量（肝代谢；可透析 – 每日方案透析后给药）。",
+        "hepatico": "慎用；监测转氨酶。活动性/严重肝病避免或停药。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "异烟肼 – 结核（成人）",
+        "doseTexto": "5 mg/kg/日 口服 每日1次（最大300 mg）",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "异烟肼 – 结核（儿科）",
+        "doseTexto": "10-15 mg/kg/日 口服 每日1次（最大300 mg）",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "异烟肼 – 潜伏结核（预防）",
+        "doseTexto": "300 mg 口服 每日1次 6-9月",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

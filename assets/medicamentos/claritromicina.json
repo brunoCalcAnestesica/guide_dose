@@ -1,0 +1,34 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Claritromicina",
+      "nomesComerciais": ["Klaricid®", "Claritromicina Genérico"],
+      "classeTerapeutica": "Antibiótico / Macrolídeo",
+      "mecanismoAcao": "Liga-se à subunidade 50S do ribossomo bacteriano, inibindo a síntese proteica. Bacteriostático em concentrações usuais, bactericida em concentrações elevadas.",
+      "espectro": {
+        "excelente": ["S. pneumoniae", "S. pyogenes", "H. influenzae", "M. catarrhalis", "Mycoplasma pneumoniae", "Chlamydia pneumoniae", "Legionella", "H. pylori", "MAC (M. avium complex)"],
+        "resistentes": ["Enterobactérias", "Pseudomonas"]
+      },
+      "indicacoes": ["Pneumonia comunitária", "Exacerbação de bronquite crônica", "Sinusite", "Faringite", "Erradicação de H. pylori", "Infecção por MAC (profilaxia/tratamento)"],
+      "apresentacoes": ["Comprimidos 250 mg, 500 mg", "Comprimidos UD 500 mg (liberação prolongada)", "Suspensão oral 125 mg/5mL, 250 mg/5mL"],
+      "posologia": {
+        "adulto": {
+          "infeccoes_gerais": "500 mg VO 12/12h por 7-14 dias",
+          "h_pylori": "500 mg VO 12/12h (+ IBP + amoxicilina) por 14 dias",
+          "liberacao_prolongada": "1 g VO 1x/dia"
+        },
+        "pediatrico": {
+          "dose": "7,5 mg/kg/dose VO 12/12h (máx 500 mg/dose)"
+        }
+      },
+      "ajusteRenal": {
+        "ClCr_menor_30": "Reduzir dose 50%"
+      },
+      "contraindicacoes": ["Hipersensibilidade a macrolídeos", "Uso concomitante de cisaprida, pimozida, ergotamina", "Porfiria"],
+      "efeitosAdversos": ["Diarreia", "Náusea", "Gosto metálico", "Cefaleia", "Prolongamento QT", "Hepatotoxicidade (rara)"],
+      "interacoes": ["MUITAS interações via CYP3A4: estatinas, BCC, warfarina, carbamazepina, colchicina, antiarrítmicos, benzodiazepínicos"],
+      "observacoes": ["Pode ser administrada com ou sem alimentos", "Melhor tolerância GI que eritromicina", "Risco de prolongamento QT", "Categoria C na gestação"],
+      "categoriaGravidez": "C"
+    }
+  }
+}

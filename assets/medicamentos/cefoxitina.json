@@ -1,0 +1,40 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Cefoxitina",
+      "nome_comercial": ["Mefoxin"],
+      "classe_terapeutica": "Cefamicina (Cefalosporina de 2ª geração)",
+      "mecanismo_acao": "Liga-se às PBPs, inibindo a síntese da parede celular. Estrutura cefamicina confere resistência a beta-lactamases.",
+      "espectro": {
+        "gram_positivos": ["Staphylococcus (MSSA)", "Streptococcus"],
+        "gram_negativos": ["E. coli", "Klebsiella", "Proteus", "H. influenzae"],
+        "anaerobios": ["Bacteroides fragilis", "Prevotella", "Peptostreptococcus"]
+      },
+      "nao_cobre": ["MRSA", "Pseudomonas", "Enterobacter", "Serratia"],
+      "indicacoes": [
+        "Infecções intra-abdominais",
+        "Infecções pélvicas/ginecológicas",
+        "Profilaxia cirurgia colorretal",
+        "Profilaxia cirurgia ginecológica",
+        "Apendicite complicada"
+      ],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "1g", "liofilizado": true},
+        {"forma": "Frasco", "concentracao": "2g", "liofilizado": true}
+      ],
+      "farmacocinetica": {
+        "meia_vida": "40-60 minutos",
+        "excrecao": "Renal (85%)",
+        "ligacao_proteica": "70-80%"
+      },
+      "ajuste_renal": {
+        "ClCr_30_50": "1-2g a cada 8-12h",
+        "ClCr_10_30": "1-2g a cada 12-24h",
+        "ClCr_menor_10": "1-2g a cada 24-48h"
+      },
+      "efeitos_adversos": ["Diarreia", "Rash", "Elevação transaminases", "Flebite"],
+      "contraindicacoes": ["Alergia a cefalosporinas"],
+      "vantagens": ["Excelente cobertura anaeróbia", "Profilaxia cirúrgica colorretal/ginecológica"]
+    }
+  }
+}

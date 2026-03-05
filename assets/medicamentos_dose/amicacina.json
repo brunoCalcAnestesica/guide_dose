@@ -1,0 +1,1310 @@
+{
+  "PT": {
+    "nome": "Amicacina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose única diária (padrão)",
+          "descricaoDose": "15-20 mg/kg IV 1x/dia (máx 1,5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <60: alongar intervalo ou reduzir dose conforme tabelas; monitorar níveis. Hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dose fracionada (alternativa)",
+          "descricaoDose": "5-7,5 mg/kg IV a cada 8h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr <60: alongar intervalo ou reduzir dose conforme tabelas; monitorar níveis. Hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções urinárias",
+          "descricaoDose": "15 mg/kg IV 1x/dia (máx 1,5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <60: alongar intervalo ou reduzir dose conforme tabelas; monitorar níveis. Hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Idoso (> 65 anos)",
+          "descricaoDose": "10-15 mg/kg IV 1x/dia (máx 1 g) – ajustar por ClCr",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <60: alongar intervalo ou reduzir dose conforme tabelas; monitorar níveis. Hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "15 mg/kg IV dose única 30-60 min antes da incisão (conforme protocolo)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30-60 min antes da incisão",
+            "ajusteRenal": "ClCr <60: alongar intervalo ou reduzir dose conforme tabelas; monitorar níveis. Hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatria (> 1 mês)",
+          "descricaoDose": "15-22,5 mg/kg IV 1x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 22.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dose fracionada pediátrica",
+          "descricaoDose": "5-7,5 mg/kg IV a cada 8h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN prematuro < 30 sem",
+          "descricaoDose": "15 mg/kg IV a cada 48h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "48/48h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN prematuro 30-34 sem",
+          "descricaoDose": "15 mg/kg IV a cada 36h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "36/36h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN termo",
+          "descricaoDose": "15 mg/kg IV a cada 24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "24/24h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico aminoglicosídeo",
+      "apresentacoes": [
+        { "forma": "Ampola 100 mg/2 mL", "obs": "50 mg/mL" },
+        { "forma": "Ampola 250 mg/mL", "obs": "1 mL ou 2 mL" },
+        { "forma": "Ampola 500 mg/2 mL", "obs": "250 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir em 100-200 mL SF 0,9% ou SG 5%", "concentracao": "" },
+        { "diluicao": "Infusão IV em 30-60 min", "concentracao": "" },
+        { "diluicao": "Concentração máxima: 5 mg/mL", "concentracao": "" },
+        { "diluicao": "Estabilidade: 24 h em temperatura ambiente", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Bactericida concentração-dependente; espectro: Gram-negativos (Pseudomonas, Acinetobacter).",
+        "PREFERIR dose única diária (maior eficácia, menor toxicidade).",
+        "NEFROTÓXICO e OTOTÓXICO – monitorar função renal e auditiva.",
+        "Pico sérico: 20-35 mcg/mL | Vale: < 5-10 mcg/mL.",
+        "Ajuste por ClCr OBRIGATÓRIO. Evitar associação com outros nefrotóxicos.",
+        "Sinergismo com beta-lactâmicos. Categoria D na gestação."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "10-15 mg/kg 1x/dia (máx 1 g); avaliar ClCr e ajustar intervalo/dose.",
+        "renal": "ClCr <60: alongar intervalo ou reduzir dose conforme tabelas; monitorar níveis. Hemodiálise: dose após sessão.",
+        "hepatico": "Excreção predominantemente renal. Ajuste hepático isolado não necessário; cautela em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amicacina – dose única (adulto)",
+        "doseTexto": "15-20 mg/kg IV 1x/dia (máx 1,5 g)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amicacina – fracionada (adulto)",
+        "doseTexto": "5-7,5 mg/kg IV 8/8h",
+        "doseMin": 5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amicacina – infecções urinárias",
+        "doseTexto": "15 mg/kg IV 1x/dia (máx 1,5 g)",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amicacina – idoso",
+        "doseTexto": "10-15 mg/kg IV 1x/dia (máx 1 g)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amicacina – profilaxia cirúrgica",
+        "doseTexto": "15 mg/kg IV 30-60 min antes da incisão",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amicacina – pediátrico dose única",
+        "doseTexto": "15-22,5 mg/kg IV 1x/dia",
+        "doseMin": 15,
+        "doseMax": 22.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Amicacina – pediátrico fracionada",
+        "doseTexto": "5-7,5 mg/kg IV 8/8h",
+        "doseMin": 5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Amicacina – RN termo",
+        "doseTexto": "15 mg/kg IV 24/24h",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Amikacin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Once-daily dose (standard)",
+          "descricaoDose": "15-20 mg/kg IV once daily (max 1.5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <60: extend interval or reduce dose per tables; monitor levels. Hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Divided dosing (alternative)",
+          "descricaoDose": "5-7.5 mg/kg IV q8h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr <60: extend interval or reduce dose per tables; monitor levels. Hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Urinary tract infections",
+          "descricaoDose": "15 mg/kg IV once daily (max 1.5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <60: extend interval or reduce dose per tables; monitor levels. Hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Elderly (> 65 years)",
+          "descricaoDose": "10-15 mg/kg IV once daily (max 1 g) – adjust per ClCr",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <60: extend interval or reduce dose per tables; monitor levels. Hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "15 mg/kg IV single dose 30-60 min before incision (per protocol)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30-60 min before incision",
+            "ajusteRenal": "ClCr <60: extend interval or reduce dose per tables; monitor levels. Hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric (> 1 month)",
+          "descricaoDose": "15-22.5 mg/kg IV once daily",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 22.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric divided dosing",
+          "descricaoDose": "5-7.5 mg/kg IV q8h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Preterm < 30 wk",
+          "descricaoDose": "15 mg/kg IV q48h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q48h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Preterm 30-34 wk",
+          "descricaoDose": "15 mg/kg IV q36h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q36h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Term neonate",
+          "descricaoDose": "15 mg/kg IV q24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q24h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Aminoglycoside antibiotic",
+      "apresentacoes": [
+        { "forma": "Vial 100 mg/2 mL", "obs": "50 mg/mL" },
+        { "forma": "Vial 250 mg/mL", "obs": "1 mL or 2 mL" },
+        { "forma": "Vial 500 mg/2 mL", "obs": "250 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Dilute in 100-200 mL 0.9% saline or D5W", "concentracao": "" },
+        { "diluicao": "IV infusion over 30-60 min", "concentracao": "" },
+        { "diluicao": "Maximum concentration: 5 mg/mL", "concentracao": "" },
+        { "diluicao": "Stability: 24 h at room temperature", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Concentration-dependent bactericidal; spectrum: Gram-negatives (Pseudomonas, Acinetobacter).",
+        "PREFER once-daily dosing (higher efficacy, lower toxicity).",
+        "NEPHROTOXIC and OTOTOXIC – monitor renal and auditory function.",
+        "Peak level: 20-35 mcg/mL | Trough: < 5-10 mcg/mL.",
+        "ClCr-based adjustment MANDATORY. Avoid combination with other nephrotoxins.",
+        "Synergy with beta-lactams. Pregnancy category D."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "10-15 mg/kg once daily (max 1 g); assess ClCr and adjust interval/dose.",
+        "renal": "ClCr <60: extend interval or reduce dose per tables; monitor levels. Hemodialysis: dose after session.",
+        "hepatico": "Predominantly renal excretion. No isolated hepatic adjustment; caution in severe hepatic failure."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amikacin – once daily (adult)",
+        "doseTexto": "15-20 mg/kg IV once daily (max 1.5 g)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Amikacin – divided (adult)",
+        "doseTexto": "5-7.5 mg/kg IV q8h",
+        "doseMin": 5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Amikacin – urinary infections",
+        "doseTexto": "15 mg/kg IV once daily (max 1.5 g)",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Amikacin – elderly",
+        "doseTexto": "10-15 mg/kg IV once daily (max 1 g)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Amikacin – surgical prophylaxis",
+        "doseTexto": "15 mg/kg IV 30-60 min before incision",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Amikacin – pediatric once daily",
+        "doseTexto": "15-22.5 mg/kg IV once daily",
+        "doseMin": 15,
+        "doseMax": 22.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Amikacin – pediatric divided",
+        "doseTexto": "5-7.5 mg/kg IV q8h",
+        "doseMin": 5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Amikacin – term neonate",
+        "doseTexto": "15 mg/kg IV q24h",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Amikacina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis única diaria (estándar)",
+          "descricaoDose": "15-20 mg/kg IV 1x/día (máx 1,5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <60: alargar intervalo o reducir dosis según tablas; monitorizar niveles. Hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dosis fraccionada (alternativa)",
+          "descricaoDose": "5-7,5 mg/kg IV cada 8h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr <60: alargar intervalo o reducir dosis según tablas; monitorizar niveles. Hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones urinarias",
+          "descricaoDose": "15 mg/kg IV 1x/día (máx 1,5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <60: alargar intervalo o reducir dosis según tablas; monitorizar niveles. Hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anciano (> 65 años)",
+          "descricaoDose": "10-15 mg/kg IV 1x/día (máx 1 g) – ajustar por ClCr",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <60: alargar intervalo o reducir dosis según tablas; monitorizar niveles. Hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "15 mg/kg IV dosis única 30-60 min antes de la incisión (según protocolo)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30-60 min antes de la incisión",
+            "ajusteRenal": "ClCr <60: alargar intervalo o reducir dosis según tablas; monitorizar niveles. Hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (> 1 mes)",
+          "descricaoDose": "15-22,5 mg/kg IV 1x/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 22.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dosis fraccionada pediátrica",
+          "descricaoDose": "5-7,5 mg/kg IV cada 8h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN pretérmino < 30 sem",
+          "descricaoDose": "15 mg/kg IV cada 48h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "48/48h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN pretérmino 30-34 sem",
+          "descricaoDose": "15 mg/kg IV cada 36h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "36/36h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN a término",
+          "descricaoDose": "15 mg/kg IV cada 24h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "24/24h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico aminoglucósido",
+      "apresentacoes": [
+        { "forma": "Ampolla 100 mg/2 mL", "obs": "50 mg/mL" },
+        { "forma": "Ampolla 250 mg/mL", "obs": "1 mL o 2 mL" },
+        { "forma": "Ampolla 500 mg/2 mL", "obs": "250 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir en 100-200 mL SF 0,9% o SG 5%", "concentracao": "" },
+        { "diluicao": "Infusión IV en 30-60 min", "concentracao": "" },
+        { "diluicao": "Concentración máxima: 5 mg/mL", "concentracao": "" },
+        { "diluicao": "Estabilidad: 24 h a temperatura ambiente", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Bactericida concentración-dependiente; espectro: Gram-negativos (Pseudomonas, Acinetobacter).",
+        "PREFERIR dosis única diaria (mayor eficacia, menor toxicidad).",
+        "NEFROTÓXICO y OTOTÓXICO – monitorizar función renal y auditiva.",
+        "Pico sérico: 20-35 mcg/mL | Valle: < 5-10 mcg/mL.",
+        "Ajuste por ClCr OBLIGATORIO. Evitar asociación con otros nefrotóxicos.",
+        "Sinergismo con beta-lactámicos. Categoría D en gestación."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "10-15 mg/kg 1x/día (máx 1 g); valorar ClCr y ajustar intervalo/dosis.",
+        "renal": "ClCr <60: alargar intervalo o reducir dosis según tablas; monitorizar niveles. Hemodiálisis: dosis tras sesión.",
+        "hepatico": "Excreción predominantemente renal. Ajuste hepático aislado no necesario; precaución en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amikacina – dosis única (adulto)",
+        "doseTexto": "15-20 mg/kg IV 1x/día (máx 1,5 g)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amikacina – fraccionada (adulto)",
+        "doseTexto": "5-7,5 mg/kg IV 8/8h",
+        "doseMin": 5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amikacina – infecciones urinarias",
+        "doseTexto": "15 mg/kg IV 1x/día (máx 1,5 g)",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amikacina – anciano",
+        "doseTexto": "10-15 mg/kg IV 1x/día (máx 1 g)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amikacina – profilaxis quirúrgica",
+        "doseTexto": "15 mg/kg IV 30-60 min antes de la incisión",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amikacina – pediátrico dosis única",
+        "doseTexto": "15-22,5 mg/kg IV 1x/día",
+        "doseMin": 15,
+        "doseMax": 22.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Amikacina – pediátrico fraccionada",
+        "doseTexto": "5-7,5 mg/kg IV 8/8h",
+        "doseMin": 5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Amikacina – RN a término",
+        "doseTexto": "15 mg/kg IV 24/24h",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "阿米卡星",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "每日单次剂量（标准）",
+          "descricaoDose": "15-20 mg/kg IV 每日一次（最大 1,5 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <60：按表延长间隔或减量；监测浓度。血液透析：透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "分次给药（替代）",
+          "descricaoDose": "5-7,5 mg/kg IV 每8小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr <60：按表延长间隔或减量；监测浓度。血液透析：透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "尿路感染",
+          "descricaoDose": "15 mg/kg IV 每日一次（最大 1,5 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <60：按表延长间隔或减量；监测浓度。血液透析：透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "老年（> 65岁）",
+          "descricaoDose": "10-15 mg/kg IV 每日一次（最大 1 g）– 按ClCr调整",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <60：按表延长间隔或减量；监测浓度。血液透析：透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "15 mg/kg IV 单次 切皮前30-60分钟（按方案）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "切皮前30-60分钟",
+            "ajusteRenal": "ClCr <60：按表延长间隔或减量；监测浓度。血液透析：透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿科（> 1月）",
+          "descricaoDose": "15-22,5 mg/kg IV 每日一次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 22.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿科分次给药",
+          "descricaoDose": "5-7,5 mg/kg IV 每8小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 7.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "早产儿 < 30周",
+          "descricaoDose": "15 mg/kg IV 每48小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每48小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "早产儿 30-34周",
+          "descricaoDose": "15 mg/kg IV 每36小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每36小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "足月新生儿",
+          "descricaoDose": "15 mg/kg IV 每24小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 15,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每24小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "氨基糖苷类抗生素",
+      "apresentacoes": [
+        { "forma": "安瓿 100 mg/2 mL", "obs": "50 mg/mL" },
+        { "forma": "安瓿 250 mg/mL", "obs": "1 mL 或 2 mL" },
+        { "forma": "安瓿 500 mg/2 mL", "obs": "250 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "用100-200 mL 0.9%生理盐水或5%葡萄糖稀释", "concentracao": "" },
+        { "diluicao": "IV 输注 30-60 分钟", "concentracao": "" },
+        { "diluicao": "最大浓度：5 mg/mL", "concentracao": "" },
+        { "diluicao": "稳定性：室温 24 小时", "concentracao": "" }
+      ],
+      "observacoes": [
+        "浓度依赖性杀菌；谱：革兰阴性菌（铜绿假单胞菌、鲍曼不动杆菌）。",
+        "优先每日单次给药（疗效更高、毒性更低）。",
+        "肾毒性及耳毒性 – 监测肾功能及听力。",
+        "峰浓度：20-35 mcg/mL | 谷浓度：< 5-10 mcg/mL。",
+        "必须按ClCr调整。避免与其他肾毒性药物联用。",
+        "与β-内酰胺类有协同。妊娠D类。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "10-15 mg/kg 每日一次（最大 1 g）；评估ClCr并调整间隔/剂量。",
+        "renal": "ClCr <60：按表延长间隔或减量；监测浓度。血液透析：透析后给药。",
+        "hepatico": "主要经肾排泄。无需单独肝调整；严重肝衰竭慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿米卡星 – 每日单次（成人）",
+        "doseTexto": "15-20 mg/kg IV 每日一次（最大 1,5 g）",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿米卡星 – 分次（成人）",
+        "doseTexto": "5-7,5 mg/kg IV 每8小时",
+        "doseMin": 5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿米卡星 – 尿路感染",
+        "doseTexto": "15 mg/kg IV 每日一次（最大 1,5 g）",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿米卡星 – 老年",
+        "doseTexto": "10-15 mg/kg IV 每日一次（最大 1 g）",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿米卡星 – 手术预防",
+        "doseTexto": "15 mg/kg IV 切皮前30-60分钟",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "阿米卡星 – 儿科每日单次",
+        "doseTexto": "15-22,5 mg/kg IV 每日一次",
+        "doseMin": 15,
+        "doseMax": 22.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "阿米卡星 – 儿科分次",
+        "doseTexto": "5-7,5 mg/kg IV 每8小时",
+        "doseMin": 5,
+        "doseMax": 7.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "阿米卡星 – 足月新生儿",
+        "doseTexto": "15 mg/kg IV 每24小时",
+        "doseMin": 15,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

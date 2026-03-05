@@ -1,0 +1,598 @@
+{
+  "PT": {
+    "nome": "Sotalol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA/Flutter - Cardioversão farmacológica",
+          "descricaoDose": "1-1,5 mg/kg IV em 5 min (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 5 min",
+            "ajusteRenal": "ClCr 30-60: 50% da dose a cada 24h; ClCr <30: contraindicado",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Manutenção de ritmo sinusal (VO)",
+          "descricaoDose": "80-160 mg VO 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "80-160 mg 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr 30-60: 50% da dose a cada 24h; ClCr <30: contraindicado",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Arritmias ventriculares (VO)",
+          "descricaoDose": "80-160 mg VO 2x/dia (máx 320 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "160-320 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr 30-60: 50% da dose a cada 24h; ClCr <30: contraindicado",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico - Dose IV",
+          "descricaoDose": "1 mg/kg IV lento (máx 100 mg) - avaliar risco-benefício",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão lenta",
+            "ajusteRenal": "ClCr 30-60: 50% da dose a cada 24h; ClCr <30: contraindicado",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiarrítmico Classe III + Beta-bloqueador",
+      "apresentacoes": [
+        { "forma": "Solução injetável 150 mg/10 mL", "obs": "15 mg/mL" },
+        { "forma": "Comprimido 80 mg, 120 mg, 160 mg", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir em 100-250 mL SF ou SG 5%", "concentracao": "Conforme diluição" },
+        { "diluicao": "Infundir em 5 min (mín) a 1-2 horas", "concentracao": "" },
+        { "diluicao": "Estável 24 h após diluição", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Prolonga QT - monitorar ECG antes e durante o uso",
+        "Contraindicado: QTc >450 ms, bradicardia, asma, ICC descompensada",
+        "Ajuste renal: ClCr 30-60: 50% dose a cada 24h; ClCr <30: contraindicado",
+        "Efeito beta-bloqueador pode mascarar hipoglicemia",
+        "Risco de Torsades de Pointes - iniciar em ambiente monitorado",
+        "Não suspender abruptamente (rebound)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior sensibilidade. Reduzir dose inicial. Monitorar ECG e função renal.",
+        "renal": "ClCr 30-60 mL/min: 50% da dose ou intervalo a cada 24h. ClCr <30: contraindicado.",
+        "hepatico": "Não metabolizado no fígado. Sem ajuste específico; monitorar em insuficiência grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sotalol (adulto) - Bolus IV",
+        "doseTexto": "1-1,5 mg/kg IV em 5 min (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sotalol (pediátrico)",
+        "doseTexto": "1 mg/kg IV lento (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Sotalol VO - Manutenção",
+        "doseTexto": "80-160 mg 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "80-160 mg 12/12h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Sotalol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "AF/Flutter - Pharmacologic cardioversion",
+          "descricaoDose": "1-1.5 mg/kg IV over 5 min (max 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 5 min",
+            "ajusteRenal": "CrCl 30-60: 50% dose every 24h; CrCl <30: contraindicated",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Sinus rhythm maintenance (PO)",
+          "descricaoDose": "80-160 mg PO twice daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "80-160 mg q12h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl 30-60: 50% dose every 24h; CrCl <30: contraindicated",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Ventricular arrhythmias (PO)",
+          "descricaoDose": "80-160 mg PO twice daily (max 320 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "160-320 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl 30-60: 50% dose every 24h; CrCl <30: contraindicated",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric - IV dose",
+          "descricaoDose": "1 mg/kg IV slow (max 100 mg) - assess risk-benefit",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "slow infusion",
+            "ajusteRenal": "CrCl 30-60: 50% dose every 24h; CrCl <30: contraindicated",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Class III Antiarrhythmic + Beta-blocker",
+      "apresentacoes": [
+        { "forma": "Injection 150 mg/10 mL", "obs": "15 mg/mL" },
+        { "forma": "Tablet 80 mg, 120 mg, 160 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Dilute in 100-250 mL NS or D5W", "concentracao": "As per dilution" },
+        { "diluicao": "Infuse over 5 min (min) to 1-2 hours", "concentracao": "" },
+        { "diluicao": "Stable 24 h after dilution", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Prolongs QT - monitor ECG before and during use",
+        "Contraindicated: QTc >450 ms, bradycardia, asthma, decompensated CHF",
+        "Renal adjustment: CrCl 30-60: 50% dose every 24h; CrCl <30: contraindicated",
+        "Beta-blocker effect may mask hypoglycemia",
+        "Torsades de Pointes risk - initiate in monitored setting",
+        "Do not discontinue abruptly (rebound)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Increased sensitivity. Reduce initial dose. Monitor ECG and renal function.",
+        "renal": "CrCl 30-60 mL/min: 50% dose or every 24h interval. CrCl <30: contraindicated.",
+        "hepatico": "Not metabolized in liver. No specific adjustment; monitor in severe failure."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sotalol (adult) - IV bolus",
+        "doseTexto": "1-1.5 mg/kg IV over 5 min (max 100 mg)",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Sotalol (pediatric)",
+        "doseTexto": "1 mg/kg IV slow (max 100 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Sotalol PO - Maintenance",
+        "doseTexto": "80-160 mg q12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "80-160 mg q12h",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Sotalol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA/Flutter - Cardioversión farmacológica",
+          "descricaoDose": "1-1,5 mg/kg IV en 5 min (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 5 min",
+            "ajusteRenal": "ClCr 30-60: 50% dosis cada 24h; ClCr <30: contraindicado",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Mantenimiento ritmo sinusal (VO)",
+          "descricaoDose": "80-160 mg VO 2x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "80-160 mg 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr 30-60: 50% dosis cada 24h; ClCr <30: contraindicado",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Arritmias ventriculares (VO)",
+          "descricaoDose": "80-160 mg VO 2x/día (máx 320 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "160-320 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr 30-60: 50% dosis cada 24h; ClCr <30: contraindicado",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico - Dosis IV",
+          "descricaoDose": "1 mg/kg IV lento (máx 100 mg) - evaluar riesgo-beneficio",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión lenta",
+            "ajusteRenal": "ClCr 30-60: 50% dosis cada 24h; ClCr <30: contraindicado",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiarrítmico Clase III + Betabloqueante",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 150 mg/10 mL", "obs": "15 mg/mL" },
+        { "forma": "Comprimido 80 mg, 120 mg, 160 mg", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir en 100-250 mL SF o SG 5%", "concentracao": "Según dilución" },
+        { "diluicao": "Infundir en 5 min (mín) a 1-2 horas", "concentracao": "" },
+        { "diluicao": "Estable 24 h tras dilución", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Prolonga QT - monitorizar ECG antes y durante el uso",
+        "Contraindicado: QTc >450 ms, bradicardia, asma, ICC descompensada",
+        "Ajuste renal: ClCr 30-60: 50% dosis cada 24h; ClCr <30: contraindicado",
+        "Efecto betabloqueante puede enmascarar hipoglucemia",
+        "Riesgo de Torsades de Pointes - iniciar en ambiente monitorizado",
+        "No suspender bruscamente (rebote)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor sensibilidad. Reducir dosis inicial. Monitorizar ECG y función renal.",
+        "renal": "ClCr 30-60 mL/min: 50% dosis o intervalo cada 24h. ClCr <30: contraindicado.",
+        "hepatico": "No se metaboliza en hígado. Sin ajuste específico; monitorizar en insuficiencia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sotalol (adulto) - Bolus IV",
+        "doseTexto": "1-1,5 mg/kg IV en 5 min (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sotalol (pediátrico)",
+        "doseTexto": "1 mg/kg IV lento (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Sotalol VO - Mantenimiento",
+        "doseTexto": "80-160 mg 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "80-160 mg 12/12h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "索他洛尔",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "房颤/房扑 - 药物复律",
+          "descricaoDose": "1-1.5 mg/kg IV 5分钟内（最大100 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "5分钟内",
+            "ajusteRenal": "ClCr 30-60：50%剂量每24h；ClCr <30：禁忌",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "窦律维持（口服）",
+          "descricaoDose": "80-160 mg 口服 每日2次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "80-160 mg 每12小时",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr 30-60：50%剂量每24h；ClCr <30：禁忌",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "室性心律失常（口服）",
+          "descricaoDose": "80-160 mg 口服 每日2次（最大320 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "160-320 mg/日",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr 30-60：50%剂量每24h；ClCr <30：禁忌",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童 - IV剂量",
+          "descricaoDose": "1 mg/kg IV 缓慢（最大100 mg）- 评估风险获益",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "缓慢输注",
+            "ajusteRenal": "ClCr 30-60：50%剂量每24h；ClCr <30：禁忌",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "III类抗心律失常药 + β受体阻滞剂",
+      "apresentacoes": [
+        { "forma": "注射液 150 mg/10 mL", "obs": "15 mg/mL" },
+        { "forma": "片剂 80 mg, 120 mg, 160 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "用100-250 mL 生理盐水或5%葡萄糖稀释", "concentracao": "按稀释比例" },
+        { "diluicao": "5分钟（最少）至1-2小时内输注", "concentracao": "" },
+        { "diluicao": "稀释后24小时内稳定", "concentracao": "" }
+      ],
+      "observacoes": [
+        "延长QT - 使用前后监测心电图",
+        "禁忌：QTc >450 ms、心动过缓、哮喘、失代偿性心衰",
+        "肾调整：ClCr 30-60：50%剂量每24h；ClCr <30：禁忌",
+        "β受体阻滞作用可掩盖低血糖",
+        "尖端扭转型室速风险 - 在监护下启用",
+        "勿突然停药（反跳）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "敏感性增加。减少初始剂量。监测心电图及肾功能。",
+        "renal": "ClCr 30-60 mL/min：50%剂量或每24h一次。ClCr <30：禁忌。",
+        "hepatico": "不经肝脏代谢。无特定调整；严重衰竭时监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "索他洛尔（成人）- IV推注",
+        "doseTexto": "1-1.5 mg/kg IV 5分钟内（最大100 mg）",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "索他洛尔（儿童）",
+        "doseTexto": "1 mg/kg IV 缓慢（最大100 mg）",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "索他洛尔 口服 - 维持",
+        "doseTexto": "80-160 mg 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "80-160 mg 每12小时",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

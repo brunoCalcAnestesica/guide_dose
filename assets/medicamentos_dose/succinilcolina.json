@@ -1,0 +1,798 @@
+{
+  "PT": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ISR - Intubação",
+          "descricaoDose": "1-1,5 mg/kg IV bolus rápido",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela - pode prolongar bloqueio"
+          }
+        },
+        {
+          "titulo": "Intubação IM (sem acesso IV)",
+          "descricaoDose": "3-4 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela - pode prolongar bloqueio"
+          }
+        },
+        {
+          "titulo": "Laringoespasmo",
+          "descricaoDose": "0,5-1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intubação Pediátrica",
+          "descricaoDose": "1-2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela"
+          }
+        },
+        {
+          "titulo": "Neonato/Lactente",
+          "descricaoDose": "2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intubação IM Pediátrica",
+          "descricaoDose": "4-5 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "BNM despolarizante - Agonista nicotínico",
+      "apresentacoes": [
+        {
+          "forma": "Ampola 100mg/5mL",
+          "obs": "20 mg/mL | Anectine®"
+        },
+        {
+          "forma": "Ampola 200mg/10mL",
+          "obs": "20 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "Uso direto",
+          "concentracao": "20 mg/mL"
+        },
+        {
+          "diluicao": "100mg + 5mL SF (pediátrico)",
+          "concentracao": "10 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "Início: 30-60s IV | Duração: 4-6 min | Meia-vida: 47s",
+        "PADRÃO OURO para ISR - início mais rápido",
+        "CI: Hipertermia maligna, miopatias, hipercalemia",
+        "CI: Queimados >24h, lesão neurológica >72h",
+        "Causa fasciculações e mialgia pós-operatória",
+        "TER DANTROLENE DISPONÍVEL para hipertermia maligna"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar recuperação.",
+        "renal": "Não requer ajuste. Depuração independente da função renal.",
+        "hepatico": "Cautela - redução da colinesterase plasmática pode prolongar bloqueio."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Succinilcolina ISR (adulto)",
+        "doseTexto": "1-1,5 mg/kg IV",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Succinilcolina (pediátrico)",
+        "doseTexto": "1-2 mg/kg IV",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Succinilcolina IM (adulto)",
+        "doseTexto": "3-4 mg/kg IM",
+        "doseMin": 3,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Succinilcolina IM (ped)",
+        "doseTexto": "4-5 mg/kg IM",
+        "doseMin": 4,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "RSI - Intubation",
+          "descricaoDose": "1-1.5 mg/kg IV rapid bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution - may prolong blockade"
+          }
+        },
+        {
+          "titulo": "IM Intubation (no IV access)",
+          "descricaoDose": "3-4 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution - may prolong blockade"
+          }
+        },
+        {
+          "titulo": "Laryngospasm",
+          "descricaoDose": "0.5-1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric Intubation",
+          "descricaoDose": "1-2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution"
+          }
+        },
+        {
+          "titulo": "Neonate/Infant",
+          "descricaoDose": "2 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric IM Intubation",
+          "descricaoDose": "4-5 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Depolarizing NMB - Nicotinic agonist",
+      "apresentacoes": [
+        {
+          "forma": "Ampoule 100mg/5mL",
+          "obs": "20 mg/mL | Anectine®"
+        },
+        {
+          "forma": "Ampoule 200mg/10mL",
+          "obs": "20 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "Direct use",
+          "concentracao": "20 mg/mL"
+        },
+        {
+          "diluicao": "100mg + 5mL NS (pediatric)",
+          "concentracao": "10 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "Onset: 30-60s IV | Duration: 4-6 min | Half-life: 47s",
+        "GOLD STANDARD for RSI - fastest onset",
+        "CI: Malignant hyperthermia, myopathies, hyperkalemia",
+        "CI: Burns >24h, neurological injury >72h",
+        "Causes fasciculations and postoperative myalgia",
+        "HAVE DANTROLENE AVAILABLE for malignant hyperthermia"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor recovery.",
+        "renal": "No adjustment required. Clearance independent of renal function.",
+        "hepatico": "Caution - reduced plasma cholinesterase may prolong blockade."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Succinylcholine RSI (adult)",
+        "doseTexto": "1-1.5 mg/kg IV",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Succinylcholine (pediatric)",
+        "doseTexto": "1-2 mg/kg IV",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Succinylcholine IM (adult)",
+        "doseTexto": "3-4 mg/kg IM",
+        "doseMin": 3,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Succinylcholine IM (ped)",
+        "doseTexto": "4-5 mg/kg IM",
+        "doseMin": 4,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ISR - Intubación",
+          "descricaoDose": "1-1,5 mg/kg IV bolo rápido",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución - puede prolongar bloqueo"
+          }
+        },
+        {
+          "titulo": "Intubación IM (sin acceso IV)",
+          "descricaoDose": "3-4 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución - puede prolongar bloqueo"
+          }
+        },
+        {
+          "titulo": "Laringoespasmo",
+          "descricaoDose": "0,5-1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intubación Pediátrica",
+          "descricaoDose": "1-2 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución"
+          }
+        },
+        {
+          "titulo": "Neonato/Lactante",
+          "descricaoDose": "2 mg/kg IV bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intubación IM Pediátrica",
+          "descricaoDose": "4-5 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "BNM despolarizante - Agonista nicotínico",
+      "apresentacoes": [
+        {
+          "forma": "Ampolla 100mg/5mL",
+          "obs": "20 mg/mL | Anectine®"
+        },
+        {
+          "forma": "Ampolla 200mg/10mL",
+          "obs": "20 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "Uso directo",
+          "concentracao": "20 mg/mL"
+        },
+        {
+          "diluicao": "100mg + 5mL SF (pediátrico)",
+          "concentracao": "10 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "Inicio: 30-60s IV | Duración: 4-6 min | Vida media: 47s",
+        "ESTÁNDAR DE ORO para ISR - inicio más rápido",
+        "CI: Hipertermia maligna, miopatías, hipercalemia",
+        "CI: Quemados >24h, lesión neurológica >72h",
+        "Causa fasciculaciones y mialgia postoperatoria",
+        "TENER DANTROLENO DISPONIBLE para hipertermia maligna"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar recuperación.",
+        "renal": "No requiere ajuste. Depuración independiente de función renal.",
+        "hepatico": "Precaución - reducción de colinesterasa plasmática puede prolongar bloqueo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Succinilcolina ISR (adulto)",
+        "doseTexto": "1-1,5 mg/kg IV",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Succinilcolina (pediátrico)",
+        "doseTexto": "1-2 mg/kg IV",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Succinilcolina IM (adulto)",
+        "doseTexto": "3-4 mg/kg IM",
+        "doseMin": 3,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Succinilcolina IM (ped)",
+        "doseTexto": "4-5 mg/kg IM",
+        "doseMin": 4,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "快速序贯诱导插管",
+          "descricaoDose": "1-1.5 mg/kg IV 快速推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "谨慎 - 可能延长阻滞"
+          }
+        },
+        {
+          "titulo": "肌注插管（无静脉通路）",
+          "descricaoDose": "3-4 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "谨慎 - 可能延长阻滞"
+          }
+        },
+        {
+          "titulo": "喉痉挛",
+          "descricaoDose": "0.5-1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童插管",
+          "descricaoDose": "1-2 mg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "谨慎"
+          }
+        },
+        {
+          "titulo": "新生儿/婴儿",
+          "descricaoDose": "2 mg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童肌注插管",
+          "descricaoDose": "4-5 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "去极化神经肌肉阻滞剂 - 烟碱受体激动剂",
+      "apresentacoes": [
+        {
+          "forma": "安瓿 100mg/5mL",
+          "obs": "20 mg/mL | Anectine®"
+        },
+        {
+          "forma": "安瓿 200mg/10mL",
+          "obs": "20 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "直接使用",
+          "concentracao": "20 mg/mL"
+        },
+        {
+          "diluicao": "100mg + 5mL NS（儿童）",
+          "concentracao": "10 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "起效：30-60秒 IV | 持续时间：4-6分钟 | 半衰期：47秒",
+        "快速序贯诱导的金标准 - 起效最快",
+        "禁忌：恶性高热、肌病、高钾血症",
+        "禁忌：烧伤>24h、神经损伤>72h",
+        "引起肌束颤动和术后肌痛",
+        "备好丹曲林用于恶性高热"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需特殊调整。监测恢复。",
+        "renal": "无需调整。清除不依赖肾功能。",
+        "hepatico": "谨慎 - 血浆胆碱酯酶减少可能延长阻滞。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "琥珀胆碱 RSI（成人）",
+        "doseTexto": "1-1.5 mg/kg IV",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "琥珀胆碱（儿童）",
+        "doseTexto": "1-2 mg/kg IV",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "琥珀胆碱 IM（成人）",
+        "doseTexto": "3-4 mg/kg IM",
+        "doseMin": 3,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "琥珀胆碱 IM（儿童）",
+        "doseTexto": "4-5 mg/kg IM",
+        "doseMin": 4,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

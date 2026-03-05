@@ -1,0 +1,394 @@
+{
+  "PT": {
+    "nome": "Parecoxibe",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor pós-operatória/aguda IV/IM (adulto)",
+          "descricaoDose": "40 mg dose inicial; manutenção 20-40 mg a cada 6-12h. Máx 80 mg/dia. Duração máx 3 dias. Administrar IV em bolus (≥15 s).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 80,
+            "doseFixa": "40 mg inicial, depois 20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 6-12h",
+            "ajusteRenal": "IR leve/moderada: usar dose menor (20 mg). IR grave: evitar",
+            "ajusteHepatico": "IH moderada: máx 40 mg/dia. IH grave: contraindicado.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Idoso / peso <50 kg / IR moderada (adulto)",
+          "descricaoDose": "20 mg a cada 12h. Máx 40 mg/dia. Para pacientes >65 anos, peso <50 kg ou IR moderada.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "IR leve/moderada: usar dose menor (20 mg). IR grave: evitar",
+            "ajusteHepatico": "IH moderada: máx 40 mg/dia. IH grave: contraindicado.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Inibidor seletivo COX-2. Pró-fármaco do valdecoxibe; convertido em valdecoxibe após administração parenteral. Seletividade para COX-2: menor risco GI, maior risco CV.",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 40 mg pó liofilizado + diluente", "obs": "IV/IM - Dynastat®, Bextra IV®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir com 2 mL de SF 0,9%. Administrar IV em bolus (≥15 s). Usar imediatamente após reconstituição.", "concentracao": "20 mg/mL" }
+      ],
+      "observacoes": [
+        "INIBIDOR COX-2 SELETIVO: menor risco GI, maior risco cardiovascular (não usar em doença cardíaca/cerebrovascular estabelecida)",
+        "Uso máximo 3 dias. Não usar em cirurgia de revascularização coronária",
+        "Reconstituir com 2 mL SF 0,9%; administrar IV em bolus (≥15 segundos)",
+        "Usar imediatamente após reconstituição (não armazenar)",
+        "Não usar em crianças (<18 anos), gestantes ou lactantes; insuficiência hepática grave: contraindicado",
+        "IR leve/moderada: dose menor (20 mg). IR grave: evitar. IH moderada: máx 40 mg/dia"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Pacientes >65 anos: 20 mg a cada 12h (máx 40 mg/dia). Cautela por risco CV.",
+        "renal": "IR leve/moderada: usar dose menor (20 mg). IR grave: evitar.",
+        "hepatico": "IH moderada: máx 40 mg/dia. IH grave: contraindicado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Parecoxibe IV/IM (adulto)",
+        "doseTexto": "40 mg inicial, depois 20-40 mg a cada 6-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg inicial / 20-40 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Parecoxibe IV/IM - Idoso/renal (adulto)",
+        "doseTexto": "20 mg a cada 12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Parecoxib",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Postoperative/acute pain IV/IM (adult)",
+          "descricaoDose": "40 mg initial dose; maintenance 20-40 mg every 6-12h. Max 80 mg/day. Max duration 3 days. Administer IV as bolus (≥15 s).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 80,
+            "doseFixa": "40 mg initial, then 20-40 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-12h",
+            "ajusteRenal": "Mild/moderate renal impairment: use lower dose (20 mg). Severe: avoid",
+            "ajusteHepatico": "Moderate hepatic impairment: max 40 mg/day. Severe: contraindicated.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Elderly / weight <50 kg / moderate renal impairment (adult)",
+          "descricaoDose": "20 mg every 12h. Max 40 mg/day. For patients >65 years, weight <50 kg or moderate renal impairment.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 12h",
+            "ajusteRenal": "Mild/moderate renal impairment: use lower dose (20 mg). Severe: avoid",
+            "ajusteHepatico": "Moderate hepatic impairment: max 40 mg/day. Severe: contraindicated.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID / Selective COX-2 inhibitor. Prodrug of valdecoxib; converted to valdecoxib after parenteral administration. COX-2 selectivity: lower GI risk, higher CV risk.",
+      "apresentacoes": [
+        { "forma": "Vial 40 mg lyophilized powder + diluent", "obs": "IV/IM" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with 2 mL NS. Administer IV as bolus (≥15 s). Use immediately after reconstitution.", "concentracao": "20 mg/mL" }
+      ],
+      "observacoes": [
+        "SELECTIVE COX-2 INHIBITOR: lower GI risk, higher cardiovascular risk (do not use in established heart/cerebrovascular disease)",
+        "Max use 3 days. Do not use in coronary artery bypass surgery",
+        "Reconstitute with 2 mL NS; administer IV as bolus (≥15 seconds)",
+        "Use immediately after reconstitution (do not store)",
+        "Do not use in children (<18 years), pregnant or nursing; severe hepatic failure: contraindicated",
+        "Mild/moderate renal impairment: lower dose (20 mg). Severe: avoid. Moderate hepatic: max 40 mg/day"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Patients >65 years: 20 mg every 12h (max 40 mg/day). Caution for CV risk.",
+        "renal": "Mild/moderate renal impairment: use lower dose (20 mg). Severe: avoid.",
+        "hepatico": "Moderate hepatic impairment: max 40 mg/day. Severe: contraindicated."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Parecoxib IV/IM (adult)",
+        "doseTexto": "40 mg initial, then 20-40 mg every 6-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg initial / 20-40 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Parecoxib IV/IM - Elderly/renal (adult)",
+        "doseTexto": "20 mg every 12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Parecoxib",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor postoperatorio/agudo IV/IM (adulto)",
+          "descricaoDose": "40 mg dosis inicial; mantenimiento 20-40 mg cada 6-12h. Máx 80 mg/día. Duración máx 3 días. Administrar IV en bolus (≥15 s).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 80,
+            "doseFixa": "40 mg inicial, después 20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 6-12h",
+            "ajusteRenal": "IR leve/moderada: usar dosis menor (20 mg). IR grave: evitar",
+            "ajusteHepatico": "IH moderada: máx 40 mg/día. IH grave: contraindicado.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Anciano / peso <50 kg / IR moderada (adulto)",
+          "descricaoDose": "20 mg cada 12h. Máx 40 mg/día. Para pacientes >65 años, peso <50 kg o IR moderada.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 12h",
+            "ajusteRenal": "IR leve/moderada: usar dosis menor (20 mg). IR grave: evitar",
+            "ajusteHepatico": "IH moderada: máx 40 mg/día. IH grave: contraindicado.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Inhibidor selectivo COX-2. Profármaco del valdecoxib; se convierte en valdecoxib tras administración parenteral. Selectividad COX-2: menor riesgo GI, mayor riesgo CV.",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 40 mg polvo liofilizado + diluyente", "obs": "IV/IM" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir con 2 mL SF 0,9%. Administrar IV en bolus (≥15 s). Usar inmediatamente tras reconstitución.", "concentracao": "20 mg/mL" }
+      ],
+      "observacoes": [
+        "INHIBIDOR COX-2 SELECTIVO: menor riesgo GI, mayor riesgo cardiovascular (no usar en enfermedad cardíaca/cerebrovascular establecida)",
+        "Uso máximo 3 días. No usar en cirugía de revascularización coronaria",
+        "Reconstituir con 2 mL SF 0,9%; administrar IV en bolus (≥15 segundos)",
+        "Usar inmediatamente tras reconstitución (no almacenar)",
+        "No usar en niños (<18 años), gestantes o lactantes; insuficiencia hepática grave: contraindicado",
+        "IR leve/moderada: dosis menor (20 mg). IR grave: evitar. IH moderada: máx 40 mg/día"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Pacientes >65 años: 20 mg cada 12h (máx 40 mg/día). Precaución por riesgo CV.",
+        "renal": "IR leve/moderada: usar dosis menor (20 mg). IR grave: evitar.",
+        "hepatico": "IH moderada: máx 40 mg/día. IH grave: contraindicado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Parecoxib IV/IM (adulto)",
+        "doseTexto": "40 mg inicial, después 20-40 mg cada 6-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg inicial / 20-40 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Parecoxib IV/IM - Anciano/renal (adulto)",
+        "doseTexto": "20 mg cada 12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "帕瑞昔布",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "术后/急性疼痛 静注/肌注（成人）",
+          "descricaoDose": "首剂40 mg；维持20-40 mg 每6-12小时。最大80 mg/日。最多3天。静注推注（≥15秒）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 80,
+            "doseFixa": "40 mg 首剂，后20-40 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每6-12小时",
+            "ajusteRenal": "轻中度肾损：用较小剂量（20 mg）。重度：避免",
+            "ajusteHepatico": "中度肝损：最大40 mg/日。重度：禁忌。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "老年/体重<50 kg/中度肾损（成人）",
+          "descricaoDose": "20 mg 每12小时。最大40 mg/日。适用于>65岁、体重<50 kg或中度肾损。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每12小时",
+            "ajusteRenal": "轻中度肾损：用较小剂量（20 mg）。重度：避免",
+            "ajusteHepatico": "中度肝损：最大40 mg/日。重度：禁忌。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID/选择性COX-2抑制剂。伐地昔布前体；肠外给药后转化为伐地昔布。COX-2选择性：胃肠道风险较低，心血管风险较高。",
+      "apresentacoes": [
+        { "forma": "西林瓶 40 mg 冻干粉 + 稀释液", "obs": "静注/肌注" }
+      ],
+      "preparo": [
+        { "diluicao": "用2 mL生理盐水复溶。静注推注（≥15秒）。复溶后立即使用。", "concentracao": "20 mg/mL" }
+      ],
+      "observacoes": [
+        "选择性COX-2抑制剂：胃肠道风险较低，心血管风险较高（已确诊心/脑血管病勿用）",
+        "最多使用3天。冠脉搭桥术勿用",
+        "用2 mL生理盐水复溶；静注推注（≥15秒）",
+        "复溶后立即使用（勿贮存）",
+        "不用于儿童（<18岁）、孕妇或哺乳期；严重肝衰竭禁忌",
+        "轻中度肾损：较小剂量（20 mg）。重度：避免。中度肝损：最大40 mg/日"
+      ],
+      "ajustesEspeciais": {
+        "idoso": ">65岁患者：20 mg 每12小时（最大40 mg/日）。注意心血管风险。",
+        "renal": "轻中度肾损：用较小剂量（20 mg）。重度：避免。",
+        "hepatico": "中度肝损：最大40 mg/日。重度：禁忌。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "帕瑞昔布 静注/肌注（成人）",
+        "doseTexto": "40 mg 首剂，后20-40 mg 每6-12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg 首剂 / 20-40 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "帕瑞昔布 静注/肌注 - 老年/肾（成人）",
+        "doseTexto": "20 mg 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

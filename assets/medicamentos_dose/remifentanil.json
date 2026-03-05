@@ -1,0 +1,774 @@
+{
+  "PT": {
+    "nome": "Remifentanil",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução – bolus (adulto)",
+          "descricaoDose": "1 mcg/kg IV em bolus lento (≥60 s) com sedativo. Opcional.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus lento ≥60 s com sedativo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução – infusão (adulto)",
+          "descricaoDose": "0,1-1 mcg/kg/min IV – infusão contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção – infusão (adulto)",
+          "descricaoDose": "0,05-2 mcg/kg/min IV – titular conforme resposta e tipo cirúrgico",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução – bolus (pediátrico)",
+          "descricaoDose": "1 mcg/kg IV em 30-60 s (com sedação)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 30-60 s com sedação",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção – infusão (pediátrico)",
+          "descricaoDose": "0,05-0,3 mcg/kg/min IV – ajustar por idade e peso",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.05, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.3 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "1 mg em 50 mL SF (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "1 mg em 40 mL SF (25 mcg/mL)", "valor": 25 },
+            { "rotulo": "2,5 mg em 50 mL SF (50 mcg/mL)", "valor": 50 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide; agonista μ ultrapotente; ação ultracurta; derivado do fentanil. Meia-vida contexto-independente (não acumula).",
+      "apresentacoes": [
+        { "forma": "Pó liofilizado 1 mg, 2 mg, 5 mg", "obs": "Ultiva®" },
+        { "forma": "Reconstituir com água estéril ou SF 0,9%; diluir para 20-50 mcg/mL", "obs": "Uso em 24 h refrigerado" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir em técnica asséptica", "concentracao": "Conforme bula" },
+        { "diluicao": "Diluir em SF 0,9% para infusão contínua (20-50 mcg/mL)", "concentracao": "20-50 mcg/mL" }
+      ],
+      "observacoes": [
+        "Meia-vida contexto-independente: não acumula mesmo em infusão prolongada; recuperação rápida (5-10 min após parar)",
+        "Rigidez torácica e bradicardia com bolus rápido ou altas doses sem sedação; bolus sempre lento (≥60 s) e com sedativo",
+        "Não suspender abruptamente: risco de hiperalgesia e dor rebote; transição para opioide de meia-vida longa em cirurgias longas",
+        "Ter naloxona e suporte ventilatório imediatamente disponíveis; uso exclusivamente em ambiente monitorado",
+        "Incompatível com uso epidural ou intratecal; incompatível com bicarbonato e soluções alcalinas na mesma via",
+        "Exclusivamente IV; infusão com bomba volumétrica. Solução diluída: refrigerar e usar em até 24 h."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose de bolus e titular infusão com cautela; monitorar hemodinâmica.",
+        "renal": "Não requer ajuste. Metabolismo por esterases; não se acumula mesmo em anúria.",
+        "hepatico": "Não requer ajuste em hepatopatia leve a moderada. Clearance mantido em disfunção hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Remifentanil - Bolus indução (adulto)",
+        "doseTexto": "1 mcg/kg IV (≥60 s com sedativo)",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remifentanil - Infusão (adulto)",
+        "doseTexto": "0,05-2 mcg/kg/min",
+        "doseMin": 0.05,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remifentanil - Bolus indução (pediátrico)",
+        "doseTexto": "1 mcg/kg IV (30-60 s com sedação)",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Remifentanil - Infusão (pediátrico)",
+        "doseTexto": "0,05-0,3 mcg/kg/min",
+        "doseMin": 0.05,
+        "doseMax": 0.3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Remifentanil",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Induction – bolus (adult)",
+          "descricaoDose": "1 mcg/kg IV slow bolus (≥60 s) with sedative. Optional.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "slow bolus ≥60 s with sedative",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Induction – infusion (adult)",
+          "descricaoDose": "0.1-1 mcg/kg/min IV – continuous infusion",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maintenance – infusion (adult)",
+          "descricaoDose": "0.05-2 mcg/kg/min IV – titrate to response and surgical type",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Induction – bolus (pediatric)",
+          "descricaoDose": "1 mcg/kg IV over 30-60 s (with sedation)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 30-60 s with sedation",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maintenance – infusion (pediatric)",
+          "descricaoDose": "0.05-0.3 mcg/kg/min IV – adjust by age and weight",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.05, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.3 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "1 mg in 50 mL NS (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "1 mg in 40 mL NS (25 mcg/mL)", "valor": 25 },
+            { "rotulo": "2.5 mg in 50 mL NS (50 mcg/mL)", "valor": 50 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Opioid analgesic; ultrapotent μ agonist; ultra-short-acting; fentanyl derivative. Context-independent half-life (no accumulation).",
+      "apresentacoes": [
+        { "forma": "Lyophilized powder 1 mg, 2 mg, 5 mg", "obs": "Ultiva®" },
+        { "forma": "Reconstitute with sterile water or NS 0.9%; dilute to 20-50 mcg/mL", "obs": "Use within 24 h refrigerated" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute under aseptic technique", "concentracao": "As per label" },
+        { "diluicao": "Dilute in NS 0.9% for continuous infusion (20-50 mcg/mL)", "concentracao": "20-50 mcg/mL" }
+      ],
+      "observacoes": [
+        "Context-independent half-life: does not accumulate even with prolonged infusion; rapid recovery (5-10 min after stopping)",
+        "Chest wall rigidity and bradycardia with rapid bolus or high doses without sedation; bolus always slow (≥60 s) and with sedative",
+        "Do not discontinue abruptly: risk of hyperalgesia and rebound pain; transition to long half-life opioid in long surgeries",
+        "Have naloxone and ventilatory support immediately available; use only in monitored setting",
+        "Incompatible with epidural or intrathecal use; incompatible with bicarbonate and alkaline solutions in same line",
+        "IV only; infusion with volumetric pump. Diluted solution: refrigerate and use within 24 h."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce bolus dose and titrate infusion cautiously; monitor hemodynamics.",
+        "renal": "No adjustment required. Metabolism by esterases; does not accumulate even in anuria.",
+        "hepatico": "No adjustment required in mild to moderate liver disease. Clearance maintained in hepatic dysfunction."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Remifentanil - Induction bolus (adult)",
+        "doseTexto": "1 mcg/kg IV (≥60 s with sedative)",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Remifentanil - Infusion (adult)",
+        "doseTexto": "0.05-2 mcg/kg/min",
+        "doseMin": 0.05,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Remifentanil - Induction bolus (pediatric)",
+        "doseTexto": "1 mcg/kg IV (30-60 s with sedation)",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Remifentanil - Infusion (pediatric)",
+        "doseTexto": "0.05-0.3 mcg/kg/min",
+        "doseMin": 0.05,
+        "doseMax": 0.3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Remifentanilo",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción – bolo (adulto)",
+          "descricaoDose": "1 mcg/kg IV en bolo lento (≥60 s) con sedante. Opcional.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolo lento ≥60 s con sedante",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Inducción – infusión (adulto)",
+          "descricaoDose": "0,1-1 mcg/kg/min IV – infusión continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento – infusión (adulto)",
+          "descricaoDose": "0,05-2 mcg/kg/min IV – titular según respuesta y tipo quirúrgico",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Inducción – bolo (pediátrico)",
+          "descricaoDose": "1 mcg/kg IV en 30-60 s (con sedación)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 30-60 s con sedación",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento – infusión (pediátrico)",
+          "descricaoDose": "0,05-0,3 mcg/kg/min IV – ajustar por edad y peso",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.05, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.3 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "1 mg en 50 mL SF (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "1 mg en 40 mL SF (25 mcg/mL)", "valor": 25 },
+            { "rotulo": "2,5 mg en 50 mL SF (50 mcg/mL)", "valor": 50 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide; agonista μ ultrapotente; acción ultracorta; derivado del fentanilo. Vida media contexto-independiente (no acumula).",
+      "apresentacoes": [
+        { "forma": "Polvo liofilizado 1 mg, 2 mg, 5 mg", "obs": "Ultiva®" },
+        { "forma": "Reconstituir con agua estéril o SF 0,9%; diluir a 20-50 mcg/mL", "obs": "Uso en 24 h refrigerado" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir en técnica aséptica", "concentracao": "Según ficha" },
+        { "diluicao": "Diluir en SF 0,9% para infusión continua (20-50 mcg/mL)", "concentracao": "20-50 mcg/mL" }
+      ],
+      "observacoes": [
+        "Vida media contexto-independiente: no acumula incluso en infusión prolongada; recuperación rápida (5-10 min tras parar)",
+        "Rigidez torácica y bradicardia con bolo rápido o altas dosis sin sedación; bolo siempre lento (≥60 s) y con sedante",
+        "No suspender abruptamente: riesgo de hiperalgesia y dolor rebote; transición a opioide de vida media larga en cirugías largas",
+        "Tener naloxona y soporte ventilatorio disponible; uso exclusivamente en ambiente monitorizado",
+        "Incompatible con uso epidural o intratecal; incompatible con bicarbonato y soluciones alcalinas en la misma vía",
+        "Exclusivamente IV; infusión con bomba volumétrica. Solución diluida: refrigerar y usar en 24 h."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis de bolo y titular infusión con precaución; monitorizar hemodinámica.",
+        "renal": "No requiere ajuste. Metabolismo por esterasas; no se acumula incluso en anuria.",
+        "hepatico": "No requiere ajuste en hepatopatía leve a moderada. Aclaramiento mantenido en disfunción hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Remifentanilo - Bolo inducción (adulto)",
+        "doseTexto": "1 mcg/kg IV (≥60 s con sedante)",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remifentanilo - Infusión (adulto)",
+        "doseTexto": "0,05-2 mcg/kg/min",
+        "doseMin": 0.05,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Remifentanilo - Bolo inducción (pediátrico)",
+        "doseTexto": "1 mcg/kg IV (30-60 s con sedación)",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Remifentanilo - Infusión (pediátrico)",
+        "doseTexto": "0,05-0,3 mcg/kg/min",
+        "doseMin": 0.05,
+        "doseMax": 0.3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "瑞芬太尼",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "诱导 - 推注（成人）",
+          "descricaoDose": "1 mcg/kg 静注 缓慢推注（≥60 秒）合用镇静药。可选。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "缓慢推注 ≥60 秒 合用镇静药",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "诱导 - 输注（成人）",
+          "descricaoDose": "0.1-1 mcg/kg/min 静注 持续输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "维持 - 输注（成人）",
+          "descricaoDose": "0.05-2 mcg/kg/min 静注 按反应及手术类型滴定",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "诱导 - 推注（儿童）",
+          "descricaoDose": "1 mcg/kg 静注 30-60 秒（合用镇静）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "30-60 秒 合用镇静",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "维持 - 输注（儿童）",
+          "descricaoDose": "0.05-0.3 mcg/kg/min 静注 按年龄体重调整",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.05, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.3 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "1 mg 溶于 50 mL 生理盐水 (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "1 mg 溶于 40 mL 生理盐水 (25 mcg/mL)", "valor": 25 },
+            { "rotulo": "2.5 mg 溶于 50 mL 生理盐水 (50 mcg/mL)", "valor": 50 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "阿片类镇痛药；μ 受体超强激动剂；超短效；芬太尼衍生物。半衰期与输注无关（不蓄积）。",
+      "apresentacoes": [
+        { "forma": "冻干粉 1 mg、2 mg、5 mg", "obs": "Ultiva®" },
+        { "forma": "用无菌水或生理盐水 reconstitute；稀释至 20-50 mcg/mL", "obs": "稀释后冷藏 24 小时内使用" }
+      ],
+      "preparo": [
+        { "diluicao": "无菌技术下 reconstitute", "concentracao": "按说明书" },
+        { "diluicao": "用生理盐水稀释用于持续输注 (20-50 mcg/mL)", "concentracao": "20-50 mcg/mL" }
+      ],
+      "observacoes": [
+        "半衰期与输注时长无关：长时间输注也不蓄积；停药后 5-10 分钟快速恢复",
+        "快速推注或高剂量无镇静时可有胸壁强直和心动过缓；推注始终缓慢（≥60 秒）并合用镇静药",
+        "勿突然停药：可有痛觉过敏和反跳痛；长时间手术需过渡到长效阿片",
+        "备纳洛酮及呼吸支持；仅在监护下使用",
+        "禁用于硬膜外或鞘内；同一管路禁与碳酸氢盐及碱性液配伍",
+        "仅静注；输液泵输注。稀释液冷藏 24 小时内使用。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减少推注剂量，谨慎滴定输注；监测血流动力学。",
+        "renal": "无需调整。经酯酶代谢；无尿也不蓄积。",
+        "hepatico": "轻中度肝病无需调整。肝功能不全时清除率维持。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "瑞芬太尼 - 诱导推注（成人）",
+        "doseTexto": "1 mcg/kg 静注（≥60 秒 合用镇静）",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "瑞芬太尼 - 输注（成人）",
+        "doseTexto": "0.05-2 mcg/kg/min",
+        "doseMin": 0.05,
+        "doseMax": 2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "瑞芬太尼 - 诱导推注（儿童）",
+        "doseTexto": "1 mcg/kg 静注（30-60 秒 合用镇静）",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "瑞芬太尼 - 输注（儿童）",
+        "doseTexto": "0.05-0.3 mcg/kg/min",
+        "doseMin": 0.05,
+        "doseMax": 0.3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

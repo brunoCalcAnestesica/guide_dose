@@ -1,0 +1,514 @@
+{
+  "PT": {
+    "nome": "Tapentadol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor aguda – liberação imediata (adulto)",
+          "descricaoDose": "50-100 mg VO a cada 4-6h. Máx 700 mg/dia no 1º dia; 600 mg/dia nos dias seguintes.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "ClCr <30: contraindicado ou reduzir dose/intervalo",
+            "ajusteHepatico": "Insuficiência hepática grave: contraindicado",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor aguda – idoso",
+          "descricaoDose": "50 mg VO a cada 4-6h. Máx 500 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 500,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "ClCr <30: contraindicado ou reduzir",
+            "ajusteHepatico": "Insuficiência hepática grave: contraindicado",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Dor crônica – liberação prolongada (adulto)",
+          "descricaoDose": "50-250 mg VO a cada 12h. Máx 500 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 250,
+            "doseMaxima": 500,
+            "doseFixa": "50-250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "ClCr <30: contraindicado ou reduzir",
+            "ajusteHepatico": "Insuficiência hepática grave: contraindicado",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide atípico – Agonista mu + Inibidor recaptação noradrenalina (MOR-NRI)",
+      "apresentacoes": [
+        { "forma": "Liberação imediata: 50 mg, 75 mg, 100 mg", "obs": "VO" },
+        { "forma": "Liberação prolongada: 50 mg, 100 mg, 150 mg, 200 mg, 250 mg", "obs": "VO 12/12h" },
+        { "forma": "Nomes comerciais", "obs": "Palexia®, Nucynta®" }
+      ],
+      "preparo": [
+        { "diluicao": "VO com ou sem alimentos", "concentracao": "Conforme apresentação" },
+        { "diluicao": "Liberação prolongada: NÃO triturar nem mastigar", "concentracao": "Engolir inteiro" }
+      ],
+      "observacoes": [
+        "Receita amarela (A1). Controle especial.",
+        "Naloxona apenas parcialmente eficaz para reversão.",
+        "Liberação prolongada: NÃO triturar, mastigar ou partir.",
+        "Contraindicado com IMAO (14 dias após descontinuação).",
+        "Cautela com ISRS/IRSN – risco de síndrome serotoninérgica.",
+        "ClCr <30 e insuficiência hepática grave: contraindicado."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "50 mg VO 4/4-6/6h (máx 500 mg/dia). Início baixo, titular com cautela.",
+        "renal": "ClCr <30 mL/min: contraindicado ou reduzir dose/intervalo. Evitar LP em IR grave.",
+        "hepatico": "Insuficiência hepática grave: contraindicado. Leve a moderada: usar com cautela."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tapentadol – liberação imediata",
+        "doseTexto": "50-100 mg VO a cada 4-6h (máx 700 mg/dia 1º dia, 600 mg/dia depois)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tapentadol – liberação prolongada",
+        "doseTexto": "50-250 mg VO a cada 12h (máx 500 mg/dia)",
+        "doseMin": 50,
+        "doseMax": 250,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-250 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tapentadol – idoso",
+        "doseTexto": "50 mg VO a cada 4-6h (máx 500 mg/dia)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Tapentadol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute pain – immediate release (adult)",
+          "descricaoDose": "50-100 mg PO every 4-6h. Max 700 mg/day on day 1; 600 mg/day thereafter.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "ClCr <30: contraindicated or reduce dose/interval",
+            "ajusteHepatico": "Severe hepatic impairment: contraindicated",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Acute pain – elderly",
+          "descricaoDose": "50 mg PO every 4-6h. Max 500 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 500,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "ClCr <30: contraindicated or reduce",
+            "ajusteHepatico": "Severe hepatic impairment: contraindicated",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Chronic pain – extended release (adult)",
+          "descricaoDose": "50-250 mg PO every 12h. Max 500 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 250,
+            "doseMaxima": 500,
+            "doseFixa": "50-250 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 12h",
+            "ajusteRenal": "ClCr <30: contraindicated or reduce",
+            "ajusteHepatico": "Severe hepatic impairment: contraindicated",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Atypical opioid – Mu agonist + Norepinephrine reuptake inhibitor (MOR-NRI)",
+      "apresentacoes": [
+        { "forma": "Immediate release: 50 mg, 75 mg, 100 mg", "obs": "PO" },
+        { "forma": "Extended release: 50 mg, 100 mg, 150 mg, 200 mg, 250 mg", "obs": "PO every 12h" },
+        { "forma": "Brand names", "obs": "Nucynta®, Palexia®" }
+      ],
+      "preparo": [
+        { "diluicao": "PO with or without food", "concentracao": "As per presentation" },
+        { "diluicao": "Extended release: do NOT crush or chew", "concentracao": "Swallow whole" }
+      ],
+      "observacoes": [
+        "Schedule II (US). Controlled substance.",
+        "Naloxone only partially effective for reversal.",
+        "Extended release: do NOT crush, chew, or split.",
+        "Contraindicated with MAOIs (14 days after discontinuation).",
+        "Caution with SSRIs/SNRIs – serotonin syndrome risk.",
+        "ClCr <30 and severe hepatic impairment: contraindicated."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "50 mg PO every 4-6h (max 500 mg/day). Start low, titrate with caution.",
+        "renal": "ClCr <30 mL/min: contraindicated or reduce dose/interval. Avoid ER in severe renal failure.",
+        "hepatico": "Severe hepatic impairment: contraindicated. Mild to moderate: use with caution."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tapentadol – immediate release",
+        "doseTexto": "50-100 mg PO every 4-6h (max 700 mg/day day 1, 600 mg/day thereafter)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tapentadol – extended release",
+        "doseTexto": "50-250 mg PO every 12h (max 500 mg/day)",
+        "doseMin": 50,
+        "doseMax": 250,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-250 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tapentadol – elderly",
+        "doseTexto": "50 mg PO every 4-6h (max 500 mg/day)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Tapentadol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor agudo – liberación inmediata (adulto)",
+          "descricaoDose": "50-100 mg VO cada 4-6h. Máx 700 mg/día el 1º día; 600 mg/día en días siguientes.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "ClCr <30: contraindicado o reducir dosis/intervalo",
+            "ajusteHepatico": "Insuficiencia hepática grave: contraindicado",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor agudo – anciano",
+          "descricaoDose": "50 mg VO cada 4-6h. Máx 500 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 500,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "ClCr <30: contraindicado o reducir",
+            "ajusteHepatico": "Insuficiencia hepática grave: contraindicado",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Dolor crónico – liberación prolongada (adulto)",
+          "descricaoDose": "50-250 mg VO cada 12h. Máx 500 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 250,
+            "doseMaxima": 500,
+            "doseFixa": "50-250 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 12h",
+            "ajusteRenal": "ClCr <30: contraindicado o reducir",
+            "ajusteHepatico": "Insuficiencia hepática grave: contraindicado",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide atípico – Agonista mu + Inhibidor recaptación noradrenalina (MOR-NRI)",
+      "apresentacoes": [
+        { "forma": "Liberación inmediata: 50 mg, 75 mg, 100 mg", "obs": "VO" },
+        { "forma": "Liberación prolongada: 50 mg, 100 mg, 150 mg, 200 mg, 250 mg", "obs": "VO 12/12h" },
+        { "forma": "Nombres comerciales", "obs": "Palexia®, Nucynta®" }
+      ],
+      "preparo": [
+        { "diluicao": "VO con o sin alimentos", "concentracao": "Según presentación" },
+        { "diluicao": "Liberación prolongada: NO triturar ni masticar", "concentracao": "Tragar entero" }
+      ],
+      "observacoes": [
+        "Receta de estupefacientes. Control especial.",
+        "Naloxona solo parcialmente eficaz para reversión.",
+        "Liberación prolongada: NO triturar, masticar ni partir.",
+        "Contraindicado con IMAO (14 días tras suspensión).",
+        "Precaución con ISRS/IRSN – riesgo de síndrome serotoninérgico.",
+        "ClCr <30 e insuficiencia hepática grave: contraindicado."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "50 mg VO cada 4-6h (máx 500 mg/día). Inicio bajo, titular con cautela.",
+        "renal": "ClCr <30 mL/min: contraindicado o reducir dosis/intervalo. Evitar LP en IR grave.",
+        "hepatico": "Insuficiencia hepática grave: contraindicado. Leve a moderada: usar con cautela."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tapentadol – liberación inmediata",
+        "doseTexto": "50-100 mg VO cada 4-6h (máx 700 mg/día 1º día, 600 mg/día después)",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tapentadol – liberación prolongada",
+        "doseTexto": "50-250 mg VO cada 12h (máx 500 mg/día)",
+        "doseMin": 50,
+        "doseMax": 250,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-250 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tapentadol – anciano",
+        "doseTexto": "50 mg VO cada 4-6h (máx 500 mg/día)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "他喷他多",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性疼痛 – 即释（成人）",
+          "descricaoDose": "50-100 mg 口服 每4-6小时。第1天最大700 mg/天；之后600 mg/天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "ClCr <30：禁忌或减量/延长间隔",
+            "ajusteHepatico": "严重肝功能不全：禁忌",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "急性疼痛 – 老年",
+          "descricaoDose": "50 mg 口服 每4-6小时。最大500 mg/天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 500,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "ClCr <30：禁忌或减量",
+            "ajusteHepatico": "严重肝功能不全：禁忌",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "慢性疼痛 – 缓释（成人）",
+          "descricaoDose": "50-250 mg 口服 每12小时。最大500 mg/天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 250,
+            "doseMaxima": 500,
+            "doseFixa": "50-250 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <30：禁忌或减量",
+            "ajusteHepatico": "严重肝功能不全：禁忌",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "非典型阿片类 – μ受体激动剂 + 去甲肾上腺素再摄取抑制剂 (MOR-NRI)",
+      "apresentacoes": [
+        { "forma": "即释：50 mg、75 mg、100 mg", "obs": "口服" },
+        { "forma": "缓释：50 mg、100 mg、150 mg、200 mg、250 mg", "obs": "口服 每12小时" },
+        { "forma": "商品名", "obs": "Palexia®、Nucynta®" }
+      ],
+      "preparo": [
+        { "diluicao": "口服，可与食物同服或空腹", "concentracao": "按规格" },
+        { "diluicao": "缓释：不可压碎或咀嚼", "concentracao": "整片吞服" }
+      ],
+      "observacoes": [
+        "处方管制（A1）。特殊管理。",
+        "纳洛酮仅部分逆转有效。",
+        "缓释：不可压碎、咀嚼或掰开。",
+        "与MAOIs禁忌（停用14天内）。",
+        "与SSRIs/SNRIs慎用 – 5-羟色胺综合征风险。",
+        "ClCr <30及严重肝功能不全：禁忌。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "50 mg 口服 每4-6小时（最大500 mg/天）。低剂量起始，谨慎滴定。",
+        "renal": "ClCr <30 mL/min：禁忌或减量/延长间隔。严重肾衰避免缓释。",
+        "hepatico": "严重肝功能不全：禁忌。轻至中度：慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "他喷他多 – 即释",
+        "doseTexto": "50-100 mg 口服 每4-6小时（第1天最大700 mg/天，之后600 mg/天）",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "他喷他多 – 缓释",
+        "doseTexto": "50-250 mg 口服 每12小时（最大500 mg/天）",
+        "doseMin": 50,
+        "doseMax": 250,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-250 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "他喷他多 – 老年",
+        "doseTexto": "50 mg 口服 每4-6小时（最大500 mg/天）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

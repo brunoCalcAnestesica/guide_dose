@@ -1,0 +1,42 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Nitrazepam",
+      "nomesComerciais": ["Sonebon®", "Nitrazepol®"],
+      "classeTerapeutica": "Benzodiazepínico / Hipnótico / Anticonvulsivante",
+      "mecanismoAcao": "Potencializa a ação do GABA ao se ligar a receptores GABA-A. Possui propriedades hipnóticas, ansiolíticas, miorrelaxantes e anticonvulsivantes.",
+      "indicacoes": ["Insônia", "Espasmos infantis (Síndrome de West)", "Epilepsia mioclônica"],
+      "apresentacoes": ["Comprimidos 5 mg"],
+      "posologia": {
+        "insonia": {
+          "adulto": "5-10 mg ao deitar",
+          "idoso": "2,5-5 mg ao deitar",
+          "maxima": "10 mg/dia"
+        },
+        "espasmosInfantis": {
+          "dose": "0,25-0,5 mg/kg/dia divididos em 2-3 doses",
+          "maxima": "1 mg/kg/dia"
+        },
+        "epilepsiaPediatrica": {
+          "dose": "0,25-0,5 mg/kg/dia"
+        }
+      },
+      "farmacocinetica": {
+        "inicioAcao": "30-60 minutos",
+        "picoPlasmatico": "2 horas",
+        "meiaVida": "15-38 horas",
+        "metabolismo": "Hepático (redução do grupo nitro)",
+        "metabolitosAtivos": "Nenhum significativo"
+      },
+      "usoEpilepsiaPediatrica": {
+        "indicacao": "2ª linha para espasmos infantis (após ACTH/vigabatrina)",
+        "eficacia": "~30% dos casos refratários",
+        "atencao": "Pode causar hipersecreção brônquica"
+      },
+      "contraindicacoes": ["Miastenia gravis", "Apneia do sono", "Insuficiência respiratória grave", "Insuficiência hepática grave", "Gestação (categoria D)"],
+      "efeitosAdversos": ["Sonolência diurna residual", "Tontura", "Ataxia", "Cefaleia", "Amnésia", "Hipersecreção brônquica (pediátrico)", "Sialorreia (pediátrico)"],
+      "observacoes": ["Uso pediátrico: principalmente para espasmos infantis", "Risco de tolerância e dependência", "Retirada gradual obrigatória", "Sedação diurna possível"],
+      "categoriaGravidez": "D"
+    }
+  }
+}

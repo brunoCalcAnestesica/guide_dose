@@ -1,0 +1,766 @@
+{
+  "PT": {
+    "nome": "Droperidol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Náuseas pós-operatórias (PONV)",
+          "descricaoDose": "0,625-1,25 mg IV lento no final da cirurgia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.625,
+            "doseMax": 1.25,
+            "doseMaxima": 1.25,
+            "doseFixa": "0,625-1,25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única no final da cirurgia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IR hepática; reduzir dose inicial"
+          }
+        },
+        {
+          "titulo": "Náusea refratária",
+          "descricaoDose": "0,625-2,5 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.625,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "0,625-2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IR hepática; reduzir dose inicial"
+          }
+        },
+        {
+          "titulo": "Agitação psicomotora",
+          "descricaoDose": "2,5-10 mg IV/IM (repetir a cada 10-20 min se necessário, máx 20 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": "2,5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 10-20 min se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IR hepática; reduzir dose inicial"
+          }
+        },
+        {
+          "titulo": "Neuroleptoanalgesia",
+          "descricaoDose": "0,1-0,2 mg/kg IV com opioides",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "com opioides (fentanil)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IR hepática; reduzir dose inicial"
+          }
+        },
+        {
+          "titulo": "Náuseas pós-operatórias (pediátrico)",
+          "descricaoDose": "0,015-0,05 mg/kg IV/IM (máx 1,25 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.015,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IR hepática; reduzir dose inicial"
+          }
+        },
+        {
+          "titulo": "Sedação (pediátrico)",
+          "descricaoDose": "0,05-0,1 mg/kg IV/IM (máx 2,5 mg/dose) - off-label",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IR hepática; reduzir dose inicial"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antipsicótico, antiemético, neuroléptico butirofenona, antagonista D2",
+      "apresentacoes": [
+        { "forma": "Ampola 2,5 mg/mL (1 mL)", "obs": "IV/IM - Dridol®" },
+        { "forma": "Ampola 2,5 mg/mL (2 mL)", "obs": "IV/IM" }
+      ],
+      "preparo": [
+        { "diluicao": "IV direto: 0,625-2,5 mg em ≥2 min", "concentracao": "Administrar LENTO" },
+        { "diluicao": "Infusão: diluir em 10-50 mL SF ou SG 5%", "concentracao": "Infundir em 10-30 min" },
+        { "diluicao": "IM: sem diluição, aplicação profunda", "concentracao": "2,5 mg/mL" }
+      ],
+      "observacoes": [
+        "Administrar IV LENTO (≥2 min) - risco de hipotensão",
+        "ECG obrigatório antes e após administração (prolongamento QT)",
+        "Prolonga intervalo QT - risco de torsades de pointes",
+        "Contraindicado: QT basal >450 ms (H) ou >470 ms (M)",
+        "Corrigir hipocalemia e hipomagnesemia antes do uso",
+        "Evitar associação com fármacos que prolongam QT (ondansetrona, amiodarona, haloperidol)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose. Cautela em cardiopatas e hepatopatas.",
+        "renal": "Não requer ajuste formal em IR leve/moderada. Cautela em IR grave (acúmulo).",
+        "hepatico": "Cautela em insuficiência hepática moderada a grave. Reduzir dose inicial e monitorar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Droperidol (antiemético)",
+        "doseTexto": "0,625-1,25 mg IV",
+        "doseMin": 0.625,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,625-1,25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Droperidol (sedação)",
+        "doseTexto": "2,5-5 mg IV/IM",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Droperidol (pediátrico)",
+        "doseTexto": "0,015-0,05 mg/kg IV/IM (máx 1,25 mg)",
+        "doseMin": 0.015,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Droperidol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Postoperative nausea (PONV)",
+          "descricaoDose": "0.625-1.25 mg IV slow at end of surgery",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.625,
+            "doseMax": 1.25,
+            "doseMaxima": 1.25,
+            "doseFixa": "0.625-1.25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose at end of surgery",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Caution in hepatic impairment; reduce initial dose"
+          }
+        },
+        {
+          "titulo": "Refractory nausea",
+          "descricaoDose": "0.625-2.5 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.625,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "0.625-2.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "as needed",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Caution in hepatic impairment; reduce initial dose"
+          }
+        },
+        {
+          "titulo": "Psychomotor agitation",
+          "descricaoDose": "2.5-10 mg IV/IM (repeat q10-20 min if needed, max 20 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": "2.5-10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 10-20 min if needed",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Caution in hepatic impairment; reduce initial dose"
+          }
+        },
+        {
+          "titulo": "Neuroleptoanalgesia",
+          "descricaoDose": "0.1-0.2 mg/kg IV with opioids",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "with opioids (fentanyl)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Caution in hepatic impairment; reduce initial dose"
+          }
+        },
+        {
+          "titulo": "Postoperative nausea (pediatric)",
+          "descricaoDose": "0.015-0.05 mg/kg IV/IM (max 1.25 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.015,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Caution in hepatic impairment; reduce initial dose"
+          }
+        },
+        {
+          "titulo": "Sedation (pediatric)",
+          "descricaoDose": "0.05-0.1 mg/kg IV/IM (max 2.5 mg/dose) - off-label",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "as needed",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Caution in hepatic impairment; reduce initial dose"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antipsychotic, antiemetic, butyrophenone neuroleptic, D2 antagonist",
+      "apresentacoes": [
+        { "forma": "Ampoule 2.5 mg/mL (1 mL)", "obs": "IV/IM - Inapsine®" },
+        { "forma": "Ampoule 2.5 mg/mL (2 mL)", "obs": "IV/IM" }
+      ],
+      "preparo": [
+        { "diluicao": "IV direct: 0.625-2.5 mg over ≥2 min", "concentracao": "Administer SLOW" },
+        { "diluicao": "Infusion: dilute in 10-50 mL NS or D5W", "concentracao": "Infuse over 10-30 min" },
+        { "diluicao": "IM: undiluted, deep injection", "concentracao": "2.5 mg/mL" }
+      ],
+      "observacoes": [
+        "Administer IV SLOW (≥2 min) - hypotension risk",
+        "ECG mandatory before and after administration (QT prolongation)",
+        "Prolongs QT interval - torsades de pointes risk",
+        "Contraindicated: baseline QT >450 ms (M) or >470 ms (F)",
+        "Correct hypokalemia and hypomagnesemia before use",
+        "Avoid QT-prolonging drugs (ondansetron, amiodarone, haloperidol)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose. Caution in cardiac/hepatic disease.",
+        "renal": "No formal adjustment in mild/moderate RF. Caution in severe RF (accumulation).",
+        "hepatico": "Caution in moderate to severe hepatic impairment. Reduce initial dose and monitor."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Droperidol (antiemetic)",
+        "doseTexto": "0.625-1.25 mg IV",
+        "doseMin": 0.625,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.625-1.25 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Droperidol (sedation)",
+        "doseTexto": "2.5-5 mg IV/IM",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5-5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Droperidol (pediatric)",
+        "doseTexto": "0.015-0.05 mg/kg IV/IM (max 1.25 mg)",
+        "doseMin": 0.015,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Droperidol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Náuseas postoperatorias (PONV)",
+          "descricaoDose": "0,625-1,25 mg IV lento al final de cirugía",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.625,
+            "doseMax": 1.25,
+            "doseMaxima": 1.25,
+            "doseFixa": "0,625-1,25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única al final de cirugía",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela en IR hepática; reducir dosis inicial"
+          }
+        },
+        {
+          "titulo": "Náusea refractaria",
+          "descricaoDose": "0,625-2,5 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.625,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "0,625-2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela en IR hepática; reducir dosis inicial"
+          }
+        },
+        {
+          "titulo": "Agitación psicomotriz",
+          "descricaoDose": "2,5-10 mg IV/IM (repetir cada 10-20 min si necesario, máx 20 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": "2,5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 10-20 min si necesario",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela en IR hepática; reducir dosis inicial"
+          }
+        },
+        {
+          "titulo": "Neuroleptoanalgesia",
+          "descricaoDose": "0,1-0,2 mg/kg IV con opioides",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "con opioides (fentanilo)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela en IR hepática; reducir dosis inicial"
+          }
+        },
+        {
+          "titulo": "Náuseas postoperatorias (pediátrico)",
+          "descricaoDose": "0,015-0,05 mg/kg IV/IM (máx 1,25 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.015,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1.25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela en IR hepática; reducir dosis inicial"
+          }
+        },
+        {
+          "titulo": "Sedación (pediátrico)",
+          "descricaoDose": "0,05-0,1 mg/kg IV/IM (máx 2,5 mg/dosis) - off-label",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela en IR hepática; reducir dosis inicial"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antipsicótico, antiemético, neuroléptico butirofenona, antagonista D2",
+      "apresentacoes": [
+        { "forma": "Ampolla 2,5 mg/mL (1 mL)", "obs": "IV/IM - Dridol®" },
+        { "forma": "Ampolla 2,5 mg/mL (2 mL)", "obs": "IV/IM" }
+      ],
+      "preparo": [
+        { "diluicao": "IV directo: 0,625-2,5 mg en ≥2 min", "concentracao": "Administrar LENTO" },
+        { "diluicao": "Infusión: diluir en 10-50 mL SF o SG 5%", "concentracao": "Infundir en 10-30 min" },
+        { "diluicao": "IM: sin dilución, inyección profunda", "concentracao": "2,5 mg/mL" }
+      ],
+      "observacoes": [
+        "Administrar IV LENTO (≥2 min) - riesgo hipotensión",
+        "ECG obligatorio antes y después (prolongación QT)",
+        "Prolonga intervalo QT - riesgo torsades de pointes",
+        "Contraindicado: QT basal >450 ms (H) o >470 ms (M)",
+        "Corregir hipopotasemia e hipomagnesemia antes",
+        "Evitar fármacos que prolongan QT (ondansetrón, amiodarona, haloperidol)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis. Cautela en cardiópatas y hepatópatas.",
+        "renal": "Sin ajuste en IR leve/moderada. Cautela en IR grave (acumulación).",
+        "hepatico": "Cautela en insuficiencia hepática moderada a grave. Reducir dosis inicial y vigilar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Droperidol (antiemético)",
+        "doseTexto": "0,625-1,25 mg IV",
+        "doseMin": 0.625,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,625-1,25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Droperidol (sedación)",
+        "doseTexto": "2,5-5 mg IV/IM",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Droperidol (pediátrico)",
+        "doseTexto": "0,015-0,05 mg/kg IV/IM (máx 1,25 mg)",
+        "doseMin": 0.015,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氟哌利多",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "术后恶心呕吐 (PONV)",
+          "descricaoDose": "0.625-1.25 mg 静注 缓慢 手术结束时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.625,
+            "doseMax": 1.25,
+            "doseMaxima": 1.25,
+            "doseFixa": "0.625-1.25 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "手术结束时单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "肝功能不全慎用；减量"
+          }
+        },
+        {
+          "titulo": "难治性恶心",
+          "descricaoDose": "0.625-2.5 mg 静注/肌注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.625,
+            "doseMax": 2.5,
+            "doseMaxima": 2.5,
+            "doseFixa": "0.625-2.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "按需",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "肝功能不全慎用；减量"
+          }
+        },
+        {
+          "titulo": "精神运动性激越",
+          "descricaoDose": "2.5-10 mg 静注/肌注（必要时10-20分钟重复，最大20 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": "2.5-10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "必要时每10-20分钟",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "肝功能不全慎用；减量"
+          }
+        },
+        {
+          "titulo": "神经安定镇痛",
+          "descricaoDose": "0.1-0.2 mg/kg 静注 与阿片类",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "与阿片类（芬太尼）",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "肝功能不全慎用；减量"
+          }
+        },
+        {
+          "titulo": "术后恶心呕吐（儿童）",
+          "descricaoDose": "0.015-0.05 mg/kg 静注/肌注（最大 1.25 mg/次）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.015,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1.25,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "肝功能不全慎用；减量"
+          }
+        },
+        {
+          "titulo": "镇静（儿童）",
+          "descricaoDose": "0.05-0.1 mg/kg 静注/肌注（最大 2.5 mg/次）- 超适应症",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "按需",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "肝功能不全慎用；减量"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗精神病药，止吐药，丁酰苯类神经安定药，D2拮抗剂",
+      "apresentacoes": [
+        { "forma": "安瓿 2.5 mg/mL (1 mL)", "obs": "静注/肌注" },
+        { "forma": "安瓿 2.5 mg/mL (2 mL)", "obs": "静注/肌注" }
+      ],
+      "preparo": [
+        { "diluicao": "静注直接：0.625-2.5 mg 至少2分钟", "concentracao": "缓慢给药" },
+        { "diluicao": "输液：溶于 10-50 mL 生理盐水或5%葡萄糖", "concentracao": "10-30分钟内输注" },
+        { "diluicao": "肌注：不稀释，深部注射", "concentracao": "2.5 mg/mL" }
+      ],
+      "observacoes": [
+        "静注需缓慢（≥2分钟）- 低血压风险",
+        "给药前后需心电图监测（QT延长）",
+        "延长QT间期 - 尖端扭转型室速风险",
+        "禁用：基线QT >450 ms（男）或 >470 ms（女）",
+        "使用前纠正低钾低镁",
+        "避免与 prolong QT 药物联用（昂丹司琼、胺碘酮、氟哌啶醇）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量。心脏病和肝病患者慎用。",
+        "renal": "轻中度肾衰无需调整。重度慎用（蓄积）。",
+        "hepatico": "中重度肝功能不全慎用。减量并监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氟哌利多（止吐）",
+        "doseTexto": "0.625-1.25 mg 静注",
+        "doseMin": 0.625,
+        "doseMax": 1.25,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.625-1.25 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氟哌利多（镇静）",
+        "doseTexto": "2.5-5 mg 静注/肌注",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5-5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氟哌利多（儿童）",
+        "doseTexto": "0.015-0.05 mg/kg 静注/肌注（最大 1.25 mg）",
+        "doseMin": 0.015,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 3,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

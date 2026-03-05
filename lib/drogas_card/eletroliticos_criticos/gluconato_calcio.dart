@@ -17,10 +17,10 @@ class MedicamentoGluconatoCalcio {
 
   static Widget buildCard(BuildContext context, Set<String> favoritos,
       void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
-    final isFavorito = favoritos.contains(nome);
 
     // Gluconato de cálcio tem indicações para todas as faixas etárias
     return buildMedicamentoExpansivel(
@@ -38,6 +38,24 @@ class MedicamentoGluconatoCalcio {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
+
+    return _buildCardGluconatoCalcio(
+      context,
+        peso,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static Widget _buildCardGluconatoCalcio(BuildContext context, double peso,
       bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {

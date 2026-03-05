@@ -1,0 +1,814 @@
+{
+  "PT": {
+    "nome": "Levosimendan",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose de ataque (opcional)",
+          "descricaoDose": "6-12 mcg/kg IV em 10 min (omitir se PAS <90 mmHg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 12,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "IC descompensada - Manutenção",
+          "descricaoDose": "0,05-0,2 mcg/kg/min IV por 24h (titular conforme resposta)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua por 24h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Choque cardiogênico (adjuvante)",
+          "descricaoDose": "0,1-0,2 mcg/kg/min IV por 24h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua por 24h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Desmame de inotrópicos",
+          "descricaoDose": "0,05-0,1 mcg/kg/min IV por 24h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua por 24h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "IC pediátrica (off-label)",
+          "descricaoDose": "0,05-0,2 mcg/kg/min IV por 24-72h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua por 24-72h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pós-operatório cardíaco pediátrico",
+          "descricaoDose": "0,1-0,2 mcg/kg/min IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.05, "doseMax": 0.2 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.2 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "25 mg em 500 mL SG5% (50 mcg/mL)", "valor": 50 },
+            { "rotulo": "12,5 mg em 500 mL SG5% (25 mcg/mL)", "valor": 25 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inodilatador - Sensibilizador de cálcio",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 2,5 mg/mL (5 mL = 12,5 mg)", "obs": "Simdax®" },
+        { "forma": "Frasco-ampola 2,5 mg/mL (10 mL = 25 mg)", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "25 mg em 500 mL SG5%", "concentracao": "50 mcg/mL" },
+        { "diluicao": "12,5 mg em 500 mL SG5%", "concentracao": "25 mcg/mL" }
+      ],
+      "observacoes": [
+        "Início de ação 5-10 min; efeito persiste 7-9 dias (metabólito OR-1896)",
+        "Não depende de receptores beta - útil em IC grave com downregulation",
+        "Pode causar hipotensão - omitir dose de ataque se PAS <90 mmHg",
+        "Usar apenas SG5% - incompatível com SF 0,9%",
+        "ClCr <30: cautela (metabólito acumula)",
+        "Infusão habitualmente de 24h (não infusão contínua prolongada)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Titular com cautela. Monitorar PA e potássio.",
+        "renal": "ClCr <30: cautela - metabólito ativo acumula. Sem redução percentual definida.",
+        "hepatico": "Insuficiência hepática grave: reduzir dose e monitorar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levosimendan (adulto) - Dose ataque",
+        "doseTexto": "6-12 mcg/kg IV em 10 min",
+        "doseMin": 6,
+        "doseMax": 12,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levosimendan (adulto) - Infusão",
+        "doseTexto": "0,05-0,2 mcg/kg/min IV por 24h",
+        "doseMin": 0.05,
+        "doseMax": 0.2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levosimendan (pediátrico) - Infusão",
+        "doseTexto": "0,05-0,2 mcg/kg/min IV por 24-72h",
+        "doseMin": 0.05,
+        "doseMax": 0.2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Levosimendan",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading dose (optional)",
+          "descricaoDose": "6-12 mcg/kg IV over 10 min (omit if SBP <90 mmHg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 12,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose over 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Decompensated HF - Maintenance",
+          "descricaoDose": "0.05-0.2 mcg/kg/min IV for 24h (titrate to response)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion for 24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cardiogenic shock (adjunct)",
+          "descricaoDose": "0.1-0.2 mcg/kg/min IV for 24h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion for 24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inotrope weaning",
+          "descricaoDose": "0.05-0.1 mcg/kg/min IV for 24h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion for 24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric HF (off-label)",
+          "descricaoDose": "0.05-0.2 mcg/kg/min IV for 24-72h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion for 24-72h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric post-cardiac surgery",
+          "descricaoDose": "0.1-0.2 mcg/kg/min IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.05, "doseMax": 0.2 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.2 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "25 mg in 500 mL D5W (50 mcg/mL)", "valor": 50 },
+            { "rotulo": "12.5 mg in 500 mL D5W (25 mcg/mL)", "valor": 25 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inodilator - Calcium sensitizer",
+      "apresentacoes": [
+        { "forma": "Vial 2.5 mg/mL (5 mL = 12.5 mg)", "obs": "Simdax®" },
+        { "forma": "Vial 2.5 mg/mL (10 mL = 25 mg)", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "25 mg in 500 mL D5W", "concentracao": "50 mcg/mL" },
+        { "diluicao": "12.5 mg in 500 mL D5W", "concentracao": "25 mcg/mL" }
+      ],
+      "observacoes": [
+        "Onset 5-10 min; hemodynamic effect persists 7-9 days (active metabolite OR-1896)",
+        "Independent of beta-receptors - useful in severe HF with downregulation",
+        "May cause hypotension - omit loading dose if SBP <90 mmHg",
+        "D5W only - incompatible with 0.9% saline",
+        "ClCr <30: caution (metabolite accumulates)",
+        "Infusion typically 24h (not prolonged continuous)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Titrate with caution. Monitor BP and potassium.",
+        "renal": "ClCr <30: caution - active metabolite accumulates. No defined dose reduction.",
+        "hepatico": "Severe hepatic impairment: reduce dose and monitor."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levosimendan (adult) - Loading dose",
+        "doseTexto": "6-12 mcg/kg IV over 10 min",
+        "doseMin": 6,
+        "doseMax": 12,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Levosimendan (adult) - Infusion",
+        "doseTexto": "0.05-0.2 mcg/kg/min IV for 24h",
+        "doseMin": 0.05,
+        "doseMax": 0.2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Levosimendan (pediatric) - Infusion",
+        "doseTexto": "0.05-0.2 mcg/kg/min IV for 24-72h",
+        "doseMin": 0.05,
+        "doseMax": 0.2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Levosimendan",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis de carga (opcional)",
+          "descricaoDose": "6-12 mcg/kg IV en 10 min (omitir si TAS <90 mmHg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 12,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "IC descompensada - Mantenimiento",
+          "descricaoDose": "0,05-0,2 mcg/kg/min IV por 24h (titular según respuesta)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua por 24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Shock cardiogénico (adyuvante)",
+          "descricaoDose": "0,1-0,2 mcg/kg/min IV por 24h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua por 24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Desmame de inotrópicos",
+          "descricaoDose": "0,05-0,1 mcg/kg/min IV por 24h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua por 24h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "IC pediátrica (off-label)",
+          "descricaoDose": "0,05-0,2 mcg/kg/min IV por 24-72h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua por 24-72h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Postoperatorio cardíaco pediátrico",
+          "descricaoDose": "0,1-0,2 mcg/kg/min IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.05, "doseMax": 0.2 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.2 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "25 mg en 500 mL SG5% (50 mcg/mL)", "valor": 50 },
+            { "rotulo": "12,5 mg en 500 mL SG5% (25 mcg/mL)", "valor": 25 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inodilatador - Sensibilizador de calcio",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 2,5 mg/mL (5 mL = 12,5 mg)", "obs": "Simdax®" },
+        { "forma": "Frasco-ampolla 2,5 mg/mL (10 mL = 25 mg)", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "25 mg en 500 mL SG5%", "concentracao": "50 mcg/mL" },
+        { "diluicao": "12,5 mg en 500 mL SG5%", "concentracao": "25 mcg/mL" }
+      ],
+      "observacoes": [
+        "Inicio de accion 5-10 min; efecto persiste 7-9 dias (metabolito OR-1896)",
+        "No depende de receptores beta - util en IC grave con downregulation",
+        "Puede causar hipotension - omitir dosis de carga si TAS <90 mmHg",
+        "Usar solo SG5% - incompatible con SSF 0,9%",
+        "ClCr <30: precaucion (metabolito acumula)",
+        "Infusion habitualmente 24h (no infusion continua prolongada)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Titular con precaucion. Monitorizar PA y potasio.",
+        "renal": "ClCr <30: precaucion - metabolito activo acumula. Sin reduccion porcentual definida.",
+        "hepatico": "Insuficiencia hepatica grave: reducir dosis y monitorizar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levosimendan (adulto) - Dosis de carga",
+        "doseTexto": "6-12 mcg/kg IV en 10 min",
+        "doseMin": 6,
+        "doseMax": 12,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levosimendan (adulto) - Infusion",
+        "doseTexto": "0,05-0,2 mcg/kg/min IV por 24h",
+        "doseMin": 0.05,
+        "doseMax": 0.2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levosimendan (pediatrico) - Infusion",
+        "doseTexto": "0,05-0,2 mcg/kg/min IV por 24-72h",
+        "doseMin": 0.05,
+        "doseMax": 0.2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "左西孟旦",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷剂量（可选）",
+          "descricaoDose": "6-12 mcg/kg 静脉 10分钟内（收缩压<90 mmHg时省略）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 12,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "10分钟内单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "失代偿性心衰 - 维持",
+          "descricaoDose": "0.05-0.2 mcg/kg/min 静脉 24小时（根据反应滴定）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注24小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "心源性休克（辅助）",
+          "descricaoDose": "0.1-0.2 mcg/kg/min 静脉 24小时",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注24小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "正性肌力药撤离",
+          "descricaoDose": "0.05-0.1 mcg/kg/min 静脉 24小时",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注24小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童心衰（超说明书）",
+          "descricaoDose": "0.05-0.2 mcg/kg/min 静脉 24-72小时",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.05,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注24-72小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童心脏术后",
+          "descricaoDose": "0.1-0.2 mcg/kg/min 静脉",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.1,
+            "doseMax": 0.2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.05, "doseMax": 0.2 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.2 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "25 mg 溶于 500 mL 5%葡萄糖 (50 mcg/mL)", "valor": 50 },
+            { "rotulo": "12.5 mg 溶于 500 mL 5%葡萄糖 (25 mcg/mL)", "valor": 25 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "正性肌力血管扩张剂 - 钙增敏剂",
+      "apresentacoes": [
+        { "forma": "瓶装 2.5 mg/mL (5 mL = 12.5 mg)", "obs": "Simdax®" },
+        { "forma": "瓶装 2.5 mg/mL (10 mL = 25 mg)", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "25 mg 溶于 500 mL 5%葡萄糖", "concentracao": "50 mcg/mL" },
+        { "diluicao": "12.5 mg 溶于 500 mL 5%葡萄糖", "concentracao": "25 mcg/mL" }
+      ],
+      "observacoes": [
+        "起效5-10分钟；血流动力学效应持续7-9天（活性代谢物OR-1896）",
+        "不依赖β受体 - 适用于严重心衰伴下调",
+        "可引起低血压 - 收缩压<90 mmHg时省略负荷剂量",
+        "仅用5%葡萄糖 - 与生理盐水不相容",
+        "ClCr <30：谨慎（代谢物蓄积）",
+        "输注通常24小时（非长期持续）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "谨慎滴定。监测血压和钾。",
+        "renal": "ClCr <30：谨慎 - 活性代谢物蓄积。无明确减量百分比。",
+        "hepatico": "严重肝功能不全：减量并监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "左西孟旦（成人）- 负荷剂量",
+        "doseTexto": "6-12 mcg/kg 静脉 10分钟内",
+        "doseMin": 6,
+        "doseMax": 12,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "左西孟旦（成人）- 输注",
+        "doseTexto": "0.05-0.2 mcg/kg/min 静脉 24小时",
+        "doseMin": 0.05,
+        "doseMax": 0.2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "左西孟旦（儿童）- 输注",
+        "doseTexto": "0.05-0.2 mcg/kg/min 静脉 24-72小时",
+        "doseMin": 0.05,
+        "doseMax": 0.2,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

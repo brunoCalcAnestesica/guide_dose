@@ -1,0 +1,646 @@
+{
+  "PT": {
+    "nome": "Granisetrona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Náuseas/vômitos por quimioterapia",
+          "descricaoDose": "1-3 mg IV dose única, 30 min antes da quimioterapia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "1-3 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (prevenção)",
+          "descricaoDose": "1 mg IV antes da indução anestésica",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (tratamento)",
+          "descricaoDose": "1 mg IV dose única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Náuseas/vômitos por radioterapia",
+          "descricaoDose": "1 mg IV antes da radioterapia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (>2 anos)",
+          "descricaoDose": "10-40 mcg/kg IV dose única (máx 1 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 40,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético, antagonista seletivo dos receptores 5-HT3",
+      "apresentacoes": [
+        { "forma": "Ampola 1 mg/1 mL (1 mg/mL)", "obs": "Kytril®, uso IV" },
+        { "forma": "Ampola 3 mg/3 mL (1 mg/mL)", "obs": "Kytril®, uso IV" },
+        { "forma": "Comprimido 1 mg", "obs": "Uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV", "concentracao": "Direto da ampola, 2-5 min" },
+        { "diluicao": "Infusão IV", "concentracao": "Diluir em 20-50 mL SF 0,9% ou SG 5%, infundir 5-30 min" },
+        { "diluicao": "Via oral", "concentracao": "Comprimido com ou sem alimentos" }
+      ],
+      "observacoes": [
+        "Início de ação: 5-10 min IV. Administrar bolus LENTO (2-5 min)",
+        "Dose máxima adultos: 3 mg/dose; 9 mg/dia. Pediátrico: 1 mg/dose",
+        "Efeitos adversos: cefaleia (mais comum), constipação",
+        "Leve prolongamento do intervalo QT. Menor risco que ondansetrona",
+        "Monitorar ECG em pacientes de risco",
+        "Contraindicado com apomorfina (hipotensão severa)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos adversos.",
+        "renal": "Não requer ajuste em IR leve-moderada. Cautela em IR grave.",
+        "hepatico": "Usar com cautela em insuficiência hepática. Monitorar função hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Granisetrona (adulto)",
+        "doseTexto": "1 mg IV dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Granisetrona (pediátrico)",
+        "doseTexto": "10 mcg/kg IV (máx 1 mg)",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Granisetron",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Chemotherapy-induced nausea/vomiting",
+          "descricaoDose": "1-3 mg IV single dose, 30 min before chemotherapy",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "1-3 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PONV (prevention)",
+          "descricaoDose": "1 mg IV before anesthetic induction",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PONV (treatment)",
+          "descricaoDose": "1 mg IV single dose",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Radiotherapy-induced nausea/vomiting",
+          "descricaoDose": "1 mg IV before radiotherapy",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric (>2 years)",
+          "descricaoDose": "10-40 mcg/kg IV single dose (max 1 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 40,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemetic, selective 5-HT3 serotonin receptor antagonist",
+      "apresentacoes": [
+        { "forma": "Vial 1 mg/1 mL (1 mg/mL)", "obs": "Kytril®, IV" },
+        { "forma": "Vial 3 mg/3 mL (1 mg/mL)", "obs": "Kytril®, IV" },
+        { "forma": "Tablet 1 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus", "concentracao": "Direct from vial, 2-5 min" },
+        { "diluicao": "IV infusion", "concentracao": "Dilute in 20-50 mL 0.9% NS or D5W, infuse 5-30 min" },
+        { "diluicao": "Oral", "concentracao": "Tablet with or without food" }
+      ],
+      "observacoes": [
+        "Onset: 5-10 min IV. Administer bolus SLOW (2-5 min)",
+        "Max dose adults: 3 mg/dose; 9 mg/day. Pediatric: 1 mg/dose",
+        "Adverse effects: headache (most common), constipation",
+        "Mild QT prolongation. Lower risk than ondansetron",
+        "Monitor ECG in at-risk patients",
+        "Contraindicated with apomorphine (severe hypotension)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor adverse effects.",
+        "renal": "No adjustment in mild-moderate RI. Caution in severe RI.",
+        "hepatico": "Use with caution in hepatic impairment. Monitor liver function."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Granisetron (adult)",
+        "doseTexto": "1 mg IV single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Granisetron (pediatric)",
+        "doseTexto": "10 mcg/kg IV (max 1 mg)",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Granisetrón",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Náuseas/vómitos por quimioterapia",
+          "descricaoDose": "1-3 mg IV dosis única, 30 min antes de la quimioterapia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "1-3 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (prevención)",
+          "descricaoDose": "1 mg IV antes de la inducción anestésica",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "NVPO (tratamiento)",
+          "descricaoDose": "1 mg IV dosis única",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Náuseas/vómitos por radioterapia",
+          "descricaoDose": "1 mg IV antes de la radioterapia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (>2 años)",
+          "descricaoDose": "10-40 mcg/kg IV dosis única (máx 1 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 40,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético, antagonista selectivo de receptores 5-HT3",
+      "apresentacoes": [
+        { "forma": "Ampolla 1 mg/1 mL (1 mg/mL)", "obs": "Kytril®, IV" },
+        { "forma": "Ampolla 3 mg/3 mL (1 mg/mL)", "obs": "Kytril®, IV" },
+        { "forma": "Comprimido 1 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV", "concentracao": "Directo de la ampolla, 2-5 min" },
+        { "diluicao": "Infusión IV", "concentracao": "Diluir en 20-50 mL SF 0,9% o SG 5%, infundir 5-30 min" },
+        { "diluicao": "Vía oral", "concentracao": "Comprimido con o sin alimentos" }
+      ],
+      "observacoes": [
+        "Inicio de acción: 5-10 min IV. Administrar bolus LENTO (2-5 min)",
+        "Dosis máxima adultos: 3 mg/dosis; 9 mg/día. Pediátrico: 1 mg/dosis",
+        "Efectos adversos: cefalea (más común), estreñimiento",
+        "Leve prolongación QT. Menor riesgo que ondansetrón",
+        "Monitorizar ECG en pacientes de riesgo",
+        "Contraindicado con apomorfina (hipotensión severa)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos adversos.",
+        "renal": "No requiere ajuste en IR leve-moderada. Precaución en IR grave.",
+        "hepatico": "Usar con precaución en insuficiencia hepática. Monitorizar función hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Granisetrón (adulto)",
+        "doseTexto": "1 mg IV dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Granisetrón (pediátrico)",
+        "doseTexto": "10 mcg/kg IV (máx 1 mg)",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "格拉司琼",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "化疗引起的恶心呕吐",
+          "descricaoDose": "化疗前 30 分钟 1-3 mg 静注 单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 3,
+            "doseMaxima": 3,
+            "doseFixa": "1-3 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "术后恶心呕吐（预防）",
+          "descricaoDose": "麻醉诱导前 1 mg 静注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "术后恶心呕吐（治疗）",
+          "descricaoDose": "1 mg 静注 单次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "放疗引起的恶心呕吐",
+          "descricaoDose": "放疗前 1 mg 静注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童（>2 岁）",
+          "descricaoDose": "10-40 mcg/kg 静注 单次（最大 1 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 40,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "止吐药，选择性 5-HT3 受体拮抗剂",
+      "apresentacoes": [
+        { "forma": "安瓿 1 mg/1 mL (1 mg/mL)", "obs": "凯特瑞® 静注" },
+        { "forma": "安瓿 3 mg/3 mL (1 mg/mL)", "obs": "凯特瑞® 静注" },
+        { "forma": "片剂 1 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "静注推注", "concentracao": "安瓿直接，2-5 分钟" },
+        { "diluicao": "静注输注", "concentracao": "用 20-50 mL 生理盐水或 5% 葡萄糖稀释，输注 5-30 分钟" },
+        { "diluicao": "口服", "concentracao": "片剂可与食物同服或不与食物同服" }
+      ],
+      "observacoes": [
+        "起效：静注 5-10 分钟。推注需缓慢（2-5 分钟）",
+        "成人最大剂量：3 mg/次；9 mg/日。儿童：1 mg/次",
+        "不良反应：头痛（最常见）、便秘",
+        "轻度 QT 延长。较昂丹司琼风险低",
+        "有风险患者监测心电图",
+        "禁与阿扑吗啡联用（严重低血压）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测不良反应。",
+        "renal": "轻中度肾衰竭无需调整。重度慎用。",
+        "hepatico": "肝功能不全慎用。监测肝功能。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "格拉司琼（成人）",
+        "doseTexto": "1 mg 静注 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "格拉司琼（儿童）",
+        "doseTexto": "10 mcg/kg 静注（最大 1 mg）",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

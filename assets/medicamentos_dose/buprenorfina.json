@@ -1,0 +1,766 @@
+{
+  "PT": {
+    "nome": "Buprenorfina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor aguda IV/IM (adulto)",
+          "descricaoDose": "0,3-0,6 mg IV ou IM a cada 6-8h (lento 2-3 min se IV)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.3,
+            "doseMax": 0.6,
+            "doseMaxima": null,
+            "doseFixa": "0,3-0,6 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30: usar com cautela",
+            "ajusteHepatico": "Insuficiência moderada a grave: cautela; preferir via transdérmica com titulação lenta."
+          }
+        },
+        {
+          "titulo": "Sublingual – dor (adulto)",
+          "descricaoDose": "200-400 mcg SL a cada 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": null,
+            "doseFixa": "200-400 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30: usar com cautela",
+            "ajusteHepatico": "Insuficiência moderada a grave: cautela; preferir via transdérmica."
+          }
+        },
+        {
+          "titulo": "Sublingual – dependência de opioides",
+          "descricaoDose": "2-4 mg/dia inicial; titulação até 16-24 mg/dia (máx 24 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 24,
+            "doseFixa": "2-4 mg/dia (tit. até 16-24 mg/dia)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose diária ou dividida",
+            "ajusteRenal": "ClCr <30: usar com cautela",
+            "ajusteHepatico": "Insuficiência moderada a grave: cautela; preferir via transdérmica."
+          }
+        },
+        {
+          "titulo": "Transdérmico – dor crônica",
+          "descricaoDose": "5-20 mcg/h; troca a cada 7 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "5-20 mcg/h (adesivo 7 dias)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "TD",
+            "intervalo": "troca a cada 7 dias",
+            "ajusteRenal": "ClCr <30: usar com cautela",
+            "ajusteHepatico": "Insuficiência moderada a grave: cautela."
+          }
+        },
+        {
+          "titulo": "Dor IV/IM (idoso)",
+          "descricaoDose": "0,15-0,3 mg IV/IM a cada 6-8h (reduzir ~50%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.15,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": "0,15-0,3 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30: usar com cautela",
+            "ajusteHepatico": "Cautela em insuficiência hepática."
+          }
+        },
+        {
+          "titulo": "Uso hospitalar IV/IM (pediátrico – off-label)",
+          "descricaoDose": "2-6 mcg/kg IV ou IM a cada 6-8h (máx 0,3 mg/dose). Uso restrito.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30: usar com cautela",
+            "ajusteHepatico": "Cautela em insuficiência hepática."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide; agonista parcial μ-opioide; antagonista κ-opioide",
+      "apresentacoes": [
+        { "forma": "Comprimido sublingual 200 mcg, 400 mcg, 2 mg, 8 mg", "obs": "Temgesic®, Subutex®" },
+        { "forma": "Adesivo transdérmico 5, 10, 15, 20 mcg/h", "obs": "Troca a cada 7 dias" },
+        { "forma": "Solução injetável 0,3 mg/mL", "obs": "IV/IM – uso hospitalar" },
+        { "forma": "Filme bucal 75-900 mcg", "obs": "Belbuca® – absorção transmucosa" }
+      ],
+      "preparo": [
+        { "diluicao": "Sublingual: não cortar ou mastigar", "concentracao": "Deixar dissolver completamente" },
+        { "diluicao": "Transdérmico: aplicar em pele íntegra (tórax, deltoide)", "concentracao": "Evitar calor local" },
+        { "diluicao": "IV/IM: diluir com SF 0,9% se necessário; IV em 2-3 min", "concentracao": "0,3 mg/mL" }
+      ],
+      "observacoes": [
+        "Agonista parcial com efeito teto para depressão respiratória; menor risco de overdose que agonistas plenos",
+        "Meia-vida longa: 20-70 h (média 37 h); alta afinidade ao receptor μ – antagonismo difícil",
+        "Reversão com naloxona pode ser parcial; considerar bolus repetidos e infusão contínua se intoxicação",
+        "Evitar associação com benzodiazepínicos/álcool sem monitorização; risco de depressão respiratória",
+        "Pode precipitar abstinência se iniciada em usuários de agonistas plenos; respeitar intervalo 12-24 h",
+        "Inibidores CYP3A4 aumentam níveis; indutores (rifampicina, carbamazepina) reduzem – reavaliar dose"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose em ~50% (ex.: 0,15-0,3 mg IV/IM). Início baixo, titular conforme resposta.",
+        "renal": "Não requer ajuste em IR leve a moderada. ClCr <30 mL/min: usar com cautela.",
+        "hepatico": "Cautela em insuficiência hepática moderada a grave. Evitar SL/IV em hepatopatia descompensada; preferir via transdérmica com titulação lenta."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Buprenorfina IV/IM (adulto)",
+        "doseTexto": "0,3-0,6 mg IV/IM a cada 6-8h",
+        "doseMin": 0.3,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,3-0,6 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Buprenorfina sublingual – dor",
+        "doseTexto": "200-400 mcg SL a cada 6-8h",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Buprenorfina sublingual – dependência",
+        "doseTexto": "2-4 mg/dia (tit. até 16-24 mg/dia)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-4 mg/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Buprenorfina transdérmico",
+        "doseTexto": "5-20 mcg/h (adesivo 7 dias)",
+        "doseMin": 5,
+        "doseMax": 20,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "5-20 mcg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Buprenorphine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute pain IV/IM (adult)",
+          "descricaoDose": "0.3-0.6 mg IV or IM every 6-8h (slow 2-3 min if IV)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.3,
+            "doseMax": 0.6,
+            "doseMaxima": null,
+            "doseFixa": "0.3-0.6 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: use with caution",
+            "ajusteHepatico": "Moderate to severe insufficiency: caution; prefer transdermal with slow titration."
+          }
+        },
+        {
+          "titulo": "Sublingual – pain (adult)",
+          "descricaoDose": "200-400 mcg SL every 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": null,
+            "doseFixa": "200-400 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: use with caution",
+            "ajusteHepatico": "Moderate to severe insufficiency: caution; prefer transdermal."
+          }
+        },
+        {
+          "titulo": "Sublingual – opioid dependence",
+          "descricaoDose": "2-4 mg/day initial; titrate to 16-24 mg/day (max 24 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 24,
+            "doseFixa": "2-4 mg/day (tit. to 16-24 mg/day)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "daily or divided doses",
+            "ajusteRenal": "ClCr <30: use with caution",
+            "ajusteHepatico": "Moderate to severe insufficiency: caution; prefer transdermal."
+          }
+        },
+        {
+          "titulo": "Transdermal – chronic pain",
+          "descricaoDose": "5-20 mcg/h; change every 7 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "5-20 mcg/h (patch 7 days)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "TD",
+            "intervalo": "change every 7 days",
+            "ajusteRenal": "ClCr <30: use with caution",
+            "ajusteHepatico": "Moderate to severe insufficiency: caution."
+          }
+        },
+        {
+          "titulo": "Pain IV/IM (elderly)",
+          "descricaoDose": "0.15-0.3 mg IV/IM every 6-8h (reduce ~50%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.15,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": "0.15-0.3 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: use with caution",
+            "ajusteHepatico": "Caution in hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Hospital use IV/IM (pediatric – off-label)",
+          "descricaoDose": "2-6 mcg/kg IV or IM every 6-8h (max 0.3 mg/dose). Restricted use.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: use with caution",
+            "ajusteHepatico": "Caution in hepatic insufficiency."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioid analgesic; partial μ-opioid agonist; κ-opioid antagonist",
+      "apresentacoes": [
+        { "forma": "Sublingual tablet 200 mcg, 400 mcg, 2 mg, 8 mg", "obs": "Temgesic®, Subutex®" },
+        { "forma": "Transdermal patch 5, 10, 15, 20 mcg/h", "obs": "Change every 7 days" },
+        { "forma": "Injection 0.3 mg/mL", "obs": "IV/IM – hospital use" },
+        { "forma": "Buccal film 75-900 mcg", "obs": "Belbuca® – transmucosal" }
+      ],
+      "preparo": [
+        { "diluicao": "Sublingual: do not cut or chew", "concentracao": "Let dissolve completely" },
+        { "diluicao": "Transdermal: apply to intact skin (chest, deltoid)", "concentracao": "Avoid local heat" },
+        { "diluicao": "IV/IM: dilute with NS if needed; IV over 2-3 min", "concentracao": "0.3 mg/mL" }
+      ],
+      "observacoes": [
+        "Partial agonist with ceiling effect for respiratory depression; lower overdose risk than full agonists",
+        "Long half-life: 20-70 h (avg 37 h); high μ-receptor affinity – antagonism difficult",
+        "Naloxone reversal may be partial; consider repeated bolus and continuous infusion if overdose",
+        "Avoid combination with benzodiazepines/alcohol without monitoring; respiratory depression risk",
+        "May precipitate withdrawal if started in full-agonist users; allow 12-24 h interval",
+        "CYP3A4 inhibitors increase levels; inducers (rifampin, carbamazepine) decrease – reassess dose"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose ~50% (e.g. 0.15-0.3 mg IV/IM). Start low, titrate to response.",
+        "renal": "No adjustment in mild-moderate renal impairment. ClCr <30 mL/min: use with caution.",
+        "hepatico": "Caution in moderate to severe hepatic insufficiency. Avoid SL/IV in decompensated liver disease; prefer transdermal with slow titration."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Buprenorphine IV/IM (adult)",
+        "doseTexto": "0.3-0.6 mg IV/IM every 6-8h",
+        "doseMin": 0.3,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.3-0.6 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Buprenorphine sublingual – pain",
+        "doseTexto": "200-400 mcg SL every 6-8h",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Buprenorphine sublingual – dependence",
+        "doseTexto": "2-4 mg/day (tit. to 16-24 mg/day)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-4 mg/day",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Buprenorphine transdermal",
+        "doseTexto": "5-20 mcg/h (patch 7 days)",
+        "doseMin": 5,
+        "doseMax": 20,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "5-20 mcg/h",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Buprenorfina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor agudo IV/IM (adulto)",
+          "descricaoDose": "0,3-0,6 mg IV o IM cada 6-8h (lento 2-3 min si IV)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.3,
+            "doseMax": 0.6,
+            "doseMaxima": null,
+            "doseFixa": "0,3-0,6 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30: usar con precaución",
+            "ajusteHepatico": "Insuficiencia moderada a grave: precaución; preferir vía transdérmica con titulación lenta."
+          }
+        },
+        {
+          "titulo": "Sublingual – dolor (adulto)",
+          "descricaoDose": "200-400 mcg SL cada 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": null,
+            "doseFixa": "200-400 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30: usar con precaución",
+            "ajusteHepatico": "Insuficiencia moderada a grave: precaución; preferir transdérmico."
+          }
+        },
+        {
+          "titulo": "Sublingual – dependencia de opioides",
+          "descricaoDose": "2-4 mg/día inicial; titulación hasta 16-24 mg/día (máx 24 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 24,
+            "doseFixa": "2-4 mg/día (tit. hasta 16-24 mg/día)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis diaria o fraccionada",
+            "ajusteRenal": "ClCr <30: usar con precaución",
+            "ajusteHepatico": "Insuficiencia moderada a grave: precaución; preferir transdérmico."
+          }
+        },
+        {
+          "titulo": "Transdérmico – dolor crónico",
+          "descricaoDose": "5-20 mcg/h; cambio cada 7 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "5-20 mcg/h (parche 7 días)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "TD",
+            "intervalo": "cambio cada 7 días",
+            "ajusteRenal": "ClCr <30: usar con precaución",
+            "ajusteHepatico": "Insuficiencia moderada a grave: precaución."
+          }
+        },
+        {
+          "titulo": "Dolor IV/IM (anciano)",
+          "descricaoDose": "0,15-0,3 mg IV/IM cada 6-8h (reducir ~50%)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.15,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": "0,15-0,3 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30: usar con precaución",
+            "ajusteHepatico": "Precaución en insuficiencia hepática."
+          }
+        },
+        {
+          "titulo": "Uso hospitalario IV/IM (pediátrico – off-label)",
+          "descricaoDose": "2-6 mcg/kg IV o IM cada 6-8h (máx 0,3 mg/dosis). Uso restringido.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30: usar con precaución",
+            "ajusteHepatico": "Precaución en insuficiencia hepática."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide; agonista parcial μ-opioide; antagonista κ-opioide",
+      "apresentacoes": [
+        { "forma": "Comprimido sublingual 200 mcg, 400 mcg, 2 mg, 8 mg", "obs": "Temgesic®, Subutex®" },
+        { "forma": "Parche transdérmico 5, 10, 15, 20 mcg/h", "obs": "Cambio cada 7 días" },
+        { "forma": "Solución inyectable 0,3 mg/mL", "obs": "IV/IM – uso hospitalario" },
+        { "forma": "Película bucal 75-900 mcg", "obs": "Belbuca® – absorción transmucosa" }
+      ],
+      "preparo": [
+        { "diluicao": "Sublingual: no cortar ni masticar", "concentracao": "Dejar disolver por completo" },
+        { "diluicao": "Transdérmico: aplicar en piel íntegra (tórax, deltoides)", "concentracao": "Evitar calor local" },
+        { "diluicao": "IV/IM: diluir con SF 0,9% si es necesario; IV en 2-3 min", "concentracao": "0,3 mg/mL" }
+      ],
+      "observacoes": [
+        "Agonista parcial con efecto techo para depresión respiratoria; menor riesgo de sobredosis que agonistas puros",
+        "Vida media larga: 20-70 h (media 37 h); alta afinidad al receptor μ – antagonismo difícil",
+        "Reversión con naloxona puede ser parcial; considerar bolos repetidos e infusión continua si intoxicación",
+        "Evitar asociación con benzodiazepinas/alcohol sin monitorización; riesgo de depresión respiratoria",
+        "Puede precipitar abstinencia si se inicia en usuarios de agonistas puros; respetar intervalo 12-24 h",
+        "Inhibidores CYP3A4 aumentan niveles; inductores (rifampicina, carbamazepina) reducen – revaluar dosis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis ~50% (ej.: 0,15-0,3 mg IV/IM). Inicio bajo, titular según respuesta.",
+        "renal": "No requiere ajuste en IR leve a moderada. ClCr <30 mL/min: usar con precaución.",
+        "hepatico": "Precaución en insuficiencia hepática moderada a grave. Evitar SL/IV en hepatopatía descompensada; preferir vía transdérmica con titulación lenta."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Buprenorfina IV/IM (adulto)",
+        "doseTexto": "0,3-0,6 mg IV/IM cada 6-8h",
+        "doseMin": 0.3,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,3-0,6 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Buprenorfina sublingual – dolor",
+        "doseTexto": "200-400 mcg SL cada 6-8h",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Buprenorfina sublingual – dependencia",
+        "doseTexto": "2-4 mg/día (tit. hasta 16-24 mg/día)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-4 mg/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Buprenorfina transdérmico",
+        "doseTexto": "5-20 mcg/h (parche 7 días)",
+        "doseMin": 5,
+        "doseMax": 20,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "5-20 mcg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "丁丙诺啡",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性疼痛 IV/IM（成人）",
+          "descricaoDose": "0.3-0.6 mg IV或IM 每6-8小时（IV时缓慢2-3分钟）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.3,
+            "doseMax": 0.6,
+            "doseMaxima": null,
+            "doseFixa": "0.3-0.6 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: 慎用",
+            "ajusteHepatico": "中重度肝功能不全：慎用；首选透皮给药并缓慢滴定。"
+          }
+        },
+        {
+          "titulo": "舌下 – 疼痛（成人）",
+          "descricaoDose": "200-400 mcg 舌下 每6-8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": null,
+            "doseFixa": "200-400 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: 慎用",
+            "ajusteHepatico": "中重度肝功能不全：慎用；首选透皮。"
+          }
+        },
+        {
+          "titulo": "舌下 – 阿片依赖",
+          "descricaoDose": "2-4 mg/日 起始；滴定至16-24 mg/日（最大24 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 24,
+            "doseFixa": "2-4 mg/日（滴定至16-24 mg/日）",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "daily or divided",
+            "ajusteRenal": "ClCr <30: 慎用",
+            "ajusteHepatico": "中重度肝功能不全：慎用；首选透皮。"
+          }
+        },
+        {
+          "titulo": "透皮 – 慢性疼痛",
+          "descricaoDose": "5-20 mcg/h；每7天更换",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "5-20 mcg/h（贴片7天）",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "TD",
+            "intervalo": "change every 7 days",
+            "ajusteRenal": "ClCr <30: 慎用",
+            "ajusteHepatico": "中重度肝功能不全：慎用。"
+          }
+        },
+        {
+          "titulo": "疼痛 IV/IM（老年）",
+          "descricaoDose": "0.15-0.3 mg IV/IM 每6-8小时（减量约50%）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.15,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": "0.15-0.3 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: 慎用",
+            "ajusteHepatico": "肝功能不全时慎用。"
+          }
+        },
+        {
+          "titulo": "院内 IV/IM（儿童 – 超说明书）",
+          "descricaoDose": "2-6 mcg/kg IV或IM 每6-8小时（最大0.3 mg/剂）。限制使用。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: 慎用",
+            "ajusteHepatico": "肝功能不全时慎用。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "阿片类镇痛药；μ阿片受体部分激动剂；κ阿片受体拮抗剂",
+      "apresentacoes": [
+        { "forma": "舌下片 200 mcg, 400 mcg, 2 mg, 8 mg", "obs": "Temgesic®, Subutex®" },
+        { "forma": "透皮贴剂 5, 10, 15, 20 mcg/h", "obs": "每7天更换" },
+        { "forma": "注射液 0.3 mg/mL", "obs": "IV/IM – 院内使用" },
+        { "forma": "颊膜 75-900 mcg", "obs": "Belbuca® – 黏膜吸收" }
+      ],
+      "preparo": [
+        { "diluicao": "舌下：勿切割或咀嚼", "concentracao": "完全溶解" },
+        { "diluicao": "透皮：涂于完整皮肤（胸、三角肌）", "concentracao": "避免局部加热" },
+        { "diluicao": "IV/IM：必要时用生理盐水稀释；IV 2-3分钟", "concentracao": "0.3 mg/mL" }
+      ],
+      "observacoes": [
+        "部分激动剂，呼吸抑制有封顶效应；较纯激动剂过量风险低",
+        "半衰期长：20-70小时（平均37 h）；μ受体亲和力高，拮抗困难",
+        "纳洛酮逆转可能不完全；过量时考虑重复推注及持续输注",
+        "避免与苯二氮䓬类/酒精联用且无监护；呼吸抑制风险",
+        "在纯激动剂使用者中可能诱发戒断；需间隔12-24小时",
+        "CYP3A4抑制剂升高浓度；诱导剂（利福平、卡马西平）降低 – 重评剂量"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量约50%（如0.15-0.3 mg IV/IM）。低起点，按反应滴定。",
+        "renal": "轻中度肾功能不全无需调整。ClCr <30 mL/min：慎用。",
+        "hepatico": "中重度肝功能不全慎用。失代偿肝病避免舌下/IV；首选透皮并缓慢滴定。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "丁丙诺啡 IV/IM（成人）",
+        "doseTexto": "0.3-0.6 mg IV/IM 每6-8小时",
+        "doseMin": 0.3,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.3-0.6 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "丁丙诺啡 舌下 – 疼痛",
+        "doseTexto": "200-400 mcg 舌下 每6-8小时",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "丁丙诺啡 舌下 – 依赖",
+        "doseTexto": "2-4 mg/日（滴定至16-24 mg/日）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2-4 mg/日",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "丁丙诺啡 透皮",
+        "doseTexto": "5-20 mcg/h（贴片7天）",
+        "doseMin": 5,
+        "doseMax": 20,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "5-20 mcg/h",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  }
+}

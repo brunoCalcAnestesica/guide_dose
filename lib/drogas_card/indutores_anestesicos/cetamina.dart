@@ -9,16 +9,18 @@ class MedicamentoCetamina {
   static const String idBulario = 'cetamina';
 
   static Future<Map<String, dynamic>> carregarBulario() async {
-    final String jsonStr = await rootBundle.loadString('assets/medicamentos/cetamina.json');
+    final String jsonStr =
+        await rootBundle.loadString('assets/medicamentos/cetamina.json');
     final Map<String, dynamic> jsonMap = json.decode(jsonStr);
     return jsonMap['PT']['bulario'];
   }
 
-  static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
+  static Widget buildCard(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
-    final isFavorito = favoritos.contains(nome);
 
     // Verificar se há indicações para a faixa etária atual
     if (!_temIndicacoesParaFaixaEtaria(faixaEtaria)) {
@@ -41,6 +43,25 @@ class MedicamentoCetamina {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
+
+    return _buildCardCetamina(
+      context,
+        peso,
+        faixaEtaria,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static bool _temIndicacoesParaFaixaEtaria(String faixaEtaria) {
     // Cetamina tem indicações para todas as faixas etárias
@@ -57,35 +78,45 @@ class MedicamentoCetamina {
     }
   }
 
-  static Widget _buildCardCetamina(BuildContext context, double peso, String faixaEtaria, bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
+  static Widget _buildCardCetamina(
+      BuildContext context,
+      double peso,
+      String faixaEtaria,
+      bool isAdulto,
+      bool isFavorito,
+      VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         // 1. CLASSE
         const SizedBox(height: 16),
-        const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Classe',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('Anestésico dissociativo', 'Antagonista NMDA'),
-        
+
         // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('Ampola 500mg/10mL', '50 mg/mL'),
         _linhaPreparo('Ampola 100mg/2mL', '50 mg/mL'),
-        
+
         // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-        const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Preparo',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('100mg + 50mL SF', '2 mg/mL'),
         _linhaPreparo('50mg + 50mL SF', '1 mg/mL'),
         _linhaPreparo('50mg + 100mL SF', '0,5 mg/mL'),
         _linhaPreparo('Bolus: puro da ampola', 'IV lento, IM ou SC'),
-        
+
         // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
           _linhaIndicacaoDoseCalculada(
@@ -138,16 +169,18 @@ class MedicamentoCetamina {
             descricaoDose: '0,5-1,5 mg/kg/h IV contínua',
           ),
         ],
-        
+
         // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
-        const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Infusão Contínua',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _buildConversorInfusao(peso, isAdulto),
-        
+
         // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
-        const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _textoObs('Mantém reflexos de VA, PA e drive respiratório'),
         _textoObs('Início IV: 30-60s | IM: 3-5min | Duração: 10-20min'),
@@ -209,8 +242,12 @@ class MedicamentoCetamina {
                 children: [
                   TextSpan(text: texto),
                   if (marca.isNotEmpty) ...[
-                    const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                    const TextSpan(
+                        text: ' | ',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(
+                        text: marca,
+                        style: const TextStyle(fontStyle: FontStyle.italic)),
                   ],
                 ],
               ),
@@ -242,7 +279,8 @@ class MedicamentoCetamina {
       double doseMax = dosePorKgMaxima * peso;
       if (doseMaxima != null && doseMax > doseMaxima) doseMax = doseMaxima;
       if (doseMin > doseMax) doseMin = doseMax;
-      textoDose = '${doseMin.toStringAsFixed(0)}–${doseMax.toStringAsFixed(0)} $unidade';
+      textoDose =
+          '${doseMin.toStringAsFixed(0)}–${doseMax.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(
@@ -318,7 +356,8 @@ class MedicamentoCetamina {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          const Text('• ',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
           Expanded(
             child: Text(texto, style: const TextStyle(fontSize: 13)),
           ),

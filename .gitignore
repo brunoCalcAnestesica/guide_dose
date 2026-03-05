@@ -32,6 +32,12 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+.env
+.env.supabase
+.env*.local
+netlify/functions/.env
+cahves_api_openia.env
+auth/config.js
 
 # Symbolication related
 app.*.symbols
@@ -54,3 +60,12 @@ app.*.map.json
 # FlutterFlow (adicionado automaticamente pelo setup_flutterflow_git.sh se necessário)
 # .flutterflow/
 # lib/flutter_flow/ (gerado automaticamente - pode ser commitado se necessário)
+
+# Scripts node_modules
+scripts/node_modules/
+
+# Projeto de referencia (C# MAUI)
+CalculadoraAnestesica-main-2/
+
+# Local Netlify folder
+.netlify

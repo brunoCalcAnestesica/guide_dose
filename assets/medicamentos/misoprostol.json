@@ -1,0 +1,38 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Misoprostol",
+      "nomesComerciais": ["Cytotec®", "Prostokos®"],
+      "classeTerapeutica": "Uterotônico / Prostaglandina E1 (análogo sintético)",
+      "mecanismoAcao": "Análogo sintético da prostaglandina E1. Promove contração do miométrio e amadurecimento cervical. Aumenta frequência e intensidade das contrações uterinas.",
+      "indicacoes": ["HPP (hemorragia pós-parto)", "Indução de trabalho de parto", "Amadurecimento cervical", "Abortamento incompleto/retido"],
+      "apresentacoes": ["Comprimidos vaginais 25 mcg, 200 mcg", "Comprimidos orais/sublinguais 200 mcg"],
+      "posologia": {
+        "HPP": {
+          "dose": "800-1000 mcg via retal ou sublingual",
+          "observacao": "Via retal: absorção mais lenta, duração maior"
+        },
+        "inducaoParto": {
+          "vaginal": "25 mcg a cada 6 horas (máx 150 mcg/dia)",
+          "oral": "25-50 mcg a cada 4 horas"
+        },
+        "amadurecimentoCervical": {
+          "dose": "25-50 mcg vaginal a cada 4-6 horas"
+        },
+        "abortamento": {
+          "dose": "400-800 mcg vaginal ou sublingual"
+        }
+      },
+      "viasAdministracao": {
+        "vaginal": {"inicio": "20-30 min", "pico": "60-120 min"},
+        "sublingual": {"inicio": "10-15 min", "pico": "30 min"},
+        "retal": {"inicio": "30-40 min", "pico": "60-90 min"},
+        "oral": {"inicio": "8-15 min", "pico": "30 min"}
+      },
+      "contraindicacoes": ["Cesárea anterior (risco de rotura uterina)", "Cicatriz uterina prévia", "Apresentação anômala", "Placenta prévia", "Sofrimento fetal", "Hipersensibilidade a prostaglandinas"],
+      "efeitosAdversos": ["Taquissistolia/Hipertonia uterina", "Náusea, vômitos, diarreia", "Febre, calafrios", "Cefaleia"],
+      "observacoes": ["Uso exclusivamente obstétrico", "Termoestável (vantagem em países quentes)", "Monitorar dinâmica uterina", "Intervalo mínimo 4-6h entre doses"],
+      "categoriaGravidez": "X (fora de indicação obstétrica)"
+    }
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "PT": {
+    "nome": "Plasma Fresco Congelado",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Coagulopatia / CIVD com sangramento (INR >1,5)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme INR e sangramento",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversão urgente de warfarina",
+          "descricaoDose": "15-30 mL/kg IV (preferir CCP se disponível)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou conforme INR",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PTT (púrpura trombocitopênica trombótica)",
+          "descricaoDose": "Plasmaférese com PFC (troca por volume)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Plasmaférese com PFC",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme protocolo de plasmaférese",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Componente sanguíneo (fatores de coagulação lábeis V e VIII, albumina, imunoglobulinas)",
+      "apresentacoes": [
+        { "forma": "Bolsa 200-250 mL (1 unidade)", "obs": "PFC - congelado em até 8h da coleta" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso após descongelamento", "concentracao": "Plasma total - 1 unidade = 200-250 mL" },
+        { "diluicao": "Descongelar 37°C em banho-maria (20-30 min)", "concentracao": "Usar em até 24h se mantido a 2-6°C" }
+      ],
+      "observacoes": [
+        "Compatibilidade ABO necessária (Rh não obrigatório)",
+        "1 unidade eleva fatores de coagulação em aproximadamente 3-5%",
+        "Preferir CCP (concentrado de complexo protrombínico) para reversão de warfarina quando disponível (mais rápido)",
+        "TRALI: complicação grave (1:5000 transfusões) - suporte ventilatório se necessário",
+        "Monitorar sinais vitais e sobrecarga volêmica, especialmente em cardiopatas",
+        "NÃO usar como expansor volêmico isolado (usar cristaloides)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar volemia e função cardíaca; risco de TACO (sobrecarga circulatória).",
+        "renal": "Não requer ajuste. Hemoderivado; uso conforme indicação clínica e laboratorial.",
+        "hepatico": "Frequentemente indicado em coagulopatia de hepatopatia. Avaliar causa e alvo de INR; considerar vitamina K e CCP conforme protocolo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Plasma Fresco (coagulopatia)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Plasma Fresco (reversão warfarina)",
+        "doseTexto": "15-30 mL/kg IV",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Fresh Frozen Plasma",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Coagulopathy / DIC with bleeding (INR >1.5)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per INR and bleeding",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Urgent warfarin reversal",
+          "descricaoDose": "15-30 mL/kg IV (prefer PCC if available)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose or per INR",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "TTP (thrombotic thrombocytopenic purpura)",
+          "descricaoDose": "Plasmapheresis with FFP (volume exchange)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Plasmapheresis with FFP",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per plasmapheresis protocol",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Blood component - Labile coagulation factors V and VIII, albumin, immunoglobulins",
+      "apresentacoes": [
+        { "forma": "Bag 200-250 mL (1 unit)", "obs": "FFP - frozen within 8h of collection" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready to use after thawing", "concentracao": "Whole plasma - 1 unit = 200-250 mL" },
+        { "diluicao": "Thaw 37°C water bath (20-30 min)", "concentracao": "Use within 24h if kept at 2-6°C" }
+      ],
+      "observacoes": [
+        "ABO compatibility required (Rh not mandatory)",
+        "1 unit raises coagulation factors by approximately 3-5%",
+        "Prefer PCC (prothrombin complex concentrate) for warfarin reversal when available (faster)",
+        "TRALI: serious complication (1:5000 transfusions) - ventilatory support if needed",
+        "Monitor vital signs and volume overload, especially in cardiac patients",
+        "Do NOT use as sole volume expander (use crystalloids)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor volume status and cardiac function; risk of TACO (transfusion-associated circulatory overload).",
+        "renal": "No adjustment. Blood product; use per clinical and laboratory indication.",
+        "hepatico": "Often indicated in liver disease coagulopathy. Assess cause and INR target; consider vitamin K and PCC per protocol."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "FFP (coagulopathy)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "FFP (warfarin reversal)",
+        "doseTexto": "15-30 mL/kg IV",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Plasma Fresco Congelado",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Coagulopatía / CIVD con sangrado (INR >1,5)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según INR y sangrado",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Reversión urgente de warfarina",
+          "descricaoDose": "15-30 mL/kg IV (preferir CCP si disponible)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o según INR",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "PTT (púrpura trombocitopénica trombótica)",
+          "descricaoDose": "Plasmaféresis con PFC (recambio por volumen)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Plasmaféresis con PFC",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según protocolo de plasmaféresis",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Componente sanguíneo (factores de coagulación V y VIII, albúmina, inmunoglobulinas)",
+      "apresentacoes": [
+        { "forma": "Bolsa 200-250 mL (1 unidad)", "obs": "PFC - congelado en hasta 8h de la recolección" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso tras descongelamiento", "concentracao": "Plasma total - 1 unidad = 200-250 mL" },
+        { "diluicao": "Descongelar 37°C en baño María (20-30 min)", "concentracao": "Usar en hasta 24h si se mantiene a 2-6°C" }
+      ],
+      "observacoes": [
+        "Compatibilidad ABO necesaria (Rh no obligatorio)",
+        "1 unidad eleva factores de coagulación aproximadamente 3-5%",
+        "Preferir CCP para reversión de warfarina cuando esté disponible (más rápido)",
+        "TRALI: complicación grave (1:5000 transfusiones) - soporte ventilatorio si es necesario",
+        "Monitorizar signos vitales y sobrecarga volémica, especialmente en cardiópatas",
+        "NO usar como expansor volémico aislado (usar cristaloides)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar volemia y función cardíaca; riesgo de TACO.",
+        "renal": "No requiere ajuste. Hemoderivado; uso según indicación clínica y analítica.",
+        "hepatico": "Frecuentemente indicado en coagulopatía de hepatopatía. Valorar causa y objetivo de INR; considerar vitamina K y CCP según protocolo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "PFC (coagulopatía)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "PFC (reversión warfarina)",
+        "doseTexto": "15-30 mL/kg IV",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "新鲜冰冻血浆",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "凝血病/弥散性血管内凝血伴出血 (INR >1.5)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "根据INR及出血情况",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "华法林紧急逆转",
+          "descricaoDose": "15-30 mL/kg IV（如有PCC优先使用）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次或根据INR",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TTP（血栓性血小板减少性紫癜）",
+          "descricaoDose": "血浆置换使用FFP（容积交换）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "血浆置换使用FFP",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "按血浆置换方案",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "血液制品 - 凝血因子V、VIII、白蛋白、免疫球蛋白",
+      "apresentacoes": [
+        { "forma": "袋装 200-250 mL（1单位）", "obs": "FFP - 采集后8小时内冷冻" }
+      ],
+      "preparo": [
+        { "diluicao": "解冻后即用", "concentracao": "全血浆 - 1单位 = 200-250 mL" },
+        { "diluicao": "37°C水浴解冻（20-30分钟）", "concentracao": "2-6°C保存24小时内使用" }
+      ],
+      "observacoes": [
+        "需ABO相容（Rh非必须）",
+        "1单位约提高凝血因子3-5%",
+        "华法林逆转时如有PCC优先使用（起效更快）",
+        "TRALI：严重并发症（1:5000输血）- 必要时呼吸支持",
+        "监测生命体征及容量负荷，心脏病患者尤其注意",
+        "不可单独用作容量扩张剂（使用晶体液）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调整剂量。监测容量及心功能；注意TACO风险。",
+        "renal": "无需调整。血液制品；按临床及实验室指征使用。",
+        "hepatico": "肝病凝血病常用。评估原因及INR目标；根据方案考虑维生素K及PCC。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "FFP（凝血病）",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "FFP（华法林逆转）",
+        "doseTexto": "15-30 mL/kg IV",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  }
+}

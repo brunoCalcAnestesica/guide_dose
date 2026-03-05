@@ -1,0 +1,682 @@
+{
+  "PT": {
+    "nome": "Captopril",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Urgência hipertensiva",
+          "descricaoDose": "25 mg VO sublingual (início 5-15 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única (repetir se necessário)",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hipertensão arterial crônica",
+          "descricaoDose": "12,5-25 mg VO 2-3x/dia, titular até 50 mg 3x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "12,5-50 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/dia",
+            "ajusteRenal": "ClCr 30-50: reduzir 25%; ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Insuficiência cardíaca",
+          "descricaoDose": "6,25-25 mg VO 3x/dia, titular conforme tolerância",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 25,
+            "doseMaxima": 50,
+            "doseFixa": "6,25-25 mg VO 3x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pós-infarto do miocárdio",
+          "descricaoDose": "6,25 mg VO inicial, titular até 50 mg 3x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "6,25 mg inicial",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hipertensão pediátrica",
+          "descricaoDose": "0,3-0,5 mg/kg/dose VO 2-3x/dia (máx 6 mg/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/dia",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Inibidor da ECA (IECA)",
+      "apresentacoes": [
+        { "forma": "Comprimido 12,5 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 25 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 50 mg", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Administração oral - 1h antes ou 2h após refeições", "concentracao": "" },
+        { "diluicao": "Sublingual na urgência: início de ação 5-15 min", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Primeira dose pode causar hipotensão marcada; monitorar PA",
+        "Tomar 1h antes ou 2h após refeições (absorção reduzida com alimentos)",
+        "Meia-vida curta (~2h): múltiplas doses diárias necessárias",
+        "Contraindicado na gestação (teratogênico) e em estenose bilateral da artéria renal",
+        "Evitar suplementos de K+ e diuréticos poupadores de K+ (risco de hipercalemia)",
+        "Angioedema raro porém grave; suspender e não reintroduzir IECA"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com dose baixa (6,25-12,5 mg); risco de hipotensão na primeira dose.",
+        "renal": "ClCr 30-50: 75% da dose ou intervalo 12-18h; ClCr <30: 50% da dose ou intervalo 24h. Contraindicado em estenose bilateral da artéria renal.",
+        "hepatico": "Metabolismo parcialmente hepático. Usar com cautela em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Captopril (adulto - urgência)",
+        "doseTexto": "25 mg VO sublingual",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Captopril (adulto - HAC)",
+        "doseTexto": "12,5-25 mg VO 2-3x/dia (máx 50 mg 3x/dia)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12,5-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Captopril (pediátrico)",
+        "doseTexto": "0,3-0,5 mg/kg/dose VO 2-3x/dia (máx 6 mg/kg/dia)",
+        "doseMin": 0.3,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Captopril",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypertensive urgency",
+          "descricaoDose": "25 mg PO sublingual (onset 5-15 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose (repeat if needed)",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Chronic hypertension",
+          "descricaoDose": "12.5-25 mg PO 2-3x/day, titrate up to 50 mg 3x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "12.5-50 mg PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2-3x/day",
+            "ajusteRenal": "CrCl 30-50: reduce 25%; CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Heart failure",
+          "descricaoDose": "6.25-25 mg PO 3x/day, titrate per tolerance",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 25,
+            "doseMaxima": 50,
+            "doseFixa": "6.25-25 mg PO 3x/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "3x/day",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Post-MI",
+          "descricaoDose": "6.25 mg PO initial, titrate up to 50 mg 3x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "6.25 mg initial",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "3x/day",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric hypertension",
+          "descricaoDose": "0.3-0.5 mg/kg/dose PO 2-3x/day (max 6 mg/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2-3x/day",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "ACE inhibitor (ACEI)",
+      "apresentacoes": [
+        { "forma": "Tablet 12.5 mg", "obs": "Oral" },
+        { "forma": "Tablet 25 mg", "obs": "Oral" },
+        { "forma": "Tablet 50 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral administration - 1h before or 2h after meals", "concentracao": "" },
+        { "diluicao": "Sublingual in urgency: onset 5-15 min", "concentracao": "" }
+      ],
+      "observacoes": [
+        "First dose may cause marked hypotension; monitor BP",
+        "Take 1h before or 2h after meals (absorption reduced with food)",
+        "Short half-life (~2h): multiple daily doses required",
+        "Contraindicated in pregnancy (teratogenic) and bilateral renal artery stenosis",
+        "Avoid K+ supplements and K+-sparing diuretics (hyperkalemia risk)",
+        "Angioedema rare but serious; discontinue and do not reintroduce ACEI"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with low dose (6.25-12.5 mg); first-dose hypotension risk.",
+        "renal": "CrCl 30-50: 75% dose or 12-18h interval; CrCl <30: 50% dose or 24h interval. Contraindicated in bilateral renal artery stenosis.",
+        "hepatico": "Partially hepatically metabolized. Use with caution in severe hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Captopril (adult - urgency)",
+        "doseTexto": "25 mg PO sublingual",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Captopril (adult - chronic HTN)",
+        "doseTexto": "12.5-25 mg PO 2-3x/day (max 50 mg 3x/day)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12.5-50 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Captopril (pediatric)",
+        "doseTexto": "0.3-0.5 mg/kg/dose PO 2-3x/day (max 6 mg/kg/day)",
+        "doseMin": 0.3,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Captopril",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Urgencia hipertensiva",
+          "descricaoDose": "25 mg VO sublingual (inicio 5-15 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única (repetir si es necesario)",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hipertensión arterial crónica",
+          "descricaoDose": "12,5-25 mg VO 2-3x/día, titular hasta 50 mg 3x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "12,5-50 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/día",
+            "ajusteRenal": "ClCr 30-50: reducir 25%; ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Insuficiencia cardíaca",
+          "descricaoDose": "6,25-25 mg VO 3x/día, titular según tolerancia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 25,
+            "doseMaxima": 50,
+            "doseFixa": "6,25-25 mg VO 3x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/día",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Post-infarto de miocardio",
+          "descricaoDose": "6,25 mg VO inicial, titular hasta 50 mg 3x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "6,25 mg inicial",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3x/día",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hipertensión pediátrica",
+          "descricaoDose": "0,3-0,5 mg/kg/dosis VO 2-3x/día (máx 6 mg/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/día",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Inhibidor de la ECA (IECA)",
+      "apresentacoes": [
+        { "forma": "Comprimido 12,5 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 25 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 50 mg", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Administración oral - 1h antes o 2h después de comidas", "concentracao": "" },
+        { "diluicao": "Sublingual en urgencia: inicio de acción 5-15 min", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Primera dosis puede causar hipotensión marcada; monitorizar PA",
+        "Tomar 1h antes o 2h después de comidas (absorción reducida con alimentos)",
+        "Vida media corta (~2h): múltiples dosis diarias necesarias",
+        "Contraindicado en embarazo (teratogénico) y estenosis bilateral de arteria renal",
+        "Evitar suplementos de K+ y diuréticos ahorradores de K+ (riesgo de hiperpotasemia)",
+        "Angioedema raro pero grave; suspender y no reintroducir IECA"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis baja (6,25-12,5 mg); riesgo de hipotensión en primera dosis.",
+        "renal": "ClCr 30-50: 75% de dosis o intervalo 12-18h; ClCr <30: 50% de dosis o intervalo 24h. Contraindicado en estenosis bilateral de arteria renal.",
+        "hepatico": "Metabolismo parcialmente hepático. Usar con precaución en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Captopril (adulto - urgencia)",
+        "doseTexto": "25 mg VO sublingual",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Captopril (adulto - HTA crónica)",
+        "doseTexto": "12,5-25 mg VO 2-3x/día (máx 50 mg 3x/día)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12,5-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Captopril (pediátrico)",
+        "doseTexto": "0,3-0,5 mg/kg/dosis VO 2-3x/día (máx 6 mg/kg/día)",
+        "doseMin": 0.3,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "卡托普利",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "高血压急症",
+          "descricaoDose": "25 mg 口服舌下（5-15分钟起效）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "单次剂量（必要时重复）",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "慢性高血压",
+          "descricaoDose": "12.5-25 mg 口服 每日2-3次，可滴定至50 mg 每日3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "12.5-50 mg 口服",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "ClCr 30-50: 减量25%；ClCr <30: 减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "心力衰竭",
+          "descricaoDose": "6.25-25 mg 口服 每日3次，根据耐受性滴定",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 25,
+            "doseMaxima": 50,
+            "doseFixa": "6.25-25 mg 口服 每日3次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日3次",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "心肌梗死后",
+          "descricaoDose": "6.25 mg 口服 初始，可滴定至50 mg 每日3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6.25,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "6.25 mg 初始",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日3次",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童高血压",
+          "descricaoDose": "0.3-0.5 mg/kg/剂 口服 每日2-3次（最大6 mg/kg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "ACE抑制剂（ACEI）",
+      "apresentacoes": [
+        { "forma": "片剂 12.5 mg", "obs": "口服" },
+        { "forma": "片剂 25 mg", "obs": "口服" },
+        { "forma": "片剂 50 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "口服给药 - 餐前1小时或餐后2小时", "concentracao": "" },
+        { "diluicao": "紧急时舌下：5-15分钟起效", "concentracao": "" }
+      ],
+      "observacoes": [
+        "首剂可能引起明显低血压；监测血压",
+        "餐前1小时或餐后2小时服用（食物减少吸收）",
+        "半衰期短（约2小时）：需每日多次给药",
+        "妊娠（致畸）及双侧肾动脉狭窄禁用",
+        "避免补钾及保钾利尿剂（高钾风险）",
+        "血管性水肿罕见但严重；停药且勿再使用ACEI"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从低剂量开始（6.25-12.5 mg）；首剂低血压风险。",
+        "renal": "ClCr 30-50：75%剂量或12-18h间隔；ClCr <30：50%剂量或24h间隔。双侧肾动脉狭窄禁用。",
+        "hepatico": "部分经肝代谢。严重肝功能不全慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "卡托普利（成人-急症）",
+        "doseTexto": "25 mg 口服舌下",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "卡托普利（成人-慢性高血压）",
+        "doseTexto": "12.5-25 mg 口服 每日2-3次（最大50 mg 每日3次）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12.5-50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "卡托普利（儿童）",
+        "doseTexto": "0.3-0.5 mg/kg/剂 口服 每日2-3次（最大6 mg/kg/日）",
+        "doseMin": 0.3,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

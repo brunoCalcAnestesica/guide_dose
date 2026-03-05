@@ -1,0 +1,574 @@
+{
+  "PT": {
+    "nome": "Formoterol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Manutenção asma/DPOC (adulto)",
+          "descricaoDose": "12-24 mcg inalatório 12/12h (máx 48 mcg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 24,
+            "doseMaxima": 48,
+            "doseFixa": "12-24 mcg 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prevenção broncoespasmo por exercício",
+          "descricaoDose": "12 mcg inalatório 15 min antes do exercício",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "12 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "15 min antes do exercício",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção asma (pediátrico ≥5 anos)",
+          "descricaoDose": "12 mcg inalatório 12/12h (máx 24 mcg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 24,
+            "doseFixa": "12 mcg 12/12h",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Broncoespasmo agudo (resgate)",
+          "descricaoDose": "12 mcg inalatório conforme necessidade (início rápido 1-3 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "12 mcg",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Beta-2 agonista de longa duração (LABA); broncodilatador inalatório",
+      "apresentacoes": [
+        { "forma": "Cápsula inalatória 12 mcg", "obs": "Aerocaps" },
+        { "forma": "Pó inalatório 4,5 mcg/dose", "obs": "Turbuhaler" },
+        { "forma": "Pó inalatório 9 mcg/dose", "obs": "Turbuhaler" },
+        { "forma": "Solução para nebulização 20 mcg/2 mL", "obs": "Perforomist®" }
+      ],
+      "preparo": [
+        { "diluicao": "Cápsula: inserir no dispositivo e perfurar; inalar profundamente", "concentracao": "12 mcg/dose" },
+        { "diluicao": "Turbuhaler: girar base, inalar com força e profundidade", "concentracao": "4,5 ou 9 mcg/dose" },
+        { "diluicao": "Nebulização: 20 mcg (2 mL) no reservatório; inalar até névoa acabar", "concentracao": "10 mcg/mL" }
+      ],
+      "observacoes": [
+        "Único LABA com início de ação rápido (1-3 min) – pode ser usado como resgate",
+        "Na asma: SEMPRE associar a corticoide inalatório (CI); não usar em monoterapia",
+        "Disponível em combinação com budesonida (Symbicort®)",
+        "Não exceder 48 mcg/dia no adulto; 24 mcg/dia no pediátrico",
+        "Eficácia mantida com uso regular (sem taquifilaxia)",
+        "Cautela em cardiopatia, hipertireoidismo, diabetes, feocromocitoma"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar efeitos cardiovasculares e potássio.",
+        "renal": "Não requer ajuste. Uso inalatório com baixa biodisponibilidade sistêmica.",
+        "hepatico": "Metabolismo hepático. Cautela em insuficiência hepática grave; monitorar efeitos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Formoterol (adulto)",
+        "doseTexto": "12-24 mcg inalatório 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12-24 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Formoterol (pediátrico ≥5 anos)",
+        "doseTexto": "12 mcg inalatório 12/12h (máx 24 mcg/dia)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12 mcg",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Formoterol - Prevenção exercício",
+        "doseTexto": "12 mcg 15 min antes do exercício",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12 mcg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Formoterol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Asthma/COPD maintenance (adult)",
+          "descricaoDose": "12-24 mcg inhaled twice daily (max 48 mcg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 24,
+            "doseMaxima": 48,
+            "doseFixa": "12-24 mcg twice daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "twice daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Exercise-induced bronchospasm prevention",
+          "descricaoDose": "12 mcg inhaled 15 min before exercise",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "12 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "15 min before exercise",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Asthma maintenance (pediatric ≥5 years)",
+          "descricaoDose": "12 mcg inhaled twice daily (max 24 mcg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 24,
+            "doseFixa": "12 mcg twice daily",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "twice daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Acute bronchospasm (rescue)",
+          "descricaoDose": "12 mcg inhaled as needed (rapid onset 1-3 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "12 mcg",
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Long-acting beta-2 agonist (LABA); inhaled bronchodilator",
+      "apresentacoes": [
+        { "forma": "Inhalation capsule 12 mcg", "obs": "Aerocaps" },
+        { "forma": "Dry powder 4.5 mcg/dose", "obs": "Turbuhaler" },
+        { "forma": "Dry powder 9 mcg/dose", "obs": "Turbuhaler" },
+        { "forma": "Nebulization solution 20 mcg/2 mL", "obs": "Perforomist®" }
+      ],
+      "preparo": [
+        { "diluicao": "Capsule: insert in device and pierce; inhale deeply", "concentracao": "12 mcg/dose" },
+        { "diluicao": "Turbuhaler: twist base, inhale forcefully and deeply", "concentracao": "4.5 or 9 mcg/dose" },
+        { "diluicao": "Nebulization: 20 mcg (2 mL) in reservoir; inhale until mist is gone", "concentracao": "10 mcg/mL" }
+      ],
+      "observacoes": [
+        "Only LABA with rapid onset (1-3 min) – may be used as rescue",
+        "In asthma: ALWAYS combine with inhaled corticosteroid (ICS); do not use as monotherapy",
+        "Available in combination with budesonide (Symbicort®)",
+        "Do not exceed 48 mcg/day in adults; 24 mcg/day in children",
+        "Efficacy maintained with regular use (no tachyphylaxis)",
+        "Caution in heart disease, hyperthyroidism, diabetes, pheochromocytoma"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor cardiovascular effects and potassium.",
+        "renal": "No adjustment required. Inhalation has low systemic bioavailability.",
+        "hepatico": "Hepatic metabolism. Caution in severe hepatic impairment; monitor effects."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Formoterol (adult)",
+        "doseTexto": "12-24 mcg inhaled twice daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12-24 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Formoterol (pediatric ≥5 years)",
+        "doseTexto": "12 mcg inhaled twice daily (max 24 mcg/day)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12 mcg",
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Formoterol - Exercise prevention",
+        "doseTexto": "12 mcg 15 min before exercise",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12 mcg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Formoterol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Mantenimiento asma/EPOC (adulto)",
+          "descricaoDose": "12-24 mcg inhalado 12/12h (máx 48 mcg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 24,
+            "doseMaxima": 48,
+            "doseFixa": "12-24 mcg 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Prevención broncoespasmo por ejercicio",
+          "descricaoDose": "12 mcg inhalado 15 min antes del ejercicio",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "12 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "15 min antes del ejercicio",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento asma (pediátrico ≥5 años)",
+          "descricaoDose": "12 mcg inhalado 12/12h (máx 24 mcg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 24,
+            "doseFixa": "12 mcg 12/12h",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Broncoespasmo agudo (rescate)",
+          "descricaoDose": "12 mcg inhalado según necesidad (inicio rápido 1-3 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "12 mcg",
+            "faixaEtaria": "Todos",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Agonista beta-2 de larga duración (LABA); broncodilatador inhalatorio",
+      "apresentacoes": [
+        { "forma": "Cápsula inhalatoria 12 mcg", "obs": "Aerocaps" },
+        { "forma": "Polvo inhalatorio 4,5 mcg/dosis", "obs": "Turbuhaler" },
+        { "forma": "Polvo inhalatorio 9 mcg/dosis", "obs": "Turbuhaler" },
+        { "forma": "Solución para nebulización 20 mcg/2 mL", "obs": "Perforomist®" }
+      ],
+      "preparo": [
+        { "diluicao": "Cápsula: insertar en dispositivo y perforar; inhalar profundamente", "concentracao": "12 mcg/dosis" },
+        { "diluicao": "Turbuhaler: girar base, inhalar con fuerza y profundidad", "concentracao": "4,5 o 9 mcg/dosis" },
+        { "diluicao": "Nebulización: 20 mcg (2 mL) en reservorio; inhalar hasta fin de niebla", "concentracao": "10 mcg/mL" }
+      ],
+      "observacoes": [
+        "Único LABA de inicio rápido (1-3 min) – puede usarse como rescate",
+        "En asma: SIEMPRE asociar a corticoide inhalado (CI); no usar en monoterapia",
+        "Disponible en combinación con budesonida (Symbicort®)",
+        "No superar 48 mcg/día en adulto; 24 mcg/día en pediátrico",
+        "Eficacia mantenida con uso regular (sin taquifilaxia)",
+        "Precaución en cardiopatía, hipertiroidismo, diabetes, feocromocitoma"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar efectos cardiovasculares y potasio.",
+        "renal": "No requiere ajuste. Uso inhalatorio con baja biodisponibilidad sistémica.",
+        "hepatico": "Metabolismo hepático. Precaución en insuficiencia hepática grave; monitorizar efectos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Formoterol (adulto)",
+        "doseTexto": "12-24 mcg inhalado 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12-24 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Formoterol (pediátrico ≥5 años)",
+        "doseTexto": "12 mcg inhalado 12/12h (máx 24 mcg/día)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12 mcg",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Formoterol - Prevención ejercicio",
+        "doseTexto": "12 mcg 15 min antes del ejercicio",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12 mcg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "福莫特罗",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "哮喘/慢阻肺维持（成人）",
+          "descricaoDose": "12-24 mcg 吸入 每12小时（最大48 mcg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 24,
+            "doseMaxima": 48,
+            "doseFixa": "12-24 mcg 每12小时",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "吸入",
+            "intervalo": "每12小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "运动诱发支气管痉挛预防",
+          "descricaoDose": "运动前15分钟 12 mcg 吸入",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "12 mcg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "吸入",
+            "intervalo": "运动前15分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "哮喘维持（儿童≥5岁）",
+          "descricaoDose": "12 mcg 吸入 每12小时（最大24 mcg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 24,
+            "doseFixa": "12 mcg 每12小时",
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "吸入",
+            "intervalo": "每12小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "急性支气管痉挛（急救）",
+          "descricaoDose": "12 mcg 吸入 按需（起效快1-3分钟）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "12 mcg",
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "吸入",
+            "intervalo": "按需",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "长效β2受体激动剂（LABA）；吸入性支气管扩张剂",
+      "apresentacoes": [
+        { "forma": "吸入胶囊 12 mcg", "obs": "Aerocaps" },
+        { "forma": "干粉吸入 4.5 mcg/吸", "obs": "Turbuhaler" },
+        { "forma": "干粉吸入 9 mcg/吸", "obs": "Turbuhaler" },
+        { "forma": "雾化溶液 20 mcg/2 mL", "obs": "Perforomist®" }
+      ],
+      "preparo": [
+        { "diluicao": "胶囊：放入装置并刺破；深吸", "concentracao": "12 mcg/吸" },
+        { "diluicao": "Turbuhaler：旋转底座，用力深吸", "concentracao": "4.5或9 mcg/吸" },
+        { "diluicao": "雾化：20 mcg（2 mL）入贮液器；吸至雾尽", "concentracao": "10 mcg/mL" }
+      ],
+      "observacoes": [
+        "唯一起效快的LABA（1-3分钟）– 可作急救用",
+        "哮喘：必须与吸入激素（ICS）联用；不可单药",
+        "可与布地奈德复方（信必可®）",
+        "成人不超过48 mcg/天；儿童24 mcg/天",
+        "规律用药疗效维持（无快速耐受）",
+        "心脏病、甲亢、糖尿病、嗜铬细胞瘤慎用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调量。监测心血管及血钾。",
+        "renal": "无需调整。吸入给药全身生物利用度低。",
+        "hepatico": "经肝代谢。严重肝损慎用；监测效应。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "福莫特罗（成人）",
+        "doseTexto": "12-24 mcg 吸入 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12-24 mcg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "福莫特罗（儿童≥5岁）",
+        "doseTexto": "12 mcg 吸入 每12小时（最大24 mcg/天）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12 mcg",
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "福莫特罗 - 运动预防",
+        "doseTexto": "运动前15分钟 12 mcg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "12 mcg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

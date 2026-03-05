@@ -1,0 +1,858 @@
+{
+  "PT": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Choque Séptico",
+          "descricaoDose": "0,1-0,5 mcg/kg/min IV contínua - titular PAM ≥65",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Choque Distributivo",
+          "descricaoDose": "0,05-2 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 2.0,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipotensão Refratária",
+          "descricaoDose": "0,05-0,3 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Choque Séptico Pediátrico",
+          "descricaoDose": "0,05-1 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 1.0,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipotensão Refratária Pediátrica",
+          "descricaoDose": "0,05-0,5 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": {
+            "doseMin": 0.05,
+            "doseMax": 2.0
+          },
+          "pediatrico": {
+            "doseMin": 0.05,
+            "doseMax": 1.0
+          },
+          "concentracaoEmMcg": true,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "32mg em 250mL SG5% (128 mcg/mL)",
+              "valor": 128
+            },
+            {
+              "rotulo": "16mg em 250mL SG5% (64 mcg/mL)",
+              "valor": 64
+            },
+            {
+              "rotulo": "8mg em 250mL SG5% (32 mcg/mL)",
+              "valor": 32
+            },
+            {
+              "rotulo": "4mg em 250mL SG5% (16 mcg/mL)",
+              "valor": 16
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Catecolamina α1 > β1 adrenérgica",
+      "apresentacoes": [
+        {
+          "forma": "Ampola 2mg/mL (4mL)",
+          "obs": "8mg total | Levophed®"
+        },
+        {
+          "forma": "Ampola 1mg/mL (4mL)",
+          "obs": "4mg total"
+        },
+        {
+          "forma": "Ampola 4mg/4mL",
+          "obs": "1mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "32mg + 218mL SG5%",
+          "concentracao": "128 mcg/mL"
+        },
+        {
+          "diluicao": "16mg + 234mL SG5%",
+          "concentracao": "64 mcg/mL"
+        },
+        {
+          "diluicao": "8mg + 242mL SG5%",
+          "concentracao": "32 mcg/mL"
+        },
+        {
+          "diluicao": "4mg + 246mL SG5%",
+          "concentracao": "16 mcg/mL"
+        }
+      ],
+      "observacoes": [
+        "1ª LINHA no choque séptico (Surviving Sepsis)",
+        "VIA CENTRAL preferencial - extravasamento = necrose",
+        "Início: imediato | Meia-vida: 1-2 min",
+        "Pode causar bradicardia reflexa em altas doses",
+        "Extravasamento: infiltrar fentolamina 5-10 mg",
+        "Incompatível com bicarbonato de sódio"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com doses menores (0,01-0,03 mcg/kg/min). Titular cautelosamente.",
+        "renal": "Não requer ajuste. Monitorar perfusão renal e débito urinário.",
+        "hepatico": "Não requer ajuste inicial. Usar com cautela em hepatopatia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Noradrenalina (adulto)",
+        "doseTexto": "0,1-0,5 mcg/kg/min IV",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Noradrenalina (pediátrico)",
+        "doseTexto": "0,05-1 mcg/kg/min IV",
+        "doseMin": 0.05,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Noradrenalina - Dose Máxima",
+        "doseTexto": "Até 2-3 mcg/kg/min (choque refratário)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": "2-3 mcg/kg/min",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Septic Shock",
+          "descricaoDose": "0.1-0.5 mcg/kg/min IV continuous - titrate MAP ≥65",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Distributive Shock",
+          "descricaoDose": "0.05-2 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 2.0,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Refractory Hypotension",
+          "descricaoDose": "0.05-0.3 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric Septic Shock",
+          "descricaoDose": "0.05-1 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 1.0,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric Refractory Hypotension",
+          "descricaoDose": "0.05-0.5 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": {
+            "doseMin": 0.05,
+            "doseMax": 2.0
+          },
+          "pediatrico": {
+            "doseMin": 0.05,
+            "doseMax": 1.0
+          },
+          "concentracaoEmMcg": true,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "32mg in 250mL D5W (128 mcg/mL)",
+              "valor": 128
+            },
+            {
+              "rotulo": "16mg in 250mL D5W (64 mcg/mL)",
+              "valor": 64
+            },
+            {
+              "rotulo": "8mg in 250mL D5W (32 mcg/mL)",
+              "valor": 32
+            },
+            {
+              "rotulo": "4mg in 250mL D5W (16 mcg/mL)",
+              "valor": 16
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Catecholamine α1 > β1 adrenergic",
+      "apresentacoes": [
+        {
+          "forma": "Ampoule 2mg/mL (4mL)",
+          "obs": "8mg total | Levophed®"
+        },
+        {
+          "forma": "Ampoule 1mg/mL (4mL)",
+          "obs": "4mg total"
+        },
+        {
+          "forma": "Ampoule 4mg/4mL",
+          "obs": "1mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "32mg + 218mL D5W",
+          "concentracao": "128 mcg/mL"
+        },
+        {
+          "diluicao": "16mg + 234mL D5W",
+          "concentracao": "64 mcg/mL"
+        },
+        {
+          "diluicao": "8mg + 242mL D5W",
+          "concentracao": "32 mcg/mL"
+        },
+        {
+          "diluicao": "4mg + 246mL D5W",
+          "concentracao": "16 mcg/mL"
+        }
+      ],
+      "observacoes": [
+        "FIRST LINE in septic shock (Surviving Sepsis)",
+        "CENTRAL LINE preferred - extravasation = necrosis",
+        "Onset: immediate | Half-life: 1-2 min",
+        "May cause reflex bradycardia at high doses",
+        "Extravasation: infiltrate phentolamine 5-10 mg",
+        "Incompatible with sodium bicarbonate"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with lower doses (0.01-0.03 mcg/kg/min). Titrate cautiously.",
+        "renal": "No adjustment required. Monitor renal perfusion and urine output.",
+        "hepatico": "No initial adjustment required. Use with caution in severe hepatic disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Norepinephrine (adult)",
+        "doseTexto": "0.1-0.5 mcg/kg/min IV",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Norepinephrine (pediatric)",
+        "doseTexto": "0.05-1 mcg/kg/min IV",
+        "doseMin": 0.05,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Norepinephrine - Max Dose",
+        "doseTexto": "Up to 2-3 mcg/kg/min (refractory shock)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": "2-3 mcg/kg/min",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Choque Séptico",
+          "descricaoDose": "0,1-0,5 mcg/kg/min IV continua - titular PAM ≥65",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Choque Distributivo",
+          "descricaoDose": "0,05-2 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 2.0,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipotensión Refractaria",
+          "descricaoDose": "0,05-0,3 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Choque Séptico Pediátrico",
+          "descricaoDose": "0,05-1 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 1.0,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipotensión Refractaria Pediátrica",
+          "descricaoDose": "0,05-0,5 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": {
+            "doseMin": 0.05,
+            "doseMax": 2.0
+          },
+          "pediatrico": {
+            "doseMin": 0.05,
+            "doseMax": 1.0
+          },
+          "concentracaoEmMcg": true,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "32mg en 250mL SG5% (128 mcg/mL)",
+              "valor": 128
+            },
+            {
+              "rotulo": "16mg en 250mL SG5% (64 mcg/mL)",
+              "valor": 64
+            },
+            {
+              "rotulo": "8mg en 250mL SG5% (32 mcg/mL)",
+              "valor": 32
+            },
+            {
+              "rotulo": "4mg en 250mL SG5% (16 mcg/mL)",
+              "valor": 16
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopresor - Catecolamina α1 > β1 adrenérgica",
+      "apresentacoes": [
+        {
+          "forma": "Ampolla 2mg/mL (4mL)",
+          "obs": "8mg total | Levophed®"
+        },
+        {
+          "forma": "Ampolla 1mg/mL (4mL)",
+          "obs": "4mg total"
+        },
+        {
+          "forma": "Ampolla 4mg/4mL",
+          "obs": "1mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "32mg + 218mL SG5%",
+          "concentracao": "128 mcg/mL"
+        },
+        {
+          "diluicao": "16mg + 234mL SG5%",
+          "concentracao": "64 mcg/mL"
+        },
+        {
+          "diluicao": "8mg + 242mL SG5%",
+          "concentracao": "32 mcg/mL"
+        },
+        {
+          "diluicao": "4mg + 246mL SG5%",
+          "concentracao": "16 mcg/mL"
+        }
+      ],
+      "observacoes": [
+        "1ª LÍNEA en choque séptico (Surviving Sepsis)",
+        "VÍA CENTRAL preferencial - extravasación = necrosis",
+        "Inicio: inmediato | Vida media: 1-2 min",
+        "Puede causar bradicardia refleja en dosis altas",
+        "Extravasación: infiltrar fentolamina 5-10 mg",
+        "Incompatible con bicarbonato de sodio"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis menores (0,01-0,03 mcg/kg/min). Titular cautelosamente.",
+        "renal": "No requiere ajuste. Monitorizar perfusión renal y débito urinario.",
+        "hepatico": "No requiere ajuste inicial. Usar con precaución en hepatopatía grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Noradrenalina (adulto)",
+        "doseTexto": "0,1-0,5 mcg/kg/min IV",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Noradrenalina (pediátrico)",
+        "doseTexto": "0,05-1 mcg/kg/min IV",
+        "doseMin": 0.05,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Noradrenalina - Dosis Máxima",
+        "doseTexto": "Hasta 2-3 mcg/kg/min (choque refractario)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": "2-3 mcg/kg/min",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "感染性休克",
+          "descricaoDose": "0.1-0.5 mcg/kg/min IV持续 - 滴定MAP ≥65",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "分布性休克",
+          "descricaoDose": "0.05-2 mcg/kg/min IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 2.0,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "顽固性低血压",
+          "descricaoDose": "0.05-0.3 mcg/kg/min IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童感染性休克",
+          "descricaoDose": "0.05-1 mcg/kg/min IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 1.0,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童顽固性低血压",
+          "descricaoDose": "0.05-0.5 mcg/kg/min IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": {
+            "doseMin": 0.05,
+            "doseMax": 2.0
+          },
+          "pediatrico": {
+            "doseMin": 0.05,
+            "doseMax": 1.0
+          },
+          "concentracaoEmMcg": true,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "32mg溶于250mL 5%GS (128 mcg/mL)",
+              "valor": 128
+            },
+            {
+              "rotulo": "16mg溶于250mL 5%GS (64 mcg/mL)",
+              "valor": 64
+            },
+            {
+              "rotulo": "8mg溶于250mL 5%GS (32 mcg/mL)",
+              "valor": 32
+            },
+            {
+              "rotulo": "4mg溶于250mL 5%GS (16 mcg/mL)",
+              "valor": 16
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "血管升压药 - 儿茶酚胺 α1 > β1 肾上腺素能",
+      "apresentacoes": [
+        {
+          "forma": "安瓿 2mg/mL (4mL)",
+          "obs": "总量8mg | Levophed®"
+        },
+        {
+          "forma": "安瓿 1mg/mL (4mL)",
+          "obs": "总量4mg"
+        },
+        {
+          "forma": "安瓿 4mg/4mL",
+          "obs": "1mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "32mg + 218mL 5%GS",
+          "concentracao": "128 mcg/mL"
+        },
+        {
+          "diluicao": "16mg + 234mL 5%GS",
+          "concentracao": "64 mcg/mL"
+        },
+        {
+          "diluicao": "8mg + 242mL 5%GS",
+          "concentracao": "32 mcg/mL"
+        },
+        {
+          "diluicao": "4mg + 246mL 5%GS",
+          "concentracao": "16 mcg/mL"
+        }
+      ],
+      "observacoes": [
+        "感染性休克一线用药（Surviving Sepsis）",
+        "首选中心静脉通路 - 外渗=坏死",
+        "起效：立即 | 半衰期：1-2分钟",
+        "高剂量可能引起反射性心动过缓",
+        "外渗处理：局部注射酚妥拉明5-10 mg",
+        "与碳酸氢钠不相容"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从较低剂量开始（0.01-0.03 mcg/kg/min）。谨慎滴定。",
+        "renal": "无需调整。监测肾脏灌注和尿量。",
+        "hepatico": "无需初始调整。严重肝病时谨慎使用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "去甲肾上腺素（成人）",
+        "doseTexto": "0.1-0.5 mcg/kg/min IV",
+        "doseMin": 0.1,
+        "doseMax": 0.5,
+        "unidadeResultado": "mcg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "去甲肾上腺素（儿童）",
+        "doseTexto": "0.05-1 mcg/kg/min IV",
+        "doseMin": 0.05,
+        "doseMax": 1.0,
+        "unidadeResultado": "mcg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "去甲肾上腺素 - 最大剂量",
+        "doseTexto": "最高2-3 mcg/kg/min（顽固性休克）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": "2-3 mcg/kg/min",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

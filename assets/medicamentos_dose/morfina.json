@@ -1,0 +1,1062 @@
+{
+  "PT": {
+    "nome": "Morfina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor aguda IV (adulto)",
+          "descricaoDose": "2,5-5 mg IV a cada 3-4h (lento ≥2 min). Titular conforme resposta.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 3-4h conforme resposta",
+            "ajusteRenal": "Necessário em IR. M6G pode acumular (sedação, depressão respiratória). Reduzir dose ou aumentar intervalo.",
+            "ajusteHepatico": "Usar com cautela; metabolização hepática extensa. Ajustar conforme função hepática e resposta."
+          }
+        },
+        {
+          "titulo": "Dor aguda IV (idoso)",
+          "descricaoDose": "1,25-2,5 mg IV a cada 3-4h (reduzir ~50%). Lento ≥2 min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1.25,
+            "doseMax": 2.5,
+            "doseMaxima": null,
+            "doseFixa": "1,25-2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 3-4h conforme resposta",
+            "ajusteRenal": "Necessário em IR. Reduzir dose ou aumentar intervalo.",
+            "ajusteHepatico": "Cautela; ajustar conforme função hepática."
+          }
+        },
+        {
+          "titulo": "Dor aguda IM/SC (adulto)",
+          "descricaoDose": "5-10 mg IM ou SC a cada 4h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "a cada 4h",
+            "ajusteRenal": "Necessário em IR. Reduzir dose ou aumentar intervalo.",
+            "ajusteHepatico": "Cautela; ajustar conforme função hepática."
+          }
+        },
+        {
+          "titulo": "PCA (bolus por demanda)",
+          "descricaoDose": "1 mg IV por demanda (lockout 6-10 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "por demanda (lockout 6-10 min)",
+            "ajusteRenal": "Necessário em IR. Reduzir dose ou aumentar intervalo.",
+            "ajusteHepatico": "Cautela; ajustar conforme função hepática."
+          }
+        },
+        {
+          "titulo": "VO liberação imediata (adulto)",
+          "descricaoDose": "10-30 mg VO a cada 4h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": null,
+            "doseFixa": "10-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4h",
+            "ajusteRenal": "Necessário em IR. Reduzir dose ou aumentar intervalo.",
+            "ajusteHepatico": "Cautela; ajustar conforme função hepática."
+          }
+        },
+        {
+          "titulo": "VO liberação prolongada (adulto)",
+          "descricaoDose": "30-60 mg VO a cada 12h (não triturar)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": null,
+            "doseFixa": "30-60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "Necessário em IR. Reduzir dose ou aumentar intervalo.",
+            "ajusteHepatico": "Cautela; ajustar conforme função hepática."
+          }
+        },
+        {
+          "titulo": "Dor aguda IV (pediátrico)",
+          "descricaoDose": "0,05-0,1 mg/kg IV a cada 4h (lento ≥2 min). Máx por dose conforme protocolo (ex.: 5-10 mg).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 4h",
+            "ajusteRenal": "Necessário em IR. Reduzir dose ou aumentar intervalo.",
+            "ajusteHepatico": "Cautela; ajustar conforme função hepática."
+          }
+        },
+        {
+          "titulo": "VO (pediátrico)",
+          "descricaoDose": "0,2-0,5 mg/kg/dose VO a cada 4-6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "Necessário em IR. Reduzir dose ou aumentar intervalo.",
+            "ajusteHepatico": "Cautela; ajustar conforme função hepática."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide; agonista μ-opioide; alcaloide natural do ópio",
+      "apresentacoes": [
+        { "forma": "Solução injetável 10 mg/mL", "obs": "Dimorf®, Morphine Sulfate®" },
+        { "forma": "Solução injetável 20 mg/mL, 50 mg/mL", "obs": "Alta concentração" },
+        { "forma": "Comprimido 10 mg, 30 mg (liberação imediata e prolongada)", "obs": "Sevredol®, MST Continus®" },
+        { "forma": "Gotas orais 10 mg/mL (1 gota ≈ 0,2 mg)", "obs": "VO" },
+        { "forma": "Ampola epidural/intratecal 1 mg/mL", "obs": "Uso especializado" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV: diluir ou usar direto; administrar lentamente ≥2 min", "concentracao": "conforme apresentação" },
+        { "diluicao": "Infusão contínua: diluir em SF 0,9% conforme protocolo", "concentracao": "conforme diluição" }
+      ],
+      "observacoes": [
+        "Padrão-ouro para dor severa; agonista μ potente; não há dose máxima absoluta (titular conforme resposta)",
+        "Metabólito M6G ativo (até 10x mais potente); acumula em IR – risco de sedação e depressão respiratória",
+        "Depressão respiratória: ter naloxona disponível; monitorizar FR, SpO₂, sedação",
+        "Liberação de histamina: hipotensão, prurido, vasodilatação – administrar IV lento ≥2 min",
+        "Compatível com SF 0,9% e SG 5%; incompatível com bicarbonato de sódio e soluções alcalinas",
+        "Reduzir dose em idosos (~50%). Receita A1. Não triturar formas de liberação prolongada."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose em ~50% (ex.: 1,25-2,5 mg IV). Início baixo, titular conforme resposta.",
+        "renal": "Necessário em IR. M6G acumula – risco de sedação e depressão respiratória. Reduzir dose ou aumentar intervalo.",
+        "hepatico": "Usar com cautela; metabolização hepática extensa. Ajustar dose conforme função hepática e resposta clínica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Morfina dor IV (adulto)",
+        "doseTexto": "2,5-5 mg IV a cada 3-4h",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina dor IV (idoso)",
+        "doseTexto": "1,25-2,5 mg IV (reduzir ~50%)",
+        "doseMin": 1.25,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "1,25-2,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina IM/SC",
+        "doseTexto": "5-10 mg IM/SC a cada 4h",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina PCA",
+        "doseTexto": "1 mg IV por demanda (lockout 6-10 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina VO",
+        "doseTexto": "10-30 mg VO a cada 4h",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina dor IV (pediátrico)",
+        "doseTexto": "0,05-0,1 mg/kg IV a cada 4h",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Morphine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute pain IV (adult)",
+          "descricaoDose": "2.5-5 mg IV every 3-4h (slow ≥2 min). Titrate to response.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 3-4h as needed",
+            "ajusteRenal": "Required in renal impairment. M6G may accumulate (sedation, respiratory depression). Reduce dose or increase interval.",
+            "ajusteHepatico": "Use with caution; extensive hepatic metabolism. Adjust per hepatic function and response."
+          }
+        },
+        {
+          "titulo": "Acute pain IV (elderly)",
+          "descricaoDose": "1.25-2.5 mg IV every 3-4h (reduce ~50%). Slow ≥2 min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1.25,
+            "doseMax": 2.5,
+            "doseMaxima": null,
+            "doseFixa": "1.25-2.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 3-4h as needed",
+            "ajusteRenal": "Required in renal impairment. Reduce dose or increase interval.",
+            "ajusteHepatico": "Caution; adjust per hepatic function."
+          }
+        },
+        {
+          "titulo": "Acute pain IM/SC (adult)",
+          "descricaoDose": "5-10 mg IM or SC every 4h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/SC",
+            "intervalo": "every 4h",
+            "ajusteRenal": "Required in renal impairment. Reduce dose or increase interval.",
+            "ajusteHepatico": "Caution; adjust per hepatic function."
+          }
+        },
+        {
+          "titulo": "PCA (demand bolus)",
+          "descricaoDose": "1 mg IV per demand (lockout 6-10 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "per demand (lockout 6-10 min)",
+            "ajusteRenal": "Required in renal impairment. Reduce dose or increase interval.",
+            "ajusteHepatico": "Caution; adjust per hepatic function."
+          }
+        },
+        {
+          "titulo": "PO immediate release (adult)",
+          "descricaoDose": "10-30 mg PO every 4h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": null,
+            "doseFixa": "10-30 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4h",
+            "ajusteRenal": "Required in renal impairment. Reduce dose or increase interval.",
+            "ajusteHepatico": "Caution; adjust per hepatic function."
+          }
+        },
+        {
+          "titulo": "PO extended release (adult)",
+          "descricaoDose": "30-60 mg PO every 12h (do not crush)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": null,
+            "doseFixa": "30-60 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 12h",
+            "ajusteRenal": "Required in renal impairment. Reduce dose or increase interval.",
+            "ajusteHepatico": "Caution; adjust per hepatic function."
+          }
+        },
+        {
+          "titulo": "Acute pain IV (pediatric)",
+          "descricaoDose": "0.05-0.1 mg/kg IV every 4h (slow ≥2 min). Max per dose per protocol (e.g. 5-10 mg).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 4h",
+            "ajusteRenal": "Required in renal impairment. Reduce dose or increase interval.",
+            "ajusteHepatico": "Caution; adjust per hepatic function."
+          }
+        },
+        {
+          "titulo": "PO (pediatric)",
+          "descricaoDose": "0.2-0.5 mg/kg/dose PO every 4-6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "Required in renal impairment. Reduce dose or increase interval.",
+            "ajusteHepatico": "Caution; adjust per hepatic function."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioid analgesic; μ-opioid agonist; natural opium alkaloid",
+      "apresentacoes": [
+        { "forma": "Injectable solution 10 mg/mL", "obs": "Dimorf®, Morphine Sulfate®" },
+        { "forma": "Injectable solution 20 mg/mL, 50 mg/mL", "obs": "High concentration" },
+        { "forma": "Tablet 10 mg, 30 mg (immediate and extended release)", "obs": "Sevredol®, MST Continus®" },
+        { "forma": "Oral drops 10 mg/mL (1 drop ≈ 0.2 mg)", "obs": "PO" },
+        { "forma": "Epidural/intrathecal ampoule 1 mg/mL", "obs": "Specialized use" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: dilute or use undiluted; give slowly ≥2 min", "concentracao": "as per presentation" },
+        { "diluicao": "Continuous infusion: dilute in 0.9% NS per protocol", "concentracao": "as per dilution" }
+      ],
+      "observacoes": [
+        "Gold standard for severe pain; potent μ agonist; no absolute maximum dose (titrate to response)",
+        "Active metabolite M6G (up to 10x more potent); accumulates in renal failure – risk of sedation and respiratory depression",
+        "Respiratory depression: have naloxone available; monitor RR, SpO₂, sedation",
+        "Histamine release: hypotension, pruritus, vasodilation – give IV slow ≥2 min",
+        "Compatible with 0.9% NS and D5W; incompatible with sodium bicarbonate and alkaline solutions",
+        "Reduce dose in elderly (~50%). Schedule II. Do not crush extended-release forms."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose by ~50% (e.g. 1.25-2.5 mg IV). Start low, titrate to response.",
+        "renal": "Required in renal impairment. M6G accumulates – risk of sedation and respiratory depression. Reduce dose or increase interval.",
+        "hepatico": "Use with caution; extensive hepatic metabolism. Adjust dose per hepatic function and clinical response."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Morphine pain IV (adult)",
+        "doseTexto": "2.5-5 mg IV every 3-4h",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5-5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Morphine pain IV (elderly)",
+        "doseTexto": "1.25-2.5 mg IV (reduce ~50%)",
+        "doseMin": 1.25,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "1.25-2.5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Morphine IM/SC",
+        "doseTexto": "5-10 mg IM/SC every 4h",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Morphine PCA",
+        "doseTexto": "1 mg IV per demand (lockout 6-10 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Morphine PO",
+        "doseTexto": "10-30 mg PO every 4h",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-30 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Morphine pain IV (pediatric)",
+        "doseTexto": "0.05-0.1 mg/kg IV every 4h",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Morfina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor agudo IV (adulto)",
+          "descricaoDose": "2,5-5 mg IV cada 3-4h (lento ≥2 min). Titular según respuesta.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 3-4h según respuesta",
+            "ajusteRenal": "Necesario en IR. M6G puede acumularse (sedación, depresión respiratoria). Reducir dosis o aumentar intervalo.",
+            "ajusteHepatico": "Usar con precaución; metabolización hepática extensa. Ajustar según función hepática y respuesta."
+          }
+        },
+        {
+          "titulo": "Dolor agudo IV (anciano)",
+          "descricaoDose": "1,25-2,5 mg IV cada 3-4h (reducir ~50%). Lento ≥2 min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1.25,
+            "doseMax": 2.5,
+            "doseMaxima": null,
+            "doseFixa": "1,25-2,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 3-4h según respuesta",
+            "ajusteRenal": "Necesario en IR. Reducir dosis o aumentar intervalo.",
+            "ajusteHepatico": "Precaución; ajustar según función hepática."
+          }
+        },
+        {
+          "titulo": "Dolor agudo IM/SC (adulto)",
+          "descricaoDose": "5-10 mg IM o SC cada 4h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "cada 4h",
+            "ajusteRenal": "Necesario en IR. Reducir dosis o aumentar intervalo.",
+            "ajusteHepatico": "Precaución; ajustar según función hepática."
+          }
+        },
+        {
+          "titulo": "PCA (bolo a demanda)",
+          "descricaoDose": "1 mg IV por demanda (lockout 6-10 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "por demanda (lockout 6-10 min)",
+            "ajusteRenal": "Necesario en IR. Reducir dosis o aumentar intervalo.",
+            "ajusteHepatico": "Precaución; ajustar según función hepática."
+          }
+        },
+        {
+          "titulo": "VO liberación inmediata (adulto)",
+          "descricaoDose": "10-30 mg VO cada 4h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": null,
+            "doseFixa": "10-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4h",
+            "ajusteRenal": "Necesario en IR. Reducir dosis o aumentar intervalo.",
+            "ajusteHepatico": "Precaución; ajustar según función hepática."
+          }
+        },
+        {
+          "titulo": "VO liberación prolongada (adulto)",
+          "descricaoDose": "30-60 mg VO cada 12h (no triturar)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": null,
+            "doseFixa": "30-60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 12h",
+            "ajusteRenal": "Necesario en IR. Reducir dosis o aumentar intervalo.",
+            "ajusteHepatico": "Precaución; ajustar según función hepática."
+          }
+        },
+        {
+          "titulo": "Dolor agudo IV (pediátrico)",
+          "descricaoDose": "0,05-0,1 mg/kg IV cada 4h (lento ≥2 min). Máx por dosis según protocolo (ej.: 5-10 mg).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 4h",
+            "ajusteRenal": "Necesario en IR. Reducir dosis o aumentar intervalo.",
+            "ajusteHepatico": "Precaución; ajustar según función hepática."
+          }
+        },
+        {
+          "titulo": "VO (pediátrico)",
+          "descricaoDose": "0,2-0,5 mg/kg/dosis VO cada 4-6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "Necesario en IR. Reducir dosis o aumentar intervalo.",
+            "ajusteHepatico": "Precaución; ajustar según función hepática."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide; agonista μ-opioide; alcaloide natural del opio",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 10 mg/mL", "obs": "Dimorf®, Morphine Sulfate®" },
+        { "forma": "Solución inyectable 20 mg/mL, 50 mg/mL", "obs": "Alta concentración" },
+        { "forma": "Comprimido 10 mg, 30 mg (liberación inmediata y prolongada)", "obs": "Sevredol®, MST Continus®" },
+        { "forma": "Gotas orales 10 mg/mL (1 gota ≈ 0,2 mg)", "obs": "VO" },
+        { "forma": "Ampolla epidural/intratecal 1 mg/mL", "obs": "Uso especializado" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo IV: diluir o usar directo; administrar lento ≥2 min", "concentracao": "según presentación" },
+        { "diluicao": "Infusión continua: diluir en SF 0,9% según protocolo", "concentracao": "según dilución" }
+      ],
+      "observacoes": [
+        "Patrón oro para dolor severo; agonista μ potente; no hay dosis máxima absoluta (titular según respuesta)",
+        "Metabolito M6G activo (hasta 10x más potente); se acumula en IR – riesgo de sedación y depresión respiratoria",
+        "Depresión respiratoria: tener naloxona disponible; monitorizar FR, SpO₂, sedación",
+        "Liberación de histamina: hipotensión, prurito, vasodilatación – administrar IV lento ≥2 min",
+        "Compatible con SF 0,9% y SG 5%; incompatible con bicarbonato sódico y soluciones alcalinas",
+        "Reducir dosis en ancianos (~50%). Receta restringida. No triturar formas de liberación prolongada."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis ~50% (ej. 1,25-2,5 mg IV). Inicio bajo, titular según respuesta.",
+        "renal": "Necesario en IR. M6G se acumula – riesgo de sedación y depresión respiratoria. Reducir dosis o aumentar intervalo.",
+        "hepatico": "Usar con precaución; metabolización hepática extensa. Ajustar dosis según función hepática y respuesta clínica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Morfina dolor IV (adulto)",
+        "doseTexto": "2,5-5 mg IV cada 3-4h",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina dolor IV (anciano)",
+        "doseTexto": "1,25-2,5 mg IV (reducir ~50%)",
+        "doseMin": 1.25,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "1,25-2,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina IM/SC",
+        "doseTexto": "5-10 mg IM/SC cada 4h",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina PCA",
+        "doseTexto": "1 mg IV por demanda (lockout 6-10 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina VO",
+        "doseTexto": "10-30 mg VO cada 4h",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Morfina dolor IV (pediátrico)",
+        "doseTexto": "0,05-0,1 mg/kg IV cada 4h",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "吗啡",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性疼痛 IV（成人）",
+          "descricaoDose": "2.5-5 mg IV 每 3-4 小时（缓慢 ≥2 分钟）。按反应滴定。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每3-4小时按反应",
+            "ajusteRenal": "肾功能不全时需调整。M6G 可蓄积（镇静、呼吸抑制）。减量或延长间隔。",
+            "ajusteHepatico": "慎用；经肝广泛代谢。按肝功能和反应调整。"
+          }
+        },
+        {
+          "titulo": "急性疼痛 IV（老年）",
+          "descricaoDose": "1.25-2.5 mg IV 每 3-4 小时（减量约50%）。缓慢 ≥2 分钟。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1.25,
+            "doseMax": 2.5,
+            "doseMaxima": null,
+            "doseFixa": "1.25-2.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每3-4小时按反应",
+            "ajusteRenal": "肾功能不全时需调整。减量或延长间隔。",
+            "ajusteHepatico": "慎用；按肝功能调整。"
+          }
+        },
+        {
+          "titulo": "急性疼痛 肌注/皮下（成人）",
+          "descricaoDose": "5-10 mg 肌注或皮下 每 4 小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": null,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/SC",
+            "intervalo": "每4小时",
+            "ajusteRenal": "肾功能不全时需调整。减量或延长间隔。",
+            "ajusteHepatico": "慎用；按肝功能调整。"
+          }
+        },
+        {
+          "titulo": "PCA（按需推注）",
+          "descricaoDose": "1 mg IV 按需（锁定 6-10 分钟）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "1 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按需（锁定 6-10 分钟）",
+            "ajusteRenal": "肾功能不全时需调整。减量或延长间隔。",
+            "ajusteHepatico": "慎用；按肝功能调整。"
+          }
+        },
+        {
+          "titulo": "口服即释（成人）",
+          "descricaoDose": "10-30 mg 口服 每 4 小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": null,
+            "doseFixa": "10-30 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4小时",
+            "ajusteRenal": "肾功能不全时需调整。减量或延长间隔。",
+            "ajusteHepatico": "慎用；按肝功能调整。"
+          }
+        },
+        {
+          "titulo": "口服缓释（成人）",
+          "descricaoDose": "30-60 mg 口服 每 12 小时（不可碾碎）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": null,
+            "doseFixa": "30-60 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "肾功能不全时需调整。减量或延长间隔。",
+            "ajusteHepatico": "慎用；按肝功能调整。"
+          }
+        },
+        {
+          "titulo": "急性疼痛 IV（儿童）",
+          "descricaoDose": "0.05-0.1 mg/kg IV 每 4 小时（缓慢 ≥2 分钟）。单次最大按方案（如 5-10 mg）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4小时",
+            "ajusteRenal": "肾功能不全时需调整。减量或延长间隔。",
+            "ajusteHepatico": "慎用；按肝功能调整。"
+          }
+        },
+        {
+          "titulo": "口服（儿童）",
+          "descricaoDose": "0.2-0.5 mg/kg/次 口服 每 4-6 小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "肾功能不全时需调整。减量或延长间隔。",
+            "ajusteHepatico": "慎用；按肝功能调整。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "阿片类镇痛药；μ 受体激动剂；天然鸦片生物碱",
+      "apresentacoes": [
+        { "forma": "注射液 10 mg/mL", "obs": "Dimorf®, Morphine Sulfate®" },
+        { "forma": "注射液 20 mg/mL、50 mg/mL", "obs": "高浓度" },
+        { "forma": "片剂 10 mg、30 mg（即释与缓释）", "obs": "Sevredol®, MST Continus®" },
+        { "forma": "口服滴剂 10 mg/mL（1 滴≈0.2 mg）", "obs": "口服" },
+        { "forma": "硬膜外/鞘内安瓿 1 mg/mL", "obs": "专科使用" }
+      ],
+      "preparo": [
+        { "diluicao": "IV 推注：稀释或原液；缓慢给药 ≥2 分钟", "concentracao": "按说明书" },
+        { "diluicao": "持续输注：按方案用生理盐水稀释", "concentracao": "按稀释" }
+      ],
+      "observacoes": [
+        "严重疼痛金标准；强效 μ 激动剂；无绝对最大剂量（按反应滴定）",
+        "活性代谢物 M6G（可达 10 倍 potency）；肾功能不全时蓄积 – 镇静与呼吸抑制风险",
+        "呼吸抑制：备纳洛酮；监测呼吸、SpO₂、镇静",
+        "组胺释放：低血压、瘙痒、血管扩张 – IV 缓慢 ≥2 分钟",
+        "与生理盐水、5% 葡萄糖相容；与碳酸氢钠、碱性液不相容",
+        "老年人减量约 50%。管制药品。缓释剂型不可碾碎。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量约 50%（如 1.25-2.5 mg IV）。从低剂量开始，按反应滴定。",
+        "renal": "肾功能不全时需调整。M6G 蓄积 – 镇静与呼吸抑制风险。减量或延长间隔。",
+        "hepatico": "慎用；经肝广泛代谢。按肝功能和临床反应调整剂量。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "吗啡 疼痛 IV（成人）",
+        "doseTexto": "2.5-5 mg IV 每 3-4 小时",
+        "doseMin": 2.5,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5-5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "吗啡 疼痛 IV（老年）",
+        "doseTexto": "1.25-2.5 mg IV（减量约50%）",
+        "doseMin": 1.25,
+        "doseMax": 2.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "1.25-2.5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "吗啡 肌注/皮下",
+        "doseTexto": "5-10 mg 肌注/皮下 每 4 小时",
+        "doseMin": 5,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "吗啡 PCA",
+        "doseTexto": "1 mg IV 按需（锁定 6-10 分钟）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "吗啡 口服",
+        "doseTexto": "10-30 mg 口服 每 4 小时",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-30 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "吗啡 疼痛 IV（儿童）",
+        "doseTexto": "0.05-0.1 mg/kg IV 每 4 小时",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,958 @@
+{
+  "PT": {
+    "nome": "Midazolam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sedação procedimentos",
+          "descricaoDose": "1-2,5 mg IV lento, repetir até máx 5 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 2.5,
+            "doseMaxima": 5,
+            "doseFixa": "1-2,5 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "0,15-0,3 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epilepticus",
+          "descricaoDose": "5-10 mg IV/IM ou 10 mg IN/bucal",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg IV/IM",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM/IN",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação UTI",
+          "descricaoDose": "0,02-0,1 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.02,
+            "doseMax": 0.1,
+            "doseMaxima": 0.15,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "Cautela em infusão prolongada",
+            "ajusteHepatico": "Reduzir taxa de infusão"
+          }
+        },
+        {
+          "titulo": "Sedação pediátrica",
+          "descricaoDose": "0,05-0,1 mg/kg IV (máx 2,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose"
+          }
+        },
+        {
+          "titulo": "Convulsões pediátricas",
+          "descricaoDose": "0,2 mg/kg IV/IN (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IN",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sedação UTI pediátrica",
+          "descricaoDose": "0,06-0,12 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.06,
+            "doseMax": 0.12,
+            "doseMaxima": 0.15,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "Cautela em infusão prolongada",
+            "ajusteHepatico": "Reduzir taxa de infusão"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.02, "doseMax": 0.15 },
+          "pediatrico": { "doseMin": 0.06, "doseMax": 0.15 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Puro (5 mg/mL)", "valor": 5 },
+            { "rotulo": "50mg + 40mL SF (1 mg/mL)", "valor": 1 },
+            { "rotulo": "15mg + 27mL SF (0,5 mg/mL)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico - Sedativo, ansiolítico, anticonvulsivante",
+      "apresentacoes": [
+        { "forma": "Ampola 5mg/mL (3mL)", "obs": "15 mg total | Dormonid®" },
+        { "forma": "Ampola 5mg/mL (10mL)", "obs": "50 mg total" },
+        { "forma": "Ampola 1mg/mL (5mL)", "obs": "Diluída" },
+        { "forma": "Solução oral 2mg/mL", "obs": "Para uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Puro (sem diluir)", "concentracao": "5 mg/mL" },
+        { "diluicao": "50mg + 40mL SF", "concentracao": "1 mg/mL" },
+        { "diluicao": "15mg + 27mL SF", "concentracao": "0,5 mg/mL" },
+        { "diluicao": "Bolus IV", "concentracao": "Administrar LENTO (>2 min)" }
+      ],
+      "observacoes": [
+        "Início IV: 1-3min | Duração: 30-60min",
+        "DEPRESSÃO RESPIRATÓRIA - ter flumazenil disponível",
+        "Potencializa opioides - reduzir doses de ambos",
+        "Amnésia anterógrada - avisar paciente",
+        "Idoso: reduzir dose 30-50%",
+        "Metabolismo hepático (CYP3A4) - ajustar em hepatopatia"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose 30-50%. Maior sensibilidade e risco de depressão respiratória.",
+        "renal": "Não requer ajuste inicial. Cautela em infusão prolongada - metabólito ativo (1-hidroximidazolam) pode acumular.",
+        "hepatico": "Reduzir dose inicial e taxa de infusão em insuficiência moderada a grave. Metabolismo hepático comprometido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Midazolam Sedação (adulto)",
+        "doseTexto": "1-2,5 mg IV lento",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1-2,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Midazolam Indução (adulto)",
+        "doseTexto": "0,15-0,3 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Midazolam Sedação (pediátrico)",
+        "doseTexto": "0,05-0,1 mg/kg IV (máx 2,5 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Midazolam Convulsões (pediátrico)",
+        "doseTexto": "0,2 mg/kg IV/IN (máx 10 mg)",
+        "doseMin": 0.2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Midazolam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Procedural Sedation",
+          "descricaoDose": "1-2.5 mg IV slow push, repeat up to max 5 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 2.5,
+            "doseMaxima": 5,
+            "doseFixa": "1-2.5 mg IV",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Anesthetic Induction",
+          "descricaoDose": "0.15-0.3 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Status Epilepticus",
+          "descricaoDose": "5-10 mg IV/IM or 10 mg IN/buccal",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg IV/IM",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM/IN",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "ICU Sedation",
+          "descricaoDose": "0.02-0.1 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.02,
+            "doseMax": 0.1,
+            "doseMaxima": 0.15,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "Caution in prolonged infusion",
+            "ajusteHepatico": "Reduce infusion rate"
+          }
+        },
+        {
+          "titulo": "Pediatric Sedation",
+          "descricaoDose": "0.05-0.1 mg/kg IV (max 2.5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose"
+          }
+        },
+        {
+          "titulo": "Pediatric Seizures",
+          "descricaoDose": "0.2 mg/kg IV/IN (max 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IN",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric ICU Sedation",
+          "descricaoDose": "0.06-0.12 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.06,
+            "doseMax": 0.12,
+            "doseMaxima": 0.15,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "Caution in prolonged infusion",
+            "ajusteHepatico": "Reduce infusion rate"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.02, "doseMax": 0.15 },
+          "pediatrico": { "doseMin": 0.06, "doseMax": 0.15 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Undiluted (5 mg/mL)", "valor": 5 },
+            { "rotulo": "50mg + 40mL NS (1 mg/mL)", "valor": 1 },
+            { "rotulo": "15mg + 27mL NS (0.5 mg/mL)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine - Sedative, anxiolytic, anticonvulsant",
+      "apresentacoes": [
+        { "forma": "Vial 5mg/mL (3mL)", "obs": "15 mg total | Versed®" },
+        { "forma": "Vial 5mg/mL (10mL)", "obs": "50 mg total" },
+        { "forma": "Vial 1mg/mL (5mL)", "obs": "Diluted" },
+        { "forma": "Oral solution 2mg/mL", "obs": "For oral use" }
+      ],
+      "preparo": [
+        { "diluicao": "Undiluted", "concentracao": "5 mg/mL" },
+        { "diluicao": "50mg + 40mL NS", "concentracao": "1 mg/mL" },
+        { "diluicao": "15mg + 27mL NS", "concentracao": "0.5 mg/mL" },
+        { "diluicao": "IV Bolus", "concentracao": "Push SLOWLY (>2 min)" }
+      ],
+      "observacoes": [
+        "Onset IV: 1-3min | Duration: 30-60min",
+        "RESPIRATORY DEPRESSION - have flumazenil available",
+        "Potentiates opioids - reduce doses of both",
+        "Anterograde amnesia - warn patient",
+        "Elderly: reduce dose 30-50%",
+        "Hepatic metabolism (CYP3A4) - adjust in liver disease"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose 30-50%. Increased sensitivity and respiratory depression risk.",
+        "renal": "No initial adjustment required. Caution in prolonged infusion - active metabolite (1-hydroxymidazolam) may accumulate.",
+        "hepatico": "Reduce initial dose and infusion rate in moderate to severe impairment. Compromised hepatic metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Midazolam Sedation (adult)",
+        "doseTexto": "1-2.5 mg IV slow push",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1-2.5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Midazolam Induction (adult)",
+        "doseTexto": "0.15-0.3 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Midazolam Sedation (pediatric)",
+        "doseTexto": "0.05-0.1 mg/kg IV (max 2.5 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Midazolam Seizures (pediatric)",
+        "doseTexto": "0.2 mg/kg IV/IN (max 10 mg)",
+        "doseMin": 0.2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Midazolam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sedación procedimientos",
+          "descricaoDose": "1-2,5 mg IV lento, repetir hasta máx 5 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 2.5,
+            "doseMaxima": 5,
+            "doseFixa": "1-2,5 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir si necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Inducción anestésica",
+          "descricaoDose": "0,15-0,3 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epiléptico",
+          "descricaoDose": "5-10 mg IV/IM o 10 mg IN/bucal",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg IV/IM",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM/IN",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedación UCI",
+          "descricaoDose": "0,02-0,1 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.02,
+            "doseMax": 0.1,
+            "doseMaxima": 0.15,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "Precaución en infusión prolongada",
+            "ajusteHepatico": "Reducir tasa de infusión"
+          }
+        },
+        {
+          "titulo": "Sedación pediátrica",
+          "descricaoDose": "0,05-0,1 mg/kg IV (máx 2,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir si necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis"
+          }
+        },
+        {
+          "titulo": "Convulsiones pediátricas",
+          "descricaoDose": "0,2 mg/kg IV/IN (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IN",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sedación UCI pediátrica",
+          "descricaoDose": "0,06-0,12 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.06,
+            "doseMax": 0.12,
+            "doseMaxima": 0.15,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "Precaución en infusión prolongada",
+            "ajusteHepatico": "Reducir tasa de infusión"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.02, "doseMax": 0.15 },
+          "pediatrico": { "doseMin": 0.06, "doseMax": 0.15 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Puro (5 mg/mL)", "valor": 5 },
+            { "rotulo": "50mg + 40mL SSF (1 mg/mL)", "valor": 1 },
+            { "rotulo": "15mg + 27mL SSF (0,5 mg/mL)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico - Sedante, ansiolítico, anticonvulsivante",
+      "apresentacoes": [
+        { "forma": "Ampolla 5mg/mL (3mL)", "obs": "15 mg total | Dormicum®" },
+        { "forma": "Ampolla 5mg/mL (10mL)", "obs": "50 mg total" },
+        { "forma": "Ampolla 1mg/mL (5mL)", "obs": "Diluida" },
+        { "forma": "Solución oral 2mg/mL", "obs": "Para uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Puro (sin diluir)", "concentracao": "5 mg/mL" },
+        { "diluicao": "50mg + 40mL SSF", "concentracao": "1 mg/mL" },
+        { "diluicao": "15mg + 27mL SSF", "concentracao": "0,5 mg/mL" },
+        { "diluicao": "Bolo IV", "concentracao": "Administrar LENTO (>2 min)" }
+      ],
+      "observacoes": [
+        "Inicio IV: 1-3min | Duración: 30-60min",
+        "DEPRESIÓN RESPIRATORIA - tener flumazenil disponible",
+        "Potencia opioides - reducir dosis de ambos",
+        "Amnesia anterógrada - avisar al paciente",
+        "Anciano: reducir dosis 30-50%",
+        "Metabolismo hepático (CYP3A4) - ajustar en hepatopatía"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis 30-50%. Mayor sensibilidad y riesgo de depresión respiratoria.",
+        "renal": "No requiere ajuste inicial. Precaución en infusión prolongada - metabolito activo (1-hidroximidazolam) puede acumularse.",
+        "hepatico": "Reducir dosis inicial y tasa de infusión en insuficiencia moderada a grave. Metabolismo hepático comprometido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Midazolam Sedación (adulto)",
+        "doseTexto": "1-2,5 mg IV lento",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1-2,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Midazolam Inducción (adulto)",
+        "doseTexto": "0,15-0,3 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Midazolam Sedación (pediátrico)",
+        "doseTexto": "0,05-0,1 mg/kg IV (máx 2,5 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Midazolam Convulsiones (pediátrico)",
+        "doseTexto": "0,2 mg/kg IV/IN (máx 10 mg)",
+        "doseMin": 0.2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "咪达唑仑",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "操作镇静",
+          "descricaoDose": "1-2.5 mg 缓慢静注，可重复至最大5 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 2.5,
+            "doseMaxima": 5,
+            "doseFixa": "1-2.5 mg IV",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时重复",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "麻醉诱导",
+          "descricaoDose": "0.15-0.3 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "癫痫持续状态",
+          "descricaoDose": "5-10 mg IV/IM 或 10 mg 鼻内/口腔黏膜",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg IV/IM",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM/IN",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "ICU镇静",
+          "descricaoDose": "0.02-0.1 mg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.02,
+            "doseMax": 0.1,
+            "doseMaxima": 0.15,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "长期输注时谨慎",
+            "ajusteHepatico": "减少输注速率"
+          }
+        },
+        {
+          "titulo": "儿童镇静",
+          "descricaoDose": "0.05-0.1 mg/kg IV（最大2.5 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时重复",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减量"
+          }
+        },
+        {
+          "titulo": "儿童惊厥",
+          "descricaoDose": "0.2 mg/kg IV/IN（最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IN",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童ICU镇静",
+          "descricaoDose": "0.06-0.12 mg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.06,
+            "doseMax": 0.12,
+            "doseMaxima": 0.15,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "长期输注时谨慎",
+            "ajusteHepatico": "减少输注速率"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.02, "doseMax": 0.15 },
+          "pediatrico": { "doseMin": 0.06, "doseMax": 0.15 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "原液 (5 mg/mL)", "valor": 5 },
+            { "rotulo": "50mg + 40mL NS (1 mg/mL)", "valor": 1 },
+            { "rotulo": "15mg + 27mL NS (0.5 mg/mL)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "苯二氮卓类 - 镇静剂、抗焦虑药、抗惊厥药",
+      "apresentacoes": [
+        { "forma": "安瓿 5mg/mL (3mL)", "obs": "共15 mg" },
+        { "forma": "安瓿 5mg/mL (10mL)", "obs": "共50 mg" },
+        { "forma": "安瓿 1mg/mL (5mL)", "obs": "已稀释" },
+        { "forma": "口服液 2mg/mL", "obs": "口服用" }
+      ],
+      "preparo": [
+        { "diluicao": "原液（不稀释）", "concentracao": "5 mg/mL" },
+        { "diluicao": "50mg + 40mL NS", "concentracao": "1 mg/mL" },
+        { "diluicao": "15mg + 27mL NS", "concentracao": "0.5 mg/mL" },
+        { "diluicao": "静脉推注", "concentracao": "缓慢推注（>2分钟）" }
+      ],
+      "observacoes": [
+        "起效 IV: 1-3分钟 | 持续: 30-60分钟",
+        "呼吸抑制 - 备好氟马西尼",
+        "增强阿片类效果 - 两者均减量",
+        "顺行性遗忘 - 告知患者",
+        "老年人：减量30-50%",
+        "肝脏代谢 (CYP3A4) - 肝病时调整"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量30-50%。敏感性增加，呼吸抑制风险增加。",
+        "renal": "初始剂量无需调整。长期输注时谨慎 - 活性代谢物（1-羟基咪达唑仑）可能蓄积。",
+        "hepatico": "中重度肝功能不全时减少初始剂量和输注速率。肝脏代谢受损。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "咪达唑仑 镇静 (成人)",
+        "doseTexto": "1-2.5 mg 缓慢静注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1-2.5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "咪达唑仑 诱导 (成人)",
+        "doseTexto": "0.15-0.3 mg/kg IV",
+        "doseMin": 0.15,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "咪达唑仑 镇静 (儿童)",
+        "doseTexto": "0.05-0.1 mg/kg IV（最大2.5 mg）",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "咪达唑仑 惊厥 (儿童)",
+        "doseTexto": "0.2 mg/kg IV/IN（最大10 mg）",
+        "doseMin": 0.2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

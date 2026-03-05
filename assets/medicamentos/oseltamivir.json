@@ -1,0 +1,18 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Oseltamivir",
+      "nome_comercial": ["Tamiflu"],
+      "classe_terapeutica": "Antiviral - Inibidor da neuraminidase",
+      "mecanismo_acao": "Pró-droga convertida em carboxilato de oseltamivir, que inibe a neuraminidase viral, impedindo a liberação de vírions das células infectadas e a disseminação do vírus.",
+      "espectro": {"sensivel": ["Influenza A", "Influenza B"]},
+      "indicacoes": ["Tratamento de influenza (iniciar <48h)", "Profilaxia pós-exposição", "Casos graves hospitalizados"],
+      "apresentacoes": [{"forma": "Cápsula", "concentracao": "30mg, 45mg, 75mg"}, {"forma": "Suspensão", "concentracao": "6mg/mL"}],
+      "farmacocinetica": {"biodisponibilidade": "75%", "meia_vida": "6-10 horas", "excrecao": "Renal (>90%)", "metabolismo": "Esterases hepáticas"},
+      "doses_pediatricas": {"ate_15kg": "30mg 12/12h", "15_23kg": "45mg 12/12h", "23_40kg": "60mg 12/12h", "mais_40kg": "75mg 12/12h"},
+      "ajuste_renal": {"ClCr_30_60": "30mg 12/12h", "ClCr_10_30": "30mg 1x/dia", "ClCr_menor_10": "Não recomendado"},
+      "efeitos_adversos": ["Náusea/vômito (10-15%)", "Cefaleia", "Eventos neuropsiquiátricos (raro, mais em crianças)"],
+      "observacoes": ["Iniciar em <48h para maior benefício", "Pode iniciar >48h em casos graves", "Tomar com alimentos reduz náusea"]
+    }
+  }
+}

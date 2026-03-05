@@ -1,0 +1,450 @@
+{
+  "PT": {
+    "nome": "Efedrina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipotensão (raquianestesia/peridural)",
+          "descricaoDose": "5-10 mg IV bolus, repetir a cada 3-5 min se necessário",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 3-5 min se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dose máxima total",
+          "descricaoDose": "50 mg (total cumulativo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg (total cumulativo)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipotensão pediátrica",
+          "descricaoDose": "0,1-0,2 mg/kg IV bolus (máx 10 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 3-5 min se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Simpatomimético misto (alfa + beta)",
+      "apresentacoes": [
+        { "forma": "Ampola 50 mg/mL (1 mL)", "obs": "Concentrado para bolus" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg + 9 mL SF (seringa 10 mL)", "concentracao": "5 mg/mL" },
+        { "diluicao": "Puro (sem diluir)", "concentracao": "50 mg/mL" }
+      ],
+      "observacoes": [
+        "Início de ação IV: 1-2 min | Duração: 10-60 min",
+        "Taquifilaxia com doses repetidas",
+        "Atravessa placenta - usar com cautela em gestantes",
+        "CI: hipertensão grave, arritmias, feocromocitoma",
+        "Pode causar taquicardia e arritmias",
+        "Preferir fenilefrina se FC elevada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar efeitos cardiovasculares. Maior risco de eventos adversos.",
+        "renal": "Usar com cautela na insuficiência renal grave. Excreção renal prolongada pode potencializar efeitos.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave. Disfunção hepática pode reduzir metabolização e prolongar o efeito."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Efedrina (adulto)",
+        "doseTexto": "5-10 mg IV a cada 3-5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Efedrina (pediátrico)",
+        "doseTexto": "0,1-0,2 mg/kg IV (máx 10 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ephedrine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypotension (spinal/epidural anesthesia)",
+          "descricaoDose": "5-10 mg IV bolus, repeat every 3-5 min if needed",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 3-5 min if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maximum cumulative dose",
+          "descricaoDose": "50 mg (cumulative total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg (cumulative total)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric hypotension",
+          "descricaoDose": "0.1-0.2 mg/kg IV bolus (max 10 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 3-5 min if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Mixed sympathomimetic (alpha + beta)",
+      "apresentacoes": [
+        { "forma": "Ampoule 50 mg/mL (1 mL)", "obs": "Concentrate for bolus" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg + 9 mL NS (10 mL syringe)", "concentracao": "5 mg/mL" },
+        { "diluicao": "Undiluted", "concentracao": "50 mg/mL" }
+      ],
+      "observacoes": [
+        "IV onset: 1-2 min | Duration: 10-60 min",
+        "Tachyphylaxis with repeated doses",
+        "Crosses placenta - use with caution in pregnancy",
+        "CI: severe hypertension, arrhythmias, pheochromocytoma",
+        "May cause tachycardia and arrhythmias",
+        "Prefer phenylephrine if HR elevated"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor cardiovascular effects. Higher risk of adverse events.",
+        "renal": "Use with caution in severe renal impairment. Prolonged renal excretion may potentiate effects.",
+        "hepatico": "Use with caution in severe hepatic impairment. Hepatic dysfunction may reduce metabolism and prolong effect."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ephedrine (adult)",
+        "doseTexto": "5-10 mg IV every 3-5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ephedrine (pediatric)",
+        "doseTexto": "0.1-0.2 mg/kg IV (max 10 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Efedrina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipotensión (raquianestesia/peridural)",
+          "descricaoDose": "5-10 mg IV bolo, repetir cada 3-5 min si necesario",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 3-5 min si necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Dosis máxima total",
+          "descricaoDose": "50 mg (total acumulativo)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg (total acumulativo)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipotensión pediátrica",
+          "descricaoDose": "0,1-0,2 mg/kg IV bolo (máx 10 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 3-5 min si necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vasopresor - Simpaticomimético mixto (alfa + beta)",
+      "apresentacoes": [
+        { "forma": "Ampolla 50 mg/mL (1 mL)", "obs": "Concentrado para bolo" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg + 9 mL SSF (jeringa 10 mL)", "concentracao": "5 mg/mL" },
+        { "diluicao": "Puro (sin diluir)", "concentracao": "50 mg/mL" }
+      ],
+      "observacoes": [
+        "Inicio de acción IV: 1-2 min | Duración: 10-60 min",
+        "Taquifilaxia con dosis repetidas",
+        "Atraviesa placenta - usar con precaución en gestantes",
+        "CI: hipertensión grave, arritmias, feocromocitoma",
+        "Puede causar taquicardia y arritmias",
+        "Preferir fenilefrina si FC elevada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar efectos cardiovasculares. Mayor riesgo de eventos adversos.",
+        "renal": "Usar con precaución en insuficiencia renal grave. Excreción renal prolongada puede potencializar efectos.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave. Disfunción hepática puede reducir metabolización y prolongar el efecto."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Efedrina (adulto)",
+        "doseTexto": "5-10 mg IV cada 3-5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Efedrina (pediátrico)",
+        "doseTexto": "0,1-0,2 mg/kg IV (máx 10 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "麻黄碱",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "低血压 (腰麻/硬膜外麻醉)",
+          "descricaoDose": "5-10 mg IV 推注，必要时每3-5分钟重复",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时每3-5分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "累积最大剂量",
+          "descricaoDose": "50 mg (累积总量)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg (累积总量)",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童低血压",
+          "descricaoDose": "0.1-0.2 mg/kg IV 推注（最大10 mg/剂）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时每3-5分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "升压药 - α和β拟交感神经药",
+      "apresentacoes": [
+        { "forma": "安瓿 50 mg/mL (1 mL)", "obs": "推注用浓缩液" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg + 9 mL NS (10 mL 注射器)", "concentracao": "5 mg/mL" },
+        { "diluicao": "原液（不稀释）", "concentracao": "50 mg/mL" }
+      ],
+      "observacoes": [
+        "静脉起效：1-2分钟 | 持续时间：10-60分钟",
+        "重复给药可致快速耐受",
+        "透过胎盘 - 孕妇慎用",
+        "禁忌症：严重高血压、心律失常、嗜铬细胞瘤",
+        "可能引起心动过速和心律失常",
+        "心率升高时首选去氧肾上腺素"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测心血管效应。不良事件风险更高。",
+        "renal": "严重肾功能不全时慎用。肾脏排泄延长可能增强效应。",
+        "hepatico": "严重肝功能不全时慎用。肝功能障碍可能降低代谢并延长效应。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "麻黄碱 (成人)",
+        "doseTexto": "5-10 mg IV 每3-5分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "麻黄碱 (儿童)",
+        "doseTexto": "0.1-0.2 mg/kg IV (最大10 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

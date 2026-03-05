@@ -1,0 +1,894 @@
+{
+  "PT": {
+    "nome": "Rivaroxabana",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA – anticoagulação (adulto)",
+          "descricaoDose": "20 mg 1x/dia VO com refeição (jantar). ClCr 15-50: 15 mg 1x/dia. ClCr <15: contraindicado.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia com refeição",
+            "ajusteRenal": "ClCr 15-50: 15 mg/dia; ClCr <15: contraindicado",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia.",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.75
+          }
+        },
+        {
+          "titulo": "TVP/TEP – fase aguda (adulto)",
+          "descricaoDose": "15 mg 2x/dia VO por 21 dias. Após, 20 mg 1x/dia. Doses com alimento.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia por 21 dias",
+            "ajusteRenal": "ClCr <15: contraindicado. Cautela em ClCr 15-29.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – manutenção (adulto)",
+          "descricaoDose": "20 mg 1x/dia VO com alimento. Após 21 dias de fase aguda.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia com alimento",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – profilaxia prolongada (adulto)",
+          "descricaoDose": "10 mg 1x/dia VO. Após ≥6 meses de tratamento. Sem alimento.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "Profilaxia TVP – cirurgia ortopédica (adulto)",
+          "descricaoDose": "10 mg 1x/dia VO. Por 12-35 dias pós-artroplastia quadril/joelho.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "Profilaxia TVP – doente médico acamado (adulto)",
+          "descricaoDose": "10 mg 1x/dia VO. Profilaxia em internados com risco de TVP.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Inibidor direto do fator Xa",
+      "apresentacoes": [
+        { "forma": "Comprimido 2,5 mg", "obs": "SCA" },
+        { "forma": "Comprimido 10 mg", "obs": "Profilaxia TVP" },
+        { "forma": "Comprimido 15 mg", "obs": "TVP/TEP fase aguda" },
+        { "forma": "Comprimido 20 mg", "obs": "FA, TVP/TEP manutenção" }
+      ],
+      "preparo": [
+        { "diluicao": "VO. Doses 15 e 20 mg DEVEM ser tomadas com alimento. 10 mg com ou sem alimento.", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Doses de 15 e 20 mg obrigatoriamente com refeição (aumenta absorção)",
+        "ClCr <15 mL/min: contraindicado. Monitorizar função renal periodicamente",
+        "Reversão específica: andexanet alfa. Inespecífica: CCP",
+        "Não requer monitorização de rotina (INR desnecessário)",
+        "Contraindicado: sangramento ativo, gestação, hepatopatia com coagulopatia",
+        "Excreção renal 36% inalterado. Meia-vida 5-9 h (idosos 11-13 h)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Meia-vida prolongada (11-13 h). Avaliar benefício/risco. Monitorizar sangramento.",
+        "renal": "FA: ClCr 15-50 reduzir para 15 mg. ClCr <15 contraindicado. TVP: cautela em ClCr 15-29.",
+        "hepatico": "Contraindicado em hepatopatia com coagulopatia (Child-Pugh B/C)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Rivaroxabana FA (adulto)",
+        "doseTexto": "20 mg 1x/dia (15 mg se ClCr 15-50)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana TVP/TEP aguda (adulto)",
+        "doseTexto": "15 mg 2x/dia por 21 dias",
+        "doseMin": 15,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana TVP/TEP manutenção (adulto)",
+        "doseTexto": "20 mg 1x/dia com alimento",
+        "doseMin": 20,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana profilaxia prolongada (adulto)",
+        "doseTexto": "10 mg 1x/dia",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana profilaxia ortopédica (adulto)",
+        "doseTexto": "10 mg 1x/dia",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana profilaxia médico (adulto)",
+        "doseTexto": "10 mg 1x/dia",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Rivaroxaban",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "AF – anticoagulation (adult)",
+          "descricaoDose": "20 mg once daily PO with evening meal. CrCl 15-50: 15 mg once daily. CrCl <15: contraindicated.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily with meal",
+            "ajusteRenal": "CrCl 15-50: 15 mg/day; CrCl <15: contraindicated",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy.",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.75
+          }
+        },
+        {
+          "titulo": "DVT/PE – acute phase (adult)",
+          "descricaoDose": "15 mg twice daily PO for 21 days. Then 20 mg once daily. Take with food.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily for 21 days",
+            "ajusteRenal": "CrCl <15: contraindicated. Caution in CrCl 15-29.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "DVT/PE – maintenance (adult)",
+          "descricaoDose": "20 mg once daily PO with food. After 21 days of acute phase.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily with food",
+            "ajusteRenal": "CrCl <15: contraindicated.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "DVT/PE – extended prophylaxis (adult)",
+          "descricaoDose": "10 mg once daily PO. After ≥6 months of treatment. Without food.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <15: contraindicated.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "VTE prophylaxis – orthopedic surgery (adult)",
+          "descricaoDose": "10 mg once daily PO. For 12-35 days post-hip/knee arthroplasty.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <15: contraindicated.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "VTE prophylaxis – acutely ill medical (adult)",
+          "descricaoDose": "10 mg once daily PO. Prophylaxis in hospitalized patients at VTE risk.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <15: contraindicated.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Direct factor Xa inhibitor",
+      "apresentacoes": [
+        { "forma": "Tablet 2.5 mg", "obs": "ACS" },
+        { "forma": "Tablet 10 mg", "obs": "VTE prophylaxis" },
+        { "forma": "Tablet 15 mg", "obs": "DVT/PE acute" },
+        { "forma": "Tablet 20 mg", "obs": "AF, DVT/PE maintenance" }
+      ],
+      "preparo": [
+        { "diluicao": "PO. Doses 15 and 20 mg MUST be taken with food. 10 mg with or without food.", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "Doses of 15 and 20 mg must be taken with meal (increases absorption)",
+        "CrCl <15 mL/min: contraindicated. Monitor renal function periodically",
+        "Specific reversal: andexanet alfa. Nonspecific: PCC",
+        "No routine monitoring required (INR unnecessary)",
+        "Contraindicated: active bleeding, pregnancy, liver disease with coagulopathy",
+        "36% renal excretion unchanged. Half-life 5-9 h (elderly 11-13 h)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Prolonged half-life (11-13 h). Assess benefit/risk. Monitor bleeding.",
+        "renal": "AF: CrCl 15-50 reduce to 15 mg. CrCl <15 contraindicated. DVT: caution in CrCl 15-29.",
+        "hepatico": "Contraindicated in liver disease with coagulopathy (Child-Pugh B/C)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Rivaroxaban AF (adult)",
+        "doseTexto": "20 mg once daily (15 mg if CrCl 15-50)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Rivaroxaban DVT/PE acute (adult)",
+        "doseTexto": "15 mg twice daily for 21 days",
+        "doseMin": 15,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Rivaroxaban DVT/PE maintenance (adult)",
+        "doseTexto": "20 mg once daily with food",
+        "doseMin": 20,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Rivaroxaban extended prophylaxis (adult)",
+        "doseTexto": "10 mg once daily",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Rivaroxaban orthopedic prophylaxis (adult)",
+        "doseTexto": "10 mg once daily",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Rivaroxaban medical prophylaxis (adult)",
+        "doseTexto": "10 mg once daily",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Rivaroxabana",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA – anticoagulación (adulto)",
+          "descricaoDose": "20 mg 1x/día VO con comida (cena). ClCr 15-50: 15 mg 1x/día. ClCr <15: contraindicado.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día con comida",
+            "ajusteRenal": "ClCr 15-50: 15 mg/día; ClCr <15: contraindicado",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía.",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.75
+          }
+        },
+        {
+          "titulo": "TVP/TEP – fase aguda (adulto)",
+          "descricaoDose": "15 mg 2x/día VO por 21 días. Luego 20 mg 1x/día. Con alimento.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día por 21 días",
+            "ajusteRenal": "ClCr <15: contraindicado. Precaución en ClCr 15-29.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – mantenimiento (adulto)",
+          "descricaoDose": "20 mg 1x/día VO con alimento. Tras 21 días de fase aguda.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día con alimento",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – profilaxis prolongada (adulto)",
+          "descricaoDose": "10 mg 1x/día VO. Tras ≥6 meses de tratamiento. Sin alimento.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "Profilaxis TVP – cirugía ortopédica (adulto)",
+          "descricaoDose": "10 mg 1x/día VO. Por 12-35 días post-artroplastia cadera/rodilla.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "Profilaxis TVP – paciente médico encamado (adulto)",
+          "descricaoDose": "10 mg 1x/día VO. Profilaxis en hospitalizados con riesgo TVP.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Inhibidor directo del factor Xa",
+      "apresentacoes": [
+        { "forma": "Comprimido 2,5 mg", "obs": "SCA" },
+        { "forma": "Comprimido 10 mg", "obs": "Profilaxis TVP" },
+        { "forma": "Comprimido 15 mg", "obs": "TVP/TEP fase aguda" },
+        { "forma": "Comprimido 20 mg", "obs": "FA, TVP/TEP mantenimiento" }
+      ],
+      "preparo": [
+        { "diluicao": "VO. Dosis 15 y 20 mg DEBEN tomarse con comida. 10 mg con o sin alimento.", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Dosis 15 y 20 mg obligatoriamente con comida (aumenta absorción)",
+        "ClCr <15 mL/min: contraindicado. Monitorizar función renal periódicamente",
+        "Reversión específica: andexanet alfa. Inespecífica: CCP",
+        "No requiere monitorización rutinaria (INR innecesario)",
+        "Contraindicado: sangrado activo, gestación, hepatopatía con coagulopatía",
+        "Excreción renal 36% inalterado. Vida media 5-9 h (ancianos 11-13 h)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Vida media prolongada (11-13 h). Evaluar beneficio/riesgo. Monitorizar sangrado.",
+        "renal": "FA: ClCr 15-50 reducir a 15 mg. ClCr <15 contraindicado. TVP: precaución en ClCr 15-29.",
+        "hepatico": "Contraindicado en hepatopatía con coagulopatía (Child-Pugh B/C)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Rivaroxabana FA (adulto)",
+        "doseTexto": "20 mg 1x/día (15 mg si ClCr 15-50)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana TVP/TEP aguda (adulto)",
+        "doseTexto": "15 mg 2x/día por 21 días",
+        "doseMin": 15,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana TVP/TEP mantenimiento (adulto)",
+        "doseTexto": "20 mg 1x/día con alimento",
+        "doseMin": 20,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana profilaxis prolongada (adulto)",
+        "doseTexto": "10 mg 1x/día",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana profilaxis ortopédica (adulto)",
+        "doseTexto": "10 mg 1x/día",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Rivaroxabana profilaxis médico (adulto)",
+        "doseTexto": "10 mg 1x/día",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "利伐沙班",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "房颤抗凝（成人）",
+          "descricaoDose": "20 mg 每日1次 口服与晚餐同服。ClCr 15-50：15 mg 每日1次。ClCr <15：禁忌。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次与餐同服",
+            "ajusteRenal": "ClCr 15-50：15 mg/日；ClCr <15：禁忌",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.75
+          }
+        },
+        {
+          "titulo": "DVT/PE急性期（成人）",
+          "descricaoDose": "15 mg 每日2次 口服21天。随后20 mg 每日1次。与餐同服。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次共21天",
+            "ajusteRenal": "ClCr <15：禁忌。ClCr 15-29慎用。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "DVT/PE维持（成人）",
+          "descricaoDose": "20 mg 每日1次 口服与餐同服。急性期21天后。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次与餐同服",
+            "ajusteRenal": "ClCr <15：禁忌。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "DVT/PE长期预防（成人）",
+          "descricaoDose": "10 mg 每日1次 口服。治疗≥6个月后。空腹。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <15：禁忌。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "VTE预防骨科手术（成人）",
+          "descricaoDose": "10 mg 每日1次 口服。髋/膝关节置换后12-35天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <15：禁忌。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "VTE预防内科卧床（成人）",
+          "descricaoDose": "10 mg 每日1次 口服。住院VTE风险患者预防。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <15：禁忌。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - 直接Xa因子抑制剂",
+      "apresentacoes": [
+        { "forma": "片剂 2.5 mg", "obs": "ACS" },
+        { "forma": "片剂 10 mg", "obs": "VTE预防" },
+        { "forma": "片剂 15 mg", "obs": "DVT/PE急性" },
+        { "forma": "片剂 20 mg", "obs": "房颤、DVT/PE维持" }
+      ],
+      "preparo": [
+        { "diluicao": "口服。15和20 mg必须与餐同服。10 mg可空腹或餐后。", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "15和20 mg必须与餐同服（增加吸收）",
+        "ClCr <15 mL/min：禁忌。定期监测肾功能",
+        "特异性逆转：andexanet alfa。非特异性：PCC",
+        "无需常规监测（不需INR）",
+        "禁忌：活动性出血、妊娠、凝血功能障碍性肝病",
+        "36%原形经肾排泄。半衰期5-9 h（老年11-13 h）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "半衰期延长（11-13 h）。评估获益/风险。监测出血。",
+        "renal": "房颤：ClCr 15-50减至15 mg。ClCr <15禁忌。DVT：ClCr 15-29慎用。",
+        "hepatico": "凝血功能障碍性肝病禁忌（Child-Pugh B/C）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "利伐沙班 房颤（成人）",
+        "doseTexto": "20 mg 每日1次（ClCr 15-50时15 mg）",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "利伐沙班 DVT/PE急性（成人）",
+        "doseTexto": "15 mg 每日2次 共21天",
+        "doseMin": 15,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "利伐沙班 DVT/PE维持（成人）",
+        "doseTexto": "20 mg 每日1次 与餐同服",
+        "doseMin": 20,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "利伐沙班 长期预防（成人）",
+        "doseTexto": "10 mg 每日1次",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "利伐沙班 骨科预防（成人）",
+        "doseTexto": "10 mg 每日1次",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "利伐沙班 内科预防（成人）",
+        "doseTexto": "10 mg 每日1次",
+        "doseMin": 10,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

@@ -1,0 +1,434 @@
+{
+  "PT": {
+    "nome": "Fenoldopam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Emergência hipertensiva / Hipertensão grave",
+          "descricaoDose": "0,1-0,3 mcg/kg/min IV contínuo (máx 1,6 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão contínua (pediátrico)",
+          "descricaoDose": "0,2-0,8 mcg/kg/min IV contínuo (titular conforme PA)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.2,
+            "doseMax": 0.8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.1, "doseMax": 1.6 },
+          "pediatrico": { "doseMin": 0.2, "doseMax": 0.8 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg em 250 mL SF 0,9% (40 mcg/mL)", "valor": 40 },
+            { "rotulo": "10 mg em 500 mL SF 0,9% (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "20 mg em 250 mL SF 0,9% (80 mcg/mL)", "valor": 80 },
+            { "rotulo": "20 mg em 500 mL SF 0,9% (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agonista dopaminérgico D1 seletivo - vasodilatador / anti-hipertensivo de emergência",
+      "apresentacoes": [
+        { "forma": "Solução injetável 10 mg/mL", "obs": "1 mL ou 2 mL (Corlopam®)" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mg em 250 mL SF 0,9%", "concentracao": "40 mcg/mL" },
+        { "diluicao": "10 mg em 500 mL SF 0,9%", "concentracao": "20 mcg/mL" },
+        { "diluicao": "20 mg em 250 mL SF 0,9%", "concentracao": "80 mcg/mL" },
+        { "diluicao": "20 mg em 500 mL SF 0,9%", "concentracao": "40 mcg/mL" }
+      ],
+      "observacoes": [
+        "Início de ação em ~5 min; pico em ~15 min; meia-vida 5-10 min",
+        "Aumenta fluxo sanguíneo renal e natriurese; boa opção quando há comprometimento renal",
+        "Contraindicado em glaucoma (aumenta PIO) e hipersensibilidade a sulfitos",
+        "Efeitos adversos: taquicardia reflexa, hipocalemia, cefaleia, flushing, náusea",
+        "Não causa roubo coronariano; compatível com proteção renal perioperatória",
+        "Estabilidade: 24 h após diluição em temperatura ambiente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Titular com cautela; monitorar PA e frequência cardíaca.",
+        "renal": "Não requer ajuste de dose. Fenoldopam aumenta fluxo renal; opção preferencial em IRA ou DRC.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave (metabolizado por conjugação hepática)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenoldopam (adulto)",
+        "doseTexto": "0,1-0,3 mcg/kg/min IV (máx 1,6 mcg/kg/min)",
+        "doseMin": 0.1,
+        "doseMax": 0.3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenoldopam (pediátrico)",
+        "doseTexto": "0,2-0,8 mcg/kg/min IV contínuo",
+        "doseMin": 0.2,
+        "doseMax": 0.8,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Fenoldopam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypertensive emergency / Severe hypertension",
+          "descricaoDose": "0.1-0.3 mcg/kg/min IV continuous (max 1.6 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Continuous infusion (pediatric)",
+          "descricaoDose": "0.2-0.8 mcg/kg/min IV continuous (titrate to BP)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.2,
+            "doseMax": 0.8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.1, "doseMax": 1.6 },
+          "pediatrico": { "doseMin": 0.2, "doseMax": 0.8 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg in 250 mL NS (40 mcg/mL)", "valor": 40 },
+            { "rotulo": "10 mg in 500 mL NS (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "20 mg in 250 mL NS (80 mcg/mL)", "valor": 80 },
+            { "rotulo": "20 mg in 500 mL NS (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Selective dopamine D1 agonist - vasodilator / antihypertensive emergency agent",
+      "apresentacoes": [
+        { "forma": "Injection 10 mg/mL", "obs": "1 mL or 2 mL (Corlopam®)" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mg in 250 mL NS", "concentracao": "40 mcg/mL" },
+        { "diluicao": "10 mg in 500 mL NS", "concentracao": "20 mcg/mL" },
+        { "diluicao": "20 mg in 250 mL NS", "concentracao": "80 mcg/mL" },
+        { "diluicao": "20 mg in 500 mL NS", "concentracao": "40 mcg/mL" }
+      ],
+      "observacoes": [
+        "Onset ~5 min; peak ~15 min; half-life 5-10 min",
+        "Increases renal blood flow and natriuresis; good option when renal impairment present",
+        "Contraindicated in glaucoma (increases IOP) and sulfite hypersensitivity",
+        "Adverse effects: reflex tachycardia, hypokalemia, headache, flushing, nausea",
+        "Does not cause coronary steal; suitable for perioperative renal protection",
+        "Stability: 24 h after dilution at room temperature"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Titrate cautiously; monitor BP and heart rate.",
+        "renal": "No dose adjustment. Fenoldopam increases renal flow; preferred option in AKI or CKD.",
+        "hepatico": "Use with caution in severe hepatic impairment (hepatic conjugation)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenoldopam (adult)",
+        "doseTexto": "0.1-0.3 mcg/kg/min IV (max 1.6 mcg/kg/min)",
+        "doseMin": 0.1,
+        "doseMax": 0.3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fenoldopam (pediatric)",
+        "doseTexto": "0.2-0.8 mcg/kg/min IV continuous",
+        "doseMin": 0.2,
+        "doseMax": 0.8,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fenoldopam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Emergencia hipertensiva / Hipertensión grave",
+          "descricaoDose": "0,1-0,3 mcg/kg/min IV continuo (máx 1,6 mcg/kg/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Infusión continua (pediátrico)",
+          "descricaoDose": "0,2-0,8 mcg/kg/min IV continuo (titular según PA)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.2,
+            "doseMax": 0.8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.1, "doseMax": 1.6 },
+          "pediatrico": { "doseMin": 0.2, "doseMax": 0.8 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg en 250 mL SF 0,9% (40 mcg/mL)", "valor": 40 },
+            { "rotulo": "10 mg en 500 mL SF 0,9% (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "20 mg en 250 mL SF 0,9% (80 mcg/mL)", "valor": 80 },
+            { "rotulo": "20 mg en 500 mL SF 0,9% (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agonista dopaminérgico D1 selectivo - vasodilatador / antihipertensivo de emergencia",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 10 mg/mL", "obs": "1 mL o 2 mL (Corlopam®)" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mg en 250 mL SF 0,9%", "concentracao": "40 mcg/mL" },
+        { "diluicao": "10 mg en 500 mL SF 0,9%", "concentracao": "20 mcg/mL" },
+        { "diluicao": "20 mg en 250 mL SF 0,9%", "concentracao": "80 mcg/mL" },
+        { "diluicao": "20 mg en 500 mL SF 0,9%", "concentracao": "40 mcg/mL" }
+      ],
+      "observacoes": [
+        "Inicio de acción ~5 min; pico ~15 min; vida media 5-10 min",
+        "Aumenta flujo sanguíneo renal y natriuresis; buena opción con compromiso renal",
+        "Contraindicado en glaucoma (aumenta PIO) e hipersensibilidad a sulfitos",
+        "Efectos adversos: taquicardia refleja, hipopotasemia, cefalea, flushing, náusea",
+        "No causa robo coronario; adecuado para protección renal perioperatoria",
+        "Estabilidad: 24 h tras dilución a temperatura ambiente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Titular con cautela; monitorizar PA y frecuencia cardíaca.",
+        "renal": "No requiere ajuste de dosis. Fenoldopam aumenta flujo renal; opción preferente en IRA o ERC.",
+        "hepatico": "Usar con cautela en insuficiencia hepática grave (metabolización hepática)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenoldopam (adulto)",
+        "doseTexto": "0,1-0,3 mcg/kg/min IV (máx 1,6 mcg/kg/min)",
+        "doseMin": 0.1,
+        "doseMax": 0.3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenoldopam (pediátrico)",
+        "doseTexto": "0,2-0,8 mcg/kg/min IV continuo",
+        "doseMin": 0.2,
+        "doseMax": 0.8,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "非诺多泮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "高血压急症/严重高血压",
+          "descricaoDose": "0.1-0.3 mcg/kg/min 静脉持续（最大 1.6 mcg/kg/min）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "持续输注（儿科）",
+          "descricaoDose": "0.2-0.8 mcg/kg/min 静脉持续（根据血压滴定）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.2,
+            "doseMax": 0.8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.1, "doseMax": 1.6 },
+          "pediatrico": { "doseMin": 0.2, "doseMax": 0.8 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10 mg 溶于 250 mL 生理盐水 (40 mcg/mL)", "valor": 40 },
+            { "rotulo": "10 mg 溶于 500 mL 生理盐水 (20 mcg/mL)", "valor": 20 },
+            { "rotulo": "20 mg 溶于 250 mL 生理盐水 (80 mcg/mL)", "valor": 80 },
+            { "rotulo": "20 mg 溶于 500 mL 生理盐水 (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "选择性多巴胺D1受体激动剂 - 血管扩张剂/急诊降压药",
+      "apresentacoes": [
+        { "forma": "注射液 10 mg/mL", "obs": "1 mL 或 2 mL (Corlopam®)" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mg 溶于 250 mL 生理盐水", "concentracao": "40 mcg/mL" },
+        { "diluicao": "10 mg 溶于 500 mL 生理盐水", "concentracao": "20 mcg/mL" },
+        { "diluicao": "20 mg 溶于 250 mL 生理盐水", "concentracao": "80 mcg/mL" },
+        { "diluicao": "20 mg 溶于 500 mL 生理盐水", "concentracao": "40 mcg/mL" }
+      ],
+      "observacoes": [
+        "起效约5分钟；峰值约15分钟；半衰期5-10分钟",
+        "增加肾血流量和尿钠排泄；肾功能受损时首选",
+        "青光眼（升高眼压）及亚硫酸盐过敏者禁用",
+        "不良反应：反射性心动过速、低钾、头痛、潮红、恶心",
+        "不引起冠状动脉窃血；适用于围术期肾保护",
+        "稳定性：稀释后室温24小时"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "谨慎滴定；监测血压和心率。",
+        "renal": "无需调整剂量。非诺多泮增加肾血流；急性肾损伤或慢性肾病时优选。",
+        "hepatico": "严重肝功能不全慎用（肝脏结合代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "非诺多泮（成人）",
+        "doseTexto": "0.1-0.3 mcg/kg/min 静脉（最大 1.6 mcg/kg/min）",
+        "doseMin": 0.1,
+        "doseMax": 0.3,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "非诺多泮（儿科）",
+        "doseTexto": "0.2-0.8 mcg/kg/min 静脉持续",
+        "doseMin": 0.2,
+        "doseMax": 0.8,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -51,7 +51,21 @@ async function signup(email, password) {
 
   const data = await response.json();
   if (!response.ok) {
-    throw new Error(data?.error_description || data?.msg || "Falha ao criar conta.");
+    const msg =
+      data?.message ||
+      data?.error_description ||
+      data?.msg ||
+      data?.error ||
+      "Falha ao criar conta.";
+    if (
+      typeof msg === "string" &&
+      msg.toLowerCase().includes("database error saving new user")
+    ) {
+      throw new Error(
+        "Erro ao criar conta: configuração do banco de dados. Execute o script supabase_profiles_table_and_trigger.sql no Supabase (SQL Editor) e tente novamente."
+      );
+    }
+    throw new Error(typeof msg === "string" ? msg : "Falha ao criar conta.");
   }
   return { user: data.user || data, message: "Cadastro realizado. Verifique seu e-mail." };
 }

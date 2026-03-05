@@ -1,0 +1,906 @@
+{
+  "PT": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bradicardia (ACLS)",
+          "descricaoDose": "0,5mg IV a cada 3-5 min (máx 3mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3,
+            "doseFixa": "0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 3-5 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação por Organofosforados",
+          "descricaoDose": "1-2mg IV, repetir a cada 5-10 min até atropinização",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 5-10 min até atropinização",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pré-medicação Anestésica",
+          "descricaoDose": "0,4-0,6mg IM ou SC",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.4,
+            "doseMax": 0.6,
+            "doseMaxima": 0.6,
+            "doseFixa": "0,4-0,6 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversão BNM (com Neostigmina)",
+          "descricaoDose": "0,02mg/kg IV (máx 1mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bradicardia (PALS)",
+          "descricaoDose": "0,02mg/kg IV/IO (mín 0,1mg; máx 0,5mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": 0.1,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "a cada 3-5 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pré-medicação Anestésica Pediátrica",
+          "descricaoDose": "0,01-0,02mg/kg IM (máx 0,4mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.4,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação Organofosforados Pediátrica",
+          "descricaoDose": "0,02-0,05mg/kg IV (repetir até atropinização)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 5-10 min até atropinização",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antimuscarínico - Antagonista colinérgico",
+      "apresentacoes": [
+        {
+          "forma": "Ampola 0,25mg/mL (1mL)",
+          "obs": "Uso pediátrico"
+        },
+        {
+          "forma": "Ampola 0,5mg/mL (1mL)",
+          "obs": "Uso geral"
+        },
+        {
+          "forma": "Ampola 1mg/mL (1mL)",
+          "obs": "Uso geral"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "Puro",
+          "concentracao": "0,5-1 mg/mL - pronto para uso IV"
+        },
+        {
+          "diluicao": "1mg + 10mL SF",
+          "concentracao": "100 mcg/mL - uso endotraqueal"
+        },
+        {
+          "diluicao": "0,5mg + 5mL SF",
+          "concentracao": "100 mcg/mL - uso pediátrico"
+        }
+      ],
+      "observacoes": [
+        "Primeira linha em bradicardia sintomática (ACLS/PALS)",
+        "Dose mínima pediátrica: 0,1mg (evita bradicardia paradoxal)",
+        "Antídoto para intoxicação por organofosforados e carbamatos",
+        "Sinais de atropinização: boca seca, taquicardia, midríase",
+        "Contraindicado em glaucoma de ângulo fechado",
+        "Pode causar retenção urinária em idosos e prostáticos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior sensibilidade aos efeitos anticolinérgicos. Monitorar retenção urinária e confusão mental.",
+        "renal": "Não requer ajuste de dose. Excreção renal de 30-50% inalterada.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave. Pode haver aumento da meia-vida."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Atropina (adulto)",
+        "doseTexto": "0,5 mg IV a cada 3-5 min (máx 3mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Atropina (pediátrico)",
+        "doseTexto": "0,02 mg/kg IV (mín 0,1mg; máx 0,5mg)",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Atropina Pré-anestésica (adulto)",
+        "doseTexto": "0,4-0,6 mg IM/SC",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,4-0,6 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Atropina Reversão BNM",
+        "doseTexto": "0,02 mg/kg IV (máx 1mg)",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bradycardia (ACLS)",
+          "descricaoDose": "0.5mg IV every 3-5 min (max 3mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3,
+            "doseFixa": "0.5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 3-5 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Organophosphate Poisoning",
+          "descricaoDose": "1-2mg IV, repeat every 5-10 min until atropinization",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 5-10 min until atropinization",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pre-anesthetic Medication",
+          "descricaoDose": "0.4-0.6mg IM or SC",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.4,
+            "doseMax": 0.6,
+            "doseMaxima": 0.6,
+            "doseFixa": "0.4-0.6 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/SC",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "NMB Reversal (with Neostigmine)",
+          "descricaoDose": "0.02mg/kg IV (max 1mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Bradycardia (PALS)",
+          "descricaoDose": "0.02mg/kg IV/IO (min 0.1mg; max 0.5mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": 0.1,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IO",
+            "intervalo": "every 3-5 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric Pre-anesthetic Medication",
+          "descricaoDose": "0.01-0.02mg/kg IM (max 0.4mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.4,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric Organophosphate Poisoning",
+          "descricaoDose": "0.02-0.05mg/kg IV (repeat until atropinization)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 5-10 min until atropinization",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antimuscarinic - Cholinergic antagonist",
+      "apresentacoes": [
+        {
+          "forma": "Ampoule 0.25mg/mL (1mL)",
+          "obs": "Pediatric use"
+        },
+        {
+          "forma": "Ampoule 0.5mg/mL (1mL)",
+          "obs": "General use"
+        },
+        {
+          "forma": "Ampoule 1mg/mL (1mL)",
+          "obs": "General use"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "Undiluted",
+          "concentracao": "0.5-1 mg/mL - ready for IV use"
+        },
+        {
+          "diluicao": "1mg + 10mL NS",
+          "concentracao": "100 mcg/mL - endotracheal use"
+        },
+        {
+          "diluicao": "0.5mg + 5mL NS",
+          "concentracao": "100 mcg/mL - pediatric use"
+        }
+      ],
+      "observacoes": [
+        "First-line for symptomatic bradycardia (ACLS/PALS)",
+        "Minimum pediatric dose: 0.1mg (prevents paradoxical bradycardia)",
+        "Antidote for organophosphate and carbamate poisoning",
+        "Signs of atropinization: dry mouth, tachycardia, mydriasis",
+        "Contraindicated in angle-closure glaucoma",
+        "May cause urinary retention in elderly and prostatic patients"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Increased sensitivity to anticholinergic effects. Monitor for urinary retention and confusion.",
+        "renal": "No dose adjustment required. Renal excretion 30-50% unchanged.",
+        "hepatico": "Use with caution in severe hepatic impairment. Half-life may be prolonged."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Atropine (adult)",
+        "doseTexto": "0.5 mg IV every 3-5 min (max 3mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Atropine (pediatric)",
+        "doseTexto": "0.02 mg/kg IV (min 0.1mg; max 0.5mg)",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Atropine Pre-anesthetic (adult)",
+        "doseTexto": "0.4-0.6 mg IM/SC",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.4-0.6 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Atropine NMB Reversal",
+        "doseTexto": "0.02 mg/kg IV (max 1mg)",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bradicardia (ACLS)",
+          "descricaoDose": "0,5mg IV cada 3-5 min (máx 3mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3,
+            "doseFixa": "0,5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 3-5 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación por Organofosforados",
+          "descricaoDose": "1-2mg IV, repetir cada 5-10 min hasta atropinización",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 5-10 min hasta atropinización",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Premedicación Anestésica",
+          "descricaoDose": "0,4-0,6mg IM o SC",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.4,
+            "doseMax": 0.6,
+            "doseMaxima": 0.6,
+            "doseFixa": "0,4-0,6 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Reversión BNM (con Neostigmina)",
+          "descricaoDose": "0,02mg/kg IV (máx 1mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Bradicardia (PALS)",
+          "descricaoDose": "0,02mg/kg IV/IO (mín 0,1mg; máx 0,5mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": 0.1,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "cada 3-5 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Premedicación Anestésica Pediátrica",
+          "descricaoDose": "0,01-0,02mg/kg IM (máx 0,4mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.4,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación Organofosforados Pediátrica",
+          "descricaoDose": "0,02-0,05mg/kg IV (repetir hasta atropinización)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 5-10 min hasta atropinización",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antimuscarínico - Antagonista colinérgico",
+      "apresentacoes": [
+        {
+          "forma": "Ampolla 0,25mg/mL (1mL)",
+          "obs": "Uso pediátrico"
+        },
+        {
+          "forma": "Ampolla 0,5mg/mL (1mL)",
+          "obs": "Uso general"
+        },
+        {
+          "forma": "Ampolla 1mg/mL (1mL)",
+          "obs": "Uso general"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "Puro",
+          "concentracao": "0,5-1 mg/mL - listo para uso IV"
+        },
+        {
+          "diluicao": "1mg + 10mL SSF",
+          "concentracao": "100 mcg/mL - uso endotraqueal"
+        },
+        {
+          "diluicao": "0,5mg + 5mL SSF",
+          "concentracao": "100 mcg/mL - uso pediátrico"
+        }
+      ],
+      "observacoes": [
+        "Primera línea en bradicardia sintomática (ACLS/PALS)",
+        "Dosis mínima pediátrica: 0,1mg (evita bradicardia paradójica)",
+        "Antídoto para intoxicación por organofosforados y carbamatos",
+        "Signos de atropinización: boca seca, taquicardia, midriasis",
+        "Contraindicado en glaucoma de ángulo cerrado",
+        "Puede causar retención urinaria en ancianos y prostáticos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor sensibilidad a efectos anticolinérgicos. Monitorizar retención urinaria y confusión.",
+        "renal": "No requiere ajuste de dosis. Excreción renal 30-50% inalterada.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave. La vida media puede prolongarse."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Atropina (adulto)",
+        "doseTexto": "0,5 mg IV cada 3-5 min (máx 3mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Atropina (pediátrico)",
+        "doseTexto": "0,02 mg/kg IV (mín 0,1mg; máx 0,5mg)",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Atropina Preanestésica (adulto)",
+        "doseTexto": "0,4-0,6 mg IM/SC",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,4-0,6 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Atropina Reversión BNM",
+        "doseTexto": "0,02 mg/kg IV (máx 1mg)",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "心动过缓 (ACLS)",
+          "descricaoDose": "0.5mg IV 每3-5分钟（最大3mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3,
+            "doseFixa": "0.5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每3-5分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "有机磷中毒",
+          "descricaoDose": "1-2mg IV，每5-10分钟重复直至阿托品化",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": "1-2 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每5-10分钟重复直至阿托品化",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "麻醉前用药",
+          "descricaoDose": "0.4-0.6mg IM或SC",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.4,
+            "doseMax": 0.6,
+            "doseMaxima": 0.6,
+            "doseFixa": "0.4-0.6 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/SC",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "神经肌肉阻滞逆转（与新斯的明）",
+          "descricaoDose": "0.02mg/kg IV（最大1mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "心动过缓 (PALS)",
+          "descricaoDose": "0.02mg/kg IV/IO（最小0.1mg；最大0.5mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": 0.1,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IO",
+            "intervalo": "每3-5分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童麻醉前用药",
+          "descricaoDose": "0.01-0.02mg/kg IM（最大0.4mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.4,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童有机磷中毒",
+          "descricaoDose": "0.02-0.05mg/kg IV（重复直至阿托品化）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每5-10分钟重复直至阿托品化",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗毒蕈碱药 - 胆碱能拮抗剂",
+      "apresentacoes": [
+        {
+          "forma": "安瓿 0.25mg/mL (1mL)",
+          "obs": "儿童用"
+        },
+        {
+          "forma": "安瓿 0.5mg/mL (1mL)",
+          "obs": "通用"
+        },
+        {
+          "forma": "安瓿 1mg/mL (1mL)",
+          "obs": "通用"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "原液",
+          "concentracao": "0.5-1 mg/mL - 可直接静脉使用"
+        },
+        {
+          "diluicao": "1mg + 10mL NS",
+          "concentracao": "100 mcg/mL - 气管内使用"
+        },
+        {
+          "diluicao": "0.5mg + 5mL NS",
+          "concentracao": "100 mcg/mL - 儿童使用"
+        }
+      ],
+      "observacoes": [
+        "症状性心动过缓一线用药（ACLS/PALS）",
+        "儿童最小剂量：0.1mg（避免矛盾性心动过缓）",
+        "有机磷和氨基甲酸酯中毒的解毒剂",
+        "阿托品化征象：口干、心动过速、瞳孔散大",
+        "闭角型青光眼禁用",
+        "老年人和前列腺患者可能引起尿潴留"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "对抗胆碱能作用更敏感。监测尿潴留和意识模糊。",
+        "renal": "无需调整剂量。30-50%以原形经肾排泄。",
+        "hepatico": "严重肝功能不全时谨慎使用。半衰期可能延长。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "阿托品（成人）",
+        "doseTexto": "0.5 mg IV 每3-5分钟（最大3mg）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿托品（儿童）",
+        "doseTexto": "0.02 mg/kg IV（最小0.1mg；最大0.5mg）",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "阿托品 麻醉前用药（成人）",
+        "doseTexto": "0.4-0.6 mg IM/SC",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.4-0.6 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "阿托品 神经肌肉阻滞逆转",
+        "doseTexto": "0.02 mg/kg IV（最大1mg）",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

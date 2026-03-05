@@ -1,0 +1,614 @@
+{
+  "PT": {
+    "nome": "Torasemida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema (ICC, renal, hepático)",
+          "descricaoDose": "10-20 mg VO/IV 1x/dia (escalar até 200 mg conforme resposta)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 200,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Edema agudo de pulmão",
+          "descricaoDose": "10-20 mg IV bolus lento (repetir ou aumentar conforme necessidade)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir conforme necessidade",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Ascite / Síndrome nefrótica",
+          "descricaoDose": "20-100 mg IV 1x/dia (titular conforme resposta)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 100,
+            "doseMaxima": 200,
+            "doseFixa": "20-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Uso pediátrico (off-label)",
+          "descricaoDose": "0,1-0,2 mg/kg/dose VO/IV a cada 12-24h (máx 10 mg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "a cada 12-24h",
+            "ajusteRenal": "ClCr <30: monitorar resposta; pode necessitar doses maiores",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Diurético de alça - Derivado sulfoniluréia - Inibidor Na+/K+/2Cl−",
+      "apresentacoes": [
+        { "forma": "Ampola 10 mg/2 mL (5 mg/mL)", "obs": "Diuver® / Demadex®" },
+        { "forma": "Comprimido 2,5 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 5 mg / 10 mg / 20 mg", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV direto da ampola", "concentracao": "Administrar lento em 2-5 min" },
+        { "diluicao": "10 mg em 50-100 mL SF 0,9%", "concentracao": "Infundir em 10-20 min" }
+      ],
+      "observacoes": [
+        "Vantagens vs furosemida: biodisponibilidade oral alta (80-100%), duração 6-8h, menor hipocalemia",
+        "Monitorar K+, Na+, Mg2+, Ca2+, creatinina, PA e balanço hídrico",
+        "Contraindicado: anúria, hipovolemia severa, hipocalemia/hiponatremia grave",
+        "Ototoxicidade rara (menos que furosemida) - dose-dependente",
+        "Uso pediátrico off-label - dados limitados, cautela",
+        "Hepatopatas: risco hipovolemia e encefalopatia (usar cautela)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares e eletrolíticos.",
+        "renal": "Não requer ajuste em IR leve a moderada. Pode necessitar dose maior em IR grave ou síndrome nefrótica (menor entrega ao sítio de ação). Monitorizar eletrólitos frequentemente.",
+        "hepatico": "Usar com cautela. Pacientes com insuficiência hepática grave podem ter metabolismo alterado, risco aumentado de hipovolemia e distúrbios eletrolíticos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Torasemida (adulto - edema)",
+        "doseTexto": "10-20 mg VO/IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Torasemida (edema agudo pulmão)",
+        "doseTexto": "10-20 mg IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Torasemida (ascite/síndrome nefrótica)",
+        "doseTexto": "20-100 mg IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Torasemida (pediátrico)",
+        "doseTexto": "0,1-0,2 mg/kg VO/IV (máx 10 mg/dia)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Torsemide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema (CHF, renal, hepatic)",
+          "descricaoDose": "10-20 mg PO/IV once daily (escalate up to 200 mg per response)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 200,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO/IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Acute pulmonary edema",
+          "descricaoDose": "10-20 mg IV slow bolus (repeat or increase as needed)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat as needed",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Ascites / Nephrotic syndrome",
+          "descricaoDose": "20-100 mg IV once daily (titrate per response)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 100,
+            "doseMaxima": 200,
+            "doseFixa": "20-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric use (off-label)",
+          "descricaoDose": "0.1-0.2 mg/kg/dose PO/IV every 12-24h (max 10 mg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO/IV",
+            "intervalo": "every 12-24h",
+            "ajusteRenal": "ClCr <30: monitor response; may require higher doses",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Loop diuretic - Sulfonylurea derivative - Na+/K+/2Cl− inhibitor",
+      "apresentacoes": [
+        { "forma": "Ampoule 10 mg/2 mL (5 mg/mL)", "obs": "Demadex®" },
+        { "forma": "Tablet 2.5 mg", "obs": "Oral" },
+        { "forma": "Tablet 5 mg / 10 mg / 20 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus direct from ampoule", "concentracao": "Administer slowly over 2-5 min" },
+        { "diluicao": "10 mg in 50-100 mL NS", "concentracao": "Infuse over 10-20 min" }
+      ],
+      "observacoes": [
+        "Advantages vs furosemide: high oral bioavailability (80-100%), 6-8h duration, lower hypokalemia risk",
+        "Monitor K+, Na+, Mg2+, Ca2+, creatinine, BP and fluid balance",
+        "Contraindicated: anuria, severe hypovolemia, severe hypokalemia/hyponatremia",
+        "Ototoxicity rare (less than furosemide) - dose-dependent",
+        "Pediatric use off-label - limited data, caution",
+        "Hepatic impairment: hypovolemia and encephalopathy risk (use caution)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular and electrolyte effects.",
+        "renal": "No adjustment in mild-moderate renal failure. May require higher dose in severe renal failure or nephrotic syndrome (reduced delivery to site of action). Monitor electrolytes frequently.",
+        "hepatico": "Use with caution. Patients with severe hepatic insufficiency may have altered metabolism, increased risk of hypovolemia and electrolyte disturbances."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Torsemide (adult - edema)",
+        "doseTexto": "10-20 mg PO/IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Torsemide (acute pulmonary edema)",
+        "doseTexto": "10-20 mg IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Torsemide (ascites/nephrotic syndrome)",
+        "doseTexto": "20-100 mg IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Torsemide (pediatric)",
+        "doseTexto": "0.1-0.2 mg/kg PO/IV (max 10 mg/day)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Torasemida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema (ICC, renal, hepático)",
+          "descricaoDose": "10-20 mg VO/IV 1x/día (escalar hasta 200 mg según respuesta)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 200,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Edema agudo de pulmón",
+          "descricaoDose": "10-20 mg IV bolo lento (repetir o aumentar según necesidad)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir según necesidad",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Ascitis / Síndrome nefrótico",
+          "descricaoDose": "20-100 mg IV 1x/día (titular según respuesta)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 100,
+            "doseMaxima": 200,
+            "doseFixa": "20-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Uso pediátrico (off-label)",
+          "descricaoDose": "0,1-0,2 mg/kg/dosis VO/IV cada 12-24h (máx 10 mg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "cada 12-24h",
+            "ajusteRenal": "ClCr <30: monitorizar respuesta; puede requerir dosis mayores",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Diurético de asa - Derivado de sulfonilurea - Inhibidor Na+/K+/2Cl−",
+      "apresentacoes": [
+        { "forma": "Ampolla 10 mg/2 mL (5 mg/mL)", "obs": "Diuver® / Demadex®" },
+        { "forma": "Comprimido 2,5 mg", "obs": "Vía oral" },
+        { "forma": "Comprimido 5 mg / 10 mg / 20 mg", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo IV directo de la ampolla", "concentracao": "Administrar lento en 2-5 min" },
+        { "diluicao": "10 mg en 50-100 mL SSF 0,9%", "concentracao": "Infundir en 10-20 min" }
+      ],
+      "observacoes": [
+        "Ventajas vs furosemida: biodisponibilidad oral alta (80-100%), duración 6-8h, menor hipocalemia",
+        "Monitorizar K+, Na+, Mg2+, Ca2+, creatinina, PA y balance hídrico",
+        "Contraindicado: anuria, hipovolemia severa, hipocalemia/hiponatremia grave",
+        "Ototoxicidad rara (menos que furosemida) - dosis-dependiente",
+        "Uso pediátrico off-label - datos limitados, cautela",
+        "Hepatópatas: riesgo hipovolemia y encefalopatía (usar cautela)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares y electrolíticos.",
+        "renal": "No requiere ajuste en IR leve a moderada. Puede requerir dosis mayor en IR grave o síndrome nefrótico (menor entrega al sitio de acción). Monitorizar electrolitos frecuentemente.",
+        "hepatico": "Usar con precaución. Pacientes con insuficiencia hepática grave pueden tener metabolismo alterado, riesgo aumentado de hipovolemia y trastornos electrolíticos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Torasemida (adulto - edema)",
+        "doseTexto": "10-20 mg VO/IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Torasemida (edema agudo pulmón)",
+        "doseTexto": "10-20 mg IV bolo",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Torasemida (ascitis/síndrome nefrótico)",
+        "doseTexto": "20-100 mg IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Torasemida (pediátrico)",
+        "doseTexto": "0,1-0,2 mg/kg VO/IV (máx 10 mg/día)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "托拉塞米",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "水肿（心衰、肾、肝）",
+          "descricaoDose": "10-20 mg 口服/IV 1次/天（可按反应增至200 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 200,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "PO/IV",
+            "intervalo": "1次/天",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "急性肺水肿",
+          "descricaoDose": "10-20 mg IV 缓慢推注（可按需重复或增加）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "按需重复",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "腹水/肾病综合征",
+          "descricaoDose": "20-100 mg IV 1次/天（按反应滴定）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 100,
+            "doseMaxima": 200,
+            "doseFixa": "20-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "1次/天",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童使用（超说明书）",
+          "descricaoDose": "0.1-0.2 mg/kg/次 口服/IV 每12-24小时（最大10 mg/天）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.15,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "PO/IV",
+            "intervalo": "每12-24小时",
+            "ajusteRenal": "ClCr <30：监测反应；可能需要更高剂量",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "袢利尿剂 - 磺酰脲衍生物 - Na+/K+/2Cl−抑制剂",
+      "apresentacoes": [
+        { "forma": "安瓿 10 mg/2 mL (5 mg/mL)", "obs": "" },
+        { "forma": "片剂 2.5 mg", "obs": "口服" },
+        { "forma": "片剂 5 mg / 10 mg / 20 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "IV 直接推注", "concentracao": "2-5分钟内缓慢给药" },
+        { "diluicao": "10 mg 溶于 50-100 mL NS", "concentracao": "10-20分钟内输注" }
+      ],
+      "observacoes": [
+        "比呋塞米优势：口服生物利用度高（80-100%），持续时间6-8小时，低钾血症风险较低",
+        "监测K+、Na+、Mg2+、Ca2+、肌酐、血压和液体平衡",
+        "禁忌：无尿、严重低血容量、严重低钾/低钠血症",
+        "耳毒性罕见（少于呋塞米）- 剂量依赖性",
+        "儿童使用为超说明书 - 数据有限，谨慎",
+        "肝病患者：低血容量和肝性脑病风险（谨慎使用）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需特殊调整。监测心血管和电解质效应。",
+        "renal": "轻中度肾功能不全无需调整。严重肾功能不全或肾病综合征可能需要更高剂量（作用部位递送减少）。频繁监测电解质。",
+        "hepatico": "谨慎使用。严重肝功能不全患者可能代谢改变，低血容量和电解质紊乱风险增加。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "托拉塞米（成人-水肿）",
+        "doseTexto": "10-20 mg 口服/IV 1次/天",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "托拉塞米（急性肺水肿）",
+        "doseTexto": "10-20 mg IV 推注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "托拉塞米（腹水/肾病综合征）",
+        "doseTexto": "20-100 mg IV 1次/天",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "托拉塞米（儿童）",
+        "doseTexto": "0.1-0.2 mg/kg 口服/IV（最大10 mg/天）",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

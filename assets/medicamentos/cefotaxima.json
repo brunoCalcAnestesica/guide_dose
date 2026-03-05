@@ -1,0 +1,40 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Cefotaxima",
+      "nome_comercial": ["Claforan"],
+      "classe_terapeutica": "Cefalosporina de 3ª geração",
+      "mecanismo_acao": "Liga-se às PBPs, inibindo a síntese da parede celular bacteriana. Alta afinidade por PBP3.",
+      "espectro": {
+        "gram_positivos": ["Streptococcus", "S. pneumoniae"],
+        "gram_negativos": ["E. coli", "Klebsiella", "Proteus", "H. influenzae", "N. meningitidis", "N. gonorrhoeae", "Serratia", "Citrobacter"]
+      },
+      "nao_cobre": ["MRSA", "Pseudomonas", "Enterococcus", "Bacteroides fragilis"],
+      "indicacoes": [
+        "Meningite bacteriana",
+        "Pneumonia comunitária grave",
+        "Sepse",
+        "Infecções urinárias complicadas",
+        "Infecções neonatais"
+      ],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "500mg", "liofilizado": true},
+        {"forma": "Frasco", "concentracao": "1g", "liofilizado": true},
+        {"forma": "Frasco", "concentracao": "2g", "liofilizado": true}
+      ],
+      "farmacocinetica": {
+        "meia_vida": "1 hora",
+        "metabolito_ativo": "Desacetilcefotaxima",
+        "excrecao": "Renal (60%)",
+        "penetracao_lcr": "Excelente"
+      },
+      "ajuste_renal": {
+        "ClCr_10_50": "1-2g a cada 8-12h",
+        "ClCr_menor_10": "1-2g a cada 12-24h"
+      },
+      "efeitos_adversos": ["Diarreia", "Rash", "Eosinofilia", "Colite por C. difficile"],
+      "contraindicacoes": ["Alergia a cefalosporinas"],
+      "vantagens": ["Seguro em neonatos", "Excelente penetração LCR", "Metabólito ativo"]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Aprepitanto",
+      "nomesComerciais": [
+        "Emend®"
+      ],
+      "classeTerapeutica": "Antiemético / Antagonista do receptor NK1 (neurocinina-1)",
+      "mecanismoAcao": "Bloqueia seletivamente receptores NK1 no centro do vômito, impedindo a ação da Substância P. Particularmente eficaz na fase tardia da êmese induzida por quimioterapia (24-120h).",
+      "indicacoes": [
+        "Prevenção de náusea/vômito por quimioterapia altamente emetogênica",
+        "Prevenção de náusea/vômito por quimioterapia moderadamente emetogênica",
+        "Prevenção de náusea/vômito pós-operatório (NVPO)"
+      ],
+      "apresentacoes": {
+        "capsulas": [
+          "80 mg",
+          "125 mg"
+        ],
+        "kit3Dias": "1 x 125 mg + 2 x 80 mg",
+        "suspensaoOral": "125 mg (pediátrico)"
+      },
+      "posologia": {
+        "quimioterapiaAlta": {
+          "D1": "125 mg VO 1h antes da quimioterapia",
+          "D2_D3": "80 mg VO pela manhã"
+        },
+        "quimioterapiaModerada": "125 mg VO 1h antes (dose única ou regime 3 dias)",
+        "NVPO": "40 mg VO 3h antes da indução anestésica",
+        "pediatrico": "3 mg/kg VO 1h antes (máx 125 mg)"
+      },
+      "regimeCombinado": {
+        "D1": [
+          "Aprepitanto 125 mg VO",
+          "Ondansetrona 8 mg IV ou Granisetrona 1 mg IV",
+          "Dexametasona 12 mg VO/IV"
+        ],
+        "D2_D3": [
+          "Aprepitanto 80 mg VO",
+          "Dexametasona 8 mg VO"
+        ],
+        "D4": [
+          "Dexametasona 8 mg VO"
+        ]
+      },
+      "farmacocinetica": {
+        "biodisponibilidade": "60-65%",
+        "picoPlasmatico": "4 horas",
+        "meiaVida": "9-13 horas",
+        "metabolismo": "CYP3A4 (substrato e inibidor moderado)",
+        "excrecao": "Fecal (57%), Renal (45%)"
+      },
+      "interacoes": {
+        "CYP3A4": "Inibidor moderado",
+        "dexametasona": "Reduzir dose em 50%",
+        "metilprednisolona": "Aumenta níveis",
+        "contraceptivosOrais": "Reduz eficácia",
+        "warfarina": "Monitorar INR",
+        "contraindicados": [
+          "Pimozida",
+          "Cisaprida"
+        ]
+      },
+      "efeitosAdversos": [
+        "Fadiga",
+        "Soluços",
+        "Constipação"
+      ],
+      "contraindicacoes": [
+        "Hipersensibilidade",
+        "Uso com pimozida",
+        "Uso com cisaprida"
+      ],
+      "categoriaGravidez": "B"
+    }
+  }
+}

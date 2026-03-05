@@ -1,0 +1,122 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Sotalol",
+      "nome_comercial": ["Sotacor", "Sotahexal"],
+      "classe_terapeutica": "Antiarrítmico Classe III + Beta-bloqueador",
+      "mecanismo_acao": "Possui duplo mecanismo: bloqueia canais de potássio (classe III), prolongando a repolarização, e bloqueia receptores beta-adrenérgicos de forma não seletiva.",
+      "indicacoes": [
+        "Cardioversão farmacológica de FA/Flutter",
+        "Manutenção do ritmo sinusal pós-cardioversão",
+        "Taquicardias ventriculares sustentadas",
+        "Prevenção de taquiarritmias ventriculares"
+      ],
+      "contraindicacoes": [
+        "QTc > 450 ms",
+        "Bradicardia sinusal (< 50 bpm)",
+        "Bloqueio AV de 2º ou 3º grau sem marcapasso",
+        "ICC descompensada",
+        "Asma brônquica ou DPOC grave",
+        "ClCr < 30 mL/min",
+        "Hipocalemia ou hipomagnesemia não corrigidas"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Solução injetável",
+          "concentracao": "150 mg/10 mL",
+          "volume": "15 mg/mL"
+        },
+        {
+          "forma": "Comprimido",
+          "concentracao": "80 mg, 120 mg, 160 mg",
+          "volume": "Via oral"
+        }
+      ],
+      "farmacocinetica": {
+        "inicio_acao_iv": "5-10 minutos",
+        "pico_iv": "1-2 horas",
+        "duracao": "8-16 horas",
+        "meia_vida": "12 horas",
+        "metabolismo": "Não metabolizado",
+        "excrecao": "Renal (80-90% inalterado)"
+      },
+      "efeitos_adversos": [
+        "Prolongamento QT",
+        "Torsades de Pointes (1-4%)",
+        "Bradicardia",
+        "Hipotensão",
+        "Fadiga",
+        "Broncoespasmo"
+      ],
+      "interacoes_importantes": [
+        "Drogas que prolongam QT: efeitos aditivos",
+        "Diuréticos: risco de hipocalemia",
+        "Insulina: mascaramento de hipoglicemia",
+        "Verapamil/Diltiazem: bradicardia grave"
+      ],
+      "ajuste_renal": {
+        "ClCr_30_60": "Dose a cada 24h (50% da dose)",
+        "ClCr_menor_30": "Contraindicado"
+      },
+      "estabilidade": {
+        "temperatura_ambiente": "24 horas após diluição"
+      }
+    }
+  },
+  "ZH": {
+    "bulario": {
+      "nome_generico": "索他洛尔",
+      "nome_comercial": ["Sotacor", "Sotahexal"],
+      "classe_terapeutica": "III类抗心律失常药 + β受体阻滞剂",
+      "mecanismo_acao": "双重机制：阻断钾通道（III类）延长复极，并非选择性阻断β肾上腺素能受体。",
+      "indicacoes": [
+        "房颤/房扑药物复律",
+        "复律后窦律维持",
+        "持续性室性心动过速",
+        "室性快速心律失常的预防"
+      ],
+      "contraindicacoes": [
+        "QTc > 450 ms",
+        "窦性心动过缓（< 50 bpm）",
+        "无起搏器的II或III度房室传导阻滞",
+        "失代偿性心衰",
+        "支气管哮喘或严重COPD",
+        "ClCr < 30 mL/min",
+        "未纠正的低钾或低镁"
+      ],
+      "apresentacoes": [
+        {"forma": "注射液", "concentracao": "150 mg/10 mL", "volume": "15 mg/mL"},
+        {"forma": "片剂", "concentracao": "80 mg, 120 mg, 160 mg", "volume": "口服"}
+      ],
+      "farmacocinetica": {
+        "inicio_acao_iv": "5-10分钟",
+        "pico_iv": "1-2小时",
+        "duracao": "8-16小时",
+        "meia_vida": "12小时",
+        "metabolismo": "不代谢",
+        "excrecao": "肾脏（80-90%原形）"
+      },
+      "efeitos_adversos": [
+        "QT延长",
+        "尖端扭转型室速（1-4%）",
+        "心动过缓",
+        "低血压",
+        "乏力",
+        "支气管痉挛"
+      ],
+      "interacoes_importantes": [
+        "延长QT药物：相加作用",
+        "利尿剂：低钾风险",
+        "胰岛素：掩盖低血糖",
+        "维拉帕米/地尔硫卓：严重心动过缓"
+      ],
+      "ajuste_renal": {
+        "ClCr_30_60": "每24小时给药（50%剂量）",
+        "ClCr_menor_30": "禁忌"
+      },
+      "estabilidade": {
+        "temperatura_ambiente": "稀释后24小时"
+      }
+    }
+  }
+}

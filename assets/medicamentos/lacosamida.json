@@ -1,0 +1,50 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Lacosamida",
+      "nomesComerciais": ["Vimpat®"],
+      "classeTerapeutica": "Antiepiléptico de 2ª geração",
+      "mecanismoAcao": "Modulador seletivo da inativação lenta de canais de sódio voltagem-dependentes. Diferente de outros bloqueadores de sódio, atua na inativação lenta (não rápida), estabilizando membranas neuronais hiperexcitáveis.",
+      "apresentacoes": ["Ampola 200 mg/20 mL (10 mg/mL)", "Comprimidos 50 mg, 100 mg, 150 mg, 200 mg", "Xarope 10 mg/mL"],
+      "posologia": {
+        "statusEpilepticus": {
+          "ataque": "200-400 mg IV em 15-30 min",
+          "manutencao": "100-200 mg IV/VO 12/12h"
+        },
+        "inicioAmbulatorial": {
+          "dose": "50 mg VO 12/12h",
+          "titulacao": "Aumentar 50 mg/semana",
+          "doseAlvo": "100-200 mg 12/12h"
+        },
+        "pediatrico": {
+          "idade": "> 4 anos",
+          "dose": "2-4 mg/kg/dose 12/12h",
+          "doseMaxima": "200 mg/dose"
+        }
+      },
+      "vantagens": [
+        "Poucas interações medicamentosas",
+        "Não induz enzimas hepáticas",
+        "Bioequivalência IV/VO (troca 1:1)",
+        "Boa tolerabilidade",
+        "Sem necessidade de monitorar níveis séricos",
+        "Infusão rápida (15 min)"
+      ],
+      "farmacocinetica": {
+        "biodisponibilidadeOral": "> 95%",
+        "meiaVida": "13 horas",
+        "ligacaoProteica": "< 15%",
+        "metabolismo": "Hepático parcial (CYP2C19)",
+        "excrecaoRenal": "40% inalterado"
+      },
+      "ajusteDose": {
+        "renal": "ClCr < 30 mL/min: máx 300 mg/dia",
+        "hepatico": "Child-Pugh C: máx 300 mg/dia"
+      },
+      "contraindicacoes": ["Hipersensibilidade", "Bloqueio AV 2º ou 3º grau (sem marcapasso)"],
+      "efeitosAdversos": ["Tontura", "Diplopia", "Náusea", "Cefaleia", "Prolongamento do intervalo PR no ECG", "Ataxia"],
+      "alertaCardiaco": "Pode prolongar intervalo PR - evitar em bloqueio AV",
+      "categoriaGravidez": "C"
+    }
+  }
+}

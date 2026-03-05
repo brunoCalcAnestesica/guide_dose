@@ -1,0 +1,478 @@
+{
+  "PT": {
+    "nome": "Enalaprilato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Emergência hipertensiva (2ª linha)",
+          "descricaoDose": "0,625-1,25 mg IV a cada 6h; titular até 5 mg a cada 6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.625,
+            "doseMax": 1.25,
+            "doseMaxima": 5,
+            "doseFixa": "0,625-1,25 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "ClCr <30: iniciar com 0,625 mg",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dose máxima (manutenção)",
+          "descricaoDose": "5 mg IV a cada 6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "ClCr <30: iniciar com 0,625 mg",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "ICC hipertensiva / Transição IECA oral para IV",
+          "descricaoDose": "0,625 mg IV a cada 6h; titular conforme PA e tolerância",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "0,625 mg IV inicial",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "ClCr <30: manter 0,625 mg",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Inibidor da ECA (IECA) – forma IV",
+      "apresentacoes": [
+        { "forma": "Ampola solução injetável 1,25 mg/mL", "obs": "1 mL" },
+        { "forma": "Ampola solução injetável 1 mg/mL", "obs": "2 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Administrar IV direto em 5 min (bolus)", "concentracao": "" },
+        { "diluicao": "Pode diluir em 50 mL SF ou SG 5% se preferir infusão em 5 min", "concentracao": "" },
+        { "diluicao": "Compatível com SF e SG 5%", "concentracao": "" },
+        { "diluicao": "Estabilidade: 24 h após diluição em temperatura ambiente", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Não é 1ª escolha em emergência hipertensiva – resposta imprevisível e início de ação lento (15-30 min)",
+        "Primeira dose pode causar hipotensão marcada; monitorar PA antes e após",
+        "Forma ativa do enalapril – não requer metabolização hepática; excreção 100% renal",
+        "Contraindicado na gestação (teratogênico), estenose bilateral da artéria renal e angioedema prévio com IECA",
+        "Evitar suplementos de K+ e diuréticos poupadores de K+ (risco de hipercalemia)",
+        "Angioedema raro porém grave; suspender e não reintroduzir IECA"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com 0,625 mg IV; risco de hipotensão na primeira dose. Monitorar PA e função renal.",
+        "renal": "ClCr ≥30: dose normal. ClCr <30: iniciar e manter com 0,625 mg a cada 6h. Contraindicado em estenose bilateral da artéria renal.",
+        "hepatico": "Não requer metabolização hepática (forma ativa). Usar com cautela em insuficiência hepática grave (alteração de clearance)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Enalaprilato (bolus)",
+        "doseTexto": "0,625-1,25 mg IV a cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,625-1,25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enalaprilato (dose máxima)",
+        "doseTexto": "5 mg IV a cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Enalaprilat",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypertensive emergency (2nd line)",
+          "descricaoDose": "0.625-1.25 mg IV every 6h; titrate up to 5 mg every 6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.625,
+            "doseMax": 1.25,
+            "doseMaxima": 5,
+            "doseFixa": "0.625-1.25 mg IV",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6h",
+            "ajusteRenal": "CrCl <30: start with 0.625 mg",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Maximum dose (maintenance)",
+          "descricaoDose": "5 mg IV every 6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6h",
+            "ajusteRenal": "CrCl <30: start with 0.625 mg",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hypertensive heart failure / PO to IV ACE-I transition",
+          "descricaoDose": "0.625 mg IV every 6h; titrate per BP and tolerance",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "0.625 mg IV initial",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6h",
+            "ajusteRenal": "CrCl <30: maintain 0.625 mg",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "ACE inhibitor (ACE-I) – IV form",
+      "apresentacoes": [
+        { "forma": "Vial injectable solution 1.25 mg/mL", "obs": "1 mL" },
+        { "forma": "Vial injectable solution 1 mg/mL", "obs": "2 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Give IV push over 5 min (bolus)", "concentracao": "" },
+        { "diluicao": "May dilute in 50 mL NS or D5W for 5-min infusion if preferred", "concentracao": "" },
+        { "diluicao": "Compatible with NS and D5W", "concentracao": "" },
+        { "diluicao": "Stability: 24 h after dilution at room temperature", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Not first line in hypertensive emergency – unpredictable response and slow onset (15-30 min)",
+        "First dose may cause marked hypotension; monitor BP before and after",
+        "Active form of enalapril – no hepatic metabolism; 100% renal excretion",
+        "Contraindicated in pregnancy (teratogenic), bilateral renal artery stenosis, and prior ACE-I angioedema",
+        "Avoid K+ supplements and K+-sparing diuretics (hyperkalemia risk)",
+        "Angioedema rare but serious; discontinue and do not rechallenge with ACE-I"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with 0.625 mg IV; first-dose hypotension risk. Monitor BP and renal function.",
+        "renal": "CrCl ≥30: usual dose. CrCl <30: start and maintain 0.625 mg every 6h. Contraindicated in bilateral renal artery stenosis.",
+        "hepatico": "No hepatic metabolism (active form). Use with caution in severe hepatic impairment (clearance may change)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Enalaprilat (bolus)",
+        "doseTexto": "0.625-1.25 mg IV every 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.625-1.25 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Enalaprilat (max dose)",
+        "doseTexto": "5 mg IV every 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Enalaprilato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Emergencia hipertensiva (2.ª línea)",
+          "descricaoDose": "0,625-1,25 mg IV cada 6 h; titular hasta 5 mg cada 6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.625,
+            "doseMax": 1.25,
+            "doseMaxima": 5,
+            "doseFixa": "0,625-1,25 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6 h",
+            "ajusteRenal": "ClCr <30: iniciar con 0,625 mg",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dosis máxima (mantenimiento)",
+          "descricaoDose": "5 mg IV cada 6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6 h",
+            "ajusteRenal": "ClCr <30: iniciar con 0,625 mg",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "ICC hipertensiva / Transición IECA oral a IV",
+          "descricaoDose": "0,625 mg IV cada 6 h; titular según PA y tolerancia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "0,625 mg IV inicial",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6 h",
+            "ajusteRenal": "ClCr <30: mantener 0,625 mg",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Inhibidor de la ECA (IECA) – forma IV",
+      "apresentacoes": [
+        { "forma": "Ampolla solución inyectable 1,25 mg/mL", "obs": "1 mL" },
+        { "forma": "Ampolla solución inyectable 1 mg/mL", "obs": "2 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Administrar IV directo en 5 min (bolo)", "concentracao": "" },
+        { "diluicao": "Puede diluirse en 50 mL SF o SG 5% si se prefiere infusión en 5 min", "concentracao": "" },
+        { "diluicao": "Compatible con SF y SG 5%", "concentracao": "" },
+        { "diluicao": "Estabilidad: 24 h tras dilución a temperatura ambiente", "concentracao": "" }
+      ],
+      "observacoes": [
+        "No es 1.ª elección en emergencia hipertensiva – respuesta impredecible e inicio de acción lento (15-30 min)",
+        "Primera dosis puede causar hipotensión marcada; monitorizar PA antes y después",
+        "Forma activa del enalapril – no requiere metabolización hepática; excreción 100% renal",
+        "Contraindicado en gestación (teratogénico), estenosis bilateral de arteria renal y angioedema previo con IECA",
+        "Evitar suplementos de K+ y diuréticos ahorradores de K+ (riesgo de hiperpotasemia)",
+        "Angioedema raro pero grave; suspender y no reintroducir IECA"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con 0,625 mg IV; riesgo de hipotensión en la primera dosis. Monitorizar PA y función renal.",
+        "renal": "ClCr ≥30: dosis habitual. ClCr <30: iniciar y mantener 0,625 mg cada 6 h. Contraindicado en estenosis bilateral de arteria renal.",
+        "hepatico": "No requiere metabolización hepática (forma activa). Usar con precaución en insuficiencia hepática grave (cambio de aclaramiento)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Enalaprilato (bolo)",
+        "doseTexto": "0,625-1,25 mg IV cada 6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0,625-1,25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enalaprilato (dosis máxima)",
+        "doseTexto": "5 mg IV cada 6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "依那普利拉",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "高血压急症（二线）",
+          "descricaoDose": "0.625-1.25 mg IV 每6小时；可滴定至5 mg 每6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.625,
+            "doseMax": 1.25,
+            "doseMaxima": 5,
+            "doseFixa": "0.625-1.25 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr <30：从0.625 mg开始",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "最大剂量（维持）",
+          "descricaoDose": "5 mg IV 每6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr <30：从0.625 mg开始",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "高血压心衰 / 口服转IV ACEI",
+          "descricaoDose": "0.625 mg IV 每6小时；根据血压和耐受性滴定",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "0.625 mg IV 初始",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr <30：维持0.625 mg",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "ACE抑制剂（IECA）– IV剂型",
+      "apresentacoes": [
+        { "forma": "注射剂 1.25 mg/mL", "obs": "1 mL" },
+        { "forma": "注射剂 1 mg/mL", "obs": "2 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "5分钟内IV推注（弹丸）", "concentracao": "" },
+        { "diluicao": "可稀释于50 mL生理盐水或5%葡萄糖，5分钟输注", "concentracao": "" },
+        { "diluicao": "与生理盐水和5%葡萄糖相容", "concentracao": "" },
+        { "diluicao": "稀释后室温稳定24小时", "concentracao": "" }
+      ],
+      "observacoes": [
+        "高血压急症非首选 – 反应不可预测，起效慢（15-30分钟）",
+        "首剂可致明显低血压；用药前后监测血压",
+        "依那普利活性形式 – 无需肝脏代谢；100%肾脏排泄",
+        "妊娠（致畸）、双侧肾动脉狭窄、既往ACEI血管性水肿禁用",
+        "避免补钾及保钾利尿剂（高钾风险）",
+        "血管性水肿少见但严重；停用且勿再使用ACEI"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从0.625 mg IV开始；首剂低血压风险。监测血压及肾功能。",
+        "renal": "ClCr≥30：常规剂量。ClCr<30：起始并维持0.625 mg 每6小时。双侧肾动脉狭窄禁用。",
+        "hepatico": "无肝脏代谢（活性形式）。严重肝损慎用（清除率可能改变）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "依那普利拉（弹丸）",
+        "doseTexto": "0.625-1.25 mg IV 每6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": "0.625-1.25 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "依那普利拉（最大剂量）",
+        "doseTexto": "5 mg IV 每6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

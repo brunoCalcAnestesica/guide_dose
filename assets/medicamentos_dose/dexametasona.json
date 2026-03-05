@@ -1,0 +1,810 @@
+{
+  "PT": {
+    "nome": "Dexametasona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema cerebral",
+          "descricaoDose": "10 mg IV inicial + 4 mg IV a cada 6h por 2-4 dias, reduzir progressivamente",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg + 4 mg 6/6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "inicial 10 mg, depois 4 mg a cada 6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "COVID-19 grave",
+          "descricaoDose": "6 mg IV ou VO 1x ao dia por até 10 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": "6 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Asma/DPOC/Anafilaxia (adjuvante)",
+          "descricaoDose": "4-10 mg IV a cada 6-12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "4-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Náusea/vômito quimioterapia",
+          "descricaoDose": "8-20 mg IV pré-quimio + 4-8 mg IV ou VO a cada 8-12h por 2-4 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "8-20 mg pré + 4-8 mg 8-12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "pré-quimio + 8-12h por 2-4 dias",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dexametasona (pediátrico)",
+          "descricaoDose": "0,15-0,6 mg/kg IV ou IM a cada 6-24h (máx 16 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 6-24h conforme indicação",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Crupe (laringotraqueobronquite)",
+          "descricaoDose": "0,6 mg/kg VO/IM/IV dose única (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO/IM/IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Corticosteroide - glicocorticoide de longa duração",
+      "apresentacoes": [
+        { "forma": "Ampola 4 mg/mL (1 mL, 2 mL)", "obs": "IV/IM" },
+        { "forma": "Frasco-ampola 10 mg/mL (1 mL)", "obs": "IV/IM" },
+        { "forma": "Ampola 5 mg/mL (1 mL)", "obs": "Variável conforme fabricante" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: administrar lento 2-5 min", "concentracao": "Direto da ampola" },
+        { "diluicao": "IV infusão: 4-10 mg em 50-100 mL SF 0,9% ou SG 5%", "concentracao": "Infundir conforme protocolo" },
+        { "diluicao": "IM: injeção profunda", "concentracao": "Glúteo ou deltóide" }
+      ],
+      "observacoes": [
+        "Potência 25x maior que hidrocortisona",
+        "Meia-vida biológica longa: 36-54 horas",
+        "Monitorar glicemia e eletrólitos (K+, Na+)",
+        "Pode mascarar sinais de infecção",
+        "Risco de supressão eixo HHA em uso prolongado",
+        "Coadjuvante em anafilaxia - sempre após adrenalina"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar glicemia, osteoporose e risco de infecção.",
+        "renal": "Não requer ajuste. Monitorar balanço hídrico e eletrólitos em DRC grave.",
+        "hepatico": "Pode requerer ajuste em insuficiência hepática grave (metabolismo hepático reduzido)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dexametasona - Edema cerebral (adulto)",
+        "doseTexto": "10 mg IV + 4 mg 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg + 4 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dexametasona - Asma/DPOC (adulto)",
+        "doseTexto": "4-10 mg IV 6-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dexametasona (pediátrico)",
+        "doseTexto": "0,15-0,6 mg/kg IV/IM (máx 16 mg)",
+        "doseMin": 0.15,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Dexametasona - Crupe (ped)",
+        "doseTexto": "0,6 mg/kg VO/IM/IV (máx 10 mg)",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Dexamethasone",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Cerebral edema",
+          "descricaoDose": "10 mg IV initial + 4 mg IV every 6h for 2-4 days, taper progressively",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg + 4 mg q6h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial 10 mg, then 4 mg every 6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe COVID-19",
+          "descricaoDose": "6 mg IV or PO once daily for up to 10 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": "6 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "once daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Asthma/COPD/Anaphylaxis (adjunct)",
+          "descricaoDose": "4-10 mg IV every 6-12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "4-10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Chemotherapy-induced nausea/vomiting",
+          "descricaoDose": "8-20 mg IV before chemo + 4-8 mg IV or PO every 8-12h for 2-4 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "8-20 mg pre + 4-8 mg q8-12h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "pre-chemo + q8-12h for 2-4 days",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dexamethasone (pediatric)",
+          "descricaoDose": "0.15-0.6 mg/kg IV or IM every 6-24h (max 16 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-24h per indication",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Croup (laryngotracheobronchitis)",
+          "descricaoDose": "0.6 mg/kg PO/IM/IV single dose (max 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO/IM/IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Corticosteroid - long-acting glucocorticoid",
+      "apresentacoes": [
+        { "forma": "Ampoule 4 mg/mL (1 mL, 2 mL)", "obs": "IV/IM" },
+        { "forma": "Vial 10 mg/mL (1 mL)", "obs": "IV/IM" },
+        { "forma": "Ampoule 5 mg/mL (1 mL)", "obs": "Varies by manufacturer" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: administer slow 2-5 min", "concentracao": "Direct from ampoule" },
+        { "diluicao": "IV infusion: 4-10 mg in 50-100 mL NS or D5W", "concentracao": "Infuse per protocol" },
+        { "diluicao": "IM: deep injection", "concentracao": "Gluteal or deltoid" }
+      ],
+      "observacoes": [
+        "25x more potent than hydrocortisone",
+        "Long biological half-life: 36-54 hours",
+        "Monitor blood glucose and electrolytes (K+, Na+)",
+        "May mask signs of infection",
+        "Risk of HPA axis suppression with prolonged use",
+        "Adjunct in anaphylaxis - always after epinephrine"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor blood glucose, osteoporosis and infection risk.",
+        "renal": "No adjustment required. Monitor fluid balance and electrolytes in severe CKD.",
+        "hepatico": "May require adjustment in severe hepatic failure (reduced hepatic metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dexamethasone - Cerebral edema (adult)",
+        "doseTexto": "10 mg IV + 4 mg q6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg + 4 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dexamethasone - Asthma/COPD (adult)",
+        "doseTexto": "4-10 mg IV q6-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4-10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dexamethasone (pediatric)",
+        "doseTexto": "0.15-0.6 mg/kg IV/IM (max 16 mg)",
+        "doseMin": 0.15,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Dexamethasone - Croup (ped)",
+        "doseTexto": "0.6 mg/kg PO/IM/IV (max 10 mg)",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Dexametasona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Edema cerebral",
+          "descricaoDose": "10 mg IV inicial + 4 mg IV cada 6h por 2-4 días, reducir progresivamente",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg + 4 mg 6/6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "inicial 10 mg, después 4 mg cada 6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "COVID-19 grave",
+          "descricaoDose": "6 mg IV o VO 1 vez al día por hasta 10 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": "6 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1 vez al día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Asma/EPOC/Anafilaxia (adyuvante)",
+          "descricaoDose": "4-10 mg IV cada 6-12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "4-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Náusea/vómito quimioterapia",
+          "descricaoDose": "8-20 mg IV pre-quimio + 4-8 mg IV o VO cada 8-12h por 2-4 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "8-20 mg pre + 4-8 mg 8-12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "pre-quimio + 8-12h por 2-4 días",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dexametasona (pediátrico)",
+          "descricaoDose": "0,15-0,6 mg/kg IV o IM cada 6-24h (máx 16 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 6-24h según indicación",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Crup (laringotraqueobronquitis)",
+          "descricaoDose": "0,6 mg/kg VO/IM/IV dosis única (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO/IM/IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Corticosteroide - glucocorticoide de larga duración",
+      "apresentacoes": [
+        { "forma": "Ampolla 4 mg/mL (1 mL, 2 mL)", "obs": "IV/IM" },
+        { "forma": "Frasco-ampolla 10 mg/mL (1 mL)", "obs": "IV/IM" },
+        { "forma": "Ampolla 5 mg/mL (1 mL)", "obs": "Varía según fabricante" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: administrar lento 2-5 min", "concentracao": "Directo de la ampolla" },
+        { "diluicao": "IV infusión: 4-10 mg en 50-100 mL SF 0,9% o SG 5%", "concentracao": "Infundir según protocolo" },
+        { "diluicao": "IM: inyección profunda", "concentracao": "Glúteo o deltoides" }
+      ],
+      "observacoes": [
+        "Potencia 25x mayor que hidrocortisona",
+        "Vida media biológica larga: 36-54 horas",
+        "Monitorizar glucemia y electrolitos (K+, Na+)",
+        "Puede enmascarar signos de infección",
+        "Riesgo de supresión eje HHA con uso prolongado",
+        "Coadyuvante en anafilaxia - siempre tras adrenalina"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar glucemia, osteoporosis y riesgo de infección.",
+        "renal": "No requiere ajuste. Monitorizar balance hídrico y electrolitos en IRC grave.",
+        "hepatico": "Puede requerir ajuste en insuficiencia hepática grave (metabolismo hepático reducido)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dexametasona - Edema cerebral (adulto)",
+        "doseTexto": "10 mg IV + 4 mg 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg + 4 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dexametasona - Asma/EPOC (adulto)",
+        "doseTexto": "4-10 mg IV 6-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dexametasona (pediátrico)",
+        "doseTexto": "0,15-0,6 mg/kg IV/IM (máx 16 mg)",
+        "doseMin": 0.15,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Dexametasona - Crup (ped)",
+        "doseTexto": "0,6 mg/kg VO/IM/IV (máx 10 mg)",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "地塞米松",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "脑水肿",
+          "descricaoDose": "10 mg 静注 初始 + 4 mg 静注 每6h 2-4天，逐渐减量",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg + 4 mg 每6h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始10 mg，然后4 mg 每6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "重症COVID-19",
+          "descricaoDose": "6 mg 静注或口服 每日1次 最多10天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": "6 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/PO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "哮喘/慢阻肺/过敏反应（辅助）",
+          "descricaoDose": "4-10 mg 静注 每6-12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 4,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "4-10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6-12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "化疗引起的恶心呕吐",
+          "descricaoDose": "化疗前 8-20 mg 静注 + 4-8 mg 静注或口服 每8-12h 2-4天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "8-20 mg 化疗前 + 4-8 mg 8-12h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/PO",
+            "intervalo": "化疗前 + 8-12h 2-4天",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "地塞米松（儿童）",
+          "descricaoDose": "0.15-0.6 mg/kg 静注或肌注 每6-24h（最大 16 mg/次）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.15,
+            "dosePorKgMax": 0.6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 16,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每6-24h 根据适应症",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "喉气管支气管炎（哮吼）",
+          "descricaoDose": "0.6 mg/kg 口服/肌注/静注 单次（最大 10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.6,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "PO/IM/IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "皮质类固醇 - 长效糖皮质激素",
+      "apresentacoes": [
+        { "forma": "安瓿 4 mg/mL (1 mL, 2 mL)", "obs": "静注/肌注" },
+        { "forma": "小瓶 10 mg/mL (1 mL)", "obs": "静注/肌注" },
+        { "forma": "安瓿 5 mg/mL (1 mL)", "obs": "因厂家而异" }
+      ],
+      "preparo": [
+        { "diluicao": "静注推注：缓慢给药 2-5 分钟", "concentracao": "直接使用安瓿" },
+        { "diluicao": "静注输注：4-10 mg 溶于 50-100 mL 生理盐水或5%葡萄糖", "concentracao": "按方案输注" },
+        { "diluicao": "肌注：深部注射", "concentracao": "臀肌或三角肌" }
+      ],
+      "observacoes": [
+        "效力为氢化可的松的25倍",
+        "生物半衰期长：36-54小时",
+        "监测血糖和电解质（K+、Na+）",
+        "可能掩盖感染征象",
+        "长期使用有HPA轴抑制风险",
+        "过敏性休克辅助用药 - 始终在肾上腺素之后"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。监测血糖、骨质疏松和感染风险。",
+        "renal": "不需要调整。严重CKD时监测体液平衡和电解质。",
+        "hepatico": "严重肝功能衰竭时可能需要调整（肝脏代谢减少）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "地塞米松 - 脑水肿（成人）",
+        "doseTexto": "10 mg 静注 + 4 mg 每6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg + 4 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地塞米松 - 哮喘/慢阻肺（成人）",
+        "doseTexto": "4-10 mg 静注 6-12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4-10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地塞米松（儿童）",
+        "doseTexto": "0.15-0.6 mg/kg 静注/肌注（最大 16 mg）",
+        "doseMin": 0.15,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "地塞米松 - 哮吼（儿童）",
+        "doseTexto": "0.6 mg/kg 口服/肌注/静注（最大 10 mg）",
+        "doseMin": 0.6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

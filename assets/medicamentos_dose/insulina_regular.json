@@ -1,0 +1,742 @@
+{
+  "PT": {
+    "nome": "Insulina Regular",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infusão contínua (CAD/EHH)",
+          "descricaoDose": "0,05-0,1 U/kg/h IV (bolus opcional 0,1 U/kg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia",
+          "descricaoDose": "10 U IV + 50 mL glicose 50% em 15-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 U + glicose 50%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Escala deslizante (sliding scale) SC",
+          "descricaoDose": "2-10 U SC conforme glicemia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "2-10 U SC",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "conforme glicemia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão contínua (CAD/EHH) pediátrico",
+          "descricaoDose": "0,05-0,1 U/kg/h IV (bolus opcional 0,1 U/kg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia pediátrico",
+          "descricaoDose": "0,1 U/kg IV + glicose 50% (máx 10 U)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua IV",
+          "unidade": "U/kg/h",
+          "adulto": { "doseMin": 0.05, "doseMax": 0.1 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100 U em 100 mL SF (1 U/mL)", "valor": 1 },
+            { "rotulo": "50 U em 50 mL SF (1 U/mL)", "valor": 1 },
+            { "rotulo": "100 U em 250 mL SF (0,4 U/mL)", "valor": 0.4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Hipoglicemiante - Insulina de ação rápida (humana)",
+      "apresentacoes": [
+        { "forma": "Frasco 10 mL (100 U/mL)", "obs": "Humulin R®, Novolin R®, Actrapid®" },
+        { "forma": "Caneta 3 mL (100 U/mL)", "obs": "Uso com seringa de insulina ou caneta" },
+        { "forma": "Ampola para infusão IV", "obs": "Diluir em SF 0,9% para uso em bomba" }
+      ],
+      "preparo": [
+        { "diluicao": "100 U em 100 mL SF 0,9%", "concentracao": "1 U/mL" },
+        { "diluicao": "50 U em 50 mL SF 0,9%", "concentracao": "1 U/mL" },
+        { "diluicao": "100 U em 250 mL SF 0,9%", "concentracao": "0,4 U/mL" }
+      ],
+      "observacoes": [
+        "Única insulina para uso IV; preferencial em emergências (CAD, EHH, hipercalemia)",
+        "Infusão IV: usar apenas SF 0,9%; evitar paradas bruscas (risco de cetose)",
+        "Monitorizar glicemia a cada 1-2 h durante infusão; titular conforme protocolo",
+        "Hipercalemia: insulina desloca K+ para intracelular; administrar com glicose para evitar hipoglicemia",
+        "Escala deslizante: complementar com insulina basal; não usar como único regime",
+        "Incompatível com bicarbonato e soluções contendo thiol na mesma via"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior risco de hipoglicemia; titular com cautela e monitorização frequente.",
+        "renal": "ClCr <10 ou diálise: pode requerer redução; hipoglicemia prolongada. Monitorar glicemia.",
+        "hepatico": "Insuficiência hepática grave: reduzir dose; metabolização reduzida."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Insulina Regular (infusão CAD/EHH)",
+        "doseTexto": "0,05-0,1 U/kg/h IV",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "U/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Insulina Regular (hiperK)",
+        "doseTexto": "10 U IV + 50 mL glicose 50%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "10 U + glicose",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Insulina Regular (sliding scale)",
+        "doseTexto": "2-10 U SC conforme glicemia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "2-10 U",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Insulina Regular (infusão pediátrico)",
+        "doseTexto": "0,05-0,1 U/kg/h IV",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "U/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Regular Insulin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Continuous infusion (DKA/HHS)",
+          "descricaoDose": "0.05-0.1 units/kg/h IV (optional bolus 0.1 units/kg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hyperkalemia",
+          "descricaoDose": "10 units IV + 50 mL dextrose 50% over 15-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 units + dextrose 50%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Sliding scale SC",
+          "descricaoDose": "2-10 units SC per blood glucose",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "2-10 units SC",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "SC",
+            "intervalo": "per blood glucose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Continuous infusion (DKA/HHS) pediatric",
+          "descricaoDose": "0.05-0.1 units/kg/h IV (optional bolus 0.1 units/kg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hyperkalemia pediatric",
+          "descricaoDose": "0.1 units/kg IV + dextrose 50% (max 10 units)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous IV infusion",
+          "unidade": "U/kg/h",
+          "adulto": { "doseMin": 0.05, "doseMax": 0.1 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100 units in 100 mL NS (1 unit/mL)", "valor": 1 },
+            { "rotulo": "50 units in 50 mL NS (1 unit/mL)", "valor": 1 },
+            { "rotulo": "100 units in 250 mL NS (0.4 units/mL)", "valor": 0.4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Hypoglycemic agent - Rapid-acting insulin (human)",
+      "apresentacoes": [
+        { "forma": "Vial 10 mL (100 units/mL)", "obs": "Humulin R®, Novolin R®, Actrapid®" },
+        { "forma": "Pen 3 mL (100 units/mL)", "obs": "Use with insulin syringe or pen" },
+        { "forma": "Vial for IV infusion", "obs": "Dilute in NS for pump use" }
+      ],
+      "preparo": [
+        { "diluicao": "100 units in 100 mL NS", "concentracao": "1 unit/mL" },
+        { "diluicao": "50 units in 50 mL NS", "concentracao": "1 unit/mL" },
+        { "diluicao": "100 units in 250 mL NS", "concentracao": "0.4 units/mL" }
+      ],
+      "observacoes": [
+        "Only insulin for IV use; preferred in emergencies (DKA, HHS, hyperkalemia)",
+        "IV infusion: use NS only; avoid abrupt discontinuation (ketosis risk)",
+        "Monitor blood glucose every 1-2 h during infusion; titrate per protocol",
+        "Hyperkalemia: insulin shifts K+ intracellular; give with dextrose to avoid hypoglycemia",
+        "Sliding scale: supplement with basal insulin; do not use as sole regimen",
+        "Incompatible with bicarbonate and thiol-containing solutions in same line"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Higher hypoglycemia risk; titrate cautiously with frequent monitoring.",
+        "renal": "ClCr <10 or dialysis: may require reduction; prolonged hypoglycemia. Monitor glucose.",
+        "hepatico": "Severe hepatic impairment: reduce dose; decreased metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Regular Insulin (DKA/HHS infusion)",
+        "doseTexto": "0.05-0.1 units/kg/h IV",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "U/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Regular Insulin (hyperK)",
+        "doseTexto": "10 units IV + 50 mL dextrose 50%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "10 units + dextrose",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Regular Insulin (sliding scale)",
+        "doseTexto": "2-10 units SC per blood glucose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "2-10 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Regular Insulin (pediatric infusion)",
+        "doseTexto": "0.05-0.1 units/kg/h IV",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "U/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Insulina regular",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infusión continua (CAD/HHS)",
+          "descricaoDose": "0,05-0,1 U/kg/h IV (bolo opcional 0,1 U/kg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hiperpotasemia",
+          "descricaoDose": "10 U IV + 50 mL glucosa 50% en 15-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 U + glucosa 50%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Escala móvil SC",
+          "descricaoDose": "2-10 U SC según glucemia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "2-10 U SC",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "SC",
+            "intervalo": "según glucemia",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Infusión continua (CAD/HHS) pediátrico",
+          "descricaoDose": "0,05-0,1 U/kg/h IV (bolo opcional 0,1 U/kg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hiperpotasemia pediátrico",
+          "descricaoDose": "0,1 U/kg IV + glucosa 50% (máx 10 U)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua IV",
+          "unidade": "U/kg/h",
+          "adulto": { "doseMin": 0.05, "doseMax": 0.1 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100 U en 100 mL SF (1 U/mL)", "valor": 1 },
+            { "rotulo": "50 U en 50 mL SF (1 U/mL)", "valor": 1 },
+            { "rotulo": "100 U en 250 mL SF (0,4 U/mL)", "valor": 0.4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Hipoglucemiante - Insulina de acción rápida (humana)",
+      "apresentacoes": [
+        { "forma": "Frasco 10 mL (100 U/mL)", "obs": "Humulin R®, Novolin R®, Actrapid®" },
+        { "forma": "Bolígrafo 3 mL (100 U/mL)", "obs": "Uso con jeringa de insulina o bolígrafo" },
+        { "forma": "Ampolla para infusión IV", "obs": "Diluir en SF 0,9% para bomba" }
+      ],
+      "preparo": [
+        { "diluicao": "100 U en 100 mL SF 0,9%", "concentracao": "1 U/mL" },
+        { "diluicao": "50 U en 50 mL SF 0,9%", "concentracao": "1 U/mL" },
+        { "diluicao": "100 U en 250 mL SF 0,9%", "concentracao": "0,4 U/mL" }
+      ],
+      "observacoes": [
+        "Única insulina para uso IV; preferente en emergencias (CAD, HHS, hiperpotasemia)",
+        "Infusión IV: usar solo SF 0,9%; evitar parada brusca (riesgo de cetosis)",
+        "Monitorizar glucemia cada 1-2 h durante infusión; titular según protocolo",
+        "Hiperpotasemia: insulina desplaza K+ intracelular; administrar con glucosa para evitar hipoglucemia",
+        "Escala móvil: complementar con insulina basal; no usar como único régimen",
+        "Incompatible con bicarbonato y soluciones con tiol en la misma vía"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor riesgo de hipoglucemia; titular con cautela y monitorización frecuente.",
+        "renal": "ClCr <10 o diálisis: puede requerir reducción; hipoglucemia prolongada. Monitorizar glucemia.",
+        "hepatico": "Insuficiencia hepática grave: reducir dosis; metabolización reducida."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Insulina regular (infusión CAD/HHS)",
+        "doseTexto": "0,05-0,1 U/kg/h IV",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "U/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Insulina regular (hiperK)",
+        "doseTexto": "10 U IV + 50 mL glucosa 50%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "10 U + glucosa",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Insulina regular (escala móvil)",
+        "doseTexto": "2-10 U SC según glucemia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "2-10 U",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Insulina regular (infusión pediátrico)",
+        "doseTexto": "0,05-0,1 U/kg/h IV",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "U/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "常规胰岛素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "持续静脉输注（糖尿病酮症酸中毒/高渗）",
+          "descricaoDose": "0.05-0.1 U/kg/h 静脉（可选推注 0.1 U/kg）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "高钾血症",
+          "descricaoDose": "10 U 静脉 + 50 mL 50%葡萄糖 15-30分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 U + 50%葡萄糖",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "滑动刻度 皮下",
+          "descricaoDose": "2-10 U 皮下 根据血糖",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "2-10 U 皮下",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "SC",
+            "intervalo": "根据血糖",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "持续静脉输注（儿童）",
+          "descricaoDose": "0.05-0.1 U/kg/h 静脉（可选推注 0.1 U/kg）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.05,
+            "doseMax": 0.1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "高钾血症 儿童",
+          "descricaoDose": "0.1 U/kg 静脉 + 50%葡萄糖（最大 10 U）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续静脉输注",
+          "unidade": "U/kg/h",
+          "adulto": { "doseMin": 0.05, "doseMax": 0.1 },
+          "pediatrico": { "doseMin": 0.05, "doseMax": 0.1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100 U 溶于 100 mL 生理盐水 (1 U/mL)", "valor": 1 },
+            { "rotulo": "50 U 溶于 50 mL 生理盐水 (1 U/mL)", "valor": 1 },
+            { "rotulo": "100 U 溶于 250 mL 生理盐水 (0.4 U/mL)", "valor": 0.4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "降糖药 - 速效胰岛素（人胰岛素）",
+      "apresentacoes": [
+        { "forma": "瓶 10 mL (100 U/mL)", "obs": "优泌林R®、诺和灵R®、诺和锐®" },
+        { "forma": "笔 3 mL (100 U/mL)", "obs": "与胰岛素注射器或笔配合使用" },
+        { "forma": "静脉输注用安瓿", "obs": "用生理盐水稀释后泵注" }
+      ],
+      "preparo": [
+        { "diluicao": "100 U 溶于 100 mL 生理盐水", "concentracao": "1 U/mL" },
+        { "diluicao": "50 U 溶于 50 mL 生理盐水", "concentracao": "1 U/mL" },
+        { "diluicao": "100 U 溶于 250 mL 生理盐水", "concentracao": "0.4 U/mL" }
+      ],
+      "observacoes": [
+        "唯一可静脉使用的胰岛素；急诊首选（酮症酸中毒、高渗、高钾血症）",
+        "静脉输注仅用生理盐水；避免突然停药（酮症风险）",
+        "输注期间每1-2小时监测血糖；按方案调整",
+        "高钾血症：胰岛素使钾内移；与葡萄糖同用以防低血糖",
+        "滑动刻度需与基础胰岛素联用；不可单独作为方案",
+        "与碳酸氢钠及含硫醇溶液同一管路不相容"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "低血糖风险更高；谨慎调整并密切监测。",
+        "renal": "ClCr <10 或透析：可能需要减量； prolonged 低血糖。监测血糖。",
+        "hepatico": "严重肝功能不全：减量；代谢降低。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "常规胰岛素（酮症/高渗输注）",
+        "doseTexto": "0.05-0.1 U/kg/h 静脉",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "U/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "常规胰岛素（高钾）",
+        "doseTexto": "10 U 静脉 + 50 mL 50%葡萄糖",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "10 U + 葡萄糖",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "常规胰岛素（滑动刻度）",
+        "doseTexto": "2-10 U 皮下 根据血糖",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "2-10 U",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "常规胰岛素（儿童输注）",
+        "doseTexto": "0.05-0.1 U/kg/h 静脉",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "U/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

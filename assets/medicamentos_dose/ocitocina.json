@@ -1,0 +1,634 @@
+{
+  "PT": {
+    "nome": "Ocitocina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução ou condução do trabalho de parto",
+          "descricaoDose": "0,5-1 mUI/min IV, aumentar 1 mUI/min a cada 30-60 min (máx 20 mUI/min, excepcionalmente 40 mUI/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mUI/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "HPP - Controle (bolus)",
+          "descricaoDose": "5-10 UI IM ou 5 UI IV lenta (em ≥1 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 UI IM ou 5 UI IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "HPP - Infusão contínua",
+          "descricaoDose": "20-40 UI em 500-1000 mL SF/SG5%, infundir a 125-250 mL/h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mUI/min",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia da HPP",
+          "descricaoDose": "5 UI IV lenta ou IM após dequitação da placenta",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mUI/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 40 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 UI em 1000 mL SF/SG5% (20 mUI/mL)", "valor": 20 },
+            { "rotulo": "10 UI em 500 mL SF/SG5% (20 mUI/mL)", "valor": 20 },
+            { "rotulo": "40 UI em 1000 mL SF/SG5% (40 mUI/mL)", "valor": 40 },
+            { "rotulo": "30 UI em 500 mL SF/SG5% (60 mUI/mL)", "valor": 60 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Uterotônico - Hormônio peptídeo natural, agonista dos receptores de ocitocina",
+      "apresentacoes": [
+        { "forma": "Ampola 5 UI/mL", "obs": "Uso IM ou diluição IV" },
+        { "forma": "Ampola 10 UI/mL", "obs": "Uso IM ou diluição IV" },
+        { "forma": "Frasco 50 UI/10 mL", "obs": "Uso hospitalar para infusão" }
+      ],
+      "preparo": [
+        { "diluicao": "20 UI em 1000 mL SF ou SG5%", "concentracao": "20 mUI/mL" },
+        { "diluicao": "10 UI em 500 mL SF ou SG5%", "concentracao": "20 mUI/mL" },
+        { "diluicao": "30 UI em 500 mL SF ou SG5%", "concentracao": "60 mUI/mL (HPP)" },
+        { "diluicao": "5 UI em 10 mL SF (bolus IV lento)", "concentracao": "0,5 UI/mL" }
+      ],
+      "observacoes": [
+        "Primeira linha em indução do trabalho de parto e HPP",
+        "Nunca administrar IV em bolus rápido (risco de hipotensão severa e colapso)",
+        "Monitorização contínua de frequência uterina e BCF em trabalho de parto",
+        "Risco de hiponatremia em infusões prolongadas ou grandes volumes – monitorar balanço hídrico",
+        "Incompatível com soluções hipertônicas e com cálcio em alta concentração",
+        "Meia-vida plasmática 1-6 min; efeito antidiurético leve"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Uso obstétrico em adultas. Sem ajuste específico por idade.",
+        "renal": "Não requer ajuste de dose. Monitorar balanço hídrico rigorosamente em infusões prolongadas (risco de retenção hídrica e hiponatremia).",
+        "hepatico": "Não requer ajuste específico. Usar com cautela em hepatopatias graves com distúrbios de balanço hídrico."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ocitocina - Indução/condução",
+        "doseTexto": "0,5-1 mUI/min, ↑ 1 mUI/min a cada 30-60 min (máx 20-40 mUI/min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mUI/min",
+        "decimais": 1,
+        "resultadoFixo": "0,5-40 mUI/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ocitocina - HPP (bolus)",
+        "doseTexto": "5-10 UI IM ou 5 UI IV lenta",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5-10 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ocitocina - Profilaxia HPP",
+        "doseTexto": "5 UI IV lenta ou IM após dequitação",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5 UI",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Oxytocin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Labor induction or conduction",
+          "descricaoDose": "0.5-1 mU/min IV, increase 1 mU/min every 30-60 min (max 20 mU/min, exceptionally 40 mU/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mUI/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "PPH - Control (bolus)",
+          "descricaoDose": "5-10 units IM or 5 units IV slow (over ≥1 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 units IM or 5 units IV",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "PPH - Continuous infusion",
+          "descricaoDose": "20-40 units in 500-1000 mL NS/D5W, infuse at 125-250 mL/h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mUI/min",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "PPH prophylaxis",
+          "descricaoDose": "5 units IV slow or IM after placental delivery",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mUI/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 40 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 units in 1000 mL NS/D5W (20 mU/mL)", "valor": 20 },
+            { "rotulo": "10 units in 500 mL NS/D5W (20 mU/mL)", "valor": 20 },
+            { "rotulo": "40 units in 1000 mL NS/D5W (40 mU/mL)", "valor": 40 },
+            { "rotulo": "30 units in 500 mL NS/D5W (60 mU/mL)", "valor": 60 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Uterotonic - Natural peptide hormone, oxytocin receptor agonist",
+      "apresentacoes": [
+        { "forma": "Ampoule 5 units/mL", "obs": "IM or IV dilution" },
+        { "forma": "Ampoule 10 units/mL", "obs": "IM or IV dilution" },
+        { "forma": "Vial 50 units/10 mL", "obs": "Hospital use for infusion" }
+      ],
+      "preparo": [
+        { "diluicao": "20 units in 1000 mL NS or D5W", "concentracao": "20 mU/mL" },
+        { "diluicao": "10 units in 500 mL NS or D5W", "concentracao": "20 mU/mL" },
+        { "diluicao": "30 units in 500 mL NS or D5W", "concentracao": "60 mU/mL (PPH)" },
+        { "diluicao": "5 units in 10 mL NS (slow IV bolus)", "concentracao": "0.5 units/mL" }
+      ],
+      "observacoes": [
+        "First-line for labor induction and PPH",
+        "Never administer IV as rapid bolus (risk of severe hypotension and collapse)",
+        "Continuous monitoring of uterine frequency and FHR during labor",
+        "Risk of hyponatremia with prolonged or large-volume infusions – monitor fluid balance",
+        "Incompatible with hypertonic solutions and high-concentration calcium",
+        "Plasma half-life 1-6 min; mild antidiuretic effect"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Obstetric use in adults. No specific age-related adjustment.",
+        "renal": "No dose adjustment. Monitor fluid balance rigorously with prolonged infusions (risk of fluid retention and hyponatremia).",
+        "hepatico": "No specific adjustment. Use with caution in severe hepatopathy with fluid balance disorders."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Oxytocin - Induction/conduction",
+        "doseTexto": "0.5-1 mU/min, ↑ 1 mU/min every 30-60 min (max 20-40 mU/min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mUI/min",
+        "decimais": 1,
+        "resultadoFixo": "0.5-40 mU/min",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Oxytocin - PPH (bolus)",
+        "doseTexto": "5-10 units IM or 5 units IV slow",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5-10 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Oxytocin - PPH prophylaxis",
+        "doseTexto": "5 units IV slow or IM after placental delivery",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5 units",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Oxitocina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción o conducción del trabajo de parto",
+          "descricaoDose": "0,5-1 mUI/min IV, aumentar 1 mUI/min cada 30-60 min (máx 20 mUI/min, excepcionalmente 40 mUI/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mUI/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "HPP - Control (bolo)",
+          "descricaoDose": "5-10 UI IM o 5 UI IV lenta (en ≥1 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 UI IM o 5 UI IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "HPP - Infusión continua",
+          "descricaoDose": "20-40 UI en 500-1000 mL SF/SG5%, infundir a 125-250 mL/h",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mUI/min",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Profilaxis de la HPP",
+          "descricaoDose": "5 UI IV lenta o IM tras dequidación placentaria",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mUI/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 40 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 UI en 1000 mL SF/SG5% (20 mUI/mL)", "valor": 20 },
+            { "rotulo": "10 UI en 500 mL SF/SG5% (20 mUI/mL)", "valor": 20 },
+            { "rotulo": "40 UI en 1000 mL SF/SG5% (40 mUI/mL)", "valor": 40 },
+            { "rotulo": "30 UI en 500 mL SF/SG5% (60 mUI/mL)", "valor": 60 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Uterotónico - Hormona peptídica natural, agonista de receptores de oxitocina",
+      "apresentacoes": [
+        { "forma": "Ampolla 5 UI/mL", "obs": "Uso IM o dilución IV" },
+        { "forma": "Ampolla 10 UI/mL", "obs": "Uso IM o dilución IV" },
+        { "forma": "Frasco 50 UI/10 mL", "obs": "Uso hospitalario para infusión" }
+      ],
+      "preparo": [
+        { "diluicao": "20 UI en 1000 mL SF o SG5%", "concentracao": "20 mUI/mL" },
+        { "diluicao": "10 UI en 500 mL SF o SG5%", "concentracao": "20 mUI/mL" },
+        { "diluicao": "30 UI en 500 mL SF o SG5%", "concentracao": "60 mUI/mL (HPP)" },
+        { "diluicao": "5 UI en 10 mL SF (bolo IV lento)", "concentracao": "0,5 UI/mL" }
+      ],
+      "observacoes": [
+        "Primera línea en inducción del trabajo de parto y HPP",
+        "Nunca administrar IV en bolo rápido (riesgo de hipotensión severa y colapso)",
+        "Monitorización continua de frecuencia uterina y LCF en trabajo de parto",
+        "Riesgo de hiponatremia en infusiones prolongadas o grandes volúmenes – monitorizar balance hídrico",
+        "Incompatible con soluciones hipertónicas y con calcio en alta concentración",
+        "Vida media plasmática 1-6 min; efecto antidiurético leve"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Uso obstétrico en adultas. Sin ajuste específico por edad.",
+        "renal": "No requiere ajuste de dosis. Monitorizar balance hídrico rigurosamente en infusiones prolongadas (riesgo de retención hídrica e hiponatremia).",
+        "hepatico": "No requiere ajuste específico. Usar con precaución en hepatopatías graves con trastornos de balance hídrico."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Oxitocina - Inducción/conducción",
+        "doseTexto": "0,5-1 mUI/min, ↑ 1 mUI/min cada 30-60 min (máx 20-40 mUI/min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mUI/min",
+        "decimais": 1,
+        "resultadoFixo": "0,5-40 mUI/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Oxitocina - HPP (bolo)",
+        "doseTexto": "5-10 UI IM o 5 UI IV lenta",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5-10 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Oxitocina - Profilaxis HPP",
+        "doseTexto": "5 UI IV lenta o IM tras dequidación",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5 UI",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "催产素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "引产或产程催产",
+          "descricaoDose": "0.5-1 mUI/min IV，每30-60分钟增加1 mUI/min（最大20 mUI/min，例外40 mUI/min）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mUI/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "产后出血 - 控制（推注）",
+          "descricaoDose": "5-10 UI IM 或 5 UI IV 缓慢（≥1分钟）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 UI IM 或 5 UI IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "产后出血 - 持续输注",
+          "descricaoDose": "20-40 UI 于500-1000 mL 生理盐水/5%葡萄糖，125-250 mL/h输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mUI/min",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "产后出血预防",
+          "descricaoDose": "胎盘娩出后 5 UI IV 缓慢或 IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mUI/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 40 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "20 UI 于 1000 mL 生理盐水/5%葡萄糖 (20 mUI/mL)", "valor": 20 },
+            { "rotulo": "10 UI 于 500 mL 生理盐水/5%葡萄糖 (20 mUI/mL)", "valor": 20 },
+            { "rotulo": "40 UI 于 1000 mL 生理盐水/5%葡萄糖 (40 mUI/mL)", "valor": 40 },
+            { "rotulo": "30 UI 于 500 mL 生理盐水/5%葡萄糖 (60 mUI/mL)", "valor": 60 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "子宫收缩剂 - 天然肽激素，催产素受体激动剂",
+      "apresentacoes": [
+        { "forma": "安瓿 5 UI/mL", "obs": "肌注或稀释后静脉" },
+        { "forma": "安瓿 10 UI/mL", "obs": "肌注或稀释后静脉" },
+        { "forma": "瓶 50 UI/10 mL", "obs": "医院输注用" }
+      ],
+      "preparo": [
+        { "diluicao": "20 UI 于 1000 mL 生理盐水或5%葡萄糖", "concentracao": "20 mUI/mL" },
+        { "diluicao": "10 UI 于 500 mL 生理盐水或5%葡萄糖", "concentracao": "20 mUI/mL" },
+        { "diluicao": "30 UI 于 500 mL 生理盐水或5%葡萄糖", "concentracao": "60 mUI/mL（产后出血）" },
+        { "diluicao": "5 UI 于 10 mL 生理盐水（缓慢静脉推注）", "concentracao": "0.5 UI/mL" }
+      ],
+      "observacoes": [
+        "引产及产后出血一线用药",
+        "切勿快速静脉推注（严重低血压及循环衰竭风险）",
+        "产程中持续监测宫缩频率及胎心",
+        "长时间或大容量输注有低钠血症风险，需监测液体平衡",
+        "与高渗溶液及高浓度钙溶液不相容",
+        "血浆半衰期1-6分钟；轻度抗利尿作用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "成人产科用药。无特定年龄调整。",
+        "renal": "无需调整剂量。长时间输注需严格监测液体平衡（水潴留及低钠血症风险）。",
+        "hepatico": "无特定调整。严重肝病伴体液失衡时慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "催产素 - 引产/催产",
+        "doseTexto": "0.5-1 mUI/min，每30-60分钟↑1 mUI/min（最大20-40 mUI/min）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mUI/min",
+        "decimais": 1,
+        "resultadoFixo": "0.5-40 mUI/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "催产素 - 产后出血（推注）",
+        "doseTexto": "5-10 UI 肌注 或 5 UI 缓慢静注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5-10 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "催产素 - 产后出血预防",
+        "doseTexto": "胎盘娩出后 5 UI 缓慢静注或肌注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "5 UI",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

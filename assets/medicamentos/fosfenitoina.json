@@ -1,0 +1,43 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Fosfenitoína",
+      "nomesComerciais": ["Cerebyx®", "Prodilantin®"],
+      "classeTerapeutica": "Antiepiléptico / Prodroga da fenitoína",
+      "mecanismoAcao": "Prodroga convertida em fenitoína por fosfatases plasmáticas. Após conversão, estabiliza membranas neuronais bloqueando canais de sódio voltagem-dependentes.",
+      "apresentacoes": ["Frasco-ampola 500 mg EP/10 mL (50 mg EP/mL)"],
+      "observacaoImportante": "EP = Equivalente de Fenitoína. 1,5 mg de fosfenitoína = 1 mg EP = 1 mg de fenitoína",
+      "vantagens": {
+        "sobreFenitoina": [
+          "Pode ser administrada IM (fenitoína não pode)",
+          "Infusão IV até 3x mais rápida (150 vs 50 mg/min)",
+          "pH neutro (6,5-9,0) - menos irritante",
+          "Menor risco de síndrome da luva roxa",
+          "Menor risco de necrose por extravasamento",
+          "Compatível com soluções glicosadas"
+        ]
+      },
+      "posologia": {
+        "statusEpilepticus": {
+          "ataque": "15-20 mg EP/kg IV em 10-20 min",
+          "velocidadeMaximaIV": "150 mg EP/min (adultos)",
+          "velocidadeMaximaPediatrica": "2-3 mg EP/kg/min"
+        },
+        "viaIM": {
+          "dose": "15-20 mg EP/kg IM",
+          "observacao": "Máximo 20 mL por local de injeção"
+        },
+        "manutencao": "4-6 mg EP/kg/dia IV/IM dividido 1-2x"
+      },
+      "farmacocinetica": {
+        "conversaoEmFenitoina": "15-30 minutos após infusão",
+        "niveisPlasmaticos": "Aguardar 2h após IV ou 4h após IM para dosar"
+      },
+      "contraindicacoes": ["Hipersensibilidade a hidantoínas", "Bloqueio AV 2º ou 3º grau", "Bradicardia sinusal", "Síndrome de Adams-Stokes"],
+      "efeitosAdversos": ["Prurido (especialmente na região inguinal)", "Parestesias", "Nistagmo", "Ataxia", "Tontura", "Hipotensão (menos que fenitoína)", "Arritmias cardíacas"],
+      "interacoes": ["Mesmas interações da fenitoína", "Indutor de CYP2C9, CYP2C19, CYP3A4"],
+      "observacoes": ["Monitorar PA e ECG durante infusão", "Mesmas contraindicações da fenitoína", "Categoria D na gravidez"],
+      "categoriaGravidez": "D"
+    }
+  }
+}

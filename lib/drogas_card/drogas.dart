@@ -6,63 +6,72 @@ import '../bulario_page.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 // ANTICOAGULANTES ANTIFIBRINOLITICOS
-import 'anticoagulantes_antifibrinoliticos/acido_aminocaproico.dart'
-    show MedicamentoAcidoAminocaproico;
-import 'anticoagulantes_antifibrinoliticos/acido_tranexamico.dart'
-    show MedicamentoAcidoTranexamico;
-import 'anticoagulantes_antifibrinoliticos/alteplase.dart'
-    show MedicamentoAlteplase;
 import 'anticoagulantes_antifibrinoliticos/enoxaparina.dart'
     show MedicamentoEnoxaparina;
-import 'anticoagulantes_antifibrinoliticos/heparina_sodica.dart'
-    show MedicamentoHeparinaSodica;
+import 'anticoagulantes_antifibrinoliticos/vitamina_k.dart'
+    show MedicamentoVitaminaK;
+import 'anticoagulantes_antifibrinoliticos/fondaparinux.dart'
+    show MedicamentoFondaparinux;
+import 'anticoagulantes_antifibrinoliticos/warfarina.dart'
+    show MedicamentoWarfarina;
+import 'anticoagulantes_antifibrinoliticos/aas.dart' show MedicamentoAAS;
+import 'anticoagulantes_antifibrinoliticos/clopidogrel.dart'
+    show MedicamentoClopidogrel;
+import 'anticoagulantes_antifibrinoliticos/ticagrelor.dart'
+    show MedicamentoTicagrelor;
+import 'anticoagulantes_antifibrinoliticos/prasugrel.dart'
+    show MedicamentoPrasugrel;
+import 'anticoagulantes_antifibrinoliticos/tirofiban.dart'
+    show MedicamentoTirofiban;
+import 'anticoagulantes_antifibrinoliticos/abciximab.dart'
+    show MedicamentoAbciximab;
+import 'anticoagulantes_antifibrinoliticos/eptifibatide.dart'
+    show MedicamentoEptifibatide;
+import 'anticoagulantes_antifibrinoliticos/rivaroxabana.dart'
+    show MedicamentoRivaroxabana;
+import 'anticoagulantes_antifibrinoliticos/apixabana.dart'
+    show MedicamentoApixabana;
+import 'anticoagulantes_antifibrinoliticos/dabigatrana.dart'
+    show MedicamentoDabigatrana;
+import 'anticoagulantes_antifibrinoliticos/edoxabana.dart'
+    show MedicamentoEdoxabana;
 
 // ANTIARRITMICOS
-import 'antiarritmicos/adenosina.dart' show MedicamentoAdenosina;
-import 'antiarritmicos/amiodarona.dart' show MedicamentoAmiodarona;
-import 'antiarritmicos/metoprolol.dart' show MedicamentoMetoprolol;
-
 // VASOPRESSORES HIPOTENSORES
 import 'vasopressores_hipotensores/adrenalina.dart' show MedicamentoAdrenalina;
 import 'vasopressores_hipotensores/dobutamina.dart' show MedicamentoDobutamina;
 import 'vasopressores_hipotensores/dopamina.dart' show MedicamentoDopamina;
 import 'vasopressores_hipotensores/efedrina.dart' show MedicamentoEfedrina;
-import 'antiarritmicos/esmolol.dart' show MedicamentoEsmolol;
 import 'vasopressores_hipotensores/fenilefrina.dart'
     show MedicamentoFenilefrina;
 import 'vasopressores_hipotensores/metaraminol.dart'
     show MedicamentoMetaraminol;
 import 'vasopressores_hipotensores/milrinona.dart' show MedicamentoMilrinona;
-import 'vasopressores_hipotensores/nitroglicerina.dart'
-    show MedicamentoNitroglicerina;
 import 'vasopressores_hipotensores/nitroprussiato.dart'
     show MedicamentoNitroprussiato;
 import 'vasopressores_hipotensores/noradrenalina.dart'
     show MedicamentoNoradrenalina;
-import 'vasopressores_hipotensores/vasopressina.dart'
-    show MedicamentoVasopressina;
+import 'vasopressores_hipotensores/levosimendan.dart'
+    show MedicamentoLevosimendan;
+import 'vasopressores_hipotensores/angiotensina_ii.dart'
+    show MedicamentoAngiotensinaII;
+import 'vasopressores_hipotensores/hidroxocobalamina.dart'
+    show MedicamentoHidroxocobalamina;
 
 // SOLUCOES EXPANSAO
 import 'solucoes_expansao/coloides.dart' show MedicamentoColoides;
 import 'solucoes_expansao/emulsao_lipidica.dart'
     show MedicamentoEmulsaoLipidica;
-import 'solucoes_expansao/plasma_lyte.dart' show MedicamentoPlasmaLyte;
 import 'solucoes_expansao/solucao_salina_20.dart'
     show MedicamentoSolucaoSalina20;
 import 'solucoes_expansao/solucao_salina_hipertonica.dart'
     show MedicamentoSolucaoSalinaHipertonica;
-import 'solucoes_expansao/soro_fisiologico.dart'
-    show MedicamentoSoroFisiologico;
-
 // OPIOIDES ANALGESICOS
-import 'opioides_analgesicos/alfentanil.dart' show MedicamentoAlfentanil;
-import 'opioides_analgesicos/buprenorfina.dart' show MedicamentoBuprenorfina;
-import 'opioides_analgesicos/fentanil.dart' show MedicamentoFentanil;
+import 'opioides_analgesicos/hidromorfona.dart' show MedicamentoHidromorfona;
 import 'opioides_analgesicos/meperidina.dart' show MedicamentoMeperidina;
 import 'opioides_analgesicos/metadona.dart' show MedicamentoMetadona;
 import 'opioides_analgesicos/morfina.dart' show MedicamentoMorfina;
 import 'opioides_analgesicos/nalbuphina.dart' show MedicamentoNalbuphina;
-import 'opioides_analgesicos/pentazocina.dart' show MedicamentoPentazocina;
 import 'opioides_analgesicos/petidina.dart' show MedicamentoPetidina;
 import 'opioides_analgesicos/remifentanil.dart' show MedicamentoRemifentanil;
 import 'opioides_analgesicos/sufentanil.dart' show MedicamentoSufentanil;
@@ -74,51 +83,21 @@ import 'bloquadores_neuromusculares/cisatracurio.dart'
     show MedicamentoCisatracurio;
 import 'bloquadores_neuromusculares/mivacurio.dart' show MedicamentoMivacurio;
 import 'bloquadores_neuromusculares/pancuronio.dart' show MedicamentoPancuronio;
-import 'bloquadores_neuromusculares/rocuronio.dart' show MedicamentoRocuronio;
-import 'bloquadores_neuromusculares/succinilcolina.dart'
-    show MedicamentoSuccinilcolina;
 import 'bloquadores_neuromusculares/vecuronio.dart' show MedicamentoVecuronio;
 
 // ANTICOLINERGICOS BRONCODILATADORES
-import 'anticolinergicos_broncodilatadores/atropina.dart'
-    show MedicamentoAtropina;
-import 'anticolinergicos_broncodilatadores/fenoterol.dart'
-    show MedicamentoFenoterol;
-import 'anticolinergicos_broncodilatadores/ipatropio.dart'
-    show MedicamentoIpatropio;
-import 'anticolinergicos_broncodilatadores/salbutamol.dart'
-    show MedicamentoSalbutamol;
-import 'anticolinergicos_broncodilatadores/terbutalina.dart'
-    show MedicamentoTerbutalina;
-
 // ANTIEMETICOS
-import 'antiemeticos/bromoprida.dart' show MedicamentoBromoprida;
-import 'antiemeticos/dimenidrinato.dart' show MedicamentoDimenidrinato;
-import 'antiemeticos/droperidol.dart' show MedicamentoDroperidol;
-import 'antiemeticos/hioscina.dart' show MedicamentoHioscina;
-import 'antiemeticos/metoclopramida.dart' show MedicamentoMetoclopramida;
-import 'antiemeticos/clemastina.dart' show MedicamentoClemastina;
-import 'antiemeticos/difenidramina.dart' show MedicamentoDifenidramina;
 import 'antiemeticos/granisetrona.dart' show MedicamentoGranisetrona;
-import 'antiemeticos/omeprazol.dart' show MedicamentoOmeprazol;
 import 'antiemeticos/ondansetrona.dart' show MedicamentoOndansetrona;
-import 'antiemeticos/pantoprazol.dart' show MedicamentoPantoprazol;
-import 'antiemeticos/ranitidina.dart' show MedicamentoRanitidina;
-
-// ANTIBIOTICOS
-import 'antibioticos/cefazolina.dart' show MedicamentoCefazolina;
-import 'antibioticos/ceftriaxona.dart' show MedicamentoCeftriaxona;
-import 'antibioticos/cefuroxima.dart' show MedicamentoCefuroxima;
-import 'antibioticos/clindamicina.dart' show MedicamentoClindamicina;
-import 'antibioticos/metronidazol.dart' show MedicamentoMetronidazol;
-import 'antibioticos/vancomicina.dart' show MedicamentoVancomicina;
+import 'antiemeticos/palonosetrona.dart' show MedicamentoPalonosetrona;
+// Antiviral (antifúngicos/outros antivirais removidos – já na aba Cálculos)
+import 'antibioticos/oseltamivir.dart' show MedicamentoOseltamivir;
 
 // CORTICOSTEROIDES
-import 'corticosteroides/betametasona.dart' show MedicamentoBetametasona;
-import 'corticosteroides/dexametasona.dart' show MedicamentoDexametasona;
 import 'corticosteroides/hidrocortisona.dart' show MedicamentoHidrocortisona;
 import 'corticosteroides/metilprednisolona.dart'
     show MedicamentoMetilprednisolona;
+import 'corticosteroides/prednisona.dart' show MedicamentoPrednisona;
 
 // DIURETICOS
 import 'diureticos/bumetadina.dart' show MedicamentoBumetadina;
@@ -129,68 +108,29 @@ import 'diureticos/torasemida.dart' show MedicamentoTorasemida;
 // ANALGESICOS ANTIPIRETICOS
 import 'analgesicos_antipireticos/dipirona.dart' show MedicamentoDipirona;
 import 'analgesicos_antipireticos/paracetamol.dart' show MedicamentoParacetamol;
+import 'analgesicos_antipireticos/cetorolaco.dart' show MedicamentoCetorolaco;
+import 'analgesicos_antipireticos/cetoprofeno.dart' show MedicamentoCetoprofeno;
+import 'analgesicos_antipireticos/diclofenaco.dart' show MedicamentoDiclofenaco;
+import 'analgesicos_antipireticos/desketoprofeno.dart'
+    show MedicamentoDesketoprofeno;
+import 'analgesicos_antipireticos/tenoxicam.dart' show MedicamentoTenoxicam;
+import 'analgesicos_antipireticos/parecoxibe.dart' show MedicamentoParecoxibe;
+import 'analgesicos_antipireticos/ibuprofeno.dart' show MedicamentoIbuprofeno;
+import 'analgesicos_antipireticos/naproxeno.dart' show MedicamentoNaproxeno;
+import 'analgesicos_antipireticos/meloxicam.dart' show MedicamentoMeloxicam;
+import 'analgesicos_antipireticos/nimesulida.dart' show MedicamentoNimesulida;
 
 // OUTROS
-import 'outros/azul_metileno.dart' show MedicamentoAzulMetileno;
-import 'outros/picada_cobra.dart' show MedicamentoPicadaCobra;
-import 'outros/timoglobulina.dart' show MedicamentoTimoglobulina;
 import 'outros/acetazolamida.dart' show MedicamentoAcetazolamida;
-import 'outros/digoxina.dart' show MedicamentoDigoxina;
-import 'outros/heliox.dart' show MedicamentoHeliox;
-import 'outros/levetiracetam.dart' show MedicamentoLevetiracetam;
-import 'outros/octreotida.dart' show MedicamentoOctreotida;
-import 'outros/pilocarpina.dart' show MedicamentoPilocarpina;
-
 // INDUTORES ANESTESICOS
-import 'indutores_anestesicos/cetamina.dart' show MedicamentoCetamina;
-import 'indutores_anestesicos/dextrocetamina.dart'
-    show MedicamentoDextrocetamina;
-import 'indutores_anestesicos/etomidato.dart' show MedicamentoEtomidato;
-import 'indutores_anestesicos/propofol.dart' show MedicamentoPropofol;
-import 'indutores_anestesicos/tiopental.dart' show MedicamentoTiopental;
-
 // ANTICONVULSIVANTES EMERGENCIA
-import 'anticonvulsivantes_emergencia/fenitoina.dart' show MedicamentoFenitoina;
-import 'anticonvulsivantes_emergencia/fenobarbital.dart'
-    show MedicamentoFenobarbital;
-
-// ALFA2 AGONISTAS
-import 'alfa2_agonistas/clonidina.dart' show MedicamentoClonidina;
-import 'alfa2_agonistas/dexmedetomidina.dart' show MedicamentoDexmedetomidina;
-
 // BENZODIAZEPINICOS
-import 'benzodiazepinicos/diazepam.dart' show MedicamentoDiazepam;
-import 'benzodiazepinicos/flumazenil.dart' show MedicamentoFlumazenil;
-import 'benzodiazepinicos/lorazepam.dart' show MedicamentoLorazepam;
-import 'benzodiazepinicos/midazolam.dart' show MedicamentoMidazolam;
-import 'benzodiazepinicos/remidazolam.dart' show MedicamentoRemidazolam;
-
 // ANESTESICOS LOCAIS
-import 'anestesicos_locais/bupivacaina.dart' show MedicamentoBupivacaina;
-import 'anestesicos_locais/lidocaina.dart' show MedicamentoLidocaina;
-import 'anestesicos_locais/lidocaina_antiarritmica.dart'
-    show MedicamentoLidocainaAntiarritmica;
-import 'anestesicos_locais/ropivacaina.dart' show MedicamentoRopivacaina;
-import 'anestesicos_locais/prilocaina.dart' show MedicamentoPrilocaina;
-
 // REVERSORES ANTIDOTOS
-import 'reversores_antidotos/dantroleno.dart' show MedicamentoDantroleno;
-import 'reversores_antidotos/hidroxicobalamina.dart'
-    show MedicamentoHidroxicobalamina;
-import 'reversores_antidotos/naloxona.dart' show MedicamentoNaloxona;
 import 'reversores_antidotos/neostigmina.dart' show MedicamentoNeostigmina;
 import 'reversores_antidotos/protamina.dart' show MedicamentoProtamina;
-import 'reversores_antidotos/sugamadex.dart' show MedicamentoSugamadex;
-import 'reversores_antidotos/tiossulfato_sodio.dart'
-    show MedicamentoTiossulfatoSodio;
-import 'reversores_antidotos/terlipressina.dart' show MedicamentoTerlipressina;
-
 // CONTROLE GLICEMIA
-import 'controle_glicemia/glicose_50.dart' show MedicamentoGlicose50;
-import 'controle_glicemia/insulina_regular.dart'
-    show MedicamentoInsulinaRegular;
 import 'controle_glicemia/dextrose_25.dart' show MedicamentoDextrose25;
-import 'controle_glicemia/glucagon.dart' show MedicamentoGlucagon;
 
 // ANESTESICOS INALATORIOS
 import 'anestesicos_inalatorios/desflurano.dart' show MedicamentoDesflurano;
@@ -203,83 +143,19 @@ import 'anestesicos_inalatorios/oxido_nitroso.dart'
 import 'anestesicos_inalatorios/sevoflurano.dart' show MedicamentoSevoflurano;
 
 // UTEROTONICOS
-import 'uterotonicos/ocitocina.dart' show MedicamentoOcitocina;
-import 'uterotonicos/ergometrina.dart' show MedicamentoErgometrina;
-
 // ELETROLITICOS CRITICOS
-import 'eletroliticos_criticos/bicarbonato_sodio.dart'
-    show MedicamentoBicarbonatoSodio;
-import 'eletroliticos_criticos/cloreto_calcio.dart'
-    show MedicamentoCloretoCalcio;
-import 'eletroliticos_criticos/cloreto_potassio.dart'
-    show MedicamentoCloretoPotassio;
-import 'eletroliticos_criticos/gluconato_calcio.dart'
-    show MedicamentoGluconatoCalcio;
-import 'eletroliticos_criticos/sulfato_magnesio.dart'
-    show MedicamentoSulfatoMagnesio;
+// SEDATIVOS ANTIPSICOTICOS
+import 'sedativos_antipsicoticos/prometazina.dart' show MedicamentoPrometazina;
 
 // Lista estática de medicamentos para evitar reconstrução
 final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
   // ANTICOAGULANTES ANTIFIBRINOLITICOS
-  {
-    'nome': MedicamentoAcidoAminocaproico.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoAcidoAminocaproico.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Acido Aminocaproico
-  {
-    'nome': MedicamentoAcidoTranexamico.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoAcidoTranexamico.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Acido Tranexamico
-  {
-    'nome': MedicamentoAlteplase.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoAlteplase.buildCard(context, favoritos, onToggleFavorito)
-  }, // Alteplase
   {
     'nome': MedicamentoEnoxaparina.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
         MedicamentoEnoxaparina.buildCard(context, favoritos, onToggleFavorito)
   }, // Enoxaparina
-  {
-    'nome': MedicamentoHeparinaSodica.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoHeparinaSodica.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Heparina Sodica
-
-  // ANTIARRITMICOS
-  {
-    'nome': MedicamentoAdenosina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoAdenosina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Adenosina
-  {
-    'nome': MedicamentoAmiodarona.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoAmiodarona.buildCard(context, favoritos, onToggleFavorito)
-  }, // Amiodarona
-  {
-    'nome': MedicamentoEsmolol.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoEsmolol.buildCard(context, favoritos, onToggleFavorito)
-  }, // Esmolol
-  {
-    'nome': MedicamentoMetoprolol.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoMetoprolol.buildCard(context, favoritos, onToggleFavorito)
-  }, // Metoprolol
 
   // VASOPRESSORES HIPOTENSORES
   {
@@ -325,13 +201,6 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
         MedicamentoMilrinona.buildCard(context, favoritos, onToggleFavorito),
   }, // Milrinona
   {
-    'nome': MedicamentoNitroglicerina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoNitroglicerina.buildCard(
-            context, favoritos, onToggleFavorito),
-  }, // Nitroglicerina
-  {
     'nome': MedicamentoNitroprussiato.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
@@ -346,11 +215,25 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
             context, favoritos, onToggleFavorito),
   }, // Noradrenalina
   {
-    'nome': MedicamentoVasopressina.nome,
+    'nome': MedicamentoLevosimendan.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
-        MedicamentoVasopressina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Vasopressina
+        MedicamentoLevosimendan.buildCard(context, favoritos, onToggleFavorito)
+  }, // Levosimendan
+  {
+    'nome': MedicamentoAngiotensinaII.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoAngiotensinaII.buildCard(
+            context, favoritos, onToggleFavorito)
+  }, // Angiotensina II
+  {
+    'nome': MedicamentoHidroxocobalamina.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoHidroxocobalamina.buildCard(
+            context, favoritos, onToggleFavorito)
+  }, // Hidroxocobalamina
 
   // SOLUCOES EXPANSAO
   {
@@ -367,12 +250,6 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
             context, favoritos, onToggleFavorito)
   }, // Emulsao Lipidica
   {
-    'nome': MedicamentoPlasmaLyte.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoPlasmaLyte.buildCard(context, favoritos, onToggleFavorito)
-  }, // Plasma Lyte
-  {
     'nome': MedicamentoSolucaoSalina20.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
@@ -386,33 +263,14 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
         MedicamentoSolucaoSalinaHipertonica.buildCard(
             context, favoritos, onToggleFavorito)
   }, // Solucao Salina Hipertonica
-  {
-    'nome': MedicamentoSoroFisiologico.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoSoroFisiologico.buildCard(
-            context, favoritos, onToggleFavorito),
-  }, // Soro Fisiológico
 
   // OPIOIDES ANALGESICOS
   {
-    'nome': MedicamentoAlfentanil.nome,
+    'nome': MedicamentoHidromorfona.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
-        MedicamentoAlfentanil.buildCard(context, favoritos, onToggleFavorito)
-  }, // Alfentanil
-  {
-    'nome': MedicamentoBuprenorfina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoBuprenorfina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Buprenorfina
-  {
-    'nome': MedicamentoFentanil.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoFentanil.buildCard(context, favoritos, onToggleFavorito)
-  }, // Fentanil
+        MedicamentoHidromorfona.buildCard(context, favoritos, onToggleFavorito)
+  }, // Hidromorfona
   {
     'nome': MedicamentoMeperidina.nome,
     'builder': (BuildContext context, Set<String> favoritos,
@@ -437,12 +295,6 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
             void Function(String) onToggleFavorito) =>
         MedicamentoNalbuphina.buildCard(context, favoritos, onToggleFavorito),
   }, // Nalbufina
-  {
-    'nome': MedicamentoPentazocina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoPentazocina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Pentazocina
   {
     'nome': MedicamentoPetidina.nome,
     'builder': (BuildContext context, Set<String> favoritos,
@@ -494,19 +346,6 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
         MedicamentoPancuronio.buildCard(context, favoritos, onToggleFavorito)
   }, // Pancuronio
   {
-    'nome': MedicamentoRocuronio.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoRocuronio.buildCard(context, favoritos, onToggleFavorito)
-  }, // Rocuronio
-  {
-    'nome': MedicamentoSuccinilcolina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoSuccinilcolina.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Succinilcolina
-  {
     'nome': MedicamentoVecuronio.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
@@ -514,121 +353,8 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
   }, // Vecuronio
 
   // ANTICOLINERGICOS BRONCODILATADORES
-  {
-    'nome': MedicamentoAtropina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoAtropina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Atropina
-  {
-    'nome': MedicamentoFenoterol.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoFenoterol.buildCard(context, favoritos, onToggleFavorito)
-  }, // Fenoterol
-  {
-    'nome': MedicamentoIpatropio.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoIpatropio.buildCard(context, favoritos, onToggleFavorito)
-  }, // Ipatropio
-  {
-    'nome': MedicamentoSalbutamol.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoSalbutamol.buildCard(context, favoritos, onToggleFavorito)
-  }, // Salbutamol
-  {
-    'nome': MedicamentoTerbutalina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoTerbutalina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Terbutalina
-
   // ANTIEMETICOS
-  {
-    'nome': MedicamentoBromoprida.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoBromoprida.buildCard(context, favoritos, onToggleFavorito)
-  }, // Bromoprida
-  {
-    'nome': MedicamentoDimenidrinato.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoDimenidrinato.buildCard(context, favoritos, onToggleFavorito)
-  }, // Dimenidrinato
-  {
-    'nome': MedicamentoDroperidol.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoDroperidol.buildCard(context, favoritos, onToggleFavorito)
-  }, // Droperidol
-  {
-    'nome': MedicamentoHioscina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoHioscina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Hioscina
-  {
-    'nome': MedicamentoMetoclopramida.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoMetoclopramida.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Metoclopramida
-
-  // ANTIBIOTICOS
-  {
-    'nome': MedicamentoCefazolina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoCefazolina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Cefazolina
-  {
-    'nome': MedicamentoCeftriaxona.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoCeftriaxona.buildCard(context, favoritos, onToggleFavorito)
-  }, // Ceftriaxona
-  {
-    'nome': MedicamentoCefuroxima.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoCefuroxima.buildCard(context, favoritos, onToggleFavorito)
-  }, // Cefuroxima
-  {
-    'nome': MedicamentoClindamicina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoClindamicina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Clindamicina
-  {
-    'nome': MedicamentoMetronidazol.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoMetronidazol.buildCard(context, favoritos, onToggleFavorito)
-  }, // Metronidazol
-  {
-    'nome': MedicamentoVancomicina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoVancomicina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Vancomicina
-
   // CORTICOSTEROIDES
-  {
-    'nome': MedicamentoBetametasona.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoBetametasona.buildCard(context, favoritos, onToggleFavorito)
-  }, // Betametasona
-  {
-    'nome': MedicamentoDexametasona.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoDexametasona.buildCard(context, favoritos, onToggleFavorito)
-  }, // Dexametasona
   {
     'nome': MedicamentoHidrocortisona.nome,
     'builder': (BuildContext context, Set<String> favoritos,
@@ -643,6 +369,12 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
         MedicamentoMetilprednisolona.buildCard(
             context, favoritos, onToggleFavorito)
   }, // Metilprednisolona
+  {
+    'nome': MedicamentoPrednisona.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoPrednisona.buildCard(context, favoritos, onToggleFavorito)
+  }, // Prednisona
 
   // DIURETICOS
   {
@@ -683,162 +415,73 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
             void Function(String) onToggleFavorito) =>
         MedicamentoParacetamol.buildCard(context, favoritos, onToggleFavorito)
   }, // Paracetamol
+  {
+    'nome': MedicamentoCetorolaco.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoCetorolaco.buildCard(context, favoritos, onToggleFavorito)
+  }, // Cetorolaco
+  {
+    'nome': MedicamentoCetoprofeno.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoCetoprofeno.buildCard(context, favoritos, onToggleFavorito)
+  }, // Cetoprofeno
+  {
+    'nome': MedicamentoDiclofenaco.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoDiclofenaco.buildCard(context, favoritos, onToggleFavorito)
+  }, // Diclofenaco
+  {
+    'nome': MedicamentoDesketoprofeno.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoDesketoprofeno.buildCard(
+            context, favoritos, onToggleFavorito)
+  }, // Desketoprofeno
+  {
+    'nome': MedicamentoTenoxicam.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoTenoxicam.buildCard(context, favoritos, onToggleFavorito)
+  }, // Tenoxicam
+  {
+    'nome': MedicamentoParecoxibe.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoParecoxibe.buildCard(context, favoritos, onToggleFavorito)
+  }, // Parecoxibe
+  {
+    'nome': MedicamentoIbuprofeno.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoIbuprofeno.buildCard(context, favoritos, onToggleFavorito)
+  }, // Ibuprofeno
+  {
+    'nome': MedicamentoNaproxeno.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoNaproxeno.buildCard(context, favoritos, onToggleFavorito)
+  }, // Naproxeno
+  {
+    'nome': MedicamentoMeloxicam.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoMeloxicam.buildCard(context, favoritos, onToggleFavorito)
+  }, // Meloxicam
+  {
+    'nome': MedicamentoNimesulida.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoNimesulida.buildCard(context, favoritos, onToggleFavorito)
+  }, // Nimesulida
 
   // OUTROS
-  {
-    'nome': MedicamentoAzulMetileno.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoAzulMetileno.buildCard(context, favoritos, onToggleFavorito)
-  }, // Azul Metileno
-  {
-    'nome': MedicamentoPicadaCobra.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoPicadaCobra.buildCard(context, favoritos, onToggleFavorito)
-  }, // Picada Cobra
-  {
-    'nome': MedicamentoTimoglobulina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoTimoglobulina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Timoglobulina
-
   // INDUTORES ANESTESICOS
-  {
-    'nome': MedicamentoCetamina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoCetamina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Cetamina
-  {
-    'nome': MedicamentoDextrocetamina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoDextrocetamina.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Dextrocetamina
-  {
-    'nome': MedicamentoEtomidato.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoEtomidato.buildCard(context, favoritos, onToggleFavorito)
-  }, // Etomidato
-  {
-    'nome': MedicamentoPropofol.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoPropofol.buildCard(context, favoritos, onToggleFavorito)
-  }, // Propofol
-  {
-    'nome': MedicamentoTiopental.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoTiopental.buildCard(context, favoritos, onToggleFavorito)
-  }, // Tiopental
-
-  // ANTICONVULSIVANTES EMERGENCIA
-  {
-    'nome': MedicamentoFenitoina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoFenitoina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Fenitoina
-  {
-    'nome': MedicamentoFenobarbital.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoFenobarbital.buildCard(context, favoritos, onToggleFavorito)
-  }, // Fenobarbital
-
-  // ALFA2 AGONISTAS
-  {
-    'nome': MedicamentoClonidina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoClonidina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Clonidina
-  {
-    'nome': MedicamentoDexmedetomidina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoDexmedetomidina.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Dexmedetomidina
-
   // BENZODIAZEPINICOS
-  {
-    'nome': MedicamentoDiazepam.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoDiazepam.buildCard(context, favoritos, onToggleFavorito)
-  }, // Diazepam
-  {
-    'nome': MedicamentoFlumazenil.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoFlumazenil.buildCard(context, favoritos, onToggleFavorito)
-  }, // Flumazenil
-  {
-    'nome': MedicamentoLorazepam.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoLorazepam.buildCard(context, favoritos, onToggleFavorito)
-  }, // Lorazepam
-  {
-    'nome': MedicamentoMidazolam.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoMidazolam.buildCard(context, favoritos, onToggleFavorito)
-  }, // Midazolam
-
   // ANESTESICOS LOCAIS
-  {
-    'nome': MedicamentoBupivacaina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoBupivacaina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Bupivacaina
-  {
-    'nome': MedicamentoLidocaina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoLidocaina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Lidocaina
-  {
-    'nome': MedicamentoLidocainaAntiarritmica.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoLidocainaAntiarritmica.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Lidocaina Antiarritmica
-  {
-    'nome': MedicamentoRopivacaina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoRopivacaina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Ropivacaina
-
   // REVERSORES ANTIDOTOS
-  {
-    'nome': MedicamentoDantroleno.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoDantroleno.buildCard(context, favoritos, onToggleFavorito)
-  }, // Dantroleno
-  {
-    'nome': MedicamentoHidroxicobalamina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoHidroxicobalamina.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Hidroxicobalamina
-  {
-    'nome': MedicamentoNaloxona.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoNaloxona.buildCard(context, favoritos, onToggleFavorito)
-  }, // Naloxona
   {
     'nome': MedicamentoNeostigmina.nome,
     'builder': (BuildContext context, Set<String> favoritos,
@@ -851,34 +494,6 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
             void Function(String) onToggleFavorito) =>
         MedicamentoProtamina.buildCard(context, favoritos, onToggleFavorito)
   }, // Protamina
-  {
-    'nome': MedicamentoSugamadex.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoSugamadex.buildCard(context, favoritos, onToggleFavorito)
-  }, // Sugamadex
-  {
-    'nome': MedicamentoTiossulfatoSodio.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoTiossulfatoSodio.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Tiossulfato Sodio
-
-  // CONTROLE GLICEMIA
-  {
-    'nome': MedicamentoGlicose50.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoGlicose50.buildCard(context, favoritos, onToggleFavorito)
-  }, // Glicose 50
-  {
-    'nome': MedicamentoInsulinaRegular.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoInsulinaRegular.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Insulina Regular
 
   // ANESTESICOS INALATORIOS
   {
@@ -920,54 +535,6 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
 
   // UTEROTONICOS
   {
-    'nome': MedicamentoOcitocina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoOcitocina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Ocitocina
-  {
-    'nome': MedicamentoErgometrina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoErgometrina.buildCard(context, favoritos, onToggleFavorito)
-  }, // Ergometrina
-
-  // ELETROLITICOS CRITICOS
-  {
-    'nome': MedicamentoBicarbonatoSodio.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoBicarbonatoSodio.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Bicarbonato Sodio
-  {
-    'nome': MedicamentoCloretoCalcio.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoCloretoCalcio.buildCard(context, favoritos, onToggleFavorito)
-  }, // Cloreto Calcio
-  {
-    'nome': MedicamentoCloretoPotassio.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoCloretoPotassio.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Cloreto Potassio
-  {
-    'nome': MedicamentoGluconatoCalcio.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoGluconatoCalcio.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Gluconato Calcio
-  {
-    'nome': MedicamentoSulfatoMagnesio.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoSulfatoMagnesio.buildCard(
-            context, favoritos, onToggleFavorito)
-  }, // Sulfato Magnesio
-  {
     'nome': MedicamentoAcetazolamida.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
@@ -975,35 +542,11 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
             context, favoritos, onToggleFavorito),
   }, // Acetazolamida
   {
-    'nome': MedicamentoClemastina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoClemastina.buildCard(context, favoritos, onToggleFavorito),
-  }, // Clemastina
-  {
-    'nome': MedicamentoDifenidramina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoDifenidramina.buildCard(context, favoritos, onToggleFavorito),
-  }, // Difenidramina
-  {
     'nome': MedicamentoDextrose25.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
         MedicamentoDextrose25.buildCard(context, favoritos, onToggleFavorito),
   }, // Dextrose25
-  {
-    'nome': MedicamentoDigoxina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoDigoxina.buildCard(context, favoritos, onToggleFavorito),
-  }, // Digoxina
-  {
-    'nome': MedicamentoGlucagon.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoGlucagon.buildCard(context, favoritos, onToggleFavorito),
-  }, // Glucagon
   {
     'nome': MedicamentoGranisetrona.nome,
     'builder': (BuildContext context, Set<String> favoritos,
@@ -1011,73 +554,119 @@ final List<Map<String, dynamic>> _medicamentos = <Map<String, dynamic>>[
         MedicamentoGranisetrona.buildCard(context, favoritos, onToggleFavorito),
   }, // Granisetrona
   {
-    'nome': MedicamentoHeliox.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoHeliox.buildCard(context, favoritos, onToggleFavorito),
-  }, // Heliox
-  {
-    'nome': MedicamentoLevetiracetam.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoLevetiracetam.buildCard(
-            context, favoritos, onToggleFavorito),
-  }, // Levetiracetam
-  {
-    'nome': MedicamentoOctreotida.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoOctreotida.buildCard(context, favoritos, onToggleFavorito),
-  }, // Octreotida
-  {
-    'nome': MedicamentoOmeprazol.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoOmeprazol.buildCard(context, favoritos, onToggleFavorito),
-  }, // Omeprazol
-  {
     'nome': MedicamentoOndansetrona.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
         MedicamentoOndansetrona.buildCard(context, favoritos, onToggleFavorito),
   }, // Ondansetrona
   {
-    'nome': MedicamentoPantoprazol.nome,
+    'nome': MedicamentoPalonosetrona.nome,
     'builder': (BuildContext context, Set<String> favoritos,
             void Function(String) onToggleFavorito) =>
-        MedicamentoPantoprazol.buildCard(context, favoritos, onToggleFavorito),
-  }, // Pantoprazol
-  {
-    'nome': MedicamentoPilocarpina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoPilocarpina.buildCard(context, favoritos, onToggleFavorito),
-  }, // Pilocarpina
-  {
-    'nome': MedicamentoPrilocaina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoPrilocaina.buildCard(context, favoritos, onToggleFavorito),
-  }, // Prilocaina
-  {
-    'nome': MedicamentoRanitidina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoRanitidina.buildCard(context, favoritos, onToggleFavorito),
-  }, // Ranitidina
-  {
-    'nome': MedicamentoRemidazolam.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoRemidazolam.buildCard(context, favoritos, onToggleFavorito),
-  }, // Remidazolam
-  {
-    'nome': MedicamentoTerlipressina.nome,
-    'builder': (BuildContext context, Set<String> favoritos,
-            void Function(String) onToggleFavorito) =>
-        MedicamentoTerlipressina.buildCard(
+        MedicamentoPalonosetrona.buildCard(
             context, favoritos, onToggleFavorito),
-  }, // Terlipressina
+  }, // Palonosetrona
+  // SEDATIVOS ANTIPSICOTICOS
+  {
+    'nome': MedicamentoPrometazina.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoPrometazina.buildCard(context, favoritos, onToggleFavorito),
+  }, // Prometazina
+
+  // ANTICOAGULANTES E ANTIPLAQUETÁRIOS (novos)
+  {
+    'nome': MedicamentoVitaminaK.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoVitaminaK.buildCard(context, favoritos, onToggleFavorito),
+  }, // Vitamina K
+  {
+    'nome': MedicamentoFondaparinux.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoFondaparinux.buildCard(context, favoritos, onToggleFavorito),
+  }, // Fondaparinux
+  {
+    'nome': MedicamentoWarfarina.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoWarfarina.buildCard(context, favoritos, onToggleFavorito),
+  }, // Warfarina
+  {
+    'nome': MedicamentoAAS.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoAAS.buildCard(context, favoritos, onToggleFavorito),
+  }, // AAS
+  {
+    'nome': MedicamentoClopidogrel.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoClopidogrel.buildCard(context, favoritos, onToggleFavorito),
+  }, // Clopidogrel
+  {
+    'nome': MedicamentoTicagrelor.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoTicagrelor.buildCard(context, favoritos, onToggleFavorito),
+  }, // Ticagrelor
+  {
+    'nome': MedicamentoPrasugrel.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoPrasugrel.buildCard(context, favoritos, onToggleFavorito),
+  }, // Prasugrel
+  {
+    'nome': MedicamentoTirofiban.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoTirofiban.buildCard(context, favoritos, onToggleFavorito),
+  }, // Tirofiban
+  {
+    'nome': MedicamentoAbciximab.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoAbciximab.buildCard(context, favoritos, onToggleFavorito),
+  }, // Abciximab
+  {
+    'nome': MedicamentoEptifibatide.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoEptifibatide.buildCard(context, favoritos, onToggleFavorito),
+  }, // Eptifibatide
+  {
+    'nome': MedicamentoRivaroxabana.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoRivaroxabana.buildCard(context, favoritos, onToggleFavorito),
+  }, // Rivaroxabana
+  {
+    'nome': MedicamentoApixabana.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoApixabana.buildCard(context, favoritos, onToggleFavorito),
+  }, // Apixabana
+  {
+    'nome': MedicamentoDabigatrana.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoDabigatrana.buildCard(context, favoritos, onToggleFavorito),
+  }, // Dabigatrana
+  {
+    'nome': MedicamentoEdoxabana.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoEdoxabana.buildCard(context, favoritos, onToggleFavorito),
+  }, // Edoxabana
+
+  // Oseltamivir (antifúngicos/outros antivirais na aba Cálculos)
+  {
+    'nome': MedicamentoOseltamivir.nome,
+    'builder': (BuildContext context, Set<String> favoritos,
+            void Function(String) onToggleFavorito) =>
+        MedicamentoOseltamivir.buildCard(context, favoritos, onToggleFavorito),
+  }, // Oseltamivir
 ];
 
 // Função para converter doses de mcg para mg quando apropriado
@@ -1140,7 +729,9 @@ class _MedicamentoPageState extends State<MedicamentoPage> {
               _isFavorito ? Icons.star_rounded : Icons.star_border_rounded,
               color: _isFavorito ? Colors.amber[700] : null,
             ),
-            tooltip: _isFavorito ? 'Remover dos favoritos' : 'Adicionar aos favoritos',
+            tooltip: _isFavorito
+                ? 'Remover dos favoritos'
+                : 'Adicionar aos favoritos',
             onPressed: _toggleFavorito,
           ),
           // Botão do bulário
@@ -1151,7 +742,8 @@ class _MedicamentoPageState extends State<MedicamentoPage> {
               Navigator.push(
                 context,
                 MaterialPageRoute(
-                  builder: (context) => BularioPage(principioAtivo: widget.idBulario),
+                  builder: (context) =>
+                      BularioPage(principioAtivo: widget.idBulario),
                 ),
               );
             },
@@ -1226,72 +818,128 @@ class _MedicamentoPageState extends State<MedicamentoPage> {
 /**/ class FavoritosManager {
   static const _key = 'medicamentosFavoritos';
   static const _keyVersaoFavoritos = 'versaoFavoritosPadrao';
-  
+
   // Incrementar esta versão para forçar reset dos favoritos padrão
-  static const int _versaoAtual = 2;
-  
-  /// Lista de medicamentos com opção de infusão contínua (favoritos padrão)
+  static const int _versaoAtual = 25;
+
+  /// Lista de TODOS os medicamentos (favoritos padrão)
   static const Set<String> medicamentosComInfusao = {
+    'Acetazolamida',
+    'Adenosina',
     'Adrenalina',
-    'Alfentanil',
-    'Amiodarona',
     'Atracúrio',
-    'Ácido Aminocaproico',
-    'Ácido Tranexâmico',
-    'Bromoprida',
     'Bumetadina',
     'Bupivacaína',
-    'Cetamina',
+    'Cefazolina',
+    'Ceftriaxona',
+    'Cefuroxima',
     'Cisatracúrio',
-    'Dexmedetomidina',
-    'Dextrocetamina',
+    'Clindamicina',
+    'Cloreto de Potássio',
+    'Coloides',
+    'Desflurano',
     'Dextrose 25%',
     'Dipirona',
     'Dobutamina',
     'Dopamina',
     'Efedrina',
+    'Emulsão Lipídica',
+    'Enflurano',
     'Esmolol',
     'Fenilefrina',
-    'Fentanil',
+    'Furosemida',
+    'Granisetrona',
+    'Hidrocortisona',
     'Insulina Regular',
+    'Isoflurano',
+    'Manitol',
+    'Meperidina',
+    'Metadona',
     'Metaraminol',
-    'Midazolam',
+    'Metilprednisolona',
+    'Metronidazol',
     'Milrinona',
     'Mivacúrio',
     'Morfina',
-    'Naloxona',
-    'Nitroglicerina',
+    'Nalbufina',
+    'Neostigmina',
     'Nitroprussiato de Sódio',
     'Noradrenalina',
-    'Ocitocina',
-    'Octreotida',
+    'Ondansetrona',
     'Pancurônio',
+    'Paracetamol',
     'Petidina',
-    'Propofol',
+    'Picada de Cobra',
+    'Prilocaína',
     'Remifentanil',
-    'Remidazolam',
-    'Rocurônio',
     'Ropivacaína',
+    'Salina 3%',
+    'Sevoflurano',
+    'Solução Salina 20%',
     'Sufentanil',
-    'Timoglobulina',
-    'Tiopental',
-    'Vasopressina',
+    'Torasemida',
+    'Tramadol',
+    'Vancomicina',
     'Vecurônio',
+    'Óxido Nítrico',
+    'Óxido Nitroso',
+    'Prometazina',
+    'Meropenem',
+    'Piperacilina-Tazobactam',
+    'Amicacina',
+    'Gentamicina',
+    'Ciprofloxacino',
+    'Ampicilina',
+    'Oxacilina',
+    'Cefepime',
+    'Azitromicina',
+    // Antibióticos IV (novos 25)
+    'Ampicilina/Sulbactam',
+    'Penicilina G',
+    'Cefalotina',
+    'Cefoxitina',
+    'Cefotaxima',
+    'Ceftazidima',
+    'Imipenem/Cilastatina',
+    'Ertapenem',
+    'Aztreonam',
+    'Levofloxacino',
+    'Teicoplanina',
+    'Daptomicina',
+    'Polimixina B',
+    'Colistina',
+    'Oseltamivir',
+    'Antiescorpiônico',
+    'Antiaracnídico',
+    'Cetorolaco',
+    'Cetoprofeno',
+    'Diclofenaco',
+    'Desketoprofeno',
+    'Tenoxicam',
+    'Parecoxibe',
+    'Ibuprofeno',
+    'Naproxeno',
+    'Meloxicam',
+    'Nimesulida',
+    'Levosimendan',
+    'Angiotensina II',
+    'Hidroxocobalamina',
+    'Fibrinogênio Concentrado',
   };
 
   static Future<Set<String>> obterFavoritos() async {
     final prefs = await SharedPreferences.getInstance();
-    
+
     // Verificar versão dos favoritos padrão
     final versaoSalva = prefs.getInt(_keyVersaoFavoritos) ?? 0;
-    
+
     // Se a versão mudou, aplicar novos favoritos padrão
     if (versaoSalva < _versaoAtual) {
       await prefs.setStringList(_key, medicamentosComInfusao.toList());
       await prefs.setInt(_keyVersaoFavoritos, _versaoAtual);
       return medicamentosComInfusao;
     }
-    
+
     return prefs.getStringList(_key)?.toSet() ?? {};
   }
 
@@ -1308,7 +956,7 @@ class _MedicamentoPageState extends State<MedicamentoPage> {
 
     await prefs.setStringList(_key, favoritos.toList());
   }
-  
+
   /// Reseta os favoritos para os padrões (medicamentos com infusão contínua)
   static Future<void> resetarParaPadrao() async {
     final prefs = await SharedPreferences.getInstance();
@@ -1331,6 +979,7 @@ class _MedicamentoPageState extends State<MedicamentoPage> {
   final double doseMin;
   final double doseMax;
   final String unidade;
+
   /// Se true, indica que a concentração já está em mcg/mL (não converter de mg para mcg)
   final bool concentracaoEmMcg;
 
@@ -1364,14 +1013,14 @@ class _MedicamentoPageState extends State<MedicamentoPage> {
       // Encontrar a chave com o maior valor de concentração
       String chaveComMaiorConcentracao = widget.opcoesConcentracoes.keys.first;
       double maiorConcentracao = widget.opcoesConcentracoes.values.first;
-      
+
       for (final entry in widget.opcoesConcentracoes.entries) {
         if (entry.value > maiorConcentracao) {
           maiorConcentracao = entry.value;
           chaveComMaiorConcentracao = entry.key;
         }
       }
-      
+
       concentracaoSelecionada = chaveComMaiorConcentracao;
     } else {
       concentracaoSelecionada = '';
@@ -1531,11 +1180,13 @@ class _MedicamentoPageState extends State<MedicamentoPage> {
 
     // Determinar se a dose está em mcg/kg/min, mcg/kg/h, mcg/h, mg/kg/h, mg/h, UI/kg/h, U/min, U/kg/min, mL/h ou mL/kg/h
     final isMcgPerKgPerMin = unidade.contains('mcg/kg/min');
-    final isMcgPerKgPerH = unidade.contains('mcg/kg/h') && !unidade.contains('mcg/h');
+    final isMcgPerKgPerH =
+        unidade.contains('mcg/kg/h') && !unidade.contains('mcg/h');
     final isMcgPerH = unidade == 'mcg/h'; // dose fixa em mcg/h (não por kg)
     final isMgPerKgPerH = unidade.contains('mg/kg/h');
     final isMgPerH = unidade == 'mg/h'; // dose fixa em mg/h (não por kg)
-    final isUIPerKgPerH = unidade.contains('ui/kg/h');
+    final isUIPerKgPerH =
+        unidade.contains('ui/kg/h') || unidade.contains('iu/kg/h');
     final isUPerMin =
         unidade.contains('u/min') && !unidade.contains('u/kg/min');
     final isUPerKgPerMin = unidade.contains('u/kg/min');
@@ -1617,14 +1268,14 @@ class _MedicamentoPageState extends State<MedicamentoPage> {
         widget.opcoesConcentracoes.isNotEmpty) {
       String chaveComMaiorConcentracao = widget.opcoesConcentracoes.keys.first;
       double maiorConcentracao = widget.opcoesConcentracoes.values.first;
-      
+
       for (final entry in widget.opcoesConcentracoes.entries) {
         if (entry.value > maiorConcentracao) {
           maiorConcentracao = entry.value;
           chaveComMaiorConcentracao = entry.key;
         }
       }
-      
+
       concentracaoSelecionada = chaveComMaiorConcentracao;
     }
 
@@ -1724,7 +1375,7 @@ class _MedicamentoPageState extends State<MedicamentoPage> {
           value: dose.clamp(widget.doseMin, widget.doseMax),
           min: widget.doseMin,
           max: widget.doseMax,
-          divisions: ((widget.doseMax - widget.doseMin) * 500).round(),
+          divisions: ((widget.doseMax - widget.doseMin) * 500).round().clamp(1, 10000),
           label: dose >= 100 && widget.unidade.toLowerCase().contains('mcg')
               ? '${(dose / 1000).toStringAsFixed(2)} mg'
               : '${dose.toStringAsFixed(3)}',
@@ -1815,13 +1466,13 @@ class _DrogasPageState extends State<DrogasPage> {
   Set<String> favoritos = {};
   final TextEditingController _searchController = TextEditingController();
   String _query = '';
-  
+
   // Timer para debounce na busca (otimização de performance)
   Timer? _searchDebounce;
-  
+
   // Lista pré-ordenada alfabeticamente (calculada uma vez no initState)
   late final List<Map<String, dynamic>> _medicamentosOrdenados;
-  
+
   // Cache de nomes sem acentos para ordenação rápida
   final Map<String, String> _cacheNomesSemAcento = {};
 
@@ -1831,7 +1482,7 @@ class _DrogasPageState extends State<DrogasPage> {
     if (_cacheNomesSemAcento.containsKey(texto)) {
       return _cacheNomesSemAcento[texto]!;
     }
-    
+
     const acentos = {
       'á': 'a',
       'à': 'a',
@@ -1887,7 +1538,7 @@ class _DrogasPageState extends State<DrogasPage> {
     acentos.forEach((acento, semAcento) {
       resultado = resultado.replaceAll(acento, semAcento);
     });
-    
+
     // Armazena no cache
     _cacheNomesSemAcento[texto] = resultado;
     return resultado;
@@ -1896,7 +1547,7 @@ class _DrogasPageState extends State<DrogasPage> {
   @override
   void initState() {
     super.initState();
-    
+
     // Pré-ordenar a lista de medicamentos alfabeticamente (apenas uma vez)
     _medicamentosOrdenados = List.from(_medicamentos);
     _medicamentosOrdenados.sort((a, b) {
@@ -1904,9 +1555,9 @@ class _DrogasPageState extends State<DrogasPage> {
       final nomeB = _removerAcentos(b['nome'].toLowerCase());
       return nomeA.compareTo(nomeB);
     });
-    
+
     _carregarFavoritos();
-    
+
     // Debounce na busca: aguarda 300ms após parar de digitar
     _searchController.addListener(() {
       _searchDebounce?.cancel();
@@ -1978,7 +1629,7 @@ class _DrogasPageState extends State<DrogasPage> {
     // Usar partition para melhor performance
     final favoritosList = <Map<String, dynamic>>[];
     final naoFavoritosList = <Map<String, dynamic>>[];
-    
+
     for (final med in medicamentosFiltrados) {
       if (favoritos.contains(med['nome'])) {
         favoritosList.add(med);
@@ -1986,7 +1637,7 @@ class _DrogasPageState extends State<DrogasPage> {
         naoFavoritosList.add(med);
       }
     }
-    
+
     // Concatenar: favoritos primeiro, depois os demais
     medicamentosFiltrados = [...favoritosList, ...naoFavoritosList];
 
@@ -2015,6 +1666,7 @@ class _DrogasPageState extends State<DrogasPage> {
                           child: TextField(
                             controller: _searchController,
                             autocorrect: false,
+                            style: TextStyle(fontSize: 15, color: Colors.black87),
                             decoration: InputDecoration(
                               labelText: 'Pesquisa',
                               prefixIcon: const Icon(Icons.search),

@@ -1,0 +1,486 @@
+{
+  "PT": {
+    "nome": "Plaquetas",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Plaquetas (adulto - pool)",
+          "descricaoDose": "1 U/10 kg IV (eleva 5-10 mil/mm³ por unidade)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Plaquetas (aférese)",
+          "descricaoDose": "1 bolsa de aférese IV (eleva 30-50 mil/mm³)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "bolsa",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 bolsa",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Plaquetas (pediátrico)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Componente sanguíneo (concentrado de plaquetas)",
+      "apresentacoes": [
+        { "forma": "Concentrado randômico (pool)", "obs": "50-70 mL/unidade; ≥5,5×10¹⁰ plaquetas/U" },
+        { "forma": "Aférese (doador único)", "obs": "200-400 mL/bolsa (equivale a 6-8 U)" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso", "concentracao": "Suspensão em plasma" },
+        { "diluicao": "Administrar por equipo com filtro; não misturar com outros hemocomponentes", "concentracao": "Velocidade: 30-60 min" }
+      ],
+      "observacoes": [
+        "Compatibilidade ABO preferencial (não obrigatória); Rh compatível em mulheres em idade fértil",
+        "Refratariedade: considerar plaquetas HLA compatíveis",
+        "Verificar incremento 10-60 min após transfusão",
+        "Plaquetas irradiadas para imunocomprometidos",
+        "Contraindicado em PTT, PTI (exceto sangramento grave) e HIT",
+        "Armazenamento: 20-24°C com agitação contínua; validade 5 dias; não refrigerar"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar volemia e função cardíaca em transfusões múltiplas.",
+        "renal": "Não requer ajuste. Hemoderivado; uso conforme indicação e gatilhos transfusionais.",
+        "hepatico": "Não requer ajuste. Uso conforme indicação (ex.: sangramento, procedimento)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Plaquetas (adulto)",
+        "doseTexto": "1 U/10 kg IV (eleva 5-10 mil/mm³)",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Plaquetas (aférese)",
+        "doseTexto": "1 bolsa de aférese (eleva 30-50 mil/mm³)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "bolsa",
+        "decimais": 0,
+        "resultadoFixo": "1 bolsa",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Plaquetas (pediátrico)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Platelets",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Platelets (adult - pool)",
+          "descricaoDose": "1 U/10 kg IV (raises 5-10 K/µL per unit)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Platelets (apheresis)",
+          "descricaoDose": "1 apheresis unit IV (raises 30-50 K/µL)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "unit",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 unit",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Platelets (pediatric)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Blood component - Platelet concentrate",
+      "apresentacoes": [
+        { "forma": "Random-donor pool", "obs": "50-70 mL/unit; ≥5.5×10¹⁰ platelets/U" },
+        { "forma": "Apheresis (single donor)", "obs": "200-400 mL/unit (equiv. 6-8 U)" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for use", "concentracao": "Suspension in plasma" },
+        { "diluicao": "Administer through filter; do not mix with other blood components", "concentracao": "Rate: 30-60 min" }
+      ],
+      "observacoes": [
+        "ABO compatibility preferred (not mandatory); Rh compatible in women of childbearing age",
+        "Refractoriness: consider HLA-matched platelets",
+        "Check increment 10-60 min after transfusion",
+        "Irradiated platelets for immunocompromised patients",
+        "Contraindicated in TTP, ITP (except severe bleeding) and HIT",
+        "Storage: 20-24°C with continuous agitation; 5-day shelf life; do not refrigerate"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor volume status and cardiac function with multiple transfusions.",
+        "renal": "No adjustment. Blood product; use per indication and transfusion triggers.",
+        "hepatico": "No adjustment. Use per indication (e.g. bleeding, procedure)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Platelets (adult)",
+        "doseTexto": "1 U/10 kg IV (raises 5-10 K/µL)",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Platelets (apheresis)",
+        "doseTexto": "1 apheresis unit (raises 30-50 K/µL)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "unit",
+        "decimais": 0,
+        "resultadoFixo": "1 unit",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Platelets (pediatric)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Plaquetas",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Plaquetas (adulto - pool)",
+          "descricaoDose": "1 U/10 kg IV (eleva 5-10 mil/mm³ por unidad)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Plaquetas (aféresis)",
+          "descricaoDose": "1 bolsa de aféresis IV (eleva 30-50 mil/mm³)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "bolsa",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 bolsa",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Plaquetas (pediátrico)",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Componente sanguíneo (concentrado de plaquetas)",
+      "apresentacoes": [
+        { "forma": "Concentrado aleatorio (pool)", "obs": "50-70 mL/unidad; ≥5,5×10¹⁰ plaquetas/U" },
+        { "forma": "Aféresis (donante único)", "obs": "200-400 mL/bolsa (equiv. 6-8 U)" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso", "concentracao": "Suspensión en plasma" },
+        { "diluicao": "Administrar con equipo con filtro; no mezclar con otros hemocomponentes", "concentracao": "Velocidad: 30-60 min" }
+      ],
+      "observacoes": [
+        "Compatibilidad ABO preferente (no obligatoria); Rh compatible en mujeres en edad fértil",
+        "Refractoriedad: considerar plaquetas HLA compatibles",
+        "Verificar incremento 10-60 min tras transfusión",
+        "Plaquetas irradiadas para inmunodeprimidos",
+        "Contraindicado en PTT, PTI (excepto sangrado grave) y HIT",
+        "Almacenamiento: 20-24°C con agitación continua; validez 5 días; no refrigerar"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar volemia y función cardíaca en transfusiones múltiples.",
+        "renal": "No requiere ajuste. Hemoderivado; uso según indicación y gatillos transfusionales.",
+        "hepatico": "No requiere ajuste. Uso según indicación (ej. sangrado, procedimiento)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Plaquetas (adulto)",
+        "doseTexto": "1 U/10 kg IV (eleva 5-10 mil/mm³)",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Plaquetas (aféresis)",
+        "doseTexto": "1 bolsa de aféresis (eleva 30-50 mil/mm³)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "bolsa",
+        "decimais": 0,
+        "resultadoFixo": "1 bolsa",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Plaquetas (pediátrico)",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "血小板",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "血小板（成人-混合）",
+          "descricaoDose": "1 U/10 kg IV（每单位升高5-10千/mm³）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "按需",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "无"
+          }
+        },
+        {
+          "titulo": "血小板（单采）",
+          "descricaoDose": "1单位单采 IV（升高30-50千/mm³）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "单位",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 单位",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "无"
+          }
+        },
+        {
+          "titulo": "血小板（儿科）",
+          "descricaoDose": "10-20 mL/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿科",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "按需",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "无"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "血液制品 - 血小板浓缩物",
+      "apresentacoes": [
+        { "forma": "随机混合（pool）", "obs": "50-70 mL/单位；≥5.5×10¹⁰血小板/U" },
+        { "forma": "单采（单供体）", "obs": "200-400 mL/袋（相当于6-8 U）" }
+      ],
+      "preparo": [
+        { "diluicao": "即用", "concentracao": "血浆悬浮液" },
+        { "diluicao": "经带滤器管路输注；勿与其他血液成分混合", "concentracao": "速度：30-60 min" }
+      ],
+      "observacoes": [
+        "ABO相容性优先（非强制）；育龄妇女Rh相容",
+        "难治：考虑HLA相合血小板",
+        "输注后10-60 min复查血小板计数",
+        "免疫低下者用辐照血小板",
+        "禁忌：TTP、ITP（除严重出血）及HIT",
+        "贮存：20-24°C持续振荡；有效期5天；勿冷藏"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调量。多次输注时监测容量与心功能。",
+        "renal": "无需调整。血液制品；按适应证及输血指征使用。",
+        "hepatico": "无需调整。按适应证使用（如出血、手术）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "血小板（成人）",
+        "doseTexto": "1 U/10 kg IV（升高5-10千/mm³）",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "血小板（单采）",
+        "doseTexto": "1单位单采（升高30-50千/mm³）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "单位",
+        "decimais": 0,
+        "resultadoFixo": "1 单位",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "血小板（儿科）",
+        "doseTexto": "10-20 mL/kg IV",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿科"
+      }
+    ]
+  }
+}

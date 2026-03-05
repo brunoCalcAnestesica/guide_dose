@@ -1,0 +1,818 @@
+{
+  "PT": {
+    "nome": "Warfarina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose inicial (adulto saudável)",
+          "descricaoDose": "5-10 mg VO 1x/dia nos primeiros 2 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia (primeiros 2 dias)",
+            "ajusteRenal": "Cautela; monitorar INR.",
+            "ajusteHepatico": "Dose inicial menor; metabolismo hepático CYP2C9."
+          }
+        },
+        {
+          "titulo": "Dose inicial (idoso/baixo peso/hepatopata)",
+          "descricaoDose": "2,5-5 mg VO 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Cautela; monitorar INR.",
+            "ajusteHepatico": "Dose inicial menor; metabolismo hepático."
+          }
+        },
+        {
+          "titulo": "FA não valvar",
+          "descricaoDose": "Alvo INR 2-3",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2,0 - 3,0",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "manutenção",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TVP/TEP",
+          "descricaoDose": "Alvo INR 2-3 por ≥3 meses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2,0 - 3,0",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "≥3 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prótese valvar mecânica (mitral)",
+          "descricaoDose": "Alvo INR 2,5-3,5",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2,5 - 3,5",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "manutenção",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prótese valvar mecânica (aórtica)",
+          "descricaoDose": "Alvo INR 2-3",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2,0 - 3,0",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "manutenção",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Dose inicial",
+          "descricaoDose": "0,1-0,2 mg/kg/dia VO (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Cautela; monitorar INR.",
+            "ajusteHepatico": "Dose inicial menor."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulante oral – Antagonista da vitamina K (derivado cumarínico)",
+      "apresentacoes": [
+        { "forma": "Comprimido 1 mg", "obs": "Rosa" },
+        { "forma": "Comprimido 2,5 mg", "obs": "Verde" },
+        { "forma": "Comprimido 5 mg", "obs": "Amarelo" },
+        { "forma": "Comprimido 7,5 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Comprimido VO", "concentracao": "Tomar no mesmo horário" }
+      ],
+      "observacoes": [
+        "Início de ação: 2-7 dias (efeito antitrombótico pleno)",
+        "Fazer ponte com heparina até INR terapêutico por 24 h",
+        "Reversão: Vitamina K + PFC ou CCP",
+        "Contraindicado na gestação (teratogênico)",
+        "Múltiplas interações medicamentosas e alimentares",
+        "Alimentos ricos em vit K reduzem efeito; tomar sempre no mesmo horário"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Dose inicial menor 2,5-5 mg.",
+        "renal": "Cautela; monitorar INR.",
+        "hepatico": "Dose inicial menor; metabolismo hepático CYP2C9."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Warfarina – Dose inicial (adulto)",
+        "doseTexto": "5-10 mg VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Warfarina – Dose inicial (idoso/baixo peso)",
+        "doseTexto": "2,5-5 mg VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Warfarina – Pediátrico",
+        "doseTexto": "0,1-0,2 mg/kg/dia VO (máx 10 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Warfarin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Initial dose (healthy adult)",
+          "descricaoDose": "5-10 mg PO once daily for first 2 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily (first 2 days)",
+            "ajusteRenal": "Caution; monitor INR.",
+            "ajusteHepatico": "Lower initial dose; hepatic metabolism CYP2C9."
+          }
+        },
+        {
+          "titulo": "Initial dose (elderly/low weight/hepatopathy)",
+          "descricaoDose": "2.5-5 mg PO once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Caution; monitor INR.",
+            "ajusteHepatico": "Lower initial dose; hepatic metabolism."
+          }
+        },
+        {
+          "titulo": "Nonvalvular AF",
+          "descricaoDose": "Target INR 2-3",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2.0 - 3.0",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "maintenance",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "DVT/PE",
+          "descricaoDose": "Target INR 2-3 for ≥3 months",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2.0 - 3.0",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "≥3 months",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mechanical valve (mitral)",
+          "descricaoDose": "Target INR 2.5-3.5",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2.5 - 3.5",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "maintenance",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mechanical valve (aortic)",
+          "descricaoDose": "Target INR 2-3",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2.0 - 3.0",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "maintenance",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric – Initial dose",
+          "descricaoDose": "0.1-0.2 mg/kg/day PO (max 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "Caution; monitor INR.",
+            "ajusteHepatico": "Lower initial dose."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Oral anticoagulant – Vitamin K antagonist (coumarin derivative)",
+      "apresentacoes": [
+        { "forma": "Tablet 1 mg", "obs": "Pink" },
+        { "forma": "Tablet 2.5 mg", "obs": "Green" },
+        { "forma": "Tablet 5 mg", "obs": "Yellow" },
+        { "forma": "Tablet 7.5 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Tablet PO", "concentracao": "Take at same time daily" }
+      ],
+      "observacoes": [
+        "Onset: 2-7 days (full antithrombotic effect)",
+        "Bridge with heparin until therapeutic INR for 24 h",
+        "Reversal: Vitamin K + FFP or PCC",
+        "Contraindicated in pregnancy (teratogenic)",
+        "Multiple drug and food interactions",
+        "Vitamin K-rich foods reduce effect; take at same time daily"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Lower initial dose 2.5-5 mg.",
+        "renal": "Caution; monitor INR.",
+        "hepatico": "Lower initial dose; hepatic metabolism CYP2C9."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Warfarin – Initial dose (adult)",
+        "doseTexto": "5-10 mg PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Warfarin – Initial dose (elderly/low weight)",
+        "doseTexto": "2.5-5 mg PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5-5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Warfarin – Pediatric",
+        "doseTexto": "0.1-0.2 mg/kg/day PO (max 10 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Warfarina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis inicial (adulto sano)",
+          "descricaoDose": "5-10 mg VO 1x/día los primeros 2 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día (primeros 2 días)",
+            "ajusteRenal": "Precaución; monitorizar INR.",
+            "ajusteHepatico": "Dosis inicial menor; metabolismo hepático CYP2C9."
+          }
+        },
+        {
+          "titulo": "Dosis inicial (anciano/bajo peso/hepatopatía)",
+          "descricaoDose": "2,5-5 mg VO 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Precaución; monitorizar INR.",
+            "ajusteHepatico": "Dosis inicial menor; metabolismo hepático."
+          }
+        },
+        {
+          "titulo": "FA no valvular",
+          "descricaoDose": "Objetivo INR 2-3",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2,0 - 3,0",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "mantenimiento",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TVP/TEP",
+          "descricaoDose": "Objetivo INR 2-3 durante ≥3 meses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2,0 - 3,0",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "≥3 meses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prótesis valvular mecánica (mitral)",
+          "descricaoDose": "Objetivo INR 2,5-3,5",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2,5 - 3,5",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "mantenimiento",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prótesis valvular mecánica (aórtica)",
+          "descricaoDose": "Objetivo INR 2-3",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2,0 - 3,0",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "mantenimiento",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Dosis inicial",
+          "descricaoDose": "0,1-0,2 mg/kg/día VO (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "Precaución; monitorizar INR.",
+            "ajusteHepatico": "Dosis inicial menor."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticoagulante oral – Antagonista de la vitamina K (derivado cumarínico)",
+      "apresentacoes": [
+        { "forma": "Comprimido 1 mg", "obs": "Rosa" },
+        { "forma": "Comprimido 2,5 mg", "obs": "Verde" },
+        { "forma": "Comprimido 5 mg", "obs": "Amarillo" },
+        { "forma": "Comprimido 7,5 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Comprimido VO", "concentracao": "Tomar a la misma hora" }
+      ],
+      "observacoes": [
+        "Inicio de acción: 2-7 días (efecto antitrombótico completo)",
+        "Puente con heparina hasta INR terapéutico 24 h",
+        "Reversión: Vitamina K + PFC o CCP",
+        "Contraindicado en gestación (teratogénico)",
+        "Múltiples interacciones medicamentosas y alimentarias",
+        "Alimentos ricos en vit K reducen efecto; tomar siempre a la misma hora"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Dosis inicial menor 2,5-5 mg.",
+        "renal": "Precaución; monitorizar INR.",
+        "hepatico": "Dosis inicial menor; metabolismo hepático CYP2C9."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Warfarina – Dosis inicial (adulto)",
+        "doseTexto": "5-10 mg VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Warfarina – Dosis inicial (anciano/bajo peso)",
+        "doseTexto": "2,5-5 mg VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Warfarina – Pediátrico",
+        "doseTexto": "0,1-0,2 mg/kg/día VO (máx 10 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "华法林",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "初始剂量（健康成人）",
+          "descricaoDose": "5-10 mg 口服 每日1次，首2天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次（首2天）",
+            "ajusteRenal": "慎用；监测INR。",
+            "ajusteHepatico": "初始剂量宜小；肝代谢CYP2C9。"
+          }
+        },
+        {
+          "titulo": "初始剂量（老年/低体重/肝病）",
+          "descricaoDose": "2.5-5 mg 口服 每日1次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "慎用；监测INR。",
+            "ajusteHepatico": "初始剂量宜小；肝代谢。"
+          }
+        },
+        {
+          "titulo": "非瓣膜性房颤",
+          "descricaoDose": "目标INR 2-3",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2.0 - 3.0",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "维持",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "深静脉血栓/肺栓塞",
+          "descricaoDose": "目标INR 2-3，≥3个月",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2.0 - 3.0",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "≥3个月",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "机械瓣（二尖瓣）",
+          "descricaoDose": "目标INR 2.5-3.5",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2.5 - 3.5",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "维持",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "机械瓣（主动脉瓣）",
+          "descricaoDose": "目标INR 2-3",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "INR 2.0 - 3.0",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "维持",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童 – 初始剂量",
+          "descricaoDose": "0.1-0.2 mg/kg/日 口服（最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "慎用；监测INR。",
+            "ajusteHepatico": "初始剂量宜小。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "口服抗凝药 – 维生素K拮抗剂（香豆素类）",
+      "apresentacoes": [
+        { "forma": "片 1 mg", "obs": "粉红" },
+        { "forma": "片 2.5 mg", "obs": "绿" },
+        { "forma": "片 5 mg", "obs": "黄" },
+        { "forma": "片 7.5 mg", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "口服片剂", "concentracao": "每日同一时间服用" }
+      ],
+      "observacoes": [
+        "起效：2-7天（抗栓作用完全）",
+        "与肝素桥接直至INR达标24 h",
+        "逆转：维生素K + 新鲜冰冻血浆或PCC",
+        "妊娠禁忌（致畸）",
+        "多种药物与食物相互作用",
+        "富含维生素K食物降低疗效；每日同一时间服用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "初始剂量宜小 2.5-5 mg。",
+        "renal": "慎用；监测INR。",
+        "hepatico": "初始剂量宜小；肝代谢CYP2C9。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "华法林 – 初始剂量（成人）",
+        "doseTexto": "5-10 mg 口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "华法林 – 初始剂量（老年/低体重）",
+        "doseTexto": "2.5-5 mg 口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5-5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "华法林 – 儿童",
+        "doseTexto": "0.1-0.2 mg/kg/日 口服（最大10 mg）",
+        "doseMin": 0.1,
+        "doseMax": 0.2,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

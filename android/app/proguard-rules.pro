@@ -20,3 +20,8 @@
 # Path Provider
 -keep class io.flutter.plugins.pathprovider.** { *; }
 
+# Google Play Core (Deferred Components)
+-dontwarn com.google.android.play.core.splitcompat.SplitCompatApplication
+-dontwarn com.google.android.play.core.splitinstall.**
+-dontwarn com.google.android.play.core.tasks.**
+

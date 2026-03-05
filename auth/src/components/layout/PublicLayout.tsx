@@ -13,7 +13,7 @@ export default function PublicLayout() {
             <span className="text-xl font-bold text-brand-700">GuideDose</span>
           </Link>
           <nav className="flex items-center gap-3">
-            {user ? (
+            {user && (
               <>
                 <Link to="/app" className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100">
                   Painel
@@ -23,15 +23,6 @@ export default function PublicLayout() {
                     Admin
                   </Link>
                 )}
-              </>
-            ) : (
-              <>
-                <Link to="/login" className="rounded-lg px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-100">
-                  Entrar
-                </Link>
-                <Link to="/login" className="rounded-lg bg-brand-600 px-4 py-2 text-sm font-medium text-white hover:bg-brand-700">
-                  Área do Usuário
-                </Link>
               </>
             )}
           </nav>

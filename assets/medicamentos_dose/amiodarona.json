@@ -1,0 +1,674 @@
+{
+  "PT": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "TV/FV em PCR (ACLS)",
+          "descricaoDose": "300mg IV em bolus, repetir 150mg se necessário",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 450,
+            "doseFixa": "300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir 150mg se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela - reduzir manutenção"
+          }
+        },
+        {
+          "titulo": "TV estável / FA com RVR",
+          "descricaoDose": "150mg IV em 10 minutos",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão em 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela - reduzir manutenção"
+          }
+        },
+        {
+          "titulo": "TV/FV em PCR (PALS)",
+          "descricaoDose": "5mg/kg IV/IO em 20-60 min (máx 300mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "infusão em 20-60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": {
+            "doseMin": 5,
+            "doseMax": 15
+          },
+          "pediatrico": {
+            "doseMin": 5,
+            "doseMax": 15
+          },
+          "concentracaoEmMcg": true,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "900mg em 500mL SG 5% (1800 mcg/mL)",
+              "valor": 1800
+            },
+            {
+              "rotulo": "450mg em 250mL SG 5% (1800 mcg/mL)",
+              "valor": 1800
+            },
+            {
+              "rotulo": "300mg em 250mL SG 5% (1200 mcg/mL)",
+              "valor": 1200
+            },
+            {
+              "rotulo": "150mg em 100mL SG 5% (1500 mcg/mL)",
+              "valor": 1500
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiarrítmico Classe III (com propriedades I, II, IV)",
+      "apresentacoes": [
+        {
+          "forma": "Ampola 150mg/3mL",
+          "obs": "50 mg/mL"
+        },
+        {
+          "forma": "Comprimido 200mg",
+          "obs": "Uso oral - manutenção"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "900mg (6 amp) + 500mL SG 5%",
+          "concentracao": "1,8 mg/mL"
+        },
+        {
+          "diluicao": "450mg (3 amp) + 250mL SG 5%",
+          "concentracao": "1,8 mg/mL"
+        },
+        {
+          "diluicao": "150mg (1 amp) + 100mL SG 5%",
+          "concentracao": "1,5 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "NUNCA diluir em SF 0,9% - usar APENAS SG 5% (risco de precipitação)",
+        "Preferir acesso venoso central (risco de flebite)",
+        "Dose máxima 24h: 2,2g adulto / 15mg/kg pediátrico",
+        "Monitorizar ECG contínuo - risco de QT longo e Torsades",
+        "Reduzir digoxina pela metade se uso concomitante",
+        "Contraindicado em bradicardia severa e BAV sem marcapasso"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior sensibilidade. Monitorar ECG, PA e função tireoidiana.",
+        "renal": "Não requer ajuste. Excreção renal <1%.",
+        "hepatico": "Reduzir dose de manutenção. Monitorar enzimas hepáticas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amiodarona (adulto)",
+        "doseTexto": "300 mg IV (PCR) ou 150 mg IV em 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amiodarona (pediátrico)",
+        "doseTexto": "5 mg/kg IV/IO em 20-60 min (máx 300mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Amiodarona Manutenção",
+        "doseTexto": "1 mg/min por 6h, depois 0,5 mg/min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/min",
+        "decimais": 1,
+        "resultadoFixo": "1 mg/min",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "VT/VF in Cardiac Arrest (ACLS)",
+          "descricaoDose": "300mg IV bolus, repeat 150mg if needed",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 450,
+            "doseFixa": "300 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat 150mg if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution - reduce maintenance"
+          }
+        },
+        {
+          "titulo": "Stable VT / AF with RVR",
+          "descricaoDose": "150mg IV over 10 minutes",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "infusion over 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution - reduce maintenance"
+          }
+        },
+        {
+          "titulo": "VT/VF in Cardiac Arrest (PALS)",
+          "descricaoDose": "5mg/kg IV/IO over 20-60 min (max 300mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IO",
+            "intervalo": "infusion over 20-60 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": {
+            "doseMin": 5,
+            "doseMax": 15
+          },
+          "pediatrico": {
+            "doseMin": 5,
+            "doseMax": 15
+          },
+          "concentracaoEmMcg": true,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "900mg in 500mL D5W (1800 mcg/mL)",
+              "valor": 1800
+            },
+            {
+              "rotulo": "450mg in 250mL D5W (1800 mcg/mL)",
+              "valor": 1800
+            },
+            {
+              "rotulo": "300mg in 250mL D5W (1200 mcg/mL)",
+              "valor": 1200
+            },
+            {
+              "rotulo": "150mg in 100mL D5W (1500 mcg/mL)",
+              "valor": 1500
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Class III Antiarrhythmic (with class I, II, IV properties)",
+      "apresentacoes": [
+        {
+          "forma": "Ampoule 150mg/3mL",
+          "obs": "50 mg/mL"
+        },
+        {
+          "forma": "Tablet 200mg",
+          "obs": "Oral use - maintenance"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "900mg (6 amp) + 500mL D5W",
+          "concentracao": "1.8 mg/mL"
+        },
+        {
+          "diluicao": "450mg (3 amp) + 250mL D5W",
+          "concentracao": "1.8 mg/mL"
+        },
+        {
+          "diluicao": "150mg (1 amp) + 100mL D5W",
+          "concentracao": "1.5 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "NEVER dilute in NS - use ONLY D5W (precipitation risk)",
+        "Prefer central venous access (phlebitis risk)",
+        "Max 24h dose: 2.2g adult / 15mg/kg pediatric",
+        "Continuous ECG monitoring - QT prolongation and Torsades risk",
+        "Reduce digoxin by half if concomitant use",
+        "Contraindicated in severe bradycardia and AV block without pacemaker"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Increased sensitivity. Monitor ECG, BP, and thyroid function.",
+        "renal": "No adjustment required. Renal excretion <1%.",
+        "hepatico": "Reduce maintenance dose. Monitor liver enzymes."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amiodarone (adult)",
+        "doseTexto": "300 mg IV (arrest) or 150 mg IV over 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Amiodarone (pediatric)",
+        "doseTexto": "5 mg/kg IV/IO over 20-60 min (max 300mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Amiodarone Maintenance",
+        "doseTexto": "1 mg/min for 6h, then 0.5 mg/min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/min",
+        "decimais": 1,
+        "resultadoFixo": "1 mg/min",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "TV/FV en PCR (ACLS)",
+          "descricaoDose": "300mg IV en bolo, repetir 150mg si necesario",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 450,
+            "doseFixa": "300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir 150mg si necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución - reducir mantenimiento"
+          }
+        },
+        {
+          "titulo": "TV estable / FA con RVR",
+          "descricaoDose": "150mg IV en 10 minutos",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión en 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución - reducir mantenimiento"
+          }
+        },
+        {
+          "titulo": "TV/FV en PCR (PALS)",
+          "descricaoDose": "5mg/kg IV/IO en 20-60 min (máx 300mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "infusión en 20-60 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": {
+            "doseMin": 5,
+            "doseMax": 15
+          },
+          "pediatrico": {
+            "doseMin": 5,
+            "doseMax": 15
+          },
+          "concentracaoEmMcg": true,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "900mg en 500mL SG 5% (1800 mcg/mL)",
+              "valor": 1800
+            },
+            {
+              "rotulo": "450mg en 250mL SG 5% (1800 mcg/mL)",
+              "valor": 1800
+            },
+            {
+              "rotulo": "300mg en 250mL SG 5% (1200 mcg/mL)",
+              "valor": 1200
+            },
+            {
+              "rotulo": "150mg en 100mL SG 5% (1500 mcg/mL)",
+              "valor": 1500
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiarrítmico Clase III (con propiedades I, II, IV)",
+      "apresentacoes": [
+        {
+          "forma": "Ampolla 150mg/3mL",
+          "obs": "50 mg/mL"
+        },
+        {
+          "forma": "Comprimido 200mg",
+          "obs": "Uso oral - mantenimiento"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "900mg (6 amp) + 500mL SG 5%",
+          "concentracao": "1,8 mg/mL"
+        },
+        {
+          "diluicao": "450mg (3 amp) + 250mL SG 5%",
+          "concentracao": "1,8 mg/mL"
+        },
+        {
+          "diluicao": "150mg (1 amp) + 100mL SG 5%",
+          "concentracao": "1,5 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "NUNCA diluir en SF 0,9% - usar SOLO SG 5% (riesgo de precipitación)",
+        "Preferir acceso venoso central (riesgo de flebitis)",
+        "Dosis máxima 24h: 2,2g adulto / 15mg/kg pediátrico",
+        "Monitorizar ECG continuo - riesgo de QT largo y Torsades",
+        "Reducir digoxina a la mitad si uso concomitante",
+        "Contraindicado en bradicardia severa y BAV sin marcapasos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor sensibilidad. Monitorizar ECG, PA y función tiroidea.",
+        "renal": "No requiere ajuste. Excreción renal <1%.",
+        "hepatico": "Reducir dosis de mantenimiento. Monitorizar enzimas hepáticas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amiodarona (adulto)",
+        "doseTexto": "300 mg IV (PCR) o 150 mg IV en 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amiodarona (pediátrico)",
+        "doseTexto": "5 mg/kg IV/IO en 20-60 min (máx 300mg)",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Amiodarona Mantenimiento",
+        "doseTexto": "1 mg/min por 6h, después 0,5 mg/min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/min",
+        "decimais": 1,
+        "resultadoFixo": "1 mg/min",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "心脏骤停中的室速/室颤 (ACLS)",
+          "descricaoDose": "300mg IV 推注，必要时重复150mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 450,
+            "doseFixa": "300 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时重复150mg",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "谨慎 - 减少维持剂量"
+          }
+        },
+        {
+          "titulo": "稳定室速 / 快速心室率房颤",
+          "descricaoDose": "150mg IV 10分钟内输注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "10分钟内输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "谨慎 - 减少维持剂量"
+          }
+        },
+        {
+          "titulo": "心脏骤停中的室速/室颤 (PALS)",
+          "descricaoDose": "5mg/kg IV/IO 20-60分钟内输注（最大300mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IO",
+            "intervalo": "20-60分钟内输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "谨慎"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": {
+            "doseMin": 5,
+            "doseMax": 15
+          },
+          "pediatrico": {
+            "doseMin": 5,
+            "doseMax": 15
+          },
+          "concentracaoEmMcg": true,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "900mg 溶于 500mL 5%葡萄糖 (1800 mcg/mL)",
+              "valor": 1800
+            },
+            {
+              "rotulo": "450mg 溶于 250mL 5%葡萄糖 (1800 mcg/mL)",
+              "valor": 1800
+            },
+            {
+              "rotulo": "300mg 溶于 250mL 5%葡萄糖 (1200 mcg/mL)",
+              "valor": 1200
+            },
+            {
+              "rotulo": "150mg 溶于 100mL 5%葡萄糖 (1500 mcg/mL)",
+              "valor": 1500
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "III类抗心律失常药（兼具I、II、IV类特性）",
+      "apresentacoes": [
+        {
+          "forma": "安瓿 150mg/3mL",
+          "obs": "50 mg/mL"
+        },
+        {
+          "forma": "片剂 200mg",
+          "obs": "口服 - 维持治疗"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "900mg (6支) + 500mL 5%葡萄糖",
+          "concentracao": "1.8 mg/mL"
+        },
+        {
+          "diluicao": "450mg (3支) + 250mL 5%葡萄糖",
+          "concentracao": "1.8 mg/mL"
+        },
+        {
+          "diluicao": "150mg (1支) + 100mL 5%葡萄糖",
+          "concentracao": "1.5 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "切勿用生理盐水稀释 - 仅用5%葡萄糖溶液（有沉淀风险）",
+        "优先使用中心静脉通路（静脉炎风险）",
+        "24h最大剂量：成人2.2g / 儿童15mg/kg",
+        "持续心电图监测 - QT延长和尖端扭转型室速风险",
+        "合并用药时地高辛剂量减半",
+        "严重心动过缓和无起搏器的房室传导阻滞禁用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "敏感性增加。监测心电图、血压和甲状腺功能。",
+        "renal": "无需调整。肾脏排泄<1%。",
+        "hepatico": "减少维持剂量。监测肝酶。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "胺碘酮（成人）",
+        "doseTexto": "300 mg IV（心脏骤停）或150 mg IV 10分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "300 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "胺碘酮（儿童）",
+        "doseTexto": "5 mg/kg IV/IO 20-60分钟（最大300mg）",
+        "doseMin": 5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "胺碘酮 维持",
+        "doseTexto": "1 mg/min 持续6h，然后0.5 mg/min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/min",
+        "decimais": 1,
+        "resultadoFixo": "1 mg/min",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

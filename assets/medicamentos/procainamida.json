@@ -1,0 +1,66 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Procainamida",
+      "nome_comercial": ["Procamide", "Pronestyl"],
+      "classe_terapeutica": "Antiarrítmico Classe IA",
+      "mecanismo_acao": "Bloqueia os canais de sódio cardíacos, diminuindo a velocidade de condução e prolongando o período refratário efetivo no miocárdio atrial e ventricular.",
+      "indicacoes": [
+        "Taquicardia ventricular com pulso (TV estável)",
+        "Fibrilação atrial de início recente (<48h)",
+        "Síndrome de Wolff-Parkinson-White com FA",
+        "Taquicardia de complexo largo de origem incerta"
+      ],
+      "contraindicacoes": [
+        "Bloqueio AV de 2º ou 3º grau sem marcapasso",
+        "QT prolongado ou Torsades de Pointes",
+        "Miastenia gravis",
+        "Lúpus eritematoso sistêmico",
+        "Hipersensibilidade a anestésicos locais tipo amida",
+        "Insuficiência cardíaca grave"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Solução injetável",
+          "concentracao": "500 mg/5 mL",
+          "volume": "100 mg/mL"
+        },
+        {
+          "forma": "Solução injetável",
+          "concentracao": "1000 mg/10 mL",
+          "volume": "100 mg/mL"
+        }
+      ],
+      "farmacocinetica": {
+        "inicio_acao_iv": "Imediato",
+        "pico_iv": "15-60 minutos (ataque)",
+        "duracao": "3-6 horas",
+        "meia_vida": "2,5-4,5 horas (procainamida), 6-8 horas (NAPA)",
+        "metabolismo": "Hepático - N-acetilprocainamida (NAPA) ativo",
+        "excrecao": "Renal (40-70% inalterado)"
+      },
+      "efeitos_adversos": [
+        "Hipotensão",
+        "Prolongamento QT e QRS",
+        "Torsades de Pointes",
+        "Síndrome lúpus-like (uso crônico)",
+        "Agranulocitose",
+        "Náusea"
+      ],
+      "interacoes_importantes": [
+        "Amiodarona: aumento dos níveis de procainamida",
+        "Cimetidina: aumento dos níveis",
+        "Antiarrítmicos: efeitos pró-arrítmicos aditivos",
+        "Bloqueadores neuromusculares: potencialização"
+      ],
+      "monitoramento": {
+        "ecg": "QRS e QT - parar se QRS alarga >50%",
+        "pressao_arterial": "Contínua durante infusão",
+        "niveis_sericos": "Procainamida 4-10 mcg/mL, NAPA <30 mcg/mL"
+      },
+      "estabilidade": {
+        "temperatura_ambiente": "24 horas após diluição"
+      }
+    }
+  }
+}

@@ -1,0 +1,658 @@
+{
+  "PT": {
+    "nome": "N-Acetilcisteína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicação paracetamol - 1ª dose (ataque)",
+          "descricaoDose": "150 mg/kg IV em 200 mL SG 5% em 1 hora",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 1 hora",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação paracetamol - 2ª dose (manutenção 1)",
+          "descricaoDose": "50 mg/kg IV em 500 mL SG 5% em 4 horas",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 4 horas",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação paracetamol - 3ª dose (manutenção 2)",
+          "descricaoDose": "100 mg/kg IV em 1000 mL SG 5% em 16 horas",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 16 horas",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Via oral - Ataque",
+          "descricaoDose": "140 mg/kg VO (dose única inicial)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 140,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Via oral - Manutenção",
+          "descricaoDose": "70 mg/kg VO a cada 4 h por 17 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4h por 17 doses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto / precursor de glutationa. Antídoto para intoxicação por paracetamol (acetaminofeno).",
+      "apresentacoes": [
+        { "forma": "Ampola 300 mg/3 mL (100 mg/mL)", "obs": "Fluimucil® IV" },
+        { "forma": "Ampola 600 mg/3 mL (200 mg/mL)", "obs": "Fluimucil® IV" },
+        { "forma": "Ampola 2 g/10 mL (200 mg/mL)", "obs": "Acetadote®" },
+        { "forma": "Sachê 600 mg", "obs": "Via oral" },
+        { "forma": "Sachê 200 mg", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir em SG 5%", "concentracao": "preferencial" },
+        { "diluicao": "Compatível com SF 0,9%", "concentracao": "alternativa" },
+        { "diluicao": "Estável 24 h após diluição", "concentracao": "temperatura ambiente" },
+        { "diluicao": "Solução amarelada é normal", "concentracao": "descartar se turva ou precipitado" }
+      ],
+      "observacoes": [
+        "Máxima eficácia se iniciada até 8-10 h após ingestão; ainda eficaz até 24 h",
+        "Usar nomograma de Rumack-Matthew para indicação de tratamento",
+        "Reações anafilactoides em 5-10%, mais comum na 1ª dose",
+        "Se reação: pausar infusão, anti-histamínico, reiniciar lentamente",
+        "Monitorar: TGO, TGP, INR, creatinina, nível sérico de paracetamol",
+        "Carvão ativado VO: dar intervalo de 2 h entre carvão e NAC oral"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Mesmo protocolo por peso.",
+        "renal": "Não necessário em intoxicação aguda.",
+        "hepatico": "Não necessário; NAC é o tratamento da hepatotoxicidade."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "N-Acetilcisteína - Ataque (21 h)",
+        "doseTexto": "150 mg/kg IV em 1 h",
+        "doseMin": 150,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "N-Acetilcisteína - Manutenção 1",
+        "doseTexto": "50 mg/kg IV em 4 h",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "N-Acetilcisteína - Manutenção 2",
+        "doseTexto": "100 mg/kg IV em 16 h",
+        "doseMin": 100,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "US": {
+    "nome": "N-Acetylcysteine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acetaminophen overdose - 1st dose (loading)",
+          "descricaoDose": "150 mg/kg IV in 200 mL D5W over 1 hour",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose over 1 hour",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Acetaminophen overdose - 2nd dose (maintenance 1)",
+          "descricaoDose": "50 mg/kg IV in 500 mL D5W over 4 hours",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 4 hours",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Acetaminophen overdose - 3rd dose (maintenance 2)",
+          "descricaoDose": "100 mg/kg IV in 1000 mL D5W over 16 hours",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 16 hours",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Oral - Loading",
+          "descricaoDose": "140 mg/kg PO (single initial dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 140,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Oral - Maintenance",
+          "descricaoDose": "70 mg/kg PO every 4 h for 17 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4h for 17 doses",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antidote / glutathione precursor. Antidote for acetaminophen (paracetamol) overdose.",
+      "apresentacoes": [
+        { "forma": "Vial 300 mg/3 mL (100 mg/mL)", "obs": "Fluimucil® IV" },
+        { "forma": "Vial 600 mg/3 mL (200 mg/mL)", "obs": "Fluimucil® IV" },
+        { "forma": "Vial 2 g/10 mL (200 mg/mL)", "obs": "Acetadote®" },
+        { "forma": "Sachet 600 mg", "obs": "Oral" },
+        { "forma": "Sachet 200 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Dilute in D5W", "concentracao": "preferred" },
+        { "diluicao": "Compatible with 0.9% NS", "concentracao": "alternative" },
+        { "diluicao": "Stable 24 h after dilution", "concentracao": "room temperature" },
+        { "diluicao": "Yellow solution is normal", "concentracao": "discard if cloudy or precipitate" }
+      ],
+      "observacoes": [
+        "Maximum efficacy if started within 8-10 h of ingestion; still effective up to 24 h",
+        "Use Rumack-Matthew nomogram for treatment indication",
+        "Anaphylactoid reactions in 5-10%, most common with 1st dose",
+        "If reaction: stop infusion, antihistamine, restart slowly",
+        "Monitor: AST, ALT, INR, creatinine, serum acetaminophen level",
+        "Activated charcoal PO: allow 2 h between charcoal and oral NAC"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Same weight-based protocol.",
+        "renal": "Not required in acute overdose.",
+        "hepatico": "Not required; NAC is the treatment for hepatotoxicity."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "N-Acetylcysteine - Loading (21 h)",
+        "doseTexto": "150 mg/kg IV over 1 h",
+        "doseMin": 150,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "N-Acetylcysteine - Maintenance 1",
+        "doseTexto": "50 mg/kg IV over 4 h",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "N-Acetylcysteine - Maintenance 2",
+        "doseTexto": "100 mg/kg IV over 16 h",
+        "doseMin": 100,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "N-Acetilcisteína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicación paracetamol - 1ª dosis (ataque)",
+          "descricaoDose": "150 mg/kg IV en 200 mL SG 5% en 1 hora",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 1 hora",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación paracetamol - 2ª dosis (manutención 1)",
+          "descricaoDose": "50 mg/kg IV en 500 mL SG 5% en 4 horas",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 4 horas",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación paracetamol - 3ª dosis (manutención 2)",
+          "descricaoDose": "100 mg/kg IV en 1000 mL SG 5% en 16 horas",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 16 horas",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Vía oral - Ataque",
+          "descricaoDose": "140 mg/kg VO (dosis única inicial)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 140,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Vía oral - Manutención",
+          "descricaoDose": "70 mg/kg VO cada 4 h por 17 dosis",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4h por 17 dosis",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto / precursor de glutatión. Antídoto para intoxicación por paracetamol.",
+      "apresentacoes": [
+        { "forma": "Ampolla 300 mg/3 mL (100 mg/mL)", "obs": "Fluimucil® IV" },
+        { "forma": "Ampolla 600 mg/3 mL (200 mg/mL)", "obs": "Fluimucil® IV" },
+        { "forma": "Ampolla 2 g/10 mL (200 mg/mL)", "obs": "Acetadote®" },
+        { "forma": "Sobre 600 mg", "obs": "Vía oral" },
+        { "forma": "Sobre 200 mg", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir en SG 5%", "concentracao": "preferencial" },
+        { "diluicao": "Compatible con SF 0,9%", "concentracao": "alternativa" },
+        { "diluicao": "Estable 24 h tras dilución", "concentracao": "temperatura ambiente" },
+        { "diluicao": "Solución amarillenta es normal", "concentracao": "desechar si turbia o precipitado" }
+      ],
+      "observacoes": [
+        "Máxima eficacia si se inicia hasta 8-10 h tras ingestión; aún eficaz hasta 24 h",
+        "Usar nomograma de Rumack-Matthew para indicación de tratamiento",
+        "Reacciones anafilactoides en 5-10%, más frecuente en 1ª dosis",
+        "Si reacción: pausar infusión, antihistamínico, reiniciar lentamente",
+        "Monitorizar: TGO, TGP, INR, creatinina, nivel sérico de paracetamol",
+        "Carbón activado VO: intervalo de 2 h entre carbón y NAC oral"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Mismo protocolo por peso.",
+        "renal": "No necesario en intoxicación aguda.",
+        "hepatico": "No necesario; NAC es el tratamiento de la hepatotoxicidad."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "N-Acetilcisteína - Ataque (21 h)",
+        "doseTexto": "150 mg/kg IV en 1 h",
+        "doseMin": 150,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "N-Acetilcisteína - Manutención 1",
+        "doseTexto": "50 mg/kg IV en 4 h",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "N-Acetilcisteína - Manutención 2",
+        "doseTexto": "100 mg/kg IV en 16 h",
+        "doseMin": 100,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "N-乙酰半胱氨酸",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "对乙酰氨基酚中毒 - 第1剂（负荷）",
+          "descricaoDose": "150 mg/kg 静注于200 mL 5%葡萄糖中 1小时内",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "1小时内单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "对乙酰氨基酚中毒 - 第2剂（维持1）",
+          "descricaoDose": "50 mg/kg 静注于500 mL 5%葡萄糖中 4小时内",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "4小时内",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "对乙酰氨基酚中毒 - 第3剂（维持2）",
+          "descricaoDose": "100 mg/kg 静注于1000 mL 5%葡萄糖中 16小时内",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "16小时内",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "口服 - 负荷",
+          "descricaoDose": "140 mg/kg 口服（单次负荷）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 140,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "全部",
+            "via": "VO",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "口服 - 维持",
+          "descricaoDose": "70 mg/kg 口服 每4小时一次 共17剂",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "全部",
+            "via": "VO",
+            "intervalo": "每4h共17剂",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "解毒剂/谷胱甘肽前体。对乙酰氨基酚中毒解毒剂。",
+      "apresentacoes": [
+        { "forma": "安瓿 300 mg/3 mL (100 mg/mL)", "obs": "IV" },
+        { "forma": "安瓿 600 mg/3 mL (200 mg/mL)", "obs": "IV" },
+        { "forma": "安瓿 2 g/10 mL (200 mg/mL)", "obs": "IV" },
+        { "forma": "袋 600 mg", "obs": "口服" },
+        { "forma": "袋 200 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "用5%葡萄糖稀释", "concentracao": "首选" },
+        { "diluicao": "可与0.9%生理盐水配伍", "concentracao": "备选" },
+        { "diluicao": "稀释后24小时内稳定", "concentracao": "室温" },
+        { "diluicao": "溶液发黄为正常", "concentracao": "浑浊或沉淀则弃用" }
+      ],
+      "observacoes": [
+        "摄入后8-10小时内开始疗效最佳；24小时内仍有效",
+        "使用Rumack-Matthew列线图决定是否治疗",
+        "类过敏反应5-10%，首剂最常见",
+        "若反应：暂停输注、抗组胺药、缓慢重启",
+        "监测：AST、ALT、INR、肌酐、对乙酰氨基酚血药浓度",
+        "口服活性炭与口服NAC需间隔2小时"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调量。按体重同方案。",
+        "renal": "急性中毒无需调整。",
+        "hepatico": "无需调整；NAC即用于肝毒性治疗。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "N-乙酰半胱氨酸 - 负荷（21h方案）",
+        "doseTexto": "150 mg/kg 静注 1小时内",
+        "doseMin": 150,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "N-乙酰半胱氨酸 - 维持1",
+        "doseTexto": "50 mg/kg 静注 4小时内",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "N-乙酰半胱氨酸 - 维持2",
+        "doseTexto": "100 mg/kg 静注 16小时内",
+        "doseMin": 100,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      }
+    ]
+  }
+}

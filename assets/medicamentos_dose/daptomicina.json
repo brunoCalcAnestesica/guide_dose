@@ -1,0 +1,722 @@
+{
+  "PT": {
+    "nome": "Daptomicina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bacteremia / Endocardite direita por S. aureus",
+          "descricaoDose": "6-10 mg/kg IV 1x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: dose padrão 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções de pele e tecidos moles",
+          "descricaoDose": "4 mg/kg IV 1x/dia por 7-14 dias",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia (7-14 dias)",
+            "ajusteRenal": "ClCr <30: dose padrão 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Osteomielite / Artrite séptica",
+          "descricaoDose": "8-10 mg/kg IV 1x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: dose padrão 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico 1-6 anos",
+          "descricaoDose": "10 mg/kg IV 1x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: dose padrão 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico 7-17 anos",
+          "descricaoDose": "7 mg/kg IV 1x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <30: dose padrão 48/48h",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Lipopeptídeo cíclico; bactericida concentração-dependente (despolarização de membrana)",
+      "apresentacoes": [
+        { "forma": "Frasco 350 mg liofilizado", "obs": "Cubicin®" },
+        { "forma": "Frasco 500 mg liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 350 mg com 7 mL ou 500 mg com 10 mL SF", "concentracao": "50 mg/mL" },
+        { "diluicao": "Infusão em 30 min ou bolus 2 min", "concentracao": "" },
+        { "diluicao": "NÃO diluir em glicose", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: MRSA, VRSA, VRE, Streptococcus, Enterococcus.",
+        "NÃO USAR EM PNEUMONIA – inativado pelo surfactante pulmonar.",
+        "Monitorar CPK semanalmente (miopatia).",
+        "Suspender se CPK >10× LSN ou sintomas musculares.",
+        "Evitar uso concomitante com estatinas.",
+        "Ajuste renal: ClCr <30 → dose padrão 48/48h."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal; ajuste de intervalo conforme ClCr.",
+        "renal": "ClCr <30: dose padrão 48/48h.",
+        "hepatico": "Não requer ajuste. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Daptomicina – Bacteremia/Endocardite (adulto)",
+        "doseTexto": "6-10 mg/kg IV 1x/dia",
+        "doseMin": 6,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Daptomicina – Pele e tecidos moles (adulto)",
+        "doseTexto": "4 mg/kg IV 1x/dia",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Daptomicina – Pediátrico 1-6 anos",
+        "doseTexto": "10 mg/kg IV 1x/dia",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Daptomicina – Pediátrico 7-17 anos",
+        "doseTexto": "7 mg/kg IV 1x/dia",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Daptomycin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bacteremia / Right-sided endocarditis due to S. aureus",
+          "descricaoDose": "6-10 mg/kg IV once daily",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: standard dose q48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Skin and soft tissue infections",
+          "descricaoDose": "4 mg/kg IV once daily for 7-14 days",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "once daily (7-14 days)",
+            "ajusteRenal": "ClCr <30: standard dose q48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Osteomyelitis / Septic arthritis",
+          "descricaoDose": "8-10 mg/kg IV once daily",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: standard dose q48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric 1-6 years",
+          "descricaoDose": "10 mg/kg IV once daily",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: standard dose q48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric 7-17 years",
+          "descricaoDose": "7 mg/kg IV once daily",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr <30: standard dose q48h",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cyclic lipopeptide; concentration-dependent bactericidal (membrane depolarization)",
+      "apresentacoes": [
+        { "forma": "Vial 350 mg lyophilized", "obs": "Cubicin®" },
+        { "forma": "Vial 500 mg lyophilized", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute 350 mg with 7 mL or 500 mg with 10 mL NS", "concentracao": "50 mg/mL" },
+        { "diluicao": "Infuse over 30 min or 2 min bolus", "concentracao": "" },
+        { "diluicao": "DO NOT dilute in dextrose", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Spectrum: MRSA, VRSA, VRE, Streptococcus, Enterococcus.",
+        "DO NOT USE IN PNEUMONIA – inactivated by pulmonary surfactant.",
+        "Monitor CPK weekly (myopathy).",
+        "Discontinue if CPK >10× ULN or muscle symptoms.",
+        "Avoid concomitant use with statins.",
+        "Renal adjustment: ClCr <30 → standard dose q48h."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function; adjust interval per ClCr.",
+        "renal": "ClCr <30: standard dose q48h.",
+        "hepatico": "No adjustment. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Daptomycin – Bacteremia/Endocarditis (adult)",
+        "doseTexto": "6-10 mg/kg IV once daily",
+        "doseMin": 6,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Daptomycin – Skin/soft tissue (adult)",
+        "doseTexto": "4 mg/kg IV once daily",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Daptomycin – Pediatric 1-6 years",
+        "doseTexto": "10 mg/kg IV once daily",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Daptomycin – Pediatric 7-17 years",
+        "doseTexto": "7 mg/kg IV once daily",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Daptomicina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Bacteriemia / Endocarditis derecha por S. aureus",
+          "descricaoDose": "6-10 mg/kg IV 1x/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: dosis estándar cada 48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones de piel y tejidos blandos",
+          "descricaoDose": "4 mg/kg IV 1x/día durante 7-14 días",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día (7-14 días)",
+            "ajusteRenal": "ClCr <30: dosis estándar cada 48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Osteomielitis / Artritis séptica",
+          "descricaoDose": "8-10 mg/kg IV 1x/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: dosis estándar cada 48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico 1-6 años",
+          "descricaoDose": "10 mg/kg IV 1x/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: dosis estándar cada 48h",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico 7-17 años",
+          "descricaoDose": "7 mg/kg IV 1x/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <30: dosis estándar cada 48h",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Lipopéptido cíclico; bactericida concentración-dependiente (despolarización de membrana)",
+      "apresentacoes": [
+        { "forma": "Frasco 350 mg liofilizado", "obs": "Cubicin®" },
+        { "forma": "Frasco 500 mg liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 350 mg con 7 mL o 500 mg con 10 mL SF", "concentracao": "50 mg/mL" },
+        { "diluicao": "Infusión en 30 min o bolo 2 min", "concentracao": "" },
+        { "diluicao": "NO diluir en glucosa", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: MRSA, VRSA, VRE, Streptococcus, Enterococcus.",
+        "NO USAR EN NEUMONÍA – inactivado por el surfactante pulmonar.",
+        "Monitorizar CPK semanalmente (miopatía).",
+        "Suspender si CPK >10× LSN o síntomas musculares.",
+        "Evitar uso concomitante con estatinas.",
+        "Ajuste renal: ClCr <30 → dosis estándar cada 48h."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal; ajustar intervalo según ClCr.",
+        "renal": "ClCr <30: dosis estándar cada 48h.",
+        "hepatico": "No requiere ajuste. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Daptomicina – Bacteriemia/Endocarditis (adulto)",
+        "doseTexto": "6-10 mg/kg IV 1x/día",
+        "doseMin": 6,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Daptomicina – Piel y tejidos blandos (adulto)",
+        "doseTexto": "4 mg/kg IV 1x/día",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Daptomicina – Pediátrico 1-6 años",
+        "doseTexto": "10 mg/kg IV 1x/día",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Daptomicina – Pediátrico 7-17 años",
+        "doseTexto": "7 mg/kg IV 1x/día",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "达托霉素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "菌血症 / 金黄色葡萄球菌所致右侧心内膜炎",
+          "descricaoDose": "6-10 mg/kg IV 每日一次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 6,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <30：标准剂量每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "皮肤和软组织感染",
+          "descricaoDose": "4 mg/kg IV 每日一次，疗程7-14天",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次（7-14天）",
+            "ajusteRenal": "ClCr <30：标准剂量每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "骨髓炎 / 化脓性关节炎",
+          "descricaoDose": "8-10 mg/kg IV 每日一次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 8,
+            "dosePorKgMax": 10,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <30：标准剂量每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童 1-6 岁",
+          "descricaoDose": "10 mg/kg IV 每日一次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 10,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <30：标准剂量每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童 7-17 岁",
+          "descricaoDose": "7 mg/kg IV 每日一次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr <30：标准剂量每48小时",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "环脂肽类；浓度依赖性杀菌（膜去极化）",
+      "apresentacoes": [
+        { "forma": "西林瓶 350 mg 冻干粉", "obs": "Cubicin®" },
+        { "forma": "西林瓶 500 mg 冻干粉", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "350 mg 用 7 mL 或 500 mg 用 10 mL 生理盐水复溶", "concentracao": "50 mg/mL" },
+        { "diluicao": "30 分钟输注或 2 分钟推注", "concentracao": "" },
+        { "diluicao": "勿用葡萄糖稀释", "concentracao": "" }
+      ],
+      "observacoes": [
+        "抗菌谱：MRSA、VRSA、VRE、链球菌、肠球菌。",
+        "禁用于肺炎——被肺表面活性物质灭活。",
+        "每周监测 CPK（肌病）。",
+        "若 CPK >10× 正常上限或出现肌肉症状则停药。",
+        "避免与他汀类药物联用。",
+        "肾调整：ClCr <30 → 标准剂量每48小时。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能；根据 ClCr 调整给药间隔。",
+        "renal": "ClCr <30：标准剂量每48小时。",
+        "hepatico": "无需调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "达托霉素 – 菌血症/心内膜炎（成人）",
+        "doseTexto": "6-10 mg/kg IV 每日一次",
+        "doseMin": 6,
+        "doseMax": 10,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "达托霉素 – 皮肤软组织（成人）",
+        "doseTexto": "4 mg/kg IV 每日一次",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "达托霉素 – 儿童 1-6 岁",
+        "doseTexto": "10 mg/kg IV 每日一次",
+        "doseMin": 10,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "达托霉素 – 儿童 7-17 岁",
+        "doseTexto": "7 mg/kg IV 每日一次",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1014 @@
+{
+  "PT": {
+    "nome": "Labetalol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Emergência hipertensiva - Bolus",
+          "descricaoDose": "10-20 mg IV em 2 min, repetir a cada 10 min (máx 300 mg total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 300,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pré-eclâmpsia / Eclâmpsia - Dose inicial",
+          "descricaoDose": "20 mg IV em bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pré-eclâmpsia / Eclâmpsia - Manutenção",
+          "descricaoDose": "40-80 mg IV a cada 10 min (após dose inicial)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 40,
+            "doseMax": 80,
+            "doseMaxima": 80,
+            "doseFixa": "40-80 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dissecção aórtica",
+          "descricaoDose": "Alvo: FC < 60, PAS < 120 mmHg - titular conforme resposta",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Titular conforme resposta",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "titulação",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Bolus",
+          "descricaoDose": "0,2-1 mg/kg IV lento (máx 40 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou repetir conforme necessidade",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Emergência hipertensiva - Infusão",
+          "descricaoDose": "0,5-2 mg/min IV (máx 300 mg total)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Infusão",
+          "descricaoDose": "0,25-3 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua (adulto)",
+          "unidade": "mg/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg em 200 mL SF/SG 5% (1 mg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "Infusão contínua (pediátrico)",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 3 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg em 200 mL SF/SG 5% (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador alfa-1 e beta-adrenérgico",
+      "apresentacoes": [
+        { "forma": "Ampola 100 mg/20 mL", "obs": "5 mg/mL" },
+        { "forma": "Comprimido 100 mg, 200 mg", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: usar sem diluição", "concentracao": "5 mg/mL" },
+        { "diluicao": "Infusão: 200 mg + 160 mL SF/SG", "concentracao": "1 mg/mL" },
+        { "diluicao": "Infusão: 200 mg + 200 mL SF/SG", "concentracao": "1 mg/mL" }
+      ],
+      "observacoes": [
+        "Seguro na gestação - 1ª escolha em pré-eclâmpsia",
+        "CI: asma, DPOC grave, BAV 2º/3º, ICC descompensada",
+        "Menos taquicardia reflexa que outros vasodilatadores",
+        "Não reduz fluxo cerebral - seguro em AVC",
+        "Manter paciente em supino durante infusão (hipotensão ortostática)",
+        "Monitorar FC e PA continuamente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com doses menores. Titular com cautela.",
+        "renal": "Não requer ajuste formal.",
+        "hepatico": "Usar com cautela em hepatopatia grave (metabolismo hepático)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Labetalol (adulto) - Bolus",
+        "doseTexto": "10-20 mg IV a cada 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Labetalol (adulto) - Infusão",
+        "doseTexto": "0,5-2 mg/min IV",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Labetalol - Pré-eclâmpsia (dose inicial)",
+        "doseTexto": "20 mg IV em bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Labetalol - Pré-eclâmpsia (manutenção)",
+        "doseTexto": "40-80 mg IV a cada 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40-80 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Labetalol (pediátrico) - Bolus",
+        "doseTexto": "0,2-1 mg/kg IV (máx 40 mg)",
+        "doseMin": 0.2,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Labetalol (pediátrico) - Infusão",
+        "doseTexto": "0,25-3 mg/kg/h IV",
+        "doseMin": 0.25,
+        "doseMax": 3,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Labetalol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypertensive emergency - Bolus",
+          "descricaoDose": "10-20 mg IV over 2 min, repeat every 10 min (max 300 mg total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 300,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Preeclampsia / Eclampsia - Initial dose",
+          "descricaoDose": "20 mg IV bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Preeclampsia / Eclampsia - Maintenance",
+          "descricaoDose": "40-80 mg IV every 10 min (after initial dose)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 40,
+            "doseMax": 80,
+            "doseMaxima": 80,
+            "doseFixa": "40-80 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Aortic dissection",
+          "descricaoDose": "Target: HR < 60, SBP < 120 mmHg - titrate to response",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Titrate to response",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "titration",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric - Bolus",
+          "descricaoDose": "0.2-1 mg/kg IV slow (max 40 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose or repeat as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hypertensive emergency - Infusion",
+          "descricaoDose": "0.5-2 mg/min IV (max 300 mg total)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric - Infusion",
+          "descricaoDose": "0.25-3 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion (adult)",
+          "unidade": "mg/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg in 200 mL NS/D5W (1 mg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "Continuous infusion (pediatric)",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 3 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg in 200 mL NS/D5W (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Alpha-1 and beta-adrenergic blocker",
+      "apresentacoes": [
+        { "forma": "Ampoule 100 mg/20 mL", "obs": "5 mg/mL" },
+        { "forma": "Tablet 100 mg, 200 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: use undiluted", "concentracao": "5 mg/mL" },
+        { "diluicao": "Infusion: 200 mg + 160 mL NS/D5W", "concentracao": "1 mg/mL" },
+        { "diluicao": "Infusion: 200 mg + 200 mL NS/D5W", "concentracao": "1 mg/mL" }
+      ],
+      "observacoes": [
+        "Safe in pregnancy - first line in preeclampsia",
+        "CI: asthma, severe COPD, 2nd/3rd degree AV block, decompensated CHF",
+        "Less reflex tachycardia than other vasodilators",
+        "Does not reduce cerebral blood flow - safe in stroke",
+        "Keep patient supine during infusion (orthostatic hypotension)",
+        "Monitor HR and BP continuously"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with lower doses. Titrate cautiously.",
+        "renal": "No formal adjustment required.",
+        "hepatico": "Use with caution in severe hepatic disease (hepatic metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Labetalol (adult) - Bolus",
+        "doseTexto": "10-20 mg IV every 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Labetalol (adult) - Infusion",
+        "doseTexto": "0.5-2 mg/min IV",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Labetalol - Preeclampsia (initial dose)",
+        "doseTexto": "20 mg IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Labetalol - Preeclampsia (maintenance)",
+        "doseTexto": "40-80 mg IV every 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40-80 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Labetalol (pediatric) - Bolus",
+        "doseTexto": "0.2-1 mg/kg IV (max 40 mg)",
+        "doseMin": 0.2,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Labetalol (pediatric) - Infusion",
+        "doseTexto": "0.25-3 mg/kg/h IV",
+        "doseMin": 0.25,
+        "doseMax": 3,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Labetalol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Emergencia hipertensiva - Bolus",
+          "descricaoDose": "10-20 mg IV en 2 min, repetir cada 10 min (máx 300 mg total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 300,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Preeclampsia / Eclampsia - Dosis inicial",
+          "descricaoDose": "20 mg IV en bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Preeclampsia / Eclampsia - Mantenimiento",
+          "descricaoDose": "40-80 mg IV cada 10 min (tras dosis inicial)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 40,
+            "doseMax": 80,
+            "doseMaxima": 80,
+            "doseFixa": "40-80 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Disección aórtica",
+          "descricaoDose": "Objetivo: FC < 60, PAS < 120 mmHg - titular según respuesta",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Titular según respuesta",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "titulación",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Bolus",
+          "descricaoDose": "0,2-1 mg/kg IV lento (máx 40 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o repetir según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Emergencia hipertensiva - Infusión",
+          "descricaoDose": "0,5-2 mg/min IV (máx 300 mg total)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Infusión",
+          "descricaoDose": "0,25-3 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua (adulto)",
+          "unidade": "mg/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg en 200 mL SF/SG 5% (1 mg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "Infusión continua (pediátrico)",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 3 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg en 200 mL SF/SG 5% (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador alfa-1 y beta-adrenérgico",
+      "apresentacoes": [
+        { "forma": "Ampolla 100 mg/20 mL", "obs": "5 mg/mL" },
+        { "forma": "Comprimido 100 mg, 200 mg", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: usar sin diluir", "concentracao": "5 mg/mL" },
+        { "diluicao": "Infusión: 200 mg + 160 mL SF/SG", "concentracao": "1 mg/mL" },
+        { "diluicao": "Infusión: 200 mg + 200 mL SF/SG", "concentracao": "1 mg/mL" }
+      ],
+      "observacoes": [
+        "Seguro en gestación - 1ª elección en preeclampsia",
+        "CI: asma, EPOC grave, BAV 2º/3º, ICC descompensada",
+        "Menos taquicardia refleja que otros vasodilatadores",
+        "No reduce flujo cerebral - seguro en AVC",
+        "Mantener al paciente en supino durante infusión (hipotensión ortostática)",
+        "Monitorizar FC y PA continuamente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis menores. Titular con cautela.",
+        "renal": "No requiere ajuste formal.",
+        "hepatico": "Usar con cautela en hepatopatía grave (metabolismo hepático)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Labetalol (adulto) - Bolus",
+        "doseTexto": "10-20 mg IV cada 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Labetalol (adulto) - Infusión",
+        "doseTexto": "0,5-2 mg/min IV",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Labetalol - Preeclampsia (dosis inicial)",
+        "doseTexto": "20 mg IV en bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Labetalol - Preeclampsia (mantenimiento)",
+        "doseTexto": "40-80 mg IV cada 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40-80 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Labetalol (pediátrico) - Bolus",
+        "doseTexto": "0,2-1 mg/kg IV (máx 40 mg)",
+        "doseMin": 0.2,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Labetalol (pediátrico) - Infusión",
+        "doseTexto": "0,25-3 mg/kg/h IV",
+        "doseMin": 0.25,
+        "doseMax": 3,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "拉贝洛尔",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "高血压急症 - 推注",
+          "descricaoDose": "10-20 mg IV 2分钟内，每10分钟重复（最大300 mg总量）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 300,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "每10分钟",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "子痫前期/子痫 - 初始剂量",
+          "descricaoDose": "20 mg IV 推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "子痫前期/子痫 - 维持",
+          "descricaoDose": "40-80 mg IV 每10分钟（初始剂量后）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 40,
+            "doseMax": 80,
+            "doseMaxima": 80,
+            "doseFixa": "40-80 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "每10分钟",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "主动脉夹层",
+          "descricaoDose": "目标：心率<60，收缩压<120 mmHg - 根据反应滴定",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "根据反应滴定",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "滴定",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "儿童 - 推注",
+          "descricaoDose": "0.2-1 mg/kg IV 缓慢（最大40 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "dosePorKgMin": 0.2,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次或按需重复",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "高血压急症 - 输注",
+          "descricaoDose": "0.5-2 mg/min IV（最大300 mg总量）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "儿童 - 输注",
+          "descricaoDose": "0.25-3 mg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.25,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注（成人）",
+          "unidade": "mg/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 2 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg 溶于 200 mL 生理盐水/5%葡萄糖 (1 mg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "持续输注（儿童）",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.25, "doseMax": 3 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "200 mg 溶于 200 mL 生理盐水/5%葡萄糖 (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "α1和β肾上腺素能受体阻滞剂",
+      "apresentacoes": [
+        { "forma": "安瓿 100 mg/20 mL", "obs": "5 mg/mL" },
+        { "forma": "片剂 100 mg, 200 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "推注：不稀释使用", "concentracao": "5 mg/mL" },
+        { "diluicao": "输注：200 mg + 160 mL 生理盐水/5%葡萄糖", "concentracao": "1 mg/mL" },
+        { "diluicao": "输注：200 mg + 200 mL 生理盐水/5%葡萄糖", "concentracao": "1 mg/mL" }
+      ],
+      "observacoes": [
+        "妊娠期安全 - 子痫前期一线用药",
+        "禁忌：哮喘、严重COPD、二/三度房室传导阻滞、失代偿性心衰",
+        "反射性心动过速较其他血管扩张剂少",
+        "不降低脑血流 - 卒中时安全",
+        "输注期间保持仰卧位（直立性低血压）",
+        "持续监测心率和血压"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从小剂量开始。谨慎滴定。",
+        "renal": "无需正式调整。",
+        "hepatico": "严重肝病慎用（肝脏代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "拉贝洛尔（成人）- 推注",
+        "doseTexto": "10-20 mg IV 每10分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "拉贝洛尔（成人）- 输注",
+        "doseTexto": "0.5-2 mg/min IV",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "拉贝洛尔 - 子痫前期（初始剂量）",
+        "doseTexto": "20 mg IV 推注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "拉贝洛尔 - 子痫前期（维持）",
+        "doseTexto": "40-80 mg IV 每10分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40-80 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "拉贝洛尔（儿童）- 推注",
+        "doseTexto": "0.2-1 mg/kg IV（最大40 mg）",
+        "doseMin": 0.2,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "拉贝洛尔（儿童）- 输注",
+        "doseTexto": "0.25-3 mg/kg/h IV",
+        "doseMin": 0.25,
+        "doseMax": 3,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

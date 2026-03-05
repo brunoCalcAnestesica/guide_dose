@@ -1,0 +1,43 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Clonazepam",
+      "nomesComerciais": ["Rivotril®", "Clonotril®"],
+      "classeTerapeutica": "Benzodiazepínico / Anticonvulsivante / Ansiolítico",
+      "mecanismoAcao": "Potencializa a ação do GABA ao se ligar a receptores GABA-A, aumentando a frequência de abertura dos canais de cloro. Alta potência e meia-vida longa.",
+      "indicacoes": ["Transtorno do pânico", "Epilepsia (várias formas)", "Transtorno de ansiedade social", "Acatisia", "Síndrome das pernas inquietas"],
+      "apresentacoes": ["Comprimidos 0,5 mg, 2 mg", "Sublingual 0,25 mg", "Gotas 2,5 mg/mL (1 gota ≈ 0,1 mg)"],
+      "posologia": {
+        "panico": {
+          "inicial": "0,5 mg/dia",
+          "manutencao": "1-4 mg/dia",
+          "idoso": "0,25 mg 2x/dia"
+        },
+        "epilepsiaAdulto": {
+          "inicial": "1,5 mg/dia",
+          "manutencao": "4-8 mg/dia divididos em 3 doses",
+          "maxima": "20 mg/dia"
+        },
+        "epilepsiaPediatrica": {
+          "inicial": "0,01-0,03 mg/kg/dia",
+          "manutencao": "0,1-0,2 mg/kg/dia divididos em 2-3 doses",
+          "maxima": "0,2 mg/kg/dia"
+        }
+      },
+      "equivalencia": {
+        "diazepam10mg": "Clonazepam 0,5 mg"
+      },
+      "farmacocinetica": {
+        "inicioAcao": "20-60 minutos",
+        "sublingual": "10-15 minutos",
+        "picoPlasmatico": "1-4 horas",
+        "meiaVida": "18-50 horas",
+        "metabolismo": "Hepático (redução e acetilação)"
+      },
+      "contraindicacoes": ["Glaucoma de ângulo fechado", "Miastenia gravis", "Insuficiência respiratória grave", "Doença hepática grave", "Gestação (categoria D)"],
+      "efeitosAdversos": ["Sonolência", "Ataxia", "Depressão", "Amnésia", "Dependência"],
+      "observacoes": ["Alto potencial de dependência", "Retirada gradual obrigatória (10-25%/semana)", "Tolerância pode desenvolver após 1-6 meses", "Síndrome de abstinência grave se suspensão abrupta"],
+      "categoriaGravidez": "D"
+    }
+  }
+}

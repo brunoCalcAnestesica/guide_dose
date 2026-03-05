@@ -1,0 +1,762 @@
+{
+  "PT": {
+    "nome": "Penicilina G benzatina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sífilis precoce",
+          "descricaoDose": "2.400.000 UI IM dose única. Não usar em neurossífilis (usar penicilina G cristalina IV).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2400000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "2.400.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "IR grave: cautela.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sífilis latente tardia",
+          "descricaoDose": "2.400.000 UI IM 1x/semana x 3 doses.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2400000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "2.400.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/semana x 3",
+            "ajusteRenal": "IR grave: cautela.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia febre reumática",
+          "descricaoDose": "1.200.000 UI IM a cada 3–4 semanas (ou 600.000 UI IM 2x/mês).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "1.200.000 UI (ou 600.000 UI 2x/mês)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "3–4 semanas ou 2x/mês",
+            "ajusteRenal": "IR grave: cautela.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Faringite estreptocócica – adulto",
+          "descricaoDose": "1.200.000 UI IM dose única.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1200000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "1.200.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Faringite estreptocócica – pediátrico (<27 kg)",
+          "descricaoDose": "600.000 UI IM dose única.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 600000,
+            "doseMaxima": 600000,
+            "doseFixa": "600.000 UI",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Penicilina natural (benzilpenicilina – sal benzatina; liberação muito prolongada, meia-vida ~2–3 semanas)",
+      "apresentacoes": [
+        { "forma": "Frasco 300.000 UI", "obs": "Suspensão injetável IM" },
+        { "forma": "Frasco 600.000 UI", "obs": "Suspensão injetável IM" },
+        { "forma": "Frasco 1.200.000 UI", "obs": "Suspensão injetável IM" },
+        { "forma": "Frasco 2.400.000 UI", "obs": "Suspensão injetável IM (2,4 milhões)" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir conforme bula. Agitar até homogeneizar. Usar agulha adequada (calibre e comprimento para IM profundo).", "concentracao": "Administrar por via IM apenas (nunca IV)" }
+      ],
+      "observacoes": [
+        "Via exclusivamente IM. NUNCA administrar IV (risco de embolia e reação grave).",
+        "Liberação muito prolongada (meia-vida ~2–3 semanas); permite doses espaçadas (sífilis, profilaxia febre reumática).",
+        "Não usar em neurossífilis – usar penicilina G cristalina IV.",
+        "Droga de escolha: sífilis precoce/latente, profilaxia de febre reumática, faringite estreptocócica (dose única).",
+        "Contraindicado em alergia a penicilinas. Reação de Jarisch-Herxheimer possível na sífilis.",
+        "Sítio: região superior externa do glúteo (evitar nervo ciático). Não massagear após aplicação."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal; em IR grave usar com cautela.",
+        "renal": "Insuficiência renal grave: cautela; dados limitados.",
+        "hepatico": "Não requer ajuste. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Penicilina G benzatina – sífilis precoce",
+        "doseTexto": "2.400.000 UI IM dose única",
+        "doseMin": 2400000,
+        "doseMax": 2400000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "2.400.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G benzatina – sífilis latente tardia",
+        "doseTexto": "2.400.000 UI IM 1x/semana x 3",
+        "doseMin": 2400000,
+        "doseMax": 2400000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "2.400.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G benzatina – profilaxia febre reumática",
+        "doseTexto": "1.200.000 UI IM a cada 3–4 semanas",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1.200.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G benzatina – faringite (adulto)",
+        "doseTexto": "1.200.000 UI IM dose única",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1.200.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G benzatina – faringite (pediátrico <27 kg)",
+        "doseTexto": "600.000 UI IM dose única",
+        "doseMin": 600000,
+        "doseMax": 600000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "600.000 UI",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Penicillin G benzathine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Early syphilis",
+          "descricaoDose": "2,400,000 units IM single dose. Do NOT use for neurosyphilis (use penicillin G crystalline IV).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2400000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "2,400,000 units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "Severe renal impairment: use with caution.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Late latent syphilis",
+          "descricaoDose": "2,400,000 units IM once weekly x 3 doses.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2400000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "2,400,000 units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "once weekly x 3",
+            "ajusteRenal": "Severe renal impairment: use with caution.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Rheumatic fever prophylaxis",
+          "descricaoDose": "1,200,000 units IM every 3–4 weeks (or 600,000 units IM twice monthly).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "1,200,000 units (or 600,000 twice monthly)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "every 3–4 weeks or twice monthly",
+            "ajusteRenal": "Severe renal impairment: use with caution.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Streptococcal pharyngitis – adult",
+          "descricaoDose": "1,200,000 units IM single dose.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1200000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "1,200,000 units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Streptococcal pharyngitis – pediatric (<27 kg)",
+          "descricaoDose": "600,000 units IM single dose.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 600000,
+            "doseMaxima": 600000,
+            "doseFixa": "600,000 units",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Natural penicillin (benzylpenicillin – benzathine salt; very prolonged release, half-life ~2–3 weeks)",
+      "apresentacoes": [
+        { "forma": "Vial 300,000 units", "obs": "Injectable suspension IM" },
+        { "forma": "Vial 600,000 units", "obs": "Injectable suspension IM" },
+        { "forma": "Vial 1,200,000 units", "obs": "Injectable suspension IM" },
+        { "forma": "Vial 2,400,000 units", "obs": "Injectable suspension IM (2.4 million)" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute per label. Shake until uniform. Use appropriate needle (gauge and length for deep IM).", "concentracao": "Administer IM only (never IV)" }
+      ],
+      "observacoes": [
+        "IM route only. NEVER give IV (risk of embolism and severe reaction).",
+        "Very prolonged release (half-life ~2–3 weeks); allows spaced dosing (syphilis, rheumatic fever prophylaxis).",
+        "Do NOT use for neurosyphilis – use penicillin G crystalline IV.",
+        "Drug of choice: early/latent syphilis, rheumatic fever prophylaxis, streptococcal pharyngitis (single dose).",
+        "Contraindicated in penicillin allergy. Jarisch-Herxheimer reaction possible in syphilis.",
+        "Site: upper outer quadrant of gluteus (avoid sciatic nerve). Do not massage after injection."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function; use with caution in severe renal impairment.",
+        "renal": "Severe renal impairment: use with caution; limited data.",
+        "hepatico": "No dose adjustment. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Penicillin G benzathine – early syphilis",
+        "doseTexto": "2,400,000 units IM single dose",
+        "doseMin": 2400000,
+        "doseMax": 2400000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "2,400,000 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G benzathine – late latent syphilis",
+        "doseTexto": "2,400,000 units IM once weekly x 3",
+        "doseMin": 2400000,
+        "doseMax": 2400000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "2,400,000 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G benzathine – rheumatic fever prophylaxis",
+        "doseTexto": "1,200,000 units IM every 3–4 weeks",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1,200,000 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G benzathine – pharyngitis (adult)",
+        "doseTexto": "1,200,000 units IM single dose",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1,200,000 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Penicillin G benzathine – pharyngitis (pediatric <27 kg)",
+        "doseTexto": "600,000 units IM single dose",
+        "doseMin": 600000,
+        "doseMax": 600000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "600,000 units",
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Penicilina G benzatina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sífilis precoz",
+          "descricaoDose": "2.400.000 UI IM dosis única. No usar en neurosífilis (usar penicilina G cristalina IV).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2400000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "2.400.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "IR grave: precaución.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sífilis latente tardía",
+          "descricaoDose": "2.400.000 UI IM 1x/semana x 3 dosis.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2400000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "2.400.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1x/semana x 3",
+            "ajusteRenal": "IR grave: precaución.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis fiebre reumática",
+          "descricaoDose": "1.200.000 UI IM cada 3–4 semanas (o 600.000 UI IM 2x/mes).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "1.200.000 UI (o 600.000 UI 2x/mes)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "3–4 semanas o 2x/mes",
+            "ajusteRenal": "IR grave: precaución.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Faringitis estreptocócica – adulto",
+          "descricaoDose": "1.200.000 UI IM dosis única.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1200000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "1.200.000 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Faringitis estreptocócica – pediátrico (<27 kg)",
+          "descricaoDose": "600.000 UI IM dosis única.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 600000,
+            "doseMaxima": 600000,
+            "doseFixa": "600.000 UI",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Penicilina natural (benzilpenicilina – sal benzatina; liberación muy prolongada, vida media ~2–3 semanas)",
+      "apresentacoes": [
+        { "forma": "Frasco 300.000 UI", "obs": "Suspensión inyectable IM" },
+        { "forma": "Frasco 600.000 UI", "obs": "Suspensión inyectable IM" },
+        { "forma": "Frasco 1.200.000 UI", "obs": "Suspensión inyectable IM" },
+        { "forma": "Frasco 2.400.000 UI", "obs": "Suspensión inyectable IM (2,4 millones)" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir según ficha. Agitar hasta homogeneizar. Usar aguja adecuada (calibre y longitud para IM profundo).", "concentracao": "Administrar solo por vía IM (nunca IV)" }
+      ],
+      "observacoes": [
+        "Vía exclusivamente IM. NUNCA administrar IV (riesgo de embolia y reacción grave).",
+        "Liberación muy prolongada (vida media ~2–3 semanas); permite dosis espaciadas (sífilis, profilaxis fiebre reumática).",
+        "No usar en neurosífilis – usar penicilina G cristalina IV.",
+        "Fármaco de elección: sífilis precoz/latente, profilaxis fiebre reumática, faringitis estreptocócica (dosis única).",
+        "Contraindicado en alergia a penicilinas. Reacción de Jarisch-Herxheimer posible en sífilis.",
+        "Sitio: región superior externa del glúteo (evitar nervio ciático). No masajear tras la aplicación."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal; en IR grave usar con precaución.",
+        "renal": "Insuficiencia renal grave: precaución; datos limitados.",
+        "hepatico": "No requiere ajuste. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Penicilina G benzatina – sífilis precoz",
+        "doseTexto": "2.400.000 UI IM dosis única",
+        "doseMin": 2400000,
+        "doseMax": 2400000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "2.400.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G benzatina – sífilis latente tardía",
+        "doseTexto": "2.400.000 UI IM 1x/semana x 3",
+        "doseMin": 2400000,
+        "doseMax": 2400000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "2.400.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G benzatina – profilaxis fiebre reumática",
+        "doseTexto": "1.200.000 UI IM cada 3–4 semanas",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1.200.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G benzatina – faringitis (adulto)",
+        "doseTexto": "1.200.000 UI IM dosis única",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "1.200.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Penicilina G benzatina – faringitis (pediátrico <27 kg)",
+        "doseTexto": "600.000 UI IM dosis única",
+        "doseMin": 600000,
+        "doseMax": 600000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "600.000 UI",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "苄星青霉素G",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "早期梅毒",
+          "descricaoDose": "240万单位 肌注 单次。神经梅毒勿用（用青霉素G结晶静注）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2400000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "240万单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次",
+            "ajusteRenal": "严重肾功能不全：谨慎。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "晚期潜伏梅毒",
+          "descricaoDose": "240万单位 肌注 每周1次 共3次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2400000,
+            "doseMax": 2400000,
+            "doseMaxima": 2400000,
+            "doseFixa": "240万单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "每周1次 x 3",
+            "ajusteRenal": "严重肾功能不全：谨慎。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "风湿热预防",
+          "descricaoDose": "120万单位 肌注 每3–4周（或60万单位 肌注 每月2次）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "120万单位（或60万单位 每月2次）",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "每3–4周或每月2次",
+            "ajusteRenal": "严重肾功能不全：谨慎。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "链球菌咽炎 – 成人",
+          "descricaoDose": "120万单位 肌注 单次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1200000,
+            "doseMax": 1200000,
+            "doseMaxima": 1200000,
+            "doseFixa": "120万单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "链球菌咽炎 – 儿科（<27 kg）",
+          "descricaoDose": "60万单位 肌注 单次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 600000,
+            "doseMax": 600000,
+            "doseMaxima": 600000,
+            "doseFixa": "60万单位",
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "天然青霉素（苄青霉素 – 苄星盐；缓释极长，半衰期约2–3周）",
+      "apresentacoes": [
+        { "forma": "西林瓶 30万单位", "obs": "注射用混悬液 肌注" },
+        { "forma": "西林瓶 60万单位", "obs": "注射用混悬液 肌注" },
+        { "forma": "西林瓶 120万单位", "obs": "注射用混悬液 肌注" },
+        { "forma": "西林瓶 240万单位", "obs": "注射用混悬液 肌注" }
+      ],
+      "preparo": [
+        { "diluicao": "按说明书配制。振摇至均匀。使用合适针头（深部肌注）。", "concentracao": "仅肌注（切勿静注）" }
+      ],
+      "observacoes": [
+        "仅限肌注。切勿静注（栓塞及严重反应风险）。",
+        "缓释极长（半衰期约2–3周）；可间隔给药（梅毒、风湿热预防）。",
+        "神经梅毒勿用 – 用青霉素G结晶静注。",
+        "首选：早期/潜伏梅毒、风湿热预防、链球菌咽炎（单次）。",
+        "青霉素过敏禁忌。梅毒治疗可能出现吉海反应。",
+        "注射部位：臀上外侧（避免坐骨神经）。注射后勿按摩。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能；严重肾功能不全时谨慎使用。",
+        "renal": "严重肾功能不全：谨慎；数据有限。",
+        "hepatico": "无需调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "苄星青霉素G – 早期梅毒",
+        "doseTexto": "240万单位 肌注 单次",
+        "doseMin": 2400000,
+        "doseMax": 2400000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "240万单位",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "苄星青霉素G – 晚期潜伏梅毒",
+        "doseTexto": "240万单位 肌注 每周1次 x 3",
+        "doseMin": 2400000,
+        "doseMax": 2400000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "240万单位",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "苄星青霉素G – 风湿热预防",
+        "doseTexto": "120万单位 肌注 每3–4周",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "120万单位",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "苄星青霉素G – 咽炎（成人）",
+        "doseTexto": "120万单位 肌注 单次",
+        "doseMin": 1200000,
+        "doseMax": 1200000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "120万单位",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "苄星青霉素G – 咽炎（儿科 <27 kg）",
+        "doseTexto": "60万单位 肌注 单次",
+        "doseMin": 600000,
+        "doseMax": 600000,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "60万单位",
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

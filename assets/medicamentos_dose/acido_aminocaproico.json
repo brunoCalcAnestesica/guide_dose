@@ -1,0 +1,962 @@
+{
+  "PT": {
+    "nome": "Ácido Aminocaproico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hiperfibrinólise - Carga e manutenção IV (adulto)",
+          "descricaoDose": "4-5 g em 250 mL SF em 1 h, depois 1 g/h em bomba por 8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "4-5 g carga + 1 g/h 8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "carga 1h + infusão 8h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hiperfibrinólise - Via oral (adulto)",
+          "descricaoDose": "5 g VO inicial, depois 1-1,25 g VO a cada 4 h (até 10 dias)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 1.25,
+            "doseMaxima": null,
+            "doseFixa": "5 g inicial; 1-1,25 g 4/4h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "inicial + 4/4h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Cirurgia cardíaca / profilaxia",
+          "descricaoDose": "50-100 mg/kg IV antes da incisão (máx 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Carga IV pediátrica",
+          "descricaoDose": "100-150 mg/kg IV em 1 h (máx 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 1 h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Via oral pediátrica",
+          "descricaoDose": "100 mg/kg/dose VO a cada 6 h (máx 3 g/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infusão contínua (adulto)",
+          "descricaoDose": "1 g/h IV (equivalente ~10-20 mg/kg/h conforme peso)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infusão contínua (pediátrico)",
+          "descricaoDose": "10-15 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 10, "doseMax": 20 },
+          "pediatrico": { "doseMin": 10, "doseMax": 15 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "5 g em 250 mL SF (20 mg/mL)", "valor": 20 },
+            { "rotulo": "2,5 g em 250 mL SF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1 g em 100 mL SF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "5 g em 500 mL SF (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antifibrinolítico - Inibidor da ativação do plasminogênio; análogo da lisina",
+      "apresentacoes": [
+        { "forma": "Solução injetável 250 mg/mL", "obs": "Frasco 20 mL" },
+        { "forma": "Comprimido 500 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 1000 mg", "obs": "Via oral" },
+        { "forma": "Solução oral 100 mg/mL", "obs": "Frasco 100 mL (pediátrico)" }
+      ],
+      "preparo": [
+        { "diluicao": "5 g + 250 mL SF 0,9%", "concentracao": "20 mg/mL" },
+        { "diluicao": "2,5 g + 250 mL SF", "concentracao": "10 mg/mL" },
+        { "diluicao": "1 g + 100 mL SF", "concentracao": "10 mg/mL" },
+        { "diluicao": "Diluir em 100-250 mL SF", "concentracao": "Conforme posologia" }
+      ],
+      "observacoes": [
+        "Manter níveis plasmáticos >100 mcg/mL para efeito antifibrinolítico",
+        "Infundir IV lentamente para evitar hipotensão",
+        "Máximo 30 g/dia em adultos; pediatria máx 3 g/dose VO ou 15 mg/kg/h IV",
+        "Contraindicado em hematúria obstrutiva (risco tamponamento vesical) e trombose ativa",
+        "Evitar uso concomitante com ácido tranexâmico; risco de convulsões em altas doses",
+        "Incompatível com soluções alcalinas e hemoderivados na mesma via"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal. Ajuste por ClCr: ClCr 30-50: 50%; ClCr <30: 25%.",
+        "renal": "ClCr 30-50 mL/min: reduzir 50%. ClCr <30 mL/min: 25% da dose. Monitorar se possível.",
+        "hepatico": "Não requer ajuste. Usar com cautela em hepatopatia com coagulopatia ativa."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ácido Aminocaproico - Carga IV (adulto)",
+        "doseTexto": "4-5 g em 1 h + 1 g/h por 8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "4-5 g + 1 g/h 8h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Aminocaproico - VO (adulto)",
+        "doseTexto": "5 g inicial; 1-1,25 g 4/4h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "5 g + 1-1,25 g 4/4h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Aminocaproico - Carga IV (pediátrico)",
+        "doseTexto": "100-150 mg/kg em 1 h (máx 5 g)",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ácido Aminocaproico - Infusão (pediátrico)",
+        "doseTexto": "10-15 mg/kg/h IV",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Aminocaproic Acid",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hyperfibrinolysis - IV load and maintenance (adult)",
+          "descricaoDose": "4-5 g in 250 mL NS over 1 h, then 1 g/h by pump for 8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "4-5 g load + 1 g/h 8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "load 1h + infusion 8h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hyperfibrinolysis - Oral (adult)",
+          "descricaoDose": "5 g PO initially, then 1-1.25 g PO every 4 h (up to 10 days)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 1.25,
+            "doseMaxima": null,
+            "doseFixa": "5 g initial; 1-1.25 g q4h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "initial + q4h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Cardiac surgery / prophylaxis",
+          "descricaoDose": "50-100 mg/kg IV before incision (max 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric IV load",
+          "descricaoDose": "100-150 mg/kg IV over 1 h (max 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "over 1 h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric oral",
+          "descricaoDose": "100 mg/kg/dose PO every 6 h (max 3 g/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "q6h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Continuous infusion (adult)",
+          "descricaoDose": "1 g/h IV (equivalent ~10-20 mg/kg/h by weight)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Continuous infusion (pediatric)",
+          "descricaoDose": "10-15 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 10, "doseMax": 20 },
+          "pediatrico": { "doseMin": 10, "doseMax": 15 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "5 g in 250 mL NS (20 mg/mL)", "valor": 20 },
+            { "rotulo": "2.5 g in 250 mL NS (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1 g in 100 mL NS (10 mg/mL)", "valor": 10 },
+            { "rotulo": "5 g in 500 mL NS (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antifibrinolytic - Plasminogen activation inhibitor; lysine analog",
+      "apresentacoes": [
+        { "forma": "Injectable solution 250 mg/mL", "obs": "20 mL vial" },
+        { "forma": "Tablet 500 mg", "obs": "Oral" },
+        { "forma": "Tablet 1000 mg", "obs": "Oral" },
+        { "forma": "Oral solution 100 mg/mL", "obs": "100 mL bottle (pediatric)" }
+      ],
+      "preparo": [
+        { "diluicao": "5 g + 250 mL NS", "concentracao": "20 mg/mL" },
+        { "diluicao": "2.5 g + 250 mL NS", "concentracao": "10 mg/mL" },
+        { "diluicao": "1 g + 100 mL NS", "concentracao": "10 mg/mL" },
+        { "diluicao": "Dilute in 100-250 mL NS", "concentracao": "Per dosing" }
+      ],
+      "observacoes": [
+        "Maintain plasma levels >100 mcg/mL for antifibrinolytic effect",
+        "Infuse IV slowly to avoid hypotension",
+        "Max 30 g/day in adults; pediatrics max 3 g/dose PO or 15 mg/kg/h IV",
+        "Contraindicated in obstructive hematuria (vesical tamponade risk) and active thrombosis",
+        "Avoid concomitant use with tranexamic acid; seizure risk at high doses",
+        "Incompatible with alkaline solutions and blood products in same line"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function. Adjust by ClCr: ClCr 30-50: 50%; ClCr <30: 25%.",
+        "renal": "ClCr 30-50 mL/min: reduce 50%. ClCr <30 mL/min: 25% of dose. Monitor if available.",
+        "hepatico": "No dose adjustment. Use with caution in liver disease with active coagulopathy."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aminocaproic Acid - IV load (adult)",
+        "doseTexto": "4-5 g over 1 h + 1 g/h for 8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "4-5 g + 1 g/h 8h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aminocaproic Acid - PO (adult)",
+        "doseTexto": "5 g initial; 1-1.25 g q4h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "5 g + 1-1.25 g q4h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aminocaproic Acid - IV load (pediatric)",
+        "doseTexto": "100-150 mg/kg over 1 h (max 5 g)",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Aminocaproic Acid - Infusion (pediatric)",
+        "doseTexto": "10-15 mg/kg/h IV",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ácido Aminocaproico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hiperfibrinólisis - Carga y mantenimiento IV (adulto)",
+          "descricaoDose": "4-5 g en 250 mL SF en 1 h, después 1 g/h en bomba por 8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "4-5 g carga + 1 g/h 8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "carga 1h + infusión 8h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hiperfibrinólisis - Vía oral (adulto)",
+          "descricaoDose": "5 g VO inicial, después 1-1,25 g VO cada 4 h (hasta 10 días)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 1.25,
+            "doseMaxima": null,
+            "doseFixa": "5 g inicial; 1-1,25 g 4/4h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "inicial + 4/4h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Cirugía cardíaca / profilaxis",
+          "descricaoDose": "50-100 mg/kg IV antes de la incisión (máx 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Carga IV pediátrica",
+          "descricaoDose": "100-150 mg/kg IV en 1 h (máx 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 1 h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Vía oral pediátrica",
+          "descricaoDose": "100 mg/kg/dosis VO cada 6 h (máx 3 g/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infusión continua (adulto)",
+          "descricaoDose": "1 g/h IV (equivalente ~10-20 mg/kg/h según peso)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Infusión continua (pediátrico)",
+          "descricaoDose": "10-15 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 10, "doseMax": 20 },
+          "pediatrico": { "doseMin": 10, "doseMax": 15 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "5 g en 250 mL SSF (20 mg/mL)", "valor": 20 },
+            { "rotulo": "2,5 g en 250 mL SSF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "1 g en 100 mL SSF (10 mg/mL)", "valor": 10 },
+            { "rotulo": "5 g en 500 mL SSF (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antifibrinolítico - Inhibidor de la activación del plasminógeno; análogo de la lisina",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 250 mg/mL", "obs": "Frasco 20 mL" },
+        { "forma": "Comprimido 500 mg", "obs": "Vía oral" },
+        { "forma": "Comprimido 1000 mg", "obs": "Vía oral" },
+        { "forma": "Solución oral 100 mg/mL", "obs": "Frasco 100 mL (pediátrico)" }
+      ],
+      "preparo": [
+        { "diluicao": "5 g + 250 mL SSF", "concentracao": "20 mg/mL" },
+        { "diluicao": "2,5 g + 250 mL SSF", "concentracao": "10 mg/mL" },
+        { "diluicao": "1 g + 100 mL SSF", "concentracao": "10 mg/mL" },
+        { "diluicao": "Diluir en 100-250 mL SSF", "concentracao": "Según posología" }
+      ],
+      "observacoes": [
+        "Mantener niveles plasmáticos >100 mcg/mL para efecto antifibrinolítico",
+        "Infundir IV lentamente para evitar hipotensión",
+        "Máximo 30 g/día en adultos; pediatría máx 3 g/dosis VO o 15 mg/kg/h IV",
+        "Contraindicado en hematuria obstructiva (riesgo taponamiento vesical) y trombosis activa",
+        "Evitar uso concomitante con ácido tranexámico; riesgo de convulsiones a dosis altas",
+        "Incompatible con soluciones alcalinas y hemoderivados en la misma vía"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal. Ajustar por ClCr: ClCr 30-50: 50%; ClCr <30: 25%.",
+        "renal": "ClCr 30-50 mL/min: reducir 50%. ClCr <30 mL/min: 25% de la dosis. Monitorizar si disponible.",
+        "hepatico": "No requiere ajuste. Usar con cautela en hepatopatía con coagulopatía activa."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ácido Aminocaproico - Carga IV (adulto)",
+        "doseTexto": "4-5 g en 1 h + 1 g/h por 8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "4-5 g + 1 g/h 8h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Aminocaproico - VO (adulto)",
+        "doseTexto": "5 g inicial; 1-1,25 g 4/4h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "5 g + 1-1,25 g 4/4h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ácido Aminocaproico - Carga IV (pediátrico)",
+        "doseTexto": "100-150 mg/kg en 1 h (máx 5 g)",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ácido Aminocaproico - Infusión (pediátrico)",
+        "doseTexto": "10-15 mg/kg/h IV",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氨基己酸",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "纤溶亢进 - 负荷与维持静注（成人）",
+          "descricaoDose": "4-5 g 溶于250 mL 生理盐水 1 小时内，随后 1 g/h 泵入 8 小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "4-5 g 负荷 + 1 g/h 8h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "负荷1h + 输注8h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "纤溶亢进 - 口服（成人）",
+          "descricaoDose": "5 g 口服首剂，随后 1-1.25 g 口服 每4小时（最多10天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 1.25,
+            "doseMaxima": null,
+            "doseFixa": "5 g 首剂；1-1.25 g 每4h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "首剂 + 每4h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "心脏手术/预防",
+          "descricaoDose": "50-100 mg/kg 静注切皮前（最大 5 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童静注负荷",
+          "descricaoDose": "100-150 mg/kg 静注 1 小时内（最大 5 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 125,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1小时内",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童口服",
+          "descricaoDose": "100 mg/kg/剂 口服 每6小时（最大 3 g/剂）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每6h",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "持续输注（成人）",
+          "descricaoDose": "1 g/h 静注（约10-20 mg/kg/h 按体重）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "持续输注（儿童）",
+          "descricaoDose": "10-15 mg/kg/h 静注持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr 30-50: 50%; ClCr <30: 25%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 10, "doseMax": 20 },
+          "pediatrico": { "doseMin": 10, "doseMax": 15 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "5g溶于250mL生理盐水（20 mg/mL）", "valor": 20 },
+            { "rotulo": "2.5g溶于250mL生理盐水（10 mg/mL）", "valor": 10 },
+            { "rotulo": "1g溶于100mL生理盐水（10 mg/mL）", "valor": 10 },
+            { "rotulo": "5g溶于500mL生理盐水（10 mg/mL）", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "抗纤溶药 - 纤溶酶原活化抑制剂；赖氨酸类似物",
+      "apresentacoes": [
+        { "forma": "注射液 250 mg/mL", "obs": "20 mL 瓶" },
+        { "forma": "片剂 500 mg", "obs": "口服" },
+        { "forma": "片剂 1000 mg", "obs": "口服" },
+        { "forma": "口服液 100 mg/mL", "obs": "100 mL 瓶（儿童）" }
+      ],
+      "preparo": [
+        { "diluicao": "5 g + 250 mL 生理盐水", "concentracao": "20 mg/mL" },
+        { "diluicao": "2.5 g + 250 mL 生理盐水", "concentracao": "10 mg/mL" },
+        { "diluicao": "1 g + 100 mL 生理盐水", "concentracao": "10 mg/mL" },
+        { "diluicao": "稀释于100-250 mL 生理盐水", "concentracao": "按剂量" }
+      ],
+      "observacoes": [
+        "维持血浆浓度 >100 mcg/mL 以达到抗纤溶效果",
+        "静注宜慢以防低血压",
+        "成人最大 30 g/日；儿童最大 3 g/剂 口服或 15 mg/kg/h 静注",
+        "梗阻性血尿（膀胱填塞风险）及活动性血栓禁忌",
+        "避免与氨甲环酸合用；高剂量有癫痫风险",
+        "与碱性液及血液制品同路配伍禁忌"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能。按 ClCr 调整：ClCr 30-50: 50%；ClCr <30: 25%。",
+        "renal": "ClCr 30-50 mL/min：减量50%。ClCr <30 mL/min：25% 剂量。如有条件监测。",
+        "hepatico": "无需调整。活动性凝血障碍的肝病患者慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氨基己酸 - 静注负荷（成人）",
+        "doseTexto": "4-5 g 1小时内 + 1 g/h 8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "4-5 g + 1 g/h 8h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "氨基己酸 - 口服（成人）",
+        "doseTexto": "5 g 首剂；1-1.25 g 每4h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "5 g + 1-1.25 g 每4h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "氨基己酸 - 静注负荷（儿童）",
+        "doseTexto": "100-150 mg/kg 1小时内（最大 5 g）",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "氨基己酸 - 输注（儿童）",
+        "doseTexto": "10-15 mg/kg/h 静注",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

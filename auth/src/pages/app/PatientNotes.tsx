@@ -1,114 +1,233 @@
-import { useState } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Card } from '../../components/ui/Card'
 import { Button } from '../../components/ui/Button'
 import { Modal } from '../../components/ui/Modal'
 import { Badge } from '../../components/ui/Badge'
-import { mockPatientNotes } from '../../mocks/data'
-import type { PatientNote } from '../../types'
+import { useAuth } from '../../auth/AuthProvider'
+import { apiQuery, apiInsert, apiUpdate, apiDelete } from '../../lib/api'
+import type { Patient } from '../../types'
 
 export default function PatientNotes() {
-  const [notes, setNotes] = useState<PatientNote[]>(mockPatientNotes)
+  const { user } = useAuth()
+  const [patients, setPatients] = useState<Patient[]>([])
+  const [loading, setLoading] = useState(true)
   const [modalOpen, setModalOpen] = useState(false)
-  const [editing, setEditing] = useState<PatientNote | null>(null)
-  const [form, setForm] = useState({ titulo: '', nomePaciente: '', texto: '' })
+  const [editing, setEditing] = useState<Patient | null>(null)
+  const [saving, setSaving] = useState(false)
+  const [form, setForm] = useState({
+    initials: '',
+    age: '',
+    bed: '',
+    diagnosis: '',
+    history: '',
+    devices: '',
+    antibiotics: '',
+    vasoactive_drugs: '',
+    exams: '',
+    pending: '',
+    observations: '',
+  })
+
+  const fetchPatients = useCallback(async () => {
+    if (!user) return
+    setLoading(true)
+    const { data } = await apiQuery<Patient[]>('patients', {
+      user_id: `eq.${user.id}`,
+      is_archived: 'eq.false',
+      order: 'updated_at.desc',
+      select: '*',
+    })
+    setPatients(data ?? [])
+    setLoading(false)
+  }, [user])
+
+  useEffect(() => { fetchPatients() }, [fetchPatients])
+
+  const resetForm = () => setForm({
+    initials: '', age: '', bed: '', diagnosis: '', history: '',
+    devices: '', antibiotics: '', vasoactive_drugs: '', exams: '',
+    pending: '', observations: '',
+  })
 
   const openNew = () => {
     setEditing(null)
-    setForm({ titulo: '', nomePaciente: '', texto: '' })
+    resetForm()
     setModalOpen(true)
   }
 
-  const openEdit = (note: PatientNote) => {
-    setEditing(note)
-    setForm({ titulo: note.titulo, nomePaciente: note.nomePaciente, texto: note.texto })
+  const openEdit = (p: Patient) => {
+    setEditing(p)
+    setForm({
+      initials: p.initials,
+      age: p.age?.toString() || '',
+      bed: p.bed,
+      diagnosis: p.diagnosis,
+      history: p.history,
+      devices: p.devices,
+      antibiotics: p.antibiotics,
+      vasoactive_drugs: p.vasoactive_drugs,
+      exams: p.exams,
+      pending: p.pending,
+      observations: p.observations,
+    })
     setModalOpen(true)
   }
 
-  const handleSave = () => {
-    if (editing) {
-      setNotes(prev => prev.map(n => n.id === editing.id ? { ...n, ...form } : n))
-    } else {
-      const newNote: PatientNote = {
-        id: `pn${Date.now()}`,
-        ...form,
-        data: new Date().toISOString().slice(0, 10),
-        anexos: [],
-        userId: 'u1',
-      }
-      setNotes(prev => [newNote, ...prev])
+  const handleSave = async () => {
+    if (!user) return
+    setSaving(true)
+
+    const payload = {
+      initials: form.initials,
+      age: form.age ? parseFloat(form.age) : null,
+      bed: form.bed,
+      diagnosis: form.diagnosis,
+      history: form.history,
+      devices: form.devices,
+      antibiotics: form.antibiotics,
+      vasoactive_drugs: form.vasoactive_drugs,
+      exams: form.exams,
+      pending: form.pending,
+      observations: form.observations,
+      updated_at: new Date().toISOString(),
     }
+
+    if (editing) {
+      await apiUpdate('patients', { id: `eq.${editing.id}` }, payload)
+    } else {
+      const id = crypto.randomUUID()
+      await apiInsert('patients', {
+        id,
+        user_id: user.id,
+        ...payload,
+        age_unit: 'anos',
+        is_archived: false,
+        created_at: new Date().toISOString(),
+      })
+    }
+
+    setSaving(false)
     setModalOpen(false)
+    fetchPatients()
   }
 
-  const handleDelete = (id: string) => {
-    setNotes(prev => prev.filter(n => n.id !== id))
+  const handleArchive = async (id: string) => {
+    if (!confirm('Arquivar este paciente?')) return
+    await apiUpdate('patients', { id: `eq.${id}` }, { is_archived: true, updated_at: new Date().toISOString() })
+    fetchPatients()
+  }
+
+  if (loading) {
+    return <p className="text-sm text-gray-500">Carregando pacientes...</p>
   }
 
   return (
     <div className="space-y-6">
       <div className="flex items-center justify-between">
-        <h1 className="text-2xl font-bold text-gray-900">Anotações de Pacientes</h1>
-        <Button onClick={openNew}>+ Nova Anotação</Button>
+        <h1 className="text-2xl font-bold text-gray-900">Pacientes</h1>
+        <Button onClick={openNew}>+ Novo Paciente</Button>
       </div>
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-        {notes.map(note => (
-          <Card key={note.id} className="flex flex-col">
-            <div className="flex items-start justify-between">
-              <div>
-                <h3 className="font-semibold text-gray-900">{note.titulo}</h3>
-                <p className="text-xs text-gray-500">{note.nomePaciente} &middot; {new Date(note.data).toLocaleDateString('pt-BR')}</p>
+      {patients.length === 0 ? (
+        <Card>
+          <p className="py-8 text-center text-sm text-gray-400">Nenhum paciente ativo. Adicione um novo!</p>
+        </Card>
+      ) : (
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {patients.map(p => (
+            <Card key={p.id} className="flex flex-col">
+              <div className="flex items-start justify-between">
+                <div>
+                  <h3 className="font-semibold text-gray-900">{p.initials}</h3>
+                  <p className="text-xs text-gray-500">
+                    {p.bed && `Leito: ${p.bed}`}
+                    {p.age != null && ` · ${p.age} ${p.age_unit}`}
+                  </p>
+                </div>
+                {p.admission_date && (
+                  <Badge variant="info">
+                    Adm: {new Date(p.admission_date).toLocaleDateString('pt-BR')}
+                  </Badge>
+                )}
               </div>
-              {note.anexos.length > 0 && <Badge variant="info">{note.anexos.length} anexo(s)</Badge>}
-            </div>
-            <p className="mt-3 flex-1 text-sm text-gray-600 line-clamp-3">{note.texto}</p>
-            <div className="mt-4 flex gap-2">
-              <Button size="sm" variant="secondary" onClick={() => openEdit(note)}>Editar</Button>
-              <Button size="sm" variant="danger" onClick={() => handleDelete(note.id)}>Excluir</Button>
-            </div>
-          </Card>
-        ))}
-      </div>
+              {p.diagnosis && <p className="mt-2 text-sm text-gray-700"><strong>Dx:</strong> {p.diagnosis}</p>}
+              {p.pending && <p className="mt-1 text-sm text-yellow-700"><strong>Pendências:</strong> {p.pending}</p>}
+              <p className="mt-1 flex-1 text-xs text-gray-400 line-clamp-2">{p.observations}</p>
+              <div className="mt-4 flex gap-2">
+                <Button size="sm" variant="secondary" onClick={() => openEdit(p)}>Editar</Button>
+                <Button size="sm" variant="danger" onClick={() => handleArchive(p.id)}>Arquivar</Button>
+              </div>
+            </Card>
+          ))}
+        </div>
+      )}
 
-      <Modal open={modalOpen} onClose={() => setModalOpen(false)} title={editing ? 'Editar Anotação' : 'Nova Anotação'}>
-        <form onSubmit={e => { e.preventDefault(); handleSave() }} className="space-y-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Título</label>
-            <input
-              required
-              value={form.titulo}
-              onChange={e => setForm(p => ({ ...p, titulo: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Paciente</label>
-            <input
-              required
-              value={form.nomePaciente}
-              onChange={e => setForm(p => ({ ...p, nomePaciente: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Texto</label>
-            <textarea
-              required
-              rows={4}
-              value={form.texto}
-              onChange={e => setForm(p => ({ ...p, texto: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Anexos</label>
-            <div className="mt-1 rounded-lg border-2 border-dashed border-gray-300 p-4 text-center text-sm text-gray-400">
-              Arraste arquivos aqui ou clique para selecionar (em breve)
+      <Modal open={modalOpen} onClose={() => setModalOpen(false)} title={editing ? 'Editar Paciente' : 'Novo Paciente'}>
+        <form onSubmit={e => { e.preventDefault(); handleSave() }} className="space-y-4 max-h-[70vh] overflow-y-auto pr-2">
+          <div className="grid grid-cols-3 gap-4">
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Iniciais</label>
+              <input required value={form.initials} onChange={e => setForm(p => ({ ...p, initials: e.target.value }))}
+                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
             </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Idade</label>
+              <input type="number" value={form.age} onChange={e => setForm(p => ({ ...p, age: e.target.value }))}
+                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Leito</label>
+              <input value={form.bed} onChange={e => setForm(p => ({ ...p, bed: e.target.value }))}
+                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+            </div>
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Diagnóstico</label>
+            <textarea rows={2} value={form.diagnosis} onChange={e => setForm(p => ({ ...p, diagnosis: e.target.value }))}
+              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">História</label>
+            <textarea rows={2} value={form.history} onChange={e => setForm(p => ({ ...p, history: e.target.value }))}
+              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Dispositivos</label>
+              <textarea rows={2} value={form.devices} onChange={e => setForm(p => ({ ...p, devices: e.target.value }))}
+                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Antibióticos</label>
+              <textarea rows={2} value={form.antibiotics} onChange={e => setForm(p => ({ ...p, antibiotics: e.target.value }))}
+                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+            </div>
+          </div>
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Drogas Vasoativas</label>
+              <textarea rows={2} value={form.vasoactive_drugs} onChange={e => setForm(p => ({ ...p, vasoactive_drugs: e.target.value }))}
+                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Exames</label>
+              <textarea rows={2} value={form.exams} onChange={e => setForm(p => ({ ...p, exams: e.target.value }))}
+                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+            </div>
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Pendências</label>
+            <textarea rows={2} value={form.pending} onChange={e => setForm(p => ({ ...p, pending: e.target.value }))}
+              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700">Observações</label>
+            <textarea rows={2} value={form.observations} onChange={e => setForm(p => ({ ...p, observations: e.target.value }))}
+              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
           </div>
           <div className="flex justify-end gap-2">
             <Button type="button" variant="secondary" onClick={() => setModalOpen(false)}>Cancelar</Button>
-            <Button type="submit">{editing ? 'Salvar' : 'Criar'}</Button>
+            <Button type="submit" disabled={saving}>{saving ? 'Salvando...' : editing ? 'Salvar' : 'Criar'}</Button>
           </div>
         </form>
       </Modal>

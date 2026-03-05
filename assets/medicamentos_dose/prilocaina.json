@@ -1,0 +1,806 @@
+{
+  "PT": {
+    "nome": "Prilocaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anest. local - SEM vasoconstritor",
+          "descricaoDose": "6 mg/kg (máx 400 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração/Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Anest. local - COM vasoconstritor",
+          "descricaoDose": "8 mg/kg (máx 600 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 8,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 600,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração/Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Anest. local - SEM vaso (ped)",
+          "descricaoDose": "5-6 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração/Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Anest. local - COM vaso (ped)",
+          "descricaoDose": "6 mg/kg (máx 400 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração/Bloqueio",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Bloqueio de Bier",
+          "descricaoDose": "3 mg/kg (máx 200 mg) - solução 0,5%",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV regional",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "EMLA tópico",
+          "descricaoDose": "Aplicar camada espessa 60-90 min antes do procedimento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Creme EMLA: oclusão 60-90 min",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "Tópico",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local – amida",
+      "apresentacoes": [
+        { "forma": "Solução injetável 1% (10 mg/mL)", "obs": "Frascos 20 mL" },
+        { "forma": "Solução injetável 2% (20 mg/mL)", "obs": "Frascos 20 mL" },
+        { "forma": "Solução injetável 3% (30 mg/mL)", "obs": "Tubetes odontológicos 1,8 mL" },
+        { "forma": "Creme EMLA 2,5%", "obs": "Prilocaína + lidocaína 2,5% - 5g, 30g" }
+      ],
+      "preparo": [
+        { "diluicao": "Solução pronta para uso", "concentracao": "Não requer diluição" },
+        { "diluicao": "Bloqueio de Bier: solução 0,5% conforme protocolo", "concentracao": "Diluir conforme apresentação" },
+        { "diluicao": "EMLA: aplicar camada espessa (2-3 mm), ocluir 60-90 min", "concentracao": "Uso tópico" }
+      ],
+      "observacoes": [
+        "Dose máxima: 400 mg (sem vasoconstritor), 600 mg (com vasoconstritor)",
+        "RISCO: metemoglobinemia (doses >600 mg ou neonatos) – ter azul de metileno 1-2 mg/kg IV disponível",
+        "Contraindicado: G6PD, metemoglobinemia congênita, drogas metemoglobinizantes",
+        "Evitar em neonatos e lactentes jovens (preferir lidocaína)",
+        "Aspirar antes de injetar; administrar lentamente; ter material de ressuscitação disponível",
+        "Reduzir dose em idosos (20-30%) e em hepatopatia grave"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose em 20-30% devido à redução do clearance. Monitorar toxicidade.",
+        "renal": "Não requer ajuste em insuficiência renal leve a moderada. Cautela em IR grave (acúmulo de metabólitos).",
+        "hepatico": "Reduzir dose em insuficiência hepática moderada a grave. Monitorar sinais de toxicidade sistêmica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Prilocaína SEM vasoconstritor (adulto)",
+        "doseTexto": "6 mg/kg (máx 400 mg)",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prilocaína COM vasoconstritor (adulto)",
+        "doseTexto": "8 mg/kg (máx 600 mg)",
+        "doseMin": 8,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prilocaína SEM vaso (ped)",
+        "doseTexto": "5-6 mg/kg (máx 300 mg)",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Prilocaína COM vaso (ped)",
+        "doseTexto": "6 mg/kg (máx 400 mg)",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Bloqueio de Bier",
+        "doseTexto": "3 mg/kg (máx 200 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Prilocaine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Local anesth. - WITHOUT vasoconstrictor",
+          "descricaoDose": "6 mg/kg (max 400 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration/Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Local anesth. - WITH vasoconstrictor",
+          "descricaoDose": "8 mg/kg (max 600 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 8,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 600,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration/Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Local anesth. - WITHOUT vaso (ped)",
+          "descricaoDose": "5-6 mg/kg (max 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Infiltration/Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Local anesth. - WITH vaso (ped)",
+          "descricaoDose": "6 mg/kg (max 400 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Infiltration/Block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Bier block",
+          "descricaoDose": "3 mg/kg (max 200 mg) - 0.5% solution",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV regional",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "EMLA topical",
+          "descricaoDose": "Apply thick layer 60-90 min before procedure",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "EMLA cream: occlude 60-90 min",
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "Topical",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Local anesthetic – amide",
+      "apresentacoes": [
+        { "forma": "Injectable solution 1% (10 mg/mL)", "obs": "20 mL vials" },
+        { "forma": "Injectable solution 2% (20 mg/mL)", "obs": "20 mL vials" },
+        { "forma": "Injectable solution 3% (30 mg/mL)", "obs": "1.8 mL dental cartridges" },
+        { "forma": "EMLA cream 2.5%", "obs": "Prilocaine + lidocaine 2.5% - 5g, 30g" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready-to-use solution", "concentracao": "No dilution required" },
+        { "diluicao": "Bier block: 0.5% solution per protocol", "concentracao": "Dilute as per formulation" },
+        { "diluicao": "EMLA: apply thick layer (2-3 mm), occlude 60-90 min", "concentracao": "Topical use" }
+      ],
+      "observacoes": [
+        "Maximum dose: 400 mg (without vasoconstrictor), 600 mg (with vasoconstrictor)",
+        "RISK: methemoglobinemia (doses >600 mg or neonates) – have methylene blue 1-2 mg/kg IV available",
+        "Contraindicated: G6PD deficiency, congenital methemoglobinemia, methemoglobinizing drugs",
+        "Avoid in neonates and young infants (prefer lidocaine)",
+        "Aspirate before injecting; administer slowly; have resuscitation equipment available",
+        "Reduce dose in elderly (20-30%) and in severe hepatic impairment"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose by 20-30% due to reduced clearance. Monitor for toxicity.",
+        "renal": "No adjustment in mild to moderate renal insufficiency. Caution in severe renal failure (metabolite accumulation).",
+        "hepatico": "Reduce dose in moderate to severe hepatic impairment. Monitor for systemic toxicity."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Prilocaine WITHOUT vasoconstrictor (adult)",
+        "doseTexto": "6 mg/kg (max 400 mg)",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Prilocaine WITH vasoconstrictor (adult)",
+        "doseTexto": "8 mg/kg (max 600 mg)",
+        "doseMin": 8,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Prilocaine WITHOUT vaso (ped)",
+        "doseTexto": "5-6 mg/kg (max 300 mg)",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Prilocaine WITH vaso (ped)",
+        "doseTexto": "6 mg/kg (max 400 mg)",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Bier block",
+        "doseTexto": "3 mg/kg (max 200 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Prilocaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anest. local - SIN vasoconstrictor",
+          "descricaoDose": "6 mg/kg (máx 400 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración/Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Anest. local - CON vasoconstrictor",
+          "descricaoDose": "8 mg/kg (máx 600 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 8,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 600,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración/Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Anest. local - SIN vaso (ped)",
+          "descricaoDose": "5-6 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltración/Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Anest. local - CON vaso (ped)",
+          "descricaoDose": "6 mg/kg (máx 400 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltración/Bloqueo",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Bloqueo de Bier",
+          "descricaoDose": "3 mg/kg (máx 200 mg) - solución 0,5%",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV regional",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "EMLA tópico",
+          "descricaoDose": "Aplicar capa gruesa 60-90 min antes del procedimiento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Crema EMLA: oclusión 60-90 min",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "Tópico",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local – amida",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 1% (10 mg/mL)", "obs": "Frascos 20 mL" },
+        { "forma": "Solución inyectable 2% (20 mg/mL)", "obs": "Frascos 20 mL" },
+        { "forma": "Solución inyectable 3% (30 mg/mL)", "obs": "Cartuchos dentales 1,8 mL" },
+        { "forma": "Crema EMLA 2,5%", "obs": "Prilocaína + lidocaína 2,5% - 5g, 30g" }
+      ],
+      "preparo": [
+        { "diluicao": "Solución lista para uso", "concentracao": "No requiere dilución" },
+        { "diluicao": "Bloqueo de Bier: solución 0,5% según protocolo", "concentracao": "Diluir según presentación" },
+        { "diluicao": "EMLA: aplicar capa gruesa (2-3 mm), ocluir 60-90 min", "concentracao": "Uso tópico" }
+      ],
+      "observacoes": [
+        "Dosis máxima: 400 mg (sin vasoconstrictor), 600 mg (con vasoconstrictor)",
+        "RIESGO: metahemoglobinemia (dosis >600 mg o neonatos) – tener azul de metileno 1-2 mg/kg IV disponible",
+        "Contraindicado: G6PD, metahemoglobinemia congénita, drogas metahemoglobinizantes",
+        "Evitar en neonatos y lactantes (preferir lidocaína)",
+        "Aspirar antes de inyectar; administrar lentamente; tener material de reanimación disponible",
+        "Reducir dosis en ancianos (20-30%) y en hepatopatía grave"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis en 20-30% por reducción del clearance. Monitorizar toxicidad.",
+        "renal": "No requiere ajuste en insuficiencia renal leve a moderada. Precaución en IR grave (acúmulo de metabolitos).",
+        "hepatico": "Reducir dosis en insuficiencia hepática moderada a grave. Monitorizar toxicidad sistémica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Prilocaína SIN vasoconstrictor (adulto)",
+        "doseTexto": "6 mg/kg (máx 400 mg)",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prilocaína CON vasoconstrictor (adulto)",
+        "doseTexto": "8 mg/kg (máx 600 mg)",
+        "doseMin": 8,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Prilocaína SIN vaso (ped)",
+        "doseTexto": "5-6 mg/kg (máx 300 mg)",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Prilocaína CON vaso (ped)",
+        "doseTexto": "6 mg/kg (máx 400 mg)",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Bloqueo de Bier",
+        "doseTexto": "3 mg/kg (máx 200 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "丙胺卡因",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "局部麻醉 - 无血管收缩药",
+          "descricaoDose": "6 mg/kg（最大 400 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润/阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病减量"
+          }
+        },
+        {
+          "titulo": "局部麻醉 - 含血管收缩药",
+          "descricaoDose": "8 mg/kg（最大 600 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 8,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 600,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润/阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病减量"
+          }
+        },
+        {
+          "titulo": "局部麻醉 - 无血管收缩药（儿童）",
+          "descricaoDose": "5-6 mg/kg（最大 300 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "浸润/阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病减量"
+          }
+        },
+        {
+          "titulo": "局部麻醉 - 含血管收缩药（儿童）",
+          "descricaoDose": "6 mg/kg（最大 400 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "浸润/阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病减量"
+          }
+        },
+        {
+          "titulo": "静脉区域阻滞（比尔阻滞）",
+          "descricaoDose": "3 mg/kg（最大 200 mg）- 0.5% 溶液",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV regional",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝病减量"
+          }
+        },
+        {
+          "titulo": "EMLA 外用",
+          "descricaoDose": "操作前 60-90 分钟涂厚层",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "EMLA 乳膏：封包 60-90 分钟",
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "外用",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "酰胺类局部麻醉药",
+      "apresentacoes": [
+        { "forma": "注射液 1%（10 mg/mL）", "obs": "20 mL 瓶" },
+        { "forma": "注射液 2%（20 mg/mL）", "obs": "20 mL 瓶" },
+        { "forma": "注射液 3%（30 mg/mL）", "obs": "牙科 1.8 mL 卡式瓶" },
+        { "forma": "EMLA 乳膏 2.5%", "obs": "丙胺卡因+利多卡因 2.5% - 5g, 30g" }
+      ],
+      "preparo": [
+        { "diluicao": "即用溶液", "concentracao": "无需稀释" },
+        { "diluicao": "比尔阻滞：按方案 0.5% 溶液", "concentracao": "按制剂稀释" },
+        { "diluicao": "EMLA：涂厚层（2-3 mm），封包 60-90 分钟", "concentracao": "外用" }
+      ],
+      "observacoes": [
+        "最大剂量：400 mg（无血管收缩药），600 mg（含血管收缩药）",
+        "风险：高铁血红蛋白血症（>600 mg 或新生儿）—备亚甲蓝 1-2 mg/kg IV",
+        "禁忌：G6PD 缺乏、先天性高铁血红蛋白血症、致高铁血红蛋白药物",
+        "避免用于新生儿和婴儿（首选利多卡因）",
+        "注射前回抽；缓慢注射；备复苏设备",
+        "老年（20-30%）及严重肝病减量"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "因清除率降低减量 20-30%。监测毒性。",
+        "renal": "轻中度肾功能不全无需调整。严重肾衰慎用（代谢物蓄积）。",
+        "hepatico": "中重度肝功能不全减量。监测全身毒性。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "丙胺卡因 无血管收缩药（成人）",
+        "doseTexto": "6 mg/kg（最大 400 mg）",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "丙胺卡因 含血管收缩药（成人）",
+        "doseTexto": "8 mg/kg（最大 600 mg）",
+        "doseMin": 8,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "丙胺卡因 无血管收缩药（儿童）",
+        "doseTexto": "5-6 mg/kg（最大 300 mg）",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "丙胺卡因 含血管收缩药（儿童）",
+        "doseTexto": "6 mg/kg（最大 400 mg）",
+        "doseMin": 6,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "比尔阻滞",
+        "doseTexto": "3 mg/kg（最大 200 mg）",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

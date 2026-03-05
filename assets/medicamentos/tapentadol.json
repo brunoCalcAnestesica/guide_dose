@@ -1,0 +1,78 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Tapentadol",
+      "nomesComerciais": [
+        "Palexia®",
+        "Nucynta®"
+      ],
+      "classeTerapeutica": "Opioide atípico / Agonista mu + Inibidor recaptação noradrenalina (MOR-NRI)",
+      "mecanismoAcao": "Mecanismo duplo: agonismo de receptores mu-opioides (~40% da potência da morfina) e inibição da recaptação de noradrenalina. O componente noradrenérgico contribui para analgesia especialmente em dor neuropática.",
+      "indicacoes": [
+        "Dor aguda moderada a grave",
+        "Dor crônica",
+        "Dor neuropática",
+        "Dor oncológica"
+      ],
+      "apresentacoes": {
+        "liberacaoImediata": [
+          "50 mg",
+          "75 mg",
+          "100 mg"
+        ],
+        "liberacaoProlongada": [
+          "50 mg",
+          "100 mg",
+          "150 mg",
+          "200 mg",
+          "250 mg"
+        ]
+      },
+      "posologia": {
+        "dorAguda": {
+          "liberacaoImediata": "50-100 mg VO 4/4-6/6h",
+          "maxima1oDia": "700 mg/dia",
+          "maximaDiasSeguintes": "600 mg/dia",
+          "idoso": "50 mg VO 4/4-6/6h (máx 500 mg/dia)"
+        },
+        "dorCronica": {
+          "liberacaoProlongada": "50-250 mg VO 12/12h",
+          "maxima": "500 mg/dia"
+        }
+      },
+      "vantagens": [
+        "Menor constipação que opioides tradicionais",
+        "Eficaz em dor neuropática",
+        "Sem metabólitos ativos",
+        "Sem interações CYP450 significativas",
+        "Menor depressão respiratória"
+      ],
+      "farmacocinetica": {
+        "biodisponibilidade": "~32%",
+        "inicioAcao": "30 min",
+        "picoImediata": "1,25 horas",
+        "picoProlongada": "3-6 horas",
+        "meiaVida": "4-5 horas",
+        "metabolismo": "Glicuronidação (NÃO CYP450)"
+      },
+      "contraindicacoes": [
+        "Uso de IMAO (14 dias)",
+        "Depressão respiratória",
+        "Íleo paralítico",
+        "Insuficiência hepática grave",
+        "Insuficiência renal grave (ClCr < 30)"
+      ],
+      "interacoes": {
+        "IMAO": "Risco de síndrome serotoninérgica - contraindicado",
+        "ISRS_IRSN": "Cautela - risco de síndrome serotoninérgica",
+        "alcool": "Potencializa depressão SNC"
+      },
+      "alertas": {
+        "controlado": "Receita amarela (A1)",
+        "naloxona": "Apenas parcialmente eficaz para reversão",
+        "liberacaoProlongada": "NÃO triturar ou mastigar"
+      },
+      "categoriaGravidez": "C"
+    }
+  }
+}

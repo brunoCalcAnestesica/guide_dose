@@ -1,0 +1,722 @@
+{
+  "PT": {
+    "nome": "Soro Fisiológico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Expansão volêmica (adulto)",
+          "descricaoDose": "10-20 mL/kg IV em bolus (máx 500-1000 mL por vez)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme resposta hemodinâmica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção hidratação (adulto)",
+          "descricaoDose": "30-40 mL/kg/dia IV (ex.: 2000-3000 mL/dia em 70 kg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 35,
+            "doseMin": 30,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua em 24 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "KVO (manter veia pérvia)",
+          "descricaoDose": "20-50 mL/h IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": "20-50 mL/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Expansão volêmica (pediátrico)",
+          "descricaoDose": "10-20 mL/kg IV em bolus (máx 500 mL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme resposta hemodinâmica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção hidratação (pediátrico)",
+          "descricaoDose": "1-2 mL/kg/h IV ou fórmula Holliday-Segar (100+50+20 mL/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cristaloide - Solução eletrolítica isotônica (NaCl 0,9%)",
+      "apresentacoes": [
+        { "forma": "Bolsa/frasco 100 mL, 250 mL, 500 mL, 1000 mL", "obs": "0,9% = 154 mEq Na⁺/L e Cl⁻/L" },
+        { "forma": "Ampola 5 mL, 10 mL, 20 mL", "obs": "Irrigação e diluição" },
+        { "forma": "Seringa pré-cheia 3 mL, 5 mL, 10 mL", "obs": "Flush venoso" }
+      ],
+      "preparo": [
+        { "diluicao": "Pronto para uso", "concentracao": "Não diluir - já isotônico" },
+        { "diluicao": "Diluente: adicionar medicamento no frasco/bolsa SF 0,9%", "concentracao": "Conforme compatibilidade" }
+      ],
+      "observacoes": [
+        "SF 0,9% é isotônico (osmolaridade 308 mOsm/L ≈ plasma) - não altera células, não causa hemólise",
+        "Diluente universal - compatível com maioria dos medicamentos IV (verificar bula específica)",
+        "Expansão volêmica transitória (30-60 min) - depois redistribui para interstício",
+        "Acidose hiperclorêmica em volumes grandes (>3-4 L) - preferir Ringer Lactato se >2 L",
+        "Fórmula Holliday-Segar pediátrica: 100 mL/kg (0-10 kg) + 50 mL/kg (10-20 kg) + 20 mL/kg (>20 kg)",
+        "Aquecer volumes >500 mL (evitar hipotermia) - ideal 37°C"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar balanço hídrico e função cardíaca. Risco de sobrecarga volêmica; preferir volumes menores e reavaliação.",
+        "renal": "Insuficiência renal: monitorar balanço hídrico rigorosamente. Anúria: restringir volume (risco edema agudo de pulmão).",
+        "hepatico": "Cirrose com ascite: restringir volume (risco piora de ascite e edema). Preferir albumina se expansão necessária."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Soro Fisiológico - Expansão (adulto)",
+        "doseTexto": "10-20 mL/kg IV em bolus",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Soro Fisiológico - Manutenção (adulto)",
+        "doseTexto": "30-40 mL/kg/dia IV",
+        "doseMin": 30,
+        "doseMax": 40,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Soro Fisiológico - KVO",
+        "doseTexto": "20-50 mL/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "20-50 mL/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Soro Fisiológico - Expansão (pediátrico)",
+        "doseTexto": "10-20 mL/kg IV em bolus (máx 500 mL)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Soro Fisiológico - Manutenção (pediátrico)",
+        "doseTexto": "1-2 mL/kg/h ou Holliday-Segar",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Normal Saline",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Volume expansion (adult)",
+          "descricaoDose": "10-20 mL/kg IV bolus (max 500-1000 mL per dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as hemodynamic response",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance hydration (adult)",
+          "descricaoDose": "30-40 mL/kg/day IV (e.g. 2000-3000 mL/day in 70 kg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 35,
+            "doseMin": 30,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion over 24 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "KVO (keep vein open)",
+          "descricaoDose": "20-50 mL/h IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": "20-50 mL/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Volume expansion (pediatric)",
+          "descricaoDose": "10-20 mL/kg IV bolus (max 500 mL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "as hemodynamic response",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance hydration (pediatric)",
+          "descricaoDose": "1-2 mL/kg/h IV or Holliday-Segar formula (100+50+20 mL/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Crystalloid - Isotonic electrolyte solution (NaCl 0.9%)",
+      "apresentacoes": [
+        { "forma": "Bag/bottle 100 mL, 250 mL, 500 mL, 1000 mL", "obs": "0.9% = 154 mEq Na⁺/L and Cl⁻/L" },
+        { "forma": "Ampule 5 mL, 10 mL, 20 mL", "obs": "Irrigation and dilution" },
+        { "forma": "Prefilled syringe 3 mL, 5 mL, 10 mL", "obs": "Venous flush" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for use", "concentracao": "Do not dilute - already isotonic" },
+        { "diluicao": "Diluent: add medication to NS 0.9% bag/bottle", "concentracao": "Per compatibility" }
+      ],
+      "observacoes": [
+        "NS 0.9% is isotonic (osmolarity 308 mOsm/L ≈ plasma) - does not alter cells, no hemolysis",
+        "Universal diluent - compatible with most IV medications (check specific monograph)",
+        "Transient volume expansion (30-60 min) - then redistributes to interstitium",
+        "Hyperchloremic acidosis with large volumes (>3-4 L) - prefer Lactated Ringer's if >2 L",
+        "Pediatric Holliday-Segar formula: 100 mL/kg (0-10 kg) + 50 mL/kg (10-20 kg) + 20 mL/kg (>20 kg)",
+        "Warm volumes >500 mL (avoid hypothermia) - ideally 37°C"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor fluid balance and cardiac function. Risk of volume overload; prefer smaller volumes and reassessment.",
+        "renal": "Renal insufficiency: monitor fluid balance strictly. Anuria: restrict volume (risk of acute pulmonary edema).",
+        "hepatico": "Cirrhosis with ascites: restrict volume (risk of worsening ascites and edema). Prefer albumin if expansion needed."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Normal Saline - Expansion (adult)",
+        "doseTexto": "10-20 mL/kg IV bolus",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Normal Saline - Maintenance (adult)",
+        "doseTexto": "30-40 mL/kg/day IV",
+        "doseMin": 30,
+        "doseMax": 40,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Normal Saline - KVO",
+        "doseTexto": "20-50 mL/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "20-50 mL/h",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Normal Saline - Expansion (pediatric)",
+        "doseTexto": "10-20 mL/kg IV bolus (max 500 mL)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Normal Saline - Maintenance (pediatric)",
+        "doseTexto": "1-2 mL/kg/h or Holliday-Segar",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Suero Fisiológico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Expansión volémica (adulto)",
+          "descricaoDose": "10-20 mL/kg IV en bolo (máx 500-1000 mL por dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según respuesta hemodinámica",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento hidratación (adulto)",
+          "descricaoDose": "30-40 mL/kg/día IV (ej. 2000-3000 mL/día en 70 kg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 35,
+            "doseMin": 30,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua en 24 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "KVO (mantener vía permeable)",
+          "descricaoDose": "20-50 mL/h IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": "20-50 mL/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Expansión volémica (pediátrico)",
+          "descricaoDose": "10-20 mL/kg IV en bolo (máx 500 mL)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según respuesta hemodinámica",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento hidratación (pediátrico)",
+          "descricaoDose": "1-2 mL/kg/h IV o fórmula Holliday-Segar (100+50+20 mL/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cristaloide - Solución electrolítica isotónica (NaCl 0,9%)",
+      "apresentacoes": [
+        { "forma": "Bolsa/frasco 100 mL, 250 mL, 500 mL, 1000 mL", "obs": "0,9% = 154 mEq Na⁺/L y Cl⁻/L" },
+        { "forma": "Ampolla 5 mL, 10 mL, 20 mL", "obs": "Irrigación y dilución" },
+        { "forma": "Jeringa precargada 3 mL, 5 mL, 10 mL", "obs": "Flush venoso" }
+      ],
+      "preparo": [
+        { "diluicao": "Listo para uso", "concentracao": "No diluir - ya isotónico" },
+        { "diluicao": "Diluyente: añadir medicamento al frasco/bolsa SF 0,9%", "concentracao": "Según compatibilidad" }
+      ],
+      "observacoes": [
+        "SF 0,9% es isotónico (osmolaridad 308 mOsm/L ≈ plasma) - no altera células, no causa hemólisis",
+        "Diluyente universal - compatible con la mayoría de medicamentos IV (verificar monografía)",
+        "Expansión volémica transitoria (30-60 min) - luego redistribuye al intersticio",
+        "Acidosis hiperclorémica con volúmenes grandes (>3-4 L) - preferir Ringer lactato si >2 L",
+        "Fórmula Holliday-Segar pediátrica: 100 mL/kg (0-10 kg) + 50 mL/kg (10-20 kg) + 20 mL/kg (>20 kg)",
+        "Calentar volúmenes >500 mL (evitar hipotermia) - ideal 37°C"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar balance hídrico y función cardíaca. Riesgo de sobrecarga; preferir volúmenes menores y reevaluación.",
+        "renal": "Insuficiencia renal: monitorizar balance hídrico estrictamente. Anuria: restringir volumen (riesgo edema agudo de pulmón).",
+        "hepatico": "Cirrosis con ascitis: restringir volumen (riesgo empeoramiento ascitis y edema). Preferir albúmina si expansión necesaria."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Suero Fisiológico - Expansión (adulto)",
+        "doseTexto": "10-20 mL/kg IV en bolo",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Suero Fisiológico - Mantenimiento (adulto)",
+        "doseTexto": "30-40 mL/kg/día IV",
+        "doseMin": 30,
+        "doseMax": 40,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Suero Fisiológico - KVO",
+        "doseTexto": "20-50 mL/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "20-50 mL/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Suero Fisiológico - Expansión (pediátrico)",
+        "doseTexto": "10-20 mL/kg IV en bolo (máx 500 mL)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Suero Fisiológico - Mantenimiento (pediátrico)",
+        "doseTexto": "1-2 mL/kg/h o Holliday-Segar",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "生理盐水",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "容量扩张（成人）",
+          "descricaoDose": "10-20 mL/kg IV 推注（单次最大 500-1000 mL）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "根据血流动力学反应",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "维持补液（成人）",
+          "descricaoDose": "30-40 mL/kg/日 IV（如 70 kg 约 2000-3000 mL/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 35,
+            "doseMin": 30,
+            "doseMax": 40,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "24 小时持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "KVO（维持静脉通畅）",
+          "descricaoDose": "20-50 mL/h IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": "20-50 mL/h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "容量扩张（儿童）",
+          "descricaoDose": "10-20 mL/kg IV 推注（最大 500 mL）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 15,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "根据血流动力学反应",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "维持补液（儿童）",
+          "descricaoDose": "1-2 mL/kg/h IV 或 Holliday-Segar 公式（100+50+20 mL/kg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": 1.5,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "晶体液 - 等渗电解质溶液（NaCl 0.9%）",
+      "apresentacoes": [
+        { "forma": "袋/瓶 100 mL、250 mL、500 mL、1000 mL", "obs": "0.9% = 154 mEq Na⁺/L 与 Cl⁻/L" },
+        { "forma": "安瓿 5 mL、10 mL、20 mL", "obs": "冲洗与稀释" },
+        { "forma": "预充注射器 3 mL、5 mL、10 mL", "obs": "静脉冲管" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型", "concentracao": "勿稀释 - 已等渗" },
+        { "diluicao": "稀释剂：将药物加入 0.9% 生理盐水袋/瓶", "concentracao": "按相容性" }
+      ],
+      "observacoes": [
+        "0.9% 生理盐水为等渗（渗透压 308 mOsm/L ≈ 血浆）- 不改变细胞，不引起溶血",
+        "通用稀释剂 - 与多数 IV 药物相容（查具体说明书）",
+        "容量扩张短暂（30-60 分钟）- 随后再分布至组织间质",
+        "大容量（>3-4 L）可致高氯性酸中毒 - 若 >2 L 宜选乳酸林格液",
+        "儿童 Holliday-Segar 公式：100 mL/kg（0-10 kg）+ 50 mL/kg（10-20 kg）+ 20 mL/kg（>20 kg）",
+        ">500 mL 宜加温（避免低体温）- 理想 37°C"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测液体平衡与心功能。容量负荷风险；宜小容量并再评估。",
+        "renal": "肾功能不全：严格监测液体平衡。无尿：限制容量（急性肺水肿风险）。",
+        "hepatico": "肝硬化腹水：限制容量（腹水与水肿加重风险）。若需扩容可优先白蛋白。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "生理盐水 - 扩张（成人）",
+        "doseTexto": "10-20 mL/kg IV 推注",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "生理盐水 - 维持（成人）",
+        "doseTexto": "30-40 mL/kg/日 IV",
+        "doseMin": 30,
+        "doseMax": 40,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "生理盐水 - KVO",
+        "doseTexto": "20-50 mL/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": "20-50 mL/h",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "生理盐水 - 扩张（儿童）",
+        "doseTexto": "10-20 mL/kg IV 推注（最大 500 mL）",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "生理盐水 - 维持（儿童）",
+        "doseTexto": "1-2 mL/kg/h 或 Holliday-Segar",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mL",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

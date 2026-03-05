@@ -1,0 +1,62 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Edoxabana",
+      "nome_comercial": ["Lixiana", "Savaysa"],
+      "classe_terapeutica": "DOAC - Inibidor direto do fator Xa",
+      "mecanismo_acao": "Inibe direta e seletivamente o fator Xa, bloqueando a via comum da cascata de coagulação e reduzindo a geração de trombina.",
+      "indicacoes": [
+        "Fibrilação atrial não valvar",
+        "Tratamento de TVP e TEP (após anticoagulação parenteral)",
+        "Prevenção de TVP/TEP recorrente"
+      ],
+      "contraindicacoes": [
+        "ClCr <15 mL/min",
+        "Sangramento ativo",
+        "Doença hepática com coagulopatia",
+        "ClCr >95 mL/min em FA (eficácia reduzida)"
+      ],
+      "apresentacoes": [
+        {"forma": "Comprimido", "concentracao": "15 mg"},
+        {"forma": "Comprimido", "concentracao": "30 mg"},
+        {"forma": "Comprimido", "concentracao": "60 mg"}
+      ],
+      "farmacocinetica": {
+        "biodisponibilidade": "62%",
+        "inicio_acao": "1-2 horas",
+        "pico": "1-2 horas",
+        "meia_vida": "10-14 horas",
+        "metabolismo": "Mínimo (CYP3A4 <4%)",
+        "excrecao": "Renal (50%) e fecal (50%)"
+      },
+      "ajuste_dose": {
+        "dose_padrao": "60 mg/dia",
+        "dose_reduzida": "30 mg/dia",
+        "criterios_reducao": ["ClCr 15-50 mL/min", "Peso ≤60 kg", "Uso de inibidores P-gp"]
+      },
+      "efeitos_adversos": [
+        "Sangramento",
+        "Anemia",
+        "Rash",
+        "Elevação de transaminases"
+      ],
+      "reversao": {
+        "especifica": "Andexanet alfa",
+        "inespecifica": "CCP"
+      },
+      "vantagens": [
+        "Uma dose diária",
+        "Pode tomar com ou sem alimento",
+        "Menor interação medicamentosa"
+      ],
+      "observacoes": [
+        "ATENÇÃO: ClCr >95 mL/min tem eficácia reduzida em FA",
+        "Requer anticoagulação parenteral inicial para TVP/TEP",
+        "Não requer monitoramento de rotina"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "Sim"
+      }
+    }
+  }
+}

@@ -1,0 +1,1146 @@
+{
+  "PT": {
+    "nome": "Lidocaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anest. Local - SEM vasoconstritor",
+          "descricaoDose": "4,5 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Anest. Local - COM vasoconstritor",
+          "descricaoDose": "7 mg/kg (máx 500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Anest. Local - SEM vaso (ped)",
+          "descricaoDose": "4 mg/kg (máx 200 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Anest. Local - COM vaso (ped)",
+          "descricaoDose": "5 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - TV/FV Bolus (ACLS)",
+          "descricaoDose": "1-1,5 mg/kg IV bolus (máx 3 mg/kg total)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir 30-50% em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - Bolus adicional",
+          "descricaoDose": "0,5-0,75 mg/kg IV a cada 5-10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 5-10 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir 30-50% em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - Infusão (adulto)",
+          "descricaoDose": "1-4 mg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/min",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": null,
+            "doseFixa": "1-4 mg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir 30-50% em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - Bolus (ped)",
+          "descricaoDose": "1 mg/kg IV bolus (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - Infusão (ped)",
+          "descricaoDose": "20-50 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em hepatopatia grave"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Antiarrítmico - Infusão (Adulto)",
+          "unidade": "mg/min",
+          "adulto": { "doseMin": 1, "doseMax": 4 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "1000mg em 500mL SF (2 mg/mL)", "valor": 2 },
+            { "rotulo": "500mg em 250mL SF (2 mg/mL)", "valor": 2 },
+            { "rotulo": "250mg em 250mL SF (1 mg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "Antiarrítmico - Infusão (Pediátrico)",
+          "unidade": "mcg/kg/min",
+          "adulto": null,
+          "pediatrico": { "doseMin": 20, "doseMax": 50 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "500mg em 250mL SF (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "250mg em 250mL SF (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "100mg em 100mL SF (1000 mcg/mL)", "valor": 1000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Anestésico local tipo amida / Antiarrítmico classe IB",
+      "apresentacoes": [
+        { "forma": "Ampola 2% (20 mg/mL) - 5mL, 10mL", "obs": "Uso EV antiarrítmico" },
+        { "forma": "Frasco 1% (10 mg/mL) - 20mL, 50mL", "obs": "Infiltração/Infusão" },
+        { "forma": "Frasco 2% com vasoconstritor", "obs": "Infiltração apenas" },
+        { "forma": "Frasco 0,5% (5 mg/mL)", "obs": "Infiltração/Bloqueios" }
+      ],
+      "preparo": [
+        { "diluicao": "1000mg + 500mL SF", "concentracao": "2 mg/mL" },
+        { "diluicao": "1000mg + 250mL SF", "concentracao": "4 mg/mL" },
+        { "diluicao": "500mg + 250mL SF", "concentracao": "2 mg/mL" },
+        { "diluicao": "Bolus: usar direto 20 mg/mL", "concentracao": "sem diluição" }
+      ],
+      "observacoes": [
+        "Uso EV APENAS formulação SEM vasoconstritor",
+        "Toxicidade neurológica precede cardiovascular (LAST)",
+        "Ter emulsão lipídica 20% disponível para LAST",
+        "Reduzir dose em hepatopatia grave (30-50%)",
+        "Monitorar ECG contínuo em uso antiarrítmico",
+        "Evitar vasoconstritor em extremidades (dedos, orelhas, nariz)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose de infiltração. Monitorar toxicidade em uso EV.",
+        "renal": "Sem ajuste inicial. Monitorar em infusão prolongada (metabólitos ativos MEGX, GX).",
+        "hepatico": "Reduzir 30-50% dose de infusão em insuficiência grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Anest. Local SEM vaso (adulto)",
+        "doseTexto": "4,5 mg/kg (máx 300 mg)",
+        "doseMin": 4.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anest. Local COM vaso (adulto)",
+        "doseTexto": "7 mg/kg (máx 500 mg)",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Antiarrítmico Bolus (adulto)",
+        "doseTexto": "1-1,5 mg/kg IV (máx 100 mg/dose)",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anest. Local SEM vaso (ped)",
+        "doseTexto": "4 mg/kg (máx 200 mg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Antiarrítmico Bolus (ped)",
+        "doseTexto": "1 mg/kg IV (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Lidocaine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Local Anesth. - WITHOUT vasoconstrictor",
+          "descricaoDose": "4.5 mg/kg (max 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Local Anesth. - WITH vasoconstrictor",
+          "descricaoDose": "7 mg/kg (max 500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Local Anesth. - WITHOUT vaso (ped)",
+          "descricaoDose": "4 mg/kg (max 200 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Local Anesth. - WITH vaso (ped)",
+          "descricaoDose": "5 mg/kg (max 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Antiarrhythmic - VT/VF Bolus (ACLS)",
+          "descricaoDose": "1-1.5 mg/kg IV bolus (max 3 mg/kg total)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce 30-50% in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Antiarrhythmic - Additional bolus",
+          "descricaoDose": "0.5-0.75 mg/kg IV every 5-10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 5-10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce 30-50% in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Antiarrhythmic - Infusion (adult)",
+          "descricaoDose": "1-4 mg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/min",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": null,
+            "doseFixa": "1-4 mg/min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce 30-50% in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Antiarrhythmic - Bolus (ped)",
+          "descricaoDose": "1 mg/kg IV bolus (max 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Antiarrhythmic - Infusion (ped)",
+          "descricaoDose": "20-50 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in severe hepatic impairment"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Antiarrhythmic - Infusion (Adult)",
+          "unidade": "mg/min",
+          "adulto": { "doseMin": 1, "doseMax": 4 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "1000mg in 500mL NS (2 mg/mL)", "valor": 2 },
+            { "rotulo": "500mg in 250mL NS (2 mg/mL)", "valor": 2 },
+            { "rotulo": "250mg in 250mL NS (1 mg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "Antiarrhythmic - Infusion (Pediatric)",
+          "unidade": "mcg/kg/min",
+          "adulto": null,
+          "pediatrico": { "doseMin": 20, "doseMax": 50 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "500mg in 250mL NS (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "250mg in 250mL NS (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "100mg in 100mL NS (1000 mcg/mL)", "valor": 1000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Amide-type local anesthetic / Class IB antiarrhythmic",
+      "apresentacoes": [
+        { "forma": "Ampoule 2% (20 mg/mL) - 5mL, 10mL", "obs": "IV antiarrhythmic use" },
+        { "forma": "Vial 1% (10 mg/mL) - 20mL, 50mL", "obs": "Infiltration/Infusion" },
+        { "forma": "Vial 2% with vasoconstrictor", "obs": "Infiltration only" },
+        { "forma": "Vial 0.5% (5 mg/mL)", "obs": "Infiltration/Blocks" }
+      ],
+      "preparo": [
+        { "diluicao": "1000mg + 500mL NS", "concentracao": "2 mg/mL" },
+        { "diluicao": "1000mg + 250mL NS", "concentracao": "4 mg/mL" },
+        { "diluicao": "500mg + 250mL NS", "concentracao": "2 mg/mL" },
+        { "diluicao": "Bolus: use directly 20 mg/mL", "concentracao": "undiluted" }
+      ],
+      "observacoes": [
+        "IV use ONLY with formulation WITHOUT vasoconstrictor",
+        "Neurologic toxicity precedes cardiovascular (LAST)",
+        "Have 20% lipid emulsion available for LAST",
+        "Reduce dose in severe hepatic impairment (30-50%)",
+        "Continuous ECG monitoring for antiarrhythmic use",
+        "Avoid vasoconstrictor in extremities (fingers, ears, nose)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce infiltration dose. Monitor for toxicity with IV use.",
+        "renal": "No initial adjustment. Monitor in prolonged infusion (active metabolites MEGX, GX).",
+        "hepatico": "Reduce infusion dose 30-50% in severe impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Local Anesth. WITHOUT vaso (adult)",
+        "doseTexto": "4.5 mg/kg (max 300 mg)",
+        "doseMin": 4.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Local Anesth. WITH vaso (adult)",
+        "doseTexto": "7 mg/kg (max 500 mg)",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Antiarrhythmic Bolus (adult)",
+        "doseTexto": "1-1.5 mg/kg IV (max 100 mg/dose)",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Local Anesth. WITHOUT vaso (ped)",
+        "doseTexto": "4 mg/kg (max 200 mg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Antiarrhythmic Bolus (ped)",
+        "doseTexto": "1 mg/kg IV (max 100 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Lidocaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anest. Local - SIN vasoconstrictor",
+          "descricaoDose": "4,5 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Anest. Local - CON vasoconstrictor",
+          "descricaoDose": "7 mg/kg (máx 500 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Anest. Local - SIN vaso (ped)",
+          "descricaoDose": "4 mg/kg (máx 200 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Anest. Local - CON vaso (ped)",
+          "descricaoDose": "5 mg/kg (máx 300 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - TV/FV Bolo (ACLS)",
+          "descricaoDose": "1-1,5 mg/kg IV bolo (máx 3 mg/kg total)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir 30-50% en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - Bolo adicional",
+          "descricaoDose": "0,5-0,75 mg/kg IV cada 5-10 min",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 5-10 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir 30-50% en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - Infusión (adulto)",
+          "descricaoDose": "1-4 mg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/min",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": null,
+            "doseFixa": "1-4 mg/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir 30-50% en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - Bolo (ped)",
+          "descricaoDose": "1 mg/kg IV bolo (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Antiarrítmico - Infusión (ped)",
+          "descricaoDose": "20-50 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en hepatopatía grave"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Antiarrítmico - Infusión (Adulto)",
+          "unidade": "mg/min",
+          "adulto": { "doseMin": 1, "doseMax": 4 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "1000mg en 500mL SSF (2 mg/mL)", "valor": 2 },
+            { "rotulo": "500mg en 250mL SSF (2 mg/mL)", "valor": 2 },
+            { "rotulo": "250mg en 250mL SSF (1 mg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "Antiarrítmico - Infusión (Pediátrico)",
+          "unidade": "mcg/kg/min",
+          "adulto": null,
+          "pediatrico": { "doseMin": 20, "doseMax": 50 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "500mg en 250mL SSF (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "250mg en 250mL SSF (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "100mg en 100mL SSF (1000 mcg/mL)", "valor": 1000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Anestésico local tipo amida / Antiarrítmico clase IB",
+      "apresentacoes": [
+        { "forma": "Ampolla 2% (20 mg/mL) - 5mL, 10mL", "obs": "Uso EV antiarrítmico" },
+        { "forma": "Frasco 1% (10 mg/mL) - 20mL, 50mL", "obs": "Infiltración/Infusión" },
+        { "forma": "Frasco 2% con vasoconstrictor", "obs": "Infiltración solamente" },
+        { "forma": "Frasco 0,5% (5 mg/mL)", "obs": "Infiltración/Bloqueos" }
+      ],
+      "preparo": [
+        { "diluicao": "1000mg + 500mL SSF", "concentracao": "2 mg/mL" },
+        { "diluicao": "1000mg + 250mL SSF", "concentracao": "4 mg/mL" },
+        { "diluicao": "500mg + 250mL SSF", "concentracao": "2 mg/mL" },
+        { "diluicao": "Bolo: usar directo 20 mg/mL", "concentracao": "sin dilución" }
+      ],
+      "observacoes": [
+        "Uso EV SOLO formulación SIN vasoconstrictor",
+        "Toxicidad neurológica precede a cardiovascular (LAST)",
+        "Tener emulsión lipídica 20% disponible para LAST",
+        "Reducir dosis en hepatopatía grave (30-50%)",
+        "Monitorizar ECG continuo en uso antiarrítmico",
+        "Evitar vasoconstrictor en extremidades (dedos, orejas, nariz)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis de infiltración. Monitorizar toxicidad en uso EV.",
+        "renal": "Sin ajuste inicial. Monitorizar en infusión prolongada (metabolitos activos MEGX, GX).",
+        "hepatico": "Reducir 30-50% dosis de infusión en insuficiencia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Anest. Local SIN vaso (adulto)",
+        "doseTexto": "4,5 mg/kg (máx 300 mg)",
+        "doseMin": 4.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anest. Local CON vaso (adulto)",
+        "doseTexto": "7 mg/kg (máx 500 mg)",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Antiarrítmico Bolo (adulto)",
+        "doseTexto": "1-1,5 mg/kg IV (máx 100 mg/dosis)",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anest. Local SIN vaso (ped)",
+        "doseTexto": "4 mg/kg (máx 200 mg)",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Antiarrítmico Bolo (ped)",
+        "doseTexto": "1 mg/kg IV (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "利多卡因",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "局麻 - 不含血管收缩剂",
+          "descricaoDose": "4.5 mg/kg（最大300 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润麻醉",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "局麻 - 含血管收缩剂",
+          "descricaoDose": "7 mg/kg（最大500 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 7,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 500,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润麻醉",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "局麻 - 不含血管收缩剂（儿童）",
+          "descricaoDose": "4 mg/kg（最大200 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "浸润麻醉",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "局麻 - 含血管收缩剂（儿童）",
+          "descricaoDose": "5 mg/kg（最大300 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "浸润麻醉",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "抗心律失常 - 室速/室颤负荷剂量 (ACLS)",
+          "descricaoDose": "1-1.5 mg/kg IV推注（总量最大3 mg/kg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量30-50%"
+          }
+        },
+        {
+          "titulo": "抗心律失常 - 追加剂量",
+          "descricaoDose": "0.5-0.75 mg/kg IV 每5-10分钟",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每5-10分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量30-50%"
+          }
+        },
+        {
+          "titulo": "抗心律失常 - 持续输注（成人）",
+          "descricaoDose": "1-4 mg/min IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/min",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": null,
+            "doseFixa": "1-4 mg/min",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量30-50%"
+          }
+        },
+        {
+          "titulo": "抗心律失常 - 负荷剂量（儿童）",
+          "descricaoDose": "1 mg/kg IV推注（最大100 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "抗心律失常 - 持续输注（儿童）",
+          "descricaoDose": "20-50 mcg/kg/min IV持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 50,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "抗心律失常 - 输注（成人）",
+          "unidade": "mg/min",
+          "adulto": { "doseMin": 1, "doseMax": 4 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "1000mg溶于500mL NS (2 mg/mL)", "valor": 2 },
+            { "rotulo": "500mg溶于250mL NS (2 mg/mL)", "valor": 2 },
+            { "rotulo": "250mg溶于250mL NS (1 mg/mL)", "valor": 1 }
+          ]
+        },
+        {
+          "titulo": "抗心律失常 - 输注（儿童）",
+          "unidade": "mcg/kg/min",
+          "adulto": null,
+          "pediatrico": { "doseMin": 20, "doseMax": 50 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "500mg溶于250mL NS (2000 mcg/mL)", "valor": 2000 },
+            { "rotulo": "250mg溶于250mL NS (1000 mcg/mL)", "valor": 1000 },
+            { "rotulo": "100mg溶于100mL NS (1000 mcg/mL)", "valor": 1000 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "酰胺类局部麻醉药 / IB类抗心律失常药",
+      "apresentacoes": [
+        { "forma": "安瓿 2% (20 mg/mL) - 5mL, 10mL", "obs": "静脉抗心律失常用" },
+        { "forma": "瓶装 1% (10 mg/mL) - 20mL, 50mL", "obs": "浸润/输注用" },
+        { "forma": "瓶装 2% 含血管收缩剂", "obs": "仅限浸润麻醉" },
+        { "forma": "瓶装 0.5% (5 mg/mL)", "obs": "浸润/阻滞用" }
+      ],
+      "preparo": [
+        { "diluicao": "1000mg + 500mL NS", "concentracao": "2 mg/mL" },
+        { "diluicao": "1000mg + 250mL NS", "concentracao": "4 mg/mL" },
+        { "diluicao": "500mg + 250mL NS", "concentracao": "2 mg/mL" },
+        { "diluicao": "推注：直接使用20 mg/mL", "concentracao": "不稀释" }
+      ],
+      "observacoes": [
+        "静脉使用仅限不含血管收缩剂的制剂",
+        "神经毒性先于心血管毒性出现（LAST）",
+        "备好20%脂肪乳剂用于LAST",
+        "严重肝功能不全时减量30-50%",
+        "抗心律失常使用时持续心电监护",
+        "避免在末梢部位使用血管收缩剂（手指、耳朵、鼻子）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减少浸润麻醉剂量。静脉使用时监测毒性。",
+        "renal": "初始无需调整。长时间输注时监测（活性代谢物MEGX、GX）。",
+        "hepatico": "严重肝功能不全时输注剂量减少30-50%。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "局麻 不含血管收缩剂（成人）",
+        "doseTexto": "4.5 mg/kg（最大300 mg）",
+        "doseMin": 4.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "局麻 含血管收缩剂（成人）",
+        "doseTexto": "7 mg/kg（最大500 mg）",
+        "doseMin": 7,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "抗心律失常 推注（成人）",
+        "doseTexto": "1-1.5 mg/kg IV（最大100 mg/次）",
+        "doseMin": 1,
+        "doseMax": 1.5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "局麻 不含血管收缩剂（儿童）",
+        "doseTexto": "4 mg/kg（最大200 mg）",
+        "doseMin": 4,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "抗心律失常 推注（儿童）",
+        "doseTexto": "1 mg/kg IV（最大100 mg）",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

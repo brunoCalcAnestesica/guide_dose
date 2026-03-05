@@ -1,0 +1,602 @@
+{
+  "PT": {
+    "nome": "Complexo Protrombínico (CCP)",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversão warfarina (INR 2-4)",
+          "descricaoDose": "25 U/kg IV dose única",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversão warfarina (INR 4-6)",
+          "descricaoDose": "35 U/kg IV dose única",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 35,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversão warfarina (INR >6)",
+          "descricaoDose": "50 U/kg IV dose única (máx 5000 U)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversão DOACs (off-label)",
+          "descricaoDose": "50 U/kg IV (se reversor específico não disponível)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Concentrado de fatores de coagulação (CCP 4 fatores)",
+      "apresentacoes": [
+        { "forma": "Frasco 500 UI", "obs": "Liofilizado + diluente 20 mL" },
+        { "forma": "Frasco 1000 UI", "obs": "Liofilizado + diluente 40 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Usar diluente do fabricante", "concentracao": "Reconstituição em 5-10 min" },
+        { "diluicao": "Velocidade máx 8 mL/min (~210 UI/min)", "concentracao": "Não misturar com outros medicamentos" }
+      ],
+      "observacoes": [
+        "Não requer tipagem sanguínea",
+        "Preferível ao PFC para reversão de warfarina (mais rápido, menor volume)",
+        "Associar vitamina K 10 mg IV (efeito em 6-12 h)",
+        "Monitorar INR 30 min após infusão",
+        "Risco trombótico: usar menor dose efetiva",
+        "Contraindicado em CIVD ativa e uso recente de heparina não fracionada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar risco trombótico.",
+        "renal": "Não requer ajuste. Hemoderivado; uso conforme indicação.",
+        "hepatico": "Frequentemente indicado em sangramento com anticoagulação. Avaliar causa e associar vitamina K quando warfarina."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "CCP (reversão warfarina - INR 2-4)",
+        "doseTexto": "25 U/kg IV",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCP (reversão warfarina - INR 4-6)",
+        "doseTexto": "35 U/kg IV",
+        "doseMin": 35,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCP (reversão warfarina - INR >6)",
+        "doseTexto": "50 U/kg IV (máx 5000 U)",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCP (reversão DOACs)",
+        "doseTexto": "50 U/kg IV",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Prothrombin Complex Concentrate (PCC)",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Warfarin reversal (INR 2-4)",
+          "descricaoDose": "25 U/kg IV single dose",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Warfarin reversal (INR 4-6)",
+          "descricaoDose": "35 U/kg IV single dose",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 35,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Warfarin reversal (INR >6)",
+          "descricaoDose": "50 U/kg IV single dose (max 5000 U)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "DOAC reversal (off-label)",
+          "descricaoDose": "50 U/kg IV (if specific reversal agent unavailable)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Blood product - 4-factor prothrombin complex concentrate",
+      "apresentacoes": [
+        { "forma": "Vial 500 U", "obs": "Lyophilized + 20 mL diluent" },
+        { "forma": "Vial 1000 U", "obs": "Lyophilized + 40 mL diluent" }
+      ],
+      "preparo": [
+        { "diluicao": "Use manufacturer diluent", "concentracao": "Reconstitution 5-10 min" },
+        { "diluicao": "Max rate 8 mL/min (~210 U/min)", "concentracao": "Do not mix with other drugs" }
+      ],
+      "observacoes": [
+        "No blood typing required",
+        "Preferred over FFP for warfarin reversal (faster, lower volume)",
+        "Give vitamin K 10 mg IV (effect in 6-12 h)",
+        "Check INR 30 min after infusion",
+        "Thrombotic risk: use lowest effective dose",
+        "Contraindicated in active DIC and recent unfractionated heparin"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor thrombotic risk.",
+        "renal": "No adjustment. Blood product; use per indication.",
+        "hepatico": "Often used in bleeding with anticoagulation. Assess cause and give vitamin K when on warfarin."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "PCC (warfarin reversal - INR 2-4)",
+        "doseTexto": "25 U/kg IV",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "PCC (warfarin reversal - INR 4-6)",
+        "doseTexto": "35 U/kg IV",
+        "doseMin": 35,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "PCC (warfarin reversal - INR >6)",
+        "doseTexto": "50 U/kg IV (max 5000 U)",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "PCC (DOAC reversal)",
+        "doseTexto": "50 U/kg IV",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Complejo Protrombínico (CCP)",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversión warfarina (INR 2-4)",
+          "descricaoDose": "25 U/kg IV dosis única",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Reversión warfarina (INR 4-6)",
+          "descricaoDose": "35 U/kg IV dosis única",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 35,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Reversión warfarina (INR >6)",
+          "descricaoDose": "50 U/kg IV dosis única (máx 5000 U)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Reversión ACOD (off-label)",
+          "descricaoDose": "50 U/kg IV (si no hay reversor específico)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado - Concentrado de factores de coagulación (CCP 4 factores)",
+      "apresentacoes": [
+        { "forma": "Frasco 500 UI", "obs": "Liofilizado + diluyente 20 mL" },
+        { "forma": "Frasco 1000 UI", "obs": "Liofilizado + diluyente 40 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Usar diluyente del fabricante", "concentracao": "Reconstitución 5-10 min" },
+        { "diluicao": "Velocidad máx 8 mL/min (~210 UI/min)", "concentracao": "No mezclar con otros fármacos" }
+      ],
+      "observacoes": [
+        "No requiere tipaje sanguíneo",
+        "Preferible al PFC para reversión de warfarina (más rápido, menor volumen)",
+        "Asociar vitamina K 10 mg IV (efecto en 6-12 h)",
+        "Monitorizar INR 30 min tras la infusión",
+        "Riesgo trombótico: usar menor dosis efectiva",
+        "Contraindicado en CIVD activa y heparina no fraccionada reciente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar riesgo trombótico.",
+        "renal": "No requiere ajuste. Hemoderivado; uso según indicación.",
+        "hepatico": "Frecuente en sangrado con anticoagulación. Valorar causa y asociar vitamina K si warfarina."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "CCP (reversión warfarina - INR 2-4)",
+        "doseTexto": "25 U/kg IV",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCP (reversión warfarina - INR 4-6)",
+        "doseTexto": "35 U/kg IV",
+        "doseMin": 35,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCP (reversión warfarina - INR >6)",
+        "doseTexto": "50 U/kg IV (máx 5000 U)",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCP (reversión ACOD)",
+        "doseTexto": "50 U/kg IV",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "凝血酶原复合物 (CCP)",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "华法林逆转 (INR 2-4)",
+          "descricaoDose": "25 U/kg IV 单次剂量",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "华法林逆转 (INR 4-6)",
+          "descricaoDose": "35 U/kg IV 单次剂量",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 35,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "华法林逆转 (INR >6)",
+          "descricaoDose": "50 U/kg IV 单次剂量 (最大 5000 U)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "DOAC 逆转 (超说明书)",
+          "descricaoDose": "50 U/kg IV (无特异性逆转剂时)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "血液制品 - 四因子凝血酶原复合物",
+      "apresentacoes": [
+        { "forma": "瓶 500 U", "obs": "冻干 + 稀释液 20 mL" },
+        { "forma": "瓶 1000 U", "obs": "冻干 + 稀释液 40 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "使用厂家稀释液", "concentracao": "复溶 5-10 分钟" },
+        { "diluicao": "最大速度 8 mL/min (~210 U/min)", "concentracao": "勿与其他药物混合" }
+      ],
+      "observacoes": [
+        "无需血型鉴定",
+        "华法林逆转优先于新鲜冰冻血浆（更快、容量更小）",
+        "联用维生素 K 10 mg IV（6-12 h 起效）",
+        "输注后 30 分钟测 INR",
+        "血栓风险：使用最低有效剂量",
+        "活动性 DIC 及近期使用普通肝素禁用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需剂量调整。监测血栓风险。",
+        "renal": "无需调整。血液制品；按适应证使用。",
+        "hepatico": "常用于抗凝出血。评估病因，华法林时联用维生素 K。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "CCP (华法林逆转 - INR 2-4)",
+        "doseTexto": "25 U/kg IV",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCP (华法林逆转 - INR 4-6)",
+        "doseTexto": "35 U/kg IV",
+        "doseMin": 35,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCP (华法林逆转 - INR >6)",
+        "doseTexto": "50 U/kg IV (最大 5000 U)",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "CCP (DOAC 逆转)",
+        "doseTexto": "50 U/kg IV",
+        "doseMin": 50,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

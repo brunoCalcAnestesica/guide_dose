@@ -1,0 +1,1438 @@
+{
+  "PT": {
+    "nome": "Meropenem",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções graves (padrão)",
+          "descricaoDose": "1 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite bacteriana",
+          "descricaoDose": "2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pneumonia nosocomial/VAP",
+          "descricaoDose": "1–2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecção intra-abdominal",
+          "descricaoDose": "1 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neutropenia febril",
+          "descricaoDose": "1–2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "1 g IV 30–60 min antes da incisão.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes da incisão",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves pediátricas",
+          "descricaoDose": "20 mg/kg IV 8/8h (máx 1 g/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite pediátrica",
+          "descricaoDose": "40 mg/kg IV 8/8h (máx 2 g/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN < 7 dias",
+          "descricaoDose": "20 mg/kg IV 12/12h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN > 7 dias",
+          "descricaoDose": "20 mg/kg IV 8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Fibrose cística",
+          "descricaoDose": "40 mg/kg IV 8/8h (máx 2 g/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico carbapenêmico; inibe síntese da parede celular (PBPs); estável frente à maioria das beta-lactamases.",
+      "apresentacoes": [
+        { "forma": "Pó liofilizado 500 mg", "obs": "Frasco-ampola – Meronem®, Meropenen®" },
+        { "forma": "Pó liofilizado 1 g", "obs": "Frasco-ampola" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 500 mg em 10 mL de diluente", "concentracao": "50 mg/mL" },
+        { "diluicao": "Reconstituir 1 g em 20 mL de diluente", "concentracao": "50 mg/mL" },
+        { "diluicao": "Diluir em 50–200 mL SF 0,9% ou SG 5%", "concentracao": "Para infusão" },
+        { "diluicao": "Bolus: infundir em 3–5 min", "concentracao": "IV" },
+        { "diluicao": "Infusão prolongada 3 h melhora PK/PD em infecções graves", "concentracao": "" },
+        { "diluicao": "Estabilidade: 4 h ambiente, 24 h refrigerado; usar preferencialmente em até 1 h após reconstituição", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Carbapenêmico de amplo espectro – bactericida tempo-dependente.",
+        "Ativo contra Gram+, Gram-, anaeróbios e produtores de ESBL. NÃO ativo contra MRSA e Enterococcus faecium.",
+        "Penetração no SNC adequada para meningite bacteriana.",
+        "Ajuste renal: ClCr 26–50 → 1 g 12/12h; ClCr 10–25 → 500 mg 12/12h; hemodiálise: dose após sessão.",
+        "Reduz níveis de valproato em até 90% – evitar associação ou monitorizar níveis.",
+        "Pode causar convulsões (menor risco que imipenem)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal. Ajuste de dose/intervalo conforme ClCr.",
+        "renal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálise: dose após sessão.",
+        "hepatico": "Excreção predominantemente renal. Ajuste hepático isolado não necessário conforme bula."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Meropenem – padrão (adulto)",
+        "doseTexto": "1 g IV 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – meningite (adulto)",
+        "doseTexto": "2 g IV 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – pneumonia/neutropenia (adulto)",
+        "doseTexto": "1–2 g IV 8/8h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – intra-abdominal (adulto)",
+        "doseTexto": "1 g IV 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – profilaxia cirúrgica",
+        "doseTexto": "1 g IV 30–60 min antes da incisão",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – pediátrico",
+        "doseTexto": "20 mg/kg IV 8/8h (máx 1 g/dose)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Meropenem – meningite (pediátrico)",
+        "doseTexto": "40 mg/kg IV 8/8h (máx 2 g/dose)",
+        "doseMin": 40,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Meropenem – RN",
+        "doseTexto": "20 mg/kg IV 12/12h ou 8/8h",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Meropenem – fibrose cística",
+        "doseTexto": "40 mg/kg IV 8/8h (máx 2 g/dose)",
+        "doseMin": 40,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Meropenem",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Severe infections (standard)",
+          "descricaoDose": "1 g IV q8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr 26–50: 1 g q12h; ClCr 10–25: 500 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bacterial meningitis",
+          "descricaoDose": "2 g IV q8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr 26–50: 1 g q12h; ClCr 10–25: 500 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nosocomial pneumonia/VAP",
+          "descricaoDose": "1–2 g IV q8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr 26–50: 1 g q12h; ClCr 10–25: 500 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intra-abdominal infection",
+          "descricaoDose": "1 g IV q8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr 26–50: 1 g q12h; ClCr 10–25: 500 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Febrile neutropenia",
+          "descricaoDose": "1–2 g IV q8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "ClCr 26–50: 1 g q12h; ClCr 10–25: 500 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "1 g IV 30–60 min before incision.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30–60 min before incision",
+            "ajusteRenal": "ClCr 26–50: 1 g q12h; ClCr 10–25: 500 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric severe infections",
+          "descricaoDose": "20 mg/kg IV q8h (max 1 g/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric meningitis",
+          "descricaoDose": "40 mg/kg IV q8h (max 2 g/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonate < 7 days",
+          "descricaoDose": "20 mg/kg IV q12h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q12h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonate > 7 days",
+          "descricaoDose": "20 mg/kg IV q8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cystic fibrosis",
+          "descricaoDose": "40 mg/kg IV q8h (max 2 g/dose).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Carbapenem antibiotic; inhibits bacterial cell wall synthesis (PBPs); stable against most beta-lactamases.",
+      "apresentacoes": [
+        { "forma": "Lyophilized powder 500 mg", "obs": "Vial – Merrem®, Meropenem" },
+        { "forma": "Lyophilized powder 1 g", "obs": "Vial" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute 500 mg with 10 mL diluent", "concentracao": "50 mg/mL" },
+        { "diluicao": "Reconstitute 1 g with 20 mL diluent", "concentracao": "50 mg/mL" },
+        { "diluicao": "Dilute in 50–200 mL 0.9% saline or D5W", "concentracao": "For infusion" },
+        { "diluicao": "Bolus: infuse over 3–5 min", "concentracao": "IV" },
+        { "diluicao": "Prolonged infusion 3 h improves PK/PD in severe infections", "concentracao": "" },
+        { "diluicao": "Stability: 4 h room temperature, 24 h refrigerated; use within 1 h of reconstitution when possible", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Broad-spectrum carbapenem – time-dependent bactericidal.",
+        "Active against Gram+, Gram-, anaerobes, and ESBL producers. Not active against MRSA and Enterococcus faecium.",
+        "Adequate CNS penetration for bacterial meningitis.",
+        "Renal adjustment: ClCr 26–50 → 1 g q12h; ClCr 10–25 → 500 mg q12h; hemodialysis: dose after session.",
+        "Reduces valproate levels by up to 90% – avoid combination or monitor levels.",
+        "May cause seizures (lower risk than imipenem)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function. Adjust dose/interval per ClCr.",
+        "renal": "ClCr 26–50: 1 g q12h; ClCr 10–25: 500 mg q12h; hemodialysis: dose after session.",
+        "hepatico": "Predominantly renal excretion. No isolated hepatic adjustment per labeling."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Meropenem – standard (adult)",
+        "doseTexto": "1 g IV q8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meropenem – meningitis (adult)",
+        "doseTexto": "2 g IV q8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meropenem – pneumonia/neutropenia (adult)",
+        "doseTexto": "1–2 g IV q8h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meropenem – intra-abdominal (adult)",
+        "doseTexto": "1 g IV q8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meropenem – surgical prophylaxis",
+        "doseTexto": "1 g IV 30–60 min before incision",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Meropenem – pediatric",
+        "doseTexto": "20 mg/kg IV q8h (max 1 g/dose)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Meropenem – meningitis (pediatric)",
+        "doseTexto": "40 mg/kg IV q8h (max 2 g/dose)",
+        "doseMin": 40,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Meropenem – neonate",
+        "doseTexto": "20 mg/kg IV q12h or q8h",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Meropenem – cystic fibrosis",
+        "doseTexto": "40 mg/kg IV q8h (max 2 g/dose)",
+        "doseMin": 40,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Meropenem",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones graves (estándar)",
+          "descricaoDose": "1 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis bacteriana",
+          "descricaoDose": "2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neumonía nosocomial/VAP",
+          "descricaoDose": "1–2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infección intraabdominal",
+          "descricaoDose": "1 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neutropenia febril",
+          "descricaoDose": "1–2 g IV 8/8h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "1 g IV 30–60 min antes de la incisión.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes de la incisión",
+            "ajusteRenal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves pediátricas",
+          "descricaoDose": "20 mg/kg IV 8/8h (máx 1 g/dosis).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis pediátrica",
+          "descricaoDose": "40 mg/kg IV 8/8h (máx 2 g/dosis).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN < 7 días",
+          "descricaoDose": "20 mg/kg IV 12/12h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "RN > 7 días",
+          "descricaoDose": "20 mg/kg IV 8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Fibrosis quística",
+          "descricaoDose": "40 mg/kg IV 8/8h (máx 2 g/dosis).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8/8h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico carbapenémico; inhibe síntesis de pared celular (PBPs); estable frente a la mayoría de beta-lactamasas.",
+      "apresentacoes": [
+        { "forma": "Polvo liofilizado 500 mg", "obs": "Frasco-ampolla – Meronem®, Meropenem" },
+        { "forma": "Polvo liofilizado 1 g", "obs": "Frasco-ampolla" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 500 mg en 10 mL de diluyente", "concentracao": "50 mg/mL" },
+        { "diluicao": "Reconstituir 1 g en 20 mL de diluyente", "concentracao": "50 mg/mL" },
+        { "diluicao": "Diluir en 50–200 mL SF 0,9% o SG 5%", "concentracao": "Para perfusión" },
+        { "diluicao": "Bolo: perfundir en 3–5 min", "concentracao": "IV" },
+        { "diluicao": "Perfusión prolongada 3 h mejora PK/PD en infecciones graves", "concentracao": "" },
+        { "diluicao": "Estabilidad: 4 h ambiente, 24 h refrigerado; usar preferiblemente en 1 h tras reconstitución", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Carbapenémico de amplio espectro – bactericida tiempo-dependiente.",
+        "Activo frente a Gram+, Gram-, anaerobios y productores de BLEE. NO activo frente a MRSA y Enterococcus faecium.",
+        "Penetración en SNC adecuada para meningitis bacteriana.",
+        "Ajuste renal: ClCr 26–50 → 1 g 12/12h; ClCr 10–25 → 500 mg 12/12h; hemodiálisis: dosis tras sesión.",
+        "Reduce niveles de valproato hasta 90% – evitar asociación o monitorizar niveles.",
+        "Puede causar convulsiones (menor riesgo que imipenem)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal. Ajuste de dosis/intervalo según ClCr.",
+        "renal": "ClCr 26–50: 1 g 12/12h; ClCr 10–25: 500 mg 12/12h; hemodiálisis: dosis tras sesión.",
+        "hepatico": "Excreción predominantemente renal. No se requiere ajuste hepático aislado según ficha técnica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Meropenem – estándar (adulto)",
+        "doseTexto": "1 g IV 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – meningitis (adulto)",
+        "doseTexto": "2 g IV 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – neumonía/neutropenia (adulto)",
+        "doseTexto": "1–2 g IV 8/8h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – intraabdominal (adulto)",
+        "doseTexto": "1 g IV 8/8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – profilaxis quirúrgica",
+        "doseTexto": "1 g IV 30–60 min antes de la incisión",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Meropenem – pediátrico",
+        "doseTexto": "20 mg/kg IV 8/8h (máx 1 g/dosis)",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Meropenem – meningitis (pediátrico)",
+        "doseTexto": "40 mg/kg IV 8/8h (máx 2 g/dosis)",
+        "doseMin": 40,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Meropenem – RN",
+        "doseTexto": "20 mg/kg IV 12/12h u 8/8h",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Meropenem – fibrosis quística",
+        "doseTexto": "40 mg/kg IV 8/8h (máx 2 g/dosis)",
+        "doseMin": 40,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "美罗培南",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "严重感染（标准）",
+          "descricaoDose": "1 g 静注 每8小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 26–50：1 g 每12h；ClCr 10–25：500 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "细菌性脑膜炎",
+          "descricaoDose": "2 g 静注 每8小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 26–50：1 g 每12h；ClCr 10–25：500 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "医院获得性肺炎/呼吸机相关",
+          "descricaoDose": "1–2 g 静注 每8小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 26–50：1 g 每12h；ClCr 10–25：500 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "腹腔感染",
+          "descricaoDose": "1 g 静注 每8小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 26–50：1 g 每12h；ClCr 10–25：500 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "发热性中性粒细胞减少",
+          "descricaoDose": "1–2 g 静注 每8小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "ClCr 26–50：1 g 每12h；ClCr 10–25：500 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "1 g 静注 切皮前30–60分钟。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "切皮前30–60分钟",
+            "ajusteRenal": "ClCr 26–50：1 g 每12h；ClCr 10–25：500 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿科严重感染",
+          "descricaoDose": "20 mg/kg 静注 每8小时（最大1 g/剂）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童脑膜炎",
+          "descricaoDose": "40 mg/kg 静注 每8小时（最大2 g/剂）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "新生儿 < 7天",
+          "descricaoDose": "20 mg/kg 静注 每12小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "新生儿 > 7天",
+          "descricaoDose": "20 mg/kg 静注 每8小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 20,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "囊性纤维化",
+          "descricaoDose": "40 mg/kg 静注 每8小时（最大2 g/剂）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "碳青霉烯类抗生素；抑制细菌细胞壁合成（PBPs）；对多数β-内酰胺酶稳定。",
+      "apresentacoes": [
+        { "forma": "冻干粉 500 mg", "obs": "西林瓶" },
+        { "forma": "冻干粉 1 g", "obs": "西林瓶" }
+      ],
+      "preparo": [
+        { "diluicao": "500 mg 用10 mL稀释液配制", "concentracao": "50 mg/mL" },
+        { "diluicao": "1 g 用20 mL稀释液配制", "concentracao": "50 mg/mL" },
+        { "diluicao": "稀释于50–200 mL生理盐水或5%葡萄糖", "concentracao": "用于输注" },
+        { "diluicao": "推注：3–5分钟内输注", "concentracao": "静注" },
+        { "diluicao": "严重感染可延长输注3小时以优化PK/PD", "concentracao": "" },
+        { "diluicao": "稳定性：室温4 h，冷藏24 h；配制后尽量1小时内使用", "concentracao": "" }
+      ],
+      "observacoes": [
+        "广谱碳青霉烯类，时间依赖性杀菌。",
+        "对革兰阳性、革兰阴性、厌氧菌及产ESBL菌有效。对MRSA和屎肠球菌无活性。",
+        "中枢穿透良好，适用于细菌性脑膜炎。",
+        "肾调整：ClCr 26–50 → 1 g 每12h；ClCr 10–25 → 500 mg 每12h；血液透析后给药。",
+        "可使丙戊酸浓度下降约90%，避免联用或监测浓度。",
+        "可致癫痫发作（较亚胺培南风险低）。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "用药前评估肾功能。按ClCr调整剂量/间隔。",
+        "renal": "ClCr 26–50：1 g 每12h；ClCr 10–25：500 mg 每12h；血液透析后给药。",
+        "hepatico": "主要经肾排泄。说明书无需单独肝调整。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "美罗培南 – 标准（成人）",
+        "doseTexto": "1 g 静注 每8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美罗培南 – 脑膜炎（成人）",
+        "doseTexto": "2 g 静注 每8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美罗培南 – 肺炎/粒细胞缺乏（成人）",
+        "doseTexto": "1–2 g 静注 每8小时",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美罗培南 – 腹腔（成人）",
+        "doseTexto": "1 g 静注 每8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美罗培南 – 手术预防",
+        "doseTexto": "1 g 静注 切皮前30–60分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美罗培南 – 儿童",
+        "doseTexto": "20 mg/kg 静注 每8小时（最大1 g/剂）",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "美罗培南 – 脑膜炎（儿童）",
+        "doseTexto": "40 mg/kg 静注 每8小时（最大2 g/剂）",
+        "doseMin": 40,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "美罗培南 – 新生儿",
+        "doseTexto": "20 mg/kg 静注 每12或8小时",
+        "doseMin": 20,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "美罗培南 – 囊性纤维化",
+        "doseTexto": "40 mg/kg 静注 每8小时（最大2 g/剂）",
+        "doseMin": 40,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

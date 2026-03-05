@@ -1,0 +1,1022 @@
+{
+  "PT": {
+    "nome": "Hidrocortisona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Crise adrenal aguda (dose de ataque)",
+          "descricaoDose": "100 mg IV em bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Manutenção crise adrenal",
+          "descricaoDose": "50-100 mg IV a cada 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Choque séptico com insuficiência adrenal",
+          "descricaoDose": "50 mg IV a cada 6h (200 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Anafilaxia",
+          "descricaoDose": "100-500 mg IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "100-500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Asma grave/DPOC aguda",
+          "descricaoDose": "100-200 mg IV a cada 6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Crise adrenal pediátrica",
+          "descricaoDose": "1-2 mg/kg/dose IV a cada 6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Anafilaxia pediátrica",
+          "descricaoDose": "1-2 mg/kg IV (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Crupe",
+          "descricaoDose": "1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir em insuficiência hepática grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Corticosteroide sistêmico - Glicocorticoide de curta duração",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 100 mg liofilizado", "obs": "" },
+        { "forma": "Frasco-ampola 500 mg liofilizado", "obs": "" },
+        { "forma": "Frasco-ampola 1 g liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 100 mg", "concentracao": "Adicionar 2 mL do diluente fornecido" },
+        { "diluicao": "Reconstituir 500 mg", "concentracao": "Adicionar 5 mL do diluente fornecido" },
+        { "diluicao": "Bolus IV", "concentracao": "Usar direto ou diluir em 10-20 mL SF (2-5 min)" },
+        { "diluicao": "Infusão IV", "concentracao": "Diluir em 100-250 mL SF 0,9% ou SG 5%" }
+      ],
+      "observacoes": [
+        "Início de ação: minutos (choque adrenal)",
+        "Pico: 1-2 horas. Meia-vida biológica: 8-12 horas",
+        "Dose máxima adultos: 1,5-2 g/dia. Pediátrica: 240 mg/m²/dia",
+        "Administrar bolus lento (2-5 minutos)",
+        "Monitorar glicemia e eletrólitos (K+, Na+)",
+        "Contraindicado em infecção fúngica sistêmica e vacinas de vírus vivos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar glicemia e eletrólitos. Risco aumentado de hiperglicemia e hipocalemia.",
+        "renal": "Não requer ajuste. Monitorar balanço hídrico e eletrólitos.",
+        "hepatico": "Reduzir dose em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hidrocortisona - Crise adrenal (adulto)",
+        "doseTexto": "100 mg IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidrocortisona - Choque séptico (adulto)",
+        "doseTexto": "50 mg IV a cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidrocortisona - Anafilaxia (adulto)",
+        "doseTexto": "100-500 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidrocortisona - Asma/DPOC (adulto)",
+        "doseTexto": "100-200 mg IV a cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidrocortisona (pediátrico)",
+        "doseTexto": "1-2 mg/kg IV (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Hydrocortisone",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute adrenal crisis (loading dose)",
+          "descricaoDose": "100 mg IV bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Adrenal crisis maintenance",
+          "descricaoDose": "50-100 mg IV every 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Septic shock with adrenal insufficiency",
+          "descricaoDose": "50 mg IV every 6h (200 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Anaphylaxis",
+          "descricaoDose": "100-500 mg IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "100-500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Severe asthma/acute COPD",
+          "descricaoDose": "100-200 mg IV every 6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric adrenal crisis",
+          "descricaoDose": "1-2 mg/kg/dose IV every 6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric anaphylaxis",
+          "descricaoDose": "1-2 mg/kg IV (max 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Croup",
+          "descricaoDose": "1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce in severe hepatic impairment"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Systemic corticosteroid - Short-acting glucocorticoid",
+      "apresentacoes": [
+        { "forma": "Lyophilized vial 100 mg", "obs": "" },
+        { "forma": "Lyophilized vial 500 mg", "obs": "" },
+        { "forma": "Lyophilized vial 1 g", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute 100 mg", "concentracao": "Add 2 mL of provided diluent" },
+        { "diluicao": "Reconstitute 500 mg", "concentracao": "Add 5 mL of provided diluent" },
+        { "diluicao": "IV bolus", "concentracao": "Use directly or dilute in 10-20 mL NS (2-5 min)" },
+        { "diluicao": "IV infusion", "concentracao": "Dilute in 100-250 mL NS or D5W" }
+      ],
+      "observacoes": [
+        "Onset: minutes (adrenal shock)",
+        "Peak: 1-2 hours. Biological half-life: 8-12 hours",
+        "Max dose adults: 1.5-2 g/day. Pediatric: 240 mg/m²/day",
+        "Administer bolus slowly (2-5 minutes)",
+        "Monitor blood glucose and electrolytes (K+, Na+)",
+        "Contraindicated in systemic fungal infection and live virus vaccines"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor blood glucose and electrolytes. Increased risk of hyperglycemia and hypokalemia.",
+        "renal": "No dose adjustment required. Monitor fluid balance and electrolytes.",
+        "hepatico": "Reduce dose in severe hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hydrocortisone - Adrenal crisis (adult)",
+        "doseTexto": "100 mg IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydrocortisone - Septic shock (adult)",
+        "doseTexto": "50 mg IV every 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydrocortisone - Anaphylaxis (adult)",
+        "doseTexto": "100-500 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-500 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydrocortisone - Asthma/COPD (adult)",
+        "doseTexto": "100-200 mg IV every 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydrocortisone (pediatric)",
+        "doseTexto": "1-2 mg/kg IV (max 100 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Hidrocortisona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Crisis adrenal aguda (dosis de ataque)",
+          "descricaoDose": "100 mg IV en bolo",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Mantenimiento crisis adrenal",
+          "descricaoDose": "50-100 mg IV cada 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Shock séptico con insuficiencia adrenal",
+          "descricaoDose": "50 mg IV cada 6h (200 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Anafilaxia",
+          "descricaoDose": "100-500 mg IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "100-500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Asma grave/EPOC aguda",
+          "descricaoDose": "100-200 mg IV cada 6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Crisis adrenal pediátrica",
+          "descricaoDose": "1-2 mg/kg/dosis IV cada 6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Anafilaxia pediátrica",
+          "descricaoDose": "1-2 mg/kg IV (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Crup",
+          "descricaoDose": "1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir en insuficiencia hepática grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Corticosteroide sistémico - Glucocorticoide de acción corta",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 100 mg liofilizado", "obs": "" },
+        { "forma": "Frasco-ampolla 500 mg liofilizado", "obs": "" },
+        { "forma": "Frasco-ampolla 1 g liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 100 mg", "concentracao": "Añadir 2 mL del diluyente proporcionado" },
+        { "diluicao": "Reconstituir 500 mg", "concentracao": "Añadir 5 mL del diluyente proporcionado" },
+        { "diluicao": "Bolo IV", "concentracao": "Usar directo o diluir en 10-20 mL SSF (2-5 min)" },
+        { "diluicao": "Infusión IV", "concentracao": "Diluir en 100-250 mL SSF 0,9% o SG 5%" }
+      ],
+      "observacoes": [
+        "Inicio de acción: minutos (choque adrenal)",
+        "Pico: 1-2 horas. Vida media biológica: 8-12 horas",
+        "Dosis máxima adultos: 1,5-2 g/día. Pediátrica: 240 mg/m²/día",
+        "Administrar bolo lento (2-5 minutos)",
+        "Monitorizar glucemia y electrolitos (K+, Na+)",
+        "Contraindicado en infección fúngica sistémica y vacunas de virus vivos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar glucemia y electrolitos. Riesgo aumentado de hiperglucemia e hipocalemia.",
+        "renal": "No requiere ajuste. Monitorizar balance hídrico y electrolitos.",
+        "hepatico": "Reducir dosis en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hidrocortisona - Crisis adrenal (adulto)",
+        "doseTexto": "100 mg IV en bolo",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidrocortisona - Shock séptico (adulto)",
+        "doseTexto": "50 mg IV cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidrocortisona - Anafilaxia (adulto)",
+        "doseTexto": "100-500 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidrocortisona - Asma/EPOC (adulto)",
+        "doseTexto": "100-200 mg IV cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidrocortisona (pediátrico)",
+        "doseTexto": "1-2 mg/kg IV (máx 100 mg)",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氢化可的松",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性肾上腺危象（负荷剂量）",
+          "descricaoDose": "100 mg IV 推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "肾上腺危象维持",
+          "descricaoDose": "50-100 mg IV 每6-8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "脓毒症休克伴肾上腺功能不全",
+          "descricaoDose": "50 mg IV 每6小时（200 mg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 50,
+            "doseMaxima": 50,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "过敏反应",
+          "descricaoDose": "100-500 mg IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "100-500 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "严重哮喘/急性COPD",
+          "descricaoDose": "100-200 mg IV 每6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "儿童肾上腺危象",
+          "descricaoDose": "1-2 mg/kg/次 IV 每6小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "儿童过敏反应",
+          "descricaoDose": "1-2 mg/kg IV（最大100 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "喉气管支气管炎",
+          "descricaoDose": "1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时减量"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "全身性皮质类固醇 - 短效糖皮质激素",
+      "apresentacoes": [
+        { "forma": "冻干粉 100 mg", "obs": "" },
+        { "forma": "冻干粉 500 mg", "obs": "" },
+        { "forma": "冻干粉 1 g", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "配制 100 mg", "concentracao": "加入2 mL提供的稀释液" },
+        { "diluicao": "配制 500 mg", "concentracao": "加入5 mL提供的稀释液" },
+        { "diluicao": "IV 推注", "concentracao": "直接使用或溶于10-20 mL NS（2-5分钟）" },
+        { "diluicao": "IV 输注", "concentracao": "溶于100-250 mL NS或D5W" }
+      ],
+      "observacoes": [
+        "起效：分钟（肾上腺休克）",
+        "峰值：1-2小时。生物半衰期：8-12小时",
+        "成人最大剂量：1.5-2 g/天。儿童：240 mg/m²/天",
+        "推注需缓慢（2-5分钟）",
+        "监测血糖和电解质（K+、Na+）",
+        "全身真菌感染和活病毒疫苗禁用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测血糖和电解质。高血糖和低钾血症风险增加。",
+        "renal": "无需调整。监测液体平衡和电解质。",
+        "hepatico": "严重肝功能不全时减量。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氢化可的松 - 肾上腺危象（成人）",
+        "doseTexto": "100 mg IV 推注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氢化可的松 - 脓毒症休克（成人）",
+        "doseTexto": "50 mg IV 每6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氢化可的松 - 过敏反应（成人）",
+        "doseTexto": "100-500 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-500 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氢化可的松 - 哮喘/COPD（成人）",
+        "doseTexto": "100-200 mg IV 每6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氢化可的松（儿童）",
+        "doseTexto": "1-2 mg/kg IV（最大100 mg）",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

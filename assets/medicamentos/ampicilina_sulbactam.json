@@ -1,0 +1,40 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Ampicilina + Sulbactam",
+      "nome_comercial": ["Unasyn"],
+      "classe_terapeutica": "Penicilina + Inibidor de beta-lactamase",
+      "mecanismo_acao": "Ampicilina inibe a síntese da parede celular bacteriana. Sulbactam é um inibidor irreversível de beta-lactamases, restaurando a atividade da ampicilina contra bactérias produtoras dessas enzimas.",
+      "espectro": {
+        "gram_positivos": ["Streptococcus", "Enterococcus faecalis", "Staphylococcus (MSSA)"],
+        "gram_negativos": ["H. influenzae", "M. catarrhalis", "E. coli", "Klebsiella", "Proteus"],
+        "anaerobios": ["Bacteroides fragilis", "Peptostreptococcus"]
+      },
+      "nao_cobre": ["Pseudomonas aeruginosa", "MRSA", "Enterobacter", "Serratia"],
+      "indicacoes": [
+        "Infecções intra-abdominais",
+        "Infecções ginecológicas",
+        "Infecções de pele e tecidos moles",
+        "Pneumonia aspirativa",
+        "Profilaxia cirúrgica"
+      ],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "1,5g", "composicao": "1g ampicilina + 0,5g sulbactam"},
+        {"forma": "Frasco", "concentracao": "3g", "composicao": "2g ampicilina + 1g sulbactam"}
+      ],
+      "farmacocinetica": {
+        "meia_vida": "1 hora",
+        "excrecao": "Renal (75-85%)",
+        "ligacao_proteica": "28%"
+      },
+      "ajuste_renal": {
+        "ClCr_30_50": "Sem ajuste",
+        "ClCr_15_30": "A cada 12h",
+        "ClCr_menor_15": "A cada 24h"
+      },
+      "efeitos_adversos": ["Diarreia", "Rash", "Reações alérgicas", "Elevação transaminases"],
+      "contraindicacoes": ["Alergia a penicilinas"],
+      "observacoes": ["Proporção fixa 2:1 ampicilina:sulbactam"]
+    }
+  }
+}

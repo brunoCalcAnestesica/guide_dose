@@ -1,0 +1,682 @@
+{
+  "PT": {
+    "nome": "Nitrofurantoína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Cistite não complicada – tratamento",
+          "descricaoDose": "100 mg VO 6/6h por 5-7 dias (tomar com alimentos)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h por 5-7 dias",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz e toxicidade aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cistite – macrocristais (melhor tolerância)",
+          "descricaoDose": "100 mg VO 12/12h por 5-7 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h por 5-7 dias",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz e toxicidade aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia de ITU recorrente",
+          "descricaoDose": "50-100 mg VO 1x/dia ao deitar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ao deitar",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz e toxicidade aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – cistite (tratamento)",
+          "descricaoDose": "1-2 mg/kg/dose VO 6/6h por 7 dias",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h por 7 dias",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz e toxicidade aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – profilaxia de ITU",
+          "descricaoDose": "1-2 mg/kg/dose VO 1x/dia ao deitar",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ao deitar",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz e toxicidade aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – nitrofurano. Inibe síntese de DNA/RNA/proteínas bacterianas. Bactericida em concentração urinária; atinge concentração terapêutica apenas na urina.",
+      "apresentacoes": [
+        { "forma": "Cápsulas macrocristais 50 mg", "obs": "Melhor tolerância" },
+        { "forma": "Cápsulas macrocristais 100 mg", "obs": "Tratamento e profilaxia" },
+        { "forma": "Suspensão oral 25 mg/5 mL", "obs": "Pediátrico" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral – tomar com alimentos", "concentracao": "" },
+        { "diluicao": "Suspensão: agitar antes de usar", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Apenas para ITU baixa (cistite). Não usar em pielonefrite, bacteremia ou ITU com cateter.",
+        "Tomar com alimentos (aumenta absorção e reduz náusea).",
+        "Pode escurecer a urina (normal, inofensivo).",
+        "Toxicidade pulmonar (pneumonite) com uso prolongado (>6 meses); neuropatia periférica.",
+        "Boa opção para E. coli ESBL em cistite. Contraindicado em ClCr <30, G6PD, neonatos <1 mês, gestação a termo.",
+        "Categoria B na gestação; evitar nas últimas semanas."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal (ClCr). Contraindicado se ClCr <30. Maior risco de efeitos adversos e pneumonite.",
+        "renal": "ClCr <30 mL/min: contraindicado – ineficaz e toxicidade aumentada. Não usar em insuficiência renal significativa.",
+        "hepatico": "Não requer ajuste de dose. Hepatotoxicidade rara; monitorar se uso prolongado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nitrofurantoína – adulto (cistite)",
+        "doseTexto": "100 mg VO 6/6h ou 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitrofurantoína – profilaxia",
+        "doseTexto": "50-100 mg VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitrofurantoína – pediátrico",
+        "doseTexto": "1-2 mg/kg VO 6/6h",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Nitrofurantoin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Uncomplicated cystitis – treatment",
+          "descricaoDose": "100 mg PO 6/6h for 5-7 days (take with food)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 6 h for 5-7 days",
+            "ajusteRenal": "ClCr <30: contraindicated (ineffective and increased toxicity)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cystitis – macrocrystals (better tolerance)",
+          "descricaoDose": "100 mg PO 12/12h for 5-7 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 12 h for 5-7 days",
+            "ajusteRenal": "ClCr <30: contraindicated (ineffective and increased toxicity)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Recurrent UTI prophylaxis",
+          "descricaoDose": "50-100 mg PO once daily at bedtime",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once daily at bedtime",
+            "ajusteRenal": "ClCr <30: contraindicated (ineffective and increased toxicity)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric – cystitis (treatment)",
+          "descricaoDose": "1-2 mg/kg/dose PO 6/6h for 7 days",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "every 6 h for 7 days",
+            "ajusteRenal": "ClCr <30: contraindicated (ineffective and increased toxicity)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric – UTI prophylaxis",
+          "descricaoDose": "1-2 mg/kg/dose PO once daily at bedtime",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once daily at bedtime",
+            "ajusteRenal": "ClCr <30: contraindicated (ineffective and increased toxicity)",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiotic – nitrofuran. Inhibits bacterial DNA/RNA/protein synthesis. Bactericidal at urinary concentration; therapeutic levels only in urine.",
+      "apresentacoes": [
+        { "forma": "Macrocrystal capsules 50 mg", "obs": "Better tolerance" },
+        { "forma": "Macrocrystal capsules 100 mg", "obs": "Treatment and prophylaxis" },
+        { "forma": "Oral suspension 25 mg/5 mL", "obs": "Pediatric" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral use – take with food", "concentracao": "" },
+        { "diluicao": "Suspension: shake before use", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Only for lower UTI (cystitis). Do not use in pyelonephritis, bacteremia, or catheter-associated UTI.",
+        "Take with food (improves absorption and reduces nausea).",
+        "May darken urine (normal, harmless).",
+        "Pulmonary toxicity (pneumonitis) with prolonged use (>6 months); peripheral neuropathy.",
+        "Good option for ESBL E. coli cystitis. Contraindicated in ClCr <30, G6PD deficiency, neonates <1 month, late pregnancy.",
+        "Pregnancy category B; avoid in late pregnancy."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function (ClCr). Contraindicated if ClCr <30. Higher risk of adverse effects and pneumonitis.",
+        "renal": "ClCr <30 mL/min: contraindicated – ineffective and increased toxicity. Do not use in significant renal impairment.",
+        "hepatico": "No dose adjustment required. Hepatotoxicity rare; monitor if prolonged use."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nitrofurantoin – adult (cystitis)",
+        "doseTexto": "100 mg PO 6/6h or 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitrofurantoin – prophylaxis",
+        "doseTexto": "50-100 mg PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitrofurantoin – pediatric",
+        "doseTexto": "1-2 mg/kg PO 6/6h",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Nitrofurantoína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Cistitis no complicada – tratamiento",
+          "descricaoDose": "100 mg VO 6/6h por 5-7 días (tomar con alimentos)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h por 5-7 días",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz y toxicidad aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cistitis – macrocristales (mejor tolerancia)",
+          "descricaoDose": "100 mg VO 12/12h por 5-7 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h por 5-7 días",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz y toxicidad aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis de ITU recurrente",
+          "descricaoDose": "50-100 mg VO 1x/día al acostar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día al acostar",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz y toxicidad aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – cistitis (tratamiento)",
+          "descricaoDose": "1-2 mg/kg/dosis VO 6/6h por 7 días",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "6/6h por 7 días",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz y toxicidad aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – profilaxis de ITU",
+          "descricaoDose": "1-2 mg/kg/dosis VO 1x/día al acostar",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día al acostar",
+            "ajusteRenal": "ClCr <30: contraindicado (ineficaz y toxicidad aumentada)",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – nitrofurano. Inhibe síntesis de DNA/RNA/proteínas bacterianas. Bactericida en concentración urinaria; alcanza concentración terapéutica solo en orina.",
+      "apresentacoes": [
+        { "forma": "Cápsulas macrocristales 50 mg", "obs": "Mejor tolerancia" },
+        { "forma": "Cápsulas macrocristales 100 mg", "obs": "Tratamiento y profilaxis" },
+        { "forma": "Suspensión oral 25 mg/5 mL", "obs": "Pediátrico" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral – tomar con alimentos", "concentracao": "" },
+        { "diluicao": "Suspensión: agitar antes de usar", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Solo para ITU baja (cistitis). No usar en pielonefritis, bacteriemia o ITU con catéter.",
+        "Tomar con alimentos (mejora absorción y reduce náuseas).",
+        "Puede oscurecer la orina (normal, inofensivo).",
+        "Toxicidad pulmonar (neumonitis) con uso prolongado (>6 meses); neuropatía periférica.",
+        "Buena opción para E. coli ESBL en cistitis. Contraindicado en ClCr <30, G6PD, neonatos <1 mes, gestación a término.",
+        "Categoría B en gestación; evitar en las últimas semanas."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal (ClCr). Contraindicado si ClCr <30. Mayor riesgo de efectos adversos y neumonitis.",
+        "renal": "ClCr <30 mL/min: contraindicado – ineficaz y toxicidad aumentada. No usar en insuficiencia renal significativa.",
+        "hepatico": "No requiere ajuste de dosis. Hepatotoxicidad rara; monitorizar si uso prolongado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nitrofurantoína – adulto (cistitis)",
+        "doseTexto": "100 mg VO 6/6h o 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitrofurantoína – profilaxis",
+        "doseTexto": "50-100 mg VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitrofurantoína – pediátrico",
+        "doseTexto": "1-2 mg/kg VO 6/6h",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "呋喃妥因",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "单纯性膀胱炎 – 治疗",
+          "descricaoDose": "100 mg 口服 每6小时 5-7天（与食物同服）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每6小时 5-7天",
+            "ajusteRenal": "ClCr <30: 禁忌（无效且毒性增加）",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "膀胱炎 – 大结晶（耐受更好）",
+          "descricaoDose": "100 mg 口服 每12小时 5-7天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时 5-7天",
+            "ajusteRenal": "ClCr <30: 禁忌（无效且毒性增加）",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "复发性尿路感染预防",
+          "descricaoDose": "50-100 mg 口服 每日1次 睡前",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 100,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次睡前",
+            "ajusteRenal": "ClCr <30: 禁忌（无效且毒性增加）",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿科 – 膀胱炎（治疗）",
+          "descricaoDose": "1-2 mg/kg/剂 口服 每6小时 7天",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每6小时 7天",
+            "ajusteRenal": "ClCr <30: 禁忌（无效且毒性增加）",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿科 – 尿路感染预防",
+          "descricaoDose": "1-2 mg/kg/剂 口服 每日1次睡前",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1.5,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次睡前",
+            "ajusteRenal": "ClCr <30: 禁忌（无效且毒性增加）",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗生素 – 硝基呋喃类。抑制细菌DNA/RNA/蛋白质合成。尿中杀菌；仅尿中达治疗浓度。",
+      "apresentacoes": [
+        { "forma": "大结晶胶囊 50 mg", "obs": "耐受更好" },
+        { "forma": "大结晶胶囊 100 mg", "obs": "治疗与预防" },
+        { "forma": "口服混悬液 25 mg/5 mL", "obs": "儿科" }
+      ],
+      "preparo": [
+        { "diluicao": "口服 – 与食物同服", "concentracao": "" },
+        { "diluicao": "混悬液：用前摇匀", "concentracao": "" }
+      ],
+      "observacoes": [
+        "仅用于下尿路感染（膀胱炎）。不用于肾盂肾炎、菌血症或导管相关尿感。",
+        "与食物同服（提高吸收、减少恶心）。",
+        "可使尿液变深（正常、无害）。",
+        "长期使用（>6月）有肺毒性（肺炎）；周围神经病变。",
+        "ESBL大肠杆菌膀胱炎可选。ClCr <30、G6PD缺乏、<1月新生儿、妊娠晚期禁忌。",
+        "妊娠B类；妊娠晚期避免。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估肾功能(ClCr)。ClCr <30禁忌。不良反应及肺炎风险更高。",
+        "renal": "ClCr <30 mL/min: 禁忌 – 无效且毒性增加。显著肾功能不全勿用。",
+        "hepatico": "无需调量。肝毒性罕见；长期用需监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "呋喃妥因 – 成人（膀胱炎）",
+        "doseTexto": "100 mg 口服 每6或12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "呋喃妥因 – 预防",
+        "doseTexto": "50-100 mg 口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "呋喃妥因 – 儿科",
+        "doseTexto": "1-2 mg/kg 口服 每6小时",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

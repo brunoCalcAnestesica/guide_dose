@@ -1,0 +1,72 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Andexanet Alfa",
+      "nomesComerciais": ["Andexxa®", "Ondexxya®"],
+      "classeTerapeutica": "Antídoto / Fator Xa recombinante modificado",
+      "mecanismoAcao": "Proteína recombinante modificada do fator Xa humano que atua como 'decoy' (isca), ligando-se aos inibidores diretos do fator Xa (rivaroxabana, apixabana, edoxabana) e à enoxaparina, sequestrando esses anticoagulantes e restaurando a atividade do fator Xa endógeno.",
+      "indicacoes": [
+        "Reversão de rivaroxabana (Xarelto®) com sangramento grave",
+        "Reversão de apixabana (Eliquis®) com sangramento grave",
+        "Reversão de edoxabana (Lixiana®) - em estudo",
+        "Reversão de enoxaparina - em estudo"
+      ],
+      "apresentacoes": [
+        "Frasco 200 mg (pó liofilizado)",
+        "Reconstituição: 20 mL de água estéril (10 mg/mL)"
+      ],
+      "posologia": {
+        "dose_baixa": {
+          "indicacao": "Rivaroxabana ≤10 mg, Apixabana ≤5 mg, ou última dose >8h",
+          "bolus": "400 mg IV (30 mg/min)",
+          "infusao": "4 mg/min por 2 horas (480 mg)",
+          "total": "880 mg"
+        },
+        "dose_alta": {
+          "indicacao": "Rivaroxabana >10 mg, Apixabana >5 mg, última dose <8h, ou dose/tempo desconhecido",
+          "bolus": "800 mg IV (30 mg/min)",
+          "infusao": "8 mg/min por 2 horas (960 mg)",
+          "total": "1760 mg"
+        }
+      },
+      "preparo": {
+        "reconstituicao": "20 mL de água estéril por frasco",
+        "tecnica": "Agitar suavemente - não formar espuma",
+        "transferencia": "Transferir para bolsa de infusão",
+        "estabilidade": "Usar em até 8h se refrigerado"
+      },
+      "administracao": {
+        "via": "IV",
+        "velocidade_bolus": "30 mg/min",
+        "filtro": "Usar filtro de 0,2-0,22 μm",
+        "observacao": "Bolus seguido de infusão contínua por 2h"
+      },
+      "farmacocinetica": {
+        "inicio_acao": "Minutos",
+        "duracao_efeito": "~2 horas (requer infusão contínua)",
+        "meia_vida": "5-7 horas"
+      },
+      "contraindicacoes": [
+        "Hipersensibilidade ao andexanet alfa",
+        "Pacientes não em uso de inibidores do fator Xa"
+      ],
+      "efeitosAdversos": [
+        "Eventos tromboembólicos (~10% dos pacientes)",
+        "IAM",
+        "AVC",
+        "TVP/TEP",
+        "Reações infusionais",
+        "Pneumonia"
+      ],
+      "observacoes": [
+        "NÃO reverte dabigatran (usar idarucizumab)",
+        "Risco trombótico significativo - monitorar",
+        "CUSTO EXTREMAMENTE ELEVADO",
+        "Duração do efeito curta - necessita infusão",
+        "Monitorar atividade anti-Xa",
+        "Considerar reinício de anticoagulação quando seguro"
+      ],
+      "categoriaGravidez": "C"
+    }
+  }
+}

@@ -1,0 +1,778 @@
+{
+  "PT": {
+    "nome": "Diltiazem",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA/Flutter - Controle de FC (1º bolus)",
+          "descricaoDose": "0,25 mg/kg IV em 2 min (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 2 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "FA/Flutter - 2º bolus (se necessário)",
+          "descricaoDose": "0,35 mg/kg IV em 2 min após 15 min (máx 35 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.35,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 35,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 2 min após 15 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção - Infusão contínua",
+          "descricaoDose": "5-15 mg/h IV (iniciar 5 mg/h e titular)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": "5-15 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TSVP (alternativa)",
+          "descricaoDose": "15-20 mg IV em 2 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "15-20 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Bolus (uso restrito)",
+          "descricaoDose": "0,25 mg/kg IV em 2-3 min (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 2-3 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Infusão",
+          "descricaoDose": "5-15 mcg/kg/min IV (titular conforme resposta)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 5, "doseMax": 15 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "125 mg em 100 mL SF (1,25 mg/mL)", "valor": 1.25 },
+            { "rotulo": "250 mg em 250 mL SF (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canal de cálcio (Benzotiazepina)",
+      "apresentacoes": [
+        { "forma": "Solução injetável 25 mg/5 mL", "obs": "5 mg/mL" },
+        { "forma": "Solução injetável 50 mg/10 mL", "obs": "5 mg/mL" },
+        { "forma": "Comprimido 30, 60, 90 mg", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "125 mg + 100 mL SF ou SG 5%", "concentracao": "1,25 mg/mL" },
+        { "diluicao": "250 mg + 250 mL SF ou SG 5%", "concentracao": "1 mg/mL" },
+        { "diluicao": "Bolus: usar sem diluição", "concentracao": "5 mg/mL" },
+        { "diluicao": "Estabilidade: 24 h refrigerado", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Contraindicação: ICC descompensada, hipotensão, BAV 2º/3º grau, síndrome do nó sinusal",
+        "Evitar com beta-bloqueadores IV (risco de bradicardia grave)",
+        "Monitorar PA e FC continuamente",
+        "Preferir em FA/Flutter com função ventricular preservada",
+        "Antídoto: gluconato de cálcio 10% (10-20 mL IV)",
+        "Categoria C na gestação"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose inicial; monitorar PA e FC (maior sensibilidade).",
+        "renal": "Não requer ajuste de dose na DRC leve/moderada. Em DRC grave, monitorar.",
+        "hepatico": "Usar com cautela em insuficiência hepática (metabolismo CYP3A4); considerar redução de dose."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Diltiazem (adulto - bolus)",
+        "doseTexto": "0,25 mg/kg IV em 2 min (máx 25 mg)",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diltiazem (adulto - infusão)",
+        "doseTexto": "5-15 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": "5-15 mg/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diltiazem (pediátrico)",
+        "doseTexto": "0,25 mg/kg IV em 2-3 min (máx 25 mg)",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Diltiazem",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "AF/Flutter - Rate control (1st bolus)",
+          "descricaoDose": "0.25 mg/kg IV over 2 min (max 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 2 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "AF/Flutter - 2nd bolus (if needed)",
+          "descricaoDose": "0.35 mg/kg IV over 2 min after 15 min (max 35 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.35,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 35,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 2 min after 15 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance - Continuous infusion",
+          "descricaoDose": "5-15 mg/h IV (start 5 mg/h and titrate)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": "5-15 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "PSVT (alternative)",
+          "descricaoDose": "15-20 mg IV over 2 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "15-20 mg IV",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric - Bolus (restricted use)",
+          "descricaoDose": "0.25 mg/kg IV over 2-3 min (max 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 2-3 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric - Infusion",
+          "descricaoDose": "5-15 mcg/kg/min IV (titrate to response)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 5, "doseMax": 15 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "125 mg in 100 mL NS (1.25 mg/mL)", "valor": 1.25 },
+            { "rotulo": "250 mg in 250 mL NS (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Calcium channel blocker (Benzothiazepine)",
+      "apresentacoes": [
+        { "forma": "Injection 25 mg/5 mL", "obs": "5 mg/mL" },
+        { "forma": "Injection 50 mg/10 mL", "obs": "5 mg/mL" },
+        { "forma": "Tablet 30, 60, 90 mg", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "125 mg + 100 mL NS or D5W", "concentracao": "1.25 mg/mL" },
+        { "diluicao": "250 mg + 250 mL NS or D5W", "concentracao": "1 mg/mL" },
+        { "diluicao": "Bolus: use undiluted", "concentracao": "5 mg/mL" },
+        { "diluicao": "Stability: 24 h refrigerated", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Contraindicated: decompensated CHF, hypotension, 2nd/3rd degree AV block, sick sinus syndrome",
+        "Avoid with IV beta-blockers (risk of severe bradycardia)",
+        "Monitor BP and HR continuously",
+        "Prefer in AF/Flutter with preserved ventricular function",
+        "Antidote: calcium gluconate 10% (10-20 mL IV)",
+        "Pregnancy category C"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce initial dose; monitor BP and HR (increased sensitivity).",
+        "renal": "No dose adjustment in mild/moderate CKD. In severe CKD, monitor.",
+        "hepatico": "Use with caution in hepatic impairment (CYP3A4 metabolism); consider dose reduction."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Diltiazem (adult - bolus)",
+        "doseTexto": "0.25 mg/kg IV over 2 min (max 25 mg)",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Diltiazem (adult - infusion)",
+        "doseTexto": "5-15 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": "5-15 mg/h",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Diltiazem (pediatric)",
+        "doseTexto": "0.25 mg/kg IV over 2-3 min (max 25 mg)",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Diltiazem",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA/Flutter - Control de FC (1º bolus)",
+          "descricaoDose": "0,25 mg/kg IV en 2 min (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 2 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "FA/Flutter - 2º bolus (si necesario)",
+          "descricaoDose": "0,35 mg/kg IV en 2 min tras 15 min (máx 35 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.35,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 35,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 2 min tras 15 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento - Infusión continua",
+          "descricaoDose": "5-15 mg/h IV (iniciar 5 mg/h y titular)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": "5-15 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "TSVP (alternativa)",
+          "descricaoDose": "15-20 mg IV en 2 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "15-20 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Bolus (uso restringido)",
+          "descricaoDose": "0,25 mg/kg IV en 2-3 min (máx 25 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 2-3 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Infusión",
+          "descricaoDose": "5-15 mcg/kg/min IV (titular según respuesta)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 5, "doseMax": 15 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "125 mg en 100 mL SF (1,25 mg/mL)", "valor": 1.25 },
+            { "rotulo": "250 mg en 250 mL SF (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canales de calcio (Benzotiazepina)",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 25 mg/5 mL", "obs": "5 mg/mL" },
+        { "forma": "Solución inyectable 50 mg/10 mL", "obs": "5 mg/mL" },
+        { "forma": "Comprimido 30, 60, 90 mg", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "125 mg + 100 mL SF o SG 5%", "concentracao": "1,25 mg/mL" },
+        { "diluicao": "250 mg + 250 mL SF o SG 5%", "concentracao": "1 mg/mL" },
+        { "diluicao": "Bolus: usar sin diluir", "concentracao": "5 mg/mL" },
+        { "diluicao": "Estabilidad: 24 h refrigerado", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Contraindicado: ICC descompensada, hipotensión, BAV 2º/3º grado, síndrome del nodo sinusal",
+        "Evitar con betabloqueantes IV (riesgo de bradicardia grave)",
+        "Monitorizar PA y FC continuamente",
+        "Preferir en FA/Flutter con función ventricular conservada",
+        "Antídoto: gluconato de calcio 10% (10-20 mL IV)",
+        "Categoría C en gestación"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis inicial; monitorizar PA y FC (mayor sensibilidad).",
+        "renal": "No requiere ajuste en ERC leve/moderada. En ERC grave, monitorizar.",
+        "hepatico": "Usar con precaución en insuficiencia hepática (metabolismo CYP3A4); considerar reducción de dosis."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Diltiazem (adulto - bolus)",
+        "doseTexto": "0,25 mg/kg IV en 2 min (máx 25 mg)",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diltiazem (adulto - infusión)",
+        "doseTexto": "5-15 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": "5-15 mg/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diltiazem (pediátrico)",
+        "doseTexto": "0,25 mg/kg IV en 2-3 min (máx 25 mg)",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "地尔硫卓",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "房颤/房扑 - 心室率控制（首次推注）",
+          "descricaoDose": "0.25 mg/kg IV 2分钟内（最大25 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "2分钟内",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "房颤/房扑 - 第二次推注（如需要）",
+          "descricaoDose": "0.35 mg/kg IV 15分钟后2分钟内（最大35 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.35,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 35,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "15分钟后2分钟内",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "维持 - 持续输注",
+          "descricaoDose": "5-15 mg/h IV（从5 mg/h开始滴定）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": "5-15 mg/h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "室上速（替代）",
+          "descricaoDose": "15-20 mg IV 2分钟内",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "15-20 mg IV",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "儿童 - 推注（限制使用）",
+          "descricaoDose": "0.25 mg/kg IV 2-3分钟内（最大25 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "2-3分钟内",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "儿童 - 输注",
+          "descricaoDose": "5-15 mcg/kg/min IV（按反应滴定）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 5, "doseMax": 15 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "125 mg 溶于 100 mL 生理盐水 (1.25 mg/mL)", "valor": 1.25 },
+            { "rotulo": "250 mg 溶于 250 mL 生理盐水 (1 mg/mL)", "valor": 1 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "钙通道阻滞剂（苯并硫氮卓类）",
+      "apresentacoes": [
+        { "forma": "注射液 25 mg/5 mL", "obs": "5 mg/mL" },
+        { "forma": "注射液 50 mg/10 mL", "obs": "5 mg/mL" },
+        { "forma": "片剂 30、60、90 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "125 mg + 100 mL 生理盐水或5%葡萄糖", "concentracao": "1.25 mg/mL" },
+        { "diluicao": "250 mg + 250 mL 生理盐水或5%葡萄糖", "concentracao": "1 mg/mL" },
+        { "diluicao": "推注：不稀释使用", "concentracao": "5 mg/mL" },
+        { "diluicao": "稳定性：冷藏24小时", "concentracao": "" }
+      ],
+      "observacoes": [
+        "禁忌：失代偿性心衰、低血压、二/三度房室传导阻滞、病态窦房结综合征",
+        "避免与IV β受体阻滞剂合用（严重心动过缓风险）",
+        "持续监测血压和心率",
+        "适用于房颤/房扑且心室功能保留者",
+        "解毒剂：10%葡萄糖酸钙（10-20 mL IV）",
+        "妊娠C类"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减少初始剂量；监测血压和心率（敏感性增加）。",
+        "renal": "轻中度肾衰竭无需调整。重度肾衰竭时监测。",
+        "hepatico": "肝功能不全慎用（CYP3A4代谢）；考虑减量。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "地尔硫卓（成人-推注）",
+        "doseTexto": "0.25 mg/kg IV 2分钟内（最大25 mg）",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地尔硫卓（成人-输注）",
+        "doseTexto": "5-15 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": "5-15 mg/h",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地尔硫卓（儿童）",
+        "doseTexto": "0.25 mg/kg IV 2-3分钟内（最大25 mg）",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

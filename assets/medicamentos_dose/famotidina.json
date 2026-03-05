@@ -1,0 +1,974 @@
+{
+  "PT": {
+    "nome": "Famotidina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Úlcera duodenal",
+          "descricaoDose": "40 mg VO ao deitar ou 20 mg VO 2x/dia por 4-8 semanas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg noite ou 20 mg 2x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x noite ou 2x/dia",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Úlcera gástrica",
+          "descricaoDose": "40 mg VO ao deitar por 8 semanas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg ao deitar",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "DRGE",
+          "descricaoDose": "20 mg VO 2x/dia por 6 semanas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg 2x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxia úlcera de estresse (UTI)",
+          "descricaoDose": "20 mg IV 12/12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg IV 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxia aspiração (adulto)",
+          "descricaoDose": "40 mg VO noite anterior + 40 mg VO manhã da cirurgia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg noite + 40 mg manhã",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "noite anterior e manhã",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxia aspiração IV (adulto)",
+          "descricaoDose": "20 mg IV 45-60 min antes da indução",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única 45-60 min pré",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxia aspiração IV (pediátrico)",
+          "descricaoDose": "0,25 mg/kg IV dose única (máx 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única pré-anestesia",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico VO",
+          "descricaoDose": "0,5 mg/kg/dose VO 12/12h (máx 40 mg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 10-50: reduzir 50%; ClCr <10: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antagonista H2 / Bloqueador do receptor de histamina H2",
+      "apresentacoes": [
+        { "forma": "Comprimidos 20 mg, 40 mg", "obs": "Uso oral" },
+        { "forma": "Ampola 20 mg/2 mL", "obs": "IV" },
+        { "forma": "Suspensão oral 40 mg/5 mL", "obs": "Frasco" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus IV: 20 mg em 5-10 mL SF 0,9%", "concentracao": "Infundir em 2 min" },
+        { "diluicao": "Infusão IV: 20 mg em 100 mL SF 0,9%", "concentracao": "Infundir em 15-30 min" }
+      ],
+      "observacoes": [
+        "Não interage com CYP450; pode ser usada com clopidogrel",
+        "Menos eficaz que IBPs para cicatrização de úlcera - preferir IBP quando indicado",
+        "Bolus IV: administrar em ≥2 min (risco de bradicardia se rápido)",
+        "Ajuste renal obrigatório: ClCr 10-50 reduzir 50% ou intervalo 36-48h; ClCr <10 reduzir 75% ou 48h",
+        "Potência 20-150x maior que cimetidina; meia-vida ~3h",
+        "Tolerância pode desenvolver após 2-6 semanas de uso contínuo"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose específico. Monitorar função renal (ClCr) e considerar ajuste se DRC.",
+        "renal": "ClCr 10-50 mL/min: 50% da dose ou intervalo 36-48h. ClCr <10: 25% da dose ou intervalo 48h. Hemodiálise: dose após diálise.",
+        "hepatico": "Insuficiência hepática leve-moderada: não requer ajuste. Grave: usar com cautela; metabolização pode estar reduzida."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Famotidina (adulto - profilaxia aspiração)",
+        "doseTexto": "40 mg VO noite + 40 mg manhã ou 20 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg VO ou 20 mg IV",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Famotidina (adulto - profilaxia UTI)",
+        "doseTexto": "20 mg IV 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Famotidina (pediátrico IV)",
+        "doseTexto": "0,25 mg/kg IV (máx 20 mg)",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Famotidina (pediátrico VO)",
+        "doseTexto": "0,5 mg/kg/dose VO 12/12h (máx 40 mg/dia)",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Famotidine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Duodenal ulcer",
+          "descricaoDose": "40 mg PO at bedtime or 20 mg PO twice daily for 4-8 weeks",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg at night or 20 mg twice daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once at night or twice daily",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Gastric ulcer",
+          "descricaoDose": "40 mg PO at bedtime for 8 weeks",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg at bedtime",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "GERD",
+          "descricaoDose": "20 mg PO twice daily for 6 weeks",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg twice daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Stress ulcer prophylaxis (ICU)",
+          "descricaoDose": "20 mg IV every 12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg IV every 12h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 12h",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Aspiration prophylaxis (adult)",
+          "descricaoDose": "40 mg PO night before + 40 mg PO morning of surgery",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg night + 40 mg morning",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "night before and morning",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Aspiration prophylaxis IV (adult)",
+          "descricaoDose": "20 mg IV 45-60 min before induction",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg IV",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose 45-60 min pre-op",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Aspiration prophylaxis IV (pediatric)",
+          "descricaoDose": "0.25 mg/kg IV single dose (max 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose pre-anesthesia",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric PO",
+          "descricaoDose": "0.5 mg/kg/dose PO every 12h (max 40 mg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 12h",
+            "ajusteRenal": "ClCr 10-50: reduce 50%; ClCr <10: reduce 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "H2 receptor antagonist / Histamine H2 blocker",
+      "apresentacoes": [
+        { "forma": "Tablets 20 mg, 40 mg", "obs": "Oral" },
+        { "forma": "Vial 20 mg/2 mL", "obs": "IV" },
+        { "forma": "Oral suspension 40 mg/5 mL", "obs": "Bottle" }
+      ],
+      "preparo": [
+        { "diluicao": "IV bolus: 20 mg in 5-10 mL NS", "concentracao": "Infuse over 2 min" },
+        { "diluicao": "IV infusion: 20 mg in 100 mL NS", "concentracao": "Infuse over 15-30 min" }
+      ],
+      "observacoes": [
+        "Does not interact with CYP450; may be used with clopidogrel",
+        "Less effective than PPIs for ulcer healing - prefer PPI when indicated",
+        "IV bolus: administer over ≥2 min (bradycardia risk if rapid)",
+        "Renal dose adjustment required: ClCr 10-50 reduce 50% or 36-48h interval; ClCr <10 reduce 75% or 48h",
+        "20-150x more potent than cimetidine; half-life ~3h",
+        "Tolerance may develop after 2-6 weeks of continuous use"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific dose adjustment. Monitor renal function (ClCr) and consider adjustment if CKD.",
+        "renal": "ClCr 10-50 mL/min: 50% of dose or 36-48h interval. ClCr <10: 25% of dose or 48h interval. Hemodialysis: dose after dialysis.",
+        "hepatico": "Mild-moderate hepatic impairment: no adjustment. Severe: use with caution; metabolism may be reduced."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Famotidine (adult - aspiration prophylaxis)",
+        "doseTexto": "40 mg PO night + 40 mg morning or 20 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg PO or 20 mg IV",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Famotidine (adult - ICU prophylaxis)",
+        "doseTexto": "20 mg IV every 12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Famotidine (pediatric IV)",
+        "doseTexto": "0.25 mg/kg IV (max 20 mg)",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Famotidine (pediatric PO)",
+        "doseTexto": "0.5 mg/kg/dose PO every 12h (max 40 mg/day)",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Famotidina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Úlcera duodenal",
+          "descricaoDose": "40 mg VO al acostar o 20 mg VO 2x/día por 4-8 semanas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg noche o 20 mg 2x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x noche o 2x/día",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Úlcera gástrica",
+          "descricaoDose": "40 mg VO al acostar por 8 semanas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg al acostar",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "ERGE",
+          "descricaoDose": "20 mg VO 2x/día por 6 semanas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg 2x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2x/día",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxis úlcera por estrés (UCI)",
+          "descricaoDose": "20 mg IV 12/12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg IV 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxis aspiración (adulto)",
+          "descricaoDose": "40 mg VO noche anterior + 40 mg VO mañana de cirugía",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg noche + 40 mg mañana",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "noche anterior y mañana",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxis aspiración IV (adulto)",
+          "descricaoDose": "20 mg IV 45-60 min antes de inducción",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única 45-60 min pre",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Profilaxis aspiración IV (pediátrico)",
+          "descricaoDose": "0,25 mg/kg IV dosis única (máx 20 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única pre-anestesia",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediátrico VO",
+          "descricaoDose": "0,5 mg/kg/dosis VO 12/12h (máx 40 mg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr 10-50: reducir 50%; ClCr <10: reducir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antagonista H2 / Bloqueador del receptor de histamina H2",
+      "apresentacoes": [
+        { "forma": "Comprimidos 20 mg, 40 mg", "obs": "Uso oral" },
+        { "forma": "Ampolla 20 mg/2 mL", "obs": "IV" },
+        { "forma": "Suspensión oral 40 mg/5 mL", "obs": "Frasco" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo IV: 20 mg en 5-10 mL SF 0,9%", "concentracao": "Infundir en 2 min" },
+        { "diluicao": "Infusión IV: 20 mg en 100 mL SF 0,9%", "concentracao": "Infundir en 15-30 min" }
+      ],
+      "observacoes": [
+        "No interacciona con CYP450; puede usarse con clopidogrel",
+        "Menos eficaz que IBPs para cicatrización - preferir IBP cuando esté indicado",
+        "Bolo IV: administrar en ≥2 min (riesgo de bradicardia si rápido)",
+        "Ajuste renal obligatorio: ClCr 10-50 reducir 50% o intervalo 36-48h; ClCr <10 reducir 75% o 48h",
+        "Potencia 20-150x mayor que cimetidina; vida media ~3h",
+        "Tolerancia puede desarrollarse tras 2-6 semanas de uso continuo"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis específico. Monitorizar función renal (ClCr) y considerar ajuste si ERC.",
+        "renal": "ClCr 10-50 mL/min: 50% de la dosis o intervalo 36-48h. ClCr <10: 25% o intervalo 48h. Hemodiálisis: dosis tras diálisis.",
+        "hepatico": "Insuficiencia hepática leve-moderada: no requiere. Grave: usar con precaución; metabolización puede estar reducida."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Famotidina (adulto - profilaxis aspiración)",
+        "doseTexto": "40 mg VO noche + 40 mg mañana o 20 mg IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg VO o 20 mg IV",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Famotidina (adulto - UCI)",
+        "doseTexto": "20 mg IV 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Famotidina (pediátrico IV)",
+        "doseTexto": "0,25 mg/kg IV (máx 20 mg)",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Famotidina (pediátrico VO)",
+        "doseTexto": "0,5 mg/kg/dosis VO 12/12h (máx 40 mg/día)",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "法莫替丁",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "十二指肠溃疡",
+          "descricaoDose": "40 mg 口服睡前或 20 mg 口服 每日两次 持续4-8周",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg 睡前或 20 mg 每日两次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "睡前一次或每日两次",
+            "ajusteRenal": "ClCr 10-50: 减量50%; ClCr <10: 减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "胃溃疡",
+          "descricaoDose": "40 mg 口服睡前 持续8周",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg 睡前",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日一次",
+            "ajusteRenal": "ClCr 10-50: 减量50%; ClCr <10: 减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "胃食管反流病",
+          "descricaoDose": "20 mg 口服 每日两次 持续6周",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg 每日两次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日两次",
+            "ajusteRenal": "ClCr 10-50: 减量50%; ClCr <10: 减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "应激性溃疡预防（ICU）",
+          "descricaoDose": "20 mg 静注 每12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg 静注 每12小时",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr 10-50: 减量50%; ClCr <10: 减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "误吸预防（成人）",
+          "descricaoDose": "40 mg 口服 术前夜 + 40 mg 口服 术晨",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg 术前夜 + 40 mg 术晨",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "术前夜及术晨",
+            "ajusteRenal": "ClCr 10-50: 减量50%; ClCr <10: 减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "误吸预防 静注（成人）",
+          "descricaoDose": "20 mg 静注 诱导前45-60分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg 静注",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "诱导前45-60分钟单次",
+            "ajusteRenal": "ClCr 10-50: 减量50%; ClCr <10: 减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "误吸预防 静注（儿童）",
+          "descricaoDose": "0,25 mg/kg 静注 单次（最大 20 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "麻醉前单次",
+            "ajusteRenal": "ClCr 10-50: 减量50%; ClCr <10: 减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童 口服",
+          "descricaoDose": "0,5 mg/kg/剂 口服 每12小时（最大 40 mg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr 10-50: 减量50%; ClCr <10: 减量75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 50,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "H2受体拮抗剂 / 组胺H2受体阻滞剂",
+      "apresentacoes": [
+        { "forma": "片剂 20 mg, 40 mg", "obs": "口服" },
+        { "forma": "安瓿 20 mg/2 mL", "obs": "静注" },
+        { "forma": "口服混悬液 40 mg/5 mL", "obs": "瓶" }
+      ],
+      "preparo": [
+        { "diluicao": "静注推注: 20 mg 溶于 5-10 mL 生理盐水", "concentracao": "2分钟内输注" },
+        { "diluicao": "静注输注: 20 mg 溶于 100 mL 生理盐水", "concentracao": "15-30分钟内输注" }
+      ],
+      "observacoes": [
+        "不经CYP450代谢；可与氯吡格雷合用",
+        "溃疡愈合疗效不如PPI，指征明确时优先选用PPI",
+        "静注推注：≥2分钟给药（过快可致心动过缓）",
+        "肾功能调整：ClCr 10-50 减量50%或36-48h间隔；ClCr <10 减量75%或48h",
+        "较西咪替丁强20-150倍；半衰期约3h",
+        "连续使用2-6周后可产生耐受"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定剂量调整。监测肾功能(ClCr)，慢性肾病时考虑调整。",
+        "renal": "ClCr 10-50 mL/min：50%剂量或36-48h间隔。ClCr <10：25%或48h间隔。血液透析：透析后给药。",
+        "hepatico": "轻中度肝损：无需调整。重度：慎用；代谢可能降低。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "法莫替丁（成人 - 误吸预防）",
+        "doseTexto": "40 mg 口服 术前夜+术晨 或 20 mg 静注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "40 mg 口服 或 20 mg 静注",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "法莫替丁（成人 - ICU预防）",
+        "doseTexto": "20 mg 静注 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "法莫替丁（儿童 静注）",
+        "doseTexto": "0,25 mg/kg 静注（最大 20 mg）",
+        "doseMin": 0.25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "法莫替丁（儿童 口服）",
+        "doseTexto": "0,5 mg/kg/剂 口服 每12小时（最大 40 mg/日）",
+        "doseMin": 0.5,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

@@ -9,15 +9,18 @@ class MedicamentoAdrenalina {
   static const String idBulario = 'adrenalina';
 
   static Future<Map<String, dynamic>> carregarBulario() async {
-    final String jsonStr = await rootBundle.loadString('assets/medicamentos/adrenalina.json');
+    final String jsonStr =
+        await rootBundle.loadString('assets/medicamentos/adrenalina.json');
     final Map<String, dynamic> jsonMap = json.decode(jsonStr);
     return jsonMap['PT']['bulario'];
   }
 
-  static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
-    final peso = SharedData.peso ?? 70;
-    final isAdulto = SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
+  static Widget buildCard(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
     final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final isAdulto =
+        SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -34,38 +37,61 @@ class MedicamentoAdrenalina {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final isAdulto =
+        SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
 
-  static Widget _buildCardAdrenalina(BuildContext context, double peso, bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
+    return _buildCardAdrenalina(
+      context,
+        peso,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
+
+  static Widget _buildCardAdrenalina(BuildContext context, double peso,
+      bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         // 1. CLASSE
         const SizedBox(height: 16),
-        const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Classe',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _textoSimples('Vasopressor - Simpatomimético alfa e beta-adrenérgico'),
-        
+
         // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('Ampola 1mg/mL (1mL)', '1:1000'),
         _linhaPreparo('Ampola 1mg/10mL', '1:10.000 - para uso IV'),
         _linhaPreparo('Auto-injetor 0,3mg', 'Adulto - anafilaxia'),
         _linhaPreparo('Auto-injetor 0,15mg', 'Pediátrico - anafilaxia'),
-        
+
         // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-        const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Preparo',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('1mg + 50mL SF', '20 mcg/mL'),
         _linhaPreparo('1mg + 100mL SF', '10 mcg/mL'),
         _linhaPreparo('1mg + 250mL SF', '4 mcg/mL'),
         _linhaPreparo('Push dose: 1mg + 100mL', '10 mcg/mL (bolus 0,5-2mL)'),
-        
+
         // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
           _linhaIndicacaoDoseFixa(
@@ -109,16 +135,18 @@ class MedicamentoAdrenalina {
             descricaoDose: '0,05-0,3 mcg/kg/min IV contínua',
           ),
         ],
-        
+
         // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
-        const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Infusão Contínua',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _buildConversorInfusao(peso, isAdulto),
-        
+
         // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
-        const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _textoObs('Primeira linha em PCR e anafilaxia'),
         _textoObs('Meia-vida ultracurta: 2-3 minutos'),
@@ -151,8 +179,12 @@ class MedicamentoAdrenalina {
                 children: [
                   TextSpan(text: texto),
                   if (marca.isNotEmpty) ...[
-                    const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                    const TextSpan(
+                        text: ' | ',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(
+                        text: marca,
+                        style: const TextStyle(fontStyle: FontStyle.italic)),
                   ],
                 ],
               ),
@@ -293,7 +325,8 @@ class MedicamentoAdrenalina {
       if (doseMaxima != null) {
         doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
       }
-      textoDose = '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      textoDose =
+          '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(
@@ -342,7 +375,8 @@ class MedicamentoAdrenalina {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          const Text('• ', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
+          const Text('• ',
+              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14)),
           Expanded(
             child: Text(
               texto,

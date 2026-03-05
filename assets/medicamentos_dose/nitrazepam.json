@@ -1,0 +1,554 @@
+{
+  "PT": {
+    "nome": "Nitrazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Insônia",
+          "descricaoDose": "5-10 mg VO ao deitar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "ao deitar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insônia (idoso)",
+          "descricaoDose": "2,5-5 mg VO ao deitar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "ao deitar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Espasmos infantis (Síndrome de West)",
+          "descricaoDose": "0,25-0,5 mg/kg/dia VO dividido em 2-3 doses (máx 1 mg/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido 2-3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Epilepsia mioclônica (pediátrico)",
+          "descricaoDose": "0,25-0,5 mg/kg/dia VO dividido em 2-3 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido 2-3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Hipnótico / Anticonvulsivante",
+      "apresentacoes": [
+        { "forma": "Comprimidos 5 mg", "obs": "Uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Comprimidos - uso oral", "concentracao": "Não requer diluição" }
+      ],
+      "observacoes": [
+        "Meia-vida longa (15-38h); risco de acúmulo e sedação diurna residual",
+        "Uso pediátrico principalmente para espasmos infantis (2ª linha após ACTH/vigabatrina)",
+        "Pode causar hipersecreção brônquica e sialorreia em crianças",
+        "Risco de tolerância e dependência; retirada gradual obrigatória",
+        "Contraindicado em apneia do sono, insuficiência respiratória/hepática grave e gestação (categoria D)",
+        "Metabolismo hepático (redução do grupo nitro); sem metabólitos ativos significativos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose: 2,5-5 mg ao deitar (máx 5 mg/dia). Maior sensibilidade e risco de sedação residual.",
+        "renal": "Não requer ajuste. Eliminação principalmente por metabolismo hepático.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave; reduzir dose ou evitar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nitrazepam (adulto)",
+        "doseTexto": "5-10 mg VO ao deitar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitrazepam (idoso)",
+        "doseTexto": "2,5-5 mg VO ao deitar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-5 mg",
+        "faixaEtaria": "Idoso"
+      },
+      {
+        "nome": "Nitrazepam - Espasmos infantis / Epilepsia",
+        "doseTexto": "0,25-0,5 mg/kg/dia VO dividido 2-3x (máx 1 mg/kg/dia)",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg/kg/dia",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Nitrazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Insomnia",
+          "descricaoDose": "5-10 mg PO at bedtime",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "at bedtime",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insomnia (elderly)",
+          "descricaoDose": "2.5-5 mg PO at bedtime",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "at bedtime",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infantile spasms (West syndrome)",
+          "descricaoDose": "0.25-0.5 mg/kg/day PO in 2-3 divided doses (max 1 mg/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "divided 2-3x/day",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Myoclonic epilepsy (pediatric)",
+          "descricaoDose": "0.25-0.5 mg/kg/day PO in 2-3 divided doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "divided 2-3x/day",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine / Hypnotic / Anticonvulsant",
+      "apresentacoes": [
+        { "forma": "Tablets 5 mg", "obs": "Oral use" }
+      ],
+      "preparo": [
+        { "diluicao": "Tablets - oral use", "concentracao": "No dilution required" }
+      ],
+      "observacoes": [
+        "Long half-life (15-38h); risk of accumulation and residual daytime sedation",
+        "Pediatric use mainly for infantile spasms (2nd line after ACTH/vigabatrin)",
+        "May cause bronchial hypersecretion and sialorrhea in children",
+        "Risk of tolerance and dependence; gradual withdrawal required",
+        "Contraindicated in sleep apnea, severe respiratory/hepatic failure and pregnancy (category D)",
+        "Hepatic metabolism (nitro group reduction); no significant active metabolites"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose: 2.5-5 mg at bedtime (max 5 mg/day). Greater sensitivity and residual sedation risk.",
+        "renal": "No dose adjustment. Mainly eliminated by hepatic metabolism.",
+        "hepatico": "Use with caution in severe hepatic impairment; reduce dose or avoid."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nitrazepam (adult)",
+        "doseTexto": "5-10 mg PO at bedtime",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitrazepam (elderly)",
+        "doseTexto": "2.5-5 mg PO at bedtime",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5-5 mg",
+        "faixaEtaria": "Idoso"
+      },
+      {
+        "nome": "Nitrazepam - Infantile spasms / Epilepsy",
+        "doseTexto": "0.25-0.5 mg/kg/day PO divided 2-3x (max 1 mg/kg/day)",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg/kg/dia",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Nitrazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Insomnio",
+          "descricaoDose": "5-10 mg VO al acostar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "al acostar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insomnio (anciano)",
+          "descricaoDose": "2,5-5 mg VO al acostar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "al acostar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Espasmos infantiles (síndrome de West)",
+          "descricaoDose": "0,25-0,5 mg/kg/día VO en 2-3 dosis (máx 1 mg/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido 2-3x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Epilepsia mioclónica (pediátrico)",
+          "descricaoDose": "0,25-0,5 mg/kg/día VO en 2-3 dosis",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido 2-3x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Hipnótico / Anticonvulsivante",
+      "apresentacoes": [
+        { "forma": "Comprimidos 5 mg", "obs": "Uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Comprimidos - uso oral", "concentracao": "No requiere dilución" }
+      ],
+      "observacoes": [
+        "Vida media larga (15-38h); riesgo de acúmulo y sedación diurna residual",
+        "Uso pediátrico principalmente en espasmos infantiles (2ª línea tras ACTH/vigabatrina)",
+        "Puede causar hipersecreción bronquial y sialorrea en niños",
+        "Riesgo de tolerancia y dependencia; retirada gradual obligatoria",
+        "Contraindicado en apnea del sueño, insuficiencia respiratoria/hepática grave y gestación (categoría D)",
+        "Metabolismo hepático (reducción del grupo nitro); sin metabolitos activos significativos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis: 2,5-5 mg al acostar (máx 5 mg/día). Mayor sensibilidad y riesgo de sedación residual.",
+        "renal": "No requiere ajuste. Eliminación principalmente por metabolismo hepático.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave; reducir dosis o evitar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nitrazepam (adulto)",
+        "doseTexto": "5-10 mg VO al acostar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nitrazepam (anciano)",
+        "doseTexto": "2,5-5 mg VO al acostar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-5 mg",
+        "faixaEtaria": "Idoso"
+      },
+      {
+        "nome": "Nitrazepam - Espasmos infantiles / Epilepsia",
+        "doseTexto": "0,25-0,5 mg/kg/día VO dividido 2-3x (máx 1 mg/kg/día)",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg/kg/dia",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "硝西泮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "失眠",
+          "descricaoDose": "5-10 mg 口服 睡前",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "睡前",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "失眠（老年）",
+          "descricaoDose": "2,5-5 mg 口服 睡前",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "睡前",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "婴儿痉挛症（West综合征）",
+          "descricaoDose": "0,25-0,5 mg/kg/日 口服 分2-3次（最大1 mg/kg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "分2-3次/日",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "肌阵挛癫痫（儿科）",
+          "descricaoDose": "0,25-0,5 mg/kg/日 口服 分2-3次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "分2-3次/日",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "苯二氮䓬类 / 催眠药 / 抗惊厥药",
+      "apresentacoes": [
+        { "forma": "片剂 5 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "片剂 - 口服", "concentracao": "无需稀释" }
+      ],
+      "observacoes": [
+        "半衰期长（15-38小时）；有蓄积及日间残留镇静风险",
+        "儿科主要用于婴儿痉挛症（ACTH/氨己烯酸后二线）",
+        "儿童可能引起支气管分泌过多及流涎",
+        "有耐受及依赖风险；需逐渐减量停药",
+        "睡眠呼吸暂停、严重呼吸/肝功能衰竭及妊娠禁忌（D类）",
+        "肝脏代谢（硝基还原）；无显著活性代谢物"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量：睡前2,5-5 mg（最大5 mg/日）。敏感性增加及残留镇静风险。",
+        "renal": "无需调整。主要经肝脏代谢消除。",
+        "hepatico": "严重肝功能不全慎用；减量或避免使用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "硝西泮（成人）",
+        "doseTexto": "5-10 mg 口服 睡前",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "硝西泮（老年）",
+        "doseTexto": "2,5-5 mg 口服 睡前",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-5 mg",
+        "faixaEtaria": "Idoso"
+      },
+      {
+        "nome": "硝西泮 - 婴儿痉挛/癫痫",
+        "doseTexto": "0,25-0,5 mg/kg/日 口服 分2-3次（最大1 mg/kg/日）",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg/kg/dia",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

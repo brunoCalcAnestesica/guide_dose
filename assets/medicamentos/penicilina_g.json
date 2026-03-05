@@ -1,0 +1,44 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Penicilina G Cristalina (Benzilpenicilina)",
+      "nome_comercial": ["Penicilina G Potássica"],
+      "classe_terapeutica": "Penicilina natural",
+      "mecanismo_acao": "Liga-se às proteínas ligadoras de penicilina (PBPs) na membrana bacteriana, inibindo a síntese da parede celular e causando lise osmótica.",
+      "espectro": {
+        "gram_positivos": ["Streptococcus pyogenes", "S. pneumoniae (sensível)", "Enterococcus (sensível)"],
+        "gram_negativos": ["Neisseria meningitidis", "N. gonorrhoeae (sensível)"],
+        "espiroquetas": ["Treponema pallidum"],
+        "anaerobios": ["Clostridium (exceto C. difficile)", "Peptostreptococcus"]
+      },
+      "nao_cobre": ["Staphylococcus (maioria)", "Enterobacteriaceae", "Pseudomonas", "Bacteroides fragilis"],
+      "indicacoes": [
+        "Neurossífilis",
+        "Sífilis congênita",
+        "Endocardite estreptocócica",
+        "Meningite meningocócica/pneumocócica",
+        "Fasciíte necrosante estreptocócica",
+        "Gangrena gasosa",
+        "Faringite estreptocócica (casos graves)"
+      ],
+      "apresentacoes": [
+        {"forma": "Frasco", "concentracao": "1.000.000 UI"},
+        {"forma": "Frasco", "concentracao": "5.000.000 UI"},
+        {"forma": "Frasco", "concentracao": "10.000.000 UI"}
+      ],
+      "farmacocinetica": {
+        "meia_vida": "30 minutos",
+        "excrecao": "Renal (60-90%)",
+        "ligacao_proteica": "60%",
+        "penetracao_lcr": "Boa em meninges inflamadas"
+      },
+      "conteudo_potassio": "1,7 mEq K+/milhão UI",
+      "ajuste_renal": {
+        "ClCr_10_50": "Dose normal, intervalo normal",
+        "ClCr_menor_10": "Máximo 10 milhões UI/dia"
+      },
+      "efeitos_adversos": ["Hipersensibilidade", "Hipercalemia (doses altas)", "Convulsões (doses altas, IR)", "Reação Jarisch-Herxheimer (sífilis)"],
+      "contraindicacoes": ["Alergia a penicilinas"]
+    }
+  }
+}

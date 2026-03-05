@@ -1,0 +1,374 @@
+{
+  "PT": {
+    "nome": "Antiescorpiônico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderado",
+          "descricaoDose": "2-3 ampolas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3 ampolas",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou infusão em 20-60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Grave",
+          "descricaoDose": "4-6 ampolas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-6 ampolas",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou infusão em 20-60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Soro heterólogo antiescorpiônico / Imunoglobulina equina anti-Tityus",
+      "apresentacoes": [
+        { "forma": "Ampola 5 mL", "obs": "Soro Antiescorpiônico - Instituto Butantan" },
+        { "forma": "Ampola 5 mL", "obs": "Soro Antiaracnídico (escorpião) - Funed" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir em 100-250 mL SF 0,9%", "concentracao": "Para infusão IV" },
+        { "diluicao": "Infundir em 20-60 minutos", "concentracao": "Iniciar lentamente" },
+        { "diluicao": "Pode ser administrado puro IV lento", "concentracao": "Em emergências" }
+      ],
+      "observacoes": [
+        "Crianças < 7 anos: maior risco de gravidade; considerar UTI",
+        "Administrar o mais precocemente possível",
+        "Pré-medicação: não é rotina; considerar anti-histamínico",
+        "Reação anafilática: adrenalina 0,01 mg/kg IM; manter disponível",
+        "Observar por 24 h após soroterapia",
+        "Doença do soro: pode ocorrer 7-14 dias após"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Maior risco de gravidade; monitorar efeitos cardiovasculares.",
+        "renal": "Não requer ajuste. Doses fixas, independentes da função renal.",
+        "hepatico": "Não requer ajuste. Doses fixas, independentes da função hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Antiescorpiônico (moderado)",
+        "doseTexto": "2-3 ampolas IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "2-3 ampolas",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Antiescorpiônico (grave)",
+        "doseTexto": "4-6 ampolas IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "4-6 ampolas",
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Antiscorpion",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderate",
+          "descricaoDose": "2-3 vials IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3 vials",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose or infusion over 20-60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe",
+          "descricaoDose": "4-6 vials IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-6 vials",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose or infusion over 20-60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Heterologous antiscorpion serum / Equine anti-Tityus immunoglobulin",
+      "apresentacoes": [
+        { "forma": "Vial 5 mL", "obs": "Antiscorpion serum - Butantan" },
+        { "forma": "Vial 5 mL", "obs": "Antiarachnid serum (scorpion) - Funed" }
+      ],
+      "preparo": [
+        { "diluicao": "Dilute in 100-250 mL NS", "concentracao": "For IV infusion" },
+        { "diluicao": "Infuse over 20-60 minutes", "concentracao": "Start slowly" },
+        { "diluicao": "May be given undiluted IV slow", "concentracao": "In emergencies" }
+      ],
+      "observacoes": [
+        "Children < 7 years: higher severity risk; consider ICU",
+        "Administer as early as possible",
+        "Premedication: not routine; consider antihistamine",
+        "Anaphylaxis: epinephrine 0.01 mg/kg IM; keep available",
+        "Observe for 24 h after serotherapy",
+        "Serum sickness: may occur 7-14 days after"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Higher severity risk; monitor cardiovascular effects.",
+        "renal": "No adjustment. Fixed doses, independent of renal function.",
+        "hepatico": "No adjustment. Fixed doses, independent of hepatic function."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Antiscorpion (moderate)",
+        "doseTexto": "2-3 vials IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "2-3 vials",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Antiscorpion (severe)",
+        "doseTexto": "4-6 vials IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "4-6 vials",
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Antiescorpiónico",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderado",
+          "descricaoDose": "2-3 ampolas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3 ampolas",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o infusión en 20-60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Grave",
+          "descricaoDose": "4-6 ampolas IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-6 ampolas",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o infusión en 20-60 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Suero heterólogo antiescorpiónico / Inmunoglobulina equina anti-Tityus",
+      "apresentacoes": [
+        { "forma": "Ampolla 5 mL", "obs": "Suero Antiescorpiónico - Butantan" },
+        { "forma": "Ampolla 5 mL", "obs": "Suero Antiaracnídico (escorpión) - Funed" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir en 100-250 mL SF 0,9%", "concentracao": "Para infusión IV" },
+        { "diluicao": "Infundir en 20-60 minutos", "concentracao": "Iniciar lentamente" },
+        { "diluicao": "Puede administrarse puro IV lento", "concentracao": "En emergencias" }
+      ],
+      "observacoes": [
+        "Niños < 7 años: mayor riesgo de gravedad; considerar UCI",
+        "Administrar lo más precozmente posible",
+        "Premedicación: no es rutina; considerar antihistamínico",
+        "Reacción anafiláctica: adrenalina 0,01 mg/kg IM; mantener disponible",
+        "Observar 24 h tras seroterapia",
+        "Enfermedad del suero: puede ocurrir 7-14 días después"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Mayor riesgo de gravedad; monitorizar efectos cardiovasculares.",
+        "renal": "No requiere ajuste. Dosis fijas, independientes de función renal.",
+        "hepatico": "No requiere ajuste. Dosis fijas, independientes de función hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Antiescorpiónico (moderado)",
+        "doseTexto": "2-3 ampolas IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "2-3 ampolas",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Antiescorpiónico (grave)",
+        "doseTexto": "4-6 ampolas IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "4-6 ampolas",
+        "faixaEtaria": "Todas"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "抗蝎毒血清",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "中度",
+          "descricaoDose": "2-3 安瓿 IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2-3 安瓿",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次或20-60分钟输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "重度",
+          "descricaoDose": "4-6 安瓿 IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "amp",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-6 安瓿",
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次或20-60分钟输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "异种抗蝎毒血清 / 马抗 Tityus 免疫球蛋白",
+      "apresentacoes": [
+        { "forma": "安瓿 5 mL", "obs": "抗蝎毒血清 - Butantan" },
+        { "forma": "安瓿 5 mL", "obs": "抗蛛毒血清（蝎子）- Funed" }
+      ],
+      "preparo": [
+        { "diluicao": "用100-250 mL 生理盐水稀释", "concentracao": "静脉输注" },
+        { "diluicao": "20-60分钟内输注", "concentracao": "缓慢开始" },
+        { "diluicao": "紧急时可原液缓慢静注", "concentracao": "急诊" }
+      ],
+      "observacoes": [
+        "7岁以下儿童：重症风险更高；考虑ICU",
+        "尽早给药",
+        "术前用药：非常规；可考虑抗组胺药",
+        "过敏反应：肾上腺素0.01 mg/kg IM；备好",
+        "血清治疗后观察24小时",
+        "血清病：可在7-14天后发生"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调剂量。重症风险较高；监测心血管反应。",
+        "renal": "无需调整。固定剂量，与肾功能无关。",
+        "hepatico": "无需调整。固定剂量，与肝功能无关。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "抗蝎毒血清（中度）",
+        "doseTexto": "2-3 安瓿 IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "2-3 安瓿",
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "抗蝎毒血清（重度）",
+        "doseTexto": "4-6 安瓿 IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "amp",
+        "decimais": 0,
+        "resultadoFixo": "4-6 安瓿",
+        "faixaEtaria": "Todas"
+      }
+    ]
+  }
+}

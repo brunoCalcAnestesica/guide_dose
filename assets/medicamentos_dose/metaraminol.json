@@ -1,0 +1,666 @@
+{
+  "PT": {
+    "nome": "Metaraminol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipotensão (raquianestesia)",
+          "descricaoDose": "0,5-2 mg IV bolus, repetir a cada 2-3 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 2-3 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipotensão refratária",
+          "descricaoDose": "0,5-5 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipotensão pediátrica (bolus)",
+          "descricaoDose": "0,01-0,1 mg/kg IV (máx 5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir conforme necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção pediátrica",
+          "descricaoDose": "0,1-1 mcg/kg/min IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 5 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 1 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "100mg em 500mL SF 0,9% (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "50mg em 500mL SF 0,9% (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "20mg em 500mL SF 0,9% (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Simpatomimético α1 > β1",
+      "apresentacoes": [
+        { "forma": "Ampola 10mg/mL (1 mL)", "obs": "Aramine®" }
+      ],
+      "preparo": [
+        { "diluicao": "100mg + 500mL SF 0,9%", "concentracao": "200 mcg/mL" },
+        { "diluicao": "50mg + 500mL SF 0,9%", "concentracao": "100 mcg/mL" },
+        { "diluicao": "20mg + 500mL SF 0,9%", "concentracao": "40 mcg/mL" }
+      ],
+      "observacoes": [
+        "Início: 1-2 min IV | Duração: 20-60 min",
+        "Bradicardia reflexa (α1 > β) – ideal se taquicardia",
+        "Taquifilaxia com uso prolongado",
+        "CI: hipertensão grave, feocromocitoma",
+        "Extravasamento → necrose – via periférica com cuidado",
+        "Alternativa à fenilefrina no intraoperatório"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares.",
+        "renal": "Não requer ajuste.",
+        "hepatico": "Usar com cautela em hepatopatia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Metaraminol (adulto) - Bolus",
+        "doseTexto": "0,5-2 mg IV a cada 2-3 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metaraminol (adulto) - Infusão",
+        "doseTexto": "0,5-5 mcg/kg/min IV contínua",
+        "doseMin": 0.5,
+        "doseMax": 5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metaraminol (pediátrico) - Bolus",
+        "doseTexto": "0,01-0,1 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.01,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Metaraminol (pediátrico) - Infusão",
+        "doseTexto": "0,1-1 mcg/kg/min IV contínua",
+        "doseMin": 0.1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Metaraminol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypotension (spinal anesthesia)",
+          "descricaoDose": "0.5-2 mg IV bolus, repeat every 2-3 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 2-3 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Refractory hypotension",
+          "descricaoDose": "0.5-5 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric hypotension (bolus)",
+          "descricaoDose": "0.01-0.1 mg/kg IV (max 5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric maintenance",
+          "descricaoDose": "0.1-1 mcg/kg/min IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 5 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 1 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "100mg in 500mL NS (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "50mg in 500mL NS (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "20mg in 500mL NS (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Sympathomimetic α1 > β1",
+      "apresentacoes": [
+        { "forma": "Ampoule 10mg/mL (1 mL)", "obs": "Aramine®" }
+      ],
+      "preparo": [
+        { "diluicao": "100mg + 500mL NS", "concentracao": "200 mcg/mL" },
+        { "diluicao": "50mg + 500mL NS", "concentracao": "100 mcg/mL" },
+        { "diluicao": "20mg + 500mL NS", "concentracao": "40 mcg/mL" }
+      ],
+      "observacoes": [
+        "Onset: 1-2 min IV | Duration: 20-60 min",
+        "Reflex bradycardia (α1 > β) – ideal if tachycardia",
+        "Tachyphylaxis with prolonged use",
+        "CI: severe hypertension, pheochromocytoma",
+        "Extravasation → necrosis – peripheral line with caution",
+        "Alternative to phenylephrine in intraoperative setting"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular effects.",
+        "renal": "No adjustment required.",
+        "hepatico": "Use with caution in severe hepatic disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Metaraminol (adult) - Bolus",
+        "doseTexto": "0.5-2 mg IV every 2-3 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Metaraminol (adult) - Infusion",
+        "doseTexto": "0.5-5 mcg/kg/min IV continuous",
+        "doseMin": 0.5,
+        "doseMax": 5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Metaraminol (pediatric) - Bolus",
+        "doseTexto": "0.01-0.1 mg/kg IV (max 5 mg)",
+        "doseMin": 0.01,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Metaraminol (pediatric) - Infusion",
+        "doseTexto": "0.1-1 mcg/kg/min IV continuous",
+        "doseMin": 0.1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Metaraminol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipotensión (raquianestesia)",
+          "descricaoDose": "0,5-2 mg IV bolus, repetir cada 2-3 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 2-3 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipotensión refractaria",
+          "descricaoDose": "0,5-5 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipotensión pediátrica (bolus)",
+          "descricaoDose": "0,01-0,1 mg/kg IV (máx 5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir según necesidad",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento pediátrico",
+          "descricaoDose": "0,1-1 mcg/kg/min IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 5 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 1 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "100mg en 500mL SF 0,9% (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "50mg en 500mL SF 0,9% (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "20mg en 500mL SF 0,9% (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor - Simpatomimético α1 > β1",
+      "apresentacoes": [
+        { "forma": "Ampolla 10mg/mL (1 mL)", "obs": "Aramine®" }
+      ],
+      "preparo": [
+        { "diluicao": "100mg + 500mL SF 0,9%", "concentracao": "200 mcg/mL" },
+        { "diluicao": "50mg + 500mL SF 0,9%", "concentracao": "100 mcg/mL" },
+        { "diluicao": "20mg + 500mL SF 0,9%", "concentracao": "40 mcg/mL" }
+      ],
+      "observacoes": [
+        "Inicio: 1-2 min IV | Duración: 20-60 min",
+        "Bradicardia refleja (α1 > β) – ideal si taquicardia",
+        "Taquifilaxia con uso prolongado",
+        "CI: hipertensión grave, feocromocitoma",
+        "Extravasación → necrosis – vía periférica con cuidado",
+        "Alternativa a fenilefrina en intraoperatorio"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares.",
+        "renal": "No requiere ajuste.",
+        "hepatico": "Usar con cautela en hepatopatía grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Metaraminol (adulto) - Bolus",
+        "doseTexto": "0,5-2 mg IV cada 2-3 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metaraminol (adulto) - Infusión",
+        "doseTexto": "0,5-5 mcg/kg/min IV continua",
+        "doseMin": 0.5,
+        "doseMax": 5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metaraminol (pediátrico) - Bolus",
+        "doseTexto": "0,01-0,1 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.01,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Metaraminol (pediátrico) - Infusión",
+        "doseTexto": "0,1-1 mcg/kg/min IV continua",
+        "doseMin": 0.1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "间羟胺",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "低血压（椎管内麻醉）",
+          "descricaoDose": "0.5-2 mg IV 推注，每2-3分钟重复",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "每2-3分钟",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "难治性低血压",
+          "descricaoDose": "0.5-5 mcg/kg/min IV 持续输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "儿童低血压（推注）",
+          "descricaoDose": "0.01-0.1 mg/kg IV（最大5 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "dosePorKgMin": 0.01,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "按需重复",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "儿童维持",
+          "descricaoDose": "0.1-1 mcg/kg/min IV 持续输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mcg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/min",
+          "adulto": { "doseMin": 0.5, "doseMax": 5 },
+          "pediatrico": { "doseMin": 0.1, "doseMax": 1 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "100mg 溶于 500mL 生理盐水 (200 mcg/mL)", "valor": 200 },
+            { "rotulo": "50mg 溶于 500mL 生理盐水 (100 mcg/mL)", "valor": 100 },
+            { "rotulo": "20mg 溶于 500mL 生理盐水 (40 mcg/mL)", "valor": 40 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "升压药 - α1 > β1 拟交感神经药",
+      "apresentacoes": [
+        { "forma": "安瓿 10mg/mL (1 mL)", "obs": "Aramine®" }
+      ],
+      "preparo": [
+        { "diluicao": "100mg + 500mL 生理盐水", "concentracao": "200 mcg/mL" },
+        { "diluicao": "50mg + 500mL 生理盐水", "concentracao": "100 mcg/mL" },
+        { "diluicao": "20mg + 500mL 生理盐水", "concentracao": "40 mcg/mL" }
+      ],
+      "observacoes": [
+        "起效：1-2分钟 IV | 持续时间：20-60分钟",
+        "反射性心动过缓（α1 > β）- 如有心动过速适用",
+        "长期使用可产生快速耐受",
+        "禁忌：严重高血压、嗜铬细胞瘤",
+        "外渗→坏死 - 外周静脉慎用",
+        "术中替代去氧肾上腺素"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。监测心血管效应。",
+        "renal": "无需调整。",
+        "hepatico": "严重肝病慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "间羟胺（成人）- 推注",
+        "doseTexto": "0.5-2 mg IV 每2-3分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "间羟胺（成人）- 输注",
+        "doseTexto": "0.5-5 mcg/kg/min IV 持续",
+        "doseMin": 0.5,
+        "doseMax": 5,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "间羟胺（儿童）- 推注",
+        "doseTexto": "0.01-0.1 mg/kg IV（最大5 mg）",
+        "doseMin": 0.01,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "间羟胺（儿童）- 输注",
+        "doseTexto": "0.1-1 mcg/kg/min IV 持续",
+        "doseMin": 0.1,
+        "doseMax": 1,
+        "unidadeResultado": "mcg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

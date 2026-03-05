@@ -1,0 +1,658 @@
+{
+  "PT": {
+    "nome": "Hidroxocobalamina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicação por cianeto - Adulto",
+          "descricaoDose": "5 g IV em 15 min (pode repetir 5 g se grave; máx 10 g total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 15 min; pode repetir 5 g se grave (máx 10 g)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação grave - Dose máxima (repetir)",
+          "descricaoDose": "10 g total (duas doses de 5 g) se instabilidade persiste",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "segunda dose de 5 g se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Vasoplegia refratária (off-label)",
+          "descricaoDose": "5 g IV em bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação por cianeto - Pediátrico",
+          "descricaoDose": "70 mg/kg IV em 15 min (máx 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 15 min; pode repetir 70 mg/kg se necessário (máx 10 g total)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto para intoxicação por cianeto; derivado da vitamina B12 (cobalamina). Uso off-label em vasoplegia.",
+      "apresentacoes": [
+        {
+          "forma": "Frasco-ampola 2,5 g liofilizado",
+          "obs": ""
+        },
+        {
+          "forma": "Kit Cyanokit® (1 ou 2 frascos 2,5 g + diluente + equipo)",
+          "obs": ""
+        },
+        {
+          "forma": "Concentração após preparo",
+          "obs": "25 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "2,5 g em 100 mL diluente próprio (do kit) ou água para injeção",
+          "concentracao": "25 mg/mL"
+        },
+        {
+          "diluicao": "Ou: 5 g (2 frascos) em 200 mL diluente",
+          "concentracao": "25 mg/mL"
+        },
+        {
+          "diluicao": "Agitar vigorosamente por 60 s",
+          "concentracao": "Solução vermelho escuro"
+        },
+        {
+          "diluicao": "Via IV exclusiva - linha dedicada",
+          "concentracao": "NÃO misturar com outros medicamentos"
+        }
+      ],
+      "observacoes": [
+        "Antídoto de primeira linha para intoxicação por cianeto",
+        "Início: imediato | Meia-vida: 26-31 h",
+        "Cromúria (urina vermelho-escura) por até 5 semanas - esperado, não prejudicial",
+        "Interfere em exames: creatinina, bilirrubinas, oximetria - avisar laboratório",
+        "Vasoplegia: sequestra óxido nítrico (NO) - pode causar HAS transitória, rash, náuseas",
+        "CI relativa: hipersensibilidade a cobalamina/vitamina B12"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico em emergência. Monitorar efeitos.",
+        "renal": "Não é necessário ajuste em emergência.",
+        "hepatico": "Não é necessário ajuste."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hidroxocobalamina (adulto) - Intoxicação cianeto",
+        "doseTexto": "5 g IV em 15 min (máx 10 g)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidroxocobalamina (adulto) - Vasoplegia",
+        "doseTexto": "5 g IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidroxocobalamina (pediátrico) - Intoxicação cianeto",
+        "doseTexto": "70 mg/kg IV em 15 min (máx 5 g)",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Hydroxocobalamin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Cyanide poisoning - Adult",
+          "descricaoDose": "5 g IV over 15 min (may repeat 5 g if severe; max 10 g total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 15 min; may repeat 5 g if severe (max 10 g)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Severe poisoning - Maximum dose (repeat)",
+          "descricaoDose": "10 g total (two 5 g doses) if instability persists",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "second 5 g dose if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Refractory vasoplegia (off-label)",
+          "descricaoDose": "5 g IV bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cyanide poisoning - Pediatric",
+          "descricaoDose": "70 mg/kg IV over 15 min (max 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 15 min; may repeat 70 mg/kg if needed (max 10 g total)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antidote for cyanide poisoning; vitamin B12 (cobalamin) derivative. Off-label use in vasoplegia.",
+      "apresentacoes": [
+        {
+          "forma": "Lyophilized vial 2.5 g",
+          "obs": ""
+        },
+        {
+          "forma": "Cyanokit® kit (1 or 2 vials 2.5 g + diluent + infusion set)",
+          "obs": ""
+        },
+        {
+          "forma": "Concentration after reconstitution",
+          "obs": "25 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "2.5 g in 100 mL provided diluent or sterile water for injection",
+          "concentracao": "25 mg/mL"
+        },
+        {
+          "diluicao": "Or: 5 g (2 vials) in 200 mL diluent",
+          "concentracao": "25 mg/mL"
+        },
+        {
+          "diluicao": "Shake vigorously for 60 s",
+          "concentracao": "Dark red solution"
+        },
+        {
+          "diluicao": "IV only - dedicated line",
+          "concentracao": "Do NOT mix with other medications"
+        }
+      ],
+      "observacoes": [
+        "First-line antidote for cyanide poisoning",
+        "Onset: immediate | Half-life: 26-31 h",
+        "Chromaturia (dark red urine) for up to 5 weeks - expected, not harmful",
+        "Interferes with assays: creatinine, bilirubin, oximetry - notify lab",
+        "Vasoplegia: sequesters nitric oxide (NO) - may cause transient HTN, rash, nausea",
+        "Relative CI: hypersensitivity to cobalamin/vitamin B12"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment in emergency. Monitor effects.",
+        "renal": "No adjustment required in emergency.",
+        "hepatico": "No adjustment required."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hydroxocobalamin (adult) - Cyanide",
+        "doseTexto": "5 g IV over 15 min (max 10 g)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydroxocobalamin (adult) - Vasoplegia",
+        "doseTexto": "5 g IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hydroxocobalamin (pediatric) - Cyanide",
+        "doseTexto": "70 mg/kg IV over 15 min (max 5 g)",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Hidroxocobalamina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicación por cianuro - Adulto",
+          "descricaoDose": "5 g IV en 15 min (puede repetir 5 g si grave; máx 10 g total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 15 min; puede repetir 5 g si grave (máx 10 g)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación grave - Dosis máxima (repetir)",
+          "descricaoDose": "10 g total (dos dosis de 5 g) si persiste inestabilidad",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "segunda dosis de 5 g si es necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Vasoplejía refractaria (off-label)",
+          "descricaoDose": "5 g IV en bolo",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación por cianuro - Pediátrico",
+          "descricaoDose": "70 mg/kg IV en 15 min (máx 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 15 min; puede repetir 70 mg/kg si es necesario (máx 10 g total)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto para intoxicación por cianuro; derivado de la vitamina B12 (cobalamina). Uso off-label en vasoplejía.",
+      "apresentacoes": [
+        {
+          "forma": "Vial liofilizado 2,5 g",
+          "obs": ""
+        },
+        {
+          "forma": "Kit Cyanokit® (1 o 2 viales 2,5 g + diluyente + equipo)",
+          "obs": ""
+        },
+        {
+          "forma": "Concentración tras preparación",
+          "obs": "25 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "2,5 g en 100 mL diluyente del kit o agua para inyección",
+          "concentracao": "25 mg/mL"
+        },
+        {
+          "diluicao": "O: 5 g (2 viales) en 200 mL diluyente",
+          "concentracao": "25 mg/mL"
+        },
+        {
+          "diluicao": "Agitar vigorosamente 60 s",
+          "concentracao": "Solución rojo oscuro"
+        },
+        {
+          "diluicao": "Vía IV exclusiva - línea dedicada",
+          "concentracao": "NO mezclar con otros medicamentos"
+        }
+      ],
+      "observacoes": [
+        "Antídoto de primera línea en intoxicación por cianuro",
+        "Inicio: inmediato | Vida media: 26-31 h",
+        "Cromuria (orina rojo oscuro) hasta 5 semanas - esperado, no perjudicial",
+        "Interfiere en analíticas: creatinina, bilirrubina, oximetría - avisar al laboratorio",
+        "Vasoplejía: secuestra óxido nítrico (NO) - puede causar HTA transitoria, rash, náuseas",
+        "CI relativa: hipersensibilidad a cobalamina/vitamina B12"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No requiere ajuste específico en emergencia. Monitorizar efectos.",
+        "renal": "No es necesario ajuste en emergencia.",
+        "hepatico": "No es necesario ajuste."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hidroxocobalamina (adulto) - Intoxicación cianuro",
+        "doseTexto": "5 g IV en 15 min (máx 10 g)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidroxocobalamina (adulto) - Vasoplejía",
+        "doseTexto": "5 g IV bolo",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hidroxocobalamina (pediátrico) - Intoxicación cianuro",
+        "doseTexto": "70 mg/kg IV en 15 min (máx 5 g)",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "羟钴胺",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "氰化物中毒 - 成人",
+          "descricaoDose": "5 g IV 15分钟内（严重时可重复5 g；总量最大10 g）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "15分钟内；严重时可重复5 g（最大10 g）",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "严重中毒 - 最大剂量（重复）",
+          "descricaoDose": "总量10 g（两次5 g）若不稳定持续",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 g",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "必要时第二次5 g",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "难治性血管麻痹（超说明书）",
+          "descricaoDose": "5 g IV 推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "氰化物中毒 - 儿童",
+          "descricaoDose": "70 mg/kg IV 15分钟内（最大5 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "15分钟内；必要时可重复70 mg/kg（总量最大10 g）",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "氰化物中毒解毒剂；维生素B12（钴胺）衍生物。血管麻痹超说明书用药。",
+      "apresentacoes": [
+        {
+          "forma": "冻干粉 2,5 g 瓶",
+          "obs": ""
+        },
+        {
+          "forma": "Cyanokit® 套件（1或2瓶 2,5 g + 稀释液 + 输液器）",
+          "obs": ""
+        },
+        {
+          "forma": "配制后浓度",
+          "obs": "25 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "2,5 g 溶于 100 mL 配套稀释液或注射用水",
+          "concentracao": "25 mg/mL"
+        },
+        {
+          "diluicao": "或：5 g（2瓶）溶于 200 mL 稀释液",
+          "concentracao": "25 mg/mL"
+        },
+        {
+          "diluicao": "用力振摇 60 秒",
+          "concentracao": "深红色溶液"
+        },
+        {
+          "diluicao": "仅IV - 专用管路",
+          "concentracao": "勿与其他药物混合"
+        }
+      ],
+      "observacoes": [
+        "氰化物中毒一线解毒剂",
+        "起效：即刻 | 半衰期：26-31 小时",
+        "红色尿可达5周 - 预期现象，无害",
+        "干扰检验：肌酐、胆红素、血氧 - 告知实验室",
+        "血管麻痹：螯合一氧化氮（NO）- 可致一过性高血压、皮疹、恶心",
+        "相对禁忌：钴胺素/维生素B12过敏"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "急诊无需特定调整。监测效应。",
+        "renal": "急诊无需调整。",
+        "hepatico": "无需调整。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "羟钴胺（成人）- 氰化物中毒",
+        "doseTexto": "5 g IV 15分钟内（最大10 g）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "羟钴胺（成人）- 血管麻痹",
+        "doseTexto": "5 g IV 推注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "羟钴胺（儿童）- 氰化物中毒",
+        "doseTexto": "70 mg/kg IV 15分钟内（最大5 g）",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Brivaracetam",
+      "nomesComerciais": ["Briviact®"],
+      "classeTerapeutica": "Antiepiléptico de 2ª geração",
+      "mecanismoAcao": "Derivado do levetiracetam (análogo 4-N-propil). Liga-se à proteína vesicular sináptica SV2A com afinidade 15-30x maior que o levetiracetam. Modula a liberação de neurotransmissores.",
+      "apresentacoes": ["Ampola 50 mg/5 mL (10 mg/mL)", "Comprimidos 10 mg, 25 mg, 50 mg, 75 mg, 100 mg", "Solução oral 10 mg/mL"],
+      "posologia": {
+        "statusEpilepticus": {
+          "ataque": "100-200 mg IV em 15 min",
+          "manutencao": "50-100 mg IV/VO 12/12h"
+        },
+        "doseMaximaDiaria": "200 mg/dia",
+        "pediatrico": {
+          "pesoMaior50kg": "50-100 mg 12/12h",
+          "pesoMenor50kg": "0,5-2 mg/kg/dose 12/12h"
+        }
+      },
+      "comparacaoLevetiracetam": {
+        "afinidadeSV2A": "15-30x maior",
+        "lipossolubilidade": "Maior (penetra mais rápido no SNC)",
+        "inicioAcao": "Mais rápido",
+        "efeitosComportamentais": "Menores",
+        "irritabilidadeAgressividade": "Menos comum",
+        "dose": "10x menor que levetiracetam"
+      },
+      "farmacocinetica": {
+        "biodisponibilidadeOral": "> 95%",
+        "meiaVida": "9 horas",
+        "ligacaoProteica": "< 20%",
+        "metabolismo": "Hepático (CYP2C19) + hidrólise",
+        "excrecaoRenal": "Metabólitos"
+      },
+      "ajusteDose": {
+        "hepatico": "Child-Pugh C: máx 75 mg 12/12h",
+        "renal": "Não requer ajuste"
+      },
+      "contraindicacoes": ["Hipersensibilidade ao brivaracetam ou levetiracetam"],
+      "efeitosAdversos": ["Sonolência", "Tontura", "Fadiga", "Náusea", "Irritabilidade (menos que levetiracetam)"],
+      "vantagens": ["Menos efeitos comportamentais que levetiracetam", "Início de ação mais rápido", "Doses menores"],
+      "categoriaGravidez": "C"
+    }
+  }
+}

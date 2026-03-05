@@ -1,0 +1,510 @@
+{
+  "PT": {
+    "nome": "Neostigmina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversão de bloqueio neuromuscular (adulto)",
+          "descricaoDose": "0,04-0,07 mg/kg IV lento em 60 s (associar atropina ou glicopirrolato). Máx 5 mg.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.07,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única (IV lento 60 s)",
+            "ajusteRenal": "Usar com cautela em IR moderada a grave. Reduzir dose e monitorar (risco de acúmulo e crise colinérgica).",
+            "ajusteHepatico": "Não é necessário ajuste na maioria dos casos. Cautela em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "Reversão de bloqueio neuromuscular (pediátrico)",
+          "descricaoDose": "0,05-0,07 mg/kg IV (associar atropina ou glicopirrolato). Máx 5 mg.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.07,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "Usar com cautela em IR moderada a grave. Reduzir dose e monitorar.",
+            "ajusteHepatico": "Não é necessário ajuste na maioria dos casos. Cautela em IR hepática grave."
+          }
+        },
+        {
+          "titulo": "Miastenia gravis (IM/SC)",
+          "descricaoDose": "0,04-0,08 mg/kg/dose IM ou SC, 4-6 vezes ao dia (fora do contexto anestésico)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.08,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "4-6 vezes ao dia",
+            "ajusteRenal": "Cautela em IR moderada a grave. Reduzir dose e monitorar.",
+            "ajusteHepatico": "Não é necessário ajuste na maioria dos casos."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinesterásico; inibidor da acetilcolinesterase; agente reversor de bloqueadores neuromusculares não despolarizantes",
+      "apresentacoes": [
+        { "forma": "Ampola 0,5 mg/mL (1 mL)", "obs": "Prostigmin®, Prostigmina®" },
+        { "forma": "Ampola 1 mg/mL (1 mL)", "obs": "Prostigmin®, Prostigmina®" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: pronto para uso (direto da ampola)", "concentracao": "0,5 ou 1 mg/mL" },
+        { "diluicao": "5 mg (5 ampolas 1 mg/mL) em 50 mL SF", "concentracao": "0,1 mg/mL (infusão lenta, se necessário)" }
+      ],
+      "observacoes": [
+        "Sempre associar anticolinérgico (atropina 0,015 mg/kg ou glicopirrolato 0,01 mg/kg) para prevenir bradicardia e efeitos muscarínicos",
+        "Administrar apenas quando TOF ≥2 respostas ou resposta no POT (Post-Tetanic Count)",
+        "Dose máxima: 5 mg IV por administração; administração IV lenta em 60 segundos",
+        "Risco de bradicardia e crise colinérgica (superdosagem); ter atropina disponível à cabeceira",
+        "Incompatível com soluções alcalinas (ex.: bicarbonato de sódio)",
+        "Conservar 15-30°C, proteger da luz; após abertura usar em até 24h se refrigerado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Cautela; avaliar função renal. Reduzir dose e monitorar (risco de acúmulo).",
+        "renal": "Usar com cautela em IR moderada a grave. Reduzir dose e monitorar cuidadosamente (risco de acúmulo e toxicidade/crise colinérgica).",
+        "hepatico": "Não é necessário ajuste na maioria dos casos. Usar com cautela em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Neostigmina reversão (adulto)",
+        "doseTexto": "0,04-0,07 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.04,
+        "doseMax": 0.07,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Neostigmina reversão (pediátrico)",
+        "doseTexto": "0,05-0,07 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.07,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Neostigmina miastenia gravis",
+        "doseTexto": "0,04-0,08 mg/kg/dose IM/SC, 4-6x/dia",
+        "doseMin": 0.04,
+        "doseMax": 0.08,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Neostigmine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Neuromuscular blockade reversal (adult)",
+          "descricaoDose": "0.04-0.07 mg/kg IV slow over 60 s (give with atropine or glycopyrrolate). Max 5 mg.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.07,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose (IV slow 60 s)",
+            "ajusteRenal": "Use with caution in moderate to severe renal insufficiency. Reduce dose and monitor (risk of accumulation and cholinergic crisis).",
+            "ajusteHepatico": "No adjustment necessary in most cases. Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Neuromuscular blockade reversal (pediatric)",
+          "descricaoDose": "0.05-0.07 mg/kg IV (give with atropine or glycopyrrolate). Max 5 mg.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.07,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "Use with caution in moderate to severe renal insufficiency. Reduce dose and monitor.",
+            "ajusteHepatico": "No adjustment necessary in most cases. Caution in severe hepatic insufficiency."
+          }
+        },
+        {
+          "titulo": "Myasthenia gravis (IM/SC)",
+          "descricaoDose": "0.04-0.08 mg/kg/dose IM or SC, 4-6 times daily (outside anesthetic context)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.08,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/SC",
+            "intervalo": "4-6 times daily",
+            "ajusteRenal": "Caution in moderate to severe renal insufficiency. Reduce dose and monitor.",
+            "ajusteHepatico": "No adjustment necessary in most cases."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticholinesterase; acetylcholinesterase inhibitor; reversal agent for non-depolarizing neuromuscular blockers",
+      "apresentacoes": [
+        { "forma": "Ampoule 0.5 mg/mL (1 mL)", "obs": "Prostigmin®, Neostigmine®" },
+        { "forma": "Ampoule 1 mg/mL (1 mL)", "obs": "Prostigmin®, Neostigmine®" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: ready for use (undiluted)", "concentracao": "0.5 or 1 mg/mL" },
+        { "diluicao": "5 mg (5 ampoules 1 mg/mL) in 50 mL NS", "concentracao": "0.1 mg/mL (slow infusion if needed)" }
+      ],
+      "observacoes": [
+        "Always give with anticholinergic (atropine 0.015 mg/kg or glycopyrrolate 0.01 mg/kg) to prevent bradycardia and muscarinic effects",
+        "Administer only when TOF ≥2 responses or response on PTC (Post-Tetanic Count)",
+        "Maximum dose: 5 mg IV per administration; give IV slow over 60 seconds",
+        "Risk of bradycardia and cholinergic crisis (overdose); have atropine available at bedside",
+        "Incompatible with alkaline solutions (e.g. sodium bicarbonate)",
+        "Store 15-30°C, protect from light; after opening use within 24h if refrigerated"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Caution; assess renal function. Reduce dose and monitor (accumulation risk).",
+        "renal": "Use with caution in moderate to severe renal insufficiency. Reduce dose and monitor carefully (risk of accumulation and toxicity/cholinergic crisis).",
+        "hepatico": "No adjustment necessary in most cases. Use with caution in severe hepatic insufficiency."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Neostigmine reversal (adult)",
+        "doseTexto": "0.04-0.07 mg/kg IV (max 5 mg)",
+        "doseMin": 0.04,
+        "doseMax": 0.07,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Neostigmine reversal (pediatric)",
+        "doseTexto": "0.05-0.07 mg/kg IV (max 5 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.07,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Neostigmine myasthenia gravis",
+        "doseTexto": "0.04-0.08 mg/kg/dose IM/SC, 4-6x/day",
+        "doseMin": 0.04,
+        "doseMax": 0.08,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Neostigmina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversión de bloqueo neuromuscular (adulto)",
+          "descricaoDose": "0,04-0,07 mg/kg IV lento en 60 s (asociar atropina o glicopirrolato). Máx 5 mg.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.07,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única (IV lento 60 s)",
+            "ajusteRenal": "Usar con precaución en insuficiencia renal moderada a grave. Reducir dosis y monitorizar (riesgo de acumulación y crisis colinérgica).",
+            "ajusteHepatico": "No es necesario ajuste en la mayoría de los casos. Precaución en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Reversión de bloqueo neuromuscular (pediátrico)",
+          "descricaoDose": "0,05-0,07 mg/kg IV (asociar atropina o glicopirrolato). Máx 5 mg.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.07,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Usar con precaución en insuficiencia renal moderada a grave. Reducir dosis y monitorizar.",
+            "ajusteHepatico": "No es necesario ajuste en la mayoría de los casos. Precaución en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Miastenia gravis (IM/SC)",
+          "descricaoDose": "0,04-0,08 mg/kg/dosis IM o SC, 4-6 veces al día (fuera del contexto anestésico)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.08,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "4-6 veces al día",
+            "ajusteRenal": "Precaución en IR moderada a grave. Reducir dosis y monitorizar.",
+            "ajusteHepatico": "No es necesario ajuste en la mayoría de los casos."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinesterásico; inhibidor de la acetilcolinesterasa; agente reversor de bloqueadores neuromusculares no despolarizantes",
+      "apresentacoes": [
+        { "forma": "Ampolla 0,5 mg/mL (1 mL)", "obs": "Prostigmin®, Neostigmina®" },
+        { "forma": "Ampolla 1 mg/mL (1 mL)", "obs": "Prostigmin®, Neostigmina®" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo: listo para uso (directo de la ampolla)", "concentracao": "0,5 o 1 mg/mL" },
+        { "diluicao": "5 mg (5 ampollas 1 mg/mL) en 50 mL SF", "concentracao": "0,1 mg/mL (infusión lenta si necesario)" }
+      ],
+      "observacoes": [
+        "Siempre asociar anticolinérgico (atropina 0,015 mg/kg o glicopirrolato 0,01 mg/kg) para prevenir bradicardia y efectos muscarínicos",
+        "Administrar solo cuando TOF ≥2 respuestas o respuesta en POT (Post-Tetanic Count)",
+        "Dosis máxima: 5 mg IV por administración; administración IV lenta en 60 segundos",
+        "Riesgo de bradicardia y crisis colinérgica (sobredosis); tener atropina disponible al lado del paciente",
+        "Incompatible con soluciones alcalinas (ej. bicarbonato sódico)",
+        "Conservar 15-30°C, proteger de la luz; tras apertura usar en 24h si refrigerado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Precaución; valorar función renal. Reducir dosis y monitorizar (riesgo de acumulación).",
+        "renal": "Usar con precaución en insuficiencia renal moderada a grave. Reducir dosis y monitorizar (riesgo de acumulación y toxicidad/crisis colinérgica).",
+        "hepatico": "No es necesario ajuste en la mayoría de los casos. Precaución en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Neostigmina reversión (adulto)",
+        "doseTexto": "0,04-0,07 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.04,
+        "doseMax": 0.07,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Neostigmina reversión (pediátrico)",
+        "doseTexto": "0,05-0,07 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.07,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Neostigmina miastenia gravis",
+        "doseTexto": "0,04-0,08 mg/kg/dosis IM/SC, 4-6x/día",
+        "doseMin": 0.04,
+        "doseMax": 0.08,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "新斯的明",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "神经肌肉阻滞逆转（成人）",
+          "descricaoDose": "0.04-0.07 mg/kg IV 缓慢 60 秒（联用阿托品或格隆溴铵）。最大 5 mg。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.07,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次（IV 缓慢 60 秒）",
+            "ajusteRenal": "中重度肾功能不全慎用。减量并监测（蓄积及胆碱能危象风险）。",
+            "ajusteHepatico": "多数情况下无需调整。重度肝功能不全慎用。"
+          }
+        },
+        {
+          "titulo": "神经肌肉阻滞逆转（儿童）",
+          "descricaoDose": "0.05-0.07 mg/kg IV（联用阿托品或格隆溴铵）。最大 5 mg。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.07,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "中重度肾功能不全慎用。减量并监测。",
+            "ajusteHepatico": "多数情况下无需调整。重度肝功能不全慎用。"
+          }
+        },
+        {
+          "titulo": "重症肌无力（肌注/皮下）",
+          "descricaoDose": "0.04-0.08 mg/kg/次 肌注或皮下，每日 4-6 次（非麻醉情境）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.04,
+            "dosePorKgMax": 0.08,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/SC",
+            "intervalo": "每日4-6次",
+            "ajusteRenal": "中重度肾功能不全慎用。减量并监测。",
+            "ajusteHepatico": "多数情况下无需调整。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗胆碱酯酶药；乙酰胆碱酯酶抑制剂；非去极化神经肌肉阻滞剂逆转剂",
+      "apresentacoes": [
+        { "forma": "安瓿 0.5 mg/mL (1 mL)", "obs": "Prostigmin®" },
+        { "forma": "安瓿 1 mg/mL (1 mL)", "obs": "Prostigmin®" }
+      ],
+      "preparo": [
+        { "diluicao": "推注：即用（原液）", "concentracao": "0.5 或 1 mg/mL" },
+        { "diluicao": "5 mg（5 支 1 mg/mL）溶于 50 mL 生理盐水", "concentracao": "0.1 mg/mL（必要时缓慢输注）" }
+      ],
+      "observacoes": [
+        "必须联用抗胆碱药（阿托品 0.015 mg/kg 或格隆溴铵 0.01 mg/kg）以防心动过缓及毒蕈碱效应",
+        "仅在 TOF ≥2 个反应或 PTC 有反应时给药",
+        "单次最大剂量：5 mg IV；IV 缓慢推注 60 秒",
+        "心动过缓及胆碱能危象（过量）风险；床旁备阿托品",
+        "与碱性溶液（如碳酸氢钠）不相容",
+        "15-30°C 避光保存；开启后冷藏 24 小时内使用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "慎用；评估肾功能。减量并监测（蓄积风险）。",
+        "renal": "中重度肾功能不全慎用。减量并密切监测（蓄积及毒性/胆碱能危象风险）。",
+        "hepatico": "多数情况下无需调整。重度肝功能不全慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "新斯的明 逆转（成人）",
+        "doseTexto": "0.04-0.07 mg/kg IV（最大 5 mg）",
+        "doseMin": 0.04,
+        "doseMax": 0.07,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "新斯的明 逆转（儿童）",
+        "doseTexto": "0.05-0.07 mg/kg IV（最大 5 mg）",
+        "doseMin": 0.05,
+        "doseMax": 0.07,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "新斯的明 重症肌无力",
+        "doseTexto": "0.04-0.08 mg/kg/次 肌注/皮下，每日4-6次",
+        "doseMin": 0.04,
+        "doseMax": 0.08,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

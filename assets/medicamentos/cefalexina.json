@@ -1,0 +1,36 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Cefalexina",
+      "nomesComerciais": ["Keflex®", "Cefalexina Genérico"],
+      "classeTerapeutica": "Antibiótico / Cefalosporina de 1ª geração",
+      "mecanismoAcao": "Inibe a síntese da parede celular bacteriana ligando-se às PBPs. Bactericida. Excelente atividade contra cocos Gram-positivos.",
+      "espectro": {
+        "excelente": ["S. aureus MSSA", "Streptococcus pyogenes", "S. pneumoniae"],
+        "moderado": ["E. coli", "Proteus mirabilis", "Klebsiella (algumas cepas)"],
+        "resistentes": ["MRSA", "Enterococcus", "Pseudomonas", "Bacteroides"]
+      },
+      "indicacoes": ["Infecções de pele (celulite, impetigo)", "Faringite estreptocócica", "ITU não complicada", "Infecções ósseas e articulares (leves)"],
+      "apresentacoes": ["Cápsulas 250 mg, 500 mg", "Comprimidos 500 mg, 1 g", "Suspensão oral 125 mg/5mL, 250 mg/5mL"],
+      "posologia": {
+        "adulto": {
+          "infeccoes_pele": "500 mg VO 6/6h",
+          "faringite": "500 mg VO 12/12h por 10 dias",
+          "ITU": "500 mg VO 6/6h por 7-14 dias"
+        },
+        "pediatrico": {
+          "dose": "12,5-25 mg/kg/dose VO 6/6h"
+        }
+      },
+      "ajusteRenal": {
+        "ClCr_10_50": "250-500 mg 8/8h",
+        "ClCr_menor_10": "250 mg 12/12h"
+      },
+      "contraindicacoes": ["Hipersensibilidade a cefalosporinas", "Anafilaxia prévia a penicilinas (relativa)"],
+      "efeitosAdversos": ["Diarreia", "Náusea", "Rash", "Candidíase vaginal", "Colite pseudomembranosa (rara)"],
+      "interacoes": ["Probenecida (aumenta níveis)", "Aminoglicosídeos (potencial nefrotoxicidade)"],
+      "observacoes": ["Pode ser administrada com ou sem alimentos", "Reação cruzada com penicilinas ~1-2%", "Categoria B na gestação", "Excelente para MSSA"],
+      "categoriaGravidez": "B"
+    }
+  }
+}

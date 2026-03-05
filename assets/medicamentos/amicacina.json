@@ -1,0 +1,69 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Amicacina",
+      "nome_comercial": ["Novamin", "Amicacina"],
+      "classe_terapeutica": "Antibiótico aminoglicosídeo",
+      "mecanismo_acao": "Liga-se irreversivelmente à subunidade 30S do ribossomo bacteriano, inibindo a síntese proteica e causando morte celular. Bactericida concentração-dependente.",
+      "indicacoes": [
+        "Infecções graves por Gram-negativos resistentes",
+        "Sepse por bacilos Gram-negativos",
+        "Pneumonia nosocomial",
+        "Infecções urinárias complicadas",
+        "Endocardite (em associação)",
+        "Infecções por Pseudomonas aeruginosa",
+        "Infecções por Acinetobacter"
+      ],
+      "contraindicacoes": [
+        "Hipersensibilidade a aminoglicosídeos",
+        "Miastenia gravis (uso cauteloso)",
+        "Gestação (categoria D)"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Solução injetável",
+          "concentracao": "100 mg/2 mL",
+          "volume": "50 mg/mL"
+        },
+        {
+          "forma": "Solução injetável",
+          "concentracao": "250 mg/mL",
+          "volume": "1-2 mL"
+        },
+        {
+          "forma": "Solução injetável",
+          "concentracao": "500 mg/2 mL",
+          "volume": "250 mg/mL"
+        }
+      ],
+      "farmacocinetica": {
+        "meia_vida": "2-3 horas (prolongada em IRC)",
+        "ligacao_proteica": "< 10%",
+        "metabolismo": "Não metabolizado",
+        "excrecao": "Renal (> 90% inalterado)"
+      },
+      "efeitos_adversos": [
+        "Nefrotoxicidade (dose-dependente)",
+        "Ototoxicidade (vestibular e coclear)",
+        "Bloqueio neuromuscular",
+        "Neuropatia periférica",
+        "Elevação de creatinina"
+      ],
+      "interacoes_importantes": [
+        "Anfotericina B: aumento de nefrotoxicidade",
+        "Vancomicina: aumento de nefro e ototoxicidade",
+        "Bloqueadores neuromusculares: potencialização",
+        "Diuréticos de alça: aumento de ototoxicidade",
+        "AINEs: aumento de nefrotoxicidade"
+      ],
+      "monitoramento": {
+        "pico_serico": "20-35 mcg/mL (30 min após infusão)",
+        "vale": "< 5-10 mcg/mL (antes da próxima dose)",
+        "funcao_renal": "Creatinina a cada 2-3 dias"
+      },
+      "estabilidade": {
+        "temperatura_ambiente": "24 horas"
+      }
+    }
+  }
+}

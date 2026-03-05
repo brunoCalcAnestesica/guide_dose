@@ -1,0 +1,634 @@
+{
+  "PT": {
+    "nome": "Adenosina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "TSV - 1ª dose",
+          "descricaoDose": "6mg IV bolus rápido (<2s) + flush 20mL SF",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": "6 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única, repetir se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TSV - 2ª/3ª dose",
+          "descricaoDose": "12mg IV bolus rápido (<2s) + flush 20mL SF",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12,
+            "doseFixa": "12 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1-2 min após dose anterior",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TSV Pediátrica - 1ª dose",
+          "descricaoDose": "0,1mg/kg IV bolus rápido (máx 6mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única, repetir se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TSV Pediátrica - 2ª dose",
+          "descricaoDose": "0,2mg/kg IV bolus rápido (máx 12mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1-2 min após dose anterior",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiarrítmico Classe V - Nucleosídeo purinérgico",
+      "apresentacoes": [
+        {
+          "forma": "Ampola 6mg/2mL",
+          "obs": "3 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "Uso direto sem diluição",
+          "concentracao": "3 mg/mL"
+        },
+        {
+          "diluicao": "Flush obrigatório",
+          "concentracao": "20 mL SF 0,9% após cada dose"
+        }
+      ],
+      "observacoes": [
+        "Administrar em bolus IV RÁPIDO (<2 segundos) + flush imediato",
+        "Assistolia transitória é ESPERADA (5-15 segundos) - não é complicação",
+        "Monitorização ECG contínua obrigatória durante administração",
+        "Meia-vida ultracurta: <10 segundos",
+        "Cafeína e teofilina ANTAGONIZAM o efeito - doses maiores podem ser necessárias",
+        "Contraindicada em asma grave e broncoespasmo ativo"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar ECG e PA.",
+        "renal": "Não requer ajuste. Metabolização celular e enzimática.",
+        "hepatico": "Não requer ajuste. Metabolização extra-hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Adenosina 1ª dose (adulto)",
+        "doseTexto": "6 mg IV bolus rápido + flush",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "6 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Adenosina 2ª dose (adulto)",
+        "doseTexto": "12 mg IV bolus rápido + flush",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Adenosina 1ª dose (pediátrico)",
+        "doseTexto": "0,1 mg/kg IV (máx 6mg)",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Adenosina 2ª dose (pediátrico)",
+        "doseTexto": "0,2 mg/kg IV (máx 12mg)",
+        "doseMin": 0.2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Adenosine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SVT - 1st dose",
+          "descricaoDose": "6mg rapid IV bolus (<2s) + 20mL NS flush",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": "6 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose, repeat if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "SVT - 2nd/3rd dose",
+          "descricaoDose": "12mg rapid IV bolus (<2s) + 20mL NS flush",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12,
+            "doseFixa": "12 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "1-2 min after previous dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric SVT - 1st dose",
+          "descricaoDose": "0.1mg/kg rapid IV bolus (max 6mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose, repeat if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric SVT - 2nd dose",
+          "descricaoDose": "0.2mg/kg rapid IV bolus (max 12mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "1-2 min after previous dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Class V Antiarrhythmic - Purinergic nucleoside",
+      "apresentacoes": [
+        {
+          "forma": "Ampoule 6mg/2mL",
+          "obs": "3 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "Use directly without dilution",
+          "concentracao": "3 mg/mL"
+        },
+        {
+          "diluicao": "Mandatory flush",
+          "concentracao": "20 mL NS 0.9% after each dose"
+        }
+      ],
+      "observacoes": [
+        "Administer as RAPID IV bolus (<2 seconds) + immediate flush",
+        "Transient asystole is EXPECTED (5-15 seconds) - not a complication",
+        "Continuous ECG monitoring required during administration",
+        "Ultra-short half-life: <10 seconds",
+        "Caffeine and theophylline ANTAGONIZE effect - higher doses may be needed",
+        "Contraindicated in severe asthma and active bronchospasm"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor ECG and BP.",
+        "renal": "No adjustment required. Cellular and enzymatic metabolism.",
+        "hepatico": "No adjustment required. Extra-hepatic metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Adenosine 1st dose (adult)",
+        "doseTexto": "6 mg rapid IV bolus + flush",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "6 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Adenosine 2nd dose (adult)",
+        "doseTexto": "12 mg rapid IV bolus + flush",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Adenosine 1st dose (pediatric)",
+        "doseTexto": "0.1 mg/kg IV (max 6mg)",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Adenosine 2nd dose (pediatric)",
+        "doseTexto": "0.2 mg/kg IV (max 12mg)",
+        "doseMin": 0.2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Adenosina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "TSV - 1ª dosis",
+          "descricaoDose": "6mg bolo IV rápido (<2s) + flush 20mL SSF",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": "6 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única, repetir si necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "TSV - 2ª/3ª dosis",
+          "descricaoDose": "12mg bolo IV rápido (<2s) + flush 20mL SSF",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12,
+            "doseFixa": "12 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1-2 min después de dosis anterior",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "TSV Pediátrica - 1ª dosis",
+          "descricaoDose": "0,1mg/kg bolo IV rápido (máx 6mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única, repetir si necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "TSV Pediátrica - 2ª dosis",
+          "descricaoDose": "0,2mg/kg bolo IV rápido (máx 12mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1-2 min después de dosis anterior",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiarrítmico Clase V - Nucleósido purinérgico",
+      "apresentacoes": [
+        {
+          "forma": "Ampolla 6mg/2mL",
+          "obs": "3 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "Uso directo sin dilución",
+          "concentracao": "3 mg/mL"
+        },
+        {
+          "diluicao": "Flush obligatorio",
+          "concentracao": "20 mL SSF 0,9% después de cada dosis"
+        }
+      ],
+      "observacoes": [
+        "Administrar en bolo IV RÁPIDO (<2 segundos) + flush inmediato",
+        "Asistolia transitoria es ESPERADA (5-15 segundos) - no es complicación",
+        "Monitorización ECG continua obligatoria durante administración",
+        "Vida media ultracorta: <10 segundos",
+        "Cafeína y teofilina ANTAGONIZAN el efecto - dosis mayores pueden ser necesarias",
+        "Contraindicada en asma grave y broncoespasmo activo"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar ECG y PA.",
+        "renal": "No requiere ajuste. Metabolización celular y enzimática.",
+        "hepatico": "No requiere ajuste. Metabolización extrahepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Adenosina 1ª dosis (adulto)",
+        "doseTexto": "6 mg bolo IV rápido + flush",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "6 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Adenosina 2ª dosis (adulto)",
+        "doseTexto": "12 mg bolo IV rápido + flush",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Adenosina 1ª dosis (pediátrico)",
+        "doseTexto": "0,1 mg/kg IV (máx 6mg)",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Adenosina 2ª dosis (pediátrico)",
+        "doseTexto": "0,2 mg/kg IV (máx 12mg)",
+        "doseMin": 0.2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "腺苷",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "SVT - 第1剂",
+          "descricaoDose": "6mg 快速IV推注 (<2秒) + 20mL NS冲洗",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": "6 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量，必要时重复",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "SVT - 第2/3剂",
+          "descricaoDose": "12mg 快速IV推注 (<2秒) + 20mL NS冲洗",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12,
+            "doseFixa": "12 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "前一剂后1-2分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童SVT - 第1剂",
+          "descricaoDose": "0.1mg/kg 快速IV推注（最大6mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 6,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量，必要时重复",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童SVT - 第2剂",
+          "descricaoDose": "0.2mg/kg 快速IV推注（最大12mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "前一剂后1-2分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "V类抗心律失常药 - 嘌呤能核苷",
+      "apresentacoes": [
+        {
+          "forma": "安瓿 6mg/2mL",
+          "obs": "3 mg/mL"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "直接使用无需稀释",
+          "concentracao": "3 mg/mL"
+        },
+        {
+          "diluicao": "必须冲洗",
+          "concentracao": "每剂后20 mL 0.9% NS"
+        }
+      ],
+      "observacoes": [
+        "以快速IV推注方式给药（<2秒）+ 立即冲洗",
+        "短暂心脏停搏是预期的（5-15秒）- 不是并发症",
+        "给药期间必须持续心电图监测",
+        "超短半衰期：<10秒",
+        "咖啡因和茶碱会拮抗效果 - 可能需要更高剂量",
+        "严重哮喘和活动性支气管痉挛禁用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测心电图和血压。",
+        "renal": "无需调整。细胞和酶促代谢。",
+        "hepatico": "无需调整。肝外代谢。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "腺苷 第1剂（成人）",
+        "doseTexto": "6 mg 快速IV推注 + 冲洗",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "6 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "腺苷 第2剂（成人）",
+        "doseTexto": "12 mg 快速IV推注 + 冲洗",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "腺苷 第1剂（儿童）",
+        "doseTexto": "0.1 mg/kg IV（最大6mg）",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "腺苷 第2剂（儿童）",
+        "doseTexto": "0.2 mg/kg IV（最大12mg）",
+        "doseMin": 0.2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

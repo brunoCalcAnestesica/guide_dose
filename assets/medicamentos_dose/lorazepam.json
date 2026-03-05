@@ -1,0 +1,1318 @@
+{
+  "PT": {
+    "nome": "Lorazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus",
+          "descricaoDose": "4 mg IV em bolus lento (2 mg/min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir após 10-15 min se necessário",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedação procedimentos",
+          "descricaoDose": "1-4 mg IV lento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "1-4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou repetir se necessário",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedação pré-operatória",
+          "descricaoDose": "2-4 mg IV/IM, 30-60 min antes",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "30-60 min antes do procedimento",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Agitação aguda",
+          "descricaoDose": "0,5-2 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 4,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 4-6h se necessário",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epilepticus (por kg)",
+          "descricaoDose": "0,1 mg/kg IV (máx 4 mg por dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir após 10-15 min se necessário (máx 8 mg total)",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedação (por kg)",
+          "descricaoDose": "0,02-0,05 mg/kg IV (máx 4 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou repetir se necessário",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Co-indução anestésica",
+          "descricaoDose": "0,02-0,04 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.04,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epilepticus (idoso)",
+          "descricaoDose": "2 mg IV em bolus lento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": "2 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir após 10-15 min se necessário",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedação (idoso)",
+          "descricaoDose": "0,5-2 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epilepticus pediátrico",
+          "descricaoDose": "0,05-0,1 mg/kg IV (máx 4 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir após 10-15 min se necessário",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose"
+          }
+        },
+        {
+          "titulo": "Sedação pediátrica",
+          "descricaoDose": "0,02-0,05 mg/kg IV (máx 2 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "Reduzir dose em IR grave",
+            "ajusteHepatico": "Reduzir dose"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico - Ansiolítico, sedativo-hipnótico, anticonvulsivante",
+      "apresentacoes": [
+        { "forma": "Comprimido 1 mg", "obs": "VO" },
+        { "forma": "Comprimido 2 mg", "obs": "VO" },
+        { "forma": "Comprimido 2,5 mg", "obs": "VO" },
+        { "forma": "Ampola 2 mg/mL (1 mL)", "obs": "2 mg total | Lorax®" },
+        { "forma": "Ampola 4 mg/mL (1 mL)", "obs": "4 mg total | Ativan®" }
+      ],
+      "preparo": [
+        { "diluicao": "Usar ampola diretamente", "concentracao": "2 ou 4 mg/mL" },
+        { "diluicao": "4 mg + 4 mL SF (se necessário)", "concentracao": "0,5 mg/mL" },
+        { "diluicao": "IV lento obrigatório", "concentracao": "Máx 2 mg/min" }
+      ],
+      "observacoes": [
+        "Início IV: 1-3min (mais lento que midazolam) | Duração: 6-8h",
+        "Metabolismo por glucuronidação - SEM metabólitos ativos",
+        "Vantagem em hepatopatas leves vs diazepam (sem CYP450)",
+        "DEPRESSÃO RESPIRATÓRIA - ter flumazenil disponível",
+        "Administrar LENTO (máx 2 mg/min) - risco de hipotensão",
+        "Idoso: reduzir dose 50%, maior sensibilidade e risco de sedação prolongada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose 50%. Maior sensibilidade a efeitos adversos, risco de quedas e confusão.",
+        "renal": "Reduzir dose em insuficiência renal grave. Metabólitos inativos, mas acúmulo possível.",
+        "hepatico": "Reduzir dose em insuficiência moderada/grave. Glucuronidação preservada em IH leve."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Lorazepam Status Epilepticus (adulto)",
+        "doseTexto": "4 mg IV lento (máx 2 mg/min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4 mg (máx 8 mg)",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lorazepam Status Epilepticus (por kg)",
+        "doseTexto": "0,1 mg/kg IV (máx 4 mg/dose)",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lorazepam Sedação (por kg)",
+        "doseTexto": "0,02-0,05 mg/kg IV (máx 4 mg)",
+        "doseMin": 0.02,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lorazepam Status Epilepticus (pediátrico)",
+        "doseTexto": "0,05-0,1 mg/kg IV (máx 4 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Lorazepam Sedação (adulto)",
+        "doseTexto": "1-4 mg IV lento",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1-4 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lorazepam Sedação (pediátrico)",
+        "doseTexto": "0,02-0,05 mg/kg IV (máx 2 mg)",
+        "doseMin": 0.02,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Lorazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus",
+          "descricaoDose": "4 mg IV slow push (2 mg/min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "4 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat after 10-15 min if needed",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Procedural sedation",
+          "descricaoDose": "1-4 mg IV slow push",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "1-4 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose or repeat if needed",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Preoperative sedation",
+          "descricaoDose": "2-4 mg IV/IM, 30-60 min before",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "30-60 min before procedure",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Acute agitation",
+          "descricaoDose": "0.5-2 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 4,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 4-6h if needed",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Status epilepticus (weight-based)",
+          "descricaoDose": "0.1 mg/kg IV (max 4 mg per dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat after 10-15 min if needed (max 8 mg total)",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Sedation (weight-based)",
+          "descricaoDose": "0.02-0.05 mg/kg IV (max 4 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose or repeat if needed",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Anesthetic co-induction",
+          "descricaoDose": "0.02-0.04 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.04,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Status epilepticus (elderly)",
+          "descricaoDose": "2 mg IV slow push",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": "2 mg",
+            "faixaEtaria": "Elderly",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat after 10-15 min if needed",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Sedation (elderly)",
+          "descricaoDose": "0.5-2 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "Elderly",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric status epilepticus",
+          "descricaoDose": "0.05-0.1 mg/kg IV (max 4 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat after 10-15 min if needed",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose"
+          }
+        },
+        {
+          "titulo": "Pediatric sedation",
+          "descricaoDose": "0.02-0.05 mg/kg IV (max 2 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "Reduce dose in severe renal impairment",
+            "ajusteHepatico": "Reduce dose"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine - Anxiolytic, sedative-hypnotic, anticonvulsant",
+      "apresentacoes": [
+        { "forma": "Tablet 1 mg", "obs": "PO" },
+        { "forma": "Tablet 2 mg", "obs": "PO" },
+        { "forma": "Tablet 2.5 mg", "obs": "PO" },
+        { "forma": "Vial 2 mg/mL (1 mL)", "obs": "2 mg total | Lorax®" },
+        { "forma": "Vial 4 mg/mL (1 mL)", "obs": "4 mg total | Ativan®" }
+      ],
+      "preparo": [
+        { "diluicao": "Use vial directly", "concentracao": "2 or 4 mg/mL" },
+        { "diluicao": "4 mg + 4 mL NS (if needed)", "concentracao": "0.5 mg/mL" },
+        { "diluicao": "Slow IV mandatory", "concentracao": "Max 2 mg/min" }
+      ],
+      "observacoes": [
+        "Onset IV: 1-3min (slower than midazolam) | Duration: 6-8h",
+        "Glucuronidation metabolism - NO active metabolites",
+        "Advantage in mild hepatopathy vs diazepam (no CYP450)",
+        "RESPIRATORY DEPRESSION - have flumazenil available",
+        "Push SLOWLY (max 2 mg/min) - hypotension risk",
+        "Elderly: reduce dose 50%, increased sensitivity and prolonged sedation risk"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose 50%. Increased sensitivity to adverse effects, fall and confusion risk.",
+        "renal": "Reduce dose in severe renal impairment. Inactive metabolites, but accumulation possible.",
+        "hepatico": "Reduce dose in moderate/severe impairment. Glucuronidation preserved in mild impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Lorazepam Status Epilepticus (adult)",
+        "doseTexto": "4 mg IV slow push (max 2 mg/min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4 mg (max 8 mg)",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Lorazepam Status Epilepticus (weight-based)",
+        "doseTexto": "0.1 mg/kg IV (max 4 mg/dose)",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Lorazepam Sedation (weight-based)",
+        "doseTexto": "0.02-0.05 mg/kg IV (max 4 mg)",
+        "doseMin": 0.02,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Lorazepam Status Epilepticus (pediatric)",
+        "doseTexto": "0.05-0.1 mg/kg IV (max 4 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Lorazepam Sedation (adult)",
+        "doseTexto": "1-4 mg IV slow push",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1-4 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Lorazepam Sedation (pediatric)",
+        "doseTexto": "0.02-0.05 mg/kg IV (max 2 mg)",
+        "doseMin": 0.02,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Lorazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epiléptico",
+          "descricaoDose": "4 mg IV en bolo lento (2 mg/min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir después de 10-15 min si necesario",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedación procedimientos",
+          "descricaoDose": "1-4 mg IV lento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "1-4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o repetir si necesario",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedación preoperatoria",
+          "descricaoDose": "2-4 mg IV/IM, 30-60 min antes",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "30-60 min antes del procedimiento",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Agitación aguda",
+          "descricaoDose": "0,5-2 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 4,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 4-6h si necesario",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epiléptico (por kg)",
+          "descricaoDose": "0,1 mg/kg IV (máx 4 mg por dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir después de 10-15 min si necesario (máx 8 mg total)",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedación (por kg)",
+          "descricaoDose": "0,02-0,05 mg/kg IV (máx 4 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o repetir si necesario",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Co-inducción anestésica",
+          "descricaoDose": "0,02-0,04 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.04,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epiléptico (anciano)",
+          "descricaoDose": "2 mg IV en bolo lento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": "2 mg",
+            "faixaEtaria": "Anciano",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir después de 10-15 min si necesario",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Sedación (anciano)",
+          "descricaoDose": "0,5-2 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Anciano",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Status epiléptico pediátrico",
+          "descricaoDose": "0,05-0,1 mg/kg IV (máx 4 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir después de 10-15 min si necesario",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis"
+          }
+        },
+        {
+          "titulo": "Sedación pediátrica",
+          "descricaoDose": "0,02-0,05 mg/kg IV (máx 2 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "Reducir dosis en IR grave",
+            "ajusteHepatico": "Reducir dosis"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico - Ansiolítico, sedante-hipnótico, anticonvulsivante",
+      "apresentacoes": [
+        { "forma": "Comprimido 1 mg", "obs": "VO" },
+        { "forma": "Comprimido 2 mg", "obs": "VO" },
+        { "forma": "Comprimido 2,5 mg", "obs": "VO" },
+        { "forma": "Ampolla 2 mg/mL (1 mL)", "obs": "2 mg total | Lorax®" },
+        { "forma": "Ampolla 4 mg/mL (1 mL)", "obs": "4 mg total | Ativan®" }
+      ],
+      "preparo": [
+        { "diluicao": "Usar ampolla directamente", "concentracao": "2 o 4 mg/mL" },
+        { "diluicao": "4 mg + 4 mL SSF (si necesario)", "concentracao": "0,5 mg/mL" },
+        { "diluicao": "IV lento obligatorio", "concentracao": "Máx 2 mg/min" }
+      ],
+      "observacoes": [
+        "Inicio IV: 1-3min (más lento que midazolam) | Duración: 6-8h",
+        "Metabolismo por glucuronidación - SIN metabolitos activos",
+        "Ventaja en hepatópatas leves vs diazepam (sin CYP450)",
+        "DEPRESIÓN RESPIRATORIA - tener flumazenil disponible",
+        "Administrar LENTO (máx 2 mg/min) - riesgo de hipotensión",
+        "Anciano: reducir dosis 50%, mayor sensibilidad y riesgo de sedación prolongada"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis 50%. Mayor sensibilidad a efectos adversos, riesgo de caídas y confusión.",
+        "renal": "Reducir dosis en insuficiencia renal grave. Metabolitos inactivos, pero acumulación posible.",
+        "hepatico": "Reducir dosis en insuficiencia moderada/grave. Glucuronidación preservada en IH leve."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Lorazepam Status Epiléptico (adulto)",
+        "doseTexto": "4 mg IV lento (máx 2 mg/min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4 mg (máx 8 mg)",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lorazepam Status Epiléptico (por kg)",
+        "doseTexto": "0,1 mg/kg IV (máx 4 mg/dosis)",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lorazepam Sedación (por kg)",
+        "doseTexto": "0,02-0,05 mg/kg IV (máx 4 mg)",
+        "doseMin": 0.02,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lorazepam Status Epiléptico (pediátrico)",
+        "doseTexto": "0,05-0,1 mg/kg IV (máx 4 mg)",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Lorazepam Sedación (adulto)",
+        "doseTexto": "1-4 mg IV lento",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1-4 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lorazepam Sedación (pediátrico)",
+        "doseTexto": "0,02-0,05 mg/kg IV (máx 2 mg)",
+        "doseMin": 0.02,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "劳拉西泮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "癫痫持续状态",
+          "descricaoDose": "4 mg IV 缓慢推注 (2 mg/min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 8,
+            "doseFixa": "4 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时10-15分钟后重复",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "操作镇静",
+          "descricaoDose": "1-4 mg IV 缓慢推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "1-4 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量或必要时重复",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "术前镇静",
+          "descricaoDose": "2-4 mg IV/IM，术前30-60分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "术前30-60分钟",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "急性躁动",
+          "descricaoDose": "0.5-2 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 4,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "必要时每4-6小时",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "癫痫持续状态（按体重）",
+          "descricaoDose": "0.1 mg/kg IV（单次最大4 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时10-15分钟后重复（总量最大8 mg）",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "镇静（按体重）",
+          "descricaoDose": "0.02-0.05 mg/kg IV（最大4 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量或必要时重复",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "麻醉协同诱导",
+          "descricaoDose": "0.02-0.04 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.04,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "癫痫持续状态（老年人）",
+          "descricaoDose": "2 mg IV 缓慢推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": "2 mg",
+            "faixaEtaria": "老年人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时10-15分钟后重复",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "镇静（老年人）",
+          "descricaoDose": "0.5-2 mg IV/IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "老年人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "儿童癫痫持续状态",
+          "descricaoDose": "0.05-0.1 mg/kg IV（最大4 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.05,
+            "dosePorKgMax": 0.1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 4,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时10-15分钟后重复",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "减量"
+          }
+        },
+        {
+          "titulo": "儿童镇静",
+          "descricaoDose": "0.02-0.05 mg/kg IV（最大2 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.02,
+            "dosePorKgMax": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "严重肾功能不全时减量",
+            "ajusteHepatico": "减量"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "苯二氮卓类 - 抗焦虑、镇静催眠、抗惊厥药",
+      "apresentacoes": [
+        { "forma": "片剂 1 mg", "obs": "口服" },
+        { "forma": "片剂 2 mg", "obs": "口服" },
+        { "forma": "片剂 2.5 mg", "obs": "口服" },
+        { "forma": "安瓿 2 mg/mL (1 mL)", "obs": "共2 mg | Lorax®" },
+        { "forma": "安瓿 4 mg/mL (1 mL)", "obs": "共4 mg | Ativan®" }
+      ],
+      "preparo": [
+        { "diluicao": "直接使用安瓿", "concentracao": "2或4 mg/mL" },
+        { "diluicao": "4 mg + 4 mL NS（如需要）", "concentracao": "0.5 mg/mL" },
+        { "diluicao": "必须缓慢静脉注射", "concentracao": "最大2 mg/min" }
+      ],
+      "observacoes": [
+        "起效 IV: 1-3分钟（比咪达唑仑慢）| 持续: 6-8小时",
+        "葡萄糖醛酸化代谢 - 无活性代谢物",
+        "轻度肝病优于地西泮（无CYP450参与）",
+        "呼吸抑制 - 备好氟马西尼",
+        "缓慢推注（最大2 mg/min）- 低血压风险",
+        "老年人：减量50%，敏感性增加，镇静延长风险"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量50%。对不良反应敏感性增加，跌倒和意识混乱风险。",
+        "renal": "严重肾功能不全时减量。代谢物无活性，但可能蓄积。",
+        "hepatico": "中重度肝功能不全时减量。轻度肝功能不全时葡萄糖醛酸化保留。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "劳拉西泮 癫痫持续状态（成人）",
+        "doseTexto": "4 mg IV 缓慢（最大2 mg/min）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "4 mg（最大8 mg）",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "劳拉西泮 癫痫持续状态（按体重）",
+        "doseTexto": "0.1 mg/kg IV（单次最大4 mg）",
+        "doseMin": 0.1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "劳拉西泮 镇静（按体重）",
+        "doseTexto": "0.02-0.05 mg/kg IV（最大4 mg）",
+        "doseMin": 0.02,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "劳拉西泮 癫痫持续状态（儿童）",
+        "doseTexto": "0.05-0.1 mg/kg IV（最大4 mg）",
+        "doseMin": 0.05,
+        "doseMax": 0.1,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "劳拉西泮 镇静（成人）",
+        "doseTexto": "1-4 mg IV 缓慢",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1-4 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "劳拉西泮 镇静（儿童）",
+        "doseTexto": "0.02-0.05 mg/kg IV（最大2 mg）",
+        "doseMin": 0.02,
+        "doseMax": 0.05,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

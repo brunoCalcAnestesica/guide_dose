@@ -1,0 +1,38 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Sulfametoxazol + Trimetoprim (SMX-TMP)",
+      "nomesComerciais": ["Bactrim®", "Infectrin®", "Assepium®"],
+      "classeTerapeutica": "Antibiótico / Sulfonamida + Inibidor de DHFR",
+      "mecanismoAcao": "Sinergismo bactericida: Sulfametoxazol inibe a dihidropteroato sintase e Trimetoprim inibe a diidrofolato redutase (DHFR), bloqueando sequencialmente a síntese de ácido fólico bacteriano.",
+      "composicao": "Proporção fixa 5:1 (SMX 400 mg : TMP 80 mg por comprimido simples)",
+      "espectro": {
+        "excelente": ["E. coli", "Proteus", "Klebsiella (ITU)", "S. aureus MRSA-CA", "Pneumocystis jirovecii", "Nocardia", "Stenotrophomonas maltophilia", "Toxoplasma gondii", "Listeria"],
+        "resistentes": ["Pseudomonas aeruginosa", "Enterococcus", "Anaeróbios"]
+      },
+      "indicacoes": ["ITU não complicada", "MRSA-CA (infecções de pele)", "PCP (tratamento e profilaxia)", "Nocardiose", "Toxoplasmose (tratamento)", "Shigelose", "Prostatite"],
+      "apresentacoes": ["Comprimido simples: SMX 400 mg + TMP 80 mg", "Comprimido F (forte): SMX 800 mg + TMP 160 mg", "Suspensão: SMX 200 mg + TMP 40 mg/5 mL"],
+      "posologia": {
+        "adulto": {
+          "ITU": "800/160 mg (1 cp F) VO 12/12h por 3-5 dias",
+          "MRSA": "800/160 mg VO 12/12h por 7-10 dias",
+          "PCP_tratamento": "15-20 mg TMP/kg/dia ÷ 3-4 doses por 21 dias",
+          "PCP_profilaxia": "800/160 mg VO 1x/dia ou 3x/semana"
+        },
+        "pediatrico": {
+          "dose": "4-5 mg TMP/kg/dose VO 12/12h",
+          "PCP_profilaxia": "5 mg TMP/kg/dia ÷ 1-2 doses"
+        }
+      },
+      "ajusteRenal": {
+        "ClCr_15_30": "Metade da dose",
+        "ClCr_menor_15": "Não recomendado"
+      },
+      "contraindicacoes": ["Deficiência de G6PD", "Gestação (1º trimestre e próximo ao parto)", "Insuficiência hepática grave", "Anemia megaloblástica por deficiência de folato"],
+      "efeitosAdversos": ["Náusea, vômitos", "Rash cutâneo", "Hipercalemia", "Mielossupressão", "Cristalúria", "Síndrome de Stevens-Johnson (rara)"],
+      "interacoes": ["Warfarina: aumenta efeito (monitorar INR)", "Metotrexato: aumenta toxicidade", "IECA/BRA: risco de hipercalemia", "Fenitoína: aumenta níveis"],
+      "observacoes": ["Tomar com bastante líquido", "Monitorar potássio sérico", "Evitar em deficiência de G6PD", "Categoria C/D na gestação"],
+      "categoriaGravidez": "C/D"
+    }
+  }
+}

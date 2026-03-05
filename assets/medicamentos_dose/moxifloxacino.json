@@ -1,0 +1,794 @@
+{
+  "PT": {
+    "nome": "Moxifloxacino",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Pneumonia comunitária",
+          "descricaoDose": "400 mg VO/IV 1x/dia por 7-14 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO/IV 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sinusite bacteriana aguda",
+          "descricaoDose": "400 mg VO 1x/dia por 7-10 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Exacerbação de DPOC",
+          "descricaoDose": "400 mg VO/IV 1x/dia por 5-10 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO/IV 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções intra-abdominais",
+          "descricaoDose": "400 mg VO/IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO/IV 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções de pele complicadas",
+          "descricaoDose": "400 mg VO/IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO/IV 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "400 mg IV 60 min antes da incisão",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60 min antes da incisão",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatria (não recomendado)",
+          "descricaoDose": "Uso pediátrico não recomendado – risco de artropatia. Usar apenas quando não houver alternativa (conforme protocolo).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Conforme protocolo – uso restrito",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "conforme protocolo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Fluoroquinolona respiratória (4ª geração) – bactericida, inibe DNA girase e topoisomerase IV. Única quinolona com boa cobertura de anaeróbios.",
+      "apresentacoes": [
+        { "forma": "Comprimidos 400 mg", "obs": "" },
+        { "forma": "Solução IV 400 mg/250 mL", "obs": "Pronta para infusão" },
+        { "forma": "Colírio oftálmico 0,5%", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Solução IV pronta 400 mg/250 mL", "concentracao": "Infundir em 60 min" },
+        { "diluicao": "Não diluir adicionalmente", "concentracao": "Compatível com SF 0,9%, RL, dextrose 5%" }
+      ],
+      "observacoes": [
+        "EVITAR em pediatria – risco de artropatia em articulações em desenvolvimento.",
+        "Prolongamento do QT – evitar associação com outros fármacos que prolongam QT.",
+        "Biodisponibilidade oral ~90% (equivalente à IV); pode ser tomada com ou sem alimentos.",
+        "NÃO requer ajuste renal – metabolismo hepático e excreção fecal/biliar.",
+        "Evitar antiácidos, ferro, cálcio, zinco (2h antes ou 6h após a dose).",
+        "Risco de tendinite e ruptura de tendão; suspender se surgir dor ou inflamação tendinosa."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior risco de tendinopatia e prolongamento QT. Avaliar benefício/risco. Categoria C na gestação.",
+        "renal": "Não requer ajuste de dose em insuficiência renal. Metabolismo hepático e excreção biliar.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave (metabolismo hepático)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Moxifloxacino (adulto)",
+        "doseTexto": "400 mg VO/IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg 1x/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Moxifloxacino – profilaxia cirúrgica",
+        "doseTexto": "400 mg IV 60 min antes da incisão",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Moxifloxacino – pediatria (não recomendado)",
+        "doseTexto": "Conforme protocolo – uso restrito",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "Conforme protocolo",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Moxifloxacin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Community-acquired pneumonia",
+          "descricaoDose": "400 mg PO/IV once daily for 7-14 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg PO/IV once daily",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Acute bacterial sinusitis",
+          "descricaoDose": "400 mg PO once daily for 7-10 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg PO once daily",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "COPD exacerbation",
+          "descricaoDose": "400 mg PO/IV once daily for 5-10 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg PO/IV once daily",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Complicated intra-abdominal infections",
+          "descricaoDose": "400 mg PO/IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg PO/IV once daily",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Complicated skin and skin structure infections",
+          "descricaoDose": "400 mg PO/IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg PO/IV once daily",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "400 mg IV 60 min before incision",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60 min before incision",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric (not recommended)",
+          "descricaoDose": "Pediatric use not recommended – risk of arthropathy. Use only when no alternative (per protocol).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Per protocol – restricted use",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "per protocol",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Respiratory fluoroquinolone (4th generation) – bactericidal, inhibits DNA gyrase and topoisomerase IV. Only quinolone with good anaerobic coverage.",
+      "apresentacoes": [
+        { "forma": "Tablets 400 mg", "obs": "" },
+        { "forma": "IV solution 400 mg/250 mL", "obs": "Ready for infusion" },
+        { "forma": "Ophthalmic solution 0.5%", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready-to-use IV 400 mg/250 mL", "concentracao": "Infuse over 60 min" },
+        { "diluicao": "No additional dilution", "concentracao": "Compatible with NS, LR, D5W" }
+      ],
+      "observacoes": [
+        "AVOID in pediatrics – risk of arthropathy in developing joints.",
+        "QT prolongation – avoid concomitant use with other QT-prolonging drugs.",
+        "Oral bioavailability ~90% (equivalent to IV); may be taken with or without food.",
+        "No renal dose adjustment – hepatic metabolism and fecal/biliary excretion.",
+        "Avoid antacids, iron, calcium, zinc (2h before or 6h after dose).",
+        "Risk of tendinitis and tendon rupture; discontinue if tendon pain or inflammation."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Higher risk of tendinopathy and QT prolongation. Weigh benefit/risk. Pregnancy category C.",
+        "renal": "No dose adjustment in renal impairment. Hepatic metabolism and biliary excretion.",
+        "hepatico": "Use with caution in severe hepatic impairment (hepatic metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Moxifloxacin (adult)",
+        "doseTexto": "400 mg PO/IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg once daily",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Moxifloxacin – surgical prophylaxis",
+        "doseTexto": "400 mg IV 60 min before incision",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Moxifloxacin – pediatric (not recommended)",
+        "doseTexto": "Per protocol – restricted use",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "Per protocol",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Moxifloxacino",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Neumonía adquirida en la comunidad",
+          "descricaoDose": "400 mg VO/IV 1x/día por 7-14 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO/IV 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Sinusitis bacteriana aguda",
+          "descricaoDose": "400 mg VO 1x/día por 7-10 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Exacerbación de EPOC",
+          "descricaoDose": "400 mg VO/IV 1x/día por 5-10 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO/IV 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones intraabdominales complicadas",
+          "descricaoDose": "400 mg VO/IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO/IV 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones de piel complicadas",
+          "descricaoDose": "400 mg VO/IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg VO/IV 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "400 mg IV 60 min antes de la incisión",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60 min antes de la incisión",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico (no recomendado)",
+          "descricaoDose": "Uso pediátrico no recomendado – riesgo de artropatía. Usar solo cuando no haya alternativa (según protocolo).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Según protocolo – uso restringido",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "según protocolo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Fluoroquinolona respiratoria (4.ª generación) – bactericida, inhibe DNA girasa y topoisomerasa IV. Única quinolona con buena cobertura de anaerobios.",
+      "apresentacoes": [
+        { "forma": "Comprimidos 400 mg", "obs": "" },
+        { "forma": "Solución IV 400 mg/250 mL", "obs": "Lista para infusión" },
+        { "forma": "Colirio oftálmico 0,5%", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Solución IV lista 400 mg/250 mL", "concentracao": "Infundir en 60 min" },
+        { "diluicao": "No diluir adicionalmente", "concentracao": "Compatible con SF 0,9%, RL, dextrosa 5%" }
+      ],
+      "observacoes": [
+        "EVITAR en pediatría – riesgo de artropatía en articulaciones en desarrollo.",
+        "Prolongación del QT – evitar asociación con otros fármacos que prolongan QT.",
+        "Biodisponibilidad oral ~90% (equivalente a IV); puede tomarse con o sin alimentos.",
+        "NO requiere ajuste renal – metabolismo hepático y excreción fecal/biliar.",
+        "Evitar antiácidos, hierro, calcio, zinc (2h antes o 6h después de la dosis).",
+        "Riesgo de tendinitis y rotura tendinosa; suspender si aparece dolor o inflamación."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor riesgo de tendinopatía y prolongación QT. Valorar beneficio/riesgo. Categoría C en gestación.",
+        "renal": "No requiere ajuste de dosis en insuficiencia renal. Metabolismo hepático y excreción biliar.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave (metabolismo hepático)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Moxifloxacino (adulto)",
+        "doseTexto": "400 mg VO/IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg 1x/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Moxifloxacino – profilaxis quirúrgica",
+        "doseTexto": "400 mg IV 60 min antes de la incisión",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Moxifloxacino – pediátrico (no recomendado)",
+        "doseTexto": "Según protocolo – uso restringido",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "Según protocolo",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "莫西沙星",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "社区获得性肺炎",
+          "descricaoDose": "400 mg 口服/静脉 每日一次，7-14天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg 口服/静脉 每日一次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "急性细菌性鼻窦炎",
+          "descricaoDose": "400 mg 口服 每日一次，7-10天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg 口服 每日一次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "COPD急性加重",
+          "descricaoDose": "400 mg 口服/静脉 每日一次，5-10天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg 口服/静脉 每日一次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "复杂性腹腔内感染",
+          "descricaoDose": "400 mg 口服/静脉 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg 口服/静脉 每日一次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "复杂性皮肤和皮肤结构感染",
+          "descricaoDose": "400 mg 口服/静脉 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg 口服/静脉 每日一次",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "400 mg 静脉 切皮前60分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 400,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "切皮前60分钟",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿科（不推荐）",
+          "descricaoDose": "儿科使用不推荐 – 关节病风险。仅无替代方案时按方案使用。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "按方案 – 限制使用",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "按方案",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "呼吸用氟喹诺酮（第四代）– 杀菌剂，抑制DNA旋转酶和拓扑异构酶IV。唯一对厌氧菌有良好覆盖的喹诺酮。",
+      "apresentacoes": [
+        { "forma": "片剂 400 mg", "obs": "" },
+        { "forma": "静脉溶液 400 mg/250 mL", "obs": "即用" },
+        { "forma": "眼用溶液 0,5%", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "即用静脉 400 mg/250 mL", "concentracao": "60分钟内输注" },
+        { "diluicao": "无需额外稀释", "concentracao": "与生理盐水、林格液、5%葡萄糖兼容" }
+      ],
+      "observacoes": [
+        "避免用于儿科 – 发育中关节关节病风险。",
+        "QT延长 – 避免与其它延长QT药物联用。",
+        "口服生物利用度约90%（与静脉等效）；可与食物同服或空腹服用。",
+        "无需肾剂量调整 – 肝脏代谢，粪/胆排泄。",
+        "避免抗酸药、铁、钙、锌（服药前2小时或后6小时）。",
+        "肌腱炎和肌腱断裂风险；若出现肌腱疼痛或炎症应停药。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "肌腱病和QT延长风险更高。权衡利弊。妊娠C类。",
+        "renal": "肾功能不全无需调整剂量。肝脏代谢，胆道排泄。",
+        "hepatico": "严重肝功能不全慎用（肝脏代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "莫西沙星（成人）",
+        "doseTexto": "400 mg 口服/静脉 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg 每日一次",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "莫西沙星 – 手术预防",
+        "doseTexto": "400 mg 静脉 切皮前60分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "莫西沙星 – 儿科（不推荐）",
+        "doseTexto": "按方案 – 限制使用",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "按方案",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

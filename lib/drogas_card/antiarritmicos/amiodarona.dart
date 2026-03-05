@@ -9,15 +9,18 @@ class MedicamentoAmiodarona {
   static const String idBulario = 'amiodarona';
 
   static Future<Map<String, dynamic>> carregarBulario() async {
-    final String jsonStr = await rootBundle.loadString('assets/medicamentos/amiodarona.json');
+    final String jsonStr =
+        await rootBundle.loadString('assets/medicamentos/amiodarona.json');
     final Map<String, dynamic> jsonMap = json.decode(jsonStr);
     return jsonMap['PT']['bulario'];
   }
 
-  static Widget buildCard(BuildContext context, Set<String> favoritos, void Function(String) onToggleFavorito) {
-    final peso = SharedData.peso ?? 70;
-    final isAdulto = SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
+  static Widget buildCard(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
     final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final isAdulto =
+        SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -34,36 +37,59 @@ class MedicamentoAmiodarona {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final isAdulto =
+        SharedData.faixaEtaria == 'Adulto' || SharedData.faixaEtaria == 'Idoso';
 
-  static Widget _buildCardAmiodarona(BuildContext context, double peso, bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
+    return _buildCardAmiodarona(
+      context,
+        peso,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
+
+  static Widget _buildCardAmiodarona(BuildContext context, double peso,
+      bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         // CLASSE
         const SizedBox(height: 16),
-        const Text('Classe', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Classe',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('Antiarrítmico Classe III', 'Bloqueador canais K+'),
-        
+
         // APRESENTAÇÃO
         const SizedBox(height: 16),
-        const Text('Apresentação', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Apresentação',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('Ampola 150mg/3mL', '50 mg/mL'),
         _linhaPreparo('Comprimido 200mg', 'Via oral'),
-        
+
         // PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
-        const Text('Preparo', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Preparo',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('900mg + 500mL SG 5%', '1,8 mg/mL'),
         _linhaPreparo('150mg + 100mL SG 5%', '1,5 mg/mL'),
         _linhaPreparo('300mg + 250mL SG 5%', '1,2 mg/mL'),
         _linhaPreparo('APENAS SG 5%', 'Precipita em SF!'),
-        
+
         // INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
-        const Text('Indicações Clínicas', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Indicações Clínicas',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         if (isAdulto) ...[
           _linhaIndicacaoDoseFixa(
@@ -102,16 +128,18 @@ class MedicamentoAmiodarona {
             descricaoDose: '5-15 mcg/kg/min IV contínua',
           ),
         ],
-        
+
         // INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
-        const Text('Infusão Contínua', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Infusão Contínua',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _buildConversorInfusao(peso, isAdulto),
-        
+
         // OBSERVAÇÕES
         const SizedBox(height: 16),
-        const Text('Observações', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
+        const Text('Observações',
+            style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _textoObs('APENAS diluir em SG 5% (precipita em SF)'),
         _textoObs('Meia-vida extremamente longa: 40-55 dias'),
@@ -173,8 +201,12 @@ class MedicamentoAmiodarona {
                 children: [
                   TextSpan(text: texto),
                   if (marca.isNotEmpty) ...[
-                    const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                    const TextSpan(
+                        text: ' | ',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(
+                        text: marca,
+                        style: const TextStyle(fontStyle: FontStyle.italic)),
                   ],
                 ],
               ),
@@ -207,7 +239,8 @@ class MedicamentoAmiodarona {
       if (doseMaxima != null) {
         doseMax = doseMax > doseMaxima ? doseMaxima : doseMax;
       }
-      textoDose = '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
+      textoDose =
+          '${doseMin.toStringAsFixed(1)}–${doseMax.toStringAsFixed(1)} $unidade';
     }
 
     return Padding(

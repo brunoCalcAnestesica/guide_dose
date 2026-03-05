@@ -1,0 +1,51 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Indometacina (uso tocolítico)",
+      "nomesComerciais": ["Indocid®", "Indometacina Genérico"],
+      "classeTerapeutica": "Tocolítico / AINE (inibidor não seletivo de COX)",
+      "mecanismoAcao": "Inibe a ciclooxigenase (COX-1 e COX-2), reduzindo a síntese de prostaglandinas. As prostaglandinas são essenciais para as contrações uterinas, portanto sua inibição resulta em relaxamento do miométrio.",
+      "indicacoes": ["Trabalho de parto prematuro < 32 semanas", "Alternativa quando β-agonistas contraindicados", "Polidrâmnio (reduz produção de líquido amniótico)"],
+      "restricaoIdadeGestacional": "Usar APENAS < 32 semanas de gestação",
+      "apresentacoes": ["Supositório 100 mg", "Cápsulas 25 mg, 50 mg"],
+      "posologia": {
+        "doseAtaque": {
+          "retal": "50-100 mg",
+          "oral": "50 mg"
+        },
+        "doseManutencao": {
+          "dose": "25-50 mg VO a cada 4-6 horas",
+          "doseMaxima": "200 mg/dia",
+          "duracaoMaxima": "48-72 horas"
+        }
+      },
+      "farmacocinetica": {
+        "inicioAcao": "1-2 horas",
+        "observacao": "Via retal: absorção mais rápida"
+      },
+      "contraindicacoes": {
+        "absolutas": ["> 32 SEMANAS (risco de fechamento do ducto arterioso)", "Oligodrâmnio"],
+        "relativas": ["Insuficiência renal", "Úlcera péptica ativa", "Distúrbios de coagulação", "Hipersensibilidade a AINEs", "Asma induzida por AINEs"]
+      },
+      "riscosFetais": [
+        "Fechamento prematuro do ducto arterioso",
+        "Hipertensão pulmonar neonatal",
+        "Oligodrâmnio",
+        "Disfunção renal neonatal",
+        "Enterocolite necrosante (raro)",
+        "Hemorragia intraventricular (controverso)"
+      ],
+      "monitorizacao": [
+        "USG semanal: ILA (índice de líquido amniótico)",
+        "Doppler do ducto arterioso se uso > 48h",
+        "Função renal materna",
+        "Plaquetas (uso prolongado)"
+      ],
+      "observacoes": ["Uso exclusivamente obstétrico (tocólise)", "Mais eficaz que β-agonistas na tocólise", "Suspender 24-48h antes do parto"],
+      "categoriaGravidez": {
+        "ate32semanas": "C",
+        "apos30semanas": "D"
+      }
+    }
+  }
+}

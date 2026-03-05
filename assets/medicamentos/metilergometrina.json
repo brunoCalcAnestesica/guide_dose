@@ -1,0 +1,36 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Metilergometrina (Metilergonovina)",
+      "nomesComerciais": ["Methergina®"],
+      "classeTerapeutica": "Uterotônico / Alcaloide do ergot",
+      "mecanismoAcao": "Derivado semissintético do ergot. Causa contração tetânica do miométrio por ação direta. Também agonista de receptores α-adrenérgicos e serotoninérgicos, causando vasoconstrição sistêmica.",
+      "indicacoes": ["HPP (hemorragia pós-parto)", "Subinvolução uterina", "Prevenção de HPP (2ª linha)"],
+      "usoNaHPP": "2ª linha após ocitocina",
+      "apresentacoes": ["Ampola 0,2 mg/mL (1 mL)", "Comprimidos 0,125 mg"],
+      "posologia": {
+        "HPP_tratamento": {
+          "dose": "0,2 mg IM ou IV muito lento (1-2 min)",
+          "intervalo": "Repetir a cada 2-4 horas se necessário",
+          "doseMaxima": "1 mg (5 doses) em 24 horas"
+        },
+        "HPP_manutencao": {
+          "dose": "0,125-0,25 mg VO a cada 6 horas",
+          "duracao": "2-7 dias"
+        }
+      },
+      "farmacocinetica": {
+        "inicioAcaoIM": "2-5 minutos",
+        "inicioAcaoIV": "Imediato",
+        "duracao": "3-4 horas"
+      },
+      "contraindicacoes": {
+        "absolutas": ["HIPERTENSÃO", "Pré-eclâmpsia/Eclâmpsia"],
+        "relativas": ["Doença cardiovascular", "Doença vascular periférica", "Sepse", "Doença hepática ou renal grave", "Hipersensibilidade a alcaloides do ergot"]
+      },
+      "efeitosAdversos": ["Hipertensão (por vasoconstrição)", "Náusea, vômitos", "Cefaleia", "Dor torácica (vasoespasmo coronariano)", "Convulsões (raro)", "Vasoespasmo periférico"],
+      "observacoes": ["Uso exclusivamente obstétrico", "Preferir via IM (menor risco de hipertensão)", "IV apenas em emergência", "Conservar protegido da luz"],
+      "categoriaGravidez": "Uso obstétrico específico"
+    }
+  }
+}

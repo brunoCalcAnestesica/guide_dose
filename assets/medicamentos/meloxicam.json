@@ -1,0 +1,81 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Meloxicam",
+      "nomesComerciais": ["Movatec®", "Meloxil®", "Bioflac®"],
+      "classeTerapeutica": "AINE / Inibidor COX-2 preferencial",
+      "mecanismoAcao": "Derivado do grupo oxicam (enólico), com seletividade preferencial para a ciclooxigenase-2 (COX-2) em doses terapêuticas. Esta seletividade parcial confere menor toxicidade gastrointestinal comparado aos AINEs não-seletivos, mantendo eficácia anti-inflamatória.",
+      "indicacoes": [
+        "Osteoartrite",
+        "Artrite reumatoide",
+        "Espondilite anquilosante",
+        "Artrite juvenil idiopática (>2 anos)",
+        "Dor aguda musculoesquelética"
+      ],
+      "apresentacoes": [
+        "Comprimido 7,5mg, 15mg",
+        "Ampola 15mg/1,5mL (10mg/mL) - IM",
+        "Suspensão oral 7,5mg/5mL",
+        "Supositório 15mg"
+      ],
+      "posologia": {
+        "adulto": {
+          "osteoartrite": "7,5 mg VO 1x/dia (pode aumentar para 15 mg se necessário)",
+          "artrite_reumatoide": "15 mg VO 1x/dia (reduzir para 7,5 mg após controle)",
+          "im": "15 mg IM 1x/dia (máx 1-2 dias)",
+          "dose_maxima": "15 mg/dia"
+        },
+        "idoso": {
+          "dose": "Iniciar com 7,5 mg/dia"
+        },
+        "pediatrico": {
+          "artrite_juvenil": "0,125 mg/kg/dia VO 1x/dia (máx 7,5 mg/dia)",
+          "idade_minima": ">2 anos"
+        }
+      },
+      "farmacocinetica": {
+        "inicio_acao": "1-2 horas",
+        "pico_plasmatico": "5-6 horas",
+        "duracao": "24 horas",
+        "meia_vida": "15-20 horas",
+        "metabolismo": "Hepático (CYP2C9)",
+        "eliminacao": "Renal (50%) e fecal (50%)",
+        "biodisponibilidade": "89%"
+      },
+      "ajusteRenal": "ClCr <25: evitar. Diálise: não é removido",
+      "ajusteHepatico": "IH leve/moderada: sem ajuste. IH grave: evitar",
+      "contraindicacoes": [
+        "Úlcera péptica ativa ou sangramento GI",
+        "Insuficiência renal grave",
+        "Insuficiência hepática grave",
+        "Insuficiência cardíaca grave (NYHA III-IV)",
+        "Gestação (3º trimestre)",
+        "Alergia a AINEs"
+      ],
+      "efeitosAdversos": [
+        "Dispepsia (menos frequente que AINEs não-seletivos)",
+        "Náuseas, diarreia",
+        "Cefaleia, tontura",
+        "Edema periférico",
+        "Prurido, rash cutâneo",
+        "Elevação de transaminases"
+      ],
+      "interacoes": [
+        "Anticoagulantes: monitorar INR",
+        "Lítio: aumenta níveis séricos",
+        "Metotrexato: aumenta toxicidade",
+        "Diuréticos: reduz eficácia",
+        "Colestiramina: reduz absorção do meloxicam"
+      ],
+      "observacoes": [
+        "COX-2 preferencial: menor toxicidade GI",
+        "Dose única diária devido meia-vida longa",
+        "Dose máxima: 15 mg/dia (não aumenta eficácia, aumenta riscos)",
+        "Uso IM limitado a 1-2 dias",
+        "Pode ser tomado com ou sem alimentos",
+        "Cautela em pacientes com risco cardiovascular"
+      ],
+      "categoriaGravidez": "C (1º/2º tri) / D (3º tri)"
+    }
+  }
+}

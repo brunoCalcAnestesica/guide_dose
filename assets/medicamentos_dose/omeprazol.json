@@ -1,0 +1,522 @@
+{
+  "PT": {
+    "nome": "Omeprazol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Profilaxia úlcera por estresse",
+          "descricaoDose": "40 mg IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "HDA - Bolus",
+          "descricaoDose": "80 mg IV em bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 80,
+            "doseFixa": "80 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "HDA - Infusão contínua",
+          "descricaoDose": "8 mg/h IV por 72h (após bolus 80 mg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 8,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": "8 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua por 72h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Profilaxia",
+          "descricaoDose": "1 mg/kg/dia IV 1x/dia (máx 40 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão HDA",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 8, "doseMax": 8 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mg em 100 mL SF 0,9% (0,4 mg/mL)", "valor": 0.4 },
+            { "rotulo": "80 mg em 100 mL SF 0,9% (0,8 mg/mL)", "valor": 0.8 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inibidor da bomba de prótons (IBP) - antiulceroso",
+      "apresentacoes": [
+        { "forma": "Cápsulas 10 mg, 20 mg, 40 mg", "obs": "Uso oral" },
+        { "forma": "Comprimidos 20 mg", "obs": "Uso oral" },
+        { "forma": "Frasco-ampola 40 mg", "obs": "Pó liofilizado para IV" },
+        { "forma": "Solução injetável 40 mg/10 mL", "obs": "Uso IV" }
+      ],
+      "preparo": [
+        { "diluicao": "40 mg em 100 mL SF 0,9% ou SG 5%", "concentracao": "0,4 mg/mL - infundir em 15-30 min" },
+        { "diluicao": "80 mg em 100 mL SF 0,9%", "concentracao": "Para HDA - bolus 20 min" },
+        { "diluicao": "HDA: 200 mg em 250 mL SF 0,9% a 10 mL/h", "concentracao": "8 mg/h por 72h" }
+      ],
+      "observacoes": [
+        "Administrar VO 30 min antes do café da manhã; não mastigar nem esmagar",
+        "Interação com clopidogrel (CYP2C19): preferir pantoprazol se em uso de antiagregante",
+        "Monitorar magnésio em uso prolongado (> 3 meses) - risco de hipomagnesemia",
+        "Bolus IV: infundir em no mínimo 5-10 min (evitar reações locais)",
+        "HDA: após bolus 80 mg, manter infusão 8 mg/h por 72h conforme protocolo",
+        "Incompatível com soluções alcalinas e nutrição parenteral total"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar magnésio e efeitos gastrointestinais em uso prolongado.",
+        "renal": "Não requer ajuste. Excreção renal <5% por hemodiálise; não requer dose suplementar.",
+        "hepatico": "Insuficiência hepática grave (Child-Pugh C): reduzir para 10-20 mg/dia ou 20 mg em dias alternados. Monitorar enzimas hepáticas."
+      }
+    },
+    "vistaRapida": [
+      { "nome": "Omeprazol (profilaxia)", "doseTexto": "40 mg IV 1x/dia", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "40 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Omeprazol (HDA - bolus)", "doseTexto": "80 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "80 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Omeprazol (HDA - infusão)", "doseTexto": "8 mg/h IV por 72h", "doseMin": null, "doseMax": null, "unidadeResultado": "mg/h", "decimais": 0, "resultadoFixo": "8 mg/h", "faixaEtaria": "Adulto" },
+      { "nome": "Omeprazol (pediátrico)", "doseTexto": "1 mg/kg IV 1x/dia (máx 40 mg)", "doseMin": 1, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": null, "faixaEtaria": "Pediatrico" }
+    ]
+  },
+  "US": {
+    "nome": "Omeprazole",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Stress ulcer prophylaxis",
+          "descricaoDose": "40 mg IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "UGIB - Bolus",
+          "descricaoDose": "80 mg IV bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 80,
+            "doseFixa": "80 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "UGIB - Continuous infusion",
+          "descricaoDose": "8 mg/h IV for 72h (after 80 mg bolus)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 8,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": "8 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion for 72h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric - Prophylaxis",
+          "descricaoDose": "1 mg/kg/day IV once daily (max 40 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "once daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "UGIB Infusion",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 8, "doseMax": 8 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mg in 100 mL NS (0.4 mg/mL)", "valor": 0.4 },
+            { "rotulo": "80 mg in 100 mL NS (0.8 mg/mL)", "valor": 0.8 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Proton pump inhibitor (PPI) - antiulcer agent",
+      "apresentacoes": [
+        { "forma": "Capsules 10 mg, 20 mg, 40 mg", "obs": "Oral" },
+        { "forma": "Tablets 20 mg", "obs": "Oral" },
+        { "forma": "Vial 40 mg", "obs": "Lyophilized powder for IV" },
+        { "forma": "Injection 40 mg/10 mL", "obs": "IV use" }
+      ],
+      "preparo": [
+        { "diluicao": "40 mg in 100 mL NS or D5W", "concentracao": "0.4 mg/mL - infuse over 15-30 min" },
+        { "diluicao": "80 mg in 100 mL NS", "concentracao": "For UGIB - bolus over 20 min" },
+        { "diluicao": "UGIB: 200 mg in 250 mL NS at 10 mL/h", "concentracao": "8 mg/h for 72h" }
+      ],
+      "observacoes": [
+        "Administer PO 30 min before breakfast; do not chew or crush",
+        "Interaction with clopidogrel (CYP2C19): prefer pantoprazole if on antiplatelet",
+        "Monitor magnesium with prolonged use (> 3 months) - hypomagnesemia risk",
+        "IV bolus: infuse over at least 5-10 min (avoid local reactions)",
+        "UGIB: after 80 mg bolus, maintain 8 mg/h infusion for 72h per protocol",
+        "Incompatible with alkaline solutions and total parenteral nutrition"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor magnesium and GI effects with prolonged use.",
+        "renal": "No adjustment required. <5% removed by hemodialysis; no supplemental dose.",
+        "hepatico": "Severe hepatic impairment (Child-Pugh C): reduce to 10-20 mg/day or 20 mg on alternate days. Monitor liver enzymes."
+      }
+    },
+    "vistaRapida": [
+      { "nome": "Omeprazole (prophylaxis)", "doseTexto": "40 mg IV once daily", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "40 mg", "faixaEtaria": "Adult" },
+      { "nome": "Omeprazole (UGIB - bolus)", "doseTexto": "80 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "80 mg", "faixaEtaria": "Adult" },
+      { "nome": "Omeprazole (UGIB - infusion)", "doseTexto": "8 mg/h IV for 72h", "doseMin": null, "doseMax": null, "unidadeResultado": "mg/h", "decimais": 0, "resultadoFixo": "8 mg/h", "faixaEtaria": "Adult" },
+      { "nome": "Omeprazole (pediatric)", "doseTexto": "1 mg/kg IV once daily (max 40 mg)", "doseMin": 1, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": null, "faixaEtaria": "Pediatric" }
+    ]
+  },
+  "ES": {
+    "nome": "Omeprazol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Profilaxis úlcera por estrés",
+          "descricaoDose": "40 mg IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "HDA - Bolus",
+          "descricaoDose": "80 mg IV en bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 80,
+            "doseFixa": "80 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "HDA - Infusión continua",
+          "descricaoDose": "8 mg/h IV por 72h (tras bolus 80 mg)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 8,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": "8 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua por 72h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediátrico - Profilaxis",
+          "descricaoDose": "1 mg/kg/día IV 1x/día (máx 40 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión HDA",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 8, "doseMax": 8 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mg en 100 mL SF 0,9% (0,4 mg/mL)", "valor": 0.4 },
+            { "rotulo": "80 mg en 100 mL SF 0,9% (0,8 mg/mL)", "valor": 0.8 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Inhibidor de la bomba de protones (IBP) - antiulceroso",
+      "apresentacoes": [
+        { "forma": "Cápsulas 10 mg, 20 mg, 40 mg", "obs": "Uso oral" },
+        { "forma": "Comprimidos 20 mg", "obs": "Uso oral" },
+        { "forma": "Frasco-ampolla 40 mg", "obs": "Polvo liofilizado para IV" },
+        { "forma": "Solución inyectable 40 mg/10 mL", "obs": "Uso IV" }
+      ],
+      "preparo": [
+        { "diluicao": "40 mg en 100 mL SF 0,9% o SG 5%", "concentracao": "0,4 mg/mL - infundir en 15-30 min" },
+        { "diluicao": "80 mg en 100 mL SF 0,9%", "concentracao": "Para HDA - bolus 20 min" },
+        { "diluicao": "HDA: 200 mg en 250 mL SF 0,9% a 10 mL/h", "concentracao": "8 mg/h por 72h" }
+      ],
+      "observacoes": [
+        "Administrar VO 30 min antes del desayuno; no masticar ni triturar",
+        "Interacción con clopidogrel (CYP2C19): preferir pantoprazol si usa antiagregante",
+        "Monitorizar magnesio en uso prolongado (> 3 meses) - riesgo de hipomagnesemia",
+        "Bolus IV: infundir en mínimo 5-10 min (evitar reacciones locales)",
+        "HDA: tras bolus 80 mg, mantener infusión 8 mg/h por 72h según protocolo",
+        "Incompatible con soluciones alcalinas y nutrición parenteral total"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar magnesio y efectos gastrointestinales en uso prolongado.",
+        "renal": "No requiere ajuste. Excreción <5% por hemodiálisis; no requiere dosis suplementaria.",
+        "hepatico": "Insuficiencia hepática grave (Child-Pugh C): reducir a 10-20 mg/día o 20 mg en días alternos. Monitorizar enzimas hepáticas."
+      }
+    },
+    "vistaRapida": [
+      { "nome": "Omeprazol (profilaxis)", "doseTexto": "40 mg IV 1x/día", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "40 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Omeprazol (HDA - bolus)", "doseTexto": "80 mg IV bolus", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "80 mg", "faixaEtaria": "Adulto" },
+      { "nome": "Omeprazol (HDA - infusión)", "doseTexto": "8 mg/h IV por 72h", "doseMin": null, "doseMax": null, "unidadeResultado": "mg/h", "decimais": 0, "resultadoFixo": "8 mg/h", "faixaEtaria": "Adulto" },
+      { "nome": "Omeprazol (pediátrico)", "doseTexto": "1 mg/kg IV 1x/día (máx 40 mg)", "doseMin": 1, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": null, "faixaEtaria": "Pediatrico" }
+    ]
+  },
+  "ZH": {
+    "nome": "奥美拉唑",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "应激性溃疡预防",
+          "descricaoDose": "40 mg 静脉 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "上消化道出血 - 负荷量",
+          "descricaoDose": "80 mg 静脉 推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 80,
+            "doseFixa": "80 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "上消化道出血 - 持续输注",
+          "descricaoDose": "8 mg/h 静脉 72小时（80 mg 负荷后）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 8,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": "8 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注72小时",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "儿童 - 预防",
+          "descricaoDose": "1 mg/kg/日 静脉 每日一次（最大40 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每日一次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "上消化道出血输注",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 8, "doseMax": 8 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mg 于 100 mL 生理盐水 (0.4 mg/mL)", "valor": 0.4 },
+            { "rotulo": "80 mg 于 100 mL 生理盐水 (0.8 mg/mL)", "valor": 0.8 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "质子泵抑制剂（PPI）- 抗溃疡药",
+      "apresentacoes": [
+        { "forma": "胶囊 10 mg, 20 mg, 40 mg", "obs": "口服" },
+        { "forma": "片剂 20 mg", "obs": "口服" },
+        { "forma": "西林瓶 40 mg", "obs": "静脉用冻干粉" },
+        { "forma": "注射液 40 mg/10 mL", "obs": "静脉用" }
+      ],
+      "preparo": [
+        { "diluicao": "40 mg 于 100 mL 生理盐水或5%葡萄糖", "concentracao": "0.4 mg/mL - 15-30分钟输注" },
+        { "diluicao": "80 mg 于 100 mL 生理盐水", "concentracao": "上消化道出血 - 推注20分钟" },
+        { "diluicao": "上消化道出血：200 mg 于 250 mL 生理盐水 10 mL/h", "concentracao": "8 mg/h 共72小时" }
+      ],
+      "observacoes": [
+        "口服于早餐前30分钟；不可咀嚼或压碎",
+        "与氯吡格雷相互作用（CYP2C19）：若用抗血小板药可优选泮托拉唑",
+        "长期使用（>3个月）监测镁 - 低镁血症风险",
+        "静脉推注：至少5-10分钟输注（避免局部反应）",
+        "上消化道出血：80 mg负荷后按方案维持8 mg/h输注72小时",
+        "禁与碱性溶液及全肠外营养配伍"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调整剂量。长期使用监测镁及胃肠道反应。",
+        "renal": "无需调整。血液透析清除<5%；无需补充剂量。",
+        "hepatico": "严重肝功能不全（Child-Pugh C）：减至10-20 mg/日或20 mg隔日。监测肝酶。"
+      }
+    },
+    "vistaRapida": [
+      { "nome": "奥美拉唑（预防）", "doseTexto": "40 mg 静脉 每日一次", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "40 mg", "faixaEtaria": "Adulto" },
+      { "nome": "奥美拉唑（上消化道出血-负荷）", "doseTexto": "80 mg 静脉推注", "doseMin": null, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": "80 mg", "faixaEtaria": "Adulto" },
+      { "nome": "奥美拉唑（上消化道出血-输注）", "doseTexto": "8 mg/h 静脉 72小时", "doseMin": null, "doseMax": null, "unidadeResultado": "mg/h", "decimais": 0, "resultadoFixo": "8 mg/h", "faixaEtaria": "Adulto" },
+      { "nome": "奥美拉唑（儿童）", "doseTexto": "1 mg/kg 静脉 每日一次（最大40 mg）", "doseMin": 1, "doseMax": null, "unidadeResultado": "mg", "decimais": 0, "resultadoFixo": null, "faixaEtaria": "Pediatrico" }
+    ]
+  }
+}

@@ -1,0 +1,730 @@
+{
+  "PT": {
+    "nome": "Paracetamol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor/febre VO/IV (adulto)",
+          "descricaoDose": "500-1000 mg a cada 6-8h. Máx 4 g/dia. IV: infundir 100 mL em 15 min (não diluir).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h.",
+            "ajusteHepatico": "Hepatopatia grave: máx 2-3 g/dia com monitorização."
+          }
+        },
+        {
+          "titulo": "Dor/febre retal (adulto)",
+          "descricaoDose": "500-1000 mg a cada 6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h.",
+            "ajusteHepatico": "Hepatopatia grave: máx 2-3 g/dia."
+          }
+        },
+        {
+          "titulo": "Dor/febre VO (pediátrico)",
+          "descricaoDose": "10-15 mg/kg/dose a cada 6h. Máx 60 mg/kg/dia ou 4 g/dia.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h.",
+            "ajusteHepatico": "Hepatopatia grave: reduzir dose."
+          }
+        },
+        {
+          "titulo": "Dor/febre IV (pediátrico)",
+          "descricaoDose": "7,5-15 mg/kg a cada 6h. Infundir em 15 min. Dose ajustada por peso e idade.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 7.5,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h.",
+            "ajusteHepatico": "Hepatopatia grave: reduzir dose."
+          }
+        },
+        {
+          "titulo": "Dor/febre (neonato)",
+          "descricaoDose": "10-12 mg/kg/dose a cada 8-12h. Máx 30-40 mg/kg/dia.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 12,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 8-12h",
+            "ajusteRenal": "Ajuste por intervalo conforme função renal.",
+            "ajusteHepatico": "Hepatopatia: reduzir dose."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico e antipirético; inibidor central da COX-3; não anti-inflamatório clássico. Segurança GI e renal superior aos AINEs.",
+      "apresentacoes": [
+        { "forma": "Comprimidos 500 mg, 750 mg, 1 g", "obs": "VO - Tylenol®, Panadol®, Dôrico®" },
+        { "forma": "Solução oral: gotas 32 mg/mL, 200 mg/5 mL, 500 mg/5 mL", "obs": "VO" },
+        { "forma": "Solução injetável 10 mg/mL em 100 mL (1 g)", "obs": "IV" },
+        { "forma": "Supositórios 125 mg, 250 mg, 500 mg", "obs": "Retal" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: não diluir; administrar 100 mL diretamente em 15 min", "concentracao": "10 mg/mL" },
+        { "diluicao": "VO: comprimido ou solução oral conforme apresentação", "concentracao": "Conforme apresentação" },
+        { "diluicao": "Retal: manter em geladeira; administrar após evacuação", "concentracao": "125-500 mg" }
+      ],
+      "observacoes": [
+        "Dose máxima: 4 g/dia (adultos); 75 mg/kg/dia (crianças sob supervisão); 3 g/dia (hepatopatas)",
+        "Intervalo mínimo entre doses: 4-6 h. Evitar duplicidade com outros produtos contendo paracetamol",
+        "Hepatotoxicidade: risco em doses >4 g/dia ou em hepatopatia; considerar N-acetilcisteína em superdose",
+        "IV: infundir em 15 min (hipotensão e taquicardia se administração rápida)",
+        "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h. Hepatopatia grave: máx 2-3 g/dia",
+        "Contraindicado: hipersensibilidade; hepatite ativa; insuficiência hepática grave; uso crônico de álcool com risco de hepatotoxicidade"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose específico. Preferir dose mínima eficaz; monitorar em uso prolongado.",
+        "renal": "ClCr 10-50 mL/min: intervalo 6-8h. ClCr <10: intervalo 8-12h. Diálise: ajustar intervalo conforme clearance.",
+        "hepatico": "Hepatopatia leve: sem ajuste. Hepatopatia grave: dose máx 2-3 g/dia com monitorização de transaminases."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Paracetamol VO/IV (adulto)",
+        "doseTexto": "500-1000 mg a cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Paracetamol retal (adulto)",
+        "doseTexto": "500-1000 mg a cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Paracetamol VO (pediátrico)",
+        "doseTexto": "10-15 mg/kg a cada 6h (máx 60 mg/kg/dia)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Paracetamol IV (pediátrico)",
+        "doseTexto": "7,5-15 mg/kg a cada 6h",
+        "doseMin": 7.5,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Acetaminophen",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Pain/fever PO/IV (adult)",
+          "descricaoDose": "500-1000 mg every 6-8h. Max 4 g/day. IV: infuse 100 mL over 15 min (do not dilute).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO/IV",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "CrCl 10-50: interval 6-8h. CrCl <10: interval 8-12h.",
+            "ajusteHepatico": "Severe liver disease: max 2-3 g/day with monitoring."
+          }
+        },
+        {
+          "titulo": "Pain/fever rectal (adult)",
+          "descricaoDose": "500-1000 mg every 6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6h",
+            "ajusteRenal": "CrCl 10-50: interval 6-8h. CrCl <10: interval 8-12h.",
+            "ajusteHepatico": "Severe liver disease: max 2-3 g/day."
+          }
+        },
+        {
+          "titulo": "Pain/fever PO (pediatric)",
+          "descricaoDose": "10-15 mg/kg/dose every 6h. Max 60 mg/kg/day or 4 g/day.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6h",
+            "ajusteRenal": "CrCl 10-50: interval 6-8h. CrCl <10: interval 8-12h.",
+            "ajusteHepatico": "Severe liver disease: reduce dose."
+          }
+        },
+        {
+          "titulo": "Pain/fever IV (pediatric)",
+          "descricaoDose": "7.5-15 mg/kg every 6h. Infuse over 15 min. Dose adjusted by weight and age.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 7.5,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 6h",
+            "ajusteRenal": "CrCl 10-50: interval 6-8h. CrCl <10: interval 8-12h.",
+            "ajusteHepatico": "Severe liver disease: reduce dose."
+          }
+        },
+        {
+          "titulo": "Pain/fever (neonate)",
+          "descricaoDose": "10-12 mg/kg/dose every 8-12h. Max 30-40 mg/kg/day.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 12,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 8-12h",
+            "ajusteRenal": "Adjust interval per renal function.",
+            "ajusteHepatico": "Liver disease: reduce dose."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgesic and antipyretic; central COX-3 inhibitor; not a classic anti-inflammatory. Superior GI and renal safety vs NSAIDs.",
+      "apresentacoes": [
+        { "forma": "Tablets 500 mg, 750 mg, 1 g", "obs": "PO" },
+        { "forma": "Oral solution: drops 32 mg/mL, 200 mg/5 mL, 500 mg/5 mL", "obs": "PO" },
+        { "forma": "Injectable solution 10 mg/mL in 100 mL (1 g)", "obs": "IV" },
+        { "forma": "Suppositories 125 mg, 250 mg, 500 mg", "obs": "Rectal" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: do not dilute; administer 100 mL over 15 min", "concentracao": "10 mg/mL" },
+        { "diluicao": "PO: tablet or oral solution as per formulation", "concentracao": "As per formulation" },
+        { "diluicao": "Rectal: keep refrigerated; administer after bowel movement", "concentracao": "125-500 mg" }
+      ],
+      "observacoes": [
+        "Max dose: 4 g/day (adults); 75 mg/kg/day (children under supervision); 3 g/day (hepatopaths)",
+        "Minimum interval between doses: 4-6 h. Avoid duplication with other acetaminophen-containing products",
+        "Hepatotoxicity: risk at >4 g/day or in liver disease; consider N-acetylcysteine in overdose",
+        "IV: infuse over 15 min (hypotension and tachycardia if rapid administration)",
+        "CrCl 10-50: interval 6-8h. CrCl <10: interval 8-12h. Severe liver disease: max 2-3 g/day",
+        "Contraindicated: hypersensitivity; active hepatitis; severe liver failure; chronic alcohol use with hepatotoxicity risk"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific dose adjustment. Prefer minimum effective dose; monitor with prolonged use.",
+        "renal": "CrCl 10-50 mL/min: interval 6-8h. CrCl <10: interval 8-12h. Dialysis: adjust interval per clearance.",
+        "hepatico": "Mild liver disease: no adjustment. Severe: max 2-3 g/day with transaminase monitoring."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Acetaminophen PO/IV (adult)",
+        "doseTexto": "500-1000 mg every 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Acetaminophen rectal (adult)",
+        "doseTexto": "500-1000 mg every 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Acetaminophen PO (pediatric)",
+        "doseTexto": "10-15 mg/kg every 6h (max 60 mg/kg/day)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Acetaminophen IV (pediatric)",
+        "doseTexto": "7.5-15 mg/kg every 6h",
+        "doseMin": 7.5,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Paracetamol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor/fiebre VO/IV (adulto)",
+          "descricaoDose": "500-1000 mg cada 6-8h. Máx 4 g/día. IV: infundir 100 mL en 15 min (no diluir).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h.",
+            "ajusteHepatico": "Hepatopatía grave: máx 2-3 g/día con monitorización."
+          }
+        },
+        {
+          "titulo": "Dolor/fiebre rectal (adulto)",
+          "descricaoDose": "500-1000 mg cada 6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h.",
+            "ajusteHepatico": "Hepatopatía grave: máx 2-3 g/día."
+          }
+        },
+        {
+          "titulo": "Dolor/fiebre VO (pediátrico)",
+          "descricaoDose": "10-15 mg/kg/dosis cada 6h. Máx 60 mg/kg/día o 4 g/día.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h.",
+            "ajusteHepatico": "Hepatopatía grave: reducir dosis."
+          }
+        },
+        {
+          "titulo": "Dolor/fiebre IV (pediátrico)",
+          "descricaoDose": "7,5-15 mg/kg cada 6h. Infundir en 15 min. Dosis ajustada por peso y edad.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 7.5,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h.",
+            "ajusteHepatico": "Hepatopatía grave: reducir dosis."
+          }
+        },
+        {
+          "titulo": "Dolor/fiebre (neonato)",
+          "descricaoDose": "10-12 mg/kg/dosis cada 8-12h. Máx 30-40 mg/kg/día.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 12,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 8-12h",
+            "ajusteRenal": "Ajustar intervalo según función renal.",
+            "ajusteHepatico": "Hepatopatía: reducir dosis."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico y antipirético; inhibidor central de COX-3; no antiinflamatorio clásico. Seguridad GI y renal superior a AINEs.",
+      "apresentacoes": [
+        { "forma": "Comprimidos 500 mg, 750 mg, 1 g", "obs": "VO" },
+        { "forma": "Solución oral: gotas 32 mg/mL, 200 mg/5 mL, 500 mg/5 mL", "obs": "VO" },
+        { "forma": "Solución inyectable 10 mg/mL en 100 mL (1 g)", "obs": "IV" },
+        { "forma": "Supositorios 125 mg, 250 mg, 500 mg", "obs": "Rectal" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: no diluir; administrar 100 mL directamente en 15 min", "concentracao": "10 mg/mL" },
+        { "diluicao": "VO: comprimido o solución oral según presentación", "concentracao": "Según presentación" },
+        { "diluicao": "Rectal: mantener refrigerado; administrar tras evacuación", "concentracao": "125-500 mg" }
+      ],
+      "observacoes": [
+        "Dosis máxima: 4 g/día (adultos); 75 mg/kg/día (niños bajo supervisión); 3 g/día (hepatópatas)",
+        "Intervalo mínimo entre dosis: 4-6 h. Evitar duplicidad con otros productos con paracetamol",
+        "Hepatotoxicidad: riesgo con >4 g/día o hepatopatía; considerar N-acetilcisteína en sobredosis",
+        "IV: infundir en 15 min (hipotensión y taquicardia si administración rápida)",
+        "ClCr 10-50: intervalo 6-8h. ClCr <10: intervalo 8-12h. Hepatopatía grave: máx 2-3 g/día",
+        "Contraindicado: hipersensibilidad; hepatitis activa; insuficiencia hepática grave; alcoholismo crónico con riesgo hepático"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Preferir dosis mínima eficaz; monitorizar en uso prolongado.",
+        "renal": "ClCr 10-50 mL/min: intervalo 6-8h. ClCr <10: intervalo 8-12h. Diálisis: ajustar intervalo.",
+        "hepatico": "Hepatopatía leve: sin ajuste. Hepatopatía grave: máx 2-3 g/día con monitorización de transaminasas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Paracetamol VO/IV (adulto)",
+        "doseTexto": "500-1000 mg cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Paracetamol rectal (adulto)",
+        "doseTexto": "500-1000 mg cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Paracetamol VO (pediátrico)",
+        "doseTexto": "10-15 mg/kg cada 6h (máx 60 mg/kg/día)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Paracetamol IV (pediátrico)",
+        "doseTexto": "7,5-15 mg/kg cada 6h",
+        "doseMin": 7.5,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "对乙酰氨基酚",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "疼痛/发热 口服/静注（成人）",
+          "descricaoDose": "500-1000 mg 每6-8小时。最大4 g/日。静注：100 mL 15分钟内输注（不稀释）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO/IV",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr 10-50：间隔6-8h。ClCr <10：间隔8-12h。",
+            "ajusteHepatico": "严重肝病：最大2-3 g/日并监测。"
+          }
+        },
+        {
+          "titulo": "疼痛/发热 直肠（成人）",
+          "descricaoDose": "500-1000 mg 每6小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 10-50：间隔6-8h。ClCr <10：间隔8-12h。",
+            "ajusteHepatico": "严重肝病：最大2-3 g/日。"
+          }
+        },
+        {
+          "titulo": "疼痛/发热 口服（儿童）",
+          "descricaoDose": "10-15 mg/kg/次 每6小时。最大60 mg/kg/日或4 g/日。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 10-50：间隔6-8h。ClCr <10：间隔8-12h。",
+            "ajusteHepatico": "严重肝病：减量。"
+          }
+        },
+        {
+          "titulo": "疼痛/发热 静注（儿童）",
+          "descricaoDose": "7,5-15 mg/kg 每6小时。15分钟输注。按体重和年龄调整。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 7.5,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 10-50：间隔6-8h。ClCr <10：间隔8-12h。",
+            "ajusteHepatico": "严重肝病：减量。"
+          }
+        },
+        {
+          "titulo": "疼痛/发热（新生儿）",
+          "descricaoDose": "10-12 mg/kg/次 每8-12小时。最大30-40 mg/kg/日。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 12,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每8-12小时",
+            "ajusteRenal": "按肾功能调整间隔。",
+            "ajusteHepatico": "肝病：减量。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "镇痛解热药；中枢COX-3抑制剂；非经典抗炎药。较NSAIDs胃肠道和肾脏安全性更好。",
+      "apresentacoes": [
+        { "forma": "片剂 500、750 mg、1 g", "obs": "口服" },
+        { "forma": "口服溶液：滴剂 32 mg/mL，200 mg/5 mL，500 mg/5 mL", "obs": "口服" },
+        { "forma": "注射液 10 mg/mL 100 mL（1 g）", "obs": "静注" },
+        { "forma": "栓剂 125、250、500 mg", "obs": "直肠" }
+      ],
+      "preparo": [
+        { "diluicao": "静注：不稀释；100 mL 15分钟内输注", "concentracao": "10 mg/mL" },
+        { "diluicao": "口服：片剂或口服液按剂型", "concentracao": "按剂型" },
+        { "diluicao": "直肠：冷藏；排便后使用", "concentracao": "125-500 mg" }
+      ],
+      "observacoes": [
+        "最大剂量：成人4 g/日；儿童75 mg/kg/日（监护下）；肝病3 g/日",
+        "给药间隔至少4-6小时。避免与其他含对乙酰氨基酚产品重复",
+        "肝毒性：>4 g/日或肝病时风险；过量考虑N-乙酰半胱氨酸",
+        "静注：15分钟输注（过快可低血压、心动过速）",
+        "ClCr 10-50：间隔6-8h。ClCr <10：间隔8-12h。严重肝病：最大2-3 g/日",
+        "禁忌：过敏；活动性肝炎；严重肝衰竭；慢性饮酒肝毒性风险"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定剂量调整。首选最小有效剂量；长期使用监测。",
+        "renal": "ClCr 10-50 mL/min：间隔6-8h。ClCr <10：间隔8-12h。透析：按清除率调整间隔。",
+        "hepatico": "轻度肝病：无需调整。重度：最大2-3 g/日并监测转氨酶。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "对乙酰氨基酚 口服/静注（成人）",
+        "doseTexto": "500-1000 mg 每6-8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "对乙酰氨基酚 直肠（成人）",
+        "doseTexto": "500-1000 mg 每6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "对乙酰氨基酚 口服（儿童）",
+        "doseTexto": "10-15 mg/kg 每6小时（最大60 mg/kg/日）",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "对乙酰氨基酚 静注（儿童）",
+        "doseTexto": "7,5-15 mg/kg 每6小时",
+        "doseMin": 7.5,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

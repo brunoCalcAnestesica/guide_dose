@@ -1,0 +1,70 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Ganciclovir",
+      "nome_comercial": ["Cymevene"],
+      "classe_terapeutica": "Antiviral - análogo de nucleosídeo",
+      "mecanismo_acao": "Análogo da guanosina que, após fosforilação intracelular, inibe competitivamente a DNA polimerase do CMV e é incorporado ao DNA viral, causando terminação da cadeia.",
+      "espectro": {"sensivel": ["CMV (Citomegalovírus)", "HSV", "VZV", "HHV-6"]},
+      "indicacoes": ["Retinite por CMV", "Pneumonite por CMV", "Colite/Esofagite por CMV", "Profilaxia de CMV em transplantados", "CMV congênito sintomático"],
+      "apresentacoes": [{"forma": "Frasco IV", "concentracao": "500mg"}],
+      "farmacocinetica": {"meia_vida": "2,5-3,6 horas", "excrecao": "Renal (90%)", "biodisponibilidade_oral": "5%"},
+      "ajuste_renal": {"ClCr_50_69": "2,5 mg/kg 12/12h", "ClCr_25_49": "2,5 mg/kg 24/24h", "ClCr_10_24": "1,25 mg/kg 24/24h", "ClCr_menor_10": "1,25 mg/kg 3x/semana"},
+      "efeitos_adversos": ["Neutropenia (30-40%)", "Trombocitopenia", "Anemia", "Nefrotoxicidade", "Toxicidade SNC"],
+      "monitoramento": ["Hemograma 2-3x/semana na indução", "Função renal"],
+      "contraindicacoes": ["Neutropenia <500", "Trombocitopenia <25.000", "Gestação (teratogênico)"],
+      "pro_droga_oral": {"nome": "Valganciclovir", "equivalencia": "900mg VO ≈ 5 mg/kg IV"}
+    }
+  },
+  "US": {
+    "bulario": {
+      "nome_generico": "Ganciclovir",
+      "nome_comercial": ["Cytovene"],
+      "classe_terapeutica": "Antiviral - nucleoside analogue",
+      "mecanismo_acao": "Guanosine analogue that, after intracellular phosphorylation, competitively inhibits CMV DNA polymerase and is incorporated into viral DNA, causing chain termination.",
+      "espectro": {"sensivel": ["CMV (Cytomegalovirus)", "HSV", "VZV", "HHV-6"]},
+      "indicacoes": ["CMV retinitis", "CMV pneumonitis", "CMV colitis/esophagitis", "CMV prophylaxis in transplant recipients", "Symptomatic congenital CMV"],
+      "apresentacoes": [{"forma": "IV vial", "concentracao": "500mg"}],
+      "farmacocinetica": {"meia_vida": "2.5-3.6 hours", "excrecao": "Renal (90%)", "biodisponibilidade_oral": "5%"},
+      "ajuste_renal": {"ClCr_50_69": "2.5 mg/kg q12h", "ClCr_25_49": "2.5 mg/kg q24h", "ClCr_10_24": "1.25 mg/kg q24h", "ClCr_menor_10": "1.25 mg/kg 3x/week"},
+      "efeitos_adversos": ["Neutropenia (30-40%)", "Thrombocytopenia", "Anemia", "Nephrotoxicity", "CNS toxicity"],
+      "monitoramento": ["CBC 2-3x/week during induction", "Renal function"],
+      "contraindicacoes": ["ANC <500", "Platelets <25,000", "Pregnancy (teratogenic)"],
+      "pro_droga_oral": {"nome": "Valganciclovir", "equivalencia": "900mg PO ≈ 5 mg/kg IV"}
+    }
+  },
+  "ES": {
+    "bulario": {
+      "nome_generico": "Ganciclovir",
+      "nome_comercial": ["Cymevene"],
+      "classe_terapeutica": "Antiviral - análogo de nucleósido",
+      "mecanismo_acao": "Análogo de la guanosina que, tras fosforilación intracelular, inhibe competitivamente la DNA polimerasa del CMV y se incorpora al DNA viral, causando terminación de la cadena.",
+      "espectro": {"sensivel": ["CMV (Citomegalovirus)", "HSV", "VZV", "HHV-6"]},
+      "indicacoes": ["Retinitis por CMV", "Neumonitis por CMV", "Colitis/Esofagitis por CMV", "Profilaxis de CMV en trasplantados", "CMV congénito sintomático"],
+      "apresentacoes": [{"forma": "Frasco IV", "concentracao": "500mg"}],
+      "farmacocinetica": {"meia_vida": "2,5-3,6 horas", "excrecao": "Renal (90%)", "biodisponibilidade_oral": "5%"},
+      "ajuste_renal": {"ClCr_50_69": "2,5 mg/kg c/12h", "ClCr_25_49": "2,5 mg/kg c/24h", "ClCr_10_24": "1,25 mg/kg c/24h", "ClCr_menor_10": "1,25 mg/kg 3x/semana"},
+      "efeitos_adversos": ["Neutropenia (30-40%)", "Trombocitopenia", "Anemia", "Nefrotoxicidad", "Toxicidad SNC"],
+      "monitoramento": ["Hemograma 2-3x/semana en inducción", "Función renal"],
+      "contraindicacoes": ["Neutropenia <500", "Trombocitopenia <25.000", "Embarazo (teratogénico)"],
+      "pro_droga_oral": {"nome": "Valganciclovir", "equivalencia": "900mg VO ≈ 5 mg/kg IV"}
+    }
+  },
+  "ZH": {
+    "bulario": {
+      "nome_generico": "更昔洛韦",
+      "nome_comercial": ["赛美维"],
+      "classe_terapeutica": "抗病毒药 - 核苷类似物",
+      "mecanismo_acao": "鸟苷类似物，经细胞内磷酸化后，竞争性抑制CMV DNA聚合酶并整合入病毒DNA，导致链终止。",
+      "espectro": {"sensivel": ["CMV（巨细胞病毒）", "HSV", "VZV", "HHV-6"]},
+      "indicacoes": ["CMV视网膜炎", "CMV肺炎", "CMV结肠炎/食管炎", "移植患者CMV预防", "先天性CMV感染（有症状）"],
+      "apresentacoes": [{"forma": "静脉用小瓶", "concentracao": "500mg"}],
+      "farmacocinetica": {"meia_vida": "2.5-3.6小时", "excrecao": "肾脏（90%）", "biodisponibilidade_oral": "5%"},
+      "ajuste_renal": {"ClCr_50_69": "2.5 mg/kg q12h", "ClCr_25_49": "2.5 mg/kg q24h", "ClCr_10_24": "1.25 mg/kg q24h", "ClCr_menor_10": "1.25 mg/kg 每周3次"},
+      "efeitos_adversos": ["中性粒细胞减少（30-40%）", "血小板减少", "贫血", "肾毒性", "中枢神经系统毒性"],
+      "monitoramento": ["诱导期每周血常规2-3次", "肾功能"],
+      "contraindicacoes": ["中性粒细胞<500", "血小板<25,000", "妊娠（致畸）"],
+      "pro_droga_oral": {"nome": "缬更昔洛韦", "equivalencia": "900mg PO ≈ 5 mg/kg IV"}
+    }
+  }
+}

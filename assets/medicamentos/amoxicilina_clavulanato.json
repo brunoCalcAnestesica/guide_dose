@@ -1,0 +1,35 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Amoxicilina + Ácido Clavulânico",
+      "nomesComerciais": ["Clavulin®", "Novamox®", "Sigma-Clav®"],
+      "classeTerapeutica": "Antibiótico / Penicilina + Inibidor de β-lactamase",
+      "mecanismoAcao": "Amoxicilina inibe a síntese da parede celular. Ácido clavulânico é um inibidor suicida de β-lactamases, ampliando o espectro para bactérias produtoras dessas enzimas.",
+      "espectro": {
+        "ampliado_pelo_clavulanato": ["H. influenzae (produtor β-lactamase)", "M. catarrhalis", "S. aureus MSSA", "Bacteroides spp.", "Klebsiella (algumas cepas)"],
+        "resistentes": ["MRSA", "Pseudomonas", "Enterobactérias produtoras de ESBL"]
+      },
+      "indicacoes": ["Sinusite bacteriana", "Otite média aguda", "Mordeduras humanas e animais", "Infecções de pele complicadas", "ITU", "Pneumonia aspirativa", "Pé diabético leve"],
+      "apresentacoes": ["Comprimidos 500/125 mg, 875/125 mg", "Suspensão 125/31,25 mg/5mL, 250/62,5 mg/5mL, 400/57 mg/5mL"],
+      "posologia": {
+        "adulto": {
+          "padrao": "500/125 mg VO 8/8h",
+          "infeccoes_graves": "875/125 mg VO 12/12h"
+        },
+        "pediatrico": {
+          "leve_moderada": "12,5-22,5 mg/kg/dose (amox) VO 12/12h",
+          "dose_alta": "45 mg/kg/dose (amox) VO 12/12h"
+        }
+      },
+      "ajusteRenal": {
+        "ClCr_10_30": "500/125 mg 12/12h",
+        "ClCr_menor_10": "500/125 mg 24/24h"
+      },
+      "contraindicacoes": ["Hipersensibilidade a penicilinas", "Hepatotoxicidade prévia por amox/clav", "Mononucleose"],
+      "efeitosAdversos": ["Diarreia (mais comum que amoxicilina)", "Náusea, vômitos", "Candidíase", "Hepatotoxicidade colestática (rara)", "Rash"],
+      "interacoes": ["Alopurinol", "Metotrexato", "Anticoagulantes orais"],
+      "observacoes": ["Administrar no início das refeições para reduzir intolerância GI", "Hepatotoxicidade mais comum em homens e uso prolongado", "Categoria B na gestação"],
+      "categoriaGravidez": "B"
+    }
+  }
+}

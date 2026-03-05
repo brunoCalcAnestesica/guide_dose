@@ -1,0 +1,43 @@
+---
+description: Workflow da aba Cálculos (medicamentos): onde salvar, checklist e remoção em Dose rápida/Drogas
+globs: assets/medicamentos_dose/*.json, lib/medicamento_unificado/**/*.dart, lib/doses_rapidas_page/**/*.dart, lib/drogas_card/**/*.dart
+alwaysApply: false
+---
+
+# Medicamentos – Aba Cálculos (template e checklist)
+
+Para executar: usar nome e id do medicamento; seguir cenário A ou B em [ABA_CALCULOS_WORKFLOW.md](docs/ABA_CALCULOS_WORKFLOW.md) (secção "Como executar este workflow").
+
+## Onde salvar
+- **JSON da aba Cálculos**: `assets/medicamentos_dose/[id].json` (id em snake_case, ex.: `adrenalina`, `insulina_lispro`).
+- **Bulário (página 3)**: já em `assets/medicamentos/[id].json`; não alterar pelo template.
+- **Lista no app**: adicionar `'assets/medicamentos_dose/[id].json'` em `_medicamentosDoseFallback` em [medicamento_unificado_page.dart](lib/medicamento_unificado/medicamento_unificado_page.dart) em **ordem alfabética** (por nome do arquivo) para garantir visibilidade antes do rebuild.
+- **Nome exibido**: definido pelo campo `nome` por idioma no JSON; fallback em [medicamento_data.dart](lib/medicamento_unificado/medicamento_data.dart) a partir do primeiro item de `vistaRapida`.
+
+## Cenários ao finalizar
+- **Cenário A (medicamento novo):** criar JSON, salvar em `medicamentos_dose/[id].json`, adicionar ao fallback, remover da Dose rápida e da Drogas.
+- **Cenário B (medicamento já em medicamentos_dose):** não alterar JSON; apenas remover da Dose rápida e da Drogas onde existir; pedir ao usuário para chamar o próximo medicamento.
+
+## Checklist pós-geração
+- JSON válido; 4 idiomas (PT, US, ES, ZH); campo `"nome"` em cada idioma; **todas as páginas (pagina1, pagina2, vistaRapida) completas em cada idioma**.
+- Indicações com `faixaEtaria`; infusões com `doseMin`/`doseMax`; sliders com adulto/pediátrico e `opcoesConcentracao` práticas.
+- `pagina2`: 6 observações; ajustes (idoso, renal, hepático) em string.
+- `vistaRapida`: entradas adulto/pediátrico; `ajusteRenal` como string; `clCrThreshold`/`fatorAjusteRenal` só se houver ajuste renal.
+- Salvar em `assets/medicamentos_dose/[id].json`; adicionar ao fallback (Cenário A); remover da Dose Rápida e da Drogas onde existir.
+
+## Remover duplicatas (só se o medicamento existir nesses locais)
+
+### Dose rápida (Highlight)
+- **Arquivos:** part files em `lib/doses_rapidas_page/`: analgesicos_iv_im.dart, analgesicos_vo.dart, anestesicos_locais.dart, anticoagulantes.dart, anticonvulsivantes.dart, antidotos.dart, antiemeticos_iv.dart, antiemeticos_vo.dart, antiarritmicos.dart, anti_hipertensivos.dart, antibioticos_iv.dart, antibioticos_vo.dart, benzodiazepinicos.dart, broncodilatadores.dart, corticoides.dart, diureticos.dart, drogas_emergencia.dart, gastroprotecao.dart, hemoderivados.dart, obstetricos.dart, opioides.dart, outros.dart, sedativos_antipsicoticos.dart, tromboliticos.dart, vasopressores_bolus.dart, vasopressores_infusao.dart.
+- **Ação:** em cada part, procurar `_DoseRapidaItem` cujo **nome** corresponda ao medicamento e remover o bloco inteiro (incluindo vírgula). Não alterar `_todasAsDoses()` em doses_rapidas_page.dart.
+
+### Drogas (aba Medicamentos)
+- **Lista de cards** [drogas.dart](lib/drogas_card/drogas.dart): em `_medicamentos`, remover o(s) item(ns) com `nome` igual ao medicamento; remover o import do arquivo do card.
+- **Registry** [medicamentos_registry.dart](lib/drogas_card/medicamentos_registry.dart): remover todas as entradas em `medicamentosRegistry` que apontam para esse medicamento (incluindo aliases); remover o import do card somente se for exclusivo desse medicamento (ver ABA_CALCULOS_WORKFLOW.md sec. 4.3 para aliases compartilhados).
+- **Opcional:** deletar o .dart do card em `lib/drogas_card/[categoria]/` se não for usado por outros itens.
+
+## Casos especiais
+- **Medicamento já feito** (re-geração ou atualização): fazer apenas a remoção de duplicatas onde existirem; em seguida pedir para chamar o próximo medicamento.
+- **Antibióticos**: incluir profilaxia cirúrgica no conteúdo quando houver.
+
+Fluxo completo (cenários A/B, remoção passo a passo): [docs/ABA_CALCULOS_WORKFLOW.md](docs/ABA_CALCULOS_WORKFLOW.md).

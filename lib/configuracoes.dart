@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
+import 'theme/app_colors.dart';
 import 'package:flutter/services.dart';
 
 class BularioPage extends StatefulWidget {
@@ -89,7 +90,7 @@ class _BularioPageState extends State<BularioPage> {
               style: const TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
-                color: Colors.indigo,
+                color: AppColors.primary,
               ),
             ),
             const SizedBox(height: 6),

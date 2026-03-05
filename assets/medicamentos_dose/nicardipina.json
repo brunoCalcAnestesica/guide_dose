@@ -1,0 +1,430 @@
+{
+  "PT": {
+    "nome": "Nicardipina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infusão inicial",
+          "descricaoDose": "5 mg/h IV, titular 2,5 mg/h a cada 5 min até efeito",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": "5 mg/h inicial",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção",
+          "descricaoDose": "3-15 mg/h IV (dose usual de manutenção)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": "3-15 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 1, "doseMax": 20 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg em 200 mL SF (0,1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "40 mg em 200 mL SF (0,2 mg/mL)", "valor": 0.2 },
+            { "rotulo": "25 mg em 100 mL SF (0,25 mg/mL)", "valor": 0.25 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canal de cálcio - Diidropiridina (vasoseletiva)",
+      "apresentacoes": [
+        { "forma": "Solução injetável 25 mg/10 mL", "obs": "2,5 mg/mL" },
+        { "forma": "Frasco pronto para uso", "obs": "20 mg/200 mL ou 40 mg/200 mL (0,1-0,2 mg/mL)" }
+      ],
+      "preparo": [
+        { "diluicao": "20 mg em 200 mL SF 0,9%", "concentracao": "0,1 mg/mL" },
+        { "diluicao": "40 mg em 200 mL SF 0,9%", "concentracao": "0,2 mg/mL" },
+        { "diluicao": "25 mg (10 mL) em 100 mL SF 0,9%", "concentracao": "0,25 mg/mL" }
+      ],
+      "observacoes": [
+        "Primeira linha em emergência hipertensiva e hipertensão perioperatória",
+        "Início de ação IV 1-2 min; pico 5-15 min; não reduz fluxo sanguíneo cerebral",
+        "Ideal para hemorragia subaracnoidea e AVC isquêmico com hipertensão",
+        "Incompatível com bicarbonato, Ringer lactato e soluções alcalinas",
+        "Metabolismo hepático (CYP3A4); excreção renal (60%) e fecal (35%)",
+        "Contraindicado: estenose aórtica grave, hipotensão (PAS < 90 mmHg)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com dose menor; monitorar PA e efeitos adversos.",
+        "renal": "Não exige ajuste de dose. Cautela em DRC grave.",
+        "hepatico": "Usar com cautela; metabolização hepática extensa (CYP3A4). Reduzir dose se insuficiência hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nicardipina (infusão inicial)",
+        "doseTexto": "5 mg/h IV, titular 2,5 mg/h a cada 5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "5 mg/h inicial",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nicardipina (manutenção)",
+        "doseTexto": "3-15 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "3-15 mg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Nicardipine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Initial infusion",
+          "descricaoDose": "5 mg/h IV, titrate by 2.5 mg/h every 5 min until effect",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": "5 mg/h initial",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Maintenance",
+          "descricaoDose": "3-15 mg/h IV (usual maintenance dose)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": "3-15 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 1, "doseMax": 20 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg in 200 mL NS (0.1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "40 mg in 200 mL NS (0.2 mg/mL)", "valor": 0.2 },
+            { "rotulo": "25 mg in 100 mL NS (0.25 mg/mL)", "valor": 0.25 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Calcium channel blocker - Dihydropyridine (vasoselective)",
+      "apresentacoes": [
+        { "forma": "Injectable solution 25 mg/10 mL", "obs": "2.5 mg/mL" },
+        { "forma": "Ready-to-use vial", "obs": "20 mg/200 mL or 40 mg/200 mL (0.1-0.2 mg/mL)" }
+      ],
+      "preparo": [
+        { "diluicao": "20 mg in 200 mL NS", "concentracao": "0.1 mg/mL" },
+        { "diluicao": "40 mg in 200 mL NS", "concentracao": "0.2 mg/mL" },
+        { "diluicao": "25 mg (10 mL) in 100 mL NS", "concentracao": "0.25 mg/mL" }
+      ],
+      "observacoes": [
+        "First line in hypertensive emergency and perioperative hypertension",
+        "IV onset 1-2 min; peak 5-15 min; does not reduce cerebral blood flow",
+        "Ideal for subarachnoid hemorrhage and ischemic stroke with hypertension",
+        "Incompatible with bicarbonate, lactated Ringer's, and alkaline solutions",
+        "Hepatic metabolism (CYP3A4); renal (60%) and fecal (35%) excretion",
+        "Contraindicated: severe aortic stenosis, hypotension (SBP < 90 mmHg)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with lower dose; monitor BP and adverse effects.",
+        "renal": "No dose adjustment required. Caution in severe CKD.",
+        "hepatico": "Use with caution; extensive hepatic metabolism (CYP3A4). Reduce dose in hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nicardipine (initial infusion)",
+        "doseTexto": "5 mg/h IV, titrate 2.5 mg/h every 5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "5 mg/h initial",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Nicardipine (maintenance)",
+        "doseTexto": "3-15 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "3-15 mg/h",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Nicardipino",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infusión inicial",
+          "descricaoDose": "5 mg/h IV, titular 2,5 mg/h cada 5 min hasta efecto",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": "5 mg/h inicial",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento",
+          "descricaoDose": "3-15 mg/h IV (dosis habitual de mantenimiento)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": "3-15 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 1, "doseMax": 20 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg en 200 mL SF (0,1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "40 mg en 200 mL SF (0,2 mg/mL)", "valor": 0.2 },
+            { "rotulo": "25 mg en 100 mL SF (0,25 mg/mL)", "valor": 0.25 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canales de calcio - Diidropiridina (vasoselectivo)",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 25 mg/10 mL", "obs": "2,5 mg/mL" },
+        { "forma": "Frasco listo para uso", "obs": "20 mg/200 mL o 40 mg/200 mL (0,1-0,2 mg/mL)" }
+      ],
+      "preparo": [
+        { "diluicao": "20 mg en 200 mL SF 0,9%", "concentracao": "0,1 mg/mL" },
+        { "diluicao": "40 mg en 200 mL SF 0,9%", "concentracao": "0,2 mg/mL" },
+        { "diluicao": "25 mg (10 mL) en 100 mL SF 0,9%", "concentracao": "0,25 mg/mL" }
+      ],
+      "observacoes": [
+        "Primera línea en emergencia hipertensiva e hipertensión perioperatoria",
+        "Inicio de acción IV 1-2 min; pico 5-15 min; no reduce flujo sanguíneo cerebral",
+        "Ideal para hemorragia subaracnoidea y AVC isquémico con hipertensión",
+        "Incompatible con bicarbonato, Ringer lactato y soluciones alcalinas",
+        "Metabolismo hepático (CYP3A4); excreción renal (60%) y fecal (35%)",
+        "Contraindicado: estenosis aórtica grave, hipotensión (PAS < 90 mmHg)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis menor; monitorizar PA y efectos adversos.",
+        "renal": "No requiere ajuste de dosis. Precaución en ERC grave.",
+        "hepatico": "Usar con precaución; metabolización hepática extensa (CYP3A4). Reducir dosis en insuficiencia hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nicardipino (infusión inicial)",
+        "doseTexto": "5 mg/h IV, titular 2,5 mg/h cada 5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "5 mg/h inicial",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nicardipino (mantenimiento)",
+        "doseTexto": "3-15 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "3-15 mg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "尼卡地平",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "初始输注",
+          "descricaoDose": "5 mg/h IV，每5分钟按2.5 mg/h递增直至起效",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": "5 mg/h 初始",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "维持",
+          "descricaoDose": "3-15 mg/h IV（常用维持剂量）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": "3-15 mg/h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 1, "doseMax": 20 },
+          "pediatrico": { "doseMin": 0, "doseMax": 0 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "20 mg 溶于 200 mL 生理盐水 (0.1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "40 mg 溶于 200 mL 生理盐水 (0.2 mg/mL)", "valor": 0.2 },
+            { "rotulo": "25 mg 溶于 100 mL 生理盐水 (0.25 mg/mL)", "valor": 0.25 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "钙通道阻滞剂 - 二氢吡啶类（血管选择性）",
+      "apresentacoes": [
+        { "forma": "注射剂 25 mg/10 mL", "obs": "2.5 mg/mL" },
+        { "forma": "即用型瓶", "obs": "20 mg/200 mL 或 40 mg/200 mL (0.1-0.2 mg/mL)" }
+      ],
+      "preparo": [
+        { "diluicao": "20 mg 溶于 200 mL 生理盐水", "concentracao": "0.1 mg/mL" },
+        { "diluicao": "40 mg 溶于 200 mL 生理盐水", "concentracao": "0.2 mg/mL" },
+        { "diluicao": "25 mg (10 mL) 溶于 100 mL 生理盐水", "concentracao": "0.25 mg/mL" }
+      ],
+      "observacoes": [
+        "高血压急症及围术期高血压一线用药",
+        "IV 起效 1-2 分钟；达峰 5-15 分钟；不降低脑血流",
+        "适用于蛛网膜下腔出血及缺血性卒中伴高血压",
+        "与碳酸氢钠、乳酸林格液及碱性溶液不相容",
+        "肝脏代谢 (CYP3A4)；肾脏 (60%) 及粪便 (35%) 排泄",
+        "禁忌：严重主动脉瓣狭窄、低血压 (收缩压 < 90 mmHg)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从小剂量开始；监测血压及不良反应。",
+        "renal": "无需调整剂量。严重慢性肾病慎用。",
+        "hepatico": "慎用；肝脏代谢广泛 (CYP3A4)。肝功能不全时减量。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "尼卡地平（初始输注）",
+        "doseTexto": "5 mg/h IV，每5分钟按2.5 mg/h递增",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "5 mg/h 初始",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "尼卡地平（维持）",
+        "doseTexto": "3-15 mg/h IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": "3-15 mg/h",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

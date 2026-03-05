@@ -1,0 +1,766 @@
+{
+  "PT": {
+    "nome": "Micafungina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Candidemia / Candida invasiva",
+          "descricaoDose": "100 mg IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Candidíase esofágica",
+          "descricaoDose": "150 mg IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia (transplante/neutropenia)",
+          "descricaoDose": "50 mg IV 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Candidemia",
+          "descricaoDose": "2 mg/kg IV 1x/dia (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Profilaxia",
+          "descricaoDose": "1 mg/kg IV 1x/dia (máx 50 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Equinocandina – Fungicida (inibe síntese de 1,3-beta-D-glucana)",
+      "apresentacoes": [
+        { "forma": "Frasco 50 mg liofilizado", "obs": "Mycamine®" },
+        { "forma": "Frasco 100 mg liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir com 5 mL SF ou SG 5%", "concentracao": "" },
+        { "diluicao": "Diluir em 100 mL SF ou SG 5%", "concentracao": "" },
+        { "diluicao": "Infusão em 1 h", "concentracao": "" },
+        { "diluicao": "Proteger da luz", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: Candida spp (incl. C. glabrata, C. krusei) e Aspergillus.",
+        "NÃO cobre: Cryptococcus, Mucor, Fusarium.",
+        "NÃO penetra no LCR.",
+        "Não requer ajuste renal nem hepático leve-moderado.",
+        "Mínimas interações medicamentosas.",
+        "Bem tolerada; considerar em IR ou em uso de nefrotóxicos."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico.",
+        "renal": "Não requer ajuste renal.",
+        "hepatico": "Não requer ajuste em insuficiência hepática leve-moderada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Micafungina – Candidemia (adulto)",
+        "doseTexto": "100 mg IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Micafungina – Candidíase esofágica (adulto)",
+        "doseTexto": "150 mg IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Micafungina – Profilaxia (adulto)",
+        "doseTexto": "50 mg IV 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Micafungina – Candidemia (pediátrico)",
+        "doseTexto": "2 mg/kg IV 1x/dia (máx 100 mg)",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Micafungina – Profilaxia (pediátrico)",
+        "doseTexto": "1 mg/kg IV 1x/dia (máx 50 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Micafungin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Candidemia / Invasive candidiasis",
+          "descricaoDose": "100 mg IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Esophageal candidiasis",
+          "descricaoDose": "150 mg IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prophylaxis (transplant/neutropenia)",
+          "descricaoDose": "50 mg IV once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric – Candidemia",
+          "descricaoDose": "2 mg/kg IV once daily (max 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric – Prophylaxis",
+          "descricaoDose": "1 mg/kg IV once daily (max 50 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Echinocandin – Fungicide (inhibits 1,3-beta-D-glucan synthesis)",
+      "apresentacoes": [
+        { "forma": "Vial 50 mg lyophilized", "obs": "Mycamine®" },
+        { "forma": "Vial 100 mg lyophilized", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with 5 mL NS or D5W", "concentracao": "" },
+        { "diluicao": "Dilute in 100 mL NS or D5W", "concentracao": "" },
+        { "diluicao": "Infuse over 1 hour", "concentracao": "" },
+        { "diluicao": "Protect from light", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Spectrum: Candida spp (incl. C. glabrata, C. krusei) and Aspergillus.",
+        "Does NOT cover: Cryptococcus, Mucor, Fusarium.",
+        "Does NOT penetrate CSF.",
+        "No renal or mild-moderate hepatic dose adjustment required.",
+        "Minimal drug interactions.",
+        "Well tolerated; consider in renal impairment or when on nephrotoxins."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment.",
+        "renal": "No renal dose adjustment required.",
+        "hepatico": "No adjustment required in mild-moderate hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Micafungin – Candidemia (adult)",
+        "doseTexto": "100 mg IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Micafungin – Esophageal candidiasis (adult)",
+        "doseTexto": "150 mg IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Micafungin – Prophylaxis (adult)",
+        "doseTexto": "50 mg IV once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Micafungin – Candidemia (pediatric)",
+        "doseTexto": "2 mg/kg IV once daily (max 100 mg)",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Micafungin – Prophylaxis (pediatric)",
+        "doseTexto": "1 mg/kg IV once daily (max 50 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Micafungina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Candidemia / Candidiasis invasiva",
+          "descricaoDose": "100 mg IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Candidiasis esofágica",
+          "descricaoDose": "150 mg IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis (trasplante/neutropenia)",
+          "descricaoDose": "50 mg IV 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Candidemia",
+          "descricaoDose": "2 mg/kg IV 1x/día (máx 100 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico – Profilaxis",
+          "descricaoDose": "1 mg/kg IV 1x/día (máx 50 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Equinocandina – Fungicida (inhibe síntesis de 1,3-beta-D-glucana)",
+      "apresentacoes": [
+        { "forma": "Frasco 50 mg liofilizado", "obs": "Mycamine®" },
+        { "forma": "Frasco 100 mg liofilizado", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir con 5 mL SF o SG 5%", "concentracao": "" },
+        { "diluicao": "Diluir en 100 mL SF o SG 5%", "concentracao": "" },
+        { "diluicao": "Infusión en 1 h", "concentracao": "" },
+        { "diluicao": "Proteger de la luz", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro: Candida spp (incl. C. glabrata, C. krusei) y Aspergillus.",
+        "NO cubre: Cryptococcus, Mucor, Fusarium.",
+        "NO penetra en LCR.",
+        "No requiere ajuste renal ni hepático leve-moderado.",
+        "Mínimas interacciones medicamentosas.",
+        "Bien tolerada; considerar en IR o uso de nefrotóxicos."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico.",
+        "renal": "No requiere ajuste renal.",
+        "hepatico": "No requiere ajuste en insuficiencia hepática leve-moderada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Micafungina – Candidemia (adulto)",
+        "doseTexto": "100 mg IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Micafungina – Candidiasis esofágica (adulto)",
+        "doseTexto": "150 mg IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Micafungina – Profilaxis (adulto)",
+        "doseTexto": "50 mg IV 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Micafungina – Candidemia (pediátrico)",
+        "doseTexto": "2 mg/kg IV 1x/día (máx 100 mg)",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Micafungina – Profilaxis (pediátrico)",
+        "doseTexto": "1 mg/kg IV 1x/día (máx 50 mg)",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "米卡芬净",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "念珠菌血症/侵袭性念珠菌病",
+          "descricaoDose": "100 mg IV 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "食管念珠菌病",
+          "descricaoDose": "150 mg IV 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "预防（移植/中性粒细胞减少）",
+          "descricaoDose": "50 mg IV 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童 – 念珠菌血症",
+          "descricaoDose": "2 mg/kg IV 每日一次（最大100 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 2,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 100,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童 – 预防",
+          "descricaoDose": "1 mg/kg IV 每日一次（最大50 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "棘白菌素类 – 抗真菌药（抑制1,3-β-D-葡聚糖合成）",
+      "apresentacoes": [
+        { "forma": "冻干粉 50 mg/瓶", "obs": "Mycamine®" },
+        { "forma": "冻干粉 100 mg/瓶", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "用5 mL生理盐水或5%葡萄糖复溶", "concentracao": "" },
+        { "diluicao": "稀释于100 mL生理盐水或5%葡萄糖", "concentracao": "" },
+        { "diluicao": "输注时间1小时", "concentracao": "" },
+        { "diluicao": "避光", "concentracao": "" }
+      ],
+      "observacoes": [
+        "谱：念珠菌（含光滑、克柔）及曲霉。",
+        "不覆盖：隐球菌、毛霉、镰刀菌。",
+        "不透过血脑屏障。",
+        "无需肾或轻中度肝功能不全剂量调整。",
+        "药物相互作用少。",
+        "耐受性好；肾功能不全或使用肾毒性药物时可考虑。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。",
+        "renal": "无需肾剂量调整。",
+        "hepatico": "轻中度肝功能不全无需调整。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "米卡芬净 – 念珠菌血症（成人）",
+        "doseTexto": "100 mg IV 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "米卡芬净 – 食管念珠菌病（成人）",
+        "doseTexto": "150 mg IV 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "米卡芬净 – 预防（成人）",
+        "doseTexto": "50 mg IV 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "米卡芬净 – 念珠菌血症（儿童）",
+        "doseTexto": "2 mg/kg IV 每日一次（最大100 mg）",
+        "doseMin": 2,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "米卡芬净 – 预防（儿童）",
+        "doseTexto": "1 mg/kg IV 每日一次（最大50 mg）",
+        "doseMin": 1,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

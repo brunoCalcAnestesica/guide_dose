@@ -1,0 +1,35 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Cefixima",
+      "nomesComerciais": ["Pananxine®", "Cefspan®"],
+      "classeTerapeutica": "Antibiótico / Cefalosporina de 3ª geração oral",
+      "mecanismoAcao": "Inibe a síntese da parede celular bacteriana. Espectro expandido para Gram-negativos em comparação com cefalosporinas de 1ª geração.",
+      "espectro": {
+        "excelente": ["H. influenzae", "M. catarrhalis", "S. pneumoniae", "N. gonorrhoeae", "E. coli", "Proteus", "Klebsiella"],
+        "limitado": ["S. aureus (pouca atividade)"],
+        "resistentes": ["Pseudomonas", "Enterococcus", "MRSA", "Bacteroides"]
+      },
+      "indicacoes": ["Otite média aguda", "Faringite estreptocócica", "Sinusite", "Bronquite aguda", "ITU não complicada", "Gonorreia não complicada"],
+      "apresentacoes": ["Cápsulas 400 mg", "Comprimidos dispersíveis 400 mg", "Suspensão oral 100 mg/5mL"],
+      "posologia": {
+        "adulto": {
+          "infeccoes_gerais": "400 mg VO 1x/dia",
+          "gonorreia": "400 mg VO dose única (+ azitromicina)"
+        },
+        "pediatrico": {
+          "dose": "8 mg/kg/dia VO 1x/dia (máx 400 mg)"
+        }
+      },
+      "ajusteRenal": {
+        "ClCr_21_60": "300 mg/dia",
+        "ClCr_menor_20": "200 mg/dia"
+      },
+      "vantagens": ["Dose única diária", "Boa tolerância", "Alta biodisponibilidade oral"],
+      "contraindicacoes": ["Hipersensibilidade a cefalosporinas"],
+      "efeitosAdversos": ["Diarreia", "Náusea", "Cefaleia", "Dor abdominal"],
+      "observacoes": ["Pode ser administrada com ou sem alimentos", "Não cobre S. aureus adequadamente", "Categoria B na gestação"],
+      "categoriaGravidez": "B"
+    }
+  }
+}

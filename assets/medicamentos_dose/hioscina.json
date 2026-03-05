@@ -1,0 +1,614 @@
+{
+  "PT": {
+    "nome": "Hioscina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Espasmos/cólicas - Via oral",
+          "descricaoDose": "10-20 mg VO 3-4x/dia (máx 80 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3-4x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Espasmos/cólicas - IV/IM",
+          "descricaoDose": "20 mg IV/IM a cada 6-8h (máx 60 mg/dia parenteral)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 60,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Náuseas e vômitos",
+          "descricaoDose": "20 mg IV/IM a cada 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 60,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Sedação pré-operatória",
+          "descricaoDose": "20 mg IM 30-60 min antes do procedimento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Cólica/espasmo (pediátrico)",
+          "descricaoDose": "0,3-0,6 mg/kg/dia dividido 3-4x (máx 1,5 mg/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.45,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IM/VO",
+            "intervalo": "3-4x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Usar com cautela em insuficiência hepática grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinérgico, antiespasmódico, antiemético - Antagonista muscarínico",
+      "apresentacoes": [
+        { "forma": "Ampola 20 mg/mL", "obs": "IV/IM" },
+        { "forma": "Comprimido 10 mg", "obs": "Via oral" },
+        { "forma": "Comprimido 20 mg", "obs": "Via oral" },
+        { "forma": "Adesivo transdérmico 1,5 mg", "obs": "A cada 72 h" },
+        { "forma": "Gotas 1 mg/mL", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV/IM", "concentracao": "Pronta para uso (20 mg/mL)" },
+        { "diluicao": "Infusão IV", "concentracao": "Diluir em SF 0,9% se necessário" },
+        { "diluicao": "VO", "concentracao": "Comprimido com água ou gotas" }
+      ],
+      "observacoes": [
+        "Início de ação: 15-30 min (oral), 10-15 min (IM/IV); pico 1-2 h; duração 4-6 h",
+        "Dose máxima oral 80 mg/dia; parenteral 60 mg/dia",
+        "Contraindicado: glaucoma de ângulo fechado, miastenia gravis, obstrução intestinal, HBP",
+        "Efeitos anticolinérgicos: boca seca, visão turva, retenção urinária, taquicardia",
+        "Monitorar função renal e hepática; cautela em insuficiência grave",
+        "Categoria C na gravidez; evitar na lactação"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Cautela - maior sensibilidade a efeitos anticolinérgicos (confusão, retenção urinária).",
+        "renal": "Usar com cautela em insuficiência renal grave. Não há dose específica; monitorar.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave (metabolismo hepático)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hioscina (adulto)",
+        "doseTexto": "10-20 mg VO 3-4x/dia ou 20 mg IV/IM a cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg VO / 20 mg IV/IM",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hioscina (pediátrico)",
+        "doseTexto": "0,3-0,6 mg/kg/dia dividido 3-4x (máx 1,5 mg/kg/dia)",
+        "doseMin": 0.3,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg/kg/dia",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Hyoscine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Spasms/colic - Oral",
+          "descricaoDose": "10-20 mg PO 3-4x/day (max 80 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "3-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Use with caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Spasms/colic - IV/IM",
+          "descricaoDose": "20 mg IV/IM every 6-8h (max 60 mg/day parenteral)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 60,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Use with caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Nausea and vomiting",
+          "descricaoDose": "20 mg IV/IM every 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 60,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Use with caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Preoperative sedation",
+          "descricaoDose": "20 mg IM 30-60 min before procedure",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Use with caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Colic/spasm (pediatric)",
+          "descricaoDose": "0.3-0.6 mg/kg/day divided 3-4x (max 1.5 mg/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/day",
+            "dosePorKg": 0.45,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM/PO",
+            "intervalo": "3-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Use with caution in severe hepatic impairment"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticholinergic, antispasmodic, antiemetic - Muscarinic antagonist",
+      "apresentacoes": [
+        { "forma": "Ampule 20 mg/mL", "obs": "IV/IM" },
+        { "forma": "Tablet 10 mg", "obs": "Oral" },
+        { "forma": "Tablet 20 mg", "obs": "Oral" },
+        { "forma": "Transdermal patch 1.5 mg", "obs": "Every 72 h" },
+        { "forma": "Drops 1 mg/mL", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV/IM", "concentracao": "Ready to use (20 mg/mL)" },
+        { "diluicao": "IV infusion", "concentracao": "Dilute in 0.9% saline if needed" },
+        { "diluicao": "PO", "concentracao": "Tablet with water or drops" }
+      ],
+      "observacoes": [
+        "Onset: 15-30 min (oral), 10-15 min (IM/IV); peak 1-2 h; duration 4-6 h",
+        "Max oral dose 80 mg/day; parenteral 60 mg/day",
+        "Contraindicated: angle-closure glaucoma, myasthenia gravis, intestinal obstruction, BPH",
+        "Anticholinergic effects: dry mouth, blurred vision, urinary retention, tachycardia",
+        "Monitor renal and hepatic function; caution in severe impairment",
+        "Pregnancy category C; avoid in breastfeeding"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Caution - increased sensitivity to anticholinergic effects (confusion, urinary retention).",
+        "renal": "Use with caution in severe renal impairment. No specific dose; monitor.",
+        "hepatico": "Use with caution in severe hepatic impairment (hepatic metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hyoscine (adult)",
+        "doseTexto": "10-20 mg PO 3-4x/day or 20 mg IV/IM every 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg PO / 20 mg IV/IM",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Hyoscine (pediatric)",
+        "doseTexto": "0.3-0.6 mg/kg/day divided 3-4x (max 1.5 mg/kg/day)",
+        "doseMin": 0.3,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg/kg/day",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Hioscina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Espasmos/cólicas - Vía oral",
+          "descricaoDose": "10-20 mg VO 3-4x/día (máx 80 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3-4x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Usar con precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Espasmos/cólicas - IV/IM",
+          "descricaoDose": "20 mg IV/IM cada 6-8h (máx 60 mg/día parenteral)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 60,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Usar con precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Náuseas y vómitos",
+          "descricaoDose": "20 mg IV/IM cada 6-8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 60,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Usar con precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Sedación preoperatoria",
+          "descricaoDose": "20 mg IM 30-60 min antes del procedimiento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Usar con precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Cólica/espasmo (pediátrico)",
+          "descricaoDose": "0,3-0,6 mg/kg/día dividido 3-4x (máx 1,5 mg/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/día",
+            "dosePorKg": 0.45,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV/IM/VO",
+            "intervalo": "3-4x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Usar con precaución en insuficiencia hepática grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinérgico, antiespasmódico, antiemético - Antagonista muscarínico",
+      "apresentacoes": [
+        { "forma": "Ampolla 20 mg/mL", "obs": "IV/IM" },
+        { "forma": "Comprimido 10 mg", "obs": "Vía oral" },
+        { "forma": "Comprimido 20 mg", "obs": "Vía oral" },
+        { "forma": "Parche transdérmico 1,5 mg", "obs": "Cada 72 h" },
+        { "forma": "Gotas 1 mg/mL", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV/IM", "concentracao": "Listo para uso (20 mg/mL)" },
+        { "diluicao": "Infusión IV", "concentracao": "Diluir en SF 0,9% si es necesario" },
+        { "diluicao": "VO", "concentracao": "Comprimido con agua o gotas" }
+      ],
+      "observacoes": [
+        "Inicio de acción: 15-30 min (oral), 10-15 min (IM/IV); pico 1-2 h; duración 4-6 h",
+        "Dosis máxima oral 80 mg/día; parenteral 60 mg/día",
+        "Contraindicado: glaucoma de ángulo cerrado, miastenia gravis, obstrucción intestinal, HBP",
+        "Efectos anticolinérgicos: boca seca, visión borrosa, retención urinaria, taquicardia",
+        "Monitorizar función renal y hepática; precaución en insuficiencia grave",
+        "Categoría C en embarazo; evitar en lactancia"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Precaución - mayor sensibilidad a efectos anticolinérgicos (confusión, retención urinaria).",
+        "renal": "Usar con precaución en insuficiencia renal grave. No hay dosis específica; monitorizar.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave (metabolismo hepático)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hioscina (adulto)",
+        "doseTexto": "10-20 mg VO 3-4x/día o 20 mg IV/IM cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg VO / 20 mg IV/IM",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hioscina (pediátrico)",
+        "doseTexto": "0,3-0,6 mg/kg/día dividido 3-4x (máx 1,5 mg/kg/día)",
+        "doseMin": 0.3,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg/kg/día",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "东莨菪碱",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "痉挛/绞痛 - 口服",
+          "descricaoDose": "10-20 mg 口服 每日3-4次（最大80 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日3-4次",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "严重肝功能不全慎用"
+          }
+        },
+        {
+          "titulo": "痉挛/绞痛 - 静注/肌注",
+          "descricaoDose": "20 mg 静注/肌注 每6-8小时（肠外最大60 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 60,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "严重肝功能不全慎用"
+          }
+        },
+        {
+          "titulo": "恶心呕吐",
+          "descricaoDose": "20 mg 静注/肌注 每6-8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 60,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "严重肝功能不全慎用"
+          }
+        },
+        {
+          "titulo": "术前镇静",
+          "descricaoDose": "20 mg 肌注 术前30-60分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "严重肝功能不全慎用"
+          }
+        },
+        {
+          "titulo": "绞痛/痉挛（儿童）",
+          "descricaoDose": "0,3-0,6 mg/kg/日 分3-4次（最大1,5 mg/kg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 0.45,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1.5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM/VO",
+            "intervalo": "每日3-4次",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "严重肝功能不全慎用"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗胆碱药、解痉药、止吐药 - 毒蕈碱受体拮抗剂",
+      "apresentacoes": [
+        { "forma": "安瓿 20 mg/mL", "obs": "静注/肌注" },
+        { "forma": "片剂 10 mg", "obs": "口服" },
+        { "forma": "片剂 20 mg", "obs": "口服" },
+        { "forma": "透皮贴剂 1,5 mg", "obs": "每72小时" },
+        { "forma": "滴剂 1 mg/mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "静注/肌注", "concentracao": "即用（20 mg/mL）" },
+        { "diluicao": "静脉输注", "concentracao": "必要时用0.9%生理盐水稀释" },
+        { "diluicao": "口服", "concentracao": "片剂用水或滴剂" }
+      ],
+      "observacoes": [
+        "起效：口服15-30分钟，肌注/静注10-15分钟；峰效1-2小时；持续4-6小时",
+        "口服最大80 mg/日；肠外60 mg/日",
+        "禁忌：闭角型青光眼、重症肌无力、肠梗阻、前列腺增生",
+        "抗胆碱能效应：口干、视物模糊、尿潴留、心动过速",
+        "监测肝肾功能；严重不全慎用",
+        "妊娠C类；哺乳期避免"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "慎用 - 对抗胆碱能效应更敏感（意识模糊、尿潴留）。",
+        "renal": "严重肾功能不全慎用。无特定剂量；监测。",
+        "hepatico": "严重肝功能不全慎用（肝脏代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "东莨菪碱（成人）",
+        "doseTexto": "10-20 mg 口服 每日3-4次 或 20 mg 静注/肌注 每6-8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg 口服 / 20 mg 静注/肌注",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "东莨菪碱（儿童）",
+        "doseTexto": "0,3-0,6 mg/kg/日 分3-4次（最大1,5 mg/kg/日）",
+        "doseMin": 0.3,
+        "doseMax": 0.6,
+        "unidadeResultado": "mg/kg/dia",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

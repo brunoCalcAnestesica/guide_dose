@@ -1,0 +1,117 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Soros Antiaracnídicos",
+      "nomesComerciais": [
+        "Soro Antiaracnídico (Phoneutria) - Instituto Butantan",
+        "Soro Antiloxoscélico - CPPI/Funed",
+        "Soro Antilatrodectus - Instituto Butantan"
+      ],
+      "classeTerapeutica": "Imunobiológico / Soro Heterólogo Antiveneno",
+      "mecanismoAcao": "Contém imunoglobulinas (fragmentos F(ab')2) de origem equina específicas para cada gênero de aranha. Neutralizam as toxinas presentes no veneno, impedindo sua ação nos tecidos-alvo. Phoneutria: neurotoxina; Loxosceles: toxina dermonecrótica e hemolítica; Latrodectus: neurotoxina.",
+      "indicacoes": {
+        "phoneutria": [
+          "Acidentes com aranha-armadeira (Phoneutria nigriventer)",
+          "Casos moderados a graves com manifestações sistêmicas"
+        ],
+        "loxosceles": [
+          "Acidentes com aranha-marrom (Loxosceles spp.)",
+          "Casos moderados a graves, especialmente forma cutâneo-visceral"
+        ],
+        "latrodectus": [
+          "Acidentes com viúva-negra (Latrodectus curacaviensis)",
+          "Casos com manifestações sistêmicas (latrodectismo)"
+        ]
+      },
+      "apresentacoes": [
+        "Soro Antiaracnídico (Phoneutria): Ampola 5mL",
+        "Soro Antiloxoscélico: Ampola 5mL",
+        "Soro Antilatrodectus: Ampola 2mL"
+      ],
+      "posologia": {
+        "phoneutria": {
+          "leve": "Não requer soroterapia - analgesia e observação",
+          "moderado": "2-4 ampolas IV",
+          "grave": "5-10 ampolas IV"
+        },
+        "loxosceles": {
+          "leve": "Não requer soroterapia - observar evolução",
+          "moderado": "5 ampolas IV",
+          "grave": "10 ampolas IV"
+        },
+        "latrodectus": {
+          "leve": "Não requer soroterapia - analgesia",
+          "moderadoGrave": "1-2 ampolas IV ou IM"
+        },
+        "observacao": "Doses são fixas e NÃO dependem do peso ou idade"
+      },
+      "classificacaoGravidade": {
+        "phoneutria": {
+          "leve": ["Dor local intensa", "Edema e eritema", "Sem manifestações sistêmicas"],
+          "moderado": ["Sudorese", "Sialorreia", "Vômitos ocasionais", "Agitação", "Taquicardia/hipertensão leves"],
+          "grave": ["Vômitos profusos", "Priapismo", "Bradicardia/taquicardia importantes", "Hipotensão/choque", "Edema pulmonar", "Coma/convulsões"]
+        },
+        "loxosceles": {
+          "leve": ["Lesão local < 3cm", "Sem necrose evidente", "Sem sintomas sistêmicos"],
+          "moderado": ["Lesão sugestiva (eritema, edema, equimose)", "Rash cutâneo", "Sem hemólise"],
+          "grave": ["Hemólise (hemoglobinúria)", "Icterícia", "Insuficiência renal aguda", "CIVD"]
+        },
+        "latrodectus": {
+          "leve": ["Dor local", "Sem manifestações sistêmicas"],
+          "moderadoGrave": ["Dor com irradiação", "Contraturas musculares", "Rigidez abdominal", "Fácies latrodectísmica", "Hipertensão", "Taquicardia"]
+        }
+      },
+      "farmacocinetica": {
+        "inicio_acao": "30-60 minutos",
+        "pico": "2-4 horas",
+        "meia_vida": "7-14 dias (fragmentos F(ab')2)",
+        "distribuicao": "Intravascular e extravascular",
+        "eliminacao": "Sistema reticuloendotelial"
+      },
+      "ajusteRenal": "Não necessário",
+      "ajusteHepatico": "Não necessário",
+      "contraindicacoes": [
+        "Não há contraindicações absolutas em envenenamentos com indicação",
+        "Hipersensibilidade prévia a soros equinos (usar com cautela)"
+      ],
+      "efeitosAdversos": [
+        "Reações anafilactoides: urticária, prurido, broncoespasmo",
+        "Doença do soro (7-14 dias): febre, artralgia, linfadenopatia",
+        "Reação anafilática (raro)"
+      ],
+      "tratamentoSuporte": {
+        "phoneutria": [
+          "Analgesia potente (bloqueio local, opioides)",
+          "Hidratação",
+          "Suporte hemodinâmico se necessário"
+        ],
+        "loxosceles": [
+          "Compressas frias locais",
+          "Elevação do membro",
+          "Corticoides (prednisona 1mg/kg/dia por 5-7 dias) - controverso",
+          "Dapsona 50-100mg/dia (controverso, risco de hemólise)",
+          "Suporte para hemólise e IRA"
+        ],
+        "latrodectus": [
+          "Gluconato de cálcio 10%: 10-20mL IV lento",
+          "Benzodiazepínicos para espasmos",
+          "Analgésicos potentes",
+          "Anti-hipertensivos se necessário"
+        ]
+      },
+      "observacoes": [
+        "LOXOSCELES: Soroterapia mais eficaz nas primeiras 36h",
+        "PHONEUTRIA: Crianças têm maior risco de quadros graves",
+        "LATRODECTUS: Gluconato de cálcio é adjuvante importante",
+        "Capturar a aranha para identificação quando possível",
+        "Administrar soro o mais precocemente possível",
+        "Não realizar teste de sensibilidade",
+        "Manter adrenalina disponível",
+        "Observação hospitalar mínima de 24h",
+        "Diluir em SF 0,9% e infundir em 20-60 minutos",
+        "Manter em geladeira (2-8°C), não congelar"
+      ],
+      "categoriaGravidez": "Não classificado - usar se benefício superar risco"
+    }
+  }
+}

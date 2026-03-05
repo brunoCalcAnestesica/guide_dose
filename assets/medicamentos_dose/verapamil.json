@@ -1,0 +1,490 @@
+{
+  "PT": {
+    "nome": "Verapamil",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "TSVP / FA/Flutter - 1º bolus",
+          "descricaoDose": "2,5 - 5 mg IV em 2 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2,5 - 5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 2 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TSVP / FA/Flutter - 2º bolus",
+          "descricaoDose": "5 - 10 mg IV após 15-30 min se necessário",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5 - 10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "após 15-30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TSVP pediátrico (≥ 1 ano)",
+          "descricaoDose": "0,1 - 0,3 mg/kg IV em 2 min (máx 5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": 0.1,
+            "doseMax": 0.3,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 2 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canal de cálcio (Fenilalquilamina)",
+      "apresentacoes": [
+        { "forma": "Solução injetável 5 mg/2 mL", "obs": "2,5 mg/mL" },
+        { "forma": "Comprimido 80 mg, 120 mg", "obs": "Via oral" },
+        { "forma": "Comprimido SR 240 mg", "obs": "Liberação prolongada" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: usar sem diluição ou diluir em SF", "concentracao": "2,5 mg/mL" },
+        { "diluicao": "Administrar em 2 min com monitorização ECG e PA", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Contraindicação: hipotensão (PAS <90 mmHg), BAV 2º/3º grau, síndrome do nó sinusal, ICC descompensada",
+        "Contraindicado em FA/Flutter com via acessória (WPW) e em taquicardia ventricular",
+        "Evitar uso concomitante com beta-bloqueador IV (bradicardia e hipotensão graves)",
+        "Lactentes < 1 ano: contraindicado",
+        "Antídoto: gluconato de cálcio 10% (10-20 mL IV)",
+        "Usar imediatamente após preparo; monitorizar PA e FC continuamente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose inicial; maior sensibilidade a bradicardia e hipotensão.",
+        "renal": "Não requer ajuste de dose na DRC. Excreção renal ~70%; monitorar em DRC grave.",
+        "hepatico": "Metabolismo hepático (CYP3A4). Child B/C: reduzir dose ou evitar; monitorar efeitos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Verapamil (bolus)",
+        "doseTexto": "2,5 - 5 mg IV em 2 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 - 5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Verapamil (2º bolus)",
+        "doseTexto": "5 - 10 mg IV após 15-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 - 10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Verapamil (pediátrico)",
+        "doseTexto": "0,1 - 0,3 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Verapamil",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "PSVT / AF/Flutter - 1st bolus",
+          "descricaoDose": "2.5 - 5 mg IV over 2 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2.5 - 5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 2 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "PSVT / AF/Flutter - 2nd bolus",
+          "descricaoDose": "5 - 10 mg IV after 15-30 min if needed",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5 - 10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "after 15-30 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "PSVT pediatric (≥ 1 year)",
+          "descricaoDose": "0.1 - 0.3 mg/kg IV over 2 min (max 5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": 0.1,
+            "doseMax": 0.3,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 2 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Calcium channel blocker (Phenylalkylamine)",
+      "apresentacoes": [
+        { "forma": "Injection 5 mg/2 mL", "obs": "2.5 mg/mL" },
+        { "forma": "Tablet 80 mg, 120 mg", "obs": "Oral" },
+        { "forma": "SR tablet 240 mg", "obs": "Extended release" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolus: use undiluted or dilute in NS", "concentracao": "2.5 mg/mL" },
+        { "diluicao": "Administer over 2 min with ECG and BP monitoring", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Contraindicated: hypotension (SBP <90 mmHg), 2nd/3rd degree AV block, sick sinus syndrome, decompensated CHF",
+        "Contraindicated in AF/Flutter with accessory pathway (WPW) and in ventricular tachycardia",
+        "Avoid concomitant IV beta-blocker (severe bradycardia and hypotension)",
+        "Infants < 1 year: contraindicated",
+        "Antidote: calcium gluconate 10% (10-20 mL IV)",
+        "Use immediately after preparation; monitor BP and HR continuously"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce initial dose; increased sensitivity to bradycardia and hypotension.",
+        "renal": "No dose adjustment in CKD. Renal excretion ~70%; monitor in severe CKD.",
+        "hepatico": "Hepatic metabolism (CYP3A4). Child B/C: reduce dose or avoid; monitor effects."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Verapamil (bolus)",
+        "doseTexto": "2.5 - 5 mg IV over 2 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 - 5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Verapamil (2nd bolus)",
+        "doseTexto": "5 - 10 mg IV after 15-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 - 10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Verapamil (pediatric)",
+        "doseTexto": "0.1 - 0.3 mg/kg IV (max 5 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Verapamilo",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "TSVP / FA/Flutter - 1.º bolo",
+          "descricaoDose": "2,5 - 5 mg IV en 2 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2,5 - 5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 2 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "TSVP / FA/Flutter - 2.º bolo",
+          "descricaoDose": "5 - 10 mg IV tras 15-30 min si es necesario",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5 - 10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "tras 15-30 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "TSVP pediátrico (≥ 1 año)",
+          "descricaoDose": "0,1 - 0,3 mg/kg IV en 2 min (máx 5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": 0.1,
+            "doseMax": 0.3,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 2 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canales de calcio (Fenilalquilamina)",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 5 mg/2 mL", "obs": "2,5 mg/mL" },
+        { "forma": "Comprimido 80 mg, 120 mg", "obs": "Vía oral" },
+        { "forma": "Comprimido SR 240 mg", "obs": "Liberación prolongada" }
+      ],
+      "preparo": [
+        { "diluicao": "Bolo: usar sin diluir o diluir en SF", "concentracao": "2,5 mg/mL" },
+        { "diluicao": "Administrar en 2 min con monitorización ECG y PA", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Contraindicado: hipotensión (PAS <90 mmHg), BAV 2.º/3.º grado, síndrome del seno enfermo, ICC descompensada",
+        "Contraindicado en FA/Flutter con vía accesoria (WPW) y en taquicardia ventricular",
+        "Evitar uso concomitante con betabloqueante IV (bradicardia e hipotensión graves)",
+        "Lactantes < 1 año: contraindicado",
+        "Antídoto: gluconato cálcico 10% (10-20 mL IV)",
+        "Usar inmediatamente tras preparación; monitorizar PA y FC continuamente"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis inicial; mayor sensibilidad a bradicardia e hipotensión.",
+        "renal": "No requiere ajuste de dosis en ERC. Excreción renal ~70%; monitorizar en ERC grave.",
+        "hepatico": "Metabolismo hepático (CYP3A4). Child B/C: reducir dosis o evitar; monitorizar efectos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Verapamilo (bolo)",
+        "doseTexto": "2,5 - 5 mg IV en 2 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5 - 5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Verapamilo (2.º bolo)",
+        "doseTexto": "5 - 10 mg IV tras 15-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 - 10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Verapamilo (pediátrico)",
+        "doseTexto": "0,1 - 0,3 mg/kg IV (máx 5 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "维拉帕米",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "PSVT/房颤房扑 - 首次推注",
+          "descricaoDose": "2.5 - 5 mg 静脉注射 超过2分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 5,
+            "doseFixa": "2.5 - 5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "超过2分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "PSVT/房颤房扑 - 第二次推注",
+          "descricaoDose": "5 - 10 mg 静脉注射 15-30分钟后如需要",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 10,
+            "doseFixa": "5 - 10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "15-30分钟后",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童PSVT（≥1岁）",
+          "descricaoDose": "0.1 - 0.3 mg/kg 静脉注射 超过2分钟（最大5 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.2,
+            "doseMin": 0.1,
+            "doseMax": 0.3,
+            "doseMaxima": 5,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "超过2分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "钙通道阻滞剂（苯烷胺类）",
+      "apresentacoes": [
+        { "forma": "注射液 5 mg/2 mL", "obs": "2.5 mg/mL" },
+        { "forma": "片剂 80 mg, 120 mg", "obs": "口服" },
+        { "forma": "缓释片 240 mg", "obs": "缓释" }
+      ],
+      "preparo": [
+        { "diluicao": "推注：可不稀释或用生理盐水稀释", "concentracao": "2.5 mg/mL" },
+        { "diluicao": "2分钟内给药，监测心电图和血压", "concentracao": "" }
+      ],
+      "observacoes": [
+        "禁忌：低血压（收缩压<90 mmHg）、二/三度房室传导阻滞、病态窦房结综合征、失代偿性心衰",
+        "禁忌：预激伴房颤/房扑、室性心动过速",
+        "避免与静脉β受体阻滞剂合用（严重心动过缓和低血压）",
+        "婴儿<1岁：禁忌",
+        "解毒剂：10%葡萄糖酸钙（10-20 mL 静脉）",
+        "配制后立即使用；持续监测血压和心率"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减少初始剂量；对心动过缓和低血压更敏感。",
+        "renal": "慢性肾病无需调整剂量。肾排泄约70%；严重肾病时监测。",
+        "hepatico": "肝脏代谢（CYP3A4）。Child B/C：减量或避免；监测效应。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "维拉帕米（推注）",
+        "doseTexto": "2.5 - 5 mg 静脉 超过2分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5 - 5 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "维拉帕米（第二次推注）",
+        "doseTexto": "5 - 10 mg 静脉 15-30分钟后",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 - 10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "维拉帕米（儿童）",
+        "doseTexto": "0.1 - 0.3 mg/kg 静脉（最大5 mg）",
+        "doseMin": 0.1,
+        "doseMax": 0.3,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

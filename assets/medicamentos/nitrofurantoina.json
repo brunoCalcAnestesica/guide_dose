@@ -1,0 +1,36 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Nitrofurantoína",
+      "nomesComerciais": ["Macrodantina®", "Nitrofurantoína Genérico"],
+      "classeTerapeutica": "Antibiótico / Nitrofurano",
+      "mecanismoAcao": "Inibe múltiplas enzimas bacterianas envolvidas na síntese de DNA, RNA e proteínas. Bactericida em concentrações urinárias. Atinge apenas concentração terapêutica na urina, não no plasma.",
+      "espectro": {
+        "excelente": ["E. coli (incluindo algumas ESBL)", "Enterococcus faecalis", "S. saprophyticus", "S. aureus"],
+        "moderado": ["Klebsiella", "Enterobacter"],
+        "resistentes": ["Proteus", "Pseudomonas", "Serratia"]
+      },
+      "indicacoes": ["Cistite não complicada (tratamento)", "Profilaxia de ITU recorrente"],
+      "limitacoes": ["APENAS para ITU baixa (cistite)", "NÃO usar para pielonefrite", "NÃO usar para bacteremia", "NÃO usar em ITU com cateter"],
+      "apresentacoes": ["Cápsulas macrocristais 50 mg, 100 mg", "Suspensão oral 25 mg/5mL"],
+      "posologia": {
+        "adulto": {
+          "cistite_tratamento": "100 mg VO 6/6h por 5-7 dias",
+          "macrocristais": "100 mg VO 12/12h por 5-7 dias (melhor tolerância)",
+          "profilaxia": "50-100 mg VO 1x/dia ao deitar"
+        },
+        "pediatrico": {
+          "tratamento": "1-2 mg/kg/dose VO 6/6h por 7 dias",
+          "profilaxia": "1-2 mg/kg/dose VO 1x/dia ao deitar"
+        }
+      },
+      "ajusteRenal": {
+        "ClCr_menor_30": "CONTRAINDICADO (ineficaz e toxicidade aumentada)"
+      },
+      "contraindicacoes": ["ClCr <30 mL/min", "Deficiência de G6PD", "Gestação a termo (últimas semanas)", "Neonatos (<1 mês)"],
+      "efeitosAdversos": ["Náusea, vômitos (reduzidos com alimento)", "Cefaleia", "Pneumonite (uso prolongado)", "Neuropatia periférica", "Hepatotoxicidade (rara)", "Escurecimento da urina (normal)"],
+      "observacoes": ["Tomar com alimentos (aumenta absorção, reduz náusea)", "Pode escurecer a urina (normal)", "Toxicidade pulmonar com uso >6 meses", "Boa opção para E. coli ESBL em cistite", "Categoria B na gestação (evitar no termo)"],
+      "categoriaGravidez": "B"
+    }
+  }
+}

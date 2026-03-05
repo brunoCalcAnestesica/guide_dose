@@ -1,0 +1,734 @@
+{
+  "PT": {
+    "nome": "Cloreto de Potássio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reposição leve (periférico)",
+          "descricaoDose": "10-20 mEq/h IV em acesso periférico",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "10-20 mEq/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "DRC: reduzir dose ou evitar; monitorar K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reposição moderada/grave (central)",
+          "descricaoDose": "20-40 mEq/h IV em acesso central",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mEq/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "DRC: reduzir dose ou evitar; monitorar K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCR / hipocalemia grave (bolus)",
+          "descricaoDose": "2 mEq/min IV (máx 20 mEq)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "2 mEq/min (máx 20 mEq)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em emergência",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipocalemia pediátrica",
+          "descricaoDose": "0,5-1 mEq/kg/dose IV (máx 40 mEq/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "conforme necessidade",
+            "ajusteRenal": "DRC: cautela; monitorar K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusão contínua (adulto)",
+          "descricaoDose": "10-20 mEq/h IV - titular conforme K+ sérico",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mEq/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "DRC: reduzir dose ou evitar; monitorar K+",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mEq/h",
+          "adulto": { "doseMin": 10, "doseMax": 20 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mEq/L (periférico)", "valor": 0.04 },
+            { "rotulo": "80 mEq/L (central)", "valor": 0.08 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Repositor eletrolítico - Solução parenteral de potássio",
+      "apresentacoes": [
+        { "forma": "Ampola 10% (1 mEq/mL) - 10 mL", "obs": "10 mEq" },
+        { "forma": "Ampola 10% (1 mEq/mL) - 20 mL", "obs": "20 mEq" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mEq em 250 mL SF/SG5%", "concentracao": "40 mEq/L" },
+        { "diluicao": "10 mEq em 100 mL SF/SG5%", "concentracao": "100 mEq/L - só central" },
+        { "diluicao": "20 mEq em 250 mL SF/SG5%", "concentracao": "80 mEq/L - central" }
+      ],
+      "observacoes": [
+        "NUNCA administrar em bolus IV direto - risco de parada cardíaca",
+        "Sempre diluir; concentração máx periférica 40 mEq/L",
+        "Velocidade máx periférica 10 mEq/h; central até 20 mEq/h",
+        "Monitorar ECG e K+ sérico durante infusão",
+        "Incompatível com bicarbonato na mesma via (precipitação)",
+        "Extravasamento pode causar necrose tecidual"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar K+ e função renal; risco aumentado de hipercalemia.",
+        "renal": "Reduzir dose ou evitar em DRC moderada/grave. Monitorar K+ rigorosamente.",
+        "hepatico": "Não requer ajuste. Cuidado se houver disfunção renal associada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "KCl reposição leve (adulto)",
+        "doseTexto": "10-20 mEq/h IV periférico",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mEq/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl reposição grave (adulto)",
+        "doseTexto": "20-40 mEq/h IV central",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mEq/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl PCR hipoK",
+        "doseTexto": "2 mEq/min IV (máx 20 mEq)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "2 mEq/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl pediátrico",
+        "doseTexto": "0,5-1 mEq/kg/dose (máx 40 mEq/dia)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mEq",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Potassium Chloride",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Mild replacement (peripheral)",
+          "descricaoDose": "10-20 mEq/h IV peripheral access",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "10-20 mEq/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "CKD: reduce dose or avoid; monitor K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Moderate/severe replacement (central)",
+          "descricaoDose": "20-40 mEq/h IV central access",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mEq/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "CKD: reduce dose or avoid; monitor K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cardiac arrest / severe hypokalemia (bolus)",
+          "descricaoDose": "2 mEq/min IV (max 20 mEq)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "2 mEq/min (max 20 mEq)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose in emergency",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric hypokalemia",
+          "descricaoDose": "0.5-1 mEq/kg/dose IV (max 40 mEq/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "as needed",
+            "ajusteRenal": "CKD: caution; monitor K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Continuous infusion (adult)",
+          "descricaoDose": "10-20 mEq/h IV - titrate to serum K+",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mEq/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "CKD: reduce dose or avoid; monitor K+",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mEq/h",
+          "adulto": { "doseMin": 10, "doseMax": 20 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mEq/L (peripheral)", "valor": 0.04 },
+            { "rotulo": "80 mEq/L (central)", "valor": 0.08 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Electrolyte replenisher - Parenteral potassium solution",
+      "apresentacoes": [
+        { "forma": "Ampule 10% (1 mEq/mL) - 10 mL", "obs": "10 mEq" },
+        { "forma": "Ampule 10% (1 mEq/mL) - 20 mL", "obs": "20 mEq" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mEq in 250 mL NS/D5%", "concentracao": "40 mEq/L" },
+        { "diluicao": "10 mEq in 100 mL NS/D5%", "concentracao": "100 mEq/L - central only" },
+        { "diluicao": "20 mEq in 250 mL NS/D5%", "concentracao": "80 mEq/L - central" }
+      ],
+      "observacoes": [
+        "NEVER give undiluted IV bolus - risk of cardiac arrest",
+        "Always dilute; max peripheral concentration 40 mEq/L",
+        "Max rate peripheral 10 mEq/h; central up to 20 mEq/h",
+        "Monitor ECG and serum K+ during infusion",
+        "Incompatible with bicarbonate in same line (precipitation)",
+        "Extravasation may cause tissue necrosis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor K+ and renal function; increased risk of hyperkalemia.",
+        "renal": "Reduce dose or avoid in moderate/severe CKD. Monitor K+ rigorously.",
+        "hepatico": "No adjustment needed. Caution if associated renal dysfunction."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "KCl mild replacement (adult)",
+        "doseTexto": "10-20 mEq/h IV peripheral",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mEq/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl severe replacement (adult)",
+        "doseTexto": "20-40 mEq/h IV central",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mEq/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl cardiac arrest hypokalemia",
+        "doseTexto": "2 mEq/min IV (max 20 mEq)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "2 mEq/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl pediatric",
+        "doseTexto": "0.5-1 mEq/kg/dose (max 40 mEq/day)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mEq",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Cloruro de Potasio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reposición leve (periférico)",
+          "descricaoDose": "10-20 mEq/h IV acceso periférico",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "10-20 mEq/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ERC: reducir dosis o evitar; monitorizar K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reposición moderada/grave (central)",
+          "descricaoDose": "20-40 mEq/h IV acceso central",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mEq/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ERC: reducir dosis o evitar; monitorizar K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "PCR / hipocalemia grave (bolo)",
+          "descricaoDose": "2 mEq/min IV (máx 20 mEq)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "2 mEq/min (máx 20 mEq)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en emergencia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipocalemia pediátrica",
+          "descricaoDose": "0,5-1 mEq/kg/dosis IV (máx 40 mEq/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "según necesidad",
+            "ajusteRenal": "ERC: precaución; monitorizar K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infusión continua (adulto)",
+          "descricaoDose": "10-20 mEq/h IV - titular según K+ sérico",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mEq/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "ERC: reducir dosis o evitar; monitorizar K+",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mEq/h",
+          "adulto": { "doseMin": 10, "doseMax": 20 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mEq/L (periférico)", "valor": 0.04 },
+            { "rotulo": "80 mEq/L (central)", "valor": 0.08 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Repositor electrolítico - Solución parenteral de potasio",
+      "apresentacoes": [
+        { "forma": "Ampolla 10% (1 mEq/mL) - 10 mL", "obs": "10 mEq" },
+        { "forma": "Ampolla 10% (1 mEq/mL) - 20 mL", "obs": "20 mEq" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mEq en 250 mL SF/SG5%", "concentracao": "40 mEq/L" },
+        { "diluicao": "10 mEq en 100 mL SF/SG5%", "concentracao": "100 mEq/L - solo central" },
+        { "diluicao": "20 mEq en 250 mL SF/SG5%", "concentracao": "80 mEq/L - central" }
+      ],
+      "observacoes": [
+        "NUNCA administrar en bolo IV directo - riesgo de parada cardíaca",
+        "Siempre diluir; concentración máx periférica 40 mEq/L",
+        "Velocidad máx periférica 10 mEq/h; central hasta 20 mEq/h",
+        "Monitorizar ECG y K+ sérico durante infusión",
+        "Incompatible con bicarbonato en la misma vía (precipitación)",
+        "Extravasación puede causar necrosis tisular"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar K+ y función renal; riesgo aumentado de hipercalemia.",
+        "renal": "Reducir dosis o evitar en ERC moderada/grave. Monitorizar K+ rigurosamente.",
+        "hepatico": "No requiere ajuste. Precaución si disfunción renal asociada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "KCl reposición leve (adulto)",
+        "doseTexto": "10-20 mEq/h IV periférico",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mEq/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl reposición grave (adulto)",
+        "doseTexto": "20-40 mEq/h IV central",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mEq/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl PCR hipoK",
+        "doseTexto": "2 mEq/min IV (máx 20 mEq)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "2 mEq/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl pediátrico",
+        "doseTexto": "0,5-1 mEq/kg/dosis (máx 40 mEq/día)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mEq",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氯化钾",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "轻度补钾（外周）",
+          "descricaoDose": "10-20 mEq/h IV 外周通路",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "10-20 mEq/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "慢性肾病：减量或避免；监测K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "中重度补钾（中心）",
+          "descricaoDose": "20-40 mEq/h IV 中心通路",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mEq/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "慢性肾病：减量或避免；监测K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "心脏骤停/严重低钾（推注）",
+          "descricaoDose": "2 mEq/min IV（最大20 mEq）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "2 mEq/min（最大20 mEq）",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "急诊单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童低钾血症",
+          "descricaoDose": "0.5-1 mEq/kg/次 IV（最大40 mEq/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mEq",
+            "dosePorKg": 0.75,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "按需",
+            "ajusteRenal": "慢性肾病：谨慎；监测K+",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "持续输注（成人）",
+          "descricaoDose": "10-20 mEq/h IV - 根据血钾调整",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mEq/h",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "慢性肾病：减量或避免；监测K+",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mEq/h",
+          "adulto": { "doseMin": 10, "doseMax": 20 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "40 mEq/L（外周）", "valor": 0.04 },
+            { "rotulo": "80 mEq/L（中心）", "valor": 0.08 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "电解质补充剂 - 钾静脉溶液",
+      "apresentacoes": [
+        { "forma": "安瓿10%（1 mEq/mL）- 10 mL", "obs": "10 mEq" },
+        { "forma": "安瓿10%（1 mEq/mL）- 20 mL", "obs": "20 mEq" }
+      ],
+      "preparo": [
+        { "diluicao": "10 mEq 于 250 mL 生理盐水/5%葡萄糖", "concentracao": "40 mEq/L" },
+        { "diluicao": "10 mEq 于 100 mL 生理盐水/5%葡萄糖", "concentracao": "100 mEq/L - 仅中心" },
+        { "diluicao": "20 mEq 于 250 mL 生理盐水/5%葡萄糖", "concentracao": "80 mEq/L - 中心" }
+      ],
+      "observacoes": [
+        "切勿直接静脉推注 - 心脏骤停风险",
+        "必须稀释；外周最大浓度40 mEq/L",
+        "外周最大速度10 mEq/h；中心可达20 mEq/h",
+        "输注期间监测心电图和血钾",
+        "与碳酸氢钠同路不相容（沉淀）",
+        "外渗可致组织坏死"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测K+及肾功能；高钾风险增加。",
+        "renal": "中重度慢性肾病减量或避免。严格监测K+。",
+        "hepatico": "无需调整。若合并肾功能不全需谨慎。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "KCl轻度补钾（成人）",
+        "doseTexto": "10-20 mEq/h IV 外周",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mEq/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl重度补钾（成人）",
+        "doseTexto": "20-40 mEq/h IV 中心",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mEq/h",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl心脏骤停低钾",
+        "doseTexto": "2 mEq/min IV（最大20 mEq）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mEq",
+        "decimais": 0,
+        "resultadoFixo": "2 mEq/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "KCl儿童",
+        "doseTexto": "0.5-1 mEq/kg/次（最大40 mEq/日）",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mEq",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  }
+}

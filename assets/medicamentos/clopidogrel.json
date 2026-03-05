@@ -1,0 +1,66 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Clopidogrel",
+      "nome_comercial": ["Plavix", "Plagrel", "Clopidogrel"],
+      "classe_terapeutica": "Antiagregante plaquetário - Inibidor P2Y12",
+      "mecanismo_acao": "Pró-droga tienopiridínica que, após ativação hepática (CYP2C19), inibe irreversivelmente o receptor P2Y12 de ADP nas plaquetas, bloqueando a agregação plaquetária.",
+      "indicacoes": [
+        "Síndrome coronariana aguda (SCA)",
+        "Pós-ICP/Stent (DAPT)",
+        "Prevenção secundária de AVC/AIT",
+        "Doença arterial periférica",
+        "Alergia a AAS"
+      ],
+      "contraindicacoes": [
+        "Sangramento ativo",
+        "Insuficiência hepática grave",
+        "Hipersensibilidade ao clopidogrel"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Comprimido",
+          "concentracao": "75 mg",
+          "indicacao": "Manutenção"
+        },
+        {
+          "forma": "Comprimido",
+          "concentracao": "300 mg",
+          "indicacao": "Dose de ataque"
+        }
+      ],
+      "farmacocinetica": {
+        "biodisponibilidade": "50%",
+        "inicio_acao": "2-6 horas (ataque), 3-7 dias (manutenção)",
+        "pico": "1 hora",
+        "meia_vida": "6 horas (metabólito ativo)",
+        "metabolismo": "Hepático (CYP2C19 - principal)",
+        "excrecao": "Renal (50%) e fecal (46%)"
+      },
+      "efeitos_adversos": [
+        "Sangramento",
+        "Dispepsia",
+        "Diarreia",
+        "Rash cutâneo",
+        "Púrpura trombocitopênica trombótica (rara)"
+      ],
+      "interacoes_importantes": [
+        "Omeprazol/Esomeprazol: reduzem ativação (CYP2C19)",
+        "AAS: efeito aditivo",
+        "Warfarina: aumenta risco sangramento"
+      ],
+      "farmacogenetica": {
+        "cyp2c19": "30% da população são metabolizadores lentos",
+        "implicacao": "Resposta reduzida ao clopidogrel"
+      },
+      "observacoes": [
+        "Suspender 5-7 dias antes de cirurgias",
+        "Preferir pantoprazol se necessário IBP",
+        "Considerar testes de função plaquetária se dúvida"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "Sim"
+      }
+    }
+  }
+}

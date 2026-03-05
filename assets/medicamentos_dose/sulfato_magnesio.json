@@ -1,0 +1,998 @@
+{
+  "PT": {
+    "nome": "Sulfato de Magnésio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Eclâmpsia - Ataque",
+          "descricaoDose": "4-6 g IV em 20-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 6,
+            "doseMaxima": 6,
+            "doseFixa": "4-6 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Torsades de Pointes",
+          "descricaoDose": "2 g IV em 10 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hipomagnesemia",
+          "descricaoDose": "1-2 g IV em 15-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir conforme necessidade",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Asma Grave",
+          "descricaoDose": "2-4 g IV em 15-20 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Torsades/Hipomagnesemia Pediátrica",
+          "descricaoDose": "25-50 mg/kg IV em 10-20 min (máx 2g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: reduzir 50%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Asma Grave Pediátrica",
+          "descricaoDose": "25-50 mg/kg IV em 20 min (máx 2g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua - Eclâmpsia",
+          "unidade": "g/h",
+          "adulto": {
+            "doseMin": 1,
+            "doseMax": 2
+          },
+          "pediatrico": {
+            "doseMin": 0,
+            "doseMax": 0
+          },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "4g em 100mL SF (40 mg/mL)",
+              "valor": 40
+            },
+            {
+              "rotulo": "4g em 250mL SF (16 mg/mL)",
+              "valor": 16
+            },
+            {
+              "rotulo": "8g em 250mL SF (32 mg/mL)",
+              "valor": 32
+            },
+            {
+              "rotulo": "8g em 500mL SF (16 mg/mL)",
+              "valor": 16
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Repositor eletrolítico - Anticonvulsivante - Antiarrítmico classe V",
+      "apresentacoes": [
+        {
+          "forma": "Ampola 10% (100 mg/mL)",
+          "obs": "10 mL = 1 g"
+        },
+        {
+          "forma": "Ampola 25% (250 mg/mL)",
+          "obs": "10 mL = 2,5 g"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "4g (40mL 10%) + 100mL SF",
+          "concentracao": "40 mg/mL"
+        },
+        {
+          "diluicao": "4g (40mL 10%) + 250mL SF",
+          "concentracao": "16 mg/mL"
+        },
+        {
+          "diluicao": "8g (80mL 10%) + 250mL SF",
+          "concentracao": "32 mg/mL"
+        },
+        {
+          "diluicao": "2g para bolus: diluir em 100mL SF",
+          "concentracao": "20 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "ANTÍDOTO: Gluconato de Cálcio 1g IV em 10 min",
+        "Monitorizar reflexos patelares (abolição = toxicidade)",
+        "Manter FR >16 irpm e diurese >25 mL/h",
+        "Potencializa bloqueio neuromuscular (rocurônio, cisatracúrio)",
+        "Contraindicado em bloqueio AV e miastenia gravis",
+        "Incompatível com bicarbonato, cálcio e fosfato na mesma via"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar função renal. Risco aumentado de acúmulo.",
+        "renal": "DRC: reduzir dose 50% se ClCr <30. Alto risco de hipermagnesemia. Monitorizar Mg sérico.",
+        "hepatico": "Não requer ajuste. Não é metabolizado pelo fígado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sulfato de Magnésio - Eclâmpsia (adulto)",
+        "doseTexto": "4-6 g IV em 20-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "4-6 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfato de Magnésio - Torsades (adulto)",
+        "doseTexto": "2 g IV em 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfato de Magnésio (pediátrico)",
+        "doseTexto": "25-50 mg/kg IV (máx 2g)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Sulfato de Magnésio - Asma (pediátrico)",
+        "doseTexto": "25-50 mg/kg IV (máx 2g)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Magnesium Sulfate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Eclampsia - Loading",
+          "descricaoDose": "4-6 g IV over 20-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 6,
+            "doseMaxima": 6,
+            "doseFixa": "4-6 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Torsades de Pointes",
+          "descricaoDose": "2 g IV over 10 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hypomagnesemia",
+          "descricaoDose": "1-2 g IV over 15-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat as needed",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Severe Asthma",
+          "descricaoDose": "2-4 g IV over 15-20 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric Torsades/Hypomagnesemia",
+          "descricaoDose": "25-50 mg/kg IV over 10-20 min (max 2g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: reduce 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pediatric Severe Asthma",
+          "descricaoDose": "25-50 mg/kg IV over 20 min (max 2g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion - Eclampsia",
+          "unidade": "g/h",
+          "adulto": {
+            "doseMin": 1,
+            "doseMax": 2
+          },
+          "pediatrico": {
+            "doseMin": 0,
+            "doseMax": 0
+          },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "4g in 100mL NS (40 mg/mL)",
+              "valor": 40
+            },
+            {
+              "rotulo": "4g in 250mL NS (16 mg/mL)",
+              "valor": 16
+            },
+            {
+              "rotulo": "8g in 250mL NS (32 mg/mL)",
+              "valor": 32
+            },
+            {
+              "rotulo": "8g in 500mL NS (16 mg/mL)",
+              "valor": 16
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Electrolyte replacement - Anticonvulsant - Class V Antiarrhythmic",
+      "apresentacoes": [
+        {
+          "forma": "10% Ampoule (100 mg/mL)",
+          "obs": "10 mL = 1 g"
+        },
+        {
+          "forma": "25% Ampoule (250 mg/mL)",
+          "obs": "10 mL = 2.5 g"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "4g (40mL 10%) + 100mL NS",
+          "concentracao": "40 mg/mL"
+        },
+        {
+          "diluicao": "4g (40mL 10%) + 250mL NS",
+          "concentracao": "16 mg/mL"
+        },
+        {
+          "diluicao": "8g (80mL 10%) + 250mL NS",
+          "concentracao": "32 mg/mL"
+        },
+        {
+          "diluicao": "2g for bolus: dilute in 100mL NS",
+          "concentracao": "20 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "ANTIDOTE: Calcium Gluconate 1g IV over 10 min",
+        "Monitor patellar reflexes (abolition = toxicity)",
+        "Maintain RR >16 rpm and urine output >25 mL/h",
+        "Potentiates neuromuscular blockade (rocuronium, cisatracurium)",
+        "Contraindicated in AV block and myasthenia gravis",
+        "Incompatible with bicarbonate, calcium and phosphate in same line"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor renal function. Increased risk of accumulation.",
+        "renal": "CKD: reduce dose 50% if CrCl <30. High risk of hypermagnesemia. Monitor serum Mg.",
+        "hepatico": "No adjustment required. Not metabolized by liver."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Magnesium Sulfate - Eclampsia (adult)",
+        "doseTexto": "4-6 g IV over 20-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "4-6 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Magnesium Sulfate - Torsades (adult)",
+        "doseTexto": "2 g IV over 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Magnesium Sulfate (pediatric)",
+        "doseTexto": "25-50 mg/kg IV (max 2g)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Magnesium Sulfate - Asthma (pediatric)",
+        "doseTexto": "25-50 mg/kg IV (max 2g)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Sulfato de Magnesio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Eclampsia - Ataque",
+          "descricaoDose": "4-6 g IV en 20-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 6,
+            "doseMaxima": 6,
+            "doseFixa": "4-6 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Torsades de Pointes",
+          "descricaoDose": "2 g IV en 10 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Hipomagnesemia",
+          "descricaoDose": "1-2 g IV en 15-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir según necesidad",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Asma Grave",
+          "descricaoDose": "2-4 g IV en 15-20 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Torsades/Hipomagnesemia Pediátrica",
+          "descricaoDose": "25-50 mg/kg IV en 10-20 min (máx 2g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: reducir 50%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Asma Grave Pediátrica",
+          "descricaoDose": "25-50 mg/kg IV en 20 min (máx 2g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua - Eclampsia",
+          "unidade": "g/h",
+          "adulto": {
+            "doseMin": 1,
+            "doseMax": 2
+          },
+          "pediatrico": {
+            "doseMin": 0,
+            "doseMax": 0
+          },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "4g en 100mL SSF (40 mg/mL)",
+              "valor": 40
+            },
+            {
+              "rotulo": "4g en 250mL SSF (16 mg/mL)",
+              "valor": 16
+            },
+            {
+              "rotulo": "8g en 250mL SSF (32 mg/mL)",
+              "valor": 32
+            },
+            {
+              "rotulo": "8g en 500mL SSF (16 mg/mL)",
+              "valor": 16
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Repositor electrolítico - Anticonvulsivante - Antiarrítmico clase V",
+      "apresentacoes": [
+        {
+          "forma": "Ampolla 10% (100 mg/mL)",
+          "obs": "10 mL = 1 g"
+        },
+        {
+          "forma": "Ampolla 25% (250 mg/mL)",
+          "obs": "10 mL = 2,5 g"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "4g (40mL 10%) + 100mL SSF",
+          "concentracao": "40 mg/mL"
+        },
+        {
+          "diluicao": "4g (40mL 10%) + 250mL SSF",
+          "concentracao": "16 mg/mL"
+        },
+        {
+          "diluicao": "8g (80mL 10%) + 250mL SSF",
+          "concentracao": "32 mg/mL"
+        },
+        {
+          "diluicao": "2g para bolo: diluir en 100mL SSF",
+          "concentracao": "20 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "ANTÍDOTO: Gluconato de Calcio 1g IV en 10 min",
+        "Monitorizar reflejos patelares (abolición = toxicidad)",
+        "Mantener FR >16 rpm y diuresis >25 mL/h",
+        "Potencia bloqueo neuromuscular (rocuronio, cisatracurio)",
+        "Contraindicado en bloqueo AV y miastenia gravis",
+        "Incompatible con bicarbonato, calcio y fosfato en misma vía"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar función renal. Riesgo aumentado de acumulación.",
+        "renal": "ERC: reducir dosis 50% si ClCr <30. Alto riesgo de hipermagnesemia. Monitorizar Mg sérico.",
+        "hepatico": "No requiere ajuste. No es metabolizado por el hígado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Sulfato de Magnesio - Eclampsia (adulto)",
+        "doseTexto": "4-6 g IV en 20-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "4-6 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfato de Magnesio - Torsades (adulto)",
+        "doseTexto": "2 g IV en 10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Sulfato de Magnesio (pediátrico)",
+        "doseTexto": "25-50 mg/kg IV (máx 2g)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Sulfato de Magnesio - Asma (pediátrico)",
+        "doseTexto": "25-50 mg/kg IV (máx 2g)",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "硫酸镁",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "子痫 - 负荷剂量",
+          "descricaoDose": "4-6 g IV 20-30分钟内给予",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 6,
+            "doseMaxima": 6,
+            "doseFixa": "4-6 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "尖端扭转型室速",
+          "descricaoDose": "2 g IV 10分钟内给予",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "低镁血症",
+          "descricaoDose": "1-2 g IV 15-30分钟内给予",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时重复",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "严重哮喘",
+          "descricaoDose": "2-4 g IV 15-20分钟内给予",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 4,
+            "doseMaxima": 4,
+            "doseFixa": "2-4 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童尖端扭转型室速/低镁血症",
+          "descricaoDose": "25-50 mg/kg IV 10-20分钟内给予（最大2g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "ClCr <30: 减量50%",
+            "ajusteHepatico": "否",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "儿童严重哮喘",
+          "descricaoDose": "25-50 mg/kg IV 20分钟内给予（最大2g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 50,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注 - 子痫",
+          "unidade": "g/h",
+          "adulto": {
+            "doseMin": 1,
+            "doseMax": 2
+          },
+          "pediatrico": {
+            "doseMin": 0,
+            "doseMax": 0
+          },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            {
+              "rotulo": "4g溶于100mL NS（40 mg/mL）",
+              "valor": 40
+            },
+            {
+              "rotulo": "4g溶于250mL NS（16 mg/mL）",
+              "valor": 16
+            },
+            {
+              "rotulo": "8g溶于250mL NS（32 mg/mL）",
+              "valor": 32
+            },
+            {
+              "rotulo": "8g溶于500mL NS（16 mg/mL）",
+              "valor": 16
+            }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "电解质补充剂 - 抗惊厥药 - V类抗心律失常药",
+      "apresentacoes": [
+        {
+          "forma": "10%安瓿（100 mg/mL）",
+          "obs": "10 mL = 1 g"
+        },
+        {
+          "forma": "25%安瓿（250 mg/mL）",
+          "obs": "10 mL = 2.5 g"
+        }
+      ],
+      "preparo": [
+        {
+          "diluicao": "4g（40mL 10%）+ 100mL NS",
+          "concentracao": "40 mg/mL"
+        },
+        {
+          "diluicao": "4g（40mL 10%）+ 250mL NS",
+          "concentracao": "16 mg/mL"
+        },
+        {
+          "diluicao": "8g（80mL 10%）+ 250mL NS",
+          "concentracao": "32 mg/mL"
+        },
+        {
+          "diluicao": "2g推注：稀释于100mL NS",
+          "concentracao": "20 mg/mL"
+        }
+      ],
+      "observacoes": [
+        "解毒剂：葡萄糖酸钙1g IV 10分钟内给予",
+        "监测膝腱反射（消失=中毒）",
+        "保持呼吸频率>16次/分，尿量>25 mL/h",
+        "增强神经肌肉阻滞（罗库溴铵、顺式阿曲库铵）",
+        "房室传导阻滞和重症肌无力禁用",
+        "与碳酸氢盐、钙和磷酸盐在同一管路中不相容"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测肾功能。蓄积风险增加。",
+        "renal": "慢性肾病：ClCr <30时减量50%。高镁血症风险高。监测血清镁。",
+        "hepatico": "无需调整。不经肝脏代谢。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "硫酸镁 - 子痫（成人）",
+        "doseTexto": "4-6 g IV 20-30分钟内给予",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "4-6 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "硫酸镁 - 尖端扭转型室速（成人）",
+        "doseTexto": "2 g IV 10分钟内给予",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "2 g",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "硫酸镁（儿童）",
+        "doseTexto": "25-50 mg/kg IV（最大2g）",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "硫酸镁 - 哮喘（儿童）",
+        "doseTexto": "25-50 mg/kg IV（最大2g）",
+        "doseMin": 25,
+        "doseMax": 50,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,626 @@
+{
+  "PT": {
+    "nome": "Fator VIIa Recombinante",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemofilia A/B com inibidores",
+          "descricaoDose": "90 mcg/kg IV em bolus - repetir a cada 2-3h até hemostasia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 90,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir a cada 2-3h até hemostasia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Deficiência congênita de FVII (sangramento)",
+          "descricaoDose": "15-30 mcg/kg IV a cada 4-6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia refratária (off-label) - dose padrão",
+          "descricaoDose": "90 mcg/kg IV em bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 90,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou repetir conforme resposta",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia refratária (off-label) - dose baixa",
+          "descricaoDose": "20-40 mcg/kg IV em bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 20,
+            "dosePorKgMax": 40,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou repetir conforme resposta",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado / Fator de coagulação recombinante",
+      "apresentacoes": [
+        { "forma": "Frasco 1 mg (50 KUI) + diluente 1,1 mL", "obs": "Concentração após reconstituição: 1 mg/mL" },
+        { "forma": "Frasco 2 mg (100 KUI) + diluente 2,1 mL", "obs": "Concentração após reconstituição: 1 mg/mL" },
+        { "forma": "Frasco 5 mg (250 KUI) + diluente 5,2 mL", "obs": "Concentração após reconstituição: 1 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir com diluente do frasco", "concentracao": "1 mg/mL (1000 mcg/mL)" },
+        { "diluicao": "Adicionar diluente lentamente - NÃO agitar", "concentracao": "Girar suavemente até dissolução" },
+        { "diluicao": "Usar em até 3h após reconstituição", "concentracao": "Pode manter em temperatura ambiente" }
+      ],
+      "observacoes": [
+        "Custo muito elevado - uso restrito e autorização especial em muitas instituições",
+        "Uso off-label em hemorragia refratária é controverso - evidência limitada",
+        "Risco trombótico aumentado (IAM, AVC, trombose) - usar menor dose efetiva",
+        "Monitorar TP, INR e fibrinogênio durante o uso",
+        "Administração IV em bolus em 2-5 minutos; não misturar com outros medicamentos na mesma via",
+        "Contraindicado em IAM/AVC recente e trombose arterial ativa"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose específico. Avaliar risco trombótico (maior em idosos).",
+        "renal": "Não requer ajuste de dose. Metabolismo independente da função renal.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave. Pode haver alteração na clearance."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fator VIIa (hemofilia com inibidores)",
+        "doseTexto": "90 mcg/kg IV (repetir 2-3h)",
+        "doseMin": 90,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Fator VIIa (deficiência FVII)",
+        "doseTexto": "15-30 mcg/kg IV a cada 4-6h",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Fator VIIa (hemorragia refratária)",
+        "doseTexto": "90 mcg/kg IV",
+        "doseMin": 90,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fator VIIa (dose baixa)",
+        "doseTexto": "20-40 mcg/kg IV",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Recombinant Factor VIIa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemophilia A/B with inhibitors",
+          "descricaoDose": "90 mcg/kg IV bolus - repeat every 2-3h until hemostasis",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 90,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat every 2-3h until hemostasis",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Congenital FVII deficiency (bleeding)",
+          "descricaoDose": "15-30 mcg/kg IV every 4-6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Refractory hemorrhage (off-label) - standard dose",
+          "descricaoDose": "90 mcg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 90,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose or repeat as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Refractory hemorrhage (off-label) - low dose",
+          "descricaoDose": "20-40 mcg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 20,
+            "dosePorKgMax": 40,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose or repeat as needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Blood product / Recombinant coagulation factor",
+      "apresentacoes": [
+        { "forma": "Vial 1 mg (50 KUI) + diluent 1.1 mL", "obs": "Concentration after reconstitution: 1 mg/mL" },
+        { "forma": "Vial 2 mg (100 KUI) + diluent 2.1 mL", "obs": "Concentration after reconstitution: 1 mg/mL" },
+        { "forma": "Vial 5 mg (250 KUI) + diluent 5.2 mL", "obs": "Concentration after reconstitution: 1 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with vial diluent", "concentracao": "1 mg/mL (1000 mcg/mL)" },
+        { "diluicao": "Add diluent slowly - DO NOT shake", "concentracao": "Gently roll until dissolved" },
+        { "diluicao": "Use within 3h after reconstitution", "concentracao": "May keep at room temperature" }
+      ],
+      "observacoes": [
+        "Very high cost - restricted use and special authorization in many institutions",
+        "Off-label use in refractory hemorrhage is controversial - limited evidence",
+        "Increased thrombotic risk (MI, stroke, thrombosis) - use lowest effective dose",
+        "Monitor PT, INR and fibrinogen during use",
+        "IV bolus over 2-5 minutes; do not mix with other drugs in same line",
+        "Contraindicated in recent MI/stroke and active arterial thrombosis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific dose adjustment. Assess thrombotic risk (higher in elderly).",
+        "renal": "No dose adjustment required. Metabolism independent of renal function.",
+        "hepatico": "Use with caution in severe hepatic impairment. Clearance may be altered."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Factor VIIa (hemophilia with inhibitors)",
+        "doseTexto": "90 mcg/kg IV (repeat 2-3h)",
+        "doseMin": 90,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "Factor VIIa (FVII deficiency)",
+        "doseTexto": "15-30 mcg/kg IV every 4-6h",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "Factor VIIa (refractory hemorrhage)",
+        "doseTexto": "90 mcg/kg IV",
+        "doseMin": 90,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Factor VIIa (low dose)",
+        "doseTexto": "20-40 mcg/kg IV",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Factor VIIa Recombinante",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemofilia A/B con inhibidores",
+          "descricaoDose": "90 mcg/kg IV en bolo - repetir cada 2-3h hasta hemostasia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 90,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir cada 2-3h hasta hemostasia",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Deficiencia congenita de FVII (sangrado)",
+          "descricaoDose": "15-30 mcg/kg IV cada 4-6h",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemorragia refractaria (off-label) - dosis estandar",
+          "descricaoDose": "90 mcg/kg IV en bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 90,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis unica o repetir segun respuesta",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemorragia refractaria (off-label) - dosis baja",
+          "descricaoDose": "20-40 mcg/kg IV en bolo",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 20,
+            "dosePorKgMax": 40,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis unica o repetir segun respuesta",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Hemoderivado / Factor de coagulacion recombinante",
+      "apresentacoes": [
+        { "forma": "Frasco 1 mg (50 KUI) + diluyente 1,1 mL", "obs": "Concentracion tras reconstitucion: 1 mg/mL" },
+        { "forma": "Frasco 2 mg (100 KUI) + diluyente 2,1 mL", "obs": "Concentracion tras reconstitucion: 1 mg/mL" },
+        { "forma": "Frasco 5 mg (250 KUI) + diluyente 5,2 mL", "obs": "Concentracion tras reconstitucion: 1 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir con diluyente del frasco", "concentracao": "1 mg/mL (1000 mcg/mL)" },
+        { "diluicao": "Anadir diluyente lentamente - NO agitar", "concentracao": "Girar suavemente hasta disolucion" },
+        { "diluicao": "Usar en 3h tras reconstitucion", "concentracao": "Puede mantenerse a temperatura ambiente" }
+      ],
+      "observacoes": [
+        "Costo muy elevado - uso restringido y autorizacion especial en muchas instituciones",
+        "Uso off-label en hemorragia refractaria es controvertido - evidencia limitada",
+        "Riesgo trombotico aumentado (IAM, ACV, trombosis) - usar menor dosis efectiva",
+        "Monitorizar TP, INR y fibrinogeno durante el uso",
+        "Administracion IV en bolo en 2-5 min; no mezclar con otros farmacos en la misma via",
+        "Contraindicado en IAM/ACV reciente y trombosis arterial activa"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis especifico. Valorar riesgo trombotico (mayor en ancianos).",
+        "renal": "No requiere ajuste de dosis. Metabolismo independiente de la funcion renal.",
+        "hepatico": "Usar con precaucion en insuficiencia hepatica grave. Puede alterarse el aclaramiento."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Factor VIIa (hemofilia con inhibidores)",
+        "doseTexto": "90 mcg/kg IV (repetir 2-3h)",
+        "doseMin": 90,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Factor VIIa (deficiencia FVII)",
+        "doseTexto": "15-30 mcg/kg IV cada 4-6h",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Factor VIIa (hemorragia refractaria)",
+        "doseTexto": "90 mcg/kg IV",
+        "doseMin": 90,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Factor VIIa (dosis baja)",
+        "doseTexto": "20-40 mcg/kg IV",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "重组凝血因子 VIIa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "伴抑制物的A/B型血友病",
+          "descricaoDose": "90 mcg/kg IV 推注 - 每2-3小时重复直至止血",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 90,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每2-3小时重复直至止血",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "无"
+          }
+        },
+        {
+          "titulo": "先天性FVII缺乏（出血）",
+          "descricaoDose": "15-30 mcg/kg IV 每4-6小时",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 30,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "无"
+          }
+        },
+        {
+          "titulo": "难治性出血（超说明书）- 标准剂量",
+          "descricaoDose": "90 mcg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": 90,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次或按需重复",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "无"
+          }
+        },
+        {
+          "titulo": "难治性出血（超说明书）- 低剂量",
+          "descricaoDose": "20-40 mcg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "dosePorKgMin": 20,
+            "dosePorKgMax": 40,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次或按需重复",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "无"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "血液制品 / 重组凝血因子",
+      "apresentacoes": [
+        { "forma": "瓶 1 mg (50 KUI) + 稀释液 1.1 mL", "obs": "复溶后浓度：1 mg/mL" },
+        { "forma": "瓶 2 mg (100 KUI) + 稀释液 2.1 mL", "obs": "复溶后浓度：1 mg/mL" },
+        { "forma": "瓶 5 mg (250 KUI) + 稀释液 5.2 mL", "obs": "复溶后浓度：1 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "用瓶装稀释液复溶", "concentracao": "1 mg/mL (1000 mcg/mL)" },
+        { "diluicao": "缓慢加入稀释液 - 勿振摇", "concentracao": "轻轻滚动至溶解" },
+        { "diluicao": "复溶后3小时内使用", "concentracao": "可室温保存" }
+      ],
+      "observacoes": [
+        "费用极高 - 许多机构限制使用并需特殊授权",
+        "难治性出血超说明书使用存在争议 - 证据有限",
+        "血栓风险增加（心梗、卒中、血栓）- 使用最低有效剂量",
+        "使用期间监测PT、INR和纤维蛋白原",
+        "IV推注2-5分钟；勿与其它药物同路混合",
+        "近期心梗/卒中及活动性动脉血栓禁忌"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定剂量调整。评估血栓风险（老年人更高）。",
+        "renal": "无需剂量调整。代谢不依赖肾功能。",
+        "hepatico": "严重肝功能不全慎用。清除率可能改变。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "因子 VIIa（伴抑制物血友病）",
+        "doseTexto": "90 mcg/kg IV（每2-3h重复）",
+        "doseMin": 90,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "因子 VIIa（FVII缺乏）",
+        "doseTexto": "15-30 mcg/kg IV 每4-6h",
+        "doseMin": 15,
+        "doseMax": 30,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "因子 VIIa（难治性出血）",
+        "doseTexto": "90 mcg/kg IV",
+        "doseMin": 90,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "因子 VIIa（低剂量）",
+        "doseTexto": "20-40 mcg/kg IV",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

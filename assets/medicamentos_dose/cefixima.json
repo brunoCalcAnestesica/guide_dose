@@ -1,0 +1,518 @@
+{
+  "PT": {
+    "nome": "Cefixima",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções respiratórias e ITU (adulto)",
+          "descricaoDose": "400 mg VO 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr 21-60: 300 mg/dia; ClCr <21: 200 mg/dia",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Gonorreia não complicada (adulto)",
+          "descricaoDose": "400 mg VO dose única (+ azitromicina)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr 21-60: 300 mg/dia; ClCr <21: 200 mg/dia",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico – dose padrão",
+          "descricaoDose": "8 mg/kg/dia VO 1x/dia (máx 400 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 8,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr 21-60: 300 mg/dia; ClCr <21: 200 mg/dia",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Cefalosporina de 3ª geração oral",
+      "apresentacoes": [
+        { "forma": "Cápsulas 400 mg", "obs": "" },
+        { "forma": "Comprimidos dispersíveis 400 mg", "obs": "" },
+        { "forma": "Suspensão oral 100 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspensão: reconstituir com água conforme bula", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Pode ser administrada com ou sem alimentos",
+        "Reação cruzada com penicilinas ~1-2% – avaliar história de alergia",
+        "Categoria B na gestação",
+        "Dose única diária – boa adesão",
+        "Não cobre S. aureus adequadamente; espectro para Gram-negativos",
+        "ClCr <60: ajustar dose conforme indicação (300 ou 200 mg/dia)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajuste por função renal (ClCr). Manter hidratação.",
+        "renal": "ClCr 21-60 mL/min: 300 mg/dia; ClCr <21: 200 mg/dia. Hemodiálise: dose após sessão.",
+        "hepatico": "Não requer ajuste específico. Em insuficiência hepática grave, monitorar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefixima (adulto)",
+        "doseTexto": "400 mg VO 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefixima (adulto – gonorreia)",
+        "doseTexto": "400 mg VO dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefixima (pediátrico)",
+        "doseTexto": "8 mg/kg/dia VO 1x/dia (máx 400 mg)",
+        "doseMin": 8,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Cefixime",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Respiratory and UTI infections (adult)",
+          "descricaoDose": "400 mg PO once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl 21-60: 300 mg/day; CrCl <21: 200 mg/day",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Uncomplicated gonorrhea (adult)",
+          "descricaoDose": "400 mg PO single dose (+ azithromycin)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl 21-60: 300 mg/day; CrCl <21: 200 mg/day",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediatric – standard dose",
+          "descricaoDose": "8 mg/kg/day PO once daily (max 400 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 8,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl 21-60: 300 mg/day; CrCl <21: 200 mg/day",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiotic – Third-generation oral cephalosporin",
+      "apresentacoes": [
+        { "forma": "Capsules 400 mg", "obs": "" },
+        { "forma": "Dispersible tablets 400 mg", "obs": "" },
+        { "forma": "Oral suspension 100 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspension: reconstitute with water per label", "concentracao": "Per presentation" }
+      ],
+      "observacoes": [
+        "May be taken with or without food",
+        "Cross-reactivity with penicillins ~1-2% – assess allergy history",
+        "Pregnancy category B",
+        "Once-daily dosing – good adherence",
+        "Does not adequately cover S. aureus; spectrum for Gram-negatives",
+        "CrCl <60: adjust dose per indication (300 or 200 mg/day)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Adjust for renal function (CrCl). Maintain hydration.",
+        "renal": "CrCl 21-60 mL/min: 300 mg/day; CrCl <21: 200 mg/day. Hemodialysis: dose after session.",
+        "hepatico": "No specific adjustment. In severe hepatic failure, monitor."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefixime (adult)",
+        "doseTexto": "400 mg PO once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cefixime (adult – gonorrhea)",
+        "doseTexto": "400 mg PO single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cefixime (pediatric)",
+        "doseTexto": "8 mg/kg/day PO once daily (max 400 mg)",
+        "doseMin": 8,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Cefixima",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones respiratorias e ITU (adulto)",
+          "descricaoDose": "400 mg VO 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr 21-60: 300 mg/día; ClCr <21: 200 mg/día",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Gonorrea no complicada (adulto)",
+          "descricaoDose": "400 mg VO dosis única (+ azitromicina)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr 21-60: 300 mg/día; ClCr <21: 200 mg/día",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico – dosis estándar",
+          "descricaoDose": "8 mg/kg/día VO 1x/día (máx 400 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 8,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr 21-60: 300 mg/día; ClCr <21: 200 mg/día",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico – Cefalosporina de 3.ª generación oral",
+      "apresentacoes": [
+        { "forma": "Cápsulas 400 mg", "obs": "" },
+        { "forma": "Comprimidos dispersibles 400 mg", "obs": "" },
+        { "forma": "Suspensión oral 100 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Suspensión: reconstituir con agua según prospecto", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Puede administrarse con o sin alimentos",
+        "Reacción cruzada con penicilinas ~1-2% – valorar historia de alergia",
+        "Categoría B en embarazo",
+        "Dosis única diaria – buena adherencia",
+        "No cubre S. aureus adecuadamente; espectro para Gram-negativos",
+        "ClCr <60: ajustar dosis según indicación (300 o 200 mg/día)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajustar por función renal (ClCr). Mantener hidratación.",
+        "renal": "ClCr 21-60 mL/min: 300 mg/día; ClCr <21: 200 mg/día. Hemodiálisis: dosis tras sesión.",
+        "hepatico": "No requiere ajuste específico. En insuficiencia hepática grave, monitorizar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefixima (adulto)",
+        "doseTexto": "400 mg VO 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefixima (adulto – gonorrea)",
+        "doseTexto": "400 mg VO dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefixima (pediátrico)",
+        "doseTexto": "8 mg/kg/día VO 1x/día (máx 400 mg)",
+        "doseMin": 8,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "头孢克肟",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "呼吸道与尿路感染（成人）",
+          "descricaoDose": "400 mg 口服 每日1次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr 21-60: 300 mg/日; ClCr <21: 200 mg/日",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "单纯性淋病（成人）",
+          "descricaoDose": "400 mg 口服 单次（+ 阿奇霉素）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr 21-60: 300 mg/日; ClCr <21: 200 mg/日",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "儿童 – 标准剂量",
+          "descricaoDose": "8 mg/kg/日 口服 每日1次（最大400 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 8,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 400,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr 21-60: 300 mg/日; ClCr <21: 200 mg/日",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗生素 – 第三代口服头孢菌素",
+      "apresentacoes": [
+        { "forma": "胶囊 400 mg", "obs": "" },
+        { "forma": "分散片 400 mg", "obs": "" },
+        { "forma": "口服混悬液 100 mg/5 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "混悬液：按说明书用水 reconstitute", "concentracao": "按规格" }
+      ],
+      "observacoes": [
+        "可与或不与食物同服",
+        "与青霉素交叉反应约1-2% – 评估过敏史",
+        "妊娠B类",
+        "每日一次 – 依从性好",
+        "对金黄色葡萄球菌覆盖不足；针对革兰阴性菌",
+        "ClCr <60: 按适应证调整剂量（300或200 mg/日）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "按肾功能（ClCr）调整。保持水化。",
+        "renal": "ClCr 21-60 mL/min: 300 mg/日; ClCr <21: 200 mg/日。血液透析：透析后给药。",
+        "hepatico": "无需特殊调整。严重肝衰竭时监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "头孢克肟（成人）",
+        "doseTexto": "400 mg 口服 每日1次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "头孢克肟（成人 – 淋病）",
+        "doseTexto": "400 mg 口服 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "头孢克肟（儿童）",
+        "doseTexto": "8 mg/kg/日 口服 每日1次（最大400 mg）",
+        "doseMin": 8,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

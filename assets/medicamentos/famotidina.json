@@ -1,0 +1,34 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Famotidina",
+      "nomesComerciais": ["Famox®", "Famoset®"],
+      "classeTerapeutica": "Antagonista H2 / Bloqueador de receptor de histamina H2",
+      "mecanismoAcao": "Inibe competitivamente os receptores H2 da histamina nas células parietais gástricas, reduzindo a secreção ácida basal e estimulada. Potência 20-150x maior que cimetidina.",
+      "indicacoes": ["Úlcera duodenal", "Úlcera gástrica", "DRGE", "Síndrome de Zollinger-Ellison", "Profilaxia de úlcera de estresse", "Profilaxia de aspiração"],
+      "apresentacoes": ["Comprimidos 20 mg, 40 mg", "Ampola 20 mg/2 mL", "Suspensão oral 40 mg/5 mL"],
+      "posologia": {
+        "ulceraDuodenal": "40 mg VO ao deitar ou 20 mg 2x/dia por 4-8 semanas",
+        "ulceraGastrica": "40 mg VO ao deitar por 8 semanas",
+        "DRGE": "20 mg VO 2x/dia por 6 semanas",
+        "profilaxiaEstresse": "20 mg IV 12/12h",
+        "ZollingerEllison": "20 mg VO 6/6h (dose inicial)",
+        "profilaxiaAspiracao": "40 mg VO noite anterior + 40 mg manhã",
+        "pediatrico": "0,5 mg/kg/dose VO 12/12h (máx 40 mg/dia)"
+      },
+      "preparoIV": {
+        "bolus": "20 mg em 5-10 mL SF - infundir em 2 min",
+        "infusao": "20 mg em 100 mL SF - infundir em 15-30 min"
+      },
+      "ajusteRenal": {
+        "ClCrMaior50": "Dose normal",
+        "ClCr10a50": "50% da dose ou intervalo 36-48h",
+        "ClCrMenor10": "25% da dose ou intervalo 48h"
+      },
+      "contraindicacoes": ["Hipersensibilidade a antagonistas H2"],
+      "efeitosAdversos": ["Cefaleia", "Tontura", "Constipação", "Diarreia"],
+      "observacoes": ["Não interage com CYP450", "Pode ser usada com clopidogrel", "Menos eficaz que IBPs para cicatrização", "Tolerância pode desenvolver após 2-6 semanas"],
+      "categoriaGravidez": "B"
+    }
+  }
+}

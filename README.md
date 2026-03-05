@@ -2,6 +2,11 @@
 
 A new Flutter project.
 
+## Guias e ajuda
+
+- **Supabase (config e deploy):** [CONFIGURAR_SUPABASE.md](CONFIGURAR_SUPABASE.md)
+- **Deploy de Edge Functions (reparos, token):** [supabase/DEPLOY_FUNCOES.md](supabase/DEPLOY_FUNCOES.md)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.

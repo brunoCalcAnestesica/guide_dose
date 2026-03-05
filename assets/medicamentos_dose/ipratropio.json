@@ -1,0 +1,610 @@
+{
+  "PT": {
+    "nome": "Ipatrópio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inalatório / MDI (adulto)",
+          "descricaoDose": "2-4 inalações (20-40 mcg) 3-4 vezes ao dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mcg (2-4 inalações)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "3-4 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulização (adulto)",
+          "descricaoDose": "250-500 mcg por nebulização 3-4 vezes ao dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "3-4 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulização (pediátrico)",
+          "descricaoDose": "125-250 mcg por nebulização 3-4 vezes ao dia (≥6 anos)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mcg",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "3-4 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Spray nasal (rinite)",
+          "descricaoDose": "2 aplicações por narina 2-3 vezes ao dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "aplicações",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "2 aplicações/narina",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Nasal",
+            "intervalo": "2-3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinérgico; broncodilatador; antagonista muscarínico",
+      "apresentacoes": [
+        { "forma": "Spray inalatório 20 mcg/dose", "obs": "Atrovent®" },
+        { "forma": "Solução para nebulização 250 mcg/mL", "obs": "Frasco 20 mL" },
+        { "forma": "Spray nasal 21 mcg/dose", "obs": "Rinite alérgica" }
+      ],
+      "preparo": [
+        { "diluicao": "Spray inalatório: pronto para uso", "concentracao": "20 mcg/dose" },
+        { "diluicao": "Nebulização: 0,5-2 mL (125-500 mcg) em 2-3 mL SF 0,9%", "concentracao": "250 mcg/mL" },
+        { "diluicao": "Spray nasal: 2 aplicações por narina", "concentracao": "21 mcg/dose" }
+      ],
+      "observacoes": [
+        "Indicado em DPOC e asma (adjuvante ao beta-2 agonista)",
+        "Início de ação 15-30 min; duração 4-6 h",
+        "Baixa absorção sistêmica por via inalatória",
+        "Contraindicado em glaucoma de ângulo fechado e HBP grave",
+        "Agitar antes da inalação; orientar técnica inalatória",
+        "Pode ser associado a salbutamol na mesma nebulização (compatível com SF 0,9%)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos anticolinérgicos (retenção urinária, visão turva).",
+        "renal": "Não requer ajuste. Absorção sistêmica mínima por via inalatória.",
+        "hepatico": "Não requer ajuste. Metabolização hepática limitada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ipatrópio - Inalatório (adulto)",
+        "doseTexto": "2-4 inalações (20-40 mcg) 3-4x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ipatrópio - Nebulização (adulto)",
+        "doseTexto": "250-500 mcg 3-4x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ipatrópio - Nebulização (pediátrico)",
+        "doseTexto": "125-250 mcg 3-4x/dia (≥6 anos)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "125-250 mcg",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ipatrópio - Spray nasal",
+        "doseTexto": "2 aplicações/narina 2-3x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "aplicações",
+        "decimais": 0,
+        "resultadoFixo": "2/narina",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ipratropium",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inhaler / MDI (adult)",
+          "descricaoDose": "2-4 inhalations (20-40 mcg) 3-4 times daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mcg (2-4 inhalations)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalation",
+            "intervalo": "3-4 times daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulization (adult)",
+          "descricaoDose": "250-500 mcg per nebulization 3-4 times daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalation",
+            "intervalo": "3-4 times daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulization (pediatric)",
+          "descricaoDose": "125-250 mcg per nebulization 3-4 times daily (≥6 years)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mcg",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalation",
+            "intervalo": "3-4 times daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nasal spray (rhinitis)",
+          "descricaoDose": "2 applications per nostril 2-3 times daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "applications",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "2 applications/nostril",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Nasal",
+            "intervalo": "2-3 times daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticholinergic; bronchodilator; muscarinic antagonist",
+      "apresentacoes": [
+        { "forma": "Inhalation spray 20 mcg/dose", "obs": "Atrovent®" },
+        { "forma": "Nebulization solution 250 mcg/mL", "obs": "20 mL vial" },
+        { "forma": "Nasal spray 21 mcg/dose", "obs": "Allergic rhinitis" }
+      ],
+      "preparo": [
+        { "diluicao": "Inhalation spray: ready to use", "concentracao": "20 mcg/dose" },
+        { "diluicao": "Nebulization: 0.5-2 mL (125-500 mcg) in 2-3 mL 0.9% saline", "concentracao": "250 mcg/mL" },
+        { "diluicao": "Nasal spray: 2 applications per nostril", "concentracao": "21 mcg/dose" }
+      ],
+      "observacoes": [
+        "Indicated in COPD and asthma (adjunct to beta-2 agonist)",
+        "Onset 15-30 min; duration 4-6 h",
+        "Low systemic absorption by inhalation",
+        "Contraindicated in angle-closure glaucoma and severe BPH",
+        "Shake before inhalation; instruct on technique",
+        "May be combined with albuterol in same nebulization (compatible with 0.9% saline)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor anticholinergic effects (urinary retention, blurred vision).",
+        "renal": "No adjustment required. Minimal systemic absorption by inhalation.",
+        "hepatico": "No adjustment required. Limited hepatic metabolism."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ipratropium - Inhaler (adult)",
+        "doseTexto": "2-4 inhalations (20-40 mcg) 3-4x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ipratropium - Nebulization (adult)",
+        "doseTexto": "250-500 mcg 3-4x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ipratropium - Nebulization (pediatric)",
+        "doseTexto": "125-250 mcg 3-4x/day (≥6 years)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "125-250 mcg",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ipratropium - Nasal spray",
+        "doseTexto": "2 applications/nostril 2-3x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "applications",
+        "decimais": 0,
+        "resultadoFixo": "2/nostril",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ipratropio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inhalador / MDI (adulto)",
+          "descricaoDose": "2-4 inhalaciones (20-40 mcg) 3-4 veces al día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mcg (2-4 inhalaciones)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "3-4 veces al día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulización (adulto)",
+          "descricaoDose": "250-500 mcg por nebulización 3-4 veces al día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "3-4 veces al día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulización (pediátrico)",
+          "descricaoDose": "125-250 mcg por nebulización 3-4 veces al día (≥6 años)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mcg",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "3-4 veces al día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Spray nasal (rinitis)",
+          "descricaoDose": "2 aplicaciones por fosa nasal 2-3 veces al día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "aplicaciones",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "2 aplicaciones/fosa",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Nasal",
+            "intervalo": "2-3 veces al día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinérgico; broncodilatador; antagonista muscarínico",
+      "apresentacoes": [
+        { "forma": "Spray inhalatorio 20 mcg/dosis", "obs": "Atrovent®" },
+        { "forma": "Solución para nebulización 250 mcg/mL", "obs": "Frasco 20 mL" },
+        { "forma": "Spray nasal 21 mcg/dosis", "obs": "Rinitis alérgica" }
+      ],
+      "preparo": [
+        { "diluicao": "Spray inhalatorio: listo para uso", "concentracao": "20 mcg/dosis" },
+        { "diluicao": "Nebulización: 0,5-2 mL (125-500 mcg) en 2-3 mL SF 0,9%", "concentracao": "250 mcg/mL" },
+        { "diluicao": "Spray nasal: 2 aplicaciones por fosa nasal", "concentracao": "21 mcg/dosis" }
+      ],
+      "observacoes": [
+        "Indicado en EPOC y asma (adyuvante al beta-2 agonista)",
+        "Inicio de acción 15-30 min; duración 4-6 h",
+        "Baja absorción sistémica por vía inhalatoria",
+        "Contraindicado en glaucoma de ángulo cerrado e HBP grave",
+        "Agitar antes de la inhalación; orientar técnica inhalatoria",
+        "Puede asociarse a salbutamol en la misma nebulización (compatible con SF 0,9%)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos anticolinérgicos (retención urinaria, visión borrosa).",
+        "renal": "No requiere ajuste. Absorción sistémica mínima por vía inhalatoria.",
+        "hepatico": "No requiere ajuste. Metabolismo hepático limitado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ipratropio - Inhalador (adulto)",
+        "doseTexto": "2-4 inhalaciones (20-40 mcg) 3-4x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ipratropio - Nebulización (adulto)",
+        "doseTexto": "250-500 mcg 3-4x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ipratropio - Nebulización (pediátrico)",
+        "doseTexto": "125-250 mcg 3-4x/día (≥6 años)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "125-250 mcg",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ipratropio - Spray nasal",
+        "doseTexto": "2 aplicaciones/fosa 2-3x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "aplicaciones",
+        "decimais": 0,
+        "resultadoFixo": "2/fosa",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "异丙托溴铵",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "吸入剂 / MDI（成人）",
+          "descricaoDose": "2-4吸（20-40 mcg）每日3-4次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mcg (2-4吸)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每日3-4次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "雾化（成人）",
+          "descricaoDose": "250-500 mcg/次雾化 每日3-4次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250-500 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每日3-4次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "雾化（儿童）",
+          "descricaoDose": "125-250 mcg/次雾化 每日3-4次（≥6岁）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": 125,
+            "doseMax": 250,
+            "doseMaxima": 250,
+            "doseFixa": "125-250 mcg",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每日3-4次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "鼻喷雾（鼻炎）",
+          "descricaoDose": "每侧鼻孔2喷 每日2-3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "喷",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "每侧2喷",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Nasal",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗胆碱药；支气管扩张剂；毒蕈碱拮抗剂",
+      "apresentacoes": [
+        { "forma": "吸入喷雾 20 mcg/吸", "obs": "Atrovent®" },
+        { "forma": "雾化液 250 mcg/mL", "obs": "20 mL瓶" },
+        { "forma": "鼻喷雾 21 mcg/喷", "obs": "过敏性鼻炎" }
+      ],
+      "preparo": [
+        { "diluicao": "吸入喷雾：即用", "concentracao": "20 mcg/吸" },
+        { "diluicao": "雾化：0.5-2 mL（125-500 mcg）加2-3 mL 0.9%生理盐水", "concentracao": "250 mcg/mL" },
+        { "diluicao": "鼻喷雾：每侧鼻孔2喷", "concentracao": "21 mcg/喷" }
+      ],
+      "observacoes": [
+        "用于COPD和哮喘（与β2激动剂联用）",
+        "起效15-30分钟；作用4-6小时",
+        "吸入途径全身吸收少",
+        "闭角型青光眼和严重BPH禁用",
+        "吸入前摇匀；指导吸入技术",
+        "可与沙丁胺醇同瓶雾化（与0.9%盐水相容）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调整。监测抗胆碱能效应（尿潴留、视力模糊）。",
+        "renal": "无需调整。吸入途径全身吸收极少。",
+        "hepatico": "无需调整。肝脏代谢有限。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "异丙托溴铵 - 吸入（成人）",
+        "doseTexto": "2-4吸（20-40 mcg）每日3-4次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "异丙托溴铵 - 雾化（成人）",
+        "doseTexto": "250-500 mcg 每日3-4次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "250-500 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "异丙托溴铵 - 雾化（儿童）",
+        "doseTexto": "125-250 mcg 每日3-4次（≥6岁）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "125-250 mcg",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "异丙托溴铵 - 鼻喷雾",
+        "doseTexto": "每侧2喷 每日2-3次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "喷",
+        "decimais": 0,
+        "resultadoFixo": "2/侧",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

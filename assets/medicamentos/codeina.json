@@ -1,0 +1,77 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Codeína",
+      "nomesComerciais": [
+        "Codein®",
+        "Paco®",
+        "Tylex® (+ paracetamol)",
+        "Codex® (+ paracetamol)"
+      ],
+      "classeTerapeutica": "Opioide fraco / Agonista mu (pró-droga)",
+      "mecanismoAcao": "Pró-droga que requer conversão hepática em morfina via CYP2D6 (~10% da dose). Efeito analgésico depende do fenótipo metabólico do paciente. Ação antitussígena por mecanismo central direto.",
+      "indicacoes": [
+        "Dor leve a moderada",
+        "Tosse (uso limitado, off-label)"
+      ],
+      "apresentacoes": [
+        "Comprimidos 30 mg, 60 mg",
+        "Solução oral 3 mg/mL",
+        "Associações com paracetamol"
+      ],
+      "posologia": {
+        "dorLeveAModerada": {
+          "adulto": "15-60 mg VO 4/4-6/6h (máx 360 mg/dia)",
+          "idoso": "15-30 mg VO 4/4-6/6h (máx 180 mg/dia)"
+        },
+        "tosse": "10-20 mg VO 4/4-6/6h (máx 120 mg/dia)"
+      },
+      "farmacogenetica": {
+        "CYP2D6": {
+          "metabolizadoresLentos": "~5-10% - SEM efeito analgésico",
+          "metabolizadoresIntermediarios": "~20% - Efeito reduzido",
+          "metabolizadoresNormais": "~70% - Efeito esperado",
+          "metabolizadoresUltrarrapidos": "~5% - RISCO DE TOXICIDADE"
+        },
+        "observacao": "Se paciente não responde: NÃO aumentar dose, trocar opioide"
+      },
+      "farmacocinetica": {
+        "biodisponibilidade": "~50%",
+        "inicioAcao": "30-60 min",
+        "pico": "1-2 horas",
+        "duracao": "4-6 horas",
+        "meiaVida": "2,5-3 horas",
+        "metabolismo": "CYP2D6 (para morfina), CYP3A4"
+      },
+      "contraindicacoes": {
+        "absolutas": [
+          "Crianças < 12 anos",
+          "Pós-amigdalectomia/adenoidectomia em < 18 anos",
+          "Metabolizadores ultrarrápidos conhecidos"
+        ],
+        "relativas": [
+          "Depressão respiratória",
+          "Asma aguda",
+          "Lactação"
+        ]
+      },
+      "efeitosAdversos": [
+        "Constipação",
+        "Náusea",
+        "Sonolência",
+        "Tontura",
+        "Prurido"
+      ],
+      "alertas": {
+        "controlado": "Receita amarela (A1)",
+        "criancas": "Contraindicado em < 12 anos",
+        "variabilidade": "Eficácia depende do fenótipo CYP2D6"
+      },
+      "observacoes": [
+        "~10% da população não responde (metabolizadores lentos)",
+        "Associar com paracetamol potencializa analgesia"
+      ],
+      "categoriaGravidez": "C"
+    }
+  }
+}

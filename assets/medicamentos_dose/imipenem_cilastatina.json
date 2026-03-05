@@ -1,0 +1,890 @@
+{
+  "PT": {
+    "nome": "Imipenem/Cilastatina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções moderadas",
+          "descricaoDose": "500 mg IV 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves / Pseudomonas",
+          "descricaoDose": "500 mg–1 g IV 6/6h (máx 4 g/dia ou 50 mg/kg).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções leves (ITU)",
+          "descricaoDose": "250–500 mg IV 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250–500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "500 mg–1 g IV 30–60 min antes da incisão.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes da incisão",
+            "ajusteRenal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálise: dose após sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico > 3 meses",
+          "descricaoDose": "15–25 mg/kg IV 6/6h (60–100 mg/kg/dia; máx 4 g/dia).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonato 1–4 semanas",
+          "descricaoDose": "25 mg/kg IV 6/6–8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6–8/8h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Carbapenêmico + inibidor da deidropeptidase renal (cilastatina evita degradação renal do imipenem); bactericida – espectro amplo.",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg/500 mg (imipenem/cilastatina) liofilizado", "obs": "Tienam® – proporção 1:1" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir em 10 mL diluente próprio", "concentracao": "" },
+        { "diluicao": "Diluir em 100 mL SF 0,9% ou SG 5%", "concentracao": "Para infusão" },
+        { "diluicao": "Doses ≤500 mg: infundir em 20–30 min", "concentracao": "IV" },
+        { "diluicao": "Doses >500 mg: infundir em 60 min", "concentracao": "IV" },
+        { "diluicao": "Estabilidade conforme bula após reconstituição", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro muito amplo: Gram+, Gram-, anaeróbios, Pseudomonas. NÃO cobre: MRSA, Enterococcus faecium, Stenotrophomonas.",
+        "Cilastatina evita degradação renal do imipenem (inibidor da deidropeptidase-I).",
+        "Risco de convulsão: dose >50 mg/kg, insuficiência renal, lesão SNC – usar com cautela.",
+        "Ajuste renal obrigatório: ClCr 40–70 → 500 mg 6–8h; ClCr 20–40 → 250–500 mg 8–12h; ClCr <20 → 250 mg 12/12h; hemodiálise: dose após sessão.",
+        "Menor atividade anti-Pseudomonas que meropenem – preferir meropenem quando Pseudomonas for alvo.",
+        "Evitar em meningite (risco de convulsão, penetração SNC inferior ao meropenem)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal. Ajuste de dose/intervalo conforme ClCr.",
+        "renal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálise: dose após sessão.",
+        "hepatico": "Excreção predominantemente renal. Ajuste hepático isolado não necessário conforme bula."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Imipenem/Cilastatina – moderadas (adulto)",
+        "doseTexto": "500 mg IV 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – graves/Pseudomonas (adulto)",
+        "doseTexto": "500 mg–1 g IV 6/6h",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – ITU (adulto)",
+        "doseTexto": "250–500 mg IV 6/6h",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – profilaxia cirúrgica",
+        "doseTexto": "500 mg–1 g IV 30–60 min antes da incisão",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – pediátrico > 3 meses",
+        "doseTexto": "15–25 mg/kg IV 6/6h (máx 4 g/dia)",
+        "doseMin": 15,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – neonato 1–4 semanas",
+        "doseTexto": "25 mg/kg IV 6/6–8/8h",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Imipenem/Cilastatin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderate infections",
+          "descricaoDose": "500 mg IV q6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "ClCr 40–70: 500 mg q6–8h; ClCr 20–40: 250–500 mg q8–12h; ClCr <20: 250 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe / Pseudomonas infections",
+          "descricaoDose": "500 mg–1 g IV q6h (max 4 g/day or 50 mg/kg).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "ClCr 40–70: 500 mg q6–8h; ClCr 20–40: 250–500 mg q8–12h; ClCr <20: 250 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mild infections (UTI)",
+          "descricaoDose": "250–500 mg IV q6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250–500 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "ClCr 40–70: 500 mg q6–8h; ClCr 20–40: 250–500 mg q8–12h; ClCr <20: 250 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "500 mg–1 g IV 30–60 min before incision.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30–60 min before incision",
+            "ajusteRenal": "ClCr 40–70: 500 mg q6–8h; ClCr 20–40: 250–500 mg q8–12h; ClCr <20: 250 mg q12h; hemodialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric > 3 months",
+          "descricaoDose": "15–25 mg/kg IV q6h (60–100 mg/kg/day; max 4 g/day).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonate 1–4 weeks",
+          "descricaoDose": "25 mg/kg IV q6–8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6–8h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Carbapenem + renal dehydropeptidase inhibitor (cilastatin prevents renal degradation of imipenem); bactericidal – broad spectrum.",
+      "apresentacoes": [
+        { "forma": "Vial 500 mg/500 mg (imipenem/cilastatin) lyophilized", "obs": "Primaxin® – 1:1 ratio" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with 10 mL provided diluent", "concentracao": "" },
+        { "diluicao": "Dilute in 100 mL 0.9% saline or D5W", "concentracao": "For infusion" },
+        { "diluicao": "Doses ≤500 mg: infuse over 20–30 min", "concentracao": "IV" },
+        { "diluicao": "Doses >500 mg: infuse over 60 min", "concentracao": "IV" },
+        { "diluicao": "Stability per labeling after reconstitution", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Very broad spectrum: Gram+, Gram-, anaerobes, Pseudomonas. Does NOT cover: MRSA, Enterococcus faecium, Stenotrophomonas.",
+        "Cilastatin prevents renal degradation of imipenem (dehydropeptidase-I inhibitor).",
+        "Seizure risk: dose >50 mg/kg, renal impairment, CNS disease – use with caution.",
+        "Renal adjustment required: ClCr 40–70 → 500 mg q6–8h; ClCr 20–40 → 250–500 mg q8–12h; ClCr <20 → 250 mg q12h; hemodialysis: dose after session.",
+        "Lower anti-Pseudomonas activity than meropenem – prefer meropenem when Pseudomonas is target.",
+        "Avoid in meningitis (seizure risk, lower CNS penetration than meropenem)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function. Adjust dose/interval per ClCr.",
+        "renal": "ClCr 40–70: 500 mg q6–8h; ClCr 20–40: 250–500 mg q8–12h; ClCr <20: 250 mg q12h; hemodialysis: dose after session.",
+        "hepatico": "Predominantly renal excretion. No isolated hepatic adjustment per labeling."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Imipenem/Cilastatin – moderate (adult)",
+        "doseTexto": "500 mg IV q6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Imipenem/Cilastatin – severe/Pseudomonas (adult)",
+        "doseTexto": "500 mg–1 g IV q6h",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Imipenem/Cilastatin – UTI (adult)",
+        "doseTexto": "250–500 mg IV q6h",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Imipenem/Cilastatin – surgical prophylaxis",
+        "doseTexto": "500 mg–1 g IV 30–60 min before incision",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Imipenem/Cilastatin – pediatric > 3 months",
+        "doseTexto": "15–25 mg/kg IV q6h (max 4 g/day)",
+        "doseMin": 15,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Imipenem/Cilastatin – neonate 1–4 weeks",
+        "doseTexto": "25 mg/kg IV q6–8h",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Imipenem/Cilastatina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones moderadas",
+          "descricaoDose": "500 mg IV 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves / Pseudomonas",
+          "descricaoDose": "500 mg–1 g IV 6/6h (máx 4 g/día o 50 mg/kg).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones leves (ITU)",
+          "descricaoDose": "250–500 mg IV 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250–500 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "500 mg–1 g IV 30–60 min antes de la incisión.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes de la incisión",
+            "ajusteRenal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediátrico > 3 meses",
+          "descricaoDose": "15–25 mg/kg IV 6/6h (60–100 mg/kg/día; máx 4 g/día).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonato 1–4 semanas",
+          "descricaoDose": "25 mg/kg IV 6/6–8/8h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6–8/8h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Carbapenémico + inhibidor de la dehidropeptidasa renal (cilastatina evita degradación renal del imipenem); bactericida – espectro amplio.",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg/500 mg (imipenem/cilastatina) liofilizado", "obs": "Tienam® – proporción 1:1" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir en 10 mL de diluyente proporcionado", "concentracao": "" },
+        { "diluicao": "Diluir en 100 mL SF 0,9% o SG 5%", "concentracao": "Para perfusión" },
+        { "diluicao": "Dosis ≤500 mg: perfundir en 20–30 min", "concentracao": "IV" },
+        { "diluicao": "Dosis >500 mg: perfundir en 60 min", "concentracao": "IV" },
+        { "diluicao": "Estabilidad según ficha técnica tras reconstitución", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro muy amplio: Gram+, Gram-, anaerobios, Pseudomonas. NO cubre: MRSA, Enterococcus faecium, Stenotrophomonas.",
+        "Cilastatina evita degradación renal del imipenem (inhibidor dehidropeptidasa-I).",
+        "Riesgo de convulsiones: dosis >50 mg/kg, IR, lesión SNC – usar con precaución.",
+        "Ajuste renal obligatorio: ClCr 40–70 → 500 mg 6–8h; ClCr 20–40 → 250–500 mg 8–12h; ClCr <20 → 250 mg 12/12h; hemodiálisis: dosis tras sesión.",
+        "Menor actividad anti-Pseudomonas que meropenem – preferir meropenem si Pseudomonas es diana.",
+        "Evitar en meningitis (riesgo convulsión, penetración SNC inferior a meropenem)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal. Ajuste de dosis/intervalo según ClCr.",
+        "renal": "ClCr 40–70: 500 mg 6–8h; ClCr 20–40: 250–500 mg 8–12h; ClCr <20: 250 mg 12/12h; hemodiálisis: dosis tras sesión.",
+        "hepatico": "Excreción predominantemente renal. No se requiere ajuste hepático aislado según ficha técnica."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Imipenem/Cilastatina – moderadas (adulto)",
+        "doseTexto": "500 mg IV 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – graves/Pseudomonas (adulto)",
+        "doseTexto": "500 mg–1 g IV 6/6h",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – ITU (adulto)",
+        "doseTexto": "250–500 mg IV 6/6h",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – profilaxis quirúrgica",
+        "doseTexto": "500 mg–1 g IV 30–60 min antes de la incisión",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – pediátrico > 3 meses",
+        "doseTexto": "15–25 mg/kg IV 6/6h (máx 4 g/día)",
+        "doseMin": 15,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Imipenem/Cilastatina – neonato 1–4 semanas",
+        "doseTexto": "25 mg/kg IV 6/6–8/8h",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "亚胺培南/西司他丁",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "中度感染",
+          "descricaoDose": "500 mg 静注 每6小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "500 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 40–70：500 mg 每6–8h；ClCr 20–40：250–500 mg 每8–12h；ClCr <20：250 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "严重/铜绿感染",
+          "descricaoDose": "500 mg–1 g 静注 每6小时（最大4 g/日或50 mg/kg）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 40–70：500 mg 每6–8h；ClCr 20–40：250–500 mg 每8–12h；ClCr <20：250 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "轻度感染（尿路）",
+          "descricaoDose": "250–500 mg 静注 每6小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 250,
+            "doseMax": 500,
+            "doseMaxima": 500,
+            "doseFixa": "250–500 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 40–70：500 mg 每6–8h；ClCr 20–40：250–500 mg 每8–12h；ClCr <20：250 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "500 mg–1 g 静注 切皮前30–60分钟。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "切皮前30–60分钟",
+            "ajusteRenal": "ClCr 40–70：500 mg 每6–8h；ClCr 20–40：250–500 mg 每8–12h；ClCr <20：250 mg 每12h；血液透析：每次透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童 > 3月",
+          "descricaoDose": "15–25 mg/kg 静注 每6小时（60–100 mg/kg/日；最大4 g/日）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 25,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "新生儿 1–4周",
+          "descricaoDose": "25 mg/kg 静注 每6–8小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 25,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6–8小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "碳青霉烯类+肾脱氢肽酶抑制剂（西司他丁防止亚胺培南肾内降解）；杀菌，广谱。",
+      "apresentacoes": [
+        { "forma": "西林瓶 500 mg/500 mg（亚胺培南/西司他丁）冻干粉", "obs": "泰能® 1:1" }
+      ],
+      "preparo": [
+        { "diluicao": "用10 mL专用稀释液配制", "concentracao": "" },
+        { "diluicao": "稀释于100 mL生理盐水或5%葡萄糖", "concentracao": "用于输注" },
+        { "diluicao": "剂量≤500 mg：20–30分钟内输注", "concentracao": "静注" },
+        { "diluicao": "剂量>500 mg：60分钟内输注", "concentracao": "静注" },
+        { "diluicao": "配制后稳定性见说明书", "concentracao": "" }
+      ],
+      "observacoes": [
+        "谱很广：革兰阳性、阴性、厌氧菌、铜绿。不覆盖：MRSA、屎肠球菌、嗜麦芽窄食单胞菌。",
+        "西司他丁防止亚胺培南在肾内降解（脱氢肽酶I抑制剂）。",
+        "癫痫风险：剂量>50 mg/kg、肾功能不全、CNS病变时慎用。",
+        "必须肾调整：ClCr 40–70 → 500 mg 每6–8h；ClCr 20–40 → 250–500 mg 每8–12h；ClCr <20 → 250 mg 每12h；血透后给药。",
+        "抗铜绿活性弱于美罗培南，以铜绿为目标时优选美罗培南。",
+        "避免用于脑膜炎（癫痫风险、CNS穿透不如美罗培南）。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "用药前评估肾功能。按ClCr调整剂量/间隔。",
+        "renal": "ClCr 40–70：500 mg 每6–8h；ClCr 20–40：250–500 mg 每8–12h；ClCr <20：250 mg 每12h；血透后给药。",
+        "hepatico": "主要经肾排泄。说明书无需单独肝调整。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "亚胺培南/西司他丁 – 中度（成人）",
+        "doseTexto": "500 mg 静注 每6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "亚胺培南/西司他丁 – 严重/铜绿（成人）",
+        "doseTexto": "500 mg–1 g 静注 每6小时",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "亚胺培南/西司他丁 – 尿路（成人）",
+        "doseTexto": "250–500 mg 静注 每6小时",
+        "doseMin": 250,
+        "doseMax": 500,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "亚胺培南/西司他丁 – 手术预防",
+        "doseTexto": "500 mg–1 g 静注 切皮前30–60分钟",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "亚胺培南/西司他丁 – 儿童 > 3月",
+        "doseTexto": "15–25 mg/kg 静注 每6小时（最大4 g/日）",
+        "doseMin": 15,
+        "doseMax": 25,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "亚胺培南/西司他丁 – 新生儿1–4周",
+        "doseTexto": "25 mg/kg 静注 每6–8小时",
+        "doseMin": 25,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

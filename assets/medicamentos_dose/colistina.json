@@ -1,0 +1,522 @@
+{
+  "PT": {
+    "nome": "Colistina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose de ataque (obrigatória)",
+          "descricaoDose": "9 milhões UI IV dose única; iniciar manutenção 12h após",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "9.000.000 UI IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Manutenção (ClCr normal)",
+          "descricaoDose": "4,5 milhões UI IV 12/12h (iniciar 12h após ataque)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4.500.000 UI 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 12h",
+            "ajusteRenal": "ClCr 50-89: 4,5 M UI 12/12h; ClCr 30-49: 3,5 M UI 12/12h; ClCr 10-29: 2,5 M UI 12/12h. Dose de ataque obrigatória antes.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "75.000-150.000 UI/kg/dia IV dividido 8/8h (2-4 mg CMS/kg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 8h",
+            "ajusteRenal": "Ajustar por ClCr conforme protocolo pediátrico.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Polimixina (pró-droga – colistimetato de sódio)",
+      "apresentacoes": [
+        { "forma": "Frasco 1.000.000 UI CMS", "obs": "1 milhão UI CMS ≈ 80 mg CMS ≈ 30 mg CBA" },
+        { "forma": "Frasco 4.500.000 UI CMS", "obs": "—" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir em água estéril", "concentracao": "—" },
+        { "diluicao": "Diluir em 100-250 mL SF", "concentracao": "—" },
+        { "diluicao": "Infusão em 30-60 min", "concentracao": "—" }
+      ],
+      "observacoes": [
+        "Dose de ataque obrigatória (pró-droga, conversão lenta)",
+        "Espectro: P. aeruginosa MDR, Acinetobacter, K. pneumoniae KPC; não cobre Proteus, Serratia, Burkholderia, Gram+",
+        "Nefrotoxicidade 30-60%; ajustar por função renal",
+        "Neurotoxicidade: parestesias, bloqueio neuromuscular",
+        "Diferente da Polimixina B: requer dose de ataque e ajuste renal",
+        "Via inalatória disponível para VAP por MDR (1-2 M UI 8/8h nebulização)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mesma lógica ataque + manutenção; monitorar função renal e neurológica de perto.",
+        "renal": "ClCr 50-89: 4,5 M UI 12/12h; ClCr 30-49: 3,5 M UI 12/12h; ClCr 10-29: 2,5 M UI 12/12h. Dose de ataque obrigatória antes.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Colistina (ataque)",
+        "doseTexto": "9.000.000 UI IV dose única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "9.000.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Colistina (manutenção)",
+        "doseTexto": "4.500.000 UI IV 12/12h (ajustar por ClCr)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "4.500.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Colistina (pediátrico)",
+        "doseTexto": "2-4 mg/kg (75.000-150.000 UI/kg/dia) 8/8h",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Colistin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading dose (required)",
+          "descricaoDose": "9 million units IV single dose; start maintenance 12h after",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "9,000,000 units IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Maintenance (normal renal function)",
+          "descricaoDose": "4.5 million units IV q12h (start 12h after loading)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4,500,000 units q12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 12h",
+            "ajusteRenal": "ClCr 50-89: 4.5 M units q12h; ClCr 30-49: 3.5 M units q12h; ClCr 10-29: 2.5 M units q12h. Loading dose required first.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediatric",
+          "descricaoDose": "75,000-150,000 units/kg/day IV divided q8h (2-4 mg CMS/kg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "every 8h",
+            "ajusteRenal": "Adjust by ClCr per pediatric protocol.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Polymyxin (prodrug – colistimethate sodium)",
+      "apresentacoes": [
+        { "forma": "Vial 1,000,000 units CMS", "obs": "1 million units CMS ≈ 80 mg CMS ≈ 30 mg CBA" },
+        { "forma": "Vial 4,500,000 units CMS", "obs": "—" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with sterile water", "concentracao": "—" },
+        { "diluicao": "Dilute in 100-250 mL NS", "concentracao": "—" },
+        { "diluicao": "Infuse over 30-60 min", "concentracao": "—" }
+      ],
+      "observacoes": [
+        "Loading dose required (prodrug, slow conversion)",
+        "Spectrum: MDR P. aeruginosa, Acinetobacter, KPC K. pneumoniae; does not cover Proteus, Serratia, Burkholderia, Gram+",
+        "Nephrotoxicity 30-60%; adjust for renal function",
+        "Neurotoxicity: paresthesias, neuromuscular blockade",
+        "Unlike polymyxin B: requires loading dose and renal adjustment",
+        "Inhaled formulation available for MDR VAP (1-2 M units q8h nebulized)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Same loading + maintenance logic; monitor renal and neurologic function closely.",
+        "renal": "ClCr 50-89: 4.5 M units q12h; ClCr 30-49: 3.5 M units q12h; ClCr 10-29: 2.5 M units q12h. Loading dose required first.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Colistin (loading)",
+        "doseTexto": "9,000,000 units IV single dose",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "9,000,000 units",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Colistin (maintenance)",
+        "doseTexto": "4,500,000 units IV q12h (adjust by ClCr)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "4,500,000 units",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Colistin (pediatric)",
+        "doseTexto": "2-4 mg/kg (75,000-150,000 units/kg/day) q8h",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Colistina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis de ataque (obligatoria)",
+          "descricaoDose": "9 millones UI IV dosis única; iniciar mantenimiento 12 h después",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "9.000.000 UI IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Mantenimiento (ClCr normal)",
+          "descricaoDose": "4,5 millones UI IV 12/12 h (iniciar 12 h después del ataque)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4.500.000 UI 12/12 h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 12 h",
+            "ajusteRenal": "ClCr 50-89: 4,5 M UI 12/12 h; ClCr 30-49: 3,5 M UI 12/12 h; ClCr 10-29: 2,5 M UI 12/12 h. Dosis de ataque obligatoria antes.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico",
+          "descricaoDose": "75.000-150.000 UI/kg/día IV dividido 8/8 h (2-4 mg CMS/kg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 8 h",
+            "ajusteRenal": "Ajustar por ClCr según protocolo pediátrico.",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Polimixina (pró-fármaco – colistimetato sódico)",
+      "apresentacoes": [
+        { "forma": "Frasco 1.000.000 UI CMS", "obs": "1 millón UI CMS ≈ 80 mg CMS ≈ 30 mg CBA" },
+        { "forma": "Frasco 4.500.000 UI CMS", "obs": "—" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir en agua estéril", "concentracao": "—" },
+        { "diluicao": "Diluir en 100-250 mL SF", "concentracao": "—" },
+        { "diluicao": "Infusión en 30-60 min", "concentracao": "—" }
+      ],
+      "observacoes": [
+        "Dosis de ataque obligatoria (pró-fármaco, conversión lenta)",
+        "Espectro: P. aeruginosa MDR, Acinetobacter, K. pneumoniae KPC; no cubre Proteus, Serratia, Burkholderia, Gram+",
+        "Nefrotoxicidad 30-60%; ajustar por función renal",
+        "Neurotoxicidad: parestesias, bloqueo neuromuscular",
+        "Distinto de Polimixina B: requiere dosis de ataque y ajuste renal",
+        "Vía inhalatoria disponible para VAP por MDR (1-2 M UI 8/8 h nebulización)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Misma lógica ataque + mantenimiento; monitorizar función renal y neurológica de cerca.",
+        "renal": "ClCr 50-89: 4,5 M UI 12/12 h; ClCr 30-49: 3,5 M UI 12/12 h; ClCr 10-29: 2,5 M UI 12/12 h. Dosis de ataque obligatoria antes.",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Colistina (ataque)",
+        "doseTexto": "9.000.000 UI IV dosis única",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "9.000.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Colistina (mantenimiento)",
+        "doseTexto": "4.500.000 UI IV 12/12 h (ajustar por ClCr)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "4.500.000 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Colistina (pediátrico)",
+        "doseTexto": "2-4 mg/kg (75.000-150.000 UI/kg/día) 8/8 h",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "粘菌素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷剂量（必需）",
+          "descricaoDose": "900万单位 IV 单次；12小时后开始维持",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "9.000.000 单位 IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "维持（肾功能正常）",
+          "descricaoDose": "450万单位 IV 每12小时（负荷后12小时开始）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "UI",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4.500.000 单位 每12小时",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr 50-89: 450万单位 每12小时; ClCr 30-49: 350万单位 每12小时; ClCr 10-29: 250万单位 每12小时。需先予负荷剂量。",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "儿童",
+          "descricaoDose": "75.000-150.000 单位/kg/天 IV 分每8小时（2-4 mg CMS/kg/剂）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每8小时",
+            "ajusteRenal": "按儿童方案根据ClCr调整。",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "多粘菌素（前药–粘菌甲酸钠）",
+      "apresentacoes": [
+        { "forma": "瓶 1.000.000 单位 CMS", "obs": "100万单位 CMS ≈ 80 mg CMS ≈ 30 mg CBA" },
+        { "forma": "瓶 4.500.000 单位 CMS", "obs": "—" }
+      ],
+      "preparo": [
+        { "diluicao": "用无菌水复溶", "concentracao": "—" },
+        { "diluicao": "稀释于100-250 mL 生理盐水", "concentracao": "—" },
+        { "diluicao": "30-60分钟输注", "concentracao": "—" }
+      ],
+      "observacoes": [
+        "需负荷剂量（前药，转化慢）",
+        "谱：MDR铜绿假单胞菌、鲍曼不动杆菌、KPC肺炎克雷伯菌；不覆盖变形杆菌、沙雷菌、伯克霍尔德菌、革兰阳性菌",
+        "肾毒性30-60%；按肾功能调整",
+        "神经毒性：感觉异常、神经肌肉阻滞",
+        "与多粘菌素B不同：需负荷剂量及肾调整",
+        "MDR VAP可吸入给药（100-200万单位 每8小时雾化）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "同负荷+维持逻辑；密切监测肾功能及神经功能。",
+        "renal": "ClCr 50-89: 450万单位 每12小时; ClCr 30-49: 350万单位 每12小时; ClCr 10-29: 250万单位 每12小时。需先予负荷剂量。",
+        "hepatico": "NAO"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "粘菌素（负荷）",
+        "doseTexto": "900万单位 IV 单次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "9.000.000 单位",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "粘菌素（维持）",
+        "doseTexto": "450万单位 IV 每12小时（按ClCr调整）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "UI",
+        "decimais": 0,
+        "resultadoFixo": "4.500.000 单位",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "粘菌素（儿童）",
+        "doseTexto": "2-4 mg/kg（75.000-150.000 单位/kg/天）每8小时",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

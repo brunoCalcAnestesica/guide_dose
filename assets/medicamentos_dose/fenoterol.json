@@ -1,0 +1,490 @@
+{
+  "PT": {
+    "nome": "Fenoterol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Nebulização (adulto)",
+          "descricaoDose": "0,5-1 mg por nebulização a cada 4-6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "a cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulização (pediátrico)",
+          "descricaoDose": "0,05 mg/kg por nebulização (máx 0,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "a cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDI (bombinha)",
+          "descricaoDose": "1-2 jatos (100 mcg/jato) a cada 4-6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 jatos (100 mcg/jato)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "a cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Agonista beta-2 adrenérgico seletivo (SABA); broncodilatador de curta duração",
+      "apresentacoes": [
+        { "forma": "Solução inalatória 0,5 mg/mL", "obs": "Frasco 20 mL" },
+        { "forma": "Aerossol MDI 100 mcg/jato", "obs": "Berotec®, Fenotrate®" },
+        { "forma": "Solução injetável 0,05 mg/mL", "obs": "Uso hospitalar (tocolítico off-label)" }
+      ],
+      "preparo": [
+        { "diluicao": "Nebulização: 0,5-1 mL em 2-3 mL SF 0,9%", "concentracao": "nebulizar 5-15 min" },
+        { "diluicao": "MDI: 1-2 jatos com espaçador", "concentracao": "100 mcg/jato" }
+      ],
+      "observacoes": [
+        "Primeira linha em broncoespasmo agudo (asma, DPOC)",
+        "Início de ação: 5 min; pico 15-60 min; duração 3-6 h",
+        "Via inalatória preferencial - menos efeitos sistêmicos",
+        "Incompatível com soluções alcalinas",
+        "Efeitos adversos: taquicardia, tremor, hipocalemia em doses altas",
+        "Betabloqueadores antagonizam o efeito"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares.",
+        "renal": "Não requer ajuste em uso inalatório. Cautela em insuficiência renal grave se uso repetido ou sistêmico.",
+        "hepatico": "Uso inalatório não exige ajuste. Monitorar em hepatopatia grave se uso repetido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenoterol - Nebulização (adulto)",
+        "doseTexto": "0,5-1 mg a cada 4-6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenoterol - Nebulização (pediátrico)",
+        "doseTexto": "0,05 mg/kg (máx 0,5 mg)",
+        "doseMin": 0.05,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fenoterol - MDI",
+        "doseTexto": "1-2 jatos (100 mcg/jato) a cada 4-6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "jatos",
+        "decimais": 0,
+        "resultadoFixo": "1-2 jatos",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Fenoterol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Nebulization (adult)",
+          "descricaoDose": "0.5-1 mg per nebulization every 4-6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "every 4-6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Nebulization (pediatric)",
+          "descricaoDose": "0.05 mg/kg per nebulization (max 0.5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "every 4-6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "MDI (inhaler)",
+          "descricaoDose": "1-2 puffs (100 mcg/puff) every 4-6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 puffs (100 mcg/puff)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "every 4-6 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Short-acting beta-2 adrenergic agonist (SABA); bronchodilator",
+      "apresentacoes": [
+        { "forma": "Nebulizer solution 0.5 mg/mL", "obs": "20 mL vial" },
+        { "forma": "Metered-dose inhaler 100 mcg/puff", "obs": "Berotec®, Fenotil®" },
+        { "forma": "Injectable solution 0.05 mg/mL", "obs": "Hospital use (tocolytic off-label)" }
+      ],
+      "preparo": [
+        { "diluicao": "Nebulization: 0.5-1 mL in 2-3 mL saline", "concentracao": "nebulize 5-15 min" },
+        { "diluicao": "MDI: 1-2 puffs with spacer", "concentracao": "100 mcg/puff" }
+      ],
+      "observacoes": [
+        "First line in acute bronchospasm (asthma, COPD)",
+        "Onset: 5 min; peak 15-60 min; duration 3-6 h",
+        "Inhalation route preferred - fewer systemic effects",
+        "Incompatible with alkaline solutions",
+        "Adverse effects: tachycardia, tremor, hypokalemia at high doses",
+        "Beta-blockers antagonize effect"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular effects.",
+        "renal": "No adjustment for inhaled use. Caution in severe renal impairment with repeated or systemic use.",
+        "hepatico": "Inhaled use does not require adjustment. Monitor in severe liver disease with repeated use."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenoterol - Nebulization (adult)",
+        "doseTexto": "0.5-1 mg every 4-6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fenoterol - Nebulization (pediatric)",
+        "doseTexto": "0.05 mg/kg (max 0.5 mg)",
+        "doseMin": 0.05,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Fenoterol - MDI",
+        "doseTexto": "1-2 puffs (100 mcg/puff) every 4-6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "jatos",
+        "decimais": 0,
+        "resultadoFixo": "1-2 puffs",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fenoterol",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Nebulización (adulto)",
+          "descricaoDose": "0,5-1 mg por nebulización cada 4-6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalatoria",
+            "intervalo": "cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulización (pediátrico)",
+          "descricaoDose": "0,05 mg/kg por nebulización (máx 0,5 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalatoria",
+            "intervalo": "cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDI (inhalador)",
+          "descricaoDose": "1-2 disparos (100 mcg/disparo) cada 4-6 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 disparos (100 mcg/disparo)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalatoria",
+            "intervalo": "cada 4-6 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Agonista beta-2 adrenérgico selectivo (SABA); broncodilatador de corta duración",
+      "apresentacoes": [
+        { "forma": "Solución inhalatoria 0,5 mg/mL", "obs": "Frasco 20 mL" },
+        { "forma": "Aerosol MDI 100 mcg/disparo", "obs": "Berotec®, Fenotil®" },
+        { "forma": "Solución inyectable 0,05 mg/mL", "obs": "Uso hospitalario (tocolítico off-label)" }
+      ],
+      "preparo": [
+        { "diluicao": "Nebulización: 0,5-1 mL en 2-3 mL SF 0,9%", "concentracao": "nebulizar 5-15 min" },
+        { "diluicao": "MDI: 1-2 disparos con espaciador", "concentracao": "100 mcg/disparo" }
+      ],
+      "observacoes": [
+        "Primera línea en broncoespasmo agudo (asma, EPOC)",
+        "Inicio de acción: 5 min; pico 15-60 min; duración 3-6 h",
+        "Vía inhalatoria preferente - menos efectos sistémicos",
+        "Incompatible con soluciones alcalinas",
+        "Efectos adversos: taquicardia, temblor, hipocalemia a dosis altas",
+        "Los betabloqueadores antagonizan el efecto"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares.",
+        "renal": "No requiere ajuste en uso inhalatorio. Precaución en insuficiencia renal grave con uso repetido o sistémico.",
+        "hepatico": "El uso inhalatorio no exige ajuste. Monitorizar en hepatopatía grave con uso repetido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenoterol - Nebulización (adulto)",
+        "doseTexto": "0,5-1 mg cada 4-6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenoterol - Nebulización (pediátrico)",
+        "doseTexto": "0,05 mg/kg (máx 0,5 mg)",
+        "doseMin": 0.05,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fenoterol - MDI",
+        "doseTexto": "1-2 disparos (100 mcg/disparo) cada 4-6 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "jatos",
+        "decimais": 0,
+        "resultadoFixo": "1-2 disparos",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "非诺特罗",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "雾化（成人）",
+          "descricaoDose": "每次0.5-1 mg雾化，每4-6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "雾化（儿童）",
+          "descricaoDose": "0.05 mg/kg/次雾化（最大0.5 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDI（定量吸入器）",
+          "descricaoDose": "1-2揿（100 mcg/揿）每4-6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2揿（100 mcg/揿）",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "短效β2受体激动剂（SABA）；短效支气管扩张剂",
+      "apresentacoes": [
+        { "forma": "雾化溶液 0.5 mg/mL", "obs": "20 mL瓶" },
+        { "forma": "定量吸入器 100 mcg/揿", "obs": "Berotec®" },
+        { "forma": "注射剂 0.05 mg/mL", "obs": "医院用（宫缩抑制剂超说明书）" }
+      ],
+      "preparo": [
+        { "diluicao": "雾化：0.5-1 mL加2-3 mL生理盐水", "concentracao": "雾化5-15分钟" },
+        { "diluicao": "MDI：1-2揿用储雾罐", "concentracao": "100 mcg/揿" }
+      ],
+      "observacoes": [
+        "急性支气管痉挛（哮喘、COPD）一线用药",
+        "起效5分钟；达峰15-60分钟；维持3-6小时",
+        "首选吸入途径，全身作用少",
+        "与碱性溶液不相容",
+        "高剂量不良反应：心动过速、震颤、低钾",
+        "β受体阻滞剂拮抗本品作用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测心血管效应。",
+        "renal": "吸入用药无需调整。严重肾衰竭重复或全身用药时慎用。",
+        "hepatico": "吸入用药无需调整。严重肝病重复用药时监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "非诺特罗 - 雾化（成人）",
+        "doseTexto": "0.5-1 mg 每4-6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "非诺特罗 - 雾化（儿童）",
+        "doseTexto": "0.05 mg/kg（最大0.5 mg）",
+        "doseMin": 0.05,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "非诺特罗 - MDI",
+        "doseTexto": "1-2揿（100 mcg/揿）每4-6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "jatos",
+        "decimais": 0,
+        "resultadoFixo": "1-2揿",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

@@ -1,0 +1,718 @@
+{
+  "PT": {
+    "nome": "Protamina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversão heparina não fracionada (HNF)",
+          "descricaoDose": "1 mg protamina neutraliza ~100 UI heparina (últimas 2 h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 mg = 100 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pós-cirurgia cardiovascular (CEC)",
+          "descricaoDose": "Dose heparina total (UI) ÷ 100 = mg protamina",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Conforme heparina",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia por heparina",
+          "descricaoDose": "Ajuste pelo tempo: <30 min 100%, 30-60 min 50%, 60-120 min 25%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Ajustar pelo tempo",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversão parcial HBPM (enoxaparina)",
+          "descricaoDose": "1 mg protamina neutraliza 1 mg enoxaparina (60-70% efeito anti-Xa)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 mg = 1 mg HBPM",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversão heparina pediátrica",
+          "descricaoDose": "1 mg neutraliza ~100 UI heparina; dose máx 50 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "UI heparina ÷ 100 = mg (máx 50 mg)",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cálculo dose pediátrica",
+          "descricaoDose": "Dose heparina (UI nas últimas 2 h) ÷ 100 = mg protamina",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Conforme heparina",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antagonista da heparina – Agente neutralizante de anticoagulante",
+      "apresentacoes": [
+        { "forma": "Ampola 50 mg/5 mL (10 mg/mL)", "obs": "Solução injetável" },
+        { "forma": "Frasco-ampola 250 mg/25 mL (10 mg/mL)", "obs": "Cirurgia cardíaca" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg em 50 mL SF 0,9%", "concentracao": "1 mg/mL (infusão lenta)" },
+        { "diluicao": "50 mg em 100 mL SF 0,9%", "concentracao": "0,5 mg/mL (infusão muito lenta)" },
+        { "diluicao": "Uso direto da ampola", "concentracao": "Diluir em soro para controle de velocidade" }
+      ],
+      "observacoes": [
+        "Antagonista específico da heparina – reverte anticoagulação",
+        "Onset imediato (≤5 min). Duração: 2 horas",
+        "ATENÇÃO: Administrar IV lento (máx 5 mg/min, total ≥10 min)",
+        "Dose máxima: 50 mg/dose (doses maiores: fracionar)",
+        "RISCO: Hipotensão, bradicardia, anafilaxia (derivado peixe)",
+        "Contraindicado: alergia a peixe, uso prévio de insulina NPH/protamina. Ter adrenalina, anti-histamínico e corticoide disponíveis. Excesso: efeito anticoagulante paradoxal."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares.",
+        "renal": "Não requer ajuste. Usar com cautela em insuficiência renal terminal.",
+        "hepatico": "Não requer ajuste. Usar com cautela em disfunção hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Protamina (adulto)",
+        "doseTexto": "Reversão HNF: 1 mg = 100 UI heparina",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg = 100 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Protamina (pediátrico)",
+        "doseTexto": "UI heparina ÷ 100 = mg; máx 50 mg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "Conforme heparina (máx 50 mg)",
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Protamina – HBPM",
+        "doseTexto": "1 mg neutraliza 1 mg enoxaparina",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg = 1 mg HBPM",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Protamine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversal of unfractionated heparin (UFH)",
+          "descricaoDose": "1 mg protamine neutralizes ~100 units heparin (last 2 h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 mg = 100 units",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Post cardiovascular surgery (CPB)",
+          "descricaoDose": "Total heparin (units) ÷ 100 = mg protamine",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Per heparin dose",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Heparin-induced bleeding",
+          "descricaoDose": "Adjust by time: <30 min 100%, 30-60 min 50%, 60-120 min 25%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Adjust by time",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Partial LMWH reversal (enoxaparin)",
+          "descricaoDose": "1 mg protamine neutralizes 1 mg enoxaparin (60-70% anti-Xa effect)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 mg = 1 mg LMWH",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric heparin reversal",
+          "descricaoDose": "1 mg neutralizes ~100 units heparin; max dose 50 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "Heparin units ÷ 100 = mg (max 50 mg)",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric dose calculation",
+          "descricaoDose": "Heparin dose (units in last 2 h) ÷ 100 = mg protamine",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Per heparin dose",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Heparin antagonist – Anticoagulant neutralizing agent",
+      "apresentacoes": [
+        { "forma": "Ampule 50 mg/5 mL (10 mg/mL)", "obs": "Injectable solution" },
+        { "forma": "Vial 250 mg/25 mL (10 mg/mL)", "obs": "Cardiac surgery" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg in 50 mL NS 0.9%", "concentracao": "1 mg/mL (slow infusion)" },
+        { "diluicao": "50 mg in 100 mL NS 0.9%", "concentracao": "0.5 mg/mL (very slow infusion)" },
+        { "diluicao": "Use directly from ampule", "concentracao": "Dilute in saline for rate control" }
+      ],
+      "observacoes": [
+        "Specific heparin antagonist – reverses anticoagulation",
+        "Onset immediate (≤5 min). Duration: 2 hours",
+        "CAUTION: Administer IV slowly (max 5 mg/min, total ≥10 min)",
+        "Max dose: 50 mg per dose (larger doses: fractionate)",
+        "RISK: Hypotension, bradycardia, anaphylaxis (fish-derived)",
+        "Contraindicated: fish allergy, prior NPH/protamine insulin. Have epinephrine, antihistamine, corticosteroid available. Excess: paradoxical anticoagulant effect."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular effects.",
+        "renal": "No adjustment required. Use with caution in end-stage renal disease.",
+        "hepatico": "No adjustment required. Use with caution in severe hepatic dysfunction."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Protamine (adult)",
+        "doseTexto": "UFH reversal: 1 mg = 100 units heparin",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg = 100 units",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Protamine (pediatric)",
+        "doseTexto": "Heparin units ÷ 100 = mg; max 50 mg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "Per heparin (max 50 mg)",
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Protamine – LMWH",
+        "doseTexto": "1 mg neutralizes 1 mg enoxaparin",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg = 1 mg LMWH",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Protamina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversión heparina no fraccionada (HNF)",
+          "descricaoDose": "1 mg protamina neutraliza ~100 UI heparina (últimas 2 h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 mg = 100 UI",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Poscirugía cardiovascular (CEC)",
+          "descricaoDose": "Dosis heparina total (UI) ÷ 100 = mg protamina",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Según heparina",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia por heparina",
+          "descricaoDose": "Ajustar por tiempo: <30 min 100%, 30-60 min 50%, 60-120 min 25%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Ajustar por tiempo",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversión parcial HBPM (enoxaparina)",
+          "descricaoDose": "1 mg protamina neutraliza 1 mg enoxaparina (60-70% efecto anti-Xa)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 mg = 1 mg HBPM",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversión heparina pediátrica",
+          "descricaoDose": "1 mg neutraliza ~100 UI heparina; dosis máx 50 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "UI heparina ÷ 100 = mg (máx 50 mg)",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cálculo dosis pediátrica",
+          "descricaoDose": "Dosis heparina (UI en últimas 2 h) ÷ 100 = mg protamina",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "Según heparina",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antagonista de la heparina – Agente neutralizante del anticoagulante",
+      "apresentacoes": [
+        { "forma": "Ampolla 50 mg/5 mL (10 mg/mL)", "obs": "Solución inyectable" },
+        { "forma": "Frasco 250 mg/25 mL (10 mg/mL)", "obs": "Cirugía cardíaca" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg en 50 mL SF 0,9%", "concentracao": "1 mg/mL (infusión lenta)" },
+        { "diluicao": "50 mg en 100 mL SF 0,9%", "concentracao": "0,5 mg/mL (infusión muy lenta)" },
+        { "diluicao": "Uso directo de ampolla", "concentracao": "Diluir en suero para control de velocidad" }
+      ],
+      "observacoes": [
+        "Antagonista específico de la heparina – revierte anticoagulación",
+        "Inicio inmediato (≤5 min). Duración: 2 horas",
+        "ATENCIÓN: Administrar IV lento (máx 5 mg/min, total ≥10 min)",
+        "Dosis máxima: 50 mg/dosis (dosis mayores: fraccionar)",
+        "RIESGO: Hipotensión, bradicardia, anafilaxia (derivado de pez)",
+        "Contraindicado: alergia a pescado, uso previo de insulina NPH/protamina. Tener adrenalina, antihistamínico y corticoide disponibles. Exceso: efecto anticoagulante paradójico."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares.",
+        "renal": "No requiere ajuste. Usar con precaución en insuficiencia renal terminal.",
+        "hepatico": "No requiere ajuste. Usar con precaución en disfunción hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Protamina (adulto)",
+        "doseTexto": "Reversión HNF: 1 mg = 100 UI heparina",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg = 100 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Protamina (pediátrico)",
+        "doseTexto": "UI heparina ÷ 100 = mg; máx 50 mg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "Según heparina (máx 50 mg)",
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Protamina – HBPM",
+        "doseTexto": "1 mg neutraliza 1 mg enoxaparina",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg = 1 mg HBPM",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "鱼精蛋白",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "普通肝素 (UFH) 逆转",
+          "descricaoDose": "1 mg 鱼精蛋白中和约 100 单位肝素（最近2小时内）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 mg = 100 单位",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "心血管术后 (CEC)",
+          "descricaoDose": "肝素总量（单位）÷ 100 = 鱼精蛋白 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "按肝素剂量",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "肝素所致出血",
+          "descricaoDose": "按时间调整：<30分钟100%，30-60分钟50%，60-120分钟25%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "按时间调整",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "低分子肝素部分逆转（依诺肝素）",
+          "descricaoDose": "1 mg 鱼精蛋白中和 1 mg 依诺肝素（60-70% 抗Xa 效应）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 mg = 1 mg 低分子肝素",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童肝素逆转",
+          "descricaoDose": "1 mg 中和约 100 单位肝素；最大剂量 50 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 50,
+            "doseFixa": "肝素单位 ÷ 100 = mg（最大 50 mg）",
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童剂量计算",
+          "descricaoDose": "肝素剂量（最近2小时内单位）÷ 100 = 鱼精蛋白 mg",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "按肝素剂量",
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "肝素拮抗剂 – 抗凝药中和剂",
+      "apresentacoes": [
+        { "forma": "安瓿 50 mg/5 mL (10 mg/mL)", "obs": "注射液" },
+        { "forma": "瓶 250 mg/25 mL (10 mg/mL)", "obs": "心脏手术" }
+      ],
+      "preparo": [
+        { "diluicao": "50 mg 溶于 50 mL 生理盐水 0.9%", "concentracao": "1 mg/mL（慢速输注）" },
+        { "diluicao": "50 mg 溶于 100 mL 生理盐水 0.9%", "concentracao": "0.5 mg/mL（极慢输注）" },
+        { "diluicao": "安瓿直接使用", "concentracao": "可稀释于生理盐水以控制速度" }
+      ],
+      "observacoes": [
+        "肝素特异性拮抗剂 – 逆转抗凝",
+        "起效立即（≤5 分钟）。持续时间：2 小时",
+        "注意：静脉缓慢给药（最大 5 mg/分钟，总时间 ≥10 分钟）",
+        "最大剂量：50 mg/次（更大剂量：分次给药）",
+        "风险：低血压、心动过缓、过敏（鱼源性）",
+        "禁忌：鱼过敏、既往 NPH/鱼精蛋白胰岛素使用。备好肾上腺素、抗组胺药、皮质类固醇。过量可产生反常抗凝效应。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。监测心血管效应。",
+        "renal": "无需调整。终末期肾病慎用。",
+        "hepatico": "无需调整。严重肝功能障碍慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "鱼精蛋白（成人）",
+        "doseTexto": "普通肝素逆转：1 mg = 100 单位肝素",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg = 100 单位",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "鱼精蛋白（儿童）",
+        "doseTexto": "肝素单位 ÷ 100 = mg；最大 50 mg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "按肝素（最大 50 mg）",
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "鱼精蛋白 – 低分子肝素",
+        "doseTexto": "1 mg 中和 1 mg 依诺肝素",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 mg = 1 mg 低分子肝素",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

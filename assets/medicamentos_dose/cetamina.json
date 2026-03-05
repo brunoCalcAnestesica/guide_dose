@@ -1,0 +1,1118 @@
+{
+  "PT": {
+    "nome": "Cetamina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução anestésica IV",
+          "descricaoDose": "1-2 mg/kg IV lento (30-60s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IH grave"
+          }
+        },
+        {
+          "titulo": "Indução anestésica IM",
+          "descricaoDose": "4-6 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IH grave"
+          }
+        },
+        {
+          "titulo": "Sedação procedimentos",
+          "descricaoDose": "0,25-0,5 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IH grave"
+          }
+        },
+        {
+          "titulo": "Analgesia subanestésica",
+          "descricaoDose": "0,1-0,3 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única ou seguida de infusão",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IH grave"
+          }
+        },
+        {
+          "titulo": "Infusão manutenção",
+          "descricaoDose": "0,5-2 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IH grave"
+          }
+        },
+        {
+          "titulo": "Indução pediátrica IV",
+          "descricaoDose": "1-2 mg/kg IV lento",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IH grave"
+          }
+        },
+        {
+          "titulo": "Indução pediátrica IM",
+          "descricaoDose": "4-6 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IH grave"
+          }
+        },
+        {
+          "titulo": "Sedação pediátrica",
+          "descricaoDose": "0,5-1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IH grave"
+          }
+        },
+        {
+          "titulo": "Infusão pediátrica",
+          "descricaoDose": "0,5-1,5 mg/kg/h IV contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 1.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em IH grave"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2.0 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1.5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100mg em 50mL SF 0,9% (2 mg/mL)", "valor": 2 },
+            { "rotulo": "50mg em 50mL SF 0,9% (1 mg/mL)", "valor": 1 },
+            { "rotulo": "50mg em 100mL SF 0,9% (0,5 mg/mL)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Anestésico dissociativo - Antagonista NMDA",
+      "apresentacoes": [
+        { "forma": "Ampola 500mg/10mL", "obs": "50 mg/mL" },
+        { "forma": "Ampola 100mg/2mL", "obs": "50 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "100mg + 50mL SF", "concentracao": "2 mg/mL" },
+        { "diluicao": "50mg + 50mL SF", "concentracao": "1 mg/mL" },
+        { "diluicao": "50mg + 100mL SF", "concentracao": "0,5 mg/mL" },
+        { "diluicao": "Bolus: puro da ampola", "concentracao": "50 mg/mL (IV lento, IM ou SC)" }
+      ],
+      "observacoes": [
+        "Mantém reflexos de VA, PA e drive respiratório",
+        "Início IV: 30-60s | IM: 3-5min | Duração: 10-20min",
+        "Emergence delirium - considerar BZD profilático",
+        "Hipersalivação - considerar atropina ou glicopirrolato",
+        "CI: HAS severa, PIC elevada, glaucoma, psicose ativa",
+        "Broncodilatador potente - útil em asma/broncoespasmo"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Considerar doses menores pelo maior risco de emergence delirium.",
+        "renal": "Não requer ajuste em DRC leve a moderada. Cautela em DRC grave pelo acúmulo de norketamina.",
+        "hepatico": "Usar com cautela em insuficiência hepática moderada a grave. Reduzir dose e prolongar intervalos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cetamina IV Indução (adulto)",
+        "doseTexto": "1-2 mg/kg IV lento",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cetamina IV Indução (pediátrico)",
+        "doseTexto": "1-2 mg/kg IV lento",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Cetamina IM Indução (adulto)",
+        "doseTexto": "4-6 mg/kg IM",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cetamina Sedação (adulto)",
+        "doseTexto": "0,25-0,5 mg/kg IV",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ketamine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "IV Anesthetic Induction",
+          "descricaoDose": "1-2 mg/kg IV slow push (30-60s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "IM Anesthetic Induction",
+          "descricaoDose": "4-6 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Procedural Sedation",
+          "descricaoDose": "0.25-0.5 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Subanesthetic Analgesia",
+          "descricaoDose": "0.1-0.3 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose or followed by infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Maintenance Infusion",
+          "descricaoDose": "0.5-2 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric IV Induction",
+          "descricaoDose": "1-2 mg/kg IV slow push",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric IM Induction",
+          "descricaoDose": "4-6 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric Sedation",
+          "descricaoDose": "0.5-1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric Infusion",
+          "descricaoDose": "0.5-1.5 mg/kg/h IV continuous",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 1.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2.0 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1.5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100mg in 50mL NS (2 mg/mL)", "valor": 2 },
+            { "rotulo": "50mg in 50mL NS (1 mg/mL)", "valor": 1 },
+            { "rotulo": "50mg in 100mL NS (0.5 mg/mL)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Dissociative Anesthetic - NMDA Antagonist",
+      "apresentacoes": [
+        { "forma": "Vial 500mg/10mL", "obs": "50 mg/mL" },
+        { "forma": "Vial 100mg/2mL", "obs": "50 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "100mg + 50mL NS", "concentracao": "2 mg/mL" },
+        { "diluicao": "50mg + 50mL NS", "concentracao": "1 mg/mL" },
+        { "diluicao": "50mg + 100mL NS", "concentracao": "0.5 mg/mL" },
+        { "diluicao": "Bolus: undiluted from vial", "concentracao": "50 mg/mL (slow IV, IM or SC)" }
+      ],
+      "observacoes": [
+        "Maintains airway reflexes, BP and respiratory drive",
+        "Onset IV: 30-60s | IM: 3-5min | Duration: 10-20min",
+        "Emergence delirium - consider prophylactic BZD",
+        "Hypersalivation - consider atropine or glycopyrrolate",
+        "CI: Severe HTN, elevated ICP, glaucoma, active psychosis",
+        "Potent bronchodilator - useful in asthma/bronchospasm"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Consider lower doses due to increased risk of emergence delirium.",
+        "renal": "No adjustment in mild to moderate CKD. Caution in severe CKD due to norketamine accumulation.",
+        "hepatico": "Use with caution in moderate to severe hepatic impairment. Reduce dose and prolong intervals."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ketamine IV Induction (adult)",
+        "doseTexto": "1-2 mg/kg IV slow push",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ketamine IV Induction (pediatric)",
+        "doseTexto": "1-2 mg/kg IV slow push",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Ketamine IM Induction (adult)",
+        "doseTexto": "4-6 mg/kg IM",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ketamine Sedation (adult)",
+        "doseTexto": "0.25-0.5 mg/kg IV",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Cetamina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción anestésica IV",
+          "descricaoDose": "1-2 mg/kg IV lento (30-60s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IH grave"
+          }
+        },
+        {
+          "titulo": "Inducción anestésica IM",
+          "descricaoDose": "4-6 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IH grave"
+          }
+        },
+        {
+          "titulo": "Sedación procedimientos",
+          "descricaoDose": "0,25-0,5 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir si necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IH grave"
+          }
+        },
+        {
+          "titulo": "Analgesia subanestésica",
+          "descricaoDose": "0,1-0,3 mg/kg IV bolus",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única o seguida de infusión",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IH grave"
+          }
+        },
+        {
+          "titulo": "Infusión mantenimiento",
+          "descricaoDose": "0,5-2 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IH grave"
+          }
+        },
+        {
+          "titulo": "Inducción pediátrica IV",
+          "descricaoDose": "1-2 mg/kg IV lento",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IH grave"
+          }
+        },
+        {
+          "titulo": "Inducción pediátrica IM",
+          "descricaoDose": "4-6 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IH grave"
+          }
+        },
+        {
+          "titulo": "Sedación pediátrica",
+          "descricaoDose": "0,5-1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir si necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IH grave"
+          }
+        },
+        {
+          "titulo": "Infusión pediátrica",
+          "descricaoDose": "0,5-1,5 mg/kg/h IV continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 1.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en IH grave"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2.0 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1.5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100mg en 50mL SSF (2 mg/mL)", "valor": 2 },
+            { "rotulo": "50mg en 50mL SSF (1 mg/mL)", "valor": 1 },
+            { "rotulo": "50mg en 100mL SSF (0,5 mg/mL)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Anestésico disociativo - Antagonista NMDA",
+      "apresentacoes": [
+        { "forma": "Ampolla 500mg/10mL", "obs": "50 mg/mL" },
+        { "forma": "Ampolla 100mg/2mL", "obs": "50 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "100mg + 50mL SSF", "concentracao": "2 mg/mL" },
+        { "diluicao": "50mg + 50mL SSF", "concentracao": "1 mg/mL" },
+        { "diluicao": "50mg + 100mL SSF", "concentracao": "0,5 mg/mL" },
+        { "diluicao": "Bolus: puro de la ampolla", "concentracao": "50 mg/mL (IV lento, IM o SC)" }
+      ],
+      "observacoes": [
+        "Mantiene reflejos de VA, PA y drive respiratorio",
+        "Inicio IV: 30-60s | IM: 3-5min | Duración: 10-20min",
+        "Delirio de emergencia - considerar BZD profiláctico",
+        "Hipersalivación - considerar atropina o glicopirrolato",
+        "CI: HTA severa, PIC elevada, glaucoma, psicosis activa",
+        "Broncodilatador potente - útil en asma/broncoespasmo"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Considerar dosis menores por mayor riesgo de delirio de emergencia.",
+        "renal": "No requiere ajuste en ERC leve a moderada. Precaución en ERC grave por acumulación de norketamina.",
+        "hepatico": "Usar con precaución en insuficiencia hepática moderada a grave. Reducir dosis y prolongar intervalos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cetamina IV Inducción (adulto)",
+        "doseTexto": "1-2 mg/kg IV lento",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cetamina IV Inducción (pediátrico)",
+        "doseTexto": "1-2 mg/kg IV lento",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Cetamina IM Inducción (adulto)",
+        "doseTexto": "4-6 mg/kg IM",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cetamina Sedación (adulto)",
+        "doseTexto": "0,25-0,5 mg/kg IV",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氯胺酮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "静脉麻醉诱导",
+          "descricaoDose": "1-2 mg/kg 缓慢静注 (30-60秒)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时谨慎使用"
+          }
+        },
+        {
+          "titulo": "肌注麻醉诱导",
+          "descricaoDose": "4-6 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时谨慎使用"
+          }
+        },
+        {
+          "titulo": "操作镇静",
+          "descricaoDose": "0.25-0.5 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.25,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时重复",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时谨慎使用"
+          }
+        },
+        {
+          "titulo": "亚麻醉镇痛",
+          "descricaoDose": "0.1-0.3 mg/kg IV 推注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次或后续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时谨慎使用"
+          }
+        },
+        {
+          "titulo": "维持输注",
+          "descricaoDose": "0.5-2 mg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时谨慎使用"
+          }
+        },
+        {
+          "titulo": "儿童静脉诱导",
+          "descricaoDose": "1-2 mg/kg 缓慢静注",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时谨慎使用"
+          }
+        },
+        {
+          "titulo": "儿童肌注诱导",
+          "descricaoDose": "4-6 mg/kg IM",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时谨慎使用"
+          }
+        },
+        {
+          "titulo": "儿童镇静",
+          "descricaoDose": "0.5-1 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "必要时重复",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时谨慎使用"
+          }
+        },
+        {
+          "titulo": "儿童输注",
+          "descricaoDose": "0.5-1.5 mg/kg/h IV 持续",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 0.5,
+            "doseMax": 1.5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时谨慎使用"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 2.0 },
+          "pediatrico": { "doseMin": 0.5, "doseMax": 1.5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100mg 溶于 50mL NS (2 mg/mL)", "valor": 2 },
+            { "rotulo": "50mg 溶于 50mL NS (1 mg/mL)", "valor": 1 },
+            { "rotulo": "50mg 溶于 100mL NS (0.5 mg/mL)", "valor": 0.5 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "解离性麻醉剂 - NMDA拮抗剂",
+      "apresentacoes": [
+        { "forma": "安瓿 500mg/10mL", "obs": "50 mg/mL" },
+        { "forma": "安瓿 100mg/2mL", "obs": "50 mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "100mg + 50mL NS", "concentracao": "2 mg/mL" },
+        { "diluicao": "50mg + 50mL NS", "concentracao": "1 mg/mL" },
+        { "diluicao": "50mg + 100mL NS", "concentracao": "0.5 mg/mL" },
+        { "diluicao": "推注：安瓿原液", "concentracao": "50 mg/mL (缓慢IV、IM或SC)" }
+      ],
+      "observacoes": [
+        "保持气道反射、血压和呼吸驱动",
+        "起效 IV: 30-60秒 | IM: 3-5分钟 | 持续: 10-20分钟",
+        "苏醒期谵妄 - 考虑预防性苯二氮卓类",
+        "唾液分泌增多 - 考虑阿托品或格隆溴铵",
+        "禁忌：严重高血压、颅内压升高、青光眼、活动性精神病",
+        "强效支气管扩张剂 - 适用于哮喘/支气管痉挛"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。考虑较低剂量，因苏醒期谵妄风险增加。",
+        "renal": "轻中度CKD无需调整。严重CKD时谨慎，因去甲氯胺酮蓄积。",
+        "hepatico": "中重度肝功能不全时谨慎使用。减少剂量并延长间隔。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氯胺酮 IV 诱导 (成人)",
+        "doseTexto": "1-2 mg/kg 缓慢静注",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯胺酮 IV 诱导 (儿童)",
+        "doseTexto": "1-2 mg/kg 缓慢静注",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "氯胺酮 IM 诱导 (成人)",
+        "doseTexto": "4-6 mg/kg IM",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯胺酮 镇静 (成人)",
+        "doseTexto": "0.25-0.5 mg/kg IV",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

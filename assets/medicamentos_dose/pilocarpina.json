@@ -1,0 +1,702 @@
+{
+  "PT": {
+    "nome": "Pilocarpina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Glaucoma de ângulo fechado agudo",
+          "descricaoDose": "1-2 gotas colírio 2-4% a cada 5-10 min até controle da PIO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 gotas (2-4%)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Oftálmico",
+            "intervalo": "a cada 5-10 min até controle",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Glaucoma de ângulo aberto (manutenção)",
+          "descricaoDose": "1-2 gotas solução 1-4% 3-4x/dia no olho afetado",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 gotas 3-4x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Oftálmico",
+            "intervalo": "3-4x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Xerostomia (Síndrome de Sjögren / pós-radioterapia)",
+          "descricaoDose": "5 mg VO 3-4x/dia. Máx 30 mg/dia. Iniciar com 5 mg 3x/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": "5 mg 3-4x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3-4x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Uso oral: reduzir dose inicial em hepatopatas"
+          }
+        },
+        {
+          "titulo": "Midríase reversa (antagonizar midriáticos)",
+          "descricaoDose": "1-2 gotas colírio 1% no saco conjuntival após procedimento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 gotas 1%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Oftálmico",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Glaucoma oftálmico (pediátrico >2 anos)",
+          "descricaoDose": "1-2 gotas solução 1-4% 3-4x/dia (mesma posologia que adulto)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 gotas 3-4x/dia",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Oftálmico",
+            "intervalo": "3-4x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Parassimpaticomimético - Agonista colinérgico muscarínico - Miótico",
+      "apresentacoes": [
+        { "forma": "Colírio 1% (10 mg/mL)", "obs": "Frasco 15 mL" },
+        { "forma": "Colírio 2% (20 mg/mL)", "obs": "Frasco 15 mL" },
+        { "forma": "Colírio 4% (40 mg/mL)", "obs": "Frasco 15 mL" },
+        { "forma": "Gel oftálmico 4%", "obs": "5 g" },
+        { "forma": "Comprimidos 5 mg", "obs": "VO - xerostomia" },
+        { "forma": "Comprimidos 7,5 mg", "obs": "VO - xerostomia" }
+      ],
+      "preparo": [
+        { "diluicao": "Colírio: solução pronta", "concentracao": "Não diluir" },
+        { "diluicao": "Instilar 1-2 gotas no saco conjuntival inferior", "concentracao": "Puxar pálpebra inferior" },
+        { "diluicao": "Comprimir ponto lacrimal 1-2 min", "concentracao": "Reduz absorção sistêmica" },
+        { "diluicao": "VO: comprimido inteiro com água", "concentracao": "Preferir com alimentos" }
+      ],
+      "observacoes": [
+        "Miótico potente: reduz PIO em 20-30%. Onset 10-30 min, pico 30-90 min, duração 4-8 h",
+        "Reduz acuidade visual noturna – evitar dirigir à noite",
+        "Comprimir ponto lacrimal 1-2 min após colírio (reduz absorção sistêmica)",
+        "Contraindicado: irite aguda, uveíte anterior, descolamento de retina recente",
+        "Risco de descolamento de retina em miopia alta (>-6 D). Uso oral: risco de broncoespasmo em asmáticos",
+        "Aguardar 5 min entre instilações de colírios diferentes"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos visuais e sistêmicos (bradicardia, sudorese se uso oral).",
+        "renal": "Não requer ajuste de dose. Monitorar balanço hídrico em uso oral prolongado.",
+        "hepatico": "Uso oftálmico: não requer ajuste. Uso oral: reduzir dose inicial em hepatopatas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pilocarpina (glaucoma agudo)",
+        "doseTexto": "1-2 gotas colírio 2-4% a cada 5-10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2 gotas",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pilocarpina (xerostomia)",
+        "doseTexto": "5 mg VO 3-4x/dia (máx 30 mg/dia)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pilocarpina (midríase reversa)",
+        "doseTexto": "1-2 gotas colírio 1% após procedimento",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2 gotas",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pilocarpina oftálmica (pediátrico >2 anos)",
+        "doseTexto": "1-2 gotas 1-4% 3-4x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2 gotas",
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Pilocarpine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute angle-closure glaucoma",
+          "descricaoDose": "1-2 drops 2-4% solution every 5-10 min until IOP controlled",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 drops (2-4%)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Ophthalmic",
+            "intervalo": "every 5-10 min until control",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Open-angle glaucoma (maintenance)",
+          "descricaoDose": "1-2 drops 1-4% solution 3-4x/day in affected eye",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 drops 3-4x/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Ophthalmic",
+            "intervalo": "3-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Xerostomia (Sjögren / post-radiation)",
+          "descricaoDose": "5 mg PO 3-4x/day. Max 30 mg/day. Start with 5 mg 3x/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": "5 mg 3-4x/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "3-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Oral use: reduce initial dose in hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Mydriasis reversal (antagonize mydriatics)",
+          "descricaoDose": "1-2 drops 1% solution in conjunctival sac after procedure",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 drops 1%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Ophthalmic",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Ophthalmic glaucoma (pediatric >2 years)",
+          "descricaoDose": "1-2 drops 1-4% solution 3-4x/day (same as adult)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 drops 3-4x/day",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Ophthalmic",
+            "intervalo": "3-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Parasympathomimetic - Muscarinic cholinergic agonist - Miotic",
+      "apresentacoes": [
+        { "forma": "Eye drops 1% (10 mg/mL)", "obs": "15 mL bottle" },
+        { "forma": "Eye drops 2% (20 mg/mL)", "obs": "15 mL bottle" },
+        { "forma": "Eye drops 4% (40 mg/mL)", "obs": "15 mL bottle" },
+        { "forma": "Ophthalmic gel 4%", "obs": "5 g" },
+        { "forma": "Tablets 5 mg", "obs": "PO - xerostomia" },
+        { "forma": "Tablets 7.5 mg", "obs": "PO - xerostomia" }
+      ],
+      "preparo": [
+        { "diluicao": "Eye drops: ready solution", "concentracao": "Do not dilute" },
+        { "diluicao": "Instill 1-2 drops in lower conjunctival sac", "concentracao": "Pull lower eyelid" },
+        { "diluicao": "Lacrimal point compression 1-2 min", "concentracao": "Reduces systemic absorption" },
+        { "diluicao": "PO: whole tablet with water", "concentracao": "Prefer with food" }
+      ],
+      "observacoes": [
+        "Potent miotic: reduces IOP 20-30%. Onset 10-30 min, peak 30-90 min, duration 4-8 h",
+        "Reduces night vision acuity – avoid driving at night",
+        "Compress lacrimal point 1-2 min after drops (reduces systemic absorption)",
+        "Contraindicated: acute iritis, anterior uveitis, recent retinal detachment",
+        "Retinal detachment risk in high myopia (>-6 D). Oral use: bronchospasm risk in asthmatics",
+        "Wait 5 min between different eye drop instillations"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific dose adjustment. Monitor visual and systemic effects (bradycardia, sweating with oral use).",
+        "renal": "No dose adjustment required. Monitor fluid balance with prolonged oral use.",
+        "hepatico": "Ophthalmic use: no adjustment. Oral use: reduce initial dose in hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pilocarpine (acute glaucoma)",
+        "doseTexto": "1-2 drops 2-4% every 5-10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2 drops",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pilocarpine (xerostomia)",
+        "doseTexto": "5 mg PO 3-4x/day (max 30 mg/day)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pilocarpine (mydriasis reversal)",
+        "doseTexto": "1-2 drops 1% after procedure",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2 drops",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pilocarpine ophthalmic (pediatric >2 years)",
+        "doseTexto": "1-2 drops 1-4% 3-4x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2 drops",
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Pilocarpina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Glaucoma de ángulo cerrado agudo",
+          "descricaoDose": "1-2 gotas colirio 2-4% cada 5-10 min hasta control de PIO",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 gotas (2-4%)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Oftálmico",
+            "intervalo": "cada 5-10 min hasta control",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Glaucoma de ángulo abierto (mantenimiento)",
+          "descricaoDose": "1-2 gotas solución 1-4% 3-4x/día en ojo afectado",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 gotas 3-4x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Oftálmico",
+            "intervalo": "3-4x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Xerostomía (Síndrome de Sjögren / post-radioterapia)",
+          "descricaoDose": "5 mg VO 3-4x/día. Máx 30 mg/día. Iniciar con 5 mg 3x/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": "5 mg 3-4x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "3-4x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Uso oral: reducir dosis inicial en hepatópatas"
+          }
+        },
+        {
+          "titulo": "Reversión de midriasis (antagonizar midriáticos)",
+          "descricaoDose": "1-2 gotas colirio 1% en saco conjuntival tras procedimiento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 gotas 1%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Oftálmico",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Glaucoma oftálmico (pediátrico >2 años)",
+          "descricaoDose": "1-2 gotas solución 1-4% 3-4x/día (misma posología que adulto)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2 gotas 3-4x/día",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Oftálmico",
+            "intervalo": "3-4x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Parasimpaticomimético - Agonista colinérgico muscarínico - Miótico",
+      "apresentacoes": [
+        { "forma": "Colirio 1% (10 mg/mL)", "obs": "Frasco 15 mL" },
+        { "forma": "Colirio 2% (20 mg/mL)", "obs": "Frasco 15 mL" },
+        { "forma": "Colirio 4% (40 mg/mL)", "obs": "Frasco 15 mL" },
+        { "forma": "Gel oftálmico 4%", "obs": "5 g" },
+        { "forma": "Comprimidos 5 mg", "obs": "VO - xerostomía" },
+        { "forma": "Comprimidos 7,5 mg", "obs": "VO - xerostomía" }
+      ],
+      "preparo": [
+        { "diluicao": "Colirio: solución lista", "concentracao": "No diluir" },
+        { "diluicao": "Instilar 1-2 gotas en saco conjuntival inferior", "concentracao": "Bajar párpado inferior" },
+        { "diluicao": "Comprimir punto lagrimal 1-2 min", "concentracao": "Reduce absorción sistémica" },
+        { "diluicao": "VO: comprimido entero con agua", "concentracao": "Preferir con alimentos" }
+      ],
+      "observacoes": [
+        "Miótico potente: reduce PIO 20-30%. Inicio 10-30 min, pico 30-90 min, duración 4-8 h",
+        "Reduce agudeza visual nocturna – evitar conducir de noche",
+        "Comprimir punto lagrimal 1-2 min tras colirio (reduce absorción sistémica)",
+        "Contraindicado: iritis aguda, uveítis anterior, desprendimiento de retina reciente",
+        "Riesgo de desprendimiento de retina en miopía alta (>-6 D). Uso oral: broncoespasmo en asmáticos",
+        "Esperar 5 min entre colirios diferentes"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos visuales y sistémicos (bradicardia, sudoración si uso oral).",
+        "renal": "No requiere ajuste de dosis. Monitorizar balance hídrico en uso oral prolongado.",
+        "hepatico": "Uso oftálmico: no requiere ajuste. Uso oral: reducir dosis inicial en hepatópatas."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pilocarpina (glaucoma agudo)",
+        "doseTexto": "1-2 gotas colirio 2-4% cada 5-10 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2 gotas",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pilocarpina (xerostomía)",
+        "doseTexto": "5 mg VO 3-4x/día (máx 30 mg/día)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pilocarpina (reversión midriasis)",
+        "doseTexto": "1-2 gotas colirio 1% tras procedimiento",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2 gotas",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pilocarpina oftálmica (pediátrico >2 años)",
+        "doseTexto": "1-2 gotas 1-4% 3-4x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2 gotas",
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "毛果芸香碱",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性闭角型青光眼",
+          "descricaoDose": "2-4%滴眼液每5-10分钟1-2滴直至眼压控制",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2滴（2-4%）",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Ophthalmic",
+            "intervalo": "every 5-10 min until control",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "开角型青光眼（维持）",
+          "descricaoDose": "1-4%溶液1-2滴患眼每日3-4次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2滴每日3-4次",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Ophthalmic",
+            "intervalo": "3-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "口干症（干燥综合征/放疗后）",
+          "descricaoDose": "口服5 mg每日3-4次。最大30 mg/日。从5 mg每日3次开始。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": "5 mg 3-4x/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "3-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Oral: reduce initial dose in hepatic impairment"
+          }
+        },
+        {
+          "titulo": "散瞳逆转（拮抗散瞳药）",
+          "descricaoDose": "操作后结膜囊内1%滴眼液1-2滴",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2滴1%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Ophthalmic",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "眼科青光眼（儿童>2岁）",
+          "descricaoDose": "1-4%溶液1-2滴每日3-4次（与成人相同）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "gotas",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2滴3-4x/day",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Ophthalmic",
+            "intervalo": "3-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "拟副交感神经药 - 毒蕈碱胆碱能激动剂 - 缩瞳剂",
+      "apresentacoes": [
+        { "forma": "滴眼液1%（10 mg/mL）", "obs": "15 mL瓶" },
+        { "forma": "滴眼液2%（20 mg/mL）", "obs": "15 mL瓶" },
+        { "forma": "滴眼液4%（40 mg/mL）", "obs": "15 mL瓶" },
+        { "forma": "眼用凝胶4%", "obs": "5 g" },
+        { "forma": "片剂5 mg", "obs": "口服 - 口干症" },
+        { "forma": "片剂7.5 mg", "obs": "口服 - 口干症" }
+      ],
+      "preparo": [
+        { "diluicao": "滴眼液：即用溶液", "concentracao": "勿稀释" },
+        { "diluicao": "下结膜囊内滴1-2滴", "concentracao": "拉下眼睑" },
+        { "diluicao": "泪点压迫1-2分钟", "concentracao": "减少全身吸收" },
+        { "diluicao": "口服：整片与水同服", "concentracao": "建议与食物同服" }
+      ],
+      "observacoes": [
+        "强缩瞳剂：降眼压20-30%。起效10-30分钟，峰效30-90分钟，持续4-8小时",
+        "降低夜间视力 – 避免夜间驾驶",
+        "滴眼后压迫泪点1-2分钟（减少全身吸收）",
+        "禁忌：急性虹膜炎、前葡萄膜炎、近期视网膜脱离",
+        "高度近视（>-6 D）视网膜脱离风险。口服：哮喘患者支气管痉挛风险",
+        "不同滴眼液之间间隔5分钟"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定剂量调整。监测视觉及全身反应（口服时心动过缓、出汗）。",
+        "renal": "无需剂量调整。长期口服时监测液体平衡。",
+        "hepatico": "眼用：无需调整。口服：肝功能不全者减少初始剂量。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "毛果芸香碱（急性青光眼）",
+        "doseTexto": "2-4%每5-10分钟1-2滴",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2滴",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "毛果芸香碱（口干症）",
+        "doseTexto": "口服5 mg每日3-4次（最大30 mg/日）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "毛果芸香碱（散瞳逆转）",
+        "doseTexto": "操作后1%滴眼液1-2滴",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2滴",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "毛果芸香碱眼用（儿童>2岁）",
+        "doseTexto": "1-4% 1-2滴每日3-4次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "gotas",
+        "decimais": 0,
+        "resultadoFixo": "1-2滴",
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  }
+}

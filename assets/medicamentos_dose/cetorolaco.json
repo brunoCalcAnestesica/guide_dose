@@ -1,0 +1,766 @@
+{
+  "PT": {
+    "nome": "Cetorolaco",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor aguda IV/IM (adulto)",
+          "descricaoDose": "30 mg dose única ou 30 mg a cada 6h. Máx 120 mg/dia. Duração máx 5 dias (parenteral).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 120,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única ou a cada 6h",
+            "ajusteRenal": "ClCr <30: reduzir 50%, máx 60 mg/dia",
+            "ajusteHepatico": "Usar com cautela; evitar em hepatopatia grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor aguda VO (adulto)",
+          "descricaoDose": "10 mg a cada 4-6h. Máx 40 mg/dia. Duração total (parenteral + VO) máx 7 dias.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 4-6h",
+            "ajusteRenal": "ClCr <30: reduzir 50%, máx 60 mg/dia",
+            "ajusteHepatico": "Usar com cautela; evitar em hepatopatia grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor aguda IV/IM (idoso)",
+          "descricaoDose": "15 mg a cada 6h. Máx 60 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 60,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "ClCr <30: reduzir 50%, máx 60 mg/dia",
+            "ajusteHepatico": "Usar com cautela; evitar em hepatopatia grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor aguda VO (idoso)",
+          "descricaoDose": "10 mg a cada 6-8h. Máx 40 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30: reduzir 50%, máx 60 mg/dia",
+            "ajusteHepatico": "Usar com cautela; evitar em hepatopatia grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor aguda IV/IM (pediátrico >2 anos)",
+          "descricaoDose": "0,5 mg/kg dose única (máx 30 mg). Idade mínima >2 anos.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: reduzir 50%. Cautela em IR.",
+            "ajusteHepatico": "Evitar em hepatopatia grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Analgésico. Inibidor não seletivo da COX-1 e COX-2; potente ação analgésica periférica. 30 mg cetorolaco ≈ 10 mg morfina.",
+      "apresentacoes": [
+        { "forma": "Ampola 30 mg/mL (1 mL)", "obs": "Toradol®, Toragesic®" },
+        { "forma": "Ampola 10 mg/mL (1 mL)", "obs": "Uso IV/IM" },
+        { "forma": "Comprimido 10 mg", "obs": "VO" },
+        { "forma": "Comprimido sublingual 10 mg", "obs": "Toradol SL®" }
+      ],
+      "preparo": [
+        { "diluicao": "IV/IM: administração direta conforme apresentação", "concentracao": "30 mg/mL ou 10 mg/mL" },
+        { "diluicao": "VO: comprimido ou sublingual conforme bula", "concentracao": "10 mg" }
+      ],
+      "observacoes": [
+        "Duração máxima: 5 dias (parenteral) e 7 dias (total); maior risco de eventos adversos com uso prolongado",
+        "Risco de sangramento GI e inibição plaquetária; contraindicação em úlcera péptica ativa e cirurgia com alto risco de sangramento",
+        "Contraindicação no 3º trimestre de gestação e em uso concomitante com AAS ou outros AINEs",
+        "Cautela em asma (broncoespasmo) e em idosos; evitar quando possível alternativas mais seguras",
+        "ClCr <30 mL/min: reduzir dose pela metade, máx 60 mg/dia; insuficiência renal grave é contraindicação",
+        "Evitar em hepatopatia grave. Eliminação renal (91%). Não usar em analgesia obstétrica."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose (15 mg IV/IM a cada 6h, máx 60 mg/dia; VO 10 mg a cada 6-8h). Evitar quando possível.",
+        "renal": "ClCr <30: reduzir 50%, máx 60 mg/dia. Contraindicado em insuficiência renal grave.",
+        "hepatico": "Usar com cautela; evitar em hepatopatia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cetorolaco IV/IM (adulto)",
+        "doseTexto": "30 mg dose única ou a cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cetorolaco VO (adulto)",
+        "doseTexto": "10 mg a cada 4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cetorolaco IV/IM (idoso)",
+        "doseTexto": "15 mg a cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cetorolaco IV/IM (pediátrico >2 anos)",
+        "doseTexto": "0,5 mg/kg dose única (máx 30 mg)",
+        "doseMin": 0.5,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ketorolac",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute pain IV/IM (adult)",
+          "descricaoDose": "30 mg single dose or 30 mg every 6h. Max 120 mg/day. Max duration 5 days (parenteral).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 120,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose or every 6h",
+            "ajusteRenal": "ClCr <30: reduce 50%, max 60 mg/day",
+            "ajusteHepatico": "Use with caution; avoid in severe liver disease.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Acute pain PO (adult)",
+          "descricaoDose": "10 mg every 4-6h. Max 40 mg/day. Max total duration (parenteral + PO) 7 days.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 4-6h",
+            "ajusteRenal": "ClCr <30: reduce 50%, max 60 mg/day",
+            "ajusteHepatico": "Use with caution; avoid in severe liver disease.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Acute pain IV/IM (elderly)",
+          "descricaoDose": "15 mg every 6h. Max 60 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 60,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 6h",
+            "ajusteRenal": "ClCr <30: reduce 50%, max 60 mg/day",
+            "ajusteHepatico": "Use with caution; avoid in severe liver disease.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Acute pain PO (elderly)",
+          "descricaoDose": "10 mg every 6-8h. Max 40 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: reduce 50%, max 60 mg/day",
+            "ajusteHepatico": "Use with caution; avoid in severe liver disease.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Acute pain IV/IM (pediatric >2 years)",
+          "descricaoDose": "0.5 mg/kg single dose (max 30 mg). Minimum age >2 years.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr <30: reduce 50%. Caution in renal failure.",
+            "ajusteHepatico": "Avoid in severe liver disease.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID / Analgesic. Nonselective COX-1 and COX-2 inhibitor; potent peripheral analgesia. 30 mg ketorolac ≈ 10 mg morphine.",
+      "apresentacoes": [
+        { "forma": "Ampoule 30 mg/mL (1 mL)", "obs": "Toradol®" },
+        { "forma": "Ampoule 10 mg/mL (1 mL)", "obs": "IV/IM use" },
+        { "forma": "Tablet 10 mg", "obs": "PO" },
+        { "forma": "Sublingual tablet 10 mg", "obs": "Toradol SL®" }
+      ],
+      "preparo": [
+        { "diluicao": "IV/IM: direct administration per formulation", "concentracao": "30 mg/mL or 10 mg/mL" },
+        { "diluicao": "PO: tablet or sublingual per label", "concentracao": "10 mg" }
+      ],
+      "observacoes": [
+        "Max duration: 5 days (parenteral) and 7 days (total); higher risk of adverse events with prolonged use",
+        "Risk of GI bleeding and platelet inhibition; contraindicated in active peptic ulcer and high-bleeding-risk surgery",
+        "Contraindicated in 3rd trimester of pregnancy and with concomitant ASA or other NSAIDs",
+        "Caution in asthma (bronchospasm) and elderly; prefer safer alternatives when possible",
+        "ClCr <30 mL/min: reduce dose by half, max 60 mg/day; severe renal failure is contraindication",
+        "Avoid in severe liver disease. Renal elimination (91%). Do not use for obstetric analgesia."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose (15 mg IV/IM every 6h, max 60 mg/day; PO 10 mg every 6-8h). Avoid when possible.",
+        "renal": "ClCr <30: reduce 50%, max 60 mg/day. Contraindicated in severe renal failure.",
+        "hepatico": "Use with caution; avoid in severe liver disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ketorolac IV/IM (adult)",
+        "doseTexto": "30 mg single dose or every 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ketorolac PO (adult)",
+        "doseTexto": "10 mg every 4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ketorolac IV/IM (elderly)",
+        "doseTexto": "15 mg every 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ketorolac IV/IM (pediatric >2 years)",
+        "doseTexto": "0.5 mg/kg single dose (max 30 mg)",
+        "doseMin": 0.5,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ketorolaco",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor agudo IV/IM (adulto)",
+          "descricaoDose": "30 mg dosis única o 30 mg cada 6h. Máx 120 mg/día. Duración máx 5 días (parenteral).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 120,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única o cada 6h",
+            "ajusteRenal": "ClCr <30: reducir 50%, máx 60 mg/día",
+            "ajusteHepatico": "Usar con precaución; evitar en hepatopatía grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor agudo VO (adulto)",
+          "descricaoDose": "10 mg cada 4-6h. Máx 40 mg/día. Duración total (parenteral + VO) máx 7 días.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 4-6h",
+            "ajusteRenal": "ClCr <30: reducir 50%, máx 60 mg/día",
+            "ajusteHepatico": "Usar con precaución; evitar en hepatopatía grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor agudo IV/IM (anciano)",
+          "descricaoDose": "15 mg cada 6h. Máx 60 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 60,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "ClCr <30: reducir 50%, máx 60 mg/día",
+            "ajusteHepatico": "Usar con precaución; evitar en hepatopatía grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor agudo VO (anciano)",
+          "descricaoDose": "10 mg cada 6-8h. Máx 40 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30: reducir 50%, máx 60 mg/día",
+            "ajusteHepatico": "Usar con precaución; evitar en hepatopatía grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor agudo IV/IM (pediátrico >2 años)",
+          "descricaoDose": "0,5 mg/kg dosis única (máx 30 mg). Edad mínima >2 años.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: reducir 50%. Precaución en IR.",
+            "ajusteHepatico": "Evitar en hepatopatía grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Analgésico. Inhibidor no selectivo de COX-1 y COX-2; potente acción analgésica periférica. 30 mg ketorolaco ≈ 10 mg morfina.",
+      "apresentacoes": [
+        { "forma": "Ampolla 30 mg/mL (1 mL)", "obs": "Toradol®" },
+        { "forma": "Ampolla 10 mg/mL (1 mL)", "obs": "Uso IV/IM" },
+        { "forma": "Comprimido 10 mg", "obs": "VO" },
+        { "forma": "Comprimido sublingual 10 mg", "obs": "Toradol SL®" }
+      ],
+      "preparo": [
+        { "diluicao": "IV/IM: administración directa según presentación", "concentracao": "30 mg/mL o 10 mg/mL" },
+        { "diluicao": "VO: comprimido o sublingual según ficha", "concentracao": "10 mg" }
+      ],
+      "observacoes": [
+        "Duración máxima: 5 días (parenteral) y 7 días (total); mayor riesgo de eventos adversos con uso prolongado",
+        "Riesgo de sangrado GI e inhibición plaquetaria; contraindicado en úlcera péptica activa y cirugía de alto riesgo de sangrado",
+        "Contraindicado en 3er trimestre de gestación y uso concomitante con AAS u otros AINEs",
+        "Precaución en asma (broncoespasmo) y ancianos; evitar cuando sea posible alternativas más seguras",
+        "ClCr <30 mL/min: reducir dosis a la mitad, máx 60 mg/día; insuficiencia renal grave es contraindicación",
+        "Evitar en hepatopatía grave. Eliminación renal (91%). No usar en analgesia obstétrica."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis (15 mg IV/IM cada 6h, máx 60 mg/día; VO 10 mg cada 6-8h). Evitar cuando sea posible.",
+        "renal": "ClCr <30: reducir 50%, máx 60 mg/día. Contraindicado en insuficiencia renal grave.",
+        "hepatico": "Usar con precaución; evitar en hepatopatía grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ketorolaco IV/IM (adulto)",
+        "doseTexto": "30 mg dosis única o cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ketorolaco VO (adulto)",
+        "doseTexto": "10 mg cada 4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ketorolaco IV/IM (anciano)",
+        "doseTexto": "15 mg cada 6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ketorolaco IV/IM (pediátrico >2 años)",
+        "doseTexto": "0,5 mg/kg dosis única (máx 30 mg)",
+        "doseMin": 0.5,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "酮咯酸",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性疼痛 静注/肌注（成人）",
+          "descricaoDose": "30 mg 单次或每 6 小时 30 mg。最大 120 mg/日。肠外最多 5 天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 120,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次或每6小时",
+            "ajusteRenal": "ClCr <30：减量 50%，最大 60 mg/日",
+            "ajusteHepatico": "慎用；严重肝病避免使用。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "急性疼痛 口服（成人）",
+          "descricaoDose": "10 mg 每 4-6 小时。最大 40 mg/日。肠外+口服总疗程最多 7 天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "ClCr <30：减量 50%，最大 60 mg/日",
+            "ajusteHepatico": "慎用；严重肝病避免使用。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "急性疼痛 静注/肌注（老年）",
+          "descricaoDose": "15 mg 每 6 小时。最大 60 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 15,
+            "doseMax": 15,
+            "doseMaxima": 60,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr <30：减量 50%，最大 60 mg/日",
+            "ajusteHepatico": "慎用；严重肝病避免使用。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "急性疼痛 口服（老年）",
+          "descricaoDose": "10 mg 每 6-8 小时。最大 40 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 10,
+            "doseMaxima": 40,
+            "doseFixa": "10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr <30：减量 50%，最大 60 mg/日",
+            "ajusteHepatico": "慎用；严重肝病避免使用。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "急性疼痛 静注/肌注（儿童 >2 岁）",
+          "descricaoDose": "0.5 mg/kg 单次（最大 30 mg）。最小年龄 >2 岁。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.5,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 0.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr <30：减量 50%。肾功能不全慎用。",
+            "ajusteHepatico": "严重肝病避免使用。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE/镇痛药。非选择性 COX-1、COX-2 抑制剂；强外周镇痛。30 mg 酮咯酸 ≈ 10 mg 吗啡。",
+      "apresentacoes": [
+        { "forma": "安瓿 30 mg/mL (1 mL)", "obs": "Toradol®" },
+        { "forma": "安瓿 10 mg/mL (1 mL)", "obs": "静注/肌注" },
+        { "forma": "片剂 10 mg", "obs": "口服" },
+        { "forma": "舌下片 10 mg", "obs": "Toradol SL®" }
+      ],
+      "preparo": [
+        { "diluicao": "静注/肌注：按剂型直接给药", "concentracao": "30 mg/mL 或 10 mg/mL" },
+        { "diluicao": "口服：片剂或舌下按说明书", "concentracao": "10 mg" }
+      ],
+      "observacoes": [
+        "最长疗程：肠外 5 天、总计 7 天；长期使用不良反应风险增加",
+        "消化道出血及血小板抑制风险；活动性消化性溃疡及高出血风险手术禁忌",
+        "妊娠第三季度及与阿司匹林或其他 NSAID 合用禁忌",
+        "哮喘（支气管痉挛）及老年人慎用；尽可能选用更安全替代",
+        "ClCr <30 mL/min：减量 50%，最大 60 mg/日；严重肾衰竭禁忌",
+        "严重肝病避免使用。肾脏排泄（91%）。禁用于产科镇痛。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量（15 mg 静注/肌注 每 6 小时，最大 60 mg/日；口服 10 mg 每 6-8 小时）。尽可能避免。",
+        "renal": "ClCr <30：减量 50%，最大 60 mg/日。严重肾衰竭禁忌。",
+        "hepatico": "慎用；严重肝病避免使用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "酮咯酸 静注/肌注（成人）",
+        "doseTexto": "30 mg 单次或每 6 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "酮咯酸 口服（成人）",
+        "doseTexto": "10 mg 每 4-6 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "酮咯酸 静注/肌注（老年）",
+        "doseTexto": "15 mg 每 6 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "酮咯酸 静注/肌注（儿童 >2 岁）",
+        "doseTexto": "0.5 mg/kg 单次（最大 30 mg）",
+        "doseMin": 0.5,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -158,117 +158,108 @@
         {
           "titulo": "Parada cardíaca",
           "descricaoDose": "1 mg IV (1:10.000) cada 3–5 min",
-          "dosePorKg": 1.0,
-          "doseMaxima": 1.0,
+          "doseFixa": 1.0,
           "unidade": "mg"
         },
         {
           "titulo": "Anafilaxia",
           "descricaoDose": "0,3–0,5 mg IM (1:1000)",
-          "dosePorKgMinima": 0.3,
-          "dosePorKgMaxima": 0.5,
-          "doseMaxima": 0.5,
+          "doseFixaMinima": 0.3,
+          "doseFixaMaxima": 0.5,
           "unidade": "mg"
         },
         {
           "titulo": "Broncoespasmo",
           "descricaoDose": "0,3–0,5 mg SC/IM (1:1000)",
-          "dosePorKgMinima": 0.3,
-          "dosePorKgMaxima": 0.5,
-          "doseMaxima": 0.5,
+          "doseFixaMinima": 0.3,
+          "doseFixaMaxima": 0.5,
           "unidade": "mg"
         },
         {
           "titulo": "Choque refratário",
-          "descricaoDose": "0,05–2 mcg/kg/min IV infusão",
+          "descricaoDose": "0,05–2 mcg/kg/min IV infusão contínua",
           "dosePorKg": null,
           "doseMaxima": null,
           "unidade": ""
         },
         {
           "titulo": "Bradicardia",
-          "descricaoDose": "2–10 mL/h IV infusão contínua",
-          "unidade": "mL/h",
-          "dosePorKgMinima": "2 / peso",
-          "dosePorKgMaxima": "10 / peso"
+          "descricaoDose": "2–10 mcg/min IV infusão contínua (push dose: 10-20 mcg IV a cada 1-2 min)",
+          "doseFixaMinima": 2,
+          "doseFixaMaxima": 10,
+          "unidade": "mcg/min"
         }
       ],
       "adulto": [
         {
           "titulo": "Parada cardíaca",
           "descricaoDose": "1 mg IV (1:10.000) cada 3–5 min",
-          "dosePorKg": 1.0,
-          "doseMaxima": 1.0,
+          "doseFixa": 1.0,
           "unidade": "mg"
         },
         {
           "titulo": "Anafilaxia",
           "descricaoDose": "0,3–0,5 mg IM (1:1000)",
-          "dosePorKgMinima": 0.3,
-          "dosePorKgMaxima": 0.5,
-          "doseMaxima": 0.5,
+          "doseFixaMinima": 0.3,
+          "doseFixaMaxima": 0.5,
           "unidade": "mg"
         },
         {
           "titulo": "Broncoespasmo",
           "descricaoDose": "0,3–0,5 mg SC/IM (1:1000)",
-          "dosePorKgMinima": 0.3,
-          "dosePorKgMaxima": 0.5,
-          "doseMaxima": 0.5,
+          "doseFixaMinima": 0.3,
+          "doseFixaMaxima": 0.5,
           "unidade": "mg"
         },
         {
           "titulo": "Choque refratário",
-          "descricaoDose": "0,05–2 mcg/kg/min IV infusão",
+          "descricaoDose": "0,05–2 mcg/kg/min IV infusão contínua",
           "dosePorKg": null,
           "doseMaxima": null,
           "unidade": ""
         },
         {
           "titulo": "Bradicardia",
-          "descricaoDose": "2–10 mL/h IV infusão contínua",
-          "unidade": "mL/h",
-          "dosePorKgMinima": "2 / peso",
-          "dosePorKgMaxima": "10 / peso"
+          "descricaoDose": "2–10 mcg/min IV infusão contínua (push dose: 10-20 mcg IV a cada 1-2 min)",
+          "doseFixaMinima": 2,
+          "doseFixaMaxima": 10,
+          "unidade": "mcg/min"
         }
       ],
       "idoso": [
         {
           "titulo": "Parada cardíaca",
           "descricaoDose": "1 mg IV (1:10.000) cada 3–5 min",
-          "dosePorKg": 1.0,
-          "doseMaxima": 1.0,
+          "doseFixa": 1.0,
           "unidade": "mg"
         },
         {
           "titulo": "Anafilaxia",
           "descricaoDose": "0,3–0,5 mg IM (1:1000)",
-          "dosePorKgMinima": 0.3,
-          "dosePorKgMaxima": 0.5,
-          "doseMaxima": 0.5,
+          "doseFixaMinima": 0.3,
+          "doseFixaMaxima": 0.5,
           "unidade": "mg"
         },
         {
           "titulo": "Broncoespasmo",
           "descricaoDose": "0,3–0,5 mg SC/IM (1:1000)",
-          "dosePorKgMinima": 0.3,
-          "dosePorKgMaxima": 0.5,
-          "doseMaxima": 0.5,
+          "doseFixaMinima": 0.3,
+          "doseFixaMaxima": 0.5,
           "unidade": "mg"
         },
         {
           "titulo": "Choque refratário",
-          "descricaoDose": "0,05–2 mcg/kg/min IV infusão",
+          "descricaoDose": "0,05–2 mcg/kg/min IV infusão contínua",
           "dosePorKg": null,
           "doseMaxima": null,
           "unidade": ""
         },
         {
           "titulo": "Bradicardia",
-          "descricaoDose": "2–10 mL/h IV infusão contínua",
-          "unidade": "mL/h",
-          "dosePorKgMinima": "2 / peso",
-          "dosePorKgMaxima": "10 / peso"
+          "descricaoDose": "2–10 mcg/min IV infusão contínua (push dose: 10-20 mcg IV a cada 1-2 min)",
+          "doseFixaMinima": 2,
+          "doseFixaMaxima": 10,
+          "unidade": "mcg/min"
         }
       ]
     },

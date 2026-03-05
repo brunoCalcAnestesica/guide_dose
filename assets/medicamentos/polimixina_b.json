@@ -1,0 +1,26 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Polimixina B",
+      "nome_comercial": ["Polimixina B"],
+      "classe_terapeutica": "Polimixina (polipeptídeo catiônico)",
+      "mecanismo_acao": "Liga-se ao lipopolissacarídeo (LPS) da membrana externa de bactérias Gram-negativas, causando desestabilização e aumento da permeabilidade, levando à lise celular.",
+      "espectro": {
+        "gram_negativos": ["Pseudomonas aeruginosa", "Acinetobacter baumannii", "Klebsiella pneumoniae (incluindo KPC)", "E. coli", "Enterobacter"]
+      },
+      "nao_cobre": ["Proteus", "Serratia", "Providencia", "Burkholderia cepacia", "Gram-positivos", "Anaeróbios"],
+      "indicacoes": ["Infecções por Gram-negativos MDR/XDR", "Pneumonia nosocomial por MDR", "Bacteremia", "ITU complicada"],
+      "apresentacoes": [{"forma": "Frasco", "concentracao": "500.000 UI", "liofilizado": true}],
+      "conversao": "1 mg = 10.000 UI",
+      "farmacocinetica": {"meia_vida": "6 horas", "excrecao": "Não-renal (via biliar/tecidual)", "ligacao_proteica": "Baixa"},
+      "ajuste_renal": "NÃO requer ajuste (excreção não-renal)",
+      "toxicidades": {
+        "nefrotoxicidade": "30-60% dos pacientes - monitorar creatinina diária",
+        "neurotoxicidade": "Parestesias, bloqueio neuromuscular, confusão"
+      },
+      "efeitos_adversos": ["Nefrotoxicidade", "Neurotoxicidade", "Hiperpigmentação cutânea", "Reações de infusão"],
+      "diferencas_colistina": ["NÃO requer dose de ataque", "Excreção não-renal", "Não precisa ajuste em IR"],
+      "observacoes": ["Última linha para MDR", "Monitorar função renal diariamente", "Infundir lentamente"]
+    }
+  }
+}

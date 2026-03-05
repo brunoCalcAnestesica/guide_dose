@@ -1,0 +1,370 @@
+{
+  "PT": {
+    "nome": "Fisostigmina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Síndrome anticolinérgica (adulto)",
+          "descricaoDose": "0,5-2 mg IV lento em ≥5 min (máx 4 mg total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir a cada 10-30 min se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Síndrome anticolinérgica (pediátrico)",
+          "descricaoDose": "0,02 mg/kg IV lento em ≥5 min (máx 0,5 mg/dose; 2 mg total)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir a cada 5-10 min se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto - Inibidor reversível da acetilcolinesterase",
+      "apresentacoes": [
+        { "forma": "Ampola 1 mg/mL (2 mL)", "obs": "Antilirium®" },
+        { "forma": "Ampola 0,5 mg/mL (5 mL)", "obs": "Formulação hospitalar" }
+      ],
+      "preparo": [
+        { "diluicao": "Pode ser administrada pura", "concentracao": "IV lento (≥5 min)" },
+        { "diluicao": "Diluir em SF 0,9% se necessário", "concentracao": "Para facilitar titulação" }
+      ],
+      "observacoes": [
+        "MANTER ATROPINA DISPONÍVEL para reversão (0,5 mg para cada 1 mg de fisostigmina)",
+        "NUNCA usar em intoxicação por antidepressivos tricíclicos",
+        "Monitorização cardíaca contínua obrigatória",
+        "Efeito dura 30-60 min - pode necessitar repetição",
+        "Administrar lentamente (≥5 min) para evitar convulsões",
+        "Sinais de toxicidade colinérgica: SLUDGE (Salivação, Lacrimejamento, Urinação, Defecação, Gastric upset, Emese)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar com cautela. Monitorar efeitos cardiovasculares e neurológicos.",
+        "renal": "Não especificado - usar com cautela.",
+        "hepatico": "Não especificado - usar com cautela."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fisostigmina (adulto)",
+        "doseTexto": "0,5-2 mg IV lento em ≥5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fisostigmina (pediátrico)",
+        "doseTexto": "0,02 mg/kg IV lento (máx 0,5 mg/dose)",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Physostigmine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anticholinergic syndrome (adult)",
+          "descricaoDose": "0.5-2 mg IV slow over ≥5 min (max 4 mg total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat every 10-30 min if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anticholinergic syndrome (pediatric)",
+          "descricaoDose": "0.02 mg/kg IV slow over ≥5 min (max 0.5 mg/dose; 2 mg total)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "repeat every 5-10 min if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antidote - Reversible acetylcholinesterase inhibitor",
+      "apresentacoes": [
+        { "forma": "Ampule 1 mg/mL (2 mL)", "obs": "Antilirium®" },
+        { "forma": "Ampule 0.5 mg/mL (5 mL)", "obs": "Hospital formulation" }
+      ],
+      "preparo": [
+        { "diluicao": "May be given undiluted", "concentracao": "IV slow (≥5 min)" },
+        { "diluicao": "Dilute in NS if needed", "concentracao": "To facilitate titration" }
+      ],
+      "observacoes": [
+        "KEEP ATROPINE AVAILABLE for reversal (0.5 mg per 1 mg physostigmine)",
+        "NEVER use in tricyclic antidepressant overdose",
+        "Continuous cardiac monitoring required",
+        "Effect lasts 30-60 min - may require repetition",
+        "Administer slowly (≥5 min) to avoid seizures",
+        "Cholinergic toxicity signs: SLUDGE (Salivation, Lacrimation, Urination, Defecation, GI upset, Emesis)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use with caution. Monitor cardiovascular and neurological effects.",
+        "renal": "Not specified - use with caution.",
+        "hepatico": "Not specified - use with caution."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Physostigmine (adult)",
+        "doseTexto": "0.5-2 mg IV slow over ≥5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Physostigmine (pediatric)",
+        "doseTexto": "0.02 mg/kg IV slow (max 0.5 mg/dose)",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fisostigmina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Síndrome anticolinérgica (adulto)",
+          "descricaoDose": "0,5-2 mg IV lento en ≥5 min (máx 4 mg total)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0,5-2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir cada 10-30 min si es necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Síndrome anticolinérgica (pediátrico)",
+          "descricaoDose": "0,02 mg/kg IV lento en ≥5 min (máx 0,5 mg/dosis; 2 mg total)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir cada 5-10 min si es necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto - Inhibidor reversible de la acetilcolinesterasa",
+      "apresentacoes": [
+        { "forma": "Ampolla 1 mg/mL (2 mL)", "obs": "Antilirium®" },
+        { "forma": "Ampolla 0,5 mg/mL (5 mL)", "obs": "Formulación hospitalaria" }
+      ],
+      "preparo": [
+        { "diluicao": "Puede administrarse pura", "concentracao": "IV lento (≥5 min)" },
+        { "diluicao": "Diluir en SF 0,9% si es necesario", "concentracao": "Para facilitar titulación" }
+      ],
+      "observacoes": [
+        "MANTENER ATROPINA DISPONIBLE para reversión (0,5 mg por cada 1 mg de fisostigmina)",
+        "NUNCA usar en intoxicación por antidepresivos tricíclicos",
+        "Monitorización cardíaca continua obligatoria",
+        "Efecto dura 30-60 min - puede requerir repetición",
+        "Administrar lentamente (≥5 min) para evitar convulsiones",
+        "Signos de toxicidad colinérgica: SLUDGE (Salivación, Lagrimeo, Micción, Defecación, Molestia GI, Emesis)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar con precaución. Monitorizar efectos cardiovasculares y neurológicos.",
+        "renal": "No especificado - usar con precaución.",
+        "hepatico": "No especificado - usar con precaución."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fisostigmina (adulto)",
+        "doseTexto": "0,5-2 mg IV lento en ≥5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,5-2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fisostigmina (pediátrico)",
+        "doseTexto": "0,02 mg/kg IV lento (máx 0,5 mg/dosis)",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "毒扁豆碱",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "抗胆碱能综合征（成人）",
+          "descricaoDose": "0.5-2 mg IV 缓慢 ≥5 分钟（总量最大 4 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "0.5-2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "必要时每 10-30 分钟重复",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "抗胆碱能综合征（儿童）",
+          "descricaoDose": "0.02 mg/kg IV 缓慢 ≥5 分钟（单次最大 0.5 mg；总量 2 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.02,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "必要时每 5-10 分钟重复",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "解毒剂 - 可逆性乙酰胆碱酯酶抑制剂",
+      "apresentacoes": [
+        { "forma": "安瓿 1 mg/mL (2 mL)", "obs": "Antilirium®" },
+        { "forma": "安瓿 0.5 mg/mL (5 mL)", "obs": "医院制剂" }
+      ],
+      "preparo": [
+        { "diluicao": "可原液使用", "concentracao": "IV 缓慢（≥5 分钟）" },
+        { "diluicao": "必要时用生理盐水稀释", "concentracao": "便于滴定" }
+      ],
+      "observacoes": [
+        "备妥阿托品用于逆转（每 1 mg 毒扁豆碱用 0.5 mg 阿托品）",
+        "三环类抗抑郁药中毒时绝对禁用",
+        "必须持续心电监护",
+        "作用持续 30-60 分钟，可能需要重复给药",
+        "缓慢给药（≥5 分钟）以防惊厥",
+        "胆碱能毒性征象：SLUDGE（流涎、流泪、排尿、排便、胃肠道不适、呕吐）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "慎用。监测心血管及神经系统反应。",
+        "renal": "未明确 - 慎用。",
+        "hepatico": "未明确 - 慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "毒扁豆碱（成人）",
+        "doseTexto": "0.5-2 mg IV 缓慢 ≥5 分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.5-2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "毒扁豆碱（儿童）",
+        "doseTexto": "0.02 mg/kg IV 缓慢（单次最大 0.5 mg）",
+        "doseMin": 0.02,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  }
+}

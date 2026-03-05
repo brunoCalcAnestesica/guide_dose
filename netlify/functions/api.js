@@ -55,13 +55,19 @@ exports.handler = async (event) => {
 
     const allowedTables = [
       "profiles",
-      "patient_notes",
-      "general_notes",
+      "hospitals",
       "shifts",
-      "feedback",
+      "procedures",
+      "procedure_types",
+      "blocked_days",
+      "notes",
+      "patients",
       "med_lists",
-      "app_versions",
-      "access_logs",
+      "app_config",
+      "feedback",
+      "push_notifications",
+      "push_schedules",
+      "notification_preferences",
     ];
 
     if (!allowedTables.includes(table)) {

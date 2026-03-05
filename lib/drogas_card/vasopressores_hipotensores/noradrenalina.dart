@@ -17,10 +17,10 @@ class MedicamentoNoradrenalina {
 
   static Widget buildCard(BuildContext context, Set<String> favoritos,
       void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
     final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
-    final isFavorito = favoritos.contains(nome);
 
     return buildMedicamentoExpansivel(
       context: context,
@@ -37,6 +37,24 @@ class MedicamentoNoradrenalina {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso';
+
+    return _buildCardNoradrenalina(
+      context,
+        peso,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static Widget _buildCardNoradrenalina(BuildContext context, double peso,
       bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
@@ -49,7 +67,7 @@ class MedicamentoNoradrenalina {
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('Vasopressor', 'Catecolamina α1 > β1'),
-        
+
         // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
         const Text('Apresentação',
@@ -57,7 +75,7 @@ class MedicamentoNoradrenalina {
         const SizedBox(height: 8),
         _linhaPreparo('Ampola 2mg/mL', '4mL (8mg) | Levophed®'),
         _linhaPreparo('Ampola 1mg/mL', '4mL (4mg)'),
-        
+
         // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo',
@@ -67,7 +85,7 @@ class MedicamentoNoradrenalina {
         _linhaPreparo('16mg + 234mL SG5%', '64 mcg/mL'),
         _linhaPreparo('8mg + 242mL SG5%', '32 mcg/mL'),
         _textoObs('Preferir via central - risco de necrose'),
-        
+
         // 4. INDICAÇÕES CLÍNICAS (TODAS infusão contínua - caixa laranja)
         const SizedBox(height: 16),
         const Text('Indicações Clínicas',
@@ -96,14 +114,14 @@ class MedicamentoNoradrenalina {
             descricaoDose: '0,05-0,5 mcg/kg/min IV contínua',
           ),
         ],
-        
+
         // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _buildConversorInfusao(peso, isAdulto),
-        
+
         // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações',

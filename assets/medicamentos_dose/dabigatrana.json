@@ -1,0 +1,718 @@
+{
+  "PT": {
+    "nome": "Dabigatrana",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA – dose padrão (adulto)",
+          "descricaoDose": "150 mg 12/12h VO. ClCr <30: contraindicado. ClCr 30-50 ou idade ≥80 ou verapamil ou alto risco sangramento: considerar 110 mg 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: contraindicado. ClCr 30-50 ou idade ≥80 ou verapamil ou alto risco sangramento: 110 mg 12/12h.",
+            "ajusteHepatico": "Contraindicado em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "FA – dose reduzida (adulto)",
+          "descricaoDose": "110 mg 12/12h VO. Quando indicado: idade ≥80 anos, uso de verapamil, alto risco sangramento ou ClCr 30-50 mL/min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 110,
+            "doseMax": 110,
+            "doseMaxima": 110,
+            "doseFixa": "110 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – tratamento (adulto)",
+          "descricaoDose": "150 mg 12/12h VO. Iniciar após ≥5 dias de anticoagulação parenteral.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – prevenção de recorrência (adulto)",
+          "descricaoDose": "150 mg 12/12h VO.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Profilaxia TVP – cirurgia ortopédica (adulto)",
+          "descricaoDose": "110 mg 1ª dose 1-4h pós-cirurgia, depois 220 mg 1x/dia; ou 220 mg 1x/dia (1ª dose no dia seguinte). Conforme bula.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 110,
+            "doseMax": 220,
+            "doseMaxima": 220,
+            "doseFixa": "110-220 mg conforme esquema",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia ou conforme esquema",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Inibidor direto da trombina (fator IIa)",
+      "apresentacoes": [
+        { "forma": "Cápsula 75 mg", "obs": "Apresentação específica" },
+        { "forma": "Cápsula 110 mg", "obs": "FA dose reduzida" },
+        { "forma": "Cápsula 150 mg", "obs": "FA padrão, TVP/TEP" }
+      ],
+      "preparo": [
+        { "diluicao": "VO. Engolir cápsula inteira.", "concentracao": "Não triturar, abrir ou mastigar" }
+      ],
+      "observacoes": [
+        "NÃO abrir, triturar ou mastigar cápsulas (reduz biodisponibilidade)",
+        "Manter no blister original até o uso (sensível à umidade)",
+        "Único DOAC dialisável; reversão específica: idarucizumab (Praxbind)",
+        "ClCr <30 mL/min: contraindicado. ClCr 30-50: considerar 110 mg em FA",
+        "Evitar inibidores potentes da P-gp (cetoconazol, ciclosporina)",
+        "Suspender conforme intervalo antes de cirurgia (risco sangramento)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Idade ≥80 anos é critério para dose 110 mg 12/12h em FA. Avaliar benefício/risco.",
+        "renal": "ClCr <30: contraindicado. ClCr 30-50: em FA considerar 110 mg 12/12h. Excreção renal ~80%.",
+        "hepatico": "Contraindicado em doença hepática grave (risco sangramento)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dabigatrana FA padrão (adulto)",
+        "doseTexto": "150 mg 12/12h VO",
+        "doseMin": 150,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dabigatrana FA dose reduzida (adulto)",
+        "doseTexto": "110 mg 12/12h VO",
+        "doseMin": 110,
+        "doseMax": 110,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "110 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dabigatrana TVP/TEP (adulto)",
+        "doseTexto": "150 mg 12/12h VO (após ≥5 dias parenteral)",
+        "doseMin": 150,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dabigatrana profilaxia ortopédica (adulto)",
+        "doseTexto": "110 mg 1ª dose, depois 220 mg 1x/dia (ou 220 mg 1x/dia)",
+        "doseMin": 110,
+        "doseMax": 220,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Dabigatran",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "AF – standard dose (adult)",
+          "descricaoDose": "150 mg twice daily PO. CrCl <30: contraindicated. CrCl 30-50 or age ≥80 or verapamil or high bleeding risk: consider 110 mg twice daily.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: contraindicated. CrCl 30-50 or age ≥80 or verapamil or high bleeding risk: 110 mg twice daily.",
+            "ajusteHepatico": "Contraindicated in severe liver disease."
+          }
+        },
+        {
+          "titulo": "AF – reduced dose (adult)",
+          "descricaoDose": "110 mg twice daily PO. When indicated: age ≥80 years, verapamil use, high bleeding risk or CrCl 30-50 mL/min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 110,
+            "doseMax": 110,
+            "doseMaxima": 110,
+            "doseFixa": "110 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: contraindicated.",
+            "ajusteHepatico": "Contraindicated in severe liver disease."
+          }
+        },
+        {
+          "titulo": "DVT/PE – treatment (adult)",
+          "descricaoDose": "150 mg twice daily PO. Start after ≥5 days of parenteral anticoagulation.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: contraindicated.",
+            "ajusteHepatico": "Contraindicated in severe liver disease."
+          }
+        },
+        {
+          "titulo": "DVT/PE – recurrence prevention (adult)",
+          "descricaoDose": "150 mg twice daily PO.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl <30: contraindicated.",
+            "ajusteHepatico": "Contraindicated in severe liver disease."
+          }
+        },
+        {
+          "titulo": "VTE prophylaxis – orthopedic surgery (adult)",
+          "descricaoDose": "110 mg first dose 1-4h after surgery, then 220 mg once daily; or 220 mg once daily (first dose next day). Per label.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 110,
+            "doseMax": 220,
+            "doseMaxima": 220,
+            "doseFixa": "110-220 mg per regimen",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily or per regimen",
+            "ajusteRenal": "CrCl <30: contraindicated.",
+            "ajusteHepatico": "Contraindicated in severe liver disease."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Direct thrombin (factor IIa) inhibitor",
+      "apresentacoes": [
+        { "forma": "Capsule 75 mg", "obs": "Specific formulation" },
+        { "forma": "Capsule 110 mg", "obs": "AF reduced dose" },
+        { "forma": "Capsule 150 mg", "obs": "AF standard, DVT/PE" }
+      ],
+      "preparo": [
+        { "diluicao": "PO. Swallow capsule whole.", "concentracao": "Do not crush, open or chew" }
+      ],
+      "observacoes": [
+        "Do NOT open, crush or chew capsules (reduces bioavailability)",
+        "Keep in original blister until use (moisture sensitive)",
+        "Only dialyzable DOAC; specific reversal: idarucizumab (Praxbind)",
+        "CrCl <30 mL/min: contraindicated. CrCl 30-50: consider 110 mg in AF",
+        "Avoid potent P-gp inhibitors (ketoconazole, cyclosporine)",
+        "Discontinue per interval before surgery (bleeding risk)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Age ≥80 years is criterion for 110 mg twice daily in AF. Assess benefit/risk.",
+        "renal": "CrCl <30: contraindicated. CrCl 30-50: in AF consider 110 mg twice daily. Renal excretion ~80%.",
+        "hepatico": "Contraindicated in severe liver disease (bleeding risk)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dabigatran AF standard (adult)",
+        "doseTexto": "150 mg twice daily PO",
+        "doseMin": 150,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dabigatran AF reduced (adult)",
+        "doseTexto": "110 mg twice daily PO",
+        "doseMin": 110,
+        "doseMax": 110,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "110 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dabigatran DVT/PE (adult)",
+        "doseTexto": "150 mg twice daily PO (after ≥5 days parenteral)",
+        "doseMin": 150,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dabigatran orthopedic prophylaxis (adult)",
+        "doseTexto": "110 mg first dose, then 220 mg once daily (or 220 mg once daily)",
+        "doseMin": 110,
+        "doseMax": 220,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Dabigatrán",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA – dosis estándar (adulto)",
+          "descricaoDose": "150 mg 12/12h VO. ClCr <30: contraindicado. ClCr 30-50 o edad ≥80 o verapamilo o alto riesgo sangrado: considerar 110 mg 12/12h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: contraindicado. ClCr 30-50 o edad ≥80 o verapamilo o alto riesgo sangrado: 110 mg 12/12h.",
+            "ajusteHepatico": "Contraindicado en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "FA – dosis reducida (adulto)",
+          "descricaoDose": "110 mg 12/12h VO. Cuando indicado: edad ≥80 años, uso de verapamilo, alto riesgo sangrado o ClCr 30-50 mL/min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 110,
+            "doseMax": 110,
+            "doseMaxima": 110,
+            "doseFixa": "110 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – tratamiento (adulto)",
+          "descricaoDose": "150 mg 12/12h VO. Iniciar tras ≥5 días de anticoagulación parenteral.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – prevención de recidiva (adulto)",
+          "descricaoDose": "150 mg 12/12h VO.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Profilaxis TVP – cirugía ortopédica (adulto)",
+          "descricaoDose": "110 mg 1ª dosis 1-4h post-cirugía, después 220 mg 1x/día; o 220 mg 1x/día (1ª dosis al día siguiente). Según ficha.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 110,
+            "doseMax": 220,
+            "doseMaxima": 220,
+            "doseFixa": "110-220 mg según esquema",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día o según esquema",
+            "ajusteRenal": "ClCr <30: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Inhibidor directo de la trombina (factor IIa)",
+      "apresentacoes": [
+        { "forma": "Cápsula 75 mg", "obs": "Presentación específica" },
+        { "forma": "Cápsula 110 mg", "obs": "FA dosis reducida" },
+        { "forma": "Cápsula 150 mg", "obs": "FA estándar, TVP/TEP" }
+      ],
+      "preparo": [
+        { "diluicao": "VO. Tragar cápsula entera.", "concentracao": "No triturar, abrir ni masticar" }
+      ],
+      "observacoes": [
+        "NO abrir, triturar ni masticar cápsulas (reduce biodisponibilidad)",
+        "Mantener en blister original hasta el uso (sensible a humedad)",
+        "Único DOAC dializable; reversión específica: idarucizumab (Praxbind)",
+        "ClCr <30 mL/min: contraindicado. ClCr 30-50: considerar 110 mg en FA",
+        "Evitar inhibidores potentes de P-gp (ketoconazol, ciclosporina)",
+        "Suspender según intervalo antes de cirugía (riesgo sangrado)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Edad ≥80 años es criterio para 110 mg 12/12h en FA. Evaluar beneficio/riesgo.",
+        "renal": "ClCr <30: contraindicado. ClCr 30-50: en FA considerar 110 mg 12/12h. Excreción renal ~80%.",
+        "hepatico": "Contraindicado en hepatopatía grave (riesgo sangrado)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dabigatrán FA estándar (adulto)",
+        "doseTexto": "150 mg 12/12h VO",
+        "doseMin": 150,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dabigatrán FA dosis reducida (adulto)",
+        "doseTexto": "110 mg 12/12h VO",
+        "doseMin": 110,
+        "doseMax": 110,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "110 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dabigatrán TVP/TEP (adulto)",
+        "doseTexto": "150 mg 12/12h VO (tras ≥5 días parenteral)",
+        "doseMin": 150,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dabigatrán profilaxis ortopédica (adulto)",
+        "doseTexto": "110 mg 1ª dosis, después 220 mg 1x/día (o 220 mg 1x/día)",
+        "doseMin": 110,
+        "doseMax": 220,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "达比加群",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "房颤标准剂量（成人）",
+          "descricaoDose": "150 mg 每日2次 口服。ClCr <30：禁忌。ClCr 30-50或年龄≥80岁或维拉帕米或高出血风险：考虑110 mg 每日2次。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <30：禁忌。ClCr 30-50或年龄≥80岁或维拉帕米或高出血风险：110 mg 每日2次。",
+            "ajusteHepatico": "严重肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "房颤减量（成人）",
+          "descricaoDose": "110 mg 每日2次 口服。适应时：年龄≥80岁、使用维拉帕米、高出血风险或ClCr 30-50 mL/min。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 110,
+            "doseMax": 110,
+            "doseMaxima": 110,
+            "doseFixa": "110 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <30：禁忌。",
+            "ajusteHepatico": "严重肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "DVT/PE治疗（成人）",
+          "descricaoDose": "150 mg 每日2次 口服。肠外抗凝≥5天后开始。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <30：禁忌。",
+            "ajusteHepatico": "严重肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "DVT/PE复发预防（成人）",
+          "descricaoDose": "150 mg 每日2次 口服。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 150,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "150 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日2次",
+            "ajusteRenal": "ClCr <30：禁忌。",
+            "ajusteHepatico": "严重肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "VTE预防骨科手术（成人）",
+          "descricaoDose": "110 mg 首剂术后1-4h，随后220 mg 每日1次；或220 mg 每日1次（首剂次日）。遵说明书。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 110,
+            "doseMax": 220,
+            "doseMaxima": 220,
+            "doseFixa": "110-220 mg 按方案",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次或按方案",
+            "ajusteRenal": "ClCr <30：禁忌。",
+            "ajusteHepatico": "严重肝病禁忌。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - 直接凝血酶（IIa因子）抑制剂",
+      "apresentacoes": [
+        { "forma": "胶囊 75 mg", "obs": "特定剂型" },
+        { "forma": "胶囊 110 mg", "obs": "房颤减量" },
+        { "forma": "胶囊 150 mg", "obs": "房颤标准、DVT/PE" }
+      ],
+      "preparo": [
+        { "diluicao": "口服。整粒吞服。", "concentracao": "不可压碎、打开或咀嚼" }
+      ],
+      "observacoes": [
+        "不可打开、压碎或咀嚼胶囊（降低生物利用度）",
+        "使用前保持原泡罩包装（对湿度敏感）",
+        "唯一可透析DOAC；特异性逆转：idarucizumab（Praxbind）",
+        "ClCr <30 mL/min：禁忌。ClCr 30-50：房颤考虑110 mg",
+        "避免强P-gp抑制剂（酮康唑、环孢素）",
+        "手术前按间隔停药（出血风险）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "年龄≥80岁为房颤110 mg 每日2次的标准。评估获益/风险。",
+        "renal": "ClCr <30：禁忌。ClCr 30-50：房颤考虑110 mg 每日2次。肾排泄约80%。",
+        "hepatico": "严重肝病禁忌（出血风险）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "达比加群 房颤标准（成人）",
+        "doseTexto": "150 mg 每日2次 口服",
+        "doseMin": 150,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "达比加群 房颤减量（成人）",
+        "doseTexto": "110 mg 每日2次 口服",
+        "doseMin": 110,
+        "doseMax": 110,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "110 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "达比加群 DVT/PE（成人）",
+        "doseTexto": "150 mg 每日2次 口服（肠外≥5天后）",
+        "doseMin": 150,
+        "doseMax": 150,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "150 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "达比加群 骨科预防（成人）",
+        "doseTexto": "110 mg 首剂，随后220 mg 每日1次（或220 mg 每日1次）",
+        "doseMin": 110,
+        "doseMax": 220,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

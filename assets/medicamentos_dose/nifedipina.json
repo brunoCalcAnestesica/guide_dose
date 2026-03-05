@@ -1,0 +1,798 @@
+{
+  "PT": {
+    "nome": "Nifedipina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Urgência hipertensiva",
+          "descricaoDose": "10-20 mg VO (não sublingual), repetir em 30 min se necessário (máx 40 mg em 2h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "10-20 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "repetir em 30 min se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pré-eclâmpsia",
+          "descricaoDose": "10-20 mg VO a cada 30 min (máx 50 mg em 1h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 50,
+            "doseFixa": "10-20 mg VO a cada 30 min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tocólise - ataque",
+          "descricaoDose": "10 mg VO a cada 20 min × 3 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 20 min × 3 doses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tocólise - manutenção",
+          "descricaoDose": "20 mg VO 4/4h ou 6/6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "20 mg VO 4/4h ou 6/6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4/4h ou 6/6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipertensão crônica (retard)",
+          "descricaoDose": "30-60 mg VO 1x/dia ou 20 mg 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 60,
+            "doseMaxima": 90,
+            "doseFixa": "30-90 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Urgência hipertensiva pediátrica",
+          "descricaoDose": "0,25-0,5 mg/kg/dose VO (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única ou conforme resposta",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canal de cálcio (diidropiridina)",
+      "apresentacoes": [
+        { "forma": "Cápsula 10 mg", "obs": "Liberação imediata" },
+        { "forma": "Comprimido retard 20 mg, 30 mg, 60 mg", "obs": "Liberação prolongada" }
+      ],
+      "preparo": [
+        { "diluicao": "Via oral APENAS", "concentracao": "" },
+        { "diluicao": "NÃO usar via sublingual", "concentracao": "Risco de hipotensão grave/eventos isquêmicos" },
+        { "diluicao": "Cápsulas: engolir inteira com água", "concentracao": "" }
+      ],
+      "observacoes": [
+        "NÃO USAR VIA SUBLINGUAL - risco de AVC/IAM e hipotensão grave",
+        "Causa taquicardia reflexa significativa",
+        "EVITAR em SCA, AVC agudo, dissecção aórtica",
+        "Queda de PA pode ser imprevisível e excessiva",
+        "Preferir formulações de liberação prolongada na prática clínica",
+        "Uso em gestação: categoria C (tocólise); evitar em pré-eclâmpsia grave com outras opções"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com dose baixa; risco de hipotensão. Preferir formulação retard.",
+        "renal": "Não requer ajuste de dose na urgência. Em uso crônico com DRC grave, monitorar PA.",
+        "hepatico": "Metabolismo hepático (CYP3A4). Reduzir dose ou evitar em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nifedipina (urgência - VO)",
+        "doseTexto": "10-20 mg VO (não sublingual)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nifedipina (pré-eclâmpsia)",
+        "doseTexto": "10-20 mg VO a cada 30 min (máx 50 mg/1h)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nifedipina (tocólise - ataque)",
+        "doseTexto": "10 mg VO a cada 20 min × 3 doses",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nifedipina (tocólise - manut)",
+        "doseTexto": "20 mg VO 4/4h ou 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nifedipina (pediátrico)",
+        "doseTexto": "0,25-0,5 mg/kg VO (máx 10 mg)",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Nifedipine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hypertensive urgency",
+          "descricaoDose": "10-20 mg PO (not sublingual), repeat in 30 min if needed (max 40 mg in 2h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "10-20 mg PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "repeat in 30 min if needed",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Preeclampsia",
+          "descricaoDose": "10-20 mg PO every 30 min (max 50 mg in 1h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 50,
+            "doseFixa": "10-20 mg PO every 30 min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tocolysis - loading",
+          "descricaoDose": "10 mg PO every 20 min × 3 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 20 min × 3 doses",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tocolysis - maintenance",
+          "descricaoDose": "20 mg PO q4-6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "20 mg PO q4-6h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "q4-6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Chronic hypertension (extended-release)",
+          "descricaoDose": "30-60 mg PO once daily or 20 mg twice daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 60,
+            "doseMaxima": 90,
+            "doseFixa": "30-90 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "1-2x/day",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric hypertensive urgency",
+          "descricaoDose": "0.25-0.5 mg/kg/dose PO (max 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single dose or per response",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Calcium channel blocker (dihydropyridine)",
+      "apresentacoes": [
+        { "forma": "Capsule 10 mg", "obs": "Immediate release" },
+        { "forma": "Extended-release tablet 20 mg, 30 mg, 60 mg", "obs": "Prolonged release" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral route ONLY", "concentracao": "" },
+        { "diluicao": "DO NOT use sublingually", "concentracao": "Risk of severe hypotension/ischemic events" },
+        { "diluicao": "Capsules: swallow whole with water", "concentracao": "" }
+      ],
+      "observacoes": [
+        "DO NOT USE SUBLINGUALLY - risk of stroke/MI and severe hypotension",
+        "Causes significant reflex tachycardia",
+        "AVOID in ACS, acute stroke, aortic dissection",
+        "BP drop can be unpredictable and excessive",
+        "Prefer extended-release formulations in clinical practice",
+        "Pregnancy: category C (tocolysis); avoid in severe preeclampsia when other options exist"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with low dose; hypotension risk. Prefer extended-release.",
+        "renal": "No dose adjustment for urgency use. In chronic use with severe CKD, monitor BP.",
+        "hepatico": "Hepatic metabolism (CYP3A4). Reduce dose or avoid in severe hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nifedipine (urgency - PO)",
+        "doseTexto": "10-20 mg PO (not sublingual)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Nifedipine (preeclampsia)",
+        "doseTexto": "10-20 mg PO every 30 min (max 50 mg/1h)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Nifedipine (tocolysis - loading)",
+        "doseTexto": "10 mg PO every 20 min × 3 doses",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Nifedipine (tocolysis - maintenance)",
+        "doseTexto": "20 mg PO q4-6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Nifedipine (pediatric)",
+        "doseTexto": "0.25-0.5 mg/kg PO (max 10 mg)",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Nifedipino",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Urgencia hipertensiva",
+          "descricaoDose": "10-20 mg VO (no sublingual), repetir en 30 min si es necesario (máx 40 mg en 2h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "10-20 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "repetir en 30 min si es necesario",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Preeclampsia",
+          "descricaoDose": "10-20 mg VO cada 30 min (máx 50 mg en 1h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 50,
+            "doseFixa": "10-20 mg VO cada 30 min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 30 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tocolisis - ataque",
+          "descricaoDose": "10 mg VO cada 20 min × 3 dosis",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 20 min × 3 dosis",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Tocolisis - mantenimiento",
+          "descricaoDose": "20 mg VO 4/4h o 6/6h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "20 mg VO 4/4h o 6/6h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "4/4h o 6/6h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipertension cronica (retard)",
+          "descricaoDose": "30-60 mg VO 1x/dia o 20 mg 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 60,
+            "doseMaxima": 90,
+            "doseFixa": "30-90 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Urgencia hipertensiva pediatrica",
+          "descricaoDose": "0,25-0,5 mg/kg/dosis VO (máx 10 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis unica o segun respuesta",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Bloqueador de canales de calcio (dihidropiridina)",
+      "apresentacoes": [
+        { "forma": "Capsula 10 mg", "obs": "Liberacion inmediata" },
+        { "forma": "Comprimido retard 20 mg, 30 mg, 60 mg", "obs": "Liberacion prolongada" }
+      ],
+      "preparo": [
+        { "diluicao": "Via oral SOLO", "concentracao": "" },
+        { "diluicao": "NO usar via sublingual", "concentracao": "Riesgo de hipotension grave/eventos isquemicos" },
+        { "diluicao": "Capsulas: tragar entera con agua", "concentracao": "" }
+      ],
+      "observacoes": [
+        "NO USAR VIA SUBLINGUAL - riesgo de ACV/IAM e hipotension grave",
+        "Causa taquicardia refleja significativa",
+        "EVITAR en SCA, ACV agudo, diseccion aortica",
+        "La caida de PA puede ser impredecible y excesiva",
+        "Preferir formulaciones de liberacion prolongada en la practica clinica",
+        "Uso en embarazo: categoria C (tocolisis); evitar en preeclampsia grave si hay otras opciones"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis baja; riesgo de hipotension. Preferir formulacion retard.",
+        "renal": "No requiere ajuste de dosis en urgencia. En uso cronico con ERC grave, monitorizar PA.",
+        "hepatico": "Metabolismo hepatico (CYP3A4). Reducir dosis o evitar en insuficiencia hepatica grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Nifedipino (urgencia - VO)",
+        "doseTexto": "10-20 mg VO (no sublingual)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nifedipino (preeclampsia)",
+        "doseTexto": "10-20 mg VO cada 30 min (máx 50 mg/1h)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nifedipino (tocolisis - ataque)",
+        "doseTexto": "10 mg VO cada 20 min × 3 dosis",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nifedipino (tocolisis - manut)",
+        "doseTexto": "20 mg VO 4/4h o 6/6h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Nifedipino (pediatrico)",
+        "doseTexto": "0,25-0,5 mg/kg VO (máx 10 mg)",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "硝苯地平",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "高血压急症",
+          "descricaoDose": "10-20 mg 口服（勿舌下），必要时30分钟重复（2小时内最大40 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 40,
+            "doseFixa": "10-20 mg 口服",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "必要时30分钟重复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "子痫前期",
+          "descricaoDose": "10-20 mg 口服每30分钟（1小时内最大50 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 50,
+            "doseFixa": "10-20 mg 口服每30分钟",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每30分钟",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "保胎 - 负荷",
+          "descricaoDose": "10 mg 口服每20分钟×3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": "10 mg 口服",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每20分钟×3次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "保胎 - 维持",
+          "descricaoDose": "20 mg 口服每4-6小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "20 mg 口服每4-6小时",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "每4-6小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "慢性高血压（缓释）",
+          "descricaoDose": "30-60 mg 口服每日1次或20 mg 每日2次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 60,
+            "doseMaxima": 90,
+            "doseFixa": "30-90 mg/日",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2次/日",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童高血压急症",
+          "descricaoDose": "0.25-0.5 mg/kg/次 口服（最大10 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 10,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "单次或按反应",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "钙通道阻滞剂（二氢吡啶类）",
+      "apresentacoes": [
+        { "forma": "胶囊 10 mg", "obs": "即释" },
+        { "forma": "缓释片 20 mg, 30 mg, 60 mg", "obs": "缓释" }
+      ],
+      "preparo": [
+        { "diluicao": "仅口服", "concentracao": "" },
+        { "diluicao": "勿舌下含服", "concentracao": "严重低血压/缺血事件风险" },
+        { "diluicao": "胶囊：整粒用水吞服", "concentracao": "" }
+      ],
+      "observacoes": [
+        "勿舌下含服 - 卒中/心梗及严重低血压风险",
+        "可致明显反射性心动过速",
+        "避免用于急性冠脉综合征、急性卒中、主动脉夹层",
+        "血压下降可能不可预测且过剧",
+        "临床优先选用缓释制剂",
+        "妊娠：C类（保胎）；严重子痫前期如有其他选择则避免使用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从小剂量开始；低血压风险。优先缓释。",
+        "renal": "急症无需调剂量。慢性用药伴严重CKD时监测血压。",
+        "hepatico": "肝脏代谢（CYP3A4）。严重肝损时减量或避免。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "硝苯地平（急症-口服）",
+        "doseTexto": "10-20 mg 口服（勿舌下）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "硝苯地平（子痫前期）",
+        "doseTexto": "10-20 mg 口服每30分钟（最大50 mg/1h）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "硝苯地平（保胎-负荷）",
+        "doseTexto": "10 mg 口服每20分钟×3次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "硝苯地平（保胎-维持）",
+        "doseTexto": "20 mg 口服每4-6小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "硝苯地平（儿童）",
+        "doseTexto": "0.25-0.5 mg/kg 口服（最大10 mg）",
+        "doseMin": 0.25,
+        "doseMax": 0.5,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

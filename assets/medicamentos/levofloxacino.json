@@ -1,0 +1,26 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Levofloxacino",
+      "nome_comercial": ["Levaquin", "Tavanic"],
+      "classe_terapeutica": "Fluoroquinolona respiratória (3ª geração)",
+      "mecanismo_acao": "Isômero L do ofloxacino. Inibe a DNA girase (topoisomerase II) e topoisomerase IV bacterianas, bloqueando a replicação do DNA.",
+      "espectro": {
+        "gram_positivos": ["S. pneumoniae (incluindo resistentes)", "S. aureus (MSSA)", "Streptococcus"],
+        "gram_negativos": ["E. coli", "Klebsiella", "Proteus", "H. influenzae", "M. catarrhalis", "Pseudomonas (moderado)"],
+        "atipicos": ["Legionella", "Mycoplasma pneumoniae", "Chlamydia pneumoniae"]
+      },
+      "indicacoes": ["Pneumonia comunitária", "Pneumonia nosocomial", "Exacerbação de DPOC", "ITU complicada", "Pielonefrite", "Prostatite"],
+      "apresentacoes": [
+        {"forma": "Solução IV", "concentracao": "500mg/100mL"},
+        {"forma": "Comprimido", "concentracao": "250mg, 500mg, 750mg"}
+      ],
+      "farmacocinetica": {"meia_vida": "6-8 horas", "biodisponibilidade_oral": "99%", "excrecao": "Renal (87%)", "penetracao_tecidual": "Excelente"},
+      "ajuste_renal": {"ClCr_20_50": "750mg inicial, depois 750mg 48/48h", "ClCr_menor_20": "750mg inicial, depois 500mg 48/48h"},
+      "black_box_warnings": ["Tendinite e ruptura de tendão", "Neuropatia periférica", "Efeitos no SNC", "Exacerbação de miastenia gravis"],
+      "efeitos_adversos": ["Náusea", "Diarreia", "Cefaleia", "Insônia", "Prolongamento QT", "Fotossensibilidade"],
+      "contraindicacoes": ["Alergia a quinolonas", "Miastenia gravis", "História de tendinite por quinolona"],
+      "interacoes": ["Antiácidos (reduzem absorção)", "Warfarina (aumenta INR)", "Medicamentos que prolongam QT"]
+    }
+  }
+}

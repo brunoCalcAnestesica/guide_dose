@@ -1,0 +1,642 @@
+{
+  "PT": {
+    "nome": "Piridoxina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicação por isoniazida - dose conhecida (adulto)",
+          "descricaoDose": "1 g de piridoxina para cada 1 g de isoniazida ingerida IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g : 1 g INH",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação por isoniazida - dose desconhecida (adulto)",
+          "descricaoDose": "5 g IV em 5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única (repetir se convulsões persistirem)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Dose máxima única (adulto)",
+          "descricaoDose": "5 g IV - pode repetir se convulsões persistirem",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação por isoniazida - dose conhecida (pediátrico)",
+          "descricaoDose": "1 g de piridoxina para cada 1 g de isoniazida ingerida IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g : 1 g INH",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Intoxicação por isoniazida - dose desconhecida (pediátrico)",
+          "descricaoDose": "70 mg/kg IV (máx 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "em 5-15 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vitamina B6 / Antídoto - Isoniazida",
+      "apresentacoes": [
+        { "forma": "Ampola 100 mg/mL (2 mL = 200 mg)", "obs": "" },
+        { "forma": "Ampola 300 mg/2 mL", "obs": "" },
+        { "forma": "Comprimidos 40 mg, 100 mg, 300 mg", "obs": "Uso oral - profilaxia neuropatia" }
+      ],
+      "preparo": [
+        { "diluicao": "IV direto ou diluído em SF 0,9%", "concentracao": "" },
+        { "diluicao": "Administrar em 5-15 min", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Antídoto específico para convulsões por intoxicação com isoniazida",
+        "Benzodiazepínicos isolados são ineficazes na intoxicação por INH",
+        "Manter benzodiazepínicos disponíveis; administrar junto com piridoxina",
+        "Início de ação: minutos. Hidrossolúvel, sem acúmulo significativo",
+        "Bem tolerada em altas doses agudas; neuropatia com uso crônico > 200 mg/dia",
+        "Categoria A na gravidez (doses RDA); C em altas doses"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos.",
+        "renal": "Não requer ajuste. Eliminação renal mínima.",
+        "hepatico": "Não requer ajuste. Bem tolerada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Piridoxina (adulto) - dose desconhecida",
+        "doseTexto": "5 g IV em 5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Piridoxina (pediátrico) - dose desconhecida",
+        "doseTexto": "70 mg/kg IV (máx 5 g)",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Piridoxina - dose conhecida (1:1 INH)",
+        "doseTexto": "1 g piridoxina para cada 1 g isoniazida",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g : 1 g INH",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Pyridoxine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Isoniazid poisoning - known dose (adult)",
+          "descricaoDose": "1 g pyridoxine per 1 g isoniazid ingested IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g : 1 g INH",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Isoniazid poisoning - unknown dose (adult)",
+          "descricaoDose": "5 g IV over 5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose (repeat if seizures persist)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maximum single dose (adult)",
+          "descricaoDose": "5 g IV - may repeat if seizures persist",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Isoniazid poisoning - known dose (pediatric)",
+          "descricaoDose": "1 g pyridoxine per 1 g isoniazid ingested IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g : 1 g INH",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Isoniazid poisoning - unknown dose (pediatric)",
+          "descricaoDose": "70 mg/kg IV (max 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 5-15 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vitamin B6 / Antidote - Isoniazid",
+      "apresentacoes": [
+        { "forma": "Ampule 100 mg/mL (2 mL = 200 mg)", "obs": "" },
+        { "forma": "Ampule 300 mg/2 mL", "obs": "" },
+        { "forma": "Tablets 40 mg, 100 mg, 300 mg", "obs": "Oral - neuropathy prophylaxis" }
+      ],
+      "preparo": [
+        { "diluicao": "IV undiluted or diluted in NS", "concentracao": "" },
+        { "diluicao": "Administer over 5-15 min", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Specific antidote for seizures due to isoniazid poisoning",
+        "Benzodiazepines alone are ineffective in INH poisoning",
+        "Keep benzodiazepines available; give together with pyridoxine",
+        "Onset: minutes. Water-soluble, no significant accumulation",
+        "Well tolerated at high acute doses; neuropathy with chronic use > 200 mg/day",
+        "Pregnancy category A (RDA doses); C at high doses"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor effects.",
+        "renal": "No adjustment required. Minimal renal elimination.",
+        "hepatico": "No adjustment required. Well tolerated."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pyridoxine (adult) - unknown dose",
+        "doseTexto": "5 g IV over 5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pyridoxine (pediatric) - unknown dose",
+        "doseTexto": "70 mg/kg IV (max 5 g)",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Pyridoxine - known dose (1:1 INH)",
+        "doseTexto": "1 g pyridoxine per 1 g isoniazid",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g : 1 g INH",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Piridoxina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Intoxicación por isoniacida - dosis conocida (adulto)",
+          "descricaoDose": "1 g de piridoxina por cada 1 g de isoniacida ingerida IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g : 1 g INH",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación por isoniacida - dosis desconocida (adulto)",
+          "descricaoDose": "5 g IV en 5 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única (repetir si convulsiones persisten)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Dosis máxima única (adulto)",
+          "descricaoDose": "5 g IV - puede repetir si convulsiones persisten",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación por isoniacida - dosis conocida (pediátrico)",
+          "descricaoDose": "1 g de piridoxina por cada 1 g de isoniacida ingerida IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g : 1 g INH",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intoxicación por isoniacida - dosis desconocida (pediátrico)",
+          "descricaoDose": "70 mg/kg IV (máx 5 g)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "en 5-15 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Vitamina B6 / Antídoto - Isoniacida",
+      "apresentacoes": [
+        { "forma": "Ampolla 100 mg/mL (2 mL = 200 mg)", "obs": "" },
+        { "forma": "Ampolla 300 mg/2 mL", "obs": "" },
+        { "forma": "Comprimidos 40 mg, 100 mg, 300 mg", "obs": "Uso oral - profilaxis neuropatía" }
+      ],
+      "preparo": [
+        { "diluicao": "IV directo o diluido en SF 0,9%", "concentracao": "" },
+        { "diluicao": "Administrar en 5-15 min", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Antídoto específico para convulsiones por intoxicación con isoniacida",
+        "Benzodiazepínicos aislados son ineficaces en intoxicación por INH",
+        "Mantener benzodiazepínicos disponibles; administrar junto con piridoxina",
+        "Inicio de acción: minutos. Hidrosoluble, sin acúmulo significativo",
+        "Bien tolerada en dosis altas agudas; neuropatía con uso crónico > 200 mg/día",
+        "Categoría A en embarazo (dosis RDA); C en dosis altas"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos.",
+        "renal": "No requiere ajuste. Eliminación renal mínima.",
+        "hepatico": "No requiere ajuste. Bien tolerada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Piridoxina (adulto) - dosis desconocida",
+        "doseTexto": "5 g IV en 5 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Piridoxina (pediátrico) - dosis desconocida",
+        "doseTexto": "70 mg/kg IV (máx 5 g)",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Piridoxina - dosis conocida (1:1 INH)",
+        "doseTexto": "1 g piridoxina por cada 1 g isoniacida",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g : 1 g INH",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "吡哆醇",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "异烟肼中毒 - 已知剂量（成人）",
+          "descricaoDose": "每摄入1g异烟肼给予1g吡哆醇 IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g : 1 g INH",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "异烟肼中毒 - 未知剂量（成人）",
+          "descricaoDose": "5 g IV 5分钟内",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose (repeat if seizures persist)",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "最大单次剂量（成人）",
+          "descricaoDose": "5 g IV - 如惊厥持续可重复",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5,
+            "doseFixa": "5 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "异烟肼中毒 - 已知剂量（儿童）",
+          "descricaoDose": "每摄入1g异烟肼给予1g吡哆醇 IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1 g : 1 g INH",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "异烟肼中毒 - 未知剂量（儿童）",
+          "descricaoDose": "70 mg/kg IV（最大5 g）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 70,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 5000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "over 5-15 min",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "维生素B6 / 解毒剂 - 异烟肼",
+      "apresentacoes": [
+        { "forma": "安瓿 100 mg/mL (2 mL = 200 mg)", "obs": "" },
+        { "forma": "安瓿 300 mg/2 mL", "obs": "" },
+        { "forma": "片剂 40 mg, 100 mg, 300 mg", "obs": "口服 - 神经病变预防" }
+      ],
+      "preparo": [
+        { "diluicao": "IV 直接或稀释于生理盐水", "concentracao": "" },
+        { "diluicao": "5-15分钟内给药", "concentracao": "" }
+      ],
+      "observacoes": [
+        "异烟肼中毒所致惊厥的特异性解毒剂",
+        "单纯苯二氮䓬类对异烟肼中毒无效",
+        "备好苯二氮䓬类；与吡哆醇同时给药",
+        "起效：分钟。水溶性，无显著蓄积",
+        "大剂量急性使用耐受良好；长期>200 mg/日可致神经病变",
+        "妊娠A类（RDA剂量）；大剂量为C类"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特定调整。监测效应。",
+        "renal": "无需调整。肾脏清除极少。",
+        "hepatico": "无需调整。耐受良好。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "吡哆醇（成人）- 未知剂量",
+        "doseTexto": "5 g IV 5分钟内",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "5 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "吡哆醇（儿童）- 未知剂量",
+        "doseTexto": "70 mg/kg IV（最大5 g）",
+        "doseMin": 70,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "吡哆醇 - 已知剂量 (1:1 INH)",
+        "doseTexto": "每1g异烟肼给予1g吡哆醇",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "1 g : 1 g INH",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  }
+}

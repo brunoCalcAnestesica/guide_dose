@@ -1,0 +1,60 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Meropenem",
+      "nome_comercial": ["Meronem", "Meropenen"],
+      "classe_terapeutica": "Antibiótico carbapenêmico",
+      "mecanismo_acao": "Inibe a síntese da parede celular bacteriana ligando-se às proteínas ligadoras de penicilina (PBPs), resultando em lise celular. Estável contra a maioria das beta-lactamases.",
+      "indicacoes": [
+        "Pneumonia nosocomial e associada à ventilação mecânica",
+        "Meningite bacteriana",
+        "Infecções intra-abdominais complicadas",
+        "Infecções de pele e partes moles complicadas",
+        "Neutropenia febril",
+        "Sepse grave",
+        "Infecções por bactérias produtoras de ESBL"
+      ],
+      "contraindicacoes": [
+        "Hipersensibilidade ao meropenem ou outros carbapenêmicos",
+        "Histórico de reação anafilática a beta-lactâmicos"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Pó liofilizado para solução injetável",
+          "concentracao": "500 mg",
+          "volume": "Frasco-ampola"
+        },
+        {
+          "forma": "Pó liofilizado para solução injetável",
+          "concentracao": "1 g",
+          "volume": "Frasco-ampola"
+        }
+      ],
+      "farmacocinetica": {
+        "meia_vida": "1 hora",
+        "ligacao_proteica": "2%",
+        "metabolismo": "Hidrólise renal (DHP-I estável)",
+        "excrecao": "Renal (70% inalterado)",
+        "penetracao_snc": "Adequada para meningite"
+      },
+      "efeitos_adversos": [
+        "Diarreia",
+        "Náusea e vômito",
+        "Cefaleia",
+        "Rash cutâneo",
+        "Flebite no local da infusão",
+        "Convulsões (raro, menos que imipenem)",
+        "Colite por Clostridioides difficile"
+      ],
+      "interacoes_importantes": [
+        "Valproato: reduz níveis em até 90% - EVITAR combinação",
+        "Probenecida: aumenta níveis de meropenem"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "4 horas",
+        "refrigerado": "24 horas",
+        "apos_reconstituicao": "Usar preferencialmente em até 1 hora"
+      }
+    }
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "PT": {
+    "nome": "Pentazocina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor moderada a intensa (VO)",
+          "descricaoDose": "50-100 mg VO a cada 3-4h (máx 600 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 3-4h",
+            "ajusteRenal": "ClCr <30: reduzir dose e aumentar intervalo",
+            "ajusteHepatico": "Cautela em hepatopatas moderados a graves",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor moderada a intensa (IM/SC)",
+          "descricaoDose": "30-60 mg IM ou SC a cada 3-4h (máx 360 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": 360,
+            "doseFixa": "30-60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "a cada 3-4h",
+            "ajusteRenal": "ClCr <30: reduzir dose e aumentar intervalo",
+            "ajusteHepatico": "Cautela em hepatopatas moderados a graves",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor intensa (IV)",
+          "descricaoDose": "30 mg IV a cada 3-4h (administrar lentamente, em hospital)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 3-4h",
+            "ajusteRenal": "ClCr <30: reduzir dose e aumentar intervalo",
+            "ajusteHepatico": "Cautela em hepatopatas moderados a graves",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide agonista-antagonista (κ agonista, μ antagonista parcial)",
+      "apresentacoes": [
+        { "forma": "Solução injetável 30 mg/mL (ampola 1 mL)", "obs": "Uso IV/IM/SC" },
+        { "forma": "Comprimidos 50 mg", "obs": "VO" },
+        { "forma": "Comprimidos 100 mg", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 30 mg em 10-20 mL SF 0,9%", "concentracao": "administrar lentamente" },
+        { "diluicao": "IM/SC: administrar puro", "concentracao": "—" }
+      ],
+      "observacoes": [
+        "Dose máxima: 600 mg/dia VO, 360 mg/dia parenteral",
+        "Contraindicado em uso concomitante com opioides agonistas plenos (risco de abstinência)",
+        "Risco de efeitos psicomiméticos (disforia, confusão); mais comum em idosos e mulheres",
+        "Aumento da resistência vascular pulmonar; contraindicada em doença coronariana instável",
+        "Ter naloxona disponível para depressão respiratória",
+        "Uso em pediatria não recomendado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Efeitos psicomiméticos mais frequentes (confusão, delírio). Iniciar com dose menor e monitorar.",
+        "renal": "ClCr <30 mL/min: reduzir dose e aumentar intervalo entre administrações.",
+        "hepatico": "Cautela em hepatopatas moderados a graves. Monitorar sedação e acúmulo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pentazocina VO",
+        "doseTexto": "50-100 mg VO a cada 3-4h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pentazocina IM/SC",
+        "doseTexto": "30-60 mg IM/SC a cada 3-4h",
+        "doseMin": 30,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pentazocina IV",
+        "doseTexto": "30 mg IV a cada 3-4h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Pentazocine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderate to severe pain (PO)",
+          "descricaoDose": "50-100 mg PO every 3-4h (max 600 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 3-4h",
+            "ajusteRenal": "ClCr <30: reduce dose and increase interval",
+            "ajusteHepatico": "Caution in moderate to severe hepatic impairment",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Moderate to severe pain (IM/SC)",
+          "descricaoDose": "30-60 mg IM or SC every 3-4h (max 360 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": 360,
+            "doseFixa": "30-60 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/SC",
+            "intervalo": "every 3-4h",
+            "ajusteRenal": "ClCr <30: reduce dose and increase interval",
+            "ajusteHepatico": "Caution in moderate to severe hepatic impairment",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Severe pain (IV)",
+          "descricaoDose": "30 mg IV every 3-4h (administer slowly, in hospital)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 3-4h",
+            "ajusteRenal": "ClCr <30: reduce dose and increase interval",
+            "ajusteHepatico": "Caution in moderate to severe hepatic impairment",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioid analgesic agonist-antagonist (κ agonist, partial μ antagonist)",
+      "apresentacoes": [
+        { "forma": "Injection 30 mg/mL (1 mL vial)", "obs": "IV/IM/SC use" },
+        { "forma": "Tablets 50 mg", "obs": "PO" },
+        { "forma": "Tablets 100 mg", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 30 mg in 10-20 mL NS", "concentracao": "administer slowly" },
+        { "diluicao": "IM/SC: administer undiluted", "concentracao": "—" }
+      ],
+      "observacoes": [
+        "Max dose: 600 mg/day PO, 360 mg/day parenteral",
+        "Contraindicated with full agonist opioids (withdrawal risk)",
+        "Psychomimetic effects (dysphoria, confusion) more common in elderly and women",
+        "Increases pulmonary vascular resistance; contraindicated in unstable coronary disease",
+        "Have naloxone available for respiratory depression",
+        "Use in pediatrics not recommended"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Psychomimetic effects more frequent (confusion, delirium). Start lower dose and monitor.",
+        "renal": "ClCr <30 mL/min: reduce dose and increase interval between administrations.",
+        "hepatico": "Caution in moderate to severe hepatic impairment. Monitor sedation and accumulation."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pentazocine PO",
+        "doseTexto": "50-100 mg PO every 3-4h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pentazocine IM/SC",
+        "doseTexto": "30-60 mg IM/SC every 3-4h",
+        "doseMin": 30,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Pentazocine IV",
+        "doseTexto": "30 mg IV every 3-4h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Pentazocina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor moderado a intenso (VO)",
+          "descricaoDose": "50-100 mg VO cada 3-4h (máx 600 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 3-4h",
+            "ajusteRenal": "ClCr <30: reducir dosis e intervalo",
+            "ajusteHepatico": "Precaución en hepatopatía moderada a grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor moderado a intenso (IM/SC)",
+          "descricaoDose": "30-60 mg IM o SC cada 3-4h (máx 360 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": 360,
+            "doseFixa": "30-60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/SC",
+            "intervalo": "cada 3-4h",
+            "ajusteRenal": "ClCr <30: reducir dosis e intervalo",
+            "ajusteHepatico": "Precaución en hepatopatía moderada a grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor intenso (IV)",
+          "descricaoDose": "30 mg IV cada 3-4h (administrar lentamente, en hospital)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 3-4h",
+            "ajusteRenal": "ClCr <30: reducir dosis e intervalo",
+            "ajusteHepatico": "Precaución en hepatopatía moderada a grave",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico opioide agonista-antagonista (κ agonista, antagonista parcial μ)",
+      "apresentacoes": [
+        { "forma": "Solución inyectable 30 mg/mL (ampolla 1 mL)", "obs": "Uso IV/IM/SC" },
+        { "forma": "Comprimidos 50 mg", "obs": "VO" },
+        { "forma": "Comprimidos 100 mg", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 30 mg en 10-20 mL SF 0,9%", "concentracao": "administrar lentamente" },
+        { "diluicao": "IM/SC: administrar puro", "concentracao": "—" }
+      ],
+      "observacoes": [
+        "Dosis máxima: 600 mg/día VO, 360 mg/día parenteral",
+        "Contraindicado con opioides agonistas plenos (riesgo de abstinencia)",
+        "Riesgo de efectos psicomiméticos (disforia, confusión); más común en ancianos y mujeres",
+        "Aumento de resistencia vascular pulmonar; contraindicada en enfermedad coronaria inestable",
+        "Tener naloxona disponible para depresión respiratoria",
+        "Uso en pediatría no recomendado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Efectos psicomiméticos más frecuentes (confusión, delirio). Iniciar con dosis menor y monitorizar.",
+        "renal": "ClCr <30 mL/min: reducir dosis y aumentar intervalo entre administraciones.",
+        "hepatico": "Precaución en hepatopatía moderada a grave. Monitorizar sedación y acumulación."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Pentazocina VO",
+        "doseTexto": "50-100 mg VO cada 3-4h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pentazocina IM/SC",
+        "doseTexto": "30-60 mg IM/SC cada 3-4h",
+        "doseMin": 30,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Pentazocina IV",
+        "doseTexto": "30 mg IV cada 3-4h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "喷他佐辛",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "中至重度疼痛（口服）",
+          "descricaoDose": "50-100 mg 口服 每3-4小时（最大600 mg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 600,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每3-4小时",
+            "ajusteRenal": "ClCr <30：减量并延长给药间隔",
+            "ajusteHepatico": "中重度肝损害慎用",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "中至重度疼痛（肌注/皮下）",
+          "descricaoDose": "30-60 mg 肌注或皮下 每3-4小时（最大360 mg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": 360,
+            "doseFixa": "30-60 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/SC",
+            "intervalo": "每3-4小时",
+            "ajusteRenal": "ClCr <30：减量并延长给药间隔",
+            "ajusteHepatico": "中重度肝损害慎用",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "重度疼痛（静脉）",
+          "descricaoDose": "30 mg 静脉 每3-4小时（缓慢给药，院内使用）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每3-4小时",
+            "ajusteRenal": "ClCr <30：减量并延长给药间隔",
+            "ajusteHepatico": "中重度肝损害慎用",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "阿片类镇痛药激动-拮抗剂（κ激动剂，μ部分拮抗剂）",
+      "apresentacoes": [
+        { "forma": "注射液 30 mg/mL（1 mL安瓿）", "obs": "静注/肌注/皮下" },
+        { "forma": "片剂 50 mg", "obs": "口服" },
+        { "forma": "片剂 100 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "静注：30 mg 溶于10-20 mL生理盐水", "concentracao": "缓慢给药" },
+        { "diluicao": "肌注/皮下：原液注射", "concentracao": "—" }
+      ],
+      "observacoes": [
+        "最大剂量：口服600 mg/天，胃肠外360 mg/天",
+        "禁与纯μ激动剂阿片类联用（戒断风险）",
+        "精神拟态作用（烦躁、意识模糊）多见于老年和女性",
+        "增加肺血管阻力；不稳定冠心病禁用",
+        "备纳洛酮以应对呼吸抑制",
+        "儿童不推荐使用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "精神拟态作用更常见（意识模糊、谵妄）。小剂量起始并监测。",
+        "renal": "ClCr <30 mL/min：减量并延长给药间隔。",
+        "hepatico": "中重度肝损害慎用。监测镇静与蓄积。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "喷他佐辛 口服",
+        "doseTexto": "50-100 mg 口服 每3-4小时",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "喷他佐辛 肌注/皮下",
+        "doseTexto": "30-60 mg 肌注/皮下 每3-4小时",
+        "doseMin": 30,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "喷他佐辛 静注",
+        "doseTexto": "30 mg 静注 每3-4小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

@@ -1,0 +1,766 @@
+{
+  "PT": {
+    "nome": "Vasopressina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "PCR (ACLS)",
+          "descricaoDose": "40 U IV/IO bolus (substitui 1ª ou 2ª adrenalina)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 U",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia digestiva (varizes) - Bolus",
+          "descricaoDose": "20 U IV em bolus (dose única), seguido de infusão contínua",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 U",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hemorragia digestiva (varizes) - Infusão contínua",
+          "descricaoDose": "0,2-0,4 U/min IV contínua (após bolus; associar nitroglicerina)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/min",
+            "dosePorKg": null,
+            "doseMin": 0.2,
+            "doseMax": 0.4,
+            "doseMaxima": null,
+            "doseFixa": "0,2-0,4 U/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Choque séptico refratário",
+          "descricaoDose": "0,01-0,04 U/min IV contínua (dose fixa, adjuvante noradrenalina)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.04,
+            "doseMaxima": null,
+            "doseFixa": "0,01-0,04 U/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Choque séptico pediátrico",
+          "descricaoDose": "0,0003-0,002 U/kg/min IV contínua (máx 0,04 U/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.0003,
+            "doseMax": 0.002,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "U/kg/min",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.0003, "doseMax": 0.002 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "40 U em 100 mL SF 0,9% (0,4 U/mL)", "valor": 0.4 },
+            { "rotulo": "20 U em 100 mL SF 0,9% (0,2 U/mL)", "valor": 0.2 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopressor não-catecolaminérgico - Agonista receptores V1a, V2 e V3 (ADH sintético)",
+      "apresentacoes": [
+        { "forma": "Frasco 20 U/mL (1 mL)", "obs": "Para diluição IV" }
+      ],
+      "preparo": [
+        { "diluicao": "40 U (2 frascos) + 100 mL SF 0,9%", "concentracao": "0,4 U/mL" },
+        { "diluicao": "20 U (1 frasco) + 100 mL SF 0,9%", "concentracao": "0,2 U/mL" }
+      ],
+      "observacoes": [
+        "Adjuvante da noradrenalina no choque séptico - nunca primeira linha",
+        "Dose fixa 0,03 U/min no adulto - não titular como catecolaminas",
+        "Início de ação 15-20 min; meia-vida 10-35 min",
+        "Risco de isquemia digital/mesentérica - monitorar perfusão",
+        "Efeito V2: hiponatremia - monitorar sódio sérico",
+        "Acesso venoso central preferencial (extravasamento → necrose)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar pressão arterial e perfusão.",
+        "renal": "Não requer ajuste de dose. Monitorar osmolaridade e sódio pela ação antidiurética.",
+        "hepatico": "Sem necessidade de ajuste. Monitorar clinicamente na insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Vasopressina (adulto) - PCR",
+        "doseTexto": "40 U IV/IO bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "40 U",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vasopressina - Choque séptico",
+        "doseTexto": "0,01-0,04 U/min IV contínua",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U/min",
+        "decimais": 2,
+        "resultadoFixo": "0,01-0,04 U/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vasopressina - Hemorragia varicosa (bolus)",
+        "doseTexto": "20 U IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "20 U",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vasopressina - Hemorragia varicosa (infusão)",
+        "doseTexto": "0,2-0,4 U/min IV contínua",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U/min",
+        "decimais": 2,
+        "resultadoFixo": "0,2-0,4 U/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vasopressina (pediátrico)",
+        "doseTexto": "0,0003-0,002 U/kg/min (máx 0,04 U/min)",
+        "doseMin": 0.0003,
+        "doseMax": 0.002,
+        "unidadeResultado": "U/kg/min",
+        "decimais": 4,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Vasopressin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Cardiac Arrest (ACLS)",
+          "descricaoDose": "40 U IV/IO bolus (replaces 1st or 2nd epinephrine)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 U",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IO",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Variceal GI Bleeding - Bolus",
+          "descricaoDose": "20 U IV bolus (single dose), then start continuous infusion",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 U",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Variceal GI Bleeding - Continuous infusion",
+          "descricaoDose": "0.2-0.4 U/min IV continuous (after bolus; add nitroglycerin)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/min",
+            "dosePorKg": null,
+            "doseMin": 0.2,
+            "doseMax": 0.4,
+            "doseMaxima": null,
+            "doseFixa": "0.2-0.4 U/min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Refractory Septic Shock",
+          "descricaoDose": "0.01-0.04 U/min IV continuous (fixed dose, adjunct to norepinephrine)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.04,
+            "doseMaxima": null,
+            "doseFixa": "0.01-0.04 U/min",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric Septic Shock",
+          "descricaoDose": "0.0003-0.002 U/kg/min IV continuous (max 0.04 U/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.0003,
+            "doseMax": 0.002,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "U/kg/min",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.0003, "doseMax": 0.002 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "40 U in 100 mL NS (0.4 U/mL)", "valor": 0.4 },
+            { "rotulo": "20 U in 100 mL NS (0.2 U/mL)", "valor": 0.2 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Non-catecholamine vasopressor - V1a, V2, V3 receptor agonist (synthetic ADH)",
+      "apresentacoes": [
+        { "forma": "Vial 20 U/mL (1 mL)", "obs": "For IV dilution" }
+      ],
+      "preparo": [
+        { "diluicao": "40 U (2 vials) + 100 mL NS", "concentracao": "0.4 U/mL" },
+        { "diluicao": "20 U (1 vial) + 100 mL NS", "concentracao": "0.2 U/mL" }
+      ],
+      "observacoes": [
+        "Adjunct to norepinephrine in septic shock - never first-line",
+        "Fixed dose 0.03 U/min in adults - do not titrate like catecholamines",
+        "Onset 15-20 min; half-life 10-35 min",
+        "Risk of digital/mesenteric ischemia - monitor perfusion",
+        "V2 effect: hyponatremia - monitor serum sodium",
+        "Prefer central venous access (extravasation may cause necrosis)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor BP and perfusion.",
+        "renal": "No dose adjustment required. Monitor osmolarity and sodium due to antidiuretic effect.",
+        "hepatico": "No dose adjustment required. Clinical monitoring in severe hepatic failure."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Vasopressin (adult) - Cardiac Arrest",
+        "doseTexto": "40 U IV/IO bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "40 U",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Vasopressin - Septic Shock",
+        "doseTexto": "0.01-0.04 U/min IV continuous",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U/min",
+        "decimais": 2,
+        "resultadoFixo": "0.01-0.04 U/min",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Vasopressin - Variceal bleeding (bolus)",
+        "doseTexto": "20 U IV bolus",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "20 U",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Vasopressin - Variceal bleeding (infusion)",
+        "doseTexto": "0.2-0.4 U/min IV continuous",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U/min",
+        "decimais": 2,
+        "resultadoFixo": "0.2-0.4 U/min",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Vasopressin (pediatric)",
+        "doseTexto": "0.0003-0.002 U/kg/min (max 0.04 U/min)",
+        "doseMin": 0.0003,
+        "doseMax": 0.002,
+        "unidadeResultado": "U/kg/min",
+        "decimais": 4,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Vasopresina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Paro Cardiorrespiratorio (ACLS)",
+          "descricaoDose": "40 U IV/IO en bolo (sustituye 1ª o 2ª adrenalina)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 U",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IO",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemorragia digestiva (várices) - Bolo",
+          "descricaoDose": "20 U IV en bolo (dosis única), seguido de infusión continua",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 U",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hemorragia digestiva (várices) - Infusión continua",
+          "descricaoDose": "0,2-0,4 U/min IV continua (tras bolo; asociar nitroglicerina)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/min",
+            "dosePorKg": null,
+            "doseMin": 0.2,
+            "doseMax": 0.4,
+            "doseMaxima": null,
+            "doseFixa": "0,2-0,4 U/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Shock séptico refractario",
+          "descricaoDose": "0,01-0,04 U/min IV continua (dosis fija, adyuvante noradrenalina)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.04,
+            "doseMaxima": null,
+            "doseFixa": "0,01-0,04 U/min",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Shock séptico pediátrico",
+          "descricaoDose": "0,0003-0,002 U/kg/min IV continua (máx 0,04 U/min)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.0003,
+            "doseMax": 0.002,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "U/kg/min",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.0003, "doseMax": 0.002 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "40 U en 100 mL SSF 0,9% (0,4 U/mL)", "valor": 0.4 },
+            { "rotulo": "20 U en 100 mL SSF 0,9% (0,2 U/mL)", "valor": 0.2 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Vasopresor no catecolaminérgico - Agonista receptores V1a, V2 y V3 (ADH sintético)",
+      "apresentacoes": [
+        { "forma": "Vial 20 U/mL (1 mL)", "obs": "Para dilución IV" }
+      ],
+      "preparo": [
+        { "diluicao": "40 U (2 viales) + 100 mL SSF 0,9%", "concentracao": "0,4 U/mL" },
+        { "diluicao": "20 U (1 vial) + 100 mL SSF 0,9%", "concentracao": "0,2 U/mL" }
+      ],
+      "observacoes": [
+        "Adyuvante de noradrenalina en shock séptico - nunca primera línea",
+        "Dosis fija 0,03 U/min en adulto - no titular como catecolaminas",
+        "Inicio 15-20 min; vida media 10-35 min",
+        "Riesgo de isquemia digital/mesentérica - monitorizar perfusión",
+        "Efecto V2: hiponatremia - monitorizar sodio sérico",
+        "Acceso venoso central preferente (extravasación → necrosis)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar PA y perfusión.",
+        "renal": "No requiere ajuste de dosis. Monitorizar osmolaridad y sodio por efecto antidiurético.",
+        "hepatico": "No requiere ajuste. Monitorización clínica en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Vasopresina (adulto) - Paro",
+        "doseTexto": "40 U IV/IO bolo",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "40 U",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vasopresina - Shock séptico",
+        "doseTexto": "0,01-0,04 U/min IV continua",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U/min",
+        "decimais": 2,
+        "resultadoFixo": "0,01-0,04 U/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vasopresina - Hemorragia varicosa (bolo)",
+        "doseTexto": "20 U IV bolo",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "20 U",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vasopresina - Hemorragia varicosa (infusión)",
+        "doseTexto": "0,2-0,4 U/min IV continua",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U/min",
+        "decimais": 2,
+        "resultadoFixo": "0,2-0,4 U/min",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vasopresina (pediátrico)",
+        "doseTexto": "0,0003-0,002 U/kg/min (máx 0,04 U/min)",
+        "doseMin": 0.0003,
+        "doseMax": 0.002,
+        "unidadeResultado": "U/kg/min",
+        "decimais": 4,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "加压素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "心脏骤停 (ACLS)",
+          "descricaoDose": "40 U IV/IO 推注（替代第1或第2剂肾上腺素）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": "40 U",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IO",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "消化道出血（静脉曲张）- 推注",
+          "descricaoDose": "20 U IV 推注（单次），随后持续输注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": "20 U",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "消化道出血（静脉曲张）- 持续输注",
+          "descricaoDose": "0.2-0.4 U/min IV 持续（推注后；联用硝酸甘油）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/min",
+            "dosePorKg": null,
+            "doseMin": 0.2,
+            "doseMax": 0.4,
+            "doseMaxima": null,
+            "doseFixa": "0.2-0.4 U/min",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "难治性感染性休克",
+          "descricaoDose": "0.01-0.04 U/min IV 持续（固定剂量，联用去甲肾上腺素）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/min",
+            "dosePorKg": null,
+            "doseMin": 0.01,
+            "doseMax": 0.04,
+            "doseMaxima": null,
+            "doseFixa": "0.01-0.04 U/min",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "儿童感染性休克",
+          "descricaoDose": "0.0003-0.002 U/kg/min IV 持续（最大0.04 U/min）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "U/kg/min",
+            "dosePorKg": null,
+            "doseMin": 0.0003,
+            "doseMax": 0.002,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "U/kg/min",
+          "adulto": { "doseMin": 0, "doseMax": 0 },
+          "pediatrico": { "doseMin": 0.0003, "doseMax": 0.002 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "40 U 溶于 100 mL NS (0.4 U/mL)", "valor": 0.4 },
+            { "rotulo": "20 U 溶于 100 mL NS (0.2 U/mL)", "valor": 0.2 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "非儿茶酚胺类升压药 - V1a、V2、V3受体激动剂（合成ADH）",
+      "apresentacoes": [
+        { "forma": "西林瓶 20 U/mL (1 mL)", "obs": "静脉稀释用" }
+      ],
+      "preparo": [
+        { "diluicao": "40 U (2瓶) + 100 mL NS", "concentracao": "0.4 U/mL" },
+        { "diluicao": "20 U (1瓶) + 100 mL NS", "concentracao": "0.2 U/mL" }
+      ],
+      "observacoes": [
+        "感染性休克中联用去甲肾上腺素 - 非一线用药",
+        "成人固定剂量0.03 U/min - 勿像儿茶酚胺那样滴定",
+        "起效15-20分钟；半衰期10-35分钟",
+        "肢端/肠系膜缺血风险 - 监测灌注",
+        "V2效应：低钠血症 - 监测血钠",
+        "首选中心静脉通路（外渗可致坏死）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测血压及灌注。",
+        "renal": "无需调整剂量。因抗利尿作用需监测渗透压及血钠。",
+        "hepatico": "无需调整。严重肝衰竭时临床监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "加压素 (成人) - 心脏骤停",
+        "doseTexto": "40 U IV/IO 推注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "40 U",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "加压素 - 感染性休克",
+        "doseTexto": "0.01-0.04 U/min IV 持续",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U/min",
+        "decimais": 2,
+        "resultadoFixo": "0.01-0.04 U/min",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "加压素 - 静脉曲张出血 (推注)",
+        "doseTexto": "20 U IV 推注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "20 U",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "加压素 - 静脉曲张出血 (输注)",
+        "doseTexto": "0.2-0.4 U/min IV 持续",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U/min",
+        "decimais": 2,
+        "resultadoFixo": "0.2-0.4 U/min",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "加压素 (儿童)",
+        "doseTexto": "0.0003-0.002 U/kg/min (最大0.04 U/min)",
+        "doseMin": 0.0003,
+        "doseMax": 0.002,
+        "unidadeResultado": "U/kg/min",
+        "decimais": 4,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

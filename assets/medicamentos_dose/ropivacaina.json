@@ -1,0 +1,922 @@
+{
+  "PT": {
+    "nome": "Ropivacaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infiltração local",
+          "descricaoDose": "3 mg/kg (máx 300 mg) dose única",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infiltração local (pediátrico)",
+          "descricaoDose": "3 mg/kg dose única",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Infiltração",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Peridural cirúrgica",
+          "descricaoDose": "15-30 mL de 0,75-1% (113-300 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 113,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "113-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Peridural",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Cesariana (peridural)",
+          "descricaoDose": "15-20 mL de 0,75% (113-150 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 113,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "113-150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Peridural",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Raquianestesia",
+          "descricaoDose": "2-4 mL de 0,5-0,75% (10-30 mg) + opioide",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "10-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Raquidiana",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bloqueio plexo braquial",
+          "descricaoDose": "30-40 mL de 0,5-0,75% (150-300 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Bloqueio periférico",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Analgesia peridural contínua",
+          "descricaoDose": "6-14 mL/h de 0,2% (12-28 mg/h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 28,
+            "doseMaxima": 28,
+            "doseFixa": "12-28 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Peridural",
+            "intervalo": "infusao continua",
+            "ajusteRenal": "ClCr <30 e infusão >48h: reduzir 25-30%",
+            "ajusteHepatico": "Child C ou infusão: reduzir 30-50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.7
+          }
+        },
+        {
+          "titulo": "Bloqueio caudal (pediátrico)",
+          "descricaoDose": "1-2 mL/kg de 0,2% (2-4 mg/kg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Caudal",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local tipo amida de longa duração – Bloqueador canais de sódio",
+      "apresentacoes": [
+        { "forma": "Ampola 2 mg/mL (0,2%)", "obs": "10 mL, 20 mL, 100 mL, 200 mL" },
+        { "forma": "Ampola 7,5 mg/mL (0,75%)", "obs": "10 mL, 20 mL" },
+        { "forma": "Ampola 10 mg/mL (1%)", "obs": "10 mL, 20 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Solução pronta para bloqueios", "concentracao": "Não diluir" },
+        { "diluicao": "Infusão peridural: 200 mg em 100 mL SF (0,2%)", "concentracao": "2 mg/mL" },
+        { "diluicao": "Aspiração antes de injetar", "concentracao": "Evitar injeção intravascular" }
+      ],
+      "observacoes": [
+        "Dose máxima: 300 mg dose única (3 mg/kg), 800 mg/24h. Pediátrico: 3 mg/kg dose única, 15 mg/kg/24h infusão",
+        "Ter emulsão lipídica 20% (Intralipid® 1,5 mL/kg IV) disponível para LAST",
+        "Menor cardiotoxicidade que bupivacaína; isômero S puro",
+        "Vasoconstrição intrínseca – menor absorção sistêmica que bupivacaína",
+        "Dose teste 3-5 mL antes da dose total; injeção fracionada (5 mL a cada 3-5 min)",
+        "Infusão prolongada: ajuste renal (ClCr <30) e hepático (Child C)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose de infiltração. Monitorar toxicidade e nível do bloqueio.",
+        "renal": "Dose única: não requer ajuste. Infusão >48h e ClCr <30: reduzir 25-30%.",
+        "hepatico": "Dose única: não requer ajuste. Infusão contínua ou Child-Pugh C: reduzir 30-50%, monitorar toxicidade."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ropivacaína infiltração (adulto)",
+        "doseTexto": "3 mg/kg (máx 300 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ropivacaína infiltração (pediátrico)",
+        "doseTexto": "3 mg/kg",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Ropivacaína peridural cirúrgica",
+        "doseTexto": "113-300 mg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "113-300 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ropivacaína analgesia peridural",
+        "doseTexto": "12-28 mg/h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12-28 mg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ropivacaine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Local infiltration",
+          "descricaoDose": "3 mg/kg (max 300 mg) single dose",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Local infiltration (pediatric)",
+          "descricaoDose": "3 mg/kg single dose",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Infiltration",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Surgical epidural",
+          "descricaoDose": "15-30 mL of 0.75-1% (113-300 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 113,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "113-300 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Epidural",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cesarean (epidural)",
+          "descricaoDose": "15-20 mL of 0.75% (113-150 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 113,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "113-150 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Epidural",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Spinal anesthesia",
+          "descricaoDose": "2-4 mL of 0.5-0.75% (10-30 mg) + opioid",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "10-30 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Spinal",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Brachial plexus block",
+          "descricaoDose": "30-40 mL of 0.5-0.75% (150-300 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Peripheral block",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Continuous epidural analgesia",
+          "descricaoDose": "6-14 mL/h of 0.2% (12-28 mg/h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 28,
+            "doseMaxima": 28,
+            "doseFixa": "12-28 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Epidural",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "ClCr <30 and infusion >48h: reduce 25-30%",
+            "ajusteHepatico": "Child C or infusion: reduce 30-50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.7
+          }
+        },
+        {
+          "titulo": "Caudal block (pediatric)",
+          "descricaoDose": "1-2 mL/kg of 0.2% (2-4 mg/kg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Caudal",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Long-acting amide-type local anesthetic – Sodium channel blocker",
+      "apresentacoes": [
+        { "forma": "Ampule 2 mg/mL (0.2%)", "obs": "10 mL, 20 mL, 100 mL, 200 mL" },
+        { "forma": "Ampule 7.5 mg/mL (0.75%)", "obs": "10 mL, 20 mL" },
+        { "forma": "Ampule 10 mg/mL (1%)", "obs": "10 mL, 20 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for blocks", "concentracao": "Do not dilute" },
+        { "diluicao": "Epidural infusion: 200 mg in 100 mL NS (0.2%)", "concentracao": "2 mg/mL" },
+        { "diluicao": "Aspirate before injecting", "concentracao": "Avoid intravascular injection" }
+      ],
+      "observacoes": [
+        "Max dose: 300 mg single dose (3 mg/kg), 800 mg/24h. Pediatric: 3 mg/kg single dose, 15 mg/kg/24h infusion",
+        "Have 20% lipid emulsion (Intralipid® 1.5 mL/kg IV) available for LAST",
+        "Less cardiotoxicity than bupivacaine; pure S-isomer",
+        "Intrinsic vasoconstriction – less systemic absorption than bupivacaine",
+        "Test dose 3-5 mL before total dose; fractionated injection (5 mL every 3-5 min)",
+        "Prolonged infusion: renal (ClCr <30) and hepatic (Child C) adjustment"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce infiltration dose. Monitor toxicity and block level.",
+        "renal": "Single dose: no adjustment. Infusion >48h and ClCr <30: reduce 25-30%.",
+        "hepatico": "Single dose: no adjustment. Continuous infusion or Child-Pugh C: reduce 30-50%, monitor toxicity."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ropivacaine infiltration (adult)",
+        "doseTexto": "3 mg/kg (max 300 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ropivacaine infiltration (pediatric)",
+        "doseTexto": "3 mg/kg",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Ropivacaine surgical epidural",
+        "doseTexto": "113-300 mg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "113-300 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ropivacaine epidural analgesia",
+        "doseTexto": "12-28 mg/h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12-28 mg/h",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ropivacaína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infiltración local",
+          "descricaoDose": "3 mg/kg (máx 300 mg) dosis única",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Infiltración local (pediátrico)",
+          "descricaoDose": "3 mg/kg dosis única",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Infiltración",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Peridural quirúrgica",
+          "descricaoDose": "15-30 mL de 0,75-1% (113-300 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 113,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "113-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Peridural",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Cesárea (peridural)",
+          "descricaoDose": "15-20 mL de 0,75% (113-150 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 113,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "113-150 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Peridural",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Raquianestesia",
+          "descricaoDose": "2-4 mL de 0,5-0,75% (10-30 mg) + opioide",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "10-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Raquídea",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Bloqueo plexo braquial",
+          "descricaoDose": "30-40 mL de 0,5-0,75% (150-300 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Bloqueo periférico",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Analgesia peridural continua",
+          "descricaoDose": "6-14 mL/h de 0,2% (12-28 mg/h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 28,
+            "doseMaxima": 28,
+            "doseFixa": "12-28 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Peridural",
+            "intervalo": "infusion continua",
+            "ajusteRenal": "ClCr <30 e infusion >48h: reducir 25-30%",
+            "ajusteHepatico": "Child C o infusion: reducir 30-50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.7
+          }
+        },
+        {
+          "titulo": "Bloqueo caudal (pediátrico)",
+          "descricaoDose": "1-2 mL/kg de 0,2% (2-4 mg/kg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "Caudal",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico local tipo amida de larga duración – Bloqueador canales sodio",
+      "apresentacoes": [
+        { "forma": "Ampolla 2 mg/mL (0,2%)", "obs": "10 mL, 20 mL, 100 mL, 200 mL" },
+        { "forma": "Ampolla 7,5 mg/mL (0,75%)", "obs": "10 mL, 20 mL" },
+        { "forma": "Ampolla 10 mg/mL (1%)", "obs": "10 mL, 20 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Solución lista para bloqueos", "concentracao": "No diluir" },
+        { "diluicao": "Infusión peridural: 200 mg en 100 mL SF (0,2%)", "concentracao": "2 mg/mL" },
+        { "diluicao": "Aspiración antes de inyectar", "concentracao": "Evitar inyección intravascular" }
+      ],
+      "observacoes": [
+        "Dosis máx: 300 mg dosis única (3 mg/kg), 800 mg/24h. Pediátrico: 3 mg/kg dosis única, 15 mg/kg/24h infusión",
+        "Tener emulsión lipídica 20% (Intralipid® 1,5 mL/kg IV) disponible para LAST",
+        "Menor cardiotoxicidad que bupivacaína; isómero S puro",
+        "Vasoconstricción intrínseca – menor absorción sistémica que bupivacaína",
+        "Dosis prueba 3-5 mL antes de la dosis total; inyección fraccionada (5 mL cada 3-5 min)",
+        "Infusión prolongada: ajuste renal (ClCr <30) y hepático (Child C)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis de infiltración. Monitorizar toxicidad y nivel de bloqueo.",
+        "renal": "Dosis única: no requiere ajuste. Infusión >48h y ClCr <30: reducir 25-30%.",
+        "hepatico": "Dosis única: no requiere ajuste. Infusión continua o Child-Pugh C: reducir 30-50%, monitorizar toxicidad."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ropivacaína infiltración (adulto)",
+        "doseTexto": "3 mg/kg (máx 300 mg)",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ropivacaína infiltración (pediátrico)",
+        "doseTexto": "3 mg/kg",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Ropivacaína peridural quirúrgica",
+        "doseTexto": "113-300 mg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "113-300 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ropivacaína analgesia peridural",
+        "doseTexto": "12-28 mg/h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12-28 mg/h",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "罗哌卡因",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "局部浸润",
+          "descricaoDose": "3 mg/kg（最大 300 mg）单次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 300,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "浸润",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "局部浸润（儿童）",
+          "descricaoDose": "3 mg/kg 单次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "浸润",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "手术硬膜外",
+          "descricaoDose": "0.75-1% 15-30 mL（113-300 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 113,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "113-300 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "硬膜外",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "剖宫产（硬膜外）",
+          "descricaoDose": "0.75% 15-20 mL（113-150 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 113,
+            "doseMax": 150,
+            "doseMaxima": 150,
+            "doseFixa": "113-150 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "硬膜外",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "脊麻",
+          "descricaoDose": "0.5-0.75% 2-4 mL（10-30 mg）+ 阿片类",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "10-30 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "椎管内",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "臂丛阻滞",
+          "descricaoDose": "0.5-0.75% 30-40 mL（150-300 mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 150,
+            "doseMax": 300,
+            "doseMaxima": 300,
+            "doseFixa": "150-300 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "周围神经阻滞",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "硬膜外持续镇痛",
+          "descricaoDose": "0.2% 6-14 mL/h（12-28 mg/h）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 12,
+            "doseMax": 28,
+            "doseMaxima": 28,
+            "doseFixa": "12-28 mg/h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "硬膜外",
+            "intervalo": "持续输注",
+            "ajusteRenal": "ClCr <30 且输注>48h：减量25-30%",
+            "ajusteHepatico": "Child C或输注：减量30-50%",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.7
+          }
+        },
+        {
+          "titulo": "骶管阻滞（儿童）",
+          "descricaoDose": "0.2% 1-2 mL/kg（2-4 mg/kg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "骶管",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "长效酰胺类局部麻醉药 – 钠通道阻滞剂",
+      "apresentacoes": [
+        { "forma": "安瓿 2 mg/mL (0.2%)", "obs": "10 mL, 20 mL, 100 mL, 200 mL" },
+        { "forma": "安瓿 7.5 mg/mL (0.75%)", "obs": "10 mL, 20 mL" },
+        { "forma": "安瓿 10 mg/mL (1%)", "obs": "10 mL, 20 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "阻滞用即用溶液", "concentracao": "无需稀释" },
+        { "diluicao": "硬膜外输注：200 mg 溶于 100 mL 生理盐水 (0.2%)", "concentracao": "2 mg/mL" },
+        { "diluicao": "注射前回抽", "concentracao": "避免血管内注射" }
+      ],
+      "observacoes": [
+        "最大剂量：单次 300 mg（3 mg/kg），800 mg/24h。儿童：单次 3 mg/kg，输注 15 mg/kg/24h",
+        "备有 20% 脂肪乳（Intralipid® 1.5 mL/kg IV）用于 LAST",
+        "较布比卡因心脏毒性低；纯 S 异构体",
+        "固有血管收缩 – 较布比卡因全身吸收少",
+        "总剂量前试验量 3-5 mL；分次注射（每 3-5 分钟 5 mL）",
+        "长时间输注：肾（ClCr <30）与肝（Child C）需调整"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减少浸润剂量。监测毒性及阻滞平面。",
+        "renal": "单次剂量无需调整。输注>48h 且 ClCr <30：减量 25-30%。",
+        "hepatico": "单次剂量无需调整。持续输注或 Child-Pugh C：减量 30-50%，监测毒性。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "罗哌卡因浸润（成人）",
+        "doseTexto": "3 mg/kg（最大 300 mg）",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "罗哌卡因浸润（儿童）",
+        "doseTexto": "3 mg/kg",
+        "doseMin": 3,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "罗哌卡因手术硬膜外",
+        "doseTexto": "113-300 mg",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "113-300 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "罗哌卡因硬膜外镇痛",
+        "doseTexto": "12-28 mg/h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "12-28 mg/h",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

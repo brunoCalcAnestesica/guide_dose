@@ -1,0 +1,606 @@
+{
+  "PT": {
+    "nome": "Ergometrina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemorragia pós-parto (HPP)",
+          "descricaoDose": "0,2 mg IM ou IV lento (mín. 1 min); repetir a cada 2-4 h se necessário (máx. 5 doses/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 2-4 h se necessário",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Prevenção da HPP",
+          "descricaoDose": "0,2 mg IM imediatamente após dequitação placentária",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Atonia uterina",
+          "descricaoDose": "0,2 mg IV lento ou IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Subinvolução uterina",
+          "descricaoDose": "0,2 mg VO 2 a 3 vezes ao dia por até 5 dias",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Uterotônico - Alcaloide do ergot, agonista parcial de receptores serotoninérgicos (5-HT2), adrenérgicos alfa e dopaminérgicos",
+      "apresentacoes": [
+        { "forma": "Ampola 0,2 mg/mL (1 mL)", "obs": "Ergotrate®, Methergin® - uso IV ou IM" },
+        { "forma": "Comprimido 0,125 mg", "obs": "Uso VO" },
+        { "forma": "Comprimido 0,25 mg", "obs": "Uso VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Via IV: uso direto ou diluir em 10 mL SF 0,9%", "concentracao": "Infusão lenta (mín. 1 min)" },
+        { "diluicao": "Via IM", "concentracao": "Uso direto - administrar profundamente" }
+      ],
+      "observacoes": [
+        "Início de ação: 1-2 min IV, 2-5 min IM, 5-10 min VO",
+        "Duração do efeito: 2-4 horas; promove contração uterina tetânica do segmento superior",
+        "Dose máxima: 1 mg/dia (0,2 mg até 5 vezes ao dia)",
+        "Monitorizar PA, FC e sinais de isquemia rigorosamente (risco de hipertensão severa)",
+        "Contraindicado em hipertensão não controlada e doença cardíaca isquêmica",
+        "Usar apenas após dequitação placentária; evitar amamentação nas primeiras 12 h após IV/IM"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Uso obstétrico em adultas. Sem ajuste específico por idade.",
+        "renal": "Usar com cautela em insuficiência renal grave. Pode haver acúmulo e aumento do risco de vasoespasmo. Monitorizar sinais de toxicidade.",
+        "hepatico": "Usar com cautela em insuficiência hepática moderada a grave (metabolismo hepático predominante). Pode haver prolongamento do efeito e risco de toxicidade."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ergometrina - HPP",
+        "doseTexto": "0,2 mg IM ou IV lento (repetir 2-4 h se necessário)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ergometrina - Prevenção HPP",
+        "doseTexto": "0,2 mg IM após dequitação placentária",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ergometrina - Atonia uterina",
+        "doseTexto": "0,2 mg IV ou IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ergometrina - Subinvolução",
+        "doseTexto": "0,2 mg VO 2-3x/dia por até 5 dias",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Ergometrine",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Postpartum hemorrhage (PPH)",
+          "descricaoDose": "0.2 mg IM or slow IV (min. 1 min); repeat every 2-4 h if needed (max 5 doses/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 2-4 h if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "PPH prevention",
+          "descricaoDose": "0.2 mg IM immediately after placental delivery",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Uterine atony",
+          "descricaoDose": "0.2 mg slow IV or IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Uterine subinvolution",
+          "descricaoDose": "0.2 mg PO 2 to 3 times daily for up to 5 days",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2-3x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Uterotonic - Ergot alkaloid, partial agonist of serotonergic (5-HT2), alpha-adrenergic and dopaminergic receptors",
+      "apresentacoes": [
+        { "forma": "Ampoule 0.2 mg/mL (1 mL)", "obs": "Ergotrate®, Methergin® - IV or IM use" },
+        { "forma": "Tablet 0.125 mg", "obs": "PO use" },
+        { "forma": "Tablet 0.25 mg", "obs": "PO use" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: direct use or dilute in 10 mL NS 0.9%", "concentracao": "Slow infusion (min. 1 min)" },
+        { "diluicao": "IM", "concentracao": "Direct use - inject deeply" }
+      ],
+      "observacoes": [
+        "Onset: 1-2 min IV, 2-5 min IM, 5-10 min PO",
+        "Duration: 2-4 hours; promotes tetanic uterine contraction of upper segment",
+        "Maximum dose: 1 mg/day (0.2 mg up to 5 times daily)",
+        "Monitor BP, HR and signs of ischemia rigorously (risk of severe hypertension)",
+        "Contraindicated in uncontrolled hypertension and ischemic heart disease",
+        "Use only after placental delivery; avoid breastfeeding first 12 h after IV/IM"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Obstetric use in adults. No specific age adjustment.",
+        "renal": "Use with caution in severe renal insufficiency. Accumulation and increased vasospasm risk possible. Monitor for toxicity.",
+        "hepatico": "Use with caution in moderate to severe hepatic insufficiency (predominant hepatic metabolism). Prolonged effect and toxicity risk possible."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ergometrine - PPH",
+        "doseTexto": "0.2 mg IM or slow IV (repeat every 2-4 h if needed)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ergometrine - PPH prevention",
+        "doseTexto": "0.2 mg IM after placental delivery",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ergometrine - Uterine atony",
+        "doseTexto": "0.2 mg IV or IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Ergometrine - Subinvolution",
+        "doseTexto": "0.2 mg PO 2-3x/day for up to 5 days",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Ergometrina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hemorragia posparto (HPP)",
+          "descricaoDose": "0,2 mg IM o IV lento (mín. 1 min); repetir cada 2-4 h si es necesario (máx. 5 dosis/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 2-4 h si es necesario",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Prevención de la HPP",
+          "descricaoDose": "0,2 mg IM inmediatamente tras la expulsión placentaria",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Atonía uterina",
+          "descricaoDose": "0,2 mg IV lento o IM",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Subinvolución uterina",
+          "descricaoDose": "0,2 mg VO 2 a 3 veces al día por hasta 5 días",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg VO",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Uterotónico - Alcaloide del ergot, agonista parcial de receptores serotoninérgicos (5-HT2), adrenérgicos alfa y dopaminérgicos",
+      "apresentacoes": [
+        { "forma": "Ampolla 0,2 mg/mL (1 mL)", "obs": "Ergotrate®, Methergin® - uso IV o IM" },
+        { "forma": "Comprimido 0,125 mg", "obs": "Uso VO" },
+        { "forma": "Comprimido 0,25 mg", "obs": "Uso VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Vía IV: uso directo o diluir en 10 mL SF 0,9%", "concentracao": "Infusión lenta (mín. 1 min)" },
+        { "diluicao": "Vía IM", "concentracao": "Uso directo - administrar profundamente" }
+      ],
+      "observacoes": [
+        "Inicio de acción: 1-2 min IV, 2-5 min IM, 5-10 min VO",
+        "Duración del efecto: 2-4 horas; promueve contracción uterina tetánica del segmento superior",
+        "Dosis máxima: 1 mg/día (0,2 mg hasta 5 veces al día)",
+        "Monitorizar PA, FC y signos de isquemia rigurosamente (riesgo de hipertensión severa)",
+        "Contraindicado en hipertensión no controlada y enfermedad cardíaca isquémica",
+        "Usar solo tras expulsión placentaria; evitar lactancia las primeras 12 h tras IV/IM"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Uso obstétrico en adultas. Sin ajuste específico por edad.",
+        "renal": "Usar con precaución en insuficiencia renal grave. Puede haber acumulación y mayor riesgo de vasoespasmo. Monitorizar signos de toxicidad.",
+        "hepatico": "Usar con precaución en insuficiencia hepática moderada a grave (metabolismo hepático predominante). Puede haber prolongación del efecto y riesgo de toxicidad."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Ergometrina - HPP",
+        "doseTexto": "0,2 mg IM o IV lento (repetir 2-4 h si es necesario)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ergometrina - Prevención HPP",
+        "doseTexto": "0,2 mg IM tras expulsión placentaria",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ergometrina - Atonía uterina",
+        "doseTexto": "0,2 mg IV o IM",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Ergometrina - Subinvolución",
+        "doseTexto": "0,2 mg VO 2-3x/día por hasta 5 días",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "麦角新碱",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "产后出血 (PPH)",
+          "descricaoDose": "0.2 mg 肌注或缓慢静注（至少1分钟）；必要时每2-4小时重复（每日最多5次）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 2-4 h if needed",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "预防产后出血",
+          "descricaoDose": "胎盘娩出后立即0.2 mg 肌注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "子宫收缩乏力",
+          "descricaoDose": "0.2 mg 缓慢静注或肌注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "子宫复旧不全",
+          "descricaoDose": "0.2 mg 口服，每日2-3次，最多5天",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg PO",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2-3x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "子宫收缩剂 - 麦角生物碱，5-HT2、α肾上腺素能和多巴胺能受体部分激动剂",
+      "apresentacoes": [
+        { "forma": "安瓿 0.2 mg/mL (1 mL)", "obs": "Ergotrate®、Methergin® - 静注或肌注" },
+        { "forma": "片剂 0.125 mg", "obs": "口服" },
+        { "forma": "片剂 0.25 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "静注：直接使用或用10 mL 0.9%生理盐水稀释", "concentracao": "缓慢输注（至少1分钟）" },
+        { "diluicao": "肌注", "concentracao": "直接使用 - 深部注射" }
+      ],
+      "observacoes": [
+        "起效：静注1-2分钟，肌注2-5分钟，口服5-10分钟",
+        "作用持续时间：2-4小时；促进子宫上段强直性收缩",
+        "最大剂量：1 mg/日（0.2 mg 每日最多5次）",
+        "严密监测血压、心率和缺血征象（严重高血压风险）",
+        "未控制的高血压和缺血性心脏病禁用",
+        "仅用于胎盘娩出后；静注/肌注后12小时内避免哺乳"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "成人产科用药。无特定年龄调整。",
+        "renal": "严重肾功能不全慎用。可能蓄积并增加血管痉挛风险。监测毒性征象。",
+        "hepatico": "中重度肝功能不全慎用（主要经肝代谢）。可能延长作用并增加毒性风险。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "麦角新碱 - 产后出血",
+        "doseTexto": "0.2 mg 肌注或缓慢静注（必要时每2-4小时重复）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "麦角新碱 - 预防产后出血",
+        "doseTexto": "胎盘娩出后0.2 mg 肌注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "麦角新碱 - 子宫收缩乏力",
+        "doseTexto": "0.2 mg 静注或肌注",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "麦角新碱 - 子宫复旧不全",
+        "doseTexto": "0.2 mg 口服 每日2-3次 最多5天",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  }
+}

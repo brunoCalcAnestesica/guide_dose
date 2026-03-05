@@ -1,0 +1,562 @@
+{
+  "PT": {
+    "nome": "Fenoterol + Ipatropio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Nebulização (adulto)",
+          "descricaoDose": "1-2 mL por nebulização a cada 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "a cada 6-8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulização (pediátrico ≥6 anos)",
+          "descricaoDose": "0,5-1 mL por nebulização a cada 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mL",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "a cada 6-8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDI (adulto)",
+          "descricaoDose": "2 jatos (50 mcg fenoterol + 20 mcg ipratrópio/jato) a cada 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "2 jatos",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "a cada 6-8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDI (pediátrico ≥6 anos)",
+          "descricaoDose": "1-2 jatos a cada 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 jatos",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "a cada 6-8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Associação: agonista beta-2 (SABA) + antagonista muscarínico (SAMA); broncodilatador",
+      "apresentacoes": [
+        { "forma": "Solução para nebulização (fenoterol 0,5 mg/mL + ipratrópio 0,25 mg/mL)", "obs": "Berodual®" },
+        { "forma": "Aerossol MDI 50 mcg fenoterol + 20 mcg ipratrópio/jato", "obs": "Berodual®" }
+      ],
+      "preparo": [
+        { "diluicao": "Nebulização: 1-2 mL em 2-3 mL SF 0,9%", "concentracao": "nebulizar até secar" },
+        { "diluicao": "MDI: 2 jatos com espaçador", "concentracao": "50 mcg fenoterol + 20 mcg ipratrópio/jato" }
+      ],
+      "observacoes": [
+        "Associação de efeito sinérgico em broncoespasmo (asma, DPOC)",
+        "Nebulização: início 5 min; MDI: início 15-30 min; duração 4-6 h",
+        "Via inalatória preferencial - menor risco de efeitos sistêmicos",
+        "Cautela em glaucoma de ângulo fechado (anticolinérgico)",
+        "Efeitos adversos: tremor, taquicardia, tosse, secura de boca",
+        "Betabloqueadores antagonizam o componente beta-2"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar efeitos cardiovasculares e retenção urinária.",
+        "renal": "Não requer ajuste em uso inalatório.",
+        "hepatico": "Não requer ajuste em uso inalatório."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenoterol + Ipatropio - Nebulização (adulto)",
+        "doseTexto": "1-2 mL a cada 6-8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mL",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenoterol + Ipatropio - Nebulização (pediátrico)",
+        "doseTexto": "0,5-1 mL a cada 6-8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1 mL",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fenoterol + Ipatropio - MDI",
+        "doseTexto": "2 jatos a cada 6-8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "jatos",
+        "decimais": 0,
+        "resultadoFixo": "2 jatos",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Fenoterol + Ipratropium",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Nebulization (adult)",
+          "descricaoDose": "1-2 mL per nebulization every 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mL",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "every 6-8 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Nebulization (pediatric ≥6 years)",
+          "descricaoDose": "0.5-1 mL per nebulization every 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mL",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "every 6-8 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "MDI (adult)",
+          "descricaoDose": "2 puffs (50 mcg fenoterol + 20 mcg ipratropium/puff) every 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "2 puffs",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "every 6-8 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "MDI (pediatric ≥6 years)",
+          "descricaoDose": "1-2 puffs every 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 puffs",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "every 6-8 h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Combination: short-acting beta-2 agonist (SABA) + short-acting muscarinic antagonist (SAMA); bronchodilator",
+      "apresentacoes": [
+        { "forma": "Nebulizer solution (fenoterol 0.5 mg/mL + ipratropium 0.25 mg/mL)", "obs": "Berodual®" },
+        { "forma": "MDI 50 mcg fenoterol + 20 mcg ipratropium/puff", "obs": "Berodual®" }
+      ],
+      "preparo": [
+        { "diluicao": "Nebulization: 1-2 mL in 2-3 mL saline", "concentracao": "nebulize until dry" },
+        { "diluicao": "MDI: 2 puffs with spacer", "concentracao": "50 mcg fenoterol + 20 mcg ipratropium/puff" }
+      ],
+      "observacoes": [
+        "Synergistic combination for bronchospasm (asthma, COPD)",
+        "Nebulization: onset 5 min; MDI: onset 15-30 min; duration 4-6 h",
+        "Inhalation route preferred - fewer systemic effects",
+        "Caution in angle-closure glaucoma (anticholinergic)",
+        "Adverse effects: tremor, tachycardia, cough, dry mouth",
+        "Beta-blockers antagonize beta-2 component"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor cardiovascular effects and urinary retention.",
+        "renal": "No dose adjustment for inhaled use.",
+        "hepatico": "No dose adjustment for inhaled use."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenoterol + Ipratropium - Nebulization (adult)",
+        "doseTexto": "1-2 mL every 6-8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mL",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Fenoterol + Ipratropium - Nebulization (pediatric)",
+        "doseTexto": "0.5-1 mL every 6-8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1 mL",
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Fenoterol + Ipratropium - MDI",
+        "doseTexto": "2 puffs every 6-8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "jatos",
+        "decimais": 0,
+        "resultadoFixo": "2 puffs",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fenoterol + Ipratropio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Nebulización (adulto)",
+          "descricaoDose": "1-2 mL por nebulización cada 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalatoria",
+            "intervalo": "cada 6-8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Nebulización (pediátrico ≥6 años)",
+          "descricaoDose": "0,5-1 mL por nebulización cada 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0,5-1 mL",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalatoria",
+            "intervalo": "cada 6-8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDI (adulto)",
+          "descricaoDose": "2 inhalaciones (50 mcg fenoterol + 20 mcg ipratropio/inhalación) cada 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "2 inhalaciones",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalatoria",
+            "intervalo": "cada 6-8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDI (pediátrico ≥6 años)",
+          "descricaoDose": "1-2 inhalaciones cada 6-8 h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 inhalaciones",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalatoria",
+            "intervalo": "cada 6-8 h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Asociación: agonista beta-2 (SABA) + antagonista muscarínico (SAMA); broncodilatador",
+      "apresentacoes": [
+        { "forma": "Solución para nebulización (fenoterol 0,5 mg/mL + ipratropio 0,25 mg/mL)", "obs": "Berodual®" },
+        { "forma": "Aerosol MDI 50 mcg fenoterol + 20 mcg ipratropio/inhalación", "obs": "Berodual®" }
+      ],
+      "preparo": [
+        { "diluicao": "Nebulización: 1-2 mL en 2-3 mL solución salina", "concentracao": "nebulizar hasta secar" },
+        { "diluicao": "MDI: 2 inhalaciones con espaciador", "concentracao": "50 mcg fenoterol + 20 mcg ipratropio/inhalación" }
+      ],
+      "observacoes": [
+        "Asociación de efecto sinérgico en broncoespasmo (asma, EPOC)",
+        "Nebulización: inicio 5 min; MDI: inicio 15-30 min; duración 4-6 h",
+        "Vía inhalatoria preferente - menor riesgo de efectos sistémicos",
+        "Precaución en glaucoma de ángulo cerrado (anticolinérgico)",
+        "Efectos adversos: temblor, taquicardia, tos, sequedad bucal",
+        "Los betabloqueantes antagonizan el componente beta-2"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar efectos cardiovasculares y retención urinaria.",
+        "renal": "No requiere ajuste en uso inhalatorio.",
+        "hepatico": "No requiere ajuste en uso inhalatorio."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fenoterol + Ipratropio - Nebulización (adulto)",
+        "doseTexto": "1-2 mL cada 6-8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mL",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fenoterol + Ipratropio - Nebulización (pediátrico)",
+        "doseTexto": "0,5-1 mL cada 6-8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 1,
+        "resultadoFixo": "0,5-1 mL",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fenoterol + Ipratropio - MDI",
+        "doseTexto": "2 inhalaciones cada 6-8 h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "jatos",
+        "decimais": 0,
+        "resultadoFixo": "2 inhalaciones",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "非诺特罗 + 异丙托溴铵",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "雾化（成人）",
+          "descricaoDose": "每次1-2 mL雾化，每6-8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2 mL",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "雾化（儿童≥6岁）",
+          "descricaoDose": "每次0.5-1 mL雾化，每6-8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mL",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 1,
+            "doseFixa": "0.5-1 mL",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDI（成人）",
+          "descricaoDose": "2揿（50 mcg非诺特罗+20 mcg异丙托溴铵/揿）每6-8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "2揿",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "MDI（儿童≥6岁）",
+          "descricaoDose": "1-2揿每6-8小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "jatos",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": 2,
+            "doseFixa": "1-2揿",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "吸入",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "复方：短效β2激动剂（SABA）+短效抗胆碱药（SAMA）；支气管扩张剂",
+      "apresentacoes": [
+        { "forma": "雾化溶液（非诺特罗0.5 mg/mL + 异丙托溴铵0.25 mg/mL）", "obs": "Berodual®" },
+        { "forma": "定量吸入器 50 mcg非诺特罗+20 mcg异丙托溴铵/揿", "obs": "Berodual®" }
+      ],
+      "preparo": [
+        { "diluicao": "雾化：1-2 mL加2-3 mL生理盐水", "concentracao": "雾化至干" },
+        { "diluicao": "MDI：2揿用储雾罐", "concentracao": "50 mcg非诺特罗+20 mcg异丙托溴铵/揿" }
+      ],
+      "observacoes": [
+        "支气管痉挛（哮喘、COPD）协同复方",
+        "雾化起效5分钟；MDI起效15-30分钟；维持4-6小时",
+        "首选吸入途径，全身作用少",
+        "闭角型青光眼慎用（抗胆碱能）",
+        "不良反应：震颤、心动过速、咳嗽、口干",
+        "β受体阻滞剂拮抗β2成分"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测心血管效应及尿潴留。",
+        "renal": "吸入用药无需调整。",
+        "hepatico": "吸入用药无需调整。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "非诺特罗+异丙托溴铵 - 雾化（成人）",
+        "doseTexto": "1-2 mL 每6-8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 1,
+        "resultadoFixo": "1-2 mL",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "非诺特罗+异丙托溴铵 - 雾化（儿童）",
+        "doseTexto": "0.5-1 mL 每6-8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mL",
+        "decimais": 1,
+        "resultadoFixo": "0.5-1 mL",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "非诺特罗+异丙托溴铵 - MDI",
+        "doseTexto": "2揿每6-8小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "jatos",
+        "decimais": 0,
+        "resultadoFixo": "2揿",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

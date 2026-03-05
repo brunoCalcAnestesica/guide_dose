@@ -1,0 +1,390 @@
+{
+  "PT": {
+    "nome": "Anfotericina B desoxicolato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dose padrão – Infecções fúngicas sistêmicas",
+          "descricaoDose": "0,5-1 mg/kg IV 1x/dia (iniciar com 0,25 mg/kg como dose de teste)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Monitorar função renal; hidratar. Em IRC grave considerar anfotericina lipossomal ou reduzir dose conforme protocolo.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave."
+          }
+        },
+        {
+          "titulo": "Pediátrico – Infecções fúngicas sistêmicas",
+          "descricaoDose": "0,5-1 mg/kg IV 1x/dia (iniciar baixo, titular conforme tolerância)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Monitorar função renal; hidratar. Em IRC grave considerar anfotericina lipossomal ou reduzir dose conforme protocolo.",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antifúngico poliênico (formulação convencional)",
+      "apresentacoes": [
+        { "forma": "Frasco 50 mg liofilizado", "obs": "Convencional – Fungizone®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir com água estéril", "concentracao": "" },
+        { "diluicao": "Diluir APENAS em SG 5%", "concentracao": "Não usar SF (precipita)" },
+        { "diluicao": "Infusão em 4-6 h", "concentracao": "" },
+        { "diluicao": "Proteger da luz durante a infusão", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro amplo: Candida, Aspergillus, Cryptococcus, Mucor, Histoplasma.",
+        "Nefrotoxicidade é a principal limitação; hidratação prévia (ex.: 500-1000 mL) pode reduzir risco.",
+        "Reações de infusão (febre, calafrios, rigidez): pré-medicar com paracetamol + difenidramina ± hidrocortisona.",
+        "Hipocalemia e hipomagnesemia frequentes: repor eletrólitos e monitorar K+ e Mg2+.",
+        "Monitorar creatinina, K+ e Mg2+ 2-3x/semana.",
+        "Preferir formulação lipossomal quando disponível (menor nefrotoxicidade e doses maiores)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maior risco de nefrotoxicidade; hidratar e monitorar função renal.",
+        "renal": "Monitorar função renal; hidratar. Em IRC grave preferir anfotericina B lipossomal ou reduzir dose conforme protocolo.",
+        "hepatico": "Cautela em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Anfotericina B desoxicolato (adulto)",
+        "doseTexto": "0,5-1 mg/kg IV 1x/dia",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anfotericina B desoxicolato (pediátrico)",
+        "doseTexto": "0,5-1 mg/kg IV 1x/dia",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Amphotericin B deoxycholate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Standard dose – Systemic fungal infections",
+          "descricaoDose": "0.5-1 mg/kg IV once daily (start with 0.25 mg/kg as test dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Monitor renal function; hydrate. In severe CKD consider liposomal amphotericin or reduce dose per protocol.",
+            "ajusteHepatico": "Caution in severe hepatic impairment."
+          }
+        },
+        {
+          "titulo": "Pediatric – Systemic fungal infections",
+          "descricaoDose": "0.5-1 mg/kg IV once daily (start low, titrate per tolerance)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Monitor renal function; hydrate. In severe CKD consider liposomal amphotericin or reduce dose per protocol.",
+            "ajusteHepatico": "Caution in severe hepatic impairment."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Polyene antifungal (conventional formulation)",
+      "apresentacoes": [
+        { "forma": "Vial 50 mg lyophilized", "obs": "Conventional – Fungizone®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with sterile water", "concentracao": "" },
+        { "diluicao": "Dilute ONLY in D5W", "concentracao": "Do not use NS (precipitates)" },
+        { "diluicao": "Infuse over 4-6 hours", "concentracao": "" },
+        { "diluicao": "Protect from light during infusion", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Broad spectrum: Candida, Aspergillus, Cryptococcus, Mucor, Histoplasma.",
+        "Nephrotoxicity is the main limitation; prior hydration (e.g. 500-1000 mL) may reduce risk.",
+        "Infusion reactions (fever, chills, rigors): premedicate with acetaminophen + diphenhydramine ± hydrocortisone.",
+        "Hypokalemia and hypomagnesemia common: replace electrolytes and monitor K+ and Mg2+.",
+        "Monitor creatinine, K+, and Mg2+ 2-3x/week.",
+        "Prefer liposomal formulation when available (less nephrotoxicity and higher doses)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Higher risk of nephrotoxicity; hydrate and monitor renal function.",
+        "renal": "Monitor renal function; hydrate. In severe CKD prefer liposomal amphotericin B or reduce dose per protocol.",
+        "hepatico": "Caution in severe hepatic impairment."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Amphotericin B deoxycholate (adult)",
+        "doseTexto": "0.5-1 mg/kg IV once daily",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Amphotericin B deoxycholate (pediatric)",
+        "doseTexto": "0.5-1 mg/kg IV once daily",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Anfotericina B desoxicolato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dosis estándar – Infecciones fúngicas sistémicas",
+          "descricaoDose": "0,5-1 mg/kg IV 1x/día (iniciar con 0,25 mg/kg como dosis de prueba)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Monitorizar función renal; hidratar. En ERC grave considerar anfotericina liposomal o reducir dosis según protocolo.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave."
+          }
+        },
+        {
+          "titulo": "Pediátrico – Infecciones fúngicas sistémicas",
+          "descricaoDose": "0,5-1 mg/kg IV 1x/día (iniciar bajo, titular según tolerancia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "Monitorizar función renal; hidratar. En ERC grave considerar anfotericina liposomal o reducir dosis según protocolo.",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antifúngico poliénico (formulación convencional)",
+      "apresentacoes": [
+        { "forma": "Frasco 50 mg liofilizado", "obs": "Convencional – Fungizone®" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir con agua estéril", "concentracao": "" },
+        { "diluicao": "Diluir SOLO en SG 5%", "concentracao": "No usar SF (precipita)" },
+        { "diluicao": "Infusión en 4-6 h", "concentracao": "" },
+        { "diluicao": "Proteger de la luz durante la infusión", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Espectro amplio: Candida, Aspergillus, Cryptococcus, Mucor, Histoplasma.",
+        "Nefrotoxicidad es la principal limitación; hidratación previa (ej. 500-1000 mL) puede reducir riesgo.",
+        "Reacciones de infusión (fiebre, escalofríos, rigidez): premedicar con paracetamol + difenhidramina ± hidrocortisona.",
+        "Hipopotasemia e hipomagnesemia frecuentes: reponer electrolitos y monitorizar K+ y Mg2+.",
+        "Monitorizar creatinina, K+ y Mg2+ 2-3x/semana.",
+        "Preferir formulación liposomal cuando esté disponible (menor nefrotoxicidad y dosis mayores)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mayor riesgo de nefrotoxicidad; hidratar y monitorizar función renal.",
+        "renal": "Monitorizar función renal; hidratar. En ERC grave preferir anfotericina B liposomal o reducir dosis según protocolo.",
+        "hepatico": "Precaución en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Anfotericina B desoxicolato (adulto)",
+        "doseTexto": "0,5-1 mg/kg IV 1x/día",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Anfotericina B desoxicolato (pediátrico)",
+        "doseTexto": "0,5-1 mg/kg IV 1x/día",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "两性霉素B脱氧胆酸盐",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "标准剂量 – 系统性真菌感染",
+          "descricaoDose": "0.5-1 mg/kg IV 每日一次（首次0.25 mg/kg试验剂量）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "监测肾功能；水化。严重肾功能不全考虑脂质体两性霉素或按方案减量。",
+            "ajusteHepatico": "严重肝功能不全慎用。"
+          }
+        },
+        {
+          "titulo": "儿童 – 系统性真菌感染",
+          "descricaoDose": "0.5-1 mg/kg IV 每日一次（从低剂量开始，按耐受性滴定）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "监测肾功能；水化。严重肾功能不全考虑脂质体两性霉素或按方案减量。",
+            "ajusteHepatico": "严重肝功能不全慎用。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "多烯类抗真菌药（常规制剂）",
+      "apresentacoes": [
+        { "forma": "冻干粉 50 mg/瓶", "obs": "常规 – Fungizone®" }
+      ],
+      "preparo": [
+        { "diluicao": "用无菌注射用水复溶", "concentracao": "" },
+        { "diluicao": "仅用5%葡萄糖稀释", "concentracao": "勿用生理盐水（沉淀）" },
+        { "diluicao": "输注时间4-6小时", "concentracao": "" },
+        { "diluicao": "输注时避光", "concentracao": "" }
+      ],
+      "observacoes": [
+        "广谱：念珠菌、曲霉、隐球菌、毛霉、组织胞浆菌。",
+        "肾毒性为主要限制；用药前水化（如500-1000 mL）可降低风险。",
+        "输注反应（发热、寒战、僵硬）：预处理对乙酰氨基酚+苯海拉明±氢化可的松。",
+        "常见低钾、低镁：补充电解质并监测K+、Mg2+。",
+        "每周2-3次监测肌酐、K+、Mg2+。",
+        "有条件时优先选用脂质体制剂（肾毒性更低、可更高剂量）。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "肾毒性风险更高；水化并监测肾功能。",
+        "renal": "监测肾功能；水化。严重肾功能不全优先脂质体两性霉素B或按方案减量。",
+        "hepatico": "严重肝功能不全慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "两性霉素B脱氧胆酸盐（成人）",
+        "doseTexto": "0.5-1 mg/kg IV 每日一次",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "两性霉素B脱氧胆酸盐（儿童）",
+        "doseTexto": "0.5-1 mg/kg IV 每日一次",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

@@ -1,0 +1,726 @@
+{
+  "PT": {
+    "nome": "Vancomicina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções graves por MRSA (bacteremia, pneumonia, endocardite)",
+          "descricaoDose": "15-20 mg/kg IV a cada 8-12h (AUC alvo 400-600; máx 3-4 g/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8-12h",
+            "ajusteRenal": "ClCr >50: 15-20 mg/kg 12/12h; ClCr 10-50: intervalo 24h ou dose reduzida; ClCr <10: 10-15 mg/kg 48-72h; diálise: dose pós-sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningite bacteriana (S. pneumoniae resistente)",
+          "descricaoDose": "15-20 mg/kg IV a cada 8-12h + monitorar níveis séricos",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8-12h",
+            "ajusteRenal": "ClCr >50: 15-20 mg/kg 12/12h; ClCr 10-50: intervalo 24h ou dose reduzida; ClCr <10: 10-15 mg/kg 48-72h; diálise: dose pós-sessão.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica (alérgico beta-lactâmico)",
+          "descricaoDose": "1 g IV 60-120 min antes da incisão (repetir se cirurgia >2h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60-120 min antes da incisão",
+            "ajusteRenal": "ClCr >50: 15-20 mg/kg 12/12h; ClCr 10-50: intervalo 24h ou dose reduzida; ClCr <10: 10-15 mg/kg 48-72h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves pediátricas (MRSA)",
+          "descricaoDose": "10-15 mg/kg IV a cada 6-12h (ajustar por idade e função renal)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6-12h",
+            "ajusteRenal": "Avaliar função renal; ajuste de intervalo conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonatos (ajustar por idade pós-natal)",
+          "descricaoDose": "10-15 mg/kg IV a cada 12-24h (monitorar níveis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12-24h",
+            "ajusteRenal": "Avaliar função renal; ajuste de intervalo conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico glicopeptídeo; bactericida tempo-dependente; inibidor da síntese da parede celular",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg, 1 g, 2 g liofilizado", "obs": "Vancocin® / Norvan®" },
+        { "forma": "Cápsulas orais 125 mg, 250 mg", "obs": "C. difficile (uso oral)" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 1 g em 10 mL água estéril", "concentracao": "100 mg/mL" },
+        { "diluicao": "Diluir em 100-250 mL SF 0,9% ou SG 5%", "concentracao": "Concentração final ≤5 mg/mL" },
+        { "diluicao": "Infusão ≥60 min OBRIGATÓRIA", "concentracao": "Evitar síndrome do homem vermelho" },
+        { "diluicao": "Incompatível: aminoglicosídeos, soluções alcalinas. Via exclusiva.", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Liga-se ao terminal D-Ala-D-Ala do peptidoglicano; inibe síntese da parede celular (Gram+).",
+        "Espectro: MRSA, Streptococcus, Enterococcus (exceto VRE). Inativa para Gram-negativos.",
+        "Farmacodinâmica: AUC/MIC >400 em infecções graves; vale alvo 15-20 mg/L.",
+        "Infusão ≥60 min OBRIGATÓRIA – risco de síndrome do homem vermelho (rash, rubor, hipotensão).",
+        "Nefro e ototoxicidade (doses >30 mg/kg/dia, uso >7 dias). Monitorar níveis, função renal e audição.",
+        "Ajuste renal: ClCr <50 → intervalo 24h; ClCr <10 → 48-72h. Interações: aminoglicosídeos, furosemida, anfotericina B."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar ClCr; meia-vida prolongada. Ajustar intervalo ou dose conforme função renal.",
+        "renal": "ClCr >50: 15-20 mg/kg 12/12h; ClCr 10-50: intervalo 24h ou dose reduzida; ClCr <10: 10-15 mg/kg 48-72h; diálise: dose pós-sessão.",
+        "hepatico": "Não requer ajuste. Excreção predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Vancomicina – MRSA (adulto)",
+        "doseTexto": "15-20 mg/kg IV 8-12h (AUC 400-600)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vancomicina – profilaxia cirúrgica",
+        "doseTexto": "1 g IV 60-120 min antes da incisão",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vancomicina – pediátrico",
+        "doseTexto": "10-15 mg/kg IV 6-12h",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Vancomicina – neonatos",
+        "doseTexto": "10-15 mg/kg IV 12-24h",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Vancomycin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Severe MRSA infections (bacteremia, pneumonia, endocarditis)",
+          "descricaoDose": "15-20 mg/kg IV q8-12h (target AUC 400-600; max 3-4 g/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8-12h",
+            "ajusteRenal": "ClCr >50: 15-20 mg/kg q12h; ClCr 10-50: 24h interval or reduced dose; ClCr <10: 10-15 mg/kg q48-72h; dialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Bacterial meningitis (resistant S. pneumoniae)",
+          "descricaoDose": "15-20 mg/kg IV q8-12h + monitor serum levels",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q8-12h",
+            "ajusteRenal": "ClCr >50: 15-20 mg/kg q12h; ClCr 10-50: 24h interval or reduced dose; ClCr <10: 10-15 mg/kg q48-72h; dialysis: dose after session.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis (beta-lactam allergic)",
+          "descricaoDose": "1 g IV 60-120 min before incision (repeat if surgery >2h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "60-120 min before incision",
+            "ajusteRenal": "ClCr >50: 15-20 mg/kg q12h; ClCr 10-50: 24h interval or reduced dose; ClCr <10: 10-15 mg/kg q48-72h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pediatric severe infections (MRSA)",
+          "descricaoDose": "10-15 mg/kg IV q6-12h (adjust by age and renal function)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6-12h",
+            "ajusteRenal": "Assess renal function; adjust interval per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonates (adjust by postnatal age)",
+          "descricaoDose": "10-15 mg/kg IV q12-24h (monitor levels)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q12-24h",
+            "ajusteRenal": "Assess renal function; adjust interval per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Glycopeptide antibiotic; time-dependent bactericidal; cell wall synthesis inhibitor",
+      "apresentacoes": [
+        { "forma": "Vial 500 mg, 1 g, 2 g lyophilized", "obs": "Vancocin® / Norvan®" },
+        { "forma": "Oral capsules 125 mg, 250 mg", "obs": "C. difficile (oral use)" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute 1 g with 10 mL sterile water", "concentracao": "100 mg/mL" },
+        { "diluicao": "Dilute in 100-250 mL 0.9% saline or D5W", "concentracao": "Final concentration ≤5 mg/mL" },
+        { "diluicao": "Infusion ≥60 min MANDATORY", "concentracao": "Avoid red man syndrome" },
+        { "diluicao": "Incompatible: aminoglycosides, alkaline solutions. Dedicated line.", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Binds D-Ala-D-Ala terminal of peptidoglycan; inhibits cell wall synthesis (Gram+).",
+        "Spectrum: MRSA, Streptococcus, Enterococcus (except VRE). Inactive vs Gram-negatives.",
+        "Pharmacodynamics: AUC/MIC >400 in severe infections; trough target 15-20 mg/L.",
+        "Infusion ≥60 min MANDATORY – red man syndrome risk (rash, flushing, hypotension).",
+        "Nephro- and ototoxicity (doses >30 mg/kg/day, use >7 days). Monitor levels, renal function, hearing.",
+        "Renal adjustment: ClCr <50 → 24h interval; ClCr <10 → 48-72h. Interactions: aminoglycosides, furosemide, amphotericin B."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess ClCr; prolonged half-life. Adjust interval or dose per renal function.",
+        "renal": "ClCr >50: 15-20 mg/kg q12h; ClCr 10-50: 24h interval or reduced dose; ClCr <10: 10-15 mg/kg q48-72h; dialysis: dose after session.",
+        "hepatico": "No adjustment required. Predominantly renal excretion."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Vancomycin – MRSA (adult)",
+        "doseTexto": "15-20 mg/kg IV q8-12h (AUC 400-600)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Vancomycin – surgical prophylaxis",
+        "doseTexto": "1 g IV 60-120 min before incision",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Vancomycin – pediatric",
+        "doseTexto": "10-15 mg/kg IV q6-12h",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Vancomycin – neonates",
+        "doseTexto": "10-15 mg/kg IV q12-24h",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Vancomicina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones graves por MRSA (bacteriemia, neumonía, endocarditis)",
+          "descricaoDose": "15-20 mg/kg IV cada 8-12h (AUC objetivo 400-600; máx 3-4 g/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8-12h",
+            "ajusteRenal": "ClCr >50: 15-20 mg/kg 12/12h; ClCr 10-50: intervalo 24h o dosis reducida; ClCr <10: 10-15 mg/kg 48-72h; diálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Meningitis bacteriana (S. pneumoniae resistente)",
+          "descricaoDose": "15-20 mg/kg IV cada 8-12h + monitorizar niveles séricos",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "8-12h",
+            "ajusteRenal": "ClCr >50: 15-20 mg/kg 12/12h; ClCr 10-50: intervalo 24h o dosis reducida; ClCr <10: 10-15 mg/kg 48-72h; diálisis: dosis tras sesión.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica (alérgico beta-lactámico)",
+          "descricaoDose": "1 g IV 60-120 min antes de la incisión (repetir si cirugía >2h)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "60-120 min antes de la incisión",
+            "ajusteRenal": "ClCr >50: 15-20 mg/kg 12/12h; ClCr 10-50: intervalo 24h o dosis reducida; ClCr <10: 10-15 mg/kg 48-72h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves pediátricas (MRSA)",
+          "descricaoDose": "10-15 mg/kg IV cada 6-12h (ajustar por edad y función renal)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6-12h",
+            "ajusteRenal": "Valorar función renal; ajuste de intervalo según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonatos (ajustar por edad postnatal)",
+          "descricaoDose": "10-15 mg/kg IV cada 12-24h (monitorizar niveles)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "12-24h",
+            "ajusteRenal": "Valorar función renal; ajuste de intervalo según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antibiótico glicopéptido; bactericida tiempo-dependiente; inhibidor de la síntesis de la pared celular",
+      "apresentacoes": [
+        { "forma": "Frasco 500 mg, 1 g, 2 g liofilizado", "obs": "Vancocin® / Norvan®" },
+        { "forma": "Cápsulas orales 125 mg, 250 mg", "obs": "C. difficile (uso oral)" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir 1 g en 10 mL agua estéril", "concentracao": "100 mg/mL" },
+        { "diluicao": "Diluir en 100-250 mL SF 0,9% o SG 5%", "concentracao": "Concentración final ≤5 mg/mL" },
+        { "diluicao": "Infusión ≥60 min OBLIGATORIA", "concentracao": "Evitar síndrome del hombre rojo" },
+        { "diluicao": "Incompatible: aminoglucósidos, soluciones alcalinas. Vía exclusiva.", "concentracao": "" }
+      ],
+      "observacoes": [
+        "Se une al terminal D-Ala-D-Ala del peptidoglicano; inhibe síntesis de la pared celular (Gram+).",
+        "Espectro: MRSA, Streptococcus, Enterococcus (excepto VRE). Inactiva frente a Gram-negativos.",
+        "Farmacodinámica: AUC/MIC >400 en infecciones graves; valle objetivo 15-20 mg/L.",
+        "Infusión ≥60 min OBLIGATORIA – riesgo de síndrome del hombre rojo (rash, rubor, hipotensión).",
+        "Nefro y ototoxicidad (dosis >30 mg/kg/día, uso >7 días). Monitorizar niveles, función renal y audición.",
+        "Ajuste renal: ClCr <50 → intervalo 24h; ClCr <10 → 48-72h. Interacciones: aminoglucósidos, furosemida, anfotericina B."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar ClCr; vida media prolongada. Ajustar intervalo o dosis según función renal.",
+        "renal": "ClCr >50: 15-20 mg/kg 12/12h; ClCr 10-50: intervalo 24h o dosis reducida; ClCr <10: 10-15 mg/kg 48-72h; diálisis: dosis tras sesión.",
+        "hepatico": "No requiere ajuste. Excreción predominantemente renal."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Vancomicina – MRSA (adulto)",
+        "doseTexto": "15-20 mg/kg IV 8-12h (AUC 400-600)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vancomicina – profilaxis quirúrgica",
+        "doseTexto": "1 g IV 60-120 min antes de la incisión",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Vancomicina – pediátrico",
+        "doseTexto": "10-15 mg/kg IV 6-12h",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Vancomicina – neonatos",
+        "doseTexto": "10-15 mg/kg IV 12-24h",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "万古霉素",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "MRSA重症感染（菌血症、肺炎、心内膜炎）",
+          "descricaoDose": "15-20 mg/kg IV 每8-12小时（目标AUC 400-600；最大3-4 g/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每8-12小时",
+            "ajusteRenal": "ClCr >50：15-20 mg/kg 12/12h；ClCr 10-50：间隔24h或减量；ClCr <10：10-15 mg/kg 48-72h；透析：透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "细菌性脑膜炎（耐药肺炎链球菌）",
+          "descricaoDose": "15-20 mg/kg IV 每8-12小时 + 监测血药浓度",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每8-12小时",
+            "ajusteRenal": "ClCr >50：15-20 mg/kg 12/12h；ClCr 10-50：间隔24h或减量；ClCr <10：10-15 mg/kg 48-72h；透析：透析后给药。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防（β-内酰胺过敏）",
+          "descricaoDose": "1 g IV 切皮前60-120分钟（手术>2h可重复）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "切皮前60-120分钟",
+            "ajusteRenal": "ClCr >50：15-20 mg/kg 12/12h；ClCr 10-50：间隔24h或减量；ClCr <10：10-15 mg/kg 48-72h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "儿童重症感染（MRSA）",
+          "descricaoDose": "10-15 mg/kg IV 每6-12小时（按年龄及肾功能调整）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每6-12小时",
+            "ajusteRenal": "评估肾功能；按方案调整给药间隔。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "新生儿（按胎龄/日龄调整）",
+          "descricaoDose": "10-15 mg/kg IV 每12-24小时（监测浓度）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "每12-24小时",
+            "ajusteRenal": "评估肾功能；按方案调整给药间隔。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "糖肽类抗生素；时间依赖性杀菌；细胞壁合成抑制剂",
+      "apresentacoes": [
+        { "forma": "西林瓶 500 mg、1 g、2 g 冻干粉", "obs": "万古霉素/Vancocin®" },
+        { "forma": "口服胶囊 125 mg、250 mg", "obs": "艰难梭菌（口服）" }
+      ],
+      "preparo": [
+        { "diluicao": "1 g 用10 mL无菌水复溶", "concentracao": "100 mg/mL" },
+        { "diluicao": "用100-250 mL 0.9%生理盐水或5%葡萄糖稀释", "concentracao": "终浓度≤5 mg/mL" },
+        { "diluicao": "输注≥60分钟（必须）", "concentracao": "避免红人综合征" },
+        { "diluicao": "不可与氨基糖苷类、碱性溶液配伍。专用管路。", "concentracao": "" }
+      ],
+      "observacoes": [
+        "结合肽聚糖D-Ala-D-Ala末端；抑制细胞壁合成（革兰阳性）。",
+        "谱：MRSA、链球菌、肠球菌（除VRE）。对革兰阴性无效。",
+        "药效学：重症感染AUC/MIC >400；谷浓度目标15-20 mg/L。",
+        "输注≥60分钟（必须）– 红人综合征风险（皮疹、潮红、低血压）。",
+        "肾毒性及耳毒性（>30 mg/kg/日、>7天）。监测浓度、肾功能及听力。",
+        "肾调整：ClCr <50→间隔24h；ClCr <10→48-72h。与氨基糖苷类、呋塞米、两性霉素B有相互作用。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "评估ClCr；半衰期延长。按肾功能调整间隔或剂量。",
+        "renal": "ClCr >50：15-20 mg/kg 12/12h；ClCr 10-50：间隔24h或减量；ClCr <10：10-15 mg/kg 48-72h；透析：透析后给药。",
+        "hepatico": "无需调整。主要经肾排泄。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "万古霉素 – MRSA（成人）",
+        "doseTexto": "15-20 mg/kg IV 每8-12小时（AUC 400-600）",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "万古霉素 – 手术预防",
+        "doseTexto": "1 g IV 切皮前60-120分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "万古霉素 – 儿科",
+        "doseTexto": "10-15 mg/kg IV 每6-12小时",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "万古霉素 – 新生儿",
+        "doseTexto": "10-15 mg/kg IV 每12-24小时",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

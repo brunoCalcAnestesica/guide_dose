@@ -1,0 +1,44 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Temazepam",
+      "nomesComerciais": ["Restoril®"],
+      "classeTerapeutica": "Benzodiazepínico / Hipnótico",
+      "mecanismoAcao": "Potencializa a ação do GABA ligando-se a receptores GABA-A. Meia-vida intermediária ideal para tratamento da insônia, sem acúmulo significativo.",
+      "indicacoes": ["Insônia", "Dificuldade de iniciar o sono", "Pré-medicação anestésica"],
+      "apresentacoes": ["Cápsulas 15 mg, 30 mg"],
+      "posologia": {
+        "insonia": {
+          "adulto": "15-30 mg ao deitar (30 min antes)",
+          "idoso": "7,5-15 mg ao deitar",
+          "maxima": "30 mg/dia",
+          "duracao": "7-10 dias (máximo)"
+        },
+        "insoniaTransitoria": {
+          "dose": "15 mg ao deitar por 2-3 noites"
+        },
+        "preMedicacao": {
+          "dose": "20-40 mg na noite anterior ou 1h antes"
+        }
+      },
+      "vantagens": [
+        "Meia-vida ideal para insônia (8-15h)",
+        "Sem metabólitos ativos",
+        "Menor sedação diurna residual",
+        "Metabolismo não afetado pela idade",
+        "Melhor opção entre BZDs para idosos"
+      ],
+      "farmacocinetica": {
+        "inicioAcao": "30-60 minutos",
+        "picoPlasmatico": "1,5-2 horas",
+        "meiaVida": "8-15 horas",
+        "metabolismo": "Hepático (glicuronidação direta)",
+        "metabolitosAtivos": "Nenhum"
+      },
+      "contraindicacoes": ["Miastenia gravis", "Apneia do sono não tratada", "Insuficiência respiratória grave", "Glaucoma de ângulo fechado", "Gestação (categoria X)"],
+      "efeitosAdversos": ["Sonolência", "Tontura", "Amnésia anterógrada", "Comportamentos complexos do sono", "Dependência"],
+      "observacoes": ["Preferível ao flurazepam (menor hangover)", "Risco de dependência com uso > 2-4 semanas", "Retirada gradual se uso prolongado", "Evitar com álcool", "Categoria X na gestação"],
+      "categoriaGravidez": "X"
+    }
+  }
+}

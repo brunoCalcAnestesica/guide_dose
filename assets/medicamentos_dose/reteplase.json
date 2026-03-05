@@ -1,0 +1,254 @@
+{
+  "PT": {
+    "nome": "Reteplase",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "IAM com supradesnivelamento de ST (IAMCSST)",
+          "descricaoDose": "10 U IV em 2 min + 10 U IV em 2 min (2º bolus após 30 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "10 U + 10 U (2º bolus após 30 min)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "2 bolus com 30 min de intervalo",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Trombolítico / Ativador do plasminogênio recombinante (r-PA)",
+      "apresentacoes": [
+        { "forma": "Kit com 2 frascos de 10 U (18,1 mg) cada", "obs": "Retavase®, Rapilysin®" },
+        { "forma": "Diluente: água para injeção 10 mL por frasco", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Adicionar 10 mL de água para injeção por frasco", "concentracao": "1 U/mL" },
+        { "diluicao": "Administração: bolus IV em 2 minutos cada dose", "concentracao": "Via exclusiva com flush de SF antes e após" }
+      ],
+      "observacoes": [
+        "Regime duplo bolus (sem infusão contínua); dose fixa independente do peso",
+        "Janela IAM: ≤12 h do início dos sintomas; NÃO aprovado para AVC",
+        "Heparina: iniciar após o 2º bolus de reteplase",
+        "Monitorar sinais de reperfusão e sangramento; evitar procedimentos invasivos",
+        "Contraindicações: sangramento ativo, AVC hemorrágico/recente, HAS >180/110 mmHg",
+        "Meia-vida 13-16 min; usar imediatamente após reconstituição"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Avaliar risco hemorrágico e função renal.",
+        "renal": "Não requer ajuste de dose. Metabolismo hepático; eliminação renal. Avaliar risco hemorrágico em DRC.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave (metabolismo hepático). Avaliar relação benefício/risco."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Reteplase (adulto) - IAMCSST",
+        "doseTexto": "10 U + 10 U IV (2º bolus após 30 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "10 U + 10 U",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Reteplase",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "STEMI (ST-elevation myocardial infarction)",
+          "descricaoDose": "10 U IV over 2 min + 10 U IV over 2 min (2nd bolus 30 min later)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "10 U + 10 U (2nd bolus after 30 min)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "2 boluses 30 min apart",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Thrombolytic / Recombinant plasminogen activator (r-PA)",
+      "apresentacoes": [
+        { "forma": "Kit with 2 vials of 10 U (18.1 mg) each", "obs": "Retavase®, Rapilysin®" },
+        { "forma": "Diluent: water for injection 10 mL per vial", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Add 10 mL water for injection per vial", "concentracao": "1 U/mL" },
+        { "diluicao": "Administration: IV bolus over 2 minutes each dose", "concentracao": "Exclusive line with NS flush before and after" }
+      ],
+      "observacoes": [
+        "Double-bolus regimen (no continuous infusion); fixed dose independent of weight",
+        "STEMI window: ≤12 h from symptom onset; NOT approved for stroke",
+        "Heparin: start after 2nd reteplase bolus",
+        "Monitor reperfusion signs and bleeding; avoid invasive procedures",
+        "Contraindications: active bleeding, hemorrhagic/recent stroke, BP >180/110 mmHg",
+        "Half-life 13-16 min; use immediately after reconstitution"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Assess bleeding risk and renal function.",
+        "renal": "No dose adjustment required. Hepatic metabolism; renal elimination. Assess bleeding risk in CKD.",
+        "hepatico": "Use with caution in severe hepatic impairment (hepatic metabolism). Weigh benefit/risk."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Reteplase (adult) - STEMI",
+        "doseTexto": "10 U + 10 U IV (2nd bolus after 30 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "10 U + 10 U",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Reteplasa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "IAM con supradesnivelamiento del ST (IAMCEST)",
+          "descricaoDose": "10 U IV en 2 min + 10 U IV en 2 min (2.º bolo a los 30 min)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "10 U + 10 U (2.º bolo a los 30 min)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "2 bolos con 30 min de intervalo",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Trombolítico / Activador recombinante del plasminógeno (r-PA)",
+      "apresentacoes": [
+        { "forma": "Kit con 2 frascos de 10 U (18,1 mg) cada uno", "obs": "Retavase®, Rapilysin®" },
+        { "forma": "Diluente: agua para inyección 10 mL por frasco", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "Añadir 10 mL de agua para inyección por frasco", "concentracao": "1 U/mL" },
+        { "diluicao": "Administración: bolo IV en 2 minutos cada dosis", "concentracao": "Vía exclusiva con lavado de SF antes y después" }
+      ],
+      "observacoes": [
+        "Régimen doble bolo (sin infusión continua); dosis fija independiente del peso",
+        "Ventana IAM: ≤12 h del inicio de síntomas; NO aprobado para AVC",
+        "Heparina: iniciar tras el 2.º bolo de reteplasa",
+        "Monitorizar signos de reperfusión y sangrado; evitar procedimientos invasivos",
+        "Contraindicaciones: sangrado activo, AVC hemorrágico/reciente, HTA >180/110 mmHg",
+        "Vida media 13-16 min; usar inmediatamente tras reconstitución"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Valorar riesgo hemorrágico y función renal.",
+        "renal": "No requiere ajuste de dosis. Metabolismo hepático; eliminación renal. Valorar riesgo hemorrágico en ERC.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave (metabolismo hepático). Valorar beneficio/riesgo."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Reteplasa (adulto) - IAMCEST",
+        "doseTexto": "10 U + 10 U IV (2.º bolo a los 30 min)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "10 U + 10 U",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "瑞替普酶",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "ST段抬高型心肌梗死 (STEMI)",
+          "descricaoDose": "10 U IV 2分钟内 + 10 U IV 2分钟内（30分钟后第二次弹丸）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "U",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "10 U + 10 U（30分钟后第二次弹丸）",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "两次弹丸间隔30分钟",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "溶栓药 / 重组纤溶酶原激活剂 (r-PA)",
+      "apresentacoes": [
+        { "forma": "套件：2瓶，每瓶10 U（18.1 mg）", "obs": "Retavase®、Rapilysin®" },
+        { "forma": "稀释液：注射用水每瓶10 mL", "obs": "" }
+      ],
+      "preparo": [
+        { "diluicao": "每瓶加入10 mL注射用水", "concentracao": "1 U/mL" },
+        { "diluicao": "给药：每次剂量IV弹丸注射2分钟", "concentracao": "专用管路，前后生理盐水冲管" }
+      ],
+      "observacoes": [
+        "双弹丸方案（无持续输注）；固定剂量与体重无关",
+        "心梗时间窗：症状发作后≤12小时；未批准用于卒中",
+        "肝素：瑞替普酶第二次弹丸后开始",
+        "监测再灌注征象和出血；避免有创操作",
+        "禁忌症：活动性出血、出血性/近期卒中、血压>180/110 mmHg",
+        "半衰期13-16分钟； reconstitution后立即使用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需剂量调整。评估出血风险和肾功能。",
+        "renal": "无需剂量调整。肝脏代谢；肾脏清除。CKD患者评估出血风险。",
+        "hepatico": "严重肝功能不全慎用（肝脏代谢）。权衡获益与风险。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "瑞替普酶（成人）- STEMI",
+        "doseTexto": "10 U + 10 U IV（30分钟后第二次弹丸）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "U",
+        "decimais": 0,
+        "resultadoFixo": "10 U + 10 U",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "PT": {
+    "nome": "Temazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Insônia",
+          "descricaoDose": "15-30 mg VO ao deitar (30 min antes)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "ao deitar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insônia (idoso)",
+          "descricaoDose": "7,5-15 mg VO ao deitar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "7,5-15 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "ao deitar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insônia transitoria",
+          "descricaoDose": "15 mg VO ao deitar por 2-3 noites",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 noites",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Pré-medicação anestésica",
+          "descricaoDose": "20-40 mg VO na noite anterior ou 1h antes",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Hipnótico",
+      "apresentacoes": [
+        { "forma": "Cápsulas 15 mg", "obs": "Uso oral" },
+        { "forma": "Cápsulas 30 mg", "obs": "Uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Cápsulas - uso oral", "concentracao": "Não requer diluição" }
+      ],
+      "observacoes": [
+        "Meia-vida intermediária (8-15h), ideal para insônia sem acúmulo significativo",
+        "Administrar 30 min antes de deitar; duração máxima 7-10 dias",
+        "Não recomendado para crianças; preferível em idosos vs outros BZDs (menor hangover)",
+        "Risco de dependência com uso > 2-4 semanas; retirada gradual se uso prolongado",
+        "Evitar álcool; contraindicado em apneia do sono não tratada e gestação (categoria X)",
+        "Metabolismo por glicuronidação direta; sem metabólitos ativos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose: 7,5-15 mg ao deitar (máx 15 mg/dia). Melhor opção entre BZDs para idosos.",
+        "renal": "Não requer ajuste. Eliminação renal de metabólitos inativos.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave; metabolismo hepático pode estar reduzido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Temazepam (adulto)",
+        "doseTexto": "15-30 mg VO ao deitar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Temazepam (idoso)",
+        "doseTexto": "7,5-15 mg VO ao deitar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7,5-15 mg",
+        "faixaEtaria": "Idoso"
+      },
+      {
+        "nome": "Temazepam - Pré-medicação",
+        "doseTexto": "20-40 mg VO na noite anterior ou 1h antes",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Temazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Insomnia",
+          "descricaoDose": "15-30 mg PO at bedtime (30 min before)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "at bedtime",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insomnia (elderly)",
+          "descricaoDose": "7.5-15 mg PO at bedtime",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "7.5-15 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "at bedtime",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Transient insomnia",
+          "descricaoDose": "15 mg PO at bedtime for 2-3 nights",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 nights",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Preoperative sedation",
+          "descricaoDose": "20-40 mg PO night before or 1h before",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine / Hypnotic",
+      "apresentacoes": [
+        { "forma": "Capsules 15 mg", "obs": "Oral use" },
+        { "forma": "Capsules 30 mg", "obs": "Oral use" }
+      ],
+      "preparo": [
+        { "diluicao": "Capsules - oral use", "concentracao": "No dilution required" }
+      ],
+      "observacoes": [
+        "Intermediate half-life (8-15h), ideal for insomnia without significant accumulation",
+        "Give 30 min before bedtime; max duration 7-10 days",
+        "Not recommended for children; preferred in elderly vs other BZDs (less hangover)",
+        "Dependence risk with use > 2-4 weeks; taper if prolonged use",
+        "Avoid alcohol; contraindicated in untreated sleep apnea and pregnancy (category X)",
+        "Metabolism by direct glucuronidation; no active metabolites"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose: 7.5-15 mg at bedtime (max 15 mg/day). Preferred BZD in elderly.",
+        "renal": "No dose adjustment. Renal elimination of inactive metabolites.",
+        "hepatico": "Use with caution in severe hepatic impairment; hepatic metabolism may be reduced."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Temazepam (adult)",
+        "doseTexto": "15-30 mg PO at bedtime",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Temazepam (elderly)",
+        "doseTexto": "7.5-15 mg PO at bedtime",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7.5-15 mg",
+        "faixaEtaria": "Idoso"
+      },
+      {
+        "nome": "Temazepam - Premedication",
+        "doseTexto": "20-40 mg PO night before or 1h before",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Temazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Insomnio",
+          "descricaoDose": "15-30 mg VO al acostar (30 min antes)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "al acostar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insomnio (anciano)",
+          "descricaoDose": "7,5-15 mg VO al acostar",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "7,5-15 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "al acostar",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Insomnio transitorio",
+          "descricaoDose": "15 mg VO al acostar 2-3 noches",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 noches",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Premedicación anestésica",
+          "descricaoDose": "20-40 mg VO noche anterior o 1h antes",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Hipnótico",
+      "apresentacoes": [
+        { "forma": "Cápsulas 15 mg", "obs": "Uso oral" },
+        { "forma": "Cápsulas 30 mg", "obs": "Uso oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Cápsulas - uso oral", "concentracao": "No requiere dilución" }
+      ],
+      "observacoes": [
+        "Vida media intermedia (8-15h), ideal para insomnio sin acúmulo significativo",
+        "Administrar 30 min antes de acostar; duración máxima 7-10 días",
+        "No recomendado en niños; preferible en ancianos vs otros BZD (menor resaca)",
+        "Riesgo de dependencia con uso > 2-4 semanas; retirada gradual si uso prolongado",
+        "Evitar alcohol; contraindicado en apnea del sueño no tratada y gestación (categoría X)",
+        "Metabolismo por glucuronidación directa; sin metabolitos activos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis: 7,5-15 mg al acostar (máx 15 mg/día). Mejor opción entre BZD en ancianos.",
+        "renal": "No requiere ajuste. Eliminación renal de metabolitos inactivos.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave; metabolismo hepático puede estar reducido."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Temazepam (adulto)",
+        "doseTexto": "15-30 mg VO al acostar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Temazepam (anciano)",
+        "doseTexto": "7,5-15 mg VO al acostar",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7,5-15 mg",
+        "faixaEtaria": "Idoso"
+      },
+      {
+        "nome": "Temazepam - Premedicación",
+        "doseTexto": "20-40 mg VO noche anterior o 1h antes",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "替马西泮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "失眠",
+          "descricaoDose": "15-30 mg 口服 睡前（30分钟前）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 15,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "15-30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "睡前",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "失眠（老年）",
+          "descricaoDose": "7,5-15 mg 口服 睡前",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 7.5,
+            "doseMax": 15,
+            "doseMaxima": 15,
+            "doseFixa": "7,5-15 mg",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "睡前",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "短暂失眠",
+          "descricaoDose": "15 mg 口服 睡前 2-3晚",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "15 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3晚",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "麻醉前用药",
+          "descricaoDose": "20-40 mg 口服 前夜或术前1小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "20-40 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "单次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "苯二氮䓬类/催眠药",
+      "apresentacoes": [
+        { "forma": "胶囊 15 mg", "obs": "口服" },
+        { "forma": "胶囊 30 mg", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "胶囊 - 口服", "concentracao": "无需稀释" }
+      ],
+      "observacoes": [
+        "半衰期中度（8-15小时），适合失眠且无明显蓄积",
+        "睡前30分钟服用；最长疗程7-10天",
+        "不推荐儿童使用；老年人优于其他苯二氮䓬类（宿醉较轻）",
+        "使用超过2-4周有依赖风险；长期使用需逐渐减量",
+        "避免饮酒；未经治疗的睡眠呼吸暂停及妊娠禁忌（X类）",
+        "经葡萄糖醛酸化代谢；无活性代谢物"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量：睡前7,5-15 mg（最大15 mg/日）。老年首选苯二氮䓬类。",
+        "renal": "无需调整。肾脏排泄无活性代谢物。",
+        "hepatico": "严重肝功能不全慎用；肝脏代谢可能降低。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "替马西泮（成人）",
+        "doseTexto": "15-30 mg 口服 睡前",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "15-30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "替马西泮（老年）",
+        "doseTexto": "7,5-15 mg 口服 睡前",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "7,5-15 mg",
+        "faixaEtaria": "Idoso"
+      },
+      {
+        "nome": "替马西泮 - 术前用药",
+        "doseTexto": "20-40 mg 口服 前夜或术前1小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-40 mg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  }
+}

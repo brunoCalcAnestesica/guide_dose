@@ -17,10 +17,12 @@ class MedicamentoPropofol {
 
   static Widget buildCard(BuildContext context, Set<String> favoritos,
       void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
     final peso = SharedData.peso ?? 70;
     final faixaEtaria = SharedData.faixaEtaria;
-    final isAdulto = faixaEtaria == 'Adulto' || faixaEtaria == 'Idoso' || faixaEtaria == 'Adolescente';
-    final isFavorito = favoritos.contains(nome);
+    final isAdulto = faixaEtaria == 'Adulto' ||
+        faixaEtaria == 'Idoso' ||
+        faixaEtaria == 'Adolescente';
 
     // Propofol não é recomendado em neonatos
     if (faixaEtaria == 'Neonato') {
@@ -42,6 +44,26 @@ class MedicamentoPropofol {
       ),
     );
   }
+  /// Retorna apenas o conteúdo interno do medicamento (sem o card expansível)
+  /// Usado para navegação direta de Doses Rápidas
+  static Widget buildConteudo(BuildContext context, Set<String> favoritos,
+      void Function(String) onToggleFavorito) {
+    final isFavorito = favoritos.contains(nome);
+    final peso = SharedData.peso ?? 70;
+    final faixaEtaria = SharedData.faixaEtaria;
+    final isAdulto = faixaEtaria == 'Adulto' ||
+        faixaEtaria == 'Idoso' ||
+        faixaEtaria == 'Adolescente';
+
+    return _buildCardPropofol(
+      context,
+        peso,
+        isAdulto,
+        isFavorito,
+        () => onToggleFavorito(nome),
+    );
+  }
+
 
   static Widget _buildCardPropofol(BuildContext context, double peso,
       bool isAdulto, bool isFavorito, VoidCallback onToggleFavorito) {
@@ -54,7 +76,7 @@ class MedicamentoPropofol {
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _linhaPreparo('Anestésico IV', 'Hipnótico-sedativo (alquifenol)'),
-        
+
         // 2. APRESENTAÇÃO
         const SizedBox(height: 16),
         const Text('Apresentação',
@@ -63,7 +85,7 @@ class MedicamentoPropofol {
         _linhaPreparo('Ampola 200 mg/20 mL', '10 mg/mL (1%) | Diprivan®'),
         _linhaPreparo('Frasco 500 mg/50 mL', '10 mg/mL (1%)'),
         _linhaPreparo('Frasco 1000 mg/100 mL', '10 mg/mL (1%)'),
-        
+
         // 3. PREPARO (maior para menor concentração)
         const SizedBox(height: 16),
         const Text('Preparo',
@@ -73,7 +95,7 @@ class MedicamentoPropofol {
         _linhaPreparo('Se necessário diluir', 'Somente SG 5% (mín 2 mg/mL)'),
         _textoObs('Emulsão lipídica - técnica asséptica rigorosa'),
         _textoObs('Descartar em 6h após abertura'),
-        
+
         // 4. INDICAÇÕES CLÍNICAS
         const SizedBox(height: 16),
         const Text('Indicações Clínicas',
@@ -130,14 +152,14 @@ class MedicamentoPropofol {
           ),
           _textoObs('⚠️ EVITAR sedação prolongada em UTI pediátrica (PRIS)'),
         ],
-        
+
         // 5. INFUSÃO CONTÍNUA
         const SizedBox(height: 16),
         const Text('Infusão Contínua',
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16)),
         const SizedBox(height: 8),
         _buildConversorInfusao(peso, isAdulto),
-        
+
         // 6. OBSERVAÇÕES (6 mais importantes)
         const SizedBox(height: 16),
         const Text('Observações',
@@ -186,8 +208,12 @@ class MedicamentoPropofol {
                 children: [
                   TextSpan(text: texto),
                   if (marca.isNotEmpty) ...[
-                    const TextSpan(text: ' | ', style: TextStyle(fontWeight: FontWeight.bold)),
-                    TextSpan(text: marca, style: const TextStyle(fontStyle: FontStyle.italic)),
+                    const TextSpan(
+                        text: ' | ',
+                        style: TextStyle(fontWeight: FontWeight.bold)),
+                    TextSpan(
+                        text: marca,
+                        style: const TextStyle(fontStyle: FontStyle.italic)),
                   ],
                 ],
               ),
@@ -215,7 +241,8 @@ class MedicamentoPropofol {
       if (doseMaxima != null && doseMax > doseMaxima) {
         doseMax = doseMaxima;
       }
-      textoDose = '${doseMin.toStringAsFixed(0)}-${doseMax.toStringAsFixed(0)} $unidade';
+      textoDose =
+          '${doseMin.toStringAsFixed(0)}-${doseMax.toStringAsFixed(0)} $unidade';
     }
 
     return Padding(

@@ -1,0 +1,518 @@
+{
+  "PT": {
+    "nome": "Bromazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ansiedade leve",
+          "descricaoDose": "3-6 mg/dia VO divididos em 2-3 tomadas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "3-6 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Ansiedade grave",
+          "descricaoDose": "6-12 mg/dia VO divididos em 2-3 tomadas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6,
+            "doseMax": 12,
+            "doseMaxima": null,
+            "doseFixa": "6-12 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Ansiedade leve (idoso)",
+          "descricaoDose": "1,5-3 mg/dia VO divididos em 2-3 tomadas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1.5,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": "1,5-3 mg/dia",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Ansiedade grave (idoso)",
+          "descricaoDose": "3-6 mg/dia VO divididos em 2-3 tomadas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "3-6 mg/dia",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Ansiolítico",
+      "apresentacoes": [
+        { "forma": "Comprimidos 3 mg, 6 mg", "obs": "VO" },
+        { "forma": "Gotas 2,5 mg/mL", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral - comprimidos ou gotas", "concentracao": "Não aplicável" }
+      ],
+      "observacoes": [
+        "Risco de dependência com uso prolongado; retirada gradual (reduzir 25%/semana)",
+        "Evitar associação com álcool - potencialização de efeitos depressores",
+        "Pode causar sonolência - evitar dirigir ou operar máquinas",
+        "Contraindicado em glaucoma de ângulo fechado e miastenia gravis",
+        "Insuficiência hepática grave: contraindicado; moderada: reduzir dose",
+        "Equivalência: Bromazepam 6 mg ≈ Diazepam 10 mg"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com doses menores (1,5-3 mg/dia). Maior sensibilidade a sedação e ataxia.",
+        "renal": "Não requer ajuste de dose.",
+        "hepatico": "Reduzir dose em insuficiência hepática moderada. Evitar em insuficiência grave (contraindicado)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bromazepam (adulto)",
+        "doseTexto": "3-6 mg VO 2-3x/dia (leve); 6-12 mg 2-3x/dia (grave)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3-6 mg ou 6-12 mg/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bromazepam (idoso)",
+        "doseTexto": "1,5-3 mg/dia (leve); 3-6 mg/dia (grave) VO 2-3x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1,5-3 mg ou 3-6 mg/dia",
+        "faixaEtaria": "Idoso"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Bromazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Mild anxiety",
+          "descricaoDose": "3-6 mg/day PO divided in 2-3 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "3-6 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "2-3 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Severe anxiety",
+          "descricaoDose": "6-12 mg/day PO divided in 2-3 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6,
+            "doseMax": 12,
+            "doseMaxima": null,
+            "doseFixa": "6-12 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "2-3 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Mild anxiety (elderly)",
+          "descricaoDose": "1.5-3 mg/day PO divided in 2-3 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1.5,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": "1.5-3 mg/day",
+            "faixaEtaria": "Elderly",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "2-3 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        },
+        {
+          "titulo": "Severe anxiety (elderly)",
+          "descricaoDose": "3-6 mg/day PO divided in 2-3 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "3-6 mg/day",
+            "faixaEtaria": "Elderly",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "2-3 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe impairment"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine / Anxiolytic",
+      "apresentacoes": [
+        { "forma": "Tablets 3 mg, 6 mg", "obs": "PO" },
+        { "forma": "Drops 2.5 mg/mL", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral use - tablets or drops", "concentracao": "Not applicable" }
+      ],
+      "observacoes": [
+        "Risk of dependence with prolonged use; taper gradually (reduce 25%/week)",
+        "Avoid alcohol - potentiation of CNS depressant effects",
+        "May cause drowsiness - avoid driving or operating machinery",
+        "Contraindicated in angle-closure glaucoma and myasthenia gravis",
+        "Severe hepatic impairment: contraindicated; moderate: reduce dose",
+        "Equivalence: Bromazepam 6 mg ≈ Diazepam 10 mg"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with lower doses (1.5-3 mg/day). Increased sensitivity to sedation and ataxia.",
+        "renal": "No dose adjustment required.",
+        "hepatico": "Reduce dose in moderate hepatic impairment. Avoid in severe impairment (contraindicated)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bromazepam (adult)",
+        "doseTexto": "3-6 mg PO 2-3x/day (mild); 6-12 mg 2-3x/day (severe)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3-6 mg or 6-12 mg/day",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Bromazepam (elderly)",
+        "doseTexto": "1.5-3 mg/day (mild); 3-6 mg/day (severe) PO 2-3x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1.5-3 mg or 3-6 mg/day",
+        "faixaEtaria": "Elderly"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Bromazepam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ansiedad leve",
+          "descricaoDose": "3-6 mg/día VO divididos en 2-3 tomas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "3-6 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en insuficiencia moderada/grave"
+          }
+        },
+        {
+          "titulo": "Ansiedad grave",
+          "descricaoDose": "6-12 mg/día VO divididos en 2-3 tomas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6,
+            "doseMax": 12,
+            "doseMaxima": null,
+            "doseFixa": "6-12 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en insuficiencia moderada/grave"
+          }
+        },
+        {
+          "titulo": "Ansiedad leve (anciano)",
+          "descricaoDose": "1,5-3 mg/día VO divididos en 2-3 tomas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1.5,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": "1,5-3 mg/día",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en insuficiencia moderada/grave"
+          }
+        },
+        {
+          "titulo": "Ansiedad grave (anciano)",
+          "descricaoDose": "3-6 mg/día VO divididos en 2-3 tomas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "3-6 mg/día",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en insuficiencia moderada/grave"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / Ansiolítico",
+      "apresentacoes": [
+        { "forma": "Comprimidos 3 mg, 6 mg", "obs": "VO" },
+        { "forma": "Gotas 2,5 mg/mL", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral - comprimidos o gotas", "concentracao": "No aplicable" }
+      ],
+      "observacoes": [
+        "Riesgo de dependencia con uso prolongado; retirada gradual (reducir 25%/semana)",
+        "Evitar asociación con alcohol - potenciación de efectos depresores",
+        "Puede causar somnolencia - evitar conducir o manejar maquinaria",
+        "Contraindicado en glaucoma de ángulo cerrado y miastenia gravis",
+        "Insuficiencia hepática grave: contraindicado; moderada: reducir dosis",
+        "Equivalencia: Bromazepam 6 mg ≈ Diazepam 10 mg"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis menores (1,5-3 mg/día). Mayor sensibilidad a sedación y ataxia.",
+        "renal": "No requiere ajuste de dosis.",
+        "hepatico": "Reducir dosis en insuficiencia hepática moderada. Evitar en insuficiencia grave (contraindicado)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bromazepam (adulto)",
+        "doseTexto": "3-6 mg VO 2-3x/día (leve); 6-12 mg 2-3x/día (grave)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3-6 mg o 6-12 mg/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bromazepam (anciano)",
+        "doseTexto": "1,5-3 mg/día (leve); 3-6 mg/día (grave) VO 2-3x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1,5-3 mg o 3-6 mg/día",
+        "faixaEtaria": "Idoso"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "溴西泮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "轻度焦虑",
+          "descricaoDose": "3-6 mg/日 口服 分2-3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "3-6 mg/日",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "口服",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "重度焦虑",
+          "descricaoDose": "6-12 mg/日 口服 分2-3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 6,
+            "doseMax": 12,
+            "doseMaxima": null,
+            "doseFixa": "6-12 mg/日",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "口服",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "轻度焦虑（老年）",
+          "descricaoDose": "1,5-3 mg/日 口服 分2-3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1.5,
+            "doseMax": 3,
+            "doseMaxima": null,
+            "doseFixa": "1,5-3 mg/日",
+            "faixaEtaria": "老年",
+            "sexo": "全部",
+            "via": "口服",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        },
+        {
+          "titulo": "重度焦虑（老年）",
+          "descricaoDose": "3-6 mg/日 口服 分2-3次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 3,
+            "doseMax": 6,
+            "doseMaxima": null,
+            "doseFixa": "3-6 mg/日",
+            "faixaEtaria": "老年",
+            "sexo": "全部",
+            "via": "口服",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "无",
+            "ajusteHepatico": "中重度肝功能不全时减量"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "苯二氮䓬类 / 抗焦虑药",
+      "apresentacoes": [
+        { "forma": "片剂 3 mg, 6 mg", "obs": "口服" },
+        { "forma": "滴剂 2,5 mg/mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "口服 - 片剂或滴剂", "concentracao": "不适用" }
+      ],
+      "observacoes": [
+        "长期使用有依赖风险；需逐渐减停（每周减25%）",
+        "避免与酒精同用 - 增强中枢抑制",
+        "可能引起嗜睡 - 避免驾驶或操作机械",
+        "闭角型青光眼、重症肌无力禁用",
+        "严重肝功能不全：禁用；中度：减量",
+        "等效：溴西泮 6 mg ≈ 地西泮 10 mg"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从小剂量开始（1,5-3 mg/日）。对镇静和共济失调更敏感。",
+        "renal": "无需调整剂量。",
+        "hepatico": "中度肝功能不全时减量。严重不全时避免使用（禁用）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "溴西泮（成人）",
+        "doseTexto": "3-6 mg 口服 2-3次/日（轻度）；6-12 mg 2-3次/日（重度）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "3-6 mg 或 6-12 mg/日",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "溴西泮（老年）",
+        "doseTexto": "1,5-3 mg/日（轻度）；3-6 mg/日（重度）口服 2-3次/日",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "1,5-3 mg 或 3-6 mg/日",
+        "faixaEtaria": "老年"
+      }
+    ]
+  }
+}

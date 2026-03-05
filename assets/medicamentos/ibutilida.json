@@ -1,0 +1,63 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Ibutilida",
+      "nome_comercial": ["Corvert"],
+      "classe_terapeutica": "Antiarrítmico Classe III",
+      "mecanismo_acao": "Bloqueia os canais de potássio IKr (corrente retificadora tardia rápida), prolongando a repolarização atrial e ventricular. Também ativa corrente lenta de sódio.",
+      "indicacoes": [
+        "Cardioversão farmacológica de FA de início recente",
+        "Cardioversão farmacológica de Flutter atrial"
+      ],
+      "contraindicacoes": [
+        "QTc > 440 ms",
+        "Hipocalemia (<4 mEq/L)",
+        "Hipomagnesemia",
+        "Bradicardia (< 50 bpm)",
+        "Histórico de Torsades de Pointes",
+        "ICC grave",
+        "Uso concomitante de drogas que prolongam QT"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Solução injetável",
+          "concentracao": "1 mg/10 mL",
+          "volume": "0,1 mg/mL"
+        }
+      ],
+      "farmacocinetica": {
+        "inicio_acao_iv": "Minutos",
+        "pico_iv": "Durante ou logo após infusão",
+        "duracao": "2-4 horas",
+        "meia_vida": "6 horas",
+        "metabolismo": "Hepático",
+        "excrecao": "Renal (82%) e fecal (19%)"
+      },
+      "efeitos_adversos": [
+        "Torsades de Pointes (4-8%)",
+        "Prolongamento QT",
+        "Taquicardia ventricular monomórfica",
+        "Hipotensão",
+        "Bradicardia",
+        "Bloqueio AV"
+      ],
+      "interacoes_importantes": [
+        "Drogas que prolongam QT: risco aditivo de Torsades",
+        "Amiodarona: efeitos aditivos",
+        "Digoxina: pode ser usada concomitantemente",
+        "Beta-bloqueadores: podem ser usados"
+      ],
+      "monitoramento": {
+        "ecg": "Contínuo durante e por 4-6h após infusão",
+        "eletrolitos": "Corrigir K+ e Mg++ antes do uso"
+      },
+      "taxa_conversao": {
+        "flutter_atrial": "50-70%",
+        "fibrilacao_atrial": "30-50%"
+      },
+      "estabilidade": {
+        "temperatura_ambiente": "24 horas após diluição"
+      }
+    }
+  }
+}

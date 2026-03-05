@@ -1,0 +1,66 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Crioprecipitado",
+      "nomesComerciais": ["CRIO", "Crioprecipitado de fator anti-hemofílico"],
+      "classeTerapeutica": "Hemoderivado / Componente sanguíneo",
+      "composicao": "Fração proteica obtida pelo descongelamento lento (1-6°C) do plasma fresco congelado. Rico em fibrinogênio (150-250 mg), fator VIII (80-120 UI), fator XIII (40-60 UI), fator von Willebrand (100-150 UI) e fibronectina. Volume: 10-20 mL por unidade.",
+      "indicacoes": [
+        "Hipofibrinogenemia (fibrinogênio <150 mg/dL) com sangramento",
+        "CIVD com hipofibrinogenemia",
+        "Deficiência de fator XIII",
+        "Hemofilia A (se não disponível fator VIII concentrado)",
+        "Doença de von Willebrand (se não disponível fvW concentrado)",
+        "Complicações obstétricas com consumo de fibrinogênio"
+      ],
+      "apresentacoes": [
+        "Bolsa de 10-20 mL (1 unidade)",
+        "Pool de 8-10 unidades"
+      ],
+      "posologia": {
+        "hipofibrinogenemia": {
+          "adulto": "1 U/5-10 kg",
+          "pediatrico": "1-2 U/10 kg",
+          "efeito": "Eleva fibrinogênio em 50-100 mg/dL"
+        },
+        "hemofilia_emergencia": "1 U/5 kg",
+        "von_willebrand": "1 U/10 kg"
+      },
+      "conteudo_por_unidade": {
+        "fibrinogenio": "150-250 mg",
+        "fator_VIII": "80-120 UI",
+        "fator_XIII": "40-60 UI",
+        "fator_von_Willebrand": "100-150 UI",
+        "fibronectina": "Presente"
+      },
+      "armazenamento": {
+        "temperatura": "≤ -18°C",
+        "validade": "Até 12 meses",
+        "descongelamento": "37°C em banho-maria",
+        "apos_descongelar": "Usar em até 6h (20-24°C)"
+      },
+      "administracao": {
+        "via": "IV através de equipo com filtro",
+        "velocidade": "Rápida",
+        "observacao": "Transfundir imediatamente após descongelamento"
+      },
+      "contraindicacoes": [
+        "Hipersensibilidade a proteínas plasmáticas"
+      ],
+      "efeitosAdversos": [
+        "Reação alérgica",
+        "Reação febril",
+        "Transmissão de infecções (raro)",
+        "TRALI (raro)"
+      ],
+      "observacoes": [
+        "Compatibilidade ABO preferencial",
+        "1 pool (10 U) contém ~2-3 g de fibrinogênio",
+        "Preferir fibrinogênio concentrado se disponível",
+        "Monitorar fibrinogênio sérico após transfusão",
+        "Não usar para deficiência isolada de fator VIII (usar concentrado)"
+      ],
+      "categoriaGravidez": "Compatível"
+    }
+  }
+}

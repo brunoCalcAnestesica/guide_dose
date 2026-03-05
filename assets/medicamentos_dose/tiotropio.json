@@ -1,0 +1,442 @@
+{
+  "PT": {
+    "nome": "Tiotrópio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "DPOC - HandiHaler",
+          "descricaoDose": "18 mcg (1 cápsula) inalatório 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "18 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "DPOC - Respimat",
+          "descricaoDose": "5 mcg (2 jatos de 2,5 mcg) inalatório 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5 mcg (2 jatos)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Asma grave (add-on)",
+          "descricaoDose": "5 mcg (2 jatos Respimat) inalatório 1x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5 mcg (2 jatos)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalatória",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinérgico de longa duração (LAMA) / Antagonista muscarínico",
+      "apresentacoes": [
+        { "forma": "Cápsula inalatória 18 mcg", "obs": "HandiHaler - pó seco" },
+        { "forma": "Solução inalatória 2,5 mcg/jato", "obs": "Respimat - névoa suave" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso inalatório - dispositivo pronto", "concentracao": "Não requer diluição" }
+      ],
+      "observacoes": [
+        "Primeira linha na DPOC (recomendação GOLD)",
+        "Dose única diária (1x/dia) melhora adesão",
+        "NÃO usar como resgate - início de ação em 30 min",
+        "Respimat: melhor para pacientes com dificuldade inspiratória",
+        "Cuidado: glaucoma de ângulo fechado, HPB, obstrução vesical",
+        "Na asma: apenas como add-on em casos graves"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar efeitos anticolinérgicos (retenção urinária, constipação).",
+        "renal": "Eliminação renal ~74%. Em DRC grave (ClCr <30) usar com cautela; considerar monitorização.",
+        "hepatico": "Não requer ajuste. Metabolismo mínimo (hidrólise)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tiotrópio - HandiHaler (adulto)",
+        "doseTexto": "18 mcg inalatório 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "18 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tiotrópio - Respimat (adulto)",
+        "doseTexto": "5 mcg (2 jatos) inalatório 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "5 mcg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Tiotropium",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "COPD - HandiHaler",
+          "descricaoDose": "18 mcg (1 capsule) inhalation once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "18 mcg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "once daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "COPD - Respimat",
+          "descricaoDose": "5 mcg (2 puffs of 2.5 mcg) inhalation once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5 mcg (2 puffs)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "once daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Severe asthma (add-on)",
+          "descricaoDose": "5 mcg (2 puffs Respimat) inhalation once daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5 mcg (2 puffs)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "once daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Long-acting muscarinic antagonist (LAMA)",
+      "apresentacoes": [
+        { "forma": "Inhalation capsule 18 mcg", "obs": "HandiHaler - dry powder" },
+        { "forma": "Inhalation solution 2.5 mcg/puff", "obs": "Respimat - soft mist" }
+      ],
+      "preparo": [
+        { "diluicao": "Inhalation use - device ready", "concentracao": "No dilution required" }
+      ],
+      "observacoes": [
+        "First-line in COPD (GOLD recommendation)",
+        "Once-daily dosing improves adherence",
+        "Do NOT use as rescue - onset in 30 min",
+        "Respimat: better for patients with inspiratory difficulty",
+        "Caution: narrow-angle glaucoma, BPH, bladder obstruction",
+        "In asthma: add-on only in severe cases"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor anticholinergic effects (urinary retention, constipation).",
+        "renal": "Renal elimination ~74%. In severe CKD (CrCl <30) use with caution; consider monitoring.",
+        "hepatico": "No adjustment needed. Minimal metabolism (hydrolysis)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tiotropium - HandiHaler (adult)",
+        "doseTexto": "18 mcg inhalation once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "18 mcg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Tiotropium - Respimat (adult)",
+        "doseTexto": "5 mcg (2 puffs) inhalation once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "5 mcg",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Tiotropio",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "EPOC - HandiHaler",
+          "descricaoDose": "18 mcg (1 cápsula) inhalatorio 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "18 mcg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "EPOC - Respimat",
+          "descricaoDose": "5 mcg (2 puff de 2,5 mcg) inhalatorio 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5 mcg (2 puff)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Asma grave (add-on)",
+          "descricaoDose": "5 mcg (2 puff Respimat) inhalatorio 1x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5 mcg (2 puff)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "1x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticolinérgico de larga duración (LAMA) / Antagonista muscarínico",
+      "apresentacoes": [
+        { "forma": "Cápsula inhalatoria 18 mcg", "obs": "HandiHaler - polvo seco" },
+        { "forma": "Solución inhalatoria 2,5 mcg/puff", "obs": "Respimat - niebla suave" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso inhalatorio - dispositivo listo", "concentracao": "No requiere dilución" }
+      ],
+      "observacoes": [
+        "Primera línea en EPOC (recomendación GOLD)",
+        "Dosis única diaria (1x/día) mejora adherencia",
+        "NO usar como rescate - inicio de acción a los 30 min",
+        "Respimat: mejor para pacientes con dificultad inspiratoria",
+        "Precaución: glaucoma de ángulo cerrado, HBP, obstrucción vesical",
+        "En asma: solo como add-on en casos graves"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar efectos anticolinérgicos (retención urinaria, estreñimiento).",
+        "renal": "Eliminación renal ~74%. En ERC grave (ClCr <30) usar con precaución; considerar monitorización.",
+        "hepatico": "No requiere ajuste. Metabolismo mínimo (hidrólisis)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tiotropio - HandiHaler (adulto)",
+        "doseTexto": "18 mcg inhalatorio 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "18 mcg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tiotropio - Respimat (adulto)",
+        "doseTexto": "5 mcg (2 puff) inhalatorio 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "5 mcg",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "噻托溴铵",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "慢阻肺 - HandiHaler",
+          "descricaoDose": "18 mcg（1粒胶囊）吸入 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "18 mcg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "吸入",
+            "intervalo": "每日一次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "慢阻肺 - Respimat",
+          "descricaoDose": "5 mcg（2喷，每喷2.5 mcg）吸入 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5 mcg（2喷）",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "吸入",
+            "intervalo": "每日一次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "重症哮喘（附加治疗）",
+          "descricaoDose": "5 mcg（Respimat 2喷）吸入 每日一次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mcg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "5 mcg（2喷）",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "吸入",
+            "intervalo": "每日一次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "长效抗胆碱药（LAMA）/ 毒蕈碱受体拮抗剂",
+      "apresentacoes": [
+        { "forma": "吸入胶囊 18 mcg", "obs": "HandiHaler - 干粉" },
+        { "forma": "吸入溶液 2.5 mcg/喷", "obs": "Respimat - 软雾" }
+      ],
+      "preparo": [
+        { "diluicao": "吸入使用 - 装置即用", "concentracao": "无需稀释" }
+      ],
+      "observacoes": [
+        "慢阻肺一线用药（GOLD推荐）",
+        "每日一次改善依从性",
+        "不可用于急救 - 起效约30分钟",
+        "Respimat：更适合吸气困难患者",
+        "注意：闭角型青光眼、前列腺肥大、尿路梗阻",
+        "哮喘：仅作为重症附加治疗"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调剂量。监测抗胆碱能效应（尿潴留、便秘）。",
+        "renal": "肾脏排泄约74%。严重肾衰（ClCr <30）慎用；考虑监测。",
+        "hepatico": "无需调整。代谢极少（水解）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "噻托溴铵 - HandiHaler（成人）",
+        "doseTexto": "18 mcg 吸入 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "18 mcg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "噻托溴铵 - Respimat（成人）",
+        "doseTexto": "5 mcg（2喷）吸入 每日一次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mcg",
+        "decimais": 0,
+        "resultadoFixo": "5 mcg",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

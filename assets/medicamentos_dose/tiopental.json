@@ -1,0 +1,984 @@
+{
+  "PT": {
+    "nome": "Tiopental",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução anestésica",
+          "descricaoDose": "3-5 mg/kg IV lento (30-60 seg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução idoso/instável",
+          "descricaoDose": "1-3 mg/kg IV lento (titular)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipertensão intracraniana (bolus)",
+          "descricaoDose": "1,5-3,5 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1.5,
+            "dosePorKgMax": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Status convulsivo / Neuroproteção",
+          "descricaoDose": "2-8 mg/kg/h IV (meta: burst-suppression EEG)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução lactentes (<1 ano)",
+          "descricaoDose": "5-8 mg/kg IV lento",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 8,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Indução crianças (1-12 anos)",
+          "descricaoDose": "5-6 mg/kg IV lento",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonatos (<1 mês)",
+          "descricaoDose": "3-4 mg/kg IV (efeito prolongado)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Status / HIC pediátrico",
+          "descricaoDose": "2-5 mg/kg/h IV (monitorar EEG)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 2, "doseMax": 8 },
+          "pediatrico": { "doseMin": 2, "doseMax": 5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g + 20mL SF (50 mg/mL)", "valor": 50 },
+            { "rotulo": "1g + 40mL SF (25 mg/mL)", "valor": 25 },
+            { "rotulo": "500mg + 50mL SF (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Barbitúrico ação ultracurta - Anestésico geral IV, neuroprotetor",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 1g", "obs": "Pó liofilizado" },
+        { "forma": "Frasco-ampola 0,5g", "obs": "Pó liofilizado" }
+      ],
+      "preparo": [
+        { "diluicao": "1g + 20mL AD", "concentracao": "50 mg/mL (bolus)" },
+        { "diluicao": "1g + 40mL SF", "concentracao": "25 mg/mL" },
+        { "diluicao": "500mg + 50mL SF", "concentracao": "10 mg/mL (infusão)" }
+      ],
+      "observacoes": [
+        "Início: 20-40 seg | Duração bolus: 5-10 min",
+        "APNEIA imediata - via aérea avançada obrigatória",
+        "Hipotensão severa - vasoativa disponível",
+        "CONTRAINDICADO: porfiria aguda, asma ativa, choque",
+        "Extravasamento → necrose - acesso central preferível",
+        "Meta EEG: burst-suppression (SR ≥10%)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose (1-3 mg/kg). Titular com cautela.",
+        "renal": "Não requer ajuste. Metabolismo hepático predominante.",
+        "hepatico": "Cautela em insuficiência hepática grave - meia-vida prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tiopental - Indução (adulto)",
+        "doseTexto": "3-5 mg/kg IV lento",
+        "doseMin": 3,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tiopental - Indução idoso/instável",
+        "doseTexto": "1-3 mg/kg IV",
+        "doseMin": 1,
+        "doseMax": 3,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tiopental - Status/Neuroproteção",
+        "doseTexto": "2-8 mg/kg/h IV",
+        "doseMin": 2,
+        "doseMax": 8,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tiopental - Indução (pediátrico)",
+        "doseTexto": "5-8 mg/kg IV (lactentes); 5-6 mg/kg (crianças)",
+        "doseMin": 5,
+        "doseMax": 8,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Thiopental",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anesthetic induction",
+          "descricaoDose": "3-5 mg/kg IV slow (30-60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Elderly/unstable induction",
+          "descricaoDose": "1-3 mg/kg IV slow (titrate)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Intracranial hypertension (bolus)",
+          "descricaoDose": "1.5-3.5 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1.5,
+            "dosePorKgMax": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Status epilepticus / Neuroprotection",
+          "descricaoDose": "2-8 mg/kg/h IV (target: burst-suppression EEG)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Induction infants (<1 year)",
+          "descricaoDose": "5-8 mg/kg IV slow",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 8,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Induction children (1-12 years)",
+          "descricaoDose": "5-6 mg/kg IV slow",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Neonates (<1 month)",
+          "descricaoDose": "3-4 mg/kg IV (prolonged effect)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Status / ICP pediatric",
+          "descricaoDose": "2-5 mg/kg/h IV (monitor EEG)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 2, "doseMax": 8 },
+          "pediatrico": { "doseMin": 2, "doseMax": 5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g + 20mL NS (50 mg/mL)", "valor": 50 },
+            { "rotulo": "1g + 40mL NS (25 mg/mL)", "valor": 25 },
+            { "rotulo": "500mg + 50mL NS (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Barbiturate - Ultrashort-acting IV general anesthetic, neuroprotector",
+      "apresentacoes": [
+        { "forma": "Vial 1g", "obs": "Lyophilized powder" },
+        { "forma": "Vial 0.5g", "obs": "Lyophilized powder" }
+      ],
+      "preparo": [
+        { "diluicao": "1g + 20mL SW", "concentracao": "50 mg/mL (bolus)" },
+        { "diluicao": "1g + 40mL NS", "concentracao": "25 mg/mL" },
+        { "diluicao": "500mg + 50mL NS", "concentracao": "10 mg/mL (infusion)" }
+      ],
+      "observacoes": [
+        "Onset: 20-40 s | Bolus duration: 5-10 min",
+        "Immediate APNEA - advanced airway mandatory",
+        "Severe hypotension - have vasopressors available",
+        "CONTRAINDICATED: acute porphyria, active asthma, shock",
+        "Extravasation → necrosis - prefer central access",
+        "EEG target: burst-suppression (SR ≥10%)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose (1-3 mg/kg). Titrate cautiously.",
+        "renal": "No dose adjustment. Hepatic metabolism predominant.",
+        "hepatico": "Caution in severe hepatic failure - prolonged half-life."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Thiopental - Induction (adult)",
+        "doseTexto": "3-5 mg/kg IV slow",
+        "doseMin": 3,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Thiopental - Status/Neuroprotection",
+        "doseTexto": "2-8 mg/kg/h IV",
+        "doseMin": 2,
+        "doseMax": 8,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Thiopental - Induction (pediatric)",
+        "doseTexto": "5-8 mg/kg IV (infants); 5-6 mg/kg (children)",
+        "doseMin": 5,
+        "doseMax": 8,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Tiopental",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción anestésica",
+          "descricaoDose": "3-5 mg/kg IV lento (30-60 s)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción anciano/inestable",
+          "descricaoDose": "1-3 mg/kg IV lento (titular)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Hipertensión intracraneal (bolo)",
+          "descricaoDose": "1,5-3,5 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1.5,
+            "dosePorKgMax": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Estado convulsivo / Neuroprotección",
+          "descricaoDose": "2-8 mg/kg/h IV (meta: burst-suppression EEG)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción lactantes (<1 año)",
+          "descricaoDose": "5-8 mg/kg IV lento",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 8,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Inducción niños (1-12 años)",
+          "descricaoDose": "5-6 mg/kg IV lento",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Neonatos (<1 mes)",
+          "descricaoDose": "3-4 mg/kg IV (efecto prolongado)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Estado / HIC pediátrico",
+          "descricaoDose": "2-5 mg/kg/h IV (monitorizar EEG)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 2, "doseMax": 8 },
+          "pediatrico": { "doseMin": 2, "doseMax": 5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g + 20mL SF (50 mg/mL)", "valor": 50 },
+            { "rotulo": "1g + 40mL SF (25 mg/mL)", "valor": 25 },
+            { "rotulo": "500mg + 50mL SF (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Barbitúrico acción ultracorta - Anestésico general IV, neuroprotector",
+      "apresentacoes": [
+        { "forma": "Frasco-ámpula 1g", "obs": "Polvo liofilizado" },
+        { "forma": "Frasco-ámpula 0,5g", "obs": "Polvo liofilizado" }
+      ],
+      "preparo": [
+        { "diluicao": "1g + 20mL AD", "concentracao": "50 mg/mL (bolo)" },
+        { "diluicao": "1g + 40mL SF", "concentracao": "25 mg/mL" },
+        { "diluicao": "500mg + 50mL SF", "concentracao": "10 mg/mL (infusión)" }
+      ],
+      "observacoes": [
+        "Inicio: 20-40 seg | Duración bolo: 5-10 min",
+        "APNEA inmediata - vía aérea avanzada obligatoria",
+        "Hipotensión severa - vasoactivos disponibles",
+        "CONTRAINDICADO: porfiria aguda, asma activa, choque",
+        "Extravasación → necrosis - acceso central preferible",
+        "Meta EEG: burst-suppression (SR ≥10%)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis (1-3 mg/kg). Titular con cautela.",
+        "renal": "No requiere ajuste. Metabolismo hepático predominante.",
+        "hepatico": "Cautela en insuficiencia hepática grave - vida media prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Tiopental - Inducción (adulto)",
+        "doseTexto": "3-5 mg/kg IV lento",
+        "doseMin": 3,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tiopental - Estado/Neuroprotección",
+        "doseTexto": "2-8 mg/kg/h IV",
+        "doseMin": 2,
+        "doseMax": 8,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Tiopental - Inducción (pediátrico)",
+        "doseTexto": "5-8 mg/kg IV (lactantes); 5-6 mg/kg (niños)",
+        "doseMin": 5,
+        "doseMax": 8,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "硫喷妥钠",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "麻醉诱导",
+          "descricaoDose": "3-5 mg/kg IV 缓慢（30-60秒）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "老年/不稳定患者诱导",
+          "descricaoDose": "1-3 mg/kg IV 缓慢（滴定）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 3,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "颅内高压（推注）",
+          "descricaoDose": "1.5-3.5 mg/kg IV",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 1.5,
+            "dosePorKgMax": 3.5,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "癫痫持续状态/神经保护",
+          "descricaoDose": "2-8 mg/kg/h IV（目标：脑电图爆发-抑制）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "婴儿诱导（<1岁）",
+          "descricaoDose": "5-8 mg/kg IV 缓慢",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 8,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童诱导（1-12岁）",
+          "descricaoDose": "5-6 mg/kg IV 缓慢",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "新生儿（<1月）",
+          "descricaoDose": "3-4 mg/kg IV（作用延长）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 3,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童持续状态/颅高压",
+          "descricaoDose": "2-5 mg/kg/h IV（监测脑电图）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 2,
+            "doseMax": 5,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 2, "doseMax": 8 },
+          "pediatrico": { "doseMin": 2, "doseMax": 5 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "1g + 20mL 生理盐水 (50 mg/mL)", "valor": 50 },
+            { "rotulo": "1g + 40mL 生理盐水 (25 mg/mL)", "valor": 25 },
+            { "rotulo": "500mg + 50mL 生理盐水 (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "巴比妥类超短效 - 静脉全身麻醉药，神经保护",
+      "apresentacoes": [
+        { "forma": "瓶 1g", "obs": "冻干粉" },
+        { "forma": "瓶 0.5g", "obs": "冻干粉" }
+      ],
+      "preparo": [
+        { "diluicao": "1g + 20mL 注射用水", "concentracao": "50 mg/mL（推注）" },
+        { "diluicao": "1g + 40mL 生理盐水", "concentracao": "25 mg/mL" },
+        { "diluicao": "500mg + 50mL 生理盐水", "concentracao": "10 mg/mL（输注）" }
+      ],
+      "observacoes": [
+        "起效：20-40秒 | 推注持续时间：5-10分钟",
+        "即刻呼吸暂停 - 必须建立高级气道",
+        "严重低血压 - 备好血管活性药",
+        "禁忌：急性卟啉病、活动性哮喘、休克",
+        "外渗→坏死 - 优选中心通路",
+        "脑电图目标：爆发-抑制（SR≥10%）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量（1-3 mg/kg）。谨慎滴定。",
+        "renal": "无需调整。主要经肝代谢。",
+        "hepatico": "严重肝衰竭慎用 - 半衰期延长。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "硫喷妥钠 - 诱导（成人）",
+        "doseTexto": "3-5 mg/kg IV 缓慢",
+        "doseMin": 3,
+        "doseMax": 5,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "硫喷妥钠 - 持续状态/神经保护",
+        "doseTexto": "2-8 mg/kg/h IV",
+        "doseMin": 2,
+        "doseMax": 8,
+        "unidadeResultado": "mg/kg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "硫喷妥钠 - 诱导（儿童）",
+        "doseTexto": "5-8 mg/kg IV（婴儿）；5-6 mg/kg（儿童）",
+        "doseMin": 5,
+        "doseMax": 8,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Eptifibatide",
+      "nome_comercial": ["Integrilin"],
+      "classe_terapeutica": "Antiagregante plaquetário - Inibidor GP IIb/IIIa",
+      "mecanismo_acao": "Peptídeo cíclico sintético que bloqueia reversivelmente o receptor de glicoproteína IIb/IIIa nas plaquetas, impedindo a agregação plaquetária mediada por fibrinogênio.",
+      "indicacoes": [
+        "SCA (IAMSSST) com ICP planejada",
+        "ICP de alto risco"
+      ],
+      "contraindicacoes": [
+        "Sangramento ativo",
+        "AVC nos últimos 30 dias ou AVC hemorrágico prévio",
+        "Cirurgia ou trauma maior <6 semanas",
+        "Trombocitopenia (<100.000)",
+        "ClCr <30 mL/min ou em diálise",
+        "Hipertensão não controlada"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Solução injetável",
+          "concentracao": "20 mg/10 mL",
+          "volume": "2 mg/mL (bolus)"
+        },
+        {
+          "forma": "Solução injetável",
+          "concentracao": "75 mg/100 mL",
+          "volume": "0,75 mg/mL (infusão)"
+        }
+      ],
+      "farmacocinetica": {
+        "inicio_acao": "Imediato",
+        "duracao": "2-4 horas após suspensão",
+        "meia_vida": "2,5 horas",
+        "metabolismo": "Mínimo",
+        "excrecao": "Renal (50%)"
+      },
+      "efeitos_adversos": [
+        "Sangramento",
+        "Trombocitopenia (menos comum que abciximab)",
+        "Hipotensão"
+      ],
+      "ajuste_renal": {
+        "ClCr_30_50": "Reduzir infusão para 1 mcg/kg/min",
+        "ClCr_menor_30": "Contraindicado"
+      },
+      "observacoes": [
+        "Dar duplo bolus (180 mcg/kg x 2)",
+        "Usar com AAS + heparina",
+        "Reversível rapidamente"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "Sim, proteger da luz"
+      }
+    }
+  }
+}

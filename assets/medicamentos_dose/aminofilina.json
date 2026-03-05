@@ -1,0 +1,554 @@
+{
+  "PT": {
+    "nome": "Aminofilina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ataque (adulto e pediátrico)",
+          "descricaoDose": "5-6 mg/kg IV em 20-30 min (omitir se já usa teofilina)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção (adulto)",
+          "descricaoDose": "0,5-0,7 mg/kg/h IV infusão contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 0.7,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Hepatopatia: reduzir 50% (0,1-0,2 mg/kg/h)"
+          }
+        },
+        {
+          "titulo": "Manutenção (pediátrico)",
+          "descricaoDose": "0,7-1 mg/kg/h IV infusão contínua (1-9a); 0,7-0,8 mg/kg/h (9-16a)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.7,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 0.7 },
+          "pediatrico": { "doseMin": 0.7, "doseMax": 1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "250 mg em 250 mL SF (1 mg/mL)", "valor": 1 },
+            { "rotulo": "500 mg em 250 mL SF (2 mg/mL)", "valor": 2 },
+            { "rotulo": "500 mg em 500 mL SF (1 mg/mL)", "valor": 1 },
+            { "rotulo": "240 mg em 100 mL SF (2,4 mg/mL)", "valor": 2.4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Metilxantina / Broncodilatador",
+      "apresentacoes": [
+        { "forma": "Ampola 240 mg/10 mL (24 mg/mL)", "obs": "10 mL" },
+        { "forma": "Ampola 120 mg/5 mL (24 mg/mL)", "obs": "5 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Dose de ataque em 100-250 mL SF/SG 5%", "concentracao": "Infundir em 20-30 min" },
+        { "diluicao": "250-500 mg em 250-500 mL SF", "concentracao": "1-2 mg/mL para infusão contínua" }
+      ],
+      "observacoes": [
+        "Janela terapêutica estreita: monitorar níveis séricos (10-20 mcg/mL)",
+        "Omitir dose de ataque se o paciente já usa teofilina oral",
+        "Reduzir dose em ICC, hepatopatia e idosos (0,1-0,2 ou 0,3 mg/kg/h)",
+        "Interações frequentes: eritromicina, ciprofloxacino, cimetidina aumentam níveis",
+        "Não misturar com outras drogas na mesma solução",
+        "Toxicidade: náuseas, vômitos, arritmias; níveis >40 mcg/mL risco de convulsões"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir para 0,3 mg/kg/h. Monitorar níveis séricos.",
+        "renal": "Não requer ajuste de dose. Metabolismo hepático predominante.",
+        "hepatico": "Reduzir 50% (0,1-0,2 mg/kg/h). Monitorar níveis e efeitos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aminofilina (ataque)",
+        "doseTexto": "5-6 mg/kg IV em 20-30 min",
+        "doseMin": 5,
+        "doseMax": 6,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Aminofilina (manutenção adulto)",
+        "doseTexto": "0,5-0,7 mg/kg/h IV",
+        "doseMin": 0.5,
+        "doseMax": 0.7,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aminofilina (manutenção pediátrico)",
+        "doseTexto": "0,7-1 mg/kg/h IV",
+        "doseMin": 0.7,
+        "doseMax": 1,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Aminophylline",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading dose (adult and pediatric)",
+          "descricaoDose": "5-6 mg/kg IV over 20-30 min (omit if already on theophylline)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "All",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance (adult)",
+          "descricaoDose": "0.5-0.7 mg/kg/h IV continuous infusion",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 0.7,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatic impairment: reduce 50% (0.1-0.2 mg/kg/h)"
+          }
+        },
+        {
+          "titulo": "Maintenance (pediatric)",
+          "descricaoDose": "0.7-1 mg/kg/h IV (1-9y); 0.7-0.8 mg/kg/h (9-16y)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.7,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 0.7 },
+          "pediatrico": { "doseMin": 0.7, "doseMax": 1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "250 mg in 250 mL NS (1 mg/mL)", "valor": 1 },
+            { "rotulo": "500 mg in 250 mL NS (2 mg/mL)", "valor": 2 },
+            { "rotulo": "500 mg in 500 mL NS (1 mg/mL)", "valor": 1 },
+            { "rotulo": "240 mg in 100 mL NS (2.4 mg/mL)", "valor": 2.4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Methylxanthine / Bronchodilator",
+      "apresentacoes": [
+        { "forma": "Ampule 240 mg/10 mL (24 mg/mL)", "obs": "10 mL" },
+        { "forma": "Ampule 120 mg/5 mL (24 mg/mL)", "obs": "5 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Loading dose in 100-250 mL NS/D5W", "concentracao": "Infuse over 20-30 min" },
+        { "diluicao": "250-500 mg in 250-500 mL NS", "concentracao": "1-2 mg/mL for continuous infusion" }
+      ],
+      "observacoes": [
+        "Narrow therapeutic window: monitor serum levels (10-20 mcg/mL)",
+        "Omit loading dose if patient already on oral theophylline",
+        "Reduce dose in CHF, hepatic impairment, and elderly (0.1-0.2 or 0.3 mg/kg/h)",
+        "Frequent interactions: erythromycin, ciprofloxacin, cimetidine increase levels",
+        "Do not mix with other drugs in the same solution",
+        "Toxicity: nausea, vomiting, arrhythmias; levels >40 mcg/mL risk of seizures"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce to 0.3 mg/kg/h. Monitor serum levels.",
+        "renal": "No dose adjustment required. Hepatic metabolism predominant.",
+        "hepatico": "Reduce 50% (0.1-0.2 mg/kg/h). Monitor levels and effects."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aminophylline (loading)",
+        "doseTexto": "5-6 mg/kg IV over 20-30 min",
+        "doseMin": 5,
+        "doseMax": 6,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "All"
+      },
+      {
+        "nome": "Aminophylline (maintenance adult)",
+        "doseTexto": "0.5-0.7 mg/kg/h IV",
+        "doseMin": 0.5,
+        "doseMax": 0.7,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Aminophylline (maintenance pediatric)",
+        "doseTexto": "0.7-1 mg/kg/h IV",
+        "doseMin": 0.7,
+        "doseMax": 1,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Aminofilina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ataque (adulto y pediátrico)",
+          "descricaoDose": "5-6 mg/kg IV en 20-30 min (omitir si ya usa teofilina)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (adulto)",
+          "descricaoDose": "0,5-0,7 mg/kg/h IV infusión continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 0.7,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatopatía: reducir 50% (0,1-0,2 mg/kg/h)"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (pediátrico)",
+          "descricaoDose": "0,7-1 mg/kg/h IV (1-9a); 0,7-0,8 mg/kg/h (9-16a)",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.7,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 0.7 },
+          "pediatrico": { "doseMin": 0.7, "doseMax": 1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "250 mg en 250 mL SF (1 mg/mL)", "valor": 1 },
+            { "rotulo": "500 mg en 250 mL SF (2 mg/mL)", "valor": 2 },
+            { "rotulo": "500 mg en 500 mL SF (1 mg/mL)", "valor": 1 },
+            { "rotulo": "240 mg en 100 mL SF (2,4 mg/mL)", "valor": 2.4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Metilxantina / Broncodilatador",
+      "apresentacoes": [
+        { "forma": "Ampolla 240 mg/10 mL (24 mg/mL)", "obs": "10 mL" },
+        { "forma": "Ampolla 120 mg/5 mL (24 mg/mL)", "obs": "5 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Dosis de ataque en 100-250 mL SF/SG 5%", "concentracao": "Infundir en 20-30 min" },
+        { "diluicao": "250-500 mg en 250-500 mL SF", "concentracao": "1-2 mg/mL para infusión continua" }
+      ],
+      "observacoes": [
+        "Ventana terapéutica estrecha: monitorizar niveles séricos (10-20 mcg/mL)",
+        "Omitir dosis de ataque si el paciente ya usa teofilina oral",
+        "Reducir dosis en ICC, hepatopatía y ancianos (0,1-0,2 o 0,3 mg/kg/h)",
+        "Interacciones frecuentes: eritromicina, ciprofloxacino, cimetidina aumentan niveles",
+        "No mezclar con otras drogas en la misma solución",
+        "Toxicidad: náuseas, vómitos, arritmias; niveles >40 mcg/mL riesgo de convulsiones"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir a 0,3 mg/kg/h. Monitorizar niveles séricos.",
+        "renal": "No requiere ajuste de dosis. Metabolismo hepático predominante.",
+        "hepatico": "Reducir 50% (0,1-0,2 mg/kg/h). Monitorizar niveles y efectos."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Aminofilina (ataque)",
+        "doseTexto": "5-6 mg/kg IV en 20-30 min",
+        "doseMin": 5,
+        "doseMax": 6,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Aminofilina (mantenimiento adulto)",
+        "doseTexto": "0,5-0,7 mg/kg/h IV",
+        "doseMin": 0.5,
+        "doseMax": 0.7,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Aminofilina (mantenimiento pediátrico)",
+        "doseTexto": "0,7-1 mg/kg/h IV",
+        "doseMin": 0.7,
+        "doseMax": 1,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氨茶碱",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷量（成人和儿童）",
+          "descricaoDose": "5-6 mg/kg IV 20-30分钟内（已用茶碱者省略）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 5,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "所有",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "维持（成人）",
+          "descricaoDose": "0.5-0.7 mg/kg/h IV 持续输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.5,
+            "doseMax": 0.7,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝病：减量50%（0.1-0.2 mg/kg/h）"
+          }
+        },
+        {
+          "titulo": "维持（儿童）",
+          "descricaoDose": "0.7-1 mg/kg/h IV（1-9岁）；0.7-0.8 mg/kg/h（9-16岁）",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 0.7,
+            "doseMax": 1,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 0.5, "doseMax": 0.7 },
+          "pediatrico": { "doseMin": 0.7, "doseMax": 1 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "250 mg 加入 250 mL 生理盐水 (1 mg/mL)", "valor": 1 },
+            { "rotulo": "500 mg 加入 250 mL 生理盐水 (2 mg/mL)", "valor": 2 },
+            { "rotulo": "500 mg 加入 500 mL 生理盐水 (1 mg/mL)", "valor": 1 },
+            { "rotulo": "240 mg 加入 100 mL 生理盐水 (2.4 mg/mL)", "valor": 2.4 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "甲基黄嘌呤 / 支气管扩张剂",
+      "apresentacoes": [
+        { "forma": "安瓿 240 mg/10 mL (24 mg/mL)", "obs": "10 mL" },
+        { "forma": "安瓿 120 mg/5 mL (24 mg/mL)", "obs": "5 mL" }
+      ],
+      "preparo": [
+        { "diluicao": "负荷量加入 100-250 mL 生理盐水/5%葡萄糖", "concentracao": "20-30分钟内输注" },
+        { "diluicao": "250-500 mg 加入 250-500 mL 生理盐水", "concentracao": "1-2 mg/mL 持续输注" }
+      ],
+      "observacoes": [
+        "治疗窗窄：监测血药浓度（10-20 mcg/mL）",
+        "已口服茶碱者省略负荷量",
+        "心衰、肝病、老年人减量（0.1-0.2 或 0.3 mg/kg/h）",
+        "常见相互作用：红霉素、环丙沙星、西咪替丁升高浓度",
+        "勿与其它药物同瓶混合",
+        "毒性：恶心、呕吐、心律失常；>40 mcg/mL 有抽搐风险"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减至 0.3 mg/kg/h。监测血药浓度。",
+        "renal": "无需调整剂量。以肝脏代谢为主。",
+        "hepatico": "减量50%（0.1-0.2 mg/kg/h）。监测浓度与反应。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氨茶碱（负荷）",
+        "doseTexto": "5-6 mg/kg IV 20-30分钟",
+        "doseMin": 5,
+        "doseMax": 6,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "所有"
+      },
+      {
+        "nome": "氨茶碱（维持成人）",
+        "doseTexto": "0.5-0.7 mg/kg/h IV",
+        "doseMin": 0.5,
+        "doseMax": 0.7,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氨茶碱（维持儿童）",
+        "doseTexto": "0.7-1 mg/kg/h IV",
+        "doseMin": 0.7,
+        "doseMax": 1,
+        "unidadeResultado": "mg/h",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

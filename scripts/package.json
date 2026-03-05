@@ -1,0 +1,19 @@
+{
+  "name": "guide-dose-scripts",
+  "private": true,
+  "scripts": {
+    "seed:cnes": "ts-node seed-cnes.ts",
+    "seed:who": "ts-node seed-who.ts",
+    "seed:npi": "ts-node seed-npi.ts",
+    "seed:all": "ts-node seed-cnes.ts && ts-node seed-who.ts && ts-node seed-npi.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  }
+}

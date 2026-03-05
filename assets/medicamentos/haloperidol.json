@@ -1,0 +1,76 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Haloperidol",
+      "nome_comercial": ["Haldol", "Haloper"],
+      "classe_terapeutica": "Antipsicótico típico (butirofenona)",
+      "mecanismo_acao": "Antagonista dos receptores dopaminérgicos D2 no sistema nervoso central, bloqueando a neurotransmissão dopaminérgica nas vias mesolímbica e mesocortical.",
+      "indicacoes": [
+        "Agitação psicomotora aguda",
+        "Delirium em UTI",
+        "Esquizofrenia e outros transtornos psicóticos",
+        "Náusea e vômito pós-operatório (NVPO)",
+        "Soluços intratáveis",
+        "Síndrome de Tourette"
+      ],
+      "contraindicacoes": [
+        "Hipersensibilidade ao haloperidol",
+        "Doença de Parkinson",
+        "Demência com corpos de Lewy",
+        "Coma",
+        "Depressão grave do SNC",
+        "QT prolongado (QTc > 500 ms)",
+        "Síndrome neuroléptica maligna prévia"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Solução injetável",
+          "concentracao": "5 mg/mL",
+          "volume": "1 mL"
+        },
+        {
+          "forma": "Comprimido",
+          "concentracao": "1 mg",
+          "volume": null
+        },
+        {
+          "forma": "Comprimido",
+          "concentracao": "5 mg",
+          "volume": null
+        },
+        {
+          "forma": "Solução oral",
+          "concentracao": "2 mg/mL",
+          "volume": "Gotas"
+        }
+      ],
+      "farmacocinetica": {
+        "inicio_acao_iv": "10-20 minutos",
+        "pico_iv": "20-40 minutos",
+        "duracao": "4-8 horas",
+        "meia_vida": "12-36 horas",
+        "metabolismo": "Hepático (CYP3A4, CYP2D6)",
+        "excrecao": "Renal (40%) e fecal (60%)"
+      },
+      "efeitos_adversos": [
+        "Prolongamento do QT",
+        "Síndrome extrapiramidal (distonia, acatisia, parkinsonismo)",
+        "Síndrome neuroléptica maligna",
+        "Hipotensão",
+        "Sedação",
+        "Discinesia tardia (uso prolongado)"
+      ],
+      "interacoes_importantes": [
+        "Drogas que prolongam QT (amiodarona, sotalol, quinolonas)",
+        "Inibidores de CYP3A4 (cetoconazol, eritromicina)",
+        "Indutores de CYP3A4 (rifampicina, fenitoína)",
+        "Anticolinérgicos",
+        "Lítio (risco de encefalopatia)"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "Proteger da luz",
+        "apos_diluicao": "24 horas em SF ou SG 5%"
+      }
+    }
+  }
+}

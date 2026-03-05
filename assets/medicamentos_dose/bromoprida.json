@@ -1,0 +1,782 @@
+{
+  "PT": {
+    "nome": "Bromoprida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Náuseas e vômitos agudos",
+          "descricaoDose": "10-20 mg IV/IM/VO a cada 8h (máx 80 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM/VO",
+            "intervalo": "a cada 8h",
+            "ajusteRenal": "ClCr 10-50: reduzir 25%; ClCr <10: reduzir 50%",
+            "ajusteHepatico": "Cautela em insuficiência hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Náuseas pós-operatórias",
+          "descricaoDose": "10-20 mg IV/IM a cada 8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "a cada 8h",
+            "ajusteRenal": "ClCr 10-50: reduzir 25%; ClCr <10: reduzir 50%",
+            "ajusteHepatico": "Cautela em insuficiência hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Gastroparesia diabética",
+          "descricaoDose": "10-20 mg VO antes das refeições",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "antes das refeições",
+            "ajusteRenal": "ClCr 10-50: reduzir 25%; ClCr <10: reduzir 50%",
+            "ajusteHepatico": "Cautela em insuficiência hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Refluxo gastroesofágico",
+          "descricaoDose": "10-20 mg VO antes das refeições",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "antes das refeições",
+            "ajusteRenal": "ClCr 10-50: reduzir 25%; ClCr <10: reduzir 50%",
+            "ajusteHepatico": "Cautela em insuficiência hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Náuseas e vômitos (pediátrico)",
+          "descricaoDose": "0,1-0,15 mg/kg IV/IM/VO a cada 8h (máx 20 mg/dose). ≥1 ano.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM/VO",
+            "intervalo": "a cada 8h",
+            "ajusteRenal": "ClCr 10-50: reduzir 25%; ClCr <10: reduzir 50%",
+            "ajusteHepatico": "Cautela em insuficiência hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Gastroparesia / Refluxo (pediátrico)",
+          "descricaoDose": "0,1-0,15 mg/kg VO a cada 8h (máx 20 mg/dose). ≥1 ano.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 8h",
+            "ajusteRenal": "ClCr 10-50: reduzir 25%; ClCr <10: reduzir 50%",
+            "ajusteHepatico": "Cautela em insuficiência hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético, procinético, antagonista dopaminérgico D2",
+      "apresentacoes": [
+        { "forma": "Comprimido 10 mg", "obs": "Via oral" },
+        { "forma": "Ampola 10 mg/2 mL (5 mg/mL)", "obs": "IV/IM - Digesan®, Bromopan®" },
+        { "forma": "Solução oral 1 ou 4 mg/mL", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV direto: administrar LENTO (≥2 min)", "concentracao": "10-20 mg" },
+        { "diluicao": "Infusão: 10-20 mg em 50-100 mL SF", "concentracao": "Infundir em 15-30 min" },
+        { "diluicao": "IM: sem diluição, aplicação profunda", "concentracao": "5 mg/mL" },
+        { "diluicao": "VO: comprimido ou solução oral", "concentracao": "Pronto para uso" }
+      ],
+      "observacoes": [
+        "Administrar IV LENTO (≥2 min) - evitar push rápido",
+        "Contraindicado <1 ano (risco extrapiramidal e depressão respiratória)",
+        "Risco de reações extrapiramidais - mais comum em crianças, adolescentes e idosos",
+        "ClCr 10-50 mL/min: reduzir dose para 75%; ClCr <10: reduzir para 50%",
+        "Evitar uso prolongado >12 semanas (risco discinesia tardia)",
+        "Pode causar hiperprolactinemia e galactorreia"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Cautela - maior risco de efeitos extrapiramidais. Evitar uso prolongado.",
+        "renal": "ClCr 10-50: reduzir para 75%. ClCr <10: reduzir para 50%. Hemodiálise: 50%.",
+        "hepatico": "Cautela em insuficiência hepática moderada a grave. Reduzir dose ou intervalo conforme gravidade."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bromoprida (adulto)",
+        "doseTexto": "10-20 mg IV/IM/VO a cada 8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bromoprida (pediátrico)",
+        "doseTexto": "0,1-0,15 mg/kg IV/IM/VO (máx 20 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Bromopride",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Acute nausea and vomiting",
+          "descricaoDose": "10-20 mg IV/IM/PO every 8h (max 80 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM/PO",
+            "intervalo": "every 8h",
+            "ajusteRenal": "ClCr 10-50: reduce 25%; ClCr <10: reduce 50%",
+            "ajusteHepatico": "Caution in moderate to severe hepatic impairment",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Postoperative nausea",
+          "descricaoDose": "10-20 mg IV/IM every 8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/IM",
+            "intervalo": "every 8h",
+            "ajusteRenal": "ClCr 10-50: reduce 25%; ClCr <10: reduce 50%",
+            "ajusteHepatico": "Caution in moderate to severe hepatic impairment",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Diabetic gastroparesis",
+          "descricaoDose": "10-20 mg PO before meals",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "before meals",
+            "ajusteRenal": "ClCr 10-50: reduce 25%; ClCr <10: reduce 50%",
+            "ajusteHepatico": "Caution in moderate to severe hepatic impairment",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Gastroesophageal reflux",
+          "descricaoDose": "10-20 mg PO before meals",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "before meals",
+            "ajusteRenal": "ClCr 10-50: reduce 25%; ClCr <10: reduce 50%",
+            "ajusteHepatico": "Caution in moderate to severe hepatic impairment",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Nausea and vomiting (pediatric)",
+          "descricaoDose": "0.1-0.15 mg/kg IV/IM/PO every 8h (max 20 mg/dose). ≥1 year.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/IM/PO",
+            "intervalo": "every 8h",
+            "ajusteRenal": "ClCr 10-50: reduce 25%; ClCr <10: reduce 50%",
+            "ajusteHepatico": "Caution in moderate to severe hepatic impairment",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Gastroparesis / Reflux (pediatric)",
+          "descricaoDose": "0.1-0.15 mg/kg PO every 8h (max 20 mg/dose). ≥1 year.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "every 8h",
+            "ajusteRenal": "ClCr 10-50: reduce 25%; ClCr <10: reduce 50%",
+            "ajusteHepatico": "Caution in moderate to severe hepatic impairment",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemetic, prokinetic, dopamine D2 antagonist",
+      "apresentacoes": [
+        { "forma": "Tablet 10 mg", "obs": "Oral" },
+        { "forma": "Ampoule 10 mg/2 mL (5 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Oral solution 1 or 4 mg/mL", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV direct: administer SLOW (≥2 min)", "concentracao": "10-20 mg" },
+        { "diluicao": "Infusion: 10-20 mg in 50-100 mL NS", "concentracao": "Infuse over 15-30 min" },
+        { "diluicao": "IM: undiluted, deep injection", "concentracao": "5 mg/mL" },
+        { "diluicao": "PO: tablet or oral solution", "concentracao": "Ready for use" }
+      ],
+      "observacoes": [
+        "Administer IV SLOW (≥2 min) - avoid rapid push",
+        "Contraindicated <1 year (extrapyramidal and respiratory depression risk)",
+        "Extrapyramidal reactions risk - more common in children, adolescents, elderly",
+        "ClCr 10-50 mL/min: reduce to 75%; ClCr <10: reduce to 50%",
+        "Avoid prolonged use >12 weeks (tardive dyskinesia risk)",
+        "May cause hyperprolactinemia and galactorrhea"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Caution - higher extrapyramidal risk. Avoid prolonged use.",
+        "renal": "ClCr 10-50: reduce to 75%. ClCr <10: reduce to 50%. Hemodialysis: 50%.",
+        "hepatico": "Caution in moderate to severe hepatic impairment. Reduce dose or interval per severity."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bromopride (adult)",
+        "doseTexto": "10-20 mg IV/IM/PO every 8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Bromopride (pediatric)",
+        "doseTexto": "0.1-0.15 mg/kg IV/IM/PO (max 20 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Bromoprida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Náuseas y vómitos agudos",
+          "descricaoDose": "10-20 mg IV/IM/VO cada 8h (máx 80 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM/VO",
+            "intervalo": "cada 8h",
+            "ajusteRenal": "ClCr 10-50: reducir 25%; ClCr <10: reducir 50%",
+            "ajusteHepatico": "Cautela en insuficiencia hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Náuseas postoperatorias",
+          "descricaoDose": "10-20 mg IV/IM cada 8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "cada 8h",
+            "ajusteRenal": "ClCr 10-50: reducir 25%; ClCr <10: reducir 50%",
+            "ajusteHepatico": "Cautela en insuficiencia hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Gastroparesia diabética",
+          "descricaoDose": "10-20 mg VO antes de comidas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "antes de comidas",
+            "ajusteRenal": "ClCr 10-50: reducir 25%; ClCr <10: reducir 50%",
+            "ajusteHepatico": "Cautela en insuficiencia hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Reflujo gastroesofágico",
+          "descricaoDose": "10-20 mg VO antes de comidas",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "antes de comidas",
+            "ajusteRenal": "ClCr 10-50: reducir 25%; ClCr <10: reducir 50%",
+            "ajusteHepatico": "Cautela en insuficiencia hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Náuseas y vómitos (pediátrico)",
+          "descricaoDose": "0,1-0,15 mg/kg IV/IM/VO cada 8h (máx 20 mg/dosis). ≥1 año.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM/VO",
+            "intervalo": "cada 8h",
+            "ajusteRenal": "ClCr 10-50: reducir 25%; ClCr <10: reducir 50%",
+            "ajusteHepatico": "Cautela en insuficiencia hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Gastroparesia / Reflujo (pediátrico)",
+          "descricaoDose": "0,1-0,15 mg/kg VO cada 8h (máx 20 mg/dosis). ≥1 año.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 8h",
+            "ajusteRenal": "ClCr 10-50: reducir 25%; ClCr <10: reducir 50%",
+            "ajusteHepatico": "Cautela en insuficiencia hepática moderada a grave",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiemético, procinético, antagonista dopaminérgico D2",
+      "apresentacoes": [
+        { "forma": "Comprimido 10 mg", "obs": "Oral" },
+        { "forma": "Ampolla 10 mg/2 mL (5 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Solución oral 1 o 4 mg/mL", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV directo: administrar LENTO (≥2 min)", "concentracao": "10-20 mg" },
+        { "diluicao": "Infusión: 10-20 mg en 50-100 mL SF", "concentracao": "Infundir en 15-30 min" },
+        { "diluicao": "IM: sin dilución, inyección profunda", "concentracao": "5 mg/mL" },
+        { "diluicao": "VO: comprimido o solución oral", "concentracao": "Listo para uso" }
+      ],
+      "observacoes": [
+        "Administrar IV LENTO (≥2 min) - evitar push rápido",
+        "Contraindicado <1 año (riesgo extrapiramidal y depresión respiratoria)",
+        "Riesgo de reacciones extrapiramidales - más común en niños, adolescentes y ancianos",
+        "ClCr 10-50 mL/min: reducir dosis 75%; ClCr <10: reducir 50%",
+        "Evitar uso prolongado >12 semanas (riesgo discinesia tardía)",
+        "Puede causar hiperprolactinemia y galactorrea"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Cautela - mayor riesgo extrapiramidal. Evitar uso prolongado.",
+        "renal": "ClCr 10-50: reducir 75%. ClCr <10: reducir 50%. Hemodiálisis: 50%.",
+        "hepatico": "Cautela en insuficiencia hepática moderada a grave. Reducir dosis o intervalo según gravedad."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Bromoprida (adulto)",
+        "doseTexto": "10-20 mg IV/IM/VO cada 8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Bromoprida (pediátrico)",
+        "doseTexto": "0,1-0,15 mg/kg IV/IM/VO (máx 20 mg)",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "溴必利",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "急性恶心呕吐",
+          "descricaoDose": "10-20 mg 静注/肌注/口服 每8h（最大 80 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM/PO",
+            "intervalo": "每8h",
+            "ajusteRenal": "ClCr 10-50: 减量25%；ClCr <10: 减量50%",
+            "ajusteHepatico": "中重度肝功能不全慎用",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "术后恶心",
+          "descricaoDose": "10-20 mg 静注/肌注 每8h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/IM",
+            "intervalo": "每8h",
+            "ajusteRenal": "ClCr 10-50: 减量25%；ClCr <10: 减量50%",
+            "ajusteHepatico": "中重度肝功能不全慎用",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "糖尿病性胃轻瘫",
+          "descricaoDose": "10-20 mg 口服 餐前",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "PO",
+            "intervalo": "餐前",
+            "ajusteRenal": "ClCr 10-50: 减量25%；ClCr <10: 减量50%",
+            "ajusteHepatico": "中重度肝功能不全慎用",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "胃食管反流",
+          "descricaoDose": "10-20 mg 口服 餐前",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 10,
+            "doseMax": 20,
+            "doseMaxima": 80,
+            "doseFixa": "10-20 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "PO",
+            "intervalo": "餐前",
+            "ajusteRenal": "ClCr 10-50: 减量25%；ClCr <10: 减量50%",
+            "ajusteHepatico": "中重度肝功能不全慎用",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "恶心呕吐（儿童）",
+          "descricaoDose": "0.1-0.15 mg/kg 静注/肌注/口服 每8h（最大 20 mg/次）。≥1岁。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV/IM/PO",
+            "intervalo": "每8h",
+            "ajusteRenal": "ClCr 10-50: 减量25%；ClCr <10: 减量50%",
+            "ajusteHepatico": "中重度肝功能不全慎用",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "胃轻瘫/反流（儿童）",
+          "descricaoDose": "0.1-0.15 mg/kg 口服 每8h（最大 20 mg/次）。≥1岁。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.1,
+            "dosePorKgMax": 0.15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "PO",
+            "intervalo": "每8h",
+            "ajusteRenal": "ClCr 10-50: 减量25%；ClCr <10: 减量50%",
+            "ajusteHepatico": "中重度肝功能不全慎用",
+            "clCrThreshold": 10,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "止吐药，促动力药，多巴胺D2拮抗剂",
+      "apresentacoes": [
+        { "forma": "片剂 10 mg", "obs": "口服" },
+        { "forma": "安瓿 10 mg/2 mL (5 mg/mL)", "obs": "静注/肌注" },
+        { "forma": "口服溶液 1 或 4 mg/mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "静注直接：缓慢给药（≥2分钟）", "concentracao": "10-20 mg" },
+        { "diluicao": "输液：10-20 mg 溶于 50-100 mL 生理盐水", "concentracao": "15-30分钟内输注" },
+        { "diluicao": "肌注：不稀释，深部注射", "concentracao": "5 mg/mL" },
+        { "diluicao": "口服：片剂或溶液", "concentracao": "即用" }
+      ],
+      "observacoes": [
+        "静注需缓慢（≥2分钟）- 避免快速推注",
+        "1岁以下禁用（锥体外系和呼吸抑制风险）",
+        "锥体外系反应风险 - 儿童、青少年、老年人更常见",
+        "ClCr 10-50 mL/min：减量75%；ClCr <10：减量50%",
+        "避免长期使用 >12周（迟发性运动障碍风险）",
+        "可能导致高泌乳素血症和泌乳"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "慎用 - 锥体外系风险增加。避免长期使用。",
+        "renal": "ClCr 10-50：减量75%。ClCr <10：减量50%。血液透析：50%。",
+        "hepatico": "中重度肝功能不全慎用。根据严重程度减量或延长间隔。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "溴必利（成人）",
+        "doseTexto": "10-20 mg 静注/肌注/口服 每8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "10-20 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "溴必利（儿童）",
+        "doseTexto": "0.1-0.15 mg/kg 静注/肌注/口服（最大 20 mg）",
+        "doseMin": 0.1,
+        "doseMax": 0.15,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,386 @@
+{
+  "PT": {
+    "nome": "Teofilina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Manutenção (adulto) - liberação prolongada",
+          "descricaoDose": "200-400 mg VO 12/12h (máx 900 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 900,
+            "doseFixa": "200-400 mg VO 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Hepatopatia: reduzir 50%"
+          }
+        },
+        {
+          "titulo": "Manutenção (pediátrico)",
+          "descricaoDose": "10-15 mg/kg/dia VO dividido em 2-4 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido 2-4x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Hepatopatia: reduzir 50%"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Metilxantina / Broncodilatador oral",
+      "apresentacoes": [
+        { "forma": "Comprimido 100 mg, 200 mg, 300 mg", "obs": "Liberação imediata" },
+        { "forma": "Cápsula 100 mg, 200 mg, 300 mg", "obs": "Liberação prolongada" },
+        { "forma": "Xarope 50 mg/5 mL", "obs": "Uso pediátrico" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral", "concentracao": "Não aplicável diluição IV" }
+      ],
+      "observacoes": [
+        "Janela terapêutica estreita: monitorar níveis séricos (10-20 mcg/mL)",
+        "Tomar com alimento para reduzir irritação gastrintestinal",
+        "Não mastigar ou triturar formulações de liberação prolongada",
+        "Tabagismo aumenta metabolismo – pode exigir dose maior",
+        "Interações frequentes (CYP1A2): eritromicina, ciprofloxacino, cimetidina aumentam níveis",
+        "Toxicidade: náuseas, vômitos, arritmias; níveis >20 mcg/mL – considerar redução"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com doses baixas. Monitorar níveis séricos e efeitos adversos.",
+        "renal": "Não requer ajuste específico. Metabolismo hepático predominante.",
+        "hepatico": "Reduzir 50% da dose. Hepatopatia grave: considerar alternativa ou monitorização estreita."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Teofilina (adulto)",
+        "doseTexto": "200-400 mg VO 12/12h (máx 900 mg/dia)",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teofilina (pediátrico)",
+        "doseTexto": "10-15 mg/kg/dia VO dividido 2-4x",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Theophylline",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Maintenance (adult) - extended release",
+          "descricaoDose": "200-400 mg PO q12h (max 900 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 900,
+            "doseFixa": "200-400 mg PO q12h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatopathy: reduce 50%"
+          }
+        },
+        {
+          "titulo": "Maintenance (pediatric)",
+          "descricaoDose": "10-15 mg/kg/day PO divided in 2-4 doses",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/day",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "divided 2-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatopathy: reduce 50%"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Methylxanthine / Oral bronchodilator",
+      "apresentacoes": [
+        { "forma": "Tablet 100 mg, 200 mg, 300 mg", "obs": "Immediate release" },
+        { "forma": "Capsule 100 mg, 200 mg, 300 mg", "obs": "Extended release" },
+        { "forma": "Syrup 50 mg/5 mL", "obs": "Pediatric use" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral use", "concentracao": "IV dilution not applicable" }
+      ],
+      "observacoes": [
+        "Narrow therapeutic window: monitor serum levels (10-20 mcg/mL)",
+        "Take with food to reduce GI irritation",
+        "Do not chew or crush extended-release formulations",
+        "Smoking increases metabolism – may require higher dose",
+        "Frequent interactions (CYP1A2): erythromycin, ciprofloxacin, cimetidine increase levels",
+        "Toxicity: nausea, vomiting, arrhythmias; levels >20 mcg/mL – consider dose reduction"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start with low doses. Monitor serum levels and adverse effects.",
+        "renal": "No specific dose adjustment. Hepatic metabolism predominant.",
+        "hepatico": "Reduce dose by 50%. Severe liver disease: consider alternative or close monitoring."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Theophylline (adult)",
+        "doseTexto": "200-400 mg PO q12h (max 900 mg/day)",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Theophylline (pediatric)",
+        "doseTexto": "10-15 mg/kg/day PO divided 2-4x",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/day",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Teofilina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Mantenimiento (adulto) - liberación prolongada",
+          "descricaoDose": "200-400 mg VO 12/12h (máx 900 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 900,
+            "doseFixa": "200-400 mg VO 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatopatía: reducir 50%"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (pediátrico)",
+          "descricaoDose": "10-15 mg/kg/día VO dividido en 2-4 dosis",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/día",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dividido 2-4x/día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Hepatopatía: reducir 50%"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Metilxantina / Broncodilatador oral",
+      "apresentacoes": [
+        { "forma": "Comprimido 100 mg, 200 mg, 300 mg", "obs": "Liberación inmediata" },
+        { "forma": "Cápsula 100 mg, 200 mg, 300 mg", "obs": "Liberación prolongada" },
+        { "forma": "Jarabe 50 mg/5 mL", "obs": "Uso pediátrico" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral", "concentracao": "No aplicable dilución IV" }
+      ],
+      "observacoes": [
+        "Ventana terapéutica estrecha: monitorizar niveles séricos (10-20 mcg/mL)",
+        "Tomar con alimentos para reducir irritación gastrointestinal",
+        "No masticar ni triturar formas de liberación prolongada",
+        "Tabaquismo aumenta metabolismo – puede requerir dosis mayor",
+        "Interacciones frecuentes (CYP1A2): eritromicina, ciprofloxacino, cimetidina aumentan niveles",
+        "Toxicidad: náuseas, vómitos, arritmias; niveles >20 mcg/mL – considerar reducción"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar con dosis bajas. Monitorizar niveles séricos y efectos adversos.",
+        "renal": "No requiere ajuste específico. Metabolismo hepático predominante.",
+        "hepatico": "Reducir 50% de la dosis. Hepatopatía grave: considerar alternativa o monitorización estrecha."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Teofilina (adulto)",
+        "doseTexto": "200-400 mg VO 12/12h (máx 900 mg/día)",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Teofilina (pediátrico)",
+        "doseTexto": "10-15 mg/kg/día VO dividido 2-4x",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/día",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "茶碱",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "维持（成人）- 缓释",
+          "descricaoDose": "200-400 mg 口服 每12小时（最大900 mg/天）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 900,
+            "doseFixa": "200-400 mg 口服 每12小时",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝病：减量50%"
+          }
+        },
+        {
+          "titulo": "维持（儿童）",
+          "descricaoDose": "10-15 mg/kg/天 口服 分2-4次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 15,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 900,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "divided 2-4x/day",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "肝病：减量50%"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "甲基黄嘌呤 / 口服支气管扩张剂",
+      "apresentacoes": [
+        { "forma": "片剂 100 mg, 200 mg, 300 mg", "obs": "即释" },
+        { "forma": "胶囊 100 mg, 200 mg, 300 mg", "obs": "缓释" },
+        { "forma": "糖浆 50 mg/5 mL", "obs": "儿童用" }
+      ],
+      "preparo": [
+        { "diluicao": "口服", "concentracao": "不适用静脉稀释" }
+      ],
+      "observacoes": [
+        "治疗窗窄：监测血药浓度（10-20 mcg/mL）",
+        "与食物同服以减少胃肠道刺激",
+        "缓释制剂不可咀嚼或压碎",
+        "吸烟增加代谢 - 可能需要更大剂量",
+        "常见相互作用（CYP1A2）：红霉素、环丙沙星、西咪替丁升高浓度",
+        "毒性：恶心、呕吐、心律失常；浓度>20 mcg/mL应考虑减量"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "从小剂量开始。监测血药浓度及不良反应。",
+        "renal": "无需调整剂量。以肝脏代谢为主。",
+        "hepatico": "剂量减半。严重肝病：考虑替代或密切监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "茶碱（成人）",
+        "doseTexto": "200-400 mg 口服 每12小时（最大900 mg/天）",
+        "doseMin": 200,
+        "doseMax": 400,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "茶碱（儿童）",
+        "doseTexto": "10-15 mg/kg/天 口服 分2-4次",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  }
+}

@@ -1,0 +1,762 @@
+{
+  "PT": {
+    "nome": "Cefalotina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecções moderadas",
+          "descricaoDose": "500 mg–1 g IV 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 25–50: 1–2 g 8/8h; ClCr 10–25: 1–2 g 12/12h; ClCr <10: 500 mg–1 g 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves",
+          "descricaoDose": "1–2 g IV 4–6h (máx 12 g/dia).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4–6h",
+            "ajusteRenal": "ClCr 25–50: 1–2 g 8/8h; ClCr 10–25: 1–2 g 12/12h; ClCr <10: 500 mg–1 g 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxia cirúrgica",
+          "descricaoDose": "1–2 g IV 30–60 min antes da incisão (repetir 2/2h intraop).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes da incisão; repetir 2/2h intraop",
+            "ajusteRenal": "ClCr 25–50: 1–2 g 8/8h; ClCr 10–25: 1–2 g 12/12h; ClCr <10: 500 mg–1 g 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções leves a moderadas (pediátrico)",
+          "descricaoDose": "50–100 mg/kg/dia IV 6/6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecções graves (pediátrico)",
+          "descricaoDose": "100–150 mg/kg/dia IV 4–6h (máx 12 g/dia).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4–6h",
+            "ajusteRenal": "Avaliar função renal; ajuste conforme protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cefalosporina de 1ª geração; bactericida – inibe síntese da parede celular",
+      "apresentacoes": [
+        { "forma": "Frasco 1 g liofilizado", "obs": "Keflin® – compatível SF e SG 5%" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir em 10 mL água estéril", "concentracao": "Para diluição" },
+        { "diluicao": "Diluir em 50–100 mL SF ou SG 5%", "concentracao": "Para infusão" },
+        { "diluicao": "Infusão em 20–30 min", "concentracao": "IV" },
+        { "diluicao": "Estabilidade: 24 h refrigerado", "concentracao": "Após reconstituição" }
+      ],
+      "observacoes": [
+        "Espectro: excelente Gram+ (MSSA, Streptococcus). Gram-: limitado (E. coli, Klebsiella, Proteus mirabilis).",
+        "NÃO cobre: MRSA, Enterococcus, Pseudomonas, anaeróbios.",
+        "Meia-vida curta: 30–60 min – requer doses frequentes.",
+        "Ajuste renal: ClCr 10–50 → 8/8h; ClCr <10 → 12/12h.",
+        "CONTRAINDICADO: alergia a cefalosporinas.",
+        "Alternativa: cefazolina (meia-vida mais longa)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Avaliar função renal. Ajuste de intervalo conforme ClCr.",
+        "renal": "ClCr 25–50: 1–2 g 8/8h; ClCr 10–25: 1–2 g 12/12h; ClCr <10: 500 mg–1 g 12/12h.",
+        "hepatico": "NAO. Usar com cautela em hepatopatia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefalotina – infecções graves (adulto)",
+        "doseTexto": "1–2 g IV 4–6h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalotina – infecções moderadas (adulto)",
+        "doseTexto": "500 mg–1 g IV 6/6h",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalotina – profilaxia cirúrgica",
+        "doseTexto": "1–2 g IV 30–60 min antes da incisão",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalotina – pediátrico (leve-moderado)",
+        "doseTexto": "50–100 mg/kg/dia IV 6/6h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Cefalotina – pediátrico (grave)",
+        "doseTexto": "100–150 mg/kg/dia IV 4–6h",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Cephalothin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Moderate infections",
+          "descricaoDose": "500 mg–1 g IV q6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "ClCr 25–50: 1–2 g q8h; ClCr 10–25: 1–2 g q12h; ClCr <10: 500 mg–1 g q12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe infections",
+          "descricaoDose": "1–2 g IV q4–6h (max 12 g/day).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4–6h",
+            "ajusteRenal": "ClCr 25–50: 1–2 g q8h; ClCr 10–25: 1–2 g q12h; ClCr <10: 500 mg–1 g q12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Surgical prophylaxis",
+          "descricaoDose": "1–2 g IV 30–60 min before incision (repeat q2h intraop).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "30–60 min before incision; repeat q2h intraop",
+            "ajusteRenal": "ClCr 25–50: 1–2 g q8h; ClCr 10–25: 1–2 g q12h; ClCr <10: 500 mg–1 g q12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Mild to moderate infections (pediatric)",
+          "descricaoDose": "50–100 mg/kg/day IV q6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q6h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Severe infections (pediatric)",
+          "descricaoDose": "100–150 mg/kg/day IV q4–6h (max 12 g/day).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "q4–6h",
+            "ajusteRenal": "Assess renal function; adjust per protocol.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "First-generation cephalosporin; bactericidal – inhibits cell wall synthesis",
+      "apresentacoes": [
+        { "forma": "Vial 1 g lyophilized", "obs": "Keflin® – compatible with NS and D5W" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstitute with 10 mL sterile water", "concentracao": "For dilution" },
+        { "diluicao": "Dilute in 50–100 mL NS or D5W", "concentracao": "For infusion" },
+        { "diluicao": "Infuse over 20–30 min", "concentracao": "IV" },
+        { "diluicao": "Stability: 24 h refrigerated", "concentracao": "After reconstitution" }
+      ],
+      "observacoes": [
+        "Spectrum: excellent Gram+ (MSSA, Streptococcus). Gram-: limited (E. coli, Klebsiella, Proteus mirabilis).",
+        "Does NOT cover: MRSA, Enterococcus, Pseudomonas, anaerobes.",
+        "Short half-life: 30–60 min – requires frequent dosing.",
+        "Renal adjustment: ClCr 10–50 → q8h; ClCr <10 → q12h.",
+        "CONTRAINDICATED: allergy to cephalosporins.",
+        "Alternative: cefazolin (longer half-life)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Assess renal function. Interval adjustment per ClCr.",
+        "renal": "ClCr 25–50: 1–2 g q8h; ClCr 10–25: 1–2 g q12h; ClCr <10: 500 mg–1 g q12h.",
+        "hepatico": "NAO. Use with caution in severe liver disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cephalothin – severe infections (adult)",
+        "doseTexto": "1–2 g IV q4–6h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cephalothin – moderate infections (adult)",
+        "doseTexto": "500 mg–1 g IV q6h",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cephalothin – surgical prophylaxis",
+        "doseTexto": "1–2 g IV 30–60 min before incision",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Cephalothin – pediatric (mild-moderate)",
+        "doseTexto": "50–100 mg/kg/day IV q6h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Cephalothin – pediatric (severe)",
+        "doseTexto": "100–150 mg/kg/day IV q4–6h",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Cefalotina",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Infecciones moderadas",
+          "descricaoDose": "500 mg–1 g IV 6/6h.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "ClCr 25–50: 1–2 g 8/8h; ClCr 10–25: 1–2 g 12/12h; ClCr <10: 500 mg–1 g 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves",
+          "descricaoDose": "1–2 g IV 4–6h (máx 12 g/día).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4–6h",
+            "ajusteRenal": "ClCr 25–50: 1–2 g 8/8h; ClCr 10–25: 1–2 g 12/12h; ClCr <10: 500 mg–1 g 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Profilaxis quirúrgica",
+          "descricaoDose": "1–2 g IV 30–60 min antes de la incisión (repetir 2/2h intraop).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "30–60 min antes de la incisión; repetir 2/2h intraop",
+            "ajusteRenal": "ClCr 25–50: 1–2 g 8/8h; ClCr 10–25: 1–2 g 12/12h; ClCr <10: 500 mg–1 g 12/12h.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones leves a moderadas (pediátrico)",
+          "descricaoDose": "50–100 mg/kg/día IV 6/6h.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "6/6h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Infecciones graves (pediátrico)",
+          "descricaoDose": "100–150 mg/kg/día IV 4–6h (máx 12 g/día).",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "4–6h",
+            "ajusteRenal": "Valorar función renal; ajuste según protocolo.",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Cefalosporina de 1ª generación; bactericida – inhibe síntesis de pared celular",
+      "apresentacoes": [
+        { "forma": "Frasco 1 g liofilizado", "obs": "Keflin® – compatible SF y SG 5%" }
+      ],
+      "preparo": [
+        { "diluicao": "Reconstituir en 10 mL agua estéril", "concentracao": "Para dilución" },
+        { "diluicao": "Diluir en 50–100 mL SF o SG 5%", "concentracao": "Para perfusión" },
+        { "diluicao": "Perfusión en 20–30 min", "concentracao": "IV" },
+        { "diluicao": "Estabilidad: 24 h refrigerado", "concentracao": "Tras reconstitución" }
+      ],
+      "observacoes": [
+        "Espectro: excelente Gram+ (MSSA, Streptococcus). Gram-: limitado (E. coli, Klebsiella, Proteus mirabilis).",
+        "NO cubre: MRSA, Enterococcus, Pseudomonas, anaerobios.",
+        "Vida media corta: 30–60 min – requiere dosis frecuentes.",
+        "Ajuste renal: ClCr 10–50 → 8/8h; ClCr <10 → 12/12h.",
+        "CONTRAINDICADO: alergia a cefalosporinas.",
+        "Alternativa: cefazolina (vida media más larga)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Valorar función renal. Ajuste de intervalo según ClCr.",
+        "renal": "ClCr 25–50: 1–2 g 8/8h; ClCr 10–25: 1–2 g 12/12h; ClCr <10: 500 mg–1 g 12/12h.",
+        "hepatico": "NAO. Usar con precaución en hepatopatía grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Cefalotina – infecciones graves (adulto)",
+        "doseTexto": "1–2 g IV 4–6h",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalotina – infecciones moderadas (adulto)",
+        "doseTexto": "500 mg–1 g IV 6/6h",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalotina – profilaxis quirúrgica",
+        "doseTexto": "1–2 g IV 30–60 min antes de la incisión",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Cefalotina – pediátrico (leve-moderado)",
+        "doseTexto": "50–100 mg/kg/día IV 6/6h",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Cefalotina – pediátrico (grave)",
+        "doseTexto": "100–150 mg/kg/día IV 4–6h",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "头孢噻吩",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "中度感染",
+          "descricaoDose": "500 mg–1 g 静注 每6小时。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 1000,
+            "doseFixa": "500 mg–1 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr 25–50: 1–2 g 每8h; ClCr 10–25: 1–2 g 每12h; ClCr <10: 500 mg–1 g 每12h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "重度感染",
+          "descricaoDose": "1–2 g 静注 每4–6小时（最大12 g/日）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4–6小时",
+            "ajusteRenal": "ClCr 25–50: 1–2 g 每8h; ClCr 10–25: 1–2 g 每12h; ClCr <10: 500 mg–1 g 每12h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "手术预防",
+          "descricaoDose": "1–2 g 静注 术前30–60分钟（术中每2小时重复）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 1000,
+            "doseMax": 2000,
+            "doseMaxima": 2000,
+            "doseFixa": "1–2 g",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "术前30–60分钟；术中每2小时重复",
+            "ajusteRenal": "ClCr 25–50: 1–2 g 每8h; ClCr 10–25: 1–2 g 每12h; ClCr <10: 500 mg–1 g 每12h。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "轻中度感染（儿科）",
+          "descricaoDose": "50–100 mg/kg/日 静注 每6小时。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 50,
+            "dosePorKgMax": 100,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "重度感染（儿科）",
+          "descricaoDose": "100–150 mg/kg/日 静注 每4–6小时（最大12 g/日）。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 100,
+            "dosePorKgMax": 150,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 12000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每4–6小时",
+            "ajusteRenal": "评估肾功能；按方案调整。",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "第一代头孢菌素；杀菌剂，抑制细胞壁合成",
+      "apresentacoes": [
+        { "forma": "西林瓶 1 g 冻干粉", "obs": "Keflin®，与生理盐水、5%葡萄糖兼容" }
+      ],
+      "preparo": [
+        { "diluicao": "用10 mL灭菌注射用水配制", "concentracao": "用于稀释" },
+        { "diluicao": "稀释于50–100 mL生理盐水或5%葡萄糖", "concentracao": "用于输注" },
+        { "diluicao": "20–30分钟内输注", "concentracao": "静注" },
+        { "diluicao": "稳定性：冷藏24小时", "concentracao": "配制后" }
+      ],
+      "observacoes": [
+        "谱：革兰阳性佳（MSSA、链球菌）。革兰阴性有限（大肠、克雷伯、奇异变形杆菌）。",
+        "不覆盖：MRSA、肠球菌、假单胞菌、厌氧菌。",
+        "半衰期短：30–60分钟，需频繁给药。",
+        "肾调整：ClCr 10–50 → 每8h；ClCr <10 → 每12h。",
+        "禁忌：头孢菌素过敏。",
+        "替代：头孢唑林（半衰期更长）。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "用药前评估肾功能。按ClCr调整间隔。",
+        "renal": "ClCr 25–50: 1–2 g 每8h; ClCr 10–25: 1–2 g 每12h; ClCr <10: 500 mg–1 g 每12h。",
+        "hepatico": "NAO。严重肝病时慎用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "头孢噻吩 – 重度感染（成人）",
+        "doseTexto": "1–2 g 静注 每4–6小时",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢噻吩 – 中度感染（成人）",
+        "doseTexto": "500 mg–1 g 静注 每6小时",
+        "doseMin": 500,
+        "doseMax": 1000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢噻吩 – 手术预防",
+        "doseTexto": "1–2 g 静注 术前30–60分钟",
+        "doseMin": 1000,
+        "doseMax": 2000,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "头孢噻吩 – 儿科（轻中度）",
+        "doseTexto": "50–100 mg/kg/日 静注 每6小时",
+        "doseMin": 50,
+        "doseMax": 100,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "头孢噻吩 – 儿科（重度）",
+        "doseTexto": "100–150 mg/kg/日 静注 每4–6小时",
+        "doseMin": 100,
+        "doseMax": 150,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

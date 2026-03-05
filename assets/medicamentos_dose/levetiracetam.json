@@ -1,0 +1,638 @@
+{
+  "PT": {
+    "nome": "Levetiracetam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ataque (adulto)",
+          "descricaoDose": "1000-3000 mg IV em 15 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "1000-3000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr 50-80: reduzir 25%; ClCr 30-50: reduzir 50%; ClCr <30: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "Manutenção (adulto)",
+          "descricaoDose": "500-1500 mg IV/VO 2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1500,
+            "doseMaxima": 1500,
+            "doseFixa": "500-1500 mg 2x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr 50-80: reduzir 25%; ClCr 30-50: reduzir 50%; ClCr <30: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "Ataque (pediátrico)",
+          "descricaoDose": "20-60 mg/kg IV em 15 min (máx 3000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "doseMin": 20,
+            "doseMax": 60,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr 50-80: reduzir 25%; ClCr 30-50: reduzir 50%; ClCr <30: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "Manutenção (pediátrico)",
+          "descricaoDose": "10-30 mg/kg/dia IV/VO dividido 2x/dia",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 20,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "2x/dia",
+            "ajusteRenal": "ClCr 50-80: reduzir 25%; ClCr 30-50: reduzir 50%; ClCr <30: reduzir 75%",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticonvulsivante - Agente antiepiléptico de amplo espectro",
+      "apresentacoes": [
+        { "forma": "Ampola 100 mg/mL (5 mL = 500 mg)", "obs": "Uso IV" },
+        { "forma": "Comprimidos 250 mg, 500 mg, 750 mg, 1000 mg", "obs": "Via oral" },
+        { "forma": "Solução oral 100 mg/mL", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir em 100 mL SF 0,9% ou SG 5%", "concentracao": "Infundir em 15 min" },
+        { "diluicao": "Pode usar sem diluir", "concentracao": "Push lento (15 min)" }
+      ],
+      "observacoes": [
+        "Início de ação IV: 15-30 minutos",
+        "Meia-vida: 6-8 h (adultos), 5-7 h (crianças)",
+        "Excreção renal: 66% inalterado; não induz/inibe CYP450",
+        "Ajuste renal obrigatório: ClCr 50-80 -25%; 30-50 -50%; <30 -75%",
+        "Não suspender abruptamente; desmame gradual",
+        "Monitorar comportamento e humor; risco de alterações psiquiátricas"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajuste por função renal (ClCr). Monitorar efeitos neuropsiquiátricos.",
+        "renal": "ClCr 50-80 mL/min: reduzir 25%. ClCr 30-50: reduzir 50%. ClCr <30: reduzir 75%. Hemodiálise: suplementar após sessão.",
+        "hepatico": "Não requer ajuste (metabolização não hepática)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levetiracetam (adulto ataque)",
+        "doseTexto": "1000-3000 mg IV em 15 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1000-3000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levetiracetam (adulto manutenção)",
+        "doseTexto": "500-1500 mg 2x/dia IV/VO",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1500 mg 2x/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levetiracetam (pediátrico ataque)",
+        "doseTexto": "20-60 mg/kg IV (máx 3000 mg)",
+        "doseMin": 20,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Levetiracetam (pediátrico manutenção)",
+        "doseTexto": "10-30 mg/kg/dia dividido 2x/dia",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Levetiracetam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading dose (adult)",
+          "descricaoDose": "1000-3000 mg IV over 15 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "1000-3000 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl 50-80: reduce 25%; CrCl 30-50: reduce 50%; CrCl <30: reduce 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "Maintenance (adult)",
+          "descricaoDose": "500-1500 mg IV/PO twice daily",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1500,
+            "doseMaxima": 1500,
+            "doseFixa": "500-1500 mg twice daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl 50-80: reduce 25%; CrCl 30-50: reduce 50%; CrCl <30: reduce 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "Loading dose (pediatric)",
+          "descricaoDose": "20-60 mg/kg IV over 15 min (max 3000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "doseMin": 20,
+            "doseMax": 60,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl 50-80: reduce 25%; CrCl 30-50: reduce 50%; CrCl <30: reduce 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "Maintenance (pediatric)",
+          "descricaoDose": "10-30 mg/kg/day IV/PO divided twice daily",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 20,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "CrCl 50-80: reduce 25%; CrCl 30-50: reduce 50%; CrCl <30: reduce 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticonvulsant - Broad-spectrum antiepileptic agent",
+      "apresentacoes": [
+        { "forma": "Vial 100 mg/mL (5 mL = 500 mg)", "obs": "IV use" },
+        { "forma": "Tablets 250 mg, 500 mg, 750 mg, 1000 mg", "obs": "Oral" },
+        { "forma": "Oral solution 100 mg/mL", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Dilute in 100 mL NS or D5W", "concentracao": "Infuse over 15 min" },
+        { "diluicao": "May use undiluted", "concentracao": "Slow push (15 min)" }
+      ],
+      "observacoes": [
+        "IV onset: 15-30 minutes",
+        "Half-life: 6-8 h (adults), 5-7 h (children)",
+        "Renal excretion: 66% unchanged; does not induce/inhibit CYP450",
+        "Renal dose adjustment: CrCl 50-80 -25%; 30-50 -50%; <30 -75%",
+        "Do not discontinue abruptly; taper gradually",
+        "Monitor behavior and mood; risk of psychiatric effects"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Adjust for renal function (CrCl). Monitor neuropsychiatric effects.",
+        "renal": "CrCl 50-80 mL/min: reduce 25%. CrCl 30-50: reduce 50%. CrCl <30: reduce 75%. Hemodialysis: supplement after session.",
+        "hepatico": "No dose adjustment (non-hepatic metabolism)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levetiracetam (adult loading)",
+        "doseTexto": "1000-3000 mg IV over 15 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1000-3000 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Levetiracetam (adult maintenance)",
+        "doseTexto": "500-1500 mg twice daily IV/PO",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1500 mg twice daily",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Levetiracetam (pediatric loading)",
+        "doseTexto": "20-60 mg/kg IV (max 3000 mg)",
+        "doseMin": 20,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Levetiracetam (pediatric maintenance)",
+        "doseTexto": "10-30 mg/kg/day divided twice daily",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg/day",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Levetiracetam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ataque (adulto)",
+          "descricaoDose": "1000-3000 mg IV en 15 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "1000-3000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr 50-80: reducir 25%; ClCr 30-50: reducir 50%; ClCr <30: reducir 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "Mantenimiento (adulto)",
+          "descricaoDose": "500-1500 mg IV/VO 2 veces/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1500,
+            "doseMaxima": 1500,
+            "doseFixa": "500-1500 mg 2 veces/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "2 veces/día",
+            "ajusteRenal": "ClCr 50-80: reducir 25%; ClCr 30-50: reducir 50%; ClCr <30: reducir 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "Ataque (pediátrico)",
+          "descricaoDose": "20-60 mg/kg IV en 15 min (máx 3000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "doseMin": 20,
+            "doseMax": 60,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr 50-80: reducir 25%; ClCr 30-50: reducir 50%; ClCr <30: reducir 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "Mantenimiento (pediátrico)",
+          "descricaoDose": "10-30 mg/kg/día IV/VO dividido 2 veces/día",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 20,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "2 veces/día",
+            "ajusteRenal": "ClCr 50-80: reducir 25%; ClCr 30-50: reducir 50%; ClCr <30: reducir 75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anticonvulsivante - Antiepiléptico de amplio espectro",
+      "apresentacoes": [
+        { "forma": "Ampolla 100 mg/mL (5 mL = 500 mg)", "obs": "Uso IV" },
+        { "forma": "Comprimidos 250 mg, 500 mg, 750 mg, 1000 mg", "obs": "Vía oral" },
+        { "forma": "Solución oral 100 mg/mL", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir en 100 mL SF 0,9% o SG 5%", "concentracao": "Infundir en 15 min" },
+        { "diluicao": "Puede usarse sin diluir", "concentracao": "Push lento (15 min)" }
+      ],
+      "observacoes": [
+        "Inicio de acción IV: 15-30 minutos",
+        "Vida media: 6-8 h (adultos), 5-7 h (niños)",
+        "Excreción renal: 66% inalterado; no induce/inhibe CYP450",
+        "Ajuste renal: ClCr 50-80 -25%; 30-50 -50%; <30 -75%",
+        "No suspender bruscamente; desmame gradual",
+        "Monitorizar conducta y humor; riesgo de efectos psiquiátricos"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Ajustar por función renal (ClCr). Monitorizar efectos neuropsiquiátricos.",
+        "renal": "ClCr 50-80 mL/min: reducir 25%. ClCr 30-50: reducir 50%. ClCr <30: reducir 75%. Hemodiálisis: suplementar tras sesión.",
+        "hepatico": "No requiere ajuste (metabolización no hepática)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Levetiracetam (adulto ataque)",
+        "doseTexto": "1000-3000 mg IV en 15 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1000-3000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levetiracetam (adulto mantenimiento)",
+        "doseTexto": "500-1500 mg 2 veces/día IV/VO",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1500 mg 2 veces/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Levetiracetam (pediátrico ataque)",
+        "doseTexto": "20-60 mg/kg IV (máx 3000 mg)",
+        "doseMin": 20,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Levetiracetam (pediátrico mantenimiento)",
+        "doseTexto": "10-30 mg/kg/día dividido 2 veces/día",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg/día",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "左乙拉西坦",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷剂量（成人）",
+          "descricaoDose": "1000-3000 mg IV 15分钟内",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 1000,
+            "doseMax": 3000,
+            "doseMaxima": 3000,
+            "doseFixa": "1000-3000 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "CrCl 50-80：减量25%；30-50：减量50%；<30：减量75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "维持（成人）",
+          "descricaoDose": "500-1500 mg IV/口服 每日两次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 500,
+            "doseMax": 1500,
+            "doseMaxima": 1500,
+            "doseFixa": "500-1500 mg 每日两次",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "每日两次",
+            "ajusteRenal": "CrCl 50-80：减量25%；30-50：减量50%；<30：减量75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "负荷剂量（儿童）",
+          "descricaoDose": "20-60 mg/kg IV 15分钟内（最大3000 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 40,
+            "doseMin": 20,
+            "doseMax": 60,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "CrCl 50-80：减量25%；30-50：减量50%；<30：减量75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        },
+        {
+          "titulo": "维持（儿童）",
+          "descricaoDose": "10-30 mg/kg/日 IV/口服 分两次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 20,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "每日两次",
+            "ajusteRenal": "CrCl 50-80：减量25%；30-50：减量50%；<30：减量75%",
+            "ajusteHepatico": "NO",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.25
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗癫痫药 - 广谱抗癫痫剂",
+      "apresentacoes": [
+        { "forma": "安瓿 100 mg/mL（5 mL = 500 mg）", "obs": "静脉用" },
+        { "forma": "片剂 250/500/750/1000 mg", "obs": "口服" },
+        { "forma": "口服溶液 100 mg/mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "用100 mL生理盐水或5%葡萄糖稀释", "concentracao": "15分钟内输注" },
+        { "diluicao": "可不稀释使用", "concentracao": "缓慢推注（15分钟）" }
+      ],
+      "observacoes": [
+        "静脉给药起效：15-30分钟",
+        "半衰期：成人6-8小时，儿童5-7小时",
+        "肾脏排泄66%原形；不诱导/抑制CYP450",
+        "肾剂量调整：CrCl 50-80 -25%；30-50 -50%；<30 -75%",
+        "勿突然停药；逐渐减量",
+        "监测行为与情绪；精神不良反应风险"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "按肾功能（CrCl）调整。监测神经精神作用。",
+        "renal": "CrCl 50-80 mL/min：减量25%。30-50：减量50%。<30：减量75%。血液透析：透析后补充。",
+        "hepatico": "无需调整（非肝脏代谢）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "左乙拉西坦（成人负荷）",
+        "doseTexto": "1000-3000 mg IV 15分钟内",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "1000-3000 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "左乙拉西坦（成人维持）",
+        "doseTexto": "500-1500 mg 每日两次 IV/口服",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1500 mg 每日两次",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "左乙拉西坦（儿童负荷）",
+        "doseTexto": "20-60 mg/kg IV（最大3000 mg）",
+        "doseMin": 20,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "左乙拉西坦（儿童维持）",
+        "doseTexto": "10-30 mg/kg/日 分两次",
+        "doseMin": 10,
+        "doseMax": 30,
+        "unidadeResultado": "mg/日",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  }
+}

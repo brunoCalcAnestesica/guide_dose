@@ -1,0 +1,786 @@
+{
+  "PT": {
+    "nome": "Valproato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Ataque - Status epilepticus (adulto)",
+          "descricaoDose": "20-40 mg/kg IV em 10 min (máx 3000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Doença hepática ativa: contraindicado; insuficiência hepática leve/moderada: reduzir ou evitar"
+          }
+        },
+        {
+          "titulo": "Ataque - Status epilepticus (pediátrico)",
+          "descricaoDose": "20-40 mg/kg IV em 10 min (máx 3000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Doença hepática ativa: contraindicado; insuficiência hepática leve/moderada: reduzir ou evitar"
+          }
+        },
+        {
+          "titulo": "Infusão contínua",
+          "descricaoDose": "1-2 mg/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Doença hepática ativa: contraindicado"
+          }
+        },
+        {
+          "titulo": "Manutenção (adulto)",
+          "descricaoDose": "10-15 mg/kg/dia IV/VO dividido 2-3x",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "2-3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Doença hepática ativa: contraindicado"
+          }
+        },
+        {
+          "titulo": "Manutenção (pediátrico)",
+          "descricaoDose": "10-15 mg/kg/dia IV/VO dividido 2-3x (máx 60 mg/kg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": 60,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "2-3x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Doença hepática ativa: contraindicado"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão contínua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100 mg/mL (ampola sem diluir)", "valor": 100 },
+            { "rotulo": "500 mg em 25 mL SF (20 mg/mL)", "valor": 20 },
+            { "rotulo": "500 mg em 50 mL SF (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico de amplo espectro - Ácido valproico / Valproato de sódio",
+      "apresentacoes": [
+        { "forma": "Ampola 100 mg/mL (5 mL = 500 mg)", "obs": "Uso IV" },
+        { "forma": "Comprimidos 250 mg, 500 mg", "obs": "Via oral" },
+        { "forma": "Comprimidos liberação prolongada 250 mg, 500 mg", "obs": "Via oral" },
+        { "forma": "Xarope 250 mg/5 mL", "obs": "Via oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Infundir diluído em SF 0,9% ou SG 5%", "concentracao": "Em 10-15 min (ataque)" },
+        { "diluicao": "500 mg em 25 mL SF", "concentracao": "20 mg/mL" },
+        { "diluicao": "500 mg em 50 mL SF", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "Início de ação IV: 15-30 minutos; meia-vida 9-16 h",
+        "Nível sérico alvo: 50-100 mcg/mL; coleta 2-4 h após dose IV",
+        "Contraindicado: doença hepática ativa, desordens do ciclo da ureia, desordens mitocondriais, porfiria",
+        "Monitorizar: TGO, TGP, bilirrubinas, amônia (se alteração do sensório), hemograma com plaquetas",
+        "Teratogenicidade ALTA (categoria X): defeitos do tubo neural; evitar em mulheres em idade fértil",
+        "Interações: inibe CYP2C9 (aumenta fenitoína), desloca fenitoína das proteínas, aumenta lamotrigina"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorar efeitos sedativos e hepáticos. Ajuste por função hepática se necessário.",
+        "renal": "Não requer ajuste específico. Metabolismo predominantemente hepático.",
+        "hepatico": "Contraindicado em doença hepática ativa. Em insuficiência hepática leve/moderada: reduzir dose ou evitar. Risco de hepatotoxicidade (maior em < 2 anos)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Valproato (ataque adulto)",
+        "doseTexto": "20-40 mg/kg IV em 10 min (máx 3000 mg)",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Valproato (ataque pediátrico)",
+        "doseTexto": "20-40 mg/kg IV em 10 min (máx 3000 mg)",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Valproato (infusão)",
+        "doseTexto": "1-2 mg/kg/h IV",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Valproato (manutenção adulto)",
+        "doseTexto": "10-15 mg/kg/dia IV/VO 2-3x/dia",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Valproato (manutenção pediátrico)",
+        "doseTexto": "10-15 mg/kg/dia 2-3x/dia (máx 60 mg/kg/dia)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Valproate",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Loading - Status epilepticus (adult)",
+          "descricaoDose": "20-40 mg/kg IV over 10 min (max 3000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Active liver disease: contraindicated; mild/moderate hepatic insufficiency: reduce or avoid"
+          }
+        },
+        {
+          "titulo": "Loading - Status epilepticus (pediatric)",
+          "descricaoDose": "20-40 mg/kg IV over 10 min (max 3000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Active liver disease: contraindicated; mild/moderate hepatic insufficiency: reduce or avoid"
+          }
+        },
+        {
+          "titulo": "Continuous infusion",
+          "descricaoDose": "1-2 mg/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Active liver disease: contraindicated"
+          }
+        },
+        {
+          "titulo": "Maintenance (adult)",
+          "descricaoDose": "10-15 mg/kg/day IV/PO divided 2-3x",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "2-3x daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Active liver disease: contraindicated"
+          }
+        },
+        {
+          "titulo": "Maintenance (pediatric)",
+          "descricaoDose": "10-15 mg/kg/day IV/PO divided 2-3x (max 60 mg/kg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": 60,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "2-3x daily",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Active liver disease: contraindicated"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous infusion",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100 mg/mL (vial undiluted)", "valor": 100 },
+            { "rotulo": "500 mg in 25 mL NS (20 mg/mL)", "valor": 20 },
+            { "rotulo": "500 mg in 50 mL NS (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Broad-spectrum antiepileptic - Valproic acid / Sodium valproate",
+      "apresentacoes": [
+        { "forma": "Vial 100 mg/mL (5 mL = 500 mg)", "obs": "IV use" },
+        { "forma": "Tablets 250 mg, 500 mg", "obs": "Oral" },
+        { "forma": "Extended-release tablets 250 mg, 500 mg", "obs": "Oral" },
+        { "forma": "Syrup 250 mg/5 mL", "obs": "Oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Dilute in NS or D5W for infusion", "concentracao": "Over 10-15 min (loading)" },
+        { "diluicao": "500 mg in 25 mL NS", "concentracao": "20 mg/mL" },
+        { "diluicao": "500 mg in 50 mL NS", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "IV onset: 15-30 min; half-life 9-16 h",
+        "Target level 50-100 mcg/mL; draw 2-4 h after IV dose",
+        "Contraindicated: active liver disease, urea cycle disorders, known mitochondrial disorders, porphyria",
+        "Monitor: AST, ALT, bilirubin, ammonia (if mental status change), CBC with platelets",
+        "High teratogenicity (category X): neural tube defects; avoid in women of childbearing potential",
+        "Interactions: inhibits CYP2C9 (increases phenytoin), displaces phenytoin from protein, increases lamotrigine"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitor sedative and hepatic effects. Adjust by liver function if needed.",
+        "renal": "No specific dose adjustment. Predominantly hepatic metabolism.",
+        "hepatico": "Contraindicated in active liver disease. In mild/moderate hepatic insufficiency: reduce dose or avoid. Hepatotoxicity risk (higher in < 2 years)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Valproate (adult loading)",
+        "doseTexto": "20-40 mg/kg IV over 10 min (max 3000 mg)",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Valproate (pediatric loading)",
+        "doseTexto": "20-40 mg/kg IV over 10 min (max 3000 mg)",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Valproate (infusion)",
+        "doseTexto": "1-2 mg/kg/h IV",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Valproate (adult maintenance)",
+        "doseTexto": "10-15 mg/kg/day IV/PO 2-3x daily",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Valproate (pediatric maintenance)",
+        "doseTexto": "10-15 mg/kg/day 2-3x (max 60 mg/kg/day)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Valproato",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Carga - Estado epiléptico (adulto)",
+          "descricaoDose": "20-40 mg/kg IV en 10 min (máx 3000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Enfermedad hepática activa: contraindicado; insuficiencia hepática leve/moderada: reducir o evitar"
+          }
+        },
+        {
+          "titulo": "Carga - Estado epiléptico (pediátrico)",
+          "descricaoDose": "20-40 mg/kg IV en 10 min (máx 3000 mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Enfermedad hepática activa: contraindicado; insuficiencia hepática leve/moderada: reducir o evitar"
+          }
+        },
+        {
+          "titulo": "Infusión continua",
+          "descricaoDose": "1-2 mg/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Enfermedad hepática activa: contraindicado"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (adulto)",
+          "descricaoDose": "10-15 mg/kg/día IV/VO dividido 2-3x",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "2-3x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Enfermedad hepática activa: contraindicado"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (pediátrico)",
+          "descricaoDose": "10-15 mg/kg/día IV/VO dividido 2-3x (máx 60 mg/kg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": 60,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "2-3x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Enfermedad hepática activa: contraindicado"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión continua",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100 mg/mL (ampolla sin diluir)", "valor": 100 },
+            { "rotulo": "500 mg en 25 mL SF (20 mg/mL)", "valor": 20 },
+            { "rotulo": "500 mg en 50 mL SF (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico de amplio espectro - Ácido valproico / Valproato sódico",
+      "apresentacoes": [
+        { "forma": "Ampolla 100 mg/mL (5 mL = 500 mg)", "obs": "Uso IV" },
+        { "forma": "Comprimidos 250 mg, 500 mg", "obs": "Vía oral" },
+        { "forma": "Comprimidos liberación prolongada 250 mg, 500 mg", "obs": "Vía oral" },
+        { "forma": "Jarabe 250 mg/5 mL", "obs": "Vía oral" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir en SF 0,9% o SG 5%", "concentracao": "En 10-15 min (carga)" },
+        { "diluicao": "500 mg en 25 mL SF", "concentracao": "20 mg/mL" },
+        { "diluicao": "500 mg en 50 mL SF", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "Inicio de acción IV: 15-30 min; vida media 9-16 h",
+        "Nivel sérico objetivo: 50-100 mcg/mL; extracción 2-4 h tras dosis IV",
+        "Contraindicado: enfermedad hepática activa, trastornos del ciclo de la urea, trastornos mitocondriales, porfiria",
+        "Monitorizar: TGO, TGP, bilirrubina, amoníaco (si alteración del nivel de consciencia), hemograma con plaquetas",
+        "Alta teratogenicidad (categoría X): defectos del tubo neural; evitar en mujeres en edad fértil",
+        "Interacciones: inhibe CYP2C9 (aumenta fenitoína), desplaza fenitoína de proteínas, aumenta lamotrigina"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Monitorizar efectos sedantes y hepáticos. Ajustar por función hepática si procede.",
+        "renal": "No requiere ajuste específico. Metabolismo predominantemente hepático.",
+        "hepatico": "Contraindicado en enfermedad hepática activa. En insuficiencia hepática leve/moderada: reducir dosis o evitar. Riesgo de hepatotoxicidad (mayor en < 2 años)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Valproato (carga adulto)",
+        "doseTexto": "20-40 mg/kg IV en 10 min (máx 3000 mg)",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Valproato (carga pediátrico)",
+        "doseTexto": "20-40 mg/kg IV en 10 min (máx 3000 mg)",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Valproato (infusión)",
+        "doseTexto": "1-2 mg/kg/h IV",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "Valproato (mantenimiento adulto)",
+        "doseTexto": "10-15 mg/kg/día IV/VO 2-3x/día",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Valproato (mantenimiento pediátrico)",
+        "doseTexto": "10-15 mg/kg/día 2-3x/día (máx 60 mg/kg/día)",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "丙戊酸",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "负荷量 - 癫痫持续状态（成人）",
+          "descricaoDose": "20-40 mg/kg IV 10分钟内（最大3000 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "活动性肝病：禁忌；轻中度肝衰竭：减量或避免"
+          }
+        },
+        {
+          "titulo": "负荷量 - 癫痫持续状态（儿童）",
+          "descricaoDose": "20-40 mg/kg IV 10分钟内（最大3000 mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 30,
+            "doseMin": 20,
+            "doseMax": 40,
+            "doseMaxima": 3000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "活动性肝病：禁忌；轻中度肝衰竭：减量或避免"
+          }
+        },
+        {
+          "titulo": "持续输注",
+          "descricaoDose": "1-2 mg/kg/h IV",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/h",
+            "dosePorKg": null,
+            "doseMin": 1,
+            "doseMax": 2,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Todas",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "活动性肝病：禁忌"
+          }
+        },
+        {
+          "titulo": "维持量（成人）",
+          "descricaoDose": "10-15 mg/kg/日 IV/口服 分2-3次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "活动性肝病：禁忌"
+          }
+        },
+        {
+          "titulo": "维持量（儿童）",
+          "descricaoDose": "10-15 mg/kg/日 IV/口服 分2-3次（最大60 mg/kg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg/kg/dia",
+            "dosePorKg": 12.5,
+            "doseMin": 10,
+            "doseMax": 15,
+            "doseMaxima": 60,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "每日2-3次",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "活动性肝病：禁忌"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/kg/h",
+          "adulto": { "doseMin": 1, "doseMax": 2 },
+          "pediatrico": { "doseMin": 1, "doseMax": 2 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "100 mg/mL（原液）", "valor": 100 },
+            { "rotulo": "500 mg 溶于25 mL生理盐水 (20 mg/mL)", "valor": 20 },
+            { "rotulo": "500 mg 溶于50 mL生理盐水 (10 mg/mL)", "valor": 10 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "广谱抗癫痫药 - 丙戊酸/丙戊酸钠",
+      "apresentacoes": [
+        { "forma": "安瓿 100 mg/mL (5 mL = 500 mg)", "obs": "静脉用" },
+        { "forma": "片剂 250 mg, 500 mg", "obs": "口服" },
+        { "forma": "缓释片 250 mg, 500 mg", "obs": "口服" },
+        { "forma": "糖浆 250 mg/5 mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "用生理盐水或5%葡萄糖稀释静滴", "concentracao": "10-15分钟（负荷）" },
+        { "diluicao": "500 mg 溶于25 mL生理盐水", "concentracao": "20 mg/mL" },
+        { "diluicao": "500 mg 溶于50 mL生理盐水", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "静脉起效15-30分钟；半衰期9-16小时",
+        "目标血药浓度50-100 mcg/mL；静注后2-4小时采血",
+        "禁忌：活动性肝病、尿素循环障碍、已知线粒体病、卟啉症",
+        "监测：转氨酶、胆红素、血氨（意识改变时）、血常规与血小板",
+        "高致畸性（X类）：神经管缺陷；育龄妇女避免使用",
+        "相互作用：抑制CYP2C9（升高苯妥英）、置换苯妥英、升高拉莫三嗪"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "监测镇静及肝功。必要时按肝功能调整。",
+        "renal": "无需调整。主要经肝代谢。",
+        "hepatico": "活动性肝病禁忌。轻中度肝衰竭减量或避免。肝毒性风险（<2岁更高）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "丙戊酸（成人负荷）",
+        "doseTexto": "20-40 mg/kg IV 10分钟内（最大3000 mg）",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "丙戊酸（儿童负荷）",
+        "doseTexto": "20-40 mg/kg IV 10分钟内（最大3000 mg）",
+        "doseMin": 20,
+        "doseMax": 40,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "丙戊酸（输注）",
+        "doseTexto": "1-2 mg/kg/h IV",
+        "doseMin": 1,
+        "doseMax": 2,
+        "unidadeResultado": "mg/h",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Todas"
+      },
+      {
+        "nome": "丙戊酸（成人维持）",
+        "doseTexto": "10-15 mg/kg/日 2-3次 IV/口服",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "丙戊酸（儿童维持）",
+        "doseTexto": "10-15 mg/kg/日 2-3次（最大60 mg/kg/日）",
+        "doseMin": 10,
+        "doseMax": 15,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  }
+}

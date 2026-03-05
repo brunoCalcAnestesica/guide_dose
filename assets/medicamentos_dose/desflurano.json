@@ -1,0 +1,726 @@
+{
+  "PT": {
+    "nome": "Desflurano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Indução (após indução IV) - Adulto",
+          "descricaoDose": "4-12%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-12%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção com N₂O/O₂ - Adulto",
+          "descricaoDose": "6-10%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "6-10%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção anestésica - Adulto",
+          "descricaoDose": "4-8% (MAC 1,0-2,0)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-8%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção (idoso) - Adulto",
+          "descricaoDose": "3-6% (MAC 0,5-1,5)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "3-6%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Manutenção anestésica - Pediátrico",
+          "descricaoDose": "4-8% (MAC 1,0-2,0)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-8%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico inalatório halogenado - Agente de manutenção anestésica",
+      "apresentacoes": [
+        { "forma": "Líquido volátil", "obs": "Frasco 240 mL" },
+        { "forma": "Concentração", "obs": "100% (puro)" }
+      ],
+      "preparo": [
+        { "diluicao": "Vaporizador específico", "concentracao": "Tec 6 ou equivalente" },
+        { "diluicao": "Aquecer a 39°C", "concentracao": "Vaporização controlada" },
+        { "diluicao": "Fluxo de gás fresco", "concentracao": "Mínimo 2 L/min" },
+        { "diluicao": "Monitorar concentração expirada", "concentracao": "Capnografia obrigatória" }
+      ],
+      "observacoes": [
+        "Contraindicado: hipertermia maligna",
+        "Irritante das vias aéreas (tosse) - evitar indução inalatória em crianças",
+        "Baixa solubilidade sanguínea = recuperação rápida",
+        "Monitorar função hepática",
+        "Evitar em pacientes com asma",
+        "Concentração expirada: 4-8%. MAC adultos 1,0-2,0; idosos 0,5-1,5"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Manutenção 3-6% (MAC 0,5-1,5). Reduzir concentração.",
+        "renal": "Não requer ajuste. Eliminação pulmonar predominante.",
+        "hepatico": "Monitorar função hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Desflurano - Indução após IV (adulto)",
+        "doseTexto": "4-12%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-12%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Desflurano - Manutenção N₂O/O₂ (adulto)",
+        "doseTexto": "6-10%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "6-10%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Desflurano - Manutenção (adulto)",
+        "doseTexto": "4-8% (MAC 1,0-2,0)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-8%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Desflurano - Manutenção (idoso)",
+        "doseTexto": "3-6% (MAC 0,5-1,5)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "3-6%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Desflurano - Manutenção (pediátrico)",
+        "doseTexto": "4-8% (MAC 1,0-2,0)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-8%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Desflurane",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Induction (after IV induction) - Adult",
+          "descricaoDose": "4-12%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-12%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance with N₂O/O₂ - Adult",
+          "descricaoDose": "6-10%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "6-10%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anesthetic maintenance - Adult",
+          "descricaoDose": "4-8% (MAC 1.0-2.0)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-8%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Maintenance (elderly) - Adult",
+          "descricaoDose": "3-6% (MAC 0.5-1.5)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "3-6%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anesthetic maintenance - Pediatric",
+          "descricaoDose": "4-8% (MAC 1.0-2.0)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-8%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Halogenated inhalational anesthetic - Anesthetic maintenance agent",
+      "apresentacoes": [
+        { "forma": "Volatile liquid", "obs": "240 mL bottle" },
+        { "forma": "Concentration", "obs": "100% (pure)" }
+      ],
+      "preparo": [
+        { "diluicao": "Specific vaporizer", "concentracao": "Tec 6 or equivalent" },
+        { "diluicao": "Heat to 39°C", "concentracao": "Controlled vaporization" },
+        { "diluicao": "Fresh gas flow", "concentracao": "Minimum 2 L/min" },
+        { "diluicao": "Monitor end-tidal concentration", "concentracao": "Capnography mandatory" }
+      ],
+      "observacoes": [
+        "Contraindicated: malignant hyperthermia",
+        "Airway irritant (cough) - avoid inhalational induction in children",
+        "Low blood solubility = rapid recovery",
+        "Monitor hepatic function",
+        "Avoid in patients with asthma",
+        "End-tidal concentration: 4-8%. MAC adults 1.0-2.0; elderly 0.5-1.5"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Maintenance 3-6% (MAC 0.5-1.5). Reduce concentration.",
+        "renal": "No dose adjustment. Predominant pulmonary elimination.",
+        "hepatico": "Monitor hepatic function."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Desflurane - Induction after IV (adult)",
+        "doseTexto": "4-12%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-12%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Desflurane - Maintenance N₂O/O₂ (adult)",
+        "doseTexto": "6-10%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "6-10%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Desflurane - Maintenance (adult)",
+        "doseTexto": "4-8% (MAC 1.0-2.0)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-8%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Desflurane - Maintenance (elderly)",
+        "doseTexto": "3-6% (MAC 0.5-1.5)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "3-6%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Desflurane - Maintenance (pediatric)",
+        "doseTexto": "4-8% (MAC 1.0-2.0)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-8%",
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Desflurano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Inducción (tras inducción IV) - Adulto",
+          "descricaoDose": "4-12%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-12%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento con N₂O/O₂ - Adulto",
+          "descricaoDose": "6-10%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "6-10%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento anestésico - Adulto",
+          "descricaoDose": "4-8% (CAM 1,0-2,0)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-8%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento (anciano) - Adulto",
+          "descricaoDose": "3-6% (CAM 0,5-1,5)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "3-6%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Mantenimiento anestésico - Pediátrico",
+          "descricaoDose": "4-8% (CAM 1,0-2,0)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-8%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico inhalatorio halogenado - Agente de mantenimiento anestésico",
+      "apresentacoes": [
+        { "forma": "Líquido volátil", "obs": "Frasco 240 mL" },
+        { "forma": "Concentración", "obs": "100% (puro)" }
+      ],
+      "preparo": [
+        { "diluicao": "Vaporizador específico", "concentracao": "Tec 6 u equivalente" },
+        { "diluicao": "Calentar a 39°C", "concentracao": "Vaporización controlada" },
+        { "diluicao": "Flujo de gas fresco", "concentracao": "Mínimo 2 L/min" },
+        { "diluicao": "Monitorizar concentración espirada", "concentracao": "Capnografía obligatoria" }
+      ],
+      "observacoes": [
+        "Contraindicado: hipertermia maligna",
+        "Irritante vías aéreas (tos) - evitar inducción inhalatoria en niños",
+        "Baja solubilidad sanguínea = recuperación rápida",
+        "Monitorizar función hepática",
+        "Evitar en pacientes con asma",
+        "Concentración espirada: 4-8%. CAM adultos 1,0-2,0; ancianos 0,5-1,5"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Mantenimiento 3-6% (CAM 0,5-1,5). Reducir concentración.",
+        "renal": "No requiere ajuste. Eliminación pulmonar predominante.",
+        "hepatico": "Monitorizar función hepática."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Desflurano - Inducción tras IV (adulto)",
+        "doseTexto": "4-12%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-12%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Desflurano - Mantenimiento N₂O/O₂ (adulto)",
+        "doseTexto": "6-10%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "6-10%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Desflurano - Mantenimiento (adulto)",
+        "doseTexto": "4-8% (CAM 1,0-2,0)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-8%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Desflurano - Mantenimiento (anciano)",
+        "doseTexto": "3-6% (CAM 0,5-1,5)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "3-6%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Desflurano - Mantenimiento (pediátrico)",
+        "doseTexto": "4-8% (CAM 1,0-2,0)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-8%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "地氟烷",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "诱导（IV诱导后） - 成人",
+          "descricaoDose": "4-12%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-12%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "N₂O/O₂维持 - 成人",
+          "descricaoDose": "6-10%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "6-10%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "麻醉维持 - 成人",
+          "descricaoDose": "4-8%（MAC 1.0-2.0）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-8%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "维持（老年） - 成人",
+          "descricaoDose": "3-6%（MAC 0.5-1.5）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "3-6%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "麻醉维持 - 儿童",
+          "descricaoDose": "4-8%（MAC 1.0-2.0）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "4-8%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "卤化吸入麻醉药 - 麻醉维持药",
+      "apresentacoes": [
+        { "forma": "挥发性液体", "obs": "240 mL 瓶" },
+        { "forma": "浓度", "obs": "100%（纯）" }
+      ],
+      "preparo": [
+        { "diluicao": "专用蒸发器", "concentracao": "Tec 6 或等效" },
+        { "diluicao": "加热至39°C", "concentracao": "受控蒸发" },
+        { "diluicao": "新鲜气流量", "concentracao": "至少 2 L/min" },
+        { "diluicao": "监测呼气浓度", "concentracao": "必须监测二氧化碳" }
+      ],
+      "observacoes": [
+        "禁忌：恶性高热",
+        "气道刺激（咳嗽）- 儿童避免吸入诱导",
+        "血溶解度低 = 苏醒快",
+        "监测肝功能",
+        "哮喘患者避免使用",
+        "呼气浓度：4-8%。成人MAC 1.0-2.0；老年0.5-1.5"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "维持 3-6%（MAC 0.5-1.5）。降低浓度。",
+        "renal": "无需调整。主要经肺消除。",
+        "hepatico": "监测肝功能。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "地氟烷 - IV诱导后（成人）",
+        "doseTexto": "4-12%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-12%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地氟烷 - N₂O/O₂维持（成人）",
+        "doseTexto": "6-10%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "6-10%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地氟烷 - 维持（成人）",
+        "doseTexto": "4-8%（MAC 1.0-2.0）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-8%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地氟烷 - 维持（老年）",
+        "doseTexto": "3-6%（MAC 0.5-1.5）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "3-6%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "地氟烷 - 维持（儿童）",
+        "doseTexto": "4-8%（MAC 1.0-2.0）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "4-8%",
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

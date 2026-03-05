@@ -1,0 +1,74 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Fondaparinux sódico",
+      "nome_comercial": ["Arixtra"],
+      "classe_terapeutica": "Anticoagulante - Inibidor indireto do fator Xa",
+      "mecanismo_acao": "Pentassacarídeo sintético que se liga seletivamente à antitrombina III, potencializando a inibição do fator Xa. Não inibe a trombina diretamente.",
+      "indicacoes": [
+        "Profilaxia de TVP em cirurgias ortopédicas e abdominais",
+        "Tratamento de TVP e TEP",
+        "Síndrome coronariana aguda (SCA)",
+        "Alternativa em pacientes com HIT"
+      ],
+      "contraindicacoes": [
+        "ClCr < 30 mL/min",
+        "Sangramento ativo",
+        "Endocardite bacteriana",
+        "Peso < 50 kg (profilaxia - risco aumentado de sangramento)",
+        "Hipersensibilidade ao fondaparinux"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Seringa preenchida",
+          "concentracao": "2,5 mg/0,5 mL",
+          "indicacao": "Profilaxia"
+        },
+        {
+          "forma": "Seringa preenchida",
+          "concentracao": "5 mg/0,4 mL",
+          "indicacao": "Tratamento <50 kg"
+        },
+        {
+          "forma": "Seringa preenchida",
+          "concentracao": "7,5 mg/0,6 mL",
+          "indicacao": "Tratamento 50-100 kg"
+        },
+        {
+          "forma": "Seringa preenchida",
+          "concentracao": "10 mg/0,8 mL",
+          "indicacao": "Tratamento >100 kg"
+        }
+      ],
+      "farmacocinetica": {
+        "biodisponibilidade_sc": "100%",
+        "inicio_acao": "2-3 horas",
+        "pico": "2-3 horas",
+        "meia_vida": "17-21 horas",
+        "metabolismo": "Nenhum",
+        "excrecao": "Renal (77% inalterado)"
+      },
+      "efeitos_adversos": [
+        "Sangramento",
+        "Anemia",
+        "Trombocitopenia (rara)",
+        "Reação no local da injeção",
+        "Elevação de transaminases"
+      ],
+      "vantagens": [
+        "NÃO causa HIT",
+        "Dose fixa baseada no peso",
+        "Uma vez ao dia",
+        "Não necessita monitoramento de rotina"
+      ],
+      "desvantagens": [
+        "NÃO tem antídoto específico",
+        "Protamina não reverte",
+        "Contraindicado em IR grave"
+      ],
+      "estabilidade": {
+        "temperatura_ambiente": "Sim, até 25°C"
+      }
+    }
+  }
+}

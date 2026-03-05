@@ -1,0 +1,73 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Pralidoxima (Cloreto de Pralidoxima)",
+      "nomesComerciais": ["Contrathion®", "Protopam®", "2-PAM"],
+      "classeTerapeutica": "Antídoto / Reativador da Acetilcolinesterase",
+      "mecanismoAcao": "A pralidoxima é uma oxima que reativa a acetilcolinesterase inibida por organofosforados. Age removendo o grupo fosforil ligado à enzima antes que ocorra o 'envelhecimento' (aging), processo que torna a ligação irreversível. Atua principalmente nos receptores nicotínicos (junção neuromuscular), revertendo a fraqueza muscular e fasciculações.",
+      "indicacoes": [
+        "Intoxicação por organofosforados (inseticidas)",
+        "Intoxicação por agentes de guerra química (sarin, soman, tabun, VX)",
+        "Intoxicação por carbamatos (controverso, pois não ocorre envelhecimento)"
+      ],
+      "apresentacoes": [
+        "Ampola 200mg/mL (20mL) = 4g",
+        "Frasco-ampola 1g pó liofilizado",
+        "Auto-injetor 600mg (uso militar)"
+      ],
+      "posologia": {
+        "adulto": {
+          "dose_ataque": "1-2 g IV em 15-30 minutos",
+          "repeticao": "Repetir 1-2 g a cada 1 hora se fraqueza persistir",
+          "infusao_continua": "500 mg/h IV (alternativa preferencial em casos graves)",
+          "dose_maxima": "12 g/dia"
+        },
+        "pediatrico": {
+          "dose_ataque": "25-50 mg/kg IV em 15-30 minutos (máx 2g)",
+          "infusao_continua": "10-20 mg/kg/h IV"
+        }
+      },
+      "farmacocinetica": {
+        "inicio_acao": "10-40 minutos",
+        "pico": "1-2 horas",
+        "meia_vida": "1,2-2,5 horas",
+        "distribuicao": "Não atravessa bem a barreira hematoencefálica",
+        "metabolismo": "Hepático (parcial)",
+        "eliminacao": "Renal (80-90% inalterada)"
+      },
+      "ajusteRenal": "Reduzir dose em IR - eliminação prolongada",
+      "ajusteHepatico": "Não necessário ajuste",
+      "contraindicacoes": [
+        "Hipersensibilidade conhecida",
+        "Intoxicação por carbamatos (relativa - controverso)"
+      ],
+      "efeitosAdversos": [
+        "Taquicardia",
+        "Hipertensão",
+        "Rigidez muscular (infusão rápida)",
+        "Laringoespasmo (infusão rápida)",
+        "Cefaleia",
+        "Diplopia, visão turva",
+        "Náuseas",
+        "Fraqueza transitória"
+      ],
+      "interacoes": [
+        "Atropina: usar em conjunto (efeito sinérgico)",
+        "Succinilcolina: pode ter duração prolongada",
+        "Miorelaxantes: podem ter efeito potencializado"
+      ],
+      "observacoes": [
+        "USAR SEMPRE EM CONJUNTO COM ATROPINA",
+        "Iniciar nas primeiras 24-48h após exposição",
+        "Após 'envelhecimento' da enzima (24-48h), pralidoxima é ineficaz",
+        "Tempo de envelhecimento varia por composto: soman (2 min), sarin (5h), VX (>40h)",
+        "Infusão rápida causa rigidez muscular e laringoespasmo",
+        "Atropinizar primeiro, depois iniciar pralidoxima",
+        "Endpoint: melhora da força muscular e redução de fasciculações",
+        "Não é eficaz para sintomas muscarínicos (usar atropina)",
+        "Monitorar: força muscular, sinais vitais, colinesterase sérica"
+      ],
+      "categoriaGravidez": "C"
+    }
+  }
+}

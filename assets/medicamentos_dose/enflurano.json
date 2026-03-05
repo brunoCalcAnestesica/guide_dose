@@ -1,0 +1,730 @@
+{
+  "PT": {
+    "nome": "Enflurano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anestesia geral - Indução - Adulto",
+          "descricaoDose": "Concentração inicial: 3-4%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "3-4%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anestesia geral - Manutenção - Adulto",
+          "descricaoDose": "Concentração: 1,5-3%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1,5-3%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anestesia ambulatorial - Adulto",
+          "descricaoDose": "Concentração: 1-2%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anestesia pediátrica - Indução",
+          "descricaoDose": "Concentração inicial: 2,5-3,5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2,5-3,5%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "indução",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Anestesia pediátrica - Manutenção",
+          "descricaoDose": "Concentração: 1-2,5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2,5%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inalação",
+            "intervalo": "manutenção anestésica",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico inalatório halogenado - Éter fluorado",
+      "apresentacoes": [
+        { "forma": "Enflurano líquido", "obs": "Frasco 100 mL - concentração 100%" },
+        { "forma": "Enflurano líquido", "obs": "Frasco 250 mL - concentração 100%" }
+      ],
+      "preparo": [
+        { "diluicao": "Vaporizador de precisão", "concentracao": "Calibrar antes do uso" },
+        { "diluicao": "Circuito", "concentracao": "Fechado ou semi-fechado" },
+        { "diluicao": "Monitorização", "concentracao": "Concentração expirada (FAC)" },
+        { "diluicao": "MAC adulto", "concentracao": "1,68%" },
+        { "diluicao": "MAC crianças", "concentracao": "2,2%" }
+      ],
+      "observacoes": [
+        "Anestésico inalatório de uso hospitalar",
+        "MAC: 1,68% (adultos), 2,2% (crianças). Indução: 3-4%, Manutenção: 1,5-3%",
+        "Cautela em epilepsia (pode causar convulsões)",
+        "Metabolização hepática (2-8%)",
+        "Contraindicado em hipertensão intracraniana",
+        "Monitorar função renal em uso prolongado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir concentração. Titular conforme resposta.",
+        "renal": "Contraindicado em insuficiência renal grave. Cautela em DRC; monitorar função renal.",
+        "hepatico": "Contraindicado em insuficiência hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Enflurano - Indução (adulto)",
+        "doseTexto": "3-4% (concentração inicial)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "3-4%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enflurano - Manutenção (adulto)",
+        "doseTexto": "1,5-3%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1,5-3%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enflurano - Ambulatorial (adulto)",
+        "doseTexto": "1-2%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enflurano - Indução (pediátrico)",
+        "doseTexto": "2,5-3,5% (concentração inicial)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2,5-3,5%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Enflurano - Manutenção (pediátrico)",
+        "doseTexto": "1-2,5%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2,5%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Enflurane",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "General anesthesia - Induction - Adult",
+          "descricaoDose": "Initial concentration: 3-4%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "3-4%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "General anesthesia - Maintenance - Adult",
+          "descricaoDose": "Concentration: 1.5-3%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1.5-3%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Ambulatory anesthesia - Adult",
+          "descricaoDose": "Concentration: 1-2%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2%",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric anesthesia - Induction",
+          "descricaoDose": "Initial concentration: 2.5-3.5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2.5-3.5%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "induction",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Pediatric anesthesia - Maintenance",
+          "descricaoDose": "Concentration: 1-2.5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2.5%",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "Inhalation",
+            "intervalo": "anesthetic maintenance",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Halogenated inhalational anesthetic - Fluorinated ether",
+      "apresentacoes": [
+        { "forma": "Enflurane liquid", "obs": "100 mL bottle - 100% concentration" },
+        { "forma": "Enflurane liquid", "obs": "250 mL bottle - 100% concentration" }
+      ],
+      "preparo": [
+        { "diluicao": "Precision vaporizer", "concentracao": "Calibrate before use" },
+        { "diluicao": "Circuit", "concentracao": "Closed or semi-closed" },
+        { "diluicao": "Monitoring", "concentracao": "End-tidal concentration (FAC)" },
+        { "diluicao": "Adult MAC", "concentracao": "1.68%" },
+        { "diluicao": "Pediatric MAC", "concentracao": "2.2%" }
+      ],
+      "observacoes": [
+        "Hospital-use inhalational anesthetic",
+        "MAC: 1.68% (adults), 2.2% (children). Induction: 3-4%, Maintenance: 1.5-3%",
+        "Caution in epilepsy (may cause seizures)",
+        "Hepatic metabolism (2-8%)",
+        "Contraindicated in intracranial hypertension",
+        "Monitor renal function with prolonged use"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce concentration. Titrate to response.",
+        "renal": "Contraindicated in severe renal failure. Caution in CKD; monitor renal function.",
+        "hepatico": "Contraindicated in severe hepatic failure."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Enflurane - Induction (adult)",
+        "doseTexto": "3-4% (initial concentration)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "3-4%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Enflurane - Maintenance (adult)",
+        "doseTexto": "1.5-3%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1.5-3%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Enflurane - Ambulatory (adult)",
+        "doseTexto": "1-2%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2%",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Enflurane - Induction (pediatric)",
+        "doseTexto": "2.5-3.5% (initial concentration)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2.5-3.5%",
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Enflurane - Maintenance (pediatric)",
+        "doseTexto": "1-2.5%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2.5%",
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Enflurano",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Anestesia general - Inducción - Adulto",
+          "descricaoDose": "Concentración inicial: 3-4%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "3-4%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anestesia general - Mantenimiento - Adulto",
+          "descricaoDose": "Concentración: 1,5-3%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1,5-3%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anestesia ambulatoria - Adulto",
+          "descricaoDose": "Concentración: 1-2%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2%",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anestesia pediátrica - Inducción",
+          "descricaoDose": "Concentración inicial: 2,5-3,5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2,5-3,5%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "inducción",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Anestesia pediátrica - Mantenimiento",
+          "descricaoDose": "Concentración: 1-2,5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2,5%",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "Inhalación",
+            "intervalo": "mantenimiento anestésico",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Anestésico inhalatorio halogenado - Éter fluorado",
+      "apresentacoes": [
+        { "forma": "Enflurano líquido", "obs": "Frasco 100 mL - concentración 100%" },
+        { "forma": "Enflurano líquido", "obs": "Frasco 250 mL - concentración 100%" }
+      ],
+      "preparo": [
+        { "diluicao": "Vaporizador de precisión", "concentracao": "Calibrar antes del uso" },
+        { "diluicao": "Circuito", "concentracao": "Cerrado o semi-cerrado" },
+        { "diluicao": "Monitorización", "concentracao": "Concentración espirada (FAC)" },
+        { "diluicao": "CAM adulto", "concentracao": "1,68%" },
+        { "diluicao": "CAM niños", "concentracao": "2,2%" }
+      ],
+      "observacoes": [
+        "Anestésico inhalatorio de uso hospitalario",
+        "CAM: 1,68% (adultos), 2,2% (niños). Inducción: 3-4%, Mantenimiento: 1,5-3%",
+        "Precaución en epilepsia (puede causar convulsiones)",
+        "Metabolización hepática (2-8%)",
+        "Contraindicado en hipertensión intracraneal",
+        "Monitorizar función renal en uso prolongado"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir concentración. Titular según respuesta.",
+        "renal": "Contraindicado en insuficiencia renal grave. Precaución en ERC; monitorizar función renal.",
+        "hepatico": "Contraindicado en insuficiencia hepática grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Enflurano - Inducción (adulto)",
+        "doseTexto": "3-4% (concentración inicial)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "3-4%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enflurano - Mantenimiento (adulto)",
+        "doseTexto": "1,5-3%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1,5-3%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enflurano - Ambulatorio (adulto)",
+        "doseTexto": "1-2%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2%",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Enflurano - Inducción (pediátrico)",
+        "doseTexto": "2,5-3,5% (concentración inicial)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2,5-3,5%",
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Enflurano - Mantenimiento (pediátrico)",
+        "doseTexto": "1-2,5%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2,5%",
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "恩氟烷",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "全身麻醉 - 诱导 - 成人",
+          "descricaoDose": "初始浓度：3-4%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "3-4%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "全身麻醉 - 维持 - 成人",
+          "descricaoDose": "浓度：1.5-3%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1.5-3%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "门诊麻醉 - 成人",
+          "descricaoDose": "浓度：1-2%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2%",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童麻醉 - 诱导",
+          "descricaoDose": "初始浓度：2.5-3.5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "2.5-3.5%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "诱导",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        },
+        {
+          "titulo": "儿童麻醉 - 维持",
+          "descricaoDose": "浓度：1-2.5%",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "%",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "1-2.5%",
+            "faixaEtaria": "儿童",
+            "sexo": "全部",
+            "via": "吸入",
+            "intervalo": "麻醉维持",
+            "ajusteRenal": "无需调整",
+            "ajusteHepatico": "无需调整"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "卤化吸入麻醉药 - 氟化醚",
+      "apresentacoes": [
+        { "forma": "恩氟烷液体", "obs": "100 mL 瓶 - 浓度 100%" },
+        { "forma": "恩氟烷液体", "obs": "250 mL 瓶 - 浓度 100%" }
+      ],
+      "preparo": [
+        { "diluicao": "精密蒸发器", "concentracao": "使用前校准" },
+        { "diluicao": "回路", "concentracao": "紧闭或半紧闭" },
+        { "diluicao": "监测", "concentracao": "呼气浓度 (FAC)" },
+        { "diluicao": "成人MAC", "concentracao": "1.68%" },
+        { "diluicao": "儿童MAC", "concentracao": "2.2%" }
+      ],
+      "observacoes": [
+        "医院用吸入麻醉药",
+        "MAC：1.68%（成人），2.2%（儿童）。诱导：3-4%，维持：1.5-3%",
+        "癫痫慎用（可能引起抽搐）",
+        "肝代谢（2-8%）",
+        "颅内高压禁用",
+        "长期使用需监测肾功能"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "降低浓度。按反应滴定。",
+        "renal": "严重肾功能不全禁用。慢性肾病慎用；监测肾功能。",
+        "hepatico": "严重肝功能不全禁用。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "恩氟烷 - 诱导（成人）",
+        "doseTexto": "3-4%（初始浓度）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "3-4%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "恩氟烷 - 维持（成人）",
+        "doseTexto": "1.5-3%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1.5-3%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "恩氟烷 - 门诊（成人）",
+        "doseTexto": "1-2%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2%",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "恩氟烷 - 诱导（儿童）",
+        "doseTexto": "2.5-3.5%（初始浓度）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "2.5-3.5%",
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "恩氟烷 - 维持（儿童）",
+        "doseTexto": "1-2.5%",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "%",
+        "decimais": 1,
+        "resultadoFixo": "1-2.5%",
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

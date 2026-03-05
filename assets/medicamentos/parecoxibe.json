@@ -1,0 +1,77 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Parecoxibe (Sódico)",
+      "nomesComerciais": ["Dynastat®", "Bextra IV®"],
+      "classeTerapeutica": "AINE / Inibidor seletivo COX-2",
+      "mecanismoAcao": "Pró-fármaco do valdecoxibe, um inibidor seletivo da ciclooxigenase-2 (COX-2). Após administração parenteral, é rapidamente convertido em valdecoxibe. A seletividade para COX-2 confere menor risco de efeitos gastrointestinais comparado aos AINEs não-seletivos.",
+      "indicacoes": [
+        "Dor pós-operatória de curta duração",
+        "Dor aguda quando via oral não é possível"
+      ],
+      "apresentacoes": [
+        "Frasco-ampola 40mg pó liofilizado + diluente"
+      ],
+      "posologia": {
+        "adulto": {
+          "iv_im_inicial": "40 mg IV/IM",
+          "iv_im_manutencao": "20-40 mg a cada 6-12h",
+          "maximo": "80 mg/dia",
+          "duracao": "Máximo 3 dias"
+        },
+        "idoso_peso_baixo_ir": {
+          "iv_im": "20 mg a cada 12h (máx 40 mg/dia)",
+          "observacao": "Pacientes >65 anos, <50kg ou IR moderada"
+        },
+        "pediatrico": {
+          "observacao": "Não recomendado em crianças (<18 anos)"
+        }
+      },
+      "farmacocinetica": {
+        "inicio_acao": "7-14 min (IV)",
+        "pico_plasmatico": "30 min (parecoxibe), 1h (valdecoxibe)",
+        "duracao": "6-12 horas",
+        "meia_vida": "8 horas (valdecoxibe)",
+        "metabolismo": "Conversão em valdecoxibe, depois hepático (CYP3A4, CYP2C9)",
+        "eliminacao": "Renal (70%) e fecal (30%)"
+      },
+      "ajusteRenal": "IR leve/moderada: usar dose menor (20 mg). IR grave: evitar",
+      "ajusteHepatico": "IH moderada: máx 40 mg/dia. IH grave: contraindicado",
+      "contraindicacoes": [
+        "Alergia a sulfonamidas",
+        "Doença cardíaca isquêmica estabelecida",
+        "Doença cerebrovascular",
+        "Doença arterial periférica",
+        "Insuficiência cardíaca (NYHA II-IV)",
+        "Cirurgia de revascularização coronária",
+        "Gestação e lactação",
+        "Insuficiência hepática grave"
+      ],
+      "efeitosAdversos": [
+        "Náuseas, vômitos",
+        "Dor/reação no local da injeção",
+        "Prurido",
+        "Hipotensão",
+        "Oligúria",
+        "Eventos cardiovasculares (IAM, AVC) - uso prolongado"
+      ],
+      "interacoes": [
+        "Anticoagulantes: monitorar INR",
+        "Fluconazol: aumenta níveis de valdecoxibe",
+        "Lítio: aumenta níveis séricos",
+        "Diuréticos: reduz eficácia",
+        "IECAs/BRAs: reduz efeito anti-hipertensivo"
+      ],
+      "observacoes": [
+        "INIBIDOR COX-2 SELETIVO: menor risco GI, maior risco CV",
+        "Uso máximo de 3 dias",
+        "Não usar em cirurgia cardíaca",
+        "Reconstituir com 2mL de SF 0,9%",
+        "Administrar em bolus IV (≥15 segundos)",
+        "Usar imediatamente após reconstituição",
+        "Não usar em crianças, gestantes ou lactantes"
+      ],
+      "categoriaGravidez": "Contraindicado"
+    }
+  }
+}

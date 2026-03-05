@@ -1,0 +1,906 @@
+{
+  "PT": {
+    "nome": "Diclofenaco",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor/inflamação IM (adulto)",
+          "descricaoDose": "75 mg 1-2x/dia. Máx 150 mg/dia. Duração IM máx 2 dias.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 150,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1-2x/dia",
+            "ajusteRenal": "ClCr <30: evitar ou usar com cautela",
+            "ajusteHepatico": "Reduzir dose em hepatopatia; evitar em grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor/inflamação IV (adulto)",
+          "descricaoDose": "75 mg diluído em 100-500 mL, infusão em 30-120 min (dose única).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única (30-120 min)",
+            "ajusteRenal": "ClCr <30: evitar ou usar com cautela",
+            "ajusteHepatico": "Reduzir dose em hepatopatia; evitar em grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor/inflamação VO (adulto)",
+          "descricaoDose": "50 mg 2-3x/dia ou 75-100 mg 1x/dia (liberação prolongada). Máx 150 mg/dia. Tomar com alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 150,
+            "doseFixa": "50 mg 2-3x/dia ou 75-100 mg 1x/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/dia ou 1x/dia (LP)",
+            "ajusteRenal": "ClCr <30: evitar ou usar com cautela",
+            "ajusteHepatico": "Reduzir dose em hepatopatia; evitar em grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor/inflamação retal (adulto)",
+          "descricaoDose": "50-100 mg 1-2x/dia",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2x/dia",
+            "ajusteRenal": "ClCr <30: evitar ou usar com cautela",
+            "ajusteHepatico": "Reduzir dose em hepatopatia; evitar em grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor IM (pediátrico >1 ano)",
+          "descricaoDose": "1 mg/kg dose única (máx 75 mg). Idade mínima >1 ano.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 75,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: evitar ou usar com cautela",
+            "ajusteHepatico": "Evitar em hepatopatia grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dor VO (pediátrico >1 ano)",
+          "descricaoDose": "0,5-2 mg/kg/dia dividido em 2-3 doses. Idade mínima >1 ano.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 75,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/dia",
+            "ajusteRenal": "ClCr <30: evitar ou usar com cautela",
+            "ajusteHepatico": "Evitar em hepatopatia grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Analgésico / Anti-inflamatório. Inibidor não seletivo da COX-1 e COX-2 (derivado do ácido fenilacético); potente ação anti-inflamatória, analgésica e antipirética.",
+      "apresentacoes": [
+        { "forma": "Ampola 75 mg/3 mL (25 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Comprimido 50 mg (liberação imediata)", "obs": "VO" },
+        { "forma": "Comprimido 75 mg, 100 mg (liberação prolongada)", "obs": "VO" },
+        { "forma": "Supositório 50 mg, 100 mg", "obs": "Retal" },
+        { "forma": "Gel 1%, emulgel", "obs": "Uso tópico" },
+        { "forma": "Colírio 0,1%", "obs": "Oftálmico" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 75 mg em 100-500 mL SF, infusão em 30-120 min", "concentracao": "25 mg/mL (ampola)" },
+        { "diluicao": "VO: tomar com alimentos", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "ALERTA CARDIOVASCULAR: aumenta risco de eventos CV (IAM, AVC); evitar em doença cardiovascular estabelecida",
+        "Uso IM máximo 2 dias; preferir via oral quando possível",
+        "Não misturar com outras drogas na mesma seringa (IV/IM)",
+        "Tomar VO com alimentos para reduzir irritação GI",
+        "ClCr <30 mL/min: evitar ou usar com cautela; insuficiência renal grave é contraindicação",
+        "Evitar uso prolongado em idosos; reduzir dose em hepatopatia, evitar em grave"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar dose mínima eficaz. Evitar uso prolongado. Monitorar função renal e hepática.",
+        "renal": "ClCr <30: evitar ou usar com cautela. Contraindicado em insuficiência renal grave.",
+        "hepatico": "Reduzir dose em hepatopatia; evitar em hepatopatia grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Diclofenaco IM (adulto)",
+        "doseTexto": "75 mg 1-2x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diclofenaco IV (adulto)",
+        "doseTexto": "75 mg em 30-120 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diclofenaco VO (adulto)",
+        "doseTexto": "50 mg 2-3x/dia ou 75-100 mg 1x/dia",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diclofenaco IM (pediátrico >1 ano)",
+        "doseTexto": "1 mg/kg dose única (máx 75 mg)",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Diclofenaco VO (pediátrico >1 ano)",
+        "doseTexto": "0,5-2 mg/kg/dia em 2-3 doses",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Diclofenac",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Pain/inflammation IM (adult)",
+          "descricaoDose": "75 mg 1-2x/day. Max 150 mg/day. Max IM duration 2 days.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 150,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "1-2x/day",
+            "ajusteRenal": "ClCr <30: avoid or use with caution",
+            "ajusteHepatico": "Reduce dose in liver disease; avoid in severe.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pain/inflammation IV (adult)",
+          "descricaoDose": "75 mg diluted in 100-500 mL, infuse over 30-120 min (single dose).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose (30-120 min)",
+            "ajusteRenal": "ClCr <30: avoid or use with caution",
+            "ajusteHepatico": "Reduce dose in liver disease; avoid in severe.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pain/inflammation PO (adult)",
+          "descricaoDose": "50 mg 2-3x/day or 75-100 mg once daily (ER). Max 150 mg/day. Take with food.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 150,
+            "doseFixa": "50 mg 2-3x/day or 75-100 mg once daily",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2-3x/day or once daily (ER)",
+            "ajusteRenal": "ClCr <30: avoid or use with caution",
+            "ajusteHepatico": "Reduce dose in liver disease; avoid in severe.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pain/inflammation rectal (adult)",
+          "descricaoDose": "50-100 mg 1-2x/day",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "1-2x/day",
+            "ajusteRenal": "ClCr <30: avoid or use with caution",
+            "ajusteHepatico": "Reduce dose in liver disease; avoid in severe.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pain IM (pediatric >1 year)",
+          "descricaoDose": "1 mg/kg single dose (max 75 mg). Minimum age >1 year.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 75,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "ClCr <30: avoid or use with caution",
+            "ajusteHepatico": "Avoid in severe liver disease.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Pain PO (pediatric >1 year)",
+          "descricaoDose": "0.5-2 mg/kg/day divided into 2-3 doses. Minimum age >1 year.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 75,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "2-3x/day",
+            "ajusteRenal": "ClCr <30: avoid or use with caution",
+            "ajusteHepatico": "Avoid in severe liver disease.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID / Analgesic / Anti-inflammatory. Nonselective COX-1 and COX-2 inhibitor (phenylacetic acid derivative); potent anti-inflammatory, analgesic, and antipyretic action.",
+      "apresentacoes": [
+        { "forma": "Ampoule 75 mg/3 mL (25 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Tablet 50 mg (immediate release)", "obs": "PO" },
+        { "forma": "Tablet 75 mg, 100 mg (extended release)", "obs": "PO" },
+        { "forma": "Suppository 50 mg, 100 mg", "obs": "Rectal" },
+        { "forma": "Gel 1%, emulgel", "obs": "Topical" },
+        { "forma": "Eye drops 0.1%", "obs": "Ophthalmic" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 75 mg in 100-500 mL NS, infuse over 30-120 min", "concentracao": "25 mg/mL (ampoule)" },
+        { "diluicao": "PO: take with food", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "CARDIOVASCULAR ALERT: increases risk of CV events (MI, stroke); avoid in established cardiovascular disease",
+        "Max IM use 2 days; prefer oral route when possible",
+        "Do not mix with other drugs in the same syringe (IV/IM)",
+        "Take PO with food to reduce GI irritation",
+        "ClCr <30 mL/min: avoid or use with caution; severe renal failure is contraindication",
+        "Avoid prolonged use in elderly; reduce dose in liver disease, avoid in severe"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Use minimum effective dose. Avoid prolonged use. Monitor renal and hepatic function.",
+        "renal": "ClCr <30: avoid or use with caution. Contraindicated in severe renal failure.",
+        "hepatico": "Reduce dose in liver disease; avoid in severe liver disease."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Diclofenac IM (adult)",
+        "doseTexto": "75 mg 1-2x/day",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Diclofenac IV (adult)",
+        "doseTexto": "75 mg over 30-120 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Diclofenac PO (adult)",
+        "doseTexto": "50 mg 2-3x/day or 75-100 mg once daily",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Diclofenac IM (pediatric >1 year)",
+        "doseTexto": "1 mg/kg single dose (max 75 mg)",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      },
+      {
+        "nome": "Diclofenac PO (pediatric >1 year)",
+        "doseTexto": "0.5-2 mg/kg/day in 2-3 doses",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Diclofenaco",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor/inflamación IM (adulto)",
+          "descricaoDose": "75 mg 1-2x/día. Máx 150 mg/día. Duración IM máx 2 días.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 150,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "1-2x/día",
+            "ajusteRenal": "ClCr <30: evitar o usar con precaución",
+            "ajusteHepatico": "Reducir dosis en hepatopatía; evitar en grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor/inflamación IV (adulto)",
+          "descricaoDose": "75 mg diluido en 100-500 mL, infusión en 30-120 min (dosis única).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única (30-120 min)",
+            "ajusteRenal": "ClCr <30: evitar o usar con precaución",
+            "ajusteHepatico": "Reducir dosis en hepatopatía; evitar en grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor/inflamación VO (adulto)",
+          "descricaoDose": "50 mg 2-3x/día o 75-100 mg 1x/día (liberación prolongada). Máx 150 mg/día. Tomar con alimentos.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 150,
+            "doseFixa": "50 mg 2-3x/día o 75-100 mg 1x/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/día o 1x/día (LP)",
+            "ajusteRenal": "ClCr <30: evitar o usar con precaución",
+            "ajusteHepatico": "Reducir dosis en hepatopatía; evitar en grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor/inflamación rectal (adulto)",
+          "descricaoDose": "50-100 mg 1-2x/día",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2x/día",
+            "ajusteRenal": "ClCr <30: evitar o usar con precaución",
+            "ajusteHepatico": "Reducir dosis en hepatopatía; evitar en grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor IM (pediátrico >1 año)",
+          "descricaoDose": "1 mg/kg dosis única (máx 75 mg). Edad mínima >1 año.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 75,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: evitar o usar con precaución",
+            "ajusteHepatico": "Evitar en hepatopatía grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "Dolor VO (pediátrico >1 año)",
+          "descricaoDose": "0,5-2 mg/kg/día dividido en 2-3 dosis. Edad mínima >1 año.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 75,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2-3x/día",
+            "ajusteRenal": "ClCr <30: evitar o usar con precaución",
+            "ajusteHepatico": "Evitar en hepatopatía grave.",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "AINE / Analgésico / Anti-inflamatorio. Inhibidor no selectivo de COX-1 y COX-2 (derivado del ácido fenilacético); potente acción anti-inflamatoria, analgésica y antipirética.",
+      "apresentacoes": [
+        { "forma": "Ampolla 75 mg/3 mL (25 mg/mL)", "obs": "IV/IM" },
+        { "forma": "Comprimido 50 mg (liberación inmediata)", "obs": "VO" },
+        { "forma": "Comprimido 75 mg, 100 mg (liberación prolongada)", "obs": "VO" },
+        { "forma": "Supositorio 50 mg, 100 mg", "obs": "Rectal" },
+        { "forma": "Gel 1%, emulgel", "obs": "Uso tópico" },
+        { "forma": "Colirio 0,1%", "obs": "Oftálmico" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: 75 mg en 100-500 mL SF, infusión en 30-120 min", "concentracao": "25 mg/mL (ampolla)" },
+        { "diluicao": "VO: tomar con alimentos", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "ALERTA CARDIOVASCULAR: aumenta riesgo de eventos CV (IAM, ACV); evitar en enfermedad cardiovascular establecida",
+        "Uso IM máximo 2 días; preferir vía oral cuando sea posible",
+        "No mezclar con otras drogas en la misma jeringa (IV/IM)",
+        "Tomar VO con alimentos para reducir irritación GI",
+        "ClCr <30 mL/min: evitar o usar con precaución; insuficiencia renal grave es contraindicación",
+        "Evitar uso prolongado en ancianos; reducir dosis en hepatopatía, evitar en grave"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Usar dosis mínima eficaz. Evitar uso prolongado. Monitorizar función renal y hepática.",
+        "renal": "ClCr <30: evitar o usar con precaución. Contraindicado en insuficiencia renal grave.",
+        "hepatico": "Reducir dosis en hepatopatía; evitar en hepatopatía grave."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Diclofenaco IM (adulto)",
+        "doseTexto": "75 mg 1-2x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diclofenaco IV (adulto)",
+        "doseTexto": "75 mg en 30-120 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diclofenaco VO (adulto)",
+        "doseTexto": "50 mg 2-3x/día o 75-100 mg 1x/día",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Diclofenaco IM (pediátrico >1 año)",
+        "doseTexto": "1 mg/kg dosis única (máx 75 mg)",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Diclofenaco VO (pediátrico >1 año)",
+        "doseTexto": "0,5-2 mg/kg/día en 2-3 dosis",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "双氯芬酸",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "疼痛/炎症 肌注（成人）",
+          "descricaoDose": "75 mg 每日1-2次。最大150 mg/日。肌注最多2天。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 150,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "1-2次/日",
+            "ajusteRenal": "ClCr <30：避免或慎用",
+            "ajusteHepatico": "肝病减量；重度避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "疼痛/炎症 静注（成人）",
+          "descricaoDose": "75 mg 稀释于100-500 mL，30-120分钟输注（单次）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 75,
+            "doseMax": 75,
+            "doseMaxima": 75,
+            "doseFixa": "75 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次（30-120分钟）",
+            "ajusteRenal": "ClCr <30：避免或慎用",
+            "ajusteHepatico": "肝病减量；重度避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "疼痛/炎症 口服（成人）",
+          "descricaoDose": "50 mg 每日2-3次或75-100 mg 每日1次（缓释）。最大150 mg/日。与食物同服。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": 150,
+            "doseFixa": "50 mg 2-3次/日或75-100 mg 1次/日",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "2-3次/日或1次/日（缓释）",
+            "ajusteRenal": "ClCr <30：避免或慎用",
+            "ajusteHepatico": "肝病减量；重度避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "疼痛/炎症 直肠（成人）",
+          "descricaoDose": "50-100 mg 每日1-2次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 50,
+            "doseMax": 100,
+            "doseMaxima": null,
+            "doseFixa": "50-100 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "1-2次/日",
+            "ajusteRenal": "ClCr <30：避免或慎用",
+            "ajusteHepatico": "肝病减量；重度避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "疼痛 肌注（儿童 >1 岁）",
+          "descricaoDose": "1 mg/kg 单次（最大75 mg）。最小年龄 >1 岁。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 1,
+            "dosePorKgMin": 1,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 75,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IM",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr <30：避免或慎用",
+            "ajusteHepatico": "严重肝病避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        },
+        {
+          "titulo": "疼痛 口服（儿童 >1 岁）",
+          "descricaoDose": "0,5-2 mg/kg/日 分2-3次。最小年龄 >1 岁。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 2,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 75,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "2-3次/日",
+            "ajusteRenal": "ClCr <30：避免或慎用",
+            "ajusteHepatico": "严重肝病避免。",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": 0.5
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "NSAID/镇痛/抗炎。非选择性COX-1、COX-2抑制剂（苯乙酸衍生物）；强抗炎、镇痛、解热。",
+      "apresentacoes": [
+        { "forma": "安瓿 75 mg/3 mL (25 mg/mL)", "obs": "静注/肌注" },
+        { "forma": "片剂 50 mg（普通）", "obs": "口服" },
+        { "forma": "片剂 75、100 mg（缓释）", "obs": "口服" },
+        { "forma": "栓剂 50、100 mg", "obs": "直肠" },
+        { "forma": "凝胶 1%", "obs": "外用" },
+        { "forma": "滴眼液 0.1%", "obs": "眼科" }
+      ],
+      "preparo": [
+        { "diluicao": "静注：75 mg 于100-500 mL 生理盐水，30-120分钟输注", "concentracao": "25 mg/mL（安瓿）" },
+        { "diluicao": "口服：与食物同服", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "心血管警示：增加心血管事件风险（心梗、卒中）；已确诊心血管病避免使用",
+        "肌注最多2天；尽可能首选口服",
+        "勿与其它药物在同一注射器混合（静注/肌注）",
+        "口服与食物同服以减少胃肠道刺激",
+        "ClCr <30 mL/min：避免或慎用；严重肾衰竭禁忌",
+        "老年人避免长期使用；肝病减量，重度避免"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "使用最小有效剂量。避免长期使用。监测肾功能和肝功能。",
+        "renal": "ClCr <30：避免或慎用。严重肾衰竭禁忌。",
+        "hepatico": "肝病减量；严重肝病避免。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "双氯芬酸 肌注（成人）",
+        "doseTexto": "75 mg 每日1-2次",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "双氯芬酸 静注（成人）",
+        "doseTexto": "75 mg 30-120分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "75 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "双氯芬酸 口服（成人）",
+        "doseTexto": "50 mg 2-3次/日或75-100 mg 1次/日",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "50-100 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "双氯芬酸 肌注（儿童 >1 岁）",
+        "doseTexto": "1 mg/kg 单次（最大75 mg）",
+        "doseMin": 1,
+        "doseMax": 1,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      },
+      {
+        "nome": "双氯芬酸 口服（儿童 >1 岁）",
+        "doseTexto": "0,5-2 mg/kg/日 分2-3次",
+        "doseMin": 0.5,
+        "doseMax": 2,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

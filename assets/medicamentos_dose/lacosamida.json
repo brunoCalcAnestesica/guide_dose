@@ -1,0 +1,606 @@
+{
+  "PT": {
+    "nome": "Lacosamida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus – ataque",
+          "descricaoDose": "200-400 mg IV em 15-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "200-400 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "ClCr <30: máx 300 mg/dia",
+            "ajusteHepatico": "Child-Pugh C: máx 300 mg/dia",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus – manutenção",
+          "descricaoDose": "100-200 mg IV/VO 12/12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: máx 300 mg/dia",
+            "ajusteHepatico": "Child-Pugh C: máx 300 mg/dia",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Início ambulatorial",
+          "descricaoDose": "50 mg VO 12/12h; titulação 50 mg/semana; alvo 100-200 mg 12/12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg VO 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: máx 300 mg/dia",
+            "ajusteHepatico": "Child-Pugh C: máx 300 mg/dia",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico (>4 anos)",
+          "descricaoDose": "2-4 mg/kg/dose VO/IV 12/12h (máx 200 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: máx 300 mg/dia",
+            "ajusteHepatico": "Child-Pugh C: máx 300 mg/dia",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico de 2ª geração",
+      "apresentacoes": [
+        { "forma": "Ampola 200 mg/20 mL (10 mg/mL)", "obs": "Uso IV" },
+        { "forma": "Comprimidos 50 mg, 100 mg, 150 mg, 200 mg", "obs": "VO" },
+        { "forma": "Xarope 10 mg/mL", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "200 mg (1 ampola) + 100 mL SF 0,9%", "concentracao": "2 mg/mL" },
+        { "diluicao": "200 mg + 50 mL SF 0,9%", "concentracao": "4 mg/mL" }
+      ],
+      "observacoes": [
+        "Pode prolongar intervalo PR no ECG – evitar em bloqueio AV 2º ou 3º grau (sem marcapasso)",
+        "Bioequivalência IV/VO – troca 1:1; infusão IV em 15-30 min",
+        "Poucas interações medicamentosas; não induz enzimas hepáticas",
+        "Excreção renal ~40% inalterado – ajuste em ClCr <30 mL/min (máx 300 mg/dia)",
+        "Child-Pugh C: dose máxima 300 mg/dia",
+        "Categoria de gravidez C"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Considerar dose inicial menor e titulação mais lenta. Monitorar equilíbrio e ECG.",
+        "renal": "ClCr <30 mL/min: dose máxima 300 mg/dia. Não requer ajuste em insuficiência leve a moderada.",
+        "hepatico": "Child-Pugh C: dose máxima 300 mg/dia. Metabolismo hepático parcial (CYP2C19)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Lacosamida (ataque – adulto)",
+        "doseTexto": "200-400 mg IV em 15-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lacosamida (manutenção – adulto)",
+        "doseTexto": "100-200 mg IV/VO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lacosamida (pediátrico >4 anos)",
+        "doseTexto": "2-4 mg/kg/dose 12/12h (máx 200 mg/dose)",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg/dose",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Lacosamide",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus – loading",
+          "descricaoDose": "200-400 mg IV over 15-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "200-400 mg IV",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "CrCl <30: max 300 mg/day",
+            "ajusteHepatico": "Child-Pugh C: max 300 mg/day",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus – maintenance",
+          "descricaoDose": "100-200 mg IV/PO q12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg q12h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV/PO",
+            "intervalo": "q12h",
+            "ajusteRenal": "CrCl <30: max 300 mg/day",
+            "ajusteHepatico": "Child-Pugh C: max 300 mg/day",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Outpatient initiation",
+          "descricaoDose": "50 mg PO q12h; titrate 50 mg/week; target 100-200 mg q12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg PO q12h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "q12h",
+            "ajusteRenal": "CrCl <30: max 300 mg/day",
+            "ajusteHepatico": "Child-Pugh C: max 300 mg/day",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediatric (>4 years)",
+          "descricaoDose": "2-4 mg/kg/dose PO/IV q12h (max 200 mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO/IV",
+            "intervalo": "q12h",
+            "ajusteRenal": "CrCl <30: max 300 mg/day",
+            "ajusteHepatico": "Child-Pugh C: max 300 mg/day",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Second-generation antiepileptic",
+      "apresentacoes": [
+        { "forma": "Vial 200 mg/20 mL (10 mg/mL)", "obs": "IV use" },
+        { "forma": "Tablets 50 mg, 100 mg, 150 mg, 200 mg", "obs": "PO" },
+        { "forma": "Syrup 10 mg/mL", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "200 mg (1 vial) + 100 mL NS", "concentracao": "2 mg/mL" },
+        { "diluicao": "200 mg + 50 mL NS", "concentracao": "4 mg/mL" }
+      ],
+      "observacoes": [
+        "May prolong PR interval – avoid in 2nd or 3rd degree AV block (without pacemaker)",
+        "IV/PO bioequivalence – 1:1 switch; IV infusion over 15-30 min",
+        "Few drug interactions; does not induce hepatic enzymes",
+        "Renal excretion ~40% unchanged – adjust if CrCl <30 mL/min (max 300 mg/day)",
+        "Child-Pugh C: maximum dose 300 mg/day",
+        "Pregnancy category C"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Consider lower starting dose and slower titration. Monitor balance and ECG.",
+        "renal": "CrCl <30 mL/min: max 300 mg/day. No adjustment for mild to moderate impairment.",
+        "hepatico": "Child-Pugh C: max 300 mg/day. Partial hepatic metabolism (CYP2C19)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Lacosamide (loading – adult)",
+        "doseTexto": "200-400 mg IV over 15-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Lacosamide (maintenance – adult)",
+        "doseTexto": "100-200 mg IV/PO q12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Lacosamide (pediatric >4 years)",
+        "doseTexto": "2-4 mg/kg/dose q12h (max 200 mg/dose)",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg/dose",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Lacosamida",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Estado epiléptico – ataque",
+          "descricaoDose": "200-400 mg IV en 15-30 min",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "200-400 mg IV",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "ClCr <30: máx 300 mg/día",
+            "ajusteHepatico": "Child-Pugh C: máx 300 mg/día",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Estado epiléptico – mantenimiento",
+          "descricaoDose": "100-200 mg IV/VO 12/12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: máx 300 mg/día",
+            "ajusteHepatico": "Child-Pugh C: máx 300 mg/día",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Inicio ambulatorio",
+          "descricaoDose": "50 mg VO 12/12h; titulación 50 mg/semana; objetivo 100-200 mg 12/12h",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg VO 12/12h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: máx 300 mg/día",
+            "ajusteHepatico": "Child-Pugh C: máx 300 mg/día",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Pediátrico (>4 años)",
+          "descricaoDose": "2-4 mg/kg/dosis VO/IV 12/12h (máx 200 mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO/IV",
+            "intervalo": "12/12h",
+            "ajusteRenal": "ClCr <30: máx 300 mg/día",
+            "ajusteHepatico": "Child-Pugh C: máx 300 mg/día",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico de 2ª generación",
+      "apresentacoes": [
+        { "forma": "Ampolla 200 mg/20 mL (10 mg/mL)", "obs": "Uso IV" },
+        { "forma": "Comprimidos 50 mg, 100 mg, 150 mg, 200 mg", "obs": "VO" },
+        { "forma": "Jarabe 10 mg/mL", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "200 mg (1 ampolla) + 100 mL SF 0,9%", "concentracao": "2 mg/mL" },
+        { "diluicao": "200 mg + 50 mL SF 0,9%", "concentracao": "4 mg/mL" }
+      ],
+      "observacoes": [
+        "Puede prolongar el intervalo PR – evitar en bloqueo AV 2º o 3º grado (sin marcapasos)",
+        "Bioequivalencia IV/VO – cambio 1:1; infusión IV en 15-30 min",
+        "Pocas interacciones; no induce enzimas hepáticas",
+        "Excreción renal ~40% sin metabolizar – ajustar si ClCr <30 mL/min (máx 300 mg/día)",
+        "Child-Pugh C: dosis máxima 300 mg/día",
+        "Categoría de embarazo C"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Considerar dosis inicial menor y titulación más lenta. Monitorizar equilibrio y ECG.",
+        "renal": "ClCr <30 mL/min: dosis máx 300 mg/día. No requiere ajuste en insuficiencia leve-moderada.",
+        "hepatico": "Child-Pugh C: dosis máx 300 mg/día. Metabolismo hepático parcial (CYP2C19)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Lacosamida (ataque – adulto)",
+        "doseTexto": "200-400 mg IV en 15-30 min",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lacosamida (mantenimiento – adulto)",
+        "doseTexto": "100-200 mg IV/VO 12/12h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Lacosamida (pediátrico >4 años)",
+        "doseTexto": "2-4 mg/kg/dosis 12/12h (máx 200 mg/dosis)",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg/dosis",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "拉考沙胺",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "癫痫持续状态 – 负荷",
+          "descricaoDose": "200-400 mg IV 15-30分钟",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 200,
+            "doseMax": 400,
+            "doseMaxima": 400,
+            "doseFixa": "200-400 mg IV",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "单次",
+            "ajusteRenal": "ClCr <30: 最大300 mg/日",
+            "ajusteHepatico": "Child-Pugh C: 最大300 mg/日",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "癫痫持续状态 – 维持",
+          "descricaoDose": "100-200 mg IV/口服 每12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 100,
+            "doseMax": 200,
+            "doseMaxima": 200,
+            "doseFixa": "100-200 mg 每12小时",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV/PO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <30: 最大300 mg/日",
+            "ajusteHepatico": "Child-Pugh C: 最大300 mg/日",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "门诊起始",
+          "descricaoDose": "50 mg 口服 每12小时；每周递增50 mg；目标100-200 mg 每12小时",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "50 mg 口服 每12小时",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "PO",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <30: 最大300 mg/日",
+            "ajusteHepatico": "Child-Pugh C: 最大300 mg/日",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "儿童（>4岁）",
+          "descricaoDose": "2-4 mg/kg/次 口服/IV 每12小时（最大200 mg/次）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 3,
+            "dosePorKgMin": 2,
+            "dosePorKgMax": 4,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 200,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "PO/IV",
+            "intervalo": "每12小时",
+            "ajusteRenal": "ClCr <30: 最大300 mg/日",
+            "ajusteHepatico": "Child-Pugh C: 最大300 mg/日",
+            "clCrThreshold": 30,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "第二代抗癫痫药",
+      "apresentacoes": [
+        { "forma": "安瓿 200 mg/20 mL (10 mg/mL)", "obs": "静脉用" },
+        { "forma": "片剂 50 mg、100 mg、150 mg、200 mg", "obs": "口服" },
+        { "forma": "糖浆 10 mg/mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "200 mg（1支）+ 100 mL 生理盐水", "concentracao": "2 mg/mL" },
+        { "diluicao": "200 mg + 50 mL 生理盐水", "concentracao": "4 mg/mL" }
+      ],
+      "observacoes": [
+        "可延长PR间期 – 二度或三度房室传导阻滞（无起搏器）禁用",
+        "IV/口服生物等效 – 1:1转换；IV输注15-30分钟",
+        "药物相互作用少；不诱导肝酶",
+        "肾排泄约40%原形 – ClCr <30 mL/min时调整（最大300 mg/日）",
+        "Child-Pugh C：最大剂量300 mg/日",
+        "妊娠分级C"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "考虑较低起始剂量和较慢滴定。监测平衡和心电图。",
+        "renal": "ClCr <30 mL/min：最大300 mg/日。轻中度不全无需调整。",
+        "hepatico": "Child-Pugh C：最大300 mg/日。部分经肝代谢（CYP2C19）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "拉考沙胺（负荷 – 成人）",
+        "doseTexto": "200-400 mg IV 15-30分钟",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "200-400 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "拉考沙胺（维持 – 成人）",
+        "doseTexto": "100-200 mg IV/口服 每12小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "100-200 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "拉考沙胺（儿童 >4岁）",
+        "doseTexto": "2-4 mg/kg/次 每12小时（最大200 mg/次）",
+        "doseMin": 2,
+        "doseMax": 4,
+        "unidadeResultado": "mg/次",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

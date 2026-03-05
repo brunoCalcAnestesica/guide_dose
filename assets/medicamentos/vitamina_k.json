@@ -1,0 +1,68 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Fitomenadiona (Vitamina K1)",
+      "nome_comercial": ["Kanakion", "Kavit"],
+      "classe_terapeutica": "Vitamina lipossolúvel / Antídoto",
+      "mecanismo_acao": "Cofator essencial para a carboxilação hepática dos fatores de coagulação dependentes de vitamina K (II, VII, IX, X) e proteínas C e S. Reverte o efeito dos antagonistas da vitamina K (warfarina).",
+      "indicacoes": [
+        "Reversão de anticoagulação por warfarina/cumarínicos",
+        "Sangramento por superdosagem de warfarina",
+        "Deficiência de vitamina K",
+        "Doença hemorrágica do recém-nascido (profilaxia e tratamento)",
+        "Pré-procedimentos em pacientes anticoagulados"
+      ],
+      "contraindicacoes": [
+        "Hipersensibilidade à fitomenadiona",
+        "Uso cauteloso em doença hepática grave (pode não responder)"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Solução injetável",
+          "concentracao": "10 mg/mL",
+          "volume": "1 mL"
+        },
+        {
+          "forma": "Comprimido",
+          "concentracao": "10 mg",
+          "volume": "Via oral"
+        },
+        {
+          "forma": "Gotas",
+          "concentracao": "20 mg/mL",
+          "volume": "Via oral"
+        }
+      ],
+      "farmacocinetica": {
+        "inicio_acao_iv": "1-2 horas (INR normaliza em 12-24h)",
+        "inicio_acao_vo": "6-10 horas",
+        "pico": "12-24 horas",
+        "duracao": "12-14 horas",
+        "metabolismo": "Hepático",
+        "excrecao": "Biliar e renal"
+      },
+      "efeitos_adversos": [
+        "Reação anafilactoide (IV - raro mas grave)",
+        "Flushing",
+        "Diaforese",
+        "Dor no local da injeção",
+        "Resistência temporária à warfarina (doses altas)"
+      ],
+      "interacoes_importantes": [
+        "Warfarina: antagonismo direto",
+        "Antibióticos de amplo espectro: podem reduzir produção intestinal de vit K",
+        "Colestiramina: reduz absorção oral"
+      ],
+      "observacoes": [
+        "Via IV tem risco de anafilaxia - infundir lentamente (>30 min)",
+        "Preferir via oral quando possível",
+        "NÃO reverte DOACs",
+        "Em sangramento grave: associar CCP ou PFC"
+      ],
+      "estabilidade": {
+        "proteger_da_luz": true,
+        "temperatura_ambiente": "Sim"
+      }
+    }
+  }
+}

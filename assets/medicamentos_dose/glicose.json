@@ -1,0 +1,946 @@
+{
+  "PT": {
+    "nome": "Glicose / Dextrose",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipoglicemia Severa (Adulto)",
+          "descricaoDose": "25-50 mL de G50% IV lento em 2-5 min (12,5-25 g)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 g (25-50 mL de G50%)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir em 15 min se glicemia <70 mg/dL",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em hepatopatia grave"
+          }
+        },
+        {
+          "titulo": "Hipoglicemia + Alteração Consciência (Adulto)",
+          "descricaoDose": "50 mL de G50% IV bolus lento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g (50 mL de G50%)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única, repetir PRN",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia - Esquema GIK (Adulto)",
+          "descricaoDose": "50 mL G50% + 10 UI insulina regular IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g G50% + 10 UI insulina",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipoglicemia Sintomática (Pediátrico)",
+          "descricaoDose": "0,5-1 g/kg IV lento (2-4 mL/kg de D25%)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.5,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir em 15 min se glicemia <70 mg/dL",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipoglicemia Assintomática (Pediátrico)",
+          "descricaoDose": "0,25-0,5 g/kg IV lento (1-2 mL/kg de D25%)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 12.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir PRN conforme glicemia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipoglicemia Neonatal",
+          "descricaoDose": "0,2-0,5 g/kg IV lento (2-5 mL/kg de D10%)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.2,
+            "doseMin": 0.2,
+            "doseMax": 0.5,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "seguido de infusão contínua (TIG)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TIG - Manutenção Neonatal",
+          "descricaoDose": "4-8 mg/kg/min IV infusão contínua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "TIG - Taxa de Infusão de Glicose (Neonatal)",
+          "unidade": "mg/kg/min",
+          "adulto": null,
+          "pediatrico": { "doseMin": 4, "doseMax": 8 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "SG 10% (100 mg/mL)", "valor": 100 },
+            { "rotulo": "SG 5% (50 mg/mL)", "valor": 50 },
+            { "rotulo": "SG 12,5% (125 mg/mL)", "valor": 125 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agente hiperglicemiante - Repositor calórico - Antídoto para hipoglicemia",
+      "apresentacoes": [
+        { "forma": "Ampola Glicose 50% (500 mg/mL) - 10 mL", "obs": "5 g/ampola - uso adulto" },
+        { "forma": "Ampola Glicose 50% (500 mg/mL) - 20 mL", "obs": "10 g/ampola - uso adulto" },
+        { "forma": "Ampola Dextrose 25% (250 mg/mL) - 10 mL", "obs": "2,5 g/ampola - uso pediátrico" },
+        { "forma": "Frasco SG 10% (100 mg/mL) - 250/500 mL", "obs": "Neonatos e infusão" },
+        { "forma": "Frasco SG 5% (50 mg/mL) - 250/500 mL", "obs": "Diluição e manutenção" }
+      ],
+      "preparo": [
+        { "diluicao": "G50%: usar ampola pura", "concentracao": "500 mg/mL (adultos)" },
+        { "diluicao": "D25%: G50% 1:1 com SF ou AD", "concentracao": "250 mg/mL (pediatria)" },
+        { "diluicao": "D10%: G50% 1:4 com SF ou AD", "concentracao": "100 mg/mL (neonatos)" },
+        { "diluicao": "TIG: SG 10% pronto para uso", "concentracao": "100 mg/mL" }
+      ],
+      "observacoes": [
+        "Usar preferencialmente acesso venoso central (G50% é altamente irritante)",
+        "Risco de NECROSE TECIDUAL se extravasamento (especialmente G50%)",
+        "Neonatos/lactentes: NUNCA usar G50% - diluir para D10% ou D25%",
+        "Monitorar glicemia capilar antes, durante e após administração",
+        "Atenção à hipoglicemia rebote (especialmente em intox. por sulfonilureias)",
+        "Em hipercalemia: administrar sempre COM insulina (esquema GIK)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar glicemia e função renal.",
+        "renal": "DRC: cautela com sobrecarga osmótica. Monitorar eletrólitos.",
+        "hepatico": "Hepatopatia grave: risco de hiperglicemia sustentada. Monitorar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hipoglicemia (adulto)",
+        "doseTexto": "25-50 mL de G50% IV (12,5-25 g)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Esquema GIK (adulto)",
+        "doseTexto": "50 mL G50% + 10 UI insulina IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "25 g + 10 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hipoglicemia (ped - D25%)",
+        "doseTexto": "0,5-1 g/kg IV (2-4 mL/kg D25%)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hipoglicemia (neo - D10%)",
+        "doseTexto": "0,2-0,5 g/kg IV (2-5 mL/kg D10%)",
+        "doseMin": 0.2,
+        "doseMax": 0.5,
+        "unidadeResultado": "g",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "TIG Neonatal",
+        "doseTexto": "4-8 mg/kg/min IV infusão",
+        "doseMin": 4,
+        "doseMax": 8,
+        "unidadeResultado": "mg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Glucose / Dextrose",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Severe Hypoglycemia (Adult)",
+          "descricaoDose": "25-50 mL of D50% IV slow over 2-5 min (12.5-25 g)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 g (25-50 mL of D50%)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repeat in 15 min if glucose <70 mg/dL",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Caution in severe liver disease"
+          }
+        },
+        {
+          "titulo": "Hypoglycemia + Altered Consciousness (Adult)",
+          "descricaoDose": "50 mL of D50% IV slow bolus",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g (50 mL of D50%)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose, repeat PRN",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hyperkalemia - GIK Protocol (Adult)",
+          "descricaoDose": "50 mL D50% + 10 units regular insulin IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g D50% + 10 units insulin",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Symptomatic Hypoglycemia (Pediatric)",
+          "descricaoDose": "0.5-1 g/kg IV slow (2-4 mL/kg of D25%)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.5,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repeat in 15 min if glucose <70 mg/dL",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Asymptomatic Hypoglycemia (Pediatric)",
+          "descricaoDose": "0.25-0.5 g/kg IV slow (1-2 mL/kg of D25%)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 12.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repeat PRN based on glucose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Neonatal Hypoglycemia",
+          "descricaoDose": "0.2-0.5 g/kg IV slow (2-5 mL/kg of D10%)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.2,
+            "doseMin": 0.2,
+            "doseMax": 0.5,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "followed by continuous infusion (GIR)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "GIR - Neonatal Maintenance",
+          "descricaoDose": "4-8 mg/kg/min IV continuous infusion",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "GIR - Glucose Infusion Rate (Neonatal)",
+          "unidade": "mg/kg/min",
+          "adulto": null,
+          "pediatrico": { "doseMin": 4, "doseMax": 8 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "D10W (100 mg/mL)", "valor": 100 },
+            { "rotulo": "D5W (50 mg/mL)", "valor": 50 },
+            { "rotulo": "D12.5W (125 mg/mL)", "valor": 125 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Hyperglycemic agent - Caloric replenisher - Hypoglycemia antidote",
+      "apresentacoes": [
+        { "forma": "Ampoule Dextrose 50% (500 mg/mL) - 10 mL", "obs": "5 g/ampoule - adult use" },
+        { "forma": "Ampoule Dextrose 50% (500 mg/mL) - 50 mL", "obs": "25 g/ampoule - adult use" },
+        { "forma": "Ampoule Dextrose 25% (250 mg/mL) - 10 mL", "obs": "2.5 g/ampoule - pediatric use" },
+        { "forma": "Bag D10W (100 mg/mL) - 250/500 mL", "obs": "Neonates and infusion" },
+        { "forma": "Bag D5W (50 mg/mL) - 250/500 mL", "obs": "Dilution and maintenance" }
+      ],
+      "preparo": [
+        { "diluicao": "D50%: use undiluted ampoule", "concentracao": "500 mg/mL (adults)" },
+        { "diluicao": "D25%: D50% 1:1 with NS or SW", "concentracao": "250 mg/mL (pediatrics)" },
+        { "diluicao": "D10%: D50% 1:4 with NS or SW", "concentracao": "100 mg/mL (neonates)" },
+        { "diluicao": "GIR: D10W ready to use", "concentracao": "100 mg/mL" }
+      ],
+      "observacoes": [
+        "Preferably use central venous access (D50% is highly irritating)",
+        "Risk of TISSUE NECROSIS if extravasation (especially D50%)",
+        "Neonates/infants: NEVER use D50% - dilute to D10% or D25%",
+        "Monitor capillary glucose before, during, and after administration",
+        "Watch for rebound hypoglycemia (especially in sulfonylurea toxicity)",
+        "In hyperkalemia: always administer WITH insulin (GIK protocol)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor glucose and renal function.",
+        "renal": "CKD: caution with osmotic overload. Monitor electrolytes.",
+        "hepatico": "Severe liver disease: risk of sustained hyperglycemia. Monitor."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hypoglycemia (adult)",
+        "doseTexto": "25-50 mL of D50% IV (12.5-25 g)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "12.5-25 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "GIK Protocol (adult)",
+        "doseTexto": "50 mL D50% + 10 units insulin IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "25 g + 10 U",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hypoglycemia (ped - D25%)",
+        "doseTexto": "0.5-1 g/kg IV (2-4 mL/kg D25%)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hypoglycemia (neo - D10%)",
+        "doseTexto": "0.2-0.5 g/kg IV (2-5 mL/kg D10%)",
+        "doseMin": 0.2,
+        "doseMax": 0.5,
+        "unidadeResultado": "g",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Neonatal GIR",
+        "doseTexto": "4-8 mg/kg/min IV infusion",
+        "doseMin": 4,
+        "doseMax": 8,
+        "unidadeResultado": "mg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Glucosa / Dextrosa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Hipoglucemia Severa (Adulto)",
+          "descricaoDose": "25-50 mL de G50% IV lento en 2-5 min (12,5-25 g)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12,5-25 g (25-50 mL de G50%)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir en 15 min si glucemia <70 mg/dL",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Precaución en hepatopatía grave"
+          }
+        },
+        {
+          "titulo": "Hipoglucemia + Alteración Consciencia (Adulto)",
+          "descricaoDose": "50 mL de G50% IV bolo lento",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g (50 mL de G50%)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única, repetir PRN",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipercalemia - Esquema GIK (Adulto)",
+          "descricaoDose": "50 mL G50% + 10 UI insulina regular IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g G50% + 10 UI insulina",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipoglucemia Sintomática (Pediátrico)",
+          "descricaoDose": "0,5-1 g/kg IV lento (2-4 mL/kg de D25%)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.5,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir en 15 min si glucemia <70 mg/dL",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipoglucemia Asintomática (Pediátrico)",
+          "descricaoDose": "0,25-0,5 g/kg IV lento (1-2 mL/kg de D25%)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 12.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "repetir PRN según glucemia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Hipoglucemia Neonatal",
+          "descricaoDose": "0,2-0,5 g/kg IV lento (2-5 mL/kg de D10%)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.2,
+            "doseMin": 0.2,
+            "doseMax": 0.5,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "seguido de infusión continua (TIG)",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "TIG - Mantenimiento Neonatal",
+          "descricaoDose": "4-8 mg/kg/min IV infusión continua",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "TIG - Tasa de Infusión de Glucosa (Neonatal)",
+          "unidade": "mg/kg/min",
+          "adulto": null,
+          "pediatrico": { "doseMin": 4, "doseMax": 8 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "SG 10% (100 mg/mL)", "valor": 100 },
+            { "rotulo": "SG 5% (50 mg/mL)", "valor": 50 },
+            { "rotulo": "SG 12,5% (125 mg/mL)", "valor": 125 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Agente hiperglucemiante - Repositor calórico - Antídoto para hipoglucemia",
+      "apresentacoes": [
+        { "forma": "Ampolla Glucosa 50% (500 mg/mL) - 10 mL", "obs": "5 g/ampolla - uso adulto" },
+        { "forma": "Ampolla Glucosa 50% (500 mg/mL) - 20 mL", "obs": "10 g/ampolla - uso adulto" },
+        { "forma": "Ampolla Dextrosa 25% (250 mg/mL) - 10 mL", "obs": "2,5 g/ampolla - uso pediátrico" },
+        { "forma": "Frasco SG 10% (100 mg/mL) - 250/500 mL", "obs": "Neonatos e infusión" },
+        { "forma": "Frasco SG 5% (50 mg/mL) - 250/500 mL", "obs": "Dilución y mantenimiento" }
+      ],
+      "preparo": [
+        { "diluicao": "G50%: usar ampolla pura", "concentracao": "500 mg/mL (adultos)" },
+        { "diluicao": "D25%: G50% 1:1 con SF o AD", "concentracao": "250 mg/mL (pediatría)" },
+        { "diluicao": "D10%: G50% 1:4 con SF o AD", "concentracao": "100 mg/mL (neonatos)" },
+        { "diluicao": "TIG: SG 10% listo para uso", "concentracao": "100 mg/mL" }
+      ],
+      "observacoes": [
+        "Usar preferiblemente acceso venoso central (G50% es altamente irritante)",
+        "Riesgo de NECROSIS TISULAR si extravasación (especialmente G50%)",
+        "Neonatos/lactantes: NUNCA usar G50% - diluir a D10% o D25%",
+        "Monitorizar glucemia capilar antes, durante y después de administración",
+        "Atención a hipoglucemia rebote (especialmente en intox. por sulfonilureas)",
+        "En hipercalemia: administrar siempre CON insulina (esquema GIK)"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar glucemia y función renal.",
+        "renal": "ERC: precaución con sobrecarga osmótica. Monitorizar electrolitos.",
+        "hepatico": "Hepatopatía grave: riesgo de hiperglucemia sostenida. Monitorizar."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Hipoglucemia (adulto)",
+        "doseTexto": "25-50 mL de G50% IV (12,5-25 g)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "12,5-25 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Esquema GIK (adulto)",
+        "doseTexto": "50 mL G50% + 10 UI insulina IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "25 g + 10 UI",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Hipoglucemia (ped - D25%)",
+        "doseTexto": "0,5-1 g/kg IV (2-4 mL/kg D25%)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "Hipoglucemia (neo - D10%)",
+        "doseTexto": "0,2-0,5 g/kg IV (2-5 mL/kg D10%)",
+        "doseMin": 0.2,
+        "doseMax": 0.5,
+        "unidadeResultado": "g",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "TIG Neonatal",
+        "doseTexto": "4-8 mg/kg/min IV infusión",
+        "doseMin": 4,
+        "doseMax": 8,
+        "unidadeResultado": "mg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "葡萄糖",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "严重低血糖（成人）",
+          "descricaoDose": "25-50 mL 50%葡萄糖 IV缓慢推注2-5分钟（12.5-25 g）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": 12.5,
+            "doseMax": 25,
+            "doseMaxima": 25,
+            "doseFixa": "12.5-25 g（25-50 mL 50%葡萄糖）",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "如血糖<70 mg/dL，15分钟后重复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "严重肝病慎用"
+          }
+        },
+        {
+          "titulo": "低血糖+意识改变（成人）",
+          "descricaoDose": "50 mL 50%葡萄糖 IV缓慢推注",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g（50 mL 50%葡萄糖）",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量，必要时重复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "高钾血症 - GIK方案（成人）",
+          "descricaoDose": "50 mL 50%葡萄糖 + 10单位普通胰岛素 IV",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 25,
+            "doseFixa": "25 g 50%葡萄糖 + 10单位胰岛素",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "症状性低血糖（儿童）",
+          "descricaoDose": "0.5-1 g/kg IV缓慢推注（2-4 mL/kg 25%葡萄糖）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.5,
+            "doseMin": 0.5,
+            "doseMax": 1,
+            "doseMaxima": 25,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "如血糖<70 mg/dL，15分钟后重复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "无症状性低血糖（儿童）",
+          "descricaoDose": "0.25-0.5 g/kg IV缓慢推注（1-2 mL/kg 25%葡萄糖）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.25,
+            "doseMin": 0.25,
+            "doseMax": 0.5,
+            "doseMaxima": 12.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "根据血糖PRN重复",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "新生儿低血糖",
+          "descricaoDose": "0.2-0.5 g/kg IV缓慢推注（2-5 mL/kg 10%葡萄糖）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "g",
+            "dosePorKg": 0.2,
+            "doseMin": 0.2,
+            "doseMax": 0.5,
+            "doseMaxima": 2.5,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "随后持续输注（GIR）",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "GIR - 新生儿维持",
+          "descricaoDose": "4-8 mg/kg/min IV持续输注",
+          "tipoDose": "infusao",
+          "parametros": {
+            "unidade": "mg/kg/min",
+            "dosePorKg": null,
+            "doseMin": 4,
+            "doseMax": 8,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "GIR - 葡萄糖输注速率（新生儿）",
+          "unidade": "mg/kg/min",
+          "adulto": null,
+          "pediatrico": { "doseMin": 4, "doseMax": 8 },
+          "concentracaoEmMcg": false,
+          "fatorTempo": 60,
+          "opcoesConcentracao": [
+            { "rotulo": "10%葡萄糖 (100 mg/mL)", "valor": 100 },
+            { "rotulo": "5%葡萄糖 (50 mg/mL)", "valor": 50 },
+            { "rotulo": "12.5%葡萄糖 (125 mg/mL)", "valor": 125 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "升血糖药 - 热量补充剂 - 低血糖解毒剂",
+      "apresentacoes": [
+        { "forma": "安瓿 50%葡萄糖 (500 mg/mL) - 10 mL", "obs": "5 g/安瓿 - 成人用" },
+        { "forma": "安瓿 50%葡萄糖 (500 mg/mL) - 20 mL", "obs": "10 g/安瓿 - 成人用" },
+        { "forma": "安瓿 25%葡萄糖 (250 mg/mL) - 10 mL", "obs": "2.5 g/安瓿 - 儿童用" },
+        { "forma": "袋装 10%葡萄糖 (100 mg/mL) - 250/500 mL", "obs": "新生儿及输注" },
+        { "forma": "袋装 5%葡萄糖 (50 mg/mL) - 250/500 mL", "obs": "稀释和维持" }
+      ],
+      "preparo": [
+        { "diluicao": "50%葡萄糖：直接使用安瓿", "concentracao": "500 mg/mL（成人）" },
+        { "diluicao": "25%葡萄糖：50%葡萄糖1:1用NS或注射用水稀释", "concentracao": "250 mg/mL（儿科）" },
+        { "diluicao": "10%葡萄糖：50%葡萄糖1:4用NS或注射用水稀释", "concentracao": "100 mg/mL（新生儿）" },
+        { "diluicao": "GIR：10%葡萄糖直接使用", "concentracao": "100 mg/mL" }
+      ],
+      "observacoes": [
+        "优先使用中心静脉通路（50%葡萄糖刺激性强）",
+        "渗漏时有组织坏死风险（尤其是50%葡萄糖）",
+        "新生儿/婴儿：切勿使用50%葡萄糖 - 稀释至10%或25%",
+        "给药前、中、后监测指尖血糖",
+        "注意反跳性低血糖（尤其是磺脲类药物中毒）",
+        "高钾血症时：必须与胰岛素同时给药（GIK方案）"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需特殊调整。监测血糖和肾功能。",
+        "renal": "慢性肾病：注意渗透负荷。监测电解质。",
+        "hepatico": "严重肝病：持续高血糖风险。监测。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "低血糖（成人）",
+        "doseTexto": "25-50 mL 50%葡萄糖 IV（12.5-25 g）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": "12.5-25 g",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "GIK方案（成人）",
+        "doseTexto": "50 mL 50%葡萄糖 + 10单位胰岛素 IV",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "g",
+        "decimais": 0,
+        "resultadoFixo": "25 g + 10 U",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "低血糖（儿童 - 25%葡萄糖）",
+        "doseTexto": "0.5-1 g/kg IV（2-4 mL/kg 25%葡萄糖）",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "g",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "低血糖（新生儿 - 10%葡萄糖）",
+        "doseTexto": "0.2-0.5 g/kg IV（2-5 mL/kg 10%葡萄糖）",
+        "doseMin": 0.2,
+        "doseMax": 0.5,
+        "unidadeResultado": "g",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      },
+      {
+        "nome": "新生儿GIR",
+        "doseTexto": "4-8 mg/kg/min IV输注",
+        "doseMin": 4,
+        "doseMax": 8,
+        "unidadeResultado": "mg/kg/min",
+        "decimais": 1,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  }
+}

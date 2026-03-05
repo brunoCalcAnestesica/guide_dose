@@ -1,0 +1,682 @@
+{
+  "PT": {
+    "nome": "Metadona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Analgesia VO (adulto)",
+          "descricaoDose": "2,5-10 mg VO a cada 6-8h. Máx 80 mg/dia (analgesia).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 10,
+            "doseMaxima": 80,
+            "doseFixa": "2,5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "Reduzir dose em insuficiência renal. Monitorar níveis plasmáticos.",
+            "ajusteHepatico": "Reduzir dose em insuficiência hepática (30-50% em hepatopatia)."
+          }
+        },
+        {
+          "titulo": "Analgesia IM/IV (adulto)",
+          "descricaoDose": "5-10 mg IM ou IV a cada 6-8h. IV lento (1 mg/min). Máx 80 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 80,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "Reduzir dose em insuficiência renal. Monitorar níveis plasmáticos.",
+            "ajusteHepatico": "Reduzir dose em insuficiência hepática (30-50% em hepatopatia)."
+          }
+        },
+        {
+          "titulo": "Tratamento dependência opioide (adulto)",
+          "descricaoDose": "20-120 mg/dia VO em dose única diária. Titulação sob supervisão especializada.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 120,
+            "doseMaxima": 120,
+            "doseFixa": "20-120 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dose única diária",
+            "ajusteRenal": "Reduzir dose em insuficiência renal. Monitorar níveis.",
+            "ajusteHepatico": "Reduzir dose em insuficiência hepática (30-50%)."
+          }
+        },
+        {
+          "titulo": "Analgesia VO (idoso)",
+          "descricaoDose": "2,5-5 mg VO a cada 6-8h (reduzir ~50%). Iniciar com dose mínima.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 80,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "Reduzir dose em IR. Monitorar níveis.",
+            "ajusteHepatico": "Reduzir dose em hepatopatia (30-50%)."
+          }
+        },
+        {
+          "titulo": "Analgesia IM/IV (idoso)",
+          "descricaoDose": "2,5-5 mg IM ou IV a cada 6-8h (reduzir ~50%). IV lento 1 mg/min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 80,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "Reduzir dose em IR. Monitorar níveis.",
+            "ajusteHepatico": "Reduzir dose em hepatopatia."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide sintético; agonista μ, δ e κ; antagonista NMDA. Útil em dor crônica e dependência opioide.",
+      "apresentacoes": [
+        { "forma": "Comprimidos 5 mg, 10 mg, 40 mg", "obs": "Metadona®, Dolophine®" },
+        { "forma": "Ampolas 10 mg/mL", "obs": "Uso parenteral" },
+        { "forma": "Solução oral 1 mg/mL, 2 mg/mL", "obs": "Tratamento dependência" }
+      ],
+      "preparo": [
+        { "diluicao": "Via oral: administração direta", "concentracao": "Conforme apresentação" },
+        { "diluicao": "IM/IV: administrar lento (1 mg/min). IV pode diluir em SF 0,9%", "concentracao": "10 mg/mL (ampola)" }
+      ],
+      "observacoes": [
+        "Meia-vida prolongada (15-60 h) e efeito cumulativo; risco de acúmulo com doses repetidas e depressão respiratória tardia (dias após início)",
+        "Prolongamento do QTc: ECG obrigatório antes e durante tratamento. QTc >500 ms: reduzir dose ou suspender",
+        "Titulação lenta obrigatória: ajustar a cada 3-5 dias (não antes). Iniciar com doses baixas (2,5-5 mg)",
+        "NÃO é primeira linha para dor aguda. Uso em analgesia aguda requer experiência e monitorização contínua",
+        "Múltiplas interações com CYP3A4 (antifúngicos, antivirais, macrolídeos). Consultar interações antes de prescrever",
+        "Ter naloxona disponível. Depressão respiratória pode durar >24 h. Medicamento de uso controlado (receita A)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduzir dose em ~50%. Iniciar com 2,5-5 mg. Titular lentamente. Monitorar sedação e QTc.",
+        "renal": "Reduzir dose em insuficiência renal. Monitorar níveis plasmáticos. Evitar acúmulo.",
+        "hepatico": "Reduzir dose em insuficiência hepática (30-50% em hepatopatia). Metabolização hepática extensa (CYP3A4, CYP2B6)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Metadona VO - Analgesia",
+        "doseTexto": "2,5-10 mg VO a cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metadona IM/IV - Analgesia",
+        "doseTexto": "5-10 mg IM/IV a cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metadona - Dependência opioide",
+        "doseTexto": "20-120 mg/dia VO (dose única)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-120 mg/dia",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Methadone",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Analgesia PO (adult)",
+          "descricaoDose": "2.5-10 mg PO every 6-8h. Max 80 mg/day (analgesia).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 10,
+            "doseMaxima": 80,
+            "doseFixa": "2.5-10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "Reduce dose in renal insufficiency. Monitor plasma levels.",
+            "ajusteHepatico": "Reduce dose in hepatic insufficiency (30-50% in liver disease)."
+          }
+        },
+        {
+          "titulo": "Analgesia IM/IV (adult)",
+          "descricaoDose": "5-10 mg IM or IV every 6-8h. IV slow (1 mg/min). Max 80 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 80,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/IV",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "Reduce dose in renal insufficiency. Monitor plasma levels.",
+            "ajusteHepatico": "Reduce dose in hepatic insufficiency (30-50% in liver disease)."
+          }
+        },
+        {
+          "titulo": "Opioid dependence treatment (adult)",
+          "descricaoDose": "20-120 mg/day PO as single daily dose. Titration under specialist supervision.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 120,
+            "doseMaxima": 120,
+            "doseFixa": "20-120 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "single daily dose",
+            "ajusteRenal": "Reduce dose in renal insufficiency. Monitor levels.",
+            "ajusteHepatico": "Reduce dose in hepatic insufficiency (30-50%)."
+          }
+        },
+        {
+          "titulo": "Analgesia PO (elderly)",
+          "descricaoDose": "2.5-5 mg PO every 6-8h (reduce ~50%). Start with minimum dose.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 80,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "Reduce dose in renal failure. Monitor levels.",
+            "ajusteHepatico": "Reduce dose in liver disease (30-50%)."
+          }
+        },
+        {
+          "titulo": "Analgesia IM/IV (elderly)",
+          "descricaoDose": "2.5-5 mg IM or IV every 6-8h (reduce ~50%). IV slow 1 mg/min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 80,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IM/IV",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "Reduce dose in renal failure. Monitor levels.",
+            "ajusteHepatico": "Reduce dose in liver disease."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Synthetic opioid; μ, δ and κ agonist; NMDA antagonist. Useful in chronic pain and opioid dependence.",
+      "apresentacoes": [
+        { "forma": "Tablets 5 mg, 10 mg, 40 mg", "obs": "Methadone®, Dolophine®" },
+        { "forma": "Ampoules 10 mg/mL", "obs": "Parenteral use" },
+        { "forma": "Oral solution 1 mg/mL, 2 mg/mL", "obs": "Dependence treatment" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral: direct administration", "concentracao": "As per formulation" },
+        { "diluicao": "IM/IV: administer slowly (1 mg/min). IV may dilute in 0.9% NS", "concentracao": "10 mg/mL (ampoule)" }
+      ],
+      "observacoes": [
+        "Prolonged half-life (15-60 h) and cumulative effect; risk of accumulation with repeated doses and delayed respiratory depression (days after initiation)",
+        "QTc prolongation: ECG mandatory before and during treatment. QTc >500 ms: reduce dose or discontinue",
+        "Slow titration mandatory: adjust every 3-5 days (not sooner). Start with low doses (2.5-5 mg)",
+        "NOT first line for acute pain. Use in acute analgesia requires experience and continuous monitoring",
+        "Multiple CYP3A4 interactions (antifungals, antivirals, macrolides). Check interactions before prescribing",
+        "Have naloxone available. Respiratory depression may last >24 h. Controlled substance (Schedule II)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reduce dose by ~50%. Start with 2.5-5 mg. Titrate slowly. Monitor sedation and QTc.",
+        "renal": "Reduce dose in renal insufficiency. Monitor plasma levels. Avoid accumulation.",
+        "hepatico": "Reduce dose in hepatic insufficiency (30-50% in liver disease). Extensive hepatic metabolism (CYP3A4, CYP2B6)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Methadone PO - Analgesia",
+        "doseTexto": "2.5-10 mg PO every 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5-10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Methadone IM/IV - Analgesia",
+        "doseTexto": "5-10 mg IM/IV every 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Methadone - Opioid dependence",
+        "doseTexto": "20-120 mg/day PO (single dose)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-120 mg/day",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Metadona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Analgesia VO (adulto)",
+          "descricaoDose": "2,5-10 mg VO cada 6-8h. Máx 80 mg/día (analgesia).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 10,
+            "doseMaxima": 80,
+            "doseFixa": "2,5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "Reducir dosis en insuficiencia renal. Monitorizar niveles plasmáticos.",
+            "ajusteHepatico": "Reducir dosis en insuficiencia hepática (30-50% en hepatopatía)."
+          }
+        },
+        {
+          "titulo": "Analgesia IM/IV (adulto)",
+          "descricaoDose": "5-10 mg IM o IV cada 6-8h. IV lento (1 mg/min). Máx 80 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 80,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "Reducir dosis en insuficiencia renal. Monitorizar niveles.",
+            "ajusteHepatico": "Reducir dosis en insuficiencia hepática (30-50% en hepatopatía)."
+          }
+        },
+        {
+          "titulo": "Tratamiento dependencia opioide (adulto)",
+          "descricaoDose": "20-120 mg/día VO en dosis única diaria. Titulación bajo supervisión especializada.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 120,
+            "doseMaxima": 120,
+            "doseFixa": "20-120 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "dosis única diaria",
+            "ajusteRenal": "Reducir dosis en insuficiencia renal. Monitorizar niveles.",
+            "ajusteHepatico": "Reducir dosis en insuficiencia hepática (30-50%)."
+          }
+        },
+        {
+          "titulo": "Analgesia VO (anciano)",
+          "descricaoDose": "2,5-5 mg VO cada 6-8h (reducir ~50%). Iniciar con dosis mínima.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 80,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "Reducir dosis en IR. Monitorizar niveles.",
+            "ajusteHepatico": "Reducir dosis en hepatopatía (30-50%)."
+          }
+        },
+        {
+          "titulo": "Analgesia IM/IV (anciano)",
+          "descricaoDose": "2,5-5 mg IM o IV cada 6-8h (reducir ~50%). IV lento 1 mg/min.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 80,
+            "doseFixa": "2,5-5 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM/IV",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "Reducir dosis en IR. Monitorizar niveles.",
+            "ajusteHepatico": "Reducir dosis en hepatopatía."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Opioide sintético; agonista μ, δ y κ; antagonista NMDA. Útil en dolor crónico y dependencia opioide.",
+      "apresentacoes": [
+        { "forma": "Comprimidos 5 mg, 10 mg, 40 mg", "obs": "Metadona®, Dolophine®" },
+        { "forma": "Ampollas 10 mg/mL", "obs": "Uso parenteral" },
+        { "forma": "Solución oral 1 mg/mL, 2 mg/mL", "obs": "Tratamiento dependencia" }
+      ],
+      "preparo": [
+        { "diluicao": "Vía oral: administración directa", "concentracao": "Según presentación" },
+        { "diluicao": "IM/IV: administrar lento (1 mg/min). IV puede diluirse en SF 0,9%", "concentracao": "10 mg/mL (ampolla)" }
+      ],
+      "observacoes": [
+        "Vida media prolongada (15-60 h) y efecto acumulativo; riesgo de acúmulo con dosis repetidas y depresión respiratoria tardía (días tras inicio)",
+        "Prolongación del QTc: ECG obligatorio antes y durante el tratamiento. QTc >500 ms: reducir dosis o suspender",
+        "Titulación lenta obligatoria: ajustar cada 3-5 días (no antes). Iniciar con dosis bajas (2,5-5 mg)",
+        "NO es primera línea para dolor agudo. Uso en analgesia aguda requiere experiencia y monitorización continua",
+        "Múltiples interacciones con CYP3A4 (antifúngicos, antivirales, macrólidos). Consultar interacciones antes de prescribir",
+        "Tener naloxona disponible. La depresión respiratoria puede durar >24 h. Medicamento de uso controlado (receta A)."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Reducir dosis ~50%. Iniciar con 2,5-5 mg. Titular lentamente. Monitorizar sedación y QTc.",
+        "renal": "Reducir dosis en insuficiencia renal. Monitorizar niveles plasmáticos. Evitar acúmulo.",
+        "hepatico": "Reducir dosis en insuficiencia hepática (30-50% en hepatopatía). Metabolismo hepático extenso (CYP3A4, CYP2B6)."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Metadona VO - Analgesia",
+        "doseTexto": "2,5-10 mg VO cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2,5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metadona IM/IV - Analgesia",
+        "doseTexto": "5-10 mg IM/IV cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Metadona - Dependencia opioide",
+        "doseTexto": "20-120 mg/día VO (dosis única)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-120 mg/día",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "美沙酮",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "镇痛 口服（成人）",
+          "descricaoDose": "2.5-10 mg 口服 每 6-8 小时。最大 80 mg/日（镇痛）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 10,
+            "doseMaxima": 80,
+            "doseFixa": "2.5-10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "肾功能不全时减量。监测血药浓度。",
+            "ajusteHepatico": "肝功能不全时减量（肝病时 30-50%）。"
+          }
+        },
+        {
+          "titulo": "镇痛 肌注/静注（成人）",
+          "descricaoDose": "5-10 mg 肌注或静注 每 6-8 小时。静注缓慢（1 mg/分钟）。最大 80 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 80,
+            "doseFixa": "5-10 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/IV",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "肾功能不全时减量。监测血药浓度。",
+            "ajusteHepatico": "肝功能不全时减量（肝病时 30-50%）。"
+          }
+        },
+        {
+          "titulo": "阿片依赖治疗（成人）",
+          "descricaoDose": "20-120 mg/日 口服 每日单次。专科监督下滴定。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 20,
+            "doseMax": 120,
+            "doseMaxima": 120,
+            "doseFixa": "20-120 mg/日",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日单次",
+            "ajusteRenal": "肾功能不全时减量。监测浓度。",
+            "ajusteHepatico": "肝功能不全时减量（30-50%）。"
+          }
+        },
+        {
+          "titulo": "镇痛 口服（老年）",
+          "descricaoDose": "2.5-5 mg 口服 每 6-8 小时（减约 50%）。从最小剂量开始。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 80,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "肾衰竭时减量。监测浓度。",
+            "ajusteHepatico": "肝病时减量（30-50%）。"
+          }
+        },
+        {
+          "titulo": "镇痛 肌注/静注（老年）",
+          "descricaoDose": "2.5-5 mg 肌注或静注 每 6-8 小时（减约 50%）。静注 1 mg/分钟。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 2.5,
+            "doseMax": 5,
+            "doseMaxima": 80,
+            "doseFixa": "2.5-5 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IM/IV",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "肾衰竭时减量。监测浓度。",
+            "ajusteHepatico": "肝病时减量。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "合成阿片类；μ、δ、κ 激动剂；NMDA 拮抗剂。用于慢性疼痛及阿片依赖。",
+      "apresentacoes": [
+        { "forma": "片剂 5 mg、10 mg、40 mg", "obs": "美沙酮®" },
+        { "forma": "安瓿 10 mg/mL", "obs": "肠外用" },
+        { "forma": "口服液 1 mg/mL、2 mg/mL", "obs": "依赖治疗" }
+      ],
+      "preparo": [
+        { "diluicao": "口服：直接服用", "concentracao": "按剂型" },
+        { "diluicao": "肌注/静注：缓慢给药（1 mg/分钟）。静注可用生理盐水稀释", "concentracao": "10 mg/mL（安瓿）" }
+      ],
+      "observacoes": [
+        "半衰期长（15-60 小时）且具蓄积作用；重复给药可蓄积，迟发性呼吸抑制（用药数日后）",
+        "QTc 延长：治疗前后及期间需心电图。QTc >500 ms：减量或停药",
+        "必须缓慢滴定：每 3-5 天调整（不得提前）。从低剂量开始（2.5-5 mg）",
+        "非急性镇痛一线用药。用于急性镇痛需经验与持续监测",
+        "与 CYP3A4 多种相互作用（抗真菌药、抗病毒药、大环内酯类）。处方前查阅相互作用",
+        "备纳洛酮。呼吸抑制可持续 >24 小时。管制药品（A 类处方）。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "减量约 50%。从 2.5-5 mg 开始。缓慢滴定。监测镇静与 QTc。",
+        "renal": "肾功能不全时减量。监测血药浓度。避免蓄积。",
+        "hepatico": "肝功能不全时减量（肝病时 30-50%）。广泛经肝代谢（CYP3A4、CYP2B6）。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "美沙酮 口服 - 镇痛",
+        "doseTexto": "2.5-10 mg 口服 每 6-8 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "2.5-10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美沙酮 肌注/静注 - 镇痛",
+        "doseTexto": "5-10 mg 肌注/静注 每 6-8 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "5-10 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "美沙酮 - 阿片依赖",
+        "doseTexto": "20-120 mg/日 口服（单次）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "20-120 mg/日",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

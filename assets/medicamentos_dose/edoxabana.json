@@ -1,0 +1,634 @@
+{
+  "PT": {
+    "nome": "Edoxabana",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA – dose padrão (adulto)",
+          "descricaoDose": "60 mg 1x/dia VO. ClCr 15-50 ou peso ≤60 kg ou inibidores P-gp: 30 mg/dia. ClCr <15: contraindicado. ClCr >95 em FA: eficácia reduzida.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <15: contraindicado. ClCr 15-50 ou peso ≤60 kg ou inibidores P-gp: 30 mg/dia. ClCr >95 em FA: eficácia reduzida.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "FA – dose reduzida (adulto)",
+          "descricaoDose": "30 mg 1x/dia VO. Quando indicado: ClCr 15-50 mL/min, peso ≤60 kg ou uso de inibidores P-gp.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – tratamento (adulto)",
+          "descricaoDose": "60 mg 1x/dia VO. Iniciar após ≥5 dias de anticoagulação parenteral. ClCr 15-50 ou peso ≤60 kg ou P-gp: 30 mg/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <15: contraindicado. ClCr 15-50 ou peso ≤60 kg ou inibidores P-gp: 30 mg/dia.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – prevenção de recorrência (adulto)",
+          "descricaoDose": "60 mg 1x/dia VO (ou 30 mg 1x/dia se ClCr 15-50, peso ≤60 kg ou inibidores P-gp).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg (ou 30 mg se critérios)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/dia",
+            "ajusteRenal": "ClCr <15: contraindicado. ClCr 15-50 ou peso ≤60 kg ou inibidores P-gp: 30 mg/dia.",
+            "ajusteHepatico": "Contraindicado em hepatopatia com coagulopatia."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Inibidor direto do fator Xa",
+      "apresentacoes": [
+        { "forma": "Comprimido 15 mg", "obs": "Apresentação" },
+        { "forma": "Comprimido 30 mg", "obs": "Dose reduzida" },
+        { "forma": "Comprimido 60 mg", "obs": "Dose padrão" }
+      ],
+      "preparo": [
+        { "diluicao": "VO. Uma dose diária.", "concentracao": "Com ou sem alimento" }
+      ],
+      "observacoes": [
+        "ATENÇÃO: ClCr >95 mL/min em FA tem eficácia reduzida (considerar alternativa)",
+        "Requer anticoagulação parenteral inicial para TVP/TEP (≥5 dias)",
+        "Dose reduzida (30 mg/dia): ClCr 15-50, peso ≤60 kg ou inibidores P-gp",
+        "Reversão específica: andexanet alfa. Inespecífica: CCP",
+        "Não requer monitorização de rotina (INR desnecessário)",
+        "Excreção renal ~50%, fecal ~50%. ClCr <15: contraindicado."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste por idade isolado. Avaliar ClCr e peso para dose 30 vs 60 mg.",
+        "renal": "ClCr <15: contraindicado. ClCr 15-50: 30 mg/dia. ClCr >95 em FA: eficácia reduzida.",
+        "hepatico": "Contraindicado em hepatopatia com coagulopatia."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Edoxabana FA padrão (adulto)",
+        "doseTexto": "60 mg 1x/dia VO",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Edoxabana FA dose reduzida (adulto)",
+        "doseTexto": "30 mg 1x/dia VO",
+        "doseMin": 30,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Edoxabana TVP/TEP (adulto)",
+        "doseTexto": "60 mg 1x/dia VO (após ≥5 dias parenteral)",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Edoxabana TVP/TEP prevenção (adulto)",
+        "doseTexto": "60 mg 1x/dia (ou 30 mg se critérios)",
+        "doseMin": 30,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Edoxaban",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "AF – standard dose (adult)",
+          "descricaoDose": "60 mg once daily PO. CrCl 15-50 or weight ≤60 kg or P-gp inhibitors: 30 mg/day. CrCl <15: contraindicated. CrCl >95 in AF: reduced efficacy.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <15: contraindicated. CrCl 15-50 or weight ≤60 kg or P-gp inhibitors: 30 mg/day. CrCl >95 in AF: reduced efficacy.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "AF – reduced dose (adult)",
+          "descricaoDose": "30 mg once daily PO. When indicated: CrCl 15-50 mL/min, weight ≤60 kg or P-gp inhibitor use.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <15: contraindicated.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "DVT/PE – treatment (adult)",
+          "descricaoDose": "60 mg once daily PO. Start after ≥5 days of parenteral anticoagulation. CrCl 15-50 or weight ≤60 kg or P-gp: 30 mg/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <15: contraindicated. CrCl 15-50 or weight ≤60 kg or P-gp inhibitors: 30 mg/day.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        },
+        {
+          "titulo": "DVT/PE – recurrence prevention (adult)",
+          "descricaoDose": "60 mg once daily PO (or 30 mg once daily if CrCl 15-50, weight ≤60 kg or P-gp inhibitors).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg (or 30 mg if criteria)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO",
+            "intervalo": "once daily",
+            "ajusteRenal": "CrCl <15: contraindicated. CrCl 15-50 or weight ≤60 kg or P-gp inhibitors: 30 mg/day.",
+            "ajusteHepatico": "Contraindicated in liver disease with coagulopathy."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Direct factor Xa inhibitor",
+      "apresentacoes": [
+        { "forma": "Tablet 15 mg", "obs": "Formulation" },
+        { "forma": "Tablet 30 mg", "obs": "Reduced dose" },
+        { "forma": "Tablet 60 mg", "obs": "Standard dose" }
+      ],
+      "preparo": [
+        { "diluicao": "PO. Once daily.", "concentracao": "With or without food" }
+      ],
+      "observacoes": [
+        "WARNING: CrCl >95 mL/min in AF has reduced efficacy (consider alternative)",
+        "Requires initial parenteral anticoagulation for DVT/PE (≥5 days)",
+        "Reduced dose (30 mg/day): CrCl 15-50, weight ≤60 kg or P-gp inhibitors",
+        "Specific reversal: andexanet alfa. Nonspecific: PCC",
+        "No routine monitoring required (INR unnecessary)",
+        "Renal excretion ~50%, fecal ~50%. CrCl <15: contraindicated."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No age-only adjustment. Assess CrCl and weight for 30 vs 60 mg.",
+        "renal": "CrCl <15: contraindicated. CrCl 15-50: 30 mg/day. CrCl >95 in AF: reduced efficacy.",
+        "hepatico": "Contraindicated in liver disease with coagulopathy."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Edoxaban AF standard (adult)",
+        "doseTexto": "60 mg once daily PO",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Edoxaban AF reduced (adult)",
+        "doseTexto": "30 mg once daily PO",
+        "doseMin": 30,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Edoxaban DVT/PE (adult)",
+        "doseTexto": "60 mg once daily PO (after ≥5 days parenteral)",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Edoxaban DVT/PE prevention (adult)",
+        "doseTexto": "60 mg once daily (or 30 mg if criteria)",
+        "doseMin": 30,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Edoxabana",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "FA – dosis estándar (adulto)",
+          "descricaoDose": "60 mg 1x/día VO. ClCr 15-50 o peso ≤60 kg o inhibidores P-gp: 30 mg/día. ClCr <15: contraindicado. ClCr >95 en FA: eficacia reducida.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <15: contraindicado. ClCr 15-50 o peso ≤60 kg o inhibidores P-gp: 30 mg/día. ClCr >95 en FA: eficacia reducida.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "FA – dosis reducida (adulto)",
+          "descricaoDose": "30 mg 1x/día VO. Cuando indicado: ClCr 15-50 mL/min, peso ≤60 kg o uso de inhibidores P-gp.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <15: contraindicado.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – tratamiento (adulto)",
+          "descricaoDose": "60 mg 1x/día VO. Iniciar tras ≥5 días de anticoagulación parenteral. ClCr 15-50 o peso ≤60 kg o P-gp: 30 mg/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <15: contraindicado. ClCr 15-50 o peso ≤60 kg o inhibidores P-gp: 30 mg/día.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        },
+        {
+          "titulo": "TVP/TEP – prevención de recidiva (adulto)",
+          "descricaoDose": "60 mg 1x/día VO (o 30 mg 1x/día si ClCr 15-50, peso ≤60 kg o inhibidores P-gp).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg (o 30 mg si criterios)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1x/día",
+            "ajusteRenal": "ClCr <15: contraindicado. ClCr 15-50 o peso ≤60 kg o inhibidores P-gp: 30 mg/día.",
+            "ajusteHepatico": "Contraindicado en hepatopatía con coagulopatía."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - Inhibidor directo del factor Xa",
+      "apresentacoes": [
+        { "forma": "Comprimido 15 mg", "obs": "Presentación" },
+        { "forma": "Comprimido 30 mg", "obs": "Dosis reducida" },
+        { "forma": "Comprimido 60 mg", "obs": "Dosis estándar" }
+      ],
+      "preparo": [
+        { "diluicao": "VO. Una dosis diaria.", "concentracao": "Con o sin alimento" }
+      ],
+      "observacoes": [
+        "ATENCIÓN: ClCr >95 mL/min en FA tiene eficacia reducida (considerar alternativa)",
+        "Requiere anticoagulación parenteral inicial para TVP/TEP (≥5 días)",
+        "Dosis reducida (30 mg/día): ClCr 15-50, peso ≤60 kg o inhibidores P-gp",
+        "Reversión específica: andexanet alfa. Inespecífica: CCP",
+        "No requiere monitorización rutinaria (INR innecesario)",
+        "Excreción renal ~50%, fecal ~50%. ClCr <15: contraindicado."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste solo por edad. Valorar ClCr y peso para 30 vs 60 mg.",
+        "renal": "ClCr <15: contraindicado. ClCr 15-50: 30 mg/día. ClCr >95 en FA: eficacia reducida.",
+        "hepatico": "Contraindicado en hepatopatía con coagulopatía."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Edoxabana FA estándar (adulto)",
+        "doseTexto": "60 mg 1x/día VO",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Edoxabana FA dosis reducida (adulto)",
+        "doseTexto": "30 mg 1x/día VO",
+        "doseMin": 30,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Edoxabana TVP/TEP (adulto)",
+        "doseTexto": "60 mg 1x/día VO (tras ≥5 días parenteral)",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Edoxabana TVP/TEP prevención (adulto)",
+        "doseTexto": "60 mg 1x/día (o 30 mg si criterios)",
+        "doseMin": 30,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "依度沙班",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "房颤标准剂量（成人）",
+          "descricaoDose": "60 mg 每日1次 口服。ClCr 15-50或体重≤60 kg或P-gp抑制剂：30 mg/日。ClCr <15：禁忌。ClCr >95房颤：疗效降低。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <15：禁忌。ClCr 15-50或体重≤60 kg或P-gp抑制剂：30 mg/日。ClCr >95房颤：疗效降低。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "房颤减量（成人）",
+          "descricaoDose": "30 mg 每日1次 口服。适应时：ClCr 15-50 mL/min、体重≤60 kg或使用P-gp抑制剂。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "30 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <15：禁忌。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "DVT/PE治疗（成人）",
+          "descricaoDose": "60 mg 每日1次 口服。肠外抗凝≥5天后开始。ClCr 15-50或体重≤60 kg或P-gp：30 mg/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 60,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <15：禁忌。ClCr 15-50或体重≤60 kg或P-gp抑制剂：30 mg/日。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        },
+        {
+          "titulo": "DVT/PE复发预防（成人）",
+          "descricaoDose": "60 mg 每日1次 口服（或ClCr 15-50、体重≤60 kg或P-gp抑制剂时30 mg 每日1次）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 30,
+            "doseMax": 60,
+            "doseMaxima": 60,
+            "doseFixa": "60 mg（符合条件时30 mg）",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO",
+            "intervalo": "每日1次",
+            "ajusteRenal": "ClCr <15：禁忌。ClCr 15-50或体重≤60 kg或P-gp抑制剂：30 mg/日。",
+            "ajusteHepatico": "凝血功能障碍性肝病禁忌。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "DOAC - 直接Xa因子抑制剂",
+      "apresentacoes": [
+        { "forma": "片剂 15 mg", "obs": "剂型" },
+        { "forma": "片剂 30 mg", "obs": "减量" },
+        { "forma": "片剂 60 mg", "obs": "标准剂量" }
+      ],
+      "preparo": [
+        { "diluicao": "口服。每日1次。", "concentracao": "餐前或餐后均可" }
+      ],
+      "observacoes": [
+        "注意：ClCr >95 mL/min 房颤疗效降低（考虑替代）",
+        "DVT/PE需先肠外抗凝≥5天",
+        "减量（30 mg/日）：ClCr 15-50、体重≤60 kg或P-gp抑制剂",
+        "特异性逆转：andexanet alfa。非特异性：PCC",
+        "无需常规监测（不需INR）",
+        "肾排泄约50%，粪便约50%。ClCr <15：禁忌。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无单纯年龄调整。根据ClCr和体重选择30或60 mg。",
+        "renal": "ClCr <15：禁忌。ClCr 15-50：30 mg/日。ClCr >95房颤：疗效降低。",
+        "hepatico": "凝血功能障碍性肝病禁忌。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "依度沙班 房颤标准（成人）",
+        "doseTexto": "60 mg 每日1次 口服",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依度沙班 房颤减量（成人）",
+        "doseTexto": "30 mg 每日1次 口服",
+        "doseMin": 30,
+        "doseMax": 30,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "30 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依度沙班 DVT/PE（成人）",
+        "doseTexto": "60 mg 每日1次 口服（肠外≥5天后）",
+        "doseMin": 60,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "60 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "依度沙班 DVT/PE预防（成人）",
+        "doseTexto": "60 mg 每日1次（符合条件时30 mg）",
+        "doseMin": 30,
+        "doseMax": 60,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

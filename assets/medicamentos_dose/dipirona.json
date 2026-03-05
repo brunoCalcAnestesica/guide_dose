@@ -1,0 +1,478 @@
+{
+  "PT": {
+    "nome": "Dipirona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dor/febre VO/IM/IV (adulto)",
+          "descricaoDose": "500-1000 mg a cada 6-8h. Máx 4 g/dia. IV infundir em 5-10 min (máx 2 g por dose).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IM/IV",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30 mL/min: prolongar intervalo para 8-12h. ClCr <10: máx 1-2 g/dia sob monitoramento.",
+            "ajusteHepatico": "Usar com cautela em hepatopatia grave. Monitorar enzimas hepáticas em uso prolongado."
+          }
+        },
+        {
+          "titulo": "Dor/febre VO/IM/IV (idoso)",
+          "descricaoDose": "500-1000 mg a cada 6-8h. Preferir dose mínima eficaz. Máx 4 g/dia.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IM/IV",
+            "intervalo": "a cada 6-8h",
+            "ajusteRenal": "ClCr <30: prolongar intervalo 8-12h. ClCr <10: máx 1-2 g/dia.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        },
+        {
+          "titulo": "Dor/febre (pediátrico)",
+          "descricaoDose": "10-20 mg/kg/dose a cada 6h. Máx 60 mg/kg/dia ou 4 g/dia. Contraindicado <3 meses ou <5 kg.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO/IM/IV",
+            "intervalo": "a cada 6h",
+            "ajusteRenal": "ClCr <30: prolongar intervalo 8-12h. ClCr <10: máx 1-2 g/dia.",
+            "ajusteHepatico": "Cautela em hepatopatia grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico, antipirético e antiespasmódico; derivado da pirazolona; não opioide.",
+      "apresentacoes": [
+        { "forma": "Comprimidos 500 mg, 1 g", "obs": "Novalgina®, Anador®" },
+        { "forma": "Gotas 500 mg/mL", "obs": "VO" },
+        { "forma": "Solução oral 50 mg/mL", "obs": "VO" },
+        { "forma": "Ampolas IV/IM 500 mg/mL (1 mL, 2 mL, 5 mL)", "obs": "Parenteral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: diluir em 100 mL SF 0,9%, infundir em 5-10 min", "concentracao": "Conforme diluição" },
+        { "diluicao": "VO: comprimidos, gotas ou solução oral conforme bula", "concentracao": "500 mg/mL (gotas); 50 mg/mL (solução)" }
+      ],
+      "observacoes": [
+        "IV sempre lento (5-10 min) para evitar hipotensão; dose máx 2 g por administração IV",
+        "Risco de agranulocitose e reações hematológicas; monitorar função hematológica em uso prolongado",
+        "Contraindicado em hipersensibilidade a pirazolonas e em neonatos (<3 meses ou <5 kg)",
+        "Incompatível com bicarbonato e soluções alcalinas na mesma via",
+        "ClCr <30 mL/min: prolongar intervalo entre doses para 8-12h; ClCr <10: máx 1-2 g/dia sob monitoramento",
+        "Hepatopatia grave: usar com cautela. Excreção renal de metabólitos; urina pode ficar avermelhada."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Preferir dose mínima eficaz. Monitorar pressão arterial (IV) e efeitos adversos.",
+        "renal": "ClCr <30: prolongar intervalo para 8-12h. ClCr <10: máx 1-2 g/dia. Diálise: excretado parcialmente.",
+        "hepatico": "Usar com cautela em hepatopatia grave. Monitorar enzimas hepáticas em uso prolongado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dipirona (adulto)",
+        "doseTexto": "500-1000 mg a cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dipirona (pediátrico)",
+        "doseTexto": "10-20 mg/kg a cada 6h (máx 60 mg/kg/dia)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Dipyrone",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Pain/fever PO/IM/IV (adult)",
+          "descricaoDose": "500-1000 mg every 6-8h. Max 4 g/day. IV infuse over 5-10 min (max 2 g per dose).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO/IM/IV",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30 mL/min: extend interval to 8-12h. ClCr <10: max 1-2 g/day under monitoring.",
+            "ajusteHepatico": "Use with caution in severe liver disease. Monitor hepatic enzymes with prolonged use."
+          }
+        },
+        {
+          "titulo": "Pain/fever PO/IM/IV (elderly)",
+          "descricaoDose": "500-1000 mg every 6-8h. Prefer minimum effective dose. Max 4 g/day.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "VO/IM/IV",
+            "intervalo": "every 6-8h",
+            "ajusteRenal": "ClCr <30: extend interval 8-12h. ClCr <10: max 1-2 g/day.",
+            "ajusteHepatico": "Caution in severe liver disease."
+          }
+        },
+        {
+          "titulo": "Pain/fever (pediatric)",
+          "descricaoDose": "10-20 mg/kg/dose every 6h. Max 60 mg/kg/day or 4 g/day. Contraindicated <3 months or <5 kg.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "VO/IM/IV",
+            "intervalo": "every 6h",
+            "ajusteRenal": "ClCr <30: extend interval 8-12h. ClCr <10: max 1-2 g/day.",
+            "ajusteHepatico": "Caution in severe liver disease."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgesic, antipyretic, and antispasmodic; pyrazolone derivative; non-opioid.",
+      "apresentacoes": [
+        { "forma": "Tablets 500 mg, 1 g", "obs": "Novalgina®" },
+        { "forma": "Drops 500 mg/mL", "obs": "PO" },
+        { "forma": "Oral solution 50 mg/mL", "obs": "PO" },
+        { "forma": "IV/IM ampoules 500 mg/mL (1 mL, 2 mL, 5 mL)", "obs": "Parenteral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: dilute in 100 mL 0.9% NS, infuse over 5-10 min", "concentracao": "As per dilution" },
+        { "diluicao": "PO: tablets, drops or oral solution per label", "concentracao": "500 mg/mL (drops); 50 mg/mL (solution)" }
+      ],
+      "observacoes": [
+        "IV always slow (5-10 min) to avoid hypotension; max 2 g per IV dose",
+        "Risk of agranulocytosis and hematological reactions; monitor blood count with prolonged use",
+        "Contraindicated in hypersensitivity to pyrazolones and in neonates (<3 months or <5 kg)",
+        "Incompatible with bicarbonate and alkaline solutions in same line",
+        "ClCr <30 mL/min: extend interval to 8-12h; ClCr <10: max 1-2 g/day under monitoring",
+        "Severe liver disease: use with caution. Renal excretion of metabolites; urine may turn reddish."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Prefer minimum effective dose. Monitor blood pressure (IV) and adverse effects.",
+        "renal": "ClCr <30: extend interval to 8-12h. ClCr <10: max 1-2 g/day. Dialysis: partially excreted.",
+        "hepatico": "Use with caution in severe liver disease. Monitor hepatic enzymes with prolonged use."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dipyrone (adult)",
+        "doseTexto": "500-1000 mg every 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Dipyrone (pediatric)",
+        "doseTexto": "10-20 mg/kg every 6h (max 60 mg/kg/day)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Dipirona",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Dolor/fiebre VO/IM/IV (adulto)",
+          "descricaoDose": "500-1000 mg cada 6-8h. Máx 4 g/día. IV infundir en 5-10 min (máx 2 g por dosis).",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IM/IV",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30 mL/min: prolongar intervalo a 8-12h. ClCr <10: máx 1-2 g/día bajo monitorización.",
+            "ajusteHepatico": "Usar con precaución en hepatopatía grave. Monitorizar enzimas hepáticas en uso prolongado."
+          }
+        },
+        {
+          "titulo": "Dolor/fiebre VO/IM/IV (anciano)",
+          "descricaoDose": "500-1000 mg cada 6-8h. Preferir dosis mínima eficaz. Máx 4 g/día.",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO/IM/IV",
+            "intervalo": "cada 6-8h",
+            "ajusteRenal": "ClCr <30: prolongar intervalo 8-12h. ClCr <10: máx 1-2 g/día.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        },
+        {
+          "titulo": "Dolor/fiebre (pediátrico)",
+          "descricaoDose": "10-20 mg/kg/dosis cada 6h. Máx 60 mg/kg/día o 4 g/día. Contraindicado <3 meses o <5 kg.",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO/IM/IV",
+            "intervalo": "cada 6h",
+            "ajusteRenal": "ClCr <30: prolongar intervalo 8-12h. ClCr <10: máx 1-2 g/día.",
+            "ajusteHepatico": "Precaución en hepatopatía grave."
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Analgésico, antipirético y antiespasmódico; derivado de la pirazolona; no opioide.",
+      "apresentacoes": [
+        { "forma": "Comprimidos 500 mg, 1 g", "obs": "Novalgina®" },
+        { "forma": "Gotas 500 mg/mL", "obs": "VO" },
+        { "forma": "Solución oral 50 mg/mL", "obs": "VO" },
+        { "forma": "Ampollas IV/IM 500 mg/mL (1 mL, 2 mL, 5 mL)", "obs": "Parenteral" }
+      ],
+      "preparo": [
+        { "diluicao": "IV: diluir en 100 mL SF 0,9%, infundir en 5-10 min", "concentracao": "Según dilución" },
+        { "diluicao": "VO: comprimidos, gotas o solución oral según ficha", "concentracao": "500 mg/mL (gotas); 50 mg/mL (solución)" }
+      ],
+      "observacoes": [
+        "IV siempre lento (5-10 min) para evitar hipotensión; dosis máx 2 g por administración IV",
+        "Riesgo de agranulocitosis y reacciones hematológicas; monitorizar función hematológica en uso prolongado",
+        "Contraindicado en hipersensibilidad a pirazolonas y en neonatos (<3 meses o <5 kg)",
+        "Incompatible con bicarbonato y soluciones alcalinas en la misma vía",
+        "ClCr <30 mL/min: prolongar intervalo entre dosis a 8-12h; ClCr <10: máx 1-2 g/día bajo monitorización",
+        "Hepatopatía grave: usar con precaución. Excreción renal de metabolitos; orina puede enrojecerse."
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Preferir dosis mínima eficaz. Monitorizar presión arterial (IV) y efectos adversos.",
+        "renal": "ClCr <30: prolongar intervalo a 8-12h. ClCr <10: máx 1-2 g/día. Diálisis: excretado parcialmente.",
+        "hepatico": "Usar con precaución en hepatopatía grave. Monitorizar enzimas hepáticas en uso prolongado."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Dipirona (adulto)",
+        "doseTexto": "500-1000 mg cada 6-8h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Dipirona (pediátrico)",
+        "doseTexto": "10-20 mg/kg cada 6h (máx 60 mg/kg/día)",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "安乃近",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "疼痛/发热 口服/肌注/静注（成人）",
+          "descricaoDose": "500-1000 mg 每 6-8 小时。最大 4 g/日。静注 5-10 分钟（单次最大 2 g）。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO/IM/IV",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr <30 mL/min：延长给药间隔至 8-12 小时。ClCr <10：最大 1-2 g/日 并监测。",
+            "ajusteHepatico": "严重肝病慎用。长期用药监测肝酶。"
+          }
+        },
+        {
+          "titulo": "疼痛/发热 口服/肌注/静注（老年）",
+          "descricaoDose": "500-1000 mg 每 6-8 小时。首选最小有效剂量。最大 4 g/日。",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": null,
+            "dosePorKgMax": null,
+            "doseMin": 500,
+            "doseMax": 1000,
+            "doseMaxima": 4000,
+            "doseFixa": "500-1000 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "VO/IM/IV",
+            "intervalo": "每6-8小时",
+            "ajusteRenal": "ClCr <30：延长间隔 8-12 小时。ClCr <10：最大 1-2 g/日。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        },
+        {
+          "titulo": "疼痛/发热（儿童）",
+          "descricaoDose": "10-20 mg/kg/次 每 6 小时。最大 60 mg/kg/日 或 4 g/日。禁用于 <3 月 或 <5 kg。",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "dosePorKgMin": 10,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1000,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "VO/IM/IV",
+            "intervalo": "每6小时",
+            "ajusteRenal": "ClCr <30：延长间隔 8-12 小时。ClCr <10：最大 1-2 g/日。",
+            "ajusteHepatico": "严重肝病慎用。"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "镇痛、解热、解痉；吡唑酮衍生物；非阿片类。",
+      "apresentacoes": [
+        { "forma": "片剂 500 mg、1 g", "obs": "诺瓦经®" },
+        { "forma": "滴剂 500 mg/mL", "obs": "口服" },
+        { "forma": "口服液 50 mg/mL", "obs": "口服" },
+        { "forma": "静注/肌注 安瓿 500 mg/mL (1 mL、2 mL、5 mL)", "obs": "肠外" }
+      ],
+      "preparo": [
+        { "diluicao": "静注：用 100 mL 生理盐水稀释，5-10 分钟内输注", "concentracao": "按稀释" },
+        { "diluicao": "口服：片剂、滴剂或口服液按说明书", "concentracao": "500 mg/mL（滴剂）；50 mg/mL（口服液）" }
+      ],
+      "observacoes": [
+        "静注始终缓慢（5-10 分钟）以防低血压；单次静注最大 2 g",
+        "粒细胞缺乏及血液学反应风险；长期用药监测血象",
+        "对吡唑酮过敏及新生儿（<3 月或 <5 kg）禁忌",
+        "同一管路禁与碳酸氢盐及碱性液配伍",
+        "ClCr <30 mL/min：延长给药间隔至 8-12 小时；ClCr <10：最大 1-2 g/日 并监测",
+        "严重肝病慎用。代谢物经肾排泄；尿可呈红色。"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "首选最小有效剂量。监测血压（静注）及不良反应。",
+        "renal": "ClCr <30：延长间隔至 8-12 小时。ClCr <10：最大 1-2 g/日。透析：部分清除。",
+        "hepatico": "严重肝病慎用。长期用药监测肝酶。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "安乃近（成人）",
+        "doseTexto": "500-1000 mg 每 6-8 小时",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "500-1000 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "安乃近（儿童）",
+        "doseTexto": "10-20 mg/kg 每 6 小时（最大 60 mg/kg/日）",
+        "doseMin": 10,
+        "doseMax": 20,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

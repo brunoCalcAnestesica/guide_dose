@@ -1,0 +1,83 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Ibuprofeno",
+      "nomesComerciais": ["Advil®", "Alivium®", "Motrin®", "Caldolor® (IV)"],
+      "classeTerapeutica": "AINE / Analgésico / Antipirético / Anti-inflamatório",
+      "mecanismoAcao": "Inibidor não-seletivo da ciclooxigenase (COX-1 e COX-2), derivado do ácido propiônico. Possui ação analgésica, antipirética e anti-inflamatória equilibrada. É considerado um dos AINEs com melhor perfil de segurança.",
+      "indicacoes": [
+        "Dor leve a moderada",
+        "Febre",
+        "Dor pós-operatória",
+        "Dismenorreia",
+        "Artrite reumatoide e osteoartrite",
+        "Cefaleia tensional e enxaqueca",
+        "Fechamento de canal arterial (neonatos)"
+      ],
+      "apresentacoes": [
+        "Frasco 400mg/4mL (100mg/mL) - IV",
+        "Frasco 800mg/8mL (100mg/mL) - IV",
+        "Comprimido 200mg, 400mg, 600mg",
+        "Cápsula 200mg, 400mg",
+        "Suspensão oral 50mg/mL, 100mg/5mL",
+        "Gotas 50mg/mL",
+        "Gel 5%"
+      ],
+      "posologia": {
+        "adulto": {
+          "iv": "400-800 mg a cada 6h (máx 3200 mg/dia)",
+          "vo_analgesico": "200-400 mg a cada 4-6h (máx 1200 mg/dia sem receita)",
+          "vo_anti_inflamatorio": "400-800 mg a cada 6-8h (máx 3200 mg/dia)"
+        },
+        "pediatrico": {
+          "vo_analgesico": "5-10 mg/kg/dose a cada 6-8h (máx 40 mg/kg/dia)",
+          "iv": "10 mg/kg a cada 4-6h (máx 400 mg/dose)",
+          "idade_minima": ">6 meses",
+          "fechamento_pca": "Protocolo específico em neonatologia"
+        }
+      },
+      "farmacocinetica": {
+        "inicio_acao": "30 min (VO), 15 min (IV)",
+        "pico_plasmatico": "1-2h (VO), fim da infusão (IV)",
+        "duracao": "4-6 horas",
+        "meia_vida": "2-4 horas",
+        "metabolismo": "Hepático (CYP2C9)",
+        "eliminacao": "Renal (90%)"
+      },
+      "ajusteRenal": "IR leve/moderada: usar menor dose eficaz. IR grave: evitar",
+      "ajusteHepatico": "Usar menor dose eficaz, evitar em hepatopatia grave",
+      "contraindicacoes": [
+        "Úlcera péptica ativa",
+        "Insuficiência renal grave",
+        "Insuficiência cardíaca grave (NYHA III-IV)",
+        "Gestação (3º trimestre)",
+        "Alergia a AINEs",
+        "Pós-operatório de cirurgia de revascularização coronária"
+      ],
+      "efeitosAdversos": [
+        "Dispepsia, náuseas, dor abdominal",
+        "Sangramento GI (menor incidência que outros AINEs)",
+        "Cefaleia, tontura",
+        "Elevação de transaminases",
+        "Retenção hídrica",
+        "Reações cutâneas"
+      ],
+      "interacoes": [
+        "AAS: antagoniza efeito cardioprotetor (dar ibuprofeno 30min após ou 8h antes do AAS)",
+        "Anticoagulantes: aumenta risco de sangramento",
+        "Lítio: aumenta níveis séricos",
+        "Metotrexato: aumenta toxicidade",
+        "Diuréticos e anti-hipertensivos: reduz eficácia"
+      ],
+      "observacoes": [
+        "Perfil de segurança favorável entre AINEs",
+        "Disponível sem receita em doses baixas",
+        "Infusão IV em 30 minutos",
+        "Diluir 400mg em 100mL, 800mg em 200mL",
+        "Tomar com alimentos para reduzir irritação GI",
+        "Uso em fechamento de PCA: protocolo específico neonatal"
+      ],
+      "categoriaGravidez": "C (1º/2º tri) / D (3º tri)"
+    }
+  }
+}

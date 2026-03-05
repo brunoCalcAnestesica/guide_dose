@@ -1,0 +1,678 @@
+{
+  "PT": {
+    "nome": "Clobazam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Epilepsia (adulto)",
+          "descricaoDose": "Inicial 5-15 mg/dia VO; manutenção 20-30 mg/dia em 1-2 doses (máx 60 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 30,
+            "doseMaxima": 60,
+            "doseFixa": "20-30 mg/dia (máx 60 mg/dia)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Insuficiência hepática grave contraindicada; reduzir dose em IH moderada (CYP2C19 lentos: 50% da dose)"
+          }
+        },
+        {
+          "titulo": "Epilepsia (pediátrico)",
+          "descricaoDose": "0,5-1 mg/kg/dia VO divididos em 2 doses (máx 40 mg/dia)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH; metabolizadores CYP2C19 lentos: 50% da dose"
+          }
+        },
+        {
+          "titulo": "Síndrome de Lennox-Gastaut (até 30 kg)",
+          "descricaoDose": "5-20 mg/dia VO em 1-2 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "5-20 mg/dia",
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada"
+          }
+        },
+        {
+          "titulo": "Síndrome de Lennox-Gastaut (acima 30 kg)",
+          "descricaoDose": "5-40 mg/dia VO em 1-2 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "5-40 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada"
+          }
+        },
+        {
+          "titulo": "Ansiedade (off-label)",
+          "descricaoDose": "10-30 mg/dia VO divididos em 1-2 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "10-30 mg/dia",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose em IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Idoso (epilepsia)",
+          "descricaoDose": "Iniciar 5 mg/dia VO; titular lentamente (máx 20-30 mg/dia)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 30,
+            "doseFixa": "5-20 mg/dia (titular)",
+            "faixaEtaria": "Idoso",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 vezes ao dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Reduzir dose; maior sensibilidade"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / 1,5-Benzodiazepina / Anticonvulsivante",
+      "apresentacoes": [
+        { "forma": "Comprimidos 10 mg, 20 mg", "obs": "VO" },
+        { "forma": "Suspensão oral 2,5 mg/mL", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral - não requer diluição", "concentracao": "Conforme apresentação" }
+      ],
+      "observacoes": [
+        "Menor sedação que outros benzodiazepínicos (estrutura 1,5-benzodiazepina)",
+        "Metabolito ativo N-desmetilclobazam (T1/2 36-46 h); metabolismo CYP3A4 e CYP2C19",
+        "Metabolizadores lentos CYP2C19 podem precisar de 50% da dose",
+        "Retirada gradual obrigatória; não interromper abruptamente",
+        "Contraindicado: miastenia gravis, insuficiência respiratória grave, apneia do sono, IH grave, gestação (categoria D)",
+        "Tolerância pode desenvolver; monitorar ataxia, tontura, sialorreia"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar com 5 mg/dia. Titular lentamente; maior sensibilidade e risco de sedação.",
+        "renal": "Não requer ajuste. Metabolismo hepático; monitorar sedação em IRC.",
+        "hepatico": "Insuficiência hepática grave contraindicada. Reduzir dose em IH moderada; metabolizadores lentos CYP2C19: 50% da dose."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clobazam (adulto)",
+        "doseTexto": "20-30 mg/dia VO 1-2x (máx 60 mg/dia)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/dia",
+        "decimais": 0,
+        "resultadoFixo": "20-30 mg/dia",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clobazam (pediátrico)",
+        "doseTexto": "0,5-1 mg/kg/dia VO 2x (máx 40 mg/dia)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg/dia",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Clobazam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Epilepsy (adult)",
+          "descricaoDose": "Initial 5-15 mg/day PO; maintenance 20-30 mg/day in 1-2 doses (max 60 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 30,
+            "doseMaxima": 60,
+            "doseFixa": "20-30 mg/day (max 60 mg/day)",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "1-2 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Severe hepatic impairment contraindicated; reduce dose in moderate impairment (CYP2C19 poor metabolizers: 50% dose)"
+          }
+        },
+        {
+          "titulo": "Epilepsy (pediatric)",
+          "descricaoDose": "0.5-1 mg/kg/day PO divided in 2 doses (max 40 mg/day)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "twice daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in hepatic impairment; CYP2C19 poor metabolizers: 50% dose"
+          }
+        },
+        {
+          "titulo": "Lennox-Gastaut syndrome (≤30 kg)",
+          "descricaoDose": "5-20 mg/day PO in 1-2 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "5-20 mg/day",
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "1-2 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Lennox-Gastaut syndrome (>30 kg)",
+          "descricaoDose": "5-40 mg/day PO in 1-2 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "5-40 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "1-2 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Anxiety (off-label)",
+          "descricaoDose": "10-30 mg/day PO divided in 1-2 doses",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "10-30 mg/day",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "1-2 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose in moderate/severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Elderly (epilepsy)",
+          "descricaoDose": "Start 5 mg/day PO; titrate slowly (max 20-30 mg/day)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 30,
+            "doseFixa": "5-20 mg/day (titrate)",
+            "faixaEtaria": "Elderly",
+            "sexo": "All",
+            "via": "PO",
+            "intervalo": "1-2 times daily",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reduce dose; increased sensitivity"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine / 1,5-Benzodiazepine / Anticonvulsant",
+      "apresentacoes": [
+        { "forma": "Tablets 10 mg, 20 mg", "obs": "PO" },
+        { "forma": "Oral suspension 2.5 mg/mL", "obs": "PO" }
+      ],
+      "preparo": [
+        { "diluicao": "Oral use - no dilution required", "concentracao": "As per formulation" }
+      ],
+      "observacoes": [
+        "Less sedation than other benzodiazepines (1,5-benzodiazepine structure)",
+        "Active metabolite N-desmethylclobazam (T1/2 36-46 h); metabolism CYP3A4 and CYP2C19",
+        "CYP2C19 poor metabolizers may require 50% of dose",
+        "Gradual taper required; do not discontinue abruptly",
+        "Contraindicated: myasthenia gravis, severe respiratory failure, sleep apnea, severe hepatic impairment, pregnancy (category D)",
+        "Tolerance may develop; monitor ataxia, dizziness, sialorrhea"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Start 5 mg/day. Titrate slowly; increased sensitivity and sedation risk.",
+        "renal": "No dose adjustment. Hepatic metabolism; monitor sedation in CKD.",
+        "hepatico": "Severe hepatic impairment contraindicated. Reduce dose in moderate impairment; CYP2C19 poor metabolizers: 50% dose."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clobazam (adult)",
+        "doseTexto": "20-30 mg/day PO 1-2x (max 60 mg/day)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/day",
+        "decimais": 0,
+        "resultadoFixo": "20-30 mg/day",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Clobazam (pediatric)",
+        "doseTexto": "0.5-1 mg/kg/day PO 2x (max 40 mg/day)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg/day",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Clobazam",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Epilepsia (adulto)",
+          "descricaoDose": "Inicial 5-15 mg/día VO; mantenimiento 20-30 mg/día en 1-2 dosis (máx 60 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 30,
+            "doseMaxima": 60,
+            "doseFixa": "20-30 mg/día (máx 60 mg/día)",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Insuficiencia hepática grave contraindicada; reducir dosis en IH moderada (CYP2C19 lentos: 50% dosis)"
+          }
+        },
+        {
+          "titulo": "Epilepsia (pediátrico)",
+          "descricaoDose": "0,5-1 mg/kg/día VO divididos en 2 dosis (máx 40 mg/día)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "2 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH; metabolizadores CYP2C19 lentos: 50% dosis"
+          }
+        },
+        {
+          "titulo": "Síndrome de Lennox-Gastaut (≤30 kg)",
+          "descricaoDose": "5-20 mg/día VO en 1-2 dosis",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "5-20 mg/día",
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada"
+          }
+        },
+        {
+          "titulo": "Síndrome de Lennox-Gastaut (>30 kg)",
+          "descricaoDose": "5-40 mg/día VO en 1-2 dosis",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "5-40 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada"
+          }
+        },
+        {
+          "titulo": "Ansiedad (off-label)",
+          "descricaoDose": "10-30 mg/día VO divididos en 1-2 dosis",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "10-30 mg/día",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis en IH moderada/grave"
+          }
+        },
+        {
+          "titulo": "Anciano (epilepsia)",
+          "descricaoDose": "Iniciar 5 mg/día VO; titular lentamente (máx 20-30 mg/día)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 30,
+            "doseFixa": "5-20 mg/día (titular)",
+            "faixaEtaria": "Anciano",
+            "sexo": "Todos",
+            "via": "VO",
+            "intervalo": "1-2 veces al día",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Reducir dosis; mayor sensibilidad"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Benzodiazepínico / 1,5-Benzodiazepina / Anticonvulsivante",
+      "apresentacoes": [
+        { "forma": "Comprimidos 10 mg, 20 mg", "obs": "VO" },
+        { "forma": "Suspensión oral 2,5 mg/mL", "obs": "VO" }
+      ],
+      "preparo": [
+        { "diluicao": "Uso oral - no requiere dilución", "concentracao": "Según presentación" }
+      ],
+      "observacoes": [
+        "Menor sedación que otros benzodiazepínicos (estructura 1,5-benzodiazepina)",
+        "Metabolito activo N-desmetilclobazam (T1/2 36-46 h); metabolismo CYP3A4 y CYP2C19",
+        "Metabolizadores lentos CYP2C19 pueden precisar 50% de la dosis",
+        "Retirada gradual obligatoria; no interrumpir bruscamente",
+        "Contraindicado: miastenia gravis, insuficiencia respiratoria grave, apnea del sueño, IH grave, gestación (categoría D)",
+        "Puede desarrollarse tolerancia; vigilar ataxia, mareo, sialorrea"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Iniciar 5 mg/día. Titular lentamente; mayor sensibilidad y riesgo de sedación.",
+        "renal": "No requiere ajuste. Metabolismo hepático; vigilar sedación en IRC.",
+        "hepatico": "Insuficiencia hepática grave contraindicada. Reducir dosis en IH moderada; metabolizadores lentos CYP2C19: 50% dosis."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Clobazam (adulto)",
+        "doseTexto": "20-30 mg/día VO 1-2x (máx 60 mg/día)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/día",
+        "decimais": 0,
+        "resultadoFixo": "20-30 mg/día",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Clobazam (pediátrico)",
+        "doseTexto": "0,5-1 mg/kg/día VO 2x (máx 40 mg/día)",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg/día",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氯巴占",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "癫痫（成人）",
+          "descricaoDose": "初始5-15 mg/日 口服；维持20-30 mg/日 分1-2次（最大60 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 20,
+            "doseMax": 30,
+            "doseMaxima": 60,
+            "doseFixa": "20-30 mg/日（最大60 mg/日）",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1-2次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全禁用；中度不全减量（CYP2C19慢代谢：50%剂量）"
+          }
+        },
+        {
+          "titulo": "癫痫（儿童）",
+          "descricaoDose": "0.5-1 mg/kg/日 口服 分2次（最大40 mg/日）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.75,
+            "dosePorKgMin": 0.5,
+            "dosePorKgMax": 1,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 40,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日2次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "肝功能不全减量；CYP2C19慢代谢：50%剂量"
+          }
+        },
+        {
+          "titulo": "Lennox-Gastaut综合征（≤30 kg）",
+          "descricaoDose": "5-20 mg/日 口服 分1-2次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 20,
+            "doseFixa": "5-20 mg/日",
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1-2次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中度肝功能不全减量"
+          }
+        },
+        {
+          "titulo": "Lennox-Gastaut综合征（>30 kg）",
+          "descricaoDose": "5-40 mg/日 口服 分1-2次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 40,
+            "doseMaxima": 40,
+            "doseFixa": "5-40 mg/日",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1-2次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中度肝功能不全减量"
+          }
+        },
+        {
+          "titulo": "焦虑（超说明书）",
+          "descricaoDose": "10-30 mg/日 口服 分1-2次",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 10,
+            "doseMax": 30,
+            "doseMaxima": 30,
+            "doseFixa": "10-30 mg/日",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1-2次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "中重度肝功能不全减量"
+          }
+        },
+        {
+          "titulo": "老年（癫痫）",
+          "descricaoDose": "起始5 mg/日 口服；缓慢滴定（最大20-30 mg/日）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": 5,
+            "doseMax": 20,
+            "doseMaxima": 30,
+            "doseFixa": "5-20 mg/日（滴定）",
+            "faixaEtaria": "老年",
+            "sexo": "所有",
+            "via": "口服",
+            "intervalo": "每日1-2次",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "减量；敏感性增加"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "苯二氮䓬类 / 1,5-苯二氮䓬 / 抗癫痫",
+      "apresentacoes": [
+        { "forma": "片剂 10 mg, 20 mg", "obs": "口服" },
+        { "forma": "口服混悬液 2.5 mg/mL", "obs": "口服" }
+      ],
+      "preparo": [
+        { "diluicao": "口服使用 - 无需稀释", "concentracao": "按剂型" }
+      ],
+      "observacoes": [
+        "较其他苯二氮䓬类镇静作用弱（1,5-苯二氮䓬结构）",
+        "活性代谢物N-去甲基氯巴占（T1/2 36-46 h）；代谢CYP3A4、CYP2C19",
+        "CYP2C19慢代谢者可能需50%剂量",
+        "需逐渐减量；勿骤停",
+        "禁忌：重症肌无力、严重呼吸衰竭、睡眠呼吸暂停、严重肝功能不全、妊娠（D类）",
+        "可产生耐受；监测共济失调、头晕、流涎"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "起始5 mg/日。缓慢滴定；敏感性增加及镇静风险。",
+        "renal": "无需调整。肝代谢；肾功能不全时监测镇静。",
+        "hepatico": "严重肝功能不全禁用。中度不全减量；CYP2C19慢代谢：50%剂量。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氯巴占（成人）",
+        "doseTexto": "20-30 mg/日 口服 1-2次（最大60 mg/日）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg/日",
+        "decimais": 0,
+        "resultadoFixo": "20-30 mg/日",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氯巴占（儿童）",
+        "doseTexto": "0.5-1 mg/kg/日 口服 2次（最大40 mg/日）",
+        "doseMin": 0.5,
+        "doseMax": 1,
+        "unidadeResultado": "mg/日",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "PT": {
+    "nome": "Andexanet Alfa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversão dose baixa",
+          "descricaoDose": "400 mg IV bolus (30 mg/min) + 4 mg/min por 2h (total 880 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg bolus + 4 mg/min x 2h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus seguido de infusão 2h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        },
+        {
+          "titulo": "Reversão dose alta",
+          "descricaoDose": "800 mg IV bolus (30 mg/min) + 8 mg/min por 2h (total 1760 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800 mg bolus + 8 mg/min x 2h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus seguido de infusão 2h",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto - Fator Xa recombinante modificado (decoy)",
+      "apresentacoes": [
+        { "forma": "Frasco 200 mg", "obs": "Pó liofilizado" },
+        { "forma": "Reconstituição", "obs": "20 mL água estéril (10 mg/mL)" }
+      ],
+      "preparo": [
+        { "diluicao": "20 mL água estéril por frasco", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "Dose baixa: rivaroxabana ≤10 mg, apixabana ≤5 mg ou última dose >8h",
+        "Dose alta: rivaroxabana >10 mg, apixabana >5 mg, última dose <8h ou desconhecido",
+        "Bolus 30 mg/min; usar filtro 0,2-0,22 μm",
+        "NÃO reverte dabigatran (usar idarucizumab)",
+        "Risco trombótico ~10% - monitorar; custo muito elevado",
+        "Estabilidade: até 8h refrigerado após reconstituição"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste de dose. Monitorar eventos tromboembólicos.",
+        "renal": "Não requer ajuste. Não dialisável.",
+        "hepatico": "Não requer ajuste específico."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Andexanet (dose baixa)",
+        "doseTexto": "400 mg IV bolus + 4 mg/min x 2h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg bolus",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Andexanet (dose alta)",
+        "doseTexto": "800 mg IV bolus + 8 mg/min x 2h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800 mg bolus",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Andexanet Alfa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversal low dose",
+          "descricaoDose": "400 mg IV bolus (30 mg/min) + 4 mg/min for 2h (total 880 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg bolus + 4 mg/min x 2h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "bolus followed by 2h infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Reversal high dose",
+          "descricaoDose": "800 mg IV bolus (30 mg/min) + 8 mg/min for 2h (total 1760 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800 mg bolus + 8 mg/min x 2h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "bolus followed by 2h infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antidote - Recombinant modified factor Xa (decoy)",
+      "apresentacoes": [
+        { "forma": "Vial 200 mg", "obs": "Lyophilized powder" },
+        { "forma": "Reconstitution", "obs": "20 mL sterile water (10 mg/mL)" }
+      ],
+      "preparo": [
+        { "diluicao": "20 mL sterile water per vial", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "Low dose: rivaroxaban ≤10 mg, apixaban ≤5 mg or last dose >8h ago",
+        "High dose: rivaroxaban >10 mg, apixaban >5 mg, last dose <8h or unknown",
+        "Bolus at 30 mg/min; use 0.2-0.22 μm filter",
+        "Does NOT reverse dabigatran (use idarucizumab)",
+        "Thrombotic risk ~10% - monitor; very high cost",
+        "Stability: up to 8h refrigerated after reconstitution"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No dose adjustment. Monitor for thromboembolic events.",
+        "renal": "No adjustment required. Not dialyzable.",
+        "hepatico": "No specific adjustment required."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Andexanet (low dose)",
+        "doseTexto": "400 mg IV bolus + 4 mg/min x 2h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg bolus",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Andexanet (high dose)",
+        "doseTexto": "800 mg IV bolus + 8 mg/min x 2h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800 mg bolus",
+        "faixaEtaria": "Adult"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Andexanet Alfa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversión dosis baja",
+          "descricaoDose": "400 mg IV bolus (30 mg/min) + 4 mg/min durante 2h (total 880 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg bolus + 4 mg/min x 2h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus seguido de infusión 2h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        },
+        {
+          "titulo": "Reversión dosis alta",
+          "descricaoDose": "800 mg IV bolus (30 mg/min) + 8 mg/min durante 2h (total 1760 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800 mg bolus + 8 mg/min x 2h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "bolus seguido de infusión 2h",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "NO"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antídoto - Factor Xa recombinante modificado (señuelo)",
+      "apresentacoes": [
+        { "forma": "Frasco 200 mg", "obs": "Polvo liofilizado" },
+        { "forma": "Reconstitución", "obs": "20 mL agua estéril (10 mg/mL)" }
+      ],
+      "preparo": [
+        { "diluicao": "20 mL agua estéril por frasco", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "Dosis baja: rivaroxabano ≤10 mg, apixabano ≤5 mg o última dosis >8h",
+        "Dosis alta: rivaroxabano >10 mg, apixabano >5 mg, última dosis <8h o desconocido",
+        "Bolus 30 mg/min; usar filtro 0,2-0,22 μm",
+        "NO revierte dabigatrán (usar idarucizumab)",
+        "Riesgo trombótico ~10% - monitorizar; coste muy elevado",
+        "Estabilidad: hasta 8h refrigerado tras reconstitución"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste de dosis. Monitorizar eventos tromboembólicos.",
+        "renal": "No requiere ajuste. No dializable.",
+        "hepatico": "No requiere ajuste específico."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Andexanet (dosis baja)",
+        "doseTexto": "400 mg IV bolus + 4 mg/min x 2h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg bolus",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Andexanet (dosis alta)",
+        "doseTexto": "800 mg IV bolus + 8 mg/min x 2h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800 mg bolus",
+        "faixaEtaria": "Adulto"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "Andexanet Alfa",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "低剂量逆转",
+          "descricaoDose": "400 mg IV 推注 (30 mg/min) + 4 mg/min 输注2小时 (共880 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "400 mg bolus + 4 mg/min x 2h",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "推注后输注2小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        },
+        {
+          "titulo": "高剂量逆转",
+          "descricaoDose": "800 mg IV 推注 (30 mg/min) + 8 mg/min 输注2小时 (共1760 mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": "800 mg bolus + 8 mg/min x 2h",
+            "faixaEtaria": "成人",
+            "sexo": "全部",
+            "via": "IV",
+            "intervalo": "推注后输注2小时",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "否"
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "解毒剂 - 重组修饰因子Xa（诱饵）",
+      "apresentacoes": [
+        { "forma": "200 mg 瓶", "obs": "冻干粉" },
+        { "forma": "复溶", "obs": "20 mL 无菌注射用水 (10 mg/mL)" }
+      ],
+      "preparo": [
+        { "diluicao": "每瓶20 mL 无菌注射用水", "concentracao": "10 mg/mL" }
+      ],
+      "observacoes": [
+        "低剂量：利伐沙班≤10 mg、阿哌沙班≤5 mg或末次给药>8h",
+        "高剂量：利伐沙班>10 mg、阿哌沙班>5 mg、末次给药<8h或未知",
+        "推注30 mg/min；使用0.2-0.22 μm滤器",
+        "不能逆转达比加群（使用依达赛珠单抗）",
+        "血栓风险约10% - 监测；费用极高",
+        "复溶后冷藏8小时内使用"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无需调整剂量。监测血栓栓塞事件。",
+        "renal": "无需调整。不可透析。",
+        "hepatico": "无需特殊调整。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Andexanet（低剂量）",
+        "doseTexto": "400 mg IV 推注 + 4 mg/min x 2h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "400 mg bolus",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "Andexanet（高剂量）",
+        "doseTexto": "800 mg IV 推注 + 8 mg/min x 2h",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 0,
+        "resultadoFixo": "800 mg bolus",
+        "faixaEtaria": "成人"
+      }
+    ]
+  }
+}

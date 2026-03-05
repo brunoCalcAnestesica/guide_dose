@@ -1,0 +1,934 @@
+{
+  "PT": {
+    "nome": "Fosfenitoína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus - Ataque IV (adulto)",
+          "descricaoDose": "15-20 mg EP/kg IV em 10-20 min (velocidade máx 150 mg EP/min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 10-20 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - Ataque IM (adulto)",
+          "descricaoDose": "15-20 mg EP/kg IM (máx 20 mL por local)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Manutenção (adulto)",
+          "descricaoDose": "4-6 mg EP/kg/dia IV/IM dividido 1-2x",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1-2x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - Ataque IV (pediátrico)",
+          "descricaoDose": "15-20 mg EP/kg IV em 10-20 min (velocidade máx 2-3 mg EP/kg/min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única em 10-20 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - Ataque IM (pediátrico)",
+          "descricaoDose": "15-20 mg EP/kg IM (máx 20 mL por local)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dose única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Manutenção (pediátrico)",
+          "descricaoDose": "4-6 mg EP/kg/dia IV/IM dividido 1-2x",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP/dia",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1-2x/dia",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico - Prodroga da fenitoína",
+      "apresentacoes": [
+        { "forma": "Frasco-ampola 500 mg EP/10 mL", "obs": "50 mg EP/mL; EP = equivalente de fenitoína" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir em SF 0,9% ou SG 5%", "concentracao": "1,5-25 mg EP/mL" },
+        { "diluicao": "Velocidade máx IV adulto", "concentracao": "150 mg EP/min" },
+        { "diluicao": "Velocidade máx IV pediátrico", "concentracao": "2-3 mg EP/kg/min" },
+        { "diluicao": "Via IM", "concentracao": "Máx 20 mL por local de injeção" }
+      ],
+      "observacoes": [
+        "Conversão em fenitoína: 15-30 min após infusão; dosar níveis 2h após IV ou 4h após IM",
+        "pH neutro (6,5-9,0) - menos irritante que fenitoína; compatível com SG 5%",
+        "Pode ser administrada IM (fenitoína não pode); infusão IV até 3x mais rápida que fenitoína",
+        "Monitorar PA e ECG durante infusão; mesmas contraindicações da fenitoína (bloqueio AV, bradicardia sinusal)",
+        "Menor risco de síndrome da luva roxa e necrose por extravasamento que fenitoína",
+        "Categoria D na gravidez; indutor de CYP2C9, CYP2C19, CYP3A4"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Clearance de fenitoína pode estar reduzido. Monitorar níveis e sinais de toxicidade (nistagmo, ataxia).",
+        "renal": "Não requer ajuste de dose habitual. Em DRC grave, monitorar níveis de fenitoína e considerar dose menor se necessário.",
+        "hepatico": "Metabolismo hepático da fenitoína; em insuficiência hepática moderada a grave, reduzir dose e monitorizar níveis."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fosfenitoína - Ataque IV (adulto)",
+        "doseTexto": "15-20 mg EP/kg IV em 10-20 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg EP",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fosfenitoína - Ataque IM (adulto)",
+        "doseTexto": "15-20 mg EP/kg IM (máx 20 mL/local)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg EP",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fosfenitoína - Manutenção (adulto)",
+        "doseTexto": "4-6 mg EP/kg/dia IV/IM 1-2x",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg EP/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fosfenitoína - Ataque IV (pediátrico)",
+        "doseTexto": "15-20 mg EP/kg IV em 10-20 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg EP",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fosfenitoína - Ataque IM (pediátrico)",
+        "doseTexto": "15-20 mg EP/kg IM (máx 20 mL/local)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg EP",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fosfenitoína - Manutenção (pediátrico)",
+        "doseTexto": "4-6 mg EP/kg/dia IV/IM 1-2x",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg EP/dia",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Fosphenytoin",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Status epilepticus - IV loading (adult)",
+          "descricaoDose": "15-20 mg PE/kg IV over 10-20 min (max rate 150 mg PE/min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose over 10-20 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - IM loading (adult)",
+          "descricaoDose": "15-20 mg PE/kg IM (max 20 mL per site)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Maintenance (adult)",
+          "descricaoDose": "4-6 mg PE/kg/day IV/IM divided 1-2x",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE/day",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1-2x/day",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - IV loading (pediatric)",
+          "descricaoDose": "15-20 mg PE/kg IV over 10-20 min (max rate 2-3 mg PE/kg/min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "single dose over 10-20 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Status epilepticus - IM loading (pediatric)",
+          "descricaoDose": "15-20 mg PE/kg IM (max 20 mL per site)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "single dose",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Maintenance (pediatric)",
+          "descricaoDose": "4-6 mg PE/kg/day IV/IM divided 1-2x",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE/day",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1-2x/day",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepileptic - Phenytoin prodrug",
+      "apresentacoes": [
+        { "forma": "Vial 500 mg PE/10 mL", "obs": "50 mg PE/mL; PE = phenytoin sodium equivalent" }
+      ],
+      "preparo": [
+        { "diluicao": "Dilute in NS or D5W", "concentracao": "1.5-25 mg PE/mL" },
+        { "diluicao": "Max IV rate adult", "concentracao": "150 mg PE/min" },
+        { "diluicao": "Max IV rate pediatric", "concentracao": "2-3 mg PE/kg/min" },
+        { "diluicao": "IM route", "concentracao": "Max 20 mL per injection site" }
+      ],
+      "observacoes": [
+        "Conversion to phenytoin: 15-30 min after infusion; check levels 2h after IV or 4h after IM",
+        "Neutral pH (6.5-9.0) - less irritant than phenytoin; compatible with D5W",
+        "Can be given IM (phenytoin cannot); IV infusion up to 3x faster than phenytoin",
+        "Monitor BP and ECG during infusion; same contraindications as phenytoin (AV block, sinus bradycardia)",
+        "Lower risk of purple glove syndrome and extravasation necrosis than phenytoin",
+        "Pregnancy category D; induces CYP2C9, CYP2C19, CYP3A4"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Phenytoin clearance may be reduced. Monitor levels and signs of toxicity (nystagmus, ataxia).",
+        "renal": "No routine dose adjustment. In severe CKD, monitor phenytoin levels and consider lower dose if needed.",
+        "hepatico": "Hepatic metabolism of phenytoin; in moderate to severe hepatic impairment, reduce dose and monitor levels."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fosphenytoin - IV loading (adult)",
+        "doseTexto": "15-20 mg PE/kg IV over 10-20 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg PE",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fosphenytoin - IM loading (adult)",
+        "doseTexto": "15-20 mg PE/kg IM (max 20 mL/site)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg PE",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fosphenytoin - Maintenance (adult)",
+        "doseTexto": "4-6 mg PE/kg/day IV/IM 1-2x",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg PE/day",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fosphenytoin - IV loading (pediatric)",
+        "doseTexto": "15-20 mg PE/kg IV over 10-20 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg PE",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fosphenytoin - IM loading (pediatric)",
+        "doseTexto": "15-20 mg PE/kg IM (max 20 mL/site)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg PE",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fosphenytoin - Maintenance (pediatric)",
+        "doseTexto": "4-6 mg PE/kg/day IV/IM 1-2x",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg PE/day",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Fosfenitoína",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Estado epiléptico - Ataque IV (adulto)",
+          "descricaoDose": "15-20 mg EP/kg IV en 10-20 min (velocidad máx 150 mg EP/min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 10-20 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Estado epiléptico - Ataque IM (adulto)",
+          "descricaoDose": "15-20 mg EP/kg IM (máx 20 mL por sitio)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Mantenimiento (adulto)",
+          "descricaoDose": "4-6 mg EP/kg/día IV/IM dividido 1-2x",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP/día",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1-2x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Estado epiléptico - Ataque IV (pediátrico)",
+          "descricaoDose": "15-20 mg EP/kg IV en 10-20 min (velocidad máx 2-3 mg EP/kg/min)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única en 10-20 min",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Estado epiléptico - Ataque IM (pediátrico)",
+          "descricaoDose": "15-20 mg EP/kg IM (máx 20 mL por sitio)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "dosis única",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "Mantenimiento (pediátrico)",
+          "descricaoDose": "4-6 mg EP/kg/día IV/IM dividido 1-2x",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg EP/día",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1-2x/día",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "Antiepiléptico - Profármaco de fenitoína",
+      "apresentacoes": [
+        { "forma": "Frasco-ampolla 500 mg EP/10 mL", "obs": "50 mg EP/mL; EP = equivalente de fenitoína" }
+      ],
+      "preparo": [
+        { "diluicao": "Diluir en SF 0,9% o SG 5%", "concentracao": "1,5-25 mg EP/mL" },
+        { "diluicao": "Velocidad máx IV adulto", "concentracao": "150 mg EP/min" },
+        { "diluicao": "Velocidad máx IV pediátrico", "concentracao": "2-3 mg EP/kg/min" },
+        { "diluicao": "Vía IM", "concentracao": "Máx 20 mL por sitio de inyección" }
+      ],
+      "observacoes": [
+        "Conversión a fenitoína: 15-30 min tras infusión; dosificar niveles 2h tras IV o 4h tras IM",
+        "pH neutro (6,5-9,0) - menos irritante que fenitoína; compatible con SG 5%",
+        "Puede administrarse IM (fenitoína no); infusión IV hasta 3x más rápida que fenitoína",
+        "Monitorizar TA y ECG durante infusión; mismas contraindicaciones que fenitoína (bloqueo AV, bradicardia sinusal)",
+        "Menor riesgo de síndrome del guante púrpura y necrosis por extravasación que fenitoína",
+        "Categoría D en embarazo; inductor de CYP2C9, CYP2C19, CYP3A4"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Aclaramiento de fenitoína puede estar reducido. Monitorizar niveles y signos de toxicidad (nistagmo, ataxia).",
+        "renal": "No requiere ajuste habitual. En ERC grave, monitorizar niveles de fenitoína y considerar dosis menor si es necesario.",
+        "hepatico": "Metabolismo hepático de fenitoína; en insuficiencia hepática moderada a grave, reducir dosis y monitorizar niveles."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Fosfenitoína - Ataque IV (adulto)",
+        "doseTexto": "15-20 mg EP/kg IV en 10-20 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg EP",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fosfenitoína - Ataque IM (adulto)",
+        "doseTexto": "15-20 mg EP/kg IM (máx 20 mL/sitio)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg EP",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fosfenitoína - Mantenimiento (adulto)",
+        "doseTexto": "4-6 mg EP/kg/día IV/IM 1-2x",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg EP/día",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Fosfenitoína - Ataque IV (pediátrico)",
+        "doseTexto": "15-20 mg EP/kg IV en 10-20 min",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg EP",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fosfenitoína - Ataque IM (pediátrico)",
+        "doseTexto": "15-20 mg EP/kg IM (máx 20 mL/sitio)",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg EP",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "Fosfenitoína - Mantenimiento (pediátrico)",
+        "doseTexto": "4-6 mg EP/kg/día IV/IM 1-2x",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg EP/día",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "磷苯妥英",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "癫痫持续状态 - IV负荷（成人）",
+          "descricaoDose": "15-20 mg PE/kg IV 10-20分钟内（最大速率150 mg PE/min）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量10-20分钟内",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "癫痫持续状态 - IM负荷（成人）",
+          "descricaoDose": "15-20 mg PE/kg IM（每部位最大20 mL）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "维持（成人）",
+          "descricaoDose": "4-6 mg PE/kg/日 IV/IM 分1-2次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE/日",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1-2次/日",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "癫痫持续状态 - IV负荷（儿童）",
+          "descricaoDose": "15-20 mg PE/kg IV 10-20分钟内（最大速率2-3 mg PE/kg/min）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "单次剂量10-20分钟内",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "癫痫持续状态 - IM负荷（儿童）",
+          "descricaoDose": "15-20 mg PE/kg IM（每部位最大20 mL）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE",
+            "dosePorKg": null,
+            "dosePorKgMin": 15,
+            "dosePorKgMax": 20,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IM",
+            "intervalo": "单次剂量",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        },
+        {
+          "titulo": "维持（儿童）",
+          "descricaoDose": "4-6 mg PE/kg/日 IV/IM 分1-2次",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg PE/日",
+            "dosePorKg": null,
+            "dosePorKgMin": 4,
+            "dosePorKgMax": 6,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": null,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatrico",
+            "sexo": "Todos",
+            "via": "IV/IM",
+            "intervalo": "1-2次/日",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "NAO",
+            "clCrThreshold": null,
+            "fatorAjusteRenal": null
+          }
+        }
+      ],
+      "slidersInfusao": []
+    },
+    "pagina2": {
+      "classe": "抗癫痫药 - 苯妥英前体药",
+      "apresentacoes": [
+        { "forma": "瓶 500 mg PE/10 mL", "obs": "50 mg PE/mL；PE = 苯妥英当量" }
+      ],
+      "preparo": [
+        { "diluicao": "用生理盐水或5%葡萄糖稀释", "concentracao": "1.5-25 mg PE/mL" },
+        { "diluicao": "成人IV最大速率", "concentracao": "150 mg PE/min" },
+        { "diluicao": "儿童IV最大速率", "concentracao": "2-3 mg PE/kg/min" },
+        { "diluicao": "肌注", "concentracao": "每注射部位最大20 mL" }
+      ],
+      "observacoes": [
+        "转化为苯妥英：输注后15-30分钟；IV后2小时或IM后4小时测浓度",
+        "中性pH（6.5-9.0）- 比苯妥英刺激性小；与5%葡萄糖兼容",
+        "可肌注（苯妥英不可）；IV输注可比苯妥英快3倍",
+        "输注期间监测血压和心电图；与苯妥英相同禁忌（房室传导阻滞、窦性心动过缓）",
+        "紫手套综合征和外渗坏死风险低于苯妥英",
+        "妊娠D类；诱导CYP2C9、CYP2C19、CYP3A4"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "苯妥英清除率可能降低。监测浓度及毒性征象（眼震、共济失调）。",
+        "renal": "通常无需调整剂量。严重CKD时监测苯妥英浓度，必要时减量。",
+        "hepatico": "苯妥英经肝代谢；中重度肝损害时减量并监测浓度。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "磷苯妥英 - IV负荷（成人）",
+        "doseTexto": "15-20 mg PE/kg IV 10-20分钟",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg PE",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "磷苯妥英 - IM负荷（成人）",
+        "doseTexto": "15-20 mg PE/kg IM（每部位最大20 mL）",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg PE",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "磷苯妥英 - 维持（成人）",
+        "doseTexto": "4-6 mg PE/kg/日 IV/IM 1-2次",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg PE/日",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "磷苯妥英 - IV负荷（儿童）",
+        "doseTexto": "15-20 mg PE/kg IV 10-20分钟",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg PE",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "磷苯妥英 - IM负荷（儿童）",
+        "doseTexto": "15-20 mg PE/kg IM（每部位最大20 mL）",
+        "doseMin": 15,
+        "doseMax": 20,
+        "unidadeResultado": "mg PE",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      },
+      {
+        "nome": "磷苯妥英 - 维持（儿童）",
+        "doseTexto": "4-6 mg PE/kg/日 IV/IM 1-2次",
+        "doseMin": 4,
+        "doseMax": 6,
+        "unidadeResultado": "mg PE/日",
+        "decimais": 0,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatrico"
+      }
+    ]
+  }
+}

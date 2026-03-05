@@ -1,0 +1,67 @@
+{
+  "PT": {
+    "bulario": {
+      "nome_generico": "Gentamicina",
+      "nome_comercial": ["Garamicina", "Gentamicina"],
+      "classe_terapeutica": "Antibiótico aminoglicosídeo",
+      "mecanismo_acao": "Liga-se irreversivelmente à subunidade 30S do ribossomo bacteriano, inibindo a síntese proteica. Bactericida concentração-dependente.",
+      "indicacoes": [
+        "Infecções graves por Gram-negativos",
+        "Endocardite (sinergismo com beta-lactâmicos)",
+        "Sepse neonatal",
+        "Infecções urinárias complicadas",
+        "Infecções intra-abdominais (em associação)",
+        "Profilaxia cirúrgica (em combinação)"
+      ],
+      "contraindicacoes": [
+        "Hipersensibilidade a aminoglicosídeos",
+        "Miastenia gravis",
+        "Gestação (categoria D)"
+      ],
+      "apresentacoes": [
+        {
+          "forma": "Solução injetável",
+          "concentracao": "20 mg/2 mL",
+          "volume": "10 mg/mL"
+        },
+        {
+          "forma": "Solução injetável",
+          "concentracao": "40 mg/mL",
+          "volume": "1-2 mL"
+        },
+        {
+          "forma": "Solução injetável",
+          "concentracao": "80 mg/2 mL",
+          "volume": "40 mg/mL"
+        }
+      ],
+      "farmacocinetica": {
+        "meia_vida": "2-3 horas",
+        "ligacao_proteica": "< 10%",
+        "metabolismo": "Não metabolizado",
+        "excrecao": "Renal (> 90% inalterado)"
+      },
+      "efeitos_adversos": [
+        "Nefrotoxicidade",
+        "Ototoxicidade (vestibular > coclear)",
+        "Bloqueio neuromuscular",
+        "Reações alérgicas"
+      ],
+      "interacoes_importantes": [
+        "Anfotericina B: nefrotoxicidade aditiva",
+        "Vancomicina: nefrotoxicidade aditiva",
+        "Bloqueadores neuromusculares: potencialização",
+        "Diuréticos de alça: ototoxicidade",
+        "Cefalosporinas: aumento de nefrotoxicidade"
+      ],
+      "monitoramento": {
+        "pico_serico": "5-10 mcg/mL",
+        "vale": "< 2 mcg/mL",
+        "funcao_renal": "Creatinina a cada 2-3 dias"
+      },
+      "estabilidade": {
+        "temperatura_ambiente": "24 horas"
+      }
+    }
+  }
+}

@@ -1,0 +1,1058 @@
+{
+  "PT": {
+    "nome": "Flumazenil",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversão sedação pós-procedimento (dose inicial)",
+          "descricaoDose": "0,2mg IV em 15 segundos",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Reversão sedação - doses adicionais",
+          "descricaoDose": "0,1mg IV a cada 60 segundos (máx total 1mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "0,1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 60 segundos",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Intoxicação aguda por BZD (dose inicial)",
+          "descricaoDose": "0,3mg IV em 30 segundos",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.3,
+            "doseFixa": "0,3 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Intoxicação aguda - doses adicionais",
+          "descricaoDose": "0,1mg IV a cada 60 segundos (máx total 2mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0,1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 60 segundos",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Infusão contínua (ressedação)",
+          "descricaoDose": "0,1-0,5 mg/h IV contínua",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,1-0,5 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Pediátrico >1 ano (dose inicial)",
+          "descricaoDose": "0,01mg/kg IV em 15 segundos (máx 0,2mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose única inicial",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Pediátrico - doses adicionais",
+          "descricaoDose": "0,01mg/kg IV a cada 60 segundos (máx 0,1mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "a cada 60 segundos",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Pediátrico - dose total máxima",
+          "descricaoDose": "0,05mg/kg ou 1mg (o que for menor)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dose total máxima",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave"
+          }
+        },
+        {
+          "titulo": "Infusão contínua pediátrica",
+          "descricaoDose": "5-10 mcg/kg/h IV (se ressedação recorrente)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": 7.5,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusão contínua",
+            "ajusteRenal": "NAO",
+            "ajusteHepatico": "Cautela em insuficiência hepática grave"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.5 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Solução pronta (0,1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "5mg em 50mL SF 0,9% (0,1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "2,5mg em 50mL SF 0,9% (0,05 mg/mL)", "valor": 0.05 },
+            { "rotulo": "1mg em 50mL SF 0,9% (0,02 mg/mL)", "valor": 0.02 }
+          ]
+        },
+        {
+          "titulo": "Infusão Contínua",
+          "unidade": "mcg/kg/h",
+          "adulto": null,
+          "pediatrico": { "doseMin": 5, "doseMax": 10 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "0,5mg em 50mL SF 0,9% (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "0,5mg em 100mL SF 0,9% (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0,25mg em 50mL SF 0,9% (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0,1mg em 50mL SF 0,9% (2 mcg/mL)", "valor": 2 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antagonista de benzodiazepínicos - Antídoto específico",
+      "apresentacoes": [
+        { "forma": "Ampola 0,5mg/5mL", "obs": "0,1mg/mL" },
+        { "forma": "Ampola 1mg/10mL", "obs": "0,1mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Solução pronta para uso", "concentracao": "0,1 mg/mL" },
+        { "diluicao": "Infusão: 5mg (5 amp) + 50mL SF", "concentracao": "0,1 mg/mL" }
+      ],
+      "observacoes": [
+        "Antagonista específico - reverte APENAS benzodiazepínicos",
+        "Meia-vida: 40-80 min - risco de ressedação com BZDs de longa duração",
+        "RISCO DE CONVULSÕES em dependentes crônicos de BZD",
+        "Contraindicado em intoxicação mista com antidepressivos tricíclicos",
+        "Monitorar por pelo menos 2 horas após última dose",
+        "Ter suporte avançado e anticonvulsivantes disponíveis"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sem ajuste específico. Monitorar função hepática e risco de ressedação.",
+        "renal": "Não requer ajuste. Farmacocinética não alterada na insuficiência renal.",
+        "hepatico": "Usar com cautela em insuficiência hepática grave. Meia-vida pode estar prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Flumazenil - Reversão sedação (adulto)",
+        "doseTexto": "0,2 mg IV inicial, depois 0,1 mg a cada 60s",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Flumazenil - Intoxicação (adulto)",
+        "doseTexto": "0,3 mg IV inicial, depois 0,1 mg a cada 60s (máx 2mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,3 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Flumazenil (pediátrico)",
+        "doseTexto": "0,01 mg/kg IV (máx 0,2 mg)",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "US": {
+    "nome": "Flumazenil",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Sedation reversal (initial dose)",
+          "descricaoDose": "0.2mg IV over 15 seconds",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Sedation reversal - additional doses",
+          "descricaoDose": "0.1mg IV every 60 seconds (max total 1mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "0.1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 60 seconds",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Acute BZD overdose (initial dose)",
+          "descricaoDose": "0.3mg IV over 30 seconds",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.3,
+            "doseFixa": "0.3 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Acute overdose - additional doses",
+          "descricaoDose": "0.1mg IV every 60 seconds (max total 2mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0.1 mg",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 60 seconds",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Continuous infusion (resedation)",
+          "descricaoDose": "0.1-0.5 mg/h IV continuous",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.1-0.5 mg/h",
+            "faixaEtaria": "Adult",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric >1 year (initial dose)",
+          "descricaoDose": "0.01mg/kg IV over 15 seconds (max 0.2mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "initial single dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric - additional doses",
+          "descricaoDose": "0.01mg/kg IV every 60 seconds (max 0.1mg/dose)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "every 60 seconds",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric - maximum total dose",
+          "descricaoDose": "0.05mg/kg or 1mg (whichever is less)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "maximum total dose",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        },
+        {
+          "titulo": "Pediatric Continuous Infusion",
+          "descricaoDose": "5-10 mcg/kg/h IV (for recurrent resedation)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": 7.5,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediatric",
+            "sexo": "All",
+            "via": "IV",
+            "intervalo": "continuous infusion",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Caution in severe hepatic impairment"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.5 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Ready solution (0.1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "5mg in 50mL NS (0.1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "2.5mg in 50mL NS (0.05 mg/mL)", "valor": 0.05 },
+            { "rotulo": "1mg in 50mL NS (0.02 mg/mL)", "valor": 0.02 }
+          ]
+        },
+        {
+          "titulo": "Continuous Infusion",
+          "unidade": "mcg/kg/h",
+          "adulto": null,
+          "pediatrico": { "doseMin": 5, "doseMax": 10 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "0.5mg in 50mL NS (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "0.5mg in 100mL NS (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0.25mg in 50mL NS (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0.1mg in 50mL NS (2 mcg/mL)", "valor": 2 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Benzodiazepine antagonist - Specific antidote",
+      "apresentacoes": [
+        { "forma": "Ampoule 0.5mg/5mL", "obs": "0.1mg/mL" },
+        { "forma": "Ampoule 1mg/10mL", "obs": "0.1mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Ready for use solution", "concentracao": "0.1 mg/mL" },
+        { "diluicao": "Infusion: 5mg (5 amp) + 50mL NS", "concentracao": "0.1 mg/mL" }
+      ],
+      "observacoes": [
+        "Specific antagonist - reverses ONLY benzodiazepines",
+        "Half-life: 40-80 min - risk of resedation with long-acting BZDs",
+        "SEIZURE RISK in chronic BZD-dependent patients",
+        "Contraindicated in mixed overdose with tricyclic antidepressants",
+        "Monitor for at least 2 hours after last dose",
+        "Have advanced support and anticonvulsants available"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "No specific adjustment. Monitor hepatic function and resedation risk.",
+        "renal": "No adjustment required. Pharmacokinetics not altered in renal impairment.",
+        "hepatico": "Use with caution in severe hepatic impairment. Half-life may be prolonged."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Flumazenil - Sedation reversal (adult)",
+        "doseTexto": "0.2 mg IV initial, then 0.1 mg every 60s",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Flumazenil - Overdose (adult)",
+        "doseTexto": "0.3 mg IV initial, then 0.1 mg every 60s (max 2mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.3 mg",
+        "faixaEtaria": "Adult"
+      },
+      {
+        "nome": "Flumazenil (pediatric)",
+        "doseTexto": "0.01 mg/kg IV (max 0.2 mg)",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediatric"
+      }
+    ]
+  },
+  "ES": {
+    "nome": "Flumazenilo",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "Reversión sedación postprocedimiento (dosis inicial)",
+          "descricaoDose": "0,2mg IV en 15 segundos",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0,2 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Reversión sedación - dosis adicionales",
+          "descricaoDose": "0,1mg IV cada 60 segundos (máx total 1mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "0,1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 60 segundos",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Intoxicación aguda por BZD (dosis inicial)",
+          "descricaoDose": "0,3mg IV en 30 segundos",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.3,
+            "doseFixa": "0,3 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Intoxicación aguda - dosis adicionales",
+          "descricaoDose": "0,1mg IV cada 60 segundos (máx total 2mg)",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0,1 mg",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 60 segundos",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Infusión continua (resedación)",
+          "descricaoDose": "0,1-0,5 mg/h IV continua",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0,1-0,5 mg/h",
+            "faixaEtaria": "Adulto",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Pediátrico >1 año (dosis inicial)",
+          "descricaoDose": "0,01mg/kg IV en 15 segundos (máx 0,2mg)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis única inicial",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Pediátrico - dosis adicionales",
+          "descricaoDose": "0,01mg/kg IV cada 60 segundos (máx 0,1mg/dosis)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "cada 60 segundos",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Pediátrico - dosis total máxima",
+          "descricaoDose": "0,05mg/kg o 1mg (lo que sea menor)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "dosis total máxima",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave"
+          }
+        },
+        {
+          "titulo": "Infusión continua pediátrica",
+          "descricaoDose": "5-10 mcg/kg/h IV (si resedación recurrente)",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": 7.5,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "Pediátrico",
+            "sexo": "Todos",
+            "via": "IV",
+            "intervalo": "infusión continua",
+            "ajusteRenal": "NO",
+            "ajusteHepatico": "Precaución en insuficiencia hepática grave"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.5 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "Solución lista (0,1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "5mg en 50mL SSF (0,1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "2,5mg en 50mL SSF (0,05 mg/mL)", "valor": 0.05 },
+            { "rotulo": "1mg en 50mL SSF (0,02 mg/mL)", "valor": 0.02 }
+          ]
+        },
+        {
+          "titulo": "Infusión Continua",
+          "unidade": "mcg/kg/h",
+          "adulto": null,
+          "pediatrico": { "doseMin": 5, "doseMax": 10 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "0,5mg en 50mL SSF (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "0,5mg en 100mL SSF (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0,25mg en 50mL SSF (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0,1mg en 50mL SSF (2 mcg/mL)", "valor": 2 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "Antagonista de benzodiazepinas - Antídoto específico",
+      "apresentacoes": [
+        { "forma": "Ampolla 0,5mg/5mL", "obs": "0,1mg/mL" },
+        { "forma": "Ampolla 1mg/10mL", "obs": "0,1mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "Solución lista para usar", "concentracao": "0,1 mg/mL" },
+        { "diluicao": "Infusión: 5mg (5 amp) + 50mL SSF", "concentracao": "0,1 mg/mL" }
+      ],
+      "observacoes": [
+        "Antagonista específico - revierte SOLO benzodiazepinas",
+        "Vida media: 40-80 min - riesgo de resedación con BZDs de acción prolongada",
+        "RIESGO DE CONVULSIONES en dependientes crónicos de BZD",
+        "Contraindicado en intoxicación mixta con antidepresivos tricíclicos",
+        "Monitorizar por al menos 2 horas después de la última dosis",
+        "Tener soporte avanzado y anticonvulsivantes disponibles"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "Sin ajuste específico. Monitorizar función hepática y riesgo de resedación.",
+        "renal": "No requiere ajuste. Farmacocinética no alterada en insuficiencia renal.",
+        "hepatico": "Usar con precaución en insuficiencia hepática grave. La vida media puede estar prolongada."
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "Flumazenilo - Reversión sedación (adulto)",
+        "doseTexto": "0,2 mg IV inicial, luego 0,1 mg cada 60s",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,2 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Flumazenilo - Intoxicación (adulto)",
+        "doseTexto": "0,3 mg IV inicial, luego 0,1 mg cada 60s (máx 2mg)",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0,3 mg",
+        "faixaEtaria": "Adulto"
+      },
+      {
+        "nome": "Flumazenilo (pediátrico)",
+        "doseTexto": "0,01 mg/kg IV (máx 0,2 mg)",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "Pediátrico"
+      }
+    ]
+  },
+  "ZH": {
+    "nome": "氟马西尼",
+    "pagina1": {
+      "indicacoes": [
+        {
+          "titulo": "术后镇静逆转（初始剂量）",
+          "descricaoDose": "0.2mg IV 15秒内注射",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": "0.2 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "镇静逆转 - 追加剂量",
+          "descricaoDose": "0.1mg IV 每60秒（总量最大1mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": "0.1 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每60秒",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "急性苯二氮卓类中毒（初始剂量）",
+          "descricaoDose": "0.3mg IV 30秒内注射",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.3,
+            "doseFixa": "0.3 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "急性中毒 - 追加剂量",
+          "descricaoDose": "0.1mg IV 每60秒（总量最大2mg）",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": null,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 2,
+            "doseFixa": "0.1 mg",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每60秒",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "持续输注（再镇静）",
+          "descricaoDose": "0.1-0.5 mg/h IV 持续",
+          "tipoDose": "fixa",
+          "parametros": {
+            "unidade": "mg/h",
+            "dosePorKg": null,
+            "doseMin": 0.1,
+            "doseMax": 0.5,
+            "doseMaxima": 0.5,
+            "doseFixa": "0.1-0.5 mg/h",
+            "faixaEtaria": "成人",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "儿童 >1岁（初始剂量）",
+          "descricaoDose": "0.01mg/kg IV 15秒内注射（最大0.2mg）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.2,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "初始单次剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "儿童 - 追加剂量",
+          "descricaoDose": "0.01mg/kg IV 每60秒（最大0.1mg/次）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.01,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 0.1,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "每60秒",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "儿童 - 最大总剂量",
+          "descricaoDose": "0.05mg/kg 或 1mg（取较小值）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mg",
+            "dosePorKg": 0.05,
+            "doseMin": null,
+            "doseMax": null,
+            "doseMaxima": 1,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "最大总剂量",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        },
+        {
+          "titulo": "儿童持续输注",
+          "descricaoDose": "5-10 mcg/kg/h IV（如反复再镇静）",
+          "tipoDose": "calculada",
+          "parametros": {
+            "unidade": "mcg/kg/h",
+            "dosePorKg": 7.5,
+            "doseMin": 5,
+            "doseMax": 10,
+            "doseMaxima": 20,
+            "doseFixa": null,
+            "faixaEtaria": "儿童",
+            "sexo": "所有",
+            "via": "IV",
+            "intervalo": "持续输注",
+            "ajusteRenal": "否",
+            "ajusteHepatico": "严重肝功能不全时慎用"
+          }
+        }
+      ],
+      "slidersInfusao": [
+        {
+          "titulo": "持续输注",
+          "unidade": "mg/h",
+          "adulto": { "doseMin": 0.1, "doseMax": 0.5 },
+          "pediatrico": null,
+          "concentracaoEmMcg": false,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "即用型溶液 (0.1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "5mg 溶于 50mL NS (0.1 mg/mL)", "valor": 0.1 },
+            { "rotulo": "2.5mg 溶于 50mL NS (0.05 mg/mL)", "valor": 0.05 },
+            { "rotulo": "1mg 溶于 50mL NS (0.02 mg/mL)", "valor": 0.02 }
+          ]
+        },
+        {
+          "titulo": "持续输注",
+          "unidade": "mcg/kg/h",
+          "adulto": null,
+          "pediatrico": { "doseMin": 5, "doseMax": 10 },
+          "concentracaoEmMcg": true,
+          "fatorTempo": 1,
+          "opcoesConcentracao": [
+            { "rotulo": "0.5mg 溶于 50mL NS (10 mcg/mL)", "valor": 10 },
+            { "rotulo": "0.5mg 溶于 100mL NS (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0.25mg 溶于 50mL NS (5 mcg/mL)", "valor": 5 },
+            { "rotulo": "0.1mg 溶于 50mL NS (2 mcg/mL)", "valor": 2 }
+          ]
+        }
+      ]
+    },
+    "pagina2": {
+      "classe": "苯二氮卓类拮抗剂 - 特异性解毒剂",
+      "apresentacoes": [
+        { "forma": "安瓿 0.5mg/5mL", "obs": "0.1mg/mL" },
+        { "forma": "安瓿 1mg/10mL", "obs": "0.1mg/mL" }
+      ],
+      "preparo": [
+        { "diluicao": "即用型溶液", "concentracao": "0.1 mg/mL" },
+        { "diluicao": "输注：5mg（5安瓿）+ 50mL NS", "concentracao": "0.1 mg/mL" }
+      ],
+      "observacoes": [
+        "特异性拮抗剂 - 仅逆转苯二氮卓类药物",
+        "半衰期：40-80分钟 - 长效BZD有再镇静风险",
+        "慢性BZD依赖患者有癫痫发作风险",
+        "与三环类抗抑郁药混合中毒时禁用",
+        "末次给药后至少监测2小时",
+        "备好高级支持设备和抗惊厥药"
+      ],
+      "ajustesEspeciais": {
+        "idoso": "无特殊调整。监测肝功能和再镇静风险。",
+        "renal": "无需调整。肾功能不全时药代动力学无改变。",
+        "hepatico": "严重肝功能不全时慎用。半衰期可能延长。"
+      }
+    },
+    "vistaRapida": [
+      {
+        "nome": "氟马西尼 - 镇静逆转（成人）",
+        "doseTexto": "0.2 mg IV 初始，然后0.1 mg 每60秒",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.2 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氟马西尼 - 中毒（成人）",
+        "doseTexto": "0.3 mg IV 初始，然后0.1 mg 每60秒（最大2mg）",
+        "doseMin": null,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 1,
+        "resultadoFixo": "0.3 mg",
+        "faixaEtaria": "成人"
+      },
+      {
+        "nome": "氟马西尼（儿童）",
+        "doseTexto": "0.01 mg/kg IV（最大0.2 mg）",
+        "doseMin": 0.01,
+        "doseMax": null,
+        "unidadeResultado": "mg",
+        "decimais": 2,
+        "resultadoFixo": null,
+        "faixaEtaria": "儿童"
+      }
+    ]
+  }
+}

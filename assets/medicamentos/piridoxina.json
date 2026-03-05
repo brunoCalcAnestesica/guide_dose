@@ -1,0 +1,51 @@
+{
+  "PT": {
+    "bulario": {
+      "nomeGenerico": "Piridoxina (Vitamina B6)",
+      "nomesComerciais": ["Piridoxina Genérico", "Adermina®"],
+      "classeTerapeutica": "Vitamina / Antídoto específico",
+      "mecanismoAcao": "Cofator essencial na síntese de GABA. A piridoxina é convertida em piridoxal-5-fosfato (PLP), que é cofator da glutamato descarboxilase (GAD), enzima que converte glutamato em GABA.",
+      "indicacaoPrincipal": "Antídoto específico para convulsões por intoxicação com ISONIAZIDA",
+      "mecanismoNaIntoxicacaoINH": [
+        "1. Isoniazida inibe a piridoxina quinase",
+        "2. Bloqueia conversão de B6 em forma ativa (PLP)",
+        "3. PLP é cofator da glutamato descarboxilase",
+        "4. Sem PLP: não há síntese de GABA",
+        "5. Depleção de GABA → convulsões refratárias",
+        "6. Benzodiazepínicos ISOLADOS são INEFICAZES"
+      ],
+      "apresentacoes": ["Ampola 100 mg/mL (2 mL = 200 mg)", "Ampola 300 mg/2 mL", "Comprimidos 40 mg, 100 mg, 300 mg"],
+      "posologia": {
+        "intoxicacaoIsoniazida": {
+          "doseConhecida": "1 g de piridoxina para cada 1 g de isoniazida ingerida",
+          "doseDesconhecida": "5 g IV em 5 minutos",
+          "doseMaxima": "5 g (pode repetir se convulsões persistirem)",
+          "pediatrico": {
+            "doseConhecida": "1 g piridoxina : 1 g isoniazida",
+            "doseDesconhecida": "70 mg/kg IV (máx 5 g)"
+          }
+        },
+        "profilaxiaNeuropatiaINH": "10-50 mg/dia VO"
+      },
+      "outrasIndicacoes": [
+        "Intoxicação por hidralazina (mesmo mecanismo)",
+        "Intoxicação por cogumelo Gyromitra",
+        "Intoxicação por etilenoglicol (adjuvante)",
+        "Convulsões piridoxina-dependentes (neonatos)"
+      ],
+      "farmacocinetica": {
+        "inicioAcao": "Minutos (nas convulsões por INH)",
+        "caracteristica": "Hidrossolúvel, sem acúmulo significativo"
+      },
+      "efeitosAdversos": {
+        "agudo": "Bem tolerada em altas doses",
+        "cronico": "Neuropatia periférica com doses > 200 mg/dia por tempo prolongado"
+      },
+      "observacoes": ["Manter benzodiazepínicos disponíveis", "Piridoxina pode não ser suficiente isoladamente", "Administrar junto com benzodiazepínicos"],
+      "categoriaGravidez": {
+        "dosesRDA": "A",
+        "altasDoses": "C"
+      }
+    }
+  }
+}

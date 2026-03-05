@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'theme/app_colors.dart';
 
 class CondicaoClinicaPage extends StatefulWidget {
   final String arquivoJson;
@@ -29,7 +30,7 @@ class _CondicaoClinicaPageState extends State<CondicaoClinicaPage> {
       });
     } catch (e) {
       setState(() {
-        dados = {'erro': 'Erro ao carregar dados: $e'};
+        dados = {'erro': 'Erro ao carregar dados. Tente novamente.'};
       });
     }
   }
@@ -72,7 +73,7 @@ class _CondicaoClinicaPageState extends State<CondicaoClinicaPage> {
               style: const TextStyle(
                 fontSize: 26,
                 fontWeight: FontWeight.bold,
-                color: Colors.indigo,
+                color: AppColors.primary,
               ),
             ),
           ),
@@ -136,7 +137,7 @@ class _CondicaoClinicaPageState extends State<CondicaoClinicaPage> {
           style: const TextStyle(
             fontSize: 17,
             fontWeight: FontWeight.w600,
-            color: Colors.indigo,
+            color: AppColors.primary,
             height: 1.3,
           ),
         ),
@@ -182,7 +183,7 @@ class _CondicaoClinicaPageState extends State<CondicaoClinicaPage> {
                   style: const TextStyle(
                     fontSize: 17,
                     fontWeight: FontWeight.w600,
-                    color: Colors.indigo,
+                    color: AppColors.primary,
                   ),
                 ),
               ),
