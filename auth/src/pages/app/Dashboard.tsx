@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import { Card } from '../../components/ui/Card'
 import { Badge } from '../../components/ui/Badge'
 import { useAuth } from '../../auth/AuthProvider'
@@ -84,18 +85,24 @@ export default function Dashboard() {
       <h1 className="text-2xl font-bold text-gray-900">Dashboard</h1>
 
       <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        <Card className="border-l-4 border-l-brand-500">
-          <p className="text-sm font-medium text-gray-500">Pacientes Ativos</p>
-          <p className="mt-1 text-3xl font-bold text-gray-900">{patients.length}</p>
-        </Card>
-        <Card className="border-l-4 border-l-green-500">
-          <p className="text-sm font-medium text-gray-500">Próximos Plantões</p>
-          <p className="mt-1 text-3xl font-bold text-gray-900">{shifts.length}</p>
-        </Card>
-        <Card className="border-l-4 border-l-yellow-500">
-          <p className="text-sm font-medium text-gray-500">Notas Recentes</p>
-          <p className="mt-1 text-3xl font-bold text-gray-900">{notes.length}</p>
-        </Card>
+        <Link to="/app/anotacoes/pacientes" className="block">
+          <Card className="border-l-4 border-l-brand-500 transition-shadow hover:shadow-md">
+            <p className="text-sm font-medium text-gray-500">Pacientes Ativos</p>
+            <p className="mt-1 text-3xl font-bold text-gray-900">{patients.length}</p>
+          </Card>
+        </Link>
+        <Link to="/app/escala" className="block">
+          <Card className="border-l-4 border-l-green-500 transition-shadow hover:shadow-md">
+            <p className="text-sm font-medium text-gray-500">Próximos Plantões</p>
+            <p className="mt-1 text-3xl font-bold text-gray-900">{shifts.length}</p>
+          </Card>
+        </Link>
+        <Link to="/app/anotacoes/notas" className="block">
+          <Card className="border-l-4 border-l-yellow-500 transition-shadow hover:shadow-md">
+            <p className="text-sm font-medium text-gray-500">Notas Recentes</p>
+            <p className="mt-1 text-3xl font-bold text-gray-900">{notes.length}</p>
+          </Card>
+        </Link>
       </div>
 
       <div className="grid gap-6 lg:grid-cols-2">
@@ -115,6 +122,9 @@ export default function Dashboard() {
                   </div>
                 </div>
               ))}
+              <Link to="/app/anotacoes/pacientes" className="mt-2 block text-center text-sm font-medium text-brand-600 hover:text-brand-700">
+                Ver todos os pacientes →
+              </Link>
             </div>
           )}
         </Card>
@@ -180,6 +190,9 @@ export default function Dashboard() {
                 <p className="mt-1 text-sm text-gray-600 line-clamp-1">{n.content}</p>
               </div>
             ))}
+            <Link to="/app/anotacoes/notas" className="mt-2 block text-center text-sm font-medium text-brand-600 hover:text-brand-700">
+              Ver todas as notas →
+            </Link>
           </div>
         </Card>
       )}
