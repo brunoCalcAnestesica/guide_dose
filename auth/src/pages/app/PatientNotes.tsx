@@ -213,33 +213,41 @@ export default function PatientNotes() {
           <p className="py-8 text-center text-sm text-gray-400">Nenhum paciente ativo. Adicione um novo!</p>
         </Card>
       ) : (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {patients.map(p => (
-            <Card key={p.id} className="flex flex-col">
-              <div className="flex items-start justify-between">
-                <div>
-                  <h3 className="font-semibold text-gray-900">{p.initials}</h3>
-                  <p className="text-xs text-gray-500">
-                    {p.bed && `Leito: ${p.bed}`}
-                    {p.age != null && ` · ${p.age} ${p.age_unit}`}
-                  </p>
+        <Card className="overflow-hidden p-0">
+          <ul className="divide-y divide-gray-200">
+            {patients.map(p => (
+              <li key={p.id} className="flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+                <div className="min-w-0 flex-1 space-y-1">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="font-semibold text-gray-900">{p.initials}</span>
+                    <span className="text-sm text-gray-500">
+                      {p.bed && `Leito: ${p.bed}`}
+                      {p.age != null && ` · ${p.age} ${p.age_unit}`}
+                    </span>
+                    {p.admission_date && (
+                      <Badge variant="info">
+                        Adm: {new Date(p.admission_date).toLocaleDateString('pt-BR')}
+                      </Badge>
+                    )}
+                  </div>
+                  {p.diagnosis && (
+                    <p className="text-sm text-gray-700"><strong>Dx:</strong> {p.diagnosis}</p>
+                  )}
+                  {p.pending && (
+                    <p className="text-sm text-yellow-700"><strong>Pendências:</strong> {p.pending}</p>
+                  )}
+                  {p.observations && (
+                    <p className="text-xs text-gray-400 line-clamp-1">{p.observations}</p>
+                  )}
                 </div>
-                {p.admission_date && (
-                  <Badge variant="info">
-                    Adm: {new Date(p.admission_date).toLocaleDateString('pt-BR')}
-                  </Badge>
-                )}
-              </div>
-              {p.diagnosis && <p className="mt-2 text-sm text-gray-700"><strong>Dx:</strong> {p.diagnosis}</p>}
-              {p.pending && <p className="mt-1 text-sm text-yellow-700"><strong>Pendências:</strong> {p.pending}</p>}
-              <p className="mt-1 flex-1 text-xs text-gray-400 line-clamp-2">{p.observations}</p>
-              <div className="mt-4 flex gap-2">
-                <Button size="sm" variant="secondary" onClick={() => openEdit(p)}>Editar</Button>
-                <Button size="sm" variant="danger" onClick={() => handleArchive(p)}>Arquivar</Button>
-              </div>
-            </Card>
-          ))}
-        </div>
+                <div className="flex shrink-0 gap-2">
+                  <Button size="sm" variant="secondary" onClick={() => openEdit(p)}>Editar</Button>
+                  <Button size="sm" variant="danger" onClick={() => handleArchive(p)}>Arquivar</Button>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </Card>
       )}
     </div>
   )
