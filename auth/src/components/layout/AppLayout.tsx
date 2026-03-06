@@ -1,9 +1,21 @@
-import { useState, lazy, Suspense } from 'react'
+import { useState, useEffect, lazy, Suspense } from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
 import { Sidebar } from './Sidebar'
 import { useAuth } from '../../auth/AuthProvider'
 
 const AiChatSidebar = lazy(() => import('../AiChat/AiChatSidebar'))
+
+function useIsDesktop() {
+  const [isDesktop, setIsDesktop] = useState(false)
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 1024px)')
+    setIsDesktop(mq.matches)
+    const fn = () => setIsDesktop(mq.matches)
+    mq.addEventListener('change', fn)
+    return () => mq.removeEventListener('change', fn)
+  }, [])
+  return isDesktop
+}
 
 const appNavItems = [
   { to: '/app', label: 'Dashboard', icon: '📊' },
@@ -18,6 +30,7 @@ const appNavItems = [
 export default function AppLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [aiChatOpen, setAiChatOpen] = useState(false)
+  const isDesktop = useIsDesktop()
   const { user, signOut, isAdmin } = useAuth()
   const navigate = useNavigate()
 
@@ -29,7 +42,8 @@ export default function AppLayout() {
   return (
     <div className="flex h-screen bg-gray-50">
       <Sidebar items={appNavItems} open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
-      <div className="flex flex-1 flex-col overflow-hidden">
+      <div className="flex min-w-0 flex-1 overflow-hidden">
+        <div className="flex min-w-0 flex-1 flex-col overflow-hidden">
         <header className="flex h-16 items-center justify-between border-b border-gray-200 bg-white px-4 lg:px-8">
           <button onClick={() => setSidebarOpen(true)} className="text-gray-600 lg:hidden">
             <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -61,6 +75,12 @@ export default function AppLayout() {
         <main className="flex-1 overflow-y-auto p-4 lg:p-8">
           <Outlet />
         </main>
+        </div>
+
+        {/* Painel IA: no desktop empurra o conteúdo; no mobile sobrepõe */}
+        <Suspense fallback={null}>
+          <AiChatSidebar open={aiChatOpen} onClose={() => setAiChatOpen(false)} inline={isDesktop} />
+        </Suspense>
       </div>
 
       {/* Botão flutuante da IA (mobile) */}
@@ -75,10 +95,6 @@ export default function AppLayout() {
         </button>
       )}
 
-      {/* Sidebar IA Médica */}
-      <Suspense fallback={null}>
-        <AiChatSidebar open={aiChatOpen} onClose={() => setAiChatOpen(false)} />
-      </Suspense>
     </div>
   )
 }

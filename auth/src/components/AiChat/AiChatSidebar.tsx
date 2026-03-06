@@ -10,6 +10,8 @@ interface Message {
 interface AiChatSidebarProps {
   open: boolean
   onClose: () => void
+  /** Quando true, o painel fica no fluxo do layout e "empurra" o conteúdo (não sobrepõe). */
+  inline?: boolean
 }
 
 const AI_CHAT_URL = '/.netlify/functions/ai-chat'
@@ -18,7 +20,7 @@ function getToken(): string | null {
   return localStorage.getItem('gd_access_token')
 }
 
-export default function AiChatSidebar({ open, onClose }: AiChatSidebarProps) {
+export default function AiChatSidebar({ open, onClose, inline = false }: AiChatSidebarProps) {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 'welcome',
@@ -117,17 +119,16 @@ export default function AiChatSidebar({ open, onClose }: AiChatSidebarProps) {
     ])
   }
 
-  return (
-    <>
-      {open && (
-        <div className="fixed inset-0 z-40 bg-black/20 lg:hidden" onClick={onClose} />
-      )}
-
-      <aside
-        className={`fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col border-l border-gray-200 bg-white shadow-2xl transition-transform duration-300 ease-in-out ${
-          open ? 'translate-x-0' : 'translate-x-full'
-        }`}
-      >
+  const content = (
+    <aside
+      className={
+        inline
+          ? 'flex h-full w-[28rem] shrink-0 flex-col border-l border-gray-200 bg-white shadow-lg'
+          : `fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col border-l border-gray-200 bg-white shadow-2xl transition-transform duration-300 ease-in-out ${
+              open ? 'translate-x-0' : 'translate-x-full'
+            }`
+      }
+    >
         {/* Header */}
         <div className="flex items-center justify-between border-b border-gray-200 bg-gradient-to-r from-brand-600 to-brand-700 px-4 py-3">
           <div className="flex items-center gap-3">
@@ -237,6 +238,19 @@ export default function AiChatSidebar({ open, onClose }: AiChatSidebarProps) {
           </p>
         </div>
       </aside>
+  )
+
+  if (inline) {
+    if (!open) return null
+    return content
+  }
+
+  return (
+    <>
+      {open && (
+        <div className="fixed inset-0 z-40 bg-black/20 lg:hidden" onClick={onClose} />
+      )}
+      {content}
     </>
   )
 }
