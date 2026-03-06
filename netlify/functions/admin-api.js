@@ -81,6 +81,8 @@ const allowedTables = [
   "notes_archive",
   "patients",
   "patients_archive",
+  "note_shares",
+  "patient_shares",
   "med_lists",
   "app_config",
   "feedback",

@@ -19,6 +19,26 @@ export default {
           900: '#1e3a8a',
           950: '#172554',
         },
+        // Paleta Guide Dose (app_colors.dart: primary #1A2848)
+        guide: {
+          50: '#E8EAEF',
+          100: '#D1D6E0',
+          200: '#A3ADC1',
+          300: '#7584A2',
+          400: '#475B83',
+          500: '#1A2848',
+          600: '#15203A',
+          700: '#10182B',
+          800: '#0B101D',
+          900: '#06080E',
+          950: '#030407',
+        },
+        // Superfícies e contornos (Guide Dose)
+        surface: {
+          DEFAULT: '#FFFFFF',
+          variant: '#F5F5F5',
+        },
+        outline: '#E0E0E0',
       },
     },
   },

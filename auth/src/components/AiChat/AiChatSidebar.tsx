@@ -9,9 +9,11 @@ interface Message {
 
 interface AiChatSidebarProps {
   open: boolean
-  onClose: () => void
+  onClose?: () => void
   /** Quando true, o painel fica no fluxo do layout e "empurra" o conteúdo (não sobrepõe). */
   inline?: boolean
+  /** Exibe o botão de fechar no header. Use false quando o painel estiver sempre visível no layout. */
+  showCloseButton?: boolean
 }
 
 const AI_CHAT_URL = '/.netlify/functions/ai-chat'
@@ -20,7 +22,7 @@ function getToken(): string | null {
   return localStorage.getItem('gd_access_token')
 }
 
-export default function AiChatSidebar({ open, onClose, inline = false }: AiChatSidebarProps) {
+export default function AiChatSidebar({ open, onClose, inline = false, showCloseButton = true }: AiChatSidebarProps) {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 'welcome',
@@ -132,7 +134,7 @@ export default function AiChatSidebar({ open, onClose, inline = false }: AiChatS
     <aside
       className={
         inline
-          ? 'flex h-full w-[28rem] shrink-0 flex-col border-l border-gray-200 bg-white shadow-lg'
+          ? 'flex h-full min-h-[320px] w-full shrink-0 flex-col border-l border-gray-200 bg-white shadow-lg lg:min-h-0 lg:w-[28rem]'
           : `fixed inset-y-0 right-0 z-50 flex w-full max-w-md flex-col border-l border-gray-200 bg-white shadow-2xl transition-transform duration-300 ease-in-out ${
               open ? 'translate-x-0' : 'translate-x-full'
             }`
@@ -161,14 +163,16 @@ export default function AiChatSidebar({ open, onClose, inline = false }: AiChatS
                 <path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182" />
               </svg>
             </button>
-            <button
-              onClick={onClose}
-              className="rounded-lg p-2 text-white/70 hover:bg-white/10 hover:text-white"
-            >
-              <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
+            {showCloseButton && onClose && (
+              <button
+                onClick={onClose}
+                className="rounded-lg p-2 text-white/70 hover:bg-white/10 hover:text-white"
+              >
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            )}
           </div>
         </div>
 
@@ -250,13 +254,12 @@ export default function AiChatSidebar({ open, onClose, inline = false }: AiChatS
   )
 
   if (inline) {
-    if (!open) return null
     return content
   }
 
   return (
     <>
-      {open && (
+      {open && onClose && (
         <div className="fixed inset-0 z-40 bg-black/20 lg:hidden" onClick={onClose} />
       )}
       {content}

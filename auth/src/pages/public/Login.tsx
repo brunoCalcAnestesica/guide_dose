@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { useNavigate, Link } from 'react-router-dom'
 import { useAuth } from '../../auth/AuthProvider'
-import { Button } from '../../components/ui/Button'
 
 type Tab = 'login' | 'signup' | 'reset'
 
@@ -45,24 +44,32 @@ export default function Login() {
   ]
 
   return (
-    <div className="flex min-h-[calc(100vh-4rem)] items-center justify-center px-4 py-12">
+    <div className="min-h-[calc(100vh-4rem)] flex flex-col items-center justify-center px-4 py-12 bg-gradient-to-br from-guide-50 to-white">
       <div className="w-full max-w-md">
+        {/* Logo e título — alinhado à Home */}
         <div className="mb-8 text-center">
-          <Link to="/" className="inline-flex items-center gap-2">
+          <Link
+            to="/"
+            className="inline-flex items-center gap-2 rounded-lg transition hover:opacity-90"
+          >
             <img src="/logo.png" alt="GuideDose" className="h-10 w-10 rounded-lg" />
-            <span className="text-2xl font-bold text-brand-700">GuideDose</span>
+            <span className="text-2xl font-bold text-guide-700">Guide Dose ®</span>
           </Link>
           <p className="mt-2 text-sm text-gray-500">Acesse sua conta para continuar</p>
         </div>
 
-        <div className="rounded-xl border border-gray-200 bg-white p-8 shadow-sm">
-          <div className="mb-6 flex gap-1 rounded-lg bg-gray-100 p-1">
+        {/* Card do formulário */}
+        <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-lg">
+          <div className="mb-6 flex gap-1 rounded-xl bg-gray-100 p-1">
             {tabs.map(t => (
               <button
                 key={t.id}
+                type="button"
                 onClick={() => { setTab(t.id); setMessage(null) }}
-                className={`flex-1 rounded-md px-3 py-2 text-sm font-medium transition-colors ${
-                  tab === t.id ? 'bg-white text-brand-700 shadow-sm' : 'text-gray-500 hover:text-gray-700'
+                className={`flex-1 rounded-lg px-3 py-2.5 text-sm font-medium transition-colors ${
+                  tab === t.id
+                    ? 'bg-white text-guide-700 shadow-sm'
+                    : 'text-gray-500 hover:text-gray-700'
                 }`}
               >
                 {t.label}
@@ -71,46 +78,72 @@ export default function Login() {
           </div>
 
           {message && (
-            <div className={`mb-4 rounded-lg p-3 text-sm ${
-              message.type === 'error' ? 'bg-red-50 text-red-700' : 'bg-green-50 text-green-700'
-            }`}>
+            <div
+              className={`mb-4 rounded-xl p-3 text-sm ${
+                message.type === 'error'
+                  ? 'bg-red-50 text-red-700'
+                  : 'bg-green-50 text-green-700'
+              }`}
+            >
               {message.text}
             </div>
           )}
 
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700">E-mail</label>
+              <label htmlFor="login-email" className="block text-sm font-medium text-gray-700">
+                E-mail
+              </label>
               <input
+                id="login-email"
                 type="email"
                 required
                 value={email}
                 onChange={e => setEmail(e.target.value)}
-                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm shadow-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
+                className="mt-1 block w-full rounded-xl border border-gray-300 px-4 py-2.5 text-sm shadow-sm placeholder:text-gray-400 focus:border-guide-500 focus:outline-none focus:ring-2 focus:ring-guide-500/20"
                 placeholder="seu@email.com"
               />
             </div>
 
             {tab !== 'reset' && (
               <div>
-                <label className="block text-sm font-medium text-gray-700">Senha</label>
+                <label htmlFor="login-password" className="block text-sm font-medium text-gray-700">
+                  Senha
+                </label>
                 <input
+                  id="login-password"
                   type="password"
-                  required
+                  required={tab !== 'reset'}
                   minLength={6}
                   value={password}
                   onChange={e => setPassword(e.target.value)}
-                  className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm shadow-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
+                  className="mt-1 block w-full rounded-xl border border-gray-300 px-4 py-2.5 text-sm shadow-sm placeholder:text-gray-400 focus:border-guide-500 focus:outline-none focus:ring-2 focus:ring-guide-500/20"
                   placeholder="Mínimo 6 caracteres"
                 />
               </div>
             )}
 
-            <Button type="submit" className="w-full" disabled={loading}>
-              {loading ? 'Aguarde...' : tab === 'login' ? 'Entrar' : tab === 'signup' ? 'Criar conta' : 'Enviar link'}
-            </Button>
+            <button
+              type="submit"
+              disabled={loading}
+              className="mt-2 w-full rounded-xl bg-guide-600 px-4 py-3 text-sm font-semibold text-white shadow-lg transition hover:bg-guide-700 focus:outline-none focus:ring-2 focus:ring-guide-500 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60"
+            >
+              {loading
+                ? 'Aguarde...'
+                : tab === 'login'
+                  ? 'Entrar'
+                  : tab === 'signup'
+                    ? 'Criar conta'
+                    : 'Enviar link'}
+            </button>
           </form>
         </div>
+
+        <p className="mt-6 text-center text-sm text-gray-500">
+          <Link to="/" className="font-medium text-guide-600 hover:text-guide-700">
+            ← Voltar para a página inicial
+          </Link>
+        </p>
       </div>
     </div>
   )

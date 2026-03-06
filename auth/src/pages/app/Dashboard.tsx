@@ -12,6 +12,12 @@ function todayIso(): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
 }
 
+function endOfNextWeekIso(): string {
+  const d = new Date()
+  d.setDate(d.getDate() + 6)
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+}
+
 export default function Dashboard() {
   const { user } = useAuth()
   const [patients, setPatients] = useState<Patient[]>([])
@@ -25,7 +31,6 @@ export default function Dashboard() {
 
     Promise.all([
       apiQuery<Patient[]>('patients', {
-        user_id: `eq.${user.id}`,
         order: 'updated_at.desc',
         limit: '5',
         select: 'id,initials,bed,diagnosis,updated_at',
@@ -42,7 +47,6 @@ export default function Dashboard() {
         select: '*',
       }),
       apiQuery<Note[]>('notes', {
-        user_id: `eq.${user.id}`,
         order: 'updated_at.desc',
         limit: '3',
         select: 'id,title,content,updated_at',
@@ -78,7 +82,8 @@ export default function Dashboard() {
     )
   }
 
-  const upcomingShifts = shifts.slice(0, 8)
+  const nextWeekEnd = endOfNextWeekIso()
+  const upcomingShifts = shifts.filter(s => s.date >= todayIso() && s.date <= nextWeekEnd)
 
   return (
     <div className="space-y-6">
@@ -94,7 +99,7 @@ export default function Dashboard() {
         <Link to="/app/escala" className="block">
           <Card className="border-l-4 border-l-green-500 transition-shadow hover:shadow-md">
             <p className="text-sm font-medium text-gray-500">Próximos Plantões</p>
-            <p className="mt-1 text-3xl font-bold text-gray-900">{shifts.length}</p>
+            <p className="mt-1 text-3xl font-bold text-gray-900">{upcomingShifts.length}</p>
           </Card>
         </Link>
         <Link to="/app/anotacoes/notas" className="block">

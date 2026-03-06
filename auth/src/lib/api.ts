@@ -332,3 +332,71 @@ export async function apiArchivePatient(
   if (deleteErr) return { error: deleteErr }
   return { error: null }
 }
+
+export async function apiShareNote(
+  noteId: string,
+  sharedWithUserId: string,
+  ownerId: string,
+): Promise<{ error: string | null }> {
+  if (sharedWithUserId === ownerId) return { error: 'Não é possível compartilhar consigo mesmo.' }
+  const { error } = await apiInsert('note_shares', {
+    note_id: noteId,
+    owner_id: ownerId,
+    shared_with_user_id: sharedWithUserId,
+  })
+  return { error }
+}
+
+export async function apiSharePatient(
+  patientId: string,
+  sharedWithUserId: string,
+  ownerId: string,
+): Promise<{ error: string | null }> {
+  if (sharedWithUserId === ownerId) return { error: 'Não é possível compartilhar consigo mesmo.' }
+  const { error } = await apiInsert('patient_shares', {
+    patient_id: patientId,
+    owner_id: ownerId,
+    shared_with_user_id: sharedWithUserId,
+  })
+  return { error }
+}
+
+export async function apiUnshareNote(
+  noteId: string,
+  sharedWithUserId: string,
+): Promise<{ error: string | null }> {
+  const { error } = await apiDelete('note_shares', {
+    note_id: `eq.${noteId}`,
+    shared_with_user_id: `eq.${sharedWithUserId}`,
+  })
+  return { error }
+}
+
+export async function apiUnsharePatient(
+  patientId: string,
+  sharedWithUserId: string,
+): Promise<{ error: string | null }> {
+  const { error } = await apiDelete('patient_shares', {
+    patient_id: `eq.${patientId}`,
+    shared_with_user_id: `eq.${sharedWithUserId}`,
+  })
+  return { error }
+}
+
+export async function apiListNoteShares(noteId: string): Promise<{ data: string[] | null; error: string | null }> {
+  const { data, error } = await apiQuery<{ shared_with_user_id: string }[]>('note_shares', {
+    note_id: `eq.${noteId}`,
+    select: 'shared_with_user_id',
+  })
+  if (error) return { data: null, error }
+  return { data: (data ?? []).map(r => r.shared_with_user_id), error: null }
+}
+
+export async function apiListPatientShares(patientId: string): Promise<{ data: string[] | null; error: string | null }> {
+  const { data, error } = await apiQuery<{ shared_with_user_id: string }[]>('patient_shares', {
+    patient_id: `eq.${patientId}`,
+    select: 'shared_with_user_id',
+  })
+  if (error) return { data: null, error }
+  return { data: (data ?? []).map(r => r.shared_with_user_id), error: null }
+}
