@@ -1,17 +1,18 @@
 import { useState, useEffect, useCallback } from 'react'
 import { Card } from '../../components/ui/Card'
 import { Button } from '../../components/ui/Button'
-import { Modal } from '../../components/ui/Modal'
 import { Badge } from '../../components/ui/Badge'
 import { useAuth } from '../../auth/AuthProvider'
 import { apiQuery, apiInsert, apiUpdate, apiArchivePatient } from '../../lib/api'
 import type { Patient } from '../../types'
 
+const inputClass = 'mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500'
+
 export default function PatientNotes() {
   const { user } = useAuth()
   const [patients, setPatients] = useState<Patient[]>([])
   const [loading, setLoading] = useState(true)
-  const [modalOpen, setModalOpen] = useState(false)
+  const [view, setView] = useState<'list' | 'form'>('list')
   const [editing, setEditing] = useState<Patient | null>(null)
   const [saving, setSaving] = useState(false)
   const [form, setForm] = useState({
@@ -51,7 +52,7 @@ export default function PatientNotes() {
   const openNew = () => {
     setEditing(null)
     resetForm()
-    setModalOpen(true)
+    setView('form')
   }
 
   const openEdit = (p: Patient) => {
@@ -69,7 +70,7 @@ export default function PatientNotes() {
       pending: p.pending,
       observations: p.observations,
     })
-    setModalOpen(true)
+    setView('form')
   }
 
   const handleSave = async () => {
@@ -105,7 +106,7 @@ export default function PatientNotes() {
     }
 
     setSaving(false)
-    setModalOpen(false)
+    setView('list')
     fetchPatients()
   }
 
@@ -116,7 +117,88 @@ export default function PatientNotes() {
   }
 
   if (loading) {
-    return <p className="text-sm text-gray-500">Carregando pacientes...</p>
+    return (
+      <div className="flex items-center justify-center py-20">
+        <div className="h-8 w-8 animate-spin rounded-full border-4 border-brand-200 border-t-brand-600" />
+      </div>
+    )
+  }
+
+  if (view === 'form') {
+    return (
+      <div className="space-y-6">
+        <div className="flex items-center gap-4">
+          <button onClick={() => setView('list')} className="text-sm text-brand-600 hover:underline">&larr; Voltar</button>
+          <h1 className="text-2xl font-bold text-gray-900">{editing ? 'Editar Paciente' : 'Novo Paciente'}</h1>
+        </div>
+
+        <Card>
+          <form onSubmit={e => { e.preventDefault(); handleSave() }} className="space-y-5">
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+              <div>
+                <label className="block text-sm font-medium text-gray-700">Iniciais</label>
+                <input required value={form.initials} onChange={e => setForm(p => ({ ...p, initials: e.target.value }))} className={inputClass} />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700">Idade</label>
+                <input type="number" value={form.age} onChange={e => setForm(p => ({ ...p, age: e.target.value }))} className={inputClass} />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700">Leito</label>
+                <input value={form.bed} onChange={e => setForm(p => ({ ...p, bed: e.target.value }))} className={inputClass} />
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Diagnóstico</label>
+              <textarea rows={3} value={form.diagnosis} onChange={e => setForm(p => ({ ...p, diagnosis: e.target.value }))} className={inputClass} />
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-gray-700">História</label>
+              <textarea rows={3} value={form.history} onChange={e => setForm(p => ({ ...p, history: e.target.value }))} className={inputClass} />
+            </div>
+
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div>
+                <label className="block text-sm font-medium text-gray-700">Dispositivos</label>
+                <textarea rows={3} value={form.devices} onChange={e => setForm(p => ({ ...p, devices: e.target.value }))} className={inputClass} />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700">Antibióticos</label>
+                <textarea rows={3} value={form.antibiotics} onChange={e => setForm(p => ({ ...p, antibiotics: e.target.value }))} className={inputClass} />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div>
+                <label className="block text-sm font-medium text-gray-700">Drogas Vasoativas</label>
+                <textarea rows={3} value={form.vasoactive_drugs} onChange={e => setForm(p => ({ ...p, vasoactive_drugs: e.target.value }))} className={inputClass} />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700">Exames</label>
+                <textarea rows={3} value={form.exams} onChange={e => setForm(p => ({ ...p, exams: e.target.value }))} className={inputClass} />
+              </div>
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Pendências</label>
+              <textarea rows={3} value={form.pending} onChange={e => setForm(p => ({ ...p, pending: e.target.value }))} className={inputClass} />
+            </div>
+
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Observações</label>
+              <textarea rows={3} value={form.observations} onChange={e => setForm(p => ({ ...p, observations: e.target.value }))} className={inputClass} />
+            </div>
+
+            <div className="flex justify-end gap-3 border-t border-gray-200 pt-4">
+              <Button type="button" variant="secondary" onClick={() => setView('list')}>Cancelar</Button>
+              <Button type="submit" disabled={saving}>{saving ? 'Salvando...' : editing ? 'Salvar' : 'Criar'}</Button>
+            </div>
+          </form>
+        </Card>
+      </div>
+    )
   }
 
   return (
@@ -159,76 +241,6 @@ export default function PatientNotes() {
           ))}
         </div>
       )}
-
-      <Modal open={modalOpen} onClose={() => setModalOpen(false)} title={editing ? 'Editar Paciente' : 'Novo Paciente'}>
-        <form onSubmit={e => { e.preventDefault(); handleSave() }} className="space-y-4 max-h-[70vh] overflow-y-auto pr-2">
-          <div className="grid grid-cols-3 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Iniciais</label>
-              <input required value={form.initials} onChange={e => setForm(p => ({ ...p, initials: e.target.value }))}
-                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Idade</label>
-              <input type="number" value={form.age} onChange={e => setForm(p => ({ ...p, age: e.target.value }))}
-                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Leito</label>
-              <input value={form.bed} onChange={e => setForm(p => ({ ...p, bed: e.target.value }))}
-                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-            </div>
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Diagnóstico</label>
-            <textarea rows={2} value={form.diagnosis} onChange={e => setForm(p => ({ ...p, diagnosis: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">História</label>
-            <textarea rows={2} value={form.history} onChange={e => setForm(p => ({ ...p, history: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Dispositivos</label>
-              <textarea rows={2} value={form.devices} onChange={e => setForm(p => ({ ...p, devices: e.target.value }))}
-                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Antibióticos</label>
-              <textarea rows={2} value={form.antibiotics} onChange={e => setForm(p => ({ ...p, antibiotics: e.target.value }))}
-                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-            </div>
-          </div>
-          <div className="grid grid-cols-2 gap-4">
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Drogas Vasoativas</label>
-              <textarea rows={2} value={form.vasoactive_drugs} onChange={e => setForm(p => ({ ...p, vasoactive_drugs: e.target.value }))}
-                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-            </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700">Exames</label>
-              <textarea rows={2} value={form.exams} onChange={e => setForm(p => ({ ...p, exams: e.target.value }))}
-                className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-            </div>
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Pendências</label>
-            <textarea rows={2} value={form.pending} onChange={e => setForm(p => ({ ...p, pending: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Observações</label>
-            <textarea rows={2} value={form.observations} onChange={e => setForm(p => ({ ...p, observations: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500" />
-          </div>
-          <div className="flex justify-end gap-2">
-            <Button type="button" variant="secondary" onClick={() => setModalOpen(false)}>Cancelar</Button>
-            <Button type="submit" disabled={saving}>{saving ? 'Salvando...' : editing ? 'Salvar' : 'Criar'}</Button>
-          </div>
-        </form>
-      </Modal>
     </div>
   )
 }

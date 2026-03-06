@@ -1,16 +1,17 @@
 import { useState, useEffect, useCallback } from 'react'
 import { Card } from '../../components/ui/Card'
 import { Button } from '../../components/ui/Button'
-import { Modal } from '../../components/ui/Modal'
 import { useAuth } from '../../auth/AuthProvider'
 import { apiQuery, apiInsert, apiUpdate, apiDelete, apiArchiveNote } from '../../lib/api'
 import type { Note } from '../../types'
+
+const inputClass = 'mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500'
 
 export default function GeneralNotes() {
   const { user } = useAuth()
   const [notes, setNotes] = useState<Note[]>([])
   const [loading, setLoading] = useState(true)
-  const [modalOpen, setModalOpen] = useState(false)
+  const [view, setView] = useState<'list' | 'form'>('list')
   const [editing, setEditing] = useState<Note | null>(null)
   const [form, setForm] = useState({ title: '', content: '' })
   const [saving, setSaving] = useState(false)
@@ -32,13 +33,13 @@ export default function GeneralNotes() {
   const openNew = () => {
     setEditing(null)
     setForm({ title: '', content: '' })
-    setModalOpen(true)
+    setView('form')
   }
 
   const openEdit = (note: Note) => {
     setEditing(note)
     setForm({ title: note.title, content: note.content })
-    setModalOpen(true)
+    setView('form')
   }
 
   const handleSave = async () => {
@@ -64,7 +65,7 @@ export default function GeneralNotes() {
     }
 
     setSaving(false)
-    setModalOpen(false)
+    setView('list')
     fetchNotes()
   }
 
@@ -81,7 +82,50 @@ export default function GeneralNotes() {
   }
 
   if (loading) {
-    return <p className="text-sm text-gray-500">Carregando notas...</p>
+    return (
+      <div className="flex items-center justify-center py-20">
+        <div className="h-8 w-8 animate-spin rounded-full border-4 border-brand-200 border-t-brand-600" />
+      </div>
+    )
+  }
+
+  if (view === 'form') {
+    return (
+      <div className="space-y-6">
+        <div className="flex items-center gap-4">
+          <button onClick={() => setView('list')} className="text-sm text-brand-600 hover:underline">&larr; Voltar</button>
+          <h1 className="text-2xl font-bold text-gray-900">{editing ? 'Editar Nota' : 'Nova Nota'}</h1>
+        </div>
+
+        <Card>
+          <form onSubmit={e => { e.preventDefault(); handleSave() }} className="space-y-5">
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Título</label>
+              <input
+                required
+                value={form.title}
+                onChange={e => setForm(p => ({ ...p, title: e.target.value }))}
+                className={inputClass}
+              />
+            </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700">Conteúdo</label>
+              <textarea
+                required
+                rows={12}
+                value={form.content}
+                onChange={e => setForm(p => ({ ...p, content: e.target.value }))}
+                className={inputClass}
+              />
+            </div>
+            <div className="flex justify-end gap-3 border-t border-gray-200 pt-4">
+              <Button type="button" variant="secondary" onClick={() => setView('list')}>Cancelar</Button>
+              <Button type="submit" disabled={saving}>{saving ? 'Salvando...' : editing ? 'Salvar' : 'Criar'}</Button>
+            </div>
+          </form>
+        </Card>
+      </div>
+    )
   }
 
   return (
@@ -111,34 +155,6 @@ export default function GeneralNotes() {
           ))}
         </div>
       )}
-
-      <Modal open={modalOpen} onClose={() => setModalOpen(false)} title={editing ? 'Editar Nota' : 'Nova Nota'}>
-        <form onSubmit={e => { e.preventDefault(); handleSave() }} className="space-y-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Título</label>
-            <input
-              required
-              value={form.title}
-              onChange={e => setForm(p => ({ ...p, title: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
-            />
-          </div>
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Conteúdo</label>
-            <textarea
-              required
-              rows={6}
-              value={form.content}
-              onChange={e => setForm(p => ({ ...p, content: e.target.value }))}
-              className="mt-1 block w-full rounded-lg border border-gray-300 px-3 py-2 text-sm focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500"
-            />
-          </div>
-          <div className="flex justify-end gap-2">
-            <Button type="button" variant="secondary" onClick={() => setModalOpen(false)}>Cancelar</Button>
-            <Button type="submit" disabled={saving}>{saving ? 'Salvando...' : editing ? 'Salvar' : 'Criar'}</Button>
-          </div>
-        </form>
-      </Modal>
     </div>
   )
 }
