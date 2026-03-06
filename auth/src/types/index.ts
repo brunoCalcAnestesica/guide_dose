@@ -51,6 +51,36 @@ export interface ProcedureType {
   updated_at: string
 }
 
+export interface RecurrenceRuleData {
+  type: string // none, daily, weekly, monthly, monthlyWeekday, yearly, weekdays, custom
+  interval: number
+  daysOfWeek: number[] // 1=seg .. 7=dom
+  endType: string // never, date, count
+  endDate?: string | null
+  endCount?: number | null
+  weekOfMonth?: number | null
+}
+
+export interface RecurrenceDefinition {
+  id: string
+  user_id: string
+  hospital_name: string
+  start_date: string
+  start_time: string
+  end_time: string
+  duration_hours: number
+  value: number
+  type: string
+  informations?: string | null
+  is_all_day: boolean
+  recurrence_rule: RecurrenceRuleData
+  end_date?: string | null
+  excluded_dates: string[]
+  paid_dates: string[]
+  created_at: string
+  updated_at: string
+}
+
 export interface BlockedDay {
   id: string
   user_id: string
@@ -65,10 +95,12 @@ export interface Note {
   user_id: string
   title: string
   content: string
-  archived_at?: string | null
-  is_archived: boolean
   created_at: string
   updated_at: string
+}
+
+export interface NoteArchive extends Note {
+  archived_at: string
 }
 
 export interface Patient {
@@ -87,10 +119,12 @@ export interface Patient {
   exams: string
   pending: string
   observations: string
-  archived_at?: string | null
-  is_archived: boolean
   created_at: string
   updated_at: string
+}
+
+export interface PatientArchive extends Patient {
+  archived_at: string
 }
 
 export interface MedList {

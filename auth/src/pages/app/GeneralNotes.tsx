@@ -3,7 +3,7 @@ import { Card } from '../../components/ui/Card'
 import { Button } from '../../components/ui/Button'
 import { Modal } from '../../components/ui/Modal'
 import { useAuth } from '../../auth/AuthProvider'
-import { apiQuery, apiInsert, apiUpdate, apiDelete } from '../../lib/api'
+import { apiQuery, apiInsert, apiUpdate, apiDelete, apiArchiveNote } from '../../lib/api'
 import type { Note } from '../../types'
 
 export default function GeneralNotes() {
@@ -20,7 +20,6 @@ export default function GeneralNotes() {
     setLoading(true)
     const { data } = await apiQuery<Note[]>('notes', {
       user_id: `eq.${user.id}`,
-      archived_at: 'is.null',
       order: 'updated_at.desc',
       select: '*',
     })
@@ -69,8 +68,14 @@ export default function GeneralNotes() {
     fetchNotes()
   }
 
+  const handleArchive = async (note: Note) => {
+    if (!confirm('Arquivar esta nota?')) return
+    await apiArchiveNote(note)
+    fetchNotes()
+  }
+
   const handleDelete = async (id: string) => {
-    if (!confirm('Excluir esta nota?')) return
+    if (!confirm('Excluir esta nota permanentemente?')) return
     await apiDelete('notes', { id: `eq.${id}` })
     fetchNotes()
   }
@@ -99,7 +104,8 @@ export default function GeneralNotes() {
               <p className="mt-2 flex-1 text-sm text-gray-600 line-clamp-3">{note.content}</p>
               <div className="mt-4 flex gap-2">
                 <Button size="sm" variant="secondary" onClick={() => openEdit(note)}>Editar</Button>
-                <Button size="sm" variant="danger" onClick={() => handleDelete(note.id)}>Excluir</Button>
+                <Button size="sm" variant="danger" onClick={() => handleArchive(note)}>Arquivar</Button>
+                <Button size="sm" variant="danger" onClick={() => handleDelete(note.id)} className="!bg-red-700 hover:!bg-red-800">Excluir</Button>
               </div>
             </Card>
           ))}

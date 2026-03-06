@@ -175,15 +175,6 @@ export async function apiUpdatePassword(newPassword: string): Promise<AuthResult
   }
 }
 
-function normalizeArchivedAt<T>(table: string, data: T): T {
-  const tables = ['patients', 'notes']
-  if (!tables.includes(table) || !Array.isArray(data)) return data
-  return data.map((row: Record<string, unknown>) => ({
-    ...row,
-    is_archived: row.archived_at != null,
-  })) as T
-}
-
 export async function apiQuery<T = unknown>(
   table: string,
   params?: Record<string, string>,
@@ -196,7 +187,7 @@ export async function apiQuery<T = unknown>(
     })
     const data = await res.json()
     if (!res.ok) return { data: null, error: data.error || 'Erro na consulta.' }
-    return { data: normalizeArchivedAt(table, data as T), error: null }
+    return { data: data as T, error: null }
   } catch {
     return { data: null, error: 'Erro de conexao.' }
   }
@@ -272,7 +263,7 @@ export async function adminQuery<T = unknown>(
     })
     const data = await res.json()
     if (!res.ok) return { data: null, error: data.error || 'Erro na consulta admin.' }
-    return { data: normalizeArchivedAt(table, data as T), error: null }
+    return { data: data as T, error: null }
   } catch {
     return { data: null, error: 'Erro de conexao.' }
   }
@@ -307,4 +298,37 @@ export async function apiSendPush(
   } catch {
     return { data: null, error: 'Erro de conexao.' }
   }
+}
+
+export async function apiArchiveNote(
+  note: { id: string; user_id: string; title: string; content: string; created_at: string; updated_at: string },
+): Promise<{ error: string | null }> {
+  const archivePayload = {
+    ...note,
+    archived_at: new Date().toISOString(),
+  }
+  const { error: insertErr } = await apiInsert('notes_archive', archivePayload)
+  if (insertErr) return { error: insertErr }
+  const { error: deleteErr } = await apiDelete('notes', { id: `eq.${note.id}` })
+  if (deleteErr) return { error: deleteErr }
+  return { error: null }
+}
+
+export async function apiArchivePatient(
+  patient: {
+    id: string; user_id: string; initials: string; age?: number | null; age_unit: string;
+    admission_date?: string | null; bed: string; history: string; devices: string;
+    diagnosis: string; antibiotics: string; vasoactive_drugs: string; exams: string;
+    pending: string; observations: string; created_at: string; updated_at: string;
+  },
+): Promise<{ error: string | null }> {
+  const archivePayload = {
+    ...patient,
+    archived_at: new Date().toISOString(),
+  }
+  const { error: insertErr } = await apiInsert('patients_archive', archivePayload)
+  if (insertErr) return { error: insertErr }
+  const { error: deleteErr } = await apiDelete('patients', { id: `eq.${patient.id}` })
+  if (deleteErr) return { error: deleteErr }
+  return { error: null }
 }

@@ -1,0 +1,11 @@
+---
+description: Proíbe qualquer edição direta no banco de dados do Supabase
+alwaysApply: true
+---
+
+# Nunca editar o banco de dados do Supabase
+
+- **NUNCA** execute comandos que alterem o schema ou os dados do banco de dados Supabase (CREATE, ALTER, DROP, INSERT, UPDATE, DELETE, etc.)
+- **NUNCA** use ferramentas MCP do Supabase para modificar tabelas, colunas, policies, triggers ou qualquer outro objeto do banco
+- **NUNCA** execute migrations diretamente no banco de dados
+- Alterações no banco devem ser feitas manualmente pelo desenvolvedor no painel do Supabase ou via processo controlado de migrations

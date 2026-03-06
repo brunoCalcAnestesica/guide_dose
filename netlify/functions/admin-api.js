@@ -78,10 +78,13 @@ const allowedTables = [
   "procedure_types",
   "blocked_days",
   "notes",
+  "notes_archive",
   "patients",
+  "patients_archive",
   "med_lists",
   "app_config",
   "feedback",
+  "recurrence_rules",
 ];
 
 exports.handler = async (event) => {

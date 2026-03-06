@@ -61,13 +61,16 @@ exports.handler = async (event) => {
       "procedure_types",
       "blocked_days",
       "notes",
+      "notes_archive",
       "patients",
+      "patients_archive",
       "med_lists",
       "app_config",
       "feedback",
       "push_notifications",
       "push_schedules",
       "notification_preferences",
+      "recurrence_rules",
     ];
 
     if (!allowedTables.includes(table)) {

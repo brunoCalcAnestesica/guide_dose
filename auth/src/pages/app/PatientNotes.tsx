@@ -4,7 +4,7 @@ import { Button } from '../../components/ui/Button'
 import { Modal } from '../../components/ui/Modal'
 import { Badge } from '../../components/ui/Badge'
 import { useAuth } from '../../auth/AuthProvider'
-import { apiQuery, apiInsert, apiUpdate, apiDelete } from '../../lib/api'
+import { apiQuery, apiInsert, apiUpdate, apiArchivePatient } from '../../lib/api'
 import type { Patient } from '../../types'
 
 export default function PatientNotes() {
@@ -33,7 +33,6 @@ export default function PatientNotes() {
     setLoading(true)
     const { data } = await apiQuery<Patient[]>('patients', {
       user_id: `eq.${user.id}`,
-      archived_at: 'is.null',
       order: 'updated_at.desc',
       select: '*',
     })
@@ -110,9 +109,9 @@ export default function PatientNotes() {
     fetchPatients()
   }
 
-  const handleArchive = async (id: string) => {
+  const handleArchive = async (patient: Patient) => {
     if (!confirm('Arquivar este paciente?')) return
-    await apiUpdate('patients', { id: `eq.${id}` }, { archived_at: new Date().toISOString(), updated_at: new Date().toISOString() })
+    await apiArchivePatient(patient)
     fetchPatients()
   }
 
@@ -154,7 +153,7 @@ export default function PatientNotes() {
               <p className="mt-1 flex-1 text-xs text-gray-400 line-clamp-2">{p.observations}</p>
               <div className="mt-4 flex gap-2">
                 <Button size="sm" variant="secondary" onClick={() => openEdit(p)}>Editar</Button>
-                <Button size="sm" variant="danger" onClick={() => handleArchive(p.id)}>Arquivar</Button>
+                <Button size="sm" variant="danger" onClick={() => handleArchive(p)}>Arquivar</Button>
               </div>
             </Card>
           ))}
