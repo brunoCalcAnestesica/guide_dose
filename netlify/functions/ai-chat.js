@@ -478,6 +478,7 @@ exports.handler = async (event) => {
     let lastContent = null;
     let maxRounds = 5;
     let round = 0;
+    const refreshedEntities = new Set();
 
     while (round < maxRounds) {
       round++;
@@ -533,6 +534,12 @@ exports.handler = async (event) => {
           args = JSON.parse(fn.arguments || "{}");
         } catch (_) {}
         const result = await runTool(name, args, token, userId);
+        if (["create_patient", "update_patient", "delete_patient", "archive_patient", "restore_patient"].includes(name)) {
+          refreshedEntities.add("patients");
+        }
+        if (["create_note", "update_note", "delete_note", "archive_note", "restore_note"].includes(name)) {
+          refreshedEntities.add("notes");
+        }
         messages.push({
           role: "tool",
           tool_call_id: tc.id,
@@ -542,7 +549,11 @@ exports.handler = async (event) => {
     }
 
     const reply = lastContent || "Operação concluída. Atualize a página para ver as alterações.";
-    return jsonResponse(200, { reply });
+    const payload = { reply };
+    if (refreshedEntities.size > 0) {
+      payload.refreshed = Array.from(refreshedEntities);
+    }
+    return jsonResponse(200, payload);
   } catch (error) {
     console.error("ai-chat error:", error);
     return jsonResponse(500, { error: error.message || "Erro interno." });

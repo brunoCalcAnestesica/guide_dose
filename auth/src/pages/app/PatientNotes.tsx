@@ -43,6 +43,14 @@ export default function PatientNotes() {
 
   useEffect(() => { fetchPatients() }, [fetchPatients])
 
+  useEffect(() => {
+    const handler = (e: CustomEvent<{ patients?: boolean; notes?: boolean }>) => {
+      if (e.detail?.patients) fetchPatients()
+    }
+    window.addEventListener('gd-refresh-annotations', handler as EventListener)
+    return () => window.removeEventListener('gd-refresh-annotations', handler as EventListener)
+  }, [fetchPatients])
+
   const resetForm = () => setForm({
     initials: '', age: '', bed: '', diagnosis: '', history: '',
     devices: '', antibiotics: '', vasoactive_drugs: '', exams: '',

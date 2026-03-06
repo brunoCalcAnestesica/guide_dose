@@ -30,6 +30,14 @@ export default function GeneralNotes() {
 
   useEffect(() => { fetchNotes() }, [fetchNotes])
 
+  useEffect(() => {
+    const handler = (e: CustomEvent<{ patients?: boolean; notes?: boolean }>) => {
+      if (e.detail?.notes) fetchNotes()
+    }
+    window.addEventListener('gd-refresh-annotations', handler as EventListener)
+    return () => window.removeEventListener('gd-refresh-annotations', handler as EventListener)
+  }, [fetchNotes])
+
   const openNew = () => {
     setEditing(null)
     setForm({ title: '', content: '' })
@@ -140,20 +148,30 @@ export default function GeneralNotes() {
           <p className="py-8 text-center text-sm text-gray-400">Nenhuma nota encontrada. Crie uma nova!</p>
         </Card>
       ) : (
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {notes.map(note => (
-            <Card key={note.id} className="flex flex-col">
-              <h3 className="font-semibold text-gray-900">{note.title}</h3>
-              <time className="text-xs text-gray-400">{new Date(note.updated_at).toLocaleDateString('pt-BR')}</time>
-              <p className="mt-2 flex-1 text-sm text-gray-600 line-clamp-3">{note.content}</p>
-              <div className="mt-4 flex gap-2">
-                <Button size="sm" variant="secondary" onClick={() => openEdit(note)}>Editar</Button>
-                <Button size="sm" variant="danger" onClick={() => handleArchive(note)}>Arquivar</Button>
-                <Button size="sm" variant="danger" onClick={() => handleDelete(note.id)} className="!bg-red-700 hover:!bg-red-800">Excluir</Button>
-              </div>
-            </Card>
-          ))}
-        </div>
+        <Card className="overflow-hidden p-0">
+          <ul className="divide-y divide-gray-200">
+            {notes.map(note => (
+              <li key={note.id} className="flex flex-col gap-3 p-4 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
+                <div className="min-w-0 flex-1 space-y-1">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="font-semibold text-gray-900">{note.title}</span>
+                    <time className="text-sm text-gray-500">
+                      {new Date(note.updated_at).toLocaleDateString('pt-BR')}
+                    </time>
+                  </div>
+                  {note.content && (
+                    <p className="text-sm text-gray-600 line-clamp-2">{note.content}</p>
+                  )}
+                </div>
+                <div className="flex shrink-0 gap-2">
+                  <Button size="sm" variant="secondary" onClick={() => openEdit(note)}>Editar</Button>
+                  <Button size="sm" variant="danger" onClick={() => handleArchive(note)}>Arquivar</Button>
+                  <Button size="sm" variant="danger" onClick={() => handleDelete(note.id)} className="!bg-red-700 hover:!bg-red-800">Excluir</Button>
+                </div>
+              </li>
+            ))}
+          </ul>
+        </Card>
       )}
     </div>
   )

@@ -85,6 +85,15 @@ export default function AiChatSidebar({ open, onClose, inline = false }: AiChatS
         timestamp: new Date(),
       }
       setMessages(prev => [...prev, aiMsg])
+
+      if (data.refreshed?.length && !data.error) {
+        window.dispatchEvent(new CustomEvent('gd-refresh-annotations', {
+          detail: {
+            patients: data.refreshed.includes('patients'),
+            notes: data.refreshed.includes('notes'),
+          },
+        }))
+      }
     } catch {
       setMessages(prev => [
         ...prev,
